@@ -44,6 +44,13 @@ Then:
    - On the command line: `xdelta3 -d -s "Wrestle Angels Survivor 2 (Japan).iso" "patch.xdelta" "patched.iso"`
 2. Open the patched image in your emulator. Tested in PCSX2.
 
+### Emulation notes
+
+PCSX2 shows some visual glitches early in the game. Switching to the software renderer
+(Settings → Graphics → Renderer: *Software*) fixes most of them, but the intro screens then look
+half cut off. This isn't caused by the patch: the original Japanese game runs the same way in
+PCSX2.
+
 ## Notes for players
 
 - **Names.** Full names are in Western order (given name first). Honorifics are dropped, except
@@ -53,6 +60,8 @@ Then:
   after some numbers (名, 日目), the kanji grid on the name-entry screen, and the voices.
 - **Saves.** Saves from the original Japanese game work with the patch.
 - **Hidden content.** See [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md).
+- **Event timeline.** The [interactive timeline](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/timeline/) shows what can happen each month
+  and what unlocks it.
 
 ## Reporting problems
 
@@ -80,7 +89,7 @@ the game's formats.
 | [docs/PLATFORM.md](docs/PLATFORM.md) | PS2 pitfalls for this kind of work |
 | [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md) | Unlockables, debug features, and unused and cut content |
 | [docs/MANAGEMENT.md](docs/MANAGEMENT.md) | How management mode works: money, shows, recruitment, training, events |
-| [docs/timeline/](docs/timeline/) | Interactive event timeline: what can happen each month and what unlocks it (view on the GitHub Pages site) |
+| [Event timeline](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/timeline/) | Interactive event timeline: what can happen each month and what unlocks it (source: [docs/timeline/](docs/timeline/)) |
 | [tools/README.md](tools/README.md) | Every tool, what it's for and how to run it |
 
 Quick start:
