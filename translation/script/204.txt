@@ -1,0 +1,101 @@
+# /SCR/204.BIN - ゴールドフェンリル
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 204` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ゴールドフェンリル
+JP 百獣の王こそ、フェンリル！
+EN The king of beasts is Fenrir!
+
+@ 1.16
+# scene 119 入場1
+# ゴールドフェンリル
+JP おまえを獣の力で潰してやる！
+EN I'll crush you with the power of the beast!
+
+@ 2.16
+# scene 119 入場2
+# ゴールドフェンリル
+JP 今日の獲物が来たな…。
+EN So today's prey has arrived...
+
+@ 3.16
+# scene 120 タッグマッチ ベスト
+# ゴールドフェンリル
+JP 連携して狩るぞ！
+EN We hunt together!
+
+@ 4.16
+# scene 125 必殺技１
+# ゴールドフェンリル
+JP 砕けろーッ！
+EN Shatter!
+
+@ 5.16
+# scene 125 必殺技２
+# ゴールドフェンリル
+JP 獣の恐ろしさを
+JP その体に刻むがいい！
+EN Let the terror of the beast be carved into your
+EN body!
+
+@ 6.16
+# scene 125 必殺技３
+# ゴールドフェンリル
+JP その体、骨ごと喰らい尽くす！
+EN I'll devour you, bones and all!
+
+@ 7.12
+# scene 126 勝利1
+# ゴールドフェンリル
+JP 獣の暴走は止められない！
+EN No one can stop the beast's rampage!
+
+@ 8.12
+# scene 126 勝利2
+# ゴールドフェンリル
+JP もっと骨がきしむ音を
+JP 聞かせてくれ！
+EN Let me hear more of your bones creaking!
+
+@ 9.12
+# scene 126 勝利3
+# ゴールドフェンリル
+JP 野性の怖さ、思い知ったか？
+EN Now do you know the terror of the wild?
+
+@ 10.15
+# scene 133 表彰1
+# ゴールドフェンリル
+JP 獣の本性を解放した
+JP 結果に過ぎないな。
+EN This is simply what happens when the beast within is
+EN unleashed.
+
+@ 11.15
+# scene 133 表彰2
+# ゴールドフェンリル
+JP フェンリルという名を
+JP 心に刻み込むがいい！
+EN Carve the name Fenrir into your heart!
+
+@ 12.12
+# scene 134 優勝1
+# ゴールドフェンリル
+JP 頂に着いたらやることは一つ！
+JP アオーン！
+EN At the summit there's only one thing to do! Awooooo!
+
+@ 13.12
+# scene 134 優勝２
+# ゴールドフェンリル
+JP 獣の本当の強さがわかったか？
+EN Now do you understand the true strength of the
+EN beast?

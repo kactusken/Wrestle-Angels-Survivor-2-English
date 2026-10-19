@@ -1,0 +1,110 @@
+{
+ "english": "New Game | New Game | New Game",
+ "boxes": [
+  [
+   2,
+   1,
+   176,
+   33
+  ],
+  [
+   6,
+   39,
+   168,
+   27
+  ],
+  [
+   6,
+   74,
+   168,
+   27
+  ]
+ ],
+ "draw": "system.draw",
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "cap": 19,
+ "margin": 2,
+ "dy": -1,
+ "shadow": {
+  "dx": 2,
+  "dy": 2,
+  "blur": 2,
+  "rgb": [
+   0,
+   0,
+   0
+  ],
+  "a": 90
+ },
+ "groups": [
+  {
+   "labels": [
+    0
+   ],
+   "fill": [
+    253,
+    253,
+    253
+   ],
+   "ground": "transparent"
+  },
+  {
+   "labels": [
+    1
+   ],
+   "fill": [
+    232,
+    233,
+    141
+   ],
+   "ground": "interpolate",
+   "repaint": [
+    {
+     "rect": [
+      1,
+      36,
+      178,
+      33
+     ],
+     "index": "auto",
+     "keep": [
+      0,
+      152,
+      179,
+      180
+     ]
+    }
+   ]
+  },
+  {
+   "labels": [
+    2
+   ],
+   "fill": [
+    51,
+    228,
+    228
+   ],
+   "ground": "interpolate",
+   "repaint": [
+    {
+     "rect": [
+      1,
+      71,
+      178,
+      33
+     ],
+     "index": "auto",
+     "keep": [
+      0,
+      152,
+      179,
+      180
+     ]
+    }
+   ]
+  }
+ ],
+ "same_size": true,
+ "notes": "title menu item in its three colour states (white, yellow, cyan on the panel); same size in SYSTITLE_1-3; soft drop shadow (tools/letter_ext/system.py)"
+}

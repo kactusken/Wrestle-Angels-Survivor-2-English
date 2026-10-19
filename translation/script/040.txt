@@ -1,0 +1,2540 @@
+# /SCR/040.BIN - 大空　みぎり
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 040` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 大空 みぎり
+JP 大空です～。
+JP よろしくお願いしま～す。
+EN I'm Ozora. Nice to meet you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 大空 みぎり
+JP うふふふふ。
+JP ありがとうございます～。
+EN Ufufufufu. Thank you very much.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 大空 みぎり
+JP あら…。
+JP 残念……。
+EN Oh my... What a shame......
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （このあたりに一目でわかる逸材が
+JP 　いるらしいのだが）
+EN (Supposedly there's a talent around here you can
+EN spot at a glance...)
+
+@ 3.25
+# 社 長
+JP いた。
+JP 彼女だ…。
+EN There she is. That's her...
+
+@ 3.27
+# 社 長
+JP （たしかに一目でわかる）
+EN (She really is easy to spot.)
+
+@ 3.29
+# 社 長
+JP （でかい…。
+JP 　なんてでかさだ！
+JP 　あれが、１９０センチの少女…）
+EN (She's huge... Absolutely huge! So that's the
+EN 190-centimeter girl...)
+
+@ 3.31
+# 社 長
+JP （彼女のまわりだけ
+JP 　縮尺がおかしく感じる）
+EN (It's like the scale is off just around her.)
+
+@ 3.33
+# 社 長
+JP あ…あの、すみません。
+EN Ah... Um, excuse me.
+
+@ 3.43
+# 大空 みぎり
+JP はい、なんですか？
+EN Yes, what is it?
+
+@ 3.46
+# 社 長
+JP 突然ですみません。
+JP 私、プロレス団体を
+JP 経営している者なんですが。
+EN Sorry to bother you out of the blue. I run a
+EN pro-wrestling promotion.
+
+@ 3.53
+# 大空 みぎり
+JP まあ…プロレスですかぁ。
+JP そのプロレスの方が私に何か？
+EN Oh my... pro wrestling? And what would a
+EN pro-wrestling person want with me?
+
+@ 3.56
+# 社 長
+JP 実はあなたをスカウトに来たのですが
+JP …どうでしょう。
+EN Actually, I came to scout you... What do you think?
+
+@ 3.58
+# 社 長
+JP その体
+JP リングで生かしてみませんか？
+EN Why not put that body to use in the ring?
+
+@ 3.62
+# 大空 みぎり
+JP まあ、私をプロレスラーに？
+EN Oh my, me? A pro wrestler?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 大空 みぎり
+JP そうですねぇ…。
+JP それじゃ、試しにやってみます～。
+EN Let me see... All right, I'll give it a try.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 4.29
+# 大空 みぎり
+JP はい～。
+JP こちらこそ～。
+EN Okay. Likewise.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# 大空 みぎり
+JP ごめんなさい～。
+JP そういう野蛮なのはちょっと～。
+EN I'm sorry. Something that barbaric is a bit much for
+EN me.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （あれだけの逸材。
+JP 　そうそう諦める訳にもいかない）
+EN (A talent like that... I can't give up so easily.)
+
+@ 6.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.35
+# 大空 みぎり
+JP はい、なんですか？
+EN Yes, what is it?
+
+@ 6.38
+# 社 長
+JP 実はこないだの件を
+JP もう一度考えていただきたくて。
+EN I was hoping you'd reconsider what we talked about
+EN the other day.
+
+@ 6.45
+# 大空 みぎり
+JP こないだの？
+JP どこかでお会いしたこと
+JP ありましたっけ～？
+EN The other day? Have we met somewhere before?
+
+@ 6.48
+# 社 長
+JP え？
+EN Huh?
+
+@ 6.50
+# 社 長
+JP （俺は身分を説明したが…。
+JP 　どうやら完璧に
+JP 　忘れ去られていた）
+EN (I explained who I was... but she had apparently
+EN forgotten me completely.)
+
+@ 6.57
+# 大空 みぎり
+JP まあ…プロレスですかぁ。
+JP そのプロレスの方が私に何か？
+EN Oh my... pro wrestling? And what would a
+EN pro-wrestling person want with me?
+
+@ 6.60
+# 社 長
+JP 実はあなたをスカウトに
+JP 来たのですが…。
+JP どうでしょう。
+EN Actually, I came to scout you... What do you think?
+
+@ 6.62
+# 社 長
+JP その体
+JP リングで生かしてみませんか？
+EN Why not put that body to use in the ring?
+
+@ 6.64
+# 社 長
+JP （俺は、こないだのやりとりを
+JP 　繰り返した）
+EN (I repeated our whole conversation from last time.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 大空 みぎり
+JP そうですねぇ…。
+JP それじゃ、試しにやってみます～。
+EN Let me see... All right, I'll give it a try.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 7.29
+# 大空 みぎり
+JP はい～。
+JP こちらこそ～。
+EN Okay. Likewise.
+
+@ 7.32
+# 社 長
+JP （よかった。
+JP 　今度は成功した）
+EN (Thank goodness. It worked this time.)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 大空 みぎり
+JP ごめんなさい～。
+JP そういう野蛮なのはちょっと～。
+EN I'm sorry. Something that barbaric is a bit much for
+EN me.
+
+@ 8.22
+# 社 長
+JP （こないだの繰り返しか）
+EN (Just like last time, huh?)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （俺はみぎり選手と
+JP 　交渉してみることにした）
+EN (I decided to try negotiating with Migiri.)
+
+@ 9.25
+# 社 長
+JP （あの巨体、あのパワー。
+JP 　彼女ほど存在そのものが飛び抜けて
+JP 　いる選手はそういない）
+EN (That huge frame, that power. Few wrestlers stand
+EN out just by existing the way she does.)
+
+@ 9.27
+# 社 長
+JP たしか、休日はこのあたりに
+JP いるらしいが…。
+EN I heard she spends her days off around here...
+
+@ 9.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# 大空 みぎり
+JP はい～、なんでしょう？
+EN Yes? What can I do for you?
+
+@ 9.44
+# 社 長
+JP 突然すみません。
+JP 私、プロレス団体の
+JP 社長をしている者ですが…。
+EN Sorry to bother you out of the blue. I'm the
+EN president of a wrestling promotion...
+
+@ 9.51
+# 大空 みぎり
+JP 社長…さん？
+JP あら、うちの社長って
+JP こんなお顔だったかしら？
+EN The president...? Oh my, is this what our president
+EN looks like?
+
+@ 9.54
+# 社 長
+JP いえ、違います。
+JP 別の団体の社長です。
+EN No, I'm not. I'm the president of a different
+EN promotion.
+
+@ 9.56
+# 社 長
+JP （っていうか、自分の団体の社長も
+JP 　覚えていないのか）
+EN (Wait, she doesn't even remember her own
+EN president?)
+
+@ 9.63
+# 大空 みぎり
+JP まあ、よその団体の社長さん。
+JP 私、初めて見ました～。
+EN Oh my, the president of another promotion. This is
+EN the first time I've seen one.
+
+@ 9.66
+# 社 長
+JP そ…そうですか。
+EN I-is that so.
+
+@ 9.73
+# 大空 みぎり
+JP それで、よその社長さんが
+JP 私に何かご用ですか～？
+EN So, what would another promotion's president want
+EN with me?
+
+@ 9.76
+# 社 長
+JP ええ、実は…。
+EN Well, actually...
+
+@ 9.78
+# 社 長
+JP （俺は彼女に
+JP 　移籍の話をもちかけた）
+EN (I brought up the idea of her transferring.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 大空 みぎり
+JP そうですねぇ～。
+JP じゃ、移籍しちゃいます～。
+EN Let me see... All right, I'll transfer.
+
+@ 10.22
+# 社 長
+JP 本当ですか！
+EN Really!?
+
+@ 10.29
+# 大空 みぎり
+JP ええ。
+JP なんだか社長さんの顔って
+JP どこか懐かしい感じがするんです～。
+EN Yes. Somehow your face feels kind of nostalgic to
+EN me.
+
+@ 10.32
+# 社 長
+JP そうですか…。
+JP それでは、これからよろしく。
+EN I see... Well then, I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 大空 みぎり
+JP ごめんなさい。
+JP 知らない人について行ったら
+JP いけないと思うんです。
+EN I'm sorry. I don't think I should go off with
+EN strangers.
+
+@ 11.22
+# 社 長
+JP そ、そうですか。
+JP 残念だな…。
+EN I-I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP みぎり選手が必要だ。
+EN Our promotion really does need Migiri.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 大空 みぎり
+JP はい～、なんでしょう？
+EN Yes? What can I do for you?
+
+@ 12.40
+# 社 長
+JP こないだの件ですが
+JP どうしても考え直して
+JP いただきたくて。
+EN About the other day... I'd really like you to
+EN reconsider.
+
+@ 12.47
+# 大空 みぎり
+JP こないだ？
+JP ええと…どこかでお会いしたこと
+JP ありましたっけ～？
+EN The other day? Um... Have we met somewhere before?
+
+@ 12.50
+# 社 長
+JP え？
+EN Huh?
+
+@ 12.52
+# 社 長
+JP （俺は身分を説明したが…。
+JP 　どうやら完璧に忘れ去られて
+JP 　いるっぽい）
+EN (I explained who I was... but it looked like she'd
+EN forgotten me completely.)
+
+@ 12.59
+# 大空 みぎり
+JP まあ、よその団体の社長さん。
+JP 私、初めて見ました～。
+EN Oh my, the president of another promotion. This is
+EN the first time I've seen one.
+
+@ 12.62
+# 社 長
+JP （そりゃ、すぐ忘れるんじゃなあ）
+EN (Well, sure, if you forget them that fast...)
+
+@ 12.69
+# 大空 みぎり
+JP それで、よその社長さんが
+JP 私に何かご用ですか～？
+EN So, what would another promotion's president want
+EN with me?
+
+@ 12.72
+# 社 長
+JP （やれやれ、最初から説明し直しか）
+EN (Good grief. Back to square one.)
+
+@ 12.74
+# 社 長
+JP （俺は改めて彼女に
+JP 　移籍の話をもちかけた）
+EN (Once again, I brought up the idea of her
+EN transferring.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 大空 みぎり
+JP そうですねぇ～。
+JP じゃ、移籍しちゃいます～。
+EN Let me see... All right, I'll transfer.
+
+@ 13.22
+# 社 長
+JP 本当ですか！
+EN Really!?
+
+@ 13.29
+# 大空 みぎり
+JP ええ。
+JP なんだか社長さんの顔って
+JP どこか懐かしい感じがするんです～。
+EN Yes. Somehow your face feels kind of nostalgic to
+EN me.
+
+@ 13.32
+# 社 長
+JP まあ…そうでしょうね…。
+EN Well... I'd imagine so...
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 大空 みぎり
+JP ごめんなさい。
+JP 知らない人について行ったら
+JP いけないと思うんです。
+EN I'm sorry. I don't think I should go off with
+EN strangers.
+
+@ 14.22
+# 社 長
+JP （はあ…同じ事の繰り返しか）
+EN (Sigh... Same thing all over again.)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （俺はみぎり選手と
+JP 　交渉してみることにした）
+EN (I decided to try negotiating with Migiri.)
+
+@ 15.25
+# 社 長
+JP （あの巨体、あのパワー。
+JP 　彼女ほど存在そのものが
+JP 　飛び抜けている選手はそういない）
+EN (That huge frame, that power. Few wrestlers stand
+EN out just by existing the way she does.)
+
+@ 15.27
+# 社 長
+JP たしか、休日はこのあたりに
+JP いるらしいが…。
+EN I heard she spends her days off around here...
+
+@ 15.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 大空 みぎり
+JP はい～、なんでしょう？
+EN Yes? What can I do for you?
+
+@ 15.44
+# 社 長
+JP 突然すみません。
+JP 私、プロレス団体の
+JP 社長をしている者ですが…。
+EN Sorry to bother you out of the blue. I'm the
+EN president of a wrestling promotion...
+
+@ 15.51
+# 大空 みぎり
+JP まあ、参戦の依頼ですか～。
+JP ええと、それなら私、忘れっぽいので
+JP 常に事前に連絡を…。
+EN Oh my, a booking request? Well then, I'm forgetful, so
+EN please always contact me in advance...
+
+@ 15.54
+# 社 長
+JP あ、いえ違います。
+JP 今日は参戦ではなく、うちへの入団を
+JP お願いしたくやってきました。
+EN Ah, no, that's not it. I'm not here to book you today. I
+EN came to ask you to join our promotion.
+
+@ 15.61
+# 大空 みぎり
+JP まあ…入団ですか。
+EN Oh my... join?
+
+@ 15.64
+# 社 長
+JP ええ、俺を信じて
+JP 入団してもらえないでしょうか？
+EN Yes. Won't you trust me and join us?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 大空 みぎり
+JP そうですねぇ～。
+JP じゃ、入団しちゃいます～。
+EN Let me see... All right, I'll join.
+
+@ 16.22
+# 社 長
+JP 本当ですか！
+EN Really!?
+
+@ 16.29
+# 大空 みぎり
+JP ええ。
+JP なんだか社長さんの顔って
+JP どこか懐かしい感じがして～。
+EN Yes. Somehow your face feels kind of nostalgic to
+EN me.
+
+@ 16.32
+# 社 長
+JP そうですか…。
+JP それでは、これからよろしく。
+EN I see... Well then, I look forward to working with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 大空 みぎり
+JP ごめんなさい。
+JP 私、どこかの専属になるのは
+JP ちょっと～。
+EN I'm sorry. Signing exclusively with one place is a bit
+EN much for me.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念だな…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP みぎり選手が必要だ。
+EN Our promotion really does need Migiri.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 大空 みぎり
+JP はい～、なんでしょう？
+EN Yes? What can I do for you?
+
+@ 18.40
+# 社 長
+JP こないだの件ですが
+JP どうしても考え直して
+JP いただきたくて。
+EN About the other day... I'd really like you to
+EN reconsider.
+
+@ 18.47
+# 大空 みぎり
+JP こないだ？
+JP ええと…どこかでお会いしたこと
+JP ありましたっけ～？
+EN The other day? Um... Have we met somewhere before?
+
+@ 18.50
+# 社 長
+JP え？
+EN Huh?
+
+@ 18.52
+# 社 長
+JP （俺は身分を説明したが…。
+JP 　どうやら完璧に忘れ去られて
+JP 　いるっぽい）
+EN (I explained who I was... but it looked like she'd
+EN forgotten me completely.)
+
+@ 18.54
+# 社 長
+JP （仕方ないので
+JP 　改めてこないだと
+JP 　同じ話を繰り返した）
+EN (With no other choice, I repeated the same pitch as
+EN last time.)
+
+@ 18.58
+# 大空 みぎり
+JP まあ…入団ですか。
+EN Oh my... join?
+
+@ 18.61
+# 社 長
+JP ええ、俺を信じて
+JP 入団してもらえないでしょうか？
+EN Yes. Won't you trust me and join us?
+
+@ 18.63
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms once again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 大空 みぎり
+JP そうですねぇ～。
+JP じゃ、入団しちゃいます～。
+EN Let me see... All right, I'll join.
+
+@ 19.22
+# 社 長
+JP 本当ですか！
+EN Really!?
+
+@ 19.29
+# 大空 みぎり
+JP ええ。
+JP なんだか社長さんの顔って
+JP どこか懐かしい感じがして～。
+EN Yes. Somehow your face feels kind of nostalgic to
+EN me.
+
+@ 19.32
+# 社 長
+JP まあ…そうでしょうね…。
+EN Well... I'd imagine so...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 大空 みぎり
+JP ごめんなさい。
+JP 私、どこかの専属になるのは
+JP ちょっと～。
+EN I'm sorry. Signing exclusively with one place is a bit
+EN much for me.
+
+@ 20.22
+# 社 長
+JP （やれやれ、こないだの繰り返しか）
+EN (Good grief, same as last time.)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺はみぎりを訪ねることにした。
+EN I decided to go see Migiri.
+
+@ 21.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here somewhere...
+
+@ 21.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP みぎり！
+EN Migiri!
+
+@ 21.41
+# 大空 みぎり
+JP はい…。
+JP ええと…どちらさまでしたっけ？
+EN Yes...? Um... who were you again?
+
+@ 21.44
+# 社 長
+JP うおいっ！
+JP もう俺のことを忘れているのかよ！
+EN Hey now! You've forgotten me already!?
+
+@ 21.51
+# 大空 みぎり
+JP うふふふふ。
+JP 冗談ですよ～。
+JP お久しぶりです、社長～。
+EN Ufufufufu. I'm only joking. Long time no see, Boss.
+
+@ 21.54
+# 社 長
+JP ……おまえが言うと
+JP 本気で冗談に聞こえないんだ。
+EN ......Coming from you, a joke doesn't sound like a joke.
+
+@ 21.61
+# 大空 みぎり
+JP それで、なんのご用ですか？
+EN So, what can I do for you?
+
+@ 21.64
+# 社 長
+JP ん、ああ…。
+JP ちよっと頼みづらいことなんだが…。
+EN Hm, ah... This is a little hard to ask, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 大空 みぎり
+JP いいですよ～。
+JP じゃ、戻ります～。
+EN Sure. I'll come back, then.
+
+@ 22.22
+# 社 長
+JP ありがとう。
+JP 助かるよ。
+EN Thank you. That's a big help.
+
+@ 22.29
+# 大空 みぎり
+JP …そういえば、どうして
+JP 私、団体を辞めたんでしたっけ？
+EN ...Come to think of it, why did I leave the promotion
+EN again?
+
+@ 22.32
+# 社 長
+JP …無理に思い出すことは
+JP ないと思うよ。
+EN ...I don't think you need to force yourself to
+EN remember.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 大空 みぎり
+JP う～ん。
+JP やめておきます～。
+EN Hmmm. I think I'll pass.
+
+@ 23.22
+# 社 長
+JP どうしてもか？
+EN No matter what?
+
+@ 23.26
+# 大空 みぎり
+JP 何か、団体には
+JP 嫌な思い出があったような～。
+JP 何かしら…。
+EN I feel like I have some bad memories of that
+EN promotion... What could it be...
+
+@ 23.29
+# 社 長
+JP （うう、仕方ないか）
+EN (Ugh, I guess it can't be helped.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再びみぎりを訪ねることにした。
+EN I decided to visit Migiri again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here somewhere...
+
+@ 24.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 24.31
+# 社 長
+JP みぎり！
+EN Migiri!
+
+@ 24.41
+# 大空 みぎり
+JP はい…。
+JP ええと…どちらさまでしたっけ？
+EN Yes...? Um... who were you again?
+
+@ 24.44
+# 社 長
+JP おいおい、また同じ冗談を…。
+EN Come on, not the same joke again...
+
+@ 24.51
+# 大空 みぎり
+JP ああ、そうそう。
+JP 社長さんです！
+EN Oh, right, right. You're the Boss!
+
+@ 24.54
+# 社 長
+JP 本気で忘れかけてたのかよ！
+EN You really were starting to forget me!?
+
+@ 24.61
+# 大空 みぎり
+JP まあまあ、いいじゃないですか～。
+JP それで、なんのご用ですか～？
+EN Now, now, it's fine, isn't it? So, what can I do for you?
+
+@ 24.64
+# 社 長
+JP うーむ…。
+JP 実はだな。
+EN Hmm... Well, the thing is...
+
+@ 24.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 大空 みぎり
+JP いいですよ～。
+JP じゃ、戻ります～。
+EN Sure. I'll come back, then.
+
+@ 25.22
+# 社 長
+JP ありがとう。
+JP 助かるよ。
+EN Thank you. That's a big help.
+
+@ 25.29
+# 大空 みぎり
+JP …そういえば、どうして
+JP 私、団体を辞めたんでしたっけ？
+EN ...Come to think of it, why did I leave the promotion
+EN again?
+
+@ 25.32
+# 社 長
+JP …無理に思い出すことは
+JP ないと思うよ。
+EN ...I don't think you need to force yourself to
+EN remember.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 大空 みぎり
+JP う～ん。
+JP やめておきます～。
+EN Hmmm. I think I'll pass.
+
+@ 26.22
+# 社 長
+JP どうしてもか？
+EN No matter what?
+
+@ 26.26
+# 大空 みぎり
+JP 何か、団体には
+JP 嫌な思い出があったような～。
+JP 何かしら…。
+EN I feel like I have some bad memories of that
+EN promotion... What could it be...
+
+@ 26.29
+# 社 長
+JP （うう、仕方ないか）
+EN (Ugh, I guess it can't be helped.)
+
+@ 27.16
+# scene 028 ケガ小
+# 大空 みぎり
+JP 何か、痛いです～。
+EN Something hurts...
+
+@ 28.16
+# scene 029 ケガ大
+# 大空 みぎり
+JP うう…。
+JP なんだかとても痛いです～。
+EN Ooh... It really hurts a lot...
+
+@ 29.16
+# scene 030 入院
+# 大空 みぎり
+JP まあ、入院？
+JP どんな病院かしら。
+JP わくわくします～。
+EN Oh my, the hospital? I wonder what kind of hospital it
+EN is. How exciting!
+
+@ 30.16
+# scene 031 退院
+# 大空 みぎり
+JP うぅ…。
+JP 病院って思っていたより
+JP 面白くないところでした～。
+EN Ooh... Hospitals weren't as much fun as I thought.
+
+@ 31.16
+# scene 032 ケガ完治
+# 大空 みぎり
+JP …えっ？
+JP ケガってなんですか？
+EN ...Huh? What injury?
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 大空 みぎり
+JP あ、はい。
+JP いいですよ～。
+JP じゃ、辞めます～。
+EN Oh, okay. Sure. I'll quit, then.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 大空 みぎり
+JP え～、いやです。
+JP もうちょっと続けます～。
+EN Aww, no. I'll keep going a little longer.
+
+@ 34.16
+# scene 035 コーチ就任
+# 大空 みぎり
+JP コーチですか～？
+JP いいですね～。
+JP 何を教えればいいんですか？
+EN A coach? That sounds nice. What should I teach?
+
+@ 35.16
+# scene 036 ケガ引退
+# 大空 みぎり
+JP う～ん…。
+JP 体が痛いから、もう辞めます～。
+EN Hmmm... My body hurts, so I'll quit now.
+
+@ 36.16
+# scene 037 年齢引退
+# 大空 みぎり
+JP えっと…。
+JP 最近ちょっとしんどいんですよねぇ。
+JP だからプロレス辞めます～。
+EN Um... Things have been a little tiring lately. So I'm
+EN going to quit pro wrestling.
+
+@ 37.16
+# scene 038 退団
+# 大空 みぎり
+JP 私、ここを辞めますね～。
+EN I'm going to leave here, okay?
+
+@ 38.16
+# scene 039 スランプ
+# 大空 みぎり
+JP う～ん。
+JP なんなのかしら？
+JP よくわかりません。
+EN Hmmm. What could it be? I don't really understand.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 大空 みぎり
+JP まあ、私のファンクラブですか～。
+JP 初めてです、嬉しいです。
+EN Oh my, a fan club for me? That's a first. I'm so happy.
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to all that support.
+
+@ 39.26
+# 大空 みぎり
+JP もちろんです。
+JP がんばりますね～。
+EN Of course. I'll do my best.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 大空 みぎり
+JP まあ、私のファンクラブですか～。
+JP 初めてです、嬉しいです。
+EN Oh my, a fan club for me? That's a first. I'm so happy.
+
+@ 40.19
+# 社 長
+JP いや、初めてじゃないから。
+JP 増えたんだよ。
+EN No, it's not your first. You got another one.
+
+@ 40.26
+# 大空 みぎり
+JP まあ、いつの間に…。
+JP 知らないうちに作るなんて
+JP 奥ゆかしいですね～。
+EN Oh my, when did that happen...? Making one without
+EN telling me... How modest of them.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 大空 みぎり
+JP ファンクラブが解散？
+JP 私にファンクラブなんか
+JP ありましたっけ？
+EN My fan club broke up? Did I even have a fan club?
+
+@ 41.19
+# 社 長
+JP ……あったんだよ。
+EN ......You did.
+
+@ 41.26
+# 大空 みぎり
+JP まあ…。
+JP 私の知らないところで生まれ
+JP 消えるなんて。
+EN Oh my... To think it was born and vanished without me
+EN ever knowing.
+
+@ 41.29
+# 社 長
+JP いや、なんというか…。
+EN No, well, how should I put it...
+
+@ 42.16
+# scene 043 映画出演
+# 大空 みぎり
+JP 映画ですか～。
+JP うふふふ。
+JP 楽しみです～。
+EN A movie? Ufufufu. I can't wait.
+
+@ 43.16
+# scene 044 一日署長
+# 大空 みぎり
+JP 署長ですか～。
+JP お任せください～。
+EN Police chief? Leave it to me.
+
+@ 44.16
+# scene 045 写真集発売
+# 大空 みぎり
+JP 写真って一人で映るの
+JP 好きなんですよ～。
+JP 普通の子に見えるから。
+EN I like having photos taken of just me alone. That way
+EN I look like a normal-sized girl.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 大空 みぎり
+JP まあ…。
+JP テレビＣＭなんて照れますね～。
+EN Oh my... A TV commercial? How embarrassing.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 大空 みぎり
+JP 歌ですか～。
+JP 歌詞、覚えられるかしら…。
+EN Singing? I wonder if I'll be able to remember the
+EN lyrics...
+
+@ 47.16
+# scene 048 始球式
+# 大空 みぎり
+JP 私、こう見えても中学時代は
+JP ４番でエースだったんですよ～。
+EN I may not look it, but in middle school I was the
+EN cleanup hitter and the ace pitcher.
+
+@ 48.16
+# scene 049 学園祭
+# 大空 みぎり
+JP まあ、学園祭。
+JP 楽しみです～。
+EN Oh my, a school festival. I can't wait.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.37
+# 大空 みぎり
+JP え…。
+JP 私、今日誕生日でしたっけ？
+EN Huh... Is today my birthday?
+
+@ 49.40
+# 社 長
+JP そうだよ。
+JP ２０歳の誕生日、おめでとう。
+EN It is. Happy 20th birthday.
+
+@ 49.48
+# 大空 みぎり
+JP うふふ…。
+JP ありがとうございます。
+JP 優しいですね、社長って。
+EN Ufufu... Thank you very much. You're so kind, Boss.
+
+@ 50.32
+# scene 051 バレンタインデー
+# 大空 みぎり
+JP 社長～。
+JP はい、バレンタインの
+JP チョコレートです～。
+EN Boss! Here, it's Valentine's chocolate.
+
+@ 50.35
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 50.37
+# 社 長
+JP でも、正直
+JP おまえがちゃんとバレンタインを
+JP 覚えているとは思わなかったよ。
+EN But honestly, I didn't think you'd actually remember
+EN Valentine's Day.
+
+@ 50.44
+# 大空 みぎり
+JP うふふふ、だって街が
+JP バレンタイン一色なんですもの。
+JP 忘れるヒマもないですよ～。
+EN Ufufufu, well, the whole town is covered in
+EN Valentine's stuff. There's no time to forget.
+
+@ 50.47
+# 社 長
+JP ああ…。
+JP なるほどなぁ。
+EN Ah... That makes sense.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# 大空 みぎり
+JP 先月…。
+EN Last month...
+
+@ 51.41
+# 社 長
+JP ほら、バレンタインのお返し。
+EN You know, a return gift for Valentine's.
+
+@ 51.48
+# 大空 みぎり
+JP ああっ、私、先月ちゃんと
+JP チョコを渡せていたんですね～。
+JP 偉いわ、先月の私～。
+EN Oh! So I really did give you chocolate last month!
+EN Good job, last-month me!
+
+@ 52.31
+# scene 053 サイン会
+# 大空 みぎり
+JP サインね。
+JP はい、どうぞ～。
+JP これからもよろしくお願いしますね～。
+EN An autograph? Here you go. Please keep supporting
+EN me.
+
+@ 53.31
+# scene 054 コンサート
+# 大空 みぎり
+JP ドキドキします～。
+EN My heart's pounding.
+
+@ 54.28
+# scene 037 練習拒否
+# 大空 みぎり
+JP ちょっと練習が嫌なので
+JP さぼりますね～。
+EN I don't really feel like training, so I'm going to skip,
+EN okay?
+
+@ 55.28
+# scene 056 失踪
+# 大空 みぎり
+JP ちょっと失踪してきますね～。
+EN I'm going to go disappear for a little while, okay?
+
+@ 56.16
+# scene 057 選手解雇
+# 大空 みぎり
+JP クビ…ですか。
+JP ヒドイです～。
+EN Fired...? That's terrible.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 大空 みぎり
+JP 海外ですか…。
+JP 楽しみです～。
+EN Abroad...? I can't wait.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 大空 みぎり
+JP ただ今戻りました～。
+JP なんだか日本が新鮮に見えます～。
+EN I'm back! Somehow Japan looks so fresh to me now.
+
+@ 59.28
+# scene 060 移籍思案
+# 大空 みぎり
+JP えーっと…。
+JP なんだか重要な話をされたような～。
+EN Ummm... I feel like someone told me something
+EN important...
+
+@ 60.16
+# scene 061 革命軍結成
+# 大空 みぎり
+JP ちょっと革命してみようかなって
+JP 思いました～。
+EN I thought I'd try starting a little revolution.
+
+@ 61.16
+# scene 062 反乱軍結成
+# 大空 みぎり
+JP うふふふ。
+JP 今、時代は反乱軍らしいですよ。
+JP 流行にのってみますね～。
+EN Ufufufu. Rebellions are all the rage these days, I
+EN hear. I'll ride the trend.
+
+@ 62.16
+# scene 063 最終決戦要求
+# 大空 みぎり
+JP もう飽きました～。
+JP さっさと決着をつけた方が
+JP いいですねぇ。
+EN I'm bored of this now. We'd better settle it quickly.
+
+@ 63.16
+# scene 065 遺恨発生
+# 大空 みぎり
+JP まあ、なんてひどい人かしら。
+EN Oh my, what a horrible person.
+
+@ 64.16
+# scene 065 殴り込み
+# 大空 みぎり
+JP うふふふふ。
+JP あそこを潰してくれば
+JP いいんですね～。
+EN Ufufufufu. So I just have to go crush that place?
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 大空 みぎり
+JP あらあら？
+JP 私がお相手しますね～。
+EN Oh dear? I'll be your opponent.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 大空 みぎり
+JP うふふふふ。
+JP 思いっきり暴れてこいって
+JP 言われちゃいました♪
+EN Ufufufufu. They told me to go out there and run wild!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 大空 みぎり
+JP わかりました～。
+JP お任せください～。
+EN Understood. Leave it to me.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 大空 みぎり
+JP 勝ってきました、社長。
+JP これでいいですか～？
+EN I won, Boss. Is that okay?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 大空 みぎり
+JP ごめんなさい。
+JP 負けちゃいました～。
+EN I'm sorry. I lost.
+
+@ 70.13
+# scene 071 引退式
+# 大空 みぎり
+JP あれ…？
+JP なんで涙がでるんでしょう？
+JP 誰か、教えてください…なんで……？
+EN Huh...? Why am I crying? Somebody, please tell me...
+EN Why......?
+
+@ 71.18
+# 大空 みぎり
+JP はい、なんですか～？
+EN Yes, what is it?
+
+@ 71.37
+# 大空 みぎり
+JP はい、なんですか～？
+EN Yes, what is it?
+
+@ 71.47
+# 大空 みぎり
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# 大空 みぎり
+JP はい、もちろんです～。
+JP がんばりますね～。
+EN Yes, of course. I'll do my best.
+
+@ 71.111
+# 大空 みぎり
+JP 今は体がだるいから
+JP また今度がんばりますね～。
+EN I feel sluggish right now, so I'll do my best some
+EN other time.
+
+@ 71.132
+# 大空 みぎり
+JP もちろんです～。
+JP 社長にそう言われたら
+JP がんばるしかないじゃないですか～。
+EN Of course. When you say that, Boss, I have no choice
+EN but to do my best.
+
+@ 71.153
+# 大空 みぎり
+JP そんな熱血でなく
+JP もっと楽しいお話しませんか～？
+EN Instead of all that fiery stuff, why don't we talk
+EN about something more fun?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 大空 みぎり
+JP そうですか～？
+JP ごめんなさい。
+EN Have I? I'm sorry.
+
+@ 71.211
+# 大空 みぎり
+JP いえいえ、真剣にやってますよ～。
+EN No, no, I'm taking it seriously.
+
+@ 71.233
+# 大空 みぎり
+JP …ごめんなさい…。
+JP 社長に叱られると、こたえます～。
+EN ...I'm sorry... It really stings when you scold me, Boss.
+
+@ 71.254
+# 大空 みぎり
+JP もう、社長。
+JP そんな話はおいておいて
+JP 楽しい話をしましょうよ～。
+EN Oh, Boss. Let's put that aside and talk about
+EN something fun.
+
+@ 71.267
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.291
+# 大空 みぎり
+JP そうですか～？
+JP わかりました。
+JP もっと元気でいきます～。
+EN Do I? Okay. I'll be more upbeat.
+
+@ 71.312
+# 大空 みぎり
+JP あんまり大丈夫じゃありません～。
+JP 最近ちょっと食べ過ぎで…。
+EN Not really okay. I've been eating a little too much
+EN lately...
+
+@ 71.333
+# 大空 みぎり
+JP うふふふ。
+JP 社長って優しいですね～。
+JP 大丈夫ですよ。
+EN Ufufufu. You're so kind, Boss. I'm fine.
+
+@ 71.354
+# 大空 みぎり
+JP 実は、ちょっと落ち込んでるんです。
+JP 甘えさせてください～。
+EN Actually, I'm feeling a little down. Let me lean on you a
+EN bit.
+
+@ 71.368
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.384
+# 大空 みぎり
+JP えっとぉ…。
+EN Ummm...
+
+@ 71.401
+# 大空 みぎり
+JP いえ、全然。
+EN No, not at all.
+
+@ 71.412
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.434
+# 大空 みぎり
+JP ……？
+JP ああ、そういえば忘れてました。
+JP いいですよ～。
+EN ......? Oh, now that you mention it, I'd forgotten. Sure.
+
+@ 71.455
+# 大空 みぎり
+JP あ、それで思い出しました。
+JP ダメです～。
+JP 許しません～。
+EN Oh, that reminds me. No. I won't forgive her.
+
+@ 71.476
+# 大空 みぎり
+JP えっと…。
+JP また私、何か
+JP 忘れているんでしょうか？
+EN Um... Have I forgotten something again?
+
+@ 71.489
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.506
+# 大空 みぎり
+JP え？
+JP え～とぉ？
+EN Huh? Ummm?
+
+@ 71.523
+# 大空 みぎり
+JP デートのお誘いだったら
+JP 嬉しいですね～。
+EN If you're asking me on a date, that'd make me happy.
+
+@ 71.536
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.558
+# 大空 みぎり
+JP 彼女とケンカしてましたっけ。
+JP いいですよ～、
+JP 社長の頼みですもの。
+EN Were she and I fighting? Sure, since you're asking,
+EN Boss.
+
+@ 71.579
+# 大空 みぎり
+JP 彼女とケンカしていましたね～。
+JP 思い出したら
+JP また怒りがこみ上げてきました。
+EN Oh, she and I were fighting, weren't we? Remembering
+EN it is making me angry all over again.
+
+@ 71.600
+# 大空 みぎり
+JP うーん、デートのお誘いには
+JP 聞こえませんね～。
+JP 残念です。
+EN Hmm, that doesn't sound like asking me on a date.
+EN What a shame.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 大空 みぎり
+JP はい、なんですか～？
+EN Yes, what is it?
+
+@ 72.16
+# 大空 みぎり
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 大空 みぎり
+JP はい、もちろんです～。
+JP がんばりますね～。
+EN Yes, of course. I'll do my best.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 大空 みぎり
+JP 今は体がだるいから、
+JP また今度がんばりますね～。
+EN I feel sluggish right now, so I'll do my best some
+EN other time.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 大空 みぎり
+JP もちろんです～。
+JP 社長にそう言われたら、
+JP がんばるしかないじゃないですか～。
+EN Of course. When you say that, Boss, I have no choice
+EN but to do my best.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 大空 みぎり
+JP そんな熱血でなく、
+JP もっと楽しいお話しませんか～？
+EN Instead of all that fiery stuff, why don't we talk
+EN about something more fun?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 大空 みぎり
+JP そうですか～？
+JP ごめんなさい。
+EN Have I? I'm sorry.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 大空 みぎり
+JP いえいえ、真剣にやってますよ～。
+EN No, no, I'm taking it seriously.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 大空 みぎり
+JP …ごめんなさい…。
+JP 社長に叱られると、こたえます～。
+EN ...I'm sorry... It really stings when you scold me, Boss.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 大空 みぎり
+JP もう、社長。
+JP そんな話はおいておいて、
+JP 楽しい話をしましょうよ～。
+EN Oh, Boss. Let's put that aside and talk about
+EN something fun.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 大空 みぎり
+JP そうですか～？
+JP わかりました。
+JP もっと元気でいきます～。
+EN Do I? Okay. I'll be more upbeat.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 大空 みぎり
+JP あんまり大丈夫じゃありません～。
+JP 最近、ちょっと食べ過ぎで…。
+EN Not really okay. I've been eating a little too much
+EN lately...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 大空 みぎり
+JP うふふふ。
+JP 社長って優しいですね～。
+JP 大丈夫ですよ。
+EN Ufufufu. You're so kind, Boss. I'm fine.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 大空 みぎり
+JP 実は、ちょっと落ち込んでるんです。
+JP 甘えさせてください～。
+EN Actually, I'm feeling a little down. Let me lean on you a
+EN bit.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 大空 みぎり
+JP えっとぉ…。
+EN Ummm...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 大空 みぎり
+JP いえ、全然。
+EN No, not at all.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 大空 みぎり
+JP ……？
+JP ああ、そういえば忘れてました。
+JP いいですよ～。
+EN ......? Oh, now that you mention it, I'd forgotten. Sure.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 大空 みぎり
+JP あ、それで思い出しました。
+JP ダメです～。
+JP 許しません～。
+EN Oh, that reminds me. No. I won't forgive her.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 大空 みぎり
+JP えっと…。また私、
+JP 何か忘れているんでしょうか？
+EN Um... Have I forgotten something again?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 大空 みぎり
+JP え？
+JP え～とぉ？
+EN Huh? Ummm?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 大空 みぎり
+JP デートのお誘いだったら
+JP 嬉しいですね～。
+EN If you're asking me on a date, that'd make me happy.
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 大空 みぎり
+JP 彼女とケンカしてましたっけ。
+JP いいですよ～、
+JP 社長の頼みですもの。
+EN Were she and I fighting? Sure, since you're asking,
+EN Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 大空 みぎり
+JP 彼女とケンカしていましたね～。
+JP 思い出したら、
+JP また怒りがこみ上げてきました。
+EN Oh, she and I were fighting, weren't we? Remembering
+EN it is making me angry all over again.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 大空 みぎり
+JP うーん、デートのお誘いには
+JP 聞こえませんね～。
+JP 残念です。
+EN Hmm, that doesn't sound like asking me on a date.
+EN What a shame.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 大空 みぎり
+JP はい、いいですよ～。
+EN Okay, that's fine.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 大空 みぎり
+JP あら？
+JP すごい多い気がしますよ～。
+JP いいんですかぁ？
+EN Oh my? That seems like an awful lot. Are you sure?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 大空 みぎり
+JP あら？
+JP 私のギャラって
+JP この程度でしたっけ…。
+EN Oh my? Was my pay really only this much...?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺たちは南の島へと
+JP 　やってきた）
+EN (And so we arrived on a southern island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Hmm, it's the tropics, all right. The sun is scorching.)
+
+@ 105.37
+# 大空 みぎり
+JP 社長～。
+JP こっちでスイカでも食べませんか～。
+EN Boss! Why don't you come have some watermelon
+EN over here?
+
+@ 105.40
+# 社 長
+JP ああ、いいなあ。
+EN Ah, sounds good.
+
+@ 105.42
+# 社 長
+JP （呼ばれてふり返った先で
+JP 　俺は、とんでもないものを見た）
+EN (I turned at her call and saw something unbelievable.)
+
+@ 105.64
+# 社 長
+JP え？
+EN Huh?
+
+@ 105.84
+# 大空 みぎり
+JP はい…社長～。
+JP どうぞ♪
+EN Here you go, Boss. Enjoy!
+
+@ 105.87
+# 社 長
+JP あ…ああ……。
+EN Ah... Uh......
+
+@ 105.89
+# 社 長
+JP （差し出される半分のスイカ）
+EN (Half a watermelon, held out to me.)
+
+@ 105.91
+# 社 長
+JP （こいつ、今
+JP 　スイカを手で割らなかったか？）
+EN (Did she just split that watermelon with her hands?)
+
+@ 105.93
+# 社 長
+JP （それも普通の割り方じゃない）
+EN (And not in any normal way.)
+
+@ 105.95
+# 社 長
+JP （打撃で割るのなら
+JP 　ちょっと空手が得意なヤツなら
+JP 　誰でもできるだろう）
+EN (Smashing one open with a strike, anyone with a little
+EN karate could manage.)
+
+@ 105.97
+# 社 長
+JP （しかし、こいつは今、指で割った）
+EN (But she just pulled it apart with her fingers.)
+
+@ 105.99
+# 社 長
+JP （そう、まるで…）
+EN (Yes, just like...)
+
+@ 105.101
+# 社 長
+JP （ミカンを２つに割るくらいの
+JP 　気軽さで！）
+EN (...splitting a mandarin orange in two!)
+
+@ 105.105
+# 大空 みぎり
+JP どうしました、社長？
+EN What's wrong, Boss?
+
+@ 105.108
+# 社 長
+JP え、あ、いや…。
+JP 豪快な割り方だなあと思って。
+EN Huh? Ah, no... Just thinking that's a bold way to split
+EN it.
+
+@ 105.112
+# 大空 みぎり
+JP あら。
+JP 半分は多かったですか？
+EN Oh my. Was half too much?
+
+@ 105.115
+# 社 長
+JP いや、量の問題じゃなく。
+EN No, it's not about the amount.
+
+@ 105.117
+# 社 長
+JP （スイカを砕くのではなく
+JP 　こうも綺麗に２つに
+JP 　「引きちぎる」って）
+EN (Not smashing it, but "tearing" it so cleanly in two...)
+
+@ 105.119
+# 社 長
+JP （改めて、こいつの規格外さを
+JP 　思い知った気分だ）
+EN (It drove home all over again just how off the charts
+EN she is.)
+
+@ 105.123
+# 大空 みぎり
+JP 甘そうですよ♪
+JP このスイカ。
+EN This watermelon looks sweet!
+
+@ 105.126
+# 社 長
+JP ああ…。
+JP でも、どうやって食べよう。
+EN Yeah... But how do I eat it?
+
+@ 105.130
+# 大空 みぎり
+JP もちろん、こうするんですよ～。
+EN Like this, of course.
+
+@ 105.142
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.144
+# 社 長
+JP （そういって、みぎりは）
+EN (With that, Migiri...)
+
+@ 105.146
+# 社 長
+JP （ミカンのふさを
+JP 　分けるくらいの気軽さで）
+EN (...as casually as pulling apart the segments of a
+EN mandarin...)
+
+@ 105.160
+# 社 長
+JP （スイカをさらに８等分に
+JP 　してみせたのだった）
+EN (...split the watermelon into eight more pieces.)
+
+@ 105.162
+# 社 長
+JP （とんでもねぇ）
+EN (Unbelievable.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP さて、と。
+EN Well, then.
+
+@ 106.26
+# 社 長
+JP 時間もできたし
+JP 少しジムの様子でも見に行くか…。
+EN I've got some free time. Maybe I'll go check on the
+EN gym...
+
+@ 106.41
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.43
+# 社 長
+JP （ジムに入るとみぎりが話しかけてきた）
+EN (When I entered the gym, Migiri came up to me.)
+
+@ 106.53
+# 大空 みぎり
+JP 社長～。
+EN Boss...
+
+@ 106.56
+# 社 長
+JP ん、みぎり。
+JP 何か用か？
+EN Hm, Migiri. Need something?
+
+@ 106.58
+# 社 長
+JP （何か、今ひとつ
+JP 　元気がないようだが）
+EN (She seems a little down, though.)
+
+@ 106.65
+# 大空 みぎり
+JP う～～～。
+EN Uuuugh...
+
+@ 106.68
+# 社 長
+JP どうした、そんな顔をして。
+EN What's wrong? What's with that face?
+
+@ 106.75
+# 大空 みぎり
+JP 私、聞いてしまったんです～。
+EN I heard something...
+
+@ 106.78
+# 社 長
+JP 何を？
+EN Heard what?
+
+@ 106.82
+# 大空 みぎり
+JP 男の人は
+JP 小さな女性が好みなんだって。
+EN That men like small women.
+
+@ 106.85
+# 社 長
+JP は……？
+EN Huh......?
+
+@ 106.87
+# 社 長
+JP なんの話だ？
+EN What are you talking about?
+
+@ 106.94
+# 大空 みぎり
+JP それで～、胸も平たい方が良くて。
+EN And that flat chests are better, too.
+
+@ 106.101
+# 大空 みぎり
+JP 身長差は
+JP 見下ろせるくらいがベストだと～。
+EN And that the best height difference is enough to
+EN look down on her...
+
+@ 106.104
+# 社 長
+JP とりあえず、その偏った価値観を
+JP 吹き込んだヤツは誰だ？
+EN First of all, who's been filling your head with such a
+EN lopsided view?
+
+@ 106.111
+# 大空 みぎり
+JP 社長も…。
+EN Do you, too, Boss...
+
+@ 106.131
+# 大空 みぎり
+JP これくらいの女の子が
+JP 好きなんでしょうか？
+EN ...like girls about this size?
+
+@ 106.134
+# 社 長
+JP え？
+JP う～ん。
+EN Huh? Hmmm.
+
+@ 106.136
+# 社 長
+JP （いくらみぎりがでかいといっても
+JP 　こちらも成人男性）
+EN (Migiri may be huge, but I'm a grown man.)
+
+@ 106.138
+# 社 長
+JP （しゃがめば、かなりの差となる）
+EN (If she crouches, the difference is pretty big.)
+
+@ 106.140
+# 社 長
+JP さすがに、これは小さすぎだろう。
+EN Come on, that's way too small.
+
+@ 106.142
+# 社 長
+JP （これだと小学生くらいだぞ）
+EN (That's about the size of a grade-schooler.)
+
+@ 106.144
+# 社 長
+JP まあ、あれだ。
+EN Well, you know.
+
+@ 106.146
+# 社 長
+JP 魅力っていうのは人それぞれだ。
+JP あまり思い詰めるな。
+EN Everyone finds different things attractive. Don't
+EN dwell on it too much.
+
+@ 106.148
+# 社 長
+JP （そういって、俺は特に意識せず）
+EN (With that, without really thinking about it...)
+
+@ 106.150
+# 社 長
+JP （みぎりの頭を
+JP 　なぐさめる感じでなでてみた）
+EN (...I gave Migiri a comforting pat on the head.)
+
+@ 106.160
+# 大空 みぎり
+JP あっ…。
+EN Ah...
+
+@ 106.163
+# 社 長
+JP ん？
+JP どうした？
+EN Hm? What is it?
+
+@ 106.167
+# 大空 みぎり
+JP あ、あの…。
+EN U-um...
+
+@ 106.171
+# 大空 みぎり
+JP もっとなでてください。
+EN Please pat me some more.
+
+@ 106.174
+# 社 長
+JP ん…構わないが。
+EN Hm... Sure, I don't mind.
+
+@ 106.176
+# 社 長
+JP （再び俺はみぎりの頭をなでた）
+EN (I patted Migiri's head again.)
+
+@ 106.180
+# 大空 みぎり
+JP ん……ん……。
+EN Mm...... Mm......
+
+@ 106.184
+# 大空 みぎり
+JP …小さいって…。
+JP いいかも……。
+EN ...Being small... might be nice......
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP さて、と。
+EN Well, then.
+
+@ 107.26
+# 社 長
+JP 時間もできたし
+JP 少しジムの様子でも見に行くか…。
+EN I've got some free time. Maybe I'll go check on the
+EN gym...
+
+@ 107.41
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.43
+# 社 長
+JP （ジムに入ると
+JP 　みぎりが話しかけてきた）
+EN (When I entered the gym, Migiri came up to me.)
+
+@ 107.53
+# 大空 みぎり
+JP 社長～♪
+EN Boss!
+
+@ 107.56
+# 社 長
+JP みぎりか。
+JP どうした？
+EN Migiri. What's up?
+
+@ 107.60
+# 大空 みぎり
+JP うふふ…。
+EN Ufufu...
+
+@ 107.63
+# 社 長
+JP （みぎりは笑うと近寄ってきて）
+EN (Migiri smiled and came closer...)
+
+@ 107.82
+# 社 長
+JP （俺の前で
+JP 　ペタリと地面にしゃがみ込んだ）
+EN (...and plopped down into a crouch right in front of
+EN me.)
+
+@ 107.86
+# 大空 みぎり
+JP 社長～。
+JP なでてください～。
+EN Boss, please pat my head.
+
+@ 107.89
+# 社 長
+JP またか。
+EN Again?
+
+@ 107.93
+# 大空 みぎり
+JP はい♪
+EN Yes!
+
+@ 107.103
+# 大空 みぎり
+JP ん～～～～。
+EN Mmmmmm...
+
+@ 107.107
+# 大空 みぎり
+JP 気持ちいいです。
+JP 社長～♪
+EN That feels nice, Boss!
+
+@ 107.110
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 107.112
+# 社 長
+JP （あれ以来、こいつはすっかり
+JP 　頭をなでられるのがクセに
+JP 　なってしまっていた）
+EN (Ever since that day, getting her head patted has
+EN become a habit for her.)
+
+@ 107.116
+# 大空 みぎり
+JP あ～、私がもっと小さかったら…。
+EN Ahh, if only I were smaller...
+
+@ 107.120
+# 大空 みぎり
+JP きっと昔から、みんなに
+JP なでてもらえたんでしょうね～。
+EN I bet everyone would have patted my head ever
+EN since I was little.
+
+@ 107.123
+# 社 長
+JP やっぱり、気になるのか？
+JP 身長。
+EN So it does bother you after all? Your height?
+
+@ 107.127
+# 大空 みぎり
+JP そんなんじゃありません。
+EN It's nothing like that.
+
+@ 107.131
+# 大空 みぎり
+JP ただ、頭をなでてもらうのが
+JP 好きなんです～。
+EN I just like having my head patted.
+
+@ 107.134
+# 社 長
+JP ……そうか。
+EN ......I see.
+
+@ 107.138
+# 大空 みぎり
+JP 今は社長がなでてくれるから
+JP 気になりません。
+EN Now that you pat me, Boss, it doesn't bother me.
+
+@ 107.141
+# 社 長
+JP （まあ、この身長じゃ
+JP 　コイツをなでてくれる人なんか
+JP 　滅多にいなかったろうしなぁ）
+EN (Well, at her height, I doubt many people ever patted
+EN her head.)
+
+@ 107.145
+# 大空 みぎり
+JP もっとなでなでしてください～♪
+EN Pat me some more, please!
+
+@ 107.148
+# 社 長
+JP （しかしこいつ本当に
+JP 　頭なでられるの好きだなぁ）
+EN (She really does love getting her head patted,
+EN though.)
+
+@ 107.152
+# 大空 みぎり
+JP あ～…。
+JP いい気持ち……。
+EN Ahh... That feels so good......
+
+@ 108.16
+# scene 113 練習開始
+# 大空 みぎり
+JP 始めますね～。
+EN I'll get started.
+
+@ 109.16
+# scene 114 練習開始 好意
+# 大空 みぎり
+JP うふふ、始めましょうか～。
+EN Ufufu, shall we get started?
+
+@ 110.16
+# scene 115 特訓開始
+# 大空 みぎり
+JP 特訓ですか～。
+JP わかりました～。
+EN Special training? Okay.
+
+@ 111.20
+# scene 116 特訓成功
+# 大空 みぎり
+JP なんだか強くなった気がします～。
+EN I feel like I've gotten stronger somehow.
+
+@ 112.20
+# scene 117 特訓失敗
+# 大空 みぎり
+JP はぁ…。
+JP 私…特訓って向いてないみたいです。
+EN Sigh... I guess special training isn't for me.
+
+@ 113.16
+# scene 118 休養
+# 大空 みぎり
+JP お休みですかぁ…。
+JP 本でも読み直そうかしら。
+JP 内容、覚えてないし。
+EN A day off...? Maybe I'll reread a book. I don't
+EN remember how it goes anyway.
+
+@ 114.16
+# scene 119 入場1
+# 大空 みぎり
+JP とりあえず、ぶっ飛ばしますね～。
+EN For now, I'll just knock you flying.
+
+@ 115.16
+# scene 119 入場2
+# 大空 みぎり
+JP ふふふふ…。
+JP 私を止められる人なんて
+JP いるのかしら？
+EN Fufufufu... I wonder, is there anyone who can stop
+EN me?
+
+@ 116.17
+# scene 120 タッグマッチ ベスト
+# 大空 みぎり
+JP 世界の覇者の力
+JP 頼りにしてますよ～。
+EN I'm counting on the power of a world champion.
+
+@ 117.17
+# scene 122 タッグマッチ ベター２
+# 大空 みぎり
+JP どんどん投げちゃってくださいね～。
+EN Go ahead and throw them all you like.
+
+@ 118.16
+# scene 125 必殺技１
+# 大空 みぎり
+JP 歯を食いしばってくださいね～。
+EN Please grit your teeth.
+
+@ 119.16
+# scene 125 必殺技２
+# 大空 みぎり
+JP 壊れたらいやですよ～。
+EN Please don't break on me.
+
+@ 120.16
+# scene 125 必殺技３
+# 大空 みぎり
+JP 人間、だれでも１度は
+JP 死ぬんですよね…。
+EN Everyone has to die once, don't they...
+
+@ 121.12
+# scene 126 勝利1
+# 大空 みぎり
+JP 勝たせていただきました～。
+EN Thank you for letting me win.
+
+@ 122.12
+# scene 126 勝利2
+# 大空 みぎり
+JP あら、もう終わりですか～？
+EN Oh my, is it over already?
+
+@ 123.12
+# scene 126 勝利3
+# 大空 みぎり
+JP 私と戦うなんて…。
+JP 運が悪かったですね～。
+EN Fighting me... What bad luck you had.
+
+@ 124.15
+# scene 133 表彰1
+# 大空 みぎり
+JP ありがとうございます。
+JP 嬉しいです～。
+EN Thank you very much. I'm so happy.
+
+@ 125.15
+# scene 133 表彰2
+# 大空 みぎり
+JP 社長～、見てますか～。
+JP やりましたよ～。
+EN Boss, are you watching? I did it!
+
+@ 126.12
+# scene 134 優勝1
+# 大空 みぎり
+JP うふふふ、恥ずかしながら
+JP 優勝いただきました～。
+EN Ufufufu, it's a little embarrassing, but I won the
+EN tournament.
+
+@ 127.12
+# scene 134 優勝２
+# 大空 みぎり
+JP 優勝ってこんなにも
+JP 嬉しいものなんですね～。
+EN I never knew winning a tournament could feel this
+EN wonderful.
+
+@ 128.24
+# scene 135 エンディング 通常
+# 大空 みぎり
+JP おめでとうございます～。
+JP ええと、何がめでたいんでしたっけ？
+EN Congratulations. Um, what are we celebrating again?
+
+@ 129.24
+# scene 136 エンディング 好意
+# 大空 みぎり
+JP おめでとうございます～。
+JP 私、社長のことだけは
+JP 一生忘れられそうにありません…。
+EN Congratulations. You're the one person, Boss, I
+EN don't think I'll ever be able to forget...

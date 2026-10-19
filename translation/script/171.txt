@@ -1,0 +1,2407 @@
+# /SCR/171.BIN - 山本 久美
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 171` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 山本 久美
+JP あ、あの…山本です。
+JP よ、よろしくお願いします…。
+EN U-um... I'm Yamamoto. P-pleased to meet you...
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 山本 久美
+JP ありがとうございます。
+JP がんばります。
+EN Thank you very much. I'll do my best.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 山本 久美
+JP わかりました…。
+JP すみません…。
+JP お邪魔しました。
+EN I understand... I'm sorry... Sorry to have bothered
+EN you.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here.
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「怒れる猛熊、最凶のヒール！」と
+JP あるが…。
+EN The scouting report says "Raging bear, the most
+EN vicious heel of all!"...
+
+@ 3.27
+# 社 長
+JP なんだか、強烈だな。
+JP まさか、いきなり襲われたり
+JP しないだろうな。
+EN That sounds intense. I hope she doesn't jump me out
+EN of nowhere.
+
+@ 3.29
+# 社 長
+JP しかし、それらしい女性がいないぞ。
+JP おかしいな、ここにいると
+JP 聞いたんだが…。
+EN But I don't see anyone who looks like her. Strange, I
+EN was told she'd be here...
+
+@ 3.31
+# 社 長
+JP とりあえず
+JP あの人に聞いてみるか。
+EN For now, let me ask that woman.
+
+@ 3.33
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 3.43
+# ？？？
+JP はい…。
+JP なんでしょうか？
+EN Yes...? Can I help you?
+
+@ 3.46
+# 社 長
+JP このあたりで
+JP こんな方を見ませんでしたか？
+EN Have you seen someone like this around here?
+
+@ 3.48
+# 社 長
+JP （俺はスカウトが用意してくれた
+JP 　彼女のリングコスチューム写真を
+JP 　見せてみた）
+EN (I showed her the photo of her in ring gear that the
+EN scout had given me.)
+
+@ 3.55
+# ？？？
+JP …えっ！
+JP あ、あの…。
+JP どういったご用件で…？
+EN ...Huh! U-um... What is this about...?
+
+@ 3.58
+# 社 長
+JP 実は私はプロレス団体を
+JP 経営している者でして
+JP 彼女をスカウトに来たんです。
+EN Actually, I run a pro-wrestling promotion, and I came
+EN to scout her.
+
+@ 3.62
+# ？？？
+JP プロレス…？
+JP スカウト…？
+EN Pro wrestling...? Scout...?
+
+@ 3.65
+# 社 長
+JP はい。
+JP どこにいるか
+JP ご存じではありませんか？
+EN Yes. Do you know where I could find her?
+
+@ 3.72
+# ？？？
+JP あっ、その…。
+JP め、目の前に…。
+EN Oh, um... S-she's right in front of you...
+
+@ 3.75
+# 社 長
+JP 目の前？
+JP …って、あの、まさか…？
+EN In front of me? ...Wait, you don't mean...?
+
+@ 3.82
+# ？？？
+JP ………………。
+EN ..................
+
+@ 3.85
+# 社 長
+JP （ええっ！
+JP 　でも、こんな物静かな女性が…。
+JP 　資料の間違いか？）
+EN (What?! A quiet woman like this...? Is the report
+EN wrong?)
+
+@ 3.87
+# 社 長
+JP あの、本当にあなたなんですか？
+EN Um, is it really you?
+
+@ 3.91
+# 山本 久美
+JP …はい……。
+EN ...Yes......
+
+@ 3.94
+# 社 長
+JP （驚いたなあ。
+JP 　試合の姿とはえらい違いだ）
+EN (Well, that's a surprise. She's nothing like she is in
+EN the ring.)
+
+@ 3.96
+# 社 長
+JP （でもたしかに、よく見ると
+JP 　結構強そうだぞ）
+EN (But looking closely, she does look pretty strong.)
+
+@ 3.98
+# 社 長
+JP あの、それでは改めて
+JP いかがでしょうか。
+JP 引き受けてもらえませんか？
+EN Well then, let me ask properly. Would you consider
+EN joining us?
+
+@ 3.105
+# 山本 久美
+JP …レスリングは好きですけど…。
+JP プロとなると…。
+JP あの、その…。
+EN ...I do like wrestling... But going pro... Um, well...
+
+@ 3.108
+# 社 長
+JP （ちょっと難しそうかな…）
+EN (This might be a tough sell...)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 山本 久美
+JP や、やります。
+EN I-I'll do it.
+
+@ 4.22
+# 社 長
+JP …えっ、本当ですか？
+EN ...What, really?
+
+@ 4.29
+# 山本 久美
+JP ちょっとコワイですけど…。
+JP でも、がんばってみます。
+EN It's a little scary... But I'll give it my best.
+
+@ 4.32
+# 社 長
+JP そうですか。
+JP それはよかった！
+EN I see. That's great!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 山本 久美
+JP やっぱり、プロは怖くて…。
+JP すみません…。
+EN Going pro is just too scary... I'm sorry...
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしか
+JP このあたりだったはずだが…。
+EN Let's see, it should have been around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Excuse me.
+
+@ 6.35
+# 山本 久美
+JP …あっ、先日の…。
+EN ...Oh, you're the man from the other day...
+
+@ 6.38
+# 社 長
+JP あの、もう一度考え直して
+JP もらえないでしょうか？
+EN Would you please reconsider my offer?
+
+@ 6.45
+# 山本 久美
+JP ええっ？
+JP …ああ、どうしよう。
+EN What? ...Oh, what should I do...
+
+@ 6.48
+# 社 長
+JP どうかお願いします。
+EN Please, I'm asking you.
+
+@ 6.50
+# 社 長
+JP （やはり厳しいのかな…）
+EN (Still a tough one, I guess...)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 山本 久美
+JP や、やります。
+EN I-I'll do it.
+
+@ 7.22
+# 社 長
+JP …えっ、本当ですか？
+EN ...What, really?
+
+@ 7.29
+# 山本 久美
+JP ちょっとコワイですけど…。
+JP でも、がんばってみます。
+EN It's a little scary... But I'll give it my best.
+
+@ 7.32
+# 社 長
+JP そうですか。
+JP それはよかった！
+EN I see. That's great!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 山本 久美
+JP やっぱり、プロは怖くて…。
+JP すみません…。
+EN Going pro is just too scary... I'm sorry...
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は山本選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Yamamoto.
+
+@ 9.25
+# 社 長
+JP 彼女は人気と実力を兼ね備えた
+JP ヒールレスラーだ。
+EN She's a heel with both popularity and real ability.
+
+@ 9.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined our promotion, our shows would get
+EN even livelier, no doubt about it.
+
+@ 9.29
+# 社 長
+JP ただ、噂によると
+JP リングの外では別人のように
+JP 物静かな女性らしい。
+EN Rumor has it, though, that outside the ring she's a
+EN quiet woman, like a different person.
+
+@ 9.31
+# 社 長
+JP リングの上でがんばってくれれば
+JP 問題はないだろう。
+EN As long as she gives it her all in the ring, that
+EN shouldn't be a problem.
+
+@ 9.33
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 9.35
+# 社 長
+JP ああ、いた！
+EN Ah, there she is!
+
+@ 9.37
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 9.47
+# 山本 久美
+JP …なんでしょうか？
+EN ...Can I help you?
+
+@ 9.50
+# 社 長
+JP （本当に雰囲気が違う。
+JP 　凶悪なヒールには見えないな）
+EN (She really does give off a different vibe. She
+EN doesn't look like a vicious heel.)
+
+@ 9.52
+# 社 長
+JP （でも、鍛えられた体をしているし
+JP 　活躍してくれそうだぞ）
+EN (But her body is well trained. She'd be a real asset.)
+
+@ 9.54
+# 社 長
+JP 実はですね…。
+EN The thing is...
+
+@ 9.56
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.63
+# 山本 久美
+JP 移籍の…お話ですか？
+EN You're asking me...to transfer?
+
+@ 9.66
+# 社 長
+JP そうです。
+JP どうでしょうか？
+EN That's right. What do you say?
+
+@ 9.70
+# 山本 久美
+JP とても嬉しいお話ですけど…。
+EN It's a very kind offer, but...
+
+@ 9.73
+# 社 長
+JP （ちょっと難しそうかな？）
+EN (Looks like a tough one...)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 山本 久美
+JP わかりました。
+JP …がんばってみます。
+EN I understand. ...I'll do my best.
+
+@ 10.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 10.29
+# 山本 久美
+JP こちらこそ…。
+JP よろしくお願いします。
+EN The same to you... I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 山本 久美
+JP 今の団体を裏切れません…。
+JP すみません。
+EN I can't betray my current promotion... I'm sorry.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 山本選手が必要だ。
+EN Our promotion really needs Yamamoto.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 山本選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 12.37
+# 山本 久美
+JP …あっ、先日の…。
+EN ...Oh, you're the man from the other day...
+
+@ 12.40
+# 社 長
+JP 実はどうしても
+JP うちの団体に入って欲しくて…。
+EN The truth is, I really want you in our promotion...
+
+@ 12.47
+# 山本 久美
+JP ええっ！
+JP そのお話は前にお断りしたと
+JP 思うんですけど…。
+EN What?! I believe I already turned that offer down...
+
+@ 12.50
+# 社 長
+JP そこをなんとか。
+JP なんとかお願いします！
+EN I know, but please. Please, I'm begging you!
+
+@ 12.54
+# 山本 久美
+JP そんなことを言われても
+JP 困ります…。
+EN Even if you say that, it puts me in a difficult spot...
+
+@ 12.57
+# 社 長
+JP （やはり難しいのか？）
+EN (Is it still no good?)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 山本 久美
+JP わかりました。
+JP …がんばってみます。
+EN I understand. ...I'll do my best.
+
+@ 13.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 13.29
+# 山本 久美
+JP こちらこそ…。
+JP よろしくお願いします。
+EN The same to you... I look forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 山本 久美
+JP 今の団体を裏切れません…。
+JP すみません。
+EN I can't betray my current promotion... I'm sorry.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は山本選手と交渉してみる
+JP ことにした。
+EN I decided to try negotiating with Yamamoto.
+
+@ 15.25
+# 社 長
+JP 彼女の迫力あるラフファイトは
+JP ヒールとしてうってつけだ。
+EN Her intense brawling style makes her a perfect heel.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined our promotion, our shows would get
+EN even livelier, no doubt about it.
+
+@ 15.29
+# 社 長
+JP ただ、噂によると
+JP リングの外では別人のように
+JP 物静かな女性らしい。
+EN Rumor has it, though, that outside the ring she's a
+EN quiet woman, like a different person.
+
+@ 15.31
+# 社 長
+JP リングの上でがんばってくれれば
+JP 問題はないだろう。
+EN As long as she gives it her all in the ring, that
+EN shouldn't be a problem.
+
+@ 15.33
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 15.35
+# 社 長
+JP あっ、いた！
+EN Oh, there she is!
+
+@ 15.37
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 15.47
+# 山本 久美
+JP …はい、なんでしょうか？
+EN ...Yes, can I help you?
+
+@ 15.50
+# 社 長
+JP （たしかにとても
+JP 　凶悪なヒールとは思えないな）
+EN (She sure doesn't seem like a vicious heel.)
+
+@ 15.52
+# 社 長
+JP （でも、体は鍛えられているし
+JP 　やはりいい選手に間違いない）
+EN (But her body is well trained. She's a good wrestler,
+EN no question.)
+
+@ 15.54
+# 社 長
+JP 実はですね…。
+EN The thing is...
+
+@ 15.56
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and made her an offer.)
+
+@ 15.63
+# 山本 久美
+JP 社長さんの団体に
+JP 入って欲しいというお話ですか？
+EN You're asking me to join your promotion, President?
+
+@ 15.66
+# 社 長
+JP はい。
+JP どうでしょうか？
+EN Yes. What do you say?
+
+@ 15.73
+# 山本 久美
+JP 大変嬉しく思います。
+JP でも、私なんかに務まるでしょうか？
+EN I'm very honored. But could someone like me really
+EN handle it?
+
+@ 15.76
+# 社 長
+JP もちろんです。
+JP どうか力を貸してください！
+EN Of course. Please, lend us your strength!
+
+@ 15.83
+# 山本 久美
+JP そう言われても…。
+EN Even if you say that...
+
+@ 15.86
+# 社 長
+JP （ちょっと厳しいかな？）
+EN (Looks like a tough one.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 山本 久美
+JP …わかりました。
+JP 入団させていただきます。
+EN ...I understand. I'd be glad to join.
+
+@ 16.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 16.29
+# 山本 久美
+JP いえ、そんな…。
+JP こちらこそ、ありがとうございます。
+EN Oh, no... Thank you, too.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 山本 久美
+JP ごめんなさい。
+JP やはりフリーでがんばってみます。
+EN I'm sorry. I think I'll keep trying as a freelancer.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 山本選手が必要だ。
+EN Our promotion really needs Yamamoto.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 山本選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 18.37
+# 山本 久美
+JP …あっ、先日の…。
+JP また、入団のお話でしょうか？
+EN Oh, you're the man from the other day... Is this about
+EN joining again?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入ってもらいたいんです。
+EN Yes. I really want you to join our promotion.
+
+@ 18.47
+# 山本 久美
+JP ありがたいお話ですけど
+JP 私には無理そうで…。
+EN It's a kind offer, but I don't think I'm up to it...
+
+@ 18.50
+# 社 長
+JP 大丈夫です！
+JP 俺を信じて
+JP 入団してもらえないですか？
+EN You'll be fine! Trust me and join us, won't you?
+
+@ 18.54
+# 山本 久美
+JP そう言われても…。
+EN Even if you say that...
+
+@ 18.57
+# 社 長
+JP （やはり難しいか？）
+EN (Still no good?)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 山本 久美
+JP …わかりました。
+JP 入団させていただきます。
+EN ...I understand. I'd be glad to join.
+
+@ 19.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 19.29
+# 山本 久美
+JP いえ、そんな…。
+JP こちらこそ、ありがとうございます。
+EN Oh, no... Thank you, too.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 山本 久美
+JP ごめんなさい。
+JP やはりフリーでがんばってみます。
+EN I'm sorry. I think I'll keep trying as a freelancer.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は山本を訪ねることにした。
+EN I decided to pay Yamamoto a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler our promotion needs, after all.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Oh, there she is!
+
+@ 21.31
+# 社 長
+JP 山本っ！
+EN Yamamoto!
+
+@ 21.41
+# 山本 久美
+JP 社長…？
+EN Boss...?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.48
+# 山本 久美
+JP …はい。
+JP その節は色々お世話になりました。
+EN ...Yes. Thank you for everything back then.
+
+@ 21.51
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you. I want you to
+EN come back.
+
+@ 21.58
+# 山本 久美
+JP …ええっ！
+JP …でも、あのとき、きっぱりと…。
+EN ...What?! ...But back then, you were so firm...
+
+@ 21.61
+# 社 長
+JP わかっている。
+JP たしかにこんなことを頼めた
+JP 義理じゃないんだが…。
+EN I know. I'm in no position to ask you something like
+EN this, but...
+
+@ 21.63
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 山本 久美
+JP 私なんかが、今さら社長のお役に
+JP 立つのでしょうか？
+EN Could someone like me really be of any use to you
+EN now, Boss?
+
+@ 22.18
+# 社 長
+JP あのときのことは謝る。
+JP 力を貸して欲しいんだ。
+EN I apologize for what happened back then. I need your
+EN help.
+
+@ 22.29
+# 山本 久美
+JP …わかりました。
+JP 社長を信じて
+JP もう一度がんばってみます。
+EN ...I understand. I'll trust you, Boss, and give it my
+EN best once more.
+
+@ 22.32
+# 社 長
+JP そうか…。
+JP ありがとう。
+JP またよろしくな。
+EN I see... Thank you. Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 山本 久美
+JP もう私ができることはありません…。
+EN There's nothing more I can do...
+
+@ 23.22
+# 社 長
+JP そんなことはない。
+JP 頼む、戻ってきてくれ。
+EN That's not true. Please, come back.
+
+@ 23.26
+# 山本 久美
+JP いえ、もう無理です…。
+JP とても私には…すみません…。
+EN No, I just can't... It's too much for me... I'm sorry...
+
+@ 23.29
+# 社 長
+JP そうか…。
+JP わかった…。
+JP 悪かったな。
+EN I see... All right... Sorry about that.
+
+@ 23.31
+# 社 長
+JP （身から出たサビか…）
+EN (I made my own bed, I guess...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び山本を訪ねることにした。
+EN I decided to visit Yamamoto again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler our promotion needs, after all.
+
+@ 24.27
+# 社 長
+JP 山本っ！
+EN Yamamoto!
+
+@ 24.37
+# 山本 久美
+JP 社長…。
+EN Boss...
+
+@ 24.40
+# 社 長
+JP すまない。
+JP もう一度話を聞いてくれ。
+EN I'm sorry. Please hear me out once more.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 山本 久美
+JP 私なんかが、今さら社長のお役に
+JP 立つのでしょうか？
+EN Could someone like me really be of any use to you
+EN now, Boss?
+
+@ 25.18
+# 社 長
+JP あのときのことは謝る。
+JP 力を貸して欲しいんだ。
+EN I apologize for what happened back then. I need your
+EN help.
+
+@ 25.29
+# 山本 久美
+JP …わかりました。
+JP 社長を信じて
+JP もう一度がんばってみます。
+EN ...I understand. I'll trust you, Boss, and give it my
+EN best once more.
+
+@ 25.32
+# 社 長
+JP そうか…。
+JP ありがとう。
+JP またよろしくな。
+EN I see... Thank you. Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 山本 久美
+JP もう私ができることはありません…。
+EN There's nothing more I can do...
+
+@ 26.22
+# 社 長
+JP そんなことはない。
+JP 頼む、戻ってきてくれ。
+EN That's not true. Please, come back.
+
+@ 26.26
+# 山本 久美
+JP いえ、もう無理です…。
+JP とても私には…すみません…。
+EN No, I just can't... It's too much for me... I'm sorry...
+
+@ 26.29
+# 社 長
+JP そうか…。
+JP わかった…。
+JP 悪かったな。
+EN I see... All right... Sorry about that.
+
+@ 26.31
+# 社 長
+JP （身から出たサビか…）
+EN (I made my own bed, I guess...)
+
+@ 27.16
+# scene 028 ケガ小
+# 山本 久美
+JP この程度なら、まだ大丈夫です。
+EN This much is nothing. I'm still all right.
+
+@ 28.16
+# scene 029 ケガ大
+# 山本 久美
+JP すみません…。
+JP 痛めてしまいました。
+EN I'm sorry... I've hurt myself.
+
+@ 29.16
+# scene 030 入院
+# 山本 久美
+JP きちんと治してから
+JP またがんばります。
+EN I'll heal up properly, then get back to work.
+
+@ 30.16
+# scene 031 退院
+# 山本 久美
+JP また、今日からがんばります。
+EN I'll get back to work starting today.
+
+@ 31.16
+# scene 032 ケガ完治
+# 山本 久美
+JP もう平気です。
+JP ご心配をおかけしました。
+EN I'm fine now. Sorry to have worried you.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 山本 久美
+JP 社長がそう言うのなら…。
+EN If that's what you think, Boss...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 山本 久美
+JP もう少し、がんばらせてください。
+EN Please, let me keep going a little longer.
+
+@ 34.16
+# scene 035 コーチ就任
+# 山本 久美
+JP 私にコーチなんて
+JP できるでしょうか…？
+EN Could someone like me really be a coach...?
+
+@ 35.16
+# scene 036 ケガ引退
+# 山本 久美
+JP もう、がんばるのは無理みたいです。
+EN It looks like I can't keep going anymore.
+
+@ 36.16
+# scene 037 年齢引退
+# 山本 久美
+JP これまでお世話になりました。
+EN Thank you for everything all this time.
+
+@ 37.16
+# scene 038 退団
+# 山本 久美
+JP ここには、もう私ができることは
+JP ありません…。
+EN There's nothing more I can do here...
+
+@ 38.16
+# scene 039 スランプ
+# 山本 久美
+JP なんだか、体が言うことを
+JP 聞かなくて…。
+EN Somehow my body just won't listen to me...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 山本 久美
+JP ファンクラブ？
+JP …あの、私のですか？
+EN A fan club? ...Um, for me?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Give it your all, so you live up to their cheering.
+
+@ 39.26
+# 山本 久美
+JP 嬉しいです。
+JP 一生懸命がんばります。
+EN I'm so happy. I'll work as hard as I can.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 山本 久美
+JP ファンクラブ？
+JP …あの、またですか？
+EN A fan club? ...Um, another one?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their expectations.
+
+@ 40.26
+# 山本 久美
+JP 感激です。
+JP もっともっとがんばります。
+EN I'm so moved. I'll work even harder.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 山本 久美
+JP ファンを失望させて
+JP しまったんですね…。
+EN I've disappointed my fans, haven't I...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just give it your best
+EN again.
+
+@ 41.26
+# 山本 久美
+JP はい…。
+JP もう一度ファンになってもらえるように
+JP がんばります。
+EN Yes... I'll work hard so they become my fans again.
+
+@ 42.16
+# scene 043 映画出演
+# 山本 久美
+JP ひょっとして…。
+JP 怪獣の役とかでしょうか？
+EN Could it be... I'm playing a monster or something?
+
+@ 43.16
+# scene 044 一日署長
+# 山本 久美
+JP 私が逮捕される
+JP イベントじゃないですよね…？
+EN It's not an event where I get arrested...is it?
+
+@ 44.16
+# scene 045 写真集発売
+# 山本 久美
+JP …恥ずかしいです……。
+EN ...It's embarrassing......
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 山本 久美
+JP イメージダウンにならないと
+JP いいんですけど…。
+EN I hope I don't hurt their image...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 山本 久美
+JP …うまく歌えるといいんですけど。
+EN ...I hope I can sing well.
+
+@ 47.16
+# scene 048 始球式
+# 山本 久美
+JP 恥をかかないように
+JP 練習してきます。
+EN I'll go practice so I don't embarrass myself.
+
+@ 48.16
+# scene 049 学園祭
+# 山本 久美
+JP いつもみたいにやっちゃって
+JP いいんでしょうか…？
+EN Is it okay if I act like I always do...?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# 山本 久美
+JP ええっ！
+JP 私にくださるんですか！
+EN What?! This is for me?!
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.46
+# 山本 久美
+JP …ありがとうございます！
+JP 本当に嬉しいです…。
+EN ...Thank you so much! I'm really happy...
+
+@ 50.30
+# scene 051 バレンタインデー
+# 山本 久美
+JP あの、今日はバレンタインなので…。
+EN Um, since today's Valentine's Day...
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thank you.
+
+@ 50.37
+# 山本 久美
+JP がんばって作ったんですけど…。
+JP おいしくなかったら、すみません。
+EN I worked hard on them, but... I'm sorry if they're not
+EN good.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# 山本 久美
+JP ええっ、そんな…。
+JP 嬉しいです。
+JP ありがとうございます。
+EN Oh my, you shouldn't have... I'm so happy. Thank you
+EN very much.
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.29
+# scene 053 サイン会
+# 山本 久美
+JP おらおら、さっさと並びな！
+EN Ora, ora! Get in line, and make it quick!
+
+@ 53.29
+# scene 054 コンサート
+# 山本 久美
+JP ちゃんと聞いてねえと
+JP ぶっ飛ばすかんな！
+EN If ya ain't listenin' right, I'm gonna knock ya flat!
+
+@ 54.26
+# scene 055 練習拒否
+# 山本 久美
+JP 少し休ませてください。
+EN Please let me rest a little.
+
+@ 55.28
+# scene 056 失踪
+# 山本 久美
+JP もう、イヤになりました…。
+EN I've had enough of all this...
+
+@ 56.16
+# scene 057 選手解雇
+# 山本 久美
+JP そんな…。
+JP ぐすっ…。
+EN But... *sniff*...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 山本 久美
+JP …がんばってきます。
+EN ...I'll do my best over there.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 山本 久美
+JP …とても勉強になりました。
+EN ...I learned so much.
+
+@ 59.28
+# scene 060 移籍思案
+# 山本 久美
+JP この団体を裏切るなんてことは…。
+EN Betraying this promotion is something I just...
+
+@ 60.16
+# scene 061 革命軍結成
+# 山本 久美
+JP 悪い血は早く出してしまわないと…。
+EN Bad blood has to be let out quickly...
+
+@ 61.16
+# scene 062 反乱軍結成
+# 山本 久美
+JP これだけはどうしても
+JP 納得がいかない…。
+EN This is the one thing I just can't accept...
+
+@ 62.16
+# scene 063 最終決戦要求
+# 山本 久美
+JP 力と力を思いきり
+JP ぶつけ合いましょう。
+EN Let's clash, power against power, with everything
+EN we've got.
+
+@ 63.16
+# scene 064 遺恨発生
+# 山本 久美
+JP あれだけは…許せません…。
+EN That one thing... I can't forgive it...
+
+@ 64.16
+# scene 065 殴り込み
+# 山本 久美
+JP パワーで粉砕してきます！
+EN I'll crush them with power!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 山本 久美
+JP パワーで撃退してやります！
+EN I'll drive them off with power!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 山本 久美
+JP おらおら！
+JP 私に挑もうっていうヤツはいるか？
+EN Ora, ora! Anybody here think they can take me on?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 山本 久美
+JP 私のパワーを活かすときが
+JP 来たようだな！
+EN Looks like it's time to put my power to work!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 山本 久美
+JP パワーの勝利だな！
+EN Power wins again!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 山本 久美
+JP 私のパワーが通じないとは…。
+EN My power didn't work...?
+
+@ 70.13
+# scene 071 引退式
+# 山本 久美
+JP これまでありがとう…。
+JP グスッ、グスッ…さようなら…。
+EN Thank you for everything... *sniff, sniff*...
+EN Goodbye...
+
+@ 71.18
+# 山本 久実
+JP なんでしょうか？
+EN Can I help you?
+
+@ 71.37
+# 山本 久実
+JP はい、なんですか？
+EN Yes, what is it?
+
+@ 71.47
+# 山本 久実
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# 山本 久実
+JP ありがとうございます。
+JP がんばります。
+EN Thank you very much. I'll do my best.
+
+@ 71.111
+# 山本 久実
+JP …すみません。
+EN ...I'm sorry.
+
+@ 71.132
+# 山本 久実
+JP 嬉しいです…。
+JP 見ていてくださっているのですね。
+EN I'm so happy... You've been watching me, haven't you.
+
+@ 71.153
+# 山本 久実
+JP ちゃんと私のことを
+JP 見てくださっているんですか…？
+EN Are you really paying attention to me...?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 山本 久実
+JP …すみませんでした。
+EN ...I'm very sorry.
+
+@ 71.211
+# 山本 久実
+JP そんなことないのですけど…。
+EN I don't think that's true, but...
+
+@ 71.232
+# 山本 久実
+JP ごめんなさい。
+JP 少したるんでいました。
+EN I'm sorry. I was slacking off a little.
+
+@ 71.253
+# 山本 久実
+JP そんなこと言われるなんて…。
+EN To think you'd say that to me...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# 山本 久実
+JP すみません…。
+JP 気を遣ってくださって。
+EN I'm sorry... Thank you for worrying about me.
+
+@ 71.311
+# 山本 久実
+JP 少し放っておいてください。
+EN Please leave me alone for a while.
+
+@ 71.332
+# 山本 久実
+JP 社長にそう言っていただけたら…。
+JP 急に元気が出てきました。
+EN Hearing that from you, Boss... I suddenly feel full of
+EN energy.
+
+@ 71.353
+# 山本 久実
+JP 一人にしておいてください…。
+JP そのうち治ります…。
+EN Please leave me alone... I'll get over it eventually...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 山本 久実
+JP はい、なんとなく…。
+EN Yes, I have an idea...
+
+@ 71.400
+# 山本 久実
+JP いえ、全然わからないんですが…。
+EN No, I have no idea at all...
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 山本 久実
+JP そうですね。
+JP ここは私が折れましょう。
+EN All right. I'll be the one to back down this time.
+
+@ 71.454
+# 山本 久実
+JP もう少し時間をください…。
+EN Please give me a little more time...
+
+@ 71.475
+# 山本 久実
+JP なんのお話をされているんですか？
+EN What are you talking about?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 山本 久実
+JP はい…。
+JP わかります。
+EN Yes... I know.
+
+@ 71.522
+# 山本 久実
+JP 何も思い当たらないんですけど…。
+EN I can't think of anything...
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 山本 久実
+JP …わかりました。
+JP 社長のお願いは拒めません。
+EN ...All right. I can't refuse a request from you, Boss.
+
+@ 71.578
+# 山本 久実
+JP 社長のお願いでも
+JP こればかりは…。
+EN Even if you ask, Boss, this one thing...
+
+@ 71.599
+# 山本 久実
+JP すみません。
+JP 他の人の話だと思うのですけど…。
+EN I'm sorry. I think you have someone else in mind...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 山本 久美
+JP はい、なんですか？
+EN Yes, what is it?
+
+@ 72.16
+# 山本 久美
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 山本 久美
+JP ありがとうございます。
+JP がんばります。
+EN Thank you very much. I'll do my best.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 山本 久美
+JP …すみません。
+EN ...I'm sorry.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 山本 久美
+JP 嬉しいです。
+JP …見ていてくださっているのですね。
+EN I'm so happy... You've been watching me, haven't you.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 山本 久美
+JP ちゃんと私のことを
+JP 見てくださっているんですか…？
+EN Are you really paying attention to me...?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 山本 久美
+JP …すみませんでした。
+EN ...I'm very sorry.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 山本 久美
+JP そんなことないのですけど…。
+EN I don't think that's true, but...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 山本 久美
+JP ごめんなさい。
+JP 少したるんでいました。
+EN I'm sorry. I was slacking off a little.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 山本 久美
+JP そんなこと言われるなんて…。
+EN To think you'd say that to me...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.14
+# scene 085 会話 はげます 通常 成功
+# 山本 久実
+JP すみません、
+JP 気を遣ってくださって。
+EN I'm sorry... Thank you for worrying about me.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 山本 久美
+JP 少し放っておいてください。
+EN Please leave me alone for a while.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 山本 久美
+JP 社長にそう言っていただけたら…。
+JP 急に元気が出てきました。
+EN Hearing that from you, Boss... I suddenly feel full of
+EN energy.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 山本 久美
+JP ひとりにしておいてください…。
+JP そのうち治ります…。
+EN Please leave me alone... I'll get over it eventually...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 山本 久美
+JP はい、なんとなく…。
+EN Yes, I have an idea...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 山本 久美
+JP いえ、全然わからないんですが…。
+EN No, I have no idea at all...
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 山本 久美
+JP そうですね。
+JP ここは私が折れましょう。
+EN All right. I'll be the one to back down this time.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 山本 久美
+JP もう少し時間をください…。
+EN Please give me a little more time...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 山本 久美
+JP なんのお話をされているんですか？
+EN What are you talking about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 山本 久美
+JP はい…。
+JP わかります。
+EN Yes... I know.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 山本 久美
+JP 何も思い当たらないんですけど…。
+EN I can't think of anything...
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 山本 久美
+JP …わかりました。
+JP 社長のお願いは拒めません。
+EN ...All right. I can't refuse a request from you, Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 山本 久美
+JP 社長のお願いでも、
+JP こればかりは…。
+EN Even if you ask, Boss, this one thing...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 山本 久美
+JP すみません。
+JP 他の人の話だと思うのですけど…。
+EN I'm sorry. I think you have someone else in mind...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 山本 久美
+JP これからもがんばります。
+EN I'll keep doing my best.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 山本 久美
+JP 嬉しかったです。
+JP 必ずその期待に応えてみせます。
+EN I was so happy. I'll be sure to live up to your
+EN expectations.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 山本 久美
+JP 残念でした。
+JP 私のパワーがその程度しか
+JP 評価されないなんて…。
+EN That was disappointing. To think my power is valued
+EN so little...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （ふぅ…空気が澄んでいて
+JP 　気持ちいいな）
+EN (Phew... The air is so clean. This feels great.)
+
+@ 105.33
+# 社 長
+JP （眠れないから外に出てきたけど…）
+EN (I couldn't sleep, so I came outside...)
+
+@ 105.35
+# 社 長
+JP （星も綺麗だし
+JP 　夜の散歩も悪くないな）
+EN (The stars are beautiful, too. A night walk isn't bad
+EN at all.)
+
+@ 105.37
+# 社 長
+JP （…んっ？
+JP 　あれは…山本か？）
+EN (...Hm? Is that... Yamamoto?)
+
+@ 105.47
+# 山本 久美
+JP あっ…社長。
+EN Oh... Boss.
+
+@ 105.50
+# 社 長
+JP 山本も寝られないのか？
+EN You can't sleep either, Yamamoto?
+
+@ 105.54
+# 山本 久美
+JP 波の音を聞いていたら
+JP 夜の浜辺を歩きたくなったので…。
+EN Listening to the waves made me want to walk on the
+EN beach at night...
+
+@ 105.57
+# 社 長
+JP そうか。
+EN I see.
+
+@ 105.59
+# 社 長
+JP 少し一緒に散歩するか？
+EN Want to take a walk together for a bit?
+
+@ 105.66
+# 山本 久美
+JP いいんですか？
+JP ありがとうございます。
+EN Is that all right? Thank you.
+
+@ 105.88
+# 山本 久美
+JP …フゥ～……。
+EN ...Haaah......
+
+@ 105.91
+# 社 長
+JP どうした？
+JP 何か悩みでもあるのか？
+EN What's wrong? Is something bothering you?
+
+@ 105.95
+# 山本 久美
+JP あ、あの…。
+JP 最近、お客さんの反応が
+JP 気になって…。
+EN U-um... Lately I've been worried about how the crowd
+EN reacts to me...
+
+@ 105.98
+# 社 長
+JP どういうことだ？
+EN What do you mean?
+
+@ 105.102
+# 山本 久美
+JP なんだか最近、自分が暴れるだけの
+JP ヒールになっている気が
+JP しているんです。
+EN Lately I feel like I've become a heel who does nothing
+EN but run wild.
+
+@ 105.106
+# 山本 久美
+JP 盛り上がりも
+JP イマイチに思えますし…。
+JP このままでいいのか不安で…。
+EN The crowd doesn't seem that into it either... I'm
+EN worried if this is okay...
+
+@ 105.109
+# 社 長
+JP …うーむ。
+EN ...Hmm.
+
+@ 105.111
+# 社 長
+JP 色々な選手がいて
+JP それぞれに個性があるんだから
+JP 気にすることないと思うけどな。
+EN There are all kinds of wrestlers, each with their own
+EN style. I don't think you need to worry.
+
+@ 105.115
+# 山本 久美
+JP そうでしょうか？
+EN Do you think so?
+
+@ 105.118
+# 社 長
+JP そうだとも。
+JP それにヒールは強くあってこそ
+JP 盛り上がるんだ。
+EN I'm sure of it. Besides, a heel only gets the crowd
+EN going if she's strong.
+
+@ 105.120
+# 社 長
+JP ベビーフェイスの前に立ちはだかる
+JP 巨大な壁を目指すべきだろう。
+EN You should aim to be a giant wall standing in the
+EN faces' way.
+
+@ 105.127
+# 山本 久美
+JP そんな壁になったら
+JP 他のみんなに嫌われそうですね。
+EN If I became a wall like that, I think everyone else
+EN would hate me.
+
+@ 105.130
+# 社 長
+JP まあ、ヒールは嫌われてこそ
+JP 価値があるんだけどな。
+EN Well, a heel is only worth something if she's hated.
+
+@ 105.137
+# 山本 久美
+JP …でも、社長だけは
+JP 嫌わないでくださいね。
+EN ...But please, Boss, don't you ever hate me.
+
+@ 105.140
+# 社 長
+JP 当たり前だろ。
+JP ずっと応援してるって。
+EN Of course I won't. I'll always be cheering for you.
+
+@ 105.147
+# 山本 久美
+JP はい。
+JP 社長にそう言ってもらえると
+JP 安心できます。
+EN Okay. Hearing you say that puts my mind at ease.
+
+@ 105.150
+# 社 長
+JP プロレスに真剣な山本がいるから
+JP 俺だって安心だよ。
+EN Having someone as serious about wrestling as you
+EN puts my mind at ease, too.
+
+@ 105.157
+# 山本 久美
+JP そんなこと…。
+EN Oh, that's not...
+
+@ 105.160
+# 社 長
+JP いや。
+JP 本当だぞ？
+EN No, really. I mean it.
+
+@ 105.167
+# 山本 久美
+JP あっ…。
+EN Oh...
+
+@ 105.170
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 105.190
+# 山本 久美
+JP これ…綺麗な貝ですね…。
+EN This... What a pretty shell...
+
+@ 105.193
+# 社 長
+JP ああ。
+JP 本当だな。
+EN Yeah. It really is.
+
+@ 105.195
+# 社 長
+JP たしかホテルに
+JP 貝をネックレスにしてくれる
+JP サービスがあったぞ。
+EN I think the hotel has a service that turns shells into
+EN necklaces.
+
+@ 105.197
+# 社 長
+JP やってもらったらどうだ。
+EN Why not have them make you one?
+
+@ 105.207
+# 山本 久美
+JP はい。
+JP 思い出になります。
+EN Okay. It'll be a nice memento.
+
+@ 105.224
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.226
+# 社 長
+JP （次の日、俺は山本と一緒にホテルの
+JP 　サービスを利用することにした）
+EN (The next day, Yamamoto and I went to use the
+EN hotel's service together.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （あー、疲れた…。
+JP 　残業も楽じゃないな）
+EN (Man, I'm tired... Working overtime isn't easy.)
+
+@ 106.26
+# 社 長
+JP （そろそろ腹も減ってきたし…）
+EN (I'm getting hungry, too...)
+
+@ 106.28
+# 社 長
+JP （そういえばカップラーメンが
+JP 　残ってたな）
+EN (Come to think of it, I still have some cup noodles.)
+
+@ 106.40
+# 社 長
+JP はい、どうぞ。
+EN Come in.
+
+@ 106.53
+# 山本 久美
+JP 失礼します。
+EN Excuse me.
+
+@ 106.56
+# 社 長
+JP あっ、山本。
+JP 深夜まで手伝ってもらって
+JP 悪かったな。
+EN Oh, Yamamoto. Sorry for keeping you here helping
+EN out so late.
+
+@ 106.63
+# 山本 久美
+JP いえ…。
+JP いつでもおっしゃってください。
+EN Not at all... Just ask me anytime.
+
+@ 106.70
+# 山本 久美
+JP あの…。
+EN Um...
+
+@ 106.73
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 106.77
+# 山本 久美
+JP もしかして…。
+JP それが御夕食ですか？
+EN Could it be... That's your dinner?
+
+@ 106.80
+# 社 長
+JP あははは。
+JP まあ、ね。
+EN Ahaha. Well, yeah.
+
+@ 106.84
+# 山本 久美
+JP いけません！
+EN That won't do!
+
+@ 106.88
+# 山本 久美
+JP しっかり栄養を取らないと
+JP ダメです。
+EN You need to eat properly.
+
+@ 106.91
+# 社 長
+JP う…。
+JP すまん。
+EN Ugh... Sorry.
+
+@ 106.95
+# 山本 久美
+JP あの…キッチンをお借りして
+JP よろしいですか？
+EN Um... May I borrow the kitchen?
+
+@ 106.98
+# 社 長
+JP …えっ？
+JP 何する気だ？
+EN ...Huh? What are you going to do?
+
+@ 106.105
+# 山本 久美
+JP 何か作ってきます。
+JP ちょっと待っていてください。
+EN I'll make you something. Please wait a moment.
+
+@ 106.125
+# 山本 久美
+JP 社長。
+JP もうちょっとだけ
+JP 待っていてくださいね。
+EN Boss. Please wait just a little longer.
+
+@ 106.128
+# 社 長
+JP わざわざ買い物まで
+JP 行ってもらって…。
+JP 何から何まですまないな。
+EN You even went out shopping for this... Sorry to put
+EN you to all this trouble.
+
+@ 106.138
+# 山本 久美
+JP いいえ。
+JP いつでもおっしゃってください。
+EN Not at all. Just ask me anytime.
+
+@ 106.141
+# 社 長
+JP （その後、俺は豪華な食事に
+JP 　ありついたのだった）
+EN (After that, I got to enjoy a lavish meal.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （あー、疲れた…。
+JP 　残業も楽じゃないな）
+EN (Man, I'm tired... Working overtime isn't easy.)
+
+@ 107.26
+# 社 長
+JP （そろそろ腹も減ってきたし…）
+EN (I'm getting hungry, too...)
+
+@ 107.28
+# 社 長
+JP （そういえば前に食べ損ねた
+JP 　カップラーメンがあったな）
+EN (Come to think of it, there's that cup of noodles I
+EN never got to eat.)
+
+@ 107.40
+# 社 長
+JP はい、どうぞ。
+EN Come in.
+
+@ 107.54
+# 山本 久美
+JP 失礼します。
+EN Excuse me.
+
+@ 107.57
+# 社 長
+JP あっ、山本。
+JP 深夜まで手伝ってもらって悪いな。
+EN Oh, Yamamoto. Sorry for keeping you here helping
+EN out so late.
+
+@ 107.64
+# 山本 久美
+JP いえ…。
+JP いつでもおっしゃってください。
+EN Not at all... Just ask me anytime.
+
+@ 107.71
+# 山本 久美
+JP あっ…。
+EN Oh...
+
+@ 107.74
+# 社 長
+JP もしかして…。
+JP このカップラーメン？
+EN Don't tell me... It's these cup noodles?
+
+@ 107.78
+# 山本 久美
+JP またそんな食事なんですか？
+EN Are you eating like that again?
+
+@ 107.81
+# 社 長
+JP いやぁ。
+JP ついつい…。
+EN Well, you know. I just sort of...
+
+@ 107.85
+# 山本 久美
+JP いけません。
+EN That won't do.
+
+@ 107.89
+# 山本 久美
+JP しっかり栄養を取らないとダメです。
+EN You need to eat properly.
+
+@ 107.92
+# 社 長
+JP …すみません。
+EN ...I'm sorry.
+
+@ 107.99
+# 山本 久美
+JP では、キッチンをお借りしますね。
+EN Then I'll borrow the kitchen.
+
+@ 107.102
+# 社 長
+JP お願いします。
+EN Yes, please.
+
+@ 107.121
+# 山本 久美
+JP 社長。
+JP もう少しで、できますから
+JP 机を空けておいてください。
+EN Boss. It's almost ready, so please clear off the desk.
+
+@ 107.124
+# 社 長
+JP 毎度毎度
+JP 何から何まですまないな。
+EN Every single time... Sorry to put you to all this
+EN trouble.
+
+@ 107.128
+# 山本 久美
+JP いいえ。
+JP いつでもおっしゃってください。
+EN Not at all. Just ask me anytime.
+
+@ 107.132
+# 山本 久美
+JP はい。
+JP お待たせしました。
+EN Here you go. Sorry to keep you waiting.
+
+@ 107.135
+# 社 長
+JP おー、これはうまそうだな。
+EN Ooh, this looks delicious.
+
+@ 107.137
+# 社 長
+JP 山本はいいお嫁さんになれるぞ。
+EN You'll make a great wife someday, Yamamoto.
+
+@ 107.147
+# 山本 久美
+JP か、からかわないでください…。
+EN P-please don't tease me...
+
+@ 107.150
+# 社 長
+JP ははは…。
+EN Hahaha...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 山本 久美
+JP よっしゃあ！
+JP いっしょに大暴れしようぜ！
+EN All riiight! Let's tear this place apart together!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# 山本 久美
+JP いくぞ、おらあっ！
+EN Here I come, ora!
+
+@ 110.16
+# scene 113 練習開始
+# 山本 久美
+JP 今日は何をしましょうか？
+EN What should we do today?
+
+@ 111.16
+# scene 114 練習開始 好意
+# 山本 久美
+JP 今日もがんばります。
+EN I'll do my best today, too.
+
+@ 112.16
+# scene 115 特訓開始
+# 山本 久美
+JP がんばります！
+EN I'll do my best!
+
+@ 113.20
+# scene 116 特訓成功
+# 山本 久美
+JP いい感じでした…。
+EN That went well...
+
+@ 114.20
+# scene 117 特訓失敗
+# 山本 久美
+JP せっかくの機会だったのに…。
+EN And it was such a good opportunity, too...
+
+@ 115.16
+# scene 118 休養
+# 山本 久美
+JP じゃあ、ちょっと
+JP のんびりしてきます。
+EN Then I'll go take it easy for a bit.
+
+@ 116.16
+# scene 119 入場1
+# 山本 久美
+JP 骨までバラバラにしてやるぜ！
+EN I'm gonna break ya into pieces, bones and all!
+
+@ 117.16
+# scene 119 入場2
+# 山本 久美
+JP さっさとゴング鳴らせぇ。
+JP 客席もリングなんだよ！
+EN Ring the damn bell already. The seats are part of the
+EN ring too!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# 山本 久美
+JP 私たちと当たったことを
+JP 後悔させてやるぜ！
+EN We'll make ya regret ever runnin' into us!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# 山本 久美
+JP ぐしゃぐしゃにしてやる！
+EN I'm gonna smash ya flat!
+
+@ 120.16
+# scene 125 必殺技１
+# 山本 久美
+JP 私のパワーを受けてみな！
+EN Take a taste of my power!
+
+@ 121.16
+# scene 125 必殺技２
+# 山本 久美
+JP これでくたばっちまいな！
+EN Now drop dead!
+
+@ 122.16
+# scene 125 必殺技３
+# 山本 久美
+JP スクラップにしてやるよ！
+EN I'm gonna turn ya into scrap metal!
+
+@ 123.12
+# scene 126 勝利1
+# 山本 久美
+JP 話にならないね。
+JP 出直してきな！
+EN You ain't even worth talkin' about. Go back and try
+EN again!
+
+@ 124.12
+# scene 126 勝利2
+# 山本 久美
+JP 思ったよりもやるじゃねえか。
+JP まだまだだけどな。
+EN Ya did better than I thought. Still got a long way to
+EN go, though.
+
+@ 125.12
+# scene 126 勝利3
+# 山本 久美
+JP そのまましばらく寝てな！
+EN Stay down there and take a nap!
+
+@ 126.15
+# scene 133 表彰1
+# 山本 久美
+JP 結局はパワーが物を言うってことが
+JP わかったか！
+EN Get it now? In the end, power's what does the talkin'!
+
+@ 127.15
+# scene 133 表彰2
+# 山本 久美
+JP まあ、もらっておいてやるか！
+JP ありがとよ！
+EN Well, guess I'll take it! Thanks!
+
+@ 128.12
+# scene 134 優勝1
+# 山本 久美
+JP ひゃあはっは！
+JP 私に勝てるヤツはいねえのかあ？
+EN Hyaa-hahaha! Ain't there anybody who can beat me?
+
+@ 129.12
+# scene 134 優勝２
+# 山本 久美
+JP 誰が来ようと粉砕してやるぜ！
+EN I'll crush anyone who comes at me!
+
+@ 130.24
+# scene 135 エンディング 通常
+# 山本 久美
+JP おめでとうございます。
+JP 私、お役に立てましたか？
+EN Congratulations. Was I of any help to you?
+
+@ 131.24
+# scene 136 エンディング 好意
+# 山本 久美
+JP 社長…。
+JP 私、社長のお食事をずっと
+JP 作りたいのですが…ダメしょうか？
+EN Boss... I'd like to cook your meals forever... Would
+EN that be all right?

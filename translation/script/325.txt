@@ -1,0 +1,99 @@
+# /SCR/325.BIN - ナターシャ・ハン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 325` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ナターシャ・ハン
+JP 関節を壊されたい者は
+JP いつでも出てきなさい。
+EN Anyone who wants her joints broken may step
+EN forward anytime.
+
+@ 1.16
+# scene 119 入場1
+# ナターシャ・ハン
+JP サンボの恐ろしさを
+JP 見せてあげるわ！
+EN Let me show you the terror of sambo!
+
+@ 2.16
+# scene 119 入場2
+# ナターシャ・ハン
+JP プロとしての仕事をするだけよ。
+EN I'm only here to do my job as a professional.
+
+@ 3.16
+# scene 125 必殺技１
+# ナターシャ・ハン
+JP 骨がきしむ音を聞かせてもらうわ！
+EN Let me hear the sound of your bones creaking!
+
+@ 4.16
+# scene 125 必殺技２
+# ナターシャ・ハン
+JP 壊れてしまいなさい！
+EN Break for me!
+
+@ 5.16
+# scene 125 必殺技３
+# ナターシャ・ハン
+JP 私の必殺技は関節の数と
+JP 同じだけあるの！
+EN I have as many finishers as you have joints!
+
+@ 6.12
+# scene 126 勝利1
+# ナターシャ・ハン
+JP コマンドサンボの技
+JP 楽しんでもらえたかしら？
+EN Did you enjoy the techniques of Combat Sambo?
+
+@ 7.12
+# scene 126 勝利2
+# ナターシャ・ハン
+JP ごめんなさい…。
+JP 壊れちゃったかしら？
+EN Oh, I'm sorry... Did I break you?
+
+@ 8.12
+# scene 126 勝利3
+# ナターシャ・ハン
+JP もうイッちゃったの？
+JP 早いのね…。
+EN Finished already? So quick...
+
+@ 9.15
+# scene 133 表彰1
+# ナターシャ・ハン
+JP これからも芸術的な
+JP サブミッションをお見せするわ。
+EN I'll keep showing you submissions that are works of
+EN art.
+
+@ 10.15
+# scene 133 表彰2
+# ナターシャ・ハン
+JP サンボの前に
+JP 敵はいなかったようね。
+EN It seems no one could stand against sambo.
+
+@ 11.12
+# scene 134 優勝1
+# ナターシャ・ハン
+JP トップを取ることなど
+JP たやすいこと。
+EN Taking the top spot is an easy thing.
+
+@ 12.12
+# scene 134 優勝２
+# ナターシャ・ハン
+JP サブミッションクィーンとして
+JP 優勝は当然。
+EN As the Submission Queen, winning is a given.

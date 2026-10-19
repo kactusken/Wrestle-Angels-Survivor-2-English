@@ -1,0 +1,106 @@
+# /SCR/207.BIN - ファントムローズ１号
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 207` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ファントムローズ１号
+JP お嬢様とヒューイット家に
+JP 栄光あれ！
+EN Glory to my lady and the House of Hewitt!
+
+@ 1.16
+# scene 119 入場1
+# ファントムローズ１号
+JP バラの化身たる
+JP お嬢様の影がまいります！
+EN The shadow of my lady, the rose incarnate, enters
+EN the ring!
+
+@ 2.16
+# scene 119 入場2
+# ファントムローズ１号
+JP お嬢様！
+JP 私の戦いぶりをご覧ください！
+EN My lady! Please watch how I fight!
+
+@ 3.16
+# scene 120 タッグマッチ ベスト
+# ファントムローズ１号
+JP お嬢様！
+JP いきましょう！
+EN My lady! Let us go!
+
+@ 4.16
+# scene 121 タッグマッチ ベター１
+# ファントムローズ１号
+JP ２号、いくわよ！
+EN No. 2, let's go!
+
+@ 5.16
+# scene 125 必殺技１
+# ファントムローズ１号
+JP マットを紅に染めてあげましょう！
+EN I shall dye the mat crimson!
+
+@ 6.16
+# scene 125 必殺技２
+# ファントムローズ１号
+JP これが至高のテクニックよ！
+EN This is the supreme technique!
+
+@ 7.16
+# scene 125 必殺技３
+# ファントムローズ１号
+JP これで美しく散りなさい！
+EN Now fall, and fall beautifully!
+
+@ 8.12
+# scene 126 勝利1
+# ファントムローズ１号
+JP 私が技の１号よ！
+EN I am No. 1, the one of technique!
+
+@ 9.12
+# scene 126 勝利2
+# ファントムローズ１号
+JP お嬢様…。
+JP 私の技はお嬢様とともに…。
+EN My lady... My technique is ever at your side...
+
+@ 10.12
+# scene 126 勝利3
+# ファントムローズ１号
+JP この勝利をお嬢様に捧げます！
+EN I dedicate this victory to my lady!
+
+@ 11.15
+# scene 133 表彰1
+# ファントムローズ１号
+JP まさに至高の感銘を受けています！
+EN I am truly, supremely moved!
+
+@ 12.15
+# scene 133 表彰2
+# ファントムローズ１号
+JP これでお嬢様に恩返しができます！
+EN Now I can repay my lady's kindness!
+
+@ 13.12
+# scene 134 優勝1
+# ファントムローズ１号
+JP これでお嬢様の右腕として
+JP 認めてもらえる。
+EN Now she'll accept me as her right hand.
+
+@ 14.12
+# scene 134 優勝２
+# ファントムローズ１号
+JP この優勝はお嬢様のおかげです。
+EN I owe this victory to my lady.

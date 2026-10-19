@@ -1,0 +1,2183 @@
+# /SCR/056.BIN - フォクシー真帆
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 056` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# フォクシー真帆
+JP プロレスはうまいって聞いたぞ！
+EN Maho heard pro wrestling tastes good!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# フォクシー真帆
+JP やったぞ！
+JP …ところでプロレスはどこだ？
+EN Maho did it! ...So where's the pro wrestling?
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# フォクシー真帆
+JP うー、食ってみたかったぞー！
+EN Grr, Maho wanted to try eating it!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ハァ…ハァ……。
+JP ずいぶん遠いんだな…。
+EN Huff... huff...... This place sure is far...
+
+@ 3.25
+# 社 長
+JP スカウトにだまされたかなぁ。
+JP こんな所に候補生なんて
+JP いるんだろうか？
+EN Did the scouting tip fool me? Could there really be a
+EN prospect way out here?
+
+@ 3.27
+# 社 長
+JP あっ、今、人影が…。
+JP あっ、あの娘だ！
+JP おーい、待ってくれー！
+EN Ah, I just saw someone... That's her! Hey, wait up!
+
+@ 3.37
+# フォクシー真帆
+JP …んっ？
+JP おまえ、誰だ？
+JP 見たことないぞ。
+EN ...Hm? Who are you? Maho's never seen you before.
+
+@ 3.40
+# 社 長
+JP はぁ、はぁ……。
+JP あの、私、プロレス団体の
+JP 社長でして……。
+EN Huff, huff...... Um, I'm the president of a pro-wrestling
+EN promotion......
+
+@ 3.47
+# フォクシー真帆
+JP …んっ？
+JP シャチョウってなんだ？
+JP 食ったことないぞ。
+EN ...Hm? What's a "president"? Maho's never eaten one.
+
+@ 3.50
+# 社 長
+JP いや、食べ物じゃなくて…。
+EN No, it's not something you eat...
+
+@ 3.52
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 3.59
+# フォクシー真帆
+JP プロレス？
+JP それ、うまいのか？
+EN Pro wrestling? Does it taste good?
+
+@ 3.62
+# 社 長
+JP それも食べ物じゃないんだけど…。
+EN That's not something you eat either...
+
+@ 3.64
+# 社 長
+JP （俺は条件を提示…というより
+JP 　プロレスというものを必死に
+JP 　説明してみた）
+EN (Rather than lay out my offer, I desperately tried to
+EN explain what pro wrestling even was.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# フォクシー真帆
+JP …うん、わかった！
+JP なんだかわからないが
+JP ついて行くぞ！
+EN ...Okay, got it! Maho doesn't really get it, but Maho
+EN will follow you!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. I look forward to working with you!
+
+@ 4.24
+# 社 長
+JP （…これでよかったのか？）
+EN (...Was that really okay?)
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# フォクシー真帆
+JP 何を言われているのか
+JP サッパリだ！
+EN Maho has no idea what you're talking about!
+
+@ 5.22
+# 社 長
+JP そ、そうですか…。
+EN I-I see...
+
+@ 5.24
+# 社 長
+JP （今回は帰るしかないな…。
+JP 　終バスなくなったら大変だし…）
+EN (I'll have to head home for now... It'd be bad if I
+EN missed the last bus...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （今度こそ彼女をスカウトしたいが
+JP 　しかし、遠いなあ）
+EN (I want to scout her for real this time, but... man, it's
+EN far.)
+
+@ 6.33
+# フォクシー真帆
+JP おっ、シャチョウじゃないか？
+JP どうした？
+JP 道に迷ったのか？
+EN Oh, isn't it the president? What's up? Did you get
+EN lost?
+
+@ 6.36
+# 社 長
+JP あぁ、いたいた！
+JP 探したよ！
+EN Ah, there you are! I've been looking for you!
+
+@ 6.38
+# 社 長
+JP もう一度、君をスカウトに来たんだ。
+JP 私のところでプロレスを
+JP してくれないか！？
+EN I came to scout you once more. Won't you do pro
+EN wrestling with us!?
+
+@ 6.45
+# フォクシー真帆
+JP でも真帆はプロレスというのが
+JP よくわからないぞ！
+EN But Maho doesn't really understand this "pro
+EN wrestling" thing!
+
+@ 6.48
+# 社 長
+JP それは私がちゃんと教える。
+JP だから、私を信じて
+JP 一緒に来てくれないか？
+EN I'll teach you properly. So trust me and come with me,
+EN won't you?
+
+@ 6.50
+# 社 長
+JP （俺は条件を提示…というより
+JP 　プロレスというものを必死に
+JP 　説明してみた）
+EN (Rather than lay out my offer, I desperately tried to
+EN explain what pro wrestling even was.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# フォクシー真帆
+JP …うん、わかった！
+JP なんだかわからないが
+JP ついて行くぞ！
+EN ...Okay, got it! Maho doesn't really get it, but Maho
+EN will follow you!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. I look forward to working with you!
+
+@ 7.24
+# 社 長
+JP （…これでよかったのか？）
+EN (...Was that really okay?)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# フォクシー真帆
+JP 何を言われているのか
+JP サッパリだ！
+EN Maho has no idea what you're talking about!
+
+@ 8.22
+# 社 長
+JP そ、そうですか…。
+EN I-I see...
+
+@ 8.24
+# 社 長
+JP （今回は帰るしかないな…。
+JP 　終バスなくなったら大変だし…）
+EN (I'll have to head home for now... It'd be bad if I
+EN missed the last bus...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （真帆選手…。
+JP 　大自然に培われたパワーとあの個性。
+JP 　是非ともうちに欲しい人材だ）
+EN (Maho... Power forged by the great outdoors, and
+EN that personality. I'd love to have her with us.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいる
+JP 　はずなんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 9.37
+# フォクシー真帆
+JP …んっ？
+JP 誰だ、おまえ？
+EN ...Hm? Who are you?
+
+@ 9.40
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 9.42
+# 社 長
+JP 要するにプロレス団体の社長です。
+EN In other words, I'm the president of a wrestling
+EN promotion.
+
+@ 9.49
+# フォクシー真帆
+JP おお、社長なのか？
+JP …で、その社長が真帆に何か用か？
+EN Ooh, you're a president? ...So what does a president
+EN want with Maho?
+
+@ 9.52
+# 社 長
+JP 是非うちの団体に入って
+JP いただけないかと思いまして…。
+EN I was hoping you might join our promotion...
+
+@ 9.59
+# フォクシー真帆
+JP うー…。
+JP でも、ここのメシは旨いからな…。
+EN Grr... But the grub here is tasty...
+
+@ 9.62
+# 社 長
+JP そこを曲げて
+JP うちの団体に力を貸して
+JP もらえないでしょうか？
+EN Couldn't you make an exception and lend your
+EN strength to our promotion?
+
+@ 9.64
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept at it patiently.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# フォクシー真帆
+JP わかった！
+JP 社長について行こう！
+EN Got it! Maho will follow you, President!
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# フォクシー真帆
+JP メシは旨くないとイヤだぞ！
+EN The grub had better be tasty!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# フォクシー真帆
+JP ダメだ！
+JP 旨いメシからは離れたくない！
+EN No way! Maho won't leave tasty grub behind!
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ）
+EN (We need her, no doubt about it.)
+
+@ 12.25
+# 社 長
+JP （俺はもう一度交渉することにした）
+EN (I decided to negotiate once more.)
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# フォクシー真帆
+JP この前の社長か！
+JP 今日はなんだ？
+EN The president from before! What is it today?
+
+@ 12.40
+# 社 長
+JP はい。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.47
+# フォクシー真帆
+JP うー…。
+JP 困ったぞ…。
+EN Grr... This is a tough one...
+
+@ 12.50
+# 社 長
+JP お願いします。
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Please. Won't you trust me and sign with us?
+
+@ 12.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept at it patiently.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# フォクシー真帆
+JP わかった！
+JP 社長について行こう！
+EN Got it! Maho will follow you, President!
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# フォクシー真帆
+JP メシは旨くないとイヤだぞ！
+EN The grub had better be tasty!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# フォクシー真帆
+JP ダメだ！
+JP 旨いメシからは離れたくない！
+EN No way! Maho won't leave tasty grub behind!
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （真帆選手…。
+JP 　大自然に培われたパワーとあの個性。
+JP 　是非ともうちに欲しい人材だ）
+EN (Maho... Power forged by the great outdoors, and
+EN that personality. I'd love to have her with us.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# フォクシー真帆
+JP …んっ？
+JP おまえ、誰だ？
+EN ...Hm? Who are you?
+
+@ 15.40
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者でして…。
+EN I run a pro-wrestling promotion...
+
+@ 15.42
+# 社 長
+JP 要するにプロレス団体の
+JP 社長なんですけど…。
+EN In other words, I'm the president of a wrestling
+EN promotion...
+
+@ 15.49
+# フォクシー真帆
+JP …社長？
+JP 知ってるぞ、社長はエライ人だ。
+JP 何か用か？
+EN ...President? Maho knows that one - a president is
+EN an important person. What do you want?
+
+@ 15.52
+# 社 長
+JP うちの団体に入団して欲しいんです。
+JP どうでしょう？
+JP 来てもらえませんか？
+EN I'd like you to join our promotion. What do you say?
+EN Will you come?
+
+@ 15.59
+# フォクシー真帆
+JP 社長の団体に？
+JP 真帆が？
+JP どうしてだ？
+EN Your promotion? Maho? Why?
+
+@ 15.62
+# 社 長
+JP ええっとですね…。
+EN Well, you see...
+
+@ 15.64
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept at it patiently.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# フォクシー真帆
+JP …うん、わかった！
+JP 社長と一緒に行くぞ！
+EN ...Okay, got it! Maho will go with you, President!
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# フォクシー真帆
+JP 真帆はホントのことしか言わないぞ！
+JP よろしくな、社長！
+EN Maho only ever tells the truth! Nice to meet you,
+EN President!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# フォクシー真帆
+JP 難しい話はヤダぞ！
+JP もう社長とは一緒に行かない！
+EN Maho hates complicated talk! Maho's not going with
+EN you anymore!
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.24
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.34
+# フォクシー真帆
+JP …ん？
+JP また社長か。
+JP 久しぶりだな。
+EN ...Hm? The president again. Long time no see.
+
+@ 18.37
+# 社 長
+JP ええ、お久しぶりです。
+JP どうしてもうちに入って欲しくて
+JP また来てしまいました。
+EN Yes, it's been a while. I really want you to join us, so I
+EN came back again.
+
+@ 18.44
+# フォクシー真帆
+JP またニューダンの話なのか？
+EN Is this the "joining" talk again?
+
+@ 18.47
+# 社 長
+JP はい。
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Yes. Won't you trust me and sign with us?
+
+@ 18.49
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept at it patiently.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# フォクシー真帆
+JP …うん、わかった！
+JP 社長と一緒に行くぞ！
+EN ...Okay, got it! Maho will go with you, President!
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# フォクシー真帆
+JP 真帆はホントのことしか言わないぞ！
+JP よろしくな、社長！
+EN Maho only ever tells the truth! Nice to meet you,
+EN President!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# フォクシー真帆
+JP 難しい話はヤダぞ！
+JP もう社長とは一緒に行かない！
+EN Maho hates complicated talk! Maho's not going with
+EN you anymore!
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は真帆を訪ねることにした。
+JP 　やはり彼女はうちに必要な選手だ）
+EN (I decided to visit Maho. She's a wrestler we need, no
+EN question.)
+
+@ 21.25
+# 社 長
+JP 問題は、今の俺が
+JP 道に迷っていることだが…。
+EN The problem is, right now I'm lost...
+
+@ 21.27
+# 社 長
+JP 真帆～っ！
+JP どこにいるんだ～。
+EN Mahooo! Where are you?
+
+@ 21.37
+# フォクシー真帆
+JP ここにいるぞ。
+EN Maho's right here.
+
+@ 21.40
+# 社 長
+JP うわっ！？
+JP ま、真帆！？
+JP いつからそこに！？
+EN Whoa!? M-Maho!? How long have you been there!?
+
+@ 21.47
+# フォクシー真帆
+JP ずっとだぞ。
+JP それより、なんでこんなところに
+JP いるんだ？
+EN The whole time. More importantly, why are you out
+EN here?
+
+@ 21.50
+# 社 長
+JP あっ、そうだ。
+JP …真帆、団体に戻ってくれないか？
+EN Oh, right. ...Maho, won't you come back to the
+EN promotion?
+
+@ 21.57
+# フォクシー真帆
+JP …んっ？
+JP 真帆はいらないんじゃ
+JP なかったのか？
+EN ...Hm? Didn't you say you didn't need Maho?
+
+@ 21.60
+# 社 長
+JP そんなことはない！
+JP たしかに一度はそうなったんだが
+JP 事情が変わったんだ。
+EN That's not true! I know it came to that once, but
+EN things have changed.
+
+@ 21.62
+# 社 長
+JP 今さらこんなこと頼めた
+JP 義理じゃないかもしれないけど…。
+EN I know I may be in no position to ask this now, but...
+
+@ 21.64
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# フォクシー真帆
+JP …そうか。
+JP それなら戻ることにするぞ！
+EN ...Okay. Then Maho will come back!
+
+@ 22.22
+# 社 長
+JP 本当か！？
+EN Really!?
+
+@ 22.29
+# フォクシー真帆
+JP もちろんだ！
+JP でもメシは旨くないとイヤだぞ！
+EN Of course! But the grub had better be tasty!
+
+@ 22.32
+# 社 長
+JP ありがとう…。
+JP また、よろしく頼むよ。
+EN Thank you... I'm counting on you again.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# フォクシー真帆
+JP うーん…。
+JP 真帆はもう一匹狼だからな。
+EN Hmm... Maho's a lone wolf now.
+
+@ 23.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.29
+# フォクシー真帆
+JP 難しいことを考えるのは苦手だ！
+EN Maho's no good at thinking about hard stuff!
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （やはり真帆はうちに必要だ。
+JP 　なんとか説得しないと…）
+EN (We need Maho, no doubt about it. I have to persuade
+EN her somehow...)
+
+@ 24.25
+# 社 長
+JP 真帆ぉ！
+EN Mahooo!
+
+@ 24.35
+# フォクシー真帆
+JP 社長、また来たのか？
+EN President, you came again?
+
+@ 24.38
+# 社 長
+JP ああ、また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN Yeah, I came to ask again. I really need you back in
+EN the promotion.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# フォクシー真帆
+JP …そうか。
+JP それなら戻ることにするぞ！
+EN ...Okay. Then Maho will come back!
+
+@ 25.22
+# 社 長
+JP 本当か！？
+EN Really!?
+
+@ 25.29
+# フォクシー真帆
+JP もちろんだ！
+JP でもメシは旨くないとイヤだぞ！
+EN Of course! But the grub had better be tasty!
+
+@ 25.32
+# 社 長
+JP ありがとう…。
+JP また、よろしく頼むよ。
+EN Thank you... I'm counting on you again.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# フォクシー真帆
+JP うーん…。
+JP 真帆はもう一匹狼だからな。
+EN Hmm... Maho's a lone wolf now.
+
+@ 26.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.29
+# フォクシー真帆
+JP 難しいことを考えるのは苦手だ！
+EN Maho's no good at thinking about hard stuff!
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# フォクシー真帆
+JP こんなの舐めてれば治るぞ！
+EN Maho just has to lick it and it'll heal!
+
+@ 28.16
+# scene 029 ケガ大
+# フォクシー真帆
+JP うぅ…。
+JP とっても痛いぞ…。
+EN Ugh... It really hurts...
+
+@ 29.16
+# scene 030 入院
+# フォクシー真帆
+JP 病院は嫌いだぞ！
+EN Maho hates hospitals!
+
+@ 30.16
+# scene 031 退院
+# フォクシー真帆
+JP 病院のメシ、少なかった！
+JP ここが一番だ！
+EN The hospital grub was tiny! This place is the best!
+
+@ 31.16
+# scene 032 ケガ完治
+# フォクシー真帆
+JP 舐めてたら治ったぞ！
+EN Maho licked it and it healed!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# フォクシー真帆
+JP 山に帰ればいいのか？
+EN Does that mean Maho should go back to the
+EN mountains?
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# フォクシー真帆
+JP インタイってなんだ？
+JP うまいのか？
+EN What's "retire"? Does it taste good?
+
+@ 34.16
+# scene 035 コーチ就任
+# フォクシー真帆
+JP 真帆は厳しいぞ！
+JP まず生物の食べ方から始めるぞ！
+EN Maho is strict! First lesson: how to eat raw meat!
+
+@ 35.16
+# scene 036 ケガ引退
+# フォクシー真帆
+JP もう戦えないのか…。
+JP 真帆は悲しいぞ…。
+EN Maho can't fight anymore...? That makes Maho sad...
+
+@ 36.16
+# scene 037 年齢引退
+# フォクシー真帆
+JP 真帆はいっぱいがんばった！
+JP これからは山に帰って
+JP のんびり暮らす！
+EN Maho worked really hard! Now Maho will go back to
+EN the mountains and take it easy!
+
+@ 37.16
+# scene 038 退団
+# フォクシー真帆
+JP 社長、さよならだぞ！
+EN Bye-bye, President!
+
+@ 38.16
+# scene 039 スランプ
+# フォクシー真帆
+JP なんだかイライラするぞ！
+EN Something's making Maho real cranky!
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# フォクシー真帆
+JP ファンクラブ？
+JP 食ったことないぞ？
+EN Fan club? Maho's never eaten one.
+
+@ 39.19
+# 社 長
+JP 食い物じゃない。
+JP ともかく、応援に負けないように
+JP がんばれよ。
+EN It's not food. Anyway, work hard so you live up to
+EN their support.
+
+@ 39.26
+# フォクシー真帆
+JP わかっている！
+JP それで、ファンクラブは
+JP いつ食えるんだ？
+EN Maho knows! So when do we get to eat the fan club?
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# フォクシー真帆
+JP ファンクラブのおかわりだな！
+EN Seconds on fan clubs!
+
+@ 40.19
+# 社 長
+JP まあ…そうだな。
+JP 期待に応えるようにな。
+EN Well... I suppose so. Live up to their expectations.
+
+@ 40.26
+# フォクシー真帆
+JP 任せておけ！
+JP お腹は空かせておくぞ！
+EN Leave it to Maho! Maho will keep her tummy empty!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# フォクシー真帆
+JP どこかに行ったのか？
+EN Did it run away?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.26
+# フォクシー真帆
+JP うん。
+JP また獲ってくるぞ。
+EN Okay. Maho will go hunt another one.
+
+@ 42.16
+# scene 043 映画出演
+# フォクシー真帆
+JP あんなに大きいと口に入らないぞ。
+JP 強敵だな！
+EN Something that big won't fit in Maho's mouth. A tough
+EN opponent!
+
+@ 43.16
+# scene 044 一日署長
+# フォクシー真帆
+JP おお！
+JP 真帆はあの制服着てみたいぞ！
+EN Ooh! Maho wants to try on that uniform!
+
+@ 44.16
+# scene 045 写真集発売
+# フォクシー真帆
+JP シャシンシューは知ってるぞ！
+JP 水着でポーズをつけるんだ！
+JP 社長は知ってたか！？
+EN Maho knows what a photo book is! You pose in a
+EN swimsuit! Did you know that, President!?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# フォクシー真帆
+JP むー。
+JP 真帆は小さくなれないぞ。
+JP どうやってテレビに入るんだ？
+EN Hmm. Maho can't shrink. How does Maho get inside
+EN the TV?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# フォクシー真帆
+JP ＣＤってなんだ？
+JP うまいのか？
+EN What's a CD? Does it taste good?
+
+@ 47.16
+# scene 048 始球式
+# フォクシー真帆
+JP どうすれば勝てるんだ？
+JP ぶつけたらいいのか？
+EN How does Maho win? Should Maho hit him with it?
+
+@ 48.16
+# scene 049 学園祭
+# フォクシー真帆
+JP 何か旨いものが食えるのか？
+EN Is there gonna be something tasty to eat?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# フォクシー真帆
+JP おー、すごいぞ！
+JP 社長、嬉しいぞ！
+EN Ooh, amazing! President, Maho is happy!
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN I'm counting on you from here on.
+
+@ 49.46
+# フォクシー真帆
+JP 社長は旨いものくれるから
+JP ずっとついていくぞ。
+EN You give Maho tasty stuff, so Maho will follow you
+EN forever.
+
+@ 50.30
+# scene 051 バレンタインデー
+# フォクシー真帆
+JP 社長！
+JP バレンタインだから
+JP チョコをやるぞ！
+EN President! It's Valentine's, so Maho's giving you
+EN chocolate!
+
+@ 50.33
+# 社 長
+JP いいのか？
+JP ありがとう。
+EN Are you sure? Thank you.
+
+@ 50.45
+# 社 長
+JP （…なんだろう。
+JP 　じっと見られているけど？）
+EN (...What's this? She's staring at me...)
+
+@ 50.47
+# 社 長
+JP えっと…よかったら
+JP 真帆も一緒に食べるか？
+EN Um... if you want, would you like to eat it with me,
+EN Maho?
+
+@ 50.54
+# フォクシー真帆
+JP いいのか！？
+JP 社長、大好きだ！
+EN Really!? President, Maho loves you!
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# フォクシー真帆
+JP くれるのか！？
+JP 社長はいいヤツだ！
+EN For Maho!? President, you're a good guy!
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも…。
+JP も、もう、食い終えたのか。
+JP …気にするな、なんでもない。
+EN Have some between training ses... Y-you already
+EN finished it? ...Never mind, it's nothing.
+
+@ 52.31
+# scene 053 サイン会
+# フォクシー真帆
+JP みんな、知っているか？
+JP サインを食べてはいけないんだぞ！
+EN Hey everyone, did you know? You're not supposed to
+EN eat autographs!
+
+@ 53.31
+# scene 054 コンサート
+# フォクシー真帆
+JP みんなー、コンサートは
+JP 食ったことあるかー！？
+EN Hey everyone! Have you ever eaten a concert!?
+
+@ 54.28
+# scene 055 練習拒否
+# フォクシー真帆
+JP ちょ、ちょっと山まで走ってくる！
+EN M-Maho's just gonna go for a run up the mountain!
+
+@ 55.26
+# scene 056 失踪
+# フォクシー真帆
+JP 真帆は旅に出るぞ！
+EN Maho is going on a journey!
+
+@ 56.16
+# scene 057 選手解雇
+# フォクシー真帆
+JP …真帆はこれからどこで
+JP メシを食えばいいんだ…？
+EN ...Where's Maho supposed to eat now...?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# フォクシー真帆
+JP 社長、知っているか！？
+JP 真帆はあの鉄の鳥に乗るんだぞ！
+EN President, guess what!? Maho is riding that iron bird!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# フォクシー真帆
+JP カイガイというところにも
+JP 人がいっぱいいたぞ！
+EN There were lots of people in that "abroad" place too!
+
+@ 59.28
+# scene 060 移籍思案
+# フォクシー真帆
+JP むむむ…。
+JP 真帆はどうしたらいいんだ…。
+EN Hmmm... What should Maho do...
+
+@ 60.16
+# scene 061 革命軍結成
+# フォクシー真帆
+JP カクメイグンの真帆はすごく強いぞ！
+EN Revolution Maho is super strong!
+
+@ 61.16
+# scene 062 反乱軍結成
+# フォクシー真帆
+JP ハンラングンでも真帆は強いぞ！
+EN Maho is strong even as a rebel!
+
+@ 62.16
+# scene 063 最終決戦要求
+# フォクシー真帆
+JP 真帆と戦うのは誰だ！？
+EN Who's gonna fight Maho!?
+
+@ 63.16
+# scene 064 遺恨発生
+# フォクシー真帆
+JP むかー！
+JP 真帆は怒ったぞー！
+EN Grrr! Maho is mad now!
+
+@ 64.16
+# scene 065 殴り込み
+# フォクシー真帆
+JP 真帆に任せろ！
+JP 食べてきてやる！
+EN Leave it to Maho! Maho will go eat 'em up!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# フォクシー真帆
+JP 大丈夫！
+JP 真帆が倒してやるぞ！
+EN No problem! Maho will knock 'em down!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# フォクシー真帆
+JP 勝負だ！
+JP おいしくいただいてやるぞ！
+EN Let's fight! Maho's gonna gobble you up!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# フォクシー真帆
+JP 真帆は誰にも負けないぞ！
+EN Maho won't lose to anybody!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# フォクシー真帆
+JP これで終わりか？
+JP 真帆はまだまだ戦えるぞ！
+EN That's it? Maho can still fight lots more!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# フォクシー真帆
+JP もう疲れた…。
+JP 真帆は寝るぞ。
+EN Maho's tired... Maho's going to sleep.
+
+@ 70.13
+# scene 071 引退式
+# フォクシー真帆
+JP みんな、真帆は山に帰る！
+JP でも、みんなのことは忘れないぞ！
+EN Everyone, Maho is going back to the mountains! But
+EN Maho won't forget any of you!
+
+@ 71.17
+# フォクシー真帆
+JP 社長、どうした？
+EN What's up, President?
+
+@ 71.36
+# フォクシー真帆
+JP 社長、なんだ！？
+EN President, what is it!?
+
+@ 71.46
+# フォクシー真帆
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.89
+# フォクシー真帆
+JP 真帆に任せてくれ！
+EN Leave it to Maho!
+
+@ 71.110
+# フォクシー真帆
+JP …んっ？
+JP 真帆はもう、がんばってるぞ？
+EN ...Hm? Maho's already working hard, isn't she?
+
+@ 71.131
+# フォクシー真帆
+JP そうか！
+JP もっと誉めていいぞ！
+EN Really! You can praise Maho more!
+
+@ 71.152
+# フォクシー真帆
+JP …社長は真帆の何を見ているんだ？
+EN ...What are you even looking at, President?
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# フォクシー真帆
+JP むむむ…。
+JP もっとがんばるぞ！
+EN Hmmm... Maho will work harder!
+
+@ 71.210
+# フォクシー真帆
+JP そんなことないぞ？
+EN No, Maho isn't.
+
+@ 71.231
+# フォクシー真帆
+JP よし！
+JP 社長、一緒にレンシュウして
+JP 欲しいぞ！
+EN All right! President, Maho wants you to train with
+EN her!
+
+@ 71.252
+# フォクシー真帆
+JP …怒られた。
+JP うぅー…。
+EN ...Maho got scolded. Grrr...
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very lively lately. Are you okay?
+
+@ 71.289
+# フォクシー真帆
+JP 真帆はいつも元気だ！
+EN Maho is always full of energy!
+
+@ 71.310
+# フォクシー真帆
+JP おなかが空いて…もうダメだ…。
+EN Maho's so hungry... Maho can't go on...
+
+@ 71.331
+# フォクシー真帆
+JP 社長がいるから真帆は元気だぞ！
+EN Maho's full of energy because you're here,
+EN President!
+
+@ 71.352
+# フォクシー真帆
+JP …なんとかがんばってみるぞ。
+EN ...Maho will try to hang in there.
+
+@ 71.366
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# フォクシー真帆
+JP なんとなくわかるぞ。
+EN Maho kinda knows.
+
+@ 71.399
+# フォクシー真帆
+JP 何かくれるのか？
+EN Are you gonna give Maho something?
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.432
+# フォクシー真帆
+JP うう…。
+JP 仕方ないから仲直りするぞ。
+EN Grr... Fine, Maho will make up with her.
+
+@ 71.453
+# フォクシー真帆
+JP 仲直りは夕日の下で
+JP 殴り合ってからだと聞いたぞ！
+EN Maho heard you make up only after punching it out
+EN under the sunset!
+
+@ 71.474
+# フォクシー真帆
+JP 真帆には意味がわからないぞ？
+EN Maho doesn't know what you mean.
+
+@ 71.487
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# フォクシー真帆
+JP 社長も知ってるのか？
+EN You know about it too, President?
+
+@ 71.521
+# フォクシー真帆
+JP うーん…。わからないぞ？
+EN Hmm... Maho doesn't know.
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.556
+# フォクシー真帆
+JP 社長に頼まれたら仕方ないぞ！
+EN If you're asking, President, Maho can't say no!
+
+@ 71.577
+# フォクシー真帆
+JP いやだ！
+JP 社長の頼みでも謝らないぞ！
+EN No! Maho won't apologize, even if you ask!
+
+@ 71.598
+# フォクシー真帆
+JP 真帆はケンカなんかしてないぞ？
+EN Maho isn't fighting with anybody.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# フォクシー真帆
+JP 社長、なんだ！？
+EN President, what is it!?
+
+@ 72.16
+# フォクシー真帆
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# フォクシー真帆
+JP 真帆に任せてくれ！
+EN Leave it to Maho!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# フォクシー真帆
+JP ん？
+JP 真帆はもう、がんばってるぞ？
+EN Hm? Maho's already working hard, isn't she?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# フォクシー真帆
+JP そうか！
+JP もっと誉めていいぞ！
+EN Really! You can praise Maho more!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# フォクシー真帆
+JP …社長は真帆の何を見ているんだ？
+EN ...What are you even looking at, President?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# フォクシー真帆
+JP むむむ…。
+JP もっとがんばるぞ！
+EN Hmmm... Maho will work harder!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# フォクシー真帆
+JP そんなことないぞ？
+EN No, Maho isn't.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# フォクシー真帆
+JP よし！
+JP 社長、一緒にレンシュウして
+JP 欲しいぞ！
+EN All right! President, Maho wants you to train with
+EN her!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# フォクシー真帆
+JP …怒られた。
+JP うぅー…。
+EN ...Maho got scolded. Grrr...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very lively lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# フォクシー真帆
+JP 真帆はいつも元気だ！
+EN Maho is always full of energy!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# フォクシー真帆
+JP おなかが空いて、
+JP もうダメだ…。
+EN Maho's so hungry... Maho can't go on...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# フォクシー真帆
+JP 社長がいるから真帆は元気だぞ！
+EN Maho's full of energy because you're here,
+EN President!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# フォクシー真帆
+JP …なんとかがんばってみるぞ。
+EN ...Maho will try to hang in there.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# フォクシー真帆
+JP なんとなくわかるぞ。
+EN Maho kinda knows.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# フォクシー真帆
+JP 何かくれるのか？
+EN Are you gonna give Maho something?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# フォクシー真帆
+JP うう…。
+JP 仕方ないから仲直りするぞ。
+EN Grr... Fine, Maho will make up with her.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# フォクシー真帆
+JP 仲直りは夕日の下で殴り合ってから
+JP だと聞いたぞ！
+EN Maho heard you make up only after punching it out
+EN under the sunset!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# フォクシー真帆
+JP 真帆には意味がわからないぞ？
+EN Maho doesn't know what you mean.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# フォクシー真帆
+JP 社長も知ってるのか？
+EN You know about it too, President?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# フォクシー真帆
+JP うーん…。わからないぞ？
+EN Hmm... Maho doesn't know.
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# フォクシー真帆
+JP 社長に頼まれたら仕方ないぞ！
+EN If you're asking, President, Maho can't say no!
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# フォクシー真帆
+JP いやだ！
+JP 社長の頼みでも謝らないぞ！
+EN No! Maho won't apologize, even if you ask!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# フォクシー真帆
+JP 真帆はケンカなんかしてないぞ？
+EN Maho isn't fighting with anybody.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# フォクシー真帆
+JP 社長！
+JP 真帆はもっとがんばるぞ！
+EN President! Maho will work even harder!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# フォクシー真帆
+JP そうか！
+JP 社長は真帆が好きなのか！
+EN Really! So you like Maho, President!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# フォクシー真帆
+JP …社長は真帆が嫌いなのか？
+EN ...Do you not like Maho, President?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun's
+EN blazing.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's enjoying themselves.)
+
+@ 105.36
+# 社 長
+JP （おっ、沖の方で泳いでるのは
+JP 　真帆か？）
+EN (Oh, is that Maho swimming way out there?)
+
+@ 105.38
+# 社 長
+JP （楽しんでくれているようで
+JP 　何よりだな）
+EN (Glad to see she's having fun.)
+
+@ 105.40
+# 社 長
+JP （あっ、潜った）
+EN (Ah, she dove under.)
+
+@ 105.42
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.45
+# 社 長
+JP （あれ…浮き上がってこないぞ？）
+EN (Huh... She's not coming back up?)
+
+@ 105.47
+# 社 長
+JP 大変だ。
+JP 助けに行かないと！
+EN This is bad. I have to go save her!
+
+@ 105.82
+# フォクシー真帆
+JP ぷあ―――っ！
+EN Bwahhh!
+
+@ 105.86
+# フォクシー真帆
+JP 魚、捕まえた！
+JP いっぱい食べるぞ！
+EN Maho caught a fish! Maho's gonna eat lots!
+
+@ 105.89
+# 社 長
+JP ……へっ？
+EN ......Huh?
+
+@ 105.99
+# フォクシー真帆
+JP あっ、社長。
+EN Oh, President.
+
+@ 105.102
+# 社 長
+JP …溺れてたんじゃないのか？
+EN ...You weren't drowning?
+
+@ 105.106
+# フォクシー真帆
+JP 社長、何言ってるかわからないぞ。
+EN Maho doesn't know what you're talking about,
+EN President.
+
+@ 105.116
+# フォクシー真帆
+JP 魚、捕ったぞ！
+JP 社長も食べるか！？
+EN Maho caught fish! Want some, President!?
+
+@ 105.119
+# 社 長
+JP （し、心配して損した…）
+EN (I-I worried for nothing...)
+
+@ 105.121
+# 社 長
+JP （…今ごろになってドッと疲れが）
+EN (...Now all the exhaustion's hitting me at once.)
+
+@ 105.131
+# フォクシー真帆
+JP もしかして足りないのか？
+EN Is it not enough?
+
+@ 105.134
+# 社 長
+JP いや…。
+JP そうじゃなくて…。
+EN No... That's not it...
+
+@ 105.144
+# フォクシー真帆
+JP ムゥ～！
+JP よし、真帆は社長のために
+JP もっと捕ってくるぞ！
+EN Mmmh! Okay, Maho will catch more for you, President!
+
+@ 105.147
+# 社 長
+JP …いや、俺は別に……。
+EN ...No, I'm really fine......
+
+@ 105.151
+# フォクシー真帆
+JP 社長はそれ持ってろ！
+JP 逃がすなよ！
+EN President, you hold that! Don't let it get away!
+
+@ 105.154
+# 社 長
+JP （魚を渡されても困るんだが…）
+EN (Handing me a fish doesn't exactly help...)
+
+@ 105.158
+# フォクシー真帆
+JP 行ってくるぞ！
+EN Maho's off!
+
+@ 105.182
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.184
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.186
+# 社 長
+JP （真帆なりに楽しんでいる
+JP 　みたいだし…。
+JP 　まあ、いいか…）
+EN (Well, she's enjoying herself in her own way... I guess
+EN that's fine...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （久々にジムに顔を出したけど…）
+EN (I dropped by the gym for the first time in a while...)
+
+@ 106.26
+# 社 長
+JP （みんなちゃんとやってる
+JP 　みたいだな）
+EN (Looks like everyone's doing their part.)
+
+@ 106.28
+# 社 長
+JP （…んっ、あれは…）
+EN (...Hm, what's that...)
+
+@ 106.44
+# 社 長
+JP どうした、真帆。
+JP 調子でも悪いのか？
+EN What's wrong, Maho? Not feeling well?
+
+@ 106.48
+# フォクシー真帆
+JP あー…社長ー…。
+EN Ahh... President...
+
+@ 106.51
+# 社 長
+JP 本当にどうしたんだ？
+JP どこか痛いのか？
+EN Seriously, what's wrong? Does something hurt?
+
+@ 106.55
+# フォクシー真帆
+JP 腹が減って動けないぞー…。
+EN Maho's too hungry to move...
+
+@ 106.58
+# 社 長
+JP なんだ、そんなことか。
+EN Oh, is that all?
+
+@ 106.62
+# フォクシー真帆
+JP 真帆にとっては一大事だぞ！
+EN For Maho, it's a big deal!
+
+@ 106.65
+# 社 長
+JP （仕方ないな）
+EN (Oh, all right.)
+
+@ 106.74
+# 社 長
+JP ひとまずこれでも食べて元気を出せ。
+EN Here, eat this for now and perk up.
+
+@ 106.78
+# フォクシー真帆
+JP …なんだ、これ？
+JP 食えるのか？
+EN ...What's this? Can Maho eat it?
+
+@ 106.81
+# 社 長
+JP メロンパンだ。
+JP 知らないのか？
+EN It's a melon bun. You don't know it?
+
+@ 106.85
+# フォクシー真帆
+JP 知らないぞ。
+JP 旨いのか？
+EN Maho doesn't. Does it taste good?
+
+@ 106.88
+# 社 長
+JP 食えばわかるって。
+EN Eat it and you'll find out.
+
+@ 106.92
+# フォクシー真帆
+JP うん。
+JP 食ってみるぞ。
+EN Okay. Maho will try it.
+
+@ 106.102
+# フォクシー真帆
+JP あむ…あむ……んぐ…。
+EN Nom... nom...... gulp...
+
+@ 106.112
+# フォクシー真帆
+JP 社長！
+JP これは旨いぞ！
+EN President! This is tasty!
+
+@ 106.115
+# 社 長
+JP それはよかった。
+EN Glad to hear it.
+
+@ 106.119
+# フォクシー真帆
+JP 真帆はこれが気に入った！
+EN Maho likes this!
+
+@ 106.122
+# 社 長
+JP そうか。
+JP それじゃ、また買って来てやるよ。
+EN I see. Then I'll buy you more sometime.
+
+@ 106.126
+# フォクシー真帆
+JP 本当か！？
+JP 社長、約束だぞ！
+EN Really!? It's a promise, President!
+
+@ 106.140
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.142
+# 社 長
+JP （どうやら真帆はメロンパンが
+JP 　相当気にいったらしい…）
+EN (Looks like Maho has really taken to melon buns...)
+
+@ 106.144
+# 社 長
+JP （また買って来てやらないとな）
+EN (I'll have to buy her more.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （さて…今日の練習も
+JP 　そろそろ終わりみたいだな）
+EN (Well... today's training looks about finished.)
+
+@ 107.26
+# 社 長
+JP （みんなが熱心だから
+JP 　こっちも張り合いがあるな）
+EN (Everyone's so dedicated, it keeps me on my toes
+EN too.)
+
+@ 107.28
+# 社 長
+JP （…んっ、あれは…）
+EN (...Hm, what's that...)
+
+@ 107.44
+# 社 長
+JP 真帆。
+JP どうしたんだ？
+EN Maho. What's wrong?
+
+@ 107.48
+# フォクシー真帆
+JP あー…社長ー…。
+EN Ahh... President...
+
+@ 107.52
+# フォクシー真帆
+JP また腹が減って動けないぞー。
+EN Maho's too hungry to move again...
+
+@ 107.55
+# 社 長
+JP （またか…）
+EN (Not again...)
+
+@ 107.57
+# 社 長
+JP 仕方ないな。
+EN Oh, all right.
+
+@ 107.66
+# 社 長
+JP ひとまずこれでも食べて元気を出せ。
+EN Here, eat this for now and perk up.
+
+@ 107.70
+# フォクシー真帆
+JP おおー！
+JP メロンパンだ！
+EN Ooooh! A melon bun!
+
+@ 107.80
+# フォクシー真帆
+JP はぐはぐはぐ…！
+JP んぐっ…！
+EN Munch munch munch...! Gulp...!
+
+@ 107.90
+# フォクシー真帆
+JP ハァ～…。
+JP やっぱり旨かったぞ、社長！
+EN Haaah... That was tasty again, President!
+
+@ 107.93
+# 社 長
+JP そりゃ、よかったな。
+EN Well, good.
+
+@ 107.97
+# フォクシー真帆
+JP やっぱりメロンパンは最高だ！
+EN Melon buns really are the best!
+
+@ 107.100
+# 社 長
+JP よっぽど気に入ったんだな。
+JP そんなに好きなのか？
+EN You really love them, huh. Are they that good?
+
+@ 107.104
+# フォクシー真帆
+JP 大好きだ！
+EN Maho loves them!
+
+@ 107.107
+# 社 長
+JP そうか。
+EN I see.
+
+@ 107.111
+# フォクシー真帆
+JP メロンパンをくれる社長も
+JP 大好きだぞ！
+EN And Maho loves you too, President, 'cause you give
+EN Maho melon buns!
+
+@ 107.114
+# 社 長
+JP （メロンパンと同列に扱われるのは
+JP 　ちょっと複雑だが…）
+EN (Being ranked alongside a melon bun is a bit hard to
+EN feel good about, but...)
+
+@ 107.116
+# 社 長
+JP ありがとな。
+EN Thanks.
+
+@ 107.120
+# フォクシー真帆
+JP 褒められた！
+JP やっぱり社長、大好きだ！
+EN Maho got thanked! Maho really loves you, President!
+
+@ 107.123
+# 社 長
+JP はいはい。
+EN Yeah, yeah.
+
+@ 107.127
+# フォクシー真帆
+JP 次はいつメロンパンを
+JP 買って来てくれるんだ？
+EN When are you gonna buy Maho more melon buns?
+
+@ 107.130
+# 社 長
+JP そうだなぁ…。
+JP 真帆が一生懸命練習していたら
+JP 買って来てやる。
+EN Let's see... I'll buy you some if you train really hard.
+
+@ 107.134
+# フォクシー真帆
+JP よしッ！
+JP 真帆はメロンパンのために
+JP 練習するぞ！
+EN All right! Maho will train for melon buns!
+
+@ 107.137
+# 社 長
+JP やれやれ…。
+EN Good grief...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# フォクシー真帆
+JP 終わったら、メシ食べに行くぞ！
+EN When this is over, Maho's going to get grub!
+
+@ 109.16
+# scene 113 練習開始
+# フォクシー真帆
+JP よーっし！
+JP 今日もレンシュウするぞ！
+EN All riiight! Maho's gonna train today too!
+
+@ 110.16
+# scene 114 練習開始 好意
+# フォクシー真帆
+JP レンシュウすると強くなる！
+JP だから真帆はレンシュウする！
+EN Training makes you strong! So Maho trains!
+
+@ 111.16
+# scene 115 特訓開始
+# フォクシー真帆
+JP 真帆はトックンするぞ！
+EN Maho's doing special training!
+
+@ 112.20
+# scene 116 特訓成功
+# フォクシー真帆
+JP 大成功だ！
+JP お腹すいたぞ！
+EN Big success! Maho's hungry!
+
+@ 113.20
+# scene 117 特訓失敗
+# フォクシー真帆
+JP 大失敗だ！
+JP お腹すいたぞ！
+EN Big failure! Maho's hungry!
+
+@ 114.16
+# scene 118 休養
+# フォクシー真帆
+JP よし、久しぶりに狩りに行くぞ！
+EN All right, time to go hunting for the first time in
+EN ages!
+
+@ 115.16
+# scene 119 入場1
+# フォクシー真帆
+JP この戦いは真帆が勝つぞ！
+EN Maho's gonna win this fight!
+
+@ 116.16
+# scene 119 入場2
+# フォクシー真帆
+JP 真帆とおまえ
+JP どっちが強いか勝負だ！
+EN Let's see who's stronger, Maho or you!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# フォクシー真帆
+JP 大丈夫だ。
+JP 二人が組めば無敵だぞ！
+EN No problem. When we team up, we're unbeatable!
+
+@ 118.16
+# scene 125 必殺技１
+# フォクシー真帆
+JP これで終わりだーっ！
+EN This ends it!
+
+@ 119.16
+# scene 125 必殺技２
+# フォクシー真帆
+JP 真帆の力を、思いしれ！
+EN Feel Maho's power!
+
+@ 120.16
+# scene 125 必殺技３
+# フォクシー真帆
+JP とっておきのやつ見せてやるぞ！
+EN Maho will show you her secret weapon!
+
+@ 121.12
+# scene 126 勝利1
+# フォクシー真帆
+JP やったぞ！
+JP 真帆の勝ちだ！
+EN Maho did it! Maho wins!
+
+@ 122.12
+# scene 126 勝利2
+# フォクシー真帆
+JP やっぱり真帆はサイキョーなんだ。
+JP 誰にも負けないぞ！
+EN Maho really is the strongest. Maho won't lose to
+EN anybody!
+
+@ 123.12
+# scene 126 勝利3
+# フォクシー真帆
+JP 真帆の実力、思い知ったか！
+EN Now do you know how strong Maho is!?
+
+@ 124.15
+# scene 133 表彰1
+# フォクシー真帆
+JP 社長ーっ！
+JP 真帆がヒョーショーされたぞー！
+EN Presideeent! Maho got an award!
+
+@ 125.15
+# scene 133 表彰2
+# フォクシー真帆
+JP 社長、トロフィーは
+JP 食ってもいいのか？
+EN President, can Maho eat the trophy?
+
+@ 126.12
+# scene 134 優勝1
+# フォクシー真帆
+JP 真帆の強さがわかったか？
+EN Now do you see how strong Maho is?
+
+@ 127.12
+# scene 134 優勝２
+# フォクシー真帆
+JP 真帆以外にも強いヤツが
+JP いっぱいいたぞ。
+JP 大変だったぞ！
+EN There were lots of strong ones besides Maho. That
+EN was tough!
+
+@ 128.24
+# scene 135 エンディング 通常
+# フォクシー真帆
+JP 社長、やったぞ！
+JP これも真帆のおかげだな！
+EN President, we did it! That's all thanks to Maho, right!
+
+@ 129.24
+# scene 136 エンディング 好意
+# フォクシー真帆
+JP 社長！
+JP 真帆は社長のヨメになるぞ！
+JP だからこれからはずっと一緒だぞ！
+EN President! Maho is gonna be your wife! So from now
+EN on, we're together forever!

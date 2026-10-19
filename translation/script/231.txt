@@ -1,0 +1,99 @@
+# /SCR/231.BIN - ジーナ・デュラム
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 231` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ジーナ・デュラム
+JP きっとこれが
+JP 奇跡というものですね…。
+EN This must be what they call a miracle...
+
+@ 1.16
+# scene 119 入場1
+# ジーナ・デュラム
+JP 今日もケガしませんように…。
+EN Please let me not get hurt again today...
+
+@ 2.16
+# scene 119 入場2
+# ジーナ・デュラム
+JP ど…どうしましょう…。
+EN Wh-what do I do...
+
+@ 3.17
+# scene 121 タッグマッチ ベター１
+# ジーナ・デュラム
+JP が…がんばります。
+EN I-I'll do my best.
+
+@ 4.16
+# scene 125 必殺技１
+# ジーナ・デュラム
+JP 私だって、私だってーッ！
+EN I can do it too! I can do it too!
+
+@ 5.16
+# scene 125 必殺技２
+# ジーナ・デュラム
+JP どうなっても…知りませんからね！
+EN Wh-whatever happens... it's not my fault!
+
+@ 6.16
+# scene 125 必殺技３
+# ジーナ・デュラム
+JP 私だってやるときは
+JP やるんだからーッ！
+EN When it counts, I can fight too, you know!
+
+@ 7.12
+# scene 126 勝利1
+# ジーナ・デュラム
+JP ま、まぐれです…。
+EN It-it was a fluke...
+
+@ 8.12
+# scene 126 勝利2
+# ジーナ・デュラム
+JP こ、怖かったです～。
+EN Th-that was so scary...
+
+@ 9.12
+# scene 126 勝利3
+# ジーナ・デュラム
+JP わ…私…勝てたの…？
+EN D-did I... actually win...?
+
+@ 10.15
+# scene 133 表彰1
+# ジーナ・デュラム
+JP 私…騙されては
+JP いないでしょうか…？
+EN Um... This isn't some kind of trick, is it...?
+
+@ 11.15
+# scene 133 表彰2
+# ジーナ・デュラム
+JP 私なんかがもらってしまって…。
+JP すみません…。
+EN Someone like me getting this... I'm so sorry...
+
+@ 12.12
+# scene 134 優勝1
+# ジーナ・デュラム
+JP 私…プロレスやってきて
+JP よかったです…。
+EN I'm... so glad I became a wrestler...
+
+@ 13.12
+# scene 134 優勝２
+# ジーナ・デュラム
+JP 優勝だなんて…。
+JP せ、責任が持てません…。
+EN Me, the winner...? I-I can't take that responsibility...

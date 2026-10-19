@@ -1,0 +1,118 @@
+{
+ "english": "Staff | Business | Info | Gym | End Month | Staff | Business | Info | Gym | End Month",
+ "boxes": [
+  [
+   66,
+   16,
+   70,
+   24
+  ],
+  [
+   66,
+   40,
+   70,
+   24
+  ],
+  [
+   66,
+   64,
+   70,
+   24
+  ],
+  [
+   66,
+   88,
+   70,
+   24
+  ],
+  [
+   66,
+   112,
+   70,
+   24
+  ],
+  [
+   168,
+   14,
+   74,
+   28
+  ],
+  [
+   168,
+   38,
+   74,
+   28
+  ],
+  [
+   168,
+   62,
+   74,
+   28
+  ],
+  [
+   168,
+   86,
+   74,
+   28
+  ],
+  [
+   168,
+   110,
+   74,
+   28
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "cap": 14,
+ "same_size": true,
+ "groups": [
+  {
+   "labels": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 2.5,
+   "clear": [
+    [
+     64,
+     14,
+     74,
+     121
+    ]
+   ]
+  },
+  {
+   "labels": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "fill": "bright",
+   "ground": "transparent",
+   "reach": 3.5,
+   "clear": [
+    [
+     166,
+     14,
+     80,
+     124
+    ]
+   ],
+   "copy_of": [
+    0,
+    [
+     104,
+     0
+    ]
+   ]
+  }
+ ],
+ "notes": "main menu: panel labels + red highlight copy (tools/letter.py); mock-ups A/B/C shown to the user, A in the build; red copy = the white letters shifted exactly (104, 0), as in the original (copy_of)"
+}

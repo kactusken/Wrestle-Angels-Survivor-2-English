@@ -1,0 +1,102 @@
+# /SCR/310.BIN - ロレン・ニールセン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 310` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ロレン・ニールセン
+JP ニールセン家こそ最強の一族です！
+EN The Nielsens are the strongest family there is!
+
+@ 1.16
+# scene 119 入場1
+# ロレン・ニールセン
+JP なんかテンション
+JP 上がってきちゃった！
+EN I'm getting all pumped up now!
+
+@ 2.16
+# scene 119 入場2
+# ロレン・ニールセン
+JP ウォーミングアップは済んだ？
+JP それじゃ始めるわよ！
+EN Done warming up? Then let's get started!
+
+@ 3.17
+# scene 120 タッグマッチ ベスト
+# ロレン・ニールセン
+JP 腕が鳴るわ！
+EN I'm itching to go!
+
+@ 4.16
+# scene 125 必殺技１
+# ロレン・ニールセン
+JP 遊びの時間はオ・シ・マ・イ！
+EN Play-time is o-v-e-r!
+
+@ 5.16
+# scene 125 必殺技２
+# ロレン・ニールセン
+JP ニールセン家伝統の技、
+JP 受けてみなさい！
+EN Take the Nielsen family's traditional move!
+
+@ 6.16
+# scene 125 必殺技３
+# ロレン・ニールセン
+JP 勝機！　いくわよー！！
+EN Here's my chance! Let's go!
+
+@ 7.12
+# scene 126 勝利1
+# ロレン・ニールセン
+JP ウフフッ。
+JP ウォーミングアップレベルね！
+EN Ufufu. That was warm-up level!
+
+@ 8.12
+# scene 126 勝利2
+# ロレン・ニールセン
+JP ニールセン家の伝統を
+JP 甘く見ないでね。
+EN Don't underestimate the Nielsen tradition.
+
+@ 9.12
+# scene 126 勝利3
+# ロレン・ニールセン
+JP 格闘一族のメンツがあるのよ！
+EN A fighting family has its pride to keep!
+
+@ 10.15
+# scene 133 表彰1
+# ロレン・ニールセン
+JP ニールセン家に生まれたことを
+JP 誇りに思います。
+EN I'm proud to have been born a Nielsen.
+
+@ 11.15
+# scene 133 表彰2
+# ロレン・ニールセン
+JP 感激です！
+JP これからも応援よろしくね！
+EN I'm so moved! Please keep cheering for me!
+
+@ 12.12
+# scene 134 優勝1
+# ロレン・ニールセン
+JP ニールセン家の名誉にかけて
+JP 次も優勝狙います！
+EN On the Nielsen name, I'm going for the win next time
+EN too!
+
+@ 13.12
+# scene 134 優勝２
+# ロレン・ニールセン
+JP 私は誰の挑戦でも受けて立ちます。
+EN I'll take on any challenger.

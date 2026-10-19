@@ -1,0 +1,2306 @@
+# /SCR/157.BIN - ペガサス藤原
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 157` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ペガサス藤原
+JP 藤原です。
+JP よろしくお願いします！
+EN I'm Fujiwara. Pleased to meet you!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ペガサス藤原
+JP ありがとうございます。
+JP 正義のためにがんばります！
+EN Thank you very much! I'll fight hard for justice!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ペガサス藤原
+JP わかりました。
+JP 鍛え直してきます！
+EN Understood. I'll go back and train harder!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here.
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「正義のヒロインここにあり」と
+JP 書かれてあるが…。
+EN The scouting report says "A heroine of justice has
+EN arrived"...
+
+@ 3.27
+# 社 長
+JP ええと、どこにいるんだろう…？
+EN Now, where could she be...?
+
+@ 3.37
+# ？？？
+JP そこのあなた！
+EN You there!
+
+@ 3.40
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 3.44
+# ？？？
+JP あなたは今お困りですね。
+JP はいはいっ！
+JP 私にお任せください！
+EN You're in trouble, aren't you? Yes, yes! Leave it all
+EN to me!
+
+@ 3.47
+# 社 長
+JP あ、あの…。
+EN Um, well...
+
+@ 3.54
+# ？？？
+JP さあ、遠慮なさらずに。
+JP 私は正義に奉仕する者ですから！
+EN Come now, don't be shy. I am a servant of justice,
+EN after all!
+
+@ 3.57
+# 社 長
+JP （…えっ、正義って
+JP 　まさか資料にあったのは…？）
+EN (...Wait, justice? Don't tell me she's the one from the
+EN report...?)
+
+@ 3.64
+# ペガサス藤原
+JP どうしたんですか？
+JP ハッ、まさかしゃべれないほど
+JP 困って…！？
+EN What's wrong? Oh no, don't tell me you're in such
+EN trouble you can't even speak...!?
+
+@ 3.67
+# 社 長
+JP あの、実は私、プロレスの団体を
+JP 経営している者なんですが…。
+EN Um, actually, I run a pro-wrestling promotion...
+
+@ 3.74
+# ペガサス藤原
+JP プロレス？
+EN Pro wrestling?
+
+@ 3.77
+# 社 長
+JP （俺は事情を話して
+JP 　入団してくれるよう頼んでみた）
+EN (I explained the situation and asked her to join us.)
+
+@ 3.84
+# ペガサス藤原
+JP なるほど…。
+JP 社長さんだったとは…。
+JP それで私の力を求めていると？
+EN I see... So you're the president of a company... And
+EN you seek my power?
+
+@ 3.87
+# 社 長
+JP 是非お願いします。
+EN Yes, I'd really like you to join.
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ペガサス藤原
+JP わかりました。
+JP ともに正義のために戦いましょう！
+EN Understood. Let us fight together for justice!
+
+@ 4.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 4.29
+# ペガサス藤原
+JP こちらこそ！
+JP これからよろしくお願いします。
+JP キャプテン！
+EN No, thank you! I look forward to working with you...
+EN Captain!
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# ペガサス藤原
+JP 申し訳ありません。
+JP 私には、まだ果たさねばならない
+JP 使命があるんです。
+EN I'm terribly sorry. I still have a mission I must fulfill.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしか
+JP このあたりだったはずだが…。
+EN Let's see, it should have been around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# ペガサス藤原
+JP あっ、この間の社長さんですね？
+EN Oh, you're the president from the other day, aren't
+EN you?
+
+@ 6.38
+# 社 長
+JP あの、どうしてもうちの団体に
+JP 入ってもらいたくて…。
+EN Um, I really want you to join our promotion...
+
+@ 6.45
+# ペガサス藤原
+JP えぇっ！
+JP そこまで私の力を求めて
+JP いるんですか？
+EN Whaaat! You seek my power that badly?
+
+@ 6.48
+# 社 長
+JP はい、どうかお願いします。
+EN Yes. Please, I'm asking you.
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ペガサス藤原
+JP わかりました。
+JP ともに正義のために戦いましょう！
+EN Understood. Let us fight together for justice!
+
+@ 7.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 7.29
+# ペガサス藤原
+JP こちらこそ！
+JP これからよろしくお願いします。
+JP キャプテン！
+EN No, thank you! I look forward to working with you...
+EN Captain!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ペガサス藤原
+JP 申し訳ありません。
+JP 私には、まだ果たさねばならない
+JP 使命があるんです。
+EN I'm terribly sorry. I still have a mission I must fulfill.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は藤原選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Fujiwara.
+
+@ 9.25
+# 社 長
+JP 明るく元気な正義のヒロインとして
+JP 評判になっている選手だ。
+EN She's made a name for herself as a bright, energetic
+EN heroine of justice.
+
+@ 9.27
+# 社 長
+JP 団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined us, our shows would get even more
+EN exciting. No doubt about it.
+
+@ 9.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 9.31
+# 社 長
+JP ああ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# ペガサス藤原
+JP はい、なんでしょうか！
+EN Yes, what can I do for you!
+
+@ 9.46
+# 社 長
+JP （おおっ！
+JP 　噂通りの明るさだな）
+EN (Whoa! She's as cheerful as they say.)
+
+@ 9.48
+# 社 長
+JP 実はですね…。
+EN Well, you see...
+
+@ 9.50
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.57
+# ペガサス藤原
+JP い、移籍ですか？
+EN T-transfer to your promotion?
+
+@ 9.60
+# 社 長
+JP はい、どうでしょうか？
+EN Yes. What do you say?
+
+@ 9.67
+# ペガサス藤原
+JP でも、それって今の団体を
+JP 裏切ることになるのでは…。
+EN But wouldn't that mean betraying my current
+EN promotion...?
+
+@ 9.70
+# 社 長
+JP （難しいかな？）
+EN (Is this going to be tough?)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# ペガサス藤原
+JP …わかりました。
+JP お受けします！
+EN ...Understood. I accept!
+
+@ 10.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 10.29
+# ペガサス藤原
+JP 正義を広めるには
+JP 一ヶ所に留まっていては
+JP いけませんから！
+EN To spread justice, I can't stay in one place forever!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ペガサス藤原
+JP すみません、正義のヒロインが
+JP 裏切りをする訳にはいきません。
+EN I'm sorry, but a heroine of justice cannot commit
+EN betrayal.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 藤原選手が必要だ。
+EN Our promotion really does need Fujiwara.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 藤原選手と交渉することにした。
+EN I decided to negotiate with Fujiwara one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ペガサス藤原
+JP あっ、この間の社長さん。
+JP また移籍のお話ですか。
+EN Oh, the president from the other day. Is this about
+EN the transfer again?
+
+@ 12.40
+# 社 長
+JP はい。
+JP どうでしょうか？
+EN Yes. What do you say?
+
+@ 12.47
+# ペガサス藤原
+JP そこまで求められるとは…。
+JP 困りましたねぇ…。
+EN To be wanted this badly... Oh, what should I do...
+
+@ 12.50
+# 社 長
+JP （今度はどうかな？）
+EN (How about this time?)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# ペガサス藤原
+JP …わかりました。
+JP お受けします！
+EN ...Understood. I accept!
+
+@ 13.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 13.29
+# ペガサス藤原
+JP 正義を広めるには
+JP 一ヶ所に留まっていては
+JP いけませんから！
+EN To spread justice, I can't stay in one place forever!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ペガサス藤原
+JP すみません、正義のヒロインが
+JP 裏切りをする訳にはいきません。
+EN I'm sorry, but a heroine of justice cannot commit
+EN betrayal.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は藤原選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Fujiwara.
+
+@ 15.25
+# 社 長
+JP 好感度抜群の正義のヒロインとして
+JP 評判を集めている選手だ。
+EN She's gathered a reputation as a hugely likable
+EN heroine of justice.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined our promotion, our shows would get
+EN even more exciting. No doubt about it.
+
+@ 15.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# ペガサス藤原
+JP はいっ！
+JP なんでしょうか！
+EN Yes! What can I do for you!
+
+@ 15.46
+# 社 長
+JP （おおっ、噂通りの明るさだな）
+EN (Whoa, she's as cheerful as they say.)
+
+@ 15.48
+# 社 長
+JP あの、実はですね…。
+EN Um, well, you see...
+
+@ 15.50
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to recruit her.)
+
+@ 15.57
+# ペガサス藤原
+JP なるほど…。
+JP つまり社長さんの組織に入って
+JP 悪を倒せというのですね。
+EN I see... In other words, you want me to join your
+EN organization and defeat evil.
+
+@ 15.60
+# 社 長
+JP （微妙に違っているような
+JP 　気もするが…）
+EN (I feel like that's slightly off, but...)
+
+@ 15.62
+# 社 長
+JP …まあ、そんなところです。
+EN ...Well, something like that.
+
+@ 15.69
+# ペガサス藤原
+JP それは大変意義のある
+JP お仕事ですね！
+EN That's truly meaningful work!
+
+@ 15.72
+# 社 長
+JP 是非お願いします。
+EN I'd really like you to join.
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# ペガサス藤原
+JP わかりました。
+JP ともに悪を倒しましょう！
+EN Understood. Let us defeat evil together!
+
+@ 16.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 16.29
+# ペガサス藤原
+JP こちらこそ！
+JP これからよろしくお願いします。
+JP キャプテン！
+EN No, thank you! I look forward to working with you...
+EN Captain!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ペガサス藤原
+JP すみません、私にはまだ使命が
+JP 残っているんです。
+EN I'm sorry, but I still have a mission left to fulfill.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 藤原選手が必要だ。
+EN Our promotion really does need Fujiwara.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 藤原選手と交渉することにした。
+EN I decided to negotiate with Fujiwara one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ペガサス藤原
+JP ああ、この間の社長さんですね。
+JP 今日はなんのご用ですか？
+EN Ah, the president from the other day. What can I do
+EN for you today?
+
+@ 18.40
+# 社 長
+JP 実はもう一度考え直して
+JP いただけないかと…。
+EN Actually, I was hoping you'd reconsider...
+
+@ 18.47
+# ペガサス藤原
+JP ええっ！
+JP まさか社長さんの組織が
+JP ピンチなんですか？
+EN Whaaat! Don't tell me your organization is in a
+EN pinch!?
+
+@ 18.50
+# 社 長
+JP はあ、まあ…。
+EN Uh, well, sort of...
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# ペガサス藤原
+JP わかりました。
+JP ともに悪を倒しましょう！
+EN Understood. Let us defeat evil together!
+
+@ 19.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 19.29
+# ペガサス藤原
+JP こちらこそ！
+JP これからよろしくお願いします。
+JP キャプテン！
+EN No, thank you! I look forward to working with you...
+EN Captain!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ペガサス藤原
+JP すみません、私にはまだ使命が
+JP 残っているんです。
+EN I'm sorry, but I still have a mission left to fulfill.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は藤原を訪ねることにした。
+EN I decided to pay Fujiwara a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 藤原っ！
+EN Fujiwara!
+
+@ 21.41
+# ペガサス藤原
+JP …あっ、キャプテン。
+EN ...Oh, Captain.
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.48
+# ペガサス藤原
+JP …はい。
+EN ...Yes.
+
+@ 21.51
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you because I
+EN want you to come back.
+
+@ 21.55
+# ペガサス藤原
+JP また、ともに戦えと
+JP おっしゃるんですか？
+EN You're asking me to fight alongside you again?
+
+@ 21.58
+# 社 長
+JP たしかにこんなことを頼めた
+JP 義理じゃないのはわかっているが…。
+EN I know I'm in no position to ask something like this,
+EN but...
+
+@ 21.60
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# ペガサス藤原
+JP わかりました。
+JP 正義のヒロインは負けません。
+JP ネバーギブアップですっ！
+EN Understood. A heroine of justice never loses. Never
+EN give up!
+
+@ 22.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ペガサス藤原
+JP 私はキャプテンを
+JP 盟友だと信じていました…。
+EN I believed you were my comrade-in-arms, Captain...
+
+@ 23.22
+# 社 長
+JP すまなかった。
+EN I'm sorry.
+
+@ 23.26
+# ペガサス藤原
+JP それが破れた以上
+JP もうキャプテンを信じることは
+JP できません…。
+EN Now that that bond is broken, I can't trust you
+EN anymore, Captain...
+
+@ 23.29
+# 社 長
+JP そうか…。
+JP わかった、悪かったな。
+EN I see... All right. I'm sorry.
+
+@ 23.31
+# 社 長
+JP （身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び藤原を訪ねることにした。
+EN I decided to visit Fujiwara again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 藤原っ！
+EN Fujiwara!
+
+@ 24.37
+# ペガサス藤原
+JP キャプテン…。
+EN Captain...
+
+@ 24.40
+# 社 長
+JP すまない。
+JP もう一度話を聞いてくれ。
+EN I'm sorry. Please hear me out one more time.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ペガサス藤原
+JP わかりました。
+JP 正義のヒロインは負けません。
+JP ネバーギブアップですっ！
+EN Understood. A heroine of justice never loses. Never
+EN give up!
+
+@ 25.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ペガサス藤原
+JP 私はキャプテンを
+JP 盟友だと信じていました…。
+EN I believed you were my comrade-in-arms, Captain...
+
+@ 26.22
+# 社 長
+JP すまなかった。
+EN I'm sorry.
+
+@ 26.26
+# ペガサス藤原
+JP それが破れた以上
+JP もうキャプテンを信じることは
+JP できません…。
+EN Now that that bond is broken, I can't trust you
+EN anymore, Captain...
+
+@ 26.29
+# 社 長
+JP そうか…。
+JP わかった、悪かったな。
+EN I see... All right. I'm sorry.
+
+@ 26.31
+# 社 長
+JP （身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ペガサス藤原
+JP この程度、なんでもありません！
+EN This is nothing at all!
+
+@ 28.16
+# scene 029 ケガ大
+# ペガサス藤原
+JP この程度…っつ、イタッ…。
+EN This is noth... Ngh, ow, ow...
+
+@ 29.16
+# scene 030 入院
+# ペガサス藤原
+JP クッ…。
+JP 休んでいる場合じゃないのに…。
+EN Ngh... This is no time for me to be resting...
+
+@ 30.16
+# scene 031 退院
+# ペガサス藤原
+JP 藤原、ただいま復帰しましたっ！
+EN Fujiwara, back in action as of today!
+
+@ 31.16
+# scene 032 ケガ完治
+# ペガサス藤原
+JP もう大丈夫ですっ！
+JP 根性、根性っ！
+EN I'm all better now! Guts, guts!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ペガサス藤原
+JP たしかに私の使命は
+JP 終わっているようです。
+EN It seems my mission truly has come to an end.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ペガサス藤原
+JP 何を言っているんですか！
+JP まだまだ討たねばならない悪が
+JP 残っています！
+EN What are you saying!? There's still plenty of evil left
+EN for me to vanquish!
+
+@ 34.16
+# scene 035 コーチ就任
+# ペガサス藤原
+JP 正義のために戦おう！
+JP 合い言葉は努力・根性・友情！
+EN Let's fight for justice! Our motto: effort, guts,
+EN friendship!
+
+@ 35.16
+# scene 036 ケガ引退
+# ペガサス藤原
+JP 無念です…。
+JP こんなことでリタイアとは…。
+EN How mortifying... To retire over something like this...
+
+@ 36.16
+# scene 037 年齢引退
+# ペガサス藤原
+JP これからは後輩たちの活躍を
+JP 見守りたいと思います。
+EN From now on, I want to watch over my juniors as they
+EN shine.
+
+@ 37.16
+# scene 038 退団
+# ペガサス藤原
+JP ここでは悪を討てません。
+JP 失礼します。
+EN I can't vanquish evil here. Goodbye.
+
+@ 38.16
+# scene 039 スランプ
+# ペガサス藤原
+JP もしや…。
+JP 悪の組織の罠…。
+EN Could it be...? A trap set by the evil organization...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ペガサス藤原
+JP ファンクラブですか？
+EN A fan club?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you can live up to all that support.
+
+@ 39.26
+# ペガサス藤原
+JP はい、がんばります。
+JP ありがとうございます！
+EN Yes, I'll work hard. Thank you very much!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ペガサス藤原
+JP ファンクラブ？
+JP …えっ、またですか！
+EN A fan club? ...Huh, another one!?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yep. Make sure you live up to their expectations.
+
+@ 40.26
+# ペガサス藤原
+JP はいっ、人々の期待に応えなくては
+JP ヒロインを名乗る資格は
+JP ありませんっ！
+EN Yes! If I can't live up to people's expectations, I have
+EN no right to call myself a heroine!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ペガサス藤原
+JP …えっ？
+JP ファンクラブ
+JP 解散しちゃったんですか…。
+EN ...Huh? My fan club broke up...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+EN Well, these things happen.
+
+@ 41.26
+# ペガサス藤原
+JP 情けないです…。
+EN How pathetic of me...
+
+@ 42.16
+# scene 043 映画出演
+# ペガサス藤原
+JP 特撮物だったら嬉しいんですけど？
+JP あっ、ヒロインの衣装着られますか？
+EN I'd be thrilled if it's a tokusatsu hero film! Oh, can I
+EN wear a heroine costume?
+
+@ 43.16
+# scene 044 一日署長
+# ペガサス藤原
+JP 人々の平和と社会の安寧のために
+JP 命を賭ける…！
+JP 一日と言わず何日でもやります！
+EN I'll risk my life for the peace and safety of the
+EN people...! Not just one day, I'll do it for as many as it
+EN takes!
+
+@ 44.16
+# scene 045 写真集発売
+# ペガサス藤原
+JP 水着じゃなくて
+JP 特撮ヒロインのコスプレじゃ
+JP ダメですか？
+EN Instead of swimsuits, could I cosplay as a tokusatsu
+EN heroine?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ペガサス藤原
+JP あっ、特撮物のスポンサーを
+JP よくやってる会社です！
+EN Oh, that company sponsors tokusatsu shows all the
+EN time!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ペガサス藤原
+JP 特撮番組の主題歌に
+JP 使ってもらえないかなあ…。
+EN I wonder if they'd use it as the theme song for a
+EN tokusatsu show...
+
+@ 47.16
+# scene 048 始球式
+# ペガサス藤原
+JP ド真ん中にストレートを
+JP 投げ込んできます！
+EN I'll throw a fastball right down the middle!
+
+@ 48.16
+# scene 049 学園祭
+# ペガサス藤原
+JP 正義の素晴らしさを
+JP アピールするチャンスですね！
+EN A chance to show everyone how wonderful justice is!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# ペガサス藤原
+JP ええっ！
+JP そんな気を遣っていただかなくても…。
+EN Whaaat! You didn't have to go to all that trouble...
+
+@ 49.39
+# 社 長
+JP いいから取っておいてくれ。
+EN Just take it.
+
+@ 49.46
+# ペガサス藤原
+JP はい。
+JP ありがとうございます、キャプテン！
+EN Okay. Thank you very much, Captain!
+
+@ 50.30
+# scene 051 バレンタインデー
+# ペガサス藤原
+JP キャプテン！
+JP これを受けて取ってください！
+EN Captain! Please accept this!
+
+@ 50.33
+# 社 長
+JP …ああ、ありがとう。
+EN ...Oh, thanks.
+
+@ 50.40
+# ペガサス藤原
+JP いいえ！
+JP 正義のヒロインでも
+JP バレンタインぐらい…いいですよね？
+EN Not at all! Even a heroine of justice can do
+EN Valentine's Day... that's okay, right?
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# ペガサス藤原
+JP ありがとうございます、キャプテン。
+JP 感謝感激ですっ！
+EN Thank you very much, Captain. I'm overwhelmed with
+EN gratitude!
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# ペガサス藤原
+JP みなさんの声援が私の力の源です！
+EN Your cheers are the source of my power!
+
+@ 53.29
+# scene 054 コンサート
+# ペガサス藤原
+JP 全力でいきます！
+JP 聴いてください！
+EN I'm giving it everything I've got! Please listen!
+
+@ 54.28
+# scene 055 練習拒否
+# ペガサス藤原
+JP 今日は燃えるものを感じません…。
+EN I just don't feel the fire today...
+
+@ 55.28
+# scene 056 失踪
+# ペガサス藤原
+JP これ以上、戦えません…。
+EN I can't fight anymore...
+
+@ 56.16
+# scene 057 選手解雇
+# ペガサス藤原
+JP そんなっ…。
+JP まさかあなたは
+JP ブラックキャプテンなのでは？
+EN No way... Could it be... you're actually the Black
+EN Captain!?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ペガサス藤原
+JP それでは行ってきます！
+EN Well then, I'm off!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ペガサス藤原
+JP 藤原、ただいま帰還しました！
+EN Fujiwara, returning from her mission!
+
+@ 59.26
+# scene 060 移籍思案
+# ペガサス藤原
+JP 私を求めている人がいる…。
+EN There are people who need me...
+
+@ 60.16
+# scene 061 革命軍結成
+# ペガサス藤原
+JP 味方と言えども
+JP 間違った考えは許しておけません。
+EN Allies or not, I can't let wrong ideas go unchallenged.
+
+@ 61.16
+# scene 062 反乱軍結成
+# ペガサス藤原
+JP 間違いを正さない限り
+JP 明日はありません！
+EN Unless we set things right, there is no tomorrow!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ペガサス藤原
+JP すべてを決するときが
+JP やってきました！
+EN The time has come to settle everything!
+
+@ 63.16
+# scene 065 遺恨発生
+# ペガサス藤原
+JP なんであんなことを…。
+EN Why would she do something like that...
+
+@ 64.16
+# scene 065 殴り込み
+# ペガサス藤原
+JP 藤原、行きますっ！
+EN Fujiwara, here I go!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ペガサス藤原
+JP ここは任せてください！
+EN Leave this to me!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ペガサス藤原
+JP 藤原、正義の名の下に
+JP ただいま参上っ！
+EN In the name of justice, Fujiwara has arrived!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ペガサス藤原
+JP すべての力を出し切ってみせます！
+EN I'll give it every ounce of strength I have!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ペガサス藤原
+JP 正義は勝つ！
+JP ついに実践できました！
+EN Justice prevails! I finally proved it!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ペガサス藤原
+JP 正義のヒロインが敗れるなんて…。
+EN A heroine of justice, defeated...
+
+@ 70.13
+# scene 071 引退式
+# ペガサス藤原
+JP これまで戦えたのは
+JP みなさんのおかげです。
+JP 本当にありがとうございましたー！
+EN I was able to fight all this time thanks to all of you.
+EN Thank you so very much!
+
+@ 71.17
+# ペガサス藤原
+JP なんでしょうか、キャプテン？
+EN What is it, Captain?
+
+@ 71.36
+# ペガサス藤原
+JP キャプテン、呼びましたか？
+EN Captain, did you call me?
+
+@ 71.46
+# ペガサス藤原
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.89
+# ペガサス藤原
+JP はい、ありがとうございます。
+JP がんばります。
+EN Yes, thank you very much. I'll do my best.
+
+@ 71.110
+# ペガサス藤原
+JP はい…。
+JP 全力でがんばります…。
+EN Yes... I'll give it my all...
+
+@ 71.131
+# ペガサス藤原
+JP 見せたい人がいると
+JP やっぱり違うのかと…。
+EN I guess it really makes a difference when there's
+EN someone you want to impress...
+
+@ 71.152
+# ペガサス藤原
+JP そうですね…。
+EN I suppose so...
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# ペガサス藤原
+JP ハッ…。
+JP 申し訳ありませんでした。
+JP キャプテン！
+EN Ah...! I'm very sorry, Captain!
+
+@ 71.210
+# ペガサス藤原
+JP そんなことありません！
+EN That's not true!
+
+@ 71.231
+# ペガサス藤原
+JP 私、甘えていました。
+JP …すみません、キャプテン。
+EN I was getting too comfortable. ...I'm sorry, Captain.
+
+@ 71.252
+# ペガサス藤原
+JP 私の正義がキャプテンに
+JP 伝わっていない…？
+EN My justice isn't reaching you, Captain...?
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.289
+# ペガサス藤原
+JP ありがとうございます。
+JP 藤原、今のお言葉で
+JP 完全復活しました！
+EN Thank you very much! With those words, Fujiwara is
+EN fully revived!
+
+@ 71.310
+# ペガサス藤原
+JP 今は自分一人で
+JP 耐えるときですから…。
+EN Right now is a time for me to endure on my own...
+
+@ 71.331
+# ペガサス藤原
+JP やはりキャプテンは
+JP 私を見守ってくれているんですね…。
+EN So you really are watching over me, Captain...
+
+@ 71.352
+# ペガサス藤原
+JP 大丈夫です、キャプテン。
+JP 必ず立ち直ってみせますから。
+EN I'm all right, Captain. I'll bounce back, I promise.
+
+@ 71.366
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# ペガサス藤原
+JP はい。
+EN Yes.
+
+@ 71.399
+# ペガサス藤原
+JP いいえ！
+JP さっぱりわかりません！
+EN No! I have no idea!
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.432
+# ペガサス藤原
+JP わかりました。
+JP これからはともに悪と戦います。
+EN Understood. From now on, we'll fight evil together.
+
+@ 71.453
+# ペガサス藤原
+JP キャプテンの命令でも…。
+JP こればかりは…。
+EN Even if it's your order, Captain... This one thing, I
+EN just can't...
+
+@ 71.474
+# ペガサス藤原
+JP すみません。
+JP なんのお話かさっぱりわかりません！
+EN I'm sorry. I have no idea what you're talking about!
+
+@ 71.487
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# ペガサス藤原
+JP はい、わかっているつもりです！
+EN Yes, I believe I do!
+
+@ 71.521
+# ペガサス藤原
+JP すみません。
+JP 心当たりがありません！
+EN I'm sorry. Nothing comes to mind!
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.556
+# ペガサス藤原
+JP そうですね。
+JP 正義のヒロインが
+JP 人を憎んじゃいけないですよね。
+EN You're right. A heroine of justice shouldn't hate
+EN anyone.
+
+@ 71.577
+# ペガサス藤原
+JP 正義のヒロインだからこそ
+JP 許せない人がいるんです…。
+EN It's because I'm a heroine of justice that there's
+EN someone I can't forgive...
+
+@ 71.598
+# ペガサス藤原
+JP キャプテン…。
+JP なんの話をしているんです…？
+EN Captain... What are you talking about...?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ペガサス藤原
+JP キャプテン、呼びましたか？
+EN Captain, did you call me?
+
+@ 72.16
+# ペガサス藤原
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ペガサス藤原
+JP はい、ありがとうございます。
+JP がんばります。
+EN Yes, thank you very much. I'll do my best.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ペガサス藤原
+JP はい…。
+JP 全力でがんばります…。
+EN Yes... I'll give it my all...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ペガサス藤原
+JP 見せたい人がいると、
+JP やっぱり違うのかと…。
+EN I guess it really makes a difference when there's
+EN someone you want to impress...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ペガサス藤原
+JP そうですね…。
+EN I suppose so...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ペガサス藤原
+JP ハッ…。
+JP 申し訳ありませんでした、
+JP キャプテン！
+EN Ah...! I'm very sorry, Captain!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ペガサス藤原
+JP そんなことありません！
+EN That's not true!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ペガサス藤原
+JP 私、甘えていました。
+JP …すみません、キャプテン。
+EN I was getting too comfortable. ...I'm sorry, Captain.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ペガサス藤原
+JP 私の正義がキャプテンに
+JP 伝わっていない…？
+EN My justice isn't reaching you, Captain...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ペガサス藤原
+JP ありがとうございます。
+JP 藤原、今のお言葉で
+JP 完全復活しました！
+EN Thank you very much! With those words, Fujiwara is
+EN fully revived!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ペガサス藤原
+JP 今は自分一人で
+JP 耐えるときですから…。
+EN Right now is a time for me to endure on my own...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ペガサス藤原
+JP やはりキャプテンは、
+JP 私を見守ってくれているんですね…。
+EN So you really are watching over me, Captain...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ペガサス藤原
+JP 大丈夫です、キャプテン。
+JP 必ず立ち直ってみせますから。
+EN I'm all right, Captain. I'll bounce back, I promise.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ペガサス藤原
+JP はい。
+EN Yes.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ペガサス藤原
+JP いいえ！
+JP さっぱりわかりません！
+EN No! I have no idea!
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ペガサス藤原
+JP わかりました。
+JP これからはともに悪と戦います。
+EN Understood. From now on, we'll fight evil together.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ペガサス藤原
+JP キャプテンの命令でも…。
+JP こればかりは…。
+EN Even if it's your order, Captain... This one thing, I
+EN just can't...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ペガサス藤原
+JP すみません。
+JP なんのお話かさっぱりわかりません！
+EN I'm sorry. I have no idea what you're talking about!
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ペガサス藤原
+JP はい、わかっているつもりです！
+EN Yes, I believe I do!
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ペガサス藤原
+JP すみません、心当たりがありません！
+EN I'm sorry. Nothing comes to mind!
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ペガサス藤原
+JP そうですね。
+JP 正義のヒロインが
+JP 人を憎んじゃいけないですよね。
+EN You're right. A heroine of justice shouldn't hate
+EN anyone.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ペガサス藤原
+JP 正義のヒロインだからこそ、
+JP 許せない人がいるんです…。
+EN It's because I'm a heroine of justice that there's
+EN someone I can't forgive...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ペガサス藤原
+JP キャプテン…。
+JP なんの話をしているんです…？
+EN Captain... What are you talking about...?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ペガサス藤原
+JP またよろしくお願いします。
+EN I look forward to another year with you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ペガサス藤原
+JP 正義のために働き続ける覚悟です！
+EN I'm ready to keep working for the sake of justice!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ペガサス藤原
+JP 正義はお金じゃないですから…。
+EN Justice isn't about money, after all...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Mmm, the tropics really are something. The sun is
+EN blazing.)
+
+@ 105.26
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.32
+# 社 長
+JP （俺はもう少しゆっくりと
+JP 　ここで休んで…）
+EN (I think I'll just relax here a little longer...)
+
+@ 105.40
+# ？？？
+JP とーう！
+JP 私が来たからには
+JP あなたの悪事もこれまでですっ！
+EN Hi-yah! Now that I'm here, your evil deeds are at an
+EN end!
+
+@ 105.43
+# 社 長
+JP （な、なんだぁっ？）
+EN (Wh-what the!?)
+
+@ 105.59
+# 社 長
+JP ふ、藤原！？
+EN F-Fujiwara!?
+
+@ 105.69
+# ペガサス藤原
+JP あっ、キャプテン。
+JP どうかしましたか？
+EN Oh, Captain. Is something wrong?
+
+@ 105.72
+# 社 長
+JP それはこっちの台詞だ。
+JP 何やってるんだ？
+EN That's my line. What are you doing?
+
+@ 105.76
+# ペガサス藤原
+JP はい！
+JP 見ての通り、ヒーローショー出演に
+JP 備えての特訓です！
+EN Yes! As you can see, I'm training for an appearance
+EN in a hero show!
+
+@ 105.79
+# 社 長
+JP ヒーローショー…？
+EN A hero show...?
+
+@ 105.83
+# ペガサス藤原
+JP 映画出演やＣＭ出演の依頼が来るなら
+JP ヒーローショーの依頼もあるかと
+JP 思いまして！
+EN If I'm getting offers for movies and commercials, I
+EN figured hero show offers might come too!
+
+@ 105.86
+# 社 長
+JP …それはわかったが
+JP どうしてここで？
+EN ...Okay, I get that, but why here?
+
+@ 105.90
+# ペガサス藤原
+JP ヒーローショーは屋外が多いので
+JP 自分の声がどこまで通るか
+JP 試しておく必要があるだろうと！
+EN Hero shows are mostly outdoors, so I need to test
+EN how far my voice carries!
+
+@ 105.93
+# 社 長
+JP そ、そうか。
+JP がんばっているんだな。
+EN I-I see. You're really working hard.
+
+@ 105.103
+# ペガサス藤原
+JP はい！
+JP 藤原、がんばってます！
+EN Yes! Fujiwara is working hard!
+
+@ 105.106
+# 社 長
+JP （…やる気があるのは
+JP 　いいことだよな）
+EN (...Well, being motivated is a good thing.)
+
+@ 105.116
+# ペガサス藤原
+JP キャプテン、特訓に戻りたいのですが
+JP いいでしょうか？
+EN Captain, I'd like to get back to my training, if that's
+EN all right?
+
+@ 105.119
+# 社 長
+JP あ、ああ…。
+EN Oh, s-sure...
+
+@ 105.123
+# ペガサス藤原
+JP では、失礼します！
+EN Then, excuse me!
+
+@ 105.126
+# 社 長
+JP ああ、がんばれよ。
+EN Yeah, keep at it.
+
+@ 105.135
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.137
+# 社 長
+JP …でも、やっぱりヒーローショーの
+JP 出演依頼は来ないと思うぞ？
+EN ...But I really don't think any hero show offers are
+EN coming, you know?
+
+@ 105.141
+# ペガサス藤原
+JP たあっ！
+JP 正義の鉄拳を受けてみろ！
+EN Hyah! Taste the iron fist of justice!
+
+@ 105.145
+# ペガサス藤原
+JP うわっ！
+JP なんて卑怯な攻撃を…。
+EN Ugh! What a cowardly attack...
+
+@ 105.149
+# ペガサス藤原
+JP クゥッ…。
+JP 正義のヒロインがこんなところで
+JP 負けるものか…。
+EN Ngh... As if a heroine of justice would lose in a place
+EN like this...
+
+@ 105.153
+# ペガサス藤原
+JP いくぞ、必殺
+JP キャプチュード・アタァーッック！
+EN Here I go! Special move... Capture Attaaack!
+
+@ 105.156
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.158
+# 社 長
+JP （まあ、いいか…。
+JP 　本人は楽しそうだし）
+EN (Oh, well... She looks like she's having fun.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP ふぅ…。
+EN Phew...
+
+@ 106.26
+# 社 長
+JP よし。
+JP 寮に荷物も運び終わったし…。
+EN All right. I've finished moving the stuff into the
+EN dorm...
+
+@ 106.28
+# 社 長
+JP オフィスに戻るか。
+EN Guess I'll head back to the office.
+
+@ 106.45
+# ペガサス藤原
+JP ………………。
+EN ..................
+
+@ 106.48
+# 社 長
+JP （あそこにいるのは
+JP 　…藤原か？）
+EN (Is that... Fujiwara over there?)
+
+@ 106.50
+# 社 長
+JP （何をしてるんだ？）
+EN (What's she doing?)
+
+@ 106.60
+# ペガサス藤原
+JP あっ、キャプテンじゃないですか！
+EN Oh, if it isn't the Captain!
+
+@ 106.63
+# 社 長
+JP ああ。
+JP そんなところで何してるんだ？
+EN Hey. What are you doing over there?
+
+@ 106.67
+# ペガサス藤原
+JP はい！
+JP ファンレターが来たので
+JP 読んでいました！
+EN Yes! I got some fan letters, so I was reading them!
+
+@ 106.70
+# 社 長
+JP …部屋で読めばいいだろう。
+EN ...You could read them in your room.
+
+@ 106.74
+# ペガサス藤原
+JP そうなんですが
+JP 一刻も早く読みたくて。
+EN I know, but I wanted to read them as soon as
+EN possible.
+
+@ 106.77
+# 社 長
+JP （よっぽどファンレターが
+JP 　嬉しいんだな）
+EN (She must be really happy to get fan letters.)
+
+@ 106.79
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.89
+# ペガサス藤原
+JP うっ…。
+EN Ugh...
+
+@ 106.93
+# ペガサス藤原
+JP はぅぅ……。
+EN Hauuu......
+
+@ 106.96
+# 社 長
+JP …んっ？
+JP どうした？
+EN ...Hm? What's wrong?
+
+@ 106.106
+# ペガサス藤原
+JP あっ、いえ…。
+JP なんかエッチなことが
+JP 書いてあって…。
+EN Oh, n-nothing... It's just, this one has some dirty
+EN stuff written in it...
+
+@ 106.109
+# 社 長
+JP ああ…。
+JP まあ、そういうヤツもいるからな。
+JP あまり気にするな。
+EN Ah... Well, there are guys like that. Don't let it bother
+EN you too much.
+
+@ 106.111
+# 社 長
+JP あんまりひどいのは
+JP 会社でチェックするから。
+EN The company checks for the really bad ones.
+
+@ 106.130
+# ペガサス藤原
+JP いえ！
+JP やっぱり正義の味方が
+JP 敵を選んじゃダメですよね！
+EN No! A champion of justice shouldn't pick and choose
+EN her enemies!
+
+@ 106.133
+# 社 長
+JP …はっ？
+EN ...Huh?
+
+@ 106.140
+# ペガサス藤原
+JP よーし、巨大タコでも触手生物でも
+JP みんなやっつけるから任せてって
+JP 返事出します！
+EN All right! I'll write back that giant octopuses and
+EN tentacle monsters are no problem, I'll beat them all!
+
+@ 106.147
+# ペガサス藤原
+JP では、キャプテン。
+JP 私はこれで！
+EN Well then, Captain. I'll be going!
+
+@ 106.159
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.161
+# 社 長
+JP ちょっと待て！？
+JP どんな手紙だったんだ！？
+EN Wait a minute!? What kind of letter was that!?
+
+@ 106.163
+# 社 長
+JP ほんとにヤバいヤツかもしれないぞ。
+JP それ！？
+EN That guy might be seriously dangerous, you know!?
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP ふぅ…。
+EN Phew...
+
+@ 107.26
+# 社 長
+JP よし。
+JP 寮での用事もこれで終わりだな。
+EN All right. That's my business at the dorm done.
+
+@ 107.43
+# ペガサス藤原
+JP ………………。
+EN ..................
+
+@ 107.46
+# 社 長
+JP （あそこにいるのは
+JP 　…藤原か？）
+EN (Is that... Fujiwara over there?)
+
+@ 107.48
+# 社 長
+JP （またあんなところでファンレターを
+JP 　読んでるのか？）
+EN (Is she reading fan letters in a spot like that again?)
+
+@ 107.50
+# 社 長
+JP おーい、藤原！
+EN Hey, Fujiwara!
+
+@ 107.60
+# ペガサス藤原
+JP あっ、キャプテン！
+EN Oh, Captain!
+
+@ 107.63
+# 社 長
+JP どうだ？
+JP ヘンな手紙は来ていないか？
+EN How's it going? Getting any weird letters?
+
+@ 107.67
+# ペガサス藤原
+JP はい。
+JP もう慣れたので平気です！
+EN Yes. But I'm used to them now, so I'm fine!
+
+@ 107.70
+# 社 長
+JP （…来てはいるのか）
+EN (...So she is getting them.)
+
+@ 107.72
+# 社 長
+JP 大丈夫なのか？
+EN Are you sure you're okay?
+
+@ 107.76
+# ペガサス藤原
+JP いろんな人がいますが
+JP 元気を与えられているみたいなので
+JP 満足です！
+EN There are all kinds of people, but it seems I'm giving
+EN them energy, so I'm satisfied!
+
+@ 107.79
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.81
+# 社 長
+JP （まあ本人がいいなら、いいか）
+EN (Well, if she's fine with it, I guess it's fine.)
+
+@ 107.91
+# ペガサス藤原
+JP ところで、キャプテンは
+JP どうでしょうか？
+EN By the way, Captain, what about you?
+
+@ 107.95
+# ペガサス藤原
+JP 私はキャプテンに
+JP 元気を与えられているでしょうか？
+EN Am I giving you energy too, Captain?
+
+@ 107.98
+# 社 長
+JP ああ。
+JP もちろん。
+EN Yeah. Of course.
+
+@ 107.102
+# ペガサス藤原
+JP よかったあ…。
+EN Thank goodness...
+
+@ 107.105
+# 社 長
+JP （よかった？）
+EN (Thank goodness?)
+
+@ 107.115
+# ペガサス藤原
+JP ………………。
+EN ..................
+
+@ 107.118
+# 社 長
+JP どうかしたか？
+EN Something wrong?
+
+@ 107.128
+# ペガサス藤原
+JP あの…。
+EN Um...
+
+@ 107.132
+# ペガサス藤原
+JP 正義のヒロインも
+JP …恋をしていいんでしょうか？
+EN Is a heroine of justice... allowed to fall in love?
+
+@ 107.136
+# ペガサス藤原
+JP …どう思いますか、社長？
+EN ...What do you think, Boss?
+
+@ 107.139
+# 社 長
+JP それはいいんじゃないか。
+EN I'd say that's fine.
+
+@ 107.143
+# ペガサス藤原
+JP そうですよね。
+JP よかった…。
+EN Right? Thank goodness...
+
+@ 107.146
+# 社 長
+JP 誰か好きなやつでもできたのか？
+EN Is there someone you like?
+
+@ 107.156
+# ペガサス藤原
+JP …そっ、それは
+JP 正義のヒロインの機密事項です！
+EN ...Th-that is classified information of the heroine of
+EN justice!
+
+@ 107.170
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.172
+# 社 長
+JP （そう言って、藤原は俺の質問を
+JP 　ごまかし続けた）
+EN (With that, Fujiwara kept dodging my questions.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# ペガサス藤原
+JP 戦いは清く、正しく、美しく！
+EN Fight clean, fair, and beautiful!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# ペガサス藤原
+JP 切磋琢磨します！
+EN We'll push each other to improve!
+
+@ 110.17
+# scene 112 練習試合 バッド
+# ペガサス藤原
+JP この人、怪しいかも…。
+JP ハッ、まさか敵の回し者！？
+EN This person looks suspicious... Wait, could she be a
+EN spy for the enemy!?
+
+@ 111.16
+# scene 113 練習開始
+# ペガサス藤原
+JP 根性、根性っ！
+EN Guts, guts!
+
+@ 112.16
+# scene 114 練習開始 好意
+# ペガサス藤原
+JP 藤原、鍛えまくります！
+EN Fujiwara is going to train like crazy!
+
+@ 113.16
+# scene 115 特訓開始
+# ペガサス藤原
+JP 努力で乗り越えます！
+EN I'll overcome it with effort!
+
+@ 114.20
+# scene 116 特訓成功
+# ペガサス藤原
+JP 努力の成果です！
+EN The fruits of my effort!
+
+@ 115.20
+# scene 117 特訓失敗
+# ペガサス藤原
+JP クッ…。
+JP 無念です…。
+EN Ngh... How mortifying...
+
+@ 116.16
+# scene 118 休養
+# ペガサス藤原
+JP ちょうど見たい特撮映画が
+JP あったんです。
+JP 早速いってきます！
+EN There was a tokusatsu movie I wanted to see. I'm off
+EN to watch it right away!
+
+@ 117.16
+# scene 119 入場1
+# ペガサス藤原
+JP 正義の道を貫くのみ！
+EN I will follow the path of justice to the end!
+
+@ 118.16
+# scene 119 入場2
+# ペガサス藤原
+JP 正義のヒロイン、ただいま見参！
+EN The heroine of justice has arrived!
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# ペガサス藤原
+JP ２つの清い心が悪を討つ！
+EN Two pure hearts strike down evil!
+
+@ 120.17
+# scene 122 タッグマッチ ベター２
+# ペガサス藤原
+JP 正義のために
+JP 力を合わせて戦います！
+EN We'll join forces and fight for justice!
+
+@ 121.17
+# scene 123 タッグマッチ バッド
+# ペガサス藤原
+JP このパートナー怪しい…。
+JP ああっ、もしかして今日は
+JP 味方が裏切るパターン？
+EN This partner is suspicious... Oh no, is today the
+EN episode where an ally betrays me?
+
+@ 122.16
+# scene 125 必殺技１
+# ペガサス藤原
+JP いきまーす、トドメの必殺技！
+EN Here I goooo! The finishing move!
+
+@ 123.16
+# scene 125 必殺技２
+# ペガサス藤原
+JP 藤原、ここで決めます！
+EN Fujiwara is ending it here!
+
+@ 124.16
+# scene 125 必殺技３
+# ペガサス藤原
+JP 飛び込め！
+JP クライシス・ダーイブッ！
+EN Take the plunge! Crisis Diiive!
+
+@ 125.12
+# scene 126 勝利1
+# ペガサス藤原
+JP 任務完了！
+JP 正義は負けません！
+EN Mission complete! Justice never loses!
+
+@ 126.12
+# scene 126 勝利2
+# ペガサス藤原
+JP 努力、根性、勝利は正義の方程式！
+EN Effort plus guts equals victory. That's the formula
+EN of justice!
+
+@ 127.12
+# scene 126 勝利3
+# ペガサス藤原
+JP また一歩
+JP 正義のヒロインに近づけました！
+EN One step closer to becoming a true heroine of
+EN justice!
+
+@ 128.15
+# scene 133 表彰1
+# ペガサス藤原
+JP この栄冠はみなさんの
+JP 声援のおかげです！
+EN This glory is all thanks to your cheers!
+
+@ 129.15
+# scene 133 表彰2
+# ペガサス藤原
+JP これからも正義のために戦います！
+EN I'll keep fighting for justice!
+
+@ 130.12
+# scene 134 優勝1
+# ペガサス藤原
+JP 正義の力、ここにあり～！
+EN Behold, the power of justice!
+
+@ 131.12
+# scene 134 優勝２
+# ペガサス藤原
+JP 正義のヒロインは
+JP いつでも挑戦をお受けします！
+EN The heroine of justice will accept any challenge, any
+EN time!
+
+@ 132.24
+# scene 135 エンディング 通常
+# ペガサス藤原
+JP やった、やった～っ！
+JP キャプテン、ナイス根性です！
+EN We did it, we did it! Captain, nice guts!
+
+@ 133.24
+# scene 136 エンディング 好意
+# ペガサス藤原
+JP 私はキャプテンの
+JP 理想のヒロインに
+JP なれるでしょうか…？
+EN Captain... do you think I can become your ideal
+EN heroine...?

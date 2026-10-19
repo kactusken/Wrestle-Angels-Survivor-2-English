@@ -1,0 +1,14 @@
+{
+ "english": "NOV",
+ "boxes": [[0, 0, 272, 160]],
+ "fill": "bright",
+ "ground": "transparent",
+ "font": "Barlow-BlackItalic.ttf",
+ "cap": 62,
+ "shear": 0.18,
+ "xscale": 1.15,
+ "tracking": 5,
+ "draw": "banners.draw",
+ "mode": "month",
+ "notes": "month banner: 3-letter month, same size and placement in all twelve (tools/letter_ext/banners.py)"
+}

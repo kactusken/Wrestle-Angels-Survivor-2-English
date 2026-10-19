@@ -1,0 +1,103 @@
+# /SCR/216.BIN - クリス・モーガン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 216` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# クリス・モーガン
+JP さぁ、クィーンに
+JP ひざまずきなさい。
+EN Now, kneel before your Queen.
+
+@ 1.16
+# scene 119 入場1
+# クリス・モーガン
+JP 敗北と屈辱を与えてあげるわ。
+EN I shall give you defeat and humiliation.
+
+@ 2.16
+# scene 119 入場2
+# クリス・モーガン
+JP 実力の違いを見せつけてあげる。
+EN Let me show you the difference in our strength.
+
+@ 3.17
+# scene 121 タッグマッチ ベター１
+# クリス・モーガン
+JP 私たちが組むのは間違い
+JP じゃないかしら…。
+JP 負けが想像できないわ。
+EN Isn't it a mistake for the two of us to team up...? I
+EN can't even imagine losing.
+
+@ 4.16
+# scene 125 必殺技１
+# クリス・モーガン
+JP 最強という言葉を知りなさい！
+EN Learn what the word "strongest" means!
+
+@ 5.16
+# scene 125 必殺技２
+# クリス・モーガン
+JP これが本当のパワーというものよ！
+EN This is what true power looks like!
+
+@ 6.16
+# scene 125 必殺技３
+# クリス・モーガン
+JP ポセイドンが
+JP 目覚めるときがきたようね！
+EN It seems the time has come for Poseidon to awaken!
+
+@ 7.12
+# scene 126 勝利1
+# クリス・モーガン
+JP 私と互角に戦える者はいないの？
+EN Is there no one who can fight me as an equal?
+
+@ 8.12
+# scene 126 勝利2
+# クリス・モーガン
+JP 私に挑戦するのは
+JP まだ早すぎたようね。
+EN It seems you challenged me far too soon.
+
+@ 9.12
+# scene 126 勝利3
+# クリス・モーガン
+JP すべて終わり…。
+JP サヨナラ…。
+EN It's all over... Farewell...
+
+@ 10.15
+# scene 133 表彰1
+# クリス・モーガン
+JP せっかくですから
+JP いただいておきましょう。
+EN Since you insist, I'll accept it.
+
+@ 11.15
+# scene 133 表彰2
+# クリス・モーガン
+JP もうトロフィーを
+JP 飾る場所がないわね。
+EN I'm running out of places to put my trophies.
+
+@ 12.12
+# scene 134 優勝1
+# クリス・モーガン
+JP 何回やっても、結果は同じようね。
+EN However many times we do this, the result is the
+EN same.
+
+@ 13.12
+# scene 134 優勝２
+# クリス・モーガン
+JP 試合をする意味もなかったわね。
+EN There wasn't even any point in having the match.

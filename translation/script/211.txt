@@ -1,0 +1,117 @@
+# /SCR/211.BIN - ローズ・ヒューイット
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 211` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ローズ・ヒューイット
+JP 最高の舞台で
+JP 最強のバラが咲きましたわ！
+EN On the grandest stage, the mightiest rose has
+EN bloomed!
+
+@ 1.16
+# scene 119 入場1
+# ローズ・ヒューイット
+JP 美しいバラ…。
+JP そう、私は美しいバラ！
+EN A beautiful rose... Yes, I am a beautiful rose!
+
+@ 2.16
+# scene 119 入場2
+# ローズ・ヒューイット
+JP 優雅で華麗…。
+JP そして世界を制するこのパワー！
+EN Graceful and dazzling... And with the power to rule
+EN the world!
+
+@ 3.16
+# scene 121 タッグマッチ ベター１
+# ローズ・ヒューイット
+JP いきますわよ、１号。
+EN Let us go, No. 1.
+
+@ 4.16
+# scene 122 タッグマッチ ベター２
+# ローズ・ヒューイット
+JP いきますわよ、２号。
+EN Let us go, No. 2.
+
+@ 5.16
+# scene 125 必殺技１
+# ローズ・ヒューイット
+JP まさに華麗！
+JP あまりにも華麗なるこの技！
+EN Truly dazzling! This technique is far too dazzling!
+
+@ 6.16
+# scene 125 必殺技２
+# ローズ・ヒューイット
+JP 同じ技でも私が使えば
+JP それはアート！
+EN The same move becomes art when I perform it!
+
+@ 7.16
+# scene 125 必殺技３
+# ローズ・ヒューイット
+JP さあ、無残に散ってお見せなさい！
+EN Now, fall miserably for my viewing pleasure!
+
+@ 8.12
+# scene 126 勝利1
+# ローズ・ヒューイット
+JP 有名な言葉でしょう？
+JP 「美しいバラにはトゲがある」って…。
+EN You know the famous saying, don't you? "Every
+EN beautiful rose has its thorns"...
+
+@ 9.12
+# scene 126 勝利2
+# ローズ・ヒューイット
+JP 私こそ最高、そして最強の存在！
+EN I am the finest and the strongest of all!
+
+@ 10.12
+# scene 126 勝利3
+# ローズ・ヒューイット
+JP 唯一あなたにできること。
+JP それはマットに散って
+JP 私を彩ること…。
+EN There is only one thing you can do. Fall upon the mat
+EN and adorn my glory...
+
+@ 11.15
+# scene 133 表彰1
+# ローズ・ヒューイット
+JP 私という存在に惹かれて
+JP 自然に賞がこの手にまいりましたわ！
+EN Drawn by my very being, the award came naturally
+EN into my hands!
+
+@ 12.15
+# scene 133 表彰2
+# ローズ・ヒューイット
+JP この賞も私の前では
+JP 霞んでしまいますわね。
+EN Even this award pales beside me, does it not?
+
+@ 13.12
+# scene 134 優勝1
+# ローズ・ヒューイット
+JP 最強という頂に咲く一輪のバラ…。
+JP そのバラこそ私ですわ！
+EN A single rose blooming atop the summit of strength...
+EN That rose is me!
+
+@ 14.12
+# scene 134 優勝２
+# ローズ・ヒューイット
+JP まさに私のために
+JP 用意された舞台でしたわね。
+EN This stage was truly made for me, was it not?

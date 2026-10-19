@@ -1,0 +1,31 @@
+{
+ "draw": "office.styled",
+ "region": [
+  409,
+  184,
+  216,
+  72
+ ],
+ "ground": "interpolate",
+ "fill": "a == 255 and r < 0xf0",
+ "fill_area": [
+  409,
+  200,
+  216,
+  40
+ ],
+ "reach": 9,
+ "learn_over": "transparent",
+ "font": "BarlowCondensed-ExtraBold.ttf",
+ "align": "right",
+ "english": "Training",
+ "boxes": [
+  [
+   428,
+   200,
+   186,
+   40
+  ]
+ ],
+ "notes": "gym banner \u7df4\u7fd2\u4e2d: gradient fill, outline and glow learnt from the original (tools/letter_ext/office.py styled); the stripe under the old lettering is rebuilt by row interpolation"
+}

@@ -1,0 +1,2269 @@
+# /SCR/055.BIN - 野村つばさ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 055` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 野村 つばさ
+JP つばさです！
+JP 言っておくけど
+JP 子供扱いしたら怒るから！
+EN I'm Tsubasa! And just so you know, if you treat me
+EN like a kid, I'll get mad!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 野村 つばさ
+JP ふふっ。
+JP 私の魅力にやられちゃったのね！
+EN Hehe. You fell for my charms, didn't you!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 野村 つばさ
+JP どうせ小学生と思ったんでしょ！
+JP フンッ！
+EN You thought I was some grade-schooler, didn't you!
+EN Hmph!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP スカウトの話だと
+JP ここらに有望な選手がいるって
+JP ことだけど…。
+EN According to the scouting report, there's a
+EN promising wrestler somewhere around here...
+
+@ 3.25
+# 社 長
+JP （…んっ、あの娘、迷子か？
+JP 　こんなところで危ないなぁ…）
+EN (...Hm? Is that girl lost? It's dangerous out here on
+EN her own...)
+
+@ 3.27
+# 社 長
+JP お嬢ちゃん。
+JP ずっとここにいるけど
+JP お父さんか、お母さんは一緒じゃないの？
+EN Hey there, little girl. You've been here a while. Aren't
+EN your mom or dad with you?
+
+@ 3.37
+# ？？？
+JP …あの…私、子供じゃ
+JP ないんですけど…。
+EN ...Um... I'm not a kid, you know...
+
+@ 3.40
+# 社 長
+JP えっ？
+JP あっ、すみません。
+JP えっと…あっ、そうだ。
+EN Huh? Oh, I'm sorry. Um... oh, right.
+
+@ 3.42
+# 社 長
+JP このあたりに、つばさという女の子が
+JP いるはずなんだけど…。
+EN There's supposed to be a girl named Tsubasa
+EN around here...
+
+@ 3.49
+# ？？？
+JP 私ですけど、それが何か？
+EN That's me. Is there a problem?
+
+@ 3.52
+# 社 長
+JP …えっ！？
+JP 君が！？
+EN ...What!? You're her!?
+
+@ 3.54
+# 社 長
+JP （た、たしかに資料にも
+JP 　「小柄」とはあったけど
+JP 　…しまったな）
+EN (W-well, the file did say "petite"... Darn, I blew it.)
+
+@ 3.56
+# 社 長
+JP あっ、実は私、プロレスの団体を
+JP 経営している者でして…。
+EN Ah, actually, I run a pro-wrestling promotion...
+
+@ 3.58
+# 社 長
+JP （俺は焦りながらも
+JP 　彼女をスカウトしてみた）
+EN (Flustered as I was, I tried to scout her anyway.)
+
+@ 3.60
+# 社 長
+JP どうかな。
+JP もし君に、その気があるなら
+JP うちの団体で戦ってみないかい？
+EN What do you say? If you're interested, why not come
+EN fight for our promotion?
+
+@ 3.67
+# 野村 つばさ
+JP …うぅ～……。
+EN ...Hnnngh......
+
+@ 3.70
+# 社 長
+JP （うわ…子供扱いしたこと
+JP 　まだ怒ってるみたいだな…）
+EN (Yikes... She's still mad I treated her like a kid...)
+
+@ 3.74
+# 野村 つばさ
+JP プロレスねぇ…。
+EN Pro wrestling, huh...
+
+@ 3.77
+# 社 長
+JP 返事は今でなくとも構いません。
+JP いかがでしょう？
+EN You don't have to answer right now. What do you
+EN think?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 野村 つばさ
+JP …わかった。
+JP やってみる。
+EN ...Fine. I'll give it a try.
+
+@ 4.22
+# 社 長
+JP えっ？
+JP ホントに？
+EN Huh? Really?
+
+@ 4.29
+# 野村 つばさ
+JP でも、子供扱いしないこと！
+JP いいっ！？
+JP それが最低条件なんだからね！
+EN But no treating me like a kid! Got it!? That's my one
+EN condition!
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# 野村 つばさ
+JP やっぱりイヤ。
+JP 少なくともあなたのところでは絶対！
+EN Nope, not happening. At least, definitely not with you!
+
+@ 5.22
+# 社 長
+JP う、う～ん…。
+EN W-well...
+
+@ 5.25
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she wouldn't
+EN change her mind...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （つばさ選手か…）
+EN (Tsubasa, huh...)
+
+@ 6.25
+# 社 長
+JP （たしかに体は小さかったけど
+JP 　今のうちには必要な人材だ）
+EN (Sure, she's small, but she's exactly the kind of
+EN talent we need right now.)
+
+@ 6.27
+# 社 長
+JP （どうにか説得できないだろうか…）
+EN (Is there some way I can win her over...?)
+
+@ 6.29
+# 社 長
+JP …あっ、いたいた。
+EN ...Ah, there she is.
+
+@ 6.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.41
+# 野村 つばさ
+JP あっ、失礼な社長さんだ！
+JP …今日は何？
+EN Oh, it's the rude President! ...What is it today?
+
+@ 6.44
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 6.48
+# 野村 つばさ
+JP そのこと
+JP 前に返事したと思うけど？
+EN I'm pretty sure I already gave you my answer?
+
+@ 6.51
+# 社 長
+JP そう言わずに
+JP 考え直してくれないかな。
+JP やっぱりダメかい？
+EN Don't say that. Won't you reconsider? Still no good?
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 野村 つばさ
+JP …わかった。
+JP やってみる。
+EN ...Fine. I'll give it a try.
+
+@ 7.22
+# 社 長
+JP えっ？
+JP ホントに？
+EN Huh? Really?
+
+@ 7.29
+# 野村 つばさ
+JP でも、子供扱いしないこと！
+JP いいっ！？
+JP それが最低条件なんだからね！
+EN But no treating me like a kid! Got it!? That's my one
+EN condition!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 野村 つばさ
+JP やっぱりイヤ。
+JP 少なくともあなたのところでは絶対！
+EN Nope, not happening. At least, definitely not with you!
+
+@ 8.22
+# 社 長
+JP う、う～ん…。
+EN W-well...
+
+@ 8.25
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she wouldn't
+EN change her mind...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （つばさ選手…。
+JP 　あの思い切りのいい飛び技
+JP 　今のうちに欲しい人材だ）
+EN (Tsubasa... With those fearless high-flying moves of
+EN hers, she's just the talent we need.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりに
+JP 　いるはずなんだが…あっ、いた）
+EN (She should be somewhere around here... Ah, there
+EN she is.)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# 野村 つばさ
+JP はい…？
+JP どちら様ですか？
+EN Yes...? Who are you?
+
+@ 9.40
+# 社 長
+JP （俺は自己紹介して
+JP 　彼女を引き抜くための
+JP 　説得を始めた）
+EN (I introduced myself and set about persuading her
+EN to jump ship.)
+
+@ 9.47
+# 野村 つばさ
+JP それって引き抜きだよね
+JP …じゃなくて、ですよね？
+EN So you're poaching me, right... I mean, is that
+EN correct?
+
+@ 9.50
+# 社 長
+JP ええ。
+JP そういうことになりますが…。
+EN Yes. I suppose that's what it comes down to...
+
+@ 9.57
+# 野村 つばさ
+JP つまり今の団体を
+JP 辞めろってことよね…？
+EN So you want me to quit my current promotion...?
+
+@ 9.60
+# 社 長
+JP それはその通りですが…。
+JP うちに力を貸して
+JP もらえないでしょうか？
+EN That's right, but... Won't you lend us your strength?
+
+@ 9.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept at it patiently.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# 野村 つばさ
+JP たしかに今のところだと
+JP 子供扱いされたままだし…。
+EN Well, at my current place, they still treat me like a
+EN kid...
+
+@ 10.18
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 10.29
+# 野村 つばさ
+JP うん、いいよ。
+JP 入ってあげる。
+JP これからよろしくね。
+EN Okay, sure. I'll do you the favor of joining. Nice to be
+EN working with you!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 野村 つばさ
+JP うーん。
+JP でも今のところ好きだし…。
+EN Hmm. But I like where I am now...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP また改めます。
+EN I see... I'll try again another time.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (We need her, no doubt about it. I decided to
+EN negotiate once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# 野村 つばさ
+JP あっ、社長さん。
+JP またスカウトの話ですか？
+EN Oh, it's the President. Here to scout me again?
+
+@ 12.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.45
+# 野村 つばさ
+JP 前に断ったはずだけど…。
+EN I'm pretty sure I turned you down already...
+
+@ 12.48
+# 社 長
+JP そこを曲げて
+JP 入団してもらえないでしょうか？
+EN Couldn't you make an exception and sign with us?
+
+@ 12.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept at it patiently.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# 野村 つばさ
+JP たしかに今のところだと
+JP 子供扱いされたままだし…。
+EN Well, at my current place, they still treat me like a
+EN kid...
+
+@ 13.18
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 13.29
+# 野村 つばさ
+JP うん、いいよ。
+JP 入ってあげる。
+JP これからよろしくね。
+EN Okay, sure. I'll do you the favor of joining. Nice to be
+EN working with you!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 野村 つばさ
+JP うーん。
+JP でも今のところ好きだし…。
+EN Hmm. But I like where I am now...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP また改めます。
+EN I see... I'll try again another time.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （つばさ選手…。
+JP 　小さな体から繰り出される飛び技は
+JP 　是非うちの団体に欲しい）
+EN (Tsubasa... The high-flying moves she unleashes
+EN from that tiny body - I want them for our promotion.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# 野村 つばさ
+JP …あなた、誰？
+EN ...Who are you?
+
+@ 15.40
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 15.47
+# 野村 つばさ
+JP えっ！？
+JP 社長さんなんですか？
+EN Huh!? You're a president?
+
+@ 15.50
+# 社 長
+JP 実はあなたを
+JP うちの団体に迎えたくて来たんです。
+EN The truth is, I came here hoping to bring you into our
+EN promotion.
+
+@ 15.52
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトした）
+EN (I got straight to the point and scouted her.)
+
+@ 15.56
+# 野村 つばさ
+JP ええっ、ホントに！？
+EN Whoa, really!?
+
+@ 15.59
+# 社 長
+JP いかがでしょうか？
+EN What do you think?
+
+@ 15.61
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept at it patiently.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# 野村 つばさ
+JP まあ、大人っぽいセクシィ～な感じで
+JP 売ってくれるなら…。
+EN Well... if you'd promote me as all grown-up and sexy...
+
+@ 16.18
+# 社 長
+JP えっ！
+JP それでＯＫなんですか？
+JP わかりました、いいですよ！
+EN Huh! That's all it takes? Understood - you've got a
+EN deal!
+
+@ 16.29
+# 野村 つばさ
+JP ホントに！
+JP じゃあ、よろしくお願いします！
+EN Really! Then I'm in your hands!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 野村 つばさ
+JP ごめんなさい。
+JP 一人の方が好きなんで…。
+EN Sorry. I prefer working on my own...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (We need her, no doubt about it. I decided to
+EN negotiate once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# 野村 つばさ
+JP あっ、この前の社長さん！
+JP えっと…もしかして、またあの話？
+EN Oh, the President from the other day! Um... could it be
+EN you're here about that again?
+
+@ 18.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて。
+EN Yes. I really want you to join our promotion.
+
+@ 18.45
+# 野村 つばさ
+JP うーん…。
+JP どうしよう…。
+EN Hmm... What should I do...
+
+@ 18.48
+# 社 長
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and sign with us?
+
+@ 18.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept at it patiently.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# 野村 つばさ
+JP まあ、大人っぽいセクシィ～な感じで
+JP 売ってくれるなら…。
+EN Well... if you'd promote me as all grown-up and sexy...
+
+@ 19.18
+# 社 長
+JP えっ！
+JP それでＯＫなんですか？
+JP わかりました、いいですよ！
+EN Huh! That's all it takes? Understood - you've got a
+EN deal!
+
+@ 19.29
+# 野村 つばさ
+JP ホントに！
+JP じゃあ、よろしくお願いします！
+EN Really! Then I'm in your hands!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 野村 つばさ
+JP ごめんなさい。
+JP 一人の方が好きなんで…。
+EN Sorry. I prefer working on my own...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、つばさ！
+EN She should be around here... Ah, Tsubasa!
+
+@ 21.33
+# 野村 つばさ
+JP …あっ、社長。
+EN ...Oh. Boss.
+
+@ 21.36
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.43
+# 野村 つばさ
+JP …何よ。
+JP 私なんて、もうどうでも
+JP いいんでしょ。
+EN ...What do you want? You don't care about me
+EN anymore anyway.
+
+@ 21.46
+# 社 長
+JP そうじゃない。
+JP 実は戻って欲しいんだ。
+EN That's not true. Actually, I want you to come back.
+
+@ 21.53
+# 野村 つばさ
+JP ……えっ！？
+EN ......What!?
+
+@ 21.56
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないってことはわかってる。
+JP でも……。
+EN I know I'm in no position to ask you this. But......
+
+@ 21.58
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 野村 つばさ
+JP ……本気？
+EN ......You mean it?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 22.29
+# 野村 つばさ
+JP どうしてもって言うなら
+JP 戻ってあげる…じゃなくて
+JP 戻ってもいいですよ。
+EN If you insist, I'll do you the favor of coming back... I
+EN mean, I'd be willing to come back.
+
+@ 22.32
+# 社 長
+JP 本当かい？
+JP ありがとう。
+JP またよろしく頼むよ。
+EN Really? Thank you. I'm counting on you again.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 野村 つばさ
+JP …やっぱりダメ。
+EN ...No, I can't.
+
+@ 23.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.29
+# 野村 つばさ
+JP うん。
+JP 気持ちの整理がつかないし…。
+EN No. I haven't sorted out my feelings yet...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （やはりうちにはつばさが必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (We need Tsubasa, no doubt about it. I decided to
+EN negotiate once more.)
+
+@ 24.33
+# 野村 つばさ
+JP 社長…。
+JP 何度来たってムダなんだからね。
+EN Boss... It doesn't matter how many times you come,
+EN it's no use.
+
+@ 24.36
+# 社 長
+JP 頼む。
+JP どうしても団体に戻って
+JP 欲しいんだ。
+EN Please. I really need you to come back to the
+EN promotion.
+
+@ 24.38
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 野村 つばさ
+JP ……本気？
+EN ......You mean it?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 25.29
+# 野村 つばさ
+JP どうしてもって言うなら
+JP 戻ってあげる…じゃなくて
+JP 戻ってもいいですよ。
+EN If you insist, I'll do you the favor of coming back... I
+EN mean, I'd be willing to come back.
+
+@ 25.32
+# 社 長
+JP 本当かい？
+JP ありがとう。
+JP またよろしく頼むよ。
+EN Really? Thank you. I'm counting on you again.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 野村 つばさ
+JP …やっぱりダメ。
+EN ...No, I can't.
+
+@ 26.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.29
+# 野村 つばさ
+JP うん。
+JP 気持ちの整理がつかないし…。
+EN No. I haven't sorted out my feelings yet...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 野村 つばさ
+JP が、我慢する…。
+JP 子供じゃないから……。
+EN I-I'll tough it out... I'm not a kid......
+
+@ 28.16
+# scene 029 ケガ大
+# 野村 つばさ
+JP こんなの全然っ…。
+JP 痛くぅぅ…！
+EN This is nothing at alllll... Owww...!
+
+@ 29.16
+# scene 030 入院
+# 野村 つばさ
+JP うう…。
+JP 病院、イヤぁ…。
+EN Ugh... I hate hospitals...
+
+@ 30.16
+# scene 031 退院
+# 野村 つばさ
+JP ただいまぁ。
+JP もう入院なんてイヤだぁ…。
+EN I'm baaack. I never wanna be hospitalized again...
+
+@ 31.16
+# scene 032 ケガ完治
+# 野村 つばさ
+JP やったぁ、治った！
+JP …じゃなくて治ったわよ。
+EN Yay, I'm all better! ...I mean, I have fully recovered.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 野村 つばさ
+JP …そっか。
+JP 社長がそう言うなら
+JP 引退の時期なのかもね。
+EN ...I see. If you say so, Boss, maybe it's time for me to
+EN retire.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 野村 つばさ
+JP 私、まだがんばれるのに…。
+EN But I can still keep going...
+
+@ 34.16
+# scene 035 コーチ就任
+# 野村 つばさ
+JP それじゃあ、始めるよ～。
+JP …じゃなくて、始めます！
+EN Okay, let's get staaarted! ...I mean, let us begin!
+
+@ 35.16
+# scene 036 ケガ引退
+# 野村 つばさ
+JP これじゃ続けられる訳ないよね…。
+EN There's no way I can keep going like this...
+
+@ 36.16
+# scene 037 年齢引退
+# 野村 つばさ
+JP 見た目だけ若くても
+JP しょうがないもんね…。
+EN Looking young doesn't count for much, does it...
+
+@ 37.16
+# scene 038 退団
+# 野村 つばさ
+JP みんなが子供扱いするから…。
+EN Everyone keeps treating me like a kid...
+
+@ 38.16
+# scene 039 スランプ
+# 野村 つばさ
+JP やっぱり、大きい選手には
+JP 敵わないのかなあ…。
+EN Maybe I really can't beat the big wrestlers after all...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 野村 つばさ
+JP ファンクラブなんてできたの？
+EN I've got a fan club now?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# 野村 つばさ
+JP うん！
+JP じゃなくて、ハイ！
+EN Yeah! I mean, yes, sir!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 野村 つばさ
+JP またファンクラブ？
+EN Another fan club?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yep. Live up to their expectations.
+
+@ 40.26
+# 野村 つばさ
+JP もちろん！
+JP よーし、がんばろうっと！
+EN Of course! All right, time to work hard!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 野村 つばさ
+JP …そんなぁ。
+EN ...No way.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.23
+# 野村 つばさ
+JP う～…。
+JP もっと大人っぽかったら
+JP こんなことにはならなかったのに…。
+EN Hnnn... If I were more grown-up, this never would've
+EN happened...
+
+@ 42.16
+# scene 043 映画出演
+# 野村 つばさ
+JP 映画！？　出ます、出ます！
+JP 有名な監督とか俳優さんに
+JP 会えるかな！？
+EN A movie!? I'll do it, I'll do it! Do you think I'll get to
+EN meet famous directors and actors!?
+
+@ 43.16
+# scene 044 一日署長
+# 野村 つばさ
+JP …制服はちゃんと
+JP 私に合うサイズのものが
+JP あるんですよね？
+EN ...They do have a uniform in my size, right?
+
+@ 44.16
+# scene 045 写真集発売
+# 野村 つばさ
+JP セクシーに撮って
+JP もらえるんですよね！？
+JP 子供っぽいのはイヤですよ！？
+EN You'll make me look sexy, right!? I don't want
+EN anything childish, okay!?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 野村 つばさ
+JP 何のＣＭなんだろ…。
+JP 子供用の商品だったら嫌だよ。
+EN What's the commercial for, I wonder... I'll hate it if it's
+EN for kids' stuff.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 野村 つばさ
+JP やったー！
+JP アーティストって名乗れる～。
+JP 大人っぽーい！
+EN Yaaay! Now I can call myself an artist! So grown-up!
+
+@ 47.16
+# scene 048 始球式
+# 野村 つばさ
+JP …キャッチャーのところまで
+JP ちゃんと届くかな～？
+EN ...I wonder if I can actually throw it all the way to the
+EN catcher...
+
+@ 48.16
+# scene 049 学園祭
+# 野村 つばさ
+JP 学園祭！？
+JP 行きたい、行きたい！
+JP …じゃなくて、お引き受けします！
+EN A school festival!? I wanna go, I wanna go! ...I mean, I
+EN accept the invitation!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# 野村 つばさ
+JP えっ！？
+JP くれるの！？
+EN Huh!? For me!?
+
+@ 49.39
+# 社 長
+JP ああ、大人になった記念だしな。
+EN Yeah. You're a year more grown-up, after all.
+
+@ 49.46
+# 野村 つばさ
+JP うれしい。
+JP ホントに…ホントに大切にするね！
+EN I'm so happy. I'll treasure it... I really, really will!
+
+@ 50.30
+# scene 051 バレンタインデー
+# 野村 つばさ
+JP 社長。
+JP バレンタインのチョコを
+JP 作ってみたんだけど…。
+EN Boss. I tried making you some Valentine's chocolate...
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+JP へぇ、手作りか。
+JP 無理しなくていいんだぞ。
+EN Oh, thank you. Huh, homemade? You didn't have to
+EN push yourself.
+
+@ 50.40
+# 野村 つばさ
+JP あっ、私だってチョコくらい作れます！
+JP 子供扱いしないで！
+EN Hey, I can make chocolate too, you know! Don't treat
+EN me like a kid!
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# 野村 つばさ
+JP えっ！？
+JP やったー！
+JP …じゃなくて、ありがとうございます！
+EN Huh!? Yaaay! ...I mean, thank you very much!
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# 野村 つばさ
+JP ありがとうございます！
+JP いつか必ず大きく
+JP 強くなってみせます！
+EN Thank you so much! Someday I'll get big and strong, I
+EN promise!
+
+@ 53.31
+# scene 054 コンサート
+# 野村 つばさ
+JP 私の新しい魅力に気付いて帰ってね！
+EN I hope you all go home having discovered a new side
+EN of me!
+
+@ 54.28
+# scene 055 練習拒否
+# 野村 つばさ
+JP 私に合ったトレーニング器具が
+JP ないんだもん…。
+EN There's no training equipment that fits me...
+
+@ 55.28
+# scene 056 失踪
+# 野村 つばさ
+JP 心配させてやるんだから…。
+EN I'll make them worry about me...
+
+@ 56.16
+# scene 057 選手解雇
+# 野村 つばさ
+JP ……ヒドイよ、社長…。
+EN ......That's cruel, Boss...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 野村 つばさ
+JP 大きくなって帰ってくるね！
+EN I'll come back all grown up!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 野村 つばさ
+JP あっ、お土産買ってくるの
+JP 忘れちゃった！
+EN Oh no, I forgot to buy souvenirs!
+
+@ 59.28
+# scene 060 移籍思案
+# 野村 つばさ
+JP どっちがいいかなんて
+JP 決められないよ…。
+EN I can't decide which is better...
+
+@ 60.16
+# scene 061 革命軍結成
+# 野村 つばさ
+JP だれもやらないなら
+JP 私がやるしかないじゃない！
+EN If nobody else will do it, then I'll just have to!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 野村 つばさ
+JP 私だって言いたいことは
+JP 言うんだから！
+EN I've got things to say too, and I'm gonna say them!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 野村 つばさ
+JP この戦いで私も
+JP もう一回り大きくなるの！
+EN This fight's gonna make me grow up a little more too!
+
+@ 63.16
+# scene 065 遺恨発生
+# 野村 つばさ
+JP 私は悪くないもん！
+EN It's not my fault!
+
+@ 64.16
+# scene 065 殴り込み
+# 野村 つばさ
+JP 私の強さ見せつけてやります！
+EN I'll show them how strong I am!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 野村 つばさ
+JP 子供っぽいからって
+JP なめたら痛い目にあうわよっ！
+EN Just because I look like a kid, don't underestimate
+EN me or you'll get hurt!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 野村 つばさ
+JP 私の相手は出てきなさい！
+EN Whoever's facing me, get out here!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 野村 つばさ
+JP 私がどれだけ成長したか
+JP 見せてあげる！
+EN I'll show you how much I've grown!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 野村 つばさ
+JP どう？
+JP これでも子供扱いできる？
+EN Well? Can you still treat me like a kid now?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 野村 つばさ
+JP うう…。
+JP いつになったら大人っぽく
+JP 見てもらえるんだろ…。
+EN Ugh... When will people finally see me as grown-up...
+
+@ 70.13
+# scene 071 引退式
+# 野村 つばさ
+JP みんな、大好き！
+JP 引退しても私のことを忘れないでね！
+EN I love you all! Don't forget me after I retire!
+
+@ 71.17
+# 野村 つばさ
+JP あっ、社長。
+JP 私に用？
+EN Oh, Boss. Did you need me?
+
+@ 71.36
+# 野村 つばさ
+JP あっ、社長。
+JP どうしたの？
+EN Oh, Boss. What's up?
+
+@ 71.46
+# 野村 つばさ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.89
+# 野村 つばさ
+JP ホント！？
+JP うん、もっとがんばっちゃうね！
+EN Really!? Okay, I'll work even harder!
+
+@ 71.110
+# 野村 つばさ
+JP そんなの言われなくても
+JP わかってまーす。
+EN I know that without you telling me.
+
+@ 71.131
+# 野村 つばさ
+JP 小さくたってやれるってところを
+JP 見せてあげます！
+EN I'll show you that small girls can do it too!
+
+@ 71.152
+# 野村 つばさ
+JP 今でも限界までがんばってます…。
+EN I'm already giving it everything I've got...
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# 野村 つばさ
+JP ごめん。
+JP もっとやれるはずだもんね。
+JP がんばる！
+EN Sorry. I know I can do better. I'll work hard!
+
+@ 71.210
+# 野村 つばさ
+JP そんなふうに言われると
+JP ヘコんじゃうよ…。
+EN When you put it like that, it really gets me down...
+
+@ 71.231
+# 野村 つばさ
+JP うん…もっとがんばる。
+JP いえ、がんばります！
+EN Okay... I'll try harder. I mean, I will try harder!
+
+@ 71.252
+# 野村 つばさ
+JP 社長までそんな風に言うんですか…？
+EN Even you're going to talk to me like that, Boss...?
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very lively lately. Are you okay?
+
+@ 71.289
+# 野村 つばさ
+JP 大丈夫です！
+JP なんだか、ちょっと元気に
+JP なりました！
+EN I'm fine! Somehow I feel a little more energetic now!
+
+@ 71.310
+# 野村 つばさ
+JP 練習キツイから…。
+JP もっと手っ取り早く
+JP 強くなれないかなぁ…。
+EN Training is so tough... Isn't there a quicker way to
+EN get strong...
+
+@ 71.331
+# 野村 つばさ
+JP ありがとうございます！
+JP ちょっと元気になってきました！
+EN Thank you very much! I'm starting to feel a little
+EN better!
+
+@ 71.352
+# 野村 つばさ
+JP 大きな体に生まれたかったなぁ…。
+EN I wish I'd been born with a big body...
+
+@ 71.366
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# 野村 つばさ
+JP …私は悪くないです。
+EN ...It's not my fault.
+
+@ 71.399
+# 野村 つばさ
+JP えっと…。
+JP なんですか？
+EN Um... What is it?
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.432
+# 野村 つばさ
+JP はいはい。
+JP 仲直りすればいいんでしょ。
+EN Yeah, yeah. I just have to make up, right?
+
+@ 71.453
+# 野村 つばさ
+JP まず、向こうに謝らせてください！
+EN First, make her apologize to me!
+
+@ 71.474
+# 野村 つばさ
+JP あの…。
+JP 社長、どうしたんですか？
+EN Um... Boss, what's the matter?
+
+@ 71.487
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# 野村 つばさ
+JP ……わかる。
+JP …いえ、わかります。
+EN ......Yeah. ...I mean, yes, I do.
+
+@ 71.521
+# 野村 つばさ
+JP いえ。
+JP わからないですけど…？
+EN No. I have no idea...?
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.556
+# 野村 つばさ
+JP わかりました。
+JP 大人の態度で許すことにします！
+EN All right. I'll be the grown-up and forgive her!
+
+@ 71.577
+# 野村 つばさ
+JP 社長まで私を馬鹿にするんですか！？
+EN Are you making fun of me too, Boss!?
+
+@ 71.598
+# 野村 つばさ
+JP 社長が何を言いたいのか
+JP わからないんですけど…。
+EN I don't get what you're trying to say, Boss...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 野村 つばさ
+JP あ、社長。
+JP どうしたの？
+EN Oh, Boss. What's up?
+
+@ 72.16
+# 野村 つばさ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 野村 つばさ
+JP ホント！？
+JP うん、もっとがんばっちゃうね！
+EN Really!? Okay, I'll work even harder!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 野村 つばさ
+JP そんなの言われなくても、
+JP わかってまーす。
+EN I know that without you telling me.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 野村 つばさ
+JP 小さくたってやれるってところを、
+JP 見せてあげます！
+EN I'll show you that small girls can do it too!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 野村 つばさ
+JP 今でも限界までがんばってます…。
+EN I'm already giving it everything I've got...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 野村 つばさ
+JP ごめん。
+JP もっとやれるはずだもんね。
+JP がんばる！
+EN Sorry. I know I can do better. I'll work hard!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 野村 つばさ
+JP そんなふうに言われると
+JP ヘコんじゃうよ…。
+EN When you put it like that, it really gets me down...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 野村 つばさ
+JP うん…もっとがんばる。
+JP いえ、がんばります！
+EN Okay... I'll try harder. I mean, I will try harder!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 野村 つばさ
+JP 社長までそんな風に言うんですか…？
+EN Even you're going to talk to me like that, Boss...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very lively lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 野村 つばさ
+JP 大丈夫です！
+JP なんだか、ちょっと元気に
+JP なりました！
+EN I'm fine! Somehow I feel a little more energetic now!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 野村 つばさ
+JP 練習キツイから…。
+JP もっと手っ取り早く、
+JP 強くなれないかなぁ…。
+EN Training is so tough... Isn't there a quicker way to
+EN get strong...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 野村 つばさ
+JP ありがとうございます！
+JP ちょっと元気になってきました！
+EN Thank you very much! I'm starting to feel a little
+EN better!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 野村 つばさ
+JP 大きな体に生まれたかったなぁ…。
+EN I wish I'd been born with a big body...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 野村 つばさ
+JP ……私は悪くないです。
+EN ......It's not my fault.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 野村 つばさ
+JP えっと…。
+JP なんですか？
+EN Um... What is it?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 野村 つばさ
+JP はいはい。
+JP 仲直りすればいいんでしょ。
+EN Yeah, yeah. I just have to make up, right?
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 野村 つばさ
+JP まず、向こうに謝らせてください！
+EN First, make her apologize to me!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 野村 つばさ
+JP あの…。
+JP 社長、どうしたんですか？
+EN Um... Boss, what's the matter?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 野村 つばさ
+JP ……わかる。
+JP …いえ、わかります。
+EN ......Yeah. ...I mean, yes, I do.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 野村 つばさ
+JP いえ。
+JP わからないですけど…？
+EN No. I have no idea...?
+
+@ 98.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 野村 つばさ
+JP わかりました。
+JP 大人の態度で許すことにします！
+EN All right. I'll be the grown-up and forgive her!
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 野村 つばさ
+JP 社長まで私を馬鹿にするんですか！？
+EN Are you making fun of me too, Boss!?
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 野村 つばさ
+JP 社長が何を言いたいのか
+JP わからないんですけど……。
+EN I don't get what you're trying to say, Boss......
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 野村 つばさ
+JP これでオッケー…じゃなくて
+JP 問題ないです。
+EN That's okay... I mean, that is acceptable.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 野村 つばさ
+JP 社長、ありがとう！
+JP …ございますっ！
+EN Thanks, Boss! ...I mean, thank you very much!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 野村 つばさ
+JP …これだけかぁ。
+JP …あっ、いえ、なんでもないです。
+EN ...That's all, huh. ...Oh, no, never mind.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun's
+EN blazing.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's enjoying themselves.)
+
+@ 105.37
+# ？？？
+JP 社長、社長っ！
+EN Boss, Boss!
+
+@ 105.40
+# 社 長
+JP （…んっ？
+JP 　今のは、つばさか？）
+EN (...Hm? Was that Tsubasa?)
+
+@ 105.42
+# 社 長
+JP どうした…？
+JP ぬおっ！？
+EN What is it...? Whoa!?
+
+@ 105.53
+# 野村 つばさ
+JP ふふん♪
+EN Hmhm♪
+
+@ 105.56
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.60
+# 野村 つばさ
+JP どう？
+JP 私ってセクシー？
+EN Well? Am I sexy?
+
+@ 105.63
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.65
+# 社 長
+JP （いかん。
+JP 　呆気にとられて思考が
+JP 　停止してしまった）
+EN (Uh-oh. I was so dumbfounded my brain just stopped
+EN working.)
+
+@ 105.67
+# 社 長
+JP （いったい何のつもりだろう…。
+JP 　あれってどう見ても
+JP 　パットだよな…）
+EN (What on earth is she up to... Any way you look at it,
+EN that's padding...)
+
+@ 105.77
+# 野村 つばさ
+JP ねぇ、どうなの？
+JP なんとか言ってよ！
+EN Hey, well? Say something!
+
+@ 105.80
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.83
+# 社 長
+JP （どう答えればいいんだ…？）
+EN (How am I supposed to answer...?)
+
+@ 105.85
+# 社 長
+JP （何を言っても怒られそうだよな…）
+EN (She'll probably get mad no matter what I say...)
+
+@ 105.89
+# 野村 つばさ
+JP ねぇってば！
+JP 社長！
+EN Hey, come on! Boss!
+
+@ 105.92
+# 社 長
+JP あ、ああ…。
+JP とってもかわいいぞ…。
+EN Ah, y-yeah... You look really cute...
+
+@ 105.96
+# 野村 つばさ
+JP かわいいじゃなくて
+JP セクシーかどうか聞いてるの！
+EN I'm not asking if I'm cute, I'm asking if I'm sexy!
+
+@ 105.99
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.101
+# 社 長
+JP セクシーといえばセクシーかな…。
+EN I guess you could say you're sexy, sort of...
+
+@ 105.111
+# 野村 つばさ
+JP よかった！
+EN Yay!
+
+@ 105.114
+# 社 長
+JP どうして急にそんなこと聞くんだ？
+EN Why the sudden question?
+
+@ 105.118
+# 野村 つばさ
+JP えーと、あそこにある
+JP ビーチバーに行こうとしたの…。
+EN Well, I tried to go to that beach bar over there...
+
+@ 105.121
+# 社 長
+JP ああ。
+EN Uh-huh.
+
+@ 105.131
+# 野村 つばさ
+JP そうしたら…。
+EN And then...
+
+@ 105.134
+# 社 長
+JP そうしたら？
+EN And then?
+
+@ 105.138
+# 野村 つばさ
+JP 子供は保護者と一緒じゃないと
+JP ダメって…。
+EN They said kids aren't allowed without a guardian...
+
+@ 105.141
+# 社 長
+JP （ああ…なるほど…）
+EN (Ah... I see...)
+
+@ 105.151
+# 野村 つばさ
+JP まったく…。
+JP 私のこと子供扱いして…。
+EN Honestly... Treating me like a little kid...
+
+@ 105.154
+# 社 長
+JP （まぁ店員の言ってることも
+JP 　わかる気がするしな…）
+EN (Well, I can sort of see where the staff were coming
+EN from...)
+
+@ 105.156
+# 社 長
+JP それなら俺と行くか？
+EN Want to go with me, then?
+
+@ 105.166
+# 野村 つばさ
+JP ……えっ？
+EN ......Huh?
+
+@ 105.169
+# 社 長
+JP 何か飲み物買ってやるぞ。
+EN I'll buy you something to drink.
+
+@ 105.179
+# 野村 つばさ
+JP ホント？
+JP ヤッターッ！
+EN Really? Yaaay!
+
+@ 105.182
+# 社 長
+JP （やっぱりまだ子供だな…）
+EN (She's still a kid after all...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （たまには練習にも顔を出して
+JP 　やらないとな）
+EN (I should drop in on training once in a while.)
+
+@ 106.26
+# 社 長
+JP （うんうん。
+JP 　みんな、がんばってるみたいだな）
+EN (Good, good. Everyone's working hard.)
+
+@ 106.28
+# 社 長
+JP あれ？
+JP そういえば、つばさがいない
+JP みたいだけど…？
+EN Huh? Come to think of it, I don't see Tsubasa...
+
+@ 106.30
+# 社 長
+JP あっ、練習中にすまない。
+JP ちょっと聞いていいか？
+EN Oh, sorry to interrupt your training. Can I ask you
+EN something?
+
+@ 106.45
+# 社 長
+JP （風邪か…）
+EN (A cold, huh...)
+
+@ 106.47
+# 社 長
+JP （つばさが風邪なんて珍しいよな）
+EN (That's rare, Tsubasa catching a cold.)
+
+@ 106.69
+# 社 長
+JP 入るぞー。
+EN I'm coming in.
+
+@ 106.90
+# 野村 つばさ
+JP くぅ…。
+JP ん…んん……。
+EN Mmh... Mm... mmn......
+
+@ 106.93
+# 社 長
+JP （おっと、寝てたのか）
+EN (Oops, she was asleep.)
+
+@ 106.103
+# 野村 つばさ
+JP あっ…社長……。
+EN Oh... Boss......
+
+@ 106.106
+# 社 長
+JP ああ、すまない。
+JP 起こしちゃったな。
+EN Ah, sorry. I woke you up.
+
+@ 106.110
+# 野村 つばさ
+JP ううん…。
+JP 大丈夫…だから…。
+EN No... It's okay... really...
+
+@ 106.113
+# 社 長
+JP 熱はどうなんだ？
+JP 起きられるのか？
+EN How's your fever? Can you get up?
+
+@ 106.117
+# 野村 つばさ
+JP 熱はもうだいぶ下がった…と思う。
+JP まだ怠いけど…。
+EN I think my fever's gone down a lot... I still feel
+EN sluggish, though...
+
+@ 106.120
+# 社 長
+JP そうか。
+JP それなら、もう少し寝ていた方が
+JP いいな。
+EN I see. Then you'd better sleep a little longer.
+
+@ 106.122
+# 社 長
+JP 顔も見られたし、俺はすぐに帰るよ。
+EN I got to see your face, so I'll head out soon.
+
+@ 106.126
+# 野村 つばさ
+JP あの…社長……。
+EN Um... Boss......
+
+@ 106.129
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 106.133
+# 野村 つばさ
+JP …風邪なんてひいて
+JP …ごめんなさい…。
+EN ...Sorry... for catching a cold...
+
+@ 106.136
+# 社 長
+JP そんなこと気にしてないで休め。
+EN Don't worry about that. Just rest.
+
+@ 106.146
+# 野村 つばさ
+JP うん…。
+JP すぐに元気になるからね…。
+EN Okay... I'll be better in no time...
+
+@ 106.149
+# 社 長
+JP ああ、ゆっくり眠れよ。
+EN Right. Get a good sleep.
+
+@ 106.151
+# 社 長
+JP 見舞いはここに置いておくから。
+EN I'll leave this get-well gift here.
+
+@ 106.155
+# 野村 つばさ
+JP うん…。
+JP ありがと…社長…。
+EN Okay... Thanks... Boss...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （みんなちゃんとやってるかな）
+EN (I wonder if everyone's training properly.)
+
+@ 107.26
+# 社 長
+JP あれ？
+JP そういえばつばさがいないな？
+EN Huh? Come to think of it, Tsubasa isn't here.
+
+@ 107.28
+# 社 長
+JP あっ、練習中にすまない。
+JP ちょっと聞いていいか？
+EN Oh, sorry to interrupt your training. Can I ask you
+EN something?
+
+@ 107.43
+# 社 長
+JP （風邪か…）
+EN (A cold, huh...)
+
+@ 107.45
+# 社 長
+JP （つばさのヤツ、大丈夫かな…？）
+EN (Is Tsubasa going to be okay...?)
+
+@ 107.67
+# 社 長
+JP 入るぞ、つばさー。
+EN I'm coming in, Tsubasa.
+
+@ 107.88
+# 野村 つばさ
+JP すぅ……すぅ……。
+EN Zzz...... Zzz......
+
+@ 107.91
+# 社 長
+JP （おっと、寝てたのか）
+EN (Oops, she was asleep.)
+
+@ 107.101
+# 野村 つばさ
+JP んっ……。
+JP あ…社長……？
+EN Mn...... Oh... Boss......?
+
+@ 107.104
+# 社 長
+JP ああ、すまない。
+JP 起こしちゃったな。
+EN Ah, sorry. I woke you up.
+
+@ 107.114
+# 野村 つばさ
+JP ううん…。
+JP 大丈夫だから……。
+EN No... It's okay......
+
+@ 107.124
+# 野村 つばさ
+JP あの…また風邪なんてひいて
+JP …ごめんなさい…。
+EN Um... sorry... for catching a cold again...
+
+@ 107.127
+# 社 長
+JP 前にも言っただろう。
+JP 気にしないで休め。
+EN I told you before, didn't I? Don't worry about it. Just
+EN rest.
+
+@ 107.137
+# 野村 つばさ
+JP うん……。
+EN Okay......
+
+@ 107.140
+# 社 長
+JP ゆっくり眠って、早く元気になれよ。
+EN Get a good sleep and get well soon.
+
+@ 107.150
+# 野村 つばさ
+JP うん……。
+JP あっ…社長。
+EN Okay...... Oh... Boss.
+
+@ 107.153
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 107.157
+# 野村 つばさ
+JP お願いがあるの…。
+EN Can I ask you a favor...?
+
+@ 107.160
+# 社 長
+JP なんだ？
+EN What?
+
+@ 107.164
+# 野村 つばさ
+JP 私が眠るまで
+JP 手を握っていて欲しいの…。
+EN Will you hold my hand until I fall asleep...?
+
+@ 107.167
+# 社 長
+JP まったく…。
+JP 甘えん坊だな。
+EN Honestly... You big baby.
+
+@ 107.171
+# 野村 つばさ
+JP ごめんなさい…。
+EN Sorry...
+
+@ 107.180
+# 社 長
+JP ほら…。
+EN Here...
+
+@ 107.193
+# 野村 つばさ
+JP やっぱり、社長の手って大きい…。
+JP あったかくて安心する…。
+EN Your hands really are big, Boss... So warm... It makes
+EN me feel safe...
+
+@ 107.196
+# 社 長
+JP そうか。
+JP 俺はここにいるから
+JP 安心して眠っていいぞ。
+EN I see. I'll be right here, so you can sleep easy.
+
+@ 107.200
+# 野村 つばさ
+JP うん…。
+JP 社長…ありがとう…。
+EN Okay... Boss... thank you...
+
+@ 107.209
+# 社 長
+JP ああ、おやすみ。
+EN Yeah. Good night.
+
+@ 108.17
+# scene 110 練習試合 ベスト
+# 野村 つばさ
+JP なんだろう…。
+JP すごくやりやすい感じがする。
+EN I don't know why... but this feels really easy to work
+EN with.
+
+@ 109.16
+# scene 113 練習開始
+# 野村 つばさ
+JP 練習しないで強くなれないかなぁ。
+EN I wonder if I could get strong without training.
+
+@ 110.16
+# scene 114 練習開始 好意
+# 野村 つばさ
+JP 練習がんばっちゃいます！
+EN I'm gonna train super hard!
+
+@ 111.16
+# scene 115 特訓開始
+# 野村 つばさ
+JP 特訓…？
+JP なんだか疲れそう…。
+EN Special training...? Sounds exhausting...
+
+@ 112.20
+# scene 116 特訓成功
+# 野村 つばさ
+JP やった！
+JP 将来有望ですね！
+EN I did it! I've got a bright future, huh!
+
+@ 113.20
+# scene 117 特訓失敗
+# 野村 つばさ
+JP あー…。
+JP やっぱり疲れたー…。
+EN Aah... I knew it'd wear me out...
+
+@ 114.16
+# scene 118 休養
+# 野村 つばさ
+JP どこに遊びに行こうかな！
+EN Where should I go have fun!
+
+@ 115.16
+# scene 119 入場1
+# 野村 つばさ
+JP 小さいからって油断しないでね！
+EN Don't let your guard down just 'cause I'm small!
+
+@ 116.16
+# scene 119 入場2
+# 野村 つばさ
+JP もう「小学生みたい」なんて
+JP 言わせないんだから！
+EN I won't let anyone say I look like a grade-schooler
+EN anymore!
+
+@ 117.17
+# scene 121 タッグマッチ ベスト
+# 野村 つばさ
+JP なんでかな…。
+JP このしっくり感…。
+EN I wonder why... This just feels so right...
+
+@ 118.16
+# scene 125 必殺技１
+# 野村 つばさ
+JP これで終わりっ！
+JP えーいっ！
+EN This ends it! Hyaaah!
+
+@ 119.16
+# scene 125 必殺技２
+# 野村 つばさ
+JP これが私の底力よっ！
+EN This is what I'm really made of!
+
+@ 120.16
+# scene 125 必殺技３
+# 野村 つばさ
+JP 私が子供じゃないってとこ、
+JP 見せてやるんだから！
+EN I'll show you I'm not a kid!
+
+@ 121.12
+# scene 126 勝利1
+# 野村 つばさ
+JP 人を子供扱いしてるから
+JP 負けちゃうんだよーだ！
+EN That's what you get for treating me like a kid! Nyeh!
+
+@ 122.12
+# scene 126 勝利2
+# 野村 つばさ
+JP 私の実力、わかってくれた？
+EN Do you get how good I am now?
+
+@ 123.12
+# scene 126 勝利3
+# 野村 つばさ
+JP やったーーッ！
+JP もう子供扱いしないよね？
+EN I diiid it! You won't treat me like a kid anymore, right?
+
+@ 124.15
+# scene 133 表彰1
+# 野村 つばさ
+JP やったー！
+JP みんなありがとう…じゃなくて
+JP ありがとうございました！
+EN Yaaay! Thanks, everyone... I mean, thank you very
+EN much!
+
+@ 125.15
+# scene 133 表彰2
+# 野村 つばさ
+JP えへへ！
+JP 応援ありがとー！
+EN Ehehe! Thanks for cheering for me!
+
+@ 126.12
+# scene 134 優勝1
+# 野村 つばさ
+JP 優勝しちゃった…。
+JP 私もこれで一流選手だよね！
+EN I won the whole thing... That makes me a top-class
+EN wrestler, right!
+
+@ 127.12
+# scene 134 優勝２
+# 野村 つばさ
+JP 私でもやればできるんだよね！
+EN See? Even I can do it if I try!
+
+@ 128.24
+# scene 135 エンディング 通常
+# 野村 つばさ
+JP おめでとう、社長！
+JP 小さいままだったけど
+JP 私も役に立ったかな？
+EN Congratulations, Boss! I stayed small, but was I some
+EN help?
+
+@ 129.24
+# scene 136 エンディング 好意
+# 野村 つばさ
+JP おめでとう！
+JP あの…社長って
+JP 恋人の身長差、気にするタイプ？
+EN Congrats! Um... Boss, are you the type who minds a
+EN height difference in a girlfriend?

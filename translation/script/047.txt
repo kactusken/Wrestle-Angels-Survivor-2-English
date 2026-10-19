@@ -1,0 +1,2579 @@
+# /SCR/047.BIN - 星野ちよる
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 047` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 星野 ちよる
+JP む…無理だよね？
+EN I-I'm not good enough... am I?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 星野 ちよる
+JP うそ……。
+JP だましてない？
+EN No way... You're not tricking me?
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 星野 ちよる
+JP そう……。
+JP やっぱり。
+EN I see... I knew it.
+
+@ 3.29
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （あの娘か…）
+EN (So that's the girl...)
+
+@ 3.31
+# 社 長
+JP （どう見てもプロレスに
+JP 　向いているとは思えない体格だ）
+EN (No matter how I look at her, she doesn't have the
+EN build for pro wrestling.)
+
+@ 3.33
+# 社 長
+JP （担当者は彼女に何を感じて
+JP 　候補に入れたんだろう？）
+EN (What did our scout see in her to put her on the
+EN list?)
+
+@ 3.45
+# 社 長
+JP 危ない！
+EN Look out!
+
+@ 3.47
+# 社 長
+JP （そう叫ぶのが精一杯だった）
+EN (That was all I could shout.)
+
+@ 3.67
+# 社 長
+JP （彼女は俺の前で
+JP 　歩道橋の階段から足を踏み外した…）
+EN (Right in front of me, she missed her step on the
+EN footbridge stairs...)
+
+@ 3.69
+# 通行人
+JP だ、大丈夫ですか？
+EN A-are you all right?
+
+@ 3.71
+# 社 長
+JP （なんということだろう）
+EN (I couldn't believe it.)
+
+@ 3.73
+# 社 長
+JP （道路で倒れていた少女は…）
+EN (The girl who'd fallen into the road...)
+
+@ 3.86
+# 社 長
+JP （何事もなかったかのように
+JP 　起き上がると…）
+EN (got up as if nothing had happened...)
+
+@ 3.96
+# 星野 ちよる
+JP ああ…。
+JP また、やっちゃった……。
+EN Ahh... I did it again...
+
+@ 3.108
+# 社 長
+JP （そのままダッシュで
+JP 　走り去ってしまった）
+EN (and took off running at full speed.)
+
+@ 3.110
+# 通行人
+JP お、おーい！
+JP 君、大丈夫かー！
+EN H-hey! Are you all right, miss?
+
+@ 3.112
+# 通行人
+JP 救急車を待つんだ！
+EN Wait for the ambulance!
+
+@ 3.114
+# 社 長
+JP （俺は見た）
+EN (I saw it.)
+
+@ 3.116
+# 社 長
+JP （少女が無傷だったのは
+JP 　幸運だったからじゃない）
+EN (She wasn't unhurt because she was lucky.)
+
+@ 3.118
+# 社 長
+JP （まるで、一流スタントマンのように
+JP 　受身をとっていたからだ）
+EN (She'd taken the fall like a top-class stuntwoman.)
+
+@ 3.120
+# 社 長
+JP たしかに…こいつは逸材だ！
+EN She really is something special!
+
+@ 3.122
+# 社 長
+JP （俺は、彼女を追いかけた）
+EN (I went after her.)
+
+@ 3.134
+# 社 長
+JP （幸い、足が遅いので
+JP 　すぐに追いつくことができた）
+EN (Luckily, she was slow, so I caught up with her
+EN quickly.)
+
+@ 3.136
+# 社 長
+JP おーい、君！
+JP 待て、待ってくれ！
+EN Hey, you! Wait, please wait!
+
+@ 3.161
+# 星野 ちよる
+JP ひっ……。
+JP へ、平気ですから。
+JP 私、ケガなんかしてないですから…。
+EN Eek... I-I'm fine. I'm not hurt or anything...
+
+@ 3.164
+# 社 長
+JP 違う違う。
+JP そんな用件じゃない。
+EN No, no. That's not why I'm here.
+
+@ 3.166
+# 社 長
+JP （俺は身分を明かして
+JP 　彼女をスカウトした）
+EN (I told her who I was and made her an offer.)
+
+@ 3.173
+# 星野 ちよる
+JP え……？
+JP プロレス団体の社長さん？
+EN Huh...? You're the president of a wrestling
+EN promotion?
+
+@ 3.176
+# 社 長
+JP ああ、見ていたよ。
+JP すごい受身だった。
+EN Yes, I saw the whole thing. That was an amazing fall.
+
+@ 3.178
+# 社 長
+JP どうだろう。
+JP その技術をプロのリングで
+JP 生かしてみないか！？
+EN What do you say? Why not put that skill to use in a
+EN pro ring?!
+
+@ 3.185
+# 星野 ちよる
+JP え……えっとぉ。
+EN Uh... umm...
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# 星野 ちよる
+JP わ……私なんかでも
+JP ……いいんですか？
+EN S-someone like me... is that really okay?
+
+@ 4.18
+# 社 長
+JP もちろんだ。
+EN Of course.
+
+@ 4.29
+# 星野 ちよる
+JP そ……そう……。
+JP な、なら……試しに
+JP やってみます……プロレス。
+EN I... I see... Th-then... I'll give it a try... pro wrestling.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 星野 ちよる
+JP そ……そんなの……無理ですぅ～！
+EN I... I can't do that! No way!
+
+@ 5.32
+# 社 長
+JP 逃げられた……。
+EN She got away...
+
+@ 5.34
+# 社 長
+JP しかも、さっきより
+JP 格段に足が速いぞ……。
+EN And she's a lot faster than she was before...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （俺は再びちよるを訪ねた）
+EN (I went to see Chiyoru again.)
+
+@ 6.25
+# 社 長
+JP （あんな才能を放っておく手はない）
+EN (I couldn't let talent like that go to waste.)
+
+@ 6.27
+# 社 長
+JP すみません。
+EN Excuse me.
+
+@ 6.37
+# 星野 ちよる
+JP ひいぃっ！
+JP こないだの人っ！！
+EN Eeek! It's that man from before!!
+
+@ 6.40
+# 社 長
+JP ああ、怯えないで。
+JP 危害は加えないから。
+EN Don't be scared. I'm not going to hurt you.
+
+@ 6.42
+# 社 長
+JP ぜひ、あなたに入団して欲しくて
+JP 探していたんだ。
+EN I've been looking for you because I really want you
+EN to join us.
+
+@ 6.49
+# 星野 ちよる
+JP で……でも私なんか
+JP ……プロレスの才能ないし……。
+EN B-but someone like me... I've got no talent for
+EN wrestling...
+
+@ 6.52
+# 社 長
+JP そんなことはない。
+JP あんな技術をもっている人間
+JP プロでもそうはいない。
+EN That's not true. Even among pros, hardly anyone
+EN has skills like yours.
+
+@ 6.54
+# 社 長
+JP （それからしばらく
+JP 　俺は熱心に彼女を説得した）
+EN (I spent a long while earnestly trying to persuade
+EN her.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# 星野 ちよる
+JP わ……私なんかでも
+JP ……いいんですか？
+EN S-someone like me... is that really okay?
+
+@ 7.18
+# 社 長
+JP もちろんだ。
+EN Of course.
+
+@ 7.29
+# 星野 ちよる
+JP そ……そう……。
+JP な、なら……試しに
+JP やってみます……プロレス。
+EN I... I see... Th-then... I'll give it a try... pro wrestling.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 星野 ちよる
+JP そ……そんなの……無理ですぅ～！
+EN I... I can't do that! No way!
+
+@ 8.29
+# 社 長
+JP あっ！
+EN Ah!
+
+@ 8.31
+# 社 長
+JP 逃げられた……。
+EN She got away...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （俺はちよる選手と
+JP 　交渉してみることにした）
+EN (I decided to negotiate with Chiyoru.)
+
+@ 9.25
+# 社 長
+JP （レスラーとしての才能は
+JP 　高くはないと思われている
+JP 　彼女だが、受身の技術は超一流だ）
+EN (People don't rate her much as a wrestler, but her
+EN bumping skills are world-class.)
+
+@ 9.27
+# 社 長
+JP （そのやられっぷりの激しさは
+JP 　他の追随を許さない）
+EN (No one can match how spectacularly she takes a
+EN beating.)
+
+@ 9.29
+# 社 長
+JP （目立とうという欲もないらしく
+JP 　相手の引き立て役になりたがる）
+EN (She has no urge to stand out, either; she'd rather
+EN make her opponents look good.)
+
+@ 9.31
+# 社 長
+JP （とても貴重な存在だ。
+JP 　コアなファンもついている）
+EN (That makes her very valuable. She has a devoted
+EN cult following, too.)
+
+@ 9.33
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be around here somewhere...
+
+@ 9.35
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.37
+# 社 長
+JP あの、すみません。
+JP ちよる選手ですね。
+EN Um, excuse me. You're Chiyoru, aren't you?
+
+@ 9.47
+# 星野 ちよる
+JP きゃあっ！
+EN Eeek!
+
+@ 9.60
+# 社 長
+JP （物陰に隠れられた…）
+EN (She hid behind something...)
+
+@ 9.64
+# 星野 ちよる
+JP だ……誰？
+EN Wh-who are you?
+
+@ 9.67
+# 社 長
+JP そう怯えないで…。
+JP 怪しい者ではありません。
+EN Please don't be scared... I'm not a suspicious person.
+
+@ 9.69
+# 社 長
+JP （俺は身分を明かして
+JP 　彼女をスカウトした）
+EN (I told her who I was and made her an offer.)
+
+@ 9.79
+# 星野 ちよる
+JP あなたの団体に……移籍？
+EN Move... to your promotion?
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 星野 ちよる
+JP …………うん、いいよ。
+EN ......Okay. Sure.
+
+@ 10.22
+# 社 長
+JP 本当ですか。
+EN Really?
+
+@ 10.29
+# 星野 ちよる
+JP だって……私、きっと
+JP 今の団体のお荷物になっている……。
+EN Because... I'm probably just dead weight at my
+EN promotion anyway...
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 星野 ちよる
+JP ……移籍、しない。
+JP だって……今の団体は、こんな私を
+JP 必要としてくれているから……。
+EN ...I won't move. Because... my promotion needs
+EN someone like me...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　ちよる選手が必要だ）
+EN (Our promotion really does need Chiyoru.)
+
+@ 12.25
+# 社 長
+JP （俺はもう一度
+JP 　交渉を試みることにした）
+EN (I decided to try negotiating once more.)
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 星野 ちよる
+JP きゃっ！
+JP だ……誰？
+EN Eek! Wh-who are you?
+
+@ 12.50
+# 社 長
+JP （また隠れられた）
+EN (She hid again.)
+
+@ 12.52
+# 社 長
+JP こないだ、あなたを
+JP スカウトしに来た者です。
+EN I'm the one who came to scout you the other day.
+
+@ 12.62
+# 星野 ちよる
+JP あ……本当だ……。
+JP なんの用？
+EN Oh... it really is you... What do you want?
+
+@ 12.65
+# 社 長
+JP こないだと同じです。
+EN Same as last time.
+
+@ 12.67
+# 社 長
+JP どうしても、諦めきれなくて。
+EN I just can't give up on you.
+
+@ 12.69
+# 社 長
+JP もう一度
+JP 考えてみてもらえませんか？
+EN Would you think it over one more time?
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 星野 ちよる
+JP …………うん、いいよ。
+EN ......Okay. Sure.
+
+@ 13.22
+# 社 長
+JP 本当ですか。
+EN Really?
+
+@ 13.29
+# 星野 ちよる
+JP だって……私、きっと
+JP 今の団体のお荷物になっている……。
+EN Because... I'm probably just dead weight at my
+EN promotion anyway...
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 星野 ちよる
+JP ……移籍、しない。
+JP だって……今の団体は、こんな私を
+JP 必要としてくれているから……。
+EN ...I won't move. Because... my promotion needs
+EN someone like me...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （俺はちよる選手と
+JP 　交渉してみることにした）
+EN (I decided to negotiate with Chiyoru.)
+
+@ 15.25
+# 社 長
+JP （レスラーとしての才能は
+JP 　高くはないと思われている
+JP 　彼女だが、受身の技術は超一流だ）
+EN (People don't rate her much as a wrestler, but her
+EN bumping skills are world-class.)
+
+@ 15.27
+# 社 長
+JP （そのやられっぷりの激しさは
+JP 　他の追随を許さない）
+EN (No one can match how spectacularly she takes a
+EN beating.)
+
+@ 15.29
+# 社 長
+JP （目立とうという欲もないらしく
+JP 　相手の引き立て役になりたがる）
+EN (She has no urge to stand out, either; she'd rather
+EN make her opponents look good.)
+
+@ 15.31
+# 社 長
+JP （とても貴重な存在だ。
+JP 　コアなファンもついている）
+EN (That makes her very valuable. She has a devoted
+EN cult following, too.)
+
+@ 15.33
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be around here somewhere...
+
+@ 15.35
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.37
+# 社 長
+JP あの、すみません。
+JP ちよる選手ですね。
+EN Um, excuse me. You're Chiyoru, aren't you?
+
+@ 15.47
+# 星野 ちよる
+JP きゃあっ！
+EN Eeek!
+
+@ 15.60
+# 社 長
+JP （物陰に隠れられた…）
+EN (She hid behind something...)
+
+@ 15.64
+# 星野 ちよる
+JP あ……あやしい人……。
+EN A... a suspicious man...
+
+@ 15.67
+# 社 長
+JP あやしい者ではありません…。
+JP そう怯えないで。
+EN I'm not suspicious... Please don't be scared.
+
+@ 15.69
+# 社 長
+JP （俺は身分を明かして
+JP 　彼女をスカウトした）
+EN (I told her who I was and made her an offer.)
+
+@ 15.79
+# 星野 ちよる
+JP だ……団体の勧誘なの？
+EN Y-you're recruiting me for a promotion?
+
+@ 15.82
+# 社 長
+JP そうです。
+JP どうでしょう？
+EN That's right. What do you say?
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 星野 ちよる
+JP わかった……入れて。
+JP 私、フリーなんか向いてないもの。
+EN Okay... let me in. I'm not cut out to be a freelancer.
+
+@ 16.22
+# 社 長
+JP では、ＯＫということで？
+EN So that's a yes?
+
+@ 16.29
+# 星野 ちよる
+JP うん。
+JP 私なんかで……良ければ……。
+EN Yeah. If... someone like me is okay...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 星野 ちよる
+JP ごめんなさい。
+JP 今晩、チャーハンだから……。
+EN I'm sorry. We're having fried rice tonight...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 17.24
+# 社 長
+JP （って、それが断りの言葉！？）
+EN (Wait, that's her reason for saying no?!)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　ちよる選手が必要だ）
+EN (Our promotion really does need Chiyoru.)
+
+@ 18.25
+# 社 長
+JP （俺はもう一度
+JP 　彼女と交渉することにした）
+EN (I decided to negotiate with her once more.)
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 星野 ちよる
+JP あ……こないだの
+JP ……あやしい人……。
+EN Oh... it's the... suspicious man from before...
+
+@ 18.40
+# 社 長
+JP ちがいます。
+EN I am not.
+
+@ 18.47
+# 星野 ちよる
+JP もしかして、また……スカウト？
+EN Are you... scouting me again?
+
+@ 18.50
+# 社 長
+JP そうです。
+EN Yes, I am.
+
+@ 18.52
+# 社 長
+JP どうですかね。
+JP ここは、俺を信じて……。
+EN What do you say? Just trust me on this...
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 星野 ちよる
+JP わかった……入れて。
+JP 私、フリーなんか向いてないもの。
+EN Okay... let me in. I'm not cut out to be a freelancer.
+
+@ 19.22
+# 社 長
+JP では、ＯＫということで？
+EN So that's a yes?
+
+@ 19.29
+# 星野 ちよる
+JP うん。
+JP 私なんかで……良ければ……。
+EN Yeah. If... someone like me is okay...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 星野 ちよる
+JP ごめんなさい。
+JP 今晩、チャーハンだから……。
+EN I'm sorry. We're having fried rice tonight...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP やっぱりチャーハンだと
+JP ダメですか…。
+EN I see... So fried rice night means no...
+
+@ 20.24
+# 社 長
+JP （もう、ワケがわからない）
+EN (I don't understand anything anymore.)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺はちよるを訪ねることにした）
+EN (I decided to visit Chiyoru.)
+
+@ 21.25
+# 社 長
+JP （やっぱり彼女は
+JP 　うちの団体に必要な選手だ）
+EN (She really is a wrestler our promotion needs.)
+
+@ 21.27
+# 社 長
+JP いた…。
+JP ……ちよる。
+EN There she is... Chiyoru.
+
+@ 21.37
+# 星野 ちよる
+JP あ……社長……。
+JP ……なんの用なの？
+EN Oh... Boss... What do you want?
+
+@ 21.40
+# 社 長
+JP 実は、お前にもどってきて欲しくて。
+EN Actually, I want you to come back.
+
+@ 21.47
+# 星野 ちよる
+JP そう、やっぱり私が必要だって
+JP わかったの……。
+JP うふふふふふふふ。
+EN So you finally realized you need me... Fufufufufufu.
+
+@ 21.50
+# 社 長
+JP そうだ。
+JP 勝手な頼みだとは思うが…。
+EN That's right. I know it's selfish of me to ask...
+
+@ 22.25
+# scene 023 移籍交渉 退団あり１ 成功
+# 星野 ちよる
+JP うん。
+JP 戻ってあげる……。
+JP 社長の頼みだものね。
+EN Okay. I'll come back... Since you're the one asking,
+EN Boss.
+
+@ 22.28
+# 社 長
+JP すまない。
+EN Thank you.
+
+@ 22.32
+# 星野 ちよる
+JP でも、今度裏切ったら
+JP 許さないから……。
+JP ふふ……ふふふふふふ……。
+EN But if you betray me again... I won't forgive you...
+EN Fufu... fufufufufu...
+
+@ 23.25
+# scene 024 移籍交渉 退団あり１ 失敗
+# 星野 ちよる
+JP だめ……。
+JP まだ……許してあげない……。
+EN No... I haven't... forgiven you yet...
+
+@ 23.28
+# 社 長
+JP そうか…。
+JP 残念だ。
+EN I see... That's a shame.
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び
+JP 　ちよるを訪ねることにした）
+EN (I decided to visit Chiyoru once again.)
+
+@ 24.25
+# 社 長
+JP （やはり彼女は
+JP 　うちの団体に必要な選手だ）
+EN (She really is a wrestler our promotion needs.)
+
+@ 24.27
+# 社 長
+JP いた…。
+JP ……ちよる！
+EN There she is... Chiyoru!
+
+@ 24.37
+# 星野 ちよる
+JP ふふふふ……。
+JP やっぱり……来た。
+JP そんなに、戻って欲しいの？
+EN Fufufufu... I knew you'd come. You want me back that
+EN badly?
+
+@ 24.40
+# 社 長
+JP ああ。
+JP なんとか機嫌を直しては
+JP くれないか？
+EN Yes. Is there any way you could stop being mad at
+EN me?
+
+@ 25.25
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 星野 ちよる
+JP うん。
+JP 戻ってあげる……。
+JP 社長の頼みだものね。
+EN Okay. I'll come back... Since you're the one asking,
+EN Boss.
+
+@ 25.28
+# 社 長
+JP すまない。
+EN Thank you.
+
+@ 25.32
+# 星野 ちよる
+JP でも、今度裏切ったら
+JP 許さないから……。
+JP ふふ……ふふふふふふ……。
+EN But if you betray me again... I won't forgive you...
+EN Fufu... fufufufufu...
+
+@ 26.25
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 星野 ちよる
+JP だめ……。
+JP まだ……許してあげない……。
+EN No... I haven't... forgiven you yet...
+
+@ 26.28
+# 社 長
+JP そうか…。
+JP 残念だ。
+EN I see... That's a shame.
+
+@ 27.16
+# scene 028 ケガ小
+# 星野 ちよる
+JP ……私が、怪我をするなんて……。
+EN ...Me, getting injured...?
+
+@ 28.16
+# scene 029 ケガ大
+# 星野 ちよる
+JP ……私の唯一の取り柄が……。
+EN ...The one thing I was good at...
+
+@ 29.16
+# scene 030 入院
+# 星野 ちよる
+JP しょせん……私は役立たず……。
+EN I'm useless... after all...
+
+@ 30.16
+# scene 031 退院
+# 星野 ちよる
+JP あの……。
+JP まだ……私の居場所……ある？
+EN Um... Is there... still a place for me here?
+
+@ 31.16
+# scene 032 ケガ完治
+# 星野 ちよる
+JP もう、大丈夫……。
+EN I'm all right now...
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 星野 ちよる
+JP わかった。
+JP 私なんかがリングに立つと
+JP ……迷惑だものね……。
+EN Okay. Someone like me standing in the ring... just
+EN causes trouble anyway...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 星野 ちよる
+JP ……………………嫌。
+EN ........................No.
+
+@ 34.16
+# scene 035 コーチ就任
+# 星野 ちよる
+JP 私なんかが……教えていいの？
+EN Someone like me... teaching?
+
+@ 35.16
+# scene 036 ケガ引退
+# 星野 ちよる
+JP うっ……ぐす……ひっく……。
+EN Ugh... sniff... hic...
+
+@ 36.16
+# scene 037 年齢引退
+# 星野 ちよる
+JP こんな歳になるまで
+JP ……よくもったな……私の体……。
+EN To think it lasted until this age... You did well, my
+EN body...
+
+@ 37.16
+# scene 038 退団
+# 星野 ちよる
+JP やっぱり、私には無理だった。
+EN I knew I couldn't do it.
+
+@ 38.16
+# scene 039 スランプ
+# 星野 ちよる
+JP …………もう、ダメ。
+JP 絶望的……。
+EN ......It's hopeless. Utterly hopeless...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 星野 ちよる
+JP 私の、ファンクラブ？
+EN My... fan club?
+
+@ 39.19
+# 社 長
+JP ああ。
+JP 応援に負けないようがんばれよ。
+EN Yep. Work hard and live up to their support.
+
+@ 39.26
+# 星野 ちよる
+JP それって……変な人の集まりって
+JP ことだよね？
+EN So that means... a bunch of weird people got
+EN together, right?
+
+@ 39.29
+# 社 長
+JP いやいや！
+JP ひどい言い方をするなよ。
+EN No, no! Don't say such awful things.
+
+@ 39.31
+# 社 長
+JP （たしかにこいつのファンは
+JP 　濃い人が多いけど）
+EN (Admittedly, a lot of her fans are pretty intense.)
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 星野 ちよる
+JP また、変な人が増えたんだ……。
+EN So more weird people joined...
+
+@ 40.19
+# 社 長
+JP だから自分のファンを
+JP 変な人とか言うなよ。
+EN I told you, don't call your own fans weird.
+
+@ 40.26
+# 星野 ちよる
+JP 私がやられてるのを見て
+JP ……喜んでる人たちだよ？
+EN They're people who enjoy... watching me get beaten
+EN up, you know?
+
+@ 40.29
+# 社 長
+JP いや…まあ……。
+EN Well... uh...
+
+@ 40.31
+# 社 長
+JP （困った…。
+JP 　かばいきれない）
+EN (This is awkward... I can't defend them.)
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 星野 ちよる
+JP 変な人、減ったんだね。
+EN So there are fewer weird people now.
+
+@ 41.19
+# 社 長
+JP そういう言い方されると
+JP 減ったのが悪いことに
+JP 聞こえなくなるから不思議だ。
+EN Funny how when you put it like that, losing fans
+EN stops sounding like a bad thing.
+
+@ 41.26
+# 星野 ちよる
+JP ごめんね。
+JP 団体のいいカモだったのに……。
+EN Sorry. They were such easy marks for the
+EN promotion, too...
+
+@ 41.29
+# 社 長
+JP おまえ、何だかんだで黒いよな…。
+EN For all your talk, you've got a real dark side...
+
+@ 42.16
+# scene 043 映画出演
+# 星野 ちよる
+JP どうせ恐怖映画だよね？
+JP 呪う側？
+JP 呪われて死ぬ側？
+EN It's a horror movie, right? Am I the one cursing? Or
+EN the one who gets cursed to death?
+
+@ 43.16
+# scene 044 一日署長
+# 星野 ちよる
+JP 私に権力を与えちゃ……ダメだよ。
+JP みんな、不幸になるから。
+EN You shouldn't give me power... Everyone will end up
+EN miserable.
+
+@ 44.16
+# scene 045 写真集発売
+# 星野 ちよる
+JP 私の写真集？
+JP そんなの……変な人しか買わないよ。
+EN My photo book? Only weird people would buy that.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 星野 ちよる
+JP 売り上げ落ちても、知らないからね。
+EN Don't blame me if sales go down.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 星野 ちよる
+JP 信じられない……誰？
+JP そんな企画を通した人……。
+EN Unbelievable... Who approved a project like that...?
+
+@ 47.16
+# scene 048 始球式
+# 星野 ちよる
+JP 嫌……。
+JP あんな広いところに
+JP 一人で立つなんて……。
+EN No... Standing all alone in a place that big...
+
+@ 48.16
+# scene 049 学園祭
+# 星野 ちよる
+JP お祭り……。
+JP 憂鬱だなあ……。
+EN A festival... How depressing...
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a birthday present.
+
+@ 49.36
+# 星野 ちよる
+JP …………ありがとう……。
+EN ......Thank you...
+
+@ 49.39
+# 社 長
+JP これからも、よろしくな。
+EN I'm counting on you from here on, too.
+
+@ 49.46
+# 星野 ちよる
+JP うん。
+JP ずっと……よろしく。
+JP ……ずっとずっと、よろしく。
+EN Yeah. Forever... Count on me forever... and ever and
+EN ever.
+
+@ 50.30
+# scene 051 バレンタインデー
+# 星野 ちよる
+JP 社長。
+JP はい、これ……。
+JP バレンタインのチョコレート。
+EN Boss. Here... Valentine's chocolate.
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Ah, thank you.
+
+@ 50.40
+# 星野 ちよる
+JP ふふふ……。
+JP 圧倒されちゃった……チョコ売り場。
+JP みんな、すごい熱気……。
+EN Fufufu... The chocolate counter overwhelmed me...
+EN Everyone was so fired up...
+
+@ 50.43
+# 社 長
+JP （そういえば……こいつ
+JP 　ああいう所が苦手なはずなのに）
+EN (Come to think of it... she can't stand places like
+EN that.)
+
+@ 50.45
+# 社 長
+JP （俺のために行ってきてくれたのか）
+EN (She went there for my sake?)
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼だ。
+JP 受け取ってくれるか？
+EN For last month. Will you take it?
+
+@ 51.36
+# 星野 ちよる
+JP ありがとう………。
+JP ………お菓子？
+EN Thank you... ......Candy?
+
+@ 51.39
+# 社 長
+JP ダメだったか？
+EN Is that no good?
+
+@ 51.46
+# 星野 ちよる
+JP お菓子だと
+JP ……ずっと、とっておけない。
+JP 防腐剤、買ってこないと……。
+EN If it's candy... I can't keep it forever. I'll have to go
+EN buy preservatives...
+
+@ 51.49
+# 社 長
+JP いやいや、素直に食べてくれよ。
+EN No, no, just eat it like a normal person.
+
+@ 52.31
+# scene 053 サイン会
+# 星野 ちよる
+JP 私のサインが欲しいなんて……。
+JP あなた、変な人でしょ？
+EN You want my autograph...? You're a weird person,
+EN aren't you?
+
+@ 53.31
+# scene 054 コンサート
+# 星野 ちよる
+JP 私のコンサートなんか見たら
+JP みんな嫌な気分になりそう……。
+EN If people saw a concert of mine, they'd probably all
+EN end up in a bad mood...
+
+@ 54.28
+# scene 055 練習拒否
+# 星野 ちよる
+JP リビングストンさんが
+JP 呼んでる……。
+EN Mr. Livingston... is calling me...
+
+@ 55.28
+# scene 056 失踪
+# 星野 ちよる
+JP つよると……決着をつけてくる……。
+EN I'm going... to settle things with Tsuyoru...
+
+@ 56.16
+# scene 057 選手解雇
+# 星野 ちよる
+JP 捨てるんだ……。
+JP 私を捨てるんだね……。
+JP …………恨むから……。
+EN You're throwing me away... You're throwing me away,
+EN aren't you... ......I'll hold it against you...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 星野 ちよる
+JP 一人で隣の県にも
+JP 行ったことがないのに……。
+EN I've never even gone to the next prefecture by
+EN myself...
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 星野 ちよる
+JP もう……。
+JP 外国なんか行きたくない……。
+EN I never... want to go abroad again...
+
+@ 59.26
+# scene 060 移籍思案
+# 星野 ちよる
+JP 私の居場所は……。
+EN Where I belong is...
+
+@ 60.16
+# scene 061 革命軍結成
+# 星野 ちよる
+JP 私がこんなことをするなんて……。
+JP 夢みたい……。
+EN Me, doing something like this... It's like a dream...
+
+@ 61.16
+# scene 062 反乱軍結成
+# 星野 ちよる
+JP 刃向かうから……。
+JP ……虫けらのように潰して。
+EN I'm going to defy you... ...Crush me like a bug.
+
+@ 62.16
+# scene 063 最終決戦要求
+# 星野 ちよる
+JP もう……夢は終わり。
+EN The dream... is over now.
+
+@ 63.16
+# scene 064 遺恨発生
+# 星野 ちよる
+JP ……呪ってやる……。
+EN ...I'll curse you...
+
+@ 64.16
+# scene 065 殴り込み
+# 星野 ちよる
+JP 私？
+JP なんで、私？
+JP ひどい……。
+EN Me? Why me? That's so mean...
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 星野 ちよる
+JP 私？
+JP 社長は団体が潰れてもいいの？
+EN Me? Boss, don't you care if the promotion goes
+EN under?
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 星野 ちよる
+JP あの……言われて来ただけだから。
+JP 怖い目で見ないで。
+EN Um... I only came because they told me to. Please
+EN don't look at me with those scary eyes.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 星野 ちよる
+JP わ……私？
+JP 社長が……おかしくなった……。
+EN M-me? The Boss... has lost his mind...
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 星野 ちよる
+JP 私は私を信じていなかったのに……。
+JP ……社長は私を信じていた……。
+EN I didn't believe in myself... ...but you believed in me,
+EN Boss...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 星野 ちよる
+JP ほらぁ……。
+EN See...?
+
+@ 70.13
+# scene 071 引退式
+# 星野 ちよる
+JP あれ？　なんで涙が……。
+JP ……あれ……ひぐ……。
+JP あれ？　えぐ……。
+EN Huh? Why am I crying...? ...Huh... hic... Huh? Sob...
+
+@ 71.17
+# 星野 ちよる
+JP なに？
+EN What?
+
+@ 71.36
+# 星野 ちよる
+JP なに？
+EN What?
+
+@ 71.46
+# 星野 ちよる
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing well lately. Keep it up.
+
+@ 71.89
+# 星野 ちよる
+JP …………うん。
+EN ......Okay.
+
+@ 71.110
+# 星野 ちよる
+JP 持ち上げておいて
+JP ……後でけなすつもり？
+EN Are you building me up... just so you can tear me
+EN down later?
+
+@ 71.113
+# 社 長
+JP いやいや、違うから。
+EN No, no, that's not it.
+
+@ 71.134
+# 星野 ちよる
+JP がんばったら
+JP ……もっと優しくしてくれる？
+EN If I work hard... will you be nicer to me?
+
+@ 71.137
+# 社 長
+JP あ、ああ。
+EN Y-yeah.
+
+@ 71.141
+# 星野 ちよる
+JP じゃ……がんばる。
+EN Then... I'll work hard.
+
+@ 71.162
+# 星野 ちよる
+JP 嬉しい。
+JP 褒めてもらえたって
+JP さっそく七海に報告しなきゃ。
+EN I'm happy. I have to go tell Nanami right away that
+EN you praised me.
+
+@ 71.165
+# 社 長
+JP だ…誰、それ。
+EN Wh-who's that?
+
+@ 71.178
+# 社 長
+JP おまえに言っておきたいことがある。
+JP 最近のおまえは……。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 71.202
+# 星野 ちよる
+JP …………すみませんでした……。
+EN ......I'm sorry...
+
+@ 71.223
+# 星野 ちよる
+JP …………す、すみませんでした？
+EN ......S-sorry...?
+
+@ 71.244
+# 星野 ちよる
+JP ごめんなさい。
+JP 私……いいこになります。
+JP だから、捨てないでください……。
+EN I'm sorry. I'll... be a good girl. So please don't throw
+EN me away...
+
+@ 71.265
+# 星野 ちよる
+JP ……ごめんなさい……。
+JP やっぱり、勝手に七海を呼んだら
+JP いけなかった？
+EN ...I'm sorry... I shouldn't have invited Nanami over
+EN without asking, should I?
+
+@ 71.268
+# 社 長
+JP え？
+EN Huh?
+
+@ 71.272
+# 星野 ちよる
+JP だって、あの日は社長が
+JP 帰ってこなくて寂しかったんだもの。
+EN But you didn't come home that day, Boss, and I was
+EN lonely.
+
+@ 71.275
+# 社 長
+JP （俺の家は、今まさに侵略されようと
+JP 　しているのか？）
+EN (Is my home being invaded as we speak?)
+
+@ 71.288
+# 社 長
+JP 最近はおまえらしくないじゃないか。
+JP おまえの実力はそんなものじゃ
+JP ないはずだ。
+EN You haven't been yourself lately. You're better than
+EN this.
+
+@ 71.312
+# 星野 ちよる
+JP ……………ありがとう。
+EN ...............Thank you.
+
+@ 71.333
+# 星野 ちよる
+JP 私らしい……。
+JP ……それって、ダメダメって
+JP 意味だと思う。
+EN Being myself... I think that means being a total
+EN failure.
+
+@ 71.354
+# 星野 ちよる
+JP 私のね……新しいママが
+JP 最近パパとの仲をのろけて
+JP ばかりなの……。
+EN You know... my new mom has been gushing about her
+EN and Dad nonstop lately...
+
+@ 71.357
+# 社 長
+JP え？
+EN Huh?
+
+@ 71.364
+# 星野 ちよる
+JP のろけ返すのに協力してくれれば
+JP ……とってもはげみになりそう……。
+EN If you'd help me gush back at her... that would really
+EN cheer me up...
+
+@ 71.385
+# 星野 ちよる
+JP 私らしくない？
+JP 昨日のお味噌汁
+JP ……やっぱり塩辛かった？
+EN Not myself? Was yesterday's miso soup... too salty
+EN after all?
+
+@ 71.388
+# 社 長
+JP いや、そっちの話じゃない…。
+EN No, I'm not talking about that...
+
+@ 71.391
+# 社 長
+JP というか勝手に合い鍵作るのは
+JP やめてくれ。
+JP たしかに料理はおいしいけど。
+EN And please stop making copies of my key. Your
+EN cooking is delicious, I'll admit.
+
+@ 71.405
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.421
+# 星野 ちよる
+JP …………うん。
+EN ......Yeah.
+
+@ 71.438
+# 星野 ちよる
+JP …………ううん。
+EN ......No.
+
+@ 71.449
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.471
+# 星野 ちよる
+JP …………はい。
+EN ......Yes.
+
+@ 71.492
+# 星野 ちよる
+JP …………社長は
+JP ……あいつの味方なんだ……。
+JP 味方なんだ……。
+EN ......So you're on her side, Boss... You're on her side...
+
+@ 71.513
+# 星野 ちよる
+JP 社長……私には見えない友達が
+JP 何かささやいているの？
+EN Boss... is a friend I can't see whispering something
+EN to you?
+
+@ 71.526
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.543
+# 星野 ちよる
+JP うん、たぶん。
+EN Yeah, probably.
+
+@ 71.560
+# 星野 ちよる
+JP うん。
+JP 私と一緒にいたいんでしょ？
+EN Yeah. You want to be with me, right?
+
+@ 71.573
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.595
+# 星野 ちよる
+JP うん。
+JP あなたの言うことに逆らわない。
+EN Okay. I won't go against anything you say.
+
+@ 71.616
+# 星野 ちよる
+JP 向こうから謝ってきたら
+JP ……許してあげる。
+EN If she apologizes first... I'll forgive her.
+
+@ 71.637
+# 星野 ちよる
+JP 牛乳……飲む？
+EN Want... some milk?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 星野 ちよる
+JP なに？
+EN What?
+
+@ 72.16
+# 星野 ちよる
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP このところいい感じだな。
+JP その調子で頑張ってくれ。
+EN You've been doing well lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 星野 ちよる
+JP …………うん。
+EN ......Okay.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 星野 ちよる
+JP 持ち上げておいて……
+JP 後でけなすつもり？
+EN Are you building me up... just so you can tear me
+EN down later?
+
+@ 75.19
+# 社 長
+JP いやいや、違うから。
+EN No, no, that's not it.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 星野 ちよる
+JP がんばったら……
+JP もっと優しくしてくれる？
+EN If I work hard... will you be nicer to me?
+
+@ 76.19
+# 社 長
+JP あ、ああ。
+EN Y-yeah.
+
+@ 76.23
+# 星野 ちよる
+JP じゃ……がんばる。
+EN Then... I'll work hard.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 星野 ちよる
+JP 嬉しい。
+JP 褒めてもらえたって、
+JP さっそく七海に報告しなきゃ。
+EN I'm happy. I have to go tell Nanami right away that
+EN you praised me.
+
+@ 77.19
+# 社 長
+JP だ…誰、それ。
+EN Wh-who's that?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP お前に言っておきたいことがある。
+JP 最近のお前は……。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 星野 ちよる
+JP …………すみませんでした……。
+EN ......I'm sorry...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 星野 ちよる
+JP …………す、すみませんでした？
+EN ......S-sorry...?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 星野 ちよる
+JP ごめんなさい。
+JP 私……いいこになります。
+JP だから、捨てないでください……。
+EN I'm sorry. I'll... be a good girl. So please don't throw
+EN me away...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 星野 ちよる
+JP ……ごめんなさい……。
+JP やっぱり、勝手に七海を呼んだら
+JP いけなかった？
+EN ...I'm sorry... I shouldn't have invited Nanami over
+EN without asking, should I?
+
+@ 82.19
+# 社 長
+JP え？
+EN Huh?
+
+@ 82.23
+# 星野 ちよる
+JP だって、あの日は社長が帰って
+JP こなくて寂しかったんだもの。
+EN But you didn't come home that day, Boss, and I was
+EN lonely.
+
+@ 82.26
+# 社 長
+JP （俺の家は、今まさに侵略されようと
+JP 　しているのか？）
+EN (Is my home being invaded as we speak?)
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP どうした？　最近はおまえらしくない
+JP じゃないか。お前の実力は
+JP そんなものじゃないはずだ。
+EN What's wrong? You haven't been yourself lately.
+EN You're better than this.
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 星野 ちよる
+JP ……………ありがとう。
+EN ...............Thank you.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 星野 ちよる
+JP 私らしい……。
+JP ……それって、ダメダメって
+JP 意味だと思う。
+EN Being myself... I think that means being a total
+EN failure.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 星野 ちよる
+JP 私のね……新しいママが、
+JP 最近パパとの仲をのろけてばかり
+JP なの……。
+EN You know... my new mom has been gushing about her
+EN and Dad nonstop lately...
+
+@ 86.19
+# 社 長
+JP え？
+EN Huh?
+
+@ 86.26
+# 星野 ちよる
+JP のろけ返すのに協力してくれれば……
+JP とってもはげみになりそう……。
+EN If you'd help me gush back at her... that would really
+EN cheer me up...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 星野 ちよる
+JP 私らしくない？
+JP 昨日のお味噌汁……
+JP やっぱり塩辛かった？
+EN Not myself? Was yesterday's miso soup... too salty
+EN after all?
+
+@ 87.19
+# 社 長
+JP いや、そっちの話じゃない…。
+EN No, I'm not talking about that...
+
+@ 87.22
+# 社 長
+JP というか勝手に合い鍵作るのは
+JP やめてくれ。
+JP たしかに料理はおいしいけど。
+EN And please stop making copies of my key. Your
+EN cooking is delicious, I'll admit.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 星野 ちよる
+JP …………うん。
+EN ......Yeah.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 星野 ちよる
+JP …………ううん。
+EN ......No.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 星野 ちよる
+JP …………はい。
+EN ......Yes.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 星野 ちよる
+JP …………社長は……
+JP あいつの味方なんだ……。
+JP 味方なんだ……。
+EN ......So you're on her side, Boss... You're on her side...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 星野 ちよる
+JP 社長……私には見えない友達が、
+JP 何かささやいているの？
+EN Boss... is a friend I can't see whispering something
+EN to you?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 星野 ちよる
+JP うん、多分。
+EN Yeah, probably.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 星野 ちよる
+JP うん。
+JP 私と一緒に、いたいんでしょ？
+EN Yeah. You want to be with me, right?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 星野 ちよる
+JP うん。
+JP あなたの言うことに、逆らわない。
+EN Okay. I won't go against anything you say.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 星野 ちよる
+JP 向こうから謝ってきたら……
+JP 許してあげる。
+EN If she apologizes first... I'll forgive her.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 星野 ちよる
+JP 牛乳……飲む？
+EN Want... some milk?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 星野 ちよる
+JP うん。
+JP わかった……。
+EN Okay. I understand...
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 星野 ちよる
+JP すごい……。
+JP ほんと？
+EN Wow... Really?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 星野 ちよる
+JP そうだよね。
+JP 私の評価なんて……こんなもの……。
+EN Right. That's all someone like me... is worth...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived at a tropical island.)
+
+@ 105.30
+# 社 長
+JP （みんな、思い思いに
+JP 　楽しんでいるようだ）
+EN (Everyone seemed to be enjoying themselves in their
+EN own way.)
+
+@ 105.36
+# 社 長
+JP （それは、良いのだが…）
+EN (That was all well and good, but...)
+
+@ 105.51
+# 社 長
+JP （ちよるは俺にべったりだった）
+EN (Chiyoru was glued to my side.)
+
+@ 105.53
+# 社 長
+JP なあ。
+EN Hey.
+
+@ 105.57
+# 星野 ちよる
+JP ……なに？
+EN ...What?
+
+@ 105.60
+# 社 長
+JP 泳がないのか？
+EN Aren't you going to swim?
+
+@ 105.64
+# 星野 ちよる
+JP 社長と一緒なら、泳ぐ。
+EN I'll swim if you're with me, Boss.
+
+@ 105.67
+# 社 長
+JP みんなと遊ばないのか？
+EN Aren't you going to play with the others?
+
+@ 105.71
+# 星野 ちよる
+JP 社長がみんなと遊ぶなら
+JP 一緒に遊ぶ。
+EN If you play with them, Boss, I'll play too.
+
+@ 105.74
+# 社 長
+JP あのな、おまえもたまには一人で……。
+EN Look, once in a while you should go off on your own
+EN and...
+
+@ 105.78
+# 星野 ちよる
+JP 一人なんか……やだ。
+EN I don't... want to be alone.
+
+@ 105.81
+# 社 長
+JP （ちよるは目に涙をためて
+JP 　俺の服をつかんでいる）
+EN (Chiyoru was clutching my shirt, eyes brimming with
+EN tears.)
+
+@ 105.83
+# 社 長
+JP （それも、心許なげにちょっとだけ）
+EN (And only a tiny bit of it, timidly.)
+
+@ 105.85
+# 社 長
+JP （これをふりほどいたら
+JP 　俺が悪人みたいだ）
+EN (If I shook her off, I'd look like the bad guy.)
+
+@ 105.89
+# 星野 ちよる
+JP こんな広くて明るいところで
+JP 見捨てないで。
+EN Don't abandon me in a place this big and bright.
+
+@ 105.92
+# 社 長
+JP わかったわかった。
+EN All right, all right.
+
+@ 105.94
+# 社 長
+JP じゃ、泳ぐか？
+EN Want to go for a swim, then?
+
+@ 105.98
+# 星野 ちよる
+JP うん。
+EN Yeah.
+
+@ 105.101
+# 社 長
+JP （こんなちよるだが
+JP 　俺と一緒なら普通に泳ぐし）
+EN (Chiyoru may be like this, but with me around she
+EN swims just fine...)
+
+@ 105.103
+# 社 長
+JP （他のメンバーとも仲良く
+JP 　おしゃべりしたりする）
+EN (and she even chats happily with the other girls.)
+
+@ 105.107
+# 星野 ちよる
+JP 社長……。
+EN Boss...
+
+@ 105.110
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 105.114
+# 星野 ちよる
+JP 私、社長から
+JP ずっと離れないから……ね。
+EN I'm never going to leave your side... okay?
+
+@ 105.117
+# 社 長
+JP （その言葉に）
+EN (Those words...)
+
+@ 105.119
+# 社 長
+JP （俺は、ちょっとだけゾクリときた）
+EN (sent a little shiver down my spine.)
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP そろそろ寝るか…。
+EN Guess I'll turn in soon...
+
+@ 106.22
+# 社 長
+JP （夜も更けて
+JP 　もう寝ようかと思ったとき）
+EN (Late at night, just as I was about to go to bed...)
+
+@ 106.24
+# 社 長
+JP ……ん？
+EN ...Hm?
+
+@ 106.26
+# 社 長
+JP （どこからか物音が聞こえてきた）
+EN (I heard a noise from somewhere.)
+
+@ 106.28
+# 社 長
+JP （音は台所の方から聞こえる）
+EN (It was coming from the kitchen.)
+
+@ 106.30
+# 社 長
+JP （明かりの消えた台所）
+EN (The kitchen was dark.)
+
+@ 106.46
+# 社 長
+JP ………………。
+EN ............
+
+@ 106.48
+# 社 長
+JP （よく、目をこらすと
+JP 　人影が見えた）
+EN (Straining my eyes, I made out a figure.)
+
+@ 106.52
+# ？？？
+JP 社長……。
+EN Boss...
+
+@ 106.55
+# 社 長
+JP ……誰だ？
+EN ...Who's there?
+
+@ 106.59
+# ？？？
+JP 私だよ……。
+EN It's me...
+
+@ 106.62
+# 社 長
+JP その声は…ちよるか？
+EN That voice... Chiyoru?
+
+@ 106.66
+# 星野 ちよる
+JP あたり。
+JP 明かりはつけないでね。
+EN Correct. Don't turn on the light, okay?
+
+@ 106.82
+# 社 長
+JP （暗闇に目が慣れてきた）
+EN (My eyes adjusted to the dark.)
+
+@ 106.84
+# 社 長
+JP （暗闇の中で、ちよるがひっそりと
+JP 　しゃがみ込んでる）
+EN (Chiyoru was quietly crouching in the darkness.)
+
+@ 106.86
+# 社 長
+JP 何をしている？
+EN What are you doing?
+
+@ 106.90
+# 星野 ちよる
+JP お風呂上がりのミルク……。
+EN Having my after-bath milk...
+
+@ 106.93
+# 社 長
+JP お風呂上がりって…。
+EN After-bath...?
+
+@ 106.95
+# 社 長
+JP ここは…俺の家なんだが。
+EN This is... my house, you know.
+
+@ 106.99
+# 星野 ちよる
+JP 知ってるよ。
+EN I know.
+
+@ 106.102
+# 社 長
+JP （いつの間にフロを使ったんだ？
+JP 　気付かなかったぞ）
+EN (When did she use my bath? I never noticed.)
+
+@ 106.104
+# 社 長
+JP いつの間に、家に入り込んだんだ？
+EN When did you get into my house?
+
+@ 106.108
+# 星野 ちよる
+JP 何日前だったっけ……。
+EN How many days ago was it...?
+
+@ 106.111
+# 社 長
+JP 今日ですらないのかよっ！
+EN It wasn't even today?!
+
+@ 106.121
+# 星野 ちよる
+JP うふふふふふ……。
+EN Ufufufufu...
+
+@ 106.124
+# 社 長
+JP （あまり深くつっこむと
+JP 　怖いことになりそうなので
+JP 　俺は話題を変えることにした）
+EN (Digging any deeper seemed likely to lead somewhere
+EN scary, so I changed the subject.)
+
+@ 106.126
+# 社 長
+JP それで、なんでこんな暗いところに？
+EN So why are you sitting in the dark like this?
+
+@ 106.136
+# 星野 ちよる
+JP ……おちつくの。
+EN ...It calms me down.
+
+@ 106.139
+# 社 長
+JP 暗闇が？
+EN The darkness does?
+
+@ 106.149
+# 星野 ちよる
+JP うん……すごく。
+EN Yeah... a lot.
+
+@ 106.152
+# 社 長
+JP その…そんな格好で？
+EN And... dressed like that?
+
+@ 106.156
+# 星野 ちよる
+JP お風呂上がりだと
+JP 涼しくて気持ちいいの。
+EN After a bath, it feels nice and cool.
+
+@ 106.159
+# 社 長
+JP （何かもう、色々と諦めたい気分に
+JP 　なってきた）
+EN (I was starting to feel like giving up on a lot of
+EN things.)
+
+@ 106.161
+# 社 長
+JP そうか…。
+JP 風邪ひくなよ……。
+EN I see... Don't catch a cold...
+
+@ 106.165
+# 星野 ちよる
+JP ……うん。
+EN ...Okay.
+
+@ 106.168
+# 社 長
+JP （座敷童だ。
+JP 　そう思おう）
+EN (She's a zashiki-warashi. That's what I'll tell myself.)
+
+@ 106.170
+# 社 長
+JP （家に居着くと
+JP 　幸運をもたらしてくれる
+JP 　座敷童なんだ）
+EN (A house spirit that brings good fortune to the home
+EN it lives in.)
+
+@ 106.172
+# 社 長
+JP （俺は、自分にそう言い聞かせて
+JP 　眠りにつくことにした）
+EN (Telling myself that, I went to sleep.)
+
+@ 107.20
+# scene 108 日常イベント２
+# 社 長
+JP そろそろ寝るか…。
+EN Guess I'll turn in soon...
+
+@ 107.22
+# 社 長
+JP （夜も更けて
+JP 　もう寝ようかと思ったとき）
+EN (Late at night, just as I was about to go to bed...)
+
+@ 107.24
+# 社 長
+JP ……ん？
+EN ...Hm?
+
+@ 107.26
+# 社 長
+JP ちよるか。
+EN Chiyoru, is that you?
+
+@ 107.30
+# 星野 ちよる
+JP うん。
+EN Yeah.
+
+@ 107.50
+# 社 長
+JP （相変わらず彼女は
+JP 　俺の家に住み着いている）
+EN (As usual, she's living in my house.)
+
+@ 107.52
+# 社 長
+JP （いや、棲み着いているといった方が
+JP 　イメージ的には正しいか）
+EN (Or rather, "haunting" it might be the better word.)
+
+@ 107.54
+# 社 長
+JP （いつのまにか食事ができていたり
+JP 　掃除がされていたりと
+JP 　便利なことは便利だ）
+EN (Meals appear out of nowhere, the place gets
+EN cleaned... It's convenient, I'll give her that.)
+
+@ 107.56
+# 社 長
+JP （しかも、俺の生活を
+JP 　乱さないようにする配慮か
+JP 　必要以上には俺の前に現れない）
+EN (And maybe so as not to disrupt my life, she never
+EN shows herself more than she needs to.)
+
+@ 107.58
+# 社 長
+JP （たまに、こいつは本当に
+JP 　座敷童か何かじゃないかと
+JP 　思うことがある）
+EN (Sometimes I wonder if she really is a
+EN zashiki-warashi or something.)
+
+@ 107.62
+# 星野 ちよる
+JP 社長……。
+EN Boss...
+
+@ 107.65
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 107.69
+# 星野 ちよる
+JP たまには……一杯、付き合って。
+EN Have... a drink with me, for once.
+
+@ 107.72
+# 社 長
+JP 珍しいな。
+JP おまえがそんなことを言うなんて。
+EN That's rare. You saying something like that.
+
+@ 107.74
+# 社 長
+JP しかし、明日も早いし、酒は…。
+EN But I've got an early start tomorrow, so drinking is...
+
+@ 107.78
+# 星野 ちよる
+JP 違うよ。
+JP お酒じゃない。
+EN No. It's not alcohol.
+
+@ 107.81
+# 社 長
+JP じゃあ、それは？
+EN Then what is it?
+
+@ 107.85
+# 星野 ちよる
+JP お風呂上がりは
+JP ミルクに決まっているじゃない……。
+EN After a bath, it's milk, of course...
+
+@ 107.88
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 107.90
+# 社 長
+JP （そういえば
+JP 　こいつは酒を飲まないんだった）
+EN (Come to think of it, she doesn't drink.)
+
+@ 107.92
+# 社 長
+JP しかし、酒じゃないならなおさら…。
+JP 牛乳はこんな風に飲む
+JP 飲み物じゃないぞ。
+EN But if it's not booze, all the more... Milk isn't
+EN something you drink like this.
+
+@ 107.96
+# 星野 ちよる
+JP いいの……。
+JP 雰囲気……。
+EN It's fine... It's the mood...
+
+@ 107.106
+# 星野 ちよる
+JP うふふ……。
+JP それとも、私と飲むのは嫌？
+EN Ufufu... Or do you not want to drink with me?
+
+@ 107.109
+# 社 長
+JP 嫌じゃないが…。
+EN It's not that I don't want to...
+
+@ 107.113
+# 星野 ちよる
+JP じゃあ、つきあって。
+EN Then keep me company.
+
+@ 107.116
+# 社 長
+JP 何か…。
+EN Something's...
+
+@ 107.126
+# 星野 ちよる
+JP なに？
+EN What?
+
+@ 107.129
+# 社 長
+JP 普段のお前と雰囲気が違うな。
+EN You seem different from usual.
+
+@ 107.131
+# 社 長
+JP 何かこう
+JP 堂々としているというか。
+EN More... confident, somehow.
+
+@ 107.141
+# 星野 ちよる
+JP うふふふふふふ……。
+EN Ufufufufufufu...
+
+@ 107.145
+# 星野 ちよる
+JP あたりまえだよ。
+JP あのね……。
+EN Of course. You see...
+
+@ 107.149
+# 星野 ちよる
+JP 暗闇では、女は少し強くなれるの。
+EN In the dark, a woman can be a little stronger.
+
+@ 108.17
+# scene 111 練習試合 ベター２
+# 星野 ちよる
+JP うぅ……。
+JP 目が怖い……。
+EN Ugh... Her eyes are scary...
+
+@ 109.16
+# scene 113 練習開始
+# 星野 ちよる
+JP はあ……。
+EN Sigh...
+
+@ 110.16
+# scene 114 練習開始 好意
+# 星野 ちよる
+JP がんばるから……見ててね。
+EN I'll work hard... so watch me, okay?
+
+@ 111.16
+# scene 115 特訓開始
+# 星野 ちよる
+JP 特訓は嫌い……。
+EN I hate special training...
+
+@ 112.20
+# scene 116 特訓成功
+# 星野 ちよる
+JP ふう……。
+JP なんとか、成功……。
+EN Phew... I somehow pulled it off...
+
+@ 113.20
+# scene 117 特訓失敗
+# 星野 ちよる
+JP だから嫌いって言ったのに。
+EN See, I told you I hated it.
+
+@ 114.16
+# scene 118 休養
+# 星野 ちよる
+JP どうしよう……。
+JP 実家に帰ると、のろけられるし……。
+EN What should I do...? If I go home, they'll just gush at
+EN me...
+
+@ 115.16
+# scene 119 入場1
+# 星野 ちよる
+JP …………はあぁ……。
+EN ......Haaah...
+
+@ 116.16
+# scene 119 入場2
+# 星野 ちよる
+JP 私がこんな舞台に……。
+JP 何か間違ってる……。
+EN Me, on a stage like this... Something's wrong here...
+
+@ 117.17
+# scene 122 タッグマッチ ベター２
+# 星野 ちよる
+JP うぅ……。
+JP 期待が重い。
+JP なんで私に期待なんか……。
+EN Ugh... The expectations are so heavy. Why would
+EN anyone expect anything of me...
+
+@ 118.16
+# scene 125 必殺技１
+# 星野 ちよる
+JP えっと……こうかな……。
+EN Um... like this, maybe...
+
+@ 119.16
+# scene 125 必殺技２
+# 星野 ちよる
+JP しかえし、するね。
+EN Time for payback.
+
+@ 120.16
+# scene 125 必殺技３
+# 星野 ちよる
+JP くふふ……。
+EN Kufufu...
+
+@ 121.12
+# scene 126 勝利1
+# 星野 ちよる
+JP 私でも……勝てるんだ。
+EN Even I... can win.
+
+@ 122.12
+# scene 126 勝利2
+# 星野 ちよる
+JP ごめんなさい……。
+JP 勝っちゃった。
+EN I'm sorry... I won.
+
+@ 123.12
+# scene 126 勝利3
+# 星野 ちよる
+JP 私に負けるなんて……。
+EN Losing to someone like me...
+
+@ 124.15
+# scene 133 表彰1
+# 星野 ちよる
+JP え？
+JP 私が？
+JP …………これ、ドッキリ？
+EN Huh? Me? ......Is this a prank?
+
+@ 125.15
+# scene 133 表彰2
+# 星野 ちよる
+JP 私なんかが……信じられない……。
+EN Someone like me... I can't believe it...
+
+@ 126.12
+# scene 134 優勝1
+# 星野 ちよる
+JP 私が優勝って……。
+JP みんな、がっかりした？
+EN Me winning the tournament... Is everyone
+EN disappointed?
+
+@ 127.12
+# scene 134 優勝２
+# 星野 ちよる
+JP みんな……私以下だなんて……。
+JP うふ……うふふふふふふ……。
+EN Everyone... is beneath me... Ufu... ufufufufufu...
+
+@ 128.24
+# scene 135 エンディング 通常
+# 星野 ちよる
+JP おめでとう……。
+JP なんだか、社長が遠い人に
+JP なっちゃいそうで……怖い……。
+EN Congratulations... I'm scared you'll become someone
+EN far away from me, Boss...
+
+@ 129.24
+# scene 136 エンディング 好意
+# 星野 ちよる
+JP 先に家に帰って
+JP ……ごちそう、作ってるね……。
+EN I'll go home first... and make you a feast...

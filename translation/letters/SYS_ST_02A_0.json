@@ -1,0 +1,9 @@
+{
+ "english": "Comment | Coach | Wrestlers",
+ "boxes": [[15, 9, 66, 23], [15, 41, 66, 23], [15, 73, 66, 23]],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "status.draw",
+ "fill": "bright", "ground": "interpolate", "reach": 2.5, "cap": 13,
+ "patches": [[23, 9, 53, 23, "col", 21], [15, 41, 67, 23, "copy", 0, -32], [15, 73, 67, 23, "copy", 0, -64]],
+ "notes": "wrestler status page 3 (status batch): 寸評 Comment, コーチ Coach, 担当選手 Wrestlers"
+}

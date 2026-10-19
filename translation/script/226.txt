@@ -1,0 +1,92 @@
+# /SCR/226.BIN - マスクド・ミスティ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 226` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# マスクド・ミスティ
+JP 派手なマスクは
+JP ダテじゃないってね！
+EN This flashy mask isn't just for show, you know!
+
+@ 1.16
+# scene 119 入場1
+# マスクド・ミスティ
+JP ルチャの技、魅せてあ・げ・る！
+EN Lucha moves, I'll show you all of them!
+
+@ 2.16
+# scene 119 入場2
+# マスクド・ミスティ
+JP 今日の主役は私のものね！
+EN Today's spotlight belongs to me!
+
+@ 3.16
+# scene 125 必殺技１
+# マスクド・ミスティ
+JP ファイナルギミーック！
+EN Final gimmiiick!
+
+@ 4.16
+# scene 125 必殺技２
+# マスクド・ミスティ
+JP ここが今日のクライマックスよー！
+EN Here comes today's climax!
+
+@ 5.16
+# scene 125 必殺技３
+# マスクド・ミスティ
+JP そろそろアレいくわよー！
+EN Time for the big one!
+
+@ 6.12
+# scene 126 勝利1
+# マスクド・ミスティ
+JP 次はもっと派手な試合を
+JP 期待してね！
+EN Expect an even flashier match next time!
+
+@ 7.12
+# scene 126 勝利2
+# マスクド・ミスティ
+JP 華麗なるルチャ、堪能してくれた？
+EN Did you enjoy some dazzling lucha?
+
+@ 8.12
+# scene 126 勝利3
+# マスクド・ミスティ
+JP 見た目で判断しちゃダメよ！
+EN Don't judge a book by its cover!
+
+@ 9.15
+# scene 133 表彰1
+# マスクド・ミスティ
+JP マスク＆ルチャ、これサイコーッ！
+EN Masks and lucha, the best combo ever!
+
+@ 10.15
+# scene 133 表彰2
+# マスクド・ミスティ
+JP アリガトー！
+JP このお礼は試合でするわね！
+EN Gracias! I'll pay you back in the ring!
+
+@ 11.12
+# scene 134 優勝1
+# マスクド・ミスティ
+JP 魅せるだけじゃないって
+JP わかってくれた？
+EN Now you know I'm not just about looking good!
+
+@ 12.12
+# scene 134 優勝２
+# マスクド・ミスティ
+JP 最強のルチャ・ドーラ
+JP 誕生の瞬間だね！
+EN That was the birth of the strongest luchadora!

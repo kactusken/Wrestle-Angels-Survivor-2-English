@@ -1,0 +1,2965 @@
+# /SCR/142.BIN - アームズ零
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 142` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# アームズ零
+JP よっ、よろしくお願い、します。
+EN N-nice to meet, you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# アームズ零
+JP うそ？
+JP 受かった……の？
+EN Really? I... passed?
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# アームズ零
+JP あ…うん。
+JP やっぱり、そうだよね…。
+EN Ah... okay. I figured, as much...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりで練習していると
+JP 聞いたが…。
+EN I heard she trains around here...
+
+@ 3.25
+# 社 長
+JP あの寿財閥がマット界制圧を
+JP 狙っているとは思わなかった。
+EN I never imagined the Kotobuki Group was aiming to
+EN take over the wrestling world.
+
+@ 3.27
+# 社 長
+JP 寿財閥の秘密兵器…。
+JP 果たして、どんな子なんだか…。
+EN The Kotobuki Group's secret weapon... I wonder what
+EN kind of girl she is...
+
+@ 3.29
+# 社 長
+JP すばらしい素材であるなら
+JP 是非うちで預かってみたい。
+EN If she's as great a prospect as they say, I'd love to
+EN have her with us.
+
+@ 3.31
+# 社 長
+JP お、写真と同じ。
+JP あの娘だな…。
+EN Oh, she matches the photo. That must be her...
+
+@ 3.33
+# 社 長
+JP 練習中すみません。
+EN Sorry to interrupt your training.
+
+@ 3.43
+# アームズ零
+JP え？
+JP あ、はい…。
+EN Huh? Ah, yes...
+
+@ 3.50
+# アームズ零
+JP あの…………誰？
+EN Um.......... who are you?
+
+@ 3.53
+# 社 長
+JP 突然すみません。
+JP 私、こういう者ですが……。
+EN Sorry for the sudden visit. Here's my card...
+
+@ 3.55
+# 社 長
+JP （そう言って
+JP 　俺は名刺を差し出した）
+EN (With that, I held out my business card.)
+
+@ 3.62
+# アームズ零
+JP プ…プロレス団体の、社長さ、ん？
+EN The p-president... of a wrestling, promotion?
+
+@ 3.64
+# 社 長
+JP はい、実はあなたの話を聞いて
+JP ぜひうちの団体に
+JP 入ってもらえないかと…。
+EN Yes. I heard about you, and I'd really like you to join
+EN our promotion...
+
+@ 3.66
+# 社 長
+JP （お嬢様っていうから
+JP 　高飛車な子かと思ったけれど…。
+JP 　イメージと違うな）
+EN (Since she's an heiress, I expected a stuck-up girl...
+EN She's not what I pictured.)
+
+@ 3.68
+# 社 長
+JP ……という感じですが
+JP どうでしょう？
+EN ...That's the offer. What do you think?
+
+@ 3.72
+# アームズ零
+JP ちょ…ちょっと、待っててください。
+JP 聞いてきます。
+EN W-wait... wait here, please. I'll go ask.
+
+@ 3.85
+# 社 長
+JP （そう言うと、彼女は
+JP 　どこかへ走り去ってしまった）
+EN (With that, she ran off somewhere.)
+
+@ 3.87
+# 社 長
+JP …………聞いてくる？
+EN .........Go ask?
+
+@ 4.11
+# scene 005 新人スカウト１ 成功
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 4.13
+# 社 長
+JP （もしや、不審者と間違われて
+JP 　逃げられたかと思い始めた頃
+JP 　彼女は戻ってきた）
+EN (Just as I was starting to think she'd taken me for a
+EN creep and fled, she came back.)
+
+@ 4.27
+# アームズ零
+JP お、お姉様が……あなたの、団体で…
+JP やって、みなさいって。
+EN B-Big Sister says... I should give it a try... with your,
+EN promotion.
+
+@ 4.30
+# 社 長
+JP （なるほど、
+JP 　姉に相談にしに行っていたのか）
+EN (I see. She went to ask her sister.)
+
+@ 4.32
+# 社 長
+JP と、いうことは…。
+EN So, that means...
+
+@ 4.36
+# アームズ零
+JP はい。
+JP よ、よろしく……お願い、します。
+EN Yes. P-please... take care of, me.
+
+@ 5.11
+# scene 006 新人スカウト１ 失敗
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 5.13
+# 社 長
+JP （もしや、不審者と間違われて
+JP 　逃げられたかと思い始めた頃
+JP 　彼女は戻ってきた）
+EN (Just as I was starting to think she'd taken me for a
+EN creep and fled, she came back.)
+
+@ 5.27
+# アームズ零
+JP ……あ、あの、ごめんなさい。
+JP お姉様が、あなたの団体は
+JP ダメだって……。
+EN ...U-um, I'm sorry. Big Sister says... your promotion is
+EN no good...
+
+@ 5.30
+# 社 長
+JP （なるほど。
+JP 　姉に相談にしに行っていたのか）
+EN (I see. She went to ask her sister.)
+
+@ 5.32
+# 社 長
+JP それは残念。
+EN That's too bad.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP 俺は再び彼女を尋ねた。
+EN I went to see her again.
+
+@ 6.25
+# 社 長
+JP あの才能は諦めるには惜しすぎる。
+EN That talent is far too precious to give up on.
+
+@ 6.27
+# 社 長
+JP すみません。
+EN Excuse me.
+
+@ 6.37
+# アームズ零
+JP あ、こないだの人……。
+JP なんの、用？
+EN Ah, the person from, before... What do you, want?
+
+@ 6.40
+# 社 長
+JP こないだと同じ用なんですが…。
+EN The same thing as last time...
+
+@ 6.42
+# 社 長
+JP もう一度考えてはもらえませんか？
+EN Won't you reconsider?
+
+@ 6.49
+# アームズ零
+JP えっと……。
+JP また、聞いてきて……いい？
+EN Um... Can I go ask, again...?
+
+@ 6.52
+# 社 長
+JP どうぞどうぞ。
+EN Of course, go right ahead.
+
+@ 6.65
+# 社 長
+JP （そして、彼女は走り去っていった）
+EN (And off she ran.)
+
+@ 6.67
+# 社 長
+JP さて…。
+JP しばらく待つか。
+EN Well... I guess I'll wait a while.
+
+@ 7.11
+# scene 008 新人スカウト ２回目以降・成功
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 7.13
+# 社 長
+JP （もしや、不審者と間違われて
+JP 　逃げられたかと思い始めた頃
+JP 　彼女は戻ってきた）
+EN (Just as I was starting to think she'd taken me for a
+EN creep and fled, she came back.)
+
+@ 7.27
+# アームズ零
+JP お、お姉様が……あなたの、団体で…
+JP やって、みなさいって。
+EN B-Big Sister says... I should give it a try... with your,
+EN promotion.
+
+@ 7.30
+# 社 長
+JP （なるほど、
+JP 　姉に相談にしに行っていたのか）
+EN (I see. She went to ask her sister.)
+
+@ 7.32
+# 社 長
+JP と、いうことは…。
+EN So, that means...
+
+@ 7.36
+# アームズ零
+JP はい。
+JP よ、よろしく……お願い、します。
+EN Yes. P-please... take care of, me.
+
+@ 8.11
+# scene 009 新人スカウト ２回目以降  失敗
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 8.13
+# 社 長
+JP （もしや、不審者と間違われて
+JP 　逃げられたかと思い始めた頃
+JP 　彼女は戻ってきた）
+EN (Just as I was starting to think she'd taken me for a
+EN creep and fled, she came back.)
+
+@ 8.27
+# アームズ零
+JP ……あ、あの、ごめんなさい。
+JP お姉様が、あなたの団体は
+JP ダメだって……。
+EN ...U-um, I'm sorry. Big Sister says... your promotion is
+EN no good...
+
+@ 8.30
+# 社 長
+JP そうですか…。
+EN I see...
+
+@ 8.32
+# 社 長
+JP （その「お姉様」と直接話ができればなぁ）
+EN (If only I could talk to this "Big Sister" directly...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は零選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Zero.
+
+@ 9.25
+# 社 長
+JP 相手を倒すことに特化した
+JP あの打撃…。
+EN Those strikes of hers, built purely to put opponents
+EN down...
+
+@ 9.27
+# 社 長
+JP プロレスラーとしてはむしろ不器用で
+JP 賛否両論の存在の彼女だが…。
+EN As a pro wrestler she's rather clumsy, and opinions
+EN on her are split...
+
+@ 9.29
+# 社 長
+JP その不器用さが生む緊迫感に
+JP 引き寄せられるファンも、また多い。
+EN But plenty of fans are drawn to the tension that
+EN clumsiness creates.
+
+@ 9.31
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be somewhere around here...
+
+@ 9.33
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.35
+# 社 長
+JP あの、すみません。
+JP 零選手ですね。
+EN Um, excuse me. You're Zero, right?
+
+@ 9.45
+# アームズ零
+JP あ、はい……。だ、誰？
+JP ……あ、怪しい……人？
+JP ええと、逃走ルートは……。
+EN Ah, yes... Wh-who are you? ...A s-suspicious...
+EN person? Um, my escape route is...
+
+@ 9.48
+# 社 長
+JP いえいえ、怪しくありません！
+JP ちっとも怪しくありません！
+EN No, no, I'm not suspicious! Not suspicious at all!
+
+@ 9.50
+# 社 長
+JP （俺はあわてて自己紹介をした）
+EN (I hurriedly introduced myself.)
+
+@ 9.57
+# アームズ零
+JP えっと……引き抜き、なの？
+EN Um... so you're, poaching me?
+
+@ 9.60
+# 社 長
+JP まあ、ありていに言えば。
+EN Well, frankly speaking, yes.
+
+@ 9.67
+# アームズ零
+JP ちょっと……相談してきて、いい？
+EN Can I... go talk it over, first?
+
+@ 9.70
+# 社 長
+JP どうぞ。
+EN Go ahead.
+
+@ 9.83
+# 社 長
+JP （そして
+JP 　零選手は走り去っていった）
+EN (And off Zero ran.)
+
+@ 10.11
+# scene 011 移籍交渉 他団体所属 成功
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 10.13
+# 社 長
+JP （もしかしたら、あのまま
+JP 　逃げたんじゃ…と思い始めた頃
+JP 　零選手は戻ってきた）
+EN (Just as I was starting to think she might have run
+EN off for good, Zero came back.)
+
+@ 10.27
+# アームズ零
+JP あ、あの……お姉様が
+JP あなたの団体に行ってみるのも
+JP いい経験だろう……って。
+EN U-um... Big Sister says... going to your promotion
+EN might be, a good experience...
+
+@ 10.30
+# 社 長
+JP と、いうことは…。
+EN So, that means...
+
+@ 10.34
+# アームズ零
+JP い、移籍します。
+JP よろしくお願いしま、す。
+EN I-I'll transfer. Please take care of, me.
+
+@ 10.37
+# 社 長
+JP よかった。
+JP こちらこそ…。
+EN Wonderful. The pleasure's mine...
+
+@ 11.11
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 11.13
+# 社 長
+JP （もしかしたら、あのまま
+JP 　逃げたんじゃ…と思い始めた頃
+JP 　零選手は戻ってきた）
+EN (Just as I was starting to think she might have run
+EN off for good, Zero came back.)
+
+@ 11.27
+# アームズ零
+JP ごめんなさい。
+JP お姉様が、今の団体で
+JP もっとがんばれ……って。
+EN I'm sorry. Big Sister says... I should work harder,
+EN where I am now.
+
+@ 11.30
+# 社 長
+JP そ、そうですか…。
+JP 残念だな。
+EN I-I see... That's a shame.
+
+@ 11.32
+# 社 長
+JP （決定権は、噂通り
+JP 　彼女の姉が持っているみたいだな）
+EN (Just like the rumors say, her sister seems to have
+EN the final say.)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 零選手が必要だ。
+EN Our promotion really needs Zero.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP （本当は決定権を持つという
+JP 　彼女の姉と直接話したかったのだが
+JP 　……それはかなわなかった）
+EN (I actually wanted to talk directly with her sister,
+EN who supposedly makes the decisions... but that
+EN didn't happen.)
+
+@ 12.29
+# 社 長
+JP （まあ、当然と言えば当然だよな。
+JP 　相手は日本有数の財閥令嬢）
+EN (Well, it's only natural. She's the daughter of one of
+EN Japan's top conglomerates.)
+
+@ 12.31
+# 社 長
+JP （零の方が、むしろ異常なんだ）
+EN (If anything, Zero is the odd one.)
+
+@ 12.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.43
+# アームズ零
+JP あれ？
+JP こないだの……人、だ。
+JP 何か……忘れ物？
+EN Huh? It's the person... from before. Did you... forget
+EN something?
+
+@ 12.46
+# 社 長
+JP いえいえ、こないだから
+JP どれだけ時間がたっていると
+JP 思っているんです。
+EN No, no. Do you know how long it's been since last
+EN time?
+
+@ 12.48
+# 社 長
+JP もう一度交渉に来たんです。
+JP どうしてもうちに入って欲しくて…。
+EN I came to negotiate again. I really want you to join
+EN us...
+
+@ 12.55
+# アームズ零
+JP えっと
+JP また、聞いてきて……いい？
+EN Um... can I go ask, again...?
+
+@ 12.58
+# 社 長
+JP どうぞどうぞ。
+EN Of course, go right ahead.
+
+@ 12.71
+# 社 長
+JP （そして、零は走り去っていった）
+EN (And off Zero ran.)
+
+@ 12.73
+# 社 長
+JP さて……しばらく待つか。
+EN Well... I guess I'll wait a while.
+
+@ 13.11
+# scene 014 移籍交渉 他団体所属２ 成功
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 13.13
+# 社 長
+JP （もしかしたら、あのまま
+JP 　逃げたんじゃ…と思い始めた頃
+JP 　零選手は戻ってきた）
+EN (Just as I was starting to think she might have run
+EN off for good, Zero came back.)
+
+@ 13.27
+# アームズ零
+JP あ、あの……お姉様が
+JP あなたの団体に行ってみるのも
+JP いい経験だろう……って。
+EN U-um... Big Sister says... going to your promotion
+EN might be, a good experience...
+
+@ 13.30
+# 社 長
+JP と、いうことは…。
+EN So, that means...
+
+@ 13.34
+# アームズ零
+JP い、移籍します。
+JP よろしくお願いしま、す。
+EN I-I'll transfer. Please take care of, me.
+
+@ 13.37
+# 社 長
+JP よかった。
+JP こちらこそ…。
+EN Wonderful. The pleasure's mine...
+
+@ 14.11
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 14.13
+# 社 長
+JP （もしかしたら、あのまま
+JP 　逃げたんじゃ…と思い始めた頃
+JP 　零選手は戻ってきた）
+EN (Just as I was starting to think she might have run
+EN off for good, Zero came back.)
+
+@ 14.27
+# アームズ零
+JP ご、ごめんなさい。
+JP お姉様が、今の団体で
+JP もっとがんばれ……って。
+EN I-I'm sorry. Big Sister says... I should work harder,
+EN where I am now.
+
+@ 14.30
+# 社 長
+JP そ、そうですか…。
+JP 残念だな。
+EN I-I see... That's a shame.
+
+@ 14.32
+# 社 長
+JP （決定権は、噂通り
+JP 　彼女の姉が持っているみたいだな）
+EN (Just like the rumors say, her sister seems to have
+EN the final say.)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は零選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Zero.
+
+@ 15.25
+# 社 長
+JP 相手を倒すことに特化した
+JP あの打撃…。
+EN Those strikes of hers, built purely to put opponents
+EN down...
+
+@ 15.27
+# 社 長
+JP プロレスラーとしてはむしろ不器用で
+JP 賛否両論の存在の彼女だが…。
+EN As a pro wrestler she's rather clumsy, and opinions
+EN on her are split...
+
+@ 15.29
+# 社 長
+JP その不器用さが生む緊迫感に
+JP 引き寄せられるファンも、また多い。
+EN But plenty of fans are drawn to the tension that
+EN clumsiness creates.
+
+@ 15.31
+# 社 長
+JP 是非、うちの専属レスラーにしたい
+JP ところだ。
+EN I'd love to sign her as one of our own.
+
+@ 15.33
+# 社 長
+JP たしかこのあたりにいるはず
+JP だけど…。
+EN She should be somewhere around here...
+
+@ 15.35
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.37
+# 社 長
+JP あの、すみません。
+JP 零選手ですね。
+EN Um, excuse me. You're Zero, right?
+
+@ 15.47
+# アームズ零
+JP ……だ、誰？
+JP ……あ、怪しい……人？
+JP えっと……倒して……交番へ？
+EN ...Wh-who are you? ...A s-suspicious... person? Um...
+EN knock you down... and take you to the police?
+
+@ 15.49
+# 社 長
+JP いえいえ、怪しくありません！
+JP ちっとも怪しくありません！
+EN No, no, I'm not suspicious! Not suspicious at all!
+
+@ 15.51
+# 社 長
+JP （俺はあわてて自己紹介をした）
+EN (I hurriedly introduced myself.)
+
+@ 15.58
+# アームズ零
+JP ふぅん……。
+JP あなたの団体に？
+EN Hmm... Join your promotion?
+
+@ 15.61
+# 社 長
+JP ええ、どうでしょう？
+EN Yes. What do you think?
+
+@ 15.68
+# アームズ零
+JP ちょっと……相談してきて、いい？
+EN Can I... go talk it over, first?
+
+@ 15.71
+# 社 長
+JP どうぞ。
+EN Go ahead.
+
+@ 15.84
+# 社 長
+JP （そして、零は走り去っていった）
+EN (And off Zero ran.)
+
+@ 16.11
+# scene 017 移籍交渉 フリー１ 成功
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 16.13
+# 社 長
+JP （もしかしたら、あのまま
+JP 　逃げたんじゃ…と思い始めた頃
+JP 　零選手は戻ってきた）
+EN (Just as I was starting to think she might have run
+EN off for good, Zero came back.)
+
+@ 16.27
+# アームズ零
+JP あ、あの……お姉様が
+JP １つの団体で戦うのも
+JP いい経験だろう……って。
+EN U-um... Big Sister says... fighting for one promotion
+EN might be, a good experience...
+
+@ 16.30
+# 社 長
+JP と、いうことは…。
+EN So, that means...
+
+@ 16.34
+# アームズ零
+JP にゅ……入団します。
+JP よろしくお願いしま、す。
+EN I-I'll... join. Please take care of, me.
+
+@ 17.11
+# scene 018 移籍交渉 フリー 失敗
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 17.13
+# 社 長
+JP （もしかしたら、あのまま
+JP 　逃げたんじゃ…と思い始めた頃
+JP 　零選手は戻ってきた）
+EN (Just as I was starting to think she might have run
+EN off for good, Zero came back.)
+
+@ 17.27
+# アームズ零
+JP ご、ごめんなさい……。
+JP お姉様が……まだ、フリーでいた方が
+JP いいって。
+EN I-I'm sorry... Big Sister says... I should stay
+EN freelance, for now.
+
+@ 17.30
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 17.32
+# 社 長
+JP （決定権は、噂通り
+JP 　彼女の姉が持っているみたいだな）
+EN (Just like the rumors say, her sister seems to have
+EN the final say.)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 零選手が必要だ。
+EN Our promotion really needs Zero.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP （本当は決定権を持つという彼女の
+JP 　姉と直接話したかったのだが…。
+JP 　それはかなわなかった）
+EN (I actually wanted to talk directly with her sister,
+EN who supposedly makes the decisions... but that
+EN didn't happen.)
+
+@ 18.29
+# 社 長
+JP （まあ、当然と言えば当然だよな。
+JP 　相手は日本有数の財閥令嬢）
+EN (Well, it's only natural. She's the daughter of one of
+EN Japan's top conglomerates.)
+
+@ 18.31
+# 社 長
+JP （零の方が、むしろ異常なんだ）
+EN (If anything, Zero is the odd one.)
+
+@ 18.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.43
+# アームズ零
+JP あ……こないだの人、だ。
+JP 偶然だ、ね。
+EN Ah... it's the person, from before. What a
+EN coincidence.
+
+@ 18.46
+# 社 長
+JP いえいえ
+JP 偶然なんかじゃありません。
+JP 探していたんですよ。
+EN No, no, it's no coincidence. I've been looking for you.
+
+@ 18.48
+# 社 長
+JP どうしても、うちに入って欲しくて。
+EN I really want you to join us.
+
+@ 18.55
+# アームズ零
+JP そ、そうなんだ。
+JP ま、また相談してきて……いい？
+EN I-is that so. C-can I go talk it over... again?
+
+@ 18.58
+# 社 長
+JP どうぞどうぞ。
+EN Of course, go right ahead.
+
+@ 18.71
+# 社 長
+JP （そして、零は走り去っていった）
+EN (And off Zero ran.)
+
+@ 18.73
+# 社 長
+JP さて……しばらく待つか。
+EN Well... I guess I'll wait a while.
+
+@ 19.11
+# scene 020 移籍交渉 フリー２ 成功
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 19.13
+# 社 長
+JP （もしかしたら、あのまま
+JP 　逃げたんじゃ…と思い始めた頃
+JP 　零選手は戻ってきた）
+EN (Just as I was starting to think she might have run
+EN off for good, Zero came back.)
+
+@ 19.27
+# アームズ零
+JP あ、あの……お姉様が
+JP １つの団体で戦うのも
+JP いい経験だろう……って。
+EN U-um... Big Sister says... fighting for one promotion
+EN might be, a good experience...
+
+@ 19.30
+# 社 長
+JP と、いうことは…。
+EN So, that means...
+
+@ 19.34
+# アームズ零
+JP にゅ……入団します。
+JP よろしくお願いしま、す。
+EN I-I'll... join. Please take care of, me.
+
+@ 20.11
+# scene 021 移籍交渉 フリー２ 失敗
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 20.13
+# 社 長
+JP （もしかしたら、あのまま
+JP 　逃げたんじゃ…と思い始めた頃
+JP 　零選手は戻ってきた）
+EN (Just as I was starting to think she might have run
+EN off for good, Zero came back.)
+
+@ 20.27
+# アームズ零
+JP ご、ごめんなさい……。
+JP お姉様が……まだ、フリーでいた方が
+JP いいって。
+EN I-I'm sorry... Big Sister says... I should stay
+EN freelance, for now.
+
+@ 20.30
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 20.32
+# 社 長
+JP （決定権は、噂通り
+JP 　彼女の姉が持っているみたいだな）
+EN (Just like the rumors say, her sister seems to have
+EN the final say.)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は零を訪ねることにした。
+EN I decided to visit Zero.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be somewhere around here...
+
+@ 21.29
+# 社 長
+JP あ、いた。
+EN Ah, there she is.
+
+@ 21.31
+# 社 長
+JP 零。
+EN Zero.
+
+@ 21.41
+# アームズ零
+JP あ……。
+EN Ah...
+
+@ 21.44
+# 社 長
+JP その節は…いろいろとすまなかった。
+EN About last time... I'm sorry for everything.
+
+@ 21.51
+# アームズ零
+JP ……？
+JP なんで……謝る、の？
+EN ...? Why are you... apologizing?
+
+@ 21.54
+# 社 長
+JP いや
+JP お前が退団することになって…。
+EN Well, because you ended up leaving the promotion...
+
+@ 21.61
+# アームズ零
+JP それ、は
+JP 社長が悪いんじゃ、ない、よ。
+JP 私が、いらない子……だった、から。
+EN That's... not your fault, Boss. It's because I was... a
+EN useless girl.
+
+@ 21.64
+# 社 長
+JP いや、その件なんだが…。
+EN No, that's just it...
+
+@ 21.66
+# 社 長
+JP お前を手放したのは間違いだった。
+EN Letting you go was a mistake.
+
+@ 21.68
+# 社 長
+JP 悪いのは俺だ。
+JP この通りだ、すまない。
+EN The fault is mine. I'm truly sorry.
+
+@ 21.70
+# 社 長
+JP その上で、図々しいとは思うが
+JP 頼みがある。
+EN And on top of that, I know it's shameless, but I have
+EN a favor to ask.
+
+@ 21.72
+# 社 長
+JP 戻ってきて欲しいんだ。
+EN I want you to come back.
+
+@ 21.79
+# アームズ零
+JP …………お姉様に
+JP 相談してきて……いい？
+EN .........Can I go... talk it over, with Big Sister?
+
+@ 21.82
+# 社 長
+JP ああ、ここで待っている。
+EN Sure. I'll wait here.
+
+@ 21.95
+# 社 長
+JP （そして、零は走り去っていった）
+EN (And off Zero ran.)
+
+@ 21.97
+# 社 長
+JP さて…しばらく待つか。
+EN Well... I guess I'll wait a while.
+
+@ 22.11
+# scene 023 移籍交渉 退団あり１ 成功
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 22.13
+# 社 長
+JP （零はゆっくりした足取りで
+JP 　戻ってきた）
+EN (Zero came back at a slow, steady pace.)
+
+@ 22.27
+# アームズ零
+JP お、お姉様が……戻っていい、って。
+EN B-Big Sister says... I can go back.
+
+@ 22.30
+# 社 長
+JP 本当か。
+EN Really?
+
+@ 22.37
+# アームズ零
+JP で、でも……今度同じ事をしたら
+JP ……刺客を差し向ける、って。
+EN B-but... if you do the same thing again... she'll send
+EN an assassin, she says.
+
+@ 22.40
+# 社 長
+JP ……き、肝に命じておくよ。
+EN ...I-I'll take that to heart.
+
+@ 23.11
+# scene 024 移籍交渉 退団あり１ 失敗
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 23.17
+# 社 長
+JP （零が、やたらとあわてた感じで
+JP 　戻ってきた）
+EN (Zero came back looking awfully flustered.)
+
+@ 23.19
+# 社 長
+JP どうした、零。
+JP そんなに慌てて…。
+EN What's wrong, Zero? Why the hurry...?
+
+@ 23.33
+# アームズ零
+JP に、逃げて！
+JP お姉様が、社長を始末するって
+JP 刺客を……！
+EN R-run! Big Sister sent an assassin... to get rid of
+EN you, Boss...!
+
+@ 23.36
+# 社 長
+JP な、何いっ!?
+EN Wh-whaaat?!
+
+@ 23.46
+# アームズ零
+JP 早く！
+JP 私がここで食い止めるから
+JP ……………早く、行って！
+EN Hurry! I'll hold them off here... ...Now, go!
+
+@ 23.49
+# 社 長
+JP で、でもお前は…。
+EN B-but what about you...?
+
+@ 23.56
+# アームズ零
+JP 私は、平気！
+JP 寿家の娘にひどいことはできないから！
+JP …………早く行けぇっ！
+EN I'll be fine! They can't hurt a Kotobuki daughter!
+EN ......Just GO!
+
+@ 23.59
+# 社 長
+JP す、すまん！
+EN S-sorry!
+
+@ 23.120
+# 社 長
+JP （そして、俺は逃げ出した）
+EN (And so I ran.)
+
+@ 23.122
+# 社 長
+JP （逃げながら、俺は
+JP 　背後にたしかな殺気と）
+EN (As I fled, I felt behind me a distinct killing intent...)
+
+@ 23.124
+# 社 長
+JP （よく知っている零の気配が
+JP 　ぶつかり合うのを感じていた）
+EN (...clashing with the presence of Zero, which I knew
+EN so well.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び零を訪ねることにした。
+EN I decided to visit Zero again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP もちろん、事前に
+JP 彼女の姉へは詫び状を送っておいた。
+EN Of course, I sent a letter of apology to her sister in
+EN advance.
+
+@ 24.29
+# 社 長
+JP また刺客を差し向けられては
+JP たまらない。
+EN I can't take another assassin coming after me.
+
+@ 24.31
+# 社 長
+JP …………効果があればいいけれど。
+EN .........I hope it works.
+
+@ 24.32
+# 社 長
+JP 零。
+EN Zero.
+
+@ 24.42
+# アームズ零
+JP あ、社長……。
+JP よかった。生きてる。
+EN Ah, Boss... Thank goodness. You're alive.
+
+@ 24.45
+# 社 長
+JP いきなり物騒な挨拶をありがとう。
+EN Thanks for the alarming greeting.
+
+@ 24.47
+# 社 長
+JP やっぱり、お前を諦められなくてね。
+EN I just can't give up on you, after all.
+
+@ 24.54
+# アームズ零
+JP そ、それじゃ……お姉様に
+JP 聞いてくる、ね。
+EN Th-then... I'll go ask, Big Sister.
+
+@ 24.57
+# 社 長
+JP ああ、俺は十分に反省していると
+JP 伝えてくれ。
+EN Right. Tell her I've thoroughly reflected on my
+EN actions.
+
+@ 24.70
+# 社 長
+JP （そして、零は走り去っていった）
+EN (And off Zero ran.)
+
+@ 24.72
+# 社 長
+JP さて…今度はどうなることか。
+EN Well... I wonder how it'll go this time.
+
+@ 25.11
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 25.13
+# 社 長
+JP （零はゆっくりした足取りで
+JP 　戻ってきた）
+EN (Zero came back at a slow, steady pace.)
+
+@ 25.27
+# アームズ零
+JP お、お姉様が……戻っていい、って。
+EN B-Big Sister says... I can go back.
+
+@ 25.30
+# 社 長
+JP 本当か。
+EN Really?
+
+@ 25.37
+# アームズ零
+JP で、でも……今度同じ事をしたら
+JP ……刺客を差し向ける、って。
+EN B-but... if you do the same thing again... she'll send
+EN an assassin, she says.
+
+@ 25.40
+# 社 長
+JP ……き、肝に命じておくよ。
+EN ...I-I'll take that to heart.
+
+@ 26.11
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 社 長
+JP （それから１０分くらい後）
+EN (About ten minutes later...)
+
+@ 26.17
+# 社 長
+JP （零が、やたらとあわてた感じで
+JP 　戻ってきた）
+EN (Zero came back looking awfully flustered.)
+
+@ 26.19
+# 社 長
+JP あの雰囲気は…まさか……。
+EN That look... don't tell me...
+
+@ 26.33
+# アームズ零
+JP に、逃げて！
+JP お姉様が、社長を始末するって
+JP 刺客を……！
+EN R-run! Big Sister sent an assassin... to get rid of
+EN you, Boss...!
+
+@ 26.39
+# 社 長
+JP くそぉっ、詫び状も効果なかったか！
+EN Dammit, the apology letter didn't work either!
+
+@ 26.46
+# アームズ零
+JP 早く！
+JP 私がここで食い止めるから
+JP ……………早く、行って！
+EN Hurry! I'll hold them off here... ...Now, go!
+
+@ 26.49
+# 社 長
+JP す、すまん！
+EN S-sorry!
+
+@ 26.112
+# 社 長
+JP （そして、俺は逃げ出した）
+EN (And so I ran.)
+
+@ 26.114
+# 社 長
+JP （逃げながら、俺は背後に前回と違う
+JP 　殺気と）
+EN (As I fled, I felt behind me a killing intent, different
+EN from last time...)
+
+@ 26.116
+# 社 長
+JP （よく知っている零の気配が
+JP 　ぶつかり合うのを感じていた）
+EN (...clashing with the presence of Zero, which I knew
+EN so well.)
+
+@ 27.16
+# scene 028 ケガ小
+# アームズ零
+JP へ、平気……だよ。
+EN I-I'm... fine.
+
+@ 28.16
+# scene 029 ケガ大
+# アームズ零
+JP へ、平気って……言いたいけ、ど。
+EN I want to say... I'm f-fine, but...
+
+@ 29.16
+# scene 030 入院
+# アームズ零
+JP 病院、好きじゃ、ない。
+EN I don't, like hospitals.
+
+@ 30.16
+# scene 031 退院
+# アームズ零
+JP やっと、出られた、よ。
+EN I finally, got out.
+
+@ 31.16
+# scene 032 ケガ完治
+# アームズ零
+JP も、もう平気だよ。
+JP 本当だ、よ。
+EN I-I'm fine now. Really, I am.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# アームズ零
+JP そうだ、ね。
+JP うん、やめる。
+EN You're, right. Okay, I'll stop.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# アームズ零
+JP も、もう少し、続けさせて。
+EN L-let me keep going, a little longer.
+
+@ 34.16
+# scene 035 コーチ就任
+# アームズ零
+JP う、うまく教えられる……かな？
+EN C-can I... teach them well?
+
+@ 35.16
+# scene 036 ケガ引退
+# アームズ零
+JP ごめんなさい…………。
+JP 役立たずで……ごめんなさい……。
+EN I'm sorry.......... Sorry I was... so useless...
+
+@ 36.16
+# scene 037 年齢引退
+# アームズ零
+JP そろそろ……引き際、だよね。
+EN It's about time... I stepped down, right?
+
+@ 37.16
+# scene 038 退団
+# アームズ零
+JP ごめんなさい……。
+JP さようなら……。
+EN I'm sorry... Goodbye...
+
+@ 38.16
+# scene 039 スランプ
+# アームズ零
+JP どうしよう……。
+EN What do I do...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# アームズ零
+JP ファンクラ、ブ？
+EN A fan, club?
+
+@ 39.19
+# 社 長
+JP ああ、おまえのファンクラブだ。
+EN Yes, a fan club for you.
+
+@ 39.26
+# アームズ零
+JP 今日は……エイプリル、フー、ル？
+EN Is today... April, Fools'?
+
+@ 39.29
+# 社 長
+JP いやいや、本当だから。
+JP 本当におまえのファンクラブが
+JP できたから。
+EN No, no, it's true. A fan club for you really did start
+EN up.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# アームズ零
+JP ファンクラブが増えた、の？
+EN There are more fan clubs, now?
+
+@ 40.19
+# 社 長
+JP ああ、期待に応えるようにな。
+EN Yes. Try to live up to their expectations.
+
+@ 40.26
+# アームズ零
+JP 同じ人が
+JP 新しいファンクラブを作ったとか？
+EN Maybe the same person... started a new fan club?
+
+@ 40.29
+# 社 長
+JP 違うから。
+JP ファンの数が増えているんだって。
+EN No. It means your fans are growing in number.
+
+@ 40.31
+# 社 長
+JP （難儀なやつだ）
+EN (She's a tough one.)
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# アームズ零
+JP そう、解散したん、だ。
+EN Oh, so it, broke up.
+
+@ 41.19
+# 社 長
+JP なんで、ホッとしたような顔をする？
+EN Why do you look relieved?
+
+@ 41.26
+# アームズ零
+JP えっ、あ、安心なんかしてない、よ。
+JP 肩の荷がおりたなんて
+JP 思ってないか、ら。
+EN Huh? I-I'm not relieved. I don't think a weight's been
+EN lifted, or anything.
+
+@ 41.29
+# 社 長
+JP （…………嘘のつけないやつだ）
+EN (.........She can't tell a lie to save her life.)
+
+@ 42.16
+# scene 043 映画出演
+# アームズ零
+JP しょ、照明さんならできる
+JP かも……。
+EN M-maybe I could do... the lighting...
+
+@ 43.16
+# scene 044 一日署長
+# アームズ零
+JP わ、悪いことをした人を
+JP …………倒せば、いいの？
+EN S-so I just... knock down... the people who did bad
+EN things?
+
+@ 44.16
+# scene 045 写真集発売
+# アームズ零
+JP ……なんで、そんなものを出す、の？
+EN ...Why would you put out, something like that?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# アームズ零
+JP に…………逃げだし、たい……。
+EN I-I.......... want to run, away...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# アームズ零
+JP そんな仕事を決めてくるなんて……。
+JP ひどい……。
+EN You went and booked me for a job like that... That's
+EN mean...
+
+@ 47.16
+# scene 048 始球式
+# アームズ零
+JP ボールを投げれば……いいだけ？
+EN I just... throw the ball?
+
+@ 48.16
+# scene 049 学園祭
+# アームズ零
+JP と、当日だけ行けばいいの？
+JP 準備は、手伝わなくていいのか、な？
+EN D-do I only go on the day? Don't I need to, help get
+EN ready?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.37
+# アームズ零
+JP 誕生日？
+JP 私、の？
+EN My birthday? M-mine?
+
+@ 49.40
+# 社 長
+JP 他に誰がいるんだ？
+EN Who else's would it be?
+
+@ 49.48
+# アームズ零
+JP ………………ありがとう。
+JP う、嬉しい。
+EN .........Thank you. I-I'm happy.
+
+@ 49.51
+# 社 長
+JP たいしたものじゃなくて悪いが。
+EN Sorry it's nothing special.
+
+@ 49.58
+# アームズ零
+JP ううん。
+JP わ、私には……たいした、ものだよ。
+EN No. T-to me... it's very, special.
+
+@ 50.32
+# scene 051 バレンタインデー
+# アームズ零
+JP しゃ、社長
+JP ……こ……ここ、これ……。
+EN B-Boss... th... th-this... is...
+
+@ 50.35
+# 社 長
+JP ああ、ありがとう。
+JP 手作りか。
+EN Ah, thank you. Did you make it yourself?
+
+@ 50.39
+# アームズ零
+JP う……うん……。
+JP は、初めて……だったから……。
+JP ま、まずかったら……す、捨てて。
+EN Y... yes... It was my... f-first time... I-if it tastes bad...
+EN j-just throw it out.
+
+@ 50.42
+# 社 長
+JP そういう訳にはいかないさ。
+JP ありがたくいただくよ。
+EN I couldn't do that. I'll gratefully enjoy it.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept my thanks for last month?
+
+@ 51.38
+# アームズ零
+JP えっ？
+JP そ、そんなの……いいの、に……。
+EN Huh? Y-you didn't... have, to...
+
+@ 51.41
+# 社 長
+JP そんな訳にはいかないだろう。
+JP たいしたものじゃないが。
+EN Of course I did. It's nothing special, though.
+
+@ 51.45
+# アームズ零
+JP そんなこと……ない……。
+JP ずっと、とっとく。
+EN That's not... true... I'll keep it, forever.
+
+@ 51.48
+# 社 長
+JP いや、食べ物だから
+JP 腐る前に食べてくれ。
+EN Uh, it's food, so please eat it before it goes bad.
+
+@ 52.31
+# scene 053 サイン会
+# アームズ零
+JP ………………はい……。
+EN .........Okay...
+
+@ 53.31
+# scene 054 コンサート
+# アームズ零
+JP こ……こんな仕事……。
+JP しゃ、社長は私が
+JP ……き、嫌い、なの？
+EN A... a job like this... B-Boss... d-do you... hate, me?
+
+@ 54.28
+# scene 055 練習拒否
+# アームズ零
+JP 急にお姉様に呼ばれて……。
+JP ごめんなさい……。
+EN Big Sister suddenly called for me... I'm sorry...
+
+@ 55.28
+# scene 056 失踪
+# アームズ零
+JP 少し……実家に、帰ります……。
+EN I'm going... home for a while...
+
+@ 56.16
+# scene 057 選手解雇
+# アームズ零
+JP そ、そう……。
+JP 私、用なしなんだ……。
+JP そ、そうだよね。
+EN I-I see... I'm not needed anymore... Y-yeah, that's
+EN right.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# アームズ零
+JP だ、誰を倒してくれば……いいの？
+EN Wh-who should I... go knock down?
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# アームズ零
+JP と、とりあえず
+JP 何人か倒してきた、よ。
+EN W-well, I knocked down a few people, anyway.
+
+@ 59.28
+# scene 060 移籍思案
+# アームズ零
+JP お姉様に……相談しなきゃ……。
+EN I need to talk... to Big Sister...
+
+@ 60.16
+# scene 061 革命軍結成
+# アームズ零
+JP か、革命する。
+EN I-I'll start a revolution.
+
+@ 61.16
+# scene 062 反乱軍結成
+# アームズ零
+JP 反乱……する。
+EN I'll... rebel.
+
+@ 62.16
+# scene 063 最終決戦要求
+# アームズ零
+JP 決着……つけよう……。
+EN Let's... settle this...
+
+@ 63.16
+# scene 065 遺恨発生
+# アームズ零
+JP ………………私でも、怒る……よ？
+EN .........Even I... get angry, you know?
+
+@ 64.16
+# scene 065 殴り込み
+# アームズ零
+JP 誰がターゲット、なの？
+EN Who's the, target?
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# アームズ零
+JP ここは……私の、場所だ。
+EN This is... my, place.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# アームズ零
+JP 恨みはないけれど……いくよ……。
+EN I've got no grudge... but here I come...
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# アームズ零
+JP わかった……。
+JP 行って、くる。
+EN Got it... I'll go, now.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# アームズ零
+JP や……やった、よ。
+EN I... I did it.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# アームズ零
+JP ……ごめんなさい……。
+EN ...I'm sorry...
+
+@ 70.13
+# scene 071 引退式
+# アームズ零
+JP ありがとう……みんな…………。
+JP ……………さよ、なら。
+EN Thank you... everyone.......... ...Good, bye.
+
+@ 71.18
+# アームズ零
+JP なに？
+EN What is it?
+
+@ 71.37
+# アームズ零
+JP なに？
+EN What is it?
+
+@ 71.47
+# アームズ零
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing great lately. Keep it up.
+
+@ 71.90
+# アームズ零
+JP …………ん。
+EN .........Mm.
+
+@ 71.93
+# 社 長
+JP （零は黙って頷いた）
+EN (Zero nodded silently.)
+
+@ 71.95
+# 社 長
+JP （まあ、零のことだ。
+JP 　これで十分だろう）
+EN (Well, this is Zero. That's probably enough.)
+
+@ 71.116
+# アームズ零
+JP …………ん。
+EN .........Mm.
+
+@ 71.119
+# 社 長
+JP （零は黙って頷いたが……）
+EN (Zero nodded silently, but...)
+
+@ 71.121
+# 社 長
+JP （何となく、言葉が通じていない
+JP 　印象を覚えた）
+EN (I somehow got the feeling my words hadn't gotten
+EN through.)
+
+@ 71.142
+# アームズ零
+JP う、うん。
+JP が……がんばったら……。
+JP また、褒めてくれる？
+EN O-okay. If... if I do my best... will you praise me, again?
+
+@ 71.163
+# アームズ零
+JP ご……ごめんなさい。どうやって
+JP がんばればいいのか、わからない。
+EN I... I'm sorry. I don't know how to do my best.
+
+@ 71.176
+# 社 長
+JP ひとつ言っておきたいことがある。
+JP ここのところ、おまえは……。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 71.200
+# アームズ零
+JP ………………ごめんなさい。
+EN .........I'm sorry.
+
+@ 71.221
+# アームズ零
+JP ごめんなさい。
+JP 言っていることが
+JP ……よくわからない。
+EN I'm sorry. I don't... really understand what you're
+EN saying.
+
+@ 71.242
+# アームズ零
+JP ごめんなさい…………。
+JP …………ぐす……。
+EN I'm sorry.......... ......*sniff*...
+
+@ 71.263
+# アームズ零
+JP ……………………？
+EN ..............?
+
+@ 71.266
+# 社 長
+JP （この顔は
+JP 　何もわかっていないときの顔だな）
+EN (That's the face she makes when she has no idea
+EN what's going on.)
+
+@ 71.279
+# 社 長
+JP 最近はおまえらしくないじゃないか。
+JP おまえの実力はそんなものじゃ
+JP ないはずだ。
+EN You haven't been yourself lately. You're better than
+EN this.
+
+@ 71.303
+# アームズ零
+JP は……励ましてくれて
+JP ありがとう……。
+EN Th-thank you... for cheering me up...
+
+@ 71.324
+# アームズ零
+JP わ……私らしくなくて
+JP ……ご、ごめんなさい……。
+EN I'm s-sorry... for not being, myself...
+
+@ 71.327
+# 社 長
+JP いや、責めてるんじゃないんだ。
+EN No, I'm not blaming you.
+
+@ 71.348
+# アームズ零
+JP も、もしかして……励まされてる？
+EN A-am I... being encouraged?
+
+@ 71.351
+# 社 長
+JP ああ。
+EN Yes.
+
+@ 71.363
+# 社 長
+JP お、おい……どうした！？
+EN H-hey... what's wrong?!
+
+@ 71.372
+# アームズ零
+JP ご、ごめんなさい……。
+JP 励まされてるってわかったら……。
+JP 嬉しくて、立ちくらみ、が……。
+EN I-I'm sorry... When I realized you were encouraging
+EN me... I got so happy, I got dizzy...
+
+@ 71.393
+# アームズ零
+JP わ、私らしくなくて
+JP ……がっかりさせ、た？
+EN I-I wasn't myself... Did I let you, down?
+
+@ 71.396
+# 社 長
+JP いや、そんな申し訳なさそうな顔をしないでくれ。
+EN No, please don't look so apologetic.
+
+@ 71.410
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.426
+# アームズ零
+JP な、なんとなく……
+EN S-sort of...
+
+@ 71.443
+# アームズ零
+JP ううん。
+JP わからない。
+EN No. I don't know.
+
+@ 71.454
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.476
+# アームズ零
+JP ……わかった。
+JP 社長が、そう言う、なら。
+EN ...Okay. If that's what, you want, Boss.
+
+@ 71.497
+# アームズ零
+JP でも…………。
+EN But..........
+
+@ 71.518
+# アームズ零
+JP 社長が何を言っているのか
+JP わからない、よ。
+EN I don't understand what you're, saying, Boss.
+
+@ 71.531
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.548
+# アームズ零
+JP たぶん、あのこと……かな……。
+EN Maybe it's... about that...
+
+@ 71.565
+# アームズ零
+JP な、なんだろう？
+EN Wh-what could it be?
+
+@ 71.578
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.600
+# アームズ零
+JP わかった……。
+JP 社長の言うこと、聞くよ。
+EN Okay... I'll do what you say, Boss.
+
+@ 71.621
+# アームズ零
+JP ……………………。
+EN ..............
+
+@ 71.642
+# アームズ零
+JP 社長は何か
+JP 思い違いをしている気が、する。
+EN I think you've got, the wrong idea, Boss.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# アームズ零
+JP なに？
+EN What is it?
+
+@ 72.16
+# アームズ零
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing great lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# アームズ零
+JP …………ん。
+EN .........Mm.
+
+@ 74.19
+# 社 長
+JP （零は黙って頷いた）
+EN (Zero nodded silently.)
+
+@ 74.21
+# 社 長
+JP （まあ、零のことだ。
+JP 　これで十分だろう）
+EN (Well, this is Zero. That's probably enough.)
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# アームズ零
+JP …………ん。
+EN .........Mm.
+
+@ 75.19
+# 社 長
+JP （零は黙って頷いたが……）
+EN (Zero nodded silently, but...)
+
+@ 75.21
+# 社 長
+JP （何となく、言葉が通じていない
+JP 　印象を覚えた）
+EN (I somehow got the feeling my words hadn't gotten
+EN through.)
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# アームズ零
+JP う、うん。が……がんばったら……。
+JP また、褒めてくれる？
+EN O-okay. If... if I do my best... will you praise me, again?
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# アームズ零
+JP ご……ごめんなさい。どうやって
+JP がんばればいいのか、わからない。
+EN I... I'm sorry. I don't know how to do my best.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP ひとつ言っておきたいことがある。
+JP ここのところ、おまえは……。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# アームズ零
+JP ………………ごめんなさい。
+EN .........I'm sorry.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# アームズ零
+JP ごめんなさい。
+JP 言っていることが……
+JP よくわからない。
+EN I'm sorry. I don't... really understand what you're
+EN saying.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# アームズ零
+JP ごめんなさい…………。
+JP …………ぐす……。
+EN I'm sorry.......... ......*sniff*...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# アームズ零
+JP ……………………？
+EN ..............?
+
+@ 82.19
+# 社 長
+JP （この顔は……
+JP 　何もわかっていないときの顔だな）
+EN (That's the face she makes when she has no idea
+EN what's going on.)
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP どうした？　最近はおまえらしくない
+JP じゃないか。お前の実力は
+JP そんなものじゃないはずだ。
+EN What's wrong? You haven't been yourself lately.
+EN You're better than this.
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# アームズ零
+JP は……励ましてくれて、
+JP ありがとう……。
+EN Th-thank you... for cheering me up...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# アームズ零
+JP わ……私らしくなくて……
+JP ご、ごめんなさい……。
+EN I'm s-sorry... for not being, myself...
+
+@ 85.19
+# 社 長
+JP いや、責めてるんじゃないんだ。
+EN No, I'm not blaming you.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# アームズ零
+JP も、もしかして……励まされてる？
+EN A-am I... being encouraged?
+
+@ 86.19
+# 社 長
+JP ああ。
+EN Yes.
+
+@ 86.32
+# 社 長
+JP お、おい……どうした！？
+EN H-hey... what's wrong?!
+
+@ 86.39
+# アームズ零
+JP ご、ごめんなさい……。
+JP 励まされてるってわかったら……。
+JP 嬉しくて、立ちくらみ、が……。
+EN I-I'm sorry... When I realized you were encouraging
+EN me... I got so happy, I got dizzy...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# アームズ零
+JP わ、私らしくなくて……
+JP がっかりさせ、た？
+EN I-I wasn't myself... Did I let you, down?
+
+@ 87.19
+# 社 長
+JP いや、そんな申し訳なさそうな顔をしないでくれ。
+EN No, please don't look so apologetic.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# アームズ零
+JP な、なんとなく……
+EN S-sort of...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# アームズ零
+JP ううん。
+JP わからない。
+EN No. I don't know.
+
+@ 91.1
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# アームズ零
+JP ……わかった。
+JP 社長が、そう言う、なら。
+EN ...Okay. If that's what, you want, Boss.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# アームズ零
+JP でも…………。
+EN But..........
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# アームズ零
+JP 社長が何を言っているのか、
+JP わからない、よ。
+EN I don't understand what you're, saying, Boss.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# アームズ零
+JP たぶん、あのこと……かな……。
+EN Maybe it's... about that...
+
+@ 97.11
+# scene 098 会話 仲裁する 好意 遺恨なし
+# アームズ零
+JP な、なんだろう？
+EN Wh-what could it be?
+
+@ 98.1
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# アームズ零
+JP わかった……。
+JP 社長の言うこと、聞くよ。
+EN Okay... I'll do what you say, Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# アームズ零
+JP ……………………。
+EN ..............
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# アームズ零
+JP 社長は何か、思い違いをしている気が、
+JP する。
+EN I think you've got, the wrong idea, Boss.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# アームズ零
+JP うん。
+JP いい、よ。
+EN Okay. That's, fine.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# アームズ零
+JP よかった……。
+JP お姉様も、これなら
+JP 納得してくれそう。
+EN Thank goodness... Big Sister should be happy, with
+EN this.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# アームズ零
+JP いいけど
+JP ……お姉様に、怒られそう……。
+EN It's fine, but... Big Sister might scold me...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we came to a tropical island.)
+
+@ 105.30
+# 社 長
+JP いいなぁ、青い空。青い海。
+EN Ahh, this is nice. Blue sky. Blue sea.
+
+@ 105.43
+# アームズ零
+JP うん。
+EN Mm.
+
+@ 105.58
+# アームズ零
+JP 社長……。
+EN Boss...
+
+@ 105.61
+# 社 長
+JP ん？
+EN Hm?
+
+@ 105.65
+# アームズ零
+JP 私は、ここで何をすればいい、の？
+EN What should I, do here?
+
+@ 105.69
+# アームズ零
+JP 特訓？
+EN Special training?
+
+@ 105.72
+# 社 長
+JP 休息だ。
+EN Rest.
+
+@ 105.76
+# アームズ零
+JP 休息？
+EN Rest?
+
+@ 105.79
+# 社 長
+JP そうだ。
+JP ゆっくり体を休めるんだ。
+EN That's right. Take it easy and rest your body.
+
+@ 105.94
+# アームズ零
+JP 砂場で走ると
+JP トレーニング効果が高いって……。
+EN They say running on sand... is really good training...
+
+@ 105.97
+# 社 長
+JP いや、海に来たんだから海に入れ。
+EN No. We came to the ocean, so get in the ocean.
+
+@ 105.101
+# アームズ零
+JP ああ、水中でシャドーをすると
+JP 水の抵抗で……。
+EN Oh, shadowboxing underwater... the water
+EN resistance...
+
+@ 105.104
+# 社 長
+JP トレーニングのことは考えるな。
+EN Stop thinking about training.
+
+@ 105.111
+# アームズ零
+JP でも……。
+EN But...
+
+@ 105.114
+# 社 長
+JP いいから考えるな。
+JP 何も考えず、のんびり海にでも
+JP 浮かんでいればいい。
+EN Just don't think about it. Don't think about anything,
+EN just float in the sea and relax.
+
+@ 105.116
+# 社 長
+JP な、そんな暑苦しい服でなく
+JP 水着にでも着替えて行ってこい。
+EN Come on, change out of those stuffy clothes into a
+EN swimsuit and go.
+
+@ 105.128
+# アームズ零
+JP うん。
+JP わかった……。
+EN Okay. Got it...
+
+@ 105.143
+# 社 長
+JP （そして、零は……）
+EN (And so Zero...)
+
+@ 105.145
+# 社 長
+JP （何もせずにのんびり海に浮かんで
+JP 　いろと言う言葉を）
+EN (...took my words, "don't do anything, just float in
+EN the sea and relax"...)
+
+@ 105.164
+# 社 長
+JP （忠実に、忠実に実行した）
+EN (...and carried them out faithfully. Very faithfully.)
+
+@ 105.166
+# 社 長
+JP （忠実にもほどがある）
+EN (Too faithfully, in fact.)
+
+@ 105.173
+# アームズ零
+JP 社長……。
+EN Boss...
+
+@ 105.176
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 105.180
+# アームズ零
+JP 何もしないって
+JP ……すごいね。
+EN Doing nothing... is amazing.
+
+@ 105.183
+# 社 長
+JP そうか……。
+EN Is it...
+
+@ 105.187
+# アームズ零
+JP クラゲって
+JP ……実はすごい生き物？
+EN Are jellyfish... actually amazing creatures?
+
+@ 105.190
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.192
+# 社 長
+JP どうなんだろうな…。
+EN I wonder...
+
+@ 105.194
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.196
+# 社 長
+JP （しかし、このままだと
+JP 　水死体と間違われそうだ）
+EN (At this rate, someone's going to mistake her for a
+EN drowning victim.)
+
+@ 105.198
+# 社 長
+JP （というか、すでに視線が痛い）
+EN (Actually, people are already staring.)
+
+@ 105.200
+# 社 長
+JP なあ。
+JP 退屈じゃないのか？
+EN Hey. Aren't you bored?
+
+@ 105.204
+# アームズ零
+JP ううん。
+EN No.
+
+@ 105.208
+# アームズ零
+JP 社長のそばで浮かんでいるの
+JP ……すごく楽しい。
+EN Floating here next to you, Boss... is really fun.
+
+@ 105.211
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 105.215
+# アームズ零
+JP ………………うん。
+EN .........Mm.
+
+@ 105.218
+# 社 長
+JP （まあ、当人が楽しいなら
+JP 　それでいいか）
+EN (Well, if she's enjoying herself, I guess that's fine.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （遊園地のペアチケットを
+JP 　取引先からもらった）
+EN (A business partner gave me a pair of amusement
+EN park tickets.)
+
+@ 106.26
+# 社 長
+JP （のはいいが、俺が持っていても
+JP 　宝の持ち腐れだよな）
+EN (Which is nice, but they're wasted on me.)
+
+@ 106.28
+# 社 長
+JP （誰かにやるか…）
+EN (Maybe I'll give them to someone...)
+
+@ 106.37
+# 社 長
+JP お、零。
+JP ちょうどいいところに。
+EN Oh, Zero. Perfect timing.
+
+@ 106.41
+# アームズ零
+JP ……なに？
+EN ...What is it?
+
+@ 106.44
+# 社 長
+JP 遊園地の券があるが、行くか？
+EN I've got amusement park tickets. Want to go?
+
+@ 106.48
+# アームズ零
+JP ゆうえん……ち？
+EN Amusement... park?
+
+@ 106.51
+# 社 長
+JP ああ、ペアチケットをもらってな。
+EN Yeah, someone gave me a pair.
+
+@ 106.53
+# 社 長
+JP 誰か一緒に行きたいヤツと
+JP 一緒に行ってきたらどうだ？
+EN Why not go with someone you'd like to go with?
+
+@ 106.60
+# アームズ零
+JP ……一緒に……行きたい人？
+EN ...Someone I'd... like to go with?
+
+@ 106.63
+# 社 長
+JP ああ。
+EN Right.
+
+@ 106.65
+# 社 長
+JP （零はしばらく
+JP 　何かを考え込んだ後）
+EN (Zero thought about something for a while...)
+
+@ 106.71
+# 社 長
+JP （なぜか、俺の服の裾を
+JP 　ツンとつまんだ）
+EN (...and then, for some reason, gave the hem of my
+EN jacket a little tug.)
+
+@ 106.73
+# 社 長
+JP え？
+EN Huh?
+
+@ 106.77
+# アームズ零
+JP 一緒に……行きたい、人……。
+EN Someone I'd... like to go, with...
+
+@ 106.95
+# 社 長
+JP （そして、なぜか次の休日…）
+EN (And so, for some reason, on my next day off...)
+
+@ 106.114
+# 社 長
+JP （俺は零と一緒に
+JP 　遊園地に来ていたりした）
+EN (I found myself at the amusement park with Zero.)
+
+@ 106.116
+# 社 長
+JP （零はずっと無言だが…。
+JP 　よく見ると頬が上気している）
+EN (Zero hasn't said a word all day... but look closely
+EN and her cheeks are flushed.)
+
+@ 106.118
+# 社 長
+JP （彼女なりに、遊園地に
+JP 　興奮しているようだ）
+EN (In her own way, she seems excited about the park.)
+
+@ 106.122
+# アームズ零
+JP 遊園地は……すごい、ね。
+EN Amusement parks are... amazing.
+
+@ 106.125
+# 社 長
+JP そうか。
+JP 気に入ったか。
+EN Yeah? You like it?
+
+@ 106.129
+# アームズ零
+JP うん。
+EN Mm.
+
+@ 106.132
+# 社 長
+JP （色々な乗り物に乗った）
+EN (We went on all sorts of rides.)
+
+@ 106.134
+# 社 長
+JP （今は、シメの観覧車だ）
+EN (Now we were on the Ferris wheel to finish the day.)
+
+@ 106.136
+# 社 長
+JP （零は、ずっと遠くを見つめている）
+EN (Zero kept gazing off into the distance.)
+
+@ 106.138
+# 社 長
+JP 特に、何が楽しかった？
+EN What did you enjoy most?
+
+@ 106.142
+# アームズ零
+JP ……これ。
+EN ...This.
+
+@ 106.145
+# 社 長
+JP 観覧車か。
+EN The Ferris wheel?
+
+@ 106.149
+# アームズ零
+JP うん。
+EN Mm.
+
+@ 106.152
+# 社 長
+JP 意外だな。
+EN That's a surprise.
+
+@ 106.156
+# アームズ零
+JP だって……２人で
+JP のんびりしていられる。
+EN Because... the two of us... can just take it easy.
+
+@ 106.159
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （また遊園地のペアチケットを
+JP 　取引先からもらった）
+EN (A business partner gave me another pair of
+EN amusement park tickets.)
+
+@ 107.26
+# 社 長
+JP （さて、どうしようか…
+JP 　と考えていると）
+EN (While I was wondering what to do with them...)
+
+@ 107.30
+# ？？？
+JP それ……遊園地の券？
+EN Are those... amusement park tickets?
+
+@ 107.33
+# 社 長
+JP うおっ！？
+EN Whoa?!
+
+@ 107.42
+# 社 長
+JP （背後から声がして、びっくりする）
+EN (The voice from right behind me made me jump.)
+
+@ 107.44
+# 社 長
+JP 零か……いつの間に背後に。
+EN Zero... when did you get behind me?
+
+@ 107.48
+# アームズ零
+JP それ……遊園地の券、だよね？
+EN Those are... amusement park tickets, right?
+
+@ 107.51
+# 社 長
+JP ああ、取引先からもらった。
+EN Yeah, a business partner gave them to me.
+
+@ 107.60
+# 社 長
+JP （すごく…何かを期待しているような
+JP 　目をしている）
+EN (Her eyes were full of... some kind of expectation.)
+
+@ 107.62
+# 社 長
+JP あ～……。
+EN Uh...
+
+@ 107.64
+# 社 長
+JP また、一緒に行くか？
+EN Want to go together again?
+
+@ 107.68
+# アームズ零
+JP ……うん。
+EN ...Mm.
+
+@ 107.86
+# 社 長
+JP （そして、次の休日…）
+EN (And so, on my next day off...)
+
+@ 107.105
+# 社 長
+JP （俺たちはまた遊園地へと来ていた）
+EN (We were back at the amusement park.)
+
+@ 107.107
+# 社 長
+JP （今日はずっと観覧車に乗っている）
+EN (Today we've been riding the Ferris wheel the whole
+EN time.)
+
+@ 107.109
+# 社 長
+JP あ～…。
+EN Uh...
+
+@ 107.111
+# 社 長
+JP よっぽど、観覧車が好きなんだな。
+EN You really love the Ferris wheel, huh.
+
+@ 107.115
+# アームズ零
+JP うん。
+EN Mm.
+
+@ 107.118
+# 社 長
+JP （俺の問いに
+JP 　零は迷う様子もなく頷いた）
+EN (Zero nodded at my question without the slightest
+EN hesitation.)
+
+@ 107.122
+# アームズ零
+JP これなら……一日中でも
+JP 乗っていられる。
+EN I could ride this... all day long.
+
+@ 107.125
+# 社 長
+JP 一日中。
+EN All day.
+
+@ 107.127
+# 社 長
+JP それは…流石に飽きないか？
+EN Wouldn't you... get bored of it eventually?
+
+@ 107.131
+# アームズ零
+JP ……飽きない。
+EN ...I wouldn't.
+
+@ 107.135
+# アームズ零
+JP だって、ずっと……一緒……。
+EN Because... we'd be together... the whole time...
+
+@ 107.138
+# 社 長
+JP ………………。
+EN .........
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# アームズ零
+JP いく、よ。
+JP 小鳩ちゃん。
+EN Here I, come. Kobato.
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# アームズ零
+JP いきます。
+JP 朝比奈、さん……。
+EN Here I come. Asahina...
+
+@ 110.16
+# scene 113 練習開始
+# アームズ零
+JP やる、ね。
+EN I'll do, it.
+
+@ 111.16
+# scene 114 練習開始 好意
+# アームズ零
+JP 今日もがんばる、ね。
+EN I'll do my best today, too.
+
+@ 112.16
+# scene 115 特訓開始
+# アームズ零
+JP うん。
+JP がんばる。
+EN Okay. I'll do my best.
+
+@ 113.20
+# scene 116 特訓成功
+# アームズ零
+JP 成功……。
+EN Success...
+
+@ 114.20
+# scene 117 特訓失敗
+# アームズ零
+JP ごめんなさい……。
+EN I'm sorry...
+
+@ 115.16
+# scene 118 休養
+# アームズ零
+JP 休みって……何をすれば
+JP いいのかな……。
+EN A day off... what am I supposed, to do...
+
+@ 116.16
+# scene 119 入場1
+# アームズ零
+JP 私は……ただ、倒すだけ……。
+EN All I do is... knock them down...
+
+@ 117.16
+# scene 119 入場2
+# アームズ零
+JP 恨みっこなしの真剣勝負
+JP ……いく、よ。
+EN A real fight, no hard feelings... here I, come.
+
+@ 118.17
+# scene 120 タッグマッチ ベスト
+# アームズ零
+JP 小鳩ちゃんとなら
+JP ……どんな結果でも、納得だ、よ。
+EN With you, Kobato... whatever happens, I'm okay with
+EN it.
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# アームズ零
+JP 背中は、任せて……。
+EN Leave your back... to me...
+
+@ 120.16
+# scene 125 必殺技１
+# アームズ零
+JP ……いくよ！
+EN ...Here I come!
+
+@ 121.16
+# scene 125 必殺技２
+# アームズ零
+JP 決めに、いくから……。
+EN I'm going in... to finish it...
+
+@ 122.16
+# scene 125 必殺技３
+# アームズ零
+JP これが、私の全力だ、よ。
+EN This is, everything I've got.
+
+@ 123.12
+# scene 126 勝利1
+# アームズ零
+JP 勝った、よ。
+EN I won.
+
+@ 124.12
+# scene 126 勝利2
+# アームズ零
+JP 終わった……。
+EN It's over...
+
+@ 125.12
+# scene 126 勝利3
+# アームズ零
+JP これで、いい？
+EN Is this, enough?
+
+@ 126.15
+# scene 133 表彰1
+# アームズ零
+JP ど、どうも……。
+EN Th-thank you...
+
+@ 127.15
+# scene 133 表彰2
+# アームズ零
+JP 私が？
+JP 本当、に？
+EN Me? R-really?
+
+@ 128.12
+# scene 134 優勝1
+# アームズ零
+JP これで……いいんだよ、ね。
+EN This is... good enough, right?
+
+@ 129.12
+# scene 134 優勝２
+# アームズ零
+JP 褒めて……くれる？
+EN Will you... praise me?
+
+@ 130.24
+# scene 135 エンディング 通常
+# アームズ零
+JP おめでとう……すごいね。
+JP 社長はやっぱり、すごい、ね。
+EN Congratulations... that's amazing. You really are,
+EN amazing, Boss.
+
+@ 131.24
+# scene 136 エンディング 好意
+# アームズ零
+JP わ、私……まだ
+JP ……社長の側にいて、いいかな？
+JP 側に、いたい……。
+EN C-can I... still stay... by your side, Boss? I want to...
+EN be by your side...

@@ -1,0 +1,110 @@
+# /SCR/220.BIN - ダークスターカオス
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 220` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ダークスターカオス
+JP 黒い超新星を
+JP 止められる者などいない。
+EN None can stop the Black Supernova.
+
+@ 1.16
+# scene 119 入場1
+# ダークスターカオス
+JP フッフッフ…。
+EN Heh heh heh...
+
+@ 2.16
+# scene 119 入場2
+# ダークスターカオス
+JP 恐怖と絶望を与えてやろう…。
+EN I shall give you fear and despair...
+
+@ 3.17
+# scene 120 タッグマッチ ベスト
+# ダークスターカオス
+JP フッフッフ…。
+JP 見せてやろうじゃないか。
+JP 我々の力というものを。
+EN Heh heh heh... Let us show them, shall we? Show them
+EN what our power truly is.
+
+@ 4.17
+# scene 121 タッグマッチ ベター１
+# ダークスターカオス
+JP どこまで成長したか見せてみろ…。
+EN Show me how far you've grown...
+
+@ 5.17
+# scene 122 タッグマッチ ベター２
+# ダークスターカオス
+JP フッフッフ…。
+EN Heh heh heh...
+
+@ 6.16
+# scene 125 必殺技１
+# ダークスターカオス
+JP プロレスの意味を教えてやろう。
+EN I shall teach you what pro wrestling means.
+
+@ 7.16
+# scene 125 必殺技２
+# ダークスターカオス
+JP フッフッフ…。
+JP この試合もこれで終わりだな。
+EN Heh heh heh... And with this, the match is over.
+
+@ 8.16
+# scene 125 必殺技３
+# ダークスターカオス
+JP 喰らえ！　我が破壊の鉄槌！
+EN Take this! My hammer of destruction!
+
+@ 9.12
+# scene 126 勝利1
+# ダークスターカオス
+JP まだまだ実力不足だな。
+EN You still lack the strength.
+
+@ 10.12
+# scene 126 勝利2
+# ダークスターカオス
+JP フッフッフ…。
+EN Heh heh heh...
+
+@ 11.12
+# scene 126 勝利3
+# ダークスターカオス
+JP それで私に勝とうなど甘いな…。
+EN How naive, to think you could beat me with that...
+
+@ 12.15
+# scene 133 表彰1
+# ダークスターカオス
+JP 黒い超新星は無敵だ。
+EN The Black Supernova is invincible.
+
+@ 13.15
+# scene 133 表彰2
+# ダークスターカオス
+JP フッフッフ…。
+EN Heh heh heh...
+
+@ 14.12
+# scene 134 優勝1
+# ダークスターカオス
+JP 黒い超新星…ここに降臨…。
+EN The Black Supernova... has descended...
+
+@ 15.12
+# scene 134 優勝２
+# ダークスターカオス
+JP フッフッフ…。
+EN Heh heh heh...

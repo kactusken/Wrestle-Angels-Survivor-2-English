@@ -1,0 +1,2923 @@
+# /SCR/139.BIN - 天神 美沙
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 139` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 天神 美沙
+JP 美沙なのです。
+JP 美沙は魔女ですが
+JP ひとつよろしくお願いするのです。
+EN I am Misa. Misa is a witch, but she humbly asks for
+EN your favor all the same.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 天神 美沙
+JP 感謝なのです。
+JP この団体はいい買物をしたのですよ。
+JP 後悔はさせないのです。
+EN Misa thanks you. This promotion has made a fine
+EN purchase, you know. You will not regret it.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 天神 美沙
+JP 見る目のない団体なのです。
+JP こんな団体願い下げなのです。
+JP 呪われやがれなのです。
+EN What a promotion with no eye for talent. Misa wants
+EN nothing to do with you. Be cursed, all of you!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP たしかこのあたりで陸上の練習を
+JP していると聞いたのだけれど…。
+EN I heard she trains for track and field around here
+EN somewhere...
+
+@ 3.25
+# 社 長
+JP おっ、あの娘だ。
+EN Oh, there she is.
+
+@ 3.27
+# 社 長
+JP 練習中すみません。
+JP 美沙さんですか？
+EN Sorry to interrupt your training. Are you Misa?
+
+@ 3.37
+# 天神 美沙
+JP はい、どちら様です？
+JP 人に名前を尋ねるときは
+JP まず自分から名乗るのが礼儀なのです。
+EN Yes, and who might you be? When asking someone's
+EN name, it is polite to give your own first, you know.
+
+@ 3.40
+# 社 長
+JP …あっ、これは失礼。
+JP 私は…。
+EN ...Ah, excuse me. I'm...
+
+@ 3.42
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.49
+# 天神 美沙
+JP プロレス団体の社長さんなのですか。
+JP しかも美沙をスカウトに…。
+JP これは驚きなのです。
+EN You are the president of a wrestling promotion? And
+EN you came to scout Misa... Now that is a surprise.
+
+@ 3.52
+# 社 長
+JP どうでしょう？
+EN What do you think?
+
+@ 3.59
+# 天神 美沙
+JP 突然スカウトして
+JP 間髪入れずに返答を求めるとは
+JP せっかちさんなのです。
+EN Scouting a girl out of nowhere and demanding an
+EN answer on the spot... You are an impatient one.
+
+@ 3.62
+# 社 長
+JP まあ、返事はおいおいでも
+JP 構わないのですが…。
+EN Well, you don't have to answer right away...
+
+@ 3.64
+# 社 長
+JP とりあえず条件はですね…。
+EN For now, here are the terms...
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 天神 美沙
+JP む、むむむ！
+JP 魔法が「この話受けろ」と
+JP 言っているのです。
+EN Hm, hmmm! The magic is saying, "Take this offer."
+
+@ 4.22
+# 社 長
+JP ま…魔法？
+EN M... Magic?
+
+@ 4.29
+# 天神 美沙
+JP 美沙は魔女なのですよ。
+JP 魔法がＯＫと言っているので
+JP ＯＫなのです。
+EN Misa is a witch, you see. The magic says it is okay, so
+EN it is okay.
+
+@ 4.32
+# 社 長
+JP は…はあ、ありがとうございます。
+EN Uh... Well, thank you very much.
+
+@ 4.34
+# 社 長
+JP （条件すら聞かれずに
+JP 　ＯＫされてしまった）
+EN (She said yes without even hearing the terms.)
+
+@ 4.36
+# 社 長
+JP （すごい子をスカウトして
+JP 　しまったかもしれない）
+EN (I may have scouted quite a girl.)
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 天神 美沙
+JP …何もイメージが
+JP わいてこないのです。
+JP 断るのです。
+EN ...No vision is coming to Misa at all. She declines.
+
+@ 5.22
+# 社 長
+JP え…。
+EN Huh...
+
+@ 5.24
+# 社 長
+JP （条件を言い切る前に
+JP 　断られてしまった…）
+EN (She turned me down before I could even finish the
+EN terms...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 天神 美沙
+JP おや、こないだの社長さんなのです。
+JP 美沙の魅力にやられたのですね。
+JP 美沙も罪な女なのです。
+EN Oh my, it is the president from the other day. Misa's
+EN charms got to you, did they? Misa is such a sinful
+EN woman.
+
+@ 6.36
+# 社 長
+JP え……。
+JP いや…えっと……。
+EN Huh...? No... Um...
+
+@ 6.38
+# 社 長
+JP まあ、そういうことです。
+JP どうでしょうか？
+EN Well, something like that. What do you say?
+
+@ 6.45
+# 天神 美沙
+JP 魅力的すぎるのも困ったものなのです。
+JP 美沙は別に魔性の女になりたくて
+JP なった訳ではないというのに…。
+EN Being too charming is such a burden. And Misa never
+EN even asked to become a femme fatale...
+
+@ 6.48
+# 社 長
+JP あの…それで条件ですが……。
+EN Um... About the terms, then...
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 天神 美沙
+JP む、むむむ！
+JP 魔法が「この話受けろ」と
+JP 言っているのです。
+EN Hm, hmmm! The magic is saying, "Take this offer."
+
+@ 7.22
+# 社 長
+JP ま…魔法？
+EN M... Magic?
+
+@ 7.29
+# 天神 美沙
+JP 美沙は魔女なのですよ。
+JP 魔法がＯＫと言っているので
+JP ＯＫなのです。
+EN Misa is a witch, you see. The magic says it is okay, so
+EN it is okay.
+
+@ 7.32
+# 社 長
+JP は…はあ、ありがとうございます。
+EN Uh... Well, thank you very much.
+
+@ 7.34
+# 社 長
+JP （条件すら聞かれずに
+JP 　ＯＫされてしまった）
+EN (She said yes without even hearing the terms.)
+
+@ 7.36
+# 社 長
+JP （すごい子をスカウトして
+JP 　しまったかもしれない）
+EN (I may have scouted quite a girl.)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 天神 美沙
+JP …何もイメージが
+JP わいてこないのです。
+JP 断るのです。
+EN ...No vision is coming to Misa at all. She declines.
+
+@ 8.22
+# 社 長
+JP え…。
+EN Huh...
+
+@ 8.24
+# 社 長
+JP （また、条件を言い切る前に
+JP 　断られてしまった…）
+EN (She turned me down before I could finish the terms
+EN again...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は美沙選手と交渉してみることにした。
+EN I decided to try negotiating with Misa.
+
+@ 9.25
+# 社 長
+JP 彼女は自らを魔女と名乗る
+JP 独特の雰囲気をもつレスラーだ。
+EN She calls herself a witch, and she has an atmosphere
+EN all her own.
+
+@ 9.27
+# 社 長
+JP ああいうレスラーは
+JP ある意味で貴重といえる。
+EN A wrestler like that is a rare find, in a way.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be around here somewhere...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+JP 美沙選手ですね。
+EN Um, excuse me. You're Misa, right?
+
+@ 9.43
+# 天神 美沙
+JP む、怪しい人物なのです。
+JP 名を名乗れなのです！
+EN Hm, a suspicious character. State your name!
+
+@ 9.46
+# 社 長
+JP 失礼、私は…。
+EN Pardon me, I'm...
+
+@ 9.50
+# 天神 美沙
+JP むっ、魔法が教えてくれたのです。
+JP あなた、プロレス団体の社長で
+JP 美沙を引き抜きに来たのですね！
+EN Hm, the magic has told Misa! You are the president of
+EN a wrestling promotion, here to poach her!
+
+@ 9.53
+# 社 長
+JP え…。
+EN Huh...
+
+@ 9.55
+# 社 長
+JP ええ、その通りです。
+JP よくわかりましたね。
+EN Yes, that's right. How did you know?
+
+@ 9.62
+# 天神 美沙
+JP ふふん！
+JP それくらい魔女として当然なのです。
+JP そして、あなたの出す条件は…。
+EN Hmph! That much is only natural for a witch. And the
+EN terms you will offer are...
+
+@ 10.14
+# scene 011 移籍交渉 他団体所属 成功
+# 社 長
+JP ………………。
+EN ..................
+
+@ 10.16
+# 社 長
+JP ええ、その通りです…。
+EN Yes, exactly right...
+
+@ 10.18
+# 社 長
+JP （彼女は、こちらの出す条件を
+JP 　ピタリと言い当てた）
+EN (She guessed my terms down to the last detail.)
+
+@ 10.20
+# 社 長
+JP （どうやら魔女というのもあながち
+JP 　ハッタリなだけではないようだ）
+EN (Maybe this witch business isn't all bluff after all.)
+
+@ 10.22
+# 社 長
+JP それで…どうでしょうか？
+EN So... what do you think?
+
+@ 10.33
+# 天神 美沙
+JP 良いのです。
+JP その話のってあげるのです。
+JP あなたの団体に移籍するのですよ。
+EN Very well. Misa will accept your offer. She will
+EN transfer to your promotion.
+
+@ 10.36
+# 社 長
+JP あ、ありがとうございます。
+EN Th-thank you very much.
+
+@ 10.40
+# 天神 美沙
+JP ふふん。
+JP 魔法があなたの団体に行った方が
+JP 面白くなると告げているのです。
+EN Hmph. The magic says things will be more fun if Misa
+EN goes to your promotion.
+
+@ 11.14
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 社 長
+JP ………………。
+EN ..................
+
+@ 11.16
+# 社 長
+JP ええ、そのとおりです…。
+EN Yes, exactly right...
+
+@ 11.18
+# 社 長
+JP （彼女は、こちらの出す条件を
+JP 　ピタリと言い当てた）
+EN (She guessed my terms down to the last detail.)
+
+@ 11.20
+# 社 長
+JP （どうやら魔女というのもあながち
+JP 　ハッタリなだけではないようだ）
+EN (Maybe this witch business isn't all bluff after all.)
+
+@ 11.22
+# 社 長
+JP それで…どうでしょうか？
+EN So... what do you think?
+
+@ 11.33
+# 天神 美沙
+JP 残念だけどお断りなのです。
+JP あなたの団体に行っても美沙の得に
+JP ならないと魔法が告げているのです。
+EN Sadly, Misa must decline. The magic says going to
+EN your promotion would do Misa no good.
+
+@ 11.36
+# 社 長
+JP そ、そうですか…。
+JP 残念だな。
+EN I-I see... That's a shame.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 美沙選手が必要だ。
+EN Our promotion really does need Misa.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 天神 美沙
+JP おや、この前の社長さんなのです。
+JP そんなにもこの魅力的な美沙の
+JP 肢体を手に入れたいのですか？
+EN Oh my, the president from the other day. Do you want
+EN to get your hands on Misa's alluring body that
+EN badly?
+
+@ 12.40
+# 社 長
+JP （なんだ、そのいかがわしい
+JP 　物言いは）
+EN (Why does she have to put it so suggestively?)
+
+@ 12.42
+# 社 長
+JP ま…まあ、レスラーとしてのあなたに
+JP 来て欲しいと思っています。
+EN W-well, I'd like you to join us as a wrestler.
+
+@ 12.44
+# 社 長
+JP それで、条件ですが…。
+EN So, about the terms...
+
+@ 12.51
+# 天神 美沙
+JP 皆まで言わずとも良いのです。
+JP あなたが今度提示する条件は…。
+EN No need to say it all. The terms you will offer this
+EN time are...
+
+@ 13.14
+# scene 014 移籍交渉 他団体所属２ 成功
+# 社 長
+JP ………………。
+EN ..................
+
+@ 13.16
+# 社 長
+JP その通りです…。
+EN Exactly right...
+
+@ 13.18
+# 社 長
+JP （彼女は、またも条件を言い当てた）
+EN (She guessed my terms yet again.)
+
+@ 13.20
+# 社 長
+JP それで…どうでしょうか？
+EN So... what do you think?
+
+@ 13.31
+# 天神 美沙
+JP 良いのです。
+JP その話のってあげるのです。
+JP あなたの団体に移籍するのですよ。
+EN Very well. Misa will accept your offer. She will
+EN transfer to your promotion.
+
+@ 13.34
+# 社 長
+JP あ、ありがとうございます。
+EN Th-thank you very much.
+
+@ 13.38
+# 天神 美沙
+JP ふふん。
+JP 魔法があなたの団体に行った方が
+JP 面白くなると告げているのです。
+EN Hmph. The magic says things will be more fun if Misa
+EN goes to your promotion.
+
+@ 14.14
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 社 長
+JP ………………。
+EN ..................
+
+@ 14.16
+# 社 長
+JP そのとおりです…。
+EN That's right...
+
+@ 14.18
+# 社 長
+JP （彼女は、またも条件を言い当てた）
+EN (She guessed my terms yet again.)
+
+@ 14.20
+# 社 長
+JP それで…どうでしょうか？
+EN So... what do you think?
+
+@ 14.31
+# 天神 美沙
+JP 残念だけどお断りなのです。
+JP あなたの団体に行っても美沙の得に
+JP ならないと魔法が告げているのです。
+EN Sadly, Misa must decline. The magic says going to
+EN your promotion would do Misa no good.
+
+@ 14.34
+# 社 長
+JP そ、そうですか…。
+JP 残念だな。
+EN I-I see... That's a shame.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は美沙選手と交渉してみることにした。
+EN I decided to try negotiating with Misa.
+
+@ 15.25
+# 社 長
+JP 彼女は自らを魔女と名乗る
+JP 独特の雰囲気をもつレスラーだ。
+EN She calls herself a witch, and she has an atmosphere
+EN all her own.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりにいるはずだけど…。
+EN She should be around here somewhere...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+JP 美沙選手ですね。
+EN Um, excuse me. You're Misa, right?
+
+@ 15.41
+# 天神 美沙
+JP む、怪しい人物なのです。
+JP 名を名乗れなのです！
+EN Hm, a suspicious character. State your name!
+
+@ 15.44
+# 社 長
+JP 失礼、私は…。
+EN Pardon me, I'm...
+
+@ 15.48
+# 天神 美沙
+JP む、魔法が教えてくれたのです。
+JP あなた、プロレス団体の社長で美沙に
+JP 入団をすすめに来たのですね！
+EN Hm, the magic has told Misa! You are the president of
+EN a wrestling promotion, here to recruit her!
+
+@ 15.51
+# 社 長
+JP ええ、その通りです。
+JP よくわかりましたね。
+EN Yes, that's right. How did you know?
+
+@ 15.58
+# 天神 美沙
+JP ふふん。
+JP それくらい魔女として当然なのです。
+JP そして、あなたの出す条件は…。
+EN Hmph. That much is only natural for a witch. And the
+EN terms you will offer are...
+
+@ 16.14
+# scene 017 移籍交渉 フリー１ 成功
+# 社 長
+JP ………………。
+EN ..................
+
+@ 16.16
+# 社 長
+JP ええ、その通りです…。
+EN Yes, exactly right...
+
+@ 16.18
+# 社 長
+JP （彼女は、こちらの出す条件を
+JP 　ピタリと言い当てた）
+EN (She guessed my terms down to the last detail.)
+
+@ 16.20
+# 社 長
+JP （どうやら魔女というのもあながち
+JP 　ハッタリなだけではないようだ）
+EN (Maybe this witch business isn't all bluff after all.)
+
+@ 16.22
+# 社 長
+JP それで…どうでしょうか？
+EN So... what do you think?
+
+@ 16.33
+# 天神 美沙
+JP 承知したのです。
+JP フリーの立場を捨て、あなたの団体に
+JP 入ってあげるのですよ。
+EN Understood. Misa will give up freelancing and join
+EN your promotion.
+
+@ 16.36
+# 社 長
+JP あ、ありがとうございます。
+EN Th-thank you very much.
+
+@ 16.40
+# 天神 美沙
+JP ふふん。
+JP 魔法があなたの団体に所属した方が
+JP 面白くなると告げているのです。
+EN Hmph. The magic says things will be more fun if Misa
+EN signs with your promotion.
+
+@ 17.14
+# scene 018 移籍交渉 フリー 失敗
+# 社 長
+JP ………………。
+EN ..................
+
+@ 17.16
+# 社 長
+JP ええ、そのとおりです…。
+EN Yes, exactly right...
+
+@ 17.18
+# 社 長
+JP （彼女は、こちらの出す条件を
+JP 　ピタリと言い当てた）
+EN (She guessed my terms down to the last detail.)
+
+@ 17.20
+# 社 長
+JP （どうやら、魔女というのもあながち
+JP 　ハッタリなだけではないようだ）
+EN (Maybe this witch business isn't all bluff after all.)
+
+@ 17.22
+# 社 長
+JP それで…どうでしょうか？
+EN So... what do you think?
+
+@ 17.33
+# 天神 美沙
+JP 残念だけどお断りなのです。
+JP 今は身軽でいた方が良いと
+JP 魔法が告げているのです。
+EN Sadly, Misa must decline. The magic says it is better
+EN to stay a free agent for now.
+
+@ 17.36
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 美沙選手が必要だ。
+EN Our promotion really does need Misa.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 美沙選手と交渉することにした。
+EN I decided to negotiate with Misa once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 天神 美沙
+JP おや、こないだの社長さんなのです。
+JP そんなにもこの魔性の美少女を
+JP 自分だけのものにしたいのですか？
+EN Oh my, the president from the other day. Do you want
+EN this bewitching beauty all to yourself that badly?
+
+@ 18.40
+# 社 長
+JP （なんだ、そのいかがわしい
+JP 　物言いは）
+EN (Why does she have to put it so suggestively?)
+
+@ 18.42
+# 社 長
+JP ま…まあ、レスラーとしてのあなたに
+JP 来て欲しいと思っています。
+EN W-well, I'd like you to join us as a wrestler.
+
+@ 18.49
+# 天神 美沙
+JP 皆まで言わずとも良いのです。
+JP あなたが今度提示する条件は…。
+EN No need to say it all. The terms you will offer this
+EN time are...
+
+@ 19.14
+# scene 020 移籍交渉 フリー２ 成功
+# 社 長
+JP ………………。
+EN ..................
+
+@ 19.16
+# 社 長
+JP ええ、その通りです…。
+EN Yes, exactly right...
+
+@ 19.18
+# 社 長
+JP （本当に…なんでわかるんだ？）
+EN (Seriously... how does she know?)
+
+@ 19.20
+# 社 長
+JP それで…どうでしょうか？
+EN So... what do you think?
+
+@ 19.31
+# 天神 美沙
+JP 承知したのです。
+JP フリーの立場を捨て、あなたの
+JP 団体に入ってあげるのですよ。
+EN Understood. Misa will give up freelancing and join
+EN your promotion.
+
+@ 19.34
+# 社 長
+JP あ、ありがとうございます。
+EN Th-thank you very much.
+
+@ 19.38
+# 天神 美沙
+JP ふふん。
+JP 魔法があなたの団体に所属した方が
+JP 面白くなると告げているのです。
+EN Hmph. The magic says things will be more fun if Misa
+EN signs with your promotion.
+
+@ 20.14
+# scene 021 移籍交渉 フリー２ 失敗
+# 社 長
+JP ………………。
+EN ..................
+
+@ 20.16
+# 社 長
+JP ええ、そのとおりです…。
+EN Yes, exactly right...
+
+@ 20.18
+# 社 長
+JP （本当に…なんでわかるんだ？）
+EN (Seriously... how does she know?)
+
+@ 20.20
+# 社 長
+JP それで…どうでしょうか？
+EN So... what do you think?
+
+@ 20.31
+# 天神 美沙
+JP 残念だけどお断りなのです。
+JP 今は身軽でいた方が良いと
+JP 魔法が告げているのです。
+EN Sadly, Misa must decline. The magic says it is better
+EN to stay a free agent for now.
+
+@ 20.34
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は美沙を訪ねることにした。
+EN I decided to go see Misa.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here somewhere...
+
+@ 21.29
+# 社 長
+JP あ、いた。
+EN Ah, there she is.
+
+@ 21.31
+# 社 長
+JP 美沙！
+EN Misa!
+
+@ 21.41
+# 天神 美沙
+JP ああっ、よくも美沙の前に
+JP 顔を出せたモノなのです。
+JP まだくたばってなかったのですか。
+EN Ah! How dare you show your face before Misa! You
+EN still have not croaked?
+
+@ 21.44
+# 社 長
+JP その節は…色々とすまなかった。
+EN I'm... sorry about everything back then.
+
+@ 21.46
+# 社 長
+JP 実は…言いにくいんだが
+JP お前に戻ってきて欲しくて
+JP 探してたんだ。
+EN The truth is... this is hard to say, but I've been
+EN looking for you because I want you to come back.
+
+@ 21.50
+# 天神 美沙
+JP どの口が言うのですか。
+JP このか弱い美少女を放逐しておいて
+JP よくもまあぬけぬけと言えるのです。
+EN How can you even say that? You threw out this
+EN delicate beauty, and now you have the nerve to come
+EN crawling back!
+
+@ 21.53
+# 社 長
+JP 本当にすまん。
+JP 今は反省している。
+JP この通り…。
+EN I'm really sorry. I regret it now. Please...
+
+@ 21.57
+# 天神 美沙
+JP う～～～～～～。
+EN Grrrrrrrr...
+
+@ 21.60
+# 社 長
+JP どうか許してくれないか。
+EN Won't you please forgive me?
+
+@ 21.62
+# 社 長
+JP （俺は頭を下げ
+JP 　彼女に戻ってくれるように
+JP 　頼み込んだ）
+EN (I bowed my head and begged her to come back.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 天神 美沙
+JP 社長の行為は万死に値するの
+JP ですが…、魔法が許してやれと
+JP 言っているのです。
+EN What you did deserves death ten thousand times
+EN over, Boss... but the magic says to forgive you.
+
+@ 22.22
+# 社 長
+JP 本当か。
+JP ありがとう。
+EN Really? Thank you.
+
+@ 22.29
+# 天神 美沙
+JP ふんっ、美沙の考えではないのです。
+JP 魔法がそう告げるから
+JP 仕方なく戻ってやるのです。
+EN Hmph! This is not Misa's idea. The magic says so, so
+EN Misa will come back. Reluctantly.
+
+@ 22.32
+# 社 長
+JP あ…うん、ありがとう。
+EN Ah... Right. Thank you.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 天神 美沙
+JP ダメなのです。
+JP 社長の行為は万死に値するのです。
+JP 許される訳がないのです。
+EN No. What you did deserves death ten thousand times
+EN over, Boss. There is no way you will be forgiven.
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP わかった。
+EN I see... I understand.
+
+@ 23.26
+# 天神 美沙
+JP さっさと帰るのです。
+JP 塩まくぞコノヤローなのです。
+EN Go home already. Or Misa will throw salt at you, you
+EN jerk!
+
+@ 23.29
+# 社 長
+JP （…これも身から出たサビか）
+EN (...I suppose I brought this on myself.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び美沙を訪ねることにした。
+EN I decided to visit Misa again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here somewhere...
+
+@ 24.29
+# 社 長
+JP いた…。
+EN There she is...
+
+@ 24.31
+# 社 長
+JP 美沙！
+EN Misa!
+
+@ 24.41
+# 天神 美沙
+JP また性懲りもなく来たのですか
+JP この悪党が…なのです。
+EN You came back again, never learning your lesson,
+EN you villain...
+
+@ 24.44
+# 社 長
+JP すまん。
+JP 本当に謝っても謝りきれないことは
+JP 承知の上だ。
+EN I'm sorry. I know no apology could ever be enough.
+
+@ 24.46
+# 社 長
+JP （俺は頭を下げ
+JP 　彼女に戻ってくれるように
+JP 　頼み込んだ）
+EN (I bowed my head and begged her to come back.)
+
+@ 25.18
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 天神 美沙
+JP 社長の行為は万死に値するの
+JP ですが…、魔法が許してやれと
+JP 言っているのです。
+EN What you did deserves death ten thousand times
+EN over, Boss... but the magic says to forgive you.
+
+@ 25.21
+# 社 長
+JP 本当か。
+JP ありがとう。
+EN Really? Thank you.
+
+@ 25.28
+# 天神 美沙
+JP ふんっ、美沙の考えではないのです。
+JP 魔法がそう告げるから
+JP 仕方なく戻ってやるのです。
+EN Hmph! This is not Misa's idea. The magic says so, so
+EN Misa will come back. Reluctantly.
+
+@ 25.31
+# 社 長
+JP あ…うん、ありがとう。
+EN Ah... Right. Thank you.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 天神 美沙
+JP ダメなのです。
+JP 社長の行為は万死に値するのです。
+JP 許される訳がないのです。
+EN No. What you did deserves death ten thousand times
+EN over, Boss. There is no way you will be forgiven.
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP わかった。
+EN I see... I understand.
+
+@ 26.26
+# 天神 美沙
+JP さっさと帰るのです。
+JP 塩まくぞコノヤローなのです。
+EN Go home already. Or Misa will throw salt at you, you
+EN jerk!
+
+@ 26.29
+# 社 長
+JP （…これも身から出たサビか）
+EN (...I suppose I brought this on myself.)
+
+@ 27.16
+# scene 028 ケガ小
+# 天神 美沙
+JP い、痛いのです…。
+JP でも、我慢できないこともない
+JP 痛みではあるのです。
+EN I-it hurts... But it is not pain Misa cannot bear.
+
+@ 28.16
+# scene 029 ケガ大
+# 天神 美沙
+JP 痛いのです～…。
+JP こんなことなら回復魔法を
+JP 習得しておけばよかったのです～。
+EN It huuurts... If Misa had known, she would have
+EN learned a healing spell...
+
+@ 29.16
+# scene 030 入院
+# 天神 美沙
+JP どうせなら豪華な個室に
+JP 入院させて欲しいのです。
+EN If Misa has to be hospitalized, she would like a
+EN luxurious private room, please.
+
+@ 30.16
+# scene 031 退院
+# 天神 美沙
+JP ただいまなのです。
+JP 外の空気はうまいのです。
+EN Misa is home! The fresh air tastes wonderful.
+
+@ 31.16
+# scene 032 ケガ完治
+# 天神 美沙
+# (no \b: the original line has no end-of-message code)
+JP もう大丈夫と魔法が
+JP 告げているのです。
+JP 美沙はまだ痛い気がするのですが…。
+EN The magic says Misa is all better. Though Misa feels
+EN like it still hurts...
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 天神 美沙
+JP 魔法も、もうここらが潮時と
+JP 告げているのです。
+EN The magic also says it is time for Misa to call it a day.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 天神 美沙
+JP 魔法はまだやれると
+JP 告げているのです。
+JP ならば美沙はまだやれるのです。
+EN The magic says Misa can still go on. So Misa can still
+EN go on.
+
+@ 34.16
+# scene 035 コーチ就任
+# 天神 美沙
+JP まかせるのです。
+JP 美沙の魔力をバッチリ注ぎ込んで
+JP やるのです。
+EN Leave it to Misa. She will pour her magic power into
+EN them, good and proper.
+
+@ 35.16
+# scene 036 ケガ引退
+# 天神 美沙
+JP 魔法が、もう限界だから
+JP やめておけと告げているのです。
+JP 残念無念なのです…。
+EN The magic says Misa has reached her limit and should
+EN stop. How very sad and frustrating...
+
+@ 36.16
+# scene 037 年齢引退
+# 天神 美沙
+JP うう…。
+JP 魔法の力が衰えてきたのです…。
+EN Ugh... Misa's magic power has begun to wane...
+
+@ 37.16
+# scene 038 退団
+# 天神 美沙
+JP 魔力を高めるために
+JP 姿を消すことにしたのです。
+EN Misa has decided to disappear to strengthen her
+EN magic power.
+
+@ 38.16
+# scene 039 スランプ
+# 天神 美沙
+JP 最近、魔法の声が聞こえづらく
+JP なっているのです。
+JP 天使の陰謀なのです。
+EN Lately it has been hard for Misa to hear the voice of
+EN the magic. It is a plot by the angels.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 天神 美沙
+JP 美沙のファンクラブですか？
+EN A fan club for Misa?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to all that support.
+
+@ 39.26
+# 天神 美沙
+JP もちろんなのです。
+JP きっと日本一の魔法組織に
+JP 育ててみせるのです。
+EN Of course. Misa will surely grow it into the greatest
+EN magic society in Japan.
+
+@ 39.29
+# 社 長
+JP いや、そっちの
+JP ファンクラブじゃないから。
+EN No, it's not that kind of fan club.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 天神 美沙
+JP ふっふっふ。
+JP 美沙の魅了の呪文は
+JP 効果絶大なのです。
+EN Heh heh heh. Misa's charm spell is tremendously
+EN effective.
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Make sure you live up to their expectations.
+
+@ 40.26
+# 天神 美沙
+JP まかせるのです。
+JP 魔力を磨いて、美沙の魅力から
+JP 逃れられないようにしてやるのです。
+EN Leave it to Misa. She will polish her magic so no one
+EN can escape Misa's charms.
+
+@ 40.29
+# 社 長
+JP 頼むからリングの上の魅力で
+JP 惹きつけてくれ。
+EN Please, just win them over with your charm in the
+EN ring.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 天神 美沙
+JP ちっ、何ものかが
+JP 美沙の魔法を打ち破ったのです。
+EN Tch, someone has broken Misa's magic.
+
+@ 41.19
+# 社 長
+JP いや、魔法は関係ないだろう。
+EN No, magic has nothing to do with it.
+
+@ 41.23
+# 天神 美沙
+JP 関係あるのですー！
+JP 魔法が破られたのでなければ
+JP ファンが減る訳ないのですー！
+EN It does tooo! If her magic had not been broken,
+EN Misa's fans would never have gone awaaay!
+
+@ 41.26
+# 社 長
+JP （結構ショックだったんだな）
+EN (She's really taking this hard.)
+
+@ 42.16
+# scene 043 映画出演
+# 天神 美沙
+JP お任せなのです！
+JP 今年の映画賞は総なめなのですよ！
+EN Leave it to Misa! She will sweep this year's film
+EN awards!
+
+@ 43.16
+# scene 044 一日署長
+# 天神 美沙
+JP 美沙の魔力に権力が加われば
+JP 怖いものなど何もないのです。
+JP 今日一日美沙の支配下なのです～。
+EN With Misa's magic power plus real authority, there is
+EN nothing to fear. For today, the town is under Misa's
+EN rule!
+
+@ 44.16
+# scene 045 写真集発売
+# 天神 美沙
+JP そんなものを出したら美沙の魅力で
+JP 悶絶する人が続出するのです。
+JP 美沙は責任とりきれないのですよ？
+EN If you put out such a thing, people will faint left and
+EN right from Misa's charms. Misa cannot take
+EN responsibility, you know?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 天神 美沙
+JP 任せるのです。
+JP 美沙の魔法の力があれば
+JP なんでもヒット商品になるのです。
+EN Leave it to Misa. With the power of Misa's magic,
+EN anything will become a hit product.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 天神 美沙
+JP 美沙が歌ったら、そこらのアイドルは
+JP 商売あがったりなのですよ。
+JP えへへ。
+EN If Misa sings, every idol out there will be out of
+EN business, you know. Ehehe.
+
+@ 47.16
+# scene 048 始球式
+# 天神 美沙
+JP まかせるのです。
+JP 美沙はストライクゾーンを４分割して
+JP 自在に投げられるのです。
+EN Leave it to Misa. She can divide the strike zone into
+EN four and throw wherever she likes.
+
+@ 48.16
+# scene 049 学園祭
+# 天神 美沙
+JP 美沙が出向けば、すべての出し物が
+JP 美沙に喰われてしまうのです。
+JP 実行委員は覚悟の上なのでしょうか？
+EN If Misa shows up, she will steal the spotlight from
+EN every other act. Is the festival committee prepared
+EN for that?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.38
+# 天神 美沙
+JP ありがとうなのです。
+JP 今日から美沙もオトナなので、色々と
+JP オトナの付き合いができるのですよ～。
+EN Thank you. From today Misa is a grown-up too, so
+EN she can have all sorts of grown-up relationships,
+EN you know.
+
+@ 49.41
+# 社 長
+JP …何を考えてるのか知らんが
+JP ほどほどにな。
+EN ...I don't know what you're thinking, but don't overdo
+EN it.
+
+@ 49.48
+# 天神 美沙
+JP まかせてほしいのです。
+JP 美沙はほどほどとか
+JP 中途半端が大っ嫌いなのですよ。
+EN Leave it to Misa. She absolutely hates "not
+EN overdoing it" and doing things halfway.
+
+@ 49.51
+# 社 長
+JP 人の話を聞け。
+EN Listen to what people say.
+
+@ 50.32
+# scene 051 バレンタインデー
+# 天神 美沙
+JP 社長、これ…。
+JP バレンタインのチョコなのです。
+JP 美沙の愛がたっぷりなのです。
+EN Boss, this... It is Valentine's chocolate. It is packed
+EN full of Misa's love.
+
+@ 50.35
+# 社 長
+JP ああ、ありがとう。
+EN Ah, thank you.
+
+@ 50.38
+# 社 長
+JP 美沙のことだから
+JP 愛以外のものも
+JP いっぱい入ってそうだな。
+EN Knowing you, there's probably plenty in here
+EN besides love.
+
+@ 50.45
+# 天神 美沙
+JP え…は、入ってないのです。
+JP 魔法的な素材とかホレ薬の原料なんて
+JP 全然混ぜ込んでないのです…。
+EN Wh... There is nothing in it! Misa did not mix in any
+EN magical ingredients or love potion base at all...
+
+@ 50.48
+# 社 長
+JP …………………。
+EN .....................
+
+@ 50.50
+# 社 長
+JP （食べるのが怖くなってきた）
+EN (Now I'm scared to eat it.)
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# 天神 美沙
+JP ありがとうなのです。
+JP それで…その…１ヶ月たっても
+JP なんともないのですか？
+EN Thank you. So... um... it has been a month, and nothing
+EN has happened to you?
+
+@ 51.41
+# 社 長
+JP ああ…。
+JP おかげさまでな…。
+EN Yeah... Thankfully...
+
+@ 51.43
+# 社 長
+JP （すごい味だったが
+JP 　何を入れたかはもはや聞くまい）
+EN (It tasted incredible, but I won't ask what she put in
+EN it anymore.)
+
+@ 51.45
+# 社 長
+JP （というか、食べてしまった以上
+JP 　聞きたくない）
+EN (Or rather, now that I've eaten it, I don't want to
+EN know.)
+
+@ 52.31
+# scene 053 サイン会
+# 天神 美沙
+JP 美沙のサインには
+JP 魔力の御利益があるのです。
+JP みんなはラッキーなのです。
+EN Misa's autograph carries the blessing of magic
+EN power. Everyone here is lucky.
+
+@ 53.31
+# scene 054 コンサート
+# 天神 美沙
+JP リング上とは違った
+JP 美沙の魅力をお伝えするのですよ。
+JP みんなの視線を釘付けなのです。
+EN Misa will show you a different charm from the one
+EN she shows in the ring. All eyes will be glued to her.
+
+@ 54.28
+# scene 055 練習拒否
+# 天神 美沙
+JP 今日は休めと
+JP 魔法が言っているのです。
+EN The magic says Misa should rest today.
+
+@ 55.28
+# scene 056 失踪
+# 天神 美沙
+JP 魔法が呼んでるので
+JP 出かけてくるのです。
+EN The magic is calling, so Misa is heading out.
+
+@ 56.16
+# scene 057 選手解雇
+# 天神 美沙
+JP み、美沙を捨てるのですねっ！
+JP 社長は天使みたいなヤローなのです！
+JP くたばっちまえなのです！
+EN Y-you are throwing Misa away! Boss, you are just
+EN like an angel, you jerk! Go croak!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 天神 美沙
+JP 海外の魔法を学んでくるのです。
+EN Misa is off to study foreign magic.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 天神 美沙
+JP ふっ…。
+JP あらたな魔力を得た美沙が
+JP 戻ってきたのです！
+EN Heh... Misa has returned with new magic power!
+
+@ 59.28
+# scene 060 移籍思案
+# 天神 美沙
+JP はてさて…。
+JP 魔法すらも迷っているようなのです。
+EN Well, well... Even the magic seems undecided.
+
+@ 60.16
+# scene 061 革命軍結成
+# 天神 美沙
+JP ここに魔法王国を
+JP 打ち立ててやるのです。
+EN Misa will found a magic kingdom here.
+
+@ 61.16
+# scene 062 反乱軍結成
+# 天神 美沙
+JP 美沙たちは弾圧に負けないのですよ！
+EN We will not give in to oppression!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 天神 美沙
+# (no \b: the original line has no end-of-message code)
+JP さあ！
+JP ハルマゲドンのときが来たのです！
+EN Now! The hour of Armageddon has come!
+
+@ 63.16
+# scene 064 遺恨発生
+# 天神 美沙
+JP 呪ってやるのです。
+JP くたばりやがれなのですよ。
+EN Misa curses you. Go croak, you hear?
+
+@ 64.16
+# scene 065 殴り込み
+# 天神 美沙
+JP いっちょ、ひねってきてやるのです。
+EN Misa will go give them a good thrashing.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 天神 美沙
+JP 美沙の魔法の前に
+JP 屈服するが良いのです。
+EN Bow down before Misa's magic!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 天神 美沙
+JP 美沙の魔力で制圧してやるのです！
+EN Misa will conquer you with her magic power!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 天神 美沙
+JP この魔女にお任せあれ…なのです。
+EN Leave it to this witch... is what Misa says.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 天神 美沙
+JP だからお任せあれと言ったのです。
+JP こうなることは
+JP 決まっていたのですよ。
+EN Misa told you to leave it to her. It was decided this
+EN would happen all along.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 天神 美沙
+JP うぅ…。
+JP おかしいのです。
+JP こんなはずはないのです…。
+EN Ugh... This is wrong. This should not have happened...
+
+@ 70.13
+# scene 071 引退式
+# 天神 美沙
+JP 皆さんが美沙を覚えている限り
+JP 美沙はいつまでも現役なのです。
+JP だから、これは…お別れじゃ…。
+EN As long as you all remember Misa, she will be an
+EN active wrestler forever. So this is... not goodbye...
+
+@ 71.18
+# 天神 美沙
+JP なんです？
+EN What is it?
+
+@ 71.36
+# 天神 美沙
+JP 美沙に何かご用なのですか？
+EN Do you need something from Misa?
+
+@ 71.46
+# 天神 美沙
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing great lately. Keep it up.
+
+@ 71.89
+# 天神 美沙
+JP 了解なのです。
+JP 美沙の運気はこれから上り調子。
+JP 今のうちにがんばるのですよ。
+EN Roger that. Misa's luck is on the rise from here. She
+EN must work hard while it lasts.
+
+@ 71.110
+# 天神 美沙
+JP その褒め言葉は聞き流しておけと
+JP 魔法が言っているので
+JP 聞き流すのです。
+EN The magic says to let that compliment go in one ear
+EN and out the other, so Misa will.
+
+@ 71.131
+# 天神 美沙
+JP ボスに褒められたのですよ。
+JP 見ててくださいなのです。
+JP 美沙は褒められて伸びる子なのです。
+EN The Boss praised Misa! Just watch her. Misa is the
+EN kind of girl who grows with praise.
+
+@ 71.152
+# 天神 美沙
+JP 褒められたのです。
+JP これも昨日「ボスに褒められたい」と
+JP 魔法をかけておいたからなのです。
+EN Misa got praised. It is all because she cast a "make
+EN the Boss praise me" spell yesterday.
+
+@ 71.165
+# 社 長
+JP ひとつ言っておきたいことがある。
+JP ここのところ、おまえは…。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 71.189
+# 天神 美沙
+JP …叱られたのです。
+JP 魔力が抜けていく気分なのです。
+EN ...Misa got scolded. She feels her magic power
+EN draining away.
+
+@ 71.210
+# 天神 美沙
+JP その叱責は、魔法的に
+JP どのような意味があるのですか？
+EN What is the magical significance of that reprimand?
+
+@ 71.231
+# 天神 美沙
+JP 社長に叱られるのは
+JP 魔法が使えなくなるのと同じくらい
+JP ショックなのです。
+EN Being scolded by the Boss is as big a shock to Misa
+EN as losing her magic.
+
+@ 71.252
+# 天神 美沙
+JP それは新手の照れ隠しか
+JP 何かなのですか？
+EN Is that some new way of hiding your embarrassment?
+
+@ 71.265
+# 社 長
+JP 最近はおまえらしくないじゃないか？
+JP おまえの実力はそんなものじゃ
+JP ないはずだ。
+EN You haven't been yourself lately, have you? You're
+EN better than this.
+
+@ 71.289
+# 天神 美沙
+JP ごめんなさいなのです。
+JP 最近、魔法が圏外になることが
+JP 多いのです。
+EN Misa is sorry. Lately the magic has been out of
+EN range a lot.
+
+@ 71.292
+# 社 長
+JP 圏外って…。
+EN Out of range...?
+
+@ 71.313
+# 天神 美沙
+JP 美沙のせいではないのです～。
+JP 実は最近、魔法が圏外になることが
+JP 多いのです。
+EN It is not Misa's fault! The truth is, lately the magic
+EN has been out of range a lot.
+
+@ 71.316
+# 社 長
+JP 圏外って…。
+EN Out of range...?
+
+@ 71.337
+# 天神 美沙
+JP 社長の愛を感じるのです…。
+JP 美沙の体に幸せの魔法が充満していく
+JP 気分なのですよ～。
+EN Misa can feel the Boss's love... It feels like a spell of
+EN happiness is filling her whole body.
+
+@ 71.358
+# 天神 美沙
+JP ボスにはげまされたのです。
+JP 魔法が告げているのです…。
+JP ボスとのフラグがたった、と！
+EN The Boss encouraged Misa. The magic is telling her...
+EN A flag with the Boss has been raised!
+
+@ 71.372
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.388
+# 天神 美沙
+JP もちろん、わかっているのです。
+EN Of course Misa knows.
+
+@ 71.405
+# 天神 美沙
+JP もちろん、わかっているのです。
+EN Of course Misa knows.
+
+@ 71.416
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.438
+# 天神 美沙
+JP わかっていると言ったのです。
+JP ここに来る前に和解したのです。
+EN Misa said she knows. She made up with her before
+EN coming here.
+
+@ 71.459
+# 天神 美沙
+JP わかっていると言ったのです…。
+JP ただ、まだ仲直りしてはいけないと
+JP 魔法が告げているのです。
+EN Misa said she knows... But the magic says it is not
+EN yet time to make up.
+
+@ 71.480
+# 天神 美沙
+JP ボスが果てしなく
+JP トンチンカンであることは
+JP 魔法によって伝えられていたのです。
+EN The magic had already told Misa that the Boss is
+EN endlessly clueless.
+
+@ 71.493
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.510
+# 天神 美沙
+JP もちろんなのです。
+JP 社長と美沙は以心伝心なのです♪
+EN Of course. The Boss and Misa are on the same
+EN wavelength!
+
+@ 71.527
+# 天神 美沙
+JP もちろんなのです。
+JP 社長と美沙は以心伝心なのです♪
+EN Of course. The Boss and Misa are on the same
+EN wavelength!
+
+@ 71.540
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.562
+# 天神 美沙
+JP 以心伝心と言ったのです。
+JP ここに来る前に
+JP 和解してきたのですよ♪
+EN Misa said we are on the same wavelength. She went
+EN and made up with her before coming here!
+
+@ 71.583
+# 天神 美沙
+JP 以心伝心と言ったのです。
+JP ここに来る前に和解しておこうと
+JP 思って…大喧嘩になったのです♪
+EN Misa said we are on the same wavelength. She tried
+EN to make up before coming here... and it turned into a
+EN huge fight!
+
+@ 71.604
+# 天神 美沙
+JP 以心伝心と言ったのです。
+JP 社長がそんな勘違いをするのも
+JP 美沙を想っているがゆえなのです。
+EN Misa said we are on the same wavelength. The Boss
+EN only made such a mistake because he cares about
+EN Misa.
+
+@ 72.13
+# scene 073 会話 一言目 好意
+# 天神 美沙
+JP 美沙に何かご用なのですか？
+EN Do you need something from Misa?
+
+@ 72.15
+# 天神 美沙
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing great lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 天神 美沙
+JP 了解なのです。
+JP 美沙の運気はこれから上り調子。
+JP 今のうちにがんばるのですよ。
+EN Roger that. Misa's luck is on the rise from here. She
+EN must work hard while it lasts.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 天神 美沙
+JP その褒め言葉は聞き流しておけと
+JP 魔法が言っているので
+JP 聞き流すのです。
+EN The magic says to let that compliment go in one ear
+EN and out the other, so Misa will.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 天神 美沙
+JP ボスに褒められたのですよ。
+JP 見ててくださいなのです。
+JP 美沙は褒められて伸びる子なのです。
+EN The Boss praised Misa! Just watch her. Misa is the
+EN kind of girl who grows with praise.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 天神 美沙
+JP 褒められたのです。
+JP これも昨日「ボスに褒められたい」と
+JP 魔法をかけておいたからなのです。
+EN Misa got praised. It is all because she cast a "make
+EN the Boss praise me" spell yesterday.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP ひとつ言っておきたいことがある。
+JP ここのところ、おまえは…。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 天神 美沙
+JP ……叱られたのです。
+JP 魔力が抜けていく気分なのです。
+EN ...Misa got scolded. She feels her magic power
+EN draining away.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 天神 美沙
+JP その叱責は、魔法的に
+JP どのような意味があるのですか？
+EN What is the magical significance of that reprimand?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 天神 美沙
+JP 社長に叱られるのは…
+JP 魔法が使えなくなるのと同じくらい、
+JP ショックなのです。
+EN Being scolded by the Boss is as big a shock to Misa
+EN as losing her magic.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 天神 美沙
+JP それは、新手の照れ隠しか
+JP 何かなのですか？
+EN Is that some new way of hiding your embarrassment?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP どうした？　最近はおまえらしくない
+JP じゃないか。お前の実力はそんなもの
+JP じゃないはずだ。
+EN What's wrong? You haven't been yourself lately.
+EN You're better than this.
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 天神 美沙
+JP ごめんなさいなのです。
+JP 最近、魔法が圏外になることが
+JP 多いのです。
+EN Misa is sorry. Lately the magic has been out of
+EN range a lot.
+
+@ 84.19
+# 社 長
+JP 圏外って…。
+EN Out of range...?
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 天神 美沙
+JP 美沙のせいではないのです～。
+JP 実は、最近、
+JP 魔法が圏外になることが多いのです。
+EN It is not Misa's fault! The truth is, lately the magic
+EN has been out of range a lot.
+
+@ 85.19
+# 社 長
+JP 圏外って…。
+EN Out of range...?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 天神 美沙
+JP 社長の愛を感じるのです…。
+JP 美沙の体に幸せの魔法が充満していく
+JP 気分なのですよ～。
+EN Misa can feel the Boss's love... It feels like a spell of
+EN happiness is filling her whole body.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 天神 美沙
+JP ボスにはげまされたのです。
+JP 魔法が告げているのです…。
+JP ボスとのフラグがたった、と！
+EN The Boss encouraged Misa. The magic is telling her...
+EN A flag with the Boss has been raised!
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 天神 美沙
+JP もちろん、わかっているのです。
+EN Of course Misa knows.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 天神 美沙
+JP もちろん、わかっているのです。
+EN Of course Misa knows.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 天神 美沙
+JP わかっていると言ったのです。
+JP ここに来る前に和解したのです。
+EN Misa said she knows. She made up with her before
+EN coming here.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 天神 美沙
+JP わかっていると言ったのです…。
+JP ただ、まだ仲直りしてはいけないと
+JP 魔法が告げているのです。
+EN Misa said she knows... But the magic says it is not
+EN yet time to make up.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 天神 美沙
+JP ボスが果てしなく
+JP トンチンカンであることは、
+JP 魔法によって伝えられていたのです。
+EN The magic had already told Misa that the Boss is
+EN endlessly clueless.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 天神 美沙
+JP もちろんなのです。
+JP 社長と美沙は以心伝心なのです♪
+EN Of course. The Boss and Misa are on the same
+EN wavelength!
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 天神 美沙
+JP もちろんなのです。
+JP 社長と美沙は以心伝心なのです♪
+EN Of course. The Boss and Misa are on the same
+EN wavelength!
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 天神 美沙
+JP 以心伝心と言ったのです。
+JP ここに来る前に
+JP 和解してきたのですよ♪
+EN Misa said we are on the same wavelength. She went
+EN and made up with her before coming here!
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 天神 美沙
+JP 以心伝心と言ったのです。ここに
+JP 来る前に和解しておこうと思って…
+JP 大喧嘩になったのです♪
+EN Misa said we are on the same wavelength. She tried
+EN to make up before coming here... and it turned into a
+EN huge fight!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 天神 美沙
+JP 以心伝心と言ったのです。
+JP 社長がそんな勘違いをするのも、
+JP 美沙を想っているがゆえなのです。
+EN Misa said we are on the same wavelength. The Boss
+EN only made such a mistake because he cares about
+EN Misa.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 天神 美沙
+JP 了解なのです。
+JP まあまあ妥当なところなのです。
+EN Understood. That is reasonable enough.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 天神 美沙
+JP 嬉しいのです♪
+JP これからも魔力を駆使して
+JP 団体のために戦うのですよ。
+EN Misa is so happy! She will keep using her magic power
+EN to fight for the promotion.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 天神 美沙
+JP 不満ですが…ここは折れておけと
+JP 魔法が言っているので
+JP しぶしぶ納得するのです。
+EN Misa is not satisfied... but the magic says to give in
+EN this time, so she will reluctantly agree.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived on a southern island.)
+
+@ 105.30
+# 社 長
+JP （美沙の希望した場所だ）
+EN (It was the place Misa had asked for.)
+
+@ 105.32
+# 社 長
+JP （美沙の希望だから
+JP 　何か怪しい所かもと警戒したが）
+EN (Since it was Misa's pick, I was wary it might be
+EN somewhere shady...)
+
+@ 105.34
+# 社 長
+JP （資料を見る限り普通の観光地で
+JP 　値段も結構安かったので
+JP 　願いを聞き入れた）
+EN (But from the brochures it was a normal tourist
+EN spot, and pretty cheap too, so I granted her wish.)
+
+@ 105.36
+# 社 長
+JP （海も綺麗で
+JP 　みんなにも好評だった）
+EN (The sea was beautiful, and everyone loved it.)
+
+@ 105.38
+# 社 長
+JP （のは良いが…）
+EN (That part was fine, but...)
+
+@ 105.59
+# 社 長
+JP （夜中、美沙が部屋にいないという
+JP 　報告が入った）
+EN (In the middle of the night, I got word that Misa
+EN wasn't in her room.)
+
+@ 105.61
+# 社 長
+JP （慌てて探しに出たのは
+JP 　言うまでもない）
+EN (Needless to say, I rushed out to look for her.)
+
+@ 105.63
+# 社 長
+JP （いくら観光地でも
+JP 　夜中に女の子が出歩くのは
+JP 　危険すぎる）
+EN (Tourist spot or not, it's far too dangerous for a
+EN girl to wander around at night.)
+
+@ 105.65
+# 社 長
+JP （はたして、美沙は…）
+EN (And Misa was...)
+
+@ 105.67
+# 社 長
+JP （あっさりと見つかった）
+EN (Found right away.)
+
+@ 105.69
+# 社 長
+JP （泊まっているホテルの屋上で）
+EN (On the roof of our hotel.)
+
+@ 105.89
+# 天神 美沙
+JP 我は求め訴えるのです。
+JP 求めるのです～。
+EN I seek and I implore! Misa seeeeks...
+
+@ 105.92
+# 社 長
+JP （あいつはこんな夜中に
+JP 　何をやっているんだ？）
+EN (What is she doing at this time of night?)
+
+@ 105.94
+# 社 長
+JP （俺は背後から
+JP 　そ～っと美沙に近づいた）
+EN (I quietly crept up on Misa from behind.)
+
+@ 105.98
+# 天神 美沙
+JP 美沙の魅力に気づくのです～。
+JP 気づくのです～。
+EN Notice Misa's charms! Noooootice them...
+
+@ 105.102
+# 天神 美沙
+JP あの人は鈍感なのです。
+EN That man is so dense.
+
+@ 105.106
+# 天神 美沙
+JP あるいはわかってて
+JP かわしているのです。
+JP どっちにしても泣きそうなのです。
+EN Or maybe he knows and is dodging her on purpose.
+EN Either way, Misa could cry.
+
+@ 105.110
+# 天神 美沙
+JP あんなにいつも一緒にいるのに…。
+JP この魅惑の果実に手を
+JP 出さないのです～。
+EN He is always with her, and yet... he never reaches for
+EN this enchanting fruit...
+
+@ 105.114
+# 天神 美沙
+JP 気づきやがれなのですよ。
+JP ちくしょー。
+EN Notice already, darn it! Rats!
+
+@ 105.117
+# 社 長
+JP …何をやっているんだ？
+EN ...What are you doing?
+
+@ 105.121
+# 天神 美沙
+JP 見てわからないのですか？
+JP 魔法の儀式なのです。
+EN Can you not tell by looking? It is a magic ritual.
+
+@ 105.124
+# 社 長
+JP 魔法の儀式？
+EN A magic ritual?
+
+@ 105.128
+# 天神 美沙
+JP なのです。
+EN Indeed.
+
+@ 105.132
+# 天神 美沙
+JP この時期、この場所で儀式を行うと
+JP 願いが叶うと言われているのです。
+EN They say if you perform a ritual here at this time of
+EN year, your wish will come true.
+
+@ 105.135
+# 社 長
+JP なるほど。
+EN I see.
+
+@ 105.137
+# 社 長
+JP それでこの場所にこだわったのか。
+EN So that's why you insisted on this place.
+
+@ 105.141
+# 天神 美沙
+JP なのです。
+JP 自腹で来るのはキツイのです。
+EN Indeed. Coming here on her own dime would have been
+EN tough.
+
+@ 105.144
+# 社 長
+JP それで夜中にこっそりと
+JP 抜け出した、と。
+EN And that's why you snuck out in the middle of the
+EN night.
+
+@ 105.148
+# 天神 美沙
+JP なのです。
+JP 誰かに目撃されたら
+JP 魔法の効果が表れないのです。
+EN Indeed. If anyone sees the ritual, the magic will not
+EN work.
+
+@ 105.151
+# 社 長
+JP 見られたら、もうダメなのか？
+EN If someone sees it, it's over?
+
+@ 105.155
+# 天神 美沙
+JP ダメなのです。
+JP 失敗なのです。
+EN It is over. A failure.
+
+@ 105.158
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.162
+# 天神 美沙
+JP …………………え？
+EN .....................Huh?
+
+@ 105.166
+# 天神 美沙
+JP はて…美沙は今
+JP 誰と話をしているのですか？
+EN Wait... Who is Misa talking to right now?
+
+@ 105.180
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.182
+# 社 長
+JP （そして、美沙はふり返り）
+EN (And then Misa turned around...)
+
+@ 105.184
+# 社 長
+JP （自分の「儀式」とやらが
+JP 　失敗に終わったことを
+JP 　理解したのだった）
+EN (...and realized that her so-called "ritual" had ended
+EN in failure.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある日、いつものように仕事を
+JP 　していると）
+EN (One day, while I was working as usual...)
+
+@ 106.34
+# 天神 美沙
+JP …………はう……。
+EN ............Hauu......
+
+@ 106.37
+# 社 長
+JP （やたらと元気のない美沙が
+JP 　やってきた）
+EN (...Misa came in looking awfully down.)
+
+@ 106.41
+# 天神 美沙
+JP う～～。
+EN Uuuugh...
+
+@ 106.44
+# 社 長
+JP どうした？
+JP 随分と元気がないな。
+EN What's wrong? You seem pretty down.
+
+@ 106.48
+# 天神 美沙
+JP ないのです。
+EN Misa is.
+
+@ 106.52
+# 天神 美沙
+JP 最近、気になることがあって
+JP 魔力が低下しているのですよ～。
+EN Something has been bothering Misa lately, and her
+EN magic power is dropping...
+
+@ 106.55
+# 社 長
+JP 魔力、か…。
+EN Magic power, huh...
+
+@ 106.57
+# 社 長
+JP （自称・魔女である彼女）
+EN (She calls herself a witch.)
+
+@ 106.59
+# 社 長
+JP （魔女と言いながら、美沙の使う力は
+JP 　「予知」や「心読み」といった
+JP 　占い師に近い力だ）
+EN (But for all her talk of witchcraft, her powers are
+EN closer to a fortune teller's: "precognition," "mind
+EN reading.")
+
+@ 106.61
+# 社 長
+JP （魔法の存在とやらは簡単には
+JP 　信じられないが）
+EN (I can't easily believe in this "magic" of hers...)
+
+@ 106.63
+# 社 長
+JP （実際、こいつの予知はかなりの
+JP 　確率で当たる）
+EN (But her predictions really do come true pretty
+EN often.)
+
+@ 106.65
+# 社 長
+JP （俺も、こいつに何度
+JP 　心を見透かされたことか）
+EN (I've lost count of how many times she's seen right
+EN through me.)
+
+@ 106.67
+# 社 長
+JP （美沙は、その力を
+JP 　リングの上でも使う）
+EN (Misa uses that power in the ring too.)
+
+@ 106.69
+# 社 長
+JP （相手の心を読み
+JP 　動きを予知して試合をする）
+EN (She reads her opponent's mind and predicts their
+EN moves.)
+
+@ 106.71
+# 社 長
+JP （だから、魔力が弱まるということは
+JP 　レスラーとしての美沙の弱体化も
+JP 　意味している）
+EN (So if her magic power weakens, that means Misa
+EN gets weaker as a wrestler, too.)
+
+@ 106.73
+# 社 長
+JP 魔力の補充っていうのが
+JP どういうものかは知らないが…。
+EN I don't know how this "recharging magic power"
+EN works, but...
+
+@ 106.75
+# 社 長
+JP まぁ、俺にできることなら
+JP 協力しよう。
+EN Well, if there's anything I can do, I'll help.
+
+@ 106.82
+# 天神 美沙
+JP 本当ですか？
+EN Really?
+
+@ 106.85
+# 社 長
+JP ああ。
+EN Yeah.
+
+@ 106.92
+# 天神 美沙
+JP それでは、遠慮なく
+JP 補充させてもらうのです。
+EN Then Misa will recharge without holding back.
+
+@ 106.95
+# 社 長
+JP （そう言うと美沙は俺に近づき）
+EN (With that, Misa came up close to me...)
+
+@ 106.114
+# 天神 美沙
+JP んっ……。
+EN Mmh......
+
+@ 106.117
+# 社 長
+JP （抱きつくと唇を重ねてきた）
+EN (...threw her arms around me, and pressed her lips to
+EN mine.)
+
+@ 106.119
+# 社 長
+JP （これは一体どういう状況だ！）
+EN (What on earth is going on here!?)
+
+@ 106.121
+# 社 長
+JP （そして、しばらくのときが過ぎ）
+EN (And after a little while...)
+
+@ 106.136
+# 社 長
+JP （美沙が俺から離れた）
+EN (...Misa pulled away from me.)
+
+@ 106.146
+# 天神 美沙
+JP ごちそうさまなのです。
+JP 魔力の補充、完了なのです。
+EN Thank you for the treat. Magic power recharge
+EN complete.
+
+@ 106.153
+# 天神 美沙
+JP ご協力、感謝するのです！
+EN Misa thanks you for your cooperation!
+
+@ 106.161
+# 社 長
+JP （そう言うと
+JP 　美沙は恥ずかしいのか
+JP 　走って出て行ってしまった）
+EN (With that, Misa ran out of the room, maybe out of
+EN embarrassment.)
+
+@ 106.163
+# 社 長
+JP これが補充方法か…。
+EN So that's how she recharges...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある日、いつものように
+JP 　仕事をしていると）
+EN (One day, while I was working as usual...)
+
+@ 107.34
+# 天神 美沙
+JP しゃ～ちょ～…。
+EN Booooss...
+
+@ 107.37
+# 社 長
+JP （やたらと元気のない
+JP 　美沙がやってきた）
+EN (...Misa came in looking awfully down.)
+
+@ 107.41
+# 天神 美沙
+JP うぅ～～。
+EN Uuuugh...
+
+@ 107.44
+# 社 長
+JP （このパターンは）
+EN (I know this pattern.)
+
+@ 107.46
+# 社 長
+JP またか？
+EN Again?
+
+@ 107.50
+# 天神 美沙
+JP またなのです。
+EN Again.
+
+@ 107.54
+# 天神 美沙
+JP 最近、魔力の減りが早いのですよ～。
+EN Misa's magic power has been running out fast
+EN lately...
+
+@ 107.57
+# 社 長
+JP うーむ。
+EN Hmmm.
+
+@ 107.64
+# 天神 美沙
+JP そんな顔しないのです。
+JP 所属している魔女の魔力を高めるのは
+JP 社長の仕事なのです。
+EN Do not make that face. Raising the magic power of
+EN the promotion's witches is the Boss's job.
+
+@ 107.67
+# 社 長
+JP 俺が雇っているのは
+JP レスラーであって
+JP 魔女じゃないんだが…。
+EN I hire wrestlers, not witches...
+
+@ 107.69
+# 社 長
+JP （美沙の魔法について
+JP 　最近わかったことがある）
+EN (I've figured something out about Misa's magic
+EN lately.)
+
+@ 107.71
+# 社 長
+JP （こいつは一見とぼけた女に
+JP 　見えるが…）
+EN (She seems like a goofy girl at first glance, but...)
+
+@ 107.73
+# 社 長
+JP （常識では考えられないほどの
+JP 　情報分析能力と観察眼を
+JP 　持っている）
+EN (She has powers of observation and analysis beyond
+EN all common sense.)
+
+@ 107.75
+# 社 長
+JP （こいつの予知や心読みは魔法でも
+JP 　なんでもない）
+EN (Her predictions and mind reading aren't magic or
+EN anything like it.)
+
+@ 107.77
+# 社 長
+JP （観察眼と超分析能力の賜物だ）
+EN (They come from her keen eye and incredible
+EN analytical skills.)
+
+@ 107.79
+# 社 長
+JP （ただ…あまりにその能力が
+JP 　すごすぎて、こいつ自身
+JP 　それを理解していない）
+EN (But her ability is so extraordinary that she doesn't
+EN understand it herself.)
+
+@ 107.81
+# 社 長
+JP （無意識下で勝手に結論が
+JP 　出てしまう）
+EN (Her subconscious reaches conclusions on its own.)
+
+@ 107.83
+# 社 長
+JP （それを美沙は「魔法の声」と
+JP 　思いこんでいる）
+EN (And Misa believes that's "the voice of the magic.")
+
+@ 107.85
+# 社 長
+JP （のだが、それを伝えるべきか
+JP 　どうかは判断に悩むところだ）
+EN (The question is whether I should tell her that. I
+EN can't decide.)
+
+@ 107.92
+# 天神 美沙
+JP 何を難しい顔しているのです？
+EN What is that serious face for?
+
+@ 107.95
+# 社 長
+JP （気付いたときには
+JP 　美沙がすぐそばに来ていた）
+EN (Before I knew it, Misa was right beside me.)
+
+@ 107.114
+# 天神 美沙
+JP んっ……。
+EN Mmh......
+
+@ 107.117
+# 社 長
+JP （美沙の言うところの
+JP 　魔力の補充の儀式）
+EN (What Misa calls her magic power recharging ritual.)
+
+@ 107.119
+# 社 長
+JP （これも、美沙の無意識が
+JP 　「そうしろ」と告げている
+JP 　のだろうか）
+EN (Is this her subconscious telling her to do it, too?)
+
+@ 107.123
+# 天神 美沙
+JP ん……ふ……。
+EN Mm...... Fuu......
+
+@ 107.126
+# 社 長
+JP （おまえの使っている力は
+JP 　魔法ではない）
+EN (The power you use isn't magic.)
+
+@ 107.128
+# 社 長
+JP （そう伝えたとして
+JP 　美沙は信じるだろうか？）
+EN (If I told her that, would she believe me?)
+
+@ 107.132
+# 天神 美沙
+JP …………ん……。
+EN ............Mm......
+
+@ 107.135
+# 社 長
+JP （信じたとして
+JP 　美沙の魔法は今まで無意識下だから
+JP 　うまく使えていた力だ）
+EN (And if she did believe me... her magic has worked so
+EN well precisely because it's unconscious.)
+
+@ 107.137
+# 社 長
+JP （意識したら
+JP 　美沙はガタガタになってしまう
+JP 　かもしれない）
+EN (Once she's aware of it, she might fall apart.)
+
+@ 107.139
+# 社 長
+JP （そう思うと怖くて伝えられない）
+EN (When I think of that, I'm too scared to tell her.)
+
+@ 107.143
+# 天神 美沙
+JP んっ。
+EN Mmh.
+
+@ 107.162
+# 天神 美沙
+JP ごちそうさまなのです。
+EN Thank you for the treat.
+
+@ 107.165
+# 社 長
+JP 最近は少し時間がかかるな。
+EN It takes a bit longer these days.
+
+@ 107.169
+# 天神 美沙
+JP まあ、そういうものなのですよ。
+EN Well, that is just how it is.
+
+@ 107.176
+# 天神 美沙
+JP …それに魔力の補充なんて
+JP ただの言い訳ですし…。
+EN ...Besides, "recharging magic power" is just an
+EN excuse anyway...
+
+@ 107.179
+# 社 長
+JP 何か言ったか？
+EN Did you say something?
+
+@ 107.186
+# 天神 美沙
+JP いえ、こっちのことなので…。
+JP いえ、実は……。
+EN No, that was nothing... I mean, actually......
+
+@ 107.193
+# 天神 美沙
+JP 実は、まだたりないのです。
+EN Actually, it is still not enough.
+
+@ 107.196
+# 社 長
+JP まだか。
+EN Still not enough?
+
+@ 107.203
+# 天神 美沙
+JP はい、なのです。
+EN Yes, indeed.
+
+@ 107.207
+# 天神 美沙
+JP だから、もっといただきます
+JP なのですよ。
+EN So Misa will be having some more.
+
+@ 107.222
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.224
+# 社 長
+JP （そう言って、美沙は）
+EN (And with that, Misa...)
+
+@ 107.226
+# 社 長
+JP （再び俺にしがみついてきた）
+EN (...clung to me once again.)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 天神 美沙
+JP いくのですよ、小悪魔。
+JP 一蹴してやるのです。
+EN Here Misa comes, you little devil. She will kick you to
+EN the curb.
+
+@ 109.16
+# scene 113 練習開始
+# 天神 美沙
+JP はぁ、今日も練習なのです。
+EN Sigh, training again today.
+
+@ 110.16
+# scene 114 練習開始 好意
+# 天神 美沙
+JP 社長、見ててくださいなのです。
+EN Boss, please watch Misa.
+
+@ 111.16
+# scene 115 特訓開始
+# 天神 美沙
+JP うぅ…特訓……。
+EN Ugh... Special training......
+
+@ 112.20
+# scene 116 特訓成功
+# 天神 美沙
+JP ふう…。
+JP なんとか成功したのです。
+JP キツいのは嫌なのです。
+EN Phew... Misa somehow pulled it off. She hates the hard
+EN stuff.
+
+@ 113.20
+# scene 117 特訓失敗
+# 天神 美沙
+JP み…美沙がなぜこんな目に……。
+EN Wh... Why does Misa have to go through this......
+
+@ 114.16
+# scene 118 休養
+# 天神 美沙
+JP 骨休めなのです。
+JP 羽をのばすのです。
+JP だらけまくってやるのです～。
+EN Time to rest those bones. Time to spread her wings.
+EN Misa is going to laze around to her heart's content!
+
+@ 115.16
+# scene 119 入場1
+# 天神 美沙
+JP 美沙の魔力を満天下に示すのです！
+EN Misa will show her magic power to the whole world!
+
+@ 116.16
+# scene 119 入場2
+# 天神 美沙
+JP 今宵、魔女がこの地に
+JP 大降臨なのです！
+EN Tonight, the witch makes her grand descent upon
+EN this land!
+
+@ 117.17
+# scene 120 タッグマッチ ベスト
+# 天神 美沙
+JP 魔女と淫魔の組み合わせ…。
+JP ほどよくカオスチックなのです。
+EN A witch and a succubus together... Just the right
+EN amount of chaos.
+
+@ 118.16
+# scene 125 必殺技１
+# 天神 美沙
+JP 美沙があなたを裁判します！
+EN Misa sentences you!
+
+@ 119.16
+# scene 125 必殺技２
+# 天神 美沙
+JP 超魔法、発動なのですっ！
+EN Super magic, activate!
+
+@ 120.16
+# scene 125 必殺技３
+# 天神 美沙
+JP 魔力全開！
+JP お前のターンは
+JP もうお終いなのです！！
+EN Full magic power! Your turn is over!!
+
+@ 121.12
+# scene 126 勝利1
+# 天神 美沙
+JP 美沙の魔法に不可能はないのです！
+EN Nothing is impossible for Misa's magic!
+
+@ 122.12
+# scene 126 勝利2
+# 天神 美沙
+JP さあ、魔法の存在を
+JP 信じるがよいのです。
+EN Now, believe in the existence of magic.
+
+@ 123.12
+# scene 126 勝利3
+# 天神 美沙
+JP 判決！
+JP 魔女の大勝利、なのです！！
+EN The verdict! A grand victory for the witch!!
+
+@ 124.15
+# scene 133 表彰1
+# 天神 美沙
+JP みなさまありがとうなのです――っ！
+EN Thank you all so muuuch!
+
+@ 125.15
+# scene 133 表彰2
+# 天神 美沙
+JP やったのです！
+JP 美沙の魔力は無限大なのですよ――！
+EN Misa did it! Misa's magic power is infiniiite!
+
+@ 126.12
+# scene 134 優勝1
+# 天神 美沙
+JP 魔力を制する者が
+JP リングを制するのです！
+EN Whoever controls magic power controls the ring!
+
+@ 127.12
+# scene 134 優勝２
+# 天神 美沙
+JP やったのです…。
+JP 美沙は、やったのですぅぅっ！
+EN Misa did it... Misa did iiiit!
+
+@ 128.24
+# scene 135 エンディング 通常
+# 天神 美沙
+JP おめでとうなのです。
+JP これも美沙が社長を支えていたから
+JP こそなのですよ？
+EN Congratulations. It is all because Misa was
+EN supporting you, Boss, you know?
+
+@ 129.24
+# scene 136 エンディング 好意
+# 天神 美沙
+JP 美沙は社長とずっと一緒なのです。
+JP 美沙にこう思わせるなんて
+JP 社長ってすごい悪魔なのです。
+EN Misa will be with the Boss forever. To make Misa feel
+EN this way... the Boss is quite the devil.

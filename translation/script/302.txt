@@ -1,0 +1,91 @@
+# /SCR/302.BIN - リサ・ライアン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 302` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# リサ・ライアン
+JP 優勝できるなんてラッキー！
+EN I won the whole thing? Lucky me!
+
+@ 1.16
+# scene 119 入場1
+# リサ・ライアン
+JP 今日も気合いで勝負だ！
+EN Today I'm winning on pure fighting spirit!
+
+@ 2.16
+# scene 119 入場2
+# リサ・ライアン
+JP ボクのスピードで
+JP 翻弄してみせる！
+EN I'll run circles around 'em with my speed!
+
+@ 3.16
+# scene 125 必殺技１
+# リサ・ライアン
+JP これで勝負だーッ！
+EN Here goes everything!
+
+@ 4.16
+# scene 125 必殺技２
+# リサ・ライアン
+JP スペシャル攻撃、いっくぞーッ！
+EN Special attack, here I gooo!
+
+@ 5.16
+# scene 125 必殺技３
+# リサ・ライアン
+JP 気合の一撃、いっくぞー！
+EN One big blow of fighting spirit, here I go!
+
+@ 6.12
+# scene 126 勝利1
+# リサ・ライアン
+JP 今日はボクの勝ちだね！
+EN Today the win is mine!
+
+@ 7.12
+# scene 126 勝利2
+# リサ・ライアン
+JP ボクって強かったんだね！
+EN Whoa, guess I'm actually pretty strong!
+
+@ 8.12
+# scene 126 勝利3
+# リサ・ライアン
+JP へへーん。
+JP その程度じゃボクには
+JP 勝てないね！
+EN Heh heh! That's not nearly enough to beat me!
+
+@ 9.15
+# scene 133 表彰1
+# リサ・ライアン
+JP ありがとうございます！
+EN Thank you very much!
+
+@ 10.15
+# scene 133 表彰2
+# リサ・ライアン
+JP これからもガッツで
+JP がんばります！
+EN I'll keep giving it all my guts!
+
+@ 11.12
+# scene 134 優勝1
+# リサ・ライアン
+JP 次も優勝目指してがんばります！
+EN I'm going for the win next time too!
+
+@ 12.12
+# scene 134 優勝２
+# リサ・ライアン
+JP ボクは誰の挑戦でも待ってるよ！
+EN I'll take on anybody who wants to challenge me!

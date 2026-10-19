@@ -1,0 +1,191 @@
+{
+ "english": "Kanji | Kana | ABC | OK",
+ "boxes": [
+  [
+   17,
+   5,
+   62,
+   22
+  ],
+  [
+   90,
+   5,
+   60,
+   22
+  ],
+  [
+   17,
+   37,
+   61,
+   22
+  ],
+  [
+   89,
+   37,
+   61,
+   22
+  ]
+ ],
+ "draw": "system.draw",
+ "font": "BarlowCondensed-Bold.ttf",
+ "cap": 15,
+ "margin": 2,
+ "ground": "keep",
+ "fill": [
+  248,
+  240,
+  184
+ ],
+ "groups": [
+  {
+   "labels": [
+    0
+   ],
+   "outline": {
+    "w": 2,
+    "rgb": [
+     248,
+     64,
+     0
+    ]
+   },
+   "inpaint": [
+    {
+     "rect": [
+      17,
+      5,
+      62,
+      22
+     ],
+     "seed": [
+      [
+       248,
+       240,
+       184
+      ],
+      [
+       248,
+       64,
+       0
+      ]
+     ],
+     "tol": 70,
+     "near": 2
+    }
+   ]
+  },
+  {
+   "labels": [
+    1
+   ],
+   "outline": {
+    "w": 2,
+    "rgb": [
+     248,
+     48,
+     160
+    ]
+   },
+   "inpaint": [
+    {
+     "rect": [
+      90,
+      5,
+      60,
+      22
+     ],
+     "seed": [
+      [
+       248,
+       240,
+       184
+      ],
+      [
+       248,
+       48,
+       160
+      ]
+     ],
+     "tol": 70,
+     "near": 2
+    }
+   ]
+  },
+  {
+   "labels": [
+    2
+   ],
+   "outline": {
+    "w": 2,
+    "rgb": [
+     0,
+     152,
+     200
+    ]
+   },
+   "inpaint": [
+    {
+     "rect": [
+      17,
+      37,
+      61,
+      22
+     ],
+     "seed": [
+      [
+       248,
+       240,
+       184
+      ],
+      [
+       0,
+       152,
+       200
+      ]
+     ],
+     "tol": 70,
+     "near": 2
+    }
+   ]
+  },
+  {
+   "labels": [
+    3
+   ],
+   "outline": {
+    "w": 2,
+    "rgb": [
+     248,
+     0,
+     56
+    ]
+   },
+   "inpaint": [
+    {
+     "rect": [
+      89,
+      37,
+      61,
+      22
+     ],
+     "seed": [
+      [
+       248,
+       240,
+       184
+      ],
+      [
+       248,
+       0,
+       56
+      ]
+     ],
+     "tol": 70,
+     "near": 2
+    }
+   ]
+  }
+ ],
+ "same_size": true,
+ "notes": "name-entry buttons (kanji / kana / alphanumeric / confirm); button gradient rebuilt under the letters (inpaint), tools/letter_ext/system.py"
+}

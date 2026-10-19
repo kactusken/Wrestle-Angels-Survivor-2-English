@@ -1,0 +1,90 @@
+# /SCR/228.BIN - レミー・ダダーン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 228` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# レミー・ダダーン
+JP やっぱりあたいが
+JP ナンバーワンやね！
+EN Told ya, I'm number one!
+
+@ 1.16
+# scene 119 入場1
+# レミー・ダダーン
+JP アメーリカのパワー見せたるわ！
+EN I'll show ya some good ol' Amurrican power!
+
+@ 2.16
+# scene 119 入場2
+# レミー・ダダーン
+JP 力一杯サービスしたるわ！
+EN I'll give ya the full-service treatment!
+
+@ 3.16
+# scene 125 必殺技１
+# レミー・ダダーン
+JP 砕け散れーッ！
+EN Shatter!
+
+@ 4.16
+# scene 125 必殺技２
+# レミー・ダダーン
+JP これがあたいのとっておきやーッ！
+EN This here's my secret weapon!
+
+@ 5.16
+# scene 125 必殺技３
+# レミー・ダダーン
+JP これで楽にさせたる！
+EN This'll put ya outta yer misery!
+
+@ 6.12
+# scene 126 勝利1
+# レミー・ダダーン
+JP これが、あたいのパワーやで？
+EN How's that for some power, huh?
+
+@ 7.12
+# scene 126 勝利2
+# レミー・ダダーン
+JP 体作り直して、出直して来いや！
+EN Go rebuild that body and come back!
+
+@ 8.12
+# scene 126 勝利3
+# レミー・ダダーン
+JP 悪いけど相手にならんかったなぁ。
+EN Sorry, but ya weren't much of a match.
+
+@ 9.15
+# scene 133 表彰1
+# レミー・ダダーン
+JP おおきに！
+JP おおきにな！
+EN Thank ya kindly! Thank ya kindly!
+
+@ 10.15
+# scene 133 表彰2
+# レミー・ダダーン
+JP 期待に応えられるよう
+JP がんばるわ！
+EN I'll work hard to live up to y'all's hopes!
+
+@ 11.12
+# scene 134 優勝1
+# レミー・ダダーン
+JP アメーリカがナンバーワンや！
+EN Amurrica's number one!
+
+@ 12.12
+# scene 134 優勝２
+# レミー・ダダーン
+JP あたいのパワーは無敵やで！
+EN My power's unbeatable, y'hear?

@@ -1,0 +1,67 @@
+{
+ "english": "Develop Style | Build Basics | All Offense | All Defense | Move Types | Fix Weakness | Vacation | Moves",
+ "boxes": [
+  [
+   3,
+   0,
+   122,
+   24
+  ],
+  [
+   13,
+   24,
+   102,
+   24
+  ],
+  [
+   23,
+   48,
+   83,
+   24
+  ],
+  [
+   23,
+   72,
+   83,
+   24
+  ],
+  [
+   4,
+   96,
+   121,
+   24
+  ],
+  [
+   23,
+   120,
+   82,
+   24
+  ],
+  [
+   33,
+   144,
+   63,
+   24
+  ],
+  [
+   33,
+   168,
+   63,
+   24
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   0,
+   0,
+   128,
+   192
+  ]
+ ],
+ "notes": "\u6280 'Moves': box widened from the glyph's 24 px to 63 px (\u4f11\u6687's width, centred on the same row); the only label outside its Japanese box"
+}

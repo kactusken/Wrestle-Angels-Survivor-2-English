@@ -1,0 +1,2662 @@
+# /SCR/144.BIN - ソニックナイト
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 144` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 結城 みか
+JP うきゅ♪
+JP 入団したら音速ヒロインに
+JP クラスチェンジするのさね。
+EN Ukyu♪ Once I'm in, I'll class-change into the
+EN Supersonic Heroine, y'see!
+
+@ 0.19
+# 社 長
+JP クラスチェンジって…。
+EN Class change...?
+
+@ 0.21
+# 社 長
+JP （あ、この子、今放送中の
+JP 　特撮番組でヒロイン役を
+JP 　やっている子だ）
+EN (Oh, this girl plays the heroine in that tokusatsu
+EN show that's on TV right now.)
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ソニックナイト
+JP ぱぱーん！
+JP クラスチェーンジ！
+JP 音速ヒロイン、参上だぉ！！
+EN Ta-daaa! Class chaaange! The Supersonic Heroine
+EN has arrived!!
+
+@ 1.20
+# 社 長
+JP （版権は大丈夫なのかな）
+EN (I hope the copyright's okay on this...)
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 結城 みか
+JP うきゅう…。
+JP 変身はちょっとお預けになったの。
+EN Ukyuu... My transformation's on hold for now.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりに人気特撮番組の
+JP ヒロイン役の子がいると
+JP 聞いたのだけど…。
+EN I heard the girl who plays the heroine in that popular
+EN tokusatsu show is around here...
+
+@ 3.25
+# 社 長
+JP なんでも凄い身体能力の持ち主らしい。
+EN Supposedly she's incredibly athletic.
+
+@ 3.28
+# 社 長
+JP それが本当なら、ぜひ欲しい人材だ。
+EN If that's true, she's someone I really want.
+
+@ 3.30
+# 社 長
+JP ん、あの娘…テレビと同じ。
+EN Hm, that girl... She looks just like on TV.
+
+@ 3.32
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 3.42
+# ソニックナイト
+JP うきゅ？
+JP なぁに？
+EN Ukyu? Whaaat?
+
+@ 3.45
+# 社 長
+JP （見た目にアレっぽいけど
+JP 　本当に凄いんだよね？）
+EN (She looks a bit... out there, but she's really that
+EN good, right?)
+
+@ 3.47
+# 社 長
+JP （まあ、ここまで来て
+JP 　迷っていてもしょうがない）
+EN (Well, no point hesitating after coming all this way.)
+
+@ 3.49
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.56
+# ソニックナイト
+JP プロレス？
+EN Pro wrestling?
+
+@ 3.59
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.66
+# ソニックナイト
+JP プロレスの平和がピンチなの？
+EN Is the peace of pro wrestling in danger?
+
+@ 3.69
+# 社 長
+JP えーっと…ピンチというか…。
+EN Uh... I wouldn't say danger, exactly...
+
+@ 3.73
+# 社 長
+JP （凄いな。普段から役作りか）
+EN (Impressive. She stays in character even off
+EN camera.)
+
+@ 3.76
+# 社 長
+JP ええ、まあ…。
+JP 子供に夢を与えたいな…と。
+EN Yes, well... I want to give kids something to dream
+EN about.
+
+@ 3.78
+# 社 長
+JP （とりあえず
+JP 　こちらも相手にあわせて
+JP 　話を進めることにした）
+EN (For now, I decided to play along and keep the
+EN conversation going.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ソニックナイト
+JP わかったの。
+JP 社長の力になってあげるのさね！
+EN Got it. I'll lend you my power, Boss!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+JP リングの平和は頼んだよ。
+EN Thank you. I'm counting on you to keep the ring
+EN safe.
+
+@ 4.26
+# ソニックナイト
+JP うきゅ♪
+JP がんばるお！
+EN Ukyu♪ I'll do my best!
+
+@ 4.29
+# 社 長
+JP （役……なんだよな？）
+EN (It's... an act, right?)
+
+@ 4.35
+# 社 長
+JP （まさか、素からこれなのか？）
+EN (Don't tell me she's actually like this?)
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# ソニックナイト
+JP うきゅ～。
+JP 何かあやしいの…。
+JP あくのてさき？
+EN Ukyuu... Something's fishy... Are you an evil
+EN henchman?
+
+@ 5.22
+# 社 長
+JP いや、違う。
+JP 違うからっ。
+EN No, I'm not. I'm really not!
+
+@ 5.25
+# 社 長
+JP （役を演じているんだよな？
+JP 　これ）
+EN (She's playing a role... right?)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あのー、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# ソニックナイト
+JP あ、こないだの
+JP 悪の手羽先っぽい人なの。
+EN Oh, it's the evil hench... chicken... guy from the other
+EN day.
+
+@ 6.36
+# 社 長
+JP だから違うんだって。
+EN Like I said, I'm not.
+
+@ 6.38
+# 社 長
+JP （俺は必死に身の潔白を主張した）
+EN (I desperately insisted on my innocence.)
+
+@ 6.40
+# 社 長
+JP ふう……ふう……。
+EN Whew...... whew......
+
+@ 6.42
+# 社 長
+JP そ、それでね。
+JP あれから考えたんだけれど
+JP やっぱり君に入って欲しくて。
+EN S-so anyway. I've been thinking since then, and I
+EN really do want you to join us.
+
+@ 6.49
+# ソニックナイト
+JP うきゅー…。
+JP どうしようなの。
+EN Ukyuu... What should I do?
+
+@ 6.52
+# 社 長
+JP 頼むよ。
+JP ええと…子供たちの夢のために。
+EN Please. Um... for the sake of the children's dreams.
+
+@ 6.54
+# 社 長
+JP （とりあえず
+JP 　この路線で話を進めてみた）
+EN (For now, I tried pushing the talk along those lines.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ソニックナイト
+JP わかったの。
+JP 社長の力になってあげるのさね！
+EN Got it. I'll lend you my power, Boss!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+JP リングの平和は頼んだよ。
+EN Thank you. I'm counting on you to keep the ring
+EN safe.
+
+@ 7.26
+# ソニックナイト
+JP うきゅ♪
+JP がんばるお！
+EN Ukyu♪ I'll do my best!
+
+@ 7.29
+# 社 長
+JP （役……なんだよな？）
+EN (It's... an act, right?)
+
+@ 7.36
+# 社 長
+JP （まさか、素からこれなのか？）
+EN (Don't tell me she's actually like this?)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ソニックナイト
+JP うきゅ～。
+JP 何かあやしいの…。
+JP あくのてさき？
+EN Ukyuu... Something's fishy... Are you an evil
+EN henchman?
+
+@ 8.22
+# 社 長
+JP だから、違う。
+JP 違うからっ。
+EN Like I said, no. I'm really not!
+
+@ 8.25
+# 社 長
+JP （役を演じているんだよな？
+JP 　これ）
+EN (She's playing a role... right?)
+
+@ 8.28
+# 社 長
+JP （それにしちゃ、迫真の演技だ）
+EN (If so, that's some convincing acting.)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺はソニック選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Sonic.
+
+@ 9.25
+# 社 長
+JP アンドロメダから来たという設定の
+JP スーパーヒロイン。
+EN A superheroine who supposedly comes from
+EN Andromeda.
+
+@ 9.27
+# 社 長
+JP アニメ作品とのタイアップレスラーだが
+JP 今やその存在はアニメのそれを完全に
+JP 食ってしまっている。
+EN She started as a tie-in wrestler for a TV show, but
+EN by now she's completely overshadowed the show
+EN itself.
+
+@ 9.29
+# 社 長
+JP 彼女がいれば
+JP 小さいお友達や大きいお友達が
+JP 喜ぶに違いない。
+EN With her around, our little friends and big friends
+EN alike are sure to be thrilled.
+
+@ 9.31
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 9.33
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.45
+# ソニックナイト
+JP うきゅ？
+JP だあれ？
+EN Ukyu? Who're you?
+
+@ 9.48
+# 社 長
+JP 私、こういう者ですが…。
+EN This is who I am...
+
+@ 9.50
+# 社 長
+JP （俺は身分を明かして
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to headhunt her.)
+
+@ 9.57
+# ソニックナイト
+JP いせき？
+EN Headhunting?
+
+@ 9.60
+# 社 長
+JP ええ、どうでしょう？
+EN Yes, what do you say?
+
+@ 9.67
+# ソニックナイト
+JP ん～とね。
+JP 私はモアイ像とかが好きだぉ。
+EN Ummm, lemme think. I like big stone heads, like the
+EN Moai!
+
+@ 9.70
+# 社 長
+JP いえ、違います。
+JP その遺跡ではなくてですね…。
+EN No, that's not it. Not those kind of heads...
+
+@ 9.72
+# 社 長
+JP （俺は、まず移籍とは
+JP 　どのようなものであるかの
+JP 　説明から入らなくてはならなかった）
+EN (First I had to explain what headhunting even means
+EN in wrestling.)
+
+@ 9.78
+# 社 長
+JP （そして…２時間後）
+EN (And then... two hours later.)
+
+@ 9.81
+# 社 長
+JP と、いうわけです。
+JP どうでしょう？
+EN And that's how it is. What do you say?
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# ソニックナイト
+JP ん～。
+JP 社長さんの話はむつかしーけど…。
+JP 必要とされているのはわかったの。
+EN Mmm. Your talk is super complicated, Boss, but... I get
+EN that you need me.
+
+@ 10.18
+# 社 長
+JP それでは…。
+EN Then...
+
+@ 10.29
+# ソニックナイト
+JP いいお、新シリーズで
+JP 新しい敵と戦うことになるのは
+JP よくあることなのさね！
+EN Okay! Fighting new enemies in a new series happens
+EN all the time, y'see!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ソニックナイト
+JP 私も、マヤ文明は結構好きなのさね！
+EN I like the Maya civilization a lot too, y'see!
+
+@ 11.22
+# 社 長
+JP わ、わかってない…。
+EN Sh-she doesn't get it...
+
+@ 11.24
+# 社 長
+JP （こうして、俺は撃退された）
+EN (And so, I was repelled.)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には彼女が必要だ。
+EN My promotion really does need her.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP ソニック選手と交渉することにした。
+EN I decided to negotiate with Sonic one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ソニックナイト
+JP あれ、こないだの
+JP 遺跡マニアの人なの。
+EN Huh, it's the stone-head nerd from the other day.
+
+@ 12.40
+# 社 長
+JP 違います。
+EN I'm not.
+
+@ 12.47
+# ソニックナイト
+JP うきゅ？
+EN Ukyu?
+
+@ 12.50
+# 社 長
+JP ですから
+JP 私、プロレス団体の社長でして…。
+EN Like I said, I'm the president of a wrestling
+EN promotion...
+
+@ 12.56
+# 社 長
+JP （そして、俺は再び長い時間をかけて
+JP 　説明と説得を繰り返した）
+EN (And so, once again, I spent ages explaining and
+EN persuading.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# ソニックナイト
+JP ん～。
+JP 社長さんの話はむつかしーけど…。
+JP 必要とされているのはわかったの。
+EN Mmm. Your talk is super complicated, Boss, but... I get
+EN that you need me.
+
+@ 13.18
+# 社 長
+JP それでは…。
+EN Then...
+
+@ 13.29
+# ソニックナイト
+JP いいお、新シリーズで
+JP 新しい敵と戦うことになるのは
+JP よくあることなのさね！
+EN Okay! Fighting new enemies in a new series happens
+EN all the time, y'see!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ソニックナイト
+JP 私も、マヤ文明は結構好きなのさね！
+EN I like the Maya civilization a lot too, y'see!
+
+@ 14.22
+# 社 長
+JP わ、わかってない…。
+EN Sh-she doesn't get it...
+
+@ 14.24
+# 社 長
+JP （こうして、俺はまたも撃退された。
+JP 　さすがは正義のヒロイン、手強い）
+EN (And so, I was repelled once again. A champion of
+EN justice is a tough opponent.)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺はソニック選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Sonic.
+
+@ 15.25
+# 社 長
+JP アンドロメダから来たという設定の
+JP スーパーヒロイン。
+EN A superheroine who supposedly comes from
+EN Andromeda.
+
+@ 15.27
+# 社 長
+JP アニメ作品とのタイアップレスラーだが
+JP 今やその存在はアニメのそれを完全に
+JP 食ってしまっている。
+EN She started as a tie-in wrestler for a TV show, but
+EN by now she's completely overshadowed the show
+EN itself.
+
+@ 15.29
+# 社 長
+JP 彼女がいれば
+JP 小さいお友達や大きいお友達が
+JP 喜ぶに違いない。
+EN With her around, our little friends and big friends
+EN alike are sure to be thrilled.
+
+@ 15.31
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 15.33
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.45
+# ソニックナイト
+JP うきゅ？
+JP だあれ？
+EN Ukyu? Who're you?
+
+@ 15.48
+# 社 長
+JP 私、こういう者ですが……。
+EN This is who I am......
+
+@ 15.50
+# 社 長
+JP （俺は身分を明かして
+JP 　彼女をスカウトした）
+EN (I told her who I was and scouted her.)
+
+@ 15.57
+# ソニックナイト
+JP しょぞく？
+EN Join up?
+
+@ 15.60
+# 社 長
+JP ええ、どうでしょう？
+EN Yes, what do you say?
+
+@ 15.64
+# ソニックナイト
+JP う～～ん……。
+JP しゃちょーさんの団体って
+JP 秘密基地っぽい？
+EN Hmmmm...... Is your promotion kinda like a secret base,
+EN Boss?
+
+@ 15.67
+# 社 長
+JP ひ、秘密基地っぽい…ですか？
+EN L-like a secret base...?
+
+@ 15.74
+# 社 長
+JP （なんて答えればいいんだ？）
+EN (How am I supposed to answer that?)
+
+@ 16.14
+# scene 017 移籍交渉 フリー１ 成功
+# 社 長
+JP ええ、まあ。
+JP 基地っぽい雰囲気も
+JP あるといえば…あります。
+EN Yes, well. You could say... it does have a sort of
+EN base-like feel.
+
+@ 16.25
+# ソニックナイト
+JP ホント？
+JP それなら入るぉ！
+EN Really? Then I'm in!
+
+@ 16.28
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.35
+# ソニックナイト
+JP やっぱりヒロインとしては
+JP 何かそれっぽい拠点が欲しいなと
+JP 思っていたのさね！
+EN A heroine really should have some kinda proper
+EN headquarters, I always thought so, y'see!
+
+@ 16.38
+# 社 長
+JP は、はぁ…。
+EN R-right...
+
+@ 16.40
+# 社 長
+JP （会社に戻ったら
+JP 　少し基地っぽくしておこう…）
+EN (When I get back to the office, I'll make it look a little
+EN more like a base...)
+
+@ 17.14
+# scene 018 移籍交渉 フリー 失敗
+# 社 長
+JP さ、さすがに基地は…。
+EN W-well, a base is a bit much...
+
+@ 17.25
+# ソニックナイト
+JP そっきゃー。
+JP じゃあ、無理かなぁ。
+EN Oh, okay. Then I guess it's a no.
+
+@ 17.28
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 17.30
+# 社 長
+JP （無理って何なんだ？）
+EN (What does a base have to do with it?)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には彼女が必要だ。
+EN My promotion really does need her.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP ソニック選手と交渉することにした。
+EN I decided to negotiate with Sonic one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ソニックナイト
+JP あ、こないだの人なのさね。
+JP どーしたの？
+EN Oh, it's the guy from the other day, y'see. What's
+EN up?
+
+@ 18.40
+# 社 長
+JP やっぱり、うちの団体に
+JP 入って欲しくて…。
+EN I still want you to join my promotion...
+
+@ 18.47
+# ソニックナイト
+JP う～ん……。
+JP 会社、秘密基地っぽくなった？
+EN Hmmm...... Does your office look like a secret base
+EN yet?
+
+@ 18.50
+# 社 長
+JP 基地っぽくですか。
+EN Like a base, huh?
+
+@ 18.52
+# 社 長
+JP えーと…。
+EN Um...
+
+@ 19.14
+# scene 020 移籍交渉 フリー２ 成功
+# 社 長
+JP ええ、この前よりはなりました。
+JP 基地っぽく。
+EN Yes, more than last time. Base-like, I mean.
+
+@ 19.25
+# ソニックナイト
+JP ホント？
+JP それなら入るぉ！
+EN Really? Then I'm in!
+
+@ 19.28
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.35
+# ソニックナイト
+JP やっぱりヒロインとしては
+JP 何かそれっぽい拠点が欲しいなと
+JP 思っていたのさね！
+EN A heroine really should have some kinda proper
+EN headquarters, I always thought so, y'see!
+
+@ 19.38
+# 社 長
+JP は、はぁ…。
+EN R-right...
+
+@ 19.40
+# 社 長
+JP （会社に戻ったら
+JP 　少し基地っぽくしておこう…）
+EN (When I get back to the office, I'll make it look a little
+EN more like a base...)
+
+@ 20.14
+# scene 021 移籍交渉 フリー２ 失敗
+# 社 長
+JP いえ、変わってはいません。
+EN No, it hasn't changed.
+
+@ 20.25
+# ソニックナイト
+JP そっきゃー。
+JP じゃあ、無理かなぁ。
+EN Oh, okay. Then I guess it's a no.
+
+@ 20.28
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 20.30
+# 社 長
+JP （少し改装しないとダメなのか！？）
+EN (So I have to remodel?!)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺はソニックを訪ねることにした。
+EN I decided to go see Sonic.
+
+@ 21.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 21.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP ソニック！
+EN Sonic!
+
+@ 21.41
+# ソニックナイト
+JP うきゅ？
+JP …………あ――――！
+EN Ukyu? ............Aaaaah!
+
+@ 21.47
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# ソニックナイト
+JP 裏切り者なの～。
+JP 裏切り者が来たの～。
+EN It's the traitor! The traitor's heeere!
+
+@ 21.54
+# 社 長
+JP す、すまん。
+EN S-sorry.
+
+@ 21.56
+# 社 長
+JP 本当はこんなこと頼めた
+JP 義理ではないんだが
+JP おまえに戻ってきて欲しくて…。
+EN I know I'm in no position to ask, but I want you to
+EN come back...
+
+@ 21.60
+# ソニックナイト
+JP 裏切り者が何か言ってるの～。
+JP 悪の帝王なの～。
+EN The traitor's saying something! He's the Evil
+EN Emperor!
+
+@ 21.63
+# 社 長
+JP すまん、反省している。
+JP だから、戻ってきてくれないか？
+EN Sorry, I regret it. So won't you come back?
+
+@ 21.65
+# 社 長
+JP （俺は彼女に団体に戻ってくれるように
+JP 　頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ソニックナイト
+JP うきゅう…。
+JP そこまで言われたら
+JP しかたないのさね。
+EN Ukyuu... If you put it like that, I guess I've got no
+EN choice, y'see.
+
+@ 22.18
+# 社 長
+JP 許してくれるのか？
+EN You'll forgive me?
+
+@ 22.29
+# ソニックナイト
+JP 一度裏切った仲間が
+JP また仲間になるっていうのは
+JP よくある展開なの。
+EN A comrade who betrayed you joining your side again
+EN is a classic plot twist.
+
+@ 22.32
+# 社 長
+JP そうか…。
+JP ありがとう…。
+EN I see... Thank you...
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ソニックナイト
+JP だーめーなーのー。
+EN No-no-no-nooo.
+
+@ 23.22
+# 社 長
+JP どうしてもか？
+EN No matter what?
+
+@ 23.29
+# ソニックナイト
+JP 正義の心とは別に、裏切られた
+JP 乙女心がまだ癒えてないの。
+JP まだ顔も見たくないの。
+EN My heart of justice aside, my maiden heart that you
+EN betrayed still hasn't healed. I don't wanna see your
+EN face yet.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... Understood...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I only have myself to blame...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再びソニックを訪ねることにした。
+EN I decided to go see Sonic again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 24.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 24.31
+# 社 長
+JP ソニック！
+EN Sonic!
+
+@ 24.41
+# ソニックナイト
+JP うきゅ？
+JP ……あっ、また裏切り者が来たの～。
+EN Ukyu? ......Ah, the traitor's here agaaain.
+
+@ 24.44
+# 社 長
+JP 本当にすまん。
+JP でも、おまえを諦めきれなくてね。
+EN I'm really sorry. But I just can't give up on you.
+
+@ 24.46
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.48
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ソニックナイト
+JP うきゅう…。
+JP そこまで言われたら
+JP しかたないのさね。
+EN Ukyuu... If you put it like that, I guess I've got no
+EN choice, y'see.
+
+@ 25.18
+# 社 長
+JP 許してくれるのか？
+EN You'll forgive me?
+
+@ 25.29
+# ソニックナイト
+JP 一度裏切った仲間が
+JP また仲間になるっていうのは
+JP よくある展開なの。
+EN A comrade who betrayed you joining your side again
+EN is a classic plot twist.
+
+@ 25.32
+# 社 長
+JP そうか…。
+JP ありがとう…。
+EN I see... Thank you...
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ソニックナイト
+JP だーめーなーのー。
+EN No-no-no-nooo.
+
+@ 26.22
+# 社 長
+JP どうしてもか？
+EN No matter what?
+
+@ 26.29
+# ソニックナイト
+JP 正義の心とは別に、裏切られた
+JP 乙女心がまだ癒えてないの。
+JP まだ顔も見たくないの。
+EN My heart of justice aside, my maiden heart that you
+EN betrayed still hasn't healed. I don't wanna see your
+EN face yet.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... Understood...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I only have myself to blame...)
+
+@ 27.16
+# scene 028 ケガ小
+# ソニックナイト
+JP うきゅ～。
+JP 手負いのヒロインっていうのも
+JP よくある展開なの。
+EN Ukyuu. A wounded heroine is a classic plot twist too.
+
+@ 28.16
+# scene 029 ケガ大
+# ソニックナイト
+JP うきゅ～。
+JP だーいぴーんち、なの…。
+EN Ukyuu. Biiig trouble...
+
+@ 29.16
+# scene 030 入院
+# ソニックナイト
+JP うきゅー！
+JP 入院はいやなのー！
+JP せめてごはんのおいしい病院がいいのー！
+EN Ukyuu! I don't wanna go to the hospital! At least
+EN make it one with yummy food!
+
+@ 30.16
+# scene 031 退院
+# ソニックナイト
+JP 帰ってきたぉ！
+JP しゃちょー、ごはん――！
+EN I'm back! Boss, foooood!
+
+@ 31.16
+# scene 032 ケガ完治
+# ソニックナイト
+JP ＨＰ全開ＭＡＸなの！
+EN HP fully restored to MAX!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ソニックナイト
+JP うきゅ～。
+JP たしかに最終回をのばすと
+JP 駄作になることが多いの。
+EN Ukyuu. It's true, dragging out the final episode
+EN usually ruins a show.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ソニックナイト
+JP まだ、最終回には早いのさね。
+EN It's too early for the final episode, y'see.
+
+@ 34.16
+# scene 035 コーチ就任
+# ソニックナイト
+JP 次のヒロインを育てるのさね！
+EN I'm gonna raise the next heroine, y'see!
+
+@ 35.16
+# scene 036 ケガ引退
+# ソニックナイト
+JP うきゅう…体を張っている以上
+JP こういうこともあるのさね。
+JP 仕方ないの。
+EN Ukyuu... When you put your body on the line, these
+EN things happen, y'see. Can't be helped.
+
+@ 36.16
+# scene 037 年齢引退
+# ソニックナイト
+JP いよいよ最終回、なのさね。
+EN It's finally the final episode, y'see.
+
+@ 37.16
+# scene 038 退団
+# ソニックナイト
+JP さらば、なの。
+EN Farewell.
+
+@ 38.16
+# scene 039 スランプ
+# ソニックナイト
+JP ヘンなの…。
+JP なんだか体がだるいの～。
+EN That's weird... My body feels all sluggish.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ソニックナイト
+JP ファンクラブができたのー♪
+EN I've got a fan club♪
+
+@ 39.19
+# 社 長
+JP よかったな。
+JP 期待に応えるようにな。
+EN Good for you. Live up to their hopes.
+
+@ 39.26
+# ソニックナイト
+JP うきゅ。
+JP ヒロインは期待の数だけ
+JP 強くなるんだぉ！
+EN Ukyu. A heroine gets stronger with every hope
+EN people put in her!
+
+@ 40.15
+# scene 041 ファンクラブ結成２
+# ソニックナイト
+JP ファンクラブがふえたのー♪
+EN My fan club got bigger♪
+
+@ 40.18
+# 社 長
+JP ああ。
+JP ますますがんばらないとな。
+EN Yes. You'll have to work even harder.
+
+@ 40.22
+# ソニックナイト
+JP もちろんなのさね。
+JP ファンクラブの数だけ
+JP バージョンアップなの。
+EN Of course, y'see. One version upgrade for every fan
+EN club!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ソニックナイト
+JP うきゅー、へったの。
+EN Ukyuu, it shrank.
+
+@ 41.19
+# ソニックナイト
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard again.
+
+@ 41.23
+# ソニックナイト
+JP おなかがへったみたいに
+JP わびしーのー。
+EN It feels lonely, like when your tummy's empty.
+
+@ 42.16
+# scene 043 映画出演
+# ソニックナイト
+JP おまかせ！
+JP 銀幕でも暴れてくるのさねっ！！
+EN Leave it to me! I'll go wreak havoc on the silver
+EN screen too, y'see!!
+
+@ 43.16
+# scene 044 一日署長
+# ソニックナイト
+JP ほんとは管理職より
+JP 現場がいいんだけどな～。
+EN Truth is, I'd rather be out in the field than be a
+EN manager.
+
+@ 44.16
+# scene 045 写真集発売
+# ソニックナイト
+JP ヒロインの名に恥じない
+JP かっくいー写真集にするの！
+EN I'll make it a super cool photo book, worthy of the
+EN name "heroine"!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ソニックナイト
+JP がんばってくるのさね！
+EN I'll go do my best, y'see!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ソニックナイト
+JP うっきゅっきゅっきゅっきゅっ。
+JP 私、お歌は得意なんだぉ。
+EN Ukyukyukyukyu. I'm great at singing!
+
+@ 47.16
+# scene 048 始球式
+# ソニックナイト
+JP やきゅー…。
+JP まかせて！
+JP ホームランかっとばしてくるの！
+EN Baseball... Leave it to me! I'll smack a home run!
+
+@ 48.16
+# scene 049 学園祭
+# ソニックナイト
+JP 学園祭はいろんなイベントと
+JP フラグたつんだぉ！
+JP たっのしみー♪
+EN School festivals trigger all kinds of story events!
+EN Can't waaait♪
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a birthday present.
+
+@ 49.38
+# ソニックナイト
+JP うきゅ！
+JP そういえば今日は誕生日だったの。
+EN Ukyu! Oh yeah, today's my birthday.
+
+@ 49.41
+# 社 長
+JP ああ、だから。
+EN Yes, that's why.
+
+@ 49.48
+# ソニックナイト
+JP ありがとーなのー♪
+JP 大事にするのさね。
+EN Thank yooou♪ I'll treasure it, y'see.
+
+@ 50.32
+# scene 051 バレンタインデー
+# ソニックナイト
+JP しゃーちょっ！
+JP はっぴー・ばれんたいん、なのっ♪
+EN Bo-oss! Happy Valentine's♪
+
+@ 50.35
+# 社 長
+JP お、ありがとう。
+EN Oh, thank you.
+
+@ 50.39
+# ソニックナイト
+JP あと、プレゼントなの♪
+JP …………（ちゅっ）
+EN And here's another present♪ ............*smooch*
+
+@ 50.42
+# 社 長
+JP うお！
+EN Whoa!
+
+@ 50.44
+# 社 長
+JP （頬にキスされた）
+EN (She kissed me on the cheek.)
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, for last month?
+
+@ 51.38
+# ソニックナイト
+JP ありがとーなの♪
+JP …………キスのお返しは？
+EN Thank yooou♪ ............And what about paying back
+EN the kiss?
+
+@ 51.41
+# 社 長
+JP それは…一緒に渡したプレゼントで
+JP 勘弁してくれ。
+EN That's... please let the present cover that too.
+
+@ 52.31
+# scene 053 サイン会
+# ソニックナイト
+JP ……さんへ、と。
+JP はい、できたの～♪
+JP これからも一緒にがんばってこーね♪
+EN "To...," there. Here, all done♪ Let's keep doing our
+EN best together♪
+
+@ 53.31
+# scene 054 コンサート
+# ソニックナイト
+JP 愛の戦士がたくさん集まると
+JP うれしいの♪
+EN It makes me happy when lots of warriors of love
+EN gather♪
+
+@ 54.28
+# scene 055 練習拒否
+# ソニックナイト
+JP 正義の味方にも休息が必要なのさね。
+JP うんうん。
+EN Even a hero of justice needs a rest, y'see. Uh-huh,
+EN uh-huh.
+
+@ 55.28
+# scene 056 失踪
+# ソニックナイト
+JP 正義の味方には
+JP １人でがんばらなくちゃいけない
+JP ときもあるの。
+EN Sometimes a hero of justice has to fight all alone.
+
+@ 56.16
+# scene 057 選手解雇
+# ソニックナイト
+JP うきゅ～。
+JP 社長のうらぎりものー、なのー。
+EN Ukyuu. Boss, you traitooor!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ソニックナイト
+JP じゃ、いってくるのー。
+EN Okay, I'm off!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ソニックナイト
+JP ただいまなのー。
+EN I'm baaack!
+
+@ 59.28
+# scene 060 移籍思案
+# ソニックナイト
+JP 他でもヒロインの力が
+JP 必要とされているの。
+JP 悩むの～。
+EN Other places need a heroine's power too. I'm so
+EN torn...
+
+@ 60.16
+# scene 061 革命軍結成
+# ソニックナイト
+JP ここで立ち上がらなければ
+JP ヒロインではないの！
+EN If I don't stand up now, I'm no heroine!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ソニックナイト
+JP たとえダークヒロインに
+JP なろうとも…。
+JP やったるの！
+EN Even if I become a dark heroine... I'm gonna do it!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ソニックナイト
+JP いよいよ決着、なのっ！
+EN It's finally time to settle this!
+
+@ 63.16
+# scene 065 遺恨発生
+# ソニックナイト
+JP うきゅ～～～。
+EN Ukyuuuuu...
+
+@ 64.16
+# scene 065 殴り込み
+# ソニックナイト
+JP 行ってくるお！
+EN I'm off!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ソニックナイト
+JP リングの平和は私が守るぉ！
+EN I'll protect the peace of the ring!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ソニックナイト
+JP 音速ヒロイン見参、なの！！
+EN The Supersonic Heroine is here!!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ソニックナイト
+JP わかったぉ！
+JP 私にまかせるのさね！！
+EN Got it! Leave it to me, y'see!!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ソニックナイト
+JP うっきゅっきゅっきゅっ…。
+JP ぶいっ！
+EN Ukyukyukyu... V for victory!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ソニックナイト
+JP うきゅうぅぅ…。
+JP 無念、なの。
+EN Ukyuuuu... What a shame.
+
+@ 70.13
+# scene 071 引退式
+# ソニックナイト
+JP 私はこれで星に帰るの…。
+JP だから、これからの平和は
+JP みんなにまかせたぉ――っ！
+EN Now I must return to my star... So I leave the peace
+EN from here on to all of yooou!
+
+@ 71.17
+# ソニックナイト
+JP うきゅ？
+EN Ukyu?
+
+@ 71.36
+# ソニックナイト
+JP うきゅ？
+EN Ukyu?
+
+@ 71.46
+# ソニックナイト
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子で突き進んでくれ！
+EN Looks like you've been in good form lately. Keep
+EN charging ahead!
+
+@ 71.89
+# ソニックナイト
+JP 進むのっ？
+JP うん、突き進むのは得意だぉ。
+JP まかせておいて！
+EN Charge? Yup, charging ahead's my specialty. Leave
+EN it to me!
+
+@ 71.110
+# ソニックナイト
+JP うきゅ？
+JP むつかしーことはよくわかんないの！
+EN Ukyu? I don't get complicated stuff!
+
+@ 71.131
+# ソニックナイト
+JP わーい♪
+JP ほめられたのー。
+JP わかったの、がんばるのー♪
+EN Yaaay♪ I got praised! Okay, I'll do my best♪
+
+@ 71.152
+# ソニックナイト
+JP わーい♪
+JP ほめられたのー……。
+JP なんでほめられたかわからないけど。
+EN Yaaay♪ I got praised...... Not sure what for, though.
+
+@ 71.165
+# 社 長
+JP お前、最近少し
+JP たるんでるんじゃないか？
+EN Haven't you been slacking a bit lately?
+
+@ 71.189
+# ソニックナイト
+JP うきゅ～…。
+JP 怒られたの。
+JP はんせー、なの。
+EN Ukyuu... I got scolded. I'll reflect on it.
+
+@ 71.210
+# ソニックナイト
+JP …………うきゅ？
+JP 何か難解なことを
+JP 言われた気がするの。
+EN ............Ukyu? I feel like you said something really hard
+EN to understand.
+
+@ 71.231
+# ソニックナイト
+JP うきゅうぅ……。
+EN Ukyuuu......
+
+@ 71.252
+# ソニックナイト
+JP …………？
+JP ……うきゅ♪
+EN ............? ......Ukyu♪
+
+@ 71.265
+# 社 長
+JP 最近どうした？
+JP おまえの実力はこんなもんじゃ
+JP ないはずなんだが。
+EN What's wrong lately? You're capable of much more
+EN than this.
+
+@ 71.289
+# ソニックナイト
+JP わかったの！
+JP これからの時代は
+JP 超必殺技変形合体なの！
+EN Got it! The future belongs to super-finisher
+EN transforming combos!
+
+@ 71.292
+# 社 長
+JP これで、
+JP ホントにわかっているのだろうか…。
+EN Does she really get it...?
+
+@ 71.313
+# ソニックナイト
+JP たいちょーの実力も
+JP こんなもんじゃないのっ。
+JP ファイトだお！
+EN You're capable of much more than this too, Captain.
+EN Fight on!
+
+@ 71.316
+# 社 長
+JP あ、ああ…。
+EN Uh, y-yeah...
+
+@ 71.318
+# 社 長
+JP （何故、俺がはげまされているんだ？）
+EN (Why am I the one being cheered up?)
+
+@ 71.339
+# ソニックナイト
+JP たいちょーがはげましてくれたの！
+JP 私のやる気ゲージがあがったの♪
+EN Captain cheered me up! My motivation gauge went
+EN up♪
+
+@ 71.360
+# ソニックナイト
+JP わかったの！
+JP 社長、がんばってなのっ！
+EN Got it! You do your best too, Boss!
+
+@ 71.363
+# 社 長
+JP （あれ？　俺が励まされる側？）
+EN (Huh? I'm the one getting the pep talk?)
+
+@ 71.377
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.393
+# ソニックナイト
+JP なーんとなくは、わかるの。
+EN Kiiinda, sorta.
+
+@ 71.410
+# ソニックナイト
+JP うきゅ？
+EN Ukyu?
+
+@ 71.421
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.443
+# ソニックナイト
+JP 別にいいお。
+EN Sure, okay.
+
+@ 71.446
+# 社 長
+JP （即答かよ）
+EN (That was quick.)
+
+@ 71.467
+# ソニックナイト
+JP やだぉ♪
+EN Nope♪
+
+@ 71.470
+# 社 長
+JP （即答かよ）
+EN (That was quick.)
+
+@ 71.491
+# ソニックナイト
+JP ……………………うきゅ？
+EN ......................Ukyu?
+
+@ 71.504
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.521
+# ソニックナイト
+JP もちろんだお♪
+EN Of course♪
+
+@ 71.538
+# ソニックナイト
+JP うきゅ？
+EN Ukyu?
+
+@ 71.551
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.573
+# ソニックナイト
+JP しゃちょーがそう言うなら
+JP そのとおりにするのっ♪
+EN If you say so, Boss, then that's what I'll do♪
+
+@ 71.594
+# ソニックナイト
+JP うきゅ～。
+JP 納得いかないの～…。
+EN Ukyuu. I'm not convinced...
+
+@ 71.615
+# ソニックナイト
+JP しゃちょーの言うことは
+JP いつも訳がわかんないの♪
+EN You never make any sense, Boss♪
+
+@ 72.13
+# scene 073 会話 一言目 好意
+# ソニックナイト
+JP うきゅ？
+EN Ukyu?
+
+@ 72.15
+# ソニックナイト
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子で突き進んでくれ！
+EN Looks like you've been in good form lately. Keep
+EN charging ahead!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ソニックナイト
+JP 進むのっ？
+JP うん、突き進むのは得意だぉ。
+JP まかせておいて！
+EN Charge? Yup, charging ahead's my specialty. Leave
+EN it to me!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ソニックナイト
+JP うきゅ？
+JP むつかしーことはよくわかんないの！
+EN Ukyu? I don't get complicated stuff!
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ソニックナイト
+JP わーい♪　ほめられたのー。
+JP わかったの。
+JP がんばるのー♪
+EN Yaaay♪ I got praised! Okay, I'll do my best♪
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ソニックナイト
+JP わーい♪　ほめられたのー……。
+JP なんでほめられたかわからないけど。
+EN Yaaay♪ I got praised...... Not sure what for, though.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP お前、
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ソニックナイト
+JP うきゅ～…。
+JP 怒られたの。
+JP はんせー、なの。
+EN Ukyuu... I got scolded. I'll reflect on it.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ソニックナイト
+JP …………？　うきゅ。
+JP 何か難解なことを
+JP 言われた気がするの。
+EN ............? Ukyu. I feel like you said something really
+EN hard to understand.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ソニックナイト
+JP うきゅうぅ……。
+EN Ukyuuu......
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ソニックナイト
+JP …………？
+JP ……うきゅ♪
+EN ............? ......Ukyu♪
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近どうした？
+JP お前の実力はこんな もんじゃ
+JP ないはずなんだが。
+EN What's wrong lately? You're capable of much more
+EN than this.
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ソニックナイト
+JP わかったの！
+JP  これからの時代は
+JP 超必殺技変形合体なの！
+EN Got it! The future belongs to super-finisher
+EN transforming combos!
+
+@ 84.19
+# 社 長
+JP これで、
+JP ホントにわかっているのだろうか…。
+EN Does she really get it...?
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ソニックナイト
+JP たいちょーの実力も
+JP こんなもんじゃないのっ。
+JP ファイトだお！
+EN You're capable of much more than this too, Captain.
+EN Fight on!
+
+@ 85.19
+# 社 長
+JP あ、ああ…。
+EN Uh, y-yeah...
+
+@ 85.21
+# 社 長
+JP （何故、俺がはげまされているんだ？）
+EN (Why am I the one being cheered up?)
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ソニックナイト
+JP たいちょーがはげましてくれたの！
+JP 私のやる気ゲージがあがったの♪
+EN Captain cheered me up! My motivation gauge went
+EN up♪
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ソニックナイト
+JP わかったの！
+JP 社長、がんばってなのっ！
+EN Got it! You do your best too, Boss!
+
+@ 87.19
+# 社 長
+JP （あれ？　俺が励まされる側？）
+EN (Huh? I'm the one getting the pep talk?)
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ソニックナイト
+JP なーんとなくは、わかるの。
+EN Kiiinda, sorta.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ソニックナイト
+JP うきゅ？
+EN Ukyu?
+
+@ 91.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ソニックナイト
+JP 別にいいお。
+EN Sure, okay.
+
+@ 92.19
+# 社 長
+JP （即答かよ）
+EN (That was quick.)
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ソニックナイト
+JP やだぉ♪
+EN Nope♪
+
+@ 93.19
+# 社 長
+JP （即答かよ）
+EN (That was quick.)
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ソニックナイト
+JP ……………………うきゅ？
+EN ......................Ukyu?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ソニックナイト
+JP もちろんだお♪
+EN Of course♪
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ソニックナイト
+JP うきゅ？
+EN Ukyu?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ソニックナイト
+JP しゃちょーがそう言うなら、
+JP そのとおりにするのっ♪
+EN If you say so, Boss, then that's what I'll do♪
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ソニックナイト
+JP うきゅ～。
+JP 納得いかないの～…。
+EN Ukyuu. I'm not convinced...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ソニックナイト
+JP しゃちょーの言う事は、
+JP いつも訳がわかんないの♪
+EN You never make any sense, Boss♪
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ソニックナイト
+JP いいおー。
+EN Okaaay.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ソニックナイト
+JP うきゅ、いいおー♪
+EN Ukyu, okaaay♪
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ソニックナイト
+JP んー、まあ仕方ないの。
+EN Mmm, well, can't be helped.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived on a southern island.)
+
+@ 105.34
+# 社 長
+JP （みんな、めいめい楽しんでいる）
+EN (Everyone was enjoying themselves in their own
+EN way.)
+
+@ 105.36
+# 社 長
+JP （みんなの様子を見ていたら
+JP 　ソニックが凄い勢いでこっちに
+JP 　走ってくるのが見えた）
+EN (As I watched them, I saw Sonic running toward me at
+EN full speed.)
+
+@ 105.46
+# ソニックナイト
+JP しゃちょー！
+EN Bossss!
+
+@ 105.49
+# 社 長
+JP どうした、そんなに興奮して。
+EN What is it? You're all worked up.
+
+@ 105.53
+# ソニックナイト
+JP しゃちょー！
+JP あれ見てなの、凄いの！！
+EN Boss! Look at that, it's amazing!!
+
+@ 105.56
+# 社 長
+JP ん？
+EN Hm?
+
+@ 105.62
+# 社 長
+JP （興奮するソニックの指さす先では
+JP 　ボートにつながれたパラシュートが
+JP 　空に舞っていた）
+EN (Where the excited Sonic was pointing, a parachute
+EN tied to a boat was soaring through the sky.)
+
+@ 105.64
+# 社 長
+JP パラセーリングか……。
+EN Parasailing, huh......
+
+@ 105.71
+# ソニックナイト
+JP すごいのー！
+JP 飛んでるのー！！
+EN Amaaazing! It's flyiiing!!
+
+@ 105.74
+# 社 長
+JP ……やりたいのか？
+EN ......You want to try it?
+
+@ 105.81
+# ソニックナイト
+JP やりたいのーっ！
+EN I wanna try iiit!
+
+@ 105.84
+# 社 長
+JP （この時）
+EN (At that moment...)
+
+@ 105.86
+# 社 長
+JP （ナントカと煙は高いところが好き
+JP 　という言葉が浮かんだのは
+JP 　内緒にしておこうと思う）
+EN (...I'll keep it to myself that the saying "fools and
+EN smoke always rise to the top" crossed my mind.)
+
+@ 105.116
+# ソニックナイト
+JP すごいのー！
+JP 高いの――！！
+EN Amaaazing! So hiiigh!!
+
+@ 105.119
+# 社 長
+JP （ソニックはすっかり興奮している）
+EN (Sonic was completely thrilled.)
+
+@ 105.121
+# 社 長
+JP （というか
+JP 　なぜ俺まで乗っているんだろう？）
+EN (Or rather, why am I up here too?)
+
+@ 105.123
+# 社 長
+JP （ソニックが迷うことなく２人用を
+JP 　選んで俺を押し込んだからだが）
+EN (Because Sonic picked the two-seater without a
+EN second thought and shoved me in, that's why.)
+
+@ 105.127
+# ソニックナイト
+JP ねーねー、しゃちょー！
+JP すごいのさね！！
+EN Hey, hey, Boss! It's amazing, y'see!!
+
+@ 105.130
+# 社 長
+JP ああ、すごいな。
+EN Yeah, it's amazing.
+
+@ 105.132
+# 社 長
+JP （たしかに、これはすごい）
+EN (It really is amazing.)
+
+@ 105.136
+# ソニックナイト
+JP うきゅ―――――っ！
+EN Ukyuuuuuu!
+
+@ 105.139
+# 社 長
+JP 楽しそうだな。
+EN You look like you're having fun.
+
+@ 105.143
+# ソニックナイト
+JP 当然なの！
+JP 飛ぶのが嫌いな人はいないの！
+JP 人は皆、昔は翼を持っていたの！！
+EN Of course! Nobody hates flying! Long ago, everyone
+EN had wings!!
+
+@ 105.146
+# 社 長
+JP 翼って…。
+EN Wings...?
+
+@ 105.150
+# ソニックナイト
+JP 今も心に翼を持っているの！
+EN We still have wings in our hearts!
+
+@ 105.153
+# 社 長
+JP 急に詩的になったな。
+EN That got poetic all of a sudden.
+
+@ 105.155
+# 社 長
+JP （気持ちはわからなくもないが）
+EN (Not that I don't get the feeling.)
+
+@ 105.159
+# ソニックナイト
+JP 青い海――！
+JP 緑の地球は美しいの！！
+EN The blue seaaa! The green Earth is beautiful!!
+
+@ 105.163
+# ソニックナイト
+JP 社長とどこまでも
+JP 飛んでいくの――――――！！
+EN I'll fly with you forever and ever, Boooss!!
+
+@ 105.166
+# 社 長
+JP いや、キリの良いところで
+JP 下ろしてくれ。
+EN No, let me down at some reasonable point.
+
+@ 105.170
+# ソニックナイト
+JP しやわせなの――――――――っ！
+EN I'm so happyyyyyy!
+
+@ 105.173
+# 社 長
+JP （本当に楽しそうだなぁ）
+EN (She really is having fun.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （それは、社長室で仕事をしていた
+JP 　ときのことだった）
+EN (It happened while I was working in the president's
+EN office.)
+
+@ 106.34
+# ソニックナイト
+JP ふわ～～ぁ。
+EN Yaaawn.
+
+@ 106.37
+# 社 長
+JP （眠そうなソニックが入ってきた）
+EN (A sleepy Sonic came in.)
+
+@ 106.39
+# 社 長
+JP どうした？
+EN What's up?
+
+@ 106.43
+# ソニックナイト
+JP 眠いの。
+JP 一休みしにきたの。
+EN I'm sleepy. I came to take a little rest.
+
+@ 106.46
+# 社 長
+JP ここにか？
+EN Here?
+
+@ 106.53
+# ソニックナイト
+JP うん。
+EN Yup.
+
+@ 106.56
+# 社 長
+JP 仕事中だぞ。
+EN I'm working.
+
+@ 106.60
+# ソニックナイト
+JP ここが落ち着くの～。
+EN It's relaxing here.
+
+@ 106.63
+# 社 長
+JP いや、答えになってないし。
+EN That's not an answer.
+
+@ 106.65
+# 社 長
+JP （俺の見ている前で
+JP 　ソニックはソファに横たわり）
+EN (Right in front of me, Sonic lay down on the sofa...)
+
+@ 106.80
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.82
+# 社 長
+JP （ソファをポンポンと叩いた）
+EN (...and patted the sofa.)
+
+@ 106.86
+# ソニックナイト
+JP しゃちょー、ここに座るの。
+EN Boss, sit here.
+
+@ 106.89
+# 社 長
+JP ……なんで？
+EN ......Why?
+
+@ 106.93
+# ソニックナイト
+JP いいから座るの！
+EN Just sit!
+
+@ 106.96
+# 社 長
+JP 仕方ないやつだな…。
+JP ちょっとだけだぞ。
+EN You're impossible... Just for a little bit.
+
+@ 106.98
+# 社 長
+JP （言われるままに座ると）
+EN (When I sat down as told...)
+
+@ 106.114
+# 社 長
+JP （膝の上に頭を乗せられた）
+EN (...she laid her head on my lap.)
+
+@ 106.116
+# 社 長
+JP おい…。
+EN Hey...
+
+@ 106.120
+# ソニックナイト
+JP えへへへ…。
+JP うきゅ♪
+EN Ehehehe... Ukyu♪
+
+@ 106.123
+# 社 長
+JP あのなぁ。
+EN Look...
+
+@ 106.127
+# ソニックナイト
+JP 社長のおひざ、好きなの～。
+EN I like your lap, Boss.
+
+@ 106.130
+# 社 長
+JP 好きなの、とか言われてもな。
+EN "I like it," she says...
+
+@ 106.140
+# ソニックナイト
+JP す～。
+EN Zzz.
+
+@ 106.143
+# 社 長
+JP ……って、早っ。
+EN ......Wait, already?
+
+@ 106.145
+# 社 長
+JP （あっという間に寝られてしまった）
+EN (She was asleep in an instant.)
+
+@ 106.147
+# 社 長
+JP こいつ…。
+JP 自由すぎる…。
+EN This girl... is way too free-spirited...
+
+@ 106.151
+# ソニックナイト
+JP すぅ～。
+EN Zzzz.
+
+@ 106.154
+# 社 長
+JP （ソニックは、安心しきった
+JP 　猫のように眠っている）
+EN (Sonic was sleeping like a cat without a care in the
+EN world.)
+
+@ 106.156
+# 社 長
+JP （起こすに起こせない…）
+EN (I can't bring myself to wake her...)
+
+@ 106.158
+# 社 長
+JP （困った）
+EN (This is a problem.)
+
+@ 106.160
+# 社 長
+JP （仕事があるのに
+JP 　動くに動けなくなってしまった）
+EN (I've got work to do, but now I can't move.)
+
+@ 106.170
+# ソニックナイト
+JP むに……。
+JP えへへへ……。
+JP むにゅう……。
+EN Mmh...... Ehehehe...... Mmnyuu......
+
+@ 106.184
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.186
+# 社 長
+JP （やれやれ…）
+EN (Oh, well...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （それは、社長室で仕事をしていた
+JP 　ときのことだった）
+EN (It happened while I was working in the president's
+EN office.)
+
+@ 107.34
+# ソニックナイト
+JP ふわ～～ぁ…。
+JP 一休みしにきたの。
+EN Yaaawn... I came to take a little rest.
+
+@ 107.37
+# 社 長
+JP またか。
+EN Again?
+
+@ 107.44
+# ソニックナイト
+JP またなの。
+EN Again.
+
+@ 107.47
+# 社 長
+JP （まったく悪びれた様子はない）
+EN (She didn't look the least bit sorry.)
+
+@ 107.49
+# 社 長
+JP （ソニックはいそいそと
+JP 　ソファに横たわると）
+EN (Sonic eagerly lay down on the sofa...)
+
+@ 107.51
+# 社 長
+JP （例によってポンポンと
+JP 　ソファを叩いた）
+EN (...and patted the sofa, as usual.)
+
+@ 107.58
+# ソニックナイト
+JP さ、さ。
+JP しゃちょーも早く来るの。
+EN C'mon, c'mon. Hurry over here, Boss.
+
+@ 107.61
+# 社 長
+JP おまえ、自由すぎるぞ。
+EN You're way too free-spirited.
+
+@ 107.68
+# ソニックナイト
+JP 私は何物にも
+JP ソクバクされないのさね。
+EN Nothing can tie me down, y'see.
+
+@ 107.71
+# 社 長
+JP はぁ……。
+JP ちょっと待て
+JP そこでも仕事できるようにする。
+EN Sigh...... Hang on. Let me set it up so I can work over
+EN there.
+
+@ 107.73
+# 社 長
+JP （俺は、仕事のデータを
+JP 　ノートに移してから
+JP 　ソニックの元へ移動した）
+EN (I moved my work files onto my laptop, then went over
+EN to Sonic.)
+
+@ 107.93
+# ソニックナイト
+JP えへへへ…。
+JP うきゅう～～。
+EN Ehehehe... Ukyuuu.
+
+@ 107.96
+# 社 長
+JP まったく…。
+JP おまえは社長を何だと思ってるんだ。
+EN Honestly... What do you think a president is?
+
+@ 107.100
+# ソニックナイト
+JP 社長は社長なのさね。
+EN A president is a president, y'see.
+
+@ 107.103
+# 社 長
+JP あのなぁ。
+EN Look...
+
+@ 107.107
+# ソニックナイト
+JP むに……。
+JP しゃーわせなの～。
+EN Mmh...... I'm so happy...
+
+@ 107.111
+# ソニックナイト
+JP 社長のおひざ、大好きなの……。
+EN I really love your lap, Boss......
+
+@ 107.121
+# ソニックナイト
+JP すぅ…………すぅ…………。
+EN Zzz............ zzz............
+
+@ 107.124
+# 社 長
+JP 相変わらず、すごく寝付きがいいな。
+EN Fast asleep as usual.
+
+@ 107.126
+# 社 長
+JP （ソニックは安心しきった
+JP 　猫のように眠っている）
+EN (Sonic was sleeping like a cat without a care in the
+EN world.)
+
+@ 107.128
+# 社 長
+JP まあ、いいか。
+JP 何か、なごむし。
+EN Well, fine. It's kind of soothing, anyway.
+
+@ 107.130
+# 社 長
+JP （気持ちを切り替えて
+JP 　俺は仕事を再開する）
+EN (I switched gears and got back to work.)
+
+@ 107.132
+# 社 長
+JP （足に感じる重みと暖かさが
+JP 　何ともいえず心地よい）
+EN (The weight and warmth on my legs felt indescribably
+EN nice.)
+
+@ 107.136
+# ソニックナイト
+JP むにゅう……。
+JP えへへ……。
+JP しゃちょー……だいすき…なの……。
+EN Mmnyuu...... Ehehe...... Boss...... I love you......
+
+@ 107.150
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.152
+# 社 長
+JP （やれやれ…）
+EN (Oh, well...)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# ソニックナイト
+JP ディアナ、いっくぉー♪
+EN Diana, here I gooo♪
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# ソニックナイト
+JP うっきゅっきゅっ。
+JP かるーく、いってみようなのさね。
+EN Ukyukyu. Let's take it nice and easy, y'see.
+
+@ 110.17
+# scene 111 練習試合 ベター２
+# ソニックナイト
+JP 楽しくいこうなの。
+EN Let's have fun.
+
+@ 111.16
+# scene 113 練習開始
+# ソニックナイト
+JP それじゃ、いってみようなの。
+EN Okay, let's give it a go.
+
+@ 112.16
+# scene 114 練習開始 好意
+# ソニックナイト
+JP ノリノリでいくぉ――！
+EN Let's get grooviiin'!
+
+@ 113.16
+# scene 115 特訓開始
+# ソニックナイト
+JP 修行、特訓はヒロインが避けては
+JP 通れない道なの。
+EN Training and special training are a road no heroine
+EN can avoid.
+
+@ 114.20
+# scene 116 特訓成功
+# ソニックナイト
+JP よっしゃ、なの♪
+EN All right♪
+
+@ 115.20
+# scene 117 特訓失敗
+# ソニックナイト
+JP うきゅうぅ…。
+JP うまくいかないときもあるのさね。
+EN Ukyuuu... Sometimes things don't go right, y'see.
+
+@ 116.16
+# scene 118 休養
+# ソニックナイト
+JP いろんなアニメや特撮見て
+JP 新しい技を考えるの♪
+EN I'll watch all kinds of anime and tokusatsu and think
+EN up new moves♪
+
+@ 117.16
+# scene 119 入場1
+# ソニックナイト
+JP さあ、出陣なのさねっ！
+EN Now, off to battle, y'see!
+
+@ 118.16
+# scene 119 入場2
+# ソニックナイト
+JP 音速ヒロイン、緊急出動――――っ！
+EN Supersonic Heroine, emergency launch!
+
+@ 119.17
+# scene 120 タッグマッチ ベスト
+# ソニックナイト
+JP ディアナ、いつも通りでいくのさね。
+EN Diana, let's do it like always, y'see.
+
+@ 120.17
+# scene 121 タッグマッチ ベター１
+# ソニックナイト
+JP ジュニアの意地
+JP みせてあげようなの。
+EN Let's show 'em the pride of the juniors.
+
+@ 121.17
+# scene 122 タッグマッチ ベター２
+# ソニックナイト
+JP 楽しい試合でいこうなのさね。
+EN Let's make it a fun match, y'see.
+
+@ 122.16
+# scene 125 必殺技１
+# ソニックナイト
+JP うきゅ！
+JP いっくぉ――――――――――っ！！
+EN Ukyu! Here I gooooooo!!
+
+@ 123.16
+# scene 125 必殺技２
+# ソニックナイト
+JP これで決まり！　なの！！
+EN This finishes it!!
+
+@ 124.16
+# scene 125 必殺技３
+# ソニックナイト
+JP ここで、必殺技が炸裂するの――！
+EN And now, the finisher explodes!
+
+@ 125.12
+# scene 126 勝利1
+# ソニックナイト
+JP うきゅ！
+JP 勝っ利――――っ！！
+EN Ukyu! Victoryyyy!!
+
+@ 126.12
+# scene 126 勝利2
+# ソニックナイト
+JP 応援、ありがとーなのっ！
+EN Thanks for cheering!
+
+@ 127.12
+# scene 126 勝利3
+# ソニックナイト
+JP ヒロインは勝つの。
+JP 勝たなくちゃ、いけないのっ！
+EN Heroines win. They have to win!
+
+@ 128.15
+# scene 133 表彰1
+# ソニックナイト
+JP うきゅ。
+JP 小さなお友達の応援のおかげなのー！
+JP ありがとなの♪
+EN Ukyu. It's all thanks to my little friends cheering!
+EN Thank you♪
+
+@ 129.15
+# scene 133 表彰2
+# ソニックナイト
+JP がんばれば、だれでも
+JP ヒーロー、ヒロインになれるんだぉ！
+EN If you try hard, anyone can become a hero or
+EN heroine!
+
+@ 130.12
+# scene 134 優勝1
+# ソニックナイト
+JP これぞ、ヒロインの真骨頂なのっ！
+EN This is a heroine at her very best!
+
+@ 131.12
+# scene 134 優勝２
+# ソニックナイト
+JP ちいさなお友達の期待に
+JP こたえることができたのー！
+EN I lived up to my little friends' hopes!
+
+@ 132.24
+# scene 135 エンディング 通常
+# ソニックナイト
+JP すごいのさね！
+JP でも、社長はがんばってたから
+JP とーぜんなの！！
+EN Amazing, y'see! But you worked hard, Boss, so of
+EN course!!
+
+@ 133.24
+# scene 136 エンディング 好意
+# ソニックナイト
+JP おめでとうなの♪
+JP 祝福のキッスだぉ♪
+JP （ちゅっ）
+EN Congratulations♪ A kiss to celebrate♪ *smooch*

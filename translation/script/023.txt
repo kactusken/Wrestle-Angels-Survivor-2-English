@@ -1,0 +1,2309 @@
+# /SCR/023.BIN - 結城 千種
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 023` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 結城 千種
+JP え～と…あの…。
+JP 一生懸命がんばります！
+JP よろしくお願いします！
+EN Um... er... I'll give it everything I've got! Nice to meet
+EN you!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 結城 千種
+JP ありがとうございます。
+JP え～と…え～と…。
+JP とにかく精一杯がんばります！
+EN Thank you so much! Um... um... Anyway, I'll do my very
+EN best!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 結城 千種
+JP そんなぁ…。
+JP やっぱり根性だけだと
+JP レスラーになれないのかなぁ…。
+EN No way... I guess guts alone aren't enough to become
+EN a wrestler...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP たしか、このへんだったな。
+JP ええっと……。
+EN It should be around here somewhere. Let's see...
+
+@ 3.25
+# 社 長
+JP 資料では「高い運動能力」
+JP 「根性が折り紙付き」となって
+JP いるけど…。
+EN The file says "great athletic ability" and "guts
+EN beyond question," but...
+
+@ 3.27
+# 社 長
+JP …んっ？
+JP もしかして、あの娘か？
+EN ...Hm? Could that be her?
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 3.39
+# 結城 千種
+JP …え～と…なんですか？
+EN ...Um... can I help you?
+
+@ 3.42
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.49
+# 結城 千種
+JP …ええっ！？
+JP プ、プロレスですか？
+JP 私なんかでいいんですか！？
+EN ...Whaaat?! P-pro wrestling? You really want someone
+EN like me?!
+
+@ 3.52
+# 社 長
+JP えぇ、あなたなら世界も狙える。
+JP 俺はそう信じてます。
+EN Yes. You could take on the world. I truly believe that.
+
+@ 3.54
+# 社 長
+JP どうでしょう。
+JP うちの団体で戦ってもらえませんか？
+EN What do you say? Will you fight for my promotion?
+
+@ 3.56
+# 社 長
+JP （俺はねばり強く説得してみた。
+JP 　その結果は…）
+EN (I kept trying to persuade her. The result...)
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# 結城 千種
+JP あの…私なんかでよかったら…。
+EN Um... if someone like me is okay...
+
+@ 4.18
+# 社 長
+JP 来ていただけるんですか！？
+EN You'll join us?!
+
+@ 4.29
+# 結城 千種
+JP あっ、はい…。
+JP あの…ふつつか者ですが
+JP お世話になります！
+EN Oh, yes... Um... I'm still pretty clumsy, but I'll be in your
+EN care!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 結城 千種
+JP え～と…。
+JP 今は…他にやることがあって…。
+JP ごめんなさい…！
+EN Um... Right now... I have other things to do... I'm sorry!
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP え～と…たしかこのあたりだった
+JP はずだが…。
+EN Let's see... It should be right around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Excuse me.
+
+@ 6.35
+# 結城 千種
+JP あっ…この前の…。
+JP も、もしかして
+JP またスカウトですか？
+EN Oh... you're the man from before... I-is this another
+EN scouting visit?
+
+@ 6.38
+# 社 長
+JP えぇ、もう一度
+JP 考え直してもらえないでしょうか？
+EN Yes. Would you reconsider, please?
+
+@ 6.40
+# 社 長
+JP （俺はねばり強く説得してみた。
+JP 　その結果は…）
+EN (I kept trying to persuade her. The result...)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# 結城 千種
+JP あの…私なんかでよかったら…。
+EN Um... if someone like me is okay...
+
+@ 7.18
+# 社 長
+JP 来ていただけるんですか！？
+EN You'll join us?!
+
+@ 7.29
+# 結城 千種
+JP あっ、はい…。
+JP あの…ふつつか者ですが
+JP お世話になります！
+EN Oh, yes... Um... I'm still pretty clumsy, but I'll be in your
+EN care!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 結城 千種
+JP え～と…。
+JP 今は…他にやることがあって…。
+JP ごめんなさい…！
+EN Um... Right now... I have other things to do... I'm sorry!
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は千種選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Chigusa.
+
+@ 9.25
+# 社 長
+JP 天性の素質の高さ
+JP そして、どんな苦境も耐え抜く
+JP 芯の強さ…。
+EN Her natural talent, and the inner strength to endure
+EN any hardship...
+
+@ 9.27
+# 社 長
+JP うちに来てくれれば
+JP これほど嬉しいことはない。
+EN Nothing would make me happier than having her join
+EN us.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+JP あっ、いた！
+EN She should be training around here... Ah, there she
+EN is!
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 9.41
+# 結城 千種
+JP あっ、はーい！
+JP 私ですか？
+EN Oh, yes! You mean me?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.51
+# 結城 千種
+JP ……えぇえええ！？
+JP こ、これってヘッドハンティング
+JP ですか！？
+EN ......Whaaaaat?! I-is this headhunting?!
+
+@ 9.54
+# 社 長
+JP どうでしょう？
+JP 考えていただけませんか？
+EN What do you say? Will you think about it?
+
+@ 9.56
+# 社 長
+JP （俺はねばり強く説得してみた。
+JP 　その結果は…）
+EN (I kept trying to persuade her. The result...)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 結城 千種
+JP え～と、え～と…。
+JP はい、よろしくお願いします。
+EN Um, um... Okay. I'll be in your care.
+
+@ 10.22
+# 社 長
+JP 本当ですか！？
+EN Really?!
+
+@ 10.29
+# 結城 千種
+JP は、はい。
+JP え～と…怖い人とかいませんよね？
+EN Y-yes. Um... there aren't any scary people there,
+EN right?
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 結城 千種
+JP ごめんなさい…。
+JP 今の団体、裏切ることに
+JP なっちゃうし…。
+EN I'm sorry... It would mean betraying my current
+EN promotion...
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 千種選手が必要だ。
+EN My promotion really needs Chigusa.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度千種選手と
+JP 交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 12.37
+# 結城 千種
+JP あっ、社長さん…。
+JP もしかして、また
+JP ヘッドハンティングのお話ですか？
+EN Oh, it's the President... Is this about headhunting
+EN again?
+
+@ 12.40
+# 社 長
+JP ええ、まぁそうです。
+EN Yes, well, it is.
+
+@ 12.47
+# 結城 千種
+JP え～と、う～んと…。
+JP 困っちゃうなぁ…。
+EN Um, uhh... You're putting me on the spot...
+
+@ 12.50
+# 社 長
+JP …どうしてもうちの団体に
+JP 入って欲しいんです。
+JP 考え直していただけませんか？
+EN ...I really want you in my promotion. Won't you
+EN reconsider?
+
+@ 12.52
+# 社 長
+JP （俺はねばり強く説得してみた。
+JP 　その結果は…）
+EN (I kept trying to persuade her. The result...)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 結城 千種
+JP え～と、え～と…。
+JP はい、よろしくお願いします。
+EN Um, um... Okay. I'll be in your care.
+
+@ 13.22
+# 社 長
+JP 本当ですか！？
+EN Really?!
+
+@ 13.29
+# 結城 千種
+JP は、はい。
+JP え～と…怖い人とかいませんよね？
+EN Y-yes. Um... there aren't any scary people there,
+EN right?
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 結城 千種
+JP ごめんなさい…。
+JP 今の団体、裏切ることに
+JP なっちゃうし…。
+EN I'm sorry... It would mean betraying my current
+EN promotion...
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は千種選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Chigusa.
+
+@ 15.25
+# 社 長
+JP 天性の素質の高さ
+JP そして、どんな苦境も耐え抜く
+JP 芯の強さ…。
+EN Her natural talent, and the inner strength to endure
+EN any hardship...
+
+@ 15.27
+# 社 長
+JP うちに来てくれれば
+JP これほど嬉しいことはない。
+EN Nothing would make me happier than having her join
+EN us.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+JP …あっ、いた！
+EN She should be training around here... ...Ah, there she
+EN is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 15.41
+# 結城 千種
+JP え～と…私ですか？
+EN Um... you mean me?
+
+@ 15.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 15.51
+# 結城 千種
+JP あっ、え～と…。
+JP 社長さんの団体に私なんかが？
+EN Oh, um... Someone like me, in your promotion?
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+JP うちのリングで戦ってくれませんか？
+EN What do you say? Will you fight in our ring?
+
+@ 15.56
+# 社 長
+JP （俺はねばり強く説得してみた。
+JP 　その結果は…）
+EN (I kept trying to persuade her. The result...)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# 結城 千種
+JP え～と…。
+JP 私なんかで良ければ…。
+EN Um... If someone like me is okay...
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# 結城 千種
+JP あっ、はい。
+JP 今日からお世話になります！
+JP よろしくお願いします！
+EN Oh, yes. I'm in your care starting today! Nice to meet
+EN you!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 結城 千種
+JP え～と…。
+JP しばらくフリーでいたくて…。
+JP だから、ごめんなさいっ！
+EN Um... I want to stay freelance for a while... So, I'm
+EN sorry!
+
+@ 17.22
+# 社 長
+JP そ、そうですか。
+JP 残念です…。
+EN I-I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 千種選手が必要だ。
+EN My promotion really needs Chigusa.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度千種選手と
+JP 交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 18.37
+# 結城 千種
+JP あっ…。
+JP この前の社長さん…ですよね？
+EN Oh... You're the President from before... right?
+
+@ 18.40
+# 社 長
+JP はい。
+JP どうしても、うちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.47
+# 結城 千種
+JP あ～…う～っ…。
+JP やっぱり、そのお話ですよね…。
+EN Ahh... Uuu... I knew it was about that...
+
+@ 18.50
+# 社 長
+JP お願いします。
+JP 考え直していただけませんか？
+EN Please. Won't you reconsider?
+
+@ 18.52
+# 社 長
+JP （俺はねばり強く説得してみた。
+JP 　その結果は…）
+EN (I kept trying to persuade her. The result...)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# 結城 千種
+JP え～と…。
+JP 私なんかで良ければ…。
+EN Um... If someone like me is okay...
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# 結城 千種
+JP あっ、はい。
+JP 今日からお世話になります！
+JP よろしくお願いします！
+EN Oh, yes. I'm in your care starting today! Nice to meet
+EN you!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 結城 千種
+JP え～と…。
+JP しばらくフリーでいたくて…。
+JP だから、ごめんなさいっ！
+EN Um... I want to stay freelance for a while... So, I'm
+EN sorry!
+
+@ 20.22
+# 社 長
+JP そ、そうですか。
+JP 残念です…。
+EN I-I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は千種を訪ねることにした。
+EN I decided to go see Chigusa.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 千種っ！
+EN Chigusa!
+
+@ 21.41
+# 結城 千種
+JP 社長…！？
+JP あっ…え～と、あのぉ…。
+JP なんですか？
+EN Boss...?! Oh... um, er... What is it?
+
+@ 21.44
+# 社 長
+JP その…。
+JP 戻ってきて欲しいんだ。
+EN Well... I want you to come back.
+
+@ 21.51
+# 結城 千種
+JP …えっ？
+JP 話がよくわからないんですけど…？
+EN ...Huh? I don't really follow...
+
+@ 21.54
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this...
+
+@ 21.56
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 結城 千種
+JP え～と…。
+JP じゃ…私、戻ってもいいんですか？
+EN Um... So... I can really come back?
+
+@ 22.18
+# 社 長
+JP もちろんだ！
+EN Of course!
+
+@ 22.29
+# 結城 千種
+JP は、はい。
+JP それじゃ、あの
+JP またお世話になります…。
+EN Y-yes. Then, um... I'll be in your care again...
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしく。
+EN Thank you. Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 結城 千種
+JP え～と…。
+JP 私、もう退団したんで…。
+EN Um... I already left the promotion, so...
+
+@ 23.22
+# 社 長
+JP お願いだ。
+JP この通り！
+EN Please. I'm begging you!
+
+@ 23.24
+# 社 長
+JP （俺は何度も謝ったが
+JP 　千種は最後まで
+JP 　首を縦に振らなかった）
+EN (I apologized again and again, but Chigusa never said
+EN yes.)
+
+@ 23.26
+# 社 長
+JP （これも身から出たサビか…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び千種を訪ねることにした。
+EN I decided to visit Chigusa again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP 千種っ！
+EN Chigusa!
+
+@ 24.37
+# 結城 千種
+JP あっ、社長…。
+JP もしかして、また…ですか？
+EN Oh, Boss... Is this... again?
+
+@ 24.40
+# 社 長
+JP この通りだ。
+JP もう一度だけ俺にチャンスを
+JP くれないか！？
+EN I'm begging you. Won't you give me just one more
+EN chance?!
+
+@ 24.47
+# 結城 千種
+JP え～と…。
+JP そう言われても…。
+EN Um... Even if you say that...
+
+@ 24.50
+# 社 長
+JP 頼む。
+JP うちの団体には
+JP どうしても千種が必要なんだ！
+EN Please. My promotion really needs you, Chigusa!
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 結城 千種
+JP え～と…。
+JP じゃ…私、戻ってもいいんですか？
+EN Um... So... I can really come back?
+
+@ 25.18
+# 社 長
+JP もちろんだ！
+EN Of course!
+
+@ 25.29
+# 結城 千種
+JP は、はい。
+JP それじゃ、あの
+JP またお世話になります…。
+EN Y-yes. Then, um... I'll be in your care again...
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしく。
+EN Thank you. Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 結城 千種
+JP え～と…。
+JP 私、もう退団したんで…。
+EN Um... I already left the promotion, so...
+
+@ 26.22
+# 社 長
+JP お願いだ。
+JP この通り！
+EN Please. I'm begging you!
+
+@ 26.24
+# 社 長
+JP （俺は何度も謝ったが
+JP 　千種は最後まで
+JP 　首を縦に振らなかった）
+EN (I apologized again and again, but Chigusa never said
+EN yes.)
+
+@ 26.26
+# 社 長
+JP （これも身から出たサビか…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 結城 千種
+JP これくらい平気です。
+EN This much is nothing.
+
+@ 28.16
+# scene 029 ケガ大
+# 結城 千種
+JP はう～…。
+JP やっちゃいました…。
+EN Hauu... I really did it this time...
+
+@ 29.16
+# scene 030 入院
+# 結城 千種
+JP う～…。
+JP こんなはずじゃなかったのに…。
+EN Uuu... This wasn't supposed to happen...
+
+@ 30.16
+# scene 031 退院
+# 結城 千種
+JP 心配かけてごめんなさい…。
+JP もう平気です。
+EN Sorry for making you worry... I'm fine now.
+
+@ 31.16
+# scene 032 ケガ完治
+# 結城 千種
+JP もう全然平気です。
+EN I'm totally fine now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 結城 千種
+JP …うん…。
+JP 社長の言う通りにするね。
+EN ...Okay... I'll do what you say, Boss.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 結城 千種
+JP ごめんなさい…。
+JP まだ、やり残してることがあって…。
+EN I'm sorry... There's still something I haven't
+EN finished...
+
+@ 34.16
+# scene 035 コーチ就任
+# 結城 千種
+JP 今日からコーチになりました。
+JP えっへん！
+JP …社長、こんな感じでいい？
+EN As of today, I'm a coach. Ahem! ...Boss, is this how it
+EN goes?
+
+@ 35.16
+# scene 036 ケガ引退
+# 結城 千種
+JP このケガじゃ
+JP どうしようもないもんね…。
+JP ぐすっ…。
+EN With an injury like this, there's nothing I can do...
+EN *sniff*...
+
+@ 36.16
+# scene 037 年齢引退
+# 結城 千種
+JP ここまでよくがんばって
+JP これたよね…。
+EN I really did my best to make it this far...
+
+@ 37.16
+# scene 038 退団
+# 結城 千種
+JP え～と…。
+JP ごめんなさい…。
+EN Um... I'm sorry...
+
+@ 38.16
+# scene 039 スランプ
+# 結城 千種
+JP う～ん…。
+JP 何か違う気が…。
+EN Hmm... Something feels off...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 結城 千種
+JP そんな…。
+JP 私なんかでいいのかな…。
+EN No way... Is someone like me really okay?
+
+@ 39.19
+# 社 長
+JP おまえだからこそ、だろ？
+JP 応援に負けないよう、がんばれよ。
+EN It's because it's you, right? Work hard, so you live
+EN up to their support.
+
+@ 39.26
+# 結城 千種
+JP あっ、はいっ！
+JP 気合い入れてがんばります！
+EN Oh, yes! I'll put my all into it!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 結城 千種
+JP え～と…。
+JP またできたんですか？
+EN Um... Another one formed?
+
+@ 40.19
+# 社 長
+JP あぁ、これからもっと
+JP がんばらないとな。
+EN Yeah. You'll have to work even harder now.
+
+@ 40.26
+# 結城 千種
+JP はう～…。
+JP ちょっとプレッシャーかも…。
+EN Hauu... That might be a little pressure...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 結城 千種
+JP あの～…。
+JP もしかして私のファンクラブが…。
+EN Um... Could it be that my fan club...
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+JP そうだろ？
+EN These things happen. You'll just work hard and win
+EN them back. Right?
+
+@ 41.26
+# 結城 千種
+JP そうですね。
+JP みんなが好きになってくれるくらい
+JP もっとがんばります！
+EN You're right. I'll work even harder, until everyone
+EN loves me!
+
+@ 42.16
+# scene 043 映画出演
+# 結城 千種
+JP え～と、う～んと…。
+JP ほ、本当に私でいいんですか…？
+EN Um, uhh... A-are you sure you want me?
+
+@ 43.16
+# scene 044 一日署長
+# 結城 千種
+JP ホントに事件が起きたら
+JP どうしたらいいですか？
+EN If a real crime happens, what am I supposed to do?
+
+@ 44.16
+# scene 045 写真集発売
+# 結城 千種
+JP え～と…冗談なんですよね？
+EN Um... You're joking, right?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 結城 千種
+JP え～と…。
+JP 人違いじゃないんですよね…？
+EN Um... You don't have the wrong person, do you...?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 結城 千種
+JP え～と…。
+JP 社長、ホントに私なんですか？
+EN Um... Boss, is it really me?
+
+@ 47.16
+# scene 048 始球式
+# 結城 千種
+JP やったー！
+JP 野球は大好きなんで嬉しいです！
+EN Yaaay! I love baseball, so I'm thrilled!
+
+@ 48.16
+# scene 049 学園祭
+# 結城 千種
+JP 社長！
+JP 一緒に行きたい子がいるんですけど
+JP いいですか？
+EN Boss! There's someone I want to go with. Is that
+EN okay?
+
+@ 49.23
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.32
+# 結城 千種
+JP …えっ！？
+JP そんな…！
+JP もらえません。
+EN ...Huh?! No...! I can't accept this.
+
+@ 49.35
+# 社 長
+JP いいから。
+JP 遠慮するな。
+EN It's fine. Don't be shy.
+
+@ 49.42
+# 結城 千種
+JP ダメです。
+JP 私、結婚は引退してからって
+JP 決めてるんです！
+EN No, I can't. I've decided I won't get married until
+EN after I retire!
+
+@ 49.45
+# 社 長
+JP 結婚…？
+EN Married...?
+
+@ 49.52
+# 結城 千種
+JP ……えっ？
+EN ......Huh?
+
+@ 49.55
+# 社 長
+JP ………………。
+EN ..................
+
+@ 49.62
+# 結城 千種
+JP え～と…あれ…？
+EN Um... wait...?
+
+@ 49.65
+# 社 長
+JP …念のために言っておくが
+JP 中身は普通のペンダントだぞ？
+EN ...Just so we're clear, it's an ordinary pendant
+EN inside.
+
+@ 49.69
+# 結城 千種
+JP …えっ！？
+JP あの…指輪じゃないんですか！？
+EN ...What?! Um... it's not a ring?!
+
+@ 49.72
+# 社 長
+JP だから、誕生日プレゼントだって
+JP 言ってるだろ…。
+EN Like I said, it's a birthday present...
+
+@ 49.79
+# 結城 千種
+JP あの…えっと…すみません…。
+JP ありがとうございます…。
+EN Um... er... I'm sorry... Thank you very much...
+
+@ 49.82
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 50.30
+# scene 051 バレンタインデー
+# 結城 千種
+JP 社長…え～と…。
+JP これ…つまらないものですけど…。
+EN Boss... um... This... it's nothing special, but...
+
+@ 50.33
+# 社 長
+JP …んっ？
+JP あぁ、バレンタインのチョコか。
+JP ありがとう、嬉しいよ。
+EN ...Hm? Ah, Valentine's chocolate. Thank you, I'm happy.
+
+@ 50.40
+# 結城 千種
+JP あの…少し苦いっていうか
+JP 焦げ臭いっていうか…。
+JP で、でも、食べられますから！
+EN Um... it's a little bitter, or kind of smells burnt...
+EN B-but it's edible!
+
+@ 50.43
+# 社 長
+JP （て、手作りか…。
+JP 　また何かドジなことやって
+JP 　すごい味になってないだろうな…？）
+EN (H-homemade, huh... I hope she didn't make another
+EN clumsy slip and turn it into something awful...)
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 千種、先月のお礼だ。
+JP 受け取ってくれるか？
+EN Chigusa, this is for last month. Will you take it?
+
+@ 51.36
+# 結城 千種
+JP あっ、はい…。
+JP うわぁ、クッキーですか？
+EN Oh, yes... Wow, are these cookies?
+
+@ 51.39
+# 社 長
+JP 練習の合間にでもつまんでくれ。
+EN Snack on them between training sessions.
+
+@ 51.43
+# 結城 千種
+JP はい。
+JP ありがとうございます、社長！
+EN Okay. Thank you so much, Boss!
+
+@ 52.31
+# scene 053 サイン会
+# 結城 千種
+JP いつも応援してくれて
+JP ありがとうございます♪
+EN Thank you for always cheering me on♪
+
+@ 53.31
+# scene 054 コンサート
+# 結城 千種
+JP え～と…。
+JP みんな、今日は楽しんでいってねー！
+EN Um... Everyone, have fun today!
+
+@ 54.28
+# scene 055 練習拒否
+# 結城 千種
+JP ご、ごめんなさい…。
+EN I-I'm sorry...
+
+@ 55.28
+# scene 056 失踪
+# 結城 千種
+JP え～と…ごめんなさい…。
+JP 探さないでください…。
+EN Um... I'm sorry... Please don't look for me...
+
+@ 56.16
+# scene 057 選手解雇
+# 結城 千種
+JP はう～…。
+JP 明日から私、どうすれば
+JP いいんですか…？
+EN Hauu... What am I supposed to do starting
+EN tomorrow...?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 結城 千種
+JP パスポートも持ったし
+JP いってきま～す！
+EN Got my passport too, so... I'm off!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 結城 千種
+JP ただいま戻りましたー。
+JP やっぱり日本はいいです。
+EN I'm back! Japan really is the best.
+
+@ 59.26
+# scene 060 移籍思案
+# 結城 千種
+JP はう～…。
+JP どうしよぉ…？
+EN Hauu... What do I do...?
+
+@ 60.16
+# scene 061 革命軍結成
+# 結城 千種
+JP 誰かがやらないといけないんです！
+EN Somebody has to do it!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 結城 千種
+JP わ、私だって
+JP ムチャクチャできるんです！
+EN I-I can go totally wild too, you know!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 結城 千種
+JP これで全部、終わりにします！
+EN I'm ending all of this right here!
+
+@ 63.16
+# scene 064 遺恨発生
+# 結城 千種
+JP …そんな……。
+EN ...No way......
+
+@ 64.16
+# scene 065 殴り込み
+# 結城 千種
+JP 私に任せてください！
+EN Leave it to me!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 結城 千種
+JP この団体は私が守ります！
+EN I'll protect this promotion!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 結城 千種
+JP 誰が私と戦ってくれるんですか？
+EN So who's going to fight me?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 結城 千種
+JP 社長…みんな…。
+JP 私、必ず勝つから！
+EN Boss... everyone... I'm going to win, I promise!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 結城 千種
+JP この勝利は、みんなで勝ち取ったものです。
+JP ありがとうございました！
+EN This victory belongs to all of us. Thank you so much!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 結城 千種
+JP ごめんなさい…。
+JP 私…ぐすっ…ごめんなさい……。
+EN I'm sorry... I... *sniff*... I'm so sorry......
+
+@ 70.13
+# scene 071 引退式
+# 結城 千種
+JP えっと…あの…ぐすっ…。
+JP …これまで…ありがとうございました！
+EN Um... er... *sniff*... ...Thank you for everything!
+
+@ 71.18
+# 結城 千種
+JP なんですか？
+EN What is it?
+
+@ 71.37
+# 結城 千種
+JP はーい、なんですか？
+EN Yes, what is it?
+
+@ 71.47
+# 結城 千種
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# 結城 千種
+JP は、はいっ！
+JP バリバリがんばっちゃいます！
+EN Y-yes! I'll go all out!
+
+@ 71.111
+# 結城 千種
+JP え～と…。
+JP はい…。
+EN Um... okay...
+
+@ 71.132
+# 結城 千種
+JP 社長、ありがとうございます。
+JP 精一杯がんばりますっ！
+EN Thank you, Boss. I'll do my very best!
+
+@ 71.153
+# 結城 千種
+JP え～と…。
+JP 私、おだてられても
+JP 木に登りませんよ？
+EN Um... Flattery won't get you anywhere with me, you
+EN know?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 結城 千種
+JP え～と…あの…。
+JP 気を付けます…。
+EN Um... er... I'll be careful...
+
+@ 71.211
+# 結城 千種
+JP そんな…。
+JP がんばってるのに…。
+EN No... But I'm trying so hard...
+
+@ 71.232
+# 結城 千種
+JP ごめんなさい…。
+JP これから気を付けます…。
+EN I'm sorry... I'll be more careful from now on...
+
+@ 71.253
+# 結城 千種
+JP がんばってるんだけどなぁ…。
+EN But I'm really trying...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# 結城 千種
+JP 大丈夫です。
+JP これでも根性だけはありますから。
+EN I'm fine. If there's one thing I've got, it's guts.
+
+@ 71.311
+# 結城 千種
+JP え～と…。
+JP そういうときもあります…。
+EN Um... Sometimes it's like that...
+
+@ 71.332
+# 結城 千種
+JP え～と…。
+JP ちょっと落ち込んでましたけど
+JP もう平気です。
+EN Um... I was a little down, but I'm fine now.
+
+@ 71.353
+# 結城 千種
+JP ちょっと休めば大丈夫です…。
+EN I'll be okay after a little rest...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 結城 千種
+JP はう～…。
+JP はい、わかります…。
+EN Hauu... Yes, I know...
+
+@ 71.400
+# 結城 千種
+JP え～と…。
+JP なんですか？
+EN Um... What is it?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 結城 千種
+JP はい…。
+JP 今すぐ仲直りしてきます。
+EN Okay... I'll go make up with her right now.
+
+@ 71.454
+# 結城 千種
+JP あの…。
+JP でも…私、悪くないです…。
+EN Um... But... it's not my fault...
+
+@ 71.475
+# 結城 千種
+JP あれ…？
+JP もともと仲良しですよ？
+EN Huh...? But we already get along fine.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 結城 千種
+JP はい…。
+JP だいたいは…。
+EN Yes... more or less...
+
+@ 71.522
+# 結城 千種
+JP え～と…。
+JP なんですか？
+EN Um... What is it?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 結城 千種
+JP すぐ話し合ってきます。
+JP 意固地になってて
+JP すみませんでした…。
+EN I'll go talk with her right away. I'm sorry I was being
+EN so stubborn...
+
+@ 71.578
+# 結城 千種
+JP 社長…もう少しだけ
+JP そっとしておいてください。
+EN Boss... please leave me be a little longer.
+
+@ 71.599
+# 結城 千種
+JP …社長…？
+JP 大丈夫ですか？
+EN ...Boss...? Are you okay?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 結城 千種
+JP はーい。
+JP なんですか？
+EN Yes? What is it?
+
+@ 72.16
+# 結城 千種
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 結城 千種
+JP は、はいっ！
+JP バリバリがんばっちゃいます！
+EN Y-yes! I'll go all out!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 結城 千種
+JP え～と…。
+JP はい…。
+EN Um... okay...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 結城 千種
+JP 社長、ありがとうございます。
+JP 精一杯がんばりますっ！
+EN Thank you, Boss. I'll do my very best!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 結城 千種
+JP え～と…。
+JP 私、おだてられても
+JP 木に登りませんよ？
+EN Um... Flattery won't get you anywhere with me, you
+EN know?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 結城 千種
+JP え～と…あの…。
+JP 気を付けます…。
+EN Um... er... I'll be careful...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 結城 千種
+JP そんな…。
+JP がんばってるのにぃ…。
+EN No... But I'm trying so hard...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 結城 千種
+JP ごめんなさい…。
+JP これから気を付けます…。
+EN I'm sorry... I'll be more careful from now on...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 結城 千種
+JP がんばってるんだけどなぁ…。
+EN But I'm really trying...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 結城 千種
+JP 大丈夫です。
+JP これでも根性だけはありますから。
+EN I'm fine. If there's one thing I've got, it's guts.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 結城 千種
+JP え～と…。
+JP そういうときもあります…。
+EN Um... Sometimes it's like that...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 結城 千種
+JP え～と…。
+JP ちょっと落ち込んでましたけど、
+JP もう平気です。
+EN Um... I was a little down, but I'm fine now.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 結城 千種
+JP ちょっと休めば大丈夫です…。
+EN I'll be okay after a little rest...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 結城 千種
+JP はう～…。
+JP はい、わかります……。
+EN Hauu... Yes, I know...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 結城 千種
+JP え～と…。
+JP なんですか？
+EN Um... What is it?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.14
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 結城 千種
+JP はい…。
+JP 今すぐ、仲直りしてきます。
+EN Okay... I'll go make up with her right now.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 結城 千種
+JP あの…。でも…
+JP 私、悪くないです…。
+EN Um... But... it's not my fault...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 結城 千種
+JP あれ…？
+JP もともと仲良しですよ？
+EN Huh...? But we already get along fine.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 結城 千種
+JP はい…。
+JP だいたいは…。
+EN Yes... more or less...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 結城 千種
+JP え～と…。
+JP なんですか？
+EN Um... What is it?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 結城 千種
+JP すぐ話し合ってきます。
+JP 意固地になってて、
+JP すみませんでした…。
+EN I'll go talk with her right away. I'm sorry I was being
+EN so stubborn...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 結城 千種
+JP 社長…。
+JP もう少しだけ、
+JP そっとしておいてください。
+EN Boss... please leave me be a little longer.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 結城 千種
+JP …社長…？
+JP 大丈夫ですか？
+EN ...Boss...? Are you okay?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 結城 千種
+JP またよろしくお願いします。
+EN I'm counting on you again this year.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 結城 千種
+JP うわぁ…。
+JP こんなにもらえるんですか？
+JP 私、がんばりますっ！
+EN Wow... I get this much? I'll work hard!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 結城 千種
+JP あぅ～…。
+JP いえ…なんでもありません…。
+EN Auu... No... it's nothing...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （俺たちは国内の室内温水プールに
+JP 　やってきた…）
+EN (We came to an indoor heated pool here in Japan...)
+
+@ 105.26
+# 社 長
+JP （千種がどうしてもここがいいと
+JP 　言い張ったのだ）
+EN (Chigusa had insisted this was the place she wanted.)
+
+@ 105.28
+# 社 長
+JP なあ、いいのか？
+EN Hey, are you sure about this?
+
+@ 105.38
+# 結城 千種
+JP 何がですか？
+EN About what?
+
+@ 105.41
+# 社 長
+JP いや、こんなところで…。
+JP 海外とかの選択肢もあっただろう。
+EN Well, a place like this... We could have gone abroad or
+EN something.
+
+@ 105.48
+# 結城 千種
+JP 何言ってるんですか。
+JP ここなら移動時間の分も
+JP 遊べるじゃないですか～。
+EN What are you talking about? Here, we get to spend
+EN the travel time playing instead!
+
+@ 105.51
+# 社 長
+JP なるほど。
+JP そういう考えもあるか…。
+EN I see. That's one way to look at it...
+
+@ 105.53
+# 社 長
+JP （海外だと移動だけで
+JP 　半日とかかかるからなあ）
+EN (Going abroad, the trip alone can eat up half a day.)
+
+@ 105.60
+# 結城 千種
+JP さっ、社長も早く
+JP 着替えて、着替えて！
+EN Come on, Boss, hurry up and change, change!
+
+@ 105.67
+# 結城 千種
+JP 着替え終わったら
+JP あれに行きましょう！
+EN Once you've changed, let's go on that!
+
+@ 105.70
+# 社 長
+JP （そういって千種の指さす先に
+JP 　あったものは…）
+EN (What Chigusa was pointing at was...)
+
+@ 105.72
+# 社 長
+JP すべり台？
+JP でかいな…。
+EN A water slide? That's huge...
+
+@ 105.79
+# 結城 千種
+JP すごく有名なんですよ！
+JP テレビで見てすっごく
+JP 滑りたかったんです！
+EN It's super famous! I saw it on TV and wanted to ride it
+EN sooo bad!
+
+@ 105.82
+# 社 長
+JP （ここを選んだのはそのためか）
+EN (So that's why she picked this place.)
+
+@ 105.103
+# 社 長
+JP （そして…）
+EN (And then...)
+
+@ 105.117
+# 結城 千種
+JP きゃっほ――っ！
+JP 社長、見っけ――っ！
+EN Wahoooo! Found you, Boss!
+
+@ 105.120
+# 社 長
+JP うわっ、追いついてきた！
+EN Whoa, she's catching up!
+
+@ 105.122
+# 社 長
+JP （このすべり台は世界最長とかで
+JP 　すべる時間がやたらと長い）
+EN (This slide is supposedly the longest in the world,
+EN and the ride takes forever.)
+
+@ 105.124
+# 社 長
+JP （だから、途中で前の人に
+JP 　追いつく事も理論上は
+JP 　不可能ではないが…）
+EN (So in theory, it's not impossible to catch up to the
+EN person ahead of you, but...)
+
+@ 105.126
+# 社 長
+JP それにしても、早っ！
+EN Even so, she's fast!
+
+@ 105.130
+# 結城 千種
+JP あっ、スピード上げましたね。
+JP あはははっ！
+EN Oh, you sped up! Ahahaha!
+
+@ 105.134
+# 結城 千種
+JP こっちも加速ぅ。
+JP 待て待て―――っ！
+EN Then I'm speeding up too! Get back heeere!
+
+@ 105.137
+# 社 長
+JP （さらに加速してくる千種）
+EN (Chigusa sped up even more.)
+
+@ 105.139
+# 社 長
+JP はやっ！
+JP なんでそんなに速く滑れるんだ！？
+EN So fast! How can you slide that fast?!
+
+@ 105.141
+# 社 長
+JP （どんなにスピードを上げても
+JP 　無駄だった）
+EN (No matter how much I sped up, it was no use.)
+
+@ 105.143
+# 社 長
+JP （何度勝負しても千種には勝てない）
+EN (No matter how many times we raced, I couldn't beat
+EN Chigusa.)
+
+@ 105.147
+# 結城 千種
+JP つーかまーえたー！
+EN Gotcha!
+
+@ 105.150
+# 社 長
+JP （そして、千種に背後から
+JP 　しがみつかれる）
+EN (And then Chigusa grabbed onto me from behind.)
+
+@ 105.152
+# 社 長
+JP おまえ…速すぎ……。
+EN You're... way too fast......
+
+@ 105.156
+# 結城 千種
+JP あははははっ！
+JP すべり台の女王と呼んでください！
+EN Ahahahaha! Call me the Queen of the Water Slide!
+
+@ 105.172
+# 社 長
+JP （こうして俺と千種は）
+EN (And so Chigusa and I...)
+
+@ 105.174
+# 社 長
+JP （一体となったまま水面に
+JP 　叩きつけられた）
+EN (...slammed into the water as one.)
+
+@ 105.176
+# 社 長
+JP （危険なので、みなさんは決して
+JP 　真似しないようにして欲しい）
+EN (It's dangerous, so please, never try this
+EN yourselves.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP お疲れーっ。
+EN Good work, everyone!
+
+@ 106.33
+# 結城 千種
+JP あっ…おはようございまーす…。
+EN Oh... good morning...
+
+@ 106.36
+# 社 長
+JP なんだ。
+JP 今日は一人だけか？
+EN What, you're the only one here today?
+
+@ 106.43
+# 結城 千種
+JP はい。
+JP みんなロードワークに出てます。
+JP 私、少し遅刻しちゃって…。
+EN Yes. Everyone's out on roadwork. I was a little late,
+EN so...
+
+@ 106.46
+# 社 長
+JP …んっ？
+JP 顔がちょっと赤くないか？
+EN ...Hm? Isn't your face a bit red?
+
+@ 106.50
+# 結城 千種
+JP そ、そうですか？
+JP あっ、でも…運動した後だから…。
+EN I-is it? Oh, but... that's because I just worked out...
+
+@ 106.53
+# 社 長
+JP それならいいが…。
+JP 本当に大丈夫か？
+EN If that's all it is... Are you really okay?
+
+@ 106.57
+# 結城 千種
+JP 全然平気です。
+JP あの…私、まだ練習が…きゃっ…。
+EN I'm totally fine. Um... I still have training to... eek...
+
+@ 106.65
+# 社 長
+JP おっと…。
+EN Whoa there...
+
+@ 106.74
+# 結城 千種
+JP あっ…すみません…。
+JP あっ……。
+EN Oh... I'm sorry... Ah......
+
+@ 106.77
+# 社 長
+JP 待て待て待て。
+JP そんなフラついて…。
+JP 本当に熱があるんじゃないか？
+EN Wait, wait, wait. You're wobbling all over... You must
+EN have a fever.
+
+@ 106.84
+# 結城 千種
+JP いえ、平気です…。
+JP 練習しないと…。
+EN No, I'm fine... I have to train...
+
+@ 106.87
+# 社 長
+JP バカ。
+JP 状況によりけりだろ。
+JP ほらっ。
+EN Idiot. It depends on the situation. Come here.
+
+@ 106.94
+# 結城 千種
+JP きゃっ…！？
+EN Eek...?!
+
+@ 106.113
+# 社 長
+JP とりあえず医務室だ。
+JP ドクターに診てもらうぞ。
+EN Infirmary first. We're having the doctor look at you.
+
+@ 106.117
+# 結城 千種
+JP あ、あの…自分で歩けますから…。
+EN U-um... I can walk by myself...
+
+@ 106.120
+# 社 長
+JP 足下フラついてたじゃないか。
+JP いつからそんな感じなんだ？
+EN You were wobbling on your feet. How long has this
+EN been going on?
+
+@ 106.124
+# 結城 千種
+JP その…朝から…。
+JP 少し熱っぽいかなぁって…。
+EN Well... since this morning... I thought I might be a little
+EN feverish...
+
+@ 106.128
+# 結城 千種
+JP で、でもっ、すぐ治ります！
+JP いつもそうなんです！
+EN B-but it'll go away soon! It always does!
+
+@ 106.131
+# 社 長
+JP そんな訳ないだろ。
+JP おまえはがんばり過ぎなんだ。
+EN That's not how it works. You push yourself too hard.
+
+@ 106.133
+# 社 長
+JP もう少し自分をいたわれ。
+JP 無茶はするな。
+JP 俺の心臓が止まる、いいな？
+EN Take better care of yourself. Don't overdo it. You'll
+EN give me a heart attack, got it?
+
+@ 106.143
+# 結城 千種
+JP はい…。
+JP すみません、社長。
+EN Yes... I'm sorry, Boss.
+
+@ 106.146
+# 社 長
+JP わかればいいんだ。
+JP わかれば…。
+EN As long as you understand. As long as you
+EN understand...
+
+@ 106.156
+# 結城 千種
+JP …はい。
+EN ...Okay.
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP お疲れーっ。
+EN Good work, everyone!
+
+@ 107.34
+# 結城 千種
+JP あっ…おはようございまーす…。
+EN Oh... good morning...
+
+@ 107.37
+# 社 長
+JP あれ…？
+JP 他のみんなは？
+EN Huh...? Where's everyone else?
+
+@ 107.41
+# 結城 千種
+JP もうロードワークに出てます。
+JP 私、遅刻しちゃって…。
+EN They're already out on roadwork. I was late, so...
+
+@ 107.44
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.51
+# 結城 千種
+JP あっ、私、全然平気です！
+JP なんともありませんから…！
+EN Oh, I'm totally fine! There's nothing wrong with me...!
+
+@ 107.54
+# 社 長
+JP 気を付けっ！
+EN Attention!
+
+@ 107.58
+# 結城 千種
+JP は、はいっ！
+EN Y-yes, sir!
+
+@ 107.61
+# 社 長
+JP （俺は千種の額に右手を
+JP 　押し当ててみた）
+EN (I pressed my right hand to Chigusa's forehead.)
+
+@ 107.63
+# 社 長
+JP やっぱりか…。
+EN I knew it...
+
+@ 107.70
+# 結城 千種
+JP いえ、あの…。
+JP れ、練習に戻ります…！
+EN No, um... I-I'm going back to training...!
+
+@ 107.73
+# 社 長
+JP ダメだ。
+JP ほら、おとなしくしろ。
+EN No, you're not. Come on, settle down.
+
+@ 107.80
+# 結城 千種
+JP きゃっ…！？
+EN Eek...?!
+
+@ 107.99
+# 社 長
+JP まったく…。
+JP また熱があるのに無理しようと
+JP するんだからな、おまえは。
+EN Honestly... Here you go again, trying to push
+EN through with a fever.
+
+@ 107.101
+# 社 長
+JP 前にも同じことあっただろ？
+JP それとも忘れたのか？
+EN The same thing happened before, didn't it? Or did
+EN you forget?
+
+@ 107.105
+# 結城 千種
+JP えっと…あの…すみません……。
+EN Um... er... I'm sorry......
+
+@ 107.108
+# 社 長
+JP 医務室まで運んでやるから…。
+EN I'll carry you to the infirmary, so...
+
+@ 107.118
+# 結城 千種
+JP ………………。
+EN ..................
+
+@ 107.121
+# 社 長
+JP …んっ？
+JP どうした？
+EN ...Hm? What is it?
+
+@ 107.131
+# 結城 千種
+JP いえ…あの……。
+EN No... um......
+
+@ 107.135
+# 結城 千種
+JP 社長に隠し事は
+JP できないんだなぁって……。
+EN I was just thinking... I really can't hide anything from
+EN you, Boss......
+
+@ 107.138
+# 社 長
+JP まぁ、うん…。
+JP それはだな…。
+EN Well, yes... That's because...
+
+@ 107.140
+# 社 長
+JP そうだ、仕事だからな。
+JP 選手の体調管理も社長の仕事だから
+JP 当然だろ？
+EN Right, it's my job. Managing my wrestlers' health is
+EN part of a president's job, so of course, right?
+
+@ 107.144
+# 結城 千種
+JP ………………。
+EN ..................
+
+@ 107.147
+# 社 長
+JP ほ、本当だぞ？
+EN I-it's true, okay?
+
+@ 107.151
+# 結城 千種
+JP くすっ…。
+EN *giggle*...
+
+@ 107.163
+# 結城 千種
+JP 社長の体…。
+JP あったかくて気持ちいいです……。
+EN Your body, Boss... It's so warm and nice......
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 結城 千種
+JP 練習といっても、全力でいくよ！
+EN It may be practice, but I'm going all out!
+
+@ 109.16
+# scene 113 練習開始
+# 結城 千種
+JP よろしくお願いします。
+EN Let's have a good session.
+
+@ 110.16
+# scene 114 練習開始 好意
+# 結城 千種
+JP 今日も練習がんばろっと♪
+EN Time to give training my all today too♪
+
+@ 111.16
+# scene 115 特訓開始
+# 結城 千種
+JP これも強くなるための試練ですよね？
+EN This is a trial to make me stronger, right?
+
+@ 112.20
+# scene 116 特訓成功
+# 結城 千種
+JP これなら大丈夫！
+EN I've got this!
+
+@ 113.20
+# scene 117 特訓失敗
+# 結城 千種
+JP はぅ～…。
+JP 私ってダメだなぁ…。
+EN Hauu... I'm hopeless...
+
+@ 114.16
+# scene 118 休養
+# 結城 千種
+JP お休みかー。
+JP 何しようかなぁ…。
+EN A day off, huh. What should I do...?
+
+@ 115.16
+# scene 119 入場1
+# 結城 千種
+JP 正々堂々がんばりますっ！
+EN I'll fight fair and square!
+
+@ 116.16
+# scene 119 入場2
+# 結城 千種
+JP どんなに辛くても絶対諦めません！
+EN No matter how hard it gets, I'll never give up!
+
+@ 117.17
+# scene 120 タッグマッチ ベスト
+# 結城 千種
+JP 私たちが揃えば無敵よね！
+EN When we're together, we're unbeatable, right?
+
+@ 118.16
+# scene 125 必殺技１
+# 結城 千種
+JP この一撃で決めます！
+EN I'll finish it with this one blow!
+
+@ 119.16
+# scene 125 必殺技２
+# 結城 千種
+JP 狙うはサヨナラホームランです！
+EN I'm going for a walk-off home run!
+
+@ 120.16
+# scene 125 必殺技３
+# 結城 千種
+JP 輝いている今を見せてあげます！
+EN I'll show you how bright I'm shining right now!
+
+@ 121.12
+# scene 126 勝利1
+# 結城 千種
+JP やったーっ！
+JP 私って、それなりに強いのかな？
+EN Yaaay! Maybe I'm actually kind of strong?
+
+@ 122.12
+# scene 126 勝利2
+# 結城 千種
+JP 力を出し切れて楽しかったです。
+JP またやりましょうね。
+EN I gave it everything I had, and it was fun. Let's do it
+EN again sometime.
+
+@ 123.12
+# scene 126 勝利3
+# 結城 千種
+JP 勝利の階段、上り詰めてみせます！
+EN I'll climb the stairway of victory all the way to the
+EN top!
+
+@ 124.15
+# scene 133 表彰1
+# 結城 千種
+JP ありがとうございます！
+JP これからも精一杯がんばります！
+EN Thank you so much! I'll keep doing my very best!
+
+@ 125.15
+# scene 133 表彰2
+# 結城 千種
+JP 私なんかを選んでもらって
+JP ありがとうございます。
+EN Thank you for choosing someone like me.
+
+@ 126.12
+# scene 134 優勝1
+# 結城 千種
+JP 私でもやればできました。
+JP 応援ありがとうございました。
+EN Even I can do it if I try. Thank you for cheering me
+EN on.
+
+@ 127.12
+# scene 134 優勝２
+# 結城 千種
+JP 団体のみんなや
+JP ファンのみんなのおかげです。
+JP これからもがんばります！
+EN It's all thanks to everyone in the promotion and all
+EN the fans. I'll keep working hard!
+
+@ 128.24
+# scene 135 エンディング 通常
+# 結城 千種
+JP うわぁ…！
+JP 社長って、やっぱり
+JP すごい人だったんですね！
+EN Wow...! Boss, you really are amazing after all!
+
+@ 129.24
+# scene 136 エンディング 好意
+# 結城 千種
+JP 社長、おめでとうございます！
+JP お祝い、何がいいですか？
+JP あ、あの…なんでも…いいですよ？
+EN Congratulations, Boss! What would you like as a
+EN present? U-um... anything is... fine, you know?

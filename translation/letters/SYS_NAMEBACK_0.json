@@ -1,0 +1,266 @@
+{
+ "english": "Kanji | Kana | ABC | OK",
+ "boxes": [
+  [
+   341,
+   26,
+   53,
+   20
+  ],
+  [
+   413,
+   26,
+   53,
+   20
+  ],
+  [
+   485,
+   26,
+   53,
+   20
+  ],
+  [
+   557,
+   26,
+   53,
+   20
+  ]
+ ],
+ "draw": "system.draw",
+ "font": "BarlowCondensed-Bold.ttf",
+ "cap": 12,
+ "ground": "keep",
+ "fill": [
+  130,
+  129,
+  117
+ ],
+ "outline": {
+  "w": 1.5,
+  "rgb": [
+   33,
+   33,
+   33
+  ]
+ },
+ "margin": 1,
+ "inpaint": [
+  {
+   "rect": [
+    340,
+    28,
+    55,
+    16
+   ],
+   "warm": 3,
+   "all": true
+  },
+  {
+   "rect": [
+    412,
+    28,
+    55,
+    16
+   ],
+   "warm": 3,
+   "all": true
+  },
+  {
+   "rect": [
+    484,
+    28,
+    55,
+    16
+   ],
+   "warm": 3,
+   "all": true
+  },
+  {
+   "rect": [
+    556,
+    28,
+    55,
+    16
+   ],
+   "warm": 3,
+   "all": true
+  },
+  {
+   "rect": [
+    339,
+    25,
+    57,
+    3
+   ],
+   "warm": 3,
+   "mode": "row"
+  },
+  {
+   "rect": [
+    339,
+    44,
+    57,
+    3
+   ],
+   "warm": 3,
+   "mode": "row"
+  },
+  {
+   "rect": [
+    411,
+    25,
+    57,
+    3
+   ],
+   "mode": "copy",
+   "from": [
+    339,
+    25
+   ]
+  },
+  {
+   "rect": [
+    411,
+    44,
+    57,
+    3
+   ],
+   "mode": "copy",
+   "from": [
+    339,
+    44
+   ]
+  },
+  {
+   "rect": [
+    409,
+    28,
+    3,
+    16
+   ],
+   "mode": "copy",
+   "from": [
+    337,
+    28
+   ]
+  },
+  {
+   "rect": [
+    467,
+    28,
+    3,
+    16
+   ],
+   "mode": "copy",
+   "from": [
+    395,
+    28
+   ]
+  },
+  {
+   "rect": [
+    483,
+    25,
+    57,
+    3
+   ],
+   "mode": "copy",
+   "from": [
+    339,
+    25
+   ]
+  },
+  {
+   "rect": [
+    483,
+    44,
+    57,
+    3
+   ],
+   "mode": "copy",
+   "from": [
+    339,
+    44
+   ]
+  },
+  {
+   "rect": [
+    481,
+    28,
+    3,
+    16
+   ],
+   "mode": "copy",
+   "from": [
+    337,
+    28
+   ]
+  },
+  {
+   "rect": [
+    539,
+    28,
+    3,
+    16
+   ],
+   "mode": "copy",
+   "from": [
+    395,
+    28
+   ]
+  },
+  {
+   "rect": [
+    555,
+    25,
+    57,
+    3
+   ],
+   "mode": "copy",
+   "from": [
+    339,
+    25
+   ]
+  },
+  {
+   "rect": [
+    555,
+    44,
+    57,
+    3
+   ],
+   "mode": "copy",
+   "from": [
+    339,
+    44
+   ]
+  },
+  {
+   "rect": [
+    553,
+    28,
+    3,
+    16
+   ],
+   "mode": "copy",
+   "from": [
+    337,
+    28
+   ]
+  },
+  {
+   "rect": [
+    611,
+    28,
+    3,
+    16
+   ],
+   "mode": "copy",
+   "from": [
+    395,
+    28
+   ]
+  }
+ ],
+ "notes": "name-entry tabs (kanji / kana / alphanumeric / confirm); button shading rebuilt under the letters (inpaint), tools/letter_ext/system.py"
+}

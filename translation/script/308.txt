@@ -1,0 +1,104 @@
+# /SCR/308.BIN - ワイルドローズ２号
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 308` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ワイルドローズ２号
+JP 独立するなら、今しかないわ！
+EN If I'm ever going to go independent, it's now!
+
+@ 1.16
+# scene 119 入場1
+# ワイルドローズ２号
+JP 力あるバラの幻影…。
+JP お嬢様の影がまいります！
+EN The phantom of the mighty rose... The shadow of my
+EN lady enters the ring!
+
+@ 2.16
+# scene 119 入場2
+# ワイルドローズ２号
+JP お嬢様、私の力をご覧ください！
+EN My lady, behold my power!
+
+@ 3.16
+# scene 120 タッグマッチ ベスト
+# ワイルドローズ２号
+JP お嬢様！　いきましょう！
+EN My lady! Let us go!
+
+@ 4.16
+# scene 121 タッグマッチ ベター１
+# ワイルドローズ２号
+JP １号、いくわよ！
+EN No. 1, let's go!
+
+@ 5.16
+# scene 125 必殺技１
+# ワイルドローズ２号
+JP ゴールドラッシュが来たようね！
+EN Looks like the gold rush is here!
+
+@ 6.16
+# scene 125 必殺技２
+# ワイルドローズ２号
+JP これが究極のパワーよ！
+EN This is the ultimate power!
+
+@ 7.16
+# scene 125 必殺技３
+# ワイルドローズ２号
+JP 薔薇に埋もれなさい！
+EN Be buried in roses!
+
+@ 8.12
+# scene 126 勝利1
+# ワイルドローズ２号
+JP 私が力の２号よ！
+EN I am No. 2, the one of power!
+
+@ 9.12
+# scene 126 勝利2
+# ワイルドローズ２号
+JP もうお嬢様より、私の方が…。
+EN I'm already better than my lady...
+
+@ 10.12
+# scene 126 勝利3
+# ワイルドローズ２号
+JP お嬢様、見ていてくださいました？
+EN My lady, were you watching?
+
+@ 11.15
+# scene 133 表彰1
+# ワイルドローズ２号
+JP 究極の感慨を体感しています！
+EN I am experiencing the ultimate emotion!
+
+@ 12.15
+# scene 133 表彰2
+# ワイルドローズ２号
+JP もうお嬢様の世話をしている
+JP 場合じゃないかも…。
+EN Maybe I'm done waiting on my lady hand and foot...
+
+@ 13.12
+# scene 134 優勝1
+# ワイルドローズ２号
+JP 優勝カラーはゴールド！
+JP まさしく私にふさわしい色。
+EN The winner's color is gold! The perfect color for me.
+
+@ 14.12
+# scene 134 優勝２
+# ワイルドローズ２号
+JP もう独立しても
+JP やっていけるんじゃ…。
+EN I could make it on my own now, couldn't I...?

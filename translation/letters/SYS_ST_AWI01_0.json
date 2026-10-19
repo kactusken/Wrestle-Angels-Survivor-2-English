@@ -1,0 +1,12 @@
+{
+ "english": "Name | Short Name | Home Base | Skill 1 | Skill 2 | Promotion Logo",
+ "boxes": [[50, 76, 64, 22], [50, 108, 64, 22], [50, 140, 64, 22], [50, 172, 64, 22], [50, 204, 64, 22], [426, 105, 107, 22]],
+ "fill": "bright",
+ "ground": "interpolate",
+ "reach": 2.5,
+ "font": "BarlowCondensed-Bold.ttf",
+ "align": "left",
+ "groups": [{"labels": [0, 1, 2, 3, 4]}, {"labels": [5], "align": "center"}],
+ "same_size": true,
+ "notes": "new promotion's data screen: field labels (promotion name, abbreviation, home base, skills) and the logo panel title"
+}

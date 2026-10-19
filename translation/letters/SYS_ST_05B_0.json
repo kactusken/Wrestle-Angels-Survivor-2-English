@@ -1,0 +1,148 @@
+{
+ "english": "Finishers | Move | Type | Difficulty",
+ "boxes": [
+  [
+   25,
+   24,
+   67,
+   24
+  ],
+  [
+   143,
+   75,
+   60,
+   22
+  ],
+  [
+   331,
+   75,
+   60,
+   22
+  ],
+  [
+   474,
+   75,
+   61,
+   22
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "status.draw",
+ "groups": [
+  {
+   "labels": [
+    0
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 2.5,
+   "cap": 15,
+   "patches": [
+    [
+     25,
+     26,
+     67,
+     21,
+     "fill",
+     [
+      27,
+      24
+     ]
+    ],
+    [
+     26,
+     25,
+     65,
+     1,
+     "fill",
+     [
+      27,
+      24
+     ]
+    ],
+    [
+     26,
+     24,
+     64,
+     1,
+     "fill",
+     [
+      27,
+      24
+     ]
+    ],
+    [
+     27,
+     47,
+     63,
+     1,
+     "fill",
+     [
+      27,
+      24
+     ]
+    ],
+    [
+     90,
+     47,
+     4,
+     1,
+     "fill",
+     [
+      23,
+      30
+     ]
+    ],
+    [
+     92,
+     26,
+     1,
+     21,
+     "fill",
+     [
+      23,
+      30
+     ]
+    ]
+   ]
+  },
+  {
+   "labels": [
+    1,
+    2,
+    3
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 2,
+   "cap": 12,
+   "patches": [
+    [
+     146,
+     76,
+     55,
+     20,
+     "col",
+     144
+    ],
+    [
+     334,
+     76,
+     55,
+     20,
+     "col",
+     332
+    ],
+    [
+     475,
+     76,
+     59,
+     20,
+     "col",
+     474
+    ]
+   ]
+  }
+ ],
+ "notes": "finisher list, no page buttons (status batch): same English as SYS_ST_05_0"
+}

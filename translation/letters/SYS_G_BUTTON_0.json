@@ -1,0 +1,69 @@
+{
+ "english": "Start Training | Start Training",
+ "boxes": [
+  [
+   17,
+   12,
+   106,
+   28
+  ],
+  [
+   17,
+   76,
+   106,
+   28
+  ]
+ ],
+ "same_size": true,
+ "groups": [
+  {
+   "draw": "office.styled",
+   "ground": "columns",
+   "learn_over": "any",
+   "reach": 5,
+   "step": 1,
+   "font": "BarlowSemiCondensed-Bold.ttf",
+   "shear": 0.22,
+   "labels": [
+    0
+   ],
+   "region": [
+    13,
+    9,
+    115,
+    36
+   ],
+   "flat": [
+    12,
+    42
+   ],
+   "plate": "not (r >= 0xb8 and g >= 0xa8 and b >= 0x90) and not (abs(r - 0xa0) < 0x10 and abs(g - 0x80) < 0x10 and abs(b - 0x80) < 0x10)",
+   "fill": "r >= 0xb8 and g >= 0xa8 and b >= 0x90"
+  },
+  {
+   "draw": "office.styled",
+   "ground": "columns",
+   "learn_over": "any",
+   "reach": 5,
+   "step": 1,
+   "font": "BarlowSemiCondensed-Bold.ttf",
+   "shear": 0.22,
+   "labels": [
+    1
+   ],
+   "region": [
+    13,
+    73,
+    115,
+    36
+   ],
+   "flat": [
+    76,
+    106
+   ],
+   "plate": "not (b > r or (r >= 0xc0 and g >= 0x68 and b <= 0x40) or r < 0x50)",
+   "fill": "r >= 0xc0 and g >= 0x68 and b <= 0x40"
+  }
+ ],
+ "notes": "training button \u7df4\u7fd2\u958b\u59cb, dim and lit states: plate rebuilt per column, fill gradient, outline and shadow learnt from the original (tools/letter_ext/office.py styled)"
+}

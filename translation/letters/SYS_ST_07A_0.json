@@ -1,0 +1,16 @@
+{
+ "english": "Profile",
+ "boxes": [[228, 6, 24, 108]],
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "cap": 13,
+ "draw": "audit.draw",
+ "rotate": "ccw",
+ "fill": [255, 251, 245, 241, 234],
+ "fill_index": 255,
+ "ground": "rows",
+ "ground_skip": [67, 97, 108, 119, 140, 149, 163, 172, 173, 183, 188, 191, 192, 200, 204, 207, 213, 230],
+ "reach": 2,
+ "ring": [67, 67],
+ "catalogue": {"source": "/SYS/ST_07A.GSL", "width": 256, "height": 256, "bpp": 8, "category": "button", "japanese": "プロフィール (vertical tab)"},
+ "notes": "status screen side tab, text turned 90 degrees like the original (audit.draw rotate)"
+}

@@ -1,0 +1,2144 @@
+# /SCR/161.BIN - ライジン美冬
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 161` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ライジン美冬
+JP 己の力がどこまで通じるか
+JP 試してみたい。
+EN I wish to test how far my strength can take me.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ライジン美冬
+JP 今日から進むは修羅の道…。
+EN From this day on, I walk the path of carnage...
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ライジン美冬
+JP 仕方ない。
+JP 別口をあたろう。
+EN It cannot be helped. I shall seek another way.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （スカウトの話だと
+JP 　このへんに有望な選手がいるって
+JP 　ことだけど…）
+EN (According to my scout, there's a promising fighter
+EN somewhere around here...)
+
+@ 3.25
+# 社 長
+JP あっ、資料があったな。
+JP 資料、資料っと…。
+EN Oh, right, I have a file on her. The file, the file...
+
+@ 3.27
+# 社 長
+JP （なになに。
+JP 　彼女は柳生一族の血を引く
+JP 　格闘家と言われ…）
+EN (Let's see. She's said to be a martial artist
+EN descended from the Yagyu clan...)
+
+@ 3.29
+# 社 長
+JP …えっ、柳生！？
+JP 柳生って、あの将軍家剣術指南役の？
+EN ...Wait, Yagyu!? The Yagyu who taught swordsmanship
+EN to the shoguns?
+
+@ 3.31
+# 社 長
+JP …ってことは
+JP この選手は現代に生きる
+JP サムライってやつなのか…？
+EN ...So this fighter is a real-life modern samurai...?
+
+@ 3.33
+# 社 長
+JP これは期待できそうだ…。
+EN This looks very promising...
+
+@ 3.52
+# ？？？
+JP なにやつっ！
+EN Who goes there!
+
+@ 3.60
+# 社 長
+JP うわっ！
+EN Whoa!
+
+@ 3.64
+# ライジン美冬
+JP 見かけぬ顔だな。
+JP 何をしに来た？
+EN I do not know your face. What business brings you
+EN here?
+
+@ 3.67
+# 社 長
+JP あ、あの私はプロレス団体を
+JP 経営している者で…。
+EN Ah, um, I run a pro-wrestling promotion...
+
+@ 3.69
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.76
+# ライジン美冬
+JP …プロレスか。
+JP それで私に何をしろというのだ。
+EN ...Pro wrestling. And what would you have me do?
+
+@ 3.79
+# 社 長
+JP 選手として
+JP 活躍してもらえないかと
+JP 思いまして…。
+EN I was hoping you'd fight for us as one of our
+EN wrestlers...
+
+@ 3.81
+# 社 長
+JP （俺は条件を提示して
+JP 　何度もお願いしてみた）
+EN (I laid out my terms and asked her again and again.)
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# ライジン美冬
+JP これほど頼まれては
+JP むげに断るわけにもいくまい。
+EN When asked so earnestly, I cannot refuse you out of
+EN hand.
+
+@ 4.18
+# 社 長
+JP …えっ、では…。
+EN ...Huh? Then...
+
+@ 4.29
+# ライジン美冬
+JP …この身をお預けする。
+JP よしなに頼む。
+EN ...I place myself in your keeping. I am in your hands.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ライジン美冬
+JP …私には無理だ。
+JP 他をあたってくれ。
+EN ...I cannot do this. Seek someone else.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （なんとしても美冬選手に
+JP 　入団してもらいたい）
+EN (I want Mifuyu on our roster no matter what.)
+
+@ 6.25
+# 社 長
+JP （俺は再び彼女に
+JP 　会いに行くことにした）
+EN (I decided to go see her again.)
+
+@ 6.40
+# 社 長
+JP 失礼します。
+EN Excuse me.
+
+@ 6.50
+# ライジン美冬
+JP この前の…。
+JP お断りしたと思ったが…。
+EN You again... I believe I already refused you.
+
+@ 6.53
+# 社 長
+JP 考え直してもらえませんか。
+EN Won't you reconsider?
+
+@ 6.60
+# ライジン美冬
+JP そこまで請われるとは
+JP よほどの訳があるようだな。
+EN To be entreated this much, you must have good
+EN reason.
+
+@ 6.63
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Won't you please lend us your strength?
+
+@ 6.65
+# 社 長
+JP （俺は条件を提示して
+JP 　何度もお願いしてみた）
+EN (I laid out my terms and asked her again and again.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# ライジン美冬
+JP これほど頼まれては
+JP むげに断るわけにもいくまい。
+EN When asked so earnestly, I cannot refuse you out of
+EN hand.
+
+@ 7.18
+# 社 長
+JP …えっ、では…。
+EN ...Huh? Then...
+
+@ 7.29
+# ライジン美冬
+JP …この身をお預けする。
+JP よしなに頼む。
+EN ...I place myself in your keeping. I am in your hands.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ライジン美冬
+JP …私には無理だ。
+JP 他をあたってくれ。
+EN ...I cannot do this. Seek someone else.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （美冬選手…。
+JP 　古武術を基にした技のキレは抜群。
+JP 　エースになれる逸材だ）
+EN (Mifuyu Yagyu... Her moves, rooted in an ancient
+EN martial art, are razor sharp. She has what it takes
+EN to be an ace.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP 失礼します。
+EN Excuse me.
+
+@ 9.37
+# ライジン美冬
+JP …そなた、何者だ？
+EN ...And who might you be?
+
+@ 9.40
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 9.47
+# ライジン美冬
+JP ふむ…。
+JP つまり移籍しろというのか。
+EN Hmm... In other words, you wish me to change
+EN promotions.
+
+@ 9.50
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.57
+# ライジン美冬
+JP 今は団体を裏切るのは
+JP 忠の精神に反する。
+EN To betray my promotion now would go against the
+EN spirit of loyalty.
+
+@ 9.60
+# 社 長
+JP そこを曲げて
+JP 力を貸してもらえないでしょうか？
+EN Couldn't you bend a little and lend us your strength?
+
+@ 9.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# ライジン美冬
+JP …いいだろう。
+JP 今の団体には少なからず
+JP 不満もあるしな。
+EN ...Very well. I am not without complaints about my
+EN current promotion.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# ライジン美冬
+JP 主君が至らざれば
+JP それを貫くのは忠ではない。
+JP …では、よしなに。
+EN When the lord is unworthy, serving him blindly is not
+EN loyalty. ...Then I am in your hands.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ライジン美冬
+JP 裏切り者の汚名を
+JP 着る訳にはいかん。
+EN I will not wear the shameful name of traitor.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (We really need her. I decided to negotiate once
+EN more.)
+
+@ 12.25
+# 社 長
+JP …美冬選手。
+EN ...Mifuyu.
+
+@ 12.35
+# ライジン美冬
+JP また来られたのか。
+JP なぜそこまで私にこだわる？
+EN You have come again. Why do you insist on me so?
+
+@ 12.38
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しいんです。
+EN I really want you to join our promotion.
+
+@ 12.45
+# ライジン美冬
+JP うーむ…。
+JP そこまで言われるか…。
+EN Hmm... You go that far...
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# ライジン美冬
+JP …いいだろう。
+JP 今の団体には少なからず
+JP 不満もあるしな。
+EN ...Very well. I am not without complaints about my
+EN current promotion.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# ライジン美冬
+JP 主君が至らざれば
+JP それを貫くのは忠ではない。
+JP …では、よしなに。
+EN When the lord is unworthy, serving him blindly is not
+EN loyalty. ...Then I am in your hands.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ライジン美冬
+JP 裏切り者の汚名を
+JP 着る訳にはいかん。
+EN I will not wear the shameful name of traitor.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （美冬選手…。
+JP 　古武術を基にした技の数々。
+JP 　団体のエースになれる逸材だ）
+EN (Mifuyu Yagyu... A whole arsenal of moves rooted in
+EN an ancient martial art. She could be our promotion's
+EN ace.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 15.27
+# 社 長
+JP 失礼ですが…。
+EN Excuse me...
+
+@ 15.37
+# ライジン美冬
+JP …何用かな？
+EN ...What is your business?
+
+@ 15.40
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.47
+# ライジン美冬
+JP なるほど…。
+JP 私はこれまで一人でやってきた。
+JP 団体に入るつもりはない。
+EN I see... I have walked alone until now. I have no
+EN intention of joining a promotion.
+
+@ 15.50
+# 社 長
+JP そこを曲げて
+JP 力を貸してもらえないでしょうか？
+EN Couldn't you bend a little and lend us your strength?
+
+@ 15.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# ライジン美冬
+JP …わかった。
+JP そなたを主と認めよう。
+EN ...Very well. I acknowledge you as my lord.
+
+@ 16.22
+# 社 長
+JP …えっ、ホントですか？
+EN ...Huh? Really?
+
+@ 16.29
+# ライジン美冬
+JP 武士に二言はない。
+JP 委細、よしなにな。
+EN A samurai does not go back on her word. I leave the
+EN details to you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ライジン美冬
+JP 武とは己との戦い。
+JP 徒党を組む必要はない。
+EN The martial way is a battle with oneself. I have no
+EN need to band together.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　彼女が必要だ）
+EN (Our promotion really needs her.)
+
+@ 18.25
+# 社 長
+JP （俺はもう一度
+JP 　交渉を試みることにした）
+EN (I decided to try negotiating once more.)
+
+@ 18.27
+# 社 長
+JP すみません、美冬選手。
+EN Excuse me, Mifuyu.
+
+@ 18.37
+# ライジン美冬
+JP また見えたのか。
+JP 先日の話か？
+EN You have come again. About the other day?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入っていただきたいんです。
+EN Yes. I really want you to join our promotion.
+
+@ 18.47
+# ライジン美冬
+JP そこまで求められるとは
+JP 意外だな…。
+EN I did not expect to be sought after so...
+
+@ 18.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 18.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# ライジン美冬
+JP …わかった。
+JP そなたを主と認めよう。
+EN ...Very well. I acknowledge you as my lord.
+
+@ 19.22
+# 社 長
+JP …えっ、ホントですか？
+EN ...Huh? Really?
+
+@ 19.29
+# ライジン美冬
+JP 武士に二言はない。
+JP 委細、よしなにな。
+EN A samurai does not go back on her word. I leave the
+EN details to you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ライジン美冬
+JP 武とは己との戦い。
+JP 徒党を組む必要はない。
+EN The martial way is a battle with oneself. I have no
+EN need to band together.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…あっ、美冬！
+EN She should be around here... Ah, Mifuyu!
+
+@ 21.33
+# ライジン美冬
+JP おぬしは…。
+EN You...
+
+@ 21.36
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.43
+# ライジン美冬
+JP …要件はなんだ？
+EN ...What is your business?
+
+@ 21.46
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you because I
+EN want you to come back.
+
+@ 21.53
+# ライジン美冬
+JP 今さらか…。
+EN Only now...?
+
+@ 21.56
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this of you...
+
+@ 21.58
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ライジン美冬
+JP 話はわかった。
+EN I understand what you are saying.
+
+@ 22.18
+# 社 長
+JP 戻ってきてくれないか？
+EN Won't you come back?
+
+@ 22.29
+# ライジン美冬
+JP …これもまた縁か。
+JP よかろう、もう一度
+JP そなたを信じてみよう。
+EN ...This too must be fate. Very well. I shall place my
+EN trust in you once more.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ライジン美冬
+JP 一度破れた信頼は取り戻せん。
+JP 違うか？
+EN Trust once broken cannot be regained. Am I wrong?
+
+@ 23.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.29
+# ライジン美冬
+JP おぬしも男なら
+JP 己の言葉に責任をもたれよ。
+EN If you are a man, take responsibility for your own
+EN words.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び美冬を訪ねることにした。
+EN I decided to visit Mifuyu again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 美冬！
+EN Mifuyu!
+
+@ 24.37
+# ライジン美冬
+JP …また来たか。
+JP 懲りぬ男だな。
+EN ...You came again. You are a man who never learns.
+
+@ 24.40
+# 社 長
+JP 頼む。
+JP どうしても戻って欲しいんだ。
+EN Please. I really want you to come back.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ライジン美冬
+JP 話はわかった。
+EN I understand what you are saying.
+
+@ 25.18
+# 社 長
+JP 戻ってきてくれないか？
+EN Won't you come back?
+
+@ 25.29
+# ライジン美冬
+JP …これもまた縁か。
+JP よかろう、もう一度
+JP そなたを信じてみよう。
+EN ...This too must be fate. Very well. I shall place my
+EN trust in you once more.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ライジン美冬
+JP 一度破れた信頼は取り戻せん。
+JP 違うか？
+EN Trust once broken cannot be regained. Am I wrong?
+
+@ 26.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.26
+# ライジン美冬
+JP おぬしも男なら
+JP 己の言葉に責任をもたれよ。
+EN If you are a man, take responsibility for your own
+EN words.
+
+@ 26.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ライジン美冬
+JP この程度でいちいち騒ぐな。
+EN Do not make a fuss over every trifle like this.
+
+@ 28.16
+# scene 029 ケガ大
+# ライジン美冬
+JP ぬかったか…。
+EN I was careless...
+
+@ 29.16
+# scene 030 入院
+# ライジン美冬
+JP 無念だ。
+JP だがこのままでは終わらん。
+EN How vexing. But this will not be the end of me.
+
+@ 30.16
+# scene 031 退院
+# ライジン美冬
+JP 心配をかけた。
+JP もう大事ない。
+EN I am sorry to have worried you. I am quite well now.
+
+@ 31.16
+# scene 032 ケガ完治
+# ライジン美冬
+JP 痛みが退いたな。
+JP これなら動けそうだ。
+EN The pain has faded. I should be able to move now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ライジン美冬
+JP …引き際は
+JP わきまえておかねばな。
+EN ...One must know when the time has come to withdraw.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ライジン美冬
+JP …私の戦はまだ終わってはいない。
+EN ...My battle is not over yet.
+
+@ 34.16
+# scene 035 コーチ就任
+# ライジン美冬
+JP 私は厳しいぞ。
+JP 覚悟を決めてついてこい！
+EN I am strict. Steel your resolve and follow me!
+
+@ 35.16
+# scene 036 ケガ引退
+# ライジン美冬
+JP 不覚…。
+JP 先祖に顔向けできん…。
+EN A disgrace... I cannot face my ancestors...
+
+@ 36.16
+# scene 037 年齢引退
+# ライジン美冬
+JP 昔日の技の冴えがこの体より失せた。
+JP …もはや、元に戻ることはあるまい。
+EN The keen edge of my old technique has left this
+EN body. ...It shall never return.
+
+@ 37.16
+# scene 038 退団
+# ライジン美冬
+JP …世話になった。
+EN ...I am in your debt.
+
+@ 38.16
+# scene 039 スランプ
+# ライジン美冬
+JP 人も研ぎ直さねばならんときが
+JP あるということか…。
+EN So even a person must sometimes be sharpened
+EN anew, like a blade...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ライジン美冬
+JP それはいったいどういうものだ？
+EN And what exactly is that?
+
+@ 39.19
+# 社 長
+JP おまえを応援してくれる
+JP 人たちの集まりだよ。
+JP 大切にするんだぞ。
+EN It's a group of people who support you. Treasure
+EN them.
+
+@ 39.26
+# ライジン美冬
+JP わかった。
+JP 良き見本となるよう精進しよう。
+EN Understood. I shall strive to be a good example to
+EN them.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ライジン美冬
+JP ふむ、またか。
+EN Hm, another one.
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# ライジン美冬
+JP 嬉しいのだが
+JP いまひとつ接し方がわからぬ…。
+EN I am glad, but I am not quite sure how to treat them...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ライジン美冬
+JP なくなってしまったのか。
+JP 私は彼らの期待に
+JP 応えられなかったのか？
+EN It is gone? Did I fail to live up to their expectations?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.26
+# ライジン美冬
+JP 不甲斐ない。
+JP そなたにも迷惑をかけてすまぬな。
+EN How shameful. Forgive me for troubling you as well.
+
+@ 42.16
+# scene 043 映画出演
+# ライジン美冬
+JP 時代劇ならばいいのだが
+JP それ以外はちと…。
+EN A period drama would be fine, but anything else is...
+EN somewhat...
+
+@ 43.16
+# scene 044 一日署長
+# ライジン美冬
+JP たとえ一日であれ
+JP 不善を討つのは意義あることだな。
+EN Even for a single day, striking down wrongdoing is a
+EN worthy deed.
+
+@ 44.16
+# scene 045 写真集発売
+# ライジン美冬
+JP 断ることは…できまいな。
+JP うむ…。
+EN I suppose I... cannot refuse. Mm...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ライジン美冬
+JP 仕事の予想がつかん。
+JP 詳しい説明をしてくれ。
+EN I cannot imagine what this work involves. Explain it to
+EN me in detail.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ライジン美冬
+JP ……ぐっ…。
+JP 歌か…。
+JP 努力…しよう……。
+EN ......Ngh... Singing... I shall... try......
+
+@ 47.16
+# scene 048 始球式
+# ライジン美冬
+JP 恥をかかぬよう
+JP 鍛錬せねばなるまい。
+EN I must train so as not to disgrace myself.
+
+@ 48.16
+# scene 049 学園祭
+# ライジン美冬
+JP 祭か…。
+JP 息抜きに行ってこよう。
+EN A festival... I shall go and take a breather.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# ライジン美冬
+JP ……っ！？
+EN ......!?
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Thanks for everything, and here's to more.
+
+@ 49.43
+# ライジン美冬
+JP う、うむ…。
+JP …感謝する。
+EN Y-yes... ...I am grateful.
+
+@ 50.23
+# scene 051 バレンタインデー
+# 社 長
+JP （今日はバレンタインか。
+JP 　誰かチョコくれないかな…）
+EN (So it's Valentine's Day. I wonder if anyone will give
+EN me chocolate...)
+
+@ 50.32
+# ライジン美冬
+JP ……ん…んんっ。
+EN ......Ahem... ahem.
+
+@ 50.36
+# ライジン美冬
+JP 異国の習慣は不慣れだが
+JP これを渡したい。
+EN I am not used to foreign customs, but I wish to give
+EN you this.
+
+@ 50.44
+# 社 長
+JP ありがとう、まさか美冬から…。
+JP …あれ、いない、どこ行ったんだ？
+EN Thanks, I never expected one from you, Mifuyu...
+EN Huh? She's gone. Where'd she go?
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# ライジン美冬
+JP す、すまんな…。
+JP わざわざ…。
+EN Y-you have my thanks... You need not have...
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have it between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# ライジン美冬
+JP おぬしらのことは
+JP 「さぽうたあ」と呼べばいいのか？
+EN Am I to call you all my "sap-poh-tahs"?
+
+@ 53.31
+# scene 054 コンサート
+# ライジン美冬
+JP 人に聴かせられる
+JP 腕前ではないのだが…。
+EN My skill is not fit for others to hear...
+
+@ 54.28
+# scene 055 練習拒否
+# ライジン美冬
+JP 心のどこかに迷いがある…。
+EN Somewhere in my heart, there is doubt...
+
+@ 55.28
+# scene 056 失踪
+# ライジン美冬
+JP 心が乱れて修行に打ち込めん…。
+EN My heart is in turmoil. I cannot devote myself to
+EN training...
+
+@ 56.16
+# scene 057 選手解雇
+# ライジン美冬
+JP わかった、それなりの事情が
+JP あってのことだろう。
+JP さらば。
+EN Understood. You must have your reasons. Farewell.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ライジン美冬
+JP 私の技が世界に通じるか楽しみだ。
+EN I look forward to seeing whether my technique holds
+EN up against the world.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ライジン美冬
+JP 実に充実した時間を過ごせた。
+JP 感謝する。
+EN It was a truly fulfilling time. I am grateful.
+
+@ 59.26
+# scene 060 移籍思案
+# ライジン美冬
+JP 不忠者にはなりたくないが…。
+EN I do not wish to be disloyal, but...
+
+@ 60.16
+# scene 061 革命軍結成
+# ライジン美冬
+JP 悪しきを討つため
+JP 今こそ立ちあがらん！
+EN To strike down wickedness, now is the time to rise!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ライジン美冬
+JP 乱を望む訳ではないが
+JP これは見過ごせん！
+EN I do not seek strife, but this I cannot overlook!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ライジン美冬
+JP 雌雄を決すべきときが来た！
+JP 勝負せよ！
+EN The time has come to settle this once and for all!
+EN Face me!
+
+@ 63.16
+# scene 064 遺恨発生
+# ライジン美冬
+JP …何たる屈辱か…。
+EN ...Such humiliation...
+
+@ 64.16
+# scene 065 殴り込み
+# ライジン美冬
+JP 私の力がどれほどのものか。
+JP 見極めてこよう。
+EN I shall go and see for myself just how strong I am.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ライジン美冬
+JP 愚かな。
+JP 身の程を教えてくれる。
+EN Fools. I shall teach you your place.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ライジン美冬
+JP おぬしらの看板
+JP いただいて帰るぞ。
+EN I shall be taking your promotion's sign home with me.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ライジン美冬
+JP 今こそ万夫不当の英傑とならん！
+EN Now I shall become a hero no army can stand against!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ライジン美冬
+JP ひとつの勝利に驕ってはならない。
+JP 常勝不敗こそが我が目標！
+EN One must not grow proud over a single victory.
+EN Never to lose is my goal!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ライジン美冬
+JP そなたに恥をかかせてしまったな…。
+JP すまぬ…。
+EN I have brought shame upon you... Forgive me...
+
+@ 70.13
+# scene 071 引退式
+# ライジン美冬
+JP 良き日々だった。
+JP 本当にありがとう…。
+EN These were good days. Thank you, truly...
+
+@ 71.17
+# ライジン美冬
+JP 呼んだか？
+EN You called?
+
+@ 71.36
+# ライジン美冬
+JP どうした？
+EN What is it?
+
+@ 71.46
+# ライジン美冬
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.89
+# ライジン美冬
+JP 言われるまでもない。
+EN That goes without saying.
+
+@ 71.110
+# ライジン美冬
+JP 何やら軽佻浮薄な言葉。
+JP 気に食わんな。
+EN What frivolous, empty words. I do not care for them.
+
+@ 71.131
+# ライジン美冬
+JP そ、そうか。
+JP それはよかった。
+EN I-is that so. Then I am glad.
+
+@ 71.152
+# ライジン美冬
+JP 世辞は無用だ。
+JP …何やらこそばゆい。
+EN Spare me the flattery. ...It tickles somehow.
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# ライジン美冬
+JP 心に慢心があったかもしれん。
+JP 忠告、感謝する。
+EN Perhaps pride had crept into my heart. Thank you
+EN for the warning.
+
+@ 71.210
+# ライジン美冬
+JP 決して手抜きなどしておらんが…。
+EN I have never once cut corners...
+
+@ 71.231
+# ライジン美冬
+JP すまぬ。
+JP 次の試合を見ていてくれ。
+EN Forgive me. Watch my next match.
+
+@ 71.252
+# ライジン美冬
+JP …そなたが私の心を
+JP 乱しているのではないか…。
+EN ...Is it not you who are throwing my heart into
+EN disarray...?
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed yourself lately. Are you all
+EN right?
+
+@ 71.289
+# ライジン美冬
+JP 少し疲れただけだ。
+JP 気にするな。
+EN I am merely a little tired. Think nothing of it.
+
+@ 71.310
+# ライジン美冬
+JP 疲れてはいるが
+JP これも選んだ道だ。
+EN I am tired, but this is the path I chose.
+
+@ 71.331
+# ライジン美冬
+JP 優しい言葉だ。
+JP 心にしみる。
+EN Kind words. They touch my heart.
+
+@ 71.352
+# ライジン美冬
+JP そなたに見透かされるとは
+JP 私はよほど参っているな。
+EN If even you can see through me, I must be worn down
+EN indeed.
+
+@ 71.366
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# ライジン美冬
+JP …察しはつく。
+EN ...I can guess.
+
+@ 71.399
+# ライジン美冬
+JP …心当たりがないが？
+EN ...I cannot think why.
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# ライジン美冬
+JP よかろう。
+JP ここはこらえる。
+EN Very well. I shall hold back for now.
+
+@ 71.453
+# ライジン美冬
+JP 罰せられるべきは私の方か？
+EN So it is I who should be punished?
+
+@ 71.474
+# ライジン美冬
+JP …言っている意味がわからん…。
+JP なんの話だ？
+EN ...I do not understand what you mean... What is this
+EN about?
+
+@ 71.487
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# ライジン美冬
+JP …わかっている。
+EN ...I know.
+
+@ 71.521
+# ライジン美冬
+JP わ、私の口から言わせる気か？
+EN A-are you going to make me say it myself?
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# ライジン美冬
+JP そなたの言葉だ。
+JP 聞かぬ訳にはいくまい。
+EN They are your words. I cannot refuse to heed them.
+
+@ 71.577
+# ライジン美冬
+JP そなたにだけは
+JP わかって欲しかったが…。
+EN You, of all people, I wanted to understand...
+
+@ 71.598
+# ライジン美冬
+JP …そ、そういう話か。
+JP それなら初めからそう言え。
+EN ...Oh, s-so that is what this is. Then say so from the
+EN start.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ライジン美冬
+JP どうした？
+EN What is it?
+
+@ 72.16
+# ライジン美冬
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ライジン美冬
+JP 言われるまでもない。
+EN That goes without saying.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ライジン美冬
+JP 何やら軽佻浮薄な言葉。
+JP 気に食わんな。
+EN What frivolous, empty words. I do not care for them.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ライジン美冬
+JP そ、そうか。
+JP それはよかった。
+EN I-is that so. Then I am glad.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ライジン美冬
+JP 世辞は無用だ。
+JP …何やらこそばゆい。
+EN Spare me the flattery. ...It tickles somehow.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ライジン美冬
+JP 心に慢心があったかもしれん。
+JP 忠告、感謝する。
+EN Perhaps pride had crept into my heart. Thank you
+EN for the warning.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ライジン美冬
+JP 決して手抜きなどしておらんが…。
+EN I have never once cut corners...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ライジン美冬
+JP すまぬ。
+JP 次の試合を見ていてくれ。
+EN Forgive me. Watch my next match.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ライジン美冬
+JP …そなたが私の心を
+JP 乱しているのではないか…。
+EN ...Is it not you who are throwing my heart into
+EN disarray...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed yourself lately. Are you all
+EN right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ライジン美冬
+JP 少し疲れただけだ。
+JP 気にするな。
+EN I am merely a little tired. Think nothing of it.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ライジン美冬
+JP 疲れてはいるが、
+JP これも選んだ道だ。
+EN I am tired, but this is the path I chose.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ライジン美冬
+JP 優しい言葉だ。
+JP 心にしみる。
+EN Kind words. They touch my heart.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ライジン美冬
+JP そなたに見透かされるとは、
+JP 私はよほど参っているな。
+EN If even you can see through me, I must be worn down
+EN indeed.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ライジン美冬
+JP ……察しはつく。
+EN ...I can guess.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ライジン美冬
+JP ……心当たりがないが？
+EN ...I cannot think why.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ライジン美冬
+JP よかろう。
+JP ここはこらえる。
+EN Very well. I shall hold back for now.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ライジン美冬
+JP 罰せられるべきは私の方か？
+EN So it is I who should be punished?
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ライジン美冬
+JP …言っている意味がわからん…。
+JP なんの話だ？
+EN ...I do not understand what you mean... What is this
+EN about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ライジン美冬
+JP …わかっている。
+EN ...I know.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ライジン美冬
+JP わ、私の口から言わせる気か？
+EN A-are you going to make me say it myself?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ライジン美冬
+JP そなたの言葉だ。
+JP 聞かぬ訳にはいくまい。
+EN They are your words. I cannot refuse to heed them.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ライジン美冬
+JP そなたにだけは
+JP わかって欲しかったが…。
+EN You, of all people, I wanted to understand...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ライジン美冬
+JP そ、そういう話か。
+JP それなら初めからそう言え。
+EN Oh, s-so that is what this is. Then say so from the
+EN start.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ライジン美冬
+JP もらった禄の分は
+JP 職責を果たさねばな。
+EN I must do my duty in return for the stipend I receive.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ライジン美冬
+JP ほう…。
+JP これは期待に添わねば
+JP バチが当たるな。
+EN Oh... If I do not live up to this, heaven will punish me.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ライジン美冬
+JP そなたの評価だ。
+JP 仕方あるまい…。
+EN It is your assessment. I suppose it cannot be
+EN helped...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （たまにはプールってのも
+JP 　いいもんだな）
+EN (Going to the pool once in a while isn't bad at all.)
+
+@ 105.26
+# 社 長
+JP （みんなも楽しんでいるみたいだし）
+EN (Everyone seems to be having fun, too.)
+
+@ 105.28
+# 社 長
+JP （…んっ、なんだか周りが
+JP 　ざわざわしているな）
+EN (...Hm? There's some kind of commotion going on.)
+
+@ 105.30
+# 社 長
+JP （…ああ、手当たり次第に
+JP 　ナンパしてるヤツらが
+JP 　いるのか？）
+EN (...Ah, are some guys hitting on every girl in sight?)
+
+@ 105.32
+# 社 長
+JP （まったく迷惑なこった）
+EN (What a nuisance.)
+
+@ 105.34
+# 社 長
+JP あっ…。
+EN Ah...
+
+@ 105.36
+# 社 長
+JP 美冬がナンパされてる！？
+EN They're hitting on Mifuyu!?
+
+@ 105.38
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.40
+# 社 長
+JP かわいそうに…。
+EN Those poor guys...
+
+@ 105.70
+# ライジン美冬
+JP 他の者に迷惑だ。
+JP 失せろ。
+EN You are bothering everyone. Begone.
+
+@ 105.74
+# ライジン美冬
+JP 軟弱者が…。
+EN Weaklings...
+
+@ 105.77
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.79
+# 社 長
+JP （やっぱりな）
+EN (Figures.)
+
+@ 105.93
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.95
+# 社 長
+JP （さすがに逃げていったか…）
+EN (Well, they ran off, of course...)
+
+@ 105.97
+# 社 長
+JP （さて…）
+EN (Now then...)
+
+@ 105.119
+# 社 長
+JP よっ。
+EN Hey.
+
+@ 105.129
+# ライジン美冬
+JP 社長ッ！？
+EN Boss!?
+
+@ 105.136
+# ライジン美冬
+JP …何か用か？
+EN ...Do you need something?
+
+@ 105.139
+# 社 長
+JP さっきは大活躍だったな。
+EN You were quite the hero back there.
+
+@ 105.146
+# ライジン美冬
+JP …見ていたのか。
+EN ...You saw that.
+
+@ 105.149
+# 社 長
+JP ああ、格好よかったぞ。
+EN Yeah. You looked cool.
+
+@ 105.156
+# ライジン美冬
+JP ………………。
+EN ..................
+
+@ 105.159
+# 社 長
+JP 心配しなくても
+JP 処分するつもりはないぞ。
+EN Don't worry, I'm not going to punish you.
+
+@ 105.161
+# 社 長
+JP むしろもっと
+JP 誇っていいんじゃないか？
+EN If anything, shouldn't you be prouder of it?
+
+@ 105.168
+# ライジン美冬
+JP いや…。
+JP そうではない。
+EN No... That is not it.
+
+@ 105.172
+# ライジン美冬
+JP 他の男になら構わぬが
+JP そなたに見られたというのは…。
+EN I would not mind if it were any other man, but to have
+EN been seen by you...
+
+@ 105.175
+# 社 長
+JP …んっ？
+JP どういう意味だ？
+EN ...Huh? What do you mean?
+
+@ 105.182
+# ライジン美冬
+JP 男を蹴り倒す女を好く男など
+JP おらぬということだ…。
+EN I mean no man could care for a woman who kicks men
+EN to the ground...
+
+@ 105.189
+# ライジン美冬
+JP …失礼する。
+EN ...Excuse me.
+
+@ 105.198
+# 社 長
+JP …どうしたんだ？
+JP いったい？
+EN ...What's gotten into her?
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、残業終わり！）
+EN (All right, overtime's done!)
+
+@ 106.26
+# 社 長
+JP （これでようやく帰れるな）
+EN (I can finally go home.)
+
+@ 106.28
+# 社 長
+JP （…んっ、ジムに明かりが
+JP 　ついてる？）
+EN (...Hm? The lights are on in the gym?)
+
+@ 106.47
+# 社 長
+JP （シャワー室か…。
+JP 　しょうがない。
+JP 　消しに行くか）
+EN (The shower room... Oh well. I'll go turn them off.)
+
+@ 106.68
+# ライジン美冬
+JP …フンッ！
+EN ...Hngh!
+
+@ 106.75
+# 社 長
+JP うお、美冬！？
+JP 何してるんだ！？
+EN Whoa, Mifuyu!? What are you doing!?
+
+@ 106.85
+# ライジン美冬
+JP …社長か。
+EN ...Ah, Boss.
+
+@ 106.89
+# ライジン美冬
+JP 最近の自分が
+JP あまりに不甲斐ないのでな。
+JP 気合いをいれていた。
+EN I have been so pathetic lately. I was steeling my
+EN spirit.
+
+@ 106.92
+# 社 長
+JP （…だからってなぁ）
+EN (...Even so...)
+
+@ 106.94
+# 社 長
+JP おまえはよくやっているだろ。
+JP あまり自分を責めるな。
+EN You're doing great. Don't be so hard on yourself.
+
+@ 106.104
+# ライジン美冬
+JP 組織の長にそんな言葉を
+JP かけてもらえるとは
+JP ありがたいことだ。
+EN How gracious, to receive such words from the head
+EN of the organization.
+
+@ 106.107
+# 社 長
+JP おい。
+JP 俺は真面目に…。
+EN Hey. I'm being serious here...
+
+@ 106.117
+# ライジン美冬
+JP 社長、すまないが…。
+EN Boss, I am sorry, but...
+
+@ 106.120
+# 社 長
+JP なんだ？
+EN What?
+
+@ 106.124
+# ライジン美冬
+JP それはそれとして…。
+EN That aside...
+
+@ 106.127
+# 社 長
+JP それはそれとして…？
+EN That aside...?
+
+@ 106.137
+# ライジン美冬
+JP 少し恥ずかしいので
+JP 出ていってはくれないか？
+EN This is a little embarrassing, so would you please
+EN leave?
+
+@ 106.140
+# 社 長
+JP （そういえば肌が
+JP 　少し透けて見えてるな）
+EN (Now that she mentions it, I can kind of see through
+EN her clothes...)
+
+@ 106.142
+# 社 長
+JP す、すまん。
+JP とにかく風邪引かないように
+JP ちゃんと乾かせよ。
+EN S-sorry. Anyway, dry yourself off properly so you
+EN don't catch a cold.
+
+@ 106.146
+# ライジン美冬
+JP あ、ああ…。
+EN Y-yes...
+
+@ 106.156
+# ライジン美冬
+JP 心遣い、感謝する。
+EN Thank you for your concern.
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （よし、残業終わり！）
+EN (All right, overtime's done!)
+
+@ 107.26
+# 社 長
+JP （これでようやく帰れるな）
+EN (I can finally go home.)
+
+@ 107.28
+# 社 長
+JP （…んっ、ジムに明かりが
+JP 　ついてる？）
+EN (...Hm? The lights are on in the gym?)
+
+@ 107.47
+# 社 長
+JP （シャワー室？
+JP 　まさか…？）
+EN (The shower room? Don't tell me...)
+
+@ 107.68
+# ライジン美冬
+JP ……フッ！
+EN ......Hah!
+
+@ 107.75
+# 社 長
+JP …やっぱり美冬か。
+EN ...I knew it was you, Mifuyu.
+
+@ 107.85
+# ライジン美冬
+JP …ッ。
+JP 社長…。
+EN ...!? Boss...
+
+@ 107.88
+# 社 長
+JP 今度はどうしたんだ？
+EN What is it this time?
+
+@ 107.92
+# ライジン美冬
+JP 心に雑念が生じた。
+JP だから戒めていた…。
+EN Stray thoughts have entered my mind. So I was
+EN disciplining myself...
+
+@ 107.95
+# 社 長
+JP （まったく…。
+JP 　本当に不器用だな
+JP 　こいつは）
+EN (Honestly... She really is clumsy about these things.)
+
+@ 107.97
+# 社 長
+JP おまえはよくやっている。
+JP あまり自分を責めるな。
+EN You're doing great. Don't be so hard on yourself.
+
+@ 107.101
+# ライジン美冬
+JP …そういう訳にもいかん。
+EN ...I cannot do that.
+
+@ 107.104
+# 社 長
+JP だいたい迷うなんて
+JP おまえらしくないぞ。
+EN Besides, it's not like you to be lost like this.
+
+@ 107.114
+# ライジン美冬
+JP 他のことなら抑えられるが
+JP こればかりはな…。
+EN Anything else I could master, but this alone...
+
+@ 107.117
+# 社 長
+JP （なんだ？
+JP 　美冬が一人では
+JP 　解決できない迷い？）
+EN (What? Something troubling Mifuyu that she can't
+EN solve on her own?)
+
+@ 107.119
+# 社 長
+JP もしよかったら相談に乗るぞ？
+EN If you want, I'll hear you out.
+
+@ 107.129
+# ライジン美冬
+JP いや…。
+JP 大丈夫だ。
+EN No... I am fine.
+
+@ 107.132
+# 社 長
+JP 本当か？
+EN Really?
+
+@ 107.142
+# ライジン美冬
+JP ああ。
+JP これからも私を見守っていてくれ。
+JP それだけでいい。
+EN Yes. Just keep watching over me from now on. That
+EN is all I need.
+
+@ 107.145
+# 社 長
+JP …そんなことでいいのか？
+EN ...That's all you want?
+
+@ 107.149
+# ライジン美冬
+JP ああ、それで十分だ。
+EN Yes. That is enough.
+
+@ 107.152
+# 社 長
+JP そうか。
+JP わかった。
+EN I see. All right.
+
+@ 107.156
+# ライジン美冬
+JP …感謝する。
+EN ...I am grateful.
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# ライジン美冬
+JP さあ、始めるか。
+EN Now, let us begin.
+
+@ 109.16
+# scene 113 練習開始
+# ライジン美冬
+JP さぁ、始めるとするか。
+EN Now, let us begin.
+
+@ 110.16
+# scene 114 練習開始 好意
+# ライジン美冬
+JP 精神を集中せねばならんな。
+EN I must focus my mind.
+
+@ 111.16
+# scene 115 特訓開始
+# ライジン美冬
+JP よかろう。
+JP 受けて立とう。
+EN Very well. I accept the challenge.
+
+@ 112.20
+# scene 116 特訓成功
+# ライジン美冬
+JP ……うむ！
+EN ......Good!
+
+@ 113.20
+# scene 117 特訓失敗
+# ライジン美冬
+JP ……なんたる未熟…！
+EN ......How inadequate I am...!
+
+@ 114.16
+# scene 118 休養
+# ライジン美冬
+JP たまには故郷の山々でも見てくるか。
+EN Perhaps I shall go see the mountains of home for a
+EN change.
+
+@ 115.16
+# scene 119 入場1
+# ライジン美冬
+JP 勝敗は兵家の常なり。
+JP 戦いは己の心との間にあり！
+EN Victory and defeat are the warrior's lot. The true
+EN battle lies within one's own heart!
+
+@ 116.16
+# scene 119 入場2
+# ライジン美冬
+JP 柳生一族の戦いぶり
+JP その身に刻むがいい！
+EN Let the fighting spirit of the Yagyu clan be carved
+EN into your flesh!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# ライジン美冬
+JP 我らの力、見せてくれよう！
+EN We shall show you our strength!
+
+@ 118.16
+# scene 125 必殺技１
+# ライジン美冬
+JP お前では私に勝てん…！
+EN You cannot defeat me...!
+
+@ 119.16
+# scene 125 必殺技２
+# ライジン美冬
+JP 秘伝の奥義、その身に刻み込め！
+EN Feel the secret art of my clan carved into your
+EN body!
+
+@ 120.16
+# scene 125 必殺技３
+# ライジン美冬
+JP 鍛えあげられた我が技を受けてみよ！
+EN Taste my technique, honed to perfection!
+
+@ 121.12
+# scene 126 勝利1
+# ライジン美冬
+JP 武士は退かぬ…。
+JP 武士は負けぬ…。
+EN A samurai does not retreat... A samurai does not
+EN lose...
+
+@ 122.12
+# scene 126 勝利2
+# ライジン美冬
+JP また手合わせを所望したい。
+JP ともにいっそう鍛えてな。
+EN I would welcome another bout. Let us both train even
+EN harder until then.
+
+@ 123.12
+# scene 126 勝利3
+# ライジン美冬
+JP おまえも私も
+JP まだまだ精進がたりぬな。
+EN You and I both still have much training ahead.
+
+@ 124.15
+# scene 133 表彰1
+# ライジン美冬
+JP まだまだ修行の身
+JP このような賞をもらうのは
+JP 早過ぎよう。
+EN I am still in training. It is too early for me to receive
+EN such an award.
+
+@ 125.15
+# scene 133 表彰2
+# ライジン美冬
+JP 私を選んでくれた方々への礼儀だ。
+JP 喜んで頂戴しよう。
+EN It is only courteous to those who chose me. I accept
+EN it gladly.
+
+@ 126.12
+# scene 134 優勝1
+# ライジン美冬
+JP 満足のいく試合ができた。
+JP これも日頃の成果だな。
+EN I fought a match I can be satisfied with. The fruit of
+EN daily training.
+
+@ 127.12
+# scene 134 優勝２
+# ライジン美冬
+JP 勝敗は紙一重。
+JP 私がここにいるのは
+JP ツキがあっただけのことだ。
+EN Victory and defeat are separated by a hair. I am
+EN standing here only because luck was with me.
+
+@ 128.24
+# scene 135 エンディング 通常
+# ライジン美冬
+JP おめでとう。
+JP だが、まだまだ終わりではない。
+JP より高みを目指されよ。
+EN Congratulations. But this is far from the end. Aim
+EN higher still.
+
+@ 129.24
+# scene 136 エンディング 好意
+# ライジン美冬
+JP そなたの好みとはどんな女性だ？
+JP その中に…私は入るのだろうか…。
+EN What sort of woman is your type? Would I... be among
+EN them...?

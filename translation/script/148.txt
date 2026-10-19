@@ -1,0 +1,2251 @@
+# /SCR/148.BIN - プリズン六角
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 148` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# プリズン六角
+JP 六角です。
+JP どっかな、私ゃ？
+EN I'm Musumi. So, how'd I do?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# プリズン六角
+JP あ、ホント？
+JP じゃ、これからひとつよろしく！
+EN Oh, really? Well then, here's to working together!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# プリズン六角
+JP あははは。
+JP ま、世の中厳しいってことかねぇ。
+EN Ahahaha. Guess the world's a tough place, huh?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりにレスリングの
+JP 無茶苦茶強い女性がいると
+JP 聞いたんだけど……。
+EN I heard there's a woman around here who's
+EN ridiculously strong at amateur wrestling...
+
+@ 3.25
+# 社 長
+JP お、あそこの練習場かな。
+EN Oh, maybe it's that gym over there.
+
+@ 3.27
+# 社 長
+JP ちょうど誰か出てきたぞ。
+EN Someone's just coming out.
+
+@ 3.29
+# 社 長
+JP って、当人じゃないか。
+JP よし、早速……。
+EN Wait, that's her! All right, here goes...
+
+@ 3.31
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 3.41
+# プリズン六角
+JP はい？
+EN Yeah?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.51
+# プリズン六角
+JP ふぅん…。
+JP プロレスねぇ。
+EN Hmm... Pro wrestling, huh?
+
+@ 3.54
+# 社 長
+JP どうでしょう？
+EN What do you think?
+
+@ 3.61
+# プリズン六角
+JP 私ゃ、別にプロのリングを
+JP 目指しているわけじゃないんだけど。
+EN I'm not exactly aiming for the pro ring, you know.
+
+@ 3.64
+# 社 長
+JP そこをなんとか。
+EN Please, think it over.
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# プリズン六角
+JP ん～、わかった。
+JP ものは試しって言うしね。
+JP 人生なるようになるさ。
+EN Mm, okay. Can't hurt to try, right? Life works itself
+EN out.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# プリズン六角
+JP さ～て、これから
+JP どうなるかな…っと。
+EN Welp... let's see how this turns out.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# プリズン六角
+JP ごめんね～。
+JP やっぱ、その気になれないや。
+EN Sorry! I just can't get into the idea.
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# プリズン六角
+JP おや、こないだの。
+EN Oh, it's you from the other day.
+
+@ 6.36
+# 社 長
+JP あれから考えたんだけれど
+JP やっぱり君に入って欲しくて。
+EN I've been thinking it over, and I still really want you
+EN to join us.
+
+@ 6.43
+# プリズン六角
+JP おやおや。
+JP このじゃじゃ馬もかわれたもんだ。
+EN Well, well. Somebody actually wants a wild horse like
+EN me.
+
+@ 6.46
+# 社 長
+JP うん、おもいっきり。
+JP どうかな？
+EN Yes, very much. What do you say?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# プリズン六角
+JP ん～、わかった。
+JP ものは試しって言うしね。
+JP 人生なるようになるさ。
+EN Mm, okay. Can't hurt to try, right? Life works itself
+EN out.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# プリズン六角
+JP さ～て、これから
+JP どうなるかな…っと。
+EN Welp... let's see how this turns out.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# プリズン六角
+JP ごめんね～。
+JP やっぱ、その気になれないや。
+EN Sorry! I just can't get into the idea.
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は六角選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Musumi.
+
+@ 9.25
+# 社 長
+JP 幻の日本代表候補。
+EN The phantom candidate for Japan's national team.
+
+@ 9.27
+# 社 長
+JP 彼女が出ていたら
+JP 日本はレスリングのメダルが
+JP １つ増えていたとすら言われている。
+EN They even say that if she'd competed, Japan would
+EN have one more wrestling medal.
+
+@ 9.29
+# 社 長
+JP 華やかさはないが
+JP 彼女がいればリングの土台が
+JP もっとしっかりするはずだ。
+EN She's not flashy, but with her around, our ring would
+EN have a much firmer foundation.
+
+@ 9.31
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 9.33
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.45
+# プリズン六角
+JP はい？
+EN Yeah?
+
+@ 9.48
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.52
+# プリズン六角
+JP ああ、引き抜きに来たの？
+EN Oh, you came to poach me?
+
+@ 9.55
+# 社 長
+JP ええ、どうでしょう？
+EN Yes. What do you say?
+
+@ 9.62
+# プリズン六角
+JP ん～、どうでしょうってもねぇ。
+EN Mm, "what do I say," huh...
+
+@ 9.65
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Would you lend us your strength?
+
+@ 9.67
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# プリズン六角
+JP ま、いっか。
+JP 人生、なるようになるだろうし。
+JP ＯＫ、その話受けた。
+EN Eh, why not. Life works itself out anyway. Okay,
+EN you've got a deal.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# プリズン六角
+JP ま、あそこのメシ屋でのんびり
+JP 打ち合わせでもしましょっか？
+JP もち、社長の奢りで。
+EN How about we hash out the details over a meal at
+EN that joint over there? Your treat, of course, Boss.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# プリズン六角
+JP ごめんね～。
+JP 移籍とか、めんどくさいからさ。
+EN Sorry! Changing promotions is just too much of a
+EN hassle.
+
+@ 11.22
+# 社 長
+JP めんど…。
+EN A hassle...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 六角選手が必要だ。
+EN Our promotion really does need Musumi.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 六角選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# プリズン六角
+JP あれ、また？
+EN Huh, you again?
+
+@ 12.40
+# 社 長
+JP えぇ。
+JP やっぱりうちの団体に
+JP 入って欲しいと思いまして。
+EN Yes. I still really want you to join our promotion.
+
+@ 12.47
+# プリズン六角
+JP 私も見込まれたもんだねぇ。
+EN Somebody sure thinks highly of me, huh?
+
+@ 12.50
+# 社 長
+JP なんとかうちに
+JP 来てもらえないでしょうか？
+EN Is there any way you'd come over to us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# プリズン六角
+JP ま、いっか。
+JP 人生、なるようになるだろうし。
+JP ＯＫ、その話受けた。
+EN Eh, why not. Life works itself out anyway. Okay,
+EN you've got a deal.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# プリズン六角
+JP ま、あそこのメシ屋でのんびり
+JP 打ち合わせでもしましょっか？
+JP もち、社長の奢りで。
+EN How about we hash out the details over a meal at
+EN that joint over there? Your treat, of course, Boss.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# プリズン六角
+JP ごめんね～。
+JP 移籍とか、めんどくさいからさ。
+EN Sorry! Changing promotions is just too much of a
+EN hassle.
+
+@ 14.22
+# 社 長
+JP めんど…。
+EN A hassle...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は六角選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Musumi.
+
+@ 15.25
+# 社 長
+JP 幻の日本代表候補。
+EN The phantom candidate for Japan's national team.
+
+@ 15.27
+# 社 長
+JP 彼女が出ていたら
+JP 日本はレスリングのメダルが
+JP １つ増えていたとすら言われている。
+EN They even say that if she'd competed, Japan would
+EN have one more wrestling medal.
+
+@ 15.29
+# 社 長
+JP 華やかさはないが
+JP 彼女がいればリングの土台が
+JP もっとしっかりするはずだ。
+EN She's not flashy, but with her around, our ring would
+EN have a much firmer foundation.
+
+@ 15.31
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 15.33
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.45
+# プリズン六角
+JP はい？
+EN Yeah?
+
+@ 15.48
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 15.55
+# プリズン六角
+JP ああ、勧誘か。
+JP ん～。
+EN Oh, a recruiting pitch. Hmm...
+
+@ 15.58
+# 社 長
+JP どうでしょう？
+EN What do you think?
+
+@ 15.65
+# プリズン六角
+JP どっかに所属するって
+JP いうのもなぁ…。
+EN Signing up with somebody, though...
+
+@ 15.68
+# 社 長
+JP そこをなんとか。
+EN Please, think it over.
+
+@ 15.70
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# プリズン六角
+JP ま、いっか。
+JP なるようになんでしょ。
+JP 受けるよ、その話。
+EN Eh, why not. It'll all work out. I'll take you up on it.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# プリズン六角
+JP ま、あそこのメシ屋でのんびり
+JP 打ち合わせでもしましょっか？
+JP もち、社長の奢りでね。
+EN How about we hash out the details over a meal at
+EN that joint over there? Your treat, of course, Boss.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# プリズン六角
+JP 悪いね。
+JP 私ゃ、やっぱ自由がいいや。
+EN Sorry. I'd rather stay free after all.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 六角選手が必要だ。
+EN Our promotion really does need Musumi.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 六角選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# プリズン六角
+JP お？
+JP また来たのかい？
+EN Oh? You're back again?
+
+@ 18.40
+# 社 長
+JP やっぱり、うちの団体に
+JP 入って欲しくて…。
+EN I still really want you to join our promotion...
+
+@ 18.47
+# プリズン六角
+JP う～ん、そう何度も来られてもねぇ。
+EN Mmm, even if you keep coming by like this...
+
+@ 18.50
+# 社 長
+JP そこをなんとか！
+EN Please, think it over!
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# プリズン六角
+JP ま、いっか。
+JP なるようになんでしょ。
+JP 受けるよ、その話。
+EN Eh, why not. It'll all work out. I'll take you up on it.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# プリズン六角
+JP ま、あそこのメシ屋でのんびり
+JP 打ち合わせでもしましょっか？
+JP もち、社長の奢りでね。
+EN How about we hash out the details over a meal at
+EN that joint over there? Your treat, of course, Boss.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# プリズン六角
+JP 悪いね。
+JP 私ゃ、やっぱ自由がいいや。
+EN Sorry. I'd rather stay free after all.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は六角を訪ねることにした。
+EN I decided to visit Musumi.
+
+@ 21.25
+# 社 長
+JP やはり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 六角！
+EN Musumi!
+
+@ 21.41
+# プリズン六角
+JP おやぁ？
+EN Well, well?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# プリズン六角
+JP まあ、久しぶりっちゃあ
+JP 久しぶりだよねぇ。
+EN Well, I guess it kinda has been a while, yeah.
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you because I want
+EN you to come back...
+
+@ 21.61
+# プリズン六角
+JP 社長～。
+JP 随分ムシのいいこと言ってんの
+JP 自分でわかってる？
+EN Boss. You do realize how awfully convenient that is
+EN for you, right?
+
+@ 21.64
+# 社 長
+JP それは、十分に…。
+JP だが、そこを曲げて頼む。
+EN I realize it fully... But I'm asking anyway.
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# プリズン六角
+JP やれやれ…。
+JP 私もお人好しだねえ。
+EN Sheesh... I'm such a pushover.
+
+@ 22.18
+# 社 長
+JP それじゃ…。
+EN Then...
+
+@ 22.29
+# プリズン六角
+JP ああ、戻る戻る。
+JP また、よろしく頼むよ。
+EN Yeah, yeah, I'll come back. Take care of me again,
+EN okay?
+
+@ 22.32
+# 社 長
+JP ああ、こちらこそ。
+EN Of course. Likewise.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# プリズン六角
+JP あぁ…。
+JP やっぱ、ダメだね。
+EN Ahh... Nope, no good.
+
+@ 23.22
+# 社 長
+JP そうか。
+EN I see.
+
+@ 23.29
+# プリズン六角
+JP 悪いね。
+JP 私にも、それなりに
+JP 矜持ってモンがあるからさ。
+EN Sorry. Even I've got a little thing called pride, you
+EN know.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... I understand...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び六角を訪ねることにした。
+EN I decided to visit Musumi again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 24.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 24.31
+# 社 長
+JP 六角！
+EN Musumi!
+
+@ 24.41
+# プリズン六角
+JP おやおや。
+JP また、おでましか。
+EN Well, well. You're back, huh?
+
+@ 24.44
+# 社 長
+JP ああ。
+JP 諦めきれなくてね。
+EN Yeah. I can't give up.
+
+@ 24.46
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.48
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# プリズン六角
+JP やれやれ…。
+JP 私もお人好しだねえ。
+EN Sheesh... I'm such a pushover.
+
+@ 25.18
+# 社 長
+JP それじゃ…。
+EN Then...
+
+@ 25.29
+# プリズン六角
+JP ああ、戻る戻る。
+JP また、よろしく頼むよ。
+EN Yeah, yeah, I'll come back. Take care of me again,
+EN okay?
+
+@ 25.32
+# 社 長
+JP ああ、こちらこそ。
+EN Of course. Likewise.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# プリズン六角
+JP あぁ…。
+JP やっぱ、ダメだね。
+EN Ahh... Nope, no good.
+
+@ 26.22
+# 社 長
+JP そうか。
+EN I see.
+
+@ 26.29
+# プリズン六角
+JP 悪いね。
+JP 私にも、それなりに
+JP 矜持ってモンがあるからさ。
+EN Sorry. Even I've got a little thing called pride, you
+EN know.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... I understand...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# プリズン六角
+JP ふむ…。
+EN Hmm...
+
+@ 28.16
+# scene 029 ケガ大
+# プリズン六角
+JP まいったね、こりゃ。
+EN Well, this is a fine mess.
+
+@ 29.16
+# scene 030 入院
+# プリズン六角
+JP ちょっとかわいい看護師さんに
+JP 囲まれてくるよ。
+EN Guess I'll go get surrounded by cute nurses for a
+EN while.
+
+@ 30.16
+# scene 031 退院
+# プリズン六角
+JP ただいま～。
+EN I'm back!
+
+@ 31.16
+# scene 032 ケガ完治
+# プリズン六角
+JP ふむ…。
+JP よし。
+EN Hmm... All right.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# プリズン六角
+JP そうだね。
+JP そろそろ楽させてもらおうか。
+EN Yeah. Guess it's time I took it easy.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# プリズン六角
+JP ん…もうちょっと
+JP 待ってくれるかい？
+JP 悪いんだけどさ。
+EN Mm... Could you wait a little longer? Sorry to ask.
+
+@ 34.16
+# scene 035 コーチ就任
+# プリズン六角
+JP いいのかい？
+JP お姉さん、これで結構放任主義だよ。
+EN You sure? Big sis here is pretty hands-off, you
+EN know.
+
+@ 35.16
+# scene 036 ケガ引退
+# プリズン六角
+JP ま、人生こういうこともあるさ。
+EN Well, life throws stuff like this at you.
+
+@ 36.16
+# scene 037 年齢引退
+# プリズン六角
+JP そろそろ楽させてもらうよ。
+EN Time for me to take it easy.
+
+@ 37.16
+# scene 038 退団
+# プリズン六角
+JP ま、私にゃ合わなかったって
+JP ことだね。
+EN Well, guess it just wasn't for me.
+
+@ 38.16
+# scene 039 スランプ
+# プリズン六角
+JP あ～、いつにもまして
+JP やる気が出ないねぇ。
+EN Ahh, I've got even less motivation than usual.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# プリズン六角
+JP ガラじゃないなぁ。
+EN Not really my style.
+
+@ 39.19
+# 社 長
+JP 応援してくれる人がいるのは
+JP いいことだぞ。
+EN It's a good thing to have people cheering for you.
+
+@ 39.26
+# プリズン六角
+JP まあねぇ。
+JP 私なんかに…ありがたいこったよ。
+EN I guess. For someone like me... I'm grateful.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# プリズン六角
+JP 増えちゃったんだ…。
+EN So it got bigger...
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yep. Live up to their expectations.
+
+@ 40.26
+# プリズン六角
+JP やれやれ。
+JP お姉さん、緊張しちゃうよ。
+EN Sheesh. Big sis is getting nervous.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# プリズン六角
+JP なくなった、か。
+EN So it's gone, huh?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard again.
+
+@ 41.26
+# プリズン六角
+JP まぁね。
+JP 失望させていいってこたぁ、ないし。
+EN Yeah. Not like it's okay to let people down.
+
+@ 42.16
+# scene 043 映画出演
+# プリズン六角
+JP セリフとか覚えなきゃ
+JP いけないんだろ？
+JP ……めんどくさ……。
+EN I'd have to memorize lines and stuff, right? ...What a
+EN hassle...
+
+@ 43.16
+# scene 044 一日署長
+# プリズン六角
+JP 制服って堅苦しくて
+JP 嫌いなんだよねぇ。
+EN I hate uniforms. They're so stiff.
+
+@ 44.16
+# scene 045 写真集発売
+# プリズン六角
+JP そりゃ…ニッチな市場を
+JP 狙ったってこって。
+EN Well... guess they're going after a niche market.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# プリズン六角
+JP 大人の飲み物とかだったら
+JP いいんだけどね～。
+EN If it's for some grown-up drink, I'm in!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# プリズン六角
+JP 別に、歌えって言うなら歌うさ。
+EN If you want me to sing, sure, I'll sing.
+
+@ 47.16
+# scene 048 始球式
+# プリズン六角
+JP どうせなら、バッターと
+JP １打席勝負させてくんないかねぇ。
+EN If I'm gonna do it, why not let me face the batter for
+EN a real at-bat?
+
+@ 48.16
+# scene 049 学園祭
+# プリズン六角
+JP 祭りか…。
+JP いいねぇ。
+EN A festival, huh... Nice.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a birthday present.
+
+@ 49.35
+# プリズン六角
+JP 誕生日？
+JP 私の？
+EN Birthday? Mine?
+
+@ 49.38
+# 社 長
+JP ああ、今日だろ。
+EN Yeah, it's today, right?
+
+@ 49.46
+# プリズン六角
+JP …………うわあ、忘れてた。
+JP あんがとね～。
+EN ......Whoa, I totally forgot. Thanks a bunch!
+
+@ 50.30
+# scene 051 バレンタインデー
+# プリズン六角
+JP 社長～。
+JP 今日、バレンタインだったろ。
+JP はい、チョコレート。
+EN Boss! It's Valentine's today, right? Here, chocolate.
+
+@ 50.33
+# 社 長
+JP お、ありがとう。
+EN Oh, thanks.
+
+@ 50.35
+# 社 長
+JP …って、すでに開いているんだが。
+EN ...Wait, it's already open.
+
+@ 50.42
+# プリズン六角
+JP 半分ほど、お毒味しておきました。
+JP 殿。
+EN I tested half of it for poison, my lord.
+
+@ 50.45
+# 社 長
+JP …なんと言えばいいのか。
+EN ...I don't know what to say.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this for last month?
+
+@ 51.36
+# プリズン六角
+JP へ？
+JP あんなのにお礼って…。
+JP いや、まいったね、あんがと。
+EN Huh? A thank-you for that thing? Well, you got me.
+EN Thanks.
+
+@ 51.39
+# 社 長
+JP これからも、よろしく。
+EN Here's to more of the same.
+
+@ 52.31
+# scene 053 サイン会
+# プリズン六角
+JP はいはい、順番ね。
+EN Okay, okay, one at a time.
+
+@ 53.31
+# scene 054 コンサート
+# プリズン六角
+JP うーっす。
+JP よく来たね物好きのみんな！
+EN Yo! Thanks for coming, you oddballs!
+
+@ 54.28
+# scene 055 練習拒否
+# プリズン六角
+JP ん～、今日はパス。
+EN Mm, I'll pass today.
+
+@ 55.26
+# scene 056 失踪
+# プリズン六角
+JP 海が見たくなったので
+JP しばらくいなくなります。
+JP ……と。
+EN "Felt like seeing the ocean, so I'll be gone for a
+EN while." ...There.
+
+@ 56.16
+# scene 057 選手解雇
+# プリズン六角
+JP やれやれ。
+JP 世の中せち辛いねえ。
+EN Sheesh. It's a cold, hard world.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# プリズン六角
+JP おみやげはあんま期待しないでよ～。
+EN Don't expect much in the way of souvenirs!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# プリズン六角
+JP ただいま～。
+EN I'm back!
+
+@ 59.26
+# scene 060 移籍思案
+# プリズン六角
+JP みんな、色々考えてんだねぇ。
+EN Everyone's thinking about all kinds of stuff, huh?
+
+@ 60.16
+# scene 061 革命軍結成
+# プリズン六角
+JP やれやれ
+JP 私がこんなことするとはね…。
+EN Sheesh. Never thought I'd be doing something like
+EN this...
+
+@ 61.16
+# scene 062 反乱軍結成
+# プリズン六角
+JP ガラじゃないけど
+JP やらせてもらおうか。
+EN Not really my style, but I'll go ahead and do it.
+
+@ 62.16
+# scene 063 最終決戦要求
+# プリズン六角
+JP 綺麗にシメといこうぜ。
+EN Let's wrap this up nice and clean.
+
+@ 63.16
+# scene 064 遺恨発生
+# プリズン六角
+JP ほぉ…。
+JP やンのかい？
+EN Oh...? You wanna go?
+
+@ 64.16
+# scene 065 殴り込み
+# プリズン六角
+JP わかった。
+JP ちょっとブッ飛ばしに行ってくる。
+EN Got it. I'll go knock 'em around a bit.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# プリズン六角
+JP やれやれ、元気なこって。
+EN Sheesh, aren't they lively.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# プリズン六角
+JP ちょっと殴り込みに来ましたよ～。
+EN Just dropped by for a little invasion!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# プリズン六角
+JP 私かい？
+JP ＯＫ、行ってくるよ。
+EN Me? Okay, I'm off.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# プリズン六角
+JP ふぅ。
+JP 私の役目は…果たせたみたいだね。
+EN Phew. Looks like I... did my job.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# プリズン六角
+JP 世の中、うまくいかないねぇ。
+EN Things just don't go your way sometimes.
+
+@ 70.13
+# scene 071 引退式
+# プリズン六角
+JP こんな私だけどさ。
+JP 結構、感動しちまうもんだね…。
+JP あんがとな、今まで。
+EN Even someone like me... gets pretty choked up, huh...
+EN Thanks for everything.
+
+@ 71.17
+# プリズン六角
+JP なにかな？
+EN What's up?
+
+@ 71.36
+# プリズン六角
+JP なにかな？
+EN What's up?
+
+@ 71.46
+# プリズン六角
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately! Keep it up!
+
+@ 71.89
+# プリズン六角
+JP ん～、うまいね。
+JP よし、ノせられるよ。
+JP がんばりますか。
+EN Mm, smooth talker. Okay, you got me fired up. Let's
+EN get to it.
+
+@ 71.110
+# プリズン六角
+JP なんてんだろうなぁ。
+JP ほめるときは、もうちょっと
+JP 自然な感じで頼むよ。
+EN How do I put this... When you praise someone, try to
+EN sound a little more natural.
+
+@ 71.131
+# プリズン六角
+JP くはははは！
+JP ボス、ほめるのうまいね。
+JP ＯＫＯＫ、承ったよ。
+EN Kuhahahaha! You're good at compliments, Boss.
+EN Okay, okay, message received.
+
+@ 71.152
+# プリズン六角
+JP はいはい、そこまで。
+JP ほめるときは、もうちょっと
+JP 自然で頼むよ～。
+EN Okay, okay, that's enough. When you praise
+EN someone, try to sound a little more natural!
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# プリズン六角
+JP ……了解。
+JP 心に留めておくよ。
+EN ...Got it. I'll keep it in mind.
+
+@ 71.210
+# プリズン六角
+JP ま、ボスも人間だ。
+JP 機嫌の悪いときもあらぁね。
+EN Well, the Boss is only human. Everybody has bad
+EN days.
+
+@ 71.231
+# プリズン六角
+JP ああ、わかった。
+EN Yeah, got it.
+
+@ 71.252
+# プリズン六角
+JP それ、どんなプロポーズ？
+JP な～んてね。
+JP くははは！
+EN What kind of marriage proposal is that? Just kidding!
+EN Kuhahaha!
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.289
+# プリズン六角
+JP 了解。
+JP 元気を出すために
+JP なんか奢っておくれ。
+EN Got it. Buy me something to cheer me up.
+
+@ 71.310
+# プリズン六角
+JP いやー、私ゃいつも
+JP このテンションだよ？
+EN Nah, I'm always at this energy level, you know?
+
+@ 71.331
+# プリズン六角
+JP そうだねぇ。
+JP 社長に奢ってもらえば元気が出るよ。
+JP うん。
+EN Let's see. If you treat me to something, Boss, I'll
+EN cheer right up. Yep.
+
+@ 71.352
+# プリズン六角
+JP あ～、心配されると弱いなぁ。
+JP ははは…。
+EN Ahh, I'm weak when people worry about me. Hahaha...
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# プリズン六角
+JP さてさて、心当たりが多すぎて。
+EN Hmm, well, I've got way too many guesses.
+
+@ 71.399
+# プリズン六角
+JP さて？
+EN Who knows?
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# プリズン六角
+JP ＯＫ。
+JP っても、私ゃ最初から気にして
+JP なかったけどね。
+EN Okay. Not that it ever bothered me in the first place.
+
+@ 71.453
+# プリズン六角
+JP そりゃ向こうに言っとくれ。
+JP 私ゃどうでもいいんだ。
+EN Tell that to her. I couldn't care less.
+
+@ 71.474
+# プリズン六角
+JP 社長…。
+JP なんか、マヌケだよ。
+EN Boss... You're kinda being a dope.
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# プリズン六角
+JP プロポーズでもしてくれんのかい？
+EN Gonna propose to me or something?
+
+@ 71.521
+# プリズン六角
+JP さて？
+JP 愛の告白にしちゃ雰囲気ないね。
+EN Who knows? Not much mood for a love confession.
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# プリズン六角
+JP ふむ…。
+JP まあ、社長がそう言うなら。
+JP こっちから折れるか。
+EN Hmm... Well, if you say so, Boss. I'll be the one to back
+EN down.
+
+@ 71.577
+# プリズン六角
+JP 社長の願いを叶えてやりたいけど
+JP 難しいかなぁ。
+EN I'd like to grant your wish, Boss, but that might be
+EN tough.
+
+@ 71.598
+# プリズン六角
+JP そりゃ、勘違いだよ。
+JP ……社長って、結構ドジっ子？
+EN You've got it wrong. ...Boss, are you kind of a klutz?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# プリズン六角
+JP なにかな？
+EN What's up?
+
+@ 72.16
+# プリズン六角
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately! Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# プリズン六角
+JP ん～、うまいね。
+JP よし、ノせられるよ。
+JP がんばりますか。
+EN Mm, smooth talker. Okay, you got me fired up. Let's
+EN get to it.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# プリズン六角
+JP なんてんだろうなぁ。
+JP ほめるときは、もうちょっと
+JP 自然な感じで頼むよ。
+EN How do I put this... When you praise someone, try to
+EN sound a little more natural.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# プリズン六角
+JP くはははは！
+JP ボス、ほめるのうまいね。
+JP ＯＫＯＫ、承ったよ。
+EN Kuhahahaha! You're good at compliments, Boss.
+EN Okay, okay, message received.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# プリズン六角
+JP はいはい、そこまで。
+JP ほめるときは、もうちょっと
+JP 自然で頼むよ～。
+EN Okay, okay, that's enough. When you praise
+EN someone, try to sound a little more natural!
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# プリズン六角
+JP ……了解。
+JP 心に留めておくよ。
+EN ...Got it. I'll keep it in mind.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# プリズン六角
+JP ま、ボスも人間だ。
+JP 機嫌の悪いときもあらぁね。
+EN Well, the Boss is only human. Everybody has bad
+EN days.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# プリズン六角
+JP ああ、わかった。
+EN Yeah, got it.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# プリズン六角
+JP それ、どんなプロポーズ？
+JP な～んてね。
+JP くははは！
+EN What kind of marriage proposal is that? Just kidding!
+EN Kuhahaha!
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# プリズン六角
+JP 了解。
+JP 元気を出すために、
+JP なんか奢っておくれ。
+EN Got it. Buy me something to cheer me up.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# プリズン六角
+JP いやー、
+JP 私ゃいつもこのテンションだよ？
+EN Nah, I'm always at this energy level, you know?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# プリズン六角
+JP そうだねぇ。
+JP 社長に奢ってもらえば元気が出るよ。
+JP うん。
+EN Let's see. If you treat me to something, Boss, I'll
+EN cheer right up. Yep.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# プリズン六角
+JP あ～、心配されると弱いなぁ。
+JP ははは…。
+EN Ahh, I'm weak when people worry about me. Hahaha...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# プリズン六角
+JP さてさて、心当たりが多すぎて。
+EN Hmm, well, I've got way too many guesses.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# プリズン六角
+JP さて？
+EN Who knows?
+
+@ 91.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# プリズン六角
+JP ＯＫ。
+JP っても、私ゃ最初から気にして
+JP なかったけどね。
+EN Okay. Not that it ever bothered me in the first place.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# プリズン六角
+JP そりゃ向こうに言っとくれ。
+JP 私ゃどうでもいいんだ。
+EN Tell that to her. I couldn't care less.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# プリズン六角
+JP 社長…。
+JP なんか、マヌケだよ。
+EN Boss... You're kinda being a dope.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# プリズン六角
+JP プロポーズでもしてくれんのかい？
+EN Gonna propose to me or something?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# プリズン六角
+JP さて？
+JP 愛の告白にしちゃ雰囲気ないね。
+EN Who knows? Not much mood for a love confession.
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# プリズン六角
+JP ふむ…。
+JP まあ、社長がそう言うなら。
+JP こっちから折れるか。
+EN Hmm... Well, if you say so, Boss. I'll be the one to back
+EN down.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# プリズン六角
+JP 社長の願いを叶えてやりたいけど、
+JP 難しいかなぁ。
+EN I'd like to grant your wish, Boss, but that might be
+EN tough.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# プリズン六角
+JP そりゃ、勘違いだよ。
+JP ……社長って、結構ドジっ子？
+EN You've got it wrong. ...Boss, are you kind of a klutz?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# プリズン六角
+JP 特に文句ないよ。
+EN No complaints here.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# プリズン六角
+JP こりゃ…太っ腹だね。
+EN Now that's... generous.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# プリズン六角
+JP ん～～。
+JP まぁ…贅沢は言えないか。
+EN Mmmm... Well, I can't be picky, I guess.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived at a tropical island.)
+
+@ 105.34
+# 社 長
+JP （はしゃぐ選手やスタッフたち）
+EN (The wrestlers and staff were having a blast.)
+
+@ 105.36
+# 社 長
+JP （しかし、そこに六角の姿はない）
+EN (But Musumi was nowhere to be seen.)
+
+@ 105.38
+# 社 長
+JP （ホテルでくーすか寝ているのだ）
+EN (She was back at the hotel, snoozing away.)
+
+@ 105.40
+# 社 長
+JP （何しに来たんだ、あいつは？）
+EN (What did she even come here for?)
+
+@ 105.58
+# 社 長
+JP （そして、夜…）
+EN (Then, that night...)
+
+@ 105.60
+# 社 長
+JP （気づけば、ホテルから六角の姿が
+JP 　消えていた）
+EN (I realized Musumi had vanished from the hotel.)
+
+@ 105.62
+# 社 長
+JP （慌てて探す俺）
+EN (I hurried out to look for her.)
+
+@ 105.81
+# 社 長
+JP （はたして六角は……昼間、みんなが
+JP 　遊んでいた海にいた）
+EN (As it turned out, Musumi was at the beach where
+EN everyone had played during the day.)
+
+@ 105.83
+# 社 長
+JP 六角！
+EN Musumi!
+
+@ 105.103
+# プリズン六角
+JP おや、社長。
+EN Oh, Boss.
+
+@ 105.106
+# 社 長
+JP ホテルを抜け出して…。
+JP 心配したぞ。
+EN Sneaking out of the hotel... You had me worried.
+
+@ 105.110
+# プリズン六角
+JP 心配させちゃったか。
+JP ごめん。
+EN Made you worry, huh? Sorry.
+
+@ 105.113
+# 社 長
+JP で、こんなところで何してるんだ？
+EN So what are you doing out here?
+
+@ 105.117
+# プリズン六角
+JP 見てわかんない？
+EN Can't you tell?
+
+@ 105.121
+# プリズン六角
+JP 月を見てた。
+EN Looking at the moon.
+
+@ 105.124
+# 社 長
+JP 月？
+EN The moon?
+
+@ 105.126
+# 社 長
+JP わざわざバカンスに来てか？
+EN You came all the way here on vacation for that?
+
+@ 105.130
+# プリズン六角
+JP ああ。
+JP 日本と星の見え方が違うんだよね～。
+EN Yeah. The stars look different than they do in
+EN Japan.
+
+@ 105.134
+# プリズン六角
+JP だから、月も違う顔をしてるよ。
+EN So the moon's got a different face, too.
+
+@ 105.138
+# プリズン六角
+JP ま、社長も立ってないでさ。
+EN Well, don't just stand there, Boss.
+
+@ 105.141
+# 社 長
+JP あ、ああ。
+EN Y-yeah.
+
+@ 105.145
+# プリズン六角
+JP みんなは昼間どうだった？
+JP ガス抜きできたみたい？
+EN How was everyone today? Think they blew off some
+EN steam?
+
+@ 105.148
+# 社 長
+JP みんな遊び疲れて寝てるよ。
+EN They all played themselves out and they're sleeping.
+
+@ 105.152
+# プリズン六角
+JP そりゃ、よかった…。
+EN Good to hear...
+
+@ 105.155
+# 社 長
+JP （保護者みたいなやつだな）
+EN (She's like their guardian.)
+
+@ 105.159
+# プリズン六角
+JP じゃ、社長。
+EN Well then, Boss.
+
+@ 105.163
+# プリズン六角
+JP わが団体の未来に…乾杯。
+EN To the future of our promotion... Cheers.
+
+@ 105.166
+# 社 長
+JP ああ。
+JP 乾杯。
+EN Yeah. Cheers.
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （う～ん、遅くなったな）
+EN (Man, it got late.)
+
+@ 106.26
+# 社 長
+JP （早く戻って、一休みしよう）
+EN (I'd better hurry back and get some rest.)
+
+@ 106.28
+# 社 長
+JP （それにしても……）
+EN (Still...)
+
+@ 106.30
+# 社 長
+JP ハラ減ったな。
+EN I'm starving.
+
+@ 106.32
+# 社 長
+JP （先に見えるラーメンの屋台から
+JP 　うまそうな匂いが漂ってくる）
+EN (A delicious smell was drifting from a ramen stall up
+EN ahead.)
+
+@ 106.34
+# 社 長
+JP （いっそ、寄っていこうかと
+JP 　考えていると…）
+EN (As I was wondering whether to just stop there...)
+
+@ 106.36
+# 社 長
+JP （その屋台の客から
+JP 　声をかけられた）
+EN (one of the customers at the stall called out to me.)
+
+@ 106.40
+# ？？？
+JP お、社長じゃん。
+JP しゃーちょっ。
+EN Oh, if it isn't the Boss. Bo-oss!
+
+@ 106.63
+# 社 長
+JP 六角！
+EN Musumi!
+
+@ 106.67
+# プリズン六角
+JP へへへへ。
+JP いい夜だね。
+EN Heheheh. Nice night, huh?
+
+@ 106.70
+# 社 長
+JP おまえ、こんな時間になんでここに？
+EN What are you doing here at this hour?
+
+@ 106.74
+# プリズン六角
+JP ここに座っている人間に
+JP 「なんで」はないっしょ～？
+EN You don't ask someone sitting here "what are you
+EN doing," do ya?
+
+@ 106.77
+# 社 長
+JP まあ、そうだが…。
+EN Well, true...
+
+@ 106.81
+# プリズン六角
+JP ちょっとハラ減っちゃってさぁ。
+EN I just got a little hungry, y'know.
+
+@ 106.84
+# 社 長
+JP しかし、ホントに
+JP 夜に出歩くのが好きな奴だな。
+EN You really do love wandering around at night.
+
+@ 106.88
+# プリズン六角
+JP 夜行性なもんで。
+EN I'm nocturnal.
+
+@ 106.91
+# 社 長
+JP （ちっとも悪びれた様子がない）
+EN (She didn't look the least bit sorry.)
+
+@ 106.95
+# プリズン六角
+JP どう？
+JP 社長も一緒に。
+EN How about it? Join me, Boss?
+
+@ 106.98
+# 社 長
+JP （出来たてのラーメンが六角の前に
+JP 　置かれている）
+EN (A fresh bowl of ramen was set down in front of
+EN Musumi.)
+
+@ 106.100
+# 社 長
+JP （ううむ、空腹にこれはたまらない）
+EN (Ugh, on an empty stomach, this is torture.)
+
+@ 106.102
+# 社 長
+JP （屋台の親父も、どーすんだって
+JP 　目で見てるし）
+EN (And the stall owner was looking at me like "Well,
+EN what'll it be?")
+
+@ 106.104
+# 社 長
+JP わかった。
+JP 隣、いいか？
+EN All right. Mind if I sit next to you?
+
+@ 106.114
+# プリズン六角
+JP もち、大歓迎。
+EN Of course, you're more than welcome.
+
+@ 106.117
+# 社 長
+JP （そして、俺は六角の隣に
+JP 　腰をかけた）
+EN (And so I sat down next to Musumi.)
+
+@ 106.119
+# 社 長
+JP 親父、ラーメン一丁！
+EN One ramen, please!
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （う～ん、遅くなったな）
+EN (Man, it got late.)
+
+@ 107.26
+# 社 長
+JP （早く戻って、一休みしよう）
+EN (I'd better hurry back and get some rest.)
+
+@ 107.28
+# 社 長
+JP （それにしても…）
+EN (Still...)
+
+@ 107.30
+# 社 長
+JP ハラ減ったな。
+EN I'm starving.
+
+@ 107.32
+# 社 長
+JP （先に見えるラーメンの屋台から
+JP 　うまそうな匂いが漂ってくる）
+EN (A delicious smell was drifting from a ramen stall up
+EN ahead.)
+
+@ 107.34
+# 社 長
+JP （いっそ、寄っていこうかと
+JP 　考えていると…）
+EN (As I was wondering whether to just stop there...)
+
+@ 107.36
+# 社 長
+JP （その屋台の客から
+JP 　声をかけられた）
+EN (one of the customers at the stall called out to me.)
+
+@ 107.40
+# ？？？
+JP お、社長じゃん。
+JP しゃーちょっ。
+EN Oh, if it isn't the Boss. Bo-oss!
+
+@ 107.63
+# 社 長
+JP 六角、またおまえか！
+EN Musumi, you again!
+
+@ 107.73
+# プリズン六角
+JP へへへへ。
+JP いい夜だね。
+EN Heheheh. Nice night, huh?
+
+@ 107.76
+# 社 長
+JP おまえ、すっかりここの常連だな。
+EN You've totally become a regular here.
+
+@ 107.86
+# プリズン六角
+JP ちょっとハラ減っちゃってさぁ。
+EN I just got a little hungry, y'know.
+
+@ 107.96
+# プリズン六角
+JP あと、アルコールも切れてね。
+EN And I ran out of alcohol.
+
+@ 107.99
+# 社 長
+JP この、飲んべえが。
+EN You lush.
+
+@ 107.103
+# プリズン六角
+JP 仕方ないっしょ～。
+JP 私の血はアルコールでできてんの。
+EN Can't help it! My blood's made of alcohol.
+
+@ 107.106
+# 社 長
+JP （こいつの悪びれたところを
+JP 　一度は見てみたい）
+EN (Just once, I'd like to see her look sorry about
+EN something.)
+
+@ 107.110
+# プリズン六角
+JP どう？
+JP 社長も一緒に一杯。
+EN How about it? Have a drink with me, Boss?
+
+@ 107.113
+# 社 長
+JP う～ん…。
+JP ハラはたしかに減っているんだが。
+EN Hmm... I am hungry, I'll admit.
+
+@ 107.123
+# プリズン六角
+JP たのむよぉ。
+JP 一人じゃ寂しいんだよぉ～。
+EN Pleeease. It's lonely drinking by myself.
+
+@ 107.126
+# 社 長
+JP （こいつは…）
+EN (This girl...)
+
+@ 107.128
+# 社 長
+JP わかった。
+JP 一杯だけだぞ？
+EN All right. Just one drink, okay?
+
+@ 107.138
+# プリズン六角
+JP やりぃ♪
+EN Yesss!
+
+@ 107.141
+# 社 長
+JP （そして、俺は六角の隣に
+JP 　腰をかけた）
+EN (And so I sat down next to Musumi.)
+
+@ 107.143
+# 社 長
+JP 親父、こいつと同じの。
+EN I'll have what she's having.
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# プリズン六角
+JP やれやれ…。アンタとやると疲れるんだよ。
+EN Sheesh... Going at it with you wears me out.
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# プリズン六角
+JP おいおい。
+JP 今さらそんなにがっつく仲でも
+JP ないでしょうに。
+EN Hey, hey. We're past the point of going at each
+EN other that hard, aren't we?
+
+@ 110.16
+# scene 113 練習開始
+# プリズン六角
+JP やりますか。
+EN Let's get to it.
+
+@ 111.16
+# scene 114 練習開始 好意
+# プリズン六角
+JP やりましょうかね。
+EN Shall we get started?
+
+@ 112.16
+# scene 115 特訓開始
+# プリズン六角
+JP 特訓か…。
+JP やれやれ。
+EN Special training, huh... Sheesh.
+
+@ 113.20
+# scene 116 特訓成功
+# プリズン六角
+JP ふー…しんど。
+EN Phew... That was rough.
+
+@ 114.20
+# scene 117 特訓失敗
+# プリズン六角
+JP あーあ。
+EN Aw, man.
+
+@ 115.16
+# scene 118 休養
+# プリズン六角
+JP 部屋でゴロゴロしてようかな。
+EN Maybe I'll just laze around my room.
+
+@ 116.16
+# scene 119 入場1
+# プリズン六角
+JP 期待させてもらうよ？
+EN I'm expecting a good show, okay?
+
+@ 117.16
+# scene 119 入場2
+# プリズン六角
+JP たまにはハレの舞台を
+JP 味わいますか！
+EN Guess I'll enjoy the big stage for once!
+
+@ 118.17
+# scene 120 タッグマッチ ベスト
+# プリズン六角
+JP やれやれ。
+JP あんたが隣にいると
+JP 負ける気しないよ。
+EN Sheesh. With you beside me, I can't imagine losing.
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# プリズン六角
+JP いこうぜ、地獄の番犬。
+EN Let's go, hellhound.
+
+@ 120.17
+# scene 122 タッグマッチ ベター２
+# プリズン六角
+JP おやおや。
+JP 楽させてもらえないのかい？
+EN Well, well. You're not gonna let me take it easy?
+
+@ 121.16
+# scene 125 必殺技１
+# プリズン六角
+JP 恨まないでおくれよ？
+EN No hard feelings, okay?
+
+@ 122.16
+# scene 125 必殺技２
+# プリズン六角
+JP ちょこっと痛いぜ？
+EN This'll sting a little.
+
+@ 123.16
+# scene 125 必殺技３
+# プリズン六角
+JP これくらい……耐えておくれよ？
+EN You can take... this much, right?
+
+@ 124.12
+# scene 126 勝利1
+# プリズン六角
+JP 一仕事、終わりっと。
+EN Another job done.
+
+@ 125.12
+# scene 126 勝利2
+# プリズン六角
+JP いいね、こういう試合も。
+EN Nice, a match like this is fun too.
+
+@ 126.12
+# scene 126 勝利3
+# プリズン六角
+JP ちょっと目立っちゃったかな？
+EN Did I stand out a bit too much?
+
+@ 127.15
+# scene 133 表彰1
+# プリズン六角
+JP あんがと。
+JP なんか照れちゃうね。
+EN Thanks. Kinda embarrassing, though.
+
+@ 128.15
+# scene 133 表彰2
+# プリズン六角
+JP いいのかなぁ？
+JP 私なんかでさ。
+JP ふふふ…。
+EN Is this okay? Someone like me? Fufufu...
+
+@ 129.12
+# scene 134 優勝1
+# プリズン六角
+JP 私に優勝されて悔しかったら
+JP 次はがんばりな。
+EN If it bugs you that I won, try harder next time.
+
+@ 130.12
+# scene 134 優勝２
+# プリズン六角
+JP ま、今回はてっぺんもらっとくよ。
+EN Well, I'll take the top spot this time.
+
+@ 131.24
+# scene 135 エンディング 通常
+# プリズン六角
+JP 社長、おめでとさん。
+EN Congrats, Boss.
+
+@ 132.24
+# scene 136 エンディング 好意
+# プリズン六角
+JP ふふふ。
+JP あんたについてきて正解だったよ。
+JP なぁ、我が社長。
+EN Fufufu. Following you was the right call. Right, my
+EN President?

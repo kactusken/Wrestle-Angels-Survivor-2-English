@@ -1,0 +1,98 @@
+# /SCR/215.BIN - ウィン・ミラー
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 215` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ウィン・ミラー
+JP 私こそが
+JP サブミッションクィーンのようね。
+EN It seems I am the Submission Queen after all.
+
+@ 1.16
+# scene 119 入場1
+# ウィン・ミラー
+JP 勝利へのプランはもう作成済みよ。
+EN My plan for victory is already drawn up.
+
+@ 2.16
+# scene 119 入場2
+# ウィン・ミラー
+JP ゲルマン魂の誇りにかけて
+JP この試合勝たせてもらうわ。
+EN On the pride of my German spirit, this match is mine.
+
+@ 3.16
+# scene 125 必殺技１
+# ウィン・ミラー
+JP この緻密な技を受けてみなさい！
+EN Try this precision technique on for size!
+
+@ 4.16
+# scene 125 必殺技２
+# ウィン・ミラー
+JP もうムダな抵抗はよしなさい。
+EN Stop this pointless resistance.
+
+@ 5.16
+# scene 125 必殺技３
+# ウィン・ミラー
+JP さあ、これで終わりにしましょう。
+EN Now, let us bring this to an end.
+
+@ 6.12
+# scene 126 勝利1
+# ウィン・ミラー
+JP すべては計算されていたこと…。
+EN Everything went exactly as calculated...
+
+@ 7.12
+# scene 126 勝利2
+# ウィン・ミラー
+JP 私の相手をするのは
+JP 早かったようね。
+EN It seems you were not ready to face me yet.
+
+@ 8.12
+# scene 126 勝利3
+# ウィン・ミラー
+JP ドイツ仕込みの
+JP サブミッションの味
+JP いかがだったかしら？
+EN How did you enjoy the taste of German-trained
+EN submission?
+
+@ 9.15
+# scene 133 表彰1
+# ウィン・ミラー
+JP ありがとうございます。
+JP さらなるステージを目指すわ！
+EN Thank you very much. Now I'll aim for an even bigger
+EN stage!
+
+@ 10.15
+# scene 133 表彰2
+# ウィン・ミラー
+JP 私なんかがもらっていいのかしら？
+EN Is it really all right for someone like me to accept
+EN this?
+
+@ 11.12
+# scene 134 優勝1
+# ウィン・ミラー
+JP 次に関節を壊して欲しいのは
+JP 誰かしら？
+EN Now, whose joints would like to be broken next?
+
+@ 12.12
+# scene 134 優勝２
+# ウィン・ミラー
+JP 悔しかったら
+JP ここまでいらっしゃい…。
+EN If it stings, come up here and take it from me...

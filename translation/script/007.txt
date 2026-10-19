@@ -1,0 +1,2183 @@
+# /SCR/007.BIN - キューティー金井
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 007` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# キューティー金井
+JP 北海道出身の金井です！
+JP プロレスラーになりに来ました！
+EN I'm Kanai, from Hokkaido! I came here to become a
+EN pro wrestler!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# キューティー金井
+JP やったー！
+JP これで私もプロレスラーだぁ！
+EN Yaaay! Now I'm a pro wrestler too!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# キューティー金井
+JP ふっ、ふぇ～ん！
+JP がんばって一人で来たのに～…。
+EN Wh-waaah! And I came all this way by myself...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりにアイドルレスラーに
+JP 適任な娘がいるはず…。
+EN There should be a girl around here who'd make a
+EN perfect idol wrestler...
+
+@ 3.25
+# 社 長
+JP （…んっ、あそこにいるのは…？）
+EN (...Hm? Who's that over there?)
+
+@ 3.35
+# キューティー金井
+JP おいしい牛乳、いつもありがとー。
+JP みんな、今日もいっぱい出してねぇ。
+EN Thanks for the yummy milk, as always! Give lots more
+EN today, everybody!
+
+@ 3.38
+# 社 長
+JP すみません。
+JP 金井さんですか？
+EN Excuse me. Are you Kanai?
+
+@ 3.45
+# キューティー金井
+JP はぁーい、なんですかぁ？
+EN Yeees, what is it?
+
+@ 3.48
+# 社 長
+JP 突然すみません。
+JP 実は私、プロレス団体を
+JP 経営している者で…。
+EN Sorry to bother you out of the blue. I run a
+EN pro-wrestling promotion, you see...
+
+@ 3.50
+# 社 長
+JP （俺は自分のことを説明して
+JP 　単刀直入に彼女をスカウトしてみた）
+EN (I explained who I was and got straight to the point: I
+EN asked her to join us.)
+
+@ 3.57
+# キューティー金井
+JP プロレス！？
+JP え、えっと…。
+JP あ、う～ん……。
+EN Pro wrestling!? Um, well... Uh, hmmm...
+
+@ 3.60
+# 社 長
+JP どうでしょう。
+JP うちの団体で自分を試してみませんか？
+EN What do you say? Why not test yourself in my
+EN promotion?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# キューティー金井
+JP うん、ちょっと面白そうかも…。
+JP やってみるっ！
+EN Okay, it does sound kind of fun... I'll do it!
+
+@ 4.22
+# 社 長
+JP よかった。
+JP 全力でバックアップしますから
+JP よろしくお願いします。
+EN Great. I'll back you up all the way, so let's do our
+EN best together.
+
+@ 4.29
+# キューティー金井
+JP あっ、は、はいっ！
+JP こちらこそよろしくお願いします！！
+EN Oh, y-yes! Thank you so much!!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# キューティー金井
+JP うーん…。
+JP 牧場の手伝いもあるし…。
+JP ちょっと無理です…。
+EN Hmm... I've got to help out on the farm and all... I don't
+EN think I can...
+
+@ 5.22
+# 社 長
+JP そう言わずに…。
+EN Don't say that...
+
+@ 5.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she wouldn't
+EN change her mind...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP よーし今度こそ…。
+JP あっ、いたいた。
+EN All right, this time for sure... Ah, there she is.
+
+@ 6.27
+# キューティー金井
+JP あぁ、そっち行っちゃダメだよ～！
+EN Aah, don't go over there!
+
+@ 6.30
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.40
+# キューティー金井
+JP あっ、この前の社長さん！
+JP またプロレスの話？
+EN Oh, it's the President from before! Is this about pro
+EN wrestling again?
+
+@ 6.43
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.50
+# キューティー金井
+JP でも…コゴローの世話もしないと
+JP いけないし……。
+EN But... I have to take care of Kogoro, too...
+
+@ 6.53
+# 社 長
+JP 自分自身の可能性を試してみませんか？
+EN Don't you want to find out what you're capable of?
+
+@ 6.55
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my offer again and tried hard to persuade
+EN her.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# キューティー金井
+JP うん、ちょっと面白そうかも…。
+JP やってみるっ！
+EN Okay, it does sound kind of fun... I'll do it!
+
+@ 7.22
+# 社 長
+JP よかった。
+JP 全力でバックアップしますから
+JP よろしくお願いします。
+EN Great. I'll back you up all the way, so let's do our
+EN best together.
+
+@ 7.29
+# キューティー金井
+JP あっ、は、はいっ！
+JP こちらこそよろしくお願いします！！
+EN Oh, y-yes! Thank you so much!!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# キューティー金井
+JP うーん…。
+JP 牧場の手伝いもあるし…。
+JP ちょっと無理です…。
+EN Hmm... I've got to help out on the farm and all... I don't
+EN think I can...
+
+@ 8.22
+# 社 長
+JP そう言わずに…。
+EN Don't say that...
+
+@ 8.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she wouldn't
+EN change her mind...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （金井選手…。
+JP 　彼女のようなアイドルレスラー
+JP 　是非うちの団体に欲しいところだ）
+EN (Kanai... An idol wrestler like her is exactly what my
+EN promotion needs.)
+
+@ 9.25
+# 社 長
+JP （このあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 9.37
+# キューティー金井
+JP あのぅ、誰ですか？
+EN Umm, who are you?
+
+@ 9.40
+# 社 長
+JP （俺は単刀直入に
+JP 　移籍を持ちかけてみた）
+EN (I got straight to the point and offered her a move
+EN to my promotion.)
+
+@ 9.47
+# キューティー金井
+JP つまり…私が社長さんの所に
+JP 行くってこと？
+EN So... you mean I'd go over to your place, mister?
+
+@ 9.50
+# 社 長
+JP どうでしょう。
+JP 条件は今の所より良くできると
+JP 思いますが…。
+EN What do you say? I think I can offer better terms
+EN than where you are now...
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# キューティー金井
+JP じゃあ、お願いします。
+EN Okay then, I'll come!
+
+@ 10.22
+# 社 長
+JP えっ、よろしいんですか！？
+EN Huh? Really!?
+
+@ 10.29
+# キューティー金井
+JP うん。
+JP なんだか社長さんの所の方が
+JP 良さそうだし。
+EN Yep. Your place just kinda seems nicer.
+
+@ 10.32
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. Welcome aboard!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# キューティー金井
+JP でも…知らない人について行っちゃ
+JP いけないって言われてるし…。
+EN But... I was told not to go off with strangers...
+
+@ 11.22
+# 社 長
+JP いや、あの、決して怪しい者では
+JP ないんですよ？
+EN No, um, I'm really not a suspicious person, okay?
+
+@ 11.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she wouldn't
+EN change her mind...)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには金井選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (My promotion really does need Kanai. I decided to
+EN try negotiating once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# キューティー金井
+JP えっと…？
+EN Umm...?
+
+@ 12.38
+# 社 長
+JP （覚えてもらえなかったか…）
+EN (She doesn't remember me...)
+
+@ 12.41
+# 社 長
+JP 突然すみません。
+JP 実は私、プロレス団体を
+JP 経営している者で…。
+EN Sorry to bother you out of the blue. I run a
+EN pro-wrestling promotion, you see...
+
+@ 12.43
+# 社 長
+JP あなたにうちの団体に
+JP 移籍して欲しいと思い伺いました。
+EN I came to ask if you'd transfer to my promotion.
+
+@ 12.50
+# キューティー金井
+JP えっと…えっと…。
+JP 前にも会ったことがあるの？
+EN Umm... umm... Have we met before?
+
+@ 12.53
+# 社 長
+JP はい。
+JP 以前にお会いしたことがあります。
+EN Yes. We've met once before.
+
+@ 12.55
+# 社 長
+JP （そう言って俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (With that, I laid out my offer again and tried hard to
+EN persuade her.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# キューティー金井
+JP じゃあ、お願いします。
+EN Okay then, I'll come!
+
+@ 13.22
+# 社 長
+JP えっ、よろしいんですか！？
+EN Huh? Really!?
+
+@ 13.29
+# キューティー金井
+JP うん。
+JP なんだか社長さんの所の方が
+JP 良さそうだし。
+EN Yep. Your place just kinda seems nicer.
+
+@ 13.32
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. Welcome aboard!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# キューティー金井
+JP でも…知らない人について行っちゃ
+JP いけないって言われてるし…。
+EN But... I was told not to go off with strangers...
+
+@ 14.22
+# 社 長
+JP ですから、もう知らない人では……。
+EN But like I said, I'm not a stranger anymore...
+
+@ 14.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she wouldn't
+EN change her mind...)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （金井選手…。
+JP 　あのアイドルレスラーとしての資質。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Kanai... She's got what it takes to be an idol
+EN wrestler. Just the talent my promotion wants.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるって
+JP 　話だけど…あぁ、いたいた）
+EN (I heard she'd be around here... Ah, there she is.)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# キューティー金井
+JP あっ、サインですか？
+JP いいですよぉ。
+EN Oh, you want an autograph? Sure thing!
+
+@ 15.40
+# 社 長
+JP いえ、実は私、プロレスの団体を
+JP 経営している者なんですが。
+EN No, actually, I run a pro-wrestling promotion.
+
+@ 15.47
+# キューティー金井
+JP えっ…？
+JP 社長さん？
+EN Huh...? You're a president?
+
+@ 15.50
+# 社 長
+JP はい。
+JP 突然ですが、うちに入団して
+JP いただけませんか？
+EN Yes. This is sudden, but would you sign with my
+EN promotion?
+
+@ 15.57
+# キューティー金井
+JP えっ、入団！？
+JP 私が？
+EN Huh, sign!? Me?
+
+@ 15.60
+# 社 長
+JP お願いします。
+JP どうかうちの団体に。
+EN Please. Come join my promotion.
+
+@ 15.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently persuading
+EN her.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# キューティー金井
+JP わかりました！
+JP 入団しちゃいます！
+EN Okay! I'll sign with you!
+
+@ 16.22
+# 社 長
+JP 本当ですか！？
+EN Really!?
+
+@ 16.29
+# キューティー金井
+JP うんっ！
+JP よろしくお願いしまーす！
+EN Yep! Nice to be working with you!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# キューティー金井
+JP うーん…。
+JP やっぱりやめときます。
+JP フリーの方が自由にできるし…。
+EN Hmm... I think I'll pass after all. Being freelance means
+EN I can do what I want...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには金井選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (My promotion really does need Kanai. I decided to
+EN try negotiating once more.)
+
+@ 18.26
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.36
+# キューティー金井
+JP はい、サインですか？
+JP …て、あれ、社長さん。
+EN Yes, you want an autograph? ...Oh, wait, it's the
+EN President.
+
+@ 18.39
+# 社 長
+JP お忙しいところすみません。
+JP 今日も入団のお願いに伺いました。
+EN Sorry to bother you when you're busy. I've come to
+EN ask you to sign with us again.
+
+@ 18.46
+# キューティー金井
+JP うーん…。
+JP そんなに私がいいの？
+EN Hmm... You really want me that much?
+
+@ 18.49
+# 社 長
+JP はい。
+JP 是非お願いします。
+EN Yes. Please, I mean it.
+
+@ 18.51
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my offer again and tried hard to persuade
+EN her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# キューティー金井
+JP わかりました！
+JP 入団しちゃいます！
+EN Okay! I'll sign with you!
+
+@ 19.22
+# 社 長
+JP 本当ですか！？
+EN Really!?
+
+@ 19.29
+# キューティー金井
+JP うんっ！
+JP よろしくお願いしまーす！
+EN Yep! Nice to be working with you!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# キューティー金井
+JP うーん…。
+JP やっぱりやめときます。
+JP フリーの方が自由にできるし…。
+EN Hmm... I think I'll pass after all. Being freelance means
+EN I can do what I want...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、いたいた。
+JP おーい、金井ぃ！
+EN She should be around here... Ah, there she is. Hey,
+EN Kanai!
+
+@ 21.33
+# キューティー金井
+JP あっ、社長！？
+JP もしかして、私のこと追いかけてきて
+JP くれたの！？
+EN Oh, Boss!? Did you... did you come all this way after
+EN me!?
+
+@ 21.36
+# 社 長
+JP あぁ、その通りだ。
+EN Yeah, that's right.
+
+@ 21.43
+# キューティー金井
+JP うっ…うぇえええええん！
+EN Uu... waaaaaaah!
+
+@ 21.46
+# 社 長
+JP か、金井！？
+JP な、泣くことないだろ！？
+EN K-Kanai!? Th-there's no need to cry!
+
+@ 21.50
+# キューティー金井
+JP だってぇ…だってぇ…！
+EN But... but...!
+
+@ 21.53
+# 社 長
+JP 金井、俺が悪かった。
+JP だから…戻ってきてくれないか？
+EN Kanai, it was my fault. So... won't you come back?
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# キューティー金井
+JP えぐっ…んっ…うん…。
+JP 戻る…。
+EN *sniff*... Mm... okay... I'll come back...
+
+@ 22.18
+# 社 長
+JP …えっ？
+JP 戻ってくれるのか？
+EN ...Huh? You'll come back?
+
+@ 22.26
+# キューティー金井
+JP うん、戻る…。
+JP んぅ、ひっ、すん…。
+JP 戻るったら戻るの…！
+EN Yeah, I'll come back... *hic* *sniff*... I said I'm coming
+EN back, so I'm coming back...!
+
+@ 22.29
+# 社 長
+JP うん、わかった。
+JP ごめんな、金井。
+JP 今度はちゃんと話し合おうな…。
+EN Okay, got it. I'm sorry, Kanai. This time we'll really
+EN talk things through...
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# キューティー金井
+JP ヤダぁ！
+EN No waaay!
+
+@ 23.22
+# 社 長
+JP い、イヤか？
+EN Y-you won't?
+
+@ 23.26
+# キューティー金井
+JP ヤダヤダぁ！
+JP 社長なんて…社長なんて…。
+JP ひっく、えぐっ、んっ…。
+EN No, no, no! You... you big... *hic* *sniff*...
+
+@ 23.29
+# 社 長
+JP わ、わかった…。
+JP ごめんな、金井…。
+EN O-okay... I'm sorry, Kanai...
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP ええっと…金井、ちょっといいか？
+EN Uh... Kanai, got a minute?
+
+@ 24.33
+# キューティー金井
+JP あっ、社長…。
+JP うっ…しゃ、社長ぉおおお！
+EN Oh, Boss... Uu... B-Boooooss!
+
+@ 24.36
+# 社 長
+JP （ま、また泣き出した…）
+EN (Sh-she's crying again...)
+
+@ 24.38
+# 社 長
+JP いや、金井。
+JP 本当にすまなかった。許してくれ。
+JP だから…。
+EN Kanai, listen. I'm really sorry. Please forgive me. So...
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# キューティー金井
+JP えぐっ…んっ…うん…。
+JP 戻る…。
+EN *sniff*... Mm... okay... I'll come back...
+
+@ 25.18
+# 社 長
+JP …えっ？
+JP 戻ってくれるのか？
+EN ...Huh? You'll come back?
+
+@ 25.26
+# キューティー金井
+JP うん、戻る…。
+JP んぅ、ひっ、すん…。
+JP 戻るったら戻るの…！
+EN Yeah, I'll come back... *hic* *sniff*... I said I'm coming
+EN back, so I'm coming back...!
+
+@ 25.29
+# 社 長
+JP うん、わかった。
+JP ごめんな、金井。
+JP 今度はちゃんと話し合おうな…。
+EN Okay, got it. I'm sorry, Kanai. This time we'll really
+EN talk things through...
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# キューティー金井
+JP ヤダぁ！
+EN No waaay!
+
+@ 26.22
+# 社 長
+JP い、イヤか？
+EN Y-you won't?
+
+@ 26.26
+# キューティー金井
+JP ヤダヤダぁ！
+JP 社長なんて…社長なんて…。
+JP ひっく、えぐっ、んっ…。
+EN No, no, no! You... you big... *hic* *sniff*...
+
+@ 26.29
+# 社 長
+JP わ、わかった…。
+JP ごめんな、金井…。
+EN O-okay... I'm sorry, Kanai...
+
+@ 27.16
+# scene 028 ケガ小
+# キューティー金井
+JP ふえ～ん！
+JP いたいよ～！
+EN Waaah! It hurts!
+
+@ 28.16
+# scene 029 ケガ大
+# キューティー金井
+JP ふ…ふえ～ん！
+JP 私、もう死んじゃう～！
+EN W-waaah! I'm gonna die!
+
+@ 29.16
+# scene 030 入院
+# キューティー金井
+JP ふえ～ん！
+JP 注射はイヤダ～！
+EN Waaah! No shots, pleeease!
+
+@ 30.16
+# scene 031 退院
+# キューティー金井
+JP ただいま～！
+JP もうすっかり元気だよっ！
+EN I'm baaack! I'm all better now!
+
+@ 31.16
+# scene 032 ケガ完治
+# キューティー金井
+JP 牛乳飲んだら治っちゃった！
+JP えへっ！
+EN I drank some milk and it healed right up! Hehe!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# キューティー金井
+JP …うん、社長がそう言うなら…。
+JP ふ、ふえ～ん！
+EN ...Okay, if that's what you want, Boss... W-waaah!
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# キューティー金井
+JP ふ、ふえ～ん！
+JP やだやだ、辞めないもん！
+EN W-waaah! No, no, I won't quit!
+
+@ 34.16
+# scene 035 コーチ就任
+# キューティー金井
+JP まずは笑顔と決めポーズの
+JP 練習からだよ！
+EN First, we practice our smiles and our poses!
+
+@ 35.16
+# scene 036 ケガ引退
+# キューティー金井
+JP クスン…クスン……。
+JP こんなのってないよぉ…。
+EN *sniff*... *sniff*... This isn't fair...
+
+@ 36.16
+# scene 037 年齢引退
+# キューティー金井
+JP みんなとお別れするのヤダー！
+JP ふえ～ん！
+EN I don't wanna say goodbye to everyone! Waaah!
+
+@ 37.16
+# scene 038 退団
+# キューティー金井
+JP もうお家に帰る…。
+EN I'm going home...
+
+@ 38.16
+# scene 039 スランプ
+# キューティー金井
+JP ふえ～ん、うまくいかないよぉ！
+EN Waaah, nothing's going right!
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# キューティー金井
+JP やったー！
+JP ファンの人たちに会ってくるー！
+EN Yaaay! I'm gonna go meet my fans!
+
+@ 39.19
+# 社 長
+JP 待て、待て！
+JP そういうのはちゃんと準備してからな。
+EN Whoa, whoa! That kind of thing needs proper
+EN planning first.
+
+@ 39.26
+# キューティー金井
+JP そーなの？
+JP でも嬉しい～！
+EN Really? But I'm so happy!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# キューティー金井
+JP またできたの！？
+JP わーい！
+EN I got another one!? Yaaay!
+
+@ 40.19
+# 社 長
+JP あぁ。
+JP 期待に応えるようにな。
+EN Yep. Make sure you live up to their hopes.
+
+@ 40.26
+# キューティー金井
+JP うん、泣かないようにがんばる！
+EN Okay, I'll try hard not to cry!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# キューティー金井
+JP うそっ、解散しちゃったの…？
+EN No way, it broke up...?
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばれば…だ、だから泣くな。
+JP なっ？
+EN These things happen. If you keep at it... h-hey, don't
+EN cry. Okay?
+
+@ 41.26
+# キューティー金井
+JP ふ、ふえ～ん！
+JP 私、がんばってるのにぃ！
+EN W-waaah! But I'm trying so hard!
+
+@ 42.16
+# scene 043 映画出演
+# キューティー金井
+JP 誰が出てるの？
+JP サイン色紙、もっと買ってきた
+JP 方がいい？
+EN Who's in it? Should I buy more autograph boards?
+
+@ 43.16
+# scene 044 一日署長
+# キューティー金井
+JP 警察犬って噛まないよね？　ね？
+EN Police dogs don't bite, right? Right?
+
+@ 44.16
+# scene 045 写真集発売
+# キューティー金井
+JP やったあ！
+JP 写真集だ～！
+JP グラビアアイドルだぁ！
+EN Yaaay! A photo book! I'm a gravure idol!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# キューティー金井
+JP 社長、このＣＭって
+JP 北海道でも流れるよね？
+EN Boss, they'll show this commercial in Hokkaido too,
+EN right?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# キューティー金井
+JP えへへっ。
+JP これで正真正銘の
+JP アイドルレスラーだぁ！
+EN Ehehe. Now I'm a real, honest-to-goodness idol
+EN wrestler!
+
+@ 47.16
+# scene 048 始球式
+# キューティー金井
+JP 社長ぉ。
+JP ピンクのユニフォームってないのー？
+EN Boooss. Don't they have a pink uniform?
+
+@ 48.16
+# scene 049 学園祭
+# キューティー金井
+JP ねぇねぇ、社長。
+JP 焼きそばとクレープ買っといてね！
+EN Hey, hey, Boss. Buy me some yakisoba and a crepe,
+EN okay?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.38
+# キューティー金井
+JP うわぁ…。
+JP これ、私に？
+EN Wow... This is for me?
+
+@ 49.41
+# 社 長
+JP おめでとう。
+JP これからもよろしくな。
+EN Happy birthday. Here's to the year ahead.
+
+@ 49.48
+# キューティー金井
+JP う、うん…ありがとう…。
+JP ふえ～ん！！
+EN Th-thank you... Waaah!!
+
+@ 49.51
+# 社 長
+JP お、おい、泣くなって。
+JP まったく…いくつになっても泣き虫だな。
+EN H-hey, don't cry. Honestly... you're still a crybaby,
+EN no matter how old you get.
+
+@ 50.32
+# scene 051 バレンタインデー
+# キューティー金井
+JP 社長、バレンタインのチョコレート
+JP あげるっ！
+EN Boss, here's some Valentine's chocolate for you!
+
+@ 50.35
+# 社 長
+JP おぉ、ありがとう。
+EN Oh, thanks.
+
+@ 50.42
+# キューティー金井
+JP うちの牧場でとれたミルク
+JP いーっぱい使ったミルクチョコだよ！
+EN It's milk chocolate made with tons of milk from our
+EN farm!
+
+@ 50.45
+# 社 長
+JP （お、恐ろしく甘そうだな…）
+EN (Th-that's going to be terrifyingly sweet...)
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# キューティー金井
+JP えっ、あっ…こ、これ…。
+JP ホワイトデーのお返し？
+EN Huh? Oh... th-this is... A White Day present?
+
+@ 51.44
+# 社 長
+JP あぁ、練習の合間に…。
+JP おい、頼むから泣くな。
+JP なっ？
+EN Yeah, in between training... Hey, please don't cry.
+EN Okay?
+
+@ 52.31
+# scene 053 サイン会
+# キューティー金井
+JP ありがとー！
+JP これからもいーっぱい応援してねー！
+EN Thank you! Keep cheering for me lots and lots!
+
+@ 53.31
+# scene 054 コンサート
+# キューティー金井
+JP な、なんだか感動しちゃって…。
+JP ふ、ふえ～ん！
+EN I-I'm just so moved... W-waaah!
+
+@ 54.28
+# scene 055 練習拒否
+# キューティー金井
+JP もう練習なんかしないもん！
+EN I'm not training anymore!
+
+@ 55.28
+# scene 056 失踪
+# キューティー金井
+JP ふえ～ん！
+JP もう戻らないんだからー！
+EN Waaah! I'm never coming back!
+
+@ 56.16
+# scene 057 選手解雇
+# キューティー金井
+JP ふっ…ふぇ～ん！
+JP 社長のばかぁ～！
+EN Wh-waaah! Boss, you big dummy!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# キューティー金井
+JP さ、さいと、しーいんぐっ！
+JP えへ、これで日常会話は大丈夫っと。
+EN S-sight... seeing! Hehe, that's everyday
+EN conversation covered.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# キューティー金井
+JP ふえ～ん！
+JP 心細かったよ～！
+EN Waaah! I was so lonely!
+
+@ 59.28
+# scene 060 移籍思案
+# キューティー金井
+JP 移籍する…しない…する…しない…。
+EN Transfer... don't... transfer... don't...
+
+@ 60.16
+# scene 061 革命軍結成
+# キューティー金井
+JP トップの人たちなんか怖く…怖く…。
+JP ふえーん！
+EN I'm not scared of the top girls... not scared... Waaah!
+
+@ 61.16
+# scene 062 反乱軍結成
+# キューティー金井
+JP どーお、怖いでしょ？
+JP 私、反乱軍なんだよ。
+EN How's that, scary, huh? I'm with the rebels now.
+
+@ 62.16
+# scene 063 最終決戦要求
+# キューティー金井
+JP け…けっ…決戦するんだからっ！
+EN I-I... I'm gonna have a final showdown!
+
+@ 63.16
+# scene 064 遺恨発生
+# キューティー金井
+JP グスッ…。
+JP 私は悪くないのに～。
+EN *sniff*... But it's not my fault...
+
+@ 64.16
+# scene 065 殴り込み
+# キューティー金井
+JP グスッ…。
+JP 私が行かなくちゃダメ？
+EN *sniff*... Do I really have to go?
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# キューティー金井
+JP な、なんで来るの～！
+EN Wh-why'd you come here!?
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# キューティー金井
+JP な、泣き虫じゃないんだから！
+EN I-I'm not a crybaby!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# キューティー金井
+JP よーし、やるぞぉ！
+EN All right, let's do this!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# キューティー金井
+JP うそ…。
+JP 優勝しちゃった？
+JP やったー！
+EN No way... Did I win? Yaaay!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# キューティー金井
+JP ふ、ふえ～ん…。
+JP だから無理って言ったのにぃ…！
+EN W-waaah... I told you I couldn't do it...!
+
+@ 70.13
+# scene 071 引退式
+# キューティー金井
+JP びぇ～ん！
+JP ばらっでおばがれじようど
+JP おぼっだどに～…！
+EN Bwaaah! I wan'ed do say goobye wid a smile...!
+
+@ 71.18
+# キューティー金井
+JP ほぇ？
+EN Huh?
+
+@ 71.37
+# キューティー金井
+JP なぁに、社長？
+EN What is it, Boss?
+
+@ 71.47
+# キューティー金井
+JP 会話内容を選んでください
+EN Choose what to talk about.
+
+@ 71.66
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ。
+EN You've been doing well lately. Keep it up.
+
+@ 71.90
+# キューティー金井
+JP ホント！？
+JP うん、もっとがんばる！
+EN Really!? Okay, I'll try even harder!
+
+@ 71.111
+# キューティー金井
+JP そうかなぁ。
+JP 前の方がよかったのに…。
+EN You think so? I liked how I was before...
+
+@ 71.132
+# キューティー金井
+JP えへへっ。
+JP もっと褒めて、褒めてー。
+EN Ehehe. Praise me more, more!
+
+@ 71.153
+# キューティー金井
+JP …ぐすっ……。
+JP お世辞なんていらないもん…。
+EN ...*sniff*... I don't need flattery...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# キューティー金井
+JP が、がんばりますっ！
+EN I-I'll try harder!
+
+@ 71.211
+# キューティー金井
+JP がんばってるのに…。
+JP ぐすっ…。
+EN But I am trying... *sniff*...
+
+@ 71.232
+# キューティー金井
+JP …ぐすっ…ごめんなさい。
+JP でも、がんばるから…ぐすっ…。
+EN ...*sniff*... I'm sorry. But I'll try harder... *sniff*...
+
+@ 71.253
+# キューティー金井
+JP 社長がわかってくれない…。
+JP ぐすっ…。
+EN You don't understand me, Boss... *sniff*...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# キューティー金井
+JP 大丈夫だよ。
+JP 私、これでも道産子だもん♪
+EN I'm fine. I'm a Hokkaido girl, after all!
+
+@ 71.311
+# キューティー金井
+JP 大丈夫じゃないもん！
+JP もう練習ばっかりの生活はヤダ～！
+EN I'm not fine! I'm sick of a life that's nothing but
+EN training!
+
+@ 71.332
+# キューティー金井
+JP ぐすっ…。
+JP あのね、頭なでてくれたら
+JP 元気になるかも…。
+EN *sniff*... Y'know, if you patted my head, maybe I'd
+EN cheer up...
+
+@ 71.353
+# キューティー金井
+JP う、ううん。
+JP 平気…なんでもないもん……。
+EN N-no. I'm okay... It's nothing...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# キューティー金井
+JP お、怒らないでよぅ。
+EN D-don't be mad at me!
+
+@ 71.400
+# キューティー金井
+JP …えっ？
+JP なんのこと？
+EN ...Huh? What do you mean?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# キューティー金井
+JP うん…。
+JP じゃあ、仲直りのお手紙書く…。
+EN Okay... Then I'll write her a let's-make-up letter...
+
+@ 71.454
+# キューティー金井
+JP あの娘嫌いだもん…。
+EN I don't like her...
+
+@ 71.475
+# キューティー金井
+JP もっと仲良くしないとダメ？
+EN Do we have to get along even better?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# キューティー金井
+JP う…。
+JP は、はい……。
+EN Uu... Y-yes...
+
+@ 71.522
+# キューティー金井
+JP …えっ？
+JP 何かあったの？
+EN ...Huh? Did something happen?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# キューティー金井
+JP ぐすっ…ひくっ…。
+JP うん、仲良くする…。
+JP ごめんなさい……。
+EN *sniff*... *hic*... Okay, I'll get along with her... I'm
+EN sorry...
+
+@ 71.578
+# キューティー金井
+JP ふ、ふえ～ん！
+JP 私、悪くないもーん！
+EN W-waaah! It's not my fault!
+
+@ 71.599
+# キューティー金井
+JP 社長、どうしちゃったの？
+JP もともと仲良しだよ？
+EN Boss, what's wrong with you? We already get along
+EN great!
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# キューティー金井
+JP なぁに、社長？
+EN What is it, Boss?
+
+@ 72.16
+# キューティー金井
+JP 会話内容を選んでください
+EN Choose what to talk about.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been doing well lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# キューティー金井
+JP ホント！？
+JP うん、もっとがんばる！
+EN Really!? Okay, I'll try even harder!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# キューティー金井
+JP そうかなぁ。
+JP 前の方がよかったのに…。
+EN You think so? I liked how I was before...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# キューティー金井
+JP えへへっ。
+JP もっと褒めて、褒めてー。
+EN Ehehe. Praise me more, more!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# キューティー金井
+JP …ぐすっ……。
+JP お世辞なんていらないもん…。
+EN ...*sniff*... I don't need flattery...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# キューティー金井
+JP が、がんばりますっ！
+EN I-I'll try harder!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# キューティー金井
+JP がんばってるのに…。
+JP ぐすっ…。
+EN But I am trying... *sniff*...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# キューティー金井
+JP …ぐすっ…ごめんなさい。
+JP でも、がんばるから…ぐすっ…。
+EN ...*sniff*... I'm sorry. But I'll try harder... *sniff*...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# キューティー金井
+JP 社長がわかってくれない…。
+JP ぐすっ…。
+EN You don't understand me, Boss... *sniff*...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# キューティー金井
+JP 大丈夫だよ。
+JP 私、これでも道産子だもん♪
+EN I'm fine. I'm a Hokkaido girl, after all!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# キューティー金井
+JP 大丈夫じゃないもん！
+JP もう練習ばっかりの生活はヤダ～！
+EN I'm not fine! I'm sick of a life that's nothing but
+EN training!
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# キューティー金井
+JP ぐすっ…。
+JP あのね、頭なでてくれたら
+JP 元気になるかも…。
+EN *sniff*... Y'know, if you patted my head, maybe I'd
+EN cheer up...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# キューティー金井
+JP う、ううん。
+JP 平気…なんでもないもん……。
+EN N-no. I'm okay... It's nothing...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# キューティー金井
+JP お、怒らないでよぅ。
+EN D-don't be mad at me!
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# キューティー金井
+JP えっ？　なんのこと？
+EN Huh? What do you mean?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# キューティー金井
+JP うん…。
+JP じゃあ、仲直りのお手紙書く…。
+EN Okay... Then I'll write her a let's-make-up letter...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# キューティー金井
+JP あの娘嫌いだもん…。
+EN I don't like her...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# キューティー金井
+JP もっと仲良くしないとダメ？
+EN Do we have to get along even better?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# キューティー金井
+JP う…。は、はい……。
+EN Uu... Y-yes...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# キューティー金井
+JP えっ？　何かあったの？
+EN Huh? Did something happen?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# キューティー金井
+JP ぐすっ、ひくっ…。
+JP うん、仲良くする…。
+JP ごめんなさい……。
+EN *sniff*... *hic*... Okay, I'll get along with her... I'm
+EN sorry...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# キューティー金井
+JP ふ、ふえ～ん！　私、悪くないもーん！
+EN W-waaah! It's not my fault!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# キューティー金井
+JP 社長、どうしちゃったの？
+JP もともと仲良しだよ？
+EN Boss, what's wrong with you? We already get along
+EN great!
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# キューティー金井
+JP うん。
+JP また１年よろしくね♪
+EN Okay. Let's have another great year!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# キューティー金井
+JP うわーい！
+JP いっぱいもらっちゃったー！
+EN Yaaay! I got so much!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# キューティー金井
+JP ふ、ふえ～ん！
+JP 社長は私のこと嫌いなんだぁ！
+EN W-waaah! You hate me, don't you, Boss!
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Ah, the tropics. The sun is scorching.)
+
+@ 105.34
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.38
+# ？？？
+JP ふえぇぇぇぇぇんっ…！
+JP 社長ぉ～～～！
+EN Waaaaaaaaah...! Boooooss!
+
+@ 105.41
+# 社 長
+JP （あの泣き声…。
+JP 　金井か？）
+EN (That crying... Is that Kanai?)
+
+@ 105.57
+# 社 長
+JP どうした？
+JP 何かあったのか？
+EN What's wrong? Did something happen?
+
+@ 105.61
+# キューティー金井
+JP ふぇ～ん、ふぇ～ん！
+EN Waaah, waaah!
+
+@ 105.65
+# キューティー金井
+JP クラ…刺され…。
+JP チクッて…ふえ～ん！
+EN Jelly... stung... It went zap... waaah!
+
+@ 105.68
+# 社 長
+JP 落ち着け。
+JP 何を言っているのかわからん。
+EN Calm down. I can't understand a word you're saying.
+
+@ 105.72
+# キューティー金井
+JP うっ…。
+JP ひっく…ひっく……。
+EN Uu... *hic*... *hic*...
+
+@ 105.75
+# 社 長
+JP いいぞ。
+JP ゆっくりでいいからな。
+EN That's it. Take your time.
+
+@ 105.85
+# キューティー金井
+JP うん…。
+JP ひっく……。
+EN Okay... *hic*...
+
+@ 105.88
+# 社 長
+JP よし、どうしたんだ？
+EN All right, what happened?
+
+@ 105.92
+# キューティー金井
+JP 泳いでて…クラゲに…刺された…。
+EN I was swimming... and a jellyfish... stung me...
+
+@ 105.95
+# 社 長
+JP クラゲ…か。
+EN A jellyfish, huh.
+
+@ 105.98
+# 社 長
+JP …で、どこを刺されたんだ？
+JP ちょっと見せてみろ。
+EN ...So where did it sting you? Let me take a look.
+
+@ 105.102
+# キューティー金井
+JP …ここ。
+EN ...Here.
+
+@ 105.110
+# 社 長
+JP （ここ…って…。
+JP 　胸か…）
+EN (Here... meaning... her chest...)
+
+@ 105.114
+# キューティー金井
+JP うん…。
+JP 見て、社長……。
+JP ここ、痛いの…。
+EN Mm-hm... Look, Boss... It hurts right here...
+
+@ 105.117
+# 社 長
+JP （いや、見てと言われてもなぁ…）
+EN (Well, she says look, but...)
+
+@ 105.119
+# 社 長
+JP （場所が場所だけに…）
+EN (Considering where it is...)
+
+@ 105.121
+# 社 長
+JP なあ、他の選手に頼んだらダメか？
+EN Hey, couldn't you ask one of the other girls?
+
+@ 105.131
+# キューティー金井
+JP ふぇ～ん！
+JP 社長のいじわる～！
+EN Waaah! Boss, you meanie!
+
+@ 105.134
+# 社 長
+JP わかった、わかった。
+JP ちゃんと見るから！
+EN Okay, okay. I'll take a proper look!
+
+@ 105.143
+# 社 長
+JP ええと…ここだな。
+EN Let's see... right here, huh.
+
+@ 105.147
+# キューティー金井
+JP うん…。
+JP ひっく……。
+EN Mm-hm... *hic*...
+
+@ 105.150
+# 社 長
+JP あー、たしかに赤くなってるな。
+EN Ah, it's definitely red.
+
+@ 105.160
+# キューティー金井
+JP もしかして死んじゃう！？
+JP ふぇ～ん！
+JP 痛い～！
+EN Am I gonna die!? Waaah! It hurts!
+
+@ 105.163
+# 社 長
+JP 大丈夫！
+JP 死なないから！
+EN You'll be fine! You're not going to die!
+
+@ 105.165
+# 社 長
+JP ちゃんと手当てすれば治るから！
+EN It'll heal if we treat it properly!
+
+@ 105.175
+# キューティー金井
+JP うん…。
+JP 社長、病院…連れて行ってくれる？
+EN Okay... Boss, will you... take me to the hospital?
+
+@ 105.178
+# 社 長
+JP もちろん。
+JP だからもうちょっと我慢できるな？
+EN Of course. So you can hang in there a little longer,
+EN right?
+
+@ 105.188
+# キューティー金井
+JP ……うん！
+EN ...Okay!
+
+@ 105.191
+# 社 長
+JP よしよし。
+JP えらいぞ。
+EN There we go. Good girl.
+
+@ 105.195
+# キューティー金井
+JP えへへっ！
+JP 褒められちゃった♪
+EN Ehehe! He praised me!
+
+@ 105.198
+# 社 長
+JP （……やれやれ）
+EN (...Good grief.)
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP （たまには練習にも
+JP 　顔を出してやらないとな）
+EN (I should drop in on training every once in a while.)
+
+@ 106.22
+# 社 長
+JP （うんうん。
+JP 　みんな、がんばってるみたいだな）
+EN (Good, good. Everyone seems to be working hard.)
+
+@ 106.24
+# 社 長
+JP あれ…？
+JP そういえば金井がいない
+JP みたいだけど…？
+EN Huh...? Now that I think of it, I don't see Kanai...
+
+@ 106.26
+# 社 長
+JP （あっ…？）
+EN (Oh...?)
+
+@ 106.47
+# キューティー金井
+JP んぐ…んぐ…んぐ…。
+EN *gulp*... *gulp*... *gulp*...
+
+@ 106.50
+# 社 長
+JP （金井は何をやってるんだ？）
+EN (What is Kanai doing?)
+
+@ 106.60
+# キューティー金井
+JP ぷはーっ！
+EN Pwaaah!
+
+@ 106.64
+# キューティー金井
+JP 次ぃ～。
+EN Next!
+
+@ 106.67
+# 社 長
+JP ……なぁ、金井。
+EN ...Hey, Kanai.
+
+@ 106.69
+# 社 長
+JP そんなにいっぺんに飲んで
+JP 大丈夫なのか？
+EN Is it okay to drink that much all at once?
+
+@ 106.79
+# キューティー金井
+JP 大丈夫！
+EN It's fine!
+
+@ 106.83
+# キューティー金井
+JP 牛乳飲んで背を伸ばして
+JP おっきくなって強くなるんだから！
+EN I'm gonna drink milk and grow tall and get big and
+EN strong!
+
+@ 106.86
+# 社 長
+JP ……そうか。
+EN ...I see.
+
+@ 106.96
+# キューティー金井
+JP うん！
+EN Yep!
+
+@ 106.99
+# 社 長
+JP でも、大きくはなるかもしれないが
+JP 強くはなれないかもしれないぞ？
+EN You might get bigger, but that doesn't mean you'll
+EN get stronger, you know?
+
+@ 106.103
+# キューティー金井
+JP ３本目、いくよー！
+EN Bottle number three, here I go!
+
+@ 106.113
+# キューティー金井
+JP んぐ…んぐ…んぐ…。
+EN *gulp*... *gulp*... *gulp*...
+
+@ 106.116
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.118
+# 社 長
+JP まあ、いいか…。
+EN Oh, well...
+
+@ 107.20
+# scene 108 日常イベント２
+# 社 長
+JP （たまには練習にも
+JP 　顔を出してやらないとな）
+EN (I should drop in on training every once in a while.)
+
+@ 107.22
+# 社 長
+JP （みんな、がんばってるみたいだな）
+EN (Everyone seems to be working hard.)
+
+@ 107.24
+# 社 長
+JP あれ…？
+JP また金井がいないぞ…？
+EN Huh...? Kanai's missing again...?
+
+@ 107.26
+# 社 長
+JP ええと…。
+EN Let's see...
+
+@ 107.47
+# キューティー金井
+JP んぐ…んぐ…んぐ…。
+EN *gulp*... *gulp*... *gulp*...
+
+@ 107.50
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.60
+# キューティー金井
+JP ぷはーっ！
+EN Pwaaah!
+
+@ 107.63
+# 社 長
+JP 金井、また背を伸ばすための牛乳か？
+EN Kanai, more milk to make you taller?
+
+@ 107.73
+# キューティー金井
+JP …あっ、社長。
+EN ...Oh, Boss.
+
+@ 107.77
+# キューティー金井
+JP ううん、今度はそうじゃなくて…。
+EN Nope, not this time...
+
+@ 107.87
+# キューティー金井
+JP 胸をおっきくするために飲んでるの！
+EN I'm drinking it to make my chest bigger!
+
+@ 107.90
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.100
+# キューティー金井
+JP ねー、知ってた？
+JP 霧子さんって牛乳を
+JP よく飲んでいたんだって！？
+EN Hey, didja know? Kiriko used to drink lots of milk!
+
+@ 107.103
+# 社 長
+JP （…そ、そうだったのか！？）
+EN (...R-really!?)
+
+@ 107.105
+# 社 長
+JP （あのナイスバディは牛乳で
+JP 　作られたものだったのか！？）
+EN (That knockout figure of hers was made with milk!?)
+
+@ 107.107
+# 社 長
+JP …って、そうじゃなくて！
+EN ...No, that's not the point!
+
+@ 107.109
+# 社 長
+JP ええとだな。
+EN Well, you see.
+
+@ 107.111
+# 社 長
+JP ……つまり。
+EN ...In other words.
+
+@ 107.113
+# 社 長
+JP 腹を壊さないように気をつけろよ。
+EN Be careful not to upset your stomach.
+
+@ 107.123
+# キューティー金井
+JP うん！
+EN Okay!
+
+@ 107.127
+# キューティー金井
+JP それじゃ、５本目、いきまーす！
+EN Here goes bottle number five!
+
+@ 107.137
+# キューティー金井
+JP んぐ…んぐ…んぐ…。
+EN *gulp*... *gulp*... *gulp*...
+
+@ 107.140
+# 社 長
+JP まあ、いいか…。
+EN Oh, well...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# キューティー金井
+JP よーし、今日こそ私が勝つんだから！
+EN All right, today I'm gonna win for sure!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# キューティー金井
+JP う～っ…。
+JP ジャーマンはなしだよ？
+JP ねっ？
+EN Uuu... No German suplexes, okay? Okay?
+
+@ 110.17
+# scene 112 練習試合 バッド
+# キューティー金井
+JP むぅっ…。
+JP アイドルレスラーは
+JP 二人もいらないんだからっ！
+EN Hmph...! One idol wrestler is plenty around here!
+
+@ 111.16
+# scene 113 練習開始
+# キューティー金井
+JP 今日はがんばっちゃおっかな！
+EN Maybe I'll really go for it today!
+
+@ 112.16
+# scene 114 練習開始 好意
+# キューティー金井
+JP がんばったらご褒美くれる？
+EN If I work hard, will you give me a reward?
+
+@ 113.16
+# scene 115 特訓開始
+# キューティー金井
+JP 特訓って痛くないよね？　ね？
+EN Special training doesn't hurt, right? Right?
+
+@ 114.20
+# scene 116 特訓成功
+# キューティー金井
+JP 私、がんばったよね？　ね？
+EN I did good, didn't I? Didn't I?
+
+@ 115.20
+# scene 117 特訓失敗
+# キューティー金井
+JP ふぇ～ん！
+JP やっぱり痛かったーっ！
+EN Waaah! It did hurt after all!
+
+@ 116.16
+# scene 118 休養
+# キューティー金井
+JP やったー！
+JP 実家に帰って、みんなに会ってくるね！
+EN Yaaay! I'll go home and see everybody!
+
+@ 117.16
+# scene 119 入場1
+# キューティー金井
+JP よーし、今日は勝つぞー！
+EN All right, I'm gonna win today!
+
+@ 118.16
+# scene 119 入場2
+# キューティー金井
+JP きょ、今日は負けないモン！
+EN I-I won't lose today!
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# キューティー金井
+JP 金井あーんど富沢ペア！
+JP いっくよー！
+EN It's the Kanai and Tomizawa pair! Here we gooo!
+
+@ 120.17
+# scene 122 タッグマッチ ベター２
+# キューティー金井
+JP 金井あーんど永原ペア！
+JP いっくよー！
+EN It's the Kanai and Nagahara pair! Here we gooo!
+
+@ 121.17
+# scene 123 タッグマッチ バッド
+# キューティー金井
+JP うぅ…。
+JP アイドルタッグって
+JP ただのやられ役だよぉ…。
+EN Uuu... An idol tag team just gets beaten up...
+
+@ 122.16
+# scene 125 必殺技１
+# キューティー金井
+JP これで泣き虫返上！
+EN This'll make me a crybaby no more!
+
+@ 123.16
+# scene 125 必殺技２
+# キューティー金井
+JP もしかして勝っちゃうかも！？
+EN Maybe I'll actually win!?
+
+@ 124.16
+# scene 125 必殺技３
+# キューティー金井
+JP この技であなたを
+JP 泣かしちゃうんだからねっ！
+EN This move's gonna make YOU cry!
+
+@ 125.12
+# scene 126 勝利1
+# キューティー金井
+JP アイドルは負けないんだから！
+EN Idols never lose!
+
+@ 126.12
+# scene 126 勝利2
+# キューティー金井
+JP 私だって、やればできるんだから！
+EN I can do it too when I try!
+
+@ 127.12
+# scene 126 勝利3
+# キューティー金井
+JP 運も実力のうちだよね♪
+EN Luck is part of skill too, right?
+
+@ 128.15
+# scene 133 表彰1
+# キューティー金井
+JP すっごーい！
+JP ねぇ、みんなー！
+JP テレビ見てるーっ！
+EN Amazing! Hey, everybody! Are you watching TV?!
+
+@ 129.15
+# scene 133 表彰2
+# キューティー金井
+JP やったぁ！
+JP いいものもらっちゃったー！
+EN Yaaay! I got something nice!
+
+@ 130.12
+# scene 134 優勝1
+# キューティー金井
+JP コゴロー！
+JP 私、優勝しちゃったよー！
+EN Kogoro! I won the whole thing!
+
+@ 131.12
+# scene 134 優勝２
+# キューティー金井
+JP 社長、優勝したからご褒美ちょーだい！
+EN Boss, I won, so gimme a reward!
+
+@ 132.24
+# scene 135 エンディング 通常
+# キューティー金井
+JP 社長ー、私も、いっぱい、いっぱい
+JP がんばったよ。
+JP 褒めて、褒めて～！
+EN Boss, I tried really, really hard too. Praise me, praise
+EN me!
+
+@ 133.24
+# scene 136 エンディング 好意
+# キューティー金井
+JP 社長と私、きっとお似合いの
+JP カップルだよね？　ね？
+EN You and me, Boss... we'd make a cute couple, right?
+EN Right?

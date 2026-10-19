@@ -1,0 +1,12 @@
+{
+ "english": "Top Promotions | Wrestle Joshi Pro | Kanagawa | 3 months since last show",
+ "boxes": [[0, 28, 320, 28], [398, 231, 226, 23], [528, 259, 92, 24], [398, 288, 222, 24]],
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "groups": [
+  {"labels": [0], "draw": "banners.draw", "mode": "sysmap", "dy": 14,
+   "font": "BarlowCondensed-BoldItalic.ttf", "cap": 16, "shear": 0.12,
+   "fill": "bright", "ground": "interpolate"},
+  {"labels": [1, 2, 3], "fill": "bright", "ground": "interpolate", "reach": 1.5, "cap": 14}
+ ],
+ "notes": "map screen mock-up: the MAP_SAIDAI title as assembled (tools/letter_ext/banners.py) and its sample lines (promotion, prefecture, months since the last show)"
+}

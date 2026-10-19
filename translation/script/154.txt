@@ -1,0 +1,2147 @@
+# /SCR/154.BIN - クラリッジ成瀬
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 154` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# クラリッジ成瀬
+JP サーカスより儲かるって
+JP 聞いてきたんやけど？
+EN Heard this pays better than the circus. That right?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# クラリッジ成瀬
+JP 身の軽さは保証付きや。
+JP よろしく頼むわ。
+EN I'm light on my feet, guaranteed. Lookin' forward to
+EN it!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# クラリッジ成瀬
+JP あっ、そう。
+JP ほな、帰るわ。
+EN Oh, is that so. Well, I'm off, then.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （スカウトの話だと
+JP 　この街のサーカスで有望な人材を
+JP 　見つけたってことだったけど…）
+EN (The scouting report said they'd found a promising
+EN talent at a circus in this town...)
+
+@ 3.33
+# ？？？
+JP なぁなぁ、そこの兄さん。
+JP サーカスのチケット、買うてかんか？
+EN Hey, hey, mister! Wanna buy a ticket to the circus?
+
+@ 3.36
+# 社 長
+JP いや…。
+JP 今はいらないけど…。
+EN Uh... I'm fine for now, thanks...
+
+@ 3.40
+# ？？？
+JP そないつれないこと言わんと～。
+JP なら、ここでバク転とかしたら
+JP 買うてくれる？
+EN Aw, don't be so cold! What if I do a backflip right
+EN here? Then would ya buy one?
+
+@ 3.43
+# 社 長
+JP （どうしよう。
+JP 　弱ったな…）
+EN (What do I do? This is awkward...)
+
+@ 3.45
+# 社 長
+JP それより君のサーカスに
+JP プロレス団体からスカウトを
+JP 受けた人はいないかな？
+EN More importantly, is there anyone at your circus who
+EN got scouted by a wrestling promotion?
+
+@ 3.52
+# ？？？
+JP プロレス？
+JP あー、それはたぶん
+JP ウチのことと違うかなぁ？
+EN Wrestling? Ahh, I bet that'd be me, wouldn't it?
+
+@ 3.55
+# 社 長
+JP えっ、君がそうなのかい？
+EN What, it's you?
+
+@ 3.57
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# クラリッジ成瀬
+JP まあ、その条件なら入ってもええかな。
+JP じゃ、よろしくってことで！
+EN Well, on those terms, I guess I could join. So, nice
+EN doin' business with ya!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. I'm looking forward to working with you!
+
+@ 4.29
+# クラリッジ成瀬
+JP やると決めた以上は
+JP サーカス以上に稼がせて
+JP もらうからな～。
+EN Now that I've decided, I'm gonna earn more than I
+EN ever did at the circus!
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# クラリッジ成瀬
+JP うーん。
+JP 嬉しい話やけど…やっぱ、無理やわ。
+JP 恨まんといて。
+EN Hmm. It's a nice offer, but... nah, can't do it. No hard
+EN feelings, 'kay?
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （変わった娘だけど、彼女には
+JP 　是非うちに入団してもらいたい）
+EN (She's an odd one, but I'd really like her to join us.)
+
+@ 6.25
+# 社 長
+JP （今日も同じ場所でチケットを
+JP 　売っているのかな…あっ、いた）
+EN (Is she selling tickets in the same spot today...? Ah,
+EN there she is.)
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# クラリッジ成瀬
+JP はいはいーって、アンタ、この前の！
+JP またスカウトの話かぁ？
+EN Yes, yes... Hey, it's you from before! Here to scout
+EN me again?
+
+@ 6.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.47
+# クラリッジ成瀬
+JP ん～…。
+JP そない熱心に勧誘されてもなぁ。
+EN Hmmm... Even if ya push that hard...
+
+@ 6.50
+# 社 長
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and sign with us?
+
+@ 6.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# クラリッジ成瀬
+JP まあ、その条件なら入ってもええかな。
+JP じゃ、よろしくってことで！
+EN Well, on those terms, I guess I could join. So, nice
+EN doin' business with ya!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. I'm looking forward to working with you!
+
+@ 7.29
+# クラリッジ成瀬
+JP やると決めた以上は
+JP サーカス以上に稼がせて
+JP もらうからな～。
+EN Now that I've decided, I'm gonna earn more than I
+EN ever did at the circus!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# クラリッジ成瀬
+JP うーん。
+JP 嬉しい話やけど…やっぱ、無理やわ。
+JP 恨まんといて。
+EN Hmm. It's a nice offer, but... nah, can't do it. No hard
+EN feelings, 'kay?
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （成瀬選手…。
+JP 　なんと言っても身軽さを活かした
+JP 　関節技には魅力がある）
+EN (Naruse... Those submissions that make the most of
+EN her agility are what really sell her.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She's supposed to be around here... Ah, there she
+EN is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# クラリッジ成瀬
+JP …んっ？
+JP 自分、なんか用か？
+EN ...Hm? Ya need somethin'?
+
+@ 9.40
+# 社 長
+JP 私、プロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 9.44
+# クラリッジ成瀬
+JP へぇ、団体の社長さんかいな…。
+JP ほいで、なんの用なん？
+EN Huh, a promotion president... So, what's this about?
+
+@ 9.47
+# 社 長
+JP （俺は単刀直入に彼女を
+JP 　スカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.54
+# クラリッジ成瀬
+JP 引き抜きか～。
+JP うーん、どうやろなー。
+EN Poachin' me, huh? Hmm, I dunno...
+
+@ 9.57
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# クラリッジ成瀬
+JP んー。
+JP ま、ギャラ次第かな。
+EN Hmm. Well, depends on the pay.
+
+@ 10.18
+# 社 長
+JP わかりました。
+JP できる限り希望に沿うようにします。
+EN Understood. I'll meet your wishes as best I can.
+
+@ 10.29
+# クラリッジ成瀬
+JP そんなら問題なし。
+JP これからよろしゅうな。
+EN Then no problem. Nice doin' business with ya!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# クラリッジ成瀬
+JP やっぱり、もうちょっと考えさせて。
+EN Nah, lemme think about it a little longer.
+
+@ 11.22
+# 社 長
+JP わかりました。
+JP また出直します。
+EN All right. I'll come back another time.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　成瀬選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (My promotion really does need Naruse. I decided to
+EN negotiate once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# クラリッジ成瀬
+JP あっ、この前の！
+JP また移籍の話か？
+EN Oh, you're the guy from before! About the transfer
+EN again?
+
+@ 12.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.45
+# クラリッジ成瀬
+JP そう言われてもなぁ。
+EN Even if ya say that...
+
+@ 12.48
+# 社 長
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and sign with us?
+
+@ 12.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# クラリッジ成瀬
+JP んー。
+JP ま、ギャラ次第かな。
+EN Hmm. Well, depends on the pay.
+
+@ 13.18
+# 社 長
+JP わかりました。
+JP できる限り希望に沿うようにします。
+EN Understood. I'll meet your wishes as best I can.
+
+@ 13.29
+# クラリッジ成瀬
+JP そんなら問題なし。
+JP これからよろしゅうな。
+EN Then no problem. Nice doin' business with ya!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# クラリッジ成瀬
+JP やっぱり、もうちょっと考えさせて。
+EN Nah, lemme think about it a little longer.
+
+@ 14.22
+# 社 長
+JP わかりました。
+JP また出直します。
+EN All right. I'll come back another time.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （成瀬選手…。
+JP 　サーカス仕込みの身のこなしは
+JP 　うちの団体に是非欲しい）
+EN (Naruse... I'd love to have those circus-trained
+EN moves in my promotion.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She's supposed to be around here... Ah, there she
+EN is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# クラリッジ成瀬
+JP はい？
+JP なんか用ですかあ？
+EN Yeah? Somethin' I can do for ya?
+
+@ 15.40
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.47
+# クラリッジ成瀬
+JP う～ん。
+JP 社長さんのとこかぁ。
+JP どうしようかなぁ～。
+EN Hmmm. Your outfit, Mr. President? What should I
+EN dooo...
+
+@ 15.50
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Would you please lend us your strength?
+
+@ 15.57
+# クラリッジ成瀬
+JP ま、条件次第ってとこやな。
+EN Well, depends on the terms, I guess.
+
+@ 15.60
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# クラリッジ成瀬
+JP ＯＫ！
+JP 社長さんのところに
+JP お世話にならせてもらうわ！
+EN OK! I'll sign on with you, Mr. President!
+
+@ 16.22
+# 社 長
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 16.26
+# クラリッジ成瀬
+JP こちらこそ。
+JP がんがん儲けさせたるから
+JP 楽しみにしとき。
+EN Likewise! I'll rake in the cash for ya, so look forward
+EN to it.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# クラリッジ成瀬
+JP んー、そんなこと言うても
+JP 今の環境も気に入っとるしなぁ…。
+EN Hmm, even if ya say that, I kinda like where I'm at
+EN now...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには成瀬選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (We really do need Naruse. I decided to negotiate
+EN once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# クラリッジ成瀬
+JP あ～！
+JP 社長さん、また来たん？
+EN Ahh! Mr. President, you came back?
+
+@ 18.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.45
+# クラリッジ成瀬
+JP そやなぁ～…。
+JP う～ん…。
+EN Lemme see... Hmmm...
+
+@ 18.48
+# 社 長
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and sign with us?
+
+@ 18.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# クラリッジ成瀬
+JP ＯＫ！
+JP 社長さんのところにお世話に
+JP ならせてもらうわ！
+EN OK! I'll sign on with you, Mr. President!
+
+@ 19.22
+# 社 長
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 19.26
+# クラリッジ成瀬
+JP こちらこそ。
+JP がんがん儲けさせたるから
+JP 楽しみにしとき。
+EN Likewise! I'll rake in the cash for ya, so look forward
+EN to it.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# クラリッジ成瀬
+JP んー、そんなこと言うても
+JP 今の環境も気に入っとるしなぁ…。
+EN Hmm, even if ya say that, I kinda like where I'm at
+EN now...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…。
+EN She should be around here...
+
+@ 21.25
+# 社 長
+JP あっ、成瀬！
+EN Ah, Naruse!
+
+@ 21.35
+# クラリッジ成瀬
+JP あっ、社長…！
+EN Ah, Boss...!
+
+@ 21.38
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.45
+# クラリッジ成瀬
+JP ホンマやなぁ…。
+EN Sure has...
+
+@ 21.48
+# 社 長
+JP 実は成瀬に戻って欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you. I want you to
+EN come back.
+
+@ 21.55
+# クラリッジ成瀬
+JP …なんやて？
+EN ...Come again?
+
+@ 21.58
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask, but...
+
+@ 21.60
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# クラリッジ成瀬
+JP 今さらウチに手伝えることって
+JP あるんか？
+EN Is there anythin' I can even help with at this point?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 22.29
+# クラリッジ成瀬
+JP わかった。
+JP 昔のことは水に流したる。
+JP これからよろしくな！
+EN All right. I'll let bygones be bygones. Let's do this!
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしく。
+EN Thank you. Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# クラリッジ成瀬
+JP でもそれはあまりに
+JP 自分勝手なんとちゃうか？
+EN But ain't that a little too selfish of ya?
+
+@ 23.22
+# 社 長
+JP どうしてもダメなのか？
+EN Is there really no way?
+
+@ 23.26
+# クラリッジ成瀬
+JP 話にならんわ。
+EN Forget it.
+
+@ 23.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 成瀬っ！
+EN Naruse!
+
+@ 24.33
+# クラリッジ成瀬
+JP …社長。
+JP なんでそこまでして…。
+EN ...Boss. Why go this far...
+
+@ 24.36
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.38
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# クラリッジ成瀬
+JP 今さらウチに手伝えることって
+JP あるんか？
+EN Is there anythin' I can even help with at this point?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 25.29
+# クラリッジ成瀬
+JP わかった。
+JP 昔のことは水に流したる。
+JP これからよろしくな！
+EN All right. I'll let bygones be bygones. Let's do this!
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしく。
+EN Thank you. Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# クラリッジ成瀬
+JP でもそれはあまりに
+JP 自分勝手なんとちゃうか？
+EN But ain't that a little too selfish of ya?
+
+@ 26.22
+# 社 長
+JP どうしてもダメなのか？
+EN Is there really no way?
+
+@ 26.26
+# クラリッジ成瀬
+JP 話にならんわ。
+EN Forget it.
+
+@ 26.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# クラリッジ成瀬
+JP こんなん軽傷、軽傷。
+EN This? Just a scratch, just a scratch.
+
+@ 28.16
+# scene 029 ケガ大
+# クラリッジ成瀬
+JP うわ！
+JP なんかこれヤバくないか？
+EN Whoa! Uh, ain't this kinda bad?
+
+@ 29.16
+# scene 030 入院
+# クラリッジ成瀬
+JP 病院に担ぎ込まれるなんて…。
+EN Gettin' hauled off to the hospital...
+
+@ 30.16
+# scene 031 退院
+# クラリッジ成瀬
+JP 病院なんて長居するもんやないな～。
+EN Hospitals ain't a place ya wanna hang around!
+
+@ 31.16
+# scene 032 ケガ完治
+# クラリッジ成瀬
+JP 元気が一番！
+JP これからじゃんじゃん稼いだる！
+EN Health comes first! Now I'm gonna rake it in!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# クラリッジ成瀬
+JP そうか？
+JP 社長がそう言うんなら
+JP そうかもしれへんな…。
+EN Ya think? If you say so, Boss, maybe you're right...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# クラリッジ成瀬
+JP …はっきりクビやって
+JP 言うたらどうや？
+EN ...Why not just come out and say I'm fired?
+
+@ 34.16
+# scene 035 コーチ就任
+# クラリッジ成瀬
+JP ウチがコーチになったからには
+JP ビシビシいくで～。
+EN Now that I'm the coach, I ain't goin' easy on anybody!
+
+@ 35.16
+# scene 036 ケガ引退
+# クラリッジ成瀬
+JP 若い身空で隠居の身か～。
+JP かなわんな～。
+EN Retired at my age, huh? Gimme a break...
+
+@ 36.16
+# scene 037 年齢引退
+# クラリッジ成瀬
+JP まっ、そろそろ潮時やろ。
+JP 楽しかったわ。
+EN Well, guess it's about time. It was fun.
+
+@ 37.16
+# scene 038 退団
+# クラリッジ成瀬
+JP ほなサイナラ…。
+EN Well, so long...
+
+@ 38.16
+# scene 039 スランプ
+# クラリッジ成瀬
+JP うまいこといかへんなぁ…。
+JP どないしよう…。
+EN Nothin's goin' right... What do I do...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# クラリッジ成瀬
+JP ウチのファンクラブができたんか？
+EN I got a fan club?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# クラリッジ成瀬
+JP 任せといて！
+JP 声援が多いほど燃えるタチやから。
+EN Leave it to me! The louder the cheers, the more fired
+EN up I get.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# クラリッジ成瀬
+JP なんや、またファンクラブ
+JP できたんか？
+EN What, another fan club?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# クラリッジ成瀬
+JP もちろんや！
+JP 思いっきり楽しませてやるで～！
+EN You bet! I'm gonna give 'em the time of their lives!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# クラリッジ成瀬
+JP なんでやねん…。
+EN Oh, come on...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just try again.
+
+@ 41.23
+# クラリッジ成瀬
+JP ホンマ、ヘコむわ…。
+EN Man, that's a real bummer...
+
+@ 42.16
+# scene 043 映画出演
+# クラリッジ成瀬
+JP 悪いけど、ウチの芸は
+JP 台本に収まるモンやないで！
+EN Sorry, but my act ain't somethin' ya can fit in a
+EN script!
+
+@ 43.16
+# scene 044 一日署長
+# クラリッジ成瀬
+JP 婦人警官の格好して
+JP みたかったんよ…。
+JP …えっ、ちょいちゃうの？
+EN I always wanted to dress up as a police officer...
+EN Wait, that's not it?
+
+@ 44.16
+# scene 045 写真集発売
+# クラリッジ成瀬
+JP どんなポーズしたらええの？
+JP どうせなら爆笑モンの写真集に
+JP したろやないの。
+EN What kinda poses should I do? Might as well make it a
+EN photo book that cracks folks up!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# クラリッジ成瀬
+JP こっちのスポットライトも
+JP 気持ち良さそうな気ぃせえへん？
+EN Doesn't this spotlight look like it'd feel good too?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# クラリッジ成瀬
+JP こんなん誰が聴くんやろなぁ？
+JP それが一番不思議やわ。
+EN Who'd even listen to somethin' like this? That's the
+EN real mystery.
+
+@ 47.16
+# scene 048 始球式
+# クラリッジ成瀬
+JP 任せといてや！
+JP サーカスでは、ナイフ投げとかも
+JP 得意やってん。
+EN Leave it to me! Back in the circus, I was great at
+EN knife throwin' and stuff.
+
+@ 48.16
+# scene 049 学園祭
+# クラリッジ成瀬
+JP お祭りか！
+JP なんやこう、昔の血ぃが騒ぐなぁ！
+EN A festival! Somethin' about it gets my old blood
+EN pumpin'!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP 今日誕生日だろう。
+JP これ、誕生日のお祝いだ。
+EN It's your birthday today, right? Here's a present.
+
+@ 49.36
+# クラリッジ成瀬
+JP ホンマに！？
+JP いや～、感激やわぁ！
+EN For real!? Wow, I'm touched!
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Here's to the year ahead.
+
+@ 49.46
+# クラリッジ成瀬
+JP こちらこそ、よろしゅう。
+EN Same here, Boss!
+
+@ 50.30
+# scene 051 バレンタインデー
+# クラリッジ成瀬
+JP なんやソワソワして。
+JP 安心しいや。
+JP 社長のチョコは用意してあるって。
+EN What's got ya so fidgety? Relax, I've got your
+EN chocolate ready, Boss.
+
+@ 50.33
+# 社 長
+JP あ、今日はバレンタインか。
+JP ありがとう。
+EN Oh, it's Valentine's Day. Thank you.
+
+@ 50.40
+# クラリッジ成瀬
+JP ほな、お返しは
+JP ３倍っちゅうやつやな。
+EN So, you know what they say: pay me back triple!
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, as thanks for last month?
+
+@ 51.36
+# クラリッジ成瀬
+JP ホンマに返してくれるんかいな。
+JP 社長も義理がたい人やね～。
+JP おおきにな。
+EN Ya really paid me back? You're a man who keeps his
+EN word, Boss. Thanks a bunch!
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# クラリッジ成瀬
+JP ウチの芸、見に来てや～。
+EN Come see my act!
+
+@ 53.31
+# scene 054 コンサート
+# クラリッジ成瀬
+JP ほんなら…。
+JP 盛り上がっていこか～！
+EN All right then... Let's get this party started!
+
+@ 54.28
+# scene 055 練習拒否
+# クラリッジ成瀬
+JP なんか飽きてしもたわ。
+EN I kinda got bored of it.
+
+@ 55.28
+# scene 056 失踪
+# クラリッジ成瀬
+JP サーカスが恋しいわぁ…。
+EN I miss the circus...
+
+@ 56.16
+# scene 057 選手解雇
+# クラリッジ成瀬
+JP 鬼や…。
+JP ここに鬼がおる…！
+EN You're a monster... A real monster...!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# クラリッジ成瀬
+JP 外国のサーカス見に行こ～。
+JP 今からすごい楽しみやわ。
+EN I'm gonna go see the circuses overseas. I can't wait!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# クラリッジ成瀬
+JP あー、日本が一番やなぁ～。
+EN Ahh, there's no place like Japan!
+
+@ 59.28
+# scene 060 移籍思案
+# クラリッジ成瀬
+JP どないしよかなぁ…。
+EN What should I do...
+
+@ 60.16
+# scene 061 革命軍結成
+# クラリッジ成瀬
+JP モノ言うためには
+JP 上に立たなアカンいうことやね。
+EN Guess if ya wanna be heard, ya gotta be on top.
+
+@ 61.16
+# scene 062 反乱軍結成
+# クラリッジ成瀬
+JP 力でモノ言わなアカンときも
+JP あるってことやな。
+EN Guess sometimes ya gotta talk with your fists.
+
+@ 62.16
+# scene 063 最終決戦要求
+# クラリッジ成瀬
+JP どっちが正しいか、決めよやないか。
+EN Let's settle who's right, once and for all.
+
+@ 63.16
+# scene 065 遺恨発生
+# クラリッジ成瀬
+JP 温厚なウチでも怒るで、ホンマ！
+EN Even a sweetheart like me gets mad, y'know!
+
+@ 64.16
+# scene 065 殴り込み
+# クラリッジ成瀬
+JP ぼてくりまわしたれっ！
+EN Let's knock 'em around!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# クラリッジ成瀬
+JP こんなモン返り討ちや。
+JP ボッコボコにいてこましたる。
+EN We'll send these clowns packin'. I'm gonna beat 'em
+EN black and blue!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# クラリッジ成瀬
+JP どないしたんや。
+JP かかってこんかい！
+EN What's the matter? Bring it on!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# クラリッジ成瀬
+JP 最高の舞台にしてみせる！
+EN I'll make this the greatest stage ever!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# クラリッジ成瀬
+JP みんなありがとー！
+JP ここは最高の舞台や！
+EN Thanks, everybody! This is the greatest stage
+EN there is!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# クラリッジ成瀬
+JP まっ…こんな日もあるって
+JP ことやな…。
+EN Well... guess some days are just like that...
+
+@ 70.13
+# scene 071 引退式
+# クラリッジ成瀬
+JP またサーカスに戻るわ。
+JP タダ券やるから、見に来てな～。
+EN I'm goin' back to the circus. I'll give ya free tickets,
+EN so come see me!
+
+@ 71.17
+# クラリッジ成瀬
+JP なんか用か？
+EN Ya need somethin'?
+
+@ 71.36
+# クラリッジ成瀬
+JP 社長、どないしたん？
+EN What's up, Boss?
+
+@ 71.46
+# クラリッジ成瀬
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.89
+# クラリッジ成瀬
+JP そらもう！
+JP ウチに任せといて！
+EN You bet! Leave it to me!
+
+@ 71.110
+# クラリッジ成瀬
+JP 怪しいなぁ。
+JP …なんか裏でもあるんとちゃうん？
+EN Fishy... Ya got some kinda ulterior motive?
+
+@ 71.131
+# クラリッジ成瀬
+JP も～。
+JP 褒めてもなんもでぇへんで！
+EN Oh, stop. Flattery won't get ya anything!
+
+@ 71.152
+# クラリッジ成瀬
+JP …なんか気持ちがこもってへんなぁ。
+EN ...That didn't sound very heartfelt.
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# クラリッジ成瀬
+JP う～ん…。
+JP もっとがんばらんとアカンかなぁ。
+EN Hmm... Guess I gotta try harder.
+
+@ 71.210
+# クラリッジ成瀬
+JP これ以上、何せぇっちゅーんや。
+EN What more d'ya want from me?
+
+@ 71.231
+# クラリッジ成瀬
+JP なんか社長に言われると
+JP 素直に謝りたくなるな～。
+EN Somehow, when you say it, Boss, it makes me wanna
+EN just apologize.
+
+@ 71.252
+# クラリッジ成瀬
+JP そない言われても
+JP 女にはイロイロあんねんから…。
+EN Even if ya say that, a girl's got her reasons...
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.289
+# クラリッジ成瀬
+JP なんや、元気出たわ！
+JP 社長、おおきにっ！
+EN Hey, I feel better already! Thanks a bunch, Boss!
+
+@ 71.310
+# クラリッジ成瀬
+JP 大丈夫な訳ないやろ。
+JP 見てわからんか？
+EN Course I ain't okay. Can't ya tell?
+
+@ 71.331
+# クラリッジ成瀬
+JP 心配かけてすまんなぁ。
+JP もう大丈夫や。
+EN Sorry for worryin' ya. I'm fine now.
+
+@ 71.352
+# クラリッジ成瀬
+JP ウチ、なんか疲れてしもた…。
+EN I'm just kinda... worn out...
+
+@ 71.366
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# クラリッジ成瀬
+JP ああ、あのこと？
+EN Oh, about that thing?
+
+@ 71.399
+# クラリッジ成瀬
+JP どういうこと？
+EN Whaddya mean?
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# クラリッジ成瀬
+JP しゃーない。
+JP このへんで勘弁しといたる。
+EN Fine, fine. I'll let her off the hook this time.
+
+@ 71.453
+# クラリッジ成瀬
+JP 言うこと聞いたら
+JP いくらかくれるんか？
+EN If I do what ya say, will ya pay me somethin'?
+
+@ 71.474
+# クラリッジ成瀬
+JP 別にケンカなんぞしとらんけど…。
+EN We ain't fightin' or anything...
+
+@ 71.487
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# クラリッジ成瀬
+JP やっぱり、あのこと？
+EN It's about that thing, ain't it?
+
+@ 71.521
+# クラリッジ成瀬
+JP 社長、どないしたん？
+EN What's up, Boss?
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# クラリッジ成瀬
+JP しゃーない。
+JP 社長の顔を立てたる！
+EN Fine, fine. I'll do it for your sake, Boss!
+
+@ 71.577
+# クラリッジ成瀬
+JP そんなん相手次第なんと
+JP ちゃいますか？
+EN Ain't that up to her, though?
+
+@ 71.598
+# クラリッジ成瀬
+JP あの～社長…。
+JP ウチ、どっからツッこんだらええの？
+EN Um, Boss... Where do I even start with that one?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# クラリッジ成瀬
+JP 社長、どないしたん？
+EN What's up, Boss?
+
+@ 72.16
+# クラリッジ成瀬
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# クラリッジ成瀬
+JP そらもう！
+JP ウチに任せといて！
+EN You bet! Leave it to me!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# クラリッジ成瀬
+JP 怪しいなぁ。
+JP …なんか裏でもあるんとちゃうん？
+EN Fishy... Ya got some kinda ulterior motive?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# クラリッジ成瀬
+JP も～。
+JP 褒めてもなんもでぇへんで！
+EN Oh, stop. Flattery won't get ya anything!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# クラリッジ成瀬
+JP …なんか気持ちがこもってへんなぁ。
+EN ...That didn't sound very heartfelt.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# クラリッジ成瀬
+JP う～ん…。
+JP もっとがんばらんとアカンかなぁ。
+EN Hmm... Guess I gotta try harder.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# クラリッジ成瀬
+JP これ以上、何せぇっちゅーんや。
+EN What more d'ya want from me?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# クラリッジ成瀬
+JP なんか社長に言われると、
+JP 素直に謝りたくなるな～。
+EN Somehow, when you say it, Boss, it makes me wanna
+EN just apologize.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# クラリッジ成瀬
+JP そない言われても、
+JP 女にはイロイロあんねんから…。
+EN Even if ya say that, a girl's got her reasons...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# クラリッジ成瀬
+JP なんや、元気出たわ！
+JP 社長、おおきにっ！
+EN Hey, I feel better already! Thanks a bunch, Boss!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# クラリッジ成瀬
+JP 大丈夫な訳ないやろ。
+JP 見てわからんか？
+EN Course I ain't okay. Can't ya tell?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# クラリッジ成瀬
+JP 心配かけてすまんなぁ。
+JP もう大丈夫や。
+EN Sorry for worryin' ya. I'm fine now.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# クラリッジ成瀬
+JP ウチ、なんか疲れてしもた。
+EN I'm just kinda... worn out...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# クラリッジ成瀬
+JP ああ、あのこと？
+EN Oh, about that thing?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# クラリッジ成瀬
+JP どういうこと？
+EN Whaddya mean?
+
+@ 91.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# クラリッジ成瀬
+JP しゃーない。
+JP このへんで勘弁しといたる。
+EN Fine, fine. I'll let her off the hook this time.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# クラリッジ成瀬
+JP 言うこと聞いたら、
+JP いくらかくれるんか？
+EN If I do what ya say, will ya pay me somethin'?
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# クラリッジ成瀬
+JP 別にケンカなんぞしとらんけど…。
+EN We ain't fightin' or anything...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# クラリッジ成瀬
+JP やっぱり、あのこと？
+EN It's about that thing, ain't it?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# クラリッジ成瀬
+JP 社長、どないしたん？
+EN What's up, Boss?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# クラリッジ成瀬
+JP しゃーない。
+JP 社長の顔を立てたる！
+EN Fine, fine. I'll do it for your sake, Boss!
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# クラリッジ成瀬
+JP そんなん相手次第なんと
+JP ちゃいますか？
+EN Ain't that up to her, though?
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# クラリッジ成瀬
+JP あの～社長…。
+JP ウチ、どっからツッこんだらええの？
+EN Um, Boss... Where do I even start with that one?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# クラリッジ成瀬
+JP まあ、こんなもんやろ。
+JP がんばらせてもらうわ。
+EN Well, about what I expected. I'll do my best.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# クラリッジ成瀬
+JP ホンマにこんなにもらってエエの！？
+JP あとでウソやいうても
+JP 聞かへんからな。
+EN I really get this much!? No takin' it back later, ya
+EN hear?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# クラリッジ成瀬
+JP なんやショボイなぁ。
+JP テンション、下がってまうわぁ。
+EN Kinda stingy, ain't it? That's a real downer.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Hmm, the tropics sure are something. The sun's
+EN scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （…んっ、なんだあの人だかり）
+EN (...Hm, what's that crowd over there?)
+
+@ 105.38
+# 社 長
+JP （観光客が集まっているみたいだけど
+JP 　…人が多すぎて見えないぞ）
+EN (Looks like tourists are gathering... but there are
+EN too many people to see.)
+
+@ 105.42
+# ？？？
+JP どーも、どーもー。
+JP まいどおおきにー。
+EN Thank you, thank you! Much obliged, folks!
+
+@ 105.45
+# 社 長
+JP （今の声……成瀬！？）
+EN (That voice... Naruse!?)
+
+@ 105.47
+# 社 長
+JP す、すみません。
+JP ちょっと通してください！
+EN S-sorry, excuse me. Let me through!
+
+@ 105.64
+# クラリッジ成瀬
+JP おっ、社長やん。
+JP 楽しんでるー？
+EN Oh, if it ain't the Boss! Havin' fun?
+
+@ 105.67
+# 社 長
+JP な…何やってるんだ？
+EN Wh... what are you doing?
+
+@ 105.71
+# クラリッジ成瀬
+JP 見てわからんか？
+EN Can't ya tell?
+
+@ 105.74
+# 社 長
+JP いろいろな意味でわからないから
+JP 聞いてるんだが…。
+EN I'm asking because I can't tell, on several levels...
+
+@ 105.78
+# クラリッジ成瀬
+JP 芸や芸。
+JP ちょっと小銭、稼がせてもらお
+JP 思ってな。
+EN A show, a show! Figured I'd earn a little pocket
+EN change.
+
+@ 105.81
+# 社 長
+JP （こ、こんなところにまで来て…。
+JP 　逞しいヤツ…）
+EN (Even all the way out here... She's a tough one...)
+
+@ 105.85
+# クラリッジ成瀬
+JP そや。
+JP せっかくやし
+JP 社長も見ていかへん？
+EN Oh, I know! Since you're here, why not stay and
+EN watch, Boss?
+
+@ 105.89
+# クラリッジ成瀬
+JP もちろん、お代はきちっと
+JP 払ってもらうけどな。
+EN Course, you'll be payin' for it like everybody else.
+
+@ 105.92
+# 社 長
+JP …それはいいが…。
+JP あまり派手なことはするなよ。
+EN ...That's fine, but... don't do anything too crazy.
+
+@ 105.96
+# クラリッジ成瀬
+JP そんなんわかってるて。
+EN I know, I know.
+
+@ 105.100
+# クラリッジ成瀬
+JP よっしゃ！
+JP 社長も見てることやし
+JP ちょっと気張ったろか！
+EN All righty! The Boss is watchin', so I'll really put my
+EN back into it!
+
+@ 105.103
+# 社 長
+JP （成瀬はさらに関節を
+JP 　複雑に曲げていった。
+JP 　大丈夫なのか？）
+EN (Naruse bent her joints into ever more complex
+EN shapes. Is she going to be okay?)
+
+@ 105.117
+# クラリッジ成瀬
+JP ぬおっ！？
+EN Nwoh!?
+
+@ 105.120
+# 社 長
+JP なんだ！？
+JP どうした！？
+EN What!? What's wrong!?
+
+@ 105.124
+# クラリッジ成瀬
+JP 体全体がつってもーた！
+JP とれへん！
+EN My whole body cramped up! I can't get loose!
+
+@ 105.127
+# 社 長
+JP なんだって！？
+EN What!?
+
+@ 105.137
+# クラリッジ成瀬
+JP 社長～、助けてぇ～！
+EN Boooss, heeelp meee!
+
+@ 105.140
+# 社 長
+JP …やれやれ。
+JP ホントに仕方のないやつだな…。
+EN ...Good grief. You really are hopeless...
+
+@ 105.142
+# 社 長
+JP （それはそうと、どうやったら
+JP 　解けるんだ、これ…）
+EN (Anyway, how am I supposed to untangle this...?)
+
+@ 105.146
+# クラリッジ成瀬
+JP ひ、ひひ…ひーん！
+EN Hi-hih... hiiieee!
+
+@ 105.163
+# 社 長
+JP ………………。
+EN ...............
+
+@ 105.165
+# 社 長
+JP （その後、俺は成瀬を病院に
+JP 　連れて行くことになった…）
+EN (After that, I ended up taking Naruse to the
+EN hospital...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、仕事終了！）
+EN (All right, work's done!)
+
+@ 106.26
+# 社 長
+JP （ジムに明かりがついている？）
+EN (The lights are on in the gym?)
+
+@ 106.28
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがないな）
+EN (Someone forgot to turn them off... Oh well.)
+
+@ 106.40
+# 社 長
+JP ………………。
+EN ...............
+
+@ 106.42
+# 社 長
+JP （誰も消して帰らなかったのか。
+JP 　まったく困ったものだな…）
+EN (Nobody turned them off on their way out? What a
+EN pain...)
+
+@ 106.44
+# 社 長
+JP （一応、中の様子だけ
+JP 　確認して帰るか）
+EN (I'd better at least check inside before I go.)
+
+@ 106.51
+# ？？？
+JP 返り討ちや。
+JP ボッコボコにいてこましたるでー！
+EN We'll send ya packin'! I'm gonna beat ya black and
+EN blue!
+
+@ 106.54
+# 社 長
+JP うおっ！？
+JP なんだ！？
+EN Whoa!? What's going on!?
+
+@ 106.78
+# クラリッジ成瀬
+JP ビビってんのかいな！
+JP かかってこんかーい！
+EN Ya scared!? Come on, bring it!
+
+@ 106.81
+# 社 長
+JP おまえ…。
+JP 何してるんだ？
+EN You... What are you doing?
+
+@ 106.91
+# クラリッジ成瀬
+JP あっ、社長やん。
+JP 何してんの？
+EN Oh, it's the Boss. Whatcha doin'?
+
+@ 106.94
+# 社 長
+JP それはこっちの台詞だ。
+JP そっちこそ何してるんだ？
+EN That's my line. What are YOU doing?
+
+@ 106.104
+# クラリッジ成瀬
+JP ウチ？
+JP ウチはマイクパフォーマンスの
+JP 練習や。
+EN Me? I'm practicin' my mic work.
+
+@ 106.107
+# 社 長
+JP マイクパフォーマンス？
+EN Mic work?
+
+@ 106.111
+# クラリッジ成瀬
+JP そや。
+JP 正直、ウチあんまり強ないやろ？
+EN Yep. Truth is, I ain't all that strong, right?
+
+@ 106.114
+# 社 長
+JP ………………。
+EN ...............
+
+@ 106.118
+# クラリッジ成瀬
+JP そやからマイクアピールで
+JP お客さん沸かせたろと思てんねん。
+EN So I figured I'd get the crowd fired up with my mic
+EN skills instead.
+
+@ 106.121
+# 社 長
+JP （なるほどな…。
+JP 　いろいろ考えているのか）
+EN (I see... So she's been thinking about this.)
+
+@ 106.123
+# 社 長
+JP 近所迷惑だからあまり大声出すなよ。
+EN Don't be too loud, you'll bother the neighbors.
+
+@ 106.133
+# クラリッジ成瀬
+JP わかってるてー！
+EN I know, I know!
+
+@ 106.137
+# クラリッジ成瀬
+JP ほな、盛り上がっていこか～！
+EN All right then, let's get this party started!
+
+@ 106.141
+# クラリッジ成瀬
+JP うちの怖さ教えたるから
+JP かかってこんかーい！
+EN I'll show ya what scary really means, so come on,
+EN bring it!
+
+@ 106.144
+# 社 長
+JP （…いや、わかってないだろ）
+EN (...No, you don't know.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （よし、残業終わり！）
+EN (All right, overtime's over!)
+
+@ 107.26
+# 社 長
+JP （これでようやく帰れるな）
+EN (I can finally go home.)
+
+@ 107.28
+# 社 長
+JP （ジムに明かりがついている？）
+EN (The lights are on in the gym?)
+
+@ 107.40
+# 社 長
+JP ………………。
+EN ...............
+
+@ 107.42
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがないな）
+EN (Someone forgot to turn them off... Oh well.)
+
+@ 107.49
+# ？？？
+JP リングの王道はウチが守る！
+JP 赤コーナーからチャンピオンの
+JP 入場やぁ！
+EN I'll defend the true path of the ring! From the red
+EN corner, here comes the champion!
+
+@ 107.52
+# 社 長
+JP うおっ！？
+EN Whoa!?
+
+@ 107.54
+# 社 長
+JP （これって、まさか…）
+EN (Don't tell me...)
+
+@ 107.78
+# クラリッジ成瀬
+JP 挑戦者の奇襲やぁーっ！
+JP こんの、卑怯もーんっ！
+EN A sneak attack from the challenger! Why, you dirty
+EN cheater!
+
+@ 107.81
+# 社 長
+JP 成瀬、またマイクアピールの
+JP 練習か！？
+EN Naruse, practicing your mic work again!?
+
+@ 107.91
+# クラリッジ成瀬
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 107.94
+# 社 長
+JP 今日も練習なのか？
+EN Practicing again today?
+
+@ 107.98
+# クラリッジ成瀬
+JP まっ、練習は練習やけどな。
+JP マイクパフォーマンスの練習とは
+JP ちゃうで。
+EN Well, it's practice, sure. But it ain't mic work
+EN practice.
+
+@ 107.101
+# 社 長
+JP じゃあ、なんなんだ？
+EN Then what is it?
+
+@ 107.105
+# クラリッジ成瀬
+JP 今日はリングアナウンサーの練習や。
+EN Today I'm practicin' bein' a ring announcer.
+
+@ 107.108
+# 社 長
+JP そ、そうなのか…？
+EN O-oh, really...?
+
+@ 107.112
+# クラリッジ成瀬
+JP 入場の選手コールとかやると
+JP お客さん喜んでくれるやろ？
+JP つまりファンサービスの練習やな。
+EN The crowd loves it when ya call the wrestlers'
+EN entrances, right? So it's fan-service practice.
+
+@ 107.115
+# 社 長
+JP （へぇ…。
+JP 　こいつなりに団体の役に
+JP 　立とうと思っているんだな…）
+EN (Huh... In her own way, she's trying to help the
+EN promotion...)
+
+@ 107.117
+# 社 長
+JP しばらく聞いていていいか？
+EN Mind if I listen for a while?
+
+@ 107.121
+# クラリッジ成瀬
+JP ええけど…。
+JP まっ、聞くからには
+JP しっかり聞いたってな。
+EN Sure... But if you're gonna listen, listen good, 'kay?
+
+@ 107.131
+# クラリッジ成瀬
+JP ………スゥ～…。
+EN .........*inhale*...
+
+@ 107.135
+# クラリッジ成瀬
+JP バックドロップや！
+JP 後頭部への衝撃は勘定でけへんで！
+EN A backdrop! The impact to the back of the head is
+EN beyond measure!
+
+@ 107.139
+# クラリッジ成瀬
+JP カウント開始や！
+JP １、２、３！
+EN The count begins! One, two, three!
+
+@ 107.142
+# 社 長
+JP うまいもんだ。
+JP 実際にリングアナウンサーも
+JP やってみるか？
+EN You're pretty good at that. Want to try being a real
+EN ring announcer?
+
+@ 107.152
+# クラリッジ成瀬
+JP ホンマかぁ？　まっ、それはええけど
+JP リングアナウンサーのギャラは
+JP 別にもらうで。
+EN For real? Well, sure, but I'm gettin' paid extra for the
+EN announcin'.
+
+@ 107.155
+# 社 長
+JP ちゃっかりしてるなぁ。
+EN You never miss a trick, do you?
+
+@ 108.17
+# scene 111 練習試合 ベター２
+# クラリッジ成瀬
+JP 相手したる！
+EN I'll take ya on!
+
+@ 109.16
+# scene 113 練習開始
+# クラリッジ成瀬
+JP 芸は日々の努力で
+JP 作られていくモンや。
+EN A good act is built through daily effort.
+
+@ 110.16
+# scene 114 練習開始 好意
+# クラリッジ成瀬
+JP 失敗しても怒らんといてな～。
+EN Don't get mad if I mess up, 'kay?
+
+@ 111.16
+# scene 115 特訓開始
+# クラリッジ成瀬
+JP 特訓、おもろいやないの。
+EN Special trainin'? Sounds fun!
+
+@ 112.20
+# scene 116 特訓成功
+# クラリッジ成瀬
+JP 今のエエ感じやったんとちゃう？
+EN That one felt pretty good, didn't it?
+
+@ 113.20
+# scene 117 特訓失敗
+# クラリッジ成瀬
+JP はぁ…。
+JP 全然アカン…。
+EN Sigh... That was no good at all...
+
+@ 114.16
+# scene 118 休養
+# クラリッジ成瀬
+JP 社長、ナイスタイミング！
+JP ちょうど町に昔の仲間が来てたんや！
+EN Perfect timin', Boss! Some of my old circus pals just
+EN came to town!
+
+@ 115.16
+# scene 119 入場1
+# クラリッジ成瀬
+JP ウチの戦い方
+JP まぶたに焼きつけといてや～！
+EN Burn the way I fight into your eyes!
+
+@ 116.16
+# scene 119 入場2
+# クラリッジ成瀬
+JP これからほんまもんの
+JP エンターテイメントを見せたる！
+EN Now I'll show ya some real entertainment!
+
+@ 117.17
+# scene 122 タッグマッチ ベター２
+# クラリッジ成瀬
+JP 今日は頼むでー！
+EN Countin' on ya today!
+
+@ 118.16
+# scene 125 必殺技１
+# クラリッジ成瀬
+JP ここが勝負の分かれ目や！
+EN This is where it's decided!
+
+@ 119.16
+# scene 125 必殺技２
+# クラリッジ成瀬
+JP 見せたるで！
+JP 最高のパフォーマンスや！
+EN Watch this! The ultimate performance!
+
+@ 120.16
+# scene 125 必殺技３
+# クラリッジ成瀬
+JP チャンス到来やーっ！
+JP めっちゃしばいたるーっ！
+EN Here's my chance! I'm gonna whup ya good!
+
+@ 121.12
+# scene 126 勝利1
+# クラリッジ成瀬
+JP 芸もプロレスも
+JP お客さんを沸かせてこそやな！
+EN Circus acts or wrestling, it's all about gettin' the
+EN crowd fired up!
+
+@ 122.12
+# scene 126 勝利2
+# クラリッジ成瀬
+JP うちの勝ちや！
+JP おひねりよろしゅうな！
+EN I win! Tips are welcome, folks!
+
+@ 123.12
+# scene 126 勝利3
+# クラリッジ成瀬
+JP 今日はこれぐらいで
+JP 勘弁しといたるわ。
+EN I'll let ya off easy today.
+
+@ 124.15
+# scene 133 表彰1
+# クラリッジ成瀬
+JP 社長～。
+JP 副賞、ガメたら許さんからなー！
+EN Boss! If ya pocket my extra prize, I ain't forgivin' ya!
+
+@ 125.15
+# scene 133 表彰2
+# クラリッジ成瀬
+JP 表彰されるなんて
+JP 久しぶりやなぁ…。
+JP おおきにー！
+EN Been a long time since anybody gave me an award...
+EN Thanks a bunch!
+
+@ 126.12
+# scene 134 優勝1
+# クラリッジ成瀬
+JP 誰もウチの強さに
+JP ついて来れんかったっちゅーことやね！
+EN Guess nobody could keep up with how strong I am!
+
+@ 127.12
+# scene 134 優勝２
+# クラリッジ成瀬
+JP お客さ～ん！
+JP ウチの勝つとこ、また見に来てや～！
+EN Hey, everybody! Come back and watch me win again!
+
+@ 128.24
+# scene 135 エンディング 通常
+# クラリッジ成瀬
+JP 社長、お疲れさん！
+JP いやー、がんばってきた甲斐が
+JP あったなぁ。
+EN Good work, Boss! Man, all that hard work sure paid
+EN off.
+
+@ 129.24
+# scene 136 エンディング 好意
+# クラリッジ成瀬
+JP 社長、今まで面倒見てくれて
+JP おおきにな。今度はウチが社長の面倒
+JP みたるからな。
+EN Thanks for lookin' after me all this time, Boss. Now
+EN it's my turn to look after you.

@@ -1,0 +1,2390 @@
+# /SCR/129.BIN - スイレン草薙
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 129` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# スイレン草薙
+JP 草薙と申します。
+JP まだまだ未熟者ですが
+JP よろしくお願いいたします。
+EN My name is Kusanagi. I still have much to learn, but I
+EN humbly ask for your guidance.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# スイレン草薙
+JP ありがとうございます。
+JP がんばって修行します。
+EN Thank you very much. I will devote myself to my
+EN training.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# スイレン草薙
+JP 残念ですが
+JP ご縁がなかったということですね。
+EN What a pity. It seems it simply wasn't meant to be.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ハァ…ハァ……。
+JP いつまで続くんだこの階段…。
+EN Huff... huff... How long do these stairs go on...?
+
+@ 3.25
+# 社 長
+JP スカウトからの報告だと
+JP この上の神社の巫女さんだって
+JP ことだけど…。
+EN According to my scout, she's a shrine maiden at the
+EN shrine up top...
+
+@ 3.27
+# 社 長
+JP ホントに神社なんてあるのか…。
+EN Is there really a shrine up here...?
+
+@ 3.42
+# 社 長
+JP 着いた～…。
+EN Made it...
+
+@ 3.44
+# 社 長
+JP えーと巫女さん、巫女さんっと…。
+EN Okay, a shrine maiden, a shrine maiden...
+
+@ 3.46
+# 社 長
+JP あっ、あの娘に聞いてみるか。
+EN Oh, maybe I'll ask that girl.
+
+@ 3.48
+# 社 長
+JP あの、すみません。
+JP この神社の巫女さんに用があって
+JP 来たんですが…。
+EN Um, excuse me. I'm here to see the shrine maiden of
+EN this shrine...
+
+@ 3.58
+# ？？？
+JP えーと…。
+JP 私がそうですが…。
+EN Um... That would be me...
+
+@ 3.61
+# 社 長
+JP あっ、そうなんですか。
+EN Oh, is that so?
+
+@ 3.63
+# 社 長
+JP （巫女装束じゃないと
+JP 　普通の女の子に見えるな…）
+EN (Out of her shrine robes, she looks like any ordinary
+EN girl...)
+
+@ 3.65
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 3.72
+# スイレン草薙
+JP 格闘技ですか…？
+EN Martial arts...?
+
+@ 3.75
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.82
+# スイレン草薙
+JP 私には護身術程度の
+JP 嗜みしかありませんが…。
+EN I only know a little self-defense, as a pastime...
+
+@ 3.85
+# 社 長
+JP その護身術を
+JP プロレスでいかして欲しいんです。
+EN I'd like you to put that self-defense to use in pro
+EN wrestling.
+
+@ 3.87
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# スイレン草薙
+JP こんな遠い所まで
+JP お越しいただきましたので…。
+JP 私でよろしければ…。
+EN You came all this way to see me... If someone like me
+EN will do...
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# スイレン草薙
+JP まだ未熟者ですが
+JP よろしくお願いいたします。
+EN I still have much to learn, but I humbly ask for your
+EN guidance.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# スイレン草薙
+JP すみません。
+JP 私のような者では
+JP お役に立てないと思います。
+EN I'm sorry. I don't think someone like me would be of
+EN any use to you.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ハァ…ハァ……。
+JP 何度来てもきつい階段だな。
+EN Huff... huff... These stairs never get any easier.
+
+@ 6.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.35
+# スイレン草薙
+JP この前の社長さんですよね？
+JP またいらしたのですか？
+EN You're the president from the other day, aren't
+EN you? You've come again?
+
+@ 6.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.45
+# スイレン草薙
+JP お気持ちは嬉しいのですが…。
+EN I'm grateful for the thought, but...
+
+@ 6.48
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.50
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# スイレン草薙
+JP こんな遠い所まで
+JP お越しいただきましたので…。
+JP 私でよろしければ…。
+EN You came all this way to see me... If someone like me
+EN will do...
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# スイレン草薙
+JP まだ未熟者ですが
+JP よろしくお願いいたします。
+EN I still have much to learn, but I humbly ask for your
+EN guidance.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# スイレン草薙
+JP すみません。
+JP 私のような者では
+JP お役に立てないと思います。
+EN I'm sorry. I don't think someone like me would be of
+EN any use to you.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は草薙選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kusanagi.
+
+@ 9.25
+# 社 長
+JP なんと言っても古武術を取り入れた
+JP 技には華がある。
+EN Above all, her moves, steeped in classical martial
+EN arts, have real flair.
+
+@ 9.27
+# 社 長
+JP うちの団体でもエースになれる
+JP 逸材だ。
+EN She's talented enough to be the ace of my promotion
+EN too.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP 練習しているはずだけど…。
+EN She should be training somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# スイレン草薙
+JP 私に何かご用ですか？
+EN Is there something I can do for you?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.53
+# スイレン草薙
+JP 社長さんの団体に移籍ですか…。
+EN Transfer to your promotion, President...?
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.63
+# スイレン草薙
+JP 今の団体へのご恩もありますし…。
+EN I do owe a debt of gratitude to my current
+EN promotion...
+
+@ 9.66
+# 社 長
+JP うちの団体に
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend your strength to my promotion?
+
+@ 9.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# スイレン草薙
+JP わかりました。
+JP 私でよろしければ…。
+EN Very well. If someone like me will do...
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# スイレン草薙
+JP 不束者ですが
+JP よろしくお願いいたします。
+EN I may be clumsy, but I humbly ask for your guidance.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# スイレン草薙
+JP すみません…。
+JP やはり今の団体は裏切れません。
+EN I'm sorry... I can't betray my current promotion after
+EN all.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 草薙選手が必要だ。
+EN My promotion needs Kusanagi. No doubt about it.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 草薙選手と交渉することにした。
+EN I decided to negotiate with Kusanagi one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# スイレン草薙
+JP 先日の…。
+JP また移籍のお話ですか？
+EN You're the one from the other day... Is this about the
+EN transfer again?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.47
+# スイレン草薙
+JP お話はとてもありがたいのですが…。
+EN I'm very grateful for the offer, but...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# スイレン草薙
+JP わかりました。
+JP 私でよろしければ…。
+EN Very well. If someone like me will do...
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# スイレン草薙
+JP 不束者ですが
+JP よろしくお願いいたします。
+EN I may be clumsy, but I humbly ask for your guidance.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# スイレン草薙
+JP すみません…。
+JP やはり今の団体は裏切れません。
+EN I'm sorry... I can't betray my current promotion after
+EN all.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は草薙選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kusanagi.
+
+@ 15.25
+# 社 長
+JP あの華麗な投げ技で
+JP うちの団体のファンを
+JP 魅了して欲しい。
+EN I want her to captivate our fans with those graceful
+EN throws.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be around here somewhere...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# スイレン草薙
+JP えーと…どちら様でしょうか？
+EN Um... May I ask who you are?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to recruit her.)
+
+@ 15.51
+# スイレン草薙
+JP 社長さんの団体に入って欲しいと…。
+EN You'd like me to join your promotion...
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# スイレン草薙
+JP 私のような者で
+JP お役に立てるかどうか…。
+EN I'm not sure someone like me would be of much use...
+
+@ 15.64
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Is there any way you could lend us your strength?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# スイレン草薙
+JP わかりました。
+JP 私でよろしければ
+JP お手伝いさせていただきます。
+EN Very well. If someone like me will do, I'd be glad to
+EN help.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# スイレン草薙
+JP ええ。
+JP よろしくお願いいたします。
+EN Yes. I humbly ask for your guidance.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# スイレン草薙
+JP 私では力不足だと思いますので…。
+EN I'm afraid I'm not up to the task...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 草薙選手が必要だ。
+EN My promotion needs Kusanagi. No doubt about it.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 草薙選手と交渉することにした。
+EN I decided to negotiate with Kusanagi one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# スイレン草薙
+JP 先日の…。
+JP またいらっしゃったんですか？
+EN You're the one from the other day... You've come
+EN again?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.47
+# スイレン草薙
+JP 私のような者にそこまで…。
+EN Going to such lengths for someone like me...
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# スイレン草薙
+JP わかりました。
+JP 私でよろしければ
+JP お手伝いさせていただきます。
+EN Very well. If someone like me will do, I'd be glad to
+EN help.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# スイレン草薙
+JP ええ。
+JP よろしくお願いいたします。
+EN Yes. I humbly ask for your guidance.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# スイレン草薙
+JP 私では力不足だと思いますので…。
+EN I'm afraid I'm not up to the task...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は草薙を訪ねることにした。
+EN I decided to go see Kusanagi.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler my promotion needs. I'm sure of it.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 草薙っ！
+EN Kusanagi!
+
+@ 21.41
+# スイレン草薙
+JP …社長…？
+EN ...Boss...?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# スイレン草薙
+JP ……………………。
+EN ..............
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you because I
+EN want you to come back...
+
+@ 21.61
+# スイレン草薙
+JP そんな言葉は信じられません。
+EN I can't believe words like that.
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# スイレン草薙
+JP 本気で戻れとおっしゃるんですか？
+EN You truly mean for me to come back?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 22.29
+# スイレン草薙
+JP …わかりました。
+JP もう一度だけ社長を信じてみる
+JP ことにします。
+EN ...Very well. I'll try trusting you one more time, Boss.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# スイレン草薙
+JP 本気でおっしゃっているんですか？
+EN Do you truly mean that?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 23.29
+# スイレン草薙
+JP やはりダメです。
+JP 心の整理がつきません…。
+EN I'm sorry, I can't. My feelings are still too unsettled...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び草薙を訪ねることにした。
+EN I decided to go see Kusanagi again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler my promotion needs. I'm sure of it.
+
+@ 24.27
+# 社 長
+JP 草薙っ！
+EN Kusanagi!
+
+@ 24.37
+# スイレン草薙
+JP …社長っ！
+EN ...Boss!
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+EN I came to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# スイレン草薙
+JP 本気で戻れとおっしゃるんですか？
+EN You truly mean for me to come back?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 25.29
+# スイレン草薙
+JP …わかりました。
+JP もう一度だけ社長を信じてみる
+JP ことにします。
+EN ...Very well. I'll try trusting you one more time, Boss.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# スイレン草薙
+JP 本気でおっしゃっているんですか？
+EN Do you truly mean that?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 26.29
+# スイレン草薙
+JP やはりダメです。
+JP 心の整理がつきません…。
+EN I'm sorry, I can't. My feelings are still too unsettled...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# スイレン草薙
+JP かすり傷ですから…。
+EN It's only a scratch...
+
+@ 28.16
+# scene 029 ケガ大
+# スイレン草薙
+JP すみません…。
+JP こんな大事なときに…。
+EN I'm sorry... At such an important time...
+
+@ 29.16
+# scene 030 入院
+# スイレン草薙
+JP 少し休息をとってきます…。
+EN I'll go take a little rest...
+
+@ 30.16
+# scene 031 退院
+# スイレン草薙
+JP 今日から練習に戻りますね。
+EN I'll be returning to training today.
+
+@ 31.16
+# scene 032 ケガ完治
+# スイレン草薙
+JP もう大丈夫です。
+EN I'm all better now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# スイレン草薙
+JP 社長がそうおっしゃるなら
+JP 身を引くことにします…。
+EN If that is your wish, Boss, I shall step aside...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# スイレン草薙
+JP 引き際は心得ているつもりです。
+EN I believe I know when it is time to bow out.
+
+@ 34.16
+# scene 035 コーチ就任
+# スイレン草薙
+JP 少しでもみなさんの
+JP 手助けをしたいと思います。
+EN I'd like to help everyone, even if only a little.
+
+@ 35.16
+# scene 036 ケガ引退
+# スイレン草薙
+JP もう体が言うことを
+JP 聞いてくれないようです…。
+EN It seems my body won't listen to me anymore...
+
+@ 36.16
+# scene 037 年齢引退
+# スイレン草薙
+JP そろそろ潮時のようですね…。
+EN It seems the time has come to step down...
+
+@ 37.16
+# scene 038 退団
+# スイレン草薙
+JP お世話になりました…。
+EN Thank you for everything you've done for me...
+
+@ 38.16
+# scene 039 スランプ
+# スイレン草薙
+JP …機械は…嫌いです…。
+EN ...I... don't like machines...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# スイレン草薙
+JP 私の…ファンクラブですか？
+EN My... fan club?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Keep at it, and live up to all that support.
+
+@ 39.26
+# スイレン草薙
+JP ええ。
+JP 励みにします。
+EN Yes. It will encourage me.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# スイレン草薙
+JP またファンクラブが
+JP できたのでしょうか？
+EN Has another fan club been formed?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their hopes.
+
+@ 40.26
+# スイレン草薙
+JP そうですね。
+JP 一生懸命修練します。
+EN Indeed. I will train with all my heart.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# スイレン草薙
+JP まだまだ未熟だったという
+JP ことですね。
+EN It means I still had much to learn.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.26
+# スイレン草薙
+JP そうですね。
+JP いっそう励みます。
+EN Indeed. I will work all the harder.
+
+@ 42.16
+# scene 043 映画出演
+# スイレン草薙
+JP 緊張しますね。
+JP 一生懸命セリフを覚えないと…。
+EN I'm nervous. I'll have to work hard to memorize my
+EN lines...
+
+@ 43.16
+# scene 044 一日署長
+# スイレン草薙
+JP 私でお力になれるなら
+JP がんばってきます。
+EN If I can be of help, I'll do my best.
+
+@ 44.16
+# scene 045 写真集発売
+# スイレン草薙
+JP …は、肌を見せないと
+JP いけないのでしょうか…？
+EN ...D-do I have to show skin...?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# スイレン草薙
+JP …電化製品ではありませんよね…？
+EN ...It isn't for an electrical appliance, is it...?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# スイレン草薙
+JP …ＣＤとは、あの銀色の円盤の
+JP ことでしょうか？
+EN ...A CD... You mean one of those silver discs?
+
+@ 47.16
+# scene 048 始球式
+# スイレン草薙
+JP 野球の練習もしないといけませんね。
+EN I suppose I'll need to practice baseball, too.
+
+@ 48.16
+# scene 049 学園祭
+# スイレン草薙
+JP 舞踊を披露すれば
+JP よろしいのでしょうか？
+EN Would it be all right if I performed a dance?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.35
+# スイレン草薙
+JP …社長！？
+EN ...Boss!?
+
+@ 49.38
+# 社 長
+JP これからもよろしくな。
+EN Thanks for everything, and here's to more.
+
+@ 49.45
+# スイレン草薙
+JP あ、ありがとうございます…。
+JP ずっと大事にします…。
+EN Th-thank you very much... I'll treasure it always...
+
+@ 50.32
+# scene 051 バレンタインデー
+# スイレン草薙
+JP あっ、あの社長、これを…。
+JP バレンタインという風習があるという
+JP ことでしたので…。
+EN Ah, um, Boss, this is for you... I was told there's a
+EN custom called Valentine's...
+
+@ 50.35
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thank you.
+
+@ 50.39
+# スイレン草薙
+JP あっ、いえ…。
+JP はしたなくてすみません…。
+EN Ah, no... Forgive me for being so forward...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# スイレン草薙
+JP あっ、ありがとうございます…。
+JP これで婚約の儀が成立ですね…。
+EN Ah, thank you very much... With this, our betrothal
+EN rite is complete...
+
+@ 51.41
+# 社 長
+JP あっ、いや…。
+JP そんなに重く受け止めないでくれ…。
+EN Ah, no, wait... Please don't take it so seriously...
+
+@ 52.31
+# scene 053 サイン会
+# スイレン草薙
+JP 応援ありがとうございます。
+EN Thank you for your support.
+
+@ 53.31
+# scene 054 コンサート
+# スイレン草薙
+JP 歌は不得手なのですが…。
+EN Singing isn't my strong point, but...
+
+@ 54.28
+# scene 055 練習拒否
+# スイレン草薙
+JP 今日はお休みさせてください…。
+EN Please let me rest today...
+
+@ 55.28
+# scene 056 失踪
+# スイレン草薙
+JP 故郷に帰りたい…。
+EN I want to go home...
+
+@ 56.16
+# scene 057 選手解雇
+# スイレン草薙
+JP お役に立てず残念です…。
+EN I'm sorry I couldn't be of use...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# スイレン草薙
+JP 社長…。
+JP 飛行機の乗り方を教えてもらって
+JP いいですか…？
+EN Boss... Would you mind teaching me how to ride an
+EN airplane...?
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# スイレン草薙
+JP これで飛行機には
+JP 乗れるようになりました。
+EN Now I can ride airplanes.
+
+@ 59.28
+# scene 060 移籍思案
+# スイレン草薙
+JP 私は団体を裏切ろうとしている…？
+EN Am I about to betray the promotion...?
+
+@ 60.16
+# scene 061 革命軍結成
+# スイレン草薙
+JP 今こそ過ちを正すときです！
+EN Now is the time to set wrongs right!
+
+@ 61.16
+# scene 062 反乱軍結成
+# スイレン草薙
+JP 今こそ濁った水は取り替えましょう！
+EN Now is the time to replace these muddied waters!
+
+@ 62.16
+# scene 063 最終決戦要求
+# スイレン草薙
+JP すべての決着をつけましょう！
+EN Let us settle everything!
+
+@ 63.16
+# scene 065 遺恨発生
+# スイレン草薙
+JP …我慢にも限界があります。
+EN ...Even my patience has its limits.
+
+@ 64.16
+# scene 065 殴り込み
+# スイレン草薙
+JP 私が先陣を務めます。
+EN I will lead the charge.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# スイレン草薙
+JP 私が団体の盾になります。
+EN I will be the promotion's shield.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# スイレン草薙
+JP 私と戦う勇気のある人は
+JP 名乗り出なさい！
+EN Whoever has the courage to face me, step forward!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# スイレン草薙
+JP これまでの修練の成果を
+JP 発揮するときが来たようですね。
+EN It seems the time has come to show the fruits of my
+EN training.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# スイレン草薙
+JP これまでの修練の賜物です。
+EN This is the reward of all my training.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# スイレン草薙
+JP まだまだ未熟だったという
+JP ことですね…。
+EN It means I still had much to learn...
+
+@ 70.13
+# scene 071 引退式
+# スイレン草薙
+JP 私が…ここまで来られたのも
+JP みなさんの応援のおかげでした。
+JP ありがとうございました。
+EN That I... made it this far is all thanks to your support.
+EN Thank you so very much.
+
+@ 71.18
+# スイレン草薙
+JP お呼びでしょうか？
+EN You called for me?
+
+@ 71.37
+# スイレン草薙
+JP 社長、お呼びですか？
+EN Boss, you called for me?
+
+@ 71.47
+# スイレン草薙
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems like you've been in great shape lately. Keep it
+EN up!
+
+@ 71.91
+# スイレン草薙
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 71.112
+# スイレン草薙
+JP …ええ。
+EN ...Yes.
+
+@ 71.133
+# スイレン草薙
+JP 嬉しいです。
+EN I'm happy to hear it.
+
+@ 71.154
+# スイレン草薙
+JP …ええ。
+JP そうですね。
+EN ...Yes. I suppose so.
+
+@ 71.167
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.191
+# スイレン草薙
+JP すみません…。
+EN I'm sorry...
+
+@ 71.212
+# スイレン草薙
+JP そんなっ…！
+EN That's not...!
+
+@ 71.233
+# スイレン草薙
+JP 社長のおっしゃる通りかも
+JP しれません…。
+JP 気をつけます…。
+EN You may be right, Boss... I'll be careful...
+
+@ 71.254
+# スイレン草薙
+JP 社長、そんなことはっ…！
+EN Boss, that's not true...!
+
+@ 71.267
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed a little down lately. Are you okay?
+
+@ 71.291
+# スイレン草薙
+JP 大丈夫です。
+JP ご心配をおかけしてすみません。
+EN I'm fine. I'm sorry to have worried you.
+
+@ 71.312
+# スイレン草薙
+JP ご心配には及びません。
+EN There's no need to worry about me.
+
+@ 71.333
+# スイレン草薙
+JP そう言っていただくだけで
+JP 元気が出ます。
+EN Just hearing you say that cheers me up.
+
+@ 71.354
+# スイレン草薙
+JP 少し疲れが出ただけですから…。
+EN I'm just a little tired, that's all...
+
+@ 71.368
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.384
+# スイレン草薙
+JP ええ、なんとなくですが…。
+EN Yes, I have some idea...
+
+@ 71.401
+# スイレン草薙
+JP なんでしょう？
+EN What is it?
+
+@ 71.412
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.434
+# スイレン草薙
+JP わかりました。
+JP 少し大人気なかったですね。
+EN Very well. I was being a little childish.
+
+@ 71.455
+# スイレン草薙
+JP 社長のお言葉でも従えません…。
+EN Even at your word, I cannot obey...
+
+@ 71.476
+# スイレン草薙
+JP 社長…？
+JP 何をおっしゃっているのか意味が…。
+EN Boss...? I'm afraid I don't follow...
+
+@ 71.489
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.506
+# スイレン草薙
+JP そうですね。
+JP なんとなく予想は…。
+EN Yes. I have some idea...
+
+@ 71.523
+# スイレン草薙
+JP えーと…。
+JP なんでしょうか？
+EN Um... What might it be?
+
+@ 71.536
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.558
+# スイレン草薙
+JP 社長にお願いされたら
+JP お断りできませんね。
+EN If you ask it of me, Boss, I can't refuse.
+
+@ 71.579
+# スイレン草薙
+JP 社長のお言葉でも
+JP こればかりは…。
+EN Even at your word, Boss, this is one thing I can't...
+
+@ 71.600
+# スイレン草薙
+JP …社長…？
+JP 誰かとお間違いではないですか？
+EN ...Boss...? Aren't you mistaking me for someone else?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# スイレン草薙
+JP 社長、お呼びですか？
+EN Boss, you called for me?
+
+@ 72.16
+# スイレン草薙
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems like you've been in great shape lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# スイレン草薙
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# スイレン草薙
+JP …ええ。
+EN ...Yes.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# スイレン草薙
+JP 嬉しいです。
+EN I'm happy to hear it.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# スイレン草薙
+JP …ええ。
+JP そうですね。
+EN ...Yes. I suppose so.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# スイレン草薙
+JP すみません…。
+EN I'm sorry...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# スイレン草薙
+JP そんなっ…！
+EN That's not...!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# スイレン草薙
+JP 社長のおっしゃる通りかも
+JP しれません…。気をつけます…。
+EN You may be right, Boss... I'll be careful...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# スイレン草薙
+JP 社長、そんなことはっ…！
+EN Boss, that's not true...!
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed a little down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# スイレン草薙
+JP 大丈夫です。
+JP ご心配をおかけしてすみません。
+EN I'm fine. I'm sorry to have worried you.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# スイレン草薙
+JP ご心配には及びません。
+EN There's no need to worry about me.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# スイレン草薙
+JP そう言っていただくだけで…
+JP 元気が出ます。
+EN Just hearing you say that cheers me up.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# スイレン草薙
+JP 少し疲れが出ただけですから…。
+EN I'm just a little tired, that's all...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# スイレン草薙
+JP ええ、なんとなくですが…。
+EN Yes, I have some idea...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# スイレン草薙
+JP なんでしょう？
+EN What is it?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# スイレン草薙
+JP わかりました。
+JP 少し大人気なかったですね。
+EN Very well. I was being a little childish.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# スイレン草薙
+JP 社長のお言葉でも従えません…。
+EN Even at your word, I cannot obey...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# スイレン草薙
+JP 社長、何をおっしゃって
+JP いるのか意味が…。
+EN Boss, I'm afraid I don't follow...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# スイレン草薙
+JP そうですね。
+JP なんとなく予想は…。
+EN Yes. I have some idea...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# スイレン草薙
+JP えーと…。
+JP なんでしょうか？
+EN Um... What might it be?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# スイレン草薙
+JP 社長にお願いされたら、
+JP お断りできませんね。
+EN If you ask it of me, Boss, I can't refuse.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# スイレン草薙
+JP 社長のお言葉でも、こればかりは…。
+EN Even at your word, Boss, this is one thing I can't...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# スイレン草薙
+JP …社長、誰かとお間違い
+JP ではないですか？
+EN ...Boss, aren't you mistaking me for someone else?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# スイレン草薙
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# スイレン草薙
+JP 社長の選手を想う心が
+JP 伝わってきます…。
+EN I can feel how much you care for your wrestlers,
+EN Boss...
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# スイレン草薙
+JP これが社長の評価
+JP ということですね…。
+EN So this is how you rate me, Boss...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived at a tropical island.)
+
+@ 105.34
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN blazing.)
+
+@ 105.36
+# 社 長
+JP （さて、まずは荷物を置いて
+JP 　水着に着替えないと…）
+EN (Okay, first I should drop off my bags and change
+EN into my swimsuit...)
+
+@ 105.51
+# 社 長
+JP （いつも思うが
+JP 　着替えとかになると
+JP 　ちょっと寂しいものがあるな）
+EN (I always think this, but when it's time to change, it
+EN gets a little lonely.)
+
+@ 105.53
+# 社 長
+JP （みんなはもう、海に出たかな）
+EN (I wonder if everyone's already out at the beach.)
+
+@ 105.55
+# 社 長
+JP （ホテルの更衣室から出たところで
+JP 　声をかけられた）
+EN (As I stepped out of the hotel changing room,
+EN someone called out to me.)
+
+@ 105.59
+# ？？？
+JP しゃ、社長…？
+EN B-Boss...?
+
+@ 105.62
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 105.78
+# 社 長
+JP （ふり返った俺は言葉を失った）
+EN (I turned around and was left speechless.)
+
+@ 105.80
+# 社 長
+JP （草薙が女子更衣室から半身を
+JP 　出してこちらを伺っている）
+EN (Kusanagi was leaning halfway out of the women's
+EN changing room, peeking at me.)
+
+@ 105.82
+# 社 長
+JP （のはいいのだが
+JP 　体にタオルを巻いているだけの
+JP 　格好だ…）
+EN (Which would be fine, except all she had on was a
+EN towel wrapped around her...)
+
+@ 105.84
+# 社 長
+JP 何やってるんだ？
+JP そんな格好で…。
+EN What are you doing dressed like that...?
+
+@ 105.86
+# 社 長
+JP ちゃんと着替えて更衣室から出ろ。
+EN Get changed properly before you come out.
+
+@ 105.90
+# スイレン草薙
+JP しゃ、社長こそ…。
+JP なんで履いているのですか？
+EN B-Boss, what about you...? Why are you wearing
+EN those?
+
+@ 105.93
+# 社 長
+JP …なんで？
+EN ...Why?
+
+@ 105.95
+# 社 長
+JP …履いている？
+EN ...Wearing?
+
+@ 105.97
+# 社 長
+JP （草薙の視線を追っていくと…。
+JP 　その先にあるのは俺の海水パンツ）
+EN (I followed Kusanagi's gaze... and at the end of it
+EN were my swim trunks.)
+
+@ 105.99
+# 社 長
+JP （何か変なのか？）
+EN (Is something wrong with them?)
+
+@ 105.101
+# 社 長
+JP （自分の海パンを見下ろしてみるが
+JP 　どこにも変なところはない）
+EN (I looked down at my trunks, but there was nothing
+EN strange about them.)
+
+@ 105.103
+# 社 長
+JP どこかおかしいか？
+EN Is something wrong?
+
+@ 105.107
+# スイレン草薙
+JP いえ…。
+JP その…履いていること
+JP そのものが…おかしいのでは…。
+EN No... It's just... Isn't wearing them at all... the
+EN problem...?
+
+@ 105.110
+# 社 長
+JP いや、訳わからん。
+EN Okay, you've lost me.
+
+@ 105.112
+# 社 長
+JP 海パンを履いていることの
+JP どこがおかしいんだ？
+EN What's wrong with wearing swim trunks?
+
+@ 105.116
+# スイレン草薙
+JP あの…だって…。
+JP ここはヌーディスト・ビーチ
+JP なのでしょう？
+EN Um... Well... This is a nudist beach, isn't it?
+
+@ 105.119
+# 社 長
+JP …はぁ？
+EN ...Huh?
+
+@ 105.123
+# スイレン草薙
+JP 私も抵抗ありますけれど…。
+JP その…郷に入っては郷に従えと
+JP 申しますし…。
+EN I'm not comfortable with it either... But, well, they do
+EN say "When in Rome, do as the Romans do"...
+
+@ 105.126
+# 社 長
+JP 待て…。
+EN Hold on...
+
+@ 105.128
+# 社 長
+JP ちょっと待て。
+JP どこからそんな話になった？
+JP 俺は初耳だぞ。
+EN Hold on a second. Where did you get that idea? This
+EN is the first I've heard of it.
+
+@ 105.138
+# スイレン草薙
+JP …えっ？
+JP だって…。
+EN ...Eh? But...
+
+@ 105.150
+# 社 長
+JP （話を聞くと、移動中の話題で
+JP 　ヌーディスト・ビーチの話が
+JP 　出たらしく…）
+EN (When I asked, it seemed nudist beaches had come up
+EN in conversation on the way here...)
+
+@ 105.152
+# 社 長
+JP （どこからか、ここがその
+JP 　ヌーディスト・ビーチだという
+JP 　話にすり替わってしまったらしい）
+EN (And somewhere along the way, it got twisted into
+EN this being one.)
+
+@ 105.162
+# スイレン草薙
+JP ですから…社長も……。
+JP その…水着は礼儀に反するかと…。
+EN So... Boss, you too... Um... I thought a swimsuit would
+EN be bad manners...
+
+@ 105.164
+# 社 長
+JP 待て待て！
+JP おまえは勘違いしている！
+EN Wait, wait! You've got it all wrong!
+
+@ 105.168
+# スイレン草薙
+JP …えっ？
+EN ...Eh?
+
+@ 105.171
+# 社 長
+JP ここはヌーディストビーチではない！
+EN This is NOT a nudist beach!
+
+@ 105.181
+# スイレン草薙
+JP …ええっ！？
+EN ...Whaaat!?
+
+@ 105.184
+# 社 長
+JP 勘違いをするな。
+JP ここは普通のビーチだ。
+JP 裸で出て行ったら逆に捕まるぞ。
+EN Don't get the wrong idea. This is a normal beach. If
+EN you went out naked, you'd get arrested.
+
+@ 105.194
+# スイレン草薙
+JP そんな…！
+JP なんてこと…。
+EN Oh no...! How dreadful...
+
+@ 105.197
+# 社 長
+JP とにかく先に気づけて良かった。
+JP 外に出ていたら手遅れだった。
+EN Anyway, good thing we caught this. If you'd gone
+EN out, it would've been too late.
+
+@ 105.201
+# スイレン草薙
+JP あの…。
+JP それでしたら…すでに手遅れに…。
+EN Um... In that case... it's already too late...
+
+@ 105.204
+# 社 長
+JP …なに？
+EN ...What?
+
+@ 105.208
+# スイレン草薙
+JP すでに何人か…。
+JP 浜辺の方に…。
+EN Several of the others already... went down to the
+EN beach...
+
+@ 105.211
+# 社 長
+JP なんだとぉっ！？
+EN WHAAAT!?
+
+@ 105.213
+# 社 長
+JP （その直後）
+EN (Right after that...)
+
+@ 105.225
+# 社 長
+JP （浜辺の方から盛大な悲鳴が
+JP 　聞こえてきたりした）
+EN (A tremendous chorus of screams rang out from the
+EN beach.)
+
+@ 105.227
+# 社 長
+JP （どうフォローしよう…）
+EN (How am I going to smooth this over...)
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP （それは夜に仕事をしていた
+JP 　ときのこと…）
+EN (It happened one night while I was working...)
+
+@ 106.38
+# ？？？
+JP きゃ―――――っ！
+EN Kyaaaaaaah!
+
+@ 106.41
+# 社 長
+JP （何かが爆発したような音と
+JP 　悲鳴が聞こえてきた）
+EN (I heard something like an explosion, followed by a
+EN scream.)
+
+@ 106.43
+# 社 長
+JP な、なんだ！？
+JP 何が起こった！？
+EN Wh-what was that!? What happened!?
+
+@ 106.55
+# 社 長
+JP （慌てて飛び出す俺。
+JP 　悲鳴が聞こえてきたのは…）
+EN (I rushed out. The scream had come from...)
+
+@ 106.57
+# 社 長
+JP たぶんキッチンだな！
+EN The kitchen, probably!
+
+@ 106.59
+# 社 長
+JP （俺が駆けつけると…）
+EN (When I got there...)
+
+@ 106.79
+# 社 長
+JP （そこには料理にまみれた
+JP 　草薙の姿があった）
+EN (There stood Kusanagi, covered in food.)
+
+@ 106.83
+# スイレン草薙
+JP はわ…はわわわ……。
+EN Hawa... hawawawa...
+
+@ 106.86
+# 社 長
+JP どうした？
+JP 何があった？
+JP ケガはないか！？
+EN What happened? Are you okay? Are you hurt!?
+
+@ 106.90
+# スイレン草薙
+JP わ…わ…わ、私……。
+EN I... I... I-I...
+
+@ 106.93
+# 社 長
+JP （どうやらケガはないようだ）
+EN (She didn't seem to be hurt.)
+
+@ 106.97
+# スイレン草薙
+JP りょ…料理を作ろうと……。
+EN I w-was trying to cook...
+
+@ 106.100
+# 社 長
+JP …料理？
+EN ...Cook?
+
+@ 106.104
+# スイレン草薙
+JP 社長が残業をしていると
+JP 聞いたので…そのっ……。
+EN I heard you were working late, Boss... so, um...
+
+@ 106.108
+# スイレン草薙
+JP 差し入れを作ろうと…。
+JP それで…そのっ、で…。
+EN I wanted to make you something to eat... And then...
+EN um, s-so...
+
+@ 106.111
+# 社 長
+JP …で？
+EN ...So?
+
+@ 106.115
+# スイレン草薙
+JP 夜食には電子レンジが便利と
+JP 聞いたものでっ…！
+EN I heard a microwave is handy for late-night
+EN snacks...!
+
+@ 106.118
+# 社 長
+JP あぁ…。
+EN Ahh...
+
+@ 106.120
+# 社 長
+JP （そうか、電子レンジか）
+EN (I see. The microwave.)
+
+@ 106.122
+# 社 長
+JP （こいつは…草薙は…）
+EN (She... Kusanagi is...)
+
+@ 106.124
+# 社 長
+JP （知る人ぞ知る
+JP 　電化製品クラッシャーだ）
+EN (...a notorious destroyer of appliances, to those in
+EN the know.)
+
+@ 106.126
+# 社 長
+JP （当人にその気はないのだが
+JP 　とにかく機械を壊す）
+EN (She doesn't mean to, but machines just break
+EN around her.)
+
+@ 106.128
+# 社 長
+JP （わざとじゃないかと
+JP 　思えるくらいに壊す…）
+EN (So thoroughly you'd think she did it on purpose...)
+
+@ 106.130
+# 社 長
+JP （いや、わざとやれる範囲を
+JP 　超越して壊す…）
+EN (No, more thoroughly than anyone could on
+EN purpose...)
+
+@ 106.132
+# 社 長
+JP （草薙＋電子レンジという
+JP 　組み合わせを聞いた途端に
+JP 　俺はすべてを察した）
+EN (The moment I heard "Kusanagi" and "microwave"
+EN together, I understood everything.)
+
+@ 106.136
+# スイレン草薙
+JP うぅ…。
+JP なぜ……。
+EN Uuu... Why...
+
+@ 106.139
+# 社 長
+JP 草薙…。
+EN Kusanagi...
+
+@ 106.143
+# スイレン草薙
+JP な、なんでしょう？
+EN Y-yes?
+
+@ 106.146
+# 社 長
+JP 気持はありがたい。
+JP しかし、無茶はするな…。
+EN I appreciate the thought. But don't push yourself...
+
+@ 106.150
+# スイレン草薙
+JP で、でも…。
+EN B-but...
+
+@ 106.153
+# 社 長
+JP いいから無茶をするな。
+EN Just don't push yourself, okay?
+
+@ 106.157
+# スイレン草薙
+JP はい…。
+EN Yes...
+
+@ 106.160
+# 社 長
+JP （しかし、電子レンジで
+JP 　こうまで惨状を演出できるものか）
+EN (Still, who knew a microwave could make such a
+EN disaster?)
+
+@ 106.162
+# 社 長
+JP （片付けが大変そうだな…）
+EN (Cleaning this up is going to be rough...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （それは夜に仕事をしていた
+JP 　ときのこと…）
+EN (It happened one night while I was working...)
+
+@ 107.42
+# ？？？
+JP きゃ―――――っ！
+EN Kyaaaaaaah!
+
+@ 107.45
+# 社 長
+JP （何かが爆発したような音と
+JP 　悲鳴が聞こえてきた）
+EN (I heard something like an explosion, followed by a
+EN scream.)
+
+@ 107.47
+# 社 長
+JP な、なんだ！？
+EN Wh-what was that!?
+
+@ 107.49
+# 社 長
+JP （慌てて立ち上がるが…）
+EN (I jumped to my feet, but...)
+
+@ 107.51
+# 社 長
+JP なんだじゃないな…。
+JP また、か…。
+EN What was that, indeed... Again, huh...
+
+@ 107.53
+# 社 長
+JP （うちの団体で、あんな爆発音を
+JP 　起こすのは一人しかいない）
+EN (Only one person in my promotion can make an
+EN explosion like that.)
+
+@ 107.55
+# 社 長
+JP 大丈夫だとは思うが…。
+EN I'm sure she's fine, but...
+
+@ 107.67
+# 社 長
+JP （ケガをしていないか心配で
+JP 　俺はキッチンへと向かった）
+EN (Worried she might be hurt, I headed for the kitchen.)
+
+@ 107.83
+# 社 長
+JP やっぱりおまえか…。
+EN I knew it was you...
+
+@ 107.87
+# スイレン草薙
+JP …あっ、社長。
+EN ...Ah, Boss.
+
+@ 107.90
+# 社 長
+JP ……料理か？
+EN ...Cooking?
+
+@ 107.94
+# スイレン草薙
+JP はい…。
+JP うまくできました。
+EN Yes... It turned out well.
+
+@ 107.97
+# 社 長
+JP …うまく？
+EN ...Well?
+
+@ 107.101
+# スイレン草薙
+JP はい！
+EN Yes!
+
+@ 107.104
+# 社 長
+JP （笑顔で言い切られた）
+EN (She declared it with a smile.)
+
+@ 107.108
+# スイレン草薙
+JP 社長が残業していると聞いて
+JP 差し入れを作ってみました。
+EN I heard you were working late, so I made you
+EN something to eat.
+
+@ 107.111
+# 社 長
+JP そうか…。
+JP ありがとう。
+EN I see... Thank you.
+
+@ 107.115
+# スイレン草薙
+JP 最近は電子レンジも
+JP 使えるようになったんです。
+EN I've learned to use the microwave lately, you know.
+
+@ 107.118
+# 社 長
+JP （毎回電子レンジが壊れるのを
+JP 　使えると言うのか…）
+EN (You call breaking the microwave every single time
+EN "using" it...?)
+
+@ 107.120
+# 社 長
+JP （そう言いたくなったが…）
+EN (I wanted to say that, but...)
+
+@ 107.124
+# スイレン草薙
+JP 出来立てですよ。
+EN It's fresh out of the oven.
+
+@ 107.127
+# 社 長
+JP （彼女の笑顔に
+JP 　何も言えなくなってしまった）
+EN (Faced with her smile, I couldn't say a thing.)
+
+@ 107.129
+# 社 長
+JP ありがたく、いただくよ。
+EN I'll gratefully dig in.
+
+@ 107.133
+# スイレン草薙
+JP はい…！
+EN Okay...!
+
+@ 107.136
+# 社 長
+JP （高いメシだなぁ…）
+EN (This is one expensive meal...)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# スイレン草薙
+JP 神威流との手合わせ
+JP 楽しみです。
+EN I'm looking forward to crossing hands with the Kamui
+EN style.
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# スイレン草薙
+JP 色物のつもりはないのですが…。
+EN I don't mean to be a novelty act, but...
+
+@ 110.17
+# scene 112 練習試合 バッド
+# スイレン草薙
+JP あなたの災厄
+JP 打ち破ってみせます！
+EN I will break your curse!
+
+@ 111.16
+# scene 113 練習開始
+# スイレン草薙
+JP 本日もよろしくお願いいたします。
+EN I humbly ask for your guidance again today.
+
+@ 112.16
+# scene 114 練習開始 好意
+# スイレン草薙
+JP 今日の練習は少し楽しみです…。
+EN I'm looking forward to training today, a little...
+
+@ 113.16
+# scene 115 特訓開始
+# スイレン草薙
+JP 全力を尽くします。
+EN I'll give it everything I have.
+
+@ 114.20
+# scene 116 特訓成功
+# スイレン草薙
+JP 良い特訓ができたようです。
+EN That seems to have been good training.
+
+@ 115.20
+# scene 117 特訓失敗
+# スイレン草薙
+JP 修行がたりないようです…。
+EN It seems my training is lacking...
+
+@ 116.16
+# scene 118 休養
+# スイレン草薙
+JP 自然の中で体を清めてきます。
+EN I'll go purify my body in nature.
+
+@ 117.16
+# scene 119 入場1
+# スイレン草薙
+JP ここに修羅の道を刻みましょう。
+EN Let us carve the path of carnage here.
+
+@ 118.16
+# scene 119 入場2
+# スイレン草薙
+JP お手柔らかにお願いします。
+EN Please go easy on me.
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# スイレン草薙
+JP 背中はお任せします！
+EN I'm trusting you with my back!
+
+@ 120.17
+# scene 122 タッグマッチ ベター２
+# スイレン草薙
+JP 私たちを侮ると後悔しますよ。
+EN Underestimate us and you'll regret it.
+
+@ 121.17
+# scene 123 タッグマッチ バッド
+# スイレン草薙
+JP 暴走しないでくださいね。
+EN Please don't go out of control.
+
+@ 122.16
+# scene 125 必殺技１
+# スイレン草薙
+JP 草薙流の神髄、
+JP 今こそお見せしましょう！
+EN The essence of Kusanagi-ryu... Now I shall show
+EN you!
+
+@ 123.16
+# scene 125 必殺技２
+# スイレン草薙
+JP これが破邪の一撃です！
+EN This is the strike that crushes evil!
+
+@ 124.16
+# scene 125 必殺技３
+# スイレン草薙
+JP 我が奥義受けてみなさい！
+EN Taste my secret art!
+
+@ 125.12
+# scene 126 勝利1
+# スイレン草薙
+JP なんとか勝てたようですね。
+EN It seems I managed to win.
+
+@ 126.12
+# scene 126 勝利2
+# スイレン草薙
+JP まだまだ修行がたりませんね。
+EN My training is still lacking.
+
+@ 127.12
+# scene 126 勝利3
+# スイレン草薙
+JP 立ちはだかる者に容赦はしません。
+EN I show no mercy to those who stand in my way.
+
+@ 128.15
+# scene 133 表彰1
+# スイレン草薙
+JP ありがとうございます。
+JP いっそう修行に励みます。
+EN Thank you very much. I will work even harder at my
+EN training.
+
+@ 129.15
+# scene 133 表彰2
+# スイレン草薙
+JP 今後の励みにしたいと思います。
+EN It will be an encouragement to me from here on.
+
+@ 130.12
+# scene 134 優勝1
+# スイレン草薙
+JP これも日頃の修練の賜物ですね。
+EN This, too, is the fruit of daily training.
+
+@ 131.12
+# scene 134 優勝２
+# スイレン草薙
+JP 日頃の修行の成果が
+JP 出せたようですね。
+EN It seems my daily training paid off.
+
+@ 132.24
+# scene 135 エンディング 通常
+# スイレン草薙
+JP 社長、おめでとうございます。
+JP 私も団体の巫女としてのお務めが
+JP できてほっとしました。
+EN Congratulations, Boss. I'm relieved I could fulfill my
+EN duty as the promotion's shrine maiden.
+
+@ 133.24
+# scene 136 エンディング 好意
+# スイレン草薙
+JP 社長…。
+JP これからは社長だけの巫女に
+JP なってもいいですか？
+EN Boss... From now on, may I be your shrine maiden
+EN alone?

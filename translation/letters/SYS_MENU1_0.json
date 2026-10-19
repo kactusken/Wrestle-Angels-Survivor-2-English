@@ -1,0 +1,66 @@
+{
+ "english": "Tryout | Scouting | Transfers | Book Guest | Release | Retirement | Tour Abroad | Vacate Title",
+ "boxes": [
+  [
+   92,
+   0,
+   118,
+   24
+  ],
+  [
+   85,
+   24,
+   136,
+   24
+  ],
+  [
+   107,
+   48,
+   93,
+   24
+  ],
+  [
+   107,
+   72,
+   93,
+   24
+  ],
+  [
+   107,
+   96,
+   92,
+   24
+  ],
+  [
+   107,
+   120,
+   93,
+   24
+  ],
+  [
+   107,
+   144,
+   93,
+   24
+  ],
+  [
+   86,
+   168,
+   135,
+   24
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   80,
+   0,
+   150,
+   196
+  ]
+ ]
+}

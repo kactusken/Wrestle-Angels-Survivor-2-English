@@ -1,0 +1,833 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Wrestle Angels: Survivor 2 management mode: which events can happen each month, what unlocks them, and when each wrestler can be signed.">
+<title>WAS2 Event Timeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: a year strip (April to March, one lane per kind of event) is the page's centrepiece;
+   below it a years x months grid whose rows open in place, then the rule tables and the roster.
+   Colour carries meaning: blue every year, green by chance, red the Final Series, gold belts and star rookies. */
+:root {
+  --bg: #eef1f5;
+  --surface: #ffffff;
+  --sunk: #f4f6f9;
+  --ink: #161b26;
+  --muted: #586274;
+  --line: #cdd3dd;
+  --rule: #161b26;
+  --rope: #c8323c;
+  --corner: #2e5aac;
+  --gold: #8f680c;
+  --gold-mark: #d6a21e;
+  --green: #2a7448;
+  --rope-soft: #f9e4e5;
+  --corner-soft: #e3eaf7;
+  --gold-soft: #f7eed8;
+  --green-soft: #e0efe5;
+  --grey-soft: #e6e9ee;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Barlow", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10141b; --surface: #181e28; --sunk: #141922; --ink: #e7ebf2; --muted: #9ba5b6; --line: #2d3544; --rule: #e7ebf2;
+    --rope: #ef6f77; --corner: #85a8ee; --gold: #e3b955; --gold-mark: #e3b955; --green: #6fc896;
+    --rope-soft: #3b1f24; --corner-soft: #1d2a43; --gold-soft: #372e1c; --green-soft: #1a3224; --grey-soft: #222a36;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10141b; --surface: #181e28; --sunk: #141922; --ink: #e7ebf2; --muted: #9ba5b6; --line: #2d3544; --rule: #e7ebf2;
+  --rope: #ef6f77; --corner: #85a8ee; --gold: #e3b955; --gold-mark: #e3b955; --green: #6fc896;
+  --rope-soft: #3b1f24; --corner-soft: #1d2a43; --gold-soft: #372e1c; --green-soft: #1a3224; --grey-soft: #222a36;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-padding-top: 64px; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.5 var(--body); font-variant-numeric: tabular-nums; }
+a { color: var(--corner); text-underline-offset: 2px; }
+b { font-weight: 600; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--corner); outline-offset: 2px; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* top bar */
+.topbar { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); }
+.topbar .wrap { display: flex; align-items: center; gap: 16px; height: 48px; }
+.topbar .home { font: 800 18px/1 var(--display); text-transform: uppercase; letter-spacing: .02em; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.topbar nav { flex: 1; min-width: 0; display: flex; gap: 18px; overflow-x: auto; scrollbar-width: none; font: 600 15px/1 var(--display); }
+.topbar nav::-webkit-scrollbar { display: none; }
+.topbar nav a { color: var(--muted); text-decoration: none; white-space: nowrap; padding: 14px 0 12px; border-bottom: 2px solid transparent; }
+.topbar nav a:hover { color: var(--ink); border-bottom-color: var(--line); }
+.topbar nav a.on { color: var(--ink); border-bottom-color: var(--rope); }
+.theme { flex: none; background: none; border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; font: 600 14px/1 var(--display); color: var(--muted); cursor: pointer; }
+.theme:hover { color: var(--ink); }
+
+/* type */
+h1, h2, h3 { font-family: var(--display); margin: 0; text-wrap: balance; }
+h1 { font-weight: 800; font-size: clamp(56px, 10.5vw, 128px); line-height: .86; text-transform: uppercase; letter-spacing: -.005em; }
+h2 { font-weight: 700; font-size: clamp(30px, 4vw, 40px); line-height: 1.05; }
+h3 { font-weight: 700; font-size: 21px; line-height: 1.15; }
+p { margin: 0; max-width: 68ch; }
+.sub { color: var(--muted); }
+.small { font-size: 14px; color: var(--muted); }
+
+.hero { padding: 40px 0 28px; display: grid; gap: 18px; }
+.hero .game { font: 600 clamp(19px, 2.2vw, 24px)/1.2 var(--display); color: var(--rope); }
+.hero p { font-size: 17px; }
+
+section.block { padding: 44px 0 8px; display: grid; gap: 16px; }
+section.block > header { display: grid; gap: 8px; }
+.split { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px 40px; }
+
+/* ---------- year strip ---------- */
+.strip { --lab: 132px; display: grid; grid-template-columns: var(--lab) repeat(12, minmax(0, 1fr)); grid-auto-rows: minmax(34px, auto); row-gap: 4px; position: relative; }
+.strip .bg { z-index: 0; border-left: 1px solid var(--line); }
+.strip .bg.sel { background: var(--surface); box-shadow: inset 0 0 0 2px var(--ink); border-radius: 4px; border-left-color: transparent; }
+.strip .bg.sel + .bg { border-left-color: transparent; }
+.mh { grid-row: 1; align-self: end; z-index: 1; background: none; border: 0; border-bottom: 4px solid var(--rule); padding: 8px 6px 6px; text-align: left; cursor: pointer;
+      font: 800 clamp(20px, 2.3vw, 30px)/1 var(--display); text-transform: uppercase; color: var(--ink); }
+.mh small { display: block; font: 600 12px/1.2 var(--body); text-transform: none; color: var(--muted); margin-top: 3px; min-height: 1.2em; }
+.mh:hover { color: var(--rope); }
+.mh[aria-pressed="true"] { color: var(--rope); border-bottom-color: var(--rope); }
+.lane { grid-column: 1; align-self: center; z-index: 1; font: 600 14px/1.15 var(--display); color: var(--muted); padding-right: 10px; }
+.lane.gap { align-self: end; padding-top: 14px; color: var(--ink); font-size: 15px; }
+.item { z-index: 1; margin: 0 3px; padding: 5px 7px 6px; border-radius: 3px; border-left: 4px solid; font: 600 14px/1.15 var(--display); color: var(--ink); cursor: pointer; text-align: left; background: none; border-top: 0; border-right: 0; border-bottom: 0; min-width: 0; overflow-wrap: anywhere; }
+.item small { display: block; font: 500 12px/1.2 var(--body); color: var(--muted); margin-top: 2px; }
+.k-fixed { background: var(--corner-soft); border-left-color: var(--corner); }
+.k-roll { background: var(--green-soft); border-left-color: var(--green); }
+.k-fs { background: var(--rope-soft); border-left-color: var(--rope); }
+.k-sky { background: var(--grey-soft); border-left-color: var(--muted); }
+.k-belt { background: var(--gold-soft); border-left-color: var(--gold-mark); }
+.bar { z-index: 1; margin: 0 3px; padding: 4px 8px; border-radius: 3px; background: var(--grey-soft); color: var(--ink); text-decoration: none; font: 600 14px/1.2 var(--display); display: flex; justify-content: space-between; gap: 8px; }
+.bar:hover { background: var(--line); }
+.bar span:last-child { color: var(--muted); font-weight: 500; white-space: nowrap; }
+.bar.hole { background: repeating-linear-gradient(135deg, transparent 0 5px, var(--line) 5px 6px); color: var(--muted); font-weight: 500; justify-content: center; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 20px; height: 14px; border-radius: 2px; border-left: 4px solid; display: inline-block; }
+
+/* month detail (desktop panel and phone agenda share it) */
+.mdetail { background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--rope); border-radius: 0 0 6px 6px; padding: 18px 20px 20px; display: grid; gap: 14px; }
+.mdetail h3 { font-size: 30px; font-weight: 800; text-transform: uppercase; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.mdetail h3 small { font: 500 15px/1.2 var(--body); text-transform: none; color: var(--muted); }
+.evs { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px 28px; }
+.ev { border-left: 4px solid; padding: 1px 0 1px 12px; display: grid; align-content: start; gap: 3px; background: none; }
+.ev .t { font: 700 18px/1.2 var(--display); }
+.ev .k { font: 600 13px/1 var(--display); color: var(--muted); }
+.ev .c { font-size: 15px; color: var(--muted); }
+.ev .c b { color: var(--ink); }
+.ev.k-fixed, .ev.k-roll, .ev.k-fs, .ev.k-sky, .ev.k-belt { background: none; }
+.mdetail .also { font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10px; }
+.agenda { display: none; gap: 12px; }
+.agenda .mdetail { border-radius: 6px; }
+
+.birth { display: grid; gap: 10px; }
+.birth ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+
+/* ---------- settings ---------- */
+.controls { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: end; }
+.ctl { display: grid; gap: 5px; min-width: 0; }
+.ctl > label, .ctl > .lab { font: 600 14px/1 var(--display); color: var(--muted); }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); }
+.seg button { border: 0; background: none; padding: 8px 12px; font: 600 15px/1 var(--display); cursor: pointer; color: var(--ink); }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+select, input[type="search"] { font: 500 15px/1.2 var(--body); padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); min-width: 0; max-width: 100%; }
+.step { display: inline-flex; align-items: stretch; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); overflow: hidden; }
+.step button { border: 0; background: none; width: 34px; font: 700 18px/1 var(--display); cursor: pointer; }
+.step button:hover { background: var(--sunk); }
+.step output { min-width: 56px; padding: 7px 4px; text-align: center; font: 700 16px/1.2 var(--display); border-left: 1px solid var(--line); border-right: 1px solid var(--line); }
+
+/* ---------- year grid ---------- */
+.ygrid { display: grid; }
+.yrow { display: grid; grid-template-columns: 76px repeat(12, minmax(0, 1fr)); border-bottom: 1px solid var(--line); cursor: pointer; }
+.yrow.head { cursor: default; border-bottom: 4px solid var(--rule); position: sticky; top: 48px; background: var(--bg); z-index: 2; }
+.yrow.head span { font: 800 17px/1 var(--display); text-transform: uppercase; padding: 8px 4px 6px; }
+.yrow:not(.head):hover { background: var(--surface); }
+.yrow.open { background: var(--surface); }
+.yl { border: 0; background: none; text-align: left; padding: 7px 4px; font: 800 20px/1 var(--display); cursor: pointer; }
+.yl small { display: block; font: 600 12px/1.2 var(--display); color: var(--rope); margin-top: 2px; }
+.cell { min-height: 38px; padding: 5px 3px; border-left: 1px solid var(--line); display: flex; flex-wrap: wrap; align-content: flex-start; gap: 3px; min-width: 0; }
+.cell.fs { background: var(--rope-soft); }
+.mk { font: 600 12.5px/1.1 var(--display); padding: 2px 4px; border-radius: 2px; border-left: 3px solid; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.mk .ab { display: none; }
+.mk.fs { border-left-color: var(--rope); color: var(--rope); }
+.mk.coach { border-left-color: var(--corner); background: var(--corner-soft); }
+.mk.fa { border-left-color: var(--green); background: var(--green-soft); }
+.mk.start { border-left-color: var(--muted); background: var(--grey-soft); }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); display: inline-block; flex: none; margin-top: 2px; }
+.dot.star { background: var(--gold-mark); box-shadow: 0 0 0 1px var(--gold); }
+.dot.rand { background: none; box-shadow: inset 0 0 0 1.5px var(--muted); }
+.yopen { grid-column: 1 / -1; padding: 6px 0 18px 76px; display: grid; gap: 8px; }
+.it { display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 10px; font-size: 15px; }
+.it .m { font: 700 15px/1.45 var(--display); text-transform: uppercase; color: var(--muted); }
+.it.fs .x { color: var(--rope); font-weight: 600; }
+.pill { display: inline-flex; align-items: baseline; gap: 5px; font-size: 14px; padding: 1px 8px; margin: 2px 4px 2px 0; border: 1px solid var(--line); border-radius: 999px; background: var(--sunk); white-space: nowrap; }
+.pill .g { font: 700 12px/1 var(--display); color: var(--muted); }
+.pill.star { border-color: var(--gold-mark); background: var(--gold-soft); }
+.pill.star .g { color: var(--gold); }
+.pill.p2 { border-style: dashed; }
+.more { justify-self: start; background: none; border: 1px solid var(--ink); padding: 8px 14px; border-radius: 6px; cursor: pointer; font: 600 15px/1 var(--display); }
+.more:hover { background: var(--ink); color: var(--bg); }
+
+/* ---------- tables ---------- */
+.tbl { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; overflow: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+th { font: 700 15px/1.2 var(--display); color: var(--muted); background: var(--sunk); position: sticky; top: 0; z-index: 1; }
+tbody tr:last-child td { border-bottom: 0; }
+td.n { font-weight: 600; min-width: 150px; }
+td.num { white-space: nowrap; }
+tr.grp td { background: var(--sunk); font: 700 18px/1.2 var(--display); padding-top: 14px; }
+tr.nt td { font-size: 14px; color: var(--muted); }
+.rules td:nth-child(2) { min-width: 230px; }
+.rules td:nth-child(4) { min-width: 210px; }
+.roster-wrap { max-height: 70vh; }
+.roster td { white-space: nowrap; }
+.roster td.nm { font-weight: 600; }
+.tag2 { font: 600 12px/1 var(--display); color: var(--muted); border: 1px dashed var(--line); padding: 2px 5px; border-radius: 3px; margin-left: 6px; }
+.st-cpu { color: var(--corner); font-weight: 600; }
+.st-free { color: var(--green); font-weight: 600; }
+.st-ret { color: var(--muted); }
+.count { font: 600 15px/1 var(--display); color: var(--muted); align-self: center; }
+
+dl.cut { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px 40px; }
+dl.cut div { display: grid; gap: 4px; border-top: 1px solid var(--line); padding-top: 10px; }
+dl.cut dt { font: 700 18px/1.2 var(--display); }
+dl.cut dd { margin: 0; font-size: 15px; color: var(--muted); }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+
+footer.foot { margin-top: 48px; padding: 18px 0 48px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); display: grid; gap: 8px; }
+
+/* ---------- narrow screens ---------- */
+@media (max-width: 860px) {
+  .strip-wrap, #mpanel, .strip-legend { display: none; }
+  .agenda { display: grid; }
+  .evs { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 680px) {
+  .topbar .home { display: none; }
+  .yrow { grid-template-columns: 40px repeat(12, minmax(0, 1fr)); }
+  .yrow.head span { font-size: 12px; padding: 6px 1px 4px; text-align: center; }
+  .yl { font-size: 15px; padding: 6px 2px; }
+  .yl small { font-size: 10px; }
+  .cell { padding: 3px 1px; gap: 2px; min-height: 30px; justify-content: center; }
+  .mk { padding: 1px 2px; border-left-width: 0; font-size: 11px; }
+  .mk .lg { display: none; }
+  .mk .ab { display: inline; }
+  .mk.fs { background: var(--rope); color: var(--surface); }
+  .mk.coach { background: var(--corner); color: var(--surface); }
+  .mk.fa { background: var(--green); color: var(--surface); }
+  .mk.start { background: var(--muted); color: var(--surface); }
+  .dot { width: 7px; height: 7px; }
+  .yopen { padding-left: 0; }
+  /* tables become stacked records */
+  .stack, .stack tbody, .stack tr, .stack td { display: block; }
+  .stack thead { display: none; }
+  .stack tr { border-bottom: 1px solid var(--line); padding: 10px 14px; }
+  .stack td { border: 0; padding: 2px 0; min-width: 0 !important; white-space: normal; }
+  .stack td[data-l] { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 10px; }
+  .stack td[data-l]::before { content: attr(data-l); font: 600 14px/1.45 var(--display); color: var(--muted); }
+  .stack td.n::before { display: none; }
+  .stack td.n { font-size: 17px; }
+  .stack tr.grp td, .stack tr.nt td { padding: 4px 0; }
+  .stack tr.grp { background: var(--sunk); }
+  .roster-wrap { max-height: none; }
+}
+@media print {
+  .topbar, .controls, .more, .strip-legend, #mpanel { display: none !important; }
+  body { background: #fff; }
+  .agenda { display: grid; }
+  .tbl, .roster-wrap { overflow: visible; max-height: none; }
+  .yrow.head, th { position: static; }
+  section.block { break-inside: auto; }
+  .mdetail, .yrow, tr { break-inside: avoid; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .yopen { animation: open .18s ease-out; }
+  @keyframes open { from { opacity: 0; transform: translateY(-4px); } }
+}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="wrap">
+    <a class="home" href="#top">WAS2 timeline</a>
+    <nav aria-label="Sections">
+      <a href="#year">The year</a>
+      <a href="#years">Year by year</a>
+      <a href="#anytime">Any month</a>
+      <a href="#yours">Your actions</a>
+      <a href="#timers">Timers</a>
+      <a href="#awards">Awards</a>
+      <a href="#roster">Wrestlers</a>
+      <a href="#cut">Never shown</a>
+    </nav>
+    <button class="theme" id="theme" type="button">Theme: auto</button>
+  </div>
+</div>
+
+<main class="wrap" id="top">
+  <header class="hero">
+    <h1>Event timeline</h1>
+    <div class="game">Wrestle Angels: Survivor 2, management mode</div>
+    <p>Every event the game can show you, the month it can happen in, and exactly what unlocks it. Read it <a href="#year">month by month</a>, or set your New Game options under <a href="#years">Year by year</a> to see your own run.</p>
+    <p class="small">Everything here was read from the game's code and scripts. None of it has been checked by playing yet.</p>
+  </header>
+
+  <!-- ============ THE YEAR ============ -->
+  <section class="block" id="year" aria-labelledby="h-year">
+    <header>
+      <h2 id="h-year">The year</h2>
+      <p class="sub">A game year runs April to March: the game starts in April of Year 1 and the year counter goes up every April. Year 1's April has the opening only.</p>
+    </header>
+    <div class="strip-wrap"><div class="strip" id="strip"></div></div>
+    <div class="legend strip-legend">
+      <span><i class="sw k-fixed"></i>Every year</span>
+      <span><i class="sw k-roll"></i>By chance, if you qualify</span>
+      <span><i class="sw k-fs"></i>Final Series years only</span>
+      <span><i class="sw k-sky"></i>Weather</span>
+      <span><i class="sw k-belt"></i>Overseas belt defences, if you hold the belt</span>
+    </div>
+    <div id="mpanel" aria-live="polite"></div>
+    <div class="agenda" id="agenda"></div>
+    <div class="birth">
+      <h3>In each wrestler's birth month</h3>
+      <ul>
+        <li><b>She turns a year older.</b> Age drives her growth phases and the retirement checks.</li>
+        <li><b>20th birthday scene</b> at exactly 20, with <b>trust ≥ 800 and affection ≥ 800</b>. Certain if she qualifies. A present costs 10 AP.</li>
+        <li><b>Rookies debut</b> in their birth month of their debut year (it depends on the era, see <a href="#roster">Wrestlers</a>). From then on tryouts and scouting can find them.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ YEAR BY YEAR ============ -->
+  <section class="block" id="years" aria-labelledby="h-years">
+    <header>
+      <h2 id="h-years">Year by year</h2>
+      <p class="sub">Your New Game settings decide when the Final Series falls and which rookies debut when. Pick a year to open it. Rookie dates assume nobody has signed her yet; rival promotions hold tryouts too, so some go sooner.</p>
+    </header>
+    <div class="controls" role="group" aria-label="New Game settings">
+      <div class="ctl"><span class="lab" id="lab-era">Era</span><div class="seg" role="group" aria-labelledby="lab-era" data-eraseg></div></div>
+      <div class="ctl"><span class="lab" id="lab-fs">First Final Series</span>
+        <div class="step" role="group" aria-labelledby="lab-fs"><button type="button" id="fs-dn" aria-label="One year earlier">−</button><output id="fs-out">Year 5</output><button type="button" id="fs-up" aria-label="One year later">+</button></div></div>
+      <div class="ctl"><label for="yr-filter">Rookies</label>
+        <select id="yr-filter"><option value="all">All rookies</option><option value="1">First personas</option><option value="2">Second personas</option><option value="star">Grade 0–1 only</option><option value="none">Hide rookies</option></select></div>
+    </div>
+    <div class="legend">
+      <span><span class="mk fs"><span class="lg">FS</span><span class="ab">F</span></span>Final Series story</span>
+      <span><span class="mk coach"><span class="lg">Coaches</span><span class="ab">C</span></span>new coaches</span>
+      <span><span class="mk fa"><span class="lg">Foreign FAs</span><span class="ab">G</span></span>foreign free agents</span>
+      <span><i class="dot star"></i>grade 0–1 rookie</span>
+      <span><i class="dot"></i>other rookie</span>
+      <span><i class="dot rand"></i>second persona (random grade)</span>
+    </div>
+    <div class="ygrid" id="ygrid"></div>
+    <button class="more" id="ymore" type="button">Show years 13–24</button>
+    <p class="small">Every January also has the Pro Wrestling Awards and contract renewals; they are left out of the grid but listed when you open a year.</p>
+  </section>
+
+  <!-- ============ ANY MONTH ============ -->
+  <section class="block" id="anytime" aria-labelledby="h-any">
+    <header>
+      <h2 id="h-any">Events in any month</h2>
+      <p class="sub">The game checks these for each of your wrestlers at the start of every month, before office work. The chance is per month once she meets the conditions. Nothing is checked in the opening month of Year 1.</p>
+    </header>
+    <div class="tbl"><table class="rules stack"><thead><tr><th>Event</th><th>What she needs</th><th>Chance</th><th>What happens</th></tr></thead><tbody id="rules-any"></tbody></table></div>
+  </section>
+
+  <!-- ============ YOUR ACTIONS ============ -->
+  <section class="block" id="yours" aria-labelledby="h-you">
+    <header><h2 id="h-you">Events you start</h2></header>
+    <div class="tbl"><table class="rules stack"><thead><tr><th>Event</th><th>How to start it</th><th>Chance</th><th>What happens</th></tr></thead><tbody id="rules-you"></tbody></table></div>
+  </section>
+
+  <!-- ============ TIMERS ============ -->
+  <section class="block" id="timers" aria-labelledby="h-tim">
+    <header>
+      <h2 id="h-tim">Timers and cooldowns</h2>
+      <p class="sub">Counted in month changes. A cooldown stops the same event coming again until it runs out.</p>
+    </header>
+    <div class="tbl"><table class="stack"><thead><tr><th>What</th><th>Length</th><th>Notes</th></tr></thead><tbody id="timers-body"></tbody></table></div>
+  </section>
+
+  <!-- ============ AWARDS ============ -->
+  <section class="block" id="awards" aria-labelledby="h-aw">
+    <header>
+      <h2 id="h-aw">Pro Wrestling Awards</h2>
+      <p class="sub">Every January, before contract renewals; the first is in January of Year 1. Wrestlers from every promotion compete. If nobody qualifies, the award isn't given.</p>
+    </header>
+    <div class="tbl"><table class="stack"><thead><tr><th>Award</th><th>Who can win</th><th>How she is scored</th><th>Prize</th></tr></thead><tbody>
+      <tr><td class="n">Best junior bout</td><td data-l="Who can win"><span>The year's best junior match</span></td><td data-l="Scored"><span>Match rating at least 1300</span></td><td class="num" data-l="Prize"><span>100 AP</span></td></tr>
+      <tr><td class="n">Best tag bout</td><td data-l="Who can win"><span>The year's best tag match</span></td><td data-l="Scored"><span>Match rating at least 1400</span></td><td class="num" data-l="Prize"><span>100 AP</span></td></tr>
+      <tr><td class="n">Best singles bout</td><td data-l="Who can win"><span>The year's best openweight singles match</span></td><td data-l="Scored"><span>Match rating at least 1400</span></td><td class="num" data-l="Prize"><span>150 AP</span></td></tr>
+      <tr><td class="n">Rookie of the Year</td><td data-l="Who can win"><span><b>Under 13 months' career and under 20</b></span></td><td data-l="Scored"><span>Rating + popularity ÷ 2, +100 if she was in a best bout</span></td><td class="num" data-l="Prize"><span>150 AP</span></td></tr>
+      <tr><td class="n">Best foreigner</td><td data-l="Who can win"><span>Foreign promotions' wrestlers and foreign guests</span></td><td data-l="Scored"><span>Rating, +200 if in a best bout</span></td><td class="num" data-l="Prize"><span>100 AP</span></td></tr>
+      <tr><td class="n">MVP</td><td data-l="Who can win"><span>Every wrestler</span></td><td data-l="Scored"><span>Rating + popularity ÷ 2, +100 if in a best bout</span></td><td class="num" data-l="Prize"><span>300 AP</span></td></tr>
+    </tbody></table></div>
+    <p class="small">Winners also gain popularity (+100, MVP +200). Match ratings come from the wrestlers' ratings, remaining stamina and move difficulty, whether or not you watched. Six-woman tags don't count.</p>
+  </section>
+
+  <!-- ============ ROSTER ============ -->
+  <section class="block" id="roster" aria-labelledby="h-ro">
+    <header>
+      <h2 id="h-ro">When each wrestler is available</h2>
+      <p class="sub">Each wrestler debuts in her birth month of her debut year, and the era shifts everyone: Warring Rivals is 3 years ahead of Dawn of Joshi Pro, Dawn of a New Era 6 years ahead. Tryouts and scouting can find a rookie for 3 years (until 2 years past her starting age, and only under 20). After that she's a free agent until 27, then leaves and comes back as a new rookie 3 years later. Scouting only finds rookies born in the region you visit.</p>
+    </header>
+    <div class="controls" role="group" aria-label="Filter wrestlers">
+      <div class="ctl"><span class="lab" id="lab-era2">Era</span><div class="seg" role="group" aria-labelledby="lab-era2" data-eraseg></div></div>
+      <div class="ctl"><label for="f-persona">Persona</label>
+        <select id="f-persona"><option value="1">First personas</option><option value="2">Second personas</option><option value="all">Both</option></select></div>
+      <div class="ctl"><label for="f-grade">Talent grade</label>
+        <select id="f-grade"><option value="9">Any</option><option value="0">0 only</option><option value="1">0–1</option><option value="2">0–2</option><option value="3">0–3</option></select></div>
+      <div class="ctl"><label for="f-region">Home region</label><select id="f-region"><option value="">Any</option></select></div>
+      <div class="ctl"><label for="f-q">Name</label><input type="search" id="f-q" placeholder="Search names"></div>
+      <span class="count" id="r-count" aria-live="polite"></span>
+    </div>
+    <p class="small" id="cpu-start"></p>
+    <div class="tbl roster-wrap"><table class="roster stack"><thead><tr><th>Wrestler</th><th>Grade</th><th>Home</th><th>Born</th><th>At the start</th><th>Findable as a rookie</th><th>Free agent until</th></tr></thead><tbody id="roster-body"></tbody></table></div>
+    <p class="small">Grade 0 is the best: it scales all training from 130 % down to 80 % at grade 5. Second personas get a random grade (0: 5 %, 1: 10 %, 2: 40 %, 3: 30 %, 4: 15 %). A wrestler listed on a rival's roster starts there only if you included that promotion; otherwise she starts as a free agent. A wrestler's first and second persona can both be in the game at once.</p>
+    <div class="split">
+      <div class="birth">
+        <h3>Coaches</h3>
+        <ul class="plain">
+          <li>7 coaches join a shared hiring pool every April of Years 1, 6, 11, 16, 21, 26 and 31, one per specialty. Unhired coaches leave after 10 years.</li>
+          <li>Your promotion rating limits who you can hire: <b>below 3000</b> only the 1300-grade coaches; <b>3000–4999</b> up to 1400; <b>5000+</b> all, including the 1500-grade one.</li>
+          <li>Rival promotions hire from the same pool. Hiring costs 100 AP; your gym level sets how many you can have.</li>
+        </ul>
+      </div>
+      <div class="birth">
+        <h3>Foreign wrestlers</h3>
+        <ul class="plain">
+          <li>Only through an overseas partnership (Management menu): six overseas promotions with 7 characters each, two personas apiece.</li>
+          <li>Each April the overseas rosters change on an 18-year cycle. In alternate years 6 foreign free agents are offered; they're marked in the year grid.</li>
+          <li>Holding a foreign belt brings a defence request in that belt's month (the gold lane in the year strip). Refusing gets the belt stripped.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CUT ============ -->
+  <section class="block" id="cut" aria-labelledby="h-cut">
+    <header>
+      <h2 id="h-cut">In the game files, never shown</h2>
+      <p class="sub">These have text or scenes on the disc, but no code ever starts them, plus one event that's broken.</p>
+    </header>
+    <dl class="cut">
+      <div><dt>Revolution and Rebel factions</dt><dd>Faction formation, members joining and leaving, the showdown demand and disbanding (scenes 061–063). The invasion menu even has a "can't invade during the showdown" message that is never selected.</dd></div>
+      <div><dt>Junior belt age limit</dt><dd>The check always says no, so a junior champion is never stripped for her age.</dd></div>
+      <div><dt>Partner scenes</dt><dd>Practice and tag scenes with each wrestler's best, good and bad partners (Ishikawa and Ryuko, the Murakami twins, Muto and Yuki …). No code plays them.</dd></div>
+      <div><dt>Smaller leftovers</dt><dd>Tournament entry scene (068), overseas tour departure (058), the "%s went bankrupt" news, and several older invasion and belt messages.</dd></div>
+      <div><dt>Goods boom (broken)</dt><dd>Meant to pay ×10, but a boom month pays each merch shop a flat token amount (about 0 AP), so it lowers your shop income that month.</dd></div>
+    </dl>
+  </section>
+
+  <footer class="foot">
+    <span>Full rules: <a href="../MANAGEMENT.html">the management mode guide</a>.</span>
+    <span>Sources: the game's executable (disassembly, data tables and the developers' debug strings) and event scripts, read for the English translation project. Not yet checked in the game.</span>
+    <span>Uncertain: the EX League's 2500 threshold is read as the promotion rating; the overseas tour length (1 month) is partly inferred; rookie dates are a model of the code, not an emulator run.</span>
+  </footer>
+</main>
+
+<script>
+const ROSTER = [{"i":0,"n":"Suzumi Ishikawa","p":1,"g":"3","h":"Ishikawa","r":"Koshinetsu","a":16,"b":6,"e":[["free (age 17)","start","start..Y2 Jun; Y13 Jun..Y16 Jun","Y10 Jun","Y13 Jun"],["CPU:WARS","-","-","-","-"],["CPU:WARS","-","-","-","-"]]},{"i":1,"n":"Shinobu Echigo","p":1,"g":"3","h":"Akita","r":"Tohoku","a":15,"b":2,"e":[["absent","Y2 Feb","Y2 Feb..Y5 Feb; Y17 Feb..Y20 Feb","Y14 Feb","Y17 Feb"],["free (age 16)","start","start..Y2 Feb; Y14 Feb..Y17 Feb","Y11 Feb","Y14 Feb"],["free (age 19)","start (too old for tryout/scout)","Y11 Feb..Y14 Feb; Y26 Feb..Y29 Feb","Y8 Feb","Y11 Feb"]]},{"i":2,"n":"Hikaru Ogawa","p":1,"g":"4","h":"Nagano","r":"Koshinetsu","a":15,"b":11,"e":[["absent","Y2 Nov","Y2 Nov..Y5 Nov; Y17 Nov..Y20 Nov","Y14 Nov","Y17 Nov"],["free (age 16)","start","start..Y2 Nov; Y14 Nov..Y17 Nov","Y11 Nov","Y14 Nov"],["CPU:JWI","-","-","-","-"]]},{"i":3,"n":"Reiko Kanamori","p":1,"g":"4","h":"Hiroshima","r":"Chugoku","a":15,"b":10,"e":[["absent","Y6 Oct","Y6 Oct..Y9 Oct; Y21 Oct..Y24 Oct","Y18 Oct","Y21 Oct"],["absent","Y3 Oct","Y3 Oct..Y6 Oct; Y18 Oct..Y21 Oct","Y15 Oct","Y18 Oct"],["free (age 15)","start","start..Y3 Oct; Y15 Oct..Y18 Oct","Y12 Oct","Y15 Oct"]]},{"i":4,"n":"Sachiko Kanda","p":1,"g":"4","h":"Ibaraki","r":"Kanto","a":17,"b":12,"e":[["absent","Y6 Dec","Y6 Dec..Y9 Dec; Y19 Dec..Y22 Dec","Y16 Dec","Y19 Dec"],["absent","Y3 Dec","Y3 Dec..Y6 Dec; Y16 Dec..Y19 Dec","Y13 Dec","Y16 Dec"],["free (age 17)","start","start..Y3 Dec; Y13 Dec..Y16 Dec","Y10 Dec","Y13 Dec"]]},{"i":5,"n":"Riyu Kikuchi","p":1,"g":"3","h":"Miyagi","r":"Tohoku","a":15,"b":6,"e":[["absent","Y2 Jun","Y2 Jun..Y5 Jun; Y17 Jun..Y20 Jun","Y14 Jun","Y17 Jun"],["free (age 16)","start","start..Y2 Jun; Y14 Jun..Y17 Jun","Y11 Jun","Y14 Jun"],["CPU:New Japan Joshi Pro","-","-","-","-"]]},{"i":6,"n":"Mika Kanai","p":1,"g":"5","h":"West Hokkaido","r":"Hokkaido","a":15,"b":1,"e":[["absent","Y4 Jan","Y4 Jan..Y7 Jan; Y19 Jan..Y22 Jan","Y16 Jan","Y19 Jan"],["absent","Y1 Jan","Y1 Jan..Y4 Jan; Y16 Jan..Y19 Jan","Y13 Jan","Y16 Jan"],["free (age 17)","start","start..Y1 Jan; Y13 Jan..Y16 Jan","Y10 Jan","Y13 Jan"]]},{"i":7,"n":"Satomi Kojima","p":1,"g":"3","h":"Wakayama","r":"Kinki","a":15,"b":5,"e":[["absent","Y7 May","Y7 May..Y10 May; Y22 May..Y25 May","Y19 May","Y22 May"],["absent","Y4 May","Y4 May..Y7 May; Y19 May..Y22 May","Y16 May","Y19 May"],["absent","Y1 May","Y1 May..Y4 May; Y16 May..Y19 May","Y13 May","Y16 May"]]},{"i":8,"n":"Akiko Saito","p":1,"g":"4","h":"Mie","r":"Tokai","a":16,"b":2,"e":[["free (age 16)","start","start..Y3 Feb; Y14 Feb..Y17 Feb","Y11 Feb","Y14 Feb"],["free (age 19)","start (too old for tryout/scout)","Y11 Feb..Y14 Feb; Y25 Feb..Y28 Feb","Y8 Feb","Y11 Feb"],["free (age 22)","start (too old for tryout/scout)","Y8 Feb..Y11 Feb; Y22 Feb..Y25 Feb","Y5 Feb","Y8 Feb"]]},{"i":9,"n":"Ryuko Yoshida","p":1,"g":"1","h":"Kumamoto","r":"Kyushu/Okinawa","a":16,"b":11,"e":[["free (age 17)","start","start..Y2 Nov; Y13 Nov..Y16 Nov","Y10 Nov","Y13 Nov"],["CPU:WARS","-","-","-","-"],["CPU:WARS","-","-","-","-"]]},{"i":10,"n":"Sakie Hori","p":1,"g":"4","h":"Tokyo","r":"Kanto","a":15,"b":11,"e":[["free (age 15)","start","start..Y3 Nov; Y15 Nov..Y18 Nov","Y12 Nov","Y15 Nov"],["CPU:Pacific Joshi Pro","-","-","-","-"],["CPU:Pacific Joshi Pro","-","-","-","-"]]},{"i":11,"n":"Reiko Tomizawa","p":1,"g":"4","h":"Chiba","r":"Kanto","a":15,"b":5,"e":[["absent","Y4 May","Y4 May..Y7 May; Y19 May..Y22 May","Y16 May","Y19 May"],["absent","Y1 May","Y1 May..Y4 May; Y16 May..Y19 May","Y13 May","Y16 May"],["free (age 17)","start","start..Y1 May; Y13 May..Y16 May","Y10 May","Y13 May"]]},{"i":12,"n":"Chizuru Nagahara","p":1,"g":"3","h":"Gunma","r":"Kanto","a":15,"b":9,"e":[["absent","Y4 Sep","Y4 Sep..Y7 Sep; Y19 Sep..Y22 Sep","Y16 Sep","Y19 Sep"],["absent","Y1 Sep","Y1 Sep..Y4 Sep; Y16 Sep..Y19 Sep","Y13 Sep","Y16 Sep"],["free (age 17)","start","start..Y1 Sep; Y13 Sep..Y16 Sep","Y10 Sep","Y13 Sep"]]},{"i":13,"n":"Risako Sakuma","p":1,"g":"0","h":"Tokyo","r":"Kanto","a":17,"b":11,"e":[["CPU:New Japan Joshi Pro","-","-","-","-"],["CPU:New Japan Joshi Pro","-","-","-","-"],["retired (age 28)","-","Y5 Nov..Y8 Nov; Y18 Nov..Y21 Nov","Y15 Nov","Y5 Nov"]]},{"i":14,"n":"Reika Ichigaya","p":1,"g":"1","h":"Saitama","r":"Kanto","a":17,"b":9,"e":[["free (age 17)","start","start..Y3 Sep; Y13 Sep..Y16 Sep","Y10 Sep","Y13 Sep"],["CPU:New Japan Joshi Pro","-","-","-","-"],["CPU:JWI","-","-","-","-"]]},{"i":15,"n":"Hitomi Fujishima","p":1,"g":"5","h":"Kyoto","r":"Kinki","a":15,"b":2,"e":[["absent","Y2 Feb","Y2 Feb..Y5 Feb; Y17 Feb..Y20 Feb","Y14 Feb","Y17 Feb"],["free (age 16)","start","start..Y2 Feb; Y14 Feb..Y17 Feb","Y11 Feb","Y14 Feb"],["free (age 19)","start (too old for tryout/scout)","Y11 Feb..Y14 Feb; Y26 Feb..Y29 Feb","Y8 Feb","Y11 Feb"]]},{"i":16,"n":"Kyoko Uehara","p":1,"g":"2","h":"Okinawa","r":"Kyushu/Okinawa","a":17,"b":12,"e":[["free (age 22)","start (too old for tryout/scout)","Y8 Dec..Y11 Dec; Y21 Dec..Y24 Dec","Y5 Dec","Y8 Dec"],["CPU:Pacific Joshi Pro","-","-","-","-"],["CPU:Pacific Joshi Pro","-","-","-","-"]]},{"i":17,"n":"Eri Kishima","p":1,"g":"2","h":"Fukuoka","r":"Kyushu/Okinawa","a":15,"b":8,"e":[["free (age 15)","start","start..Y3 Aug; Y15 Aug..Y18 Aug","Y12 Aug","Y15 Aug"],["CPU:New Japan Joshi Pro","-","-","-","-"],["CPU:New Japan Joshi Pro","-","-","-","-"]]},{"i":18,"n":"Yukiko Shinzaki","p":1,"g":"0","h":"Yamaguchi","r":"Chugoku","a":15,"b":3,"e":[["free (age 15)","start","start..Y3 Mar; Y15 Mar..Y18 Mar","Y12 Mar","Y15 Mar"],["CPU:New Japan Joshi Pro","-","-","-","-"],["CPU:New Japan Joshi Pro","-","-","-","-"]]},{"i":19,"n":"Toshimi Minami","p":1,"g":"1","h":"Kochi","r":"Shikoku","a":16,"b":3,"e":[["free (age 16)","start","start..Y3 Mar; Y14 Mar..Y17 Mar","Y11 Mar","Y14 Mar"],["free (age 19)","start (too old for tryout/scout)","Y11 Mar..Y14 Mar; Y25 Mar..Y28 Mar","Y8 Mar","Y11 Mar"],["CPU:JWI","-","-","-","-"]]},{"i":20,"n":"Izumi Yoshihara","p":1,"g":"3","h":"Kanagawa","r":"Kanto","a":17,"b":4,"e":[["CPU:New Japan Joshi Pro","-","-","-","-"],["CPU:New Japan Joshi Pro","-","-","-","-"],["retired (age 27)","-","Y7 Apr..Y10 Apr; Y20 Apr..Y23 Apr","Y17 Apr","Y7 Apr"]]},{"i":21,"n":"Megumi Muto","p":1,"g":"0","h":"Shizuoka","r":"Tokai","a":15,"b":4,"e":[["absent","Y5 Apr","Y5 Apr..Y8 Apr; Y20 Apr..Y23 Apr","Y17 Apr","Y20 Apr"],["absent","Y2 Apr","Y2 Apr..Y5 Apr; Y17 Apr..Y20 Apr","Y14 Apr","Y17 Apr"],["free (age 17)","start","start..Y2 Apr; Y14 Apr..Y17 Apr","Y11 Apr","Y14 Apr"]]},{"i":22,"n":"Chigusa Yuki","p":1,"g":"0","h":"Aichi","r":"Tokai","a":15,"b":2,"e":[["absent","Y5 Feb","Y5 Feb..Y8 Feb; Y20 Feb..Y23 Feb","Y17 Feb","Y20 Feb"],["absent","Y2 Feb","Y2 Feb..Y5 Feb; Y17 Feb..Y20 Feb","Y14 Feb","Y17 Feb"],["free (age 16)","start","start..Y2 Feb; Y14 Feb..Y17 Feb","Y11 Feb","Y14 Feb"]]},{"i":23,"n":"Tomomi Watanabe","p":1,"g":"5","h":"Kagawa","r":"Shikoku","a":15,"b":3,"e":[["absent","Y8 Mar","Y8 Mar..Y11 Mar; Y23 Mar..Y26 Mar","Y20 Mar","Y23 Mar"],["absent","Y5 Mar","Y5 Mar..Y8 Mar; Y20 Mar..Y23 Mar","Y17 Mar","Y20 Mar"],["absent","Y2 Mar","Y2 Mar..Y5 Mar; Y17 Mar..Y20 Mar","Y14 Mar","Y17 Mar"]]},{"i":24,"n":"Kazuki Aiba","p":1,"g":"3","h":"Ishikawa","r":"Koshinetsu","a":15,"b":7,"e":[["absent","Y5 Jul","Y5 Jul..Y8 Jul; Y20 Jul..Y23 Jul","Y17 Jul","Y20 Jul"],["absent","Y2 Jul","Y2 Jul..Y5 Jul; Y17 Jul..Y20 Jul","Y14 Jul","Y17 Jul"],["free (age 16)","start","start..Y2 Jul; Y14 Jul..Y17 Jul","Y11 Jul","Y14 Jul"]]},{"i":25,"n":"Aya Enomoto","p":1,"g":"5","h":"Okayama","r":"Chugoku","a":15,"b":3,"e":[["absent","Y7 Mar","Y7 Mar..Y10 Mar; Y22 Mar..Y25 Mar","Y19 Mar","Y22 Mar"],["absent","Y4 Mar","Y4 Mar..Y7 Mar; Y19 Mar..Y22 Mar","Y16 Mar","Y19 Mar"],["absent","Y1 Mar","Y1 Mar..Y4 Mar; Y16 Mar..Y19 Mar","Y13 Mar","Y16 Mar"]]},{"i":26,"n":"Yuka Asahina","p":1,"g":"3","h":"Aomori","r":"Tohoku","a":15,"b":10,"e":[["free (age 17)","start","start..Y1 Oct; Y13 Oct..Y16 Oct","Y10 Oct","Y13 Oct"],["free (age 20)","start (too old for tryout/scout)","Y10 Oct..Y13 Oct; Y25 Oct..Y28 Oct","Y7 Oct","Y10 Oct"],["free (age 23)","start (too old for tryout/scout)","Y7 Oct..Y10 Oct; Y22 Oct..Y25 Oct","Y4 Oct","Y7 Oct"]]},{"i":27,"n":"Kanna Kamui","p":1,"g":"1","h":"East Hokkaido","r":"Hokkaido","a":16,"b":2,"e":[["absent","Y4 Feb","Y4 Feb..Y7 Feb; Y18 Feb..Y21 Feb","Y15 Feb","Y18 Feb"],["absent","Y1 Feb","Y1 Feb..Y4 Feb; Y15 Feb..Y18 Feb","Y12 Feb","Y15 Feb"],["free (age 18)","start","start..Y1 Feb; Y12 Feb..Y15 Feb","Y9 Feb","Y12 Feb"]]},{"i":28,"n":"Mikoto Kusanagi","p":1,"g":"1","h":"Yamagata","r":"Tohoku","a":16,"b":9,"e":[["absent","Y4 Sep","Y4 Sep..Y7 Sep; Y18 Sep..Y21 Sep","Y15 Sep","Y18 Sep"],["absent","Y1 Sep","Y1 Sep..Y4 Sep; Y15 Sep..Y18 Sep","Y12 Sep","Y15 Sep"],["free (age 18)","start","start..Y1 Sep; Y12 Sep..Y15 Sep","Y9 Sep","Y12 Sep"]]},{"i":29,"n":"Shiho Kobayakawa","p":1,"g":"5","h":"Fukushima","r":"Tohoku","a":15,"b":1,"e":[["absent","Y5 Jan","Y5 Jan..Y8 Jan; Y20 Jan..Y23 Jan","Y17 Jan","Y20 Jan"],["absent","Y2 Jan","Y2 Jan..Y5 Jan; Y17 Jan..Y20 Jan","Y14 Jan","Y17 Jan"],["free (age 16)","start","start..Y2 Jan; Y14 Jan..Y17 Jan","Y11 Jan","Y14 Jan"]]},{"i":30,"n":"Makoto Kondo","p":1,"g":"3","h":"Kagoshima","r":"Kyushu/Okinawa","a":16,"b":4,"e":[["absent","Y3 Apr","Y3 Apr..Y6 Apr; Y17 Apr..Y20 Apr","Y14 Apr","Y17 Apr"],["free (age 17)","start","start..Y3 Apr; Y14 Apr..Y17 Apr","Y11 Apr","Y14 Apr"],["free (age 20)","start (too old for tryout/scout)","Y11 Apr..Y14 Apr; Y25 Apr..Y28 Apr","Y8 Apr","Y11 Apr"]]},{"i":31,"n":"Miyuki Sanada","p":1,"g":"3","h":"Nagano","r":"Koshinetsu","a":15,"b":8,"e":[["absent","Y2 Aug","Y2 Aug..Y5 Aug; Y17 Aug..Y20 Aug","Y14 Aug","Y17 Aug"],["free (age 16)","start","start..Y2 Aug; Y14 Aug..Y17 Aug","Y11 Aug","Y14 Aug"],["CPU:WARS","-","-","-","-"]]},{"i":32,"n":"Mitsuki Sugiura","p":1,"g":"4","h":"Gifu","r":"Tokai","a":16,"b":5,"e":[["absent","Y6 May","Y6 May..Y9 May; Y20 May..Y23 May","Y17 May","Y20 May"],["absent","Y3 May","Y3 May..Y6 May; Y17 May..Y20 May","Y14 May","Y17 May"],["free (age 16)","start","start..Y3 May; Y14 May..Y17 May","Y11 May","Y14 May"]]},{"i":33,"n":"Haruka Date","p":1,"g":"2","h":"Miyazaki","r":"Kyushu/Okinawa","a":15,"b":10,"e":[["absent","Y3 Oct","Y3 Oct..Y6 Oct; Y18 Oct..Y21 Oct","Y15 Oct","Y18 Oct"],["free (age 15)","start","start..Y3 Oct; Y15 Oct..Y18 Oct","Y12 Oct","Y15 Oct"],["free (age 18)","start (too old for tryout/scout)","Y12 Oct..Y15 Oct; Y27 Oct..Y30 Oct","Y9 Oct","Y12 Oct"]]},{"i":34,"n":"Kasumi Tsuji","p":1,"g":"5","h":"Tokyo","r":"Kanto","a":15,"b":10,"e":[["absent","Y4 Oct","Y4 Oct..Y7 Oct; Y19 Oct..Y22 Oct","Y16 Oct","Y19 Oct"],["absent","Y1 Oct","Y1 Oct..Y4 Oct; Y16 Oct..Y19 Oct","Y13 Oct","Y16 Oct"],["free (age 17)","start","start..Y1 Oct; Y13 Oct..Y16 Oct","Y10 Oct","Y13 Oct"]]},{"i":35,"n":"Nagisa Shiraishi","p":1,"g":"2","h":"Niigata","r":"Koshinetsu","a":16,"b":11,"e":[["absent","Y6 Nov","Y6 Nov..Y9 Nov; Y20 Nov..Y23 Nov","Y17 Nov","Y20 Nov"],["absent","Y3 Nov","Y3 Nov..Y6 Nov; Y17 Nov..Y20 Nov","Y14 Nov","Y17 Nov"],["free (age 16)","start","start..Y3 Nov; Y14 Nov..Y17 Nov","Y11 Nov","Y14 Nov"]]},{"i":36,"n":"Asuka Kagami","p":1,"g":"2","h":"Nagasaki","r":"Kyushu/Okinawa","a":17,"b":12,"e":[["free (age 18)","start","start..Y2 Dec; Y12 Dec..Y15 Dec","Y9 Dec","Y12 Dec"],["free (age 21)","start (too old for tryout/scout)","Y9 Dec..Y12 Dec; Y22 Dec..Y25 Dec","Y6 Dec","Y9 Dec"],["free (age 24)","start (too old for tryout/scout)","Y6 Dec..Y9 Dec; Y19 Dec..Y22 Dec","Y3 Dec","Y6 Dec"]]},{"i":37,"n":"Shoko Taki","p":1,"g":"4","h":"Hyogo","r":"Kinki","a":17,"b":7,"e":[["CPU:Tokyo Joshi Pro","-","-","-","-"],["CPU:Tokyo Joshi Pro","-","-","-","-"],["CPU:Tokyo Joshi Pro","-","-","-","-"]]},{"i":38,"n":"Misa Amagami","p":1,"g":"3","h":"Aomori","r":"Tohoku","a":15,"b":6,"e":[["absent","Y7 Jun","Y7 Jun..Y10 Jun; Y22 Jun..Y25 Jun","Y19 Jun","Y22 Jun"],["absent","Y4 Jun","Y4 Jun..Y7 Jun; Y19 Jun..Y22 Jun","Y16 Jun","Y19 Jun"],["absent","Y1 Jun","Y1 Jun..Y4 Jun; Y16 Jun..Y19 Jun","Y13 Jun","Y16 Jun"]]},{"i":39,"n":"Migiri Ozora","p":1,"g":"0","h":"West Hokkaido","r":"Hokkaido","a":16,"b":5,"e":[["absent","Y6 May","Y6 May..Y9 May; Y20 May..Y23 May","Y17 May","Y20 May"],["absent","Y3 May","Y3 May..Y6 May; Y17 May..Y20 May","Y14 May","Y17 May"],["free (age 16)","start","start..Y3 May; Y14 May..Y17 May","Y11 May","Y14 May"]]},{"i":40,"n":"Kaoru Takanashi","p":1,"g":"2","h":"Yamanashi","r":"Koshinetsu","a":18,"b":9,"e":[["free (age 22)","start (too old for tryout/scout)","Y8 Sep..Y10 Sep; Y20 Sep..Y22 Sep","Y5 Sep","Y8 Sep"],["free (age 25)","start (too old for tryout/scout)","Y5 Sep..Y7 Sep; Y17 Sep..Y19 Sep","Y2 Sep","Y5 Sep"],["retired (age 28)","-","Y5 Sep..Y7 Sep; Y17 Sep..Y19 Sep","Y14 Sep","Y5 Sep"]]},{"i":41,"n":"Mio Kotobuki","p":1,"g":"0","h":"Kyoto","r":"Kinki","a":15,"b":2,"e":[["absent","Y3 Feb","Y3 Feb..Y6 Feb; Y18 Feb..Y21 Feb","Y15 Feb","Y18 Feb"],["free (age 15)","start","start..Y3 Feb; Y15 Feb..Y18 Feb","Y12 Feb","Y15 Feb"],["free (age 18)","start (too old for tryout/scout)","Y12 Feb..Y15 Feb; Y27 Feb..Y30 Feb","Y9 Feb","Y12 Feb"]]},{"i":42,"n":"Saori Saoyama","p":1,"g":"4","h":"Kagoshima","r":"Kyushu/Okinawa","a":15,"b":8,"e":[["absent","Y4 Aug","Y4 Aug..Y7 Aug; Y19 Aug..Y22 Aug","Y16 Aug","Y19 Aug"],["absent","Y1 Aug","Y1 Aug..Y4 Aug; Y16 Aug..Y19 Aug","Y13 Aug","Y16 Aug"],["free (age 17)","start","start..Y1 Aug; Y13 Aug..Y16 Aug","Y10 Aug","Y13 Aug"]]},{"i":43,"n":"Mika Yuki","p":1,"g":"1","h":"Andromeda","r":"Kanto","a":15,"b":12,"e":[["free (age 15)","start","start..Y3 Dec; Y15 Dec..Y18 Dec","Y12 Dec","Y15 Dec"],["CPU:Tokyo Joshi Pro","-","-","-","-"],["CPU:Tokyo Joshi Pro","-","-","-","-"]]},{"i":44,"n":"Diana Rial","p":1,"g":"2","h":"Brazil","r":"Kanto","a":15,"b":9,"e":[["absent","Y4 Sep","Y4 Sep..Y7 Sep; Y19 Sep..Y22 Sep","Y16 Sep","Y19 Sep"],["absent","Y1 Sep","Y1 Sep..Y4 Sep; Y16 Sep..Y19 Sep","Y13 Sep","Y16 Sep"],["CPU:Tokyo Joshi Pro","-","-","-","-"]]},{"i":45,"n":"Saki Hikawa","p":1,"g":"3","h":"Yamagata","r":"Tohoku","a":18,"b":3,"e":[["absent","Y6 Mar","Y6 Mar..Y8 Mar; Y18 Mar..Y20 Mar","Y15 Mar","Y18 Mar"],["absent","Y3 Mar","Y3 Mar..Y5 Mar; Y15 Mar..Y17 Mar","Y12 Mar","Y15 Mar"],["free (age 18)","start","start..Y2 Mar; Y12 Mar..Y14 Mar","Y9 Mar","Y12 Mar"]]},{"i":46,"n":"Chiyoru Hoshino","p":1,"g":"5","h":"Shimane","r":"Chugoku","a":15,"b":3,"e":[["absent","Y8 Mar","Y8 Mar..Y11 Mar; Y23 Mar..Y26 Mar","Y20 Mar","Y23 Mar"],["absent","Y5 Mar","Y5 Mar..Y8 Mar; Y20 Mar..Y23 Mar","Y17 Mar","Y20 Mar"],["absent","Y2 Mar","Y2 Mar..Y5 Mar; Y17 Mar..Y20 Mar","Y14 Mar","Y17 Mar"]]},{"i":47,"n":"Hazuki Musumi","p":1,"g":"1","h":"Ibaraki","r":"Kanto","a":18,"b":4,"e":[["free (age 23)","start (too old for tryout/scout)","Y8 Apr..Y10 Apr; Y20 Apr..Y22 Apr","Y5 Apr","Y8 Apr"],["CPU:New Japan Joshi Pro","-","-","-","-"],["retired (age 29)","-","Y5 Apr..Y7 Apr; Y17 Apr..Y19 Apr","Y14 Apr","Y5 Apr"]]},{"i":48,"n":"Misaki Sakurazaki","p":1,"g":"3","h":"Ehime","r":"Shikoku","a":18,"b":7,"e":[["absent","Y2 Jul","Y2 Jul..Y4 Jul; Y14 Jul..Y16 Jul","Y11 Jul","Y14 Jul"],["free (age 19)","start","start..Y1 Jul; Y11 Jul..Y13 Jul","Y8 Jul","Y11 Jul"],["CPU:Tokyo Joshi Pro","-","-","-","-"]]},{"i":49,"n":"Kobato Sawashiro","p":1,"g":"2","h":"Wakayama","r":"Kinki","a":15,"b":1,"e":[["absent","Y3 Jan","Y3 Jan..Y6 Jan; Y18 Jan..Y21 Jan","Y15 Jan","Y18 Jan"],["free (age 15)","start","start..Y3 Jan; Y15 Jan..Y18 Jan","Y12 Jan","Y15 Jan"],["free (age 18)","start (too old for tryout/scout)","Y12 Jan..Y15 Jan; Y27 Jan..Y30 Jan","Y9 Jan","Y12 Jan"]]},{"i":50,"n":"Tsukasa Manabe","p":1,"g":"5","h":"Fukui","r":"Koshinetsu","a":15,"b":5,"e":[["absent","Y7 May","Y7 May..Y10 May; Y22 May..Y25 May","Y19 May","Y22 May"],["absent","Y4 May","Y4 May..Y7 May; Y19 May..Y22 May","Y16 May","Y19 May"],["absent","Y1 May","Y1 May..Y4 May; Y16 May..Y19 May","Y13 May","Y16 May"]]},{"i":51,"n":"Aoi Hayase","p":1,"g":"4","h":"Saga","r":"Kyushu/Okinawa","a":15,"b":6,"e":[["absent","Y1 Jun","Y1 Jun..Y4 Jun; Y16 Jun..Y19 Jun","Y13 Jun","Y16 Jun"],["free (age 17)","start","start..Y1 Jun; Y13 Jun..Y16 Jun","Y10 Jun","Y13 Jun"],["CPU:Pro Wrestling NEO","-","-","-","-"]]},{"i":52,"n":"Azumi Nakamori","p":1,"g":"3","h":"Tokushima","r":"Shikoku","a":17,"b":10,"e":[["free (age 19)","start","start..Y1 Oct; Y11 Oct..Y14 Oct","Y8 Oct","Y11 Oct"],["CPU:World Joshi Pro","-","-","-","-"],["free (age 25)","start (too old for tryout/scout)","Y5 Oct..Y8 Oct; Y18 Oct..Y21 Oct","Y2 Oct","Y5 Oct"]]},{"i":53,"n":"Yui Naruse","p":1,"g":"4","h":"Osaka","r":"Kinki","a":15,"b":11,"e":[["absent","Y1 Nov","Y1 Nov..Y4 Nov; Y16 Nov..Y19 Nov","Y13 Nov","Y16 Nov"],["free (age 17)","start","start..Y1 Nov; Y13 Nov..Y16 Nov","Y10 Nov","Y13 Nov"],["free (age 20)","start (too old for tryout/scout)","Y10 Nov..Y13 Nov; Y25 Nov..Y28 Nov","Y7 Nov","Y10 Nov"]]},{"i":54,"n":"Tsubasa Nomura","p":1,"g":"5","h":"Ehime","r":"Shikoku","a":15,"b":3,"e":[["absent","Y5 Mar","Y5 Mar..Y8 Mar; Y20 Mar..Y23 Mar","Y17 Mar","Y20 Mar"],["absent","Y2 Mar","Y2 Mar..Y5 Mar; Y17 Mar..Y20 Mar","Y14 Mar","Y17 Mar"],["free (age 16)","start","start..Y2 Mar; Y14 Mar..Y17 Mar","Y11 Mar","Y14 Mar"]]},{"i":55,"n":"Maho Nakamura","p":1,"g":"4","h":"Iwate","r":"Tohoku","a":15,"b":8,"e":[["free (age 16)","start","start..Y2 Aug; Y14 Aug..Y17 Aug","Y11 Aug","Y14 Aug"],["free (age 19)","start (too old for tryout/scout)","Y11 Aug..Y14 Aug; Y26 Aug..Y29 Aug","Y8 Aug","Y11 Aug"],["free (age 22)","start (too old for tryout/scout)","Y8 Aug..Y11 Aug; Y23 Aug..Y26 Aug","Y5 Aug","Y8 Aug"]]},{"i":56,"n":"Kazumi Fujiwara","p":1,"g":"3","h":"Tochigi","r":"Kanto","a":15,"b":1,"e":[["absent","Y3 Jan","Y3 Jan..Y6 Jan; Y18 Jan..Y21 Jan","Y15 Jan","Y18 Jan"],["free (age 15)","start","start..Y3 Jan; Y15 Jan..Y18 Jan","Y12 Jan","Y15 Jan"],["CPU:WARS","-","-","-","-"]]},{"i":57,"n":"Yuki Hoshina","p":1,"g":"5","h":"Shiga","r":"Kinki","a":16,"b":9,"e":[["absent","Y1 Sep","Y1 Sep..Y4 Sep; Y15 Sep..Y18 Sep","Y12 Sep","Y15 Sep"],["free (age 18)","start","start..Y1 Sep; Y12 Sep..Y15 Sep","Y9 Sep","Y12 Sep"],["free (age 21)","start (too old for tryout/scout)","Y9 Sep..Y12 Sep; Y23 Sep..Y26 Sep","Y6 Sep","Y9 Sep"]]},{"i":58,"n":"Chiaki Murakami","p":1,"g":"4","h":"Tottori","r":"Chugoku","a":15,"b":12,"e":[["absent","Y3 Dec","Y3 Dec..Y6 Dec; Y18 Dec..Y21 Dec","Y15 Dec","Y18 Dec"],["free (age 15)","start","start..Y3 Dec; Y15 Dec..Y18 Dec","Y12 Dec","Y15 Dec"],["CPU:New Japan Joshi Pro","-","-","-","-"]]},{"i":59,"n":"Chiharu Murakami","p":1,"g":"4","h":"Tottori","r":"Chugoku","a":15,"b":12,"e":[["absent","Y3 Dec","Y3 Dec..Y6 Dec; Y18 Dec..Y21 Dec","Y15 Dec","Y18 Dec"],["free (age 15)","start","start..Y3 Dec; Y15 Dec..Y18 Dec","Y12 Dec","Y15 Dec"],["CPU:New Japan Joshi Pro","-","-","-","-"]]},{"i":60,"n":"Mifuyu Yagyu","p":1,"g":"2","h":"Nara","r":"Kinki","a":17,"b":8,"e":[["absent","Y1 Aug","Y1 Aug..Y4 Aug; Y14 Aug..Y17 Aug","Y11 Aug","Y14 Aug"],["free (age 19)","start","start..Y1 Aug; Y11 Aug..Y14 Aug","Y8 Aug","Y11 Aug"],["CPU:WARS","-","-","-","-"]]},{"i":61,"n":"Shizuka Yajima","p":1,"g":"2","h":"Shimane","r":"Chugoku","a":18,"b":11,"e":[["CPU:New Japan Joshi Pro","-","-","-","-"],["free (age 24)","start (too old for tryout/scout)","Y6 Nov..Y8 Nov; Y18 Nov..Y20 Nov","Y3 Nov","Y6 Nov"],["retired (age 27)","-","Y6 Nov..Y8 Nov; Y18 Nov..Y20 Nov","Y15 Nov","Y6 Nov"]]},{"i":62,"n":"Raira Kamui","p":1,"g":"2","h":"West Hokkaido","r":"Hokkaido","a":16,"b":6,"e":[["absent","Y4 Jun","Y4 Jun..Y7 Jun; Y18 Jun..Y21 Jun","Y15 Jun","Y18 Jun"],["absent","Y1 Jun","Y1 Jun..Y4 Jun; Y15 Jun..Y18 Jun","Y12 Jun","Y15 Jun"],["free (age 18)","start","start..Y1 Jun; Y12 Jun..Y15 Jun","Y9 Jun","Y12 Jun"]]},{"i":63,"n":"RIKKA","p":1,"g":"3","h":"Yamanashi","r":"Koshinetsu","a":15,"b":7,"e":[["free (age 16)","start","start..Y2 Jul; Y14 Jul..Y17 Jul","Y11 Jul","Y14 Jul"],["CPU:Tokyo Joshi Pro","-","-","-","-"],["CPU:Tokyo Joshi Pro","-","-","-","-"]]},{"i":64,"n":"Saki Hojo","p":1,"g":"3","h":"Toyama","r":"Koshinetsu","a":17,"b":2,"e":[["free (age 20)","start (too old for tryout/scout)","Y10 Feb..Y13 Feb; Y23 Feb..Y26 Feb","Y7 Feb","Y10 Feb"],["free (age 23)","start (too old for tryout/scout)","Y7 Feb..Y10 Feb; Y20 Feb..Y23 Feb","Y4 Feb","Y7 Feb"],["free (age 26)","start (too old for tryout/scout)","Y4 Feb..Y7 Feb; Y17 Feb..Y20 Feb","Y1 Feb","Y4 Feb"]]},{"i":65,"n":"Mai Nagasawa","p":1,"g":"1","h":"Fukuoka","r":"Kyushu/Okinawa","a":15,"b":3,"e":[["absent","Y5 Mar","Y5 Mar..Y8 Mar; Y20 Mar..Y23 Mar","Y17 Mar","Y20 Mar"],["absent","Y2 Mar","Y2 Mar..Y5 Mar; Y17 Mar..Y20 Mar","Y14 Mar","Y17 Mar"],["free (age 16)","start","start..Y2 Mar; Y14 Mar..Y17 Mar","Y11 Mar","Y14 Mar"]]},{"i":66,"n":"Natsuki Makabe","p":1,"g":"4","h":"Oita","r":"Kyushu/Okinawa","a":15,"b":10,"e":[["absent","Y5 Oct","Y5 Oct..Y8 Oct; Y20 Oct..Y23 Oct","Y17 Oct","Y20 Oct"],["absent","Y2 Oct","Y2 Oct..Y5 Oct; Y17 Oct..Y20 Oct","Y14 Oct","Y17 Oct"],["free (age 16)","start","start..Y2 Oct; Y14 Oct..Y17 Oct","Y11 Oct","Y14 Oct"]]},{"i":67,"n":"Shizuku Himuro","p":1,"g":"2","h":"Toyama","r":"Koshinetsu","a":15,"b":11,"e":[["absent","Y3 Nov","Y3 Nov..Y6 Nov; Y18 Nov..Y21 Nov","Y15 Nov","Y18 Nov"],["free (age 15)","start","start..Y3 Nov; Y15 Nov..Y18 Nov","Y12 Nov","Y15 Nov"],["free (age 18)","start (too old for tryout/scout)","Y12 Nov..Y15 Nov; Y27 Nov..Y30 Nov","Y9 Nov","Y12 Nov"]]},{"i":68,"n":"Maki Ueto","p":1,"g":"2","h":"Tottori","r":"Chugoku","a":15,"b":3,"e":[["absent","Y3 Mar","Y3 Mar..Y6 Mar; Y18 Mar..Y21 Mar","Y15 Mar","Y18 Mar"],["free (age 15)","start","start..Y3 Mar; Y15 Mar..Y18 Mar","Y12 Mar","Y15 Mar"],["CPU:New Japan Joshi Pro","-","-","-","-"]]},{"i":69,"n":"Nozomi Uchida","p":1,"g":"2","h":"Tokyo","r":"Kanto","a":15,"b":10,"e":[["absent","Y3 Oct","Y3 Oct..Y6 Oct; Y18 Oct..Y21 Oct","Y15 Oct","Y18 Oct"],["free (age 15)","start","start..Y3 Oct; Y15 Oct..Y18 Oct","Y12 Oct","Y15 Oct"],["CPU:New Japan Joshi Pro","-","-","-","-"]]},{"i":70,"n":"Kumi Yamamoto","p":1,"g":"2","h":"Tokyo","r":"Kanto","a":16,"b":2,"e":[["absent","Y3 Feb","Y3 Feb..Y6 Feb; Y17 Feb..Y20 Feb","Y14 Feb","Y17 Feb"],["free (age 16)","start","start..Y3 Feb; Y14 Feb..Y17 Feb","Y11 Feb","Y14 Feb"],["CPU:JWI","-","-","-","-"]]},{"i":71,"n":"Chisato Sakurai","p":1,"g":"2","h":"Hiroshima","r":"Chugoku","a":15,"b":2,"e":[["absent","Y1 Feb","Y1 Feb..Y4 Feb; Y16 Feb..Y19 Feb","Y13 Feb","Y16 Feb"],["free (age 17)","start","start..Y1 Feb; Y13 Feb..Y16 Feb","Y10 Feb","Y13 Feb"],["free (age 20)","start (too old for tryout/scout)","Y10 Feb..Y13 Feb; Y25 Feb..Y28 Feb","Y7 Feb","Y10 Feb"]]},{"i":72,"n":"Hibiki Izayoi","p":1,"g":"2","h":"Oita","r":"Kyushu/Okinawa","a":16,"b":8,"e":[["free (age 18)","start","start..Y1 Aug; Y12 Aug..Y15 Aug","Y9 Aug","Y12 Aug"],["free (age 21)","start (too old for tryout/scout)","Y9 Aug..Y12 Aug; Y23 Aug..Y26 Aug","Y6 Aug","Y9 Aug"],["free (age 24)","start (too old for tryout/scout)","Y6 Aug..Y9 Aug; Y20 Aug..Y23 Aug","Y3 Aug","Y6 Aug"]]},{"i":73,"n":"Ami Kurihama","p":1,"g":"4","h":"Gifu","r":"Tokai","a":15,"b":7,"e":[["absent","Y8 Jul","Y8 Jul..Y11 Jul; Y23 Jul..Y26 Jul","Y20 Jul","Y23 Jul"],["absent","Y5 Jul","Y5 Jul..Y8 Jul; Y20 Jul..Y23 Jul","Y17 Jul","Y20 Jul"],["absent","Y2 Jul","Y2 Jul..Y5 Jul; Y17 Jul..Y20 Jul","Y14 Jul","Y17 Jul"]]},{"i":74,"n":"Rena Shishido","p":1,"g":"3","h":"Saitama","r":"Kanto","a":15,"b":12,"e":[["absent","Y3 Dec","Y3 Dec..Y6 Dec; Y18 Dec..Y21 Dec","Y15 Dec","Y18 Dec"],["free (age 15)","start","start..Y3 Dec; Y15 Dec..Y18 Dec","Y12 Dec","Y15 Dec"],["free (age 18)","start (too old for tryout/scout)","Y12 Dec..Y15 Dec; Y27 Dec..Y30 Dec","Y9 Dec","Y12 Dec"]]},{"i":75,"n":"Shion Kagura","p":1,"g":"3","h":"Osaka","r":"Kinki","a":16,"b":9,"e":[["free (age 17)","start","start..Y2 Sep; Y13 Sep..Y16 Sep","Y10 Sep","Y13 Sep"],["free (age 20)","start (too old for tryout/scout)","Y10 Sep..Y13 Sep; Y24 Sep..Y27 Sep","Y7 Sep","Y10 Sep"],["free (age 23)","start (too old for tryout/scout)","Y7 Sep..Y10 Sep; Y21 Sep..Y24 Sep","Y4 Sep","Y7 Sep"]]},{"i":76,"n":"AGEHA","p":1,"g":"3","h":"Tokyo","r":"Kanto","a":15,"b":8,"e":[["absent","Y6 Aug","Y6 Aug..Y9 Aug; Y21 Aug..Y24 Aug","Y18 Aug","Y21 Aug"],["absent","Y3 Aug","Y3 Aug..Y6 Aug; Y18 Aug..Y21 Aug","Y15 Aug","Y18 Aug"],["free (age 15)","start","start..Y3 Aug; Y15 Aug..Y18 Aug","Y12 Aug","Y15 Aug"]]},{"i":77,"n":"Yuri Kusunoki","p":1,"g":"3","h":"Hyogo","r":"Kinki","a":15,"b":8,"e":[["absent","Y7 Aug","Y7 Aug..Y10 Aug; Y22 Aug..Y25 Aug","Y19 Aug","Y22 Aug"],["absent","Y4 Aug","Y4 Aug..Y7 Aug; Y19 Aug..Y22 Aug","Y16 Aug","Y19 Aug"],["absent","Y1 Aug","Y1 Aug..Y4 Aug; Y16 Aug..Y19 Aug","Y13 Aug","Y16 Aug"]]},{"i":78,"n":"Arisa Morishima","p":1,"g":"2","h":"Tokushima","r":"Shikoku","a":16,"b":7,"e":[["absent","Y1 Jul","Y1 Jul..Y4 Jul; Y15 Jul..Y18 Jul","Y12 Jul","Y15 Jul"],["free (age 18)","start","start..Y1 Jul; Y12 Jul..Y15 Jul","Y9 Jul","Y12 Jul"],["free (age 21)","start (too old for tryout/scout)","Y9 Jul..Y12 Jul; Y23 Jul..Y26 Jul","Y6 Jul","Y9 Jul"]]},{"i":79,"n":"Suzumi Ishikawa","p":2,"g":"rand","h":"Ishikawa","r":"Koshinetsu","a":16,"b":6,"e":[["absent","Y8 Jun","Y8 Jun..Y11 Jun; Y22 Jun..Y25 Jun","Y19 Jun","Y22 Jun"],["absent","Y5 Jun","Y5 Jun..Y8 Jun; Y19 Jun..Y22 Jun","Y16 Jun","Y19 Jun"],["absent","Y2 Jun","Y2 Jun..Y5 Jun; Y16 Jun..Y19 Jun","Y13 Jun","Y16 Jun"]]},{"i":80,"n":"Shinobu Echigo","p":2,"g":"rand","h":"Akita","r":"Tohoku","a":15,"b":2,"e":[["absent","Y10 Feb","Y10 Feb..Y13 Feb; Y25 Feb..Y28 Feb","Y22 Feb","Y25 Feb"],["absent","Y7 Feb","Y7 Feb..Y10 Feb; Y22 Feb..Y25 Feb","Y19 Feb","Y22 Feb"],["absent","Y4 Feb","Y4 Feb..Y7 Feb; Y19 Feb..Y22 Feb","Y16 Feb","Y19 Feb"]]},{"i":81,"n":"Hikaru Ogawa","p":2,"g":"rand","h":"Nagano","r":"Koshinetsu","a":15,"b":11,"e":[["absent","Y10 Nov","Y10 Nov..Y13 Nov; Y25 Nov..Y28 Nov","Y22 Nov","Y25 Nov"],["absent","Y7 Nov","Y7 Nov..Y10 Nov; Y22 Nov..Y25 Nov","Y19 Nov","Y22 Nov"],["absent","Y4 Nov","Y4 Nov..Y7 Nov; Y19 Nov..Y22 Nov","Y16 Nov","Y19 Nov"]]},{"i":82,"n":"Reiko Kanamori","p":2,"g":"rand","h":"Hiroshima","r":"Chugoku","a":15,"b":10,"e":[["absent","Y14 Oct","Y14 Oct..Y17 Oct; Y29 Oct..Y32 Oct","Y26 Oct","Y29 Oct"],["absent","Y11 Oct","Y11 Oct..Y14 Oct; Y26 Oct..Y29 Oct","Y23 Oct","Y26 Oct"],["absent","Y8 Oct","Y8 Oct..Y11 Oct; Y23 Oct..Y26 Oct","Y20 Oct","Y23 Oct"]]},{"i":83,"n":"Sachiko Kanda","p":2,"g":"rand","h":"Ibaraki","r":"Kanto","a":17,"b":12,"e":[["absent","Y14 Dec","Y14 Dec..Y17 Dec; Y27 Dec..Y30 Dec","Y24 Dec","Y27 Dec"],["absent","Y11 Dec","Y11 Dec..Y14 Dec; Y24 Dec..Y27 Dec","Y21 Dec","Y24 Dec"],["absent","Y8 Dec","Y8 Dec..Y11 Dec; Y21 Dec..Y24 Dec","Y18 Dec","Y21 Dec"]]},{"i":84,"n":"Riyu Kikuchi","p":2,"g":"rand","h":"Miyagi","r":"Tohoku","a":15,"b":6,"e":[["absent","Y10 Jun","Y10 Jun..Y13 Jun; Y25 Jun..Y28 Jun","Y22 Jun","Y25 Jun"],["absent","Y7 Jun","Y7 Jun..Y10 Jun; Y22 Jun..Y25 Jun","Y19 Jun","Y22 Jun"],["absent","Y4 Jun","Y4 Jun..Y7 Jun; Y19 Jun..Y22 Jun","Y16 Jun","Y19 Jun"]]},{"i":85,"n":"Mika Kanai","p":2,"g":"rand","h":"West Hokkaido","r":"Hokkaido","a":15,"b":1,"e":[["absent","Y12 Jan","Y12 Jan..Y15 Jan; Y27 Jan..Y30 Jan","Y24 Jan","Y27 Jan"],["absent","Y9 Jan","Y9 Jan..Y12 Jan; Y24 Jan..Y27 Jan","Y21 Jan","Y24 Jan"],["absent","Y6 Jan","Y6 Jan..Y9 Jan; Y21 Jan..Y24 Jan","Y18 Jan","Y21 Jan"]]},{"i":86,"n":"Satomi Kojima","p":2,"g":"rand","h":"Wakayama","r":"Kinki","a":15,"b":5,"e":[["absent","Y16 May","Y16 May..Y19 May; Y31 May..Y34 May","Y28 May","Y31 May"],["absent","Y13 May","Y13 May..Y16 May; Y28 May..Y31 May","Y25 May","Y28 May"],["absent","Y10 May","Y10 May..Y13 May; Y25 May..Y28 May","Y22 May","Y25 May"]]},{"i":87,"n":"Akiko Saito","p":2,"g":"rand","h":"Mie","r":"Tokai","a":16,"b":2,"e":[["absent","Y9 Feb","Y9 Feb..Y12 Feb; Y23 Feb..Y26 Feb","Y20 Feb","Y23 Feb"],["absent","Y6 Feb","Y6 Feb..Y9 Feb; Y20 Feb..Y23 Feb","Y17 Feb","Y20 Feb"],["absent","Y3 Feb","Y3 Feb..Y6 Feb; Y17 Feb..Y20 Feb","Y14 Feb","Y17 Feb"]]},{"i":88,"n":"Ryuko Yoshida","p":2,"g":"rand","h":"Kumamoto","r":"Kyushu/Okinawa","a":16,"b":11,"e":[["absent","Y8 Nov","Y8 Nov..Y11 Nov; Y22 Nov..Y25 Nov","Y19 Nov","Y22 Nov"],["absent","Y5 Nov","Y5 Nov..Y8 Nov; Y19 Nov..Y22 Nov","Y16 Nov","Y19 Nov"],["absent","Y2 Nov","Y2 Nov..Y5 Nov; Y16 Nov..Y19 Nov","Y13 Nov","Y16 Nov"]]},{"i":89,"n":"Sakie Hori","p":2,"g":"rand","h":"Tokyo","r":"Kanto","a":15,"b":11,"e":[["absent","Y9 Nov","Y9 Nov..Y12 Nov; Y24 Nov..Y27 Nov","Y21 Nov","Y24 Nov"],["absent","Y6 Nov","Y6 Nov..Y9 Nov; Y21 Nov..Y24 Nov","Y18 Nov","Y21 Nov"],["absent","Y3 Nov","Y3 Nov..Y6 Nov; Y18 Nov..Y21 Nov","Y15 Nov","Y18 Nov"]]},{"i":90,"n":"Reiko Tomizawa","p":2,"g":"rand","h":"Chiba","r":"Kanto","a":15,"b":5,"e":[["absent","Y12 May","Y12 May..Y15 May; Y27 May..Y30 May","Y24 May","Y27 May"],["absent","Y9 May","Y9 May..Y12 May; Y24 May..Y27 May","Y21 May","Y24 May"],["absent","Y6 May","Y6 May..Y9 May; Y21 May..Y24 May","Y18 May","Y21 May"]]},{"i":91,"n":"Chizuru Nagahara","p":2,"g":"rand","h":"Gunma","r":"Kanto","a":15,"b":9,"e":[["absent","Y12 Sep","Y12 Sep..Y15 Sep; Y27 Sep..Y30 Sep","Y24 Sep","Y27 Sep"],["absent","Y9 Sep","Y9 Sep..Y12 Sep; Y24 Sep..Y27 Sep","Y21 Sep","Y24 Sep"],["absent","Y6 Sep","Y6 Sep..Y9 Sep; Y21 Sep..Y24 Sep","Y18 Sep","Y21 Sep"]]},{"i":92,"n":"Risako Sakuma","p":2,"g":"rand","h":"Tokyo","r":"Kanto","a":17,"b":11,"e":[["absent","Y6 Nov","Y6 Nov..Y9 Nov; Y19 Nov..Y22 Nov","Y16 Nov","Y19 Nov"],["absent","Y3 Nov","Y3 Nov..Y6 Nov; Y16 Nov..Y19 Nov","Y13 Nov","Y16 Nov"],["free (age 17)","start","start..Y3 Nov; Y13 Nov..Y16 Nov","Y10 Nov","Y13 Nov"]]},{"i":93,"n":"Reika Ichigaya","p":2,"g":"rand","h":"Saitama","r":"Kanto","a":17,"b":9,"e":[["absent","Y9 Sep","Y9 Sep..Y12 Sep; Y22 Sep..Y25 Sep","Y19 Sep","Y22 Sep"],["absent","Y6 Sep","Y6 Sep..Y9 Sep; Y19 Sep..Y22 Sep","Y16 Sep","Y19 Sep"],["absent","Y3 Sep","Y3 Sep..Y6 Sep; Y16 Sep..Y19 Sep","Y13 Sep","Y16 Sep"]]},{"i":94,"n":"Hitomi Fujishima","p":2,"g":"rand","h":"Kyoto","r":"Kinki","a":15,"b":2,"e":[["absent","Y10 Feb","Y10 Feb..Y13 Feb; Y25 Feb..Y28 Feb","Y22 Feb","Y25 Feb"],["absent","Y7 Feb","Y7 Feb..Y10 Feb; Y22 Feb..Y25 Feb","Y19 Feb","Y22 Feb"],["absent","Y4 Feb","Y4 Feb..Y7 Feb; Y19 Feb..Y22 Feb","Y16 Feb","Y19 Feb"]]},{"i":95,"n":"Kyoko Uehara","p":2,"g":"rand","h":"Okinawa","r":"Kyushu/Okinawa","a":17,"b":12,"e":[["absent","Y6 Dec","Y6 Dec..Y9 Dec; Y19 Dec..Y22 Dec","Y16 Dec","Y19 Dec"],["absent","Y3 Dec","Y3 Dec..Y6 Dec; Y16 Dec..Y19 Dec","Y13 Dec","Y16 Dec"],["free (age 17)","start","start..Y3 Dec; Y13 Dec..Y16 Dec","Y10 Dec","Y13 Dec"]]},{"i":96,"n":"Eri Kishima","p":2,"g":"rand","h":"Fukuoka","r":"Kyushu/Okinawa","a":15,"b":8,"e":[["absent","Y9 Aug","Y9 Aug..Y12 Aug; Y24 Aug..Y27 Aug","Y21 Aug","Y24 Aug"],["absent","Y6 Aug","Y6 Aug..Y9 Aug; Y21 Aug..Y24 Aug","Y18 Aug","Y21 Aug"],["absent","Y3 Aug","Y3 Aug..Y6 Aug; Y18 Aug..Y21 Aug","Y15 Aug","Y18 Aug"]]},{"i":97,"n":"Yukiko Shinzaki","p":2,"g":"rand","h":"Yamaguchi","r":"Chugoku","a":15,"b":3,"e":[["absent","Y9 Mar","Y9 Mar..Y12 Mar; Y24 Mar..Y27 Mar","Y21 Mar","Y24 Mar"],["absent","Y6 Mar","Y6 Mar..Y9 Mar; Y21 Mar..Y24 Mar","Y18 Mar","Y21 Mar"],["absent","Y3 Mar","Y3 Mar..Y6 Mar; Y18 Mar..Y21 Mar","Y15 Mar","Y18 Mar"]]},{"i":98,"n":"Toshimi Minami","p":2,"g":"rand","h":"Kochi","r":"Shikoku","a":16,"b":3,"e":[["absent","Y9 Mar","Y9 Mar..Y12 Mar; Y23 Mar..Y26 Mar","Y20 Mar","Y23 Mar"],["absent","Y6 Mar","Y6 Mar..Y9 Mar; Y20 Mar..Y23 Mar","Y17 Mar","Y20 Mar"],["absent","Y3 Mar","Y3 Mar..Y6 Mar; Y17 Mar..Y20 Mar","Y14 Mar","Y17 Mar"]]},{"i":99,"n":"Izumi Yoshihara","p":2,"g":"rand","h":"Kanagawa","r":"Kanto","a":17,"b":4,"e":[["absent","Y7 Apr","Y7 Apr..Y10 Apr; Y20 Apr..Y23 Apr","Y17 Apr","Y20 Apr"],["absent","Y4 Apr","Y4 Apr..Y7 Apr; Y17 Apr..Y20 Apr","Y14 Apr","Y17 Apr"],["free (age 17)","start","start..Y4 Apr; Y14 Apr..Y17 Apr","Y11 Apr","Y14 Apr"]]},{"i":100,"n":"Megumi Muto","p":2,"g":"rand","h":"Shizuoka","r":"Tokai","a":15,"b":4,"e":[["absent","Y14 Apr","Y14 Apr..Y17 Apr; Y29 Apr..Y32 Apr","Y26 Apr","Y29 Apr"],["absent","Y11 Apr","Y11 Apr..Y14 Apr; Y26 Apr..Y29 Apr","Y23 Apr","Y26 Apr"],["absent","Y8 Apr","Y8 Apr..Y11 Apr; Y23 Apr..Y26 Apr","Y20 Apr","Y23 Apr"]]},{"i":101,"n":"Chigusa Yuki","p":2,"g":"rand","h":"Aichi","r":"Tokai","a":15,"b":2,"e":[["absent","Y14 Feb","Y14 Feb..Y17 Feb; Y29 Feb..Y32 Feb","Y26 Feb","Y29 Feb"],["absent","Y11 Feb","Y11 Feb..Y14 Feb; Y26 Feb..Y29 Feb","Y23 Feb","Y26 Feb"],["absent","Y8 Feb","Y8 Feb..Y11 Feb; Y23 Feb..Y26 Feb","Y20 Feb","Y23 Feb"]]},{"i":102,"n":"Tomomi Watanabe","p":2,"g":"rand","h":"Kagawa","r":"Shikoku","a":15,"b":3,"e":[["absent","Y17 Mar","Y17 Mar..Y20 Mar; Y32 Mar..Y35 Mar","Y29 Mar","Y32 Mar"],["absent","Y14 Mar","Y14 Mar..Y17 Mar; Y29 Mar..Y32 Mar","Y26 Mar","Y29 Mar"],["absent","Y11 Mar","Y11 Mar..Y14 Mar; Y26 Mar..Y29 Mar","Y23 Mar","Y26 Mar"]]},{"i":103,"n":"Kazuki Aiba","p":2,"g":"rand","h":"Ishikawa","r":"Koshinetsu","a":15,"b":7,"e":[["absent","Y13 Jul","Y13 Jul..Y16 Jul; Y28 Jul..Y31 Jul","Y25 Jul","Y28 Jul"],["absent","Y10 Jul","Y10 Jul..Y13 Jul; Y25 Jul..Y28 Jul","Y22 Jul","Y25 Jul"],["absent","Y7 Jul","Y7 Jul..Y10 Jul; Y22 Jul..Y25 Jul","Y19 Jul","Y22 Jul"]]},{"i":104,"n":"Aya Enomoto","p":2,"g":"rand","h":"Okayama","r":"Chugoku","a":15,"b":3,"e":[["absent","Y16 Mar","Y16 Mar..Y19 Mar; Y31 Mar..Y34 Mar","Y28 Mar","Y31 Mar"],["absent","Y13 Mar","Y13 Mar..Y16 Mar; Y28 Mar..Y31 Mar","Y25 Mar","Y28 Mar"],["absent","Y10 Mar","Y10 Mar..Y13 Mar; Y25 Mar..Y28 Mar","Y22 Mar","Y25 Mar"]]},{"i":105,"n":"Yuka Asahina","p":2,"g":"rand","h":"Aomori","r":"Tohoku","a":15,"b":10,"e":[["absent","Y7 Oct","Y7 Oct..Y10 Oct; Y22 Oct..Y25 Oct","Y19 Oct","Y22 Oct"],["absent","Y4 Oct","Y4 Oct..Y7 Oct; Y19 Oct..Y22 Oct","Y16 Oct","Y19 Oct"],["absent","Y1 Oct","Y1 Oct..Y4 Oct; Y16 Oct..Y19 Oct","Y13 Oct","Y16 Oct"]]},{"i":106,"n":"Shining Kamui","p":2,"g":"rand","h":"East Hokkaido","r":"Hokkaido","a":16,"b":2,"e":[["absent","Y13 Feb","Y13 Feb..Y16 Feb; Y27 Feb..Y30 Feb","Y24 Feb","Y27 Feb"],["absent","Y10 Feb","Y10 Feb..Y13 Feb; Y24 Feb..Y27 Feb","Y21 Feb","Y24 Feb"],["absent","Y7 Feb","Y7 Feb..Y10 Feb; Y21 Feb..Y24 Feb","Y18 Feb","Y21 Feb"]]},{"i":107,"n":"Mikoto Kusanagi","p":2,"g":"rand","h":"Yamagata","r":"Tohoku","a":16,"b":9,"e":[["absent","Y12 Sep","Y12 Sep..Y15 Sep; Y26 Sep..Y29 Sep","Y23 Sep","Y26 Sep"],["absent","Y9 Sep","Y9 Sep..Y12 Sep; Y23 Sep..Y26 Sep","Y20 Sep","Y23 Sep"],["absent","Y6 Sep","Y6 Sep..Y9 Sep; Y20 Sep..Y23 Sep","Y17 Sep","Y20 Sep"]]},{"i":108,"n":"Shiho Kobayakawa","p":2,"g":"rand","h":"Fukushima","r":"Tohoku","a":15,"b":1,"e":[["absent","Y13 Jan","Y13 Jan..Y16 Jan; Y28 Jan..Y31 Jan","Y25 Jan","Y28 Jan"],["absent","Y10 Jan","Y10 Jan..Y13 Jan; Y25 Jan..Y28 Jan","Y22 Jan","Y25 Jan"],["absent","Y7 Jan","Y7 Jan..Y10 Jan; Y22 Jan..Y25 Jan","Y19 Jan","Y22 Jan"]]},{"i":109,"n":"Makoto Kondo","p":2,"g":"rand","h":"Kagoshima","r":"Kyushu/Okinawa","a":16,"b":4,"e":[["absent","Y11 Apr","Y11 Apr..Y14 Apr; Y25 Apr..Y28 Apr","Y22 Apr","Y25 Apr"],["absent","Y8 Apr","Y8 Apr..Y11 Apr; Y22 Apr..Y25 Apr","Y19 Apr","Y22 Apr"],["absent","Y5 Apr","Y5 Apr..Y8 Apr; Y19 Apr..Y22 Apr","Y16 Apr","Y19 Apr"]]},{"i":110,"n":"Miyuki Sanada","p":2,"g":"rand","h":"Nagano","r":"Koshinetsu","a":15,"b":8,"e":[["absent","Y10 Aug","Y10 Aug..Y13 Aug; Y25 Aug..Y28 Aug","Y22 Aug","Y25 Aug"],["absent","Y7 Aug","Y7 Aug..Y10 Aug; Y22 Aug..Y25 Aug","Y19 Aug","Y22 Aug"],["absent","Y4 Aug","Y4 Aug..Y7 Aug; Y19 Aug..Y22 Aug","Y16 Aug","Y19 Aug"]]},{"i":111,"n":"Mitsuki Sugiura","p":2,"g":"rand","h":"Gifu","r":"Tokai","a":16,"b":5,"e":[["absent","Y14 May","Y14 May..Y17 May; Y28 May..Y31 May","Y25 May","Y28 May"],["absent","Y11 May","Y11 May..Y14 May; Y25 May..Y28 May","Y22 May","Y25 May"],["absent","Y8 May","Y8 May..Y11 May; Y22 May..Y25 May","Y19 May","Y22 May"]]},{"i":112,"n":"Haruka Date","p":2,"g":"rand","h":"Miyazaki","r":"Kyushu/Okinawa","a":15,"b":10,"e":[["absent","Y11 Oct","Y11 Oct..Y14 Oct; Y26 Oct..Y29 Oct","Y23 Oct","Y26 Oct"],["absent","Y8 Oct","Y8 Oct..Y11 Oct; Y23 Oct..Y26 Oct","Y20 Oct","Y23 Oct"],["absent","Y5 Oct","Y5 Oct..Y8 Oct; Y20 Oct..Y23 Oct","Y17 Oct","Y20 Oct"]]},{"i":113,"n":"Kasumi Tsuji","p":2,"g":"rand","h":"Tokyo","r":"Kanto","a":15,"b":10,"e":[["absent","Y12 Oct","Y12 Oct..Y15 Oct; Y27 Oct..Y30 Oct","Y24 Oct","Y27 Oct"],["absent","Y9 Oct","Y9 Oct..Y12 Oct; Y24 Oct..Y27 Oct","Y21 Oct","Y24 Oct"],["absent","Y6 Oct","Y6 Oct..Y9 Oct; Y21 Oct..Y24 Oct","Y18 Oct","Y21 Oct"]]},{"i":114,"n":"Nagisa Shiraishi","p":2,"g":"rand","h":"Niigata","r":"Koshinetsu","a":16,"b":11,"e":[["absent","Y14 Nov","Y14 Nov..Y17 Nov; Y28 Nov..Y31 Nov","Y25 Nov","Y28 Nov"],["absent","Y11 Nov","Y11 Nov..Y14 Nov; Y25 Nov..Y28 Nov","Y22 Nov","Y25 Nov"],["absent","Y8 Nov","Y8 Nov..Y11 Nov; Y22 Nov..Y25 Nov","Y19 Nov","Y22 Nov"]]},{"i":115,"n":"Asuka Kagami","p":2,"g":"rand","h":"Nagasaki","r":"Kyushu/Okinawa","a":17,"b":12,"e":[["absent","Y8 Dec","Y8 Dec..Y11 Dec; Y21 Dec..Y24 Dec","Y18 Dec","Y21 Dec"],["absent","Y5 Dec","Y5 Dec..Y8 Dec; Y18 Dec..Y21 Dec","Y15 Dec","Y18 Dec"],["absent","Y2 Dec","Y2 Dec..Y5 Dec; Y15 Dec..Y18 Dec","Y12 Dec","Y15 Dec"]]},{"i":116,"n":"Shoko Taki","p":2,"g":"rand","h":"Hyogo","r":"Kinki","a":17,"b":7,"e":[["absent","Y7 Jul","Y7 Jul..Y10 Jul; Y20 Jul..Y23 Jul","Y17 Jul","Y20 Jul"],["absent","Y4 Jul","Y4 Jul..Y7 Jul; Y17 Jul..Y20 Jul","Y14 Jul","Y17 Jul"],["absent","Y1 Jul","Y1 Jul..Y4 Jul; Y14 Jul..Y17 Jul","Y11 Jul","Y14 Jul"]]},{"i":117,"n":"Misa Amagami","p":2,"g":"rand","h":"Aomori","r":"Tohoku","a":15,"b":6,"e":[["absent","Y16 Jun","Y16 Jun..Y19 Jun; Y31 Jun..Y34 Jun","Y28 Jun","Y31 Jun"],["absent","Y13 Jun","Y13 Jun..Y16 Jun; Y28 Jun..Y31 Jun","Y25 Jun","Y28 Jun"],["absent","Y10 Jun","Y10 Jun..Y13 Jun; Y25 Jun..Y28 Jun","Y22 Jun","Y25 Jun"]]},{"i":118,"n":"Migiri Ozora","p":2,"g":"rand","h":"West Hokkaido","r":"Hokkaido","a":16,"b":5,"e":[["absent","Y15 May","Y15 May..Y18 May; Y29 May..Y32 May","Y26 May","Y29 May"],["absent","Y12 May","Y12 May..Y15 May; Y26 May..Y29 May","Y23 May","Y26 May"],["absent","Y9 May","Y9 May..Y12 May; Y23 May..Y26 May","Y20 May","Y23 May"]]},{"i":119,"n":"Kaoru Takanashi","p":2,"g":"rand","h":"Yamanashi","r":"Koshinetsu","a":18,"b":9,"e":[["absent","Y6 Sep","Y6 Sep..Y8 Sep; Y18 Sep..Y20 Sep","Y15 Sep","Y18 Sep"],["absent","Y3 Sep","Y3 Sep..Y5 Sep; Y15 Sep..Y17 Sep","Y12 Sep","Y15 Sep"],["free (age 18)","start","start..Y2 Sep; Y12 Sep..Y14 Sep","Y9 Sep","Y12 Sep"]]},{"i":120,"n":"Mio Kotobuki","p":2,"g":"rand","h":"Kyoto","r":"Kinki","a":15,"b":2,"e":[["absent","Y12 Feb","Y12 Feb..Y15 Feb; Y27 Feb..Y30 Feb","Y24 Feb","Y27 Feb"],["absent","Y9 Feb","Y9 Feb..Y12 Feb; Y24 Feb..Y27 Feb","Y21 Feb","Y24 Feb"],["absent","Y6 Feb","Y6 Feb..Y9 Feb; Y21 Feb..Y24 Feb","Y18 Feb","Y21 Feb"]]},{"i":121,"n":"Saori Saoyama","p":2,"g":"rand","h":"Kagoshima","r":"Kyushu/Okinawa","a":15,"b":8,"e":[["absent","Y12 Aug","Y12 Aug..Y15 Aug; Y27 Aug..Y30 Aug","Y24 Aug","Y27 Aug"],["absent","Y9 Aug","Y9 Aug..Y12 Aug; Y24 Aug..Y27 Aug","Y21 Aug","Y24 Aug"],["absent","Y6 Aug","Y6 Aug..Y9 Aug; Y21 Aug..Y24 Aug","Y18 Aug","Y21 Aug"]]},{"i":122,"n":"Mika Yuki","p":2,"g":"rand","h":"Andromeda","r":"Kanto","a":15,"b":12,"e":[["absent","Y9 Dec","Y9 Dec..Y12 Dec; Y24 Dec..Y27 Dec","Y21 Dec","Y24 Dec"],["absent","Y6 Dec","Y6 Dec..Y9 Dec; Y21 Dec..Y24 Dec","Y18 Dec","Y21 Dec"],["absent","Y3 Dec","Y3 Dec..Y6 Dec; Y18 Dec..Y21 Dec","Y15 Dec","Y18 Dec"]]},{"i":123,"n":"Diana Rial","p":2,"g":"rand","h":"Brazil","r":"Kanto","a":15,"b":9,"e":[["absent","Y13 Sep","Y13 Sep..Y16 Sep; Y28 Sep..Y31 Sep","Y25 Sep","Y28 Sep"],["absent","Y10 Sep","Y10 Sep..Y13 Sep; Y25 Sep..Y28 Sep","Y22 Sep","Y25 Sep"],["absent","Y7 Sep","Y7 Sep..Y10 Sep; Y22 Sep..Y25 Sep","Y19 Sep","Y22 Sep"]]},{"i":124,"n":"Saki Hikawa","p":2,"g":"rand","h":"Yamagata","r":"Tohoku","a":18,"b":3,"e":[["absent","Y15 Mar","Y15 Mar..Y17 Mar; Y27 Mar..Y29 Mar","Y24 Mar","Y27 Mar"],["absent","Y12 Mar","Y12 Mar..Y14 Mar; Y24 Mar..Y26 Mar","Y21 Mar","Y24 Mar"],["absent","Y9 Mar","Y9 Mar..Y11 Mar; Y21 Mar..Y23 Mar","Y18 Mar","Y21 Mar"]]},{"i":125,"n":"Chiyoru Hoshino","p":2,"g":"rand","h":"Shimane","r":"Chugoku","a":15,"b":3,"e":[["absent","Y17 Mar","Y17 Mar..Y20 Mar; Y32 Mar..Y35 Mar","Y29 Mar","Y32 Mar"],["absent","Y14 Mar","Y14 Mar..Y17 Mar; Y29 Mar..Y32 Mar","Y26 Mar","Y29 Mar"],["absent","Y11 Mar","Y11 Mar..Y14 Mar; Y26 Mar..Y29 Mar","Y23 Mar","Y26 Mar"]]},{"i":126,"n":"Hazuki Musumi","p":2,"g":"rand","h":"Ibaraki","r":"Kanto","a":18,"b":4,"e":[["absent","Y6 Apr","Y6 Apr..Y8 Apr; Y18 Apr..Y20 Apr","Y15 Apr","Y18 Apr"],["absent","Y3 Apr","Y3 Apr..Y5 Apr; Y15 Apr..Y17 Apr","Y12 Apr","Y15 Apr"],["free (age 19)","start","start..Y2 Apr; Y12 Apr..Y14 Apr","Y9 Apr","Y12 Apr"]]},{"i":127,"n":"Misaki Sakurazaki","p":2,"g":"rand","h":"Ehime","r":"Shikoku","a":18,"b":7,"e":[["absent","Y10 Jul","Y10 Jul..Y12 Jul; Y22 Jul..Y24 Jul","Y19 Jul","Y22 Jul"],["absent","Y7 Jul","Y7 Jul..Y9 Jul; Y19 Jul..Y21 Jul","Y16 Jul","Y19 Jul"],["absent","Y4 Jul","Y4 Jul..Y6 Jul; Y16 Jul..Y18 Jul","Y13 Jul","Y16 Jul"]]},{"i":128,"n":"Kobato Sawashiro","p":2,"g":"rand","h":"Wakayama","r":"Kinki","a":15,"b":1,"e":[["absent","Y12 Jan","Y12 Jan..Y15 Jan; Y27 Jan..Y30 Jan","Y24 Jan","Y27 Jan"],["absent","Y9 Jan","Y9 Jan..Y12 Jan; Y24 Jan..Y27 Jan","Y21 Jan","Y24 Jan"],["absent","Y6 Jan","Y6 Jan..Y9 Jan; Y21 Jan..Y24 Jan","Y18 Jan","Y21 Jan"]]},{"i":129,"n":"Tsukasa Manabe","p":2,"g":"rand","h":"Fukui","r":"Koshinetsu","a":15,"b":5,"e":[["absent","Y16 May","Y16 May..Y19 May; Y31 May..Y34 May","Y28 May","Y31 May"],["absent","Y13 May","Y13 May..Y16 May; Y28 May..Y31 May","Y25 May","Y28 May"],["absent","Y10 May","Y10 May..Y13 May; Y25 May..Y28 May","Y22 May","Y25 May"]]},{"i":130,"n":"Aoi Hayase","p":2,"g":"rand","h":"Saga","r":"Kyushu/Okinawa","a":15,"b":6,"e":[["absent","Y9 Jun","Y9 Jun..Y12 Jun; Y24 Jun..Y27 Jun","Y21 Jun","Y24 Jun"],["absent","Y6 Jun","Y6 Jun..Y9 Jun; Y21 Jun..Y24 Jun","Y18 Jun","Y21 Jun"],["absent","Y3 Jun","Y3 Jun..Y6 Jun; Y18 Jun..Y21 Jun","Y15 Jun","Y18 Jun"]]},{"i":131,"n":"Azumi Nakamori","p":2,"g":"rand","h":"Tokushima","r":"Shikoku","a":17,"b":10,"e":[["absent","Y7 Oct","Y7 Oct..Y10 Oct; Y20 Oct..Y23 Oct","Y17 Oct","Y20 Oct"],["absent","Y4 Oct","Y4 Oct..Y7 Oct; Y17 Oct..Y20 Oct","Y14 Oct","Y17 Oct"],["absent","Y1 Oct","Y1 Oct..Y4 Oct; Y14 Oct..Y17 Oct","Y11 Oct","Y14 Oct"]]},{"i":132,"n":"Yui Naruse","p":2,"g":"rand","h":"Osaka","r":"Kinki","a":15,"b":11,"e":[["absent","Y9 Nov","Y9 Nov..Y12 Nov; Y24 Nov..Y27 Nov","Y21 Nov","Y24 Nov"],["absent","Y6 Nov","Y6 Nov..Y9 Nov; Y21 Nov..Y24 Nov","Y18 Nov","Y21 Nov"],["absent","Y3 Nov","Y3 Nov..Y6 Nov; Y18 Nov..Y21 Nov","Y15 Nov","Y18 Nov"]]},{"i":133,"n":"Tsubasa Nomura","p":2,"g":"rand","h":"Ehime","r":"Shikoku","a":15,"b":3,"e":[["absent","Y13 Mar","Y13 Mar..Y16 Mar; Y28 Mar..Y31 Mar","Y25 Mar","Y28 Mar"],["absent","Y10 Mar","Y10 Mar..Y13 Mar; Y25 Mar..Y28 Mar","Y22 Mar","Y25 Mar"],["absent","Y7 Mar","Y7 Mar..Y10 Mar; Y22 Mar..Y25 Mar","Y19 Mar","Y22 Mar"]]},{"i":134,"n":"Maho Nakamura","p":2,"g":"rand","h":"Iwate","r":"Tohoku","a":15,"b":8,"e":[["absent","Y8 Aug","Y8 Aug..Y11 Aug; Y23 Aug..Y26 Aug","Y20 Aug","Y23 Aug"],["absent","Y5 Aug","Y5 Aug..Y8 Aug; Y20 Aug..Y23 Aug","Y17 Aug","Y20 Aug"],["absent","Y2 Aug","Y2 Aug..Y5 Aug; Y17 Aug..Y20 Aug","Y14 Aug","Y17 Aug"]]},{"i":135,"n":"Kazumi Fujiwara","p":2,"g":"rand","h":"Tochigi","r":"Kanto","a":15,"b":1,"e":[["absent","Y11 Jan","Y11 Jan..Y14 Jan; Y26 Jan..Y29 Jan","Y23 Jan","Y26 Jan"],["absent","Y8 Jan","Y8 Jan..Y11 Jan; Y23 Jan..Y26 Jan","Y20 Jan","Y23 Jan"],["absent","Y5 Jan","Y5 Jan..Y8 Jan; Y20 Jan..Y23 Jan","Y17 Jan","Y20 Jan"]]},{"i":136,"n":"Yuki Hoshina","p":2,"g":"rand","h":"Shiga","r":"Kinki","a":16,"b":9,"e":[["absent","Y9 Sep","Y9 Sep..Y12 Sep; Y23 Sep..Y26 Sep","Y20 Sep","Y23 Sep"],["absent","Y6 Sep","Y6 Sep..Y9 Sep; Y20 Sep..Y23 Sep","Y17 Sep","Y20 Sep"],["absent","Y3 Sep","Y3 Sep..Y6 Sep; Y17 Sep..Y20 Sep","Y14 Sep","Y17 Sep"]]},{"i":137,"n":"Chiaki Murakami","p":2,"g":"rand","h":"Tottori","r":"Chugoku","a":15,"b":12,"e":[["absent","Y12 Dec","Y12 Dec..Y15 Dec; Y27 Dec..Y30 Dec","Y24 Dec","Y27 Dec"],["absent","Y9 Dec","Y9 Dec..Y12 Dec; Y24 Dec..Y27 Dec","Y21 Dec","Y24 Dec"],["absent","Y6 Dec","Y6 Dec..Y9 Dec; Y21 Dec..Y24 Dec","Y18 Dec","Y21 Dec"]]},{"i":138,"n":"Chiharu Murakami","p":2,"g":"rand","h":"Tottori","r":"Chugoku","a":15,"b":12,"e":[["absent","Y12 Dec","Y12 Dec..Y15 Dec; Y27 Dec..Y30 Dec","Y24 Dec","Y27 Dec"],["absent","Y9 Dec","Y9 Dec..Y12 Dec; Y24 Dec..Y27 Dec","Y21 Dec","Y24 Dec"],["absent","Y6 Dec","Y6 Dec..Y9 Dec; Y21 Dec..Y24 Dec","Y18 Dec","Y21 Dec"]]},{"i":139,"n":"Mifuyu Yagyu","p":2,"g":"rand","h":"Nara","r":"Kinki","a":17,"b":8,"e":[["absent","Y10 Aug","Y10 Aug..Y13 Aug; Y23 Aug..Y26 Aug","Y20 Aug","Y23 Aug"],["absent","Y7 Aug","Y7 Aug..Y10 Aug; Y20 Aug..Y23 Aug","Y17 Aug","Y20 Aug"],["absent","Y4 Aug","Y4 Aug..Y7 Aug; Y17 Aug..Y20 Aug","Y14 Aug","Y17 Aug"]]},{"i":140,"n":"Shizuka Yajima","p":2,"g":"rand","h":"Shimane","r":"Chugoku","a":18,"b":11,"e":[["absent","Y7 Nov","Y7 Nov..Y9 Nov; Y19 Nov..Y21 Nov","Y16 Nov","Y19 Nov"],["absent","Y4 Nov","Y4 Nov..Y6 Nov; Y16 Nov..Y18 Nov","Y13 Nov","Y16 Nov"],["absent","Y1 Nov","Y1 Nov..Y3 Nov; Y13 Nov..Y15 Nov","Y10 Nov","Y13 Nov"]]},{"i":141,"n":"Nightmare Kamui","p":2,"g":"rand","h":"East Hokkaido","r":"Hokkaido","a":16,"b":6,"e":[["absent","Y13 Jun","Y13 Jun..Y16 Jun; Y27 Jun..Y30 Jun","Y24 Jun","Y27 Jun"],["absent","Y10 Jun","Y10 Jun..Y13 Jun; Y24 Jun..Y27 Jun","Y21 Jun","Y24 Jun"],["absent","Y7 Jun","Y7 Jun..Y10 Jun; Y21 Jun..Y24 Jun","Y18 Jun","Y21 Jun"]]},{"i":142,"n":"REKI","p":2,"g":"rand","h":"Yamanashi","r":"Koshinetsu","a":15,"b":7,"e":[["absent","Y8 Jul","Y8 Jul..Y11 Jul; Y23 Jul..Y26 Jul","Y20 Jul","Y23 Jul"],["absent","Y5 Jul","Y5 Jul..Y8 Jul; Y20 Jul..Y23 Jul","Y17 Jul","Y20 Jul"],["absent","Y2 Jul","Y2 Jul..Y5 Jul; Y17 Jul..Y20 Jul","Y14 Jul","Y17 Jul"]]},{"i":143,"n":"Saki Hojo","p":2,"g":"rand","h":"Toyama","r":"Koshinetsu","a":17,"b":2,"e":[["absent","Y7 Feb","Y7 Feb..Y10 Feb; Y20 Feb..Y23 Feb","Y17 Feb","Y20 Feb"],["absent","Y4 Feb","Y4 Feb..Y7 Feb; Y17 Feb..Y20 Feb","Y14 Feb","Y17 Feb"],["absent","Y1 Feb","Y1 Feb..Y4 Feb; Y14 Feb..Y17 Feb","Y11 Feb","Y14 Feb"]]},{"i":144,"n":"Mai Nagasawa","p":2,"g":"rand","h":"Fukuoka","r":"Kyushu/Okinawa","a":15,"b":3,"e":[["absent","Y13 Mar","Y13 Mar..Y16 Mar; Y28 Mar..Y31 Mar","Y25 Mar","Y28 Mar"],["absent","Y10 Mar","Y10 Mar..Y13 Mar; Y25 Mar..Y28 Mar","Y22 Mar","Y25 Mar"],["absent","Y7 Mar","Y7 Mar..Y10 Mar; Y22 Mar..Y25 Mar","Y19 Mar","Y22 Mar"]]},{"i":145,"n":"Natsuki Makabe","p":2,"g":"rand","h":"Oita","r":"Kyushu/Okinawa","a":15,"b":10,"e":[["absent","Y13 Oct","Y13 Oct..Y16 Oct; Y28 Oct..Y31 Oct","Y25 Oct","Y28 Oct"],["absent","Y10 Oct","Y10 Oct..Y13 Oct; Y25 Oct..Y28 Oct","Y22 Oct","Y25 Oct"],["absent","Y7 Oct","Y7 Oct..Y10 Oct; Y22 Oct..Y25 Oct","Y19 Oct","Y22 Oct"]]},{"i":146,"n":"Shizuku Himuro","p":2,"g":"rand","h":"Toyama","r":"Koshinetsu","a":15,"b":11,"e":[["absent","Y11 Nov","Y11 Nov..Y14 Nov; Y26 Nov..Y29 Nov","Y23 Nov","Y26 Nov"],["absent","Y8 Nov","Y8 Nov..Y11 Nov; Y23 Nov..Y26 Nov","Y20 Nov","Y23 Nov"],["absent","Y5 Nov","Y5 Nov..Y8 Nov; Y20 Nov..Y23 Nov","Y17 Nov","Y20 Nov"]]},{"i":147,"n":"Maki Ueto","p":2,"g":"rand","h":"Tottori","r":"Chugoku","a":15,"b":3,"e":[["absent","Y11 Mar","Y11 Mar..Y14 Mar; Y26 Mar..Y29 Mar","Y23 Mar","Y26 Mar"],["absent","Y8 Mar","Y8 Mar..Y11 Mar; Y23 Mar..Y26 Mar","Y20 Mar","Y23 Mar"],["absent","Y5 Mar","Y5 Mar..Y8 Mar; Y20 Mar..Y23 Mar","Y17 Mar","Y20 Mar"]]},{"i":148,"n":"Nozomi Uchida","p":2,"g":"rand","h":"Tokyo","r":"Kanto","a":15,"b":10,"e":[["absent","Y11 Oct","Y11 Oct..Y14 Oct; Y26 Oct..Y29 Oct","Y23 Oct","Y26 Oct"],["absent","Y8 Oct","Y8 Oct..Y11 Oct; Y23 Oct..Y26 Oct","Y20 Oct","Y23 Oct"],["absent","Y5 Oct","Y5 Oct..Y8 Oct; Y20 Oct..Y23 Oct","Y17 Oct","Y20 Oct"]]},{"i":149,"n":"Kumi Yamamoto","p":2,"g":"rand","h":"Tokyo","r":"Kanto","a":16,"b":2,"e":[["absent","Y11 Feb","Y11 Feb..Y14 Feb; Y25 Feb..Y28 Feb","Y22 Feb","Y25 Feb"],["absent","Y8 Feb","Y8 Feb..Y11 Feb; Y22 Feb..Y25 Feb","Y19 Feb","Y22 Feb"],["absent","Y5 Feb","Y5 Feb..Y8 Feb; Y19 Feb..Y22 Feb","Y16 Feb","Y19 Feb"]]},{"i":150,"n":"Chisato Sakurai","p":2,"g":"rand","h":"Hiroshima","r":"Chugoku","a":15,"b":2,"e":[["absent","Y10 Feb","Y10 Feb..Y13 Feb; Y25 Feb..Y28 Feb","Y22 Feb","Y25 Feb"],["absent","Y7 Feb","Y7 Feb..Y10 Feb; Y22 Feb..Y25 Feb","Y19 Feb","Y22 Feb"],["absent","Y4 Feb","Y4 Feb..Y7 Feb; Y19 Feb..Y22 Feb","Y16 Feb","Y19 Feb"]]},{"i":151,"n":"Hibiki Izayoi","p":2,"g":"rand","h":"Oita","r":"Kyushu/Okinawa","a":16,"b":8,"e":[["absent","Y7 Aug","Y7 Aug..Y10 Aug; Y21 Aug..Y24 Aug","Y18 Aug","Y21 Aug"],["absent","Y4 Aug","Y4 Aug..Y7 Aug; Y18 Aug..Y21 Aug","Y15 Aug","Y18 Aug"],["absent","Y1 Aug","Y1 Aug..Y4 Aug; Y15 Aug..Y18 Aug","Y12 Aug","Y15 Aug"]]},{"i":152,"n":"Ami Kurihama","p":2,"g":"rand","h":"Gifu","r":"Tokai","a":15,"b":7,"e":[["absent","Y17 Jul","Y17 Jul..Y20 Jul; Y32 Jul..Y35 Jul","Y29 Jul","Y32 Jul"],["absent","Y14 Jul","Y14 Jul..Y17 Jul; Y29 Jul..Y32 Jul","Y26 Jul","Y29 Jul"],["absent","Y11 Jul","Y11 Jul..Y14 Jul; Y26 Jul..Y29 Jul","Y23 Jul","Y26 Jul"]]},{"i":153,"n":"Rena Shishido","p":2,"g":"rand","h":"Saitama","r":"Kanto","a":15,"b":12,"e":[["absent","Y11 Dec","Y11 Dec..Y14 Dec; Y26 Dec..Y29 Dec","Y23 Dec","Y26 Dec"],["absent","Y8 Dec","Y8 Dec..Y11 Dec; Y23 Dec..Y26 Dec","Y20 Dec","Y23 Dec"],["absent","Y5 Dec","Y5 Dec..Y8 Dec; Y20 Dec..Y23 Dec","Y17 Dec","Y20 Dec"]]},{"i":154,"n":"Shion Kagura","p":2,"g":"rand","h":"Osaka","r":"Kinki","a":16,"b":9,"e":[["absent","Y8 Sep","Y8 Sep..Y11 Sep; Y22 Sep..Y25 Sep","Y19 Sep","Y22 Sep"],["absent","Y5 Sep","Y5 Sep..Y8 Sep; Y19 Sep..Y22 Sep","Y16 Sep","Y19 Sep"],["absent","Y2 Sep","Y2 Sep..Y5 Sep; Y16 Sep..Y19 Sep","Y13 Sep","Y16 Sep"]]},{"i":155,"n":"MARIPOSA","p":2,"g":"rand","h":"Tokyo","r":"Kanto","a":15,"b":8,"e":[["absent","Y14 Aug","Y14 Aug..Y17 Aug; Y29 Aug..Y32 Aug","Y26 Aug","Y29 Aug"],["absent","Y11 Aug","Y11 Aug..Y14 Aug; Y26 Aug..Y29 Aug","Y23 Aug","Y26 Aug"],["absent","Y8 Aug","Y8 Aug..Y11 Aug; Y23 Aug..Y26 Aug","Y20 Aug","Y23 Aug"]]},{"i":156,"n":"Yuri Kusunoki","p":2,"g":"rand","h":"Hyogo","r":"Kinki","a":15,"b":8,"e":[["absent","Y15 Aug","Y15 Aug..Y18 Aug; Y30 Aug..Y33 Aug","Y27 Aug","Y30 Aug"],["absent","Y12 Aug","Y12 Aug..Y15 Aug; Y27 Aug..Y30 Aug","Y24 Aug","Y27 Aug"],["absent","Y9 Aug","Y9 Aug..Y12 Aug; Y24 Aug..Y27 Aug","Y21 Aug","Y24 Aug"]]},{"i":157,"n":"Arisa Morishima","p":2,"g":"rand","h":"Tokushima","r":"Shikoku","a":16,"b":7,"e":[["absent","Y10 Jul","Y10 Jul..Y13 Jul; Y24 Jul..Y27 Jul","Y21 Jul","Y24 Jul"],["absent","Y7 Jul","Y7 Jul..Y10 Jul; Y21 Jul..Y24 Jul","Y18 Jul","Y21 Jul"],["absent","Y4 Jul","Y4 Jul..Y7 Jul; Y18 Jul..Y21 Jul","Y15 Jul","Y18 Jul"]]}];
+const ERAS = ["Dawn of Joshi Pro", "Warring Rivals", "Dawn of a New Era"];
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const MONTH_FULL = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const FISCAL = [4,5,6,7,8,9,10,11,12,1,2,3];
+const fpos = m => (m + 8) % 12;                 // Apr = 0 ... Mar = 11
+const KIND = { fixed: "Every year", roll: "By chance", fs: "Final Series years", sky: "Weather", belt: "Overseas belts" };
+
+/* ---------- calendar: each month's events, in detail ---------- */
+const CAL = {
+  4: { note: "Year turns over", ev: [
+    ["fixed", "Year 1: the game starts", "The secretary's opening only. No other events this month. You need 6 wrestlers for your first show."],
+    ["fixed", "New year", "Year counter +1. New coaches may join the pool; overseas rosters change and foreign free agents may be offered."],
+    ["fs", "Final Series result and endings", "April after a Final Series. <b>Won: best ending; entered: normal ending.</b> Your top-rated wrestler with trust ≥ 500 and affection ≥ 800 plays her personal ending. 50 AP per division entered."]
+  ] },
+  5: { ev: [["roll", "First-pitch offer", "<b>Popularity ≥ 1100.</b> 10 % (15 % with Salesmanship). One wrestler."]], def: "IWWF 3rd belt, WWCA heavy belt" },
+  6: { ev: [["sky", "Rainy season", "Outdoor venues lose much of their walk-up crowd in rain."]], def: "WWCA tag belt" },
+  7: { ev: [["fs", "Final Series teaser", "First Final Series year only: a TV salesman mentions a big project."], ["sky", "Summer storms", "July and August have the most thunderstorms; outdoor crowds can drop to 40 %."]], def: "WWCA 3rd belt, TWWA heavy belt" },
+  8: { ev: [["sky", "Summer storms", "Thunderstorms continue; outdoor crowds can drop to 40 %."]], def: "AAC tag belt" },
+  9: { ev: [], def: "GWA heavy belt, EWA tag belt" },
+  10: { ev: [["roll", "School festival offer", "<b>Popularity ≥ 700.</b> 10 %."], ["fs", "Final Series teaser", "First Final Series year only: an all-star event of every TV network."]], def: "IWWF tag belt" },
+  11: { ev: [], def: "EWA heavy belt, AAC 3rd belt" },
+  12: { note: "No invasions", ev: [
+    ["roll", "EX League invitation", "From New Japan Joshi Pro, for its year-end tag league. You must not be New Japan, <b>rating ≥ 2500</b> and <b>2+ available non-junior wrestlers</b>. Certain if you qualify. The game picks your top-rated wrestler and a compatible partner; while entered they can't be poached and movie offers are cancelled."],
+    ["fs", "Final Series offer", "Final Series years: sign now for <b>300 AP</b>. If you accept, no shows of your own in March."],
+    ["fixed", "No invasions", "Rival promotions never invade in December. No overseas defences either."],
+    ["sky", "Winter", "December to February: snow and blizzards cut outdoor crowds to 40 % / 20 %."]
+  ] },
+  1: { ev: [
+    ["fixed", "Pro Wrestling Awards", "Every January (the first in Year 1). Prizes 100–300 AP. <a href=\"#awards\">Criteria</a>."],
+    ["fixed", "Contract renewals", "If you have any wrestlers. Up to 3 offers each: <b>≥ 111 %</b> of her demand gives trust +200 and affection +100; <b>70–95 %</b> caps her trust at 850; below 70 % she may leave."],
+    ["sky", "Winter", "Snow and blizzards cut outdoor crowds."]
+  ], def: "AAC heavy belt" },
+  2: { ev: [["fixed", "Valentine's Day", "<b>Trust ≥ 850 and affection ≥ 850</b>; only the top 3 by affection. Her affection counts 50 lower if she got White Day chocolate back last year."], ["sky", "Winter", "Last month of snow and blizzards."]], def: "TWWA tag belt" },
+  3: { ev: [
+    ["fixed", "White Day", "Wrestlers who gave you chocolate in February. Returning a gift costs 10 AP each."],
+    ["fs", "Final Series", "Final Series years. <b>Entered:</b> 3 divisions (openweight singles, tag, junior), 4 days; 1st/2nd/3rd get +5/+2/+1 % share everywhere. <b>Not entered:</b> late entry is offered (no 300 AP bonus); staying out costs 10 % share everywhere and your own shows draw ×0.7."]
+  ], def: "IWWF heavy belt" }
+};
+
+/* ---------- strip lanes: [kind, from month, to month, label, sub] ---------- */
+const LANES = [
+  ["Every year", [["fixed", 4, 4, "New year"], ["fixed", 1, 1, "Awards", "then renewals"], ["fixed", 2, 2, "Valentine's"], ["fixed", 3, 3, "White Day"]]],
+  ["By chance", [["roll", 5, 5, "First pitch", "pop. 1100"], ["roll", 10, 10, "School festival", "pop. 700"], ["roll", 12, 12, "EX League", "rating 2500"]]],
+  ["Final Series years", [["fs", 4, 4, "Results", "and endings"], ["fs", 7, 7, "Teaser", "first only"], ["fs", 10, 10, "Teaser", "first only"], ["fs", 12, 12, "Offer", "300 AP"], ["fs", 3, 3, "Final Series"]]],
+  ["Weather", [["sky", 6, 6, "Rainy season"], ["sky", 7, 8, "Summer storms"], ["sky", 12, 2, "Winter"]]],
+  ["Overseas belts", "belts"]
+];
+const BARS = [
+  ["Stardom and media", "fan clubs, sponsors, CM, movie, CD"],
+  ["Romance", "private events"],
+  ["Trouble", "slumps, refusals, leaving, grudges"],
+  ["Injuries and retirement", "per match, age 30+"],
+  ["Business", "TV, scandals, shops, belts, poaching"]
+];
+
+function evHTML([k, t, c]) {
+  return `<div class="ev k-${k}"><span class="k">${KIND[k]}</span><span class="t">${t}</span><span class="c">${c}</span></div>`;
+}
+function monthHTML(m) {
+  const c = CAL[m];
+  const evs = c.ev.length ? c.ev.map(evHTML).join("") : `<p class="small">No events tied to this month. The any-month rolls and timers still run.</p>`;
+  const def = c.def ? `<div class="ev k-belt"><span class="k">${KIND.belt}</span><span class="t">${c.def}</span><span class="c">Only if you hold it. Accept for a real match abroad (win: prestige +50); refuse and you're stripped.</span></div>` : "";
+  return `<article class="mdetail"><h3>${MONTH_FULL[m - 1]}${c.note ? ` <small>${c.note}</small>` : ""}</h3><div class="evs">${evs}${def}</div>` +
+    `<p class="also">Every month also has the <a href="#anytime">any-month rolls</a>${m === 12 ? " except rival invasions" : ", including rival invasions"}.</p></article>`;
+}
+function renderStrip() {
+  const col = m => 2 + fpos(m);
+  let h = "", row = 2;
+  FISCAL.forEach((m, i) => {
+    const sub = CAL[m].note || "";
+    h += `<button type="button" class="mh" style="grid-column:${i + 2}" data-m="${m}" aria-pressed="${m === state.month}" aria-label="${MONTH_FULL[m - 1]}">${MONTHS[m - 1]}<small>${sub === "Year turns over" ? "new year" : ""}</small></button>`;
+  });
+  LANES.forEach(([lab, items]) => {
+    h += `<div class="lane" style="grid-row:${row}">${lab}</div>`;
+    if (items === "belts") {
+      FISCAL.forEach((m, i) => {
+        const d = CAL[m].def; if (!d) return;
+        const n = d.split(",").length;
+        h += `<button type="button" class="item k-belt" style="grid-row:${row};grid-column:${i + 2}" data-m="${m}">${n} belt${n > 1 ? "s" : ""}<small>${d.replace(/ belt/g, "")}</small></button>`;
+      });
+    } else {
+      items.forEach(([k, a, b, t, s]) => {
+        const segs = fpos(b) >= fpos(a) ? [[a, b]] : [[a, 3], [4, b]];   // a span that wraps past March
+        segs.forEach(([x, y]) => {
+          h += `<button type="button" class="item k-${k}" style="grid-row:${row};grid-column:${col(x)} / ${col(y) + 1}" data-m="${x}">${t}${s ? `<small>${s}</small>` : ""}</button>`;
+        });
+      });
+    }
+    row++;
+  });
+  const laneEnd = row;
+  h += `<div class="lane gap" style="grid-row:${row};grid-column:1 / -1">Any month, rolled at the start of every month</div>`;
+  row++;
+  BARS.forEach(([t, s]) => {
+    h += `<a class="bar" href="#anytime" style="grid-row:${row};grid-column:2 / 14"><span>${t}</span><span>${s}</span></a>`;
+    row++;
+  });
+  h += `<a class="bar" href="#anytime" style="grid-row:${row};grid-column:2 / ${col(12)}"><span>Rival invasions</span><span>never in December</span></a>`;
+  h += `<span class="bar hole" style="grid-row:${row};grid-column:${col(12)} / ${col(12) + 1}">none</span>`;
+  h += `<a class="bar" href="#anytime" style="grid-row:${row};grid-column:${col(1)} / 14"><span>Invasions</span><span></span></a>`;
+  FISCAL.forEach((m, i) => { h += `<div class="bg${m === state.month ? " sel" : ""}" style="grid-row:1 / ${laneEnd};grid-column:${i + 2}"></div>`; });
+  document.getElementById("strip").innerHTML = h;
+  document.getElementById("mpanel").innerHTML = monthHTML(state.month);
+}
+
+/* ---------- rules tables ---------- */
+const ANY = [
+  ["Stardom and media"],
+  ["Fan club formed", "Popularity ≥ 600", "30 %", "Fan club count +1. Clubs grow at higher popularity (6 %, 9 % Popular, 3 % Plain) and shrink 15 % when it falls."],
+  ["Sponsor offer", "<b>Popularity ≥ 1200</b> (≥ 900 with Connected), no sponsor yet, a free slot (max 4). Only the most popular qualifier.", "10 / 5 / 2 / 1 % with 0 / 1 / 2 / 3 sponsors", "Pays (popularity − 600) ÷ 5 AP a month for 6 or 12 months. Withdraws for sure below 800 popularity, 30 % below 1000."],
+  ["CM offer", "<b>Popularity ≥ 1000</b>, 1 free schedule slot, no CM in the last 12 months", "5 % (8 % Popular); +3 each Singer, Actor, Connected, Salesmanship; +5 with a sponsor; −3 each Plain, Tone-Deaf, Bad Actor (1–15 %)", "Accept: +50 AP and popularity. 12-month cooldown."],
+  ["Movie offer", "As the CM, plus <b>4 free schedule slots</b>; not while in the EX League", "Same as CM", "Takes the whole month (no shows for her). Result next month. 12-month cooldown."],
+  ["Photo book", "<b>Popularity ≥ 800</b>, 1 free slot", "5 % (8 % Popular); +5 Alluring; −3 Plain; +3 Salesmanship", "Result next month. 12-month cooldown."],
+  ["CD", "<b>Popularity ≥ 800</b>, 1 free slot", "5 % (8 % Popular); +5 Singer; −3 Tone-Deaf; +3 Salesmanship", "Result next month. 12-month cooldown."],
+  ["One-day police chief", "<b>Morale ≥ 600 and popularity ≥ 600</b>; goes to the qualifier with the highest affection", "5 % (8 % Popular); −3 Plain; +3 Salesmanship", "+20 AP. 6-month cooldown for the whole promotion."],
+  ["note", "Media results (movie, photo book, CD): popularity ÷ 100 + random 0–99, +10 for Actor / Alluring / Singer, −10 Bad Actor, −20 Tone-Deaf on a CD. Flop, so-so, hit, big hit or super hit gives popularity −10 to +120 and up to 600 AP."],
+  ["Romance"],
+  ["Private event 1", "Age ≥ 18, <b>trust ≥ 800 and affection ≥ 800</b>; only the wrestler with the highest affection each month", "10 %", "Her event picture. Trust and affection set to the maximum (1050). Once only."],
+  ["Private event 2", "After event 1, age ≥ 20, <b>trust ≥ 850 and affection ≥ 850</b>", "10 %", "Same picture, new scene. Can repeat every 8+ months."],
+  ["Trouble"],
+  ["Slump", "Had special training last month; no slump in the last 12 months", "5 %", "Half training power, no special training that month."],
+  ["Refuses practice", "<b>Trust below 100</b>, 3+ free schedule slots", "50 %", "Loses 2 training slots. Never happens at trust 100+."],
+  ["Missing from practice", "Special training failed last month and trust ≤ 800", "15 %", "Skips practice; the secretary suggests a talk."],
+  ["\"Thinking of leaving\"", "Trust ≤ 40", "Certain, once (resets when trust reaches 80)", "A warning only. Talk to her."],
+  ["Leaves the promotion", "<b>Trust below 6</b>", "10 %", "She leaves."],
+  ["Thinking of transferring", "A rival's failed approach dropped her trust from 650+ to below 650", "Follows the approach", "A warning. The next approach is easier for them."],
+  ["Grudge", "Set in a match: 5 % per match (Leader halves it, min 1 %; Egotist ×1.5)", "Shows next month", "A grudge with that opponent. Mediate in a talk: 20 % (40 % Eloquence)."],
+  ["Injuries and retirement"],
+  ["Injury", "In a match: 0.2 % × (heavy moves taken − (Recovery grade − matches this month)), max 3 %. Durable or a Control opponent ×0.5; Brutal opponent ×2; −5 % per tour bus level; Bodywork ×0.8", "Per match", "Level +1 (88 %), +2 (10 %), +3 (2 %). Level 3: hospital 1 month. 4–5: 3 months."],
+  ["Injury retirement", "Injury level 5 when her hospital stay ends", "Certain", "She retires; her belts are vacated."],
+  ["Age retirement", "<b>Age ≥ 30</b>; or under 30 in decline, holding no belt, with rating below 80 % of her best", "Certain", "Ceremony at her last show that month, then she leaves."],
+  ["Business"],
+  ["TV offer", "<b>Rating ≥ 3000</b>, a wrestler with popularity ≥ 600, no contract", "Every month you qualify", "Local station if 19 of your last 20 shows were in your home region, otherwise cable. 6-month contract."],
+  ["TV renewal", "End of each 6-month contract", "Score = top 3 popularity ÷ 10 + random 0–99", "Cancel, downgrade, renew or upgrade (cable, late-night, prime, golden). A national deal also ends below rating 3000 or with no 600+ wrestler."],
+  ["Scandal", "Rolled when a TV contract is renewed or changes slot", "Cable 1 %, late-night 2 %, prime 4 %, golden 8 %", "Two months later: a random top-3 wrestler loses half her popularity, share ×0.7 everywhere, TV off for 2 months."],
+  ["Goods boom", "You own a merch shop", "4 %, announced 2 months later", "Broken: pays almost nothing that month (see <a href=\"#cut\">Never shown</a>)."],
+  ["Restaurant on TV", "You own a restaurant", "5 %, announced 2 months later", "Every restaurant pays ×15 that month."],
+  ["Food poisoning", "You own a restaurant", "1 %, announced 2 months later", "One random restaurant is closed (its 700 AP is lost)."],
+  ["Deficit warnings", "AP below 0 at the start of the month", "Each month", "1st and 2nd month in a row: warnings. 3rd: bankruptcy and restart."],
+  ["Belt not defended", "No title match for that belt", "5 months: warning", "6 months: stripped."],
+  ["Overseas title defence", "You hold a foreign promotion's belt, in that belt's month", "Certain", "Accept: a real match abroad (win: prestige +50). Refuse or unable: stripped."],
+  ["Rival invasion", "Never in December. New Japan: 12+ wrestlers, targets promotions rated 2000+ (5 % each). Others: 10+ wrestlers", "Low; certain retaliation", "If you invaded them: 70 % the next month, certain the month after."],
+  ["Poaching attempt", "A rival with 1000+ AP and dorm space; targets only the 10 lowest-trust wrestlers of promotions with 7+", "25–80 %", "Same formula as your transfers, with 90 AP added. High trust is the defence."]
+];
+const YOU = [
+  ["Vacation", "Management menu; 30 AP per eligible wrestler. No shows and no invasion that month", "75 % for the scene", "The first party member (roster order) with <b>affection ≥ 800</b> who hasn't had it gets her vacation scene and event picture, +100 trust and +100 affection. Everyone gains some trust and affection; minor injuries heal."],
+  ["Talk", "Gym, 10 AP, once a month", "Praise, scold, encourage: 70 % (84 % Eloquence). Mediate: 20 % (40 %)", "Trust, affection and morale change by her personal amounts. Mediation clears a grudge. Only offered with 2+ wrestlers."],
+  ["Special training", "Gym, 20 AP; needs an assigned coach; 1 a month, 2 with gym level 2+", "65 + (coach − 600) ÷ 50 % (about 80 %)", "Success doubles that month's training time; failure halves it. 5 % slump risk next month."],
+  ["Urge retirement", "Wrestlers at or past their peak", "(1.4 × potential total − current total) ÷ 30 %; certain if 3000+ below; never if above", "Accepted: she retires and may offer to coach. Refused: her trust is cut and capped low for 6 months."],
+  ["Coach offer", "After she accepts retirement, if at peak or later and you have a free coach place", "Certain", "She can become your coach."],
+  ["Invade a rival", "After your first show; up to 3 wrestlers; not in a vacation month", "—", "The rival retaliates: 70 % next month, certain the month after."],
+  ["Autograph session or concert", "Management, then Events: 50 / 100 AP, up to 3 wrestlers", "—", "Popularity +20 / +30 each; share +1–3 % / +1–4 % in one prefecture. A concert also earns money."],
+  ["Tryout, scouting, transfer", "Wrestlers menu, each once a month", "See the guide", "Recruitment scenes for the wrestler you sign."],
+  ["Release", "Wrestlers menu", "—", "She leaves; any belt she holds is vacated."]
+];
+const TIMERS = [
+  ["CM, movie, photo book, CD", "12 months each", "From accepting. Movie, photo book and CD results come the next month."],
+  ["One-day police chief", "6 months", "For the whole promotion."],
+  ["Private event 2", "8 months", "Between repeats. Event 1 happens once."],
+  ["Slump", "12 months", "Before another slump can happen."],
+  ["Sponsor contract", "6 or 12 months", "Chosen at random when you accept."],
+  ["TV contract", "6 months", "Renewal check at the end. National slots add +1 % share everywhere every 3 months."],
+  ["Scandal", "2 months after a renewal", "Then TV is off for 2 months."],
+  ["Hospital", "1 month (level 3), 3 months (levels 4–5)", "After it, level 5 means retirement."],
+  ["Belt defence", "Warning at 5 months, stripped at 6", "Months since the belt's last title match."],
+  ["Refused retirement advice", "6 months", "Her trust stays very low (0–80) while it runs."],
+  ["Overseas tour", "1 month", "Back at the next month change (partly inferred)."],
+  ["Prefecture rest", "4 months", "Walk-up crowd recovers 25 % a month since your last show there."],
+  ["Neglected prefecture", "Every 6 months", "−1 % share without a show."],
+  ["Bankruptcy", "3 months in a row", "Starting a month with AP below 0. The promotion restarts 3 months later (rivals too)."],
+  ["Rookie window", "3 years", "From her debut. Free agent until 27, then back as a rookie 3 years later."],
+  ["Coach pool", "10 years", "An unhired coach leaves after 10 years."],
+  ["Final Series", "Every 4 years", "After the first one, whose year you set at New Game."]
+];
+function ruleRows(list, need) {
+  return list.map(r => {
+    if (r.length === 1) return `<tr class="grp"><td colspan="4">${r[0]}</td></tr>`;
+    if (r[0] === "note") return `<tr class="nt"><td colspan="4">${r[1]}</td></tr>`;
+    const [n, nd, ch, res] = r;
+    return `<tr><td class="n">${n}</td><td data-l="${need}"><span>${nd}</span></td><td data-l="Chance"><span>${ch}</span></td><td data-l="What happens"><span>${res}</span></td></tr>`;
+  }).join("");
+}
+
+/* ---------- year grid ---------- */
+const COACH_YEARS = {1: "Ichinose, Shindo, Mikol, Sengawa, Kitakawa, Yasunaga (1400), Sakaguchi (1500)",
+  6: "Kato, Kimura, Johnson, Tomura, Matsumura, I. Saito (1400), Takegami (1500)",
+  11: "Nakano, Hyodo, Taylor, Hoshino, Hara (1400), R. Ishikawa (1400), Oki (1500)",
+  16: "Oya, Takasugi, Gibson, Ueda, Ito (1400), Yamazaki (1400), Kobayashi (1500)",
+  21: "Sato, Yoshida, Brown, Yamamoto, Kido, Hamada (1400), H. Saito (1500)"};
+const FA = {0: "Yun Meifa, Grace Han, Sophia Richards, Bunny Bomber, Maria Crawford, Mylene Silva",
+  1: "Isabella Smith, Lily Sniper, Cindy Won, Phantom Rose No. 1, Karen Nielsen, Despina Libre",
+  3: "Gold Fenrir, Corey Sniper, Anny Beach, Phantom Rose No. 2, Helen Nielsen, Elena Ryan",
+  5: "Red Fenrir, Dynamite Rina, Holly Sierra, Jessie Beaton, Yuri Smirnov, Mystia Mask",
+  7: "Miss USA Mask, Marie Nelson, Catherine Chan, Annette Durham, Wayne Mirror, Tonya Carlos",
+  9: "Shu Meifa, Denise Han, Notia Richards, Honey Bomber, Anna Crawford, Irene Silva",
+  10: "Annabella Smith, Lilin Sniper, Brooke Won, Wild Rose No. 1, Ellen Nielsen, Doscana Libre",
+  12: "Blue Fenrir, Corinne Sniper, Jenny Beach, Wild Rose No. 2, Lauren Nielsen, Lisa Ryan",
+  14: "Silver Fenrir, Dynamite Rin, Sophie Sierra, Jody Beaton, Alice Smirnov, Masked Misty",
+  16: "The USA, Emily Nelson, Rosanne Chan, Gina Durham, Win Mirror, Tanya Carlos"};
+const CPU_START = [
+  "New Japan: Sakuma, Yoshihara, Yajima. Tokyo Joshi Pro: Taki.",
+  "New Japan: Sakuma, Ichigaya, Kishima, Shinzaki, Yoshihara, Musumi. World: Nakamori. WARS: Ishikawa, Yoshida. Tokyo: Taki, Mika Yuki, RIKKA. Pacific: Hori, Uehara.",
+  "New Japan: Kikuchi, Kishima, Shinzaki, the Murakami twins, Ueto, Uchida. WARS: Ishikawa, Yoshida, Sanada, Fujiwara, Yagyu. JWI: Ogawa, Ichigaya, Minami, Yamamoto. Tokyo: Taki, Mika Yuki, Rial, Sakurazaki, RIKKA. Pacific: Hori, Uehara. NEO: Hayase."
+];
+
+const MIDX = Object.fromEntries(MONTHS.map((m, i) => [m, i + 1]));
+const ym = s => { const m = s && s.match(/^Y(\d+) (\w+)/); return m ? { y: +m[1], m: MIDX[m[2]] } : null; };
+function parseWindows(s) {                      // "Y2 Feb..Y5 Feb; Y17 Feb..Y20 Feb" or "start..Y2 Jun"
+  if (!s || s === "-") return [];
+  return s.split(";").map(p => p.trim()).filter(Boolean).map(p => {
+    const [a, b] = p.split("..").map(x => x.trim());
+    return { a: a === "start" ? { y: 0, m: 4 } : ym(a), b: ym(b) };
+  }).filter(w => w.a);
+}
+ROSTER.forEach(w => { w.win = w.e.map(e => parseWindows(e[2])); });
+const isStar = w => w.g === "0" || w.g === "1";
+
+const state = { era: 1, fs: 5, yr: "all", more: false, open: 1, month: 4, persona: "1", grade: 9, region: "", q: "", theme: "auto" };
+try { const s = JSON.parse(localStorage.getItem("was2-tl") || "{}"); ["era", "fs", "yr", "persona", "theme", "month"].forEach(k => { if (k in s) state[k] = s[k]; }); } catch (e) {}
+function save() { try { localStorage.setItem("was2-tl", JSON.stringify({ era: state.era, fs: state.fs, yr: state.yr, persona: state.persona, theme: state.theme, month: state.month })); } catch (e) {} }
+if (!CAL[state.month]) state.month = 4;
+
+function rookieOK(w) {
+  if (state.yr === "none") return false;
+  if (state.yr === "star") return isStar(w);
+  return state.yr === "all" || String(w.p) === state.yr;
+}
+function pill(w) {
+  const g = w.g === "rand" ? "?" : w.g;
+  return `<span class="pill${isStar(w) ? " star" : ""}${w.p === 2 ? " p2" : ""}" title="${w.p === 2 ? "Second persona, " : ""}grade ${g}, from ${w.h}">${w.n}<span class="g">${g}</span></span>`;
+}
+function dot(w) {
+  const cls = w.g === "rand" ? " rand" : isStar(w) ? " star" : "";
+  return `<i class="dot${cls}" title="${w.n}, grade ${w.g === "rand" ? "random" : w.g}"></i>`;
+}
+function fsSet() { const s = new Set(); for (let y = state.fs; y <= 40; y += 4) s.add(y); return s; }
+// Everything in year y: [{m, kind, text, mark}] — "mark" is what the grid cell shows.
+function yearItems(y, fsY) {
+  const e = state.era, out = [];
+  const add = (m, kind, text, mark) => out.push({ m, kind, text, mark });
+  if (y === 0) {
+    const ws = ROSTER.filter(w => rookieOK(w) && w.e[e][0].startsWith("free") && w.win[e].some(x => x.a.y === 0));
+    add(4, "rk", `Free rookies you can sign from the start: ${ws.length ? ws.map(pill).join("") : "none"}`, { ws });
+    return out;
+  }
+  if (y === 1) add(4, "start", "Game starts. Opening only; no events this month.", ["Start", "S"]);
+  if (fsY.has(y - 1)) add(4, "fs", "Final Series result and endings.", ["Results", "F"]);
+  if (COACH_YEARS[y]) add(4, "coach", `New coaches join the pool: ${COACH_YEARS[y]}.`, ["Coaches", "C"]);
+  const ph = ((y - 1 + 3 * e) % 18 + 18) % 18;
+  if (FA[ph]) add(4, "fa", `Foreign free agents offered: ${FA[ph]}.`, ["Foreign FAs", "G"]);
+  if (fsY.has(y)) {
+    if (y === state.fs) { add(7, "fs", "Final Series teaser: a TV salesman mentions a big project.", ["Teaser", "F"]); add(10, "fs", "Final Series teaser: an all-star event of every TV network.", ["Teaser", "F"]); }
+    add(12, "fs", "Final Series offer: sign now for 300 AP.", ["Offer", "F"]);
+    add(3, "fs", "<b>Final Series.</b>", ["Final Series", "F"]);
+  }
+  add(1, "plain", "Pro Wrestling Awards, then contract renewals.");
+  const byM = {};
+  ROSTER.forEach(w => {
+    if (!rookieOK(w)) return;
+    w.win[e].forEach((win, i) => { if (win.a.y === y) (byM[win.a.m] = byM[win.a.m] || []).push({ w, again: i > 0 }); });
+  });
+  Object.keys(byM).forEach(m => {
+    const l = byM[m];
+    add(+m, "rk", `Rookies debut: ${l.map(o => pill(o.w) + (o.again ? '<span class="small">(again) </span>' : "")).join("")}`, { ws: l.map(o => o.w) });
+  });
+  return out.sort((a, b) => fpos(a.m) - fpos(b.m));
+}
+function renderGrid() {
+  const fsY = fsSet(), last = state.more ? 24 : 12;
+  let h = `<div class="yrow head" aria-hidden="true"><span></span>${FISCAL.map(m => `<span>${MONTHS[m - 1]}</span>`).join("")}</div>`;
+  for (let y = 0; y <= last; y++) {
+    const items = yearItems(y, fsY);
+    const cells = FISCAL.map(m => {
+      const here = items.filter(it => it.m === m);
+      const fs = here.some(it => it.kind === "fs");
+      const marks = here.filter(it => Array.isArray(it.mark)).map(it => `<span class="mk ${it.kind}" title="${it.mark[0]}"><span class="lg">${it.mark[0]}</span><span class="ab">${it.mark[1]}</span></span>`).join("");
+      const dots = here.filter(it => it.kind === "rk").flatMap(it => it.mark.ws.map(dot)).join("");
+      return `<div class="cell${fs ? " fs" : ""}">${marks}${dots}</div>`;
+    }).join("");
+    const open = state.open === y;
+    const lab = y === 0 ? "Start" : `Y${y}`;
+    const tag = y === 0 ? "free now" : fsY.has(y) ? "Final Series" : "";
+    h += `<div class="yrow${open ? " open" : ""}" data-y="${y}"><button type="button" class="yl" aria-expanded="${open}" aria-label="${y === 0 ? "At the start" : "Year " + y}${tag ? ", " + tag : ""}">${lab}${tag ? `<small>${tag}</small>` : ""}</button>${cells}</div>`;
+    if (open) h += `<div class="yopen">${items.map(it => `<div class="it${it.kind === "fs" ? " fs" : ""}"><span class="m">${MONTHS[it.m - 1]}</span><span class="x">${it.text}</span></div>`).join("")}</div>`;
+  }
+  document.getElementById("ygrid").innerHTML = h;
+  document.getElementById("ymore").textContent = state.more ? "Show years 1–12 only" : "Show years 13–24";
+  document.getElementById("fs-out").textContent = `Year ${state.fs}`;
+}
+
+/* ---------- roster table ---------- */
+function startText(s, first) {
+  if (s.startsWith("CPU:")) return `<span class="st-cpu">${s.slice(4)} roster</span>`;
+  if (s.startsWith("free")) {
+    const age = (s.match(/age (\d+)/) || [])[1];
+    return first && first.includes("too old") ? `<span class="st-free">Free agent</span>, ${age}` : `<span class="st-free">Free rookie</span>, ${age}`;
+  }
+  if (s.startsWith("retired")) return `<span class="st-ret">Retired, ${(s.match(/age (\d+)/) || [])[1]}</span>`;
+  return `<span class="st-ret">Not yet debuted</span>`;
+}
+function winText(wins) {
+  if (!wins.length) return "—";
+  return wins.map((w, i) => {
+    const a = w.a.y === 0 ? "Start" : `Y${w.a.y} ${MONTHS[w.a.m - 1]}`;
+    const b = w.b ? `Y${w.b.y} ${MONTHS[w.b.m - 1]}` : "?";
+    return (i ? "again " : "") + `${a} – ${b}`;
+  }).join("<br>");
+}
+function sortKey(w, e) {
+  if (w.e[e][0].startsWith("CPU")) return -1;
+  const f = w.win[e][0];
+  return f ? f.a.y * 12 + fpos(f.a.m) : 9999;
+}
+function renderRoster() {
+  const e = state.era, q = state.q.trim().toLowerCase();
+  const rows = ROSTER.filter(w =>
+    (state.persona === "all" || String(w.p) === state.persona) &&
+    (state.grade === 9 || (w.g !== "rand" && +w.g <= state.grade)) &&
+    (!state.region || w.r === state.region) &&
+    (!q || w.n.toLowerCase().includes(q)))
+    .sort((a, b) => sortKey(a, e) - sortKey(b, e) || a.i - b.i);
+  document.getElementById("roster-body").innerHTML = rows.map(w => {
+    const ee = w.e[e];
+    return `<tr><td class="n nm">${w.n}${w.p === 2 ? '<span class="tag2">2nd persona</span>' : ""}</td><td class="num" data-l="Grade"><span>${w.g === "rand" ? "random" : w.g}</span></td><td data-l="Home"><span>${w.h} <span class="small">(${w.r})</span></span></td><td data-l="Born"><span>${MONTH_FULL[w.b - 1]}</span></td><td data-l="At the start"><span>${startText(ee[0], ee[1])}</span></td><td data-l="Findable as a rookie"><span>${winText(w.win[e])}</span></td><td data-l="Free agent until"><span>${ee[3] && ee[3] !== "-" ? ee[3] : "—"}</span></td></tr>`;
+  }).join("") || `<tr><td colspan="7" class="small">No wrestler matches these filters. Widen the grade or region.</td></tr>`;
+  document.getElementById("r-count").textContent = `${rows.length} wrestler${rows.length === 1 ? "" : "s"}`;
+  document.getElementById("cpu-start").innerHTML = `<b>On rival rosters at the start (${ERAS[e]}):</b> ${CPU_START[e]} Japan Sea, Palacion and Battle Dragon always start empty.`;
+}
+
+/* ---------- theme ---------- */
+function applyTheme() {
+  const r = document.documentElement;
+  if (state.theme === "auto") r.removeAttribute("data-theme"); else r.setAttribute("data-theme", state.theme);
+  document.getElementById("theme").textContent = `Theme: ${state.theme}`;
+}
+
+/* ---------- wiring ---------- */
+const $ = id => document.getElementById(id);
+document.querySelectorAll("[data-eraseg]").forEach(box => {
+  box.innerHTML = ERAS.map((n, i) => `<button type="button" data-era="${i}">${n}</button>`).join("");
+  box.addEventListener("click", ev => {
+    const b = ev.target.closest("button"); if (!b) return;
+    state.era = +b.dataset.era; save(); syncEra(); renderGrid(); renderRoster();
+  });
+});
+function syncEra() { document.querySelectorAll("[data-era]").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.era === state.era))); }
+$("strip").addEventListener("click", ev => {
+  const b = ev.target.closest("[data-m]"); if (!b) return;
+  state.month = +b.dataset.m; save(); renderStrip();
+  const f = document.querySelector(`.mh[data-m="${state.month}"]`); if (f && b.classList.contains("mh")) f.focus();
+});
+$("ygrid").addEventListener("click", ev => {
+  const r = ev.target.closest(".yrow[data-y]"); if (!r) return;
+  const y = +r.dataset.y;
+  state.open = state.open === y ? -1 : y; renderGrid();
+  const b = document.querySelector(`.yrow[data-y="${y}"] .yl`); if (b) b.focus({ preventScroll: true });
+});
+$("fs-dn").addEventListener("click", () => { if (state.fs > 1) { state.fs--; save(); renderGrid(); } });
+$("fs-up").addEventListener("click", () => { if (state.fs < 20) { state.fs++; save(); renderGrid(); } });
+$("yr-filter").value = state.yr;
+$("yr-filter").addEventListener("change", ev => { state.yr = ev.target.value; save(); renderGrid(); });
+$("ymore").addEventListener("click", () => { state.more = !state.more; renderGrid(); });
+$("f-persona").value = state.persona;
+$("f-persona").addEventListener("change", ev => { state.persona = ev.target.value; save(); renderRoster(); });
+$("f-grade").addEventListener("change", ev => { state.grade = +ev.target.value; renderRoster(); });
+$("f-region").innerHTML += [...new Set(ROSTER.map(w => w.r))].sort().map(r => `<option>${r}</option>`).join("");
+$("f-region").addEventListener("change", ev => { state.region = ev.target.value; renderRoster(); });
+$("f-q").addEventListener("input", ev => { state.q = ev.target.value; renderRoster(); });
+$("theme").addEventListener("click", () => {
+  state.theme = { auto: "light", light: "dark", dark: "auto" }[state.theme] || "auto"; save(); applyTheme();
+});
+
+// highlight the section in view
+const links = [...document.querySelectorAll(".topbar nav a")];
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) links.forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#" + e.target.id));
+  }), { rootMargin: "-50% 0px -45% 0px" });
+  document.querySelectorAll("section.block").forEach(s => io.observe(s));
+}
+
+applyTheme(); syncEra();
+$("agenda").innerHTML = FISCAL.map(monthHTML).join("");
+$("rules-any").innerHTML = ruleRows(ANY, "What she needs");
+$("rules-you").innerHTML = ruleRows(YOU, "How to start it");
+$("timers-body").innerHTML = TIMERS.map(([a, b, c]) => `<tr><td class="n">${a}</td><td class="num" data-l="Length"><span>${b}</span></td><td data-l="Notes"><span>${c}</span></td></tr>`).join("");
+renderStrip(); renderGrid(); renderRoster();
+</script>
+</body>
+</html>

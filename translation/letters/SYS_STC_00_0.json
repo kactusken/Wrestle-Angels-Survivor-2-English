@@ -1,0 +1,146 @@
+{
+ "english": "Name | Rating | Age | Alignment | Wrestlers | Page",
+ "boxes": [
+  [
+   28,
+   52,
+   65,
+   24
+  ],
+  [
+   28,
+   84,
+   65,
+   24
+  ],
+  [
+   205,
+   84,
+   66,
+   24
+  ],
+  [
+   28,
+   116,
+   65,
+   24
+  ],
+  [
+   28,
+   148,
+   65,
+   24
+  ],
+  [
+   276,
+   27,
+   43,
+   16
+  ]
+ ],
+ "notes": "coach status (status batch): 名前 Name, 評価 Rating, 年齢 Age, 属性 Alignment, 担当選手 Wrestlers; ページ Page (as SYS_ST_0)",
+ "groups": [
+  {
+   "font": "BarlowCondensed-Bold.ttf",
+   "draw": "status.draw",
+   "fill": [
+    240,
+    241,
+    239,
+    237
+   ],
+   "ground": "interpolate",
+   "reach": 2.5,
+   "cap": 13,
+   "patches": [
+    [
+     27,
+     52,
+     67,
+     24,
+     "heal",
+     [
+      56,
+      70
+     ],
+     {
+      "sat": 30
+     }
+    ],
+    [
+     27,
+     84,
+     67,
+     24,
+     "heal",
+     [
+      88,
+      102
+     ],
+     {
+      "sat": 30
+     }
+    ],
+    [
+     204,
+     84,
+     68,
+     24,
+     "heal",
+     [
+      88,
+      102
+     ],
+     {
+      "sat": 30
+     }
+    ],
+    [
+     27,
+     116,
+     67,
+     24,
+     "heal",
+     [
+      120,
+      134
+     ],
+     {
+      "sat": 30
+     }
+    ],
+    [
+     27,
+     148,
+     67,
+     24,
+     "heal",
+     [
+      152,
+      166
+     ],
+     {
+      "sat": 30
+     }
+    ]
+   ],
+   "labels": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 2,
+   "font": "BarlowSemiCondensed-Bold.ttf",
+   "cap": 10,
+   "labels": [
+    5
+   ]
+  }
+ ]
+}

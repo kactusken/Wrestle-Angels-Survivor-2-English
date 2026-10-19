@@ -1,0 +1,2442 @@
+# /SCR/151.BIN - 真鍋 つかさ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 151` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 真鍋 つかさ
+JP 真鍋でっす。
+JP 後悔はさせないよ～。
+JP お買い得だよ～。
+EN Manabe here! You won't regret it. I'm a real
+EN bargain~
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 真鍋 つかさ
+JP にひひひひ。
+JP さっすが、お目が高い。
+EN Nihihihi. Ooh, you've got a good eye.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 真鍋 つかさ
+JP え～～！？
+JP あんたら見る目ねーなー。
+JP もぉ。
+EN Whaaat?! You guys can't spot talent at all. Hmph.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりに色んな意味で
+JP 「濃い」少女がいると聞いたのだが…。
+EN I heard there's a girl around here who's "intense" in
+EN more ways than one...
+
+@ 3.25
+# 社 長
+JP やはりこの業界、それなりの少女で
+JP なければやっていけない。
+EN In this business, you need a girl with a bit of
+EN something to survive.
+
+@ 3.27
+# 社 長
+JP ん…公園にいるあの娘…。
+EN Hm... That girl in the park...
+
+@ 3.29
+# 社 長
+JP なんとなく彼女っぽいな。
+EN Somehow she looks like the one.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# 真鍋 つかさ
+JP ん？
+JP おじさん、誰？
+EN Hm? Who are you, mister?
+
+@ 3.44
+# 社 長
+JP お…おじさん…。
+JP いや、私は……。
+EN M-mister... No, I'm...
+
+@ 3.46
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.53
+# 真鍋 つかさ
+JP へぇ…。
+JP つまり、要するに、私が欲しい、と。
+JP そういうことだね？
+EN Huh... So basically, what you're saying is you want me.
+EN That's it, right?
+
+@ 3.56
+# 社 長
+JP まあ、端的に言えば。
+EN Well, to put it simply.
+
+@ 3.63
+# 真鍋 つかさ
+JP うんうん。おまえが欲しい。
+JP 絶対欲しい、ああ、絶対に奪ってみせる！
+JP 俺はもうおまえの虜だ！　と。
+EN "I want you. I must have you. I'll steal you away, I
+EN swear it! I'm already your slave!" Like that.
+
+@ 3.66
+# 社 長
+JP いや、まぁ…。
+EN Well, uh...
+
+@ 3.68
+# 社 長
+JP （いきなりコレとは…。
+JP 　たしかに、濃い子だなぁ）
+EN (Right off the bat... She really is intense.)
+
+@ 3.70
+# 社 長
+JP まあ、とにかく…。
+EN Anyway...
+
+@ 3.72
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 真鍋 つかさ
+JP ＯＫＯＫ、そこまで言われたら
+JP 入るしかないでしょ。
+JP うん、入ってあ・げ・る♪
+EN OK, OK, if you put it like that, how can I say no? Fine,
+EN I'll jo-in for you♪
+
+@ 4.22
+# 社 長
+JP あ、ありがとう。
+EN Th-thank you.
+
+@ 4.29
+# 真鍋 つかさ
+JP それに、よく見れば社長
+JP どことなく私の好みだし～♪
+JP にしし、楽しくなりそう。
+EN Besides, now that I look closer, you're kinda my type,
+EN Boss♪ Nishishi, this'll be fun.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# 真鍋 つかさ
+JP う～ん…。
+JP ごみんね、パス。
+JP 何か気が乗らないや。
+EN Hmmm... Sowwy, I'll pass. I'm just not feeling it.
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 真鍋 つかさ
+JP あれ？
+JP こないだの社長さん。
+EN Huh? It's the president from the other day.
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.43
+# 真鍋 つかさ
+JP ありゃ～。
+JP 困ったなぁ。
+JP 私ってそんなに魅力的な女？
+EN Oh my. What a dilemma. Am I really that irresistible?
+
+@ 6.46
+# 社 長
+JP まあ、ある意味では。
+EN Well, in a way.
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 真鍋 つかさ
+JP ＯＫＯＫ、そこまで言われたら
+JP 入るしかないでしょ。
+JP うん、入ってあ・げ・る♪
+EN OK, OK, if you put it like that, how can I say no? Fine,
+EN I'll jo-in for you♪
+
+@ 7.22
+# 社 長
+JP あ、ありがとう。
+EN Th-thank you.
+
+@ 7.29
+# 真鍋 つかさ
+JP それに、よく見れば社長
+JP どことなく私の好みだし～♪
+JP にしし、楽しくなりそう。
+EN Besides, now that I look closer, you're kinda my type,
+EN Boss♪ Nishishi, this'll be fun.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 真鍋 つかさ
+JP う～ん…。
+JP ごみんね、パス。
+JP 何か気が乗らないや。
+EN Hmmm... Sowwy, I'll pass. I'm just not feeling it.
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は真鍋選手と交渉してみる
+JP ことにした。
+EN I decided to try negotiating with Manabe.
+
+@ 9.25
+# 社 長
+JP あのフリーダムさは
+JP ある意味で得難い才能だ。
+EN That free spirit of hers is a rare talent, in a way.
+
+@ 9.27
+# 社 長
+JP 彼女がいれば、うちのリングは
+JP もっと賑やかになることだろう。
+EN With her around, my ring would get a lot livelier.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP よく遊んでいるはずだけれど…。
+EN She's supposed to hang out around here a lot...
+
+@ 9.31
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 真鍋 つかさ
+JP ん？
+JP おじさん、誰？
+EN Hm? Who are you, mister?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.53
+# 真鍋 つかさ
+JP へぇ…。
+JP つまり、要するに俺の女になれ！
+JP そういうことだね？
+EN Huh... So basically, what you're saying is "Be my
+EN woman!" That's it, right?
+
+@ 9.56
+# 社 長
+JP 言い回しが微妙にあれですが…。
+JP そういうことです。
+EN That's a slightly odd way to put it... but yes, that's
+EN it.
+
+@ 9.63
+# 真鍋 つかさ
+JP そっかそっか。
+JP うんうん、わかるわかる。
+JP ほら、私って魅力的だからにゃ～。
+EN I see, I see. Yep, I get it. I mean, I'm just so
+EN irresistible, nya~
+
+@ 9.66
+# 社 長
+JP わかってもらえましたか。
+JP それでですね…。
+EN I'm glad you understand. So, about that...
+
+@ 9.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 真鍋 つかさ
+JP ＯＫＯＫ、そこまで言われたら
+JP 釣られるしかないなぁ。
+JP うん、入ってあ・げ・る♪
+EN OK, OK, if you put it like that, I guess I'll take the
+EN bait. Fine, I'll jo-in for you♪
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# 真鍋 つかさ
+JP うん。
+JP それに社長さんの団体
+JP なんとなく楽しそうだし～。
+EN Yep. Besides, your promotion looks kinda fun.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 真鍋 つかさ
+JP う～ん…ごみんね、パス。
+JP 今いるトコも、結構おもしろいから。
+EN Hmmm... Sowwy, I'll pass. Where I am now is pretty fun
+EN too.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 真鍋選手が必要だ。
+EN My promotion really needs Manabe.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 真鍋選手と交渉することにした。
+EN I decided to negotiate with Manabe once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 真鍋 つかさ
+JP あれ？
+JP こないだの社長さん。
+EN Huh? It's the president from the other day.
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.47
+# 真鍋 つかさ
+JP ありゃ～。
+JP 困ったなぁ。
+JP 私ってそんなに魅力的な女？
+EN Oh my. What a dilemma. Am I really that irresistible?
+
+@ 12.50
+# 社 長
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 真鍋 つかさ
+JP ＯＫＯＫ、そこまで言われたら
+JP 釣られるしかないなぁ。
+JP うん、入ってあ・げ・る♪
+EN OK, OK, if you put it like that, I guess I'll take the
+EN bait. Fine, I'll jo-in for you♪
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# 真鍋 つかさ
+JP うん。
+JP それに社長さんの団体
+JP なんとなく楽しそうだし～。
+EN Yep. Besides, your promotion looks kinda fun.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 真鍋 つかさ
+JP う～ん…ごみんね、パス。
+JP 今いるトコも、結構おもしろいから。
+EN Hmmm... Sowwy, I'll pass. Where I am now is pretty fun
+EN too.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は真鍋選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Manabe.
+
+@ 15.25
+# 社 長
+JP あのフリーダムさは
+JP ある意味で得難い才能だ。
+EN That free spirit of hers is a rare talent, in a way.
+
+@ 15.27
+# 社 長
+JP 彼女がいれば、うちのリングは
+JP もっと賑やかになることだろう。
+EN With her around, my ring would get a lot livelier.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりで
+JP よく遊んでいるはずだけれど…。
+EN She's supposed to hang out around here a lot...
+
+@ 15.31
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# 真鍋 つかさ
+JP ん？
+JP おじさん、誰？
+EN Hm? Who are you, mister?
+
+@ 15.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 15.53
+# 真鍋 つかさ
+JP へぇ…。
+JP つまり、要するに俺の女になれ！
+JP そういうことだね？
+EN Huh... So basically, what you're saying is "Be my
+EN woman!" That's it, right?
+
+@ 15.56
+# 社 長
+JP 言い回しが微妙にあれですが…。
+JP そういうことです。
+EN That's a slightly odd way to put it... but yes, that's
+EN it.
+
+@ 15.63
+# 真鍋 つかさ
+JP そっかそっか。
+JP うんうん、わかるわかる。
+JP ほら、私って魅力的だからにゃ～。
+EN I see, I see. Yep, I get it. I mean, I'm just so
+EN irresistible, nya~
+
+@ 15.66
+# 社 長
+JP わかってもらえましたか。
+JP それでですね…。
+EN I'm glad you understand. So, about that...
+
+@ 15.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 真鍋 つかさ
+JP ＯＫＯＫ、そこまで言われたら
+JP 釣られるしかないなぁ。
+JP うん、入ってあ・げ・る♪
+EN OK, OK, if you put it like that, I guess I'll take the
+EN bait. Fine, I'll jo-in for you♪
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# 真鍋 つかさ
+JP うん。
+JP それに社長さんの団体
+JP なんとなく楽しそうだし～。
+EN Yep. Besides, your promotion looks kinda fun.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 真鍋 つかさ
+JP う～ん…ごみんね、パス。
+JP 組織に縛られるって
+JP あんま好きじゃないから。
+EN Hmmm... Sowwy, I'll pass. I'm not big on being tied down
+EN by an organization.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 真鍋選手が必要だ。
+EN My promotion really needs Manabe.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 真鍋選手と交渉することにした。
+EN I decided to negotiate with Manabe once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 真鍋 つかさ
+JP あれ？
+JP こないだの社長さん。
+EN Huh? It's the president from the other day.
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.47
+# 真鍋 つかさ
+JP ありゃ～。
+JP 困ったなぁ。
+JP 私ってそんなに魅力的な女？
+EN Oh my. What a dilemma. Am I really that irresistible?
+
+@ 18.50
+# 社 長
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 真鍋 つかさ
+JP ＯＫＯＫ、そこまで言われたら
+JP 釣られるしかないなぁ。
+JP うん、入ってあ・げ・る♪
+EN OK, OK, if you put it like that, I guess I'll take the
+EN bait. Fine, I'll jo-in for you♪
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# 真鍋 つかさ
+JP うん。
+JP それに社長さんの団体
+JP なんとなく楽しそうだし～。
+EN Yep. Besides, your promotion looks kinda fun.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 真鍋 つかさ
+JP う～ん…ごみんね、パス。
+JP 組織に縛られるって
+JP あんま好きじゃないから。
+EN Hmmm... Sowwy, I'll pass. I'm not big on being tied down
+EN by an organization.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は真鍋を訪ねることにした。
+EN I decided to go see Manabe.
+
+@ 21.25
+# 社 長
+JP やはり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler my promotion really needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here somewhere...
+
+@ 21.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 真鍋！
+EN Manabe!
+
+@ 21.41
+# 真鍋 つかさ
+JP …あーっ！
+EN ...Aaah!
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.48
+# 真鍋 つかさ
+JP なに？
+JP 捨てた女になんの用？
+EN What? What do you want with the woman you dumped?
+
+@ 21.51
+# 社 長
+JP いや、実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Well, actually, I've been looking for you because I
+EN want you to come back...
+
+@ 21.55
+# 真鍋 つかさ
+JP へー、ほー。
+JP 私をボロクズのように捨てた社長が？
+JP へーん？　ふーん？　ほーぉ？
+EN Ohh, really? The Boss who tossed me aside like
+EN trash? Ohh? Hmm? Reeeally?
+
+@ 21.58
+# 社 長
+JP た、たしかにこんなこと
+JP 頼めた義理じゃないと
+JP わかってはいるんだが。
+EN I-I know I'm in no position to ask something like this.
+
+@ 21.60
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 真鍋 つかさ
+JP …………反省、してる？
+EN ............Are you sorry?
+
+@ 22.18
+# 社 長
+JP ああ、してる。
+EN Yes, I am.
+
+@ 22.29
+# 真鍋 つかさ
+JP はぁ…わかった。
+JP しょうがないなぁ。
+JP 私がいないとダメなんだから。
+EN Sigh... Fine. Can't be helped. You're hopeless without
+EN me.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 真鍋 つかさ
+JP で、悪かったとは思っている訳？
+EN So, do you actually think you did me wrong?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yes. I really want you back.
+
+@ 23.29
+# 真鍋 つかさ
+JP 調子のんな。
+JP 私はそんな便利な女じゃ
+JP ないんだからね！　べーだ！！
+EN Don't get cocky. I'm not some convenient woman you
+EN can call up whenever! Nyeh!!
+
+@ 23.32
+# 社 長
+JP そ、そうか…。
+JP わかった…。
+EN I-I see... Understood...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び真鍋を訪ねることにした。
+EN I decided to go see Manabe again.
+
+@ 24.25
+# 社 長
+JP やはり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler my promotion really needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here somewhere...
+
+@ 24.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 24.31
+# 社 長
+JP 真鍋！
+EN Manabe!
+
+@ 24.41
+# 真鍋 つかさ
+JP なんだ、また来たのかぁ。
+EN Oh, it's you again.
+
+@ 24.44
+# 社 長
+JP ああ。
+JP また頼みに来たよ。
+EN Yes. I've come to ask again.
+
+@ 24.46
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you back in the promotion.
+
+@ 24.48
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 真鍋 つかさ
+JP …………反省、してる？
+EN ............Are you sorry?
+
+@ 25.18
+# 社 長
+JP ああ、してる。
+EN Yes, I am.
+
+@ 25.29
+# 真鍋 つかさ
+JP はぁ…わかった。
+JP しょうがないなぁ。
+JP 私がいないとダメなんだから。
+EN Sigh... Fine. Can't be helped. You're hopeless without
+EN me.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 真鍋 つかさ
+JP で、悪かったとは思っている訳？
+EN So, do you actually think you did me wrong?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yes. I really want you back.
+
+@ 26.29
+# 真鍋 つかさ
+JP 調子のんな。
+JP 私はそんな便利な女じゃ
+JP ないんだからね！　べーだ！！
+EN Don't get cocky. I'm not some convenient woman you
+EN can call up whenever! Nyeh!!
+
+@ 26.32
+# 社 長
+JP そ、そうか…。
+JP わかった…。
+EN I-I see... Understood...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 真鍋 つかさ
+JP 痛いよぉ。
+JP 社長、なぐさめてぇ～～。
+EN Owww, it hurts. Boss, comfort meee!
+
+@ 28.16
+# scene 029 ケガ大
+# 真鍋 つかさ
+JP うぅぅ、痛い。
+JP 痛いよぉ…死ぬぅ。
+EN Uuugh, it hurts. It hurts so much... I'm dyiiing.
+
+@ 29.16
+# scene 030 入院
+# 真鍋 つかさ
+JP うぅ、入院とはついてない。
+JP 社長…お見舞い期待してるからね～。
+EN Ugh, stuck in the hospital, just my luck. Boss... I'll be
+EN expecting a visit!
+
+@ 30.16
+# scene 031 退院
+# 真鍋 つかさ
+JP ただいま、社長。
+JP どぉ、私がいなくて寂しかった？
+EN I'm back, Boss. Well? Were you lonely without me?
+
+@ 31.16
+# scene 032 ケガ完治
+# 真鍋 つかさ
+JP んー…うっし。
+JP ばっち治った！
+JP 真鍋ちゃん復活でーす！！
+EN Mmm... Alright! All healed up! Manabe is back in
+EN business!!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 真鍋 つかさ
+JP はぁ…。
+JP ま、しょうがないか。
+EN Sigh... Well, I guess it can't be helped.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 真鍋 つかさ
+JP やだね。
+JP まだ、私は暴れたりないの。
+JP だから…やだ。
+EN Nope. I haven't raised enough hell yet. So... nope.
+
+@ 34.16
+# scene 035 コーチ就任
+# 真鍋 つかさ
+JP 私に教わることになる
+JP 不幸な子はだれかにゃ～？
+EN Now, which unlucky little girl gets to learn from me,
+EN nya~?
+
+@ 35.16
+# scene 036 ケガ引退
+# 真鍋 つかさ
+JP ちぇっ…。
+JP こんなことで引退することに
+JP なるなんてなぁ。
+EN Tch... Never thought I'd end up retiring over
+EN something like this.
+
+@ 36.16
+# scene 037 年齢引退
+# 真鍋 つかさ
+JP 頃合い…ってことかな。
+EN Guess it's... about time.
+
+@ 37.16
+# scene 038 退団
+# 真鍋 つかさ
+JP もうやってらんないや。
+JP そんじゃーね～。
+EN I can't take this anymore. See ya!
+
+@ 38.16
+# scene 039 スランプ
+# 真鍋 つかさ
+JP ん～…。
+JP なーんか、ノらないなぁ。
+EN Mmm... I'm just not feeling it lately.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 真鍋 つかさ
+JP え、ファンクラブができたの？
+EN Huh, I've got a fan club now?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# 真鍋 つかさ
+JP もち…っていうか、今さらか～。
+JP できるの遅いよ。
+EN Duh... I mean, about time! Took 'em long enough.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 真鍋 つかさ
+JP ファンクラブ増えたんだ。
+EN My fan club got bigger, huh.
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# 真鍋 つかさ
+JP にひひひひ。
+JP まあ、それなりにね～。
+EN Nihihihi. Well, more or less.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 真鍋 つかさ
+JP え？
+JP 解散しちゃったの？
+EN Huh? It broke up?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.23
+# 真鍋 つかさ
+JP べ、別に気にしてないし…。
+JP ホント、全然気にしてないし…。
+EN I-it's not like I care... Really, I don't care at all...
+
+@ 42.16
+# scene 043 映画出演
+# 真鍋 つかさ
+JP ふっふ～ん♪
+JP いっちょ、スクリーンの前の
+JP お客さんを誘惑してきますか。
+EN Hmhmm♪ Guess I'll go seduce the audience out
+EN there in front of the screen.
+
+@ 43.16
+# scene 044 一日署長
+# 真鍋 つかさ
+JP 私が署長？
+JP うわ、日本おわった！！
+EN Me, police chief for a day? Wow, Japan is doomed!!
+
+@ 44.16
+# scene 045 写真集発売
+# 真鍋 つかさ
+JP それじゃ、私のすべてを
+JP お見せしちゃおうかな♪
+EN Well then, maybe I'll show you all of me♪
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 真鍋 つかさ
+JP ＯＫ、私にかかれば
+JP なんでも叩き売りしちゃうよ！
+EN OK! Leave it to me, I'll sell anything at a steal!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 真鍋 つかさ
+JP う、歌ぁ？。
+JP う…歌、ね…。
+JP う～～む…。
+EN S-singing? Singing, huh... Hmmmm...
+
+@ 47.16
+# scene 048 始球式
+# 真鍋 つかさ
+JP どうせならバッターがよかったなぁ。
+EN I'd rather have been the batter.
+
+@ 48.16
+# scene 049 学園祭
+# 真鍋 つかさ
+JP 祭りか～。
+JP いいね、いいね。
+JP お祭り大好き♪
+EN A festival! Nice, nice. I love festivals♪
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# 真鍋 つかさ
+JP 私に？
+JP あんがとっ。
+EN For me? Thankies!
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Here's to the future.
+
+@ 49.46
+# 真鍋 つかさ
+JP うん。
+JP 仕事でもプライベート・で・も・ね♪
+EN Yep. At work, and in pri-vate-too♪
+
+@ 50.30
+# scene 051 バレンタインデー
+# 真鍋 つかさ
+JP しゃ・ちょ・お。
+JP ほい、私のハート♪
+EN Bo-o-oss. Here, my heart♪
+
+@ 50.33
+# 社 長
+JP ああ。
+JP ありがとう。
+EN Oh, thank you.
+
+@ 50.40
+# 真鍋 つかさ
+JP 本当は自分にチョコ塗って
+JP 渡そうとしたんだけど…。
+JP みんなに止められたんだよね～。
+EN I actually wanted to cover myself in chocolate and
+EN give you that... but everyone stopped me.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# 真鍋 つかさ
+JP 私、こんなのより社長が欲しいな～。
+EN I'd rather have you than this, Boss.
+
+@ 51.39
+# 社 長
+JP とりあえず、これで勘弁してくれ。
+EN For now, please settle for this.
+
+@ 52.29
+# scene 053 サイン会
+# 真鍋 つかさ
+JP にひひひ。
+JP これからも応援、よろしくぅ。
+EN Nihihihi. Keep cheering for me, 'kay?
+
+@ 53.29
+# scene 054 コンサート
+# 真鍋 つかさ
+JP う…歌わなきゃ、ダメかな？
+JP あはは…はは……。
+EN D-do I really have to sing? Ahaha... haha...
+
+@ 54.28
+# scene 055 練習拒否
+# 真鍋 つかさ
+JP あ～～、もうダメ。
+JP もう限界。
+EN Aaah, I can't. I'm at my limit.
+
+@ 55.26
+# scene 056 失踪
+# 真鍋 つかさ
+JP 探さないでね。
+JP 真鍋からのお・ね・が・い♪
+EN Don't come looking for me. A little fa-vor from
+EN Manabe♪
+
+@ 56.16
+# scene 057 選手解雇
+# 真鍋 つかさ
+JP す、捨てるの？
+JP 私を捨てるの！？
+JP ひど～～い！！
+EN Y-you're dumping me? You're throwing me away?!
+EN That's so cruel!!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 真鍋 つかさ
+JP んじゃ、いってきま～す。
+EN OK, I'm off!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 真鍋 つかさ
+JP ただいま～。
+JP 私がいなくて物たりなかったでしょ？
+EN I'm home! Bet it felt empty without me, huh?
+
+@ 59.26
+# scene 060 移籍思案
+# 真鍋 つかさ
+JP ん～…。
+JP 新天地、ねぇ。
+EN Hmm... Greener pastures, huh.
+
+@ 60.16
+# scene 061 革命軍結成
+# 真鍋 つかさ
+JP にひひひ。
+JP 革命、やっちゃおうかな～。
+EN Nihihihi. Maybe I'll start a revolution.
+
+@ 61.16
+# scene 062 反乱軍結成
+# 真鍋 つかさ
+JP にひひひ。
+JP 反乱が今、時代？
+EN Nihihihi. Rebellion is the in thing right now?
+
+@ 62.16
+# scene 063 最終決戦要求
+# 真鍋 つかさ
+JP あーあー、テステス。
+JP 我々はぁ、最終決戦をぉ
+JP 要求するぅー！
+EN Ahem, testing, testing. We hereby demand... a final
+EN showdown!
+
+@ 63.16
+# scene 065 遺恨発生
+# 真鍋 つかさ
+JP くっそ～、覚えてろよぉ。
+EN Dammit! You'll pay for this!
+
+@ 64.16
+# scene 065 殴り込み
+# 真鍋 つかさ
+JP よ、よし。
+JP じゃあ行ってこようかな！
+EN O-okay. Guess I'll go crash their show!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 真鍋 つかさ
+JP あー、もー。
+JP ウチのリングは土足厳禁
+JP なんだからねっ！
+EN Oh, come on! No shoes allowed in our ring, got it?!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 真鍋 つかさ
+JP にひひひひ。
+JP お邪魔するよ～♪
+EN Nihihihi. Pardon the intrusion♪
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 真鍋 つかさ
+JP よ…よし。
+JP いっちょ、マジにいきますか。
+EN O-okay. Time to get serious for once.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 真鍋 つかさ
+JP よっしゃあ―――！
+JP いやったぁ――――！！
+EN Yeeeesss! I did iiiit!!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 真鍋 つかさ
+JP はぁ…。
+JP まぁ、しょーがないか。
+EN Sigh... Well, can't be helped.
+
+@ 70.13
+# scene 071 引退式
+# 真鍋 つかさ
+JP ありがとね。
+JP みんな……。
+JP 愛してるぞぉぉ―――っ！！
+EN Thanks, everyone... I love you all!!
+
+@ 71.17
+# 真鍋 つかさ
+JP なに？
+EN What?
+
+@ 71.36
+# 真鍋 つかさ
+JP なに？
+JP ダーリン♪
+EN What is it, darling♪
+
+@ 71.46
+# 真鍋 つかさ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.89
+# 真鍋 つかさ
+JP そぉ？
+JP んじゃ～、おだてにのっちゃおうかな。
+EN Really? Well then, maybe I'll let the flattery go to my
+EN head.
+
+@ 71.110
+# 真鍋 つかさ
+JP さすが私。
+JP いつでもイイ感じ？
+EN That's me for you. Always in fine form, right?
+
+@ 71.131
+# 真鍋 つかさ
+JP まかせて。
+JP 愛の戦士たる私が、だ～りんのために
+JP がんばっちゃうから。
+EN Leave it to me. As a warrior of love, I'll give it my all
+EN for my darling.
+
+@ 71.152
+# 真鍋 つかさ
+JP 大丈夫。
+JP そんな心配しなくても
+JP 私はだ～りん一筋だから♪
+EN Don't worry. No need to fret, I only have eyes for my
+EN darling♪
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# 真鍋 つかさ
+JP …………ごめんなさい。
+EN ............I'm sorry.
+
+@ 71.210
+# 真鍋 つかさ
+JP 社長の言ってることがよくわかんない。
+JP わかんないってことは
+JP 重要でないってことだよね？
+EN I don't really get what you're saying, Boss. And if I
+EN don't get it, it can't be important, right?
+
+@ 71.231
+# 真鍋 つかさ
+JP ごめんなさい。
+JP 反省するから捨てないでね？
+JP …ね？
+EN I'm sorry. I'll reflect on it, so don't dump me, okay?
+EN ...Okay?
+
+@ 71.252
+# 真鍋 つかさ
+JP えへ、叱られちゃった♪
+JP これも愛情の裏返し？
+EN Ehe, I got scolded♪ Is this tough love?
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.289
+# 真鍋 つかさ
+JP 大丈夫だよ。
+JP ひょっとして私、期待されてる？
+EN I'm fine. Wait, are you expecting big things from me?
+
+@ 71.310
+# 真鍋 つかさ
+JP ん～…。
+JP ほら、私ってムラあるタイプだから。
+EN Mmm... You know, I'm kind of an up-and-down type.
+
+@ 71.331
+# 真鍋 つかさ
+JP や～ん。
+JP だ～りんに心配されちゃった♪
+JP うん、大丈夫、心配しないでっ。
+EN Kyaa! My darling's worried about me♪ Yep, I'm fine.
+EN Don't worry!
+
+@ 71.352
+# 真鍋 つかさ
+JP それはね。
+JP いつもだ～りんのことを
+JP 考えてい・る・か・ら♪
+EN That's because I'm always thin-king-a-bout my
+EN darling♪
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# 真鍋 つかさ
+JP ん…まぁ。
+EN Mm... Sort of.
+
+@ 71.399
+# 真鍋 つかさ
+JP んにゃ、さ～っぱり。
+EN Nyope, not a clue.
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# 真鍋 つかさ
+JP む～…。
+JP まあ、社長がそう言うなら。
+EN Mmm... Well, if you say so, Boss.
+
+@ 71.453
+# 真鍋 つかさ
+JP 知らない。
+JP だって、私、悪くないも～ん。
+EN Don't care. 'Cause it's not my fault~
+
+@ 71.474
+# 真鍋 つかさ
+JP 社長が何言ってるか
+JP 全然わかんないんだけど。
+EN I have no idea what you're talking about, Boss.
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# 真鍋 つかさ
+JP ん～、それとなくは。
+EN Mmm, I've got a rough idea.
+
+@ 71.521
+# 真鍋 つかさ
+JP ん～…デートのお誘いとか？
+EN Hmm... Are you asking me out on a date?
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# 真鍋 つかさ
+JP 仕方ないなぁ。
+JP ホレた弱みだもんなぁ。
+EN Oh, fine. That's the price of being in love.
+
+@ 71.577
+# 真鍋 つかさ
+JP いくらだ～りんの頼みでも
+JP それはちょっと、ね。
+EN Even if my darling's asking, that's a bit much.
+
+@ 71.598
+# 真鍋 つかさ
+JP それって、遠回しのプロポーズ？
+JP ……じゃあ、なさそうだね。
+EN Is that a roundabout marriage proposal? ......Guess
+EN not, huh.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 真鍋 つかさ
+JP なに？
+JP ダーリン♪
+EN What is it, darling♪
+
+@ 72.16
+# 真鍋 つかさ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 真鍋 つかさ
+JP そぉ？
+JP んじゃ～、おだてにのっちゃおう
+JP かな。
+EN Really? Well then, maybe I'll let the flattery go to my
+EN head.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 真鍋 つかさ
+JP さすが私。
+JP いつでもイイ感じ？
+EN That's me for you. Always in fine form, right?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 真鍋 つかさ
+JP まかせて。
+JP 愛の戦士たる私が、だ～りんのために
+JP がんばっちゃうから。
+EN Leave it to me. As a warrior of love, I'll give it my all
+EN for my darling.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 真鍋 つかさ
+JP 大丈夫。
+JP そんな心配しなくても私は
+JP だ～りん一筋だから♪
+EN Don't worry. No need to fret, I only have eyes for my
+EN darling♪
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 真鍋 つかさ
+JP …………ごめんなさい。
+EN ............I'm sorry.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 真鍋 つかさ
+JP 社長の言ってることがよく
+JP わかんない…。わかんないって
+JP ことは、重要でないってことだよね？
+EN I don't really get what you're saying, Boss. And if I
+EN don't get it, it can't be important, right?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 真鍋 つかさ
+JP ごめんなさい。
+JP 反省するから捨てないでね？
+JP …ね？
+EN I'm sorry. I'll reflect on it, so don't dump me, okay?
+EN ...Okay?
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 真鍋 つかさ
+JP えへ、叱られちゃった♪
+JP これも愛情の裏返し？
+EN Ehe, I got scolded♪ Is this tough love?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 真鍋 つかさ
+JP 大丈夫だよ。
+JP ひょっとして私、期待されてる？
+EN I'm fine. Wait, are you expecting big things from me?
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 真鍋 つかさ
+JP ん～…。
+JP ほら、私ってムラあるタイプだから。
+EN Mmm... You know, I'm kind of an up-and-down type.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 真鍋 つかさ
+JP や～ん。
+JP だ～りんに心配されちゃった♪ 
+JP うん、大丈夫。心配しないでっ。
+EN Kyaa! My darling's worried about me♪ Yep, I'm fine.
+EN Don't worry!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 真鍋 つかさ
+JP それはね。
+JP いつもだ～りんのことを考えて
+JP い・る・か・ら♪
+EN That's because I'm always thin-king-a-bout my
+EN darling♪
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 真鍋 つかさ
+JP ん…まぁ。
+EN Mm... Sort of.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 真鍋 つかさ
+JP んにゃ、
+JP さ～っぱり。
+EN Nyope, not a clue.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 真鍋 つかさ
+JP む～…。
+JP まあ、社長がそう言うなら。
+EN Mmm... Well, if you say so, Boss.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 真鍋 つかさ
+JP 知らない。
+JP だって、私、悪くないも～ん。
+EN Don't care. 'Cause it's not my fault~
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 真鍋 つかさ
+JP 社長が何言ってるか
+JP 全然わかんないんだけど。
+EN I have no idea what you're talking about, Boss.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 真鍋 つかさ
+JP ん～、それとなくは。
+EN Mmm, I've got a rough idea.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 真鍋 つかさ
+JP ん～…デートのお誘いとか？
+EN Hmm... Are you asking me out on a date?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 真鍋 つかさ
+JP 仕方ないなぁ。
+JP ホレた弱みだもんなぁ。
+EN Oh, fine. That's the price of being in love.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 真鍋 つかさ
+JP いくらだ～りんの頼みでも、
+JP それはちょっと、ね。
+EN Even if my darling's asking, that's a bit much.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 真鍋 つかさ
+JP それって、遠回しのプロポーズ？
+JP ……じゃあ、なさそうだね。
+EN Is that a roundabout marriage proposal? ......Guess
+EN not, huh.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 真鍋 つかさ
+JP ま、こんなもんですか♪
+EN Well, I guess this'll do♪
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 真鍋 つかさ
+JP え、いいの？
+JP うひゃ～、こりゃがんばらないと。
+EN Huh, really? Whoa, guess I'd better work hard now.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 真鍋 つかさ
+JP む…む……マジ？
+EN Wh... what... seriously?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺たちは南国へと
+JP 　やってきた）
+EN (And so we came to a tropical island.)
+
+@ 105.30
+# 社 長
+JP （みんな、楽しそうに
+JP 　はしゃぎ回ってる）
+EN (Everyone's running around having fun.)
+
+@ 105.43
+# 真鍋 つかさ
+JP だ・あ・り・ん♪
+EN Dar-ling♪
+
+@ 105.46
+# 社 長
+JP なんだ？
+JP まだそんな格好をして。
+EN What is it? You're still dressed like that?
+
+@ 105.48
+# 社 長
+JP みんなと泳がないのか？
+EN Aren't you going swimming with everyone?
+
+@ 105.55
+# 真鍋 つかさ
+JP えー。
+JP 私、だ～りんと泳ぎた～い。
+EN Aww. I wanna swim with my darling.
+
+@ 105.58
+# 社 長
+JP う～ん。
+EN Hmm.
+
+@ 105.60
+# 社 長
+JP （俺はまだ疲れてるんだよなぁ）
+EN (I'm still tired, though...)
+
+@ 105.62
+# 社 長
+JP （特に、こいつと遊ぶとなると
+JP 　人一倍体力を消耗しそうだし）
+EN (And playing with her in particular would wear me out
+EN twice as fast.)
+
+@ 105.64
+# 社 長
+JP いや、俺は色々と
+JP やることがあるからな。
+JP 夕食のメニューの確認とか。
+EN No, I've got a lot to do. Checking the dinner menu,
+EN for one.
+
+@ 105.71
+# 真鍋 つかさ
+JP ぷーぷー、やだー。
+JP そんなの後でいーじゃーん。
+JP 遊んでよ～。
+EN Boo, no fair! That can wait till later! Play with me!
+
+@ 105.74
+# 社 長
+JP わがまま言うな。
+EN Don't be selfish.
+
+@ 105.78
+# 真鍋 つかさ
+JP かまえー。
+JP 私をかーまーえー！
+EN Pay attention to me! Pay at-ten-tion to meee!
+
+@ 105.81
+# 社 長
+JP だーめ。
+JP 後でな…。
+EN No. Later...
+
+@ 105.85
+# 真鍋 つかさ
+JP むう、あくまで拒否をすると
+JP 言うのなら、私にも考えがあるぞ。
+EN Hmph, if you insist on refusing, then I've got a plan
+EN of my own.
+
+@ 105.88
+# 社 長
+JP 考え？
+EN A plan?
+
+@ 105.95
+# 真鍋 つかさ
+JP そう。
+JP 社長が私の魅力に
+JP 釘付けになる魔法の技。
+EN Yep. A magic technique that'll leave you hypnotized
+EN by my charms, Boss.
+
+@ 105.113
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.115
+# 社 長
+JP （そういうと、真鍋はバッと
+JP 　服を脱いで水着になり……）
+EN (With that, Manabe whipped off her clothes down to
+EN her swimsuit...)
+
+@ 105.117
+# 社 長
+JP （あまつさえ、その水着すらハラリと
+JP 　はだけさせたのだった）
+EN (And then, on top of that, she even let the swimsuit
+EN slip off.)
+
+@ 105.138
+# 真鍋 つかさ
+JP いや～ん！
+JP 水着がとれちゃったぁぁぁん！
+EN Oh nooo! My swimsuit came ooofff!
+
+@ 105.141
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.164
+# 真鍋 つかさ
+JP まいっちゃった～～～♪
+EN How embarrassiiing♪
+
+@ 105.167
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.169
+# 社 長
+JP おまえ…バカだろ？
+EN You... you're an idiot, aren't you?
+
+@ 105.179
+# 真鍋 つかさ
+JP バ、バカとか言うな～！
+EN D-don't call me an idiot!
+
+@ 105.183
+# 真鍋 つかさ
+JP バカって言う方が
+JP バカなんだぞ――！
+EN It takes one to know one!!
+
+@ 105.186
+# 社 長
+JP （怒って水着を振り回す真鍋）
+EN (Manabe swung her swimsuit around in anger.)
+
+@ 105.188
+# 社 長
+JP （いや、見えるから。
+JP 　さすがにまずいから）
+EN (Hey, I can see everything. This is really not okay.)
+
+@ 105.190
+# 社 長
+JP （と、そのとき
+JP 　大きな影がさっと横切り）
+EN (Just then, a large shadow swooped past...)
+
+@ 105.207
+# 真鍋 つかさ
+JP あっ！
+EN Ah!
+
+@ 105.215
+# 社 長
+JP （気づけば、真鍋の手から
+JP 　水着が消えていた）
+EN (Before I knew it, the swimsuit had vanished from
+EN Manabe's hand.)
+
+@ 105.217
+# 社 長
+JP （空を見上げれば、真鍋の水着を
+JP 　くわえた海鳥が遠くへ飛び去っていく
+JP 　ところだった）
+EN (I looked up to see a seabird flying off into the
+EN distance with Manabe's swimsuit in its beak.)
+
+@ 105.221
+# 真鍋 つかさ
+JP あ゛――――――っ！！
+EN Aaaaaaaaah!!
+
+@ 105.224
+# 社 長
+JP …へんに振り回すから
+JP エサか何かと勘違いしたんだな。
+EN ...You waved it around so much, it must have thought
+EN it was food.
+
+@ 105.228
+# 真鍋 つかさ
+JP ぎゃ――――！
+JP かーえーせーーーー！！
+EN Gyaaaah! Give it baaack!!
+
+@ 105.231
+# 社 長
+JP （もちろん、水着が帰ってくることは
+JP 　なかった）
+EN (Needless to say, the swimsuit never came back.)
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP （今日も１日が終わった）
+EN (Another day over.)
+
+@ 106.22
+# 社 長
+JP （さて、そろそろ寝るか）
+EN (Well, time for bed.)
+
+@ 106.24
+# 社 長
+JP （俺は、自分のベットに近づいた）
+EN (I walked over to my bed.)
+
+@ 106.26
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.28
+# 社 長
+JP （ベットがなぜか異様なふくらみを
+JP 　見せている）
+EN (For some reason, there's a strange bulge in my
+EN bed.)
+
+@ 106.30
+# 社 長
+JP なんだ？
+EN What's this?
+
+@ 106.32
+# 社 長
+JP （と思って近寄ると…）
+EN (As I got closer...)
+
+@ 106.55
+# 真鍋 つかさ
+JP ばぁっ！
+EN Boo!
+
+@ 106.58
+# 社 長
+JP うおっ！
+EN Whoa!
+
+@ 106.60
+# 社 長
+JP （なんだ！？）
+EN (What the?!)
+
+@ 106.64
+# 真鍋 つかさ
+JP このベットは私が占拠した～。
+EN This bed is now occupied territory!
+
+@ 106.67
+# 社 長
+JP 真鍋！
+JP いったいどうやって入り込んだ！？
+EN Manabe! How did you even get in here?!
+
+@ 106.71
+# 真鍋 つかさ
+JP ふっふっふ。
+JP どうやってでしょうかにゃ～。
+EN Hehehe. How indeed, nya~
+
+@ 106.75
+# 真鍋 つかさ
+JP とにかく、だ～りんのベットは今
+JP 私の支配下にあるのだよ♪
+EN Anyway, your bed is now under my control, darling♪
+
+@ 106.78
+# 社 長
+JP はぁ。
+EN Sigh.
+
+@ 106.80
+# 社 長
+JP （思わずため息がもれる）
+EN (A sigh slipped out.)
+
+@ 106.82
+# 社 長
+JP …要求はなんだ？
+EN ...What are your demands?
+
+@ 106.86
+# 真鍋 つかさ
+JP さすがだ～りん。
+JP 話が早くて助かるぅ。
+EN That's my darling. Thanks for being so quick on the
+EN uptake.
+
+@ 106.89
+# 社 長
+JP いいから早く言え。
+JP 俺は寝たいんだ。
+EN Just spit it out. I want to sleep.
+
+@ 106.93
+# 真鍋 つかさ
+JP ベットからどいて欲しければ
+JP 今度の週末どっかに遊びに
+JP つれてけ～。
+EN If you want me out of the bed, take me somewhere
+EN fun this weekend!
+
+@ 106.96
+# 社 長
+JP なに？
+EN What?
+
+@ 106.106
+# 真鍋 つかさ
+JP 最近、全然かまって
+JP くれないじゃないか～。
+JP 寂しいんだぞ～。
+EN You haven't paid me any attention lately! I'm lonely!
+
+@ 106.110
+# 真鍋 つかさ
+JP ウサギはさみしいとシヌんだぞ～。
+EN Bunnies die if they get lonely, you know!
+
+@ 106.114
+# 真鍋 つかさ
+JP だーかーらー、つーれーてーけー。
+EN So ta-ake me-e out!
+
+@ 106.117
+# 社 長
+JP わかった、わかった。
+JP 連れてくから。連れてくから。
+EN Okay, okay. I'll take you. I'll take you.
+
+@ 106.127
+# 真鍋 つかさ
+JP やりぃ！
+EN Yesss!
+
+@ 106.131
+# 真鍋 つかさ
+JP じゃ、おやすみ～。
+EN Well, good night!
+
+@ 106.134
+# 社 長
+JP ああ。
+JP さっさと、どいてく…。
+EN Yeah. Now hurry up and get out of...
+
+@ 106.144
+# 真鍋 つかさ
+JP す～～。
+EN Zzz...
+
+@ 106.147
+# 社 長
+JP ここで寝るのかよ！
+EN You're sleeping here?!
+
+@ 106.151
+# 真鍋 つかさ
+JP すや～。
+EN Snooze...
+
+@ 107.20
+# scene 108 日常イベント２
+# 社 長
+JP （今日も１日が終わった）
+EN (Another day over.)
+
+@ 107.22
+# 社 長
+JP （さて、そろそろ寝るか）
+EN (Well, time for bed.)
+
+@ 107.24
+# 社 長
+JP （俺は、寝ようと自分のベットに
+JP 　近づいた）
+EN (I walked over to my bed to go to sleep.)
+
+@ 107.26
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.28
+# 社 長
+JP （ベットがなぜか異様なふくらみを
+JP 　見せている）
+EN (For some reason, there's a strange bulge in my
+EN bed.)
+
+@ 107.30
+# 社 長
+JP ……またか。
+EN ......Again?
+
+@ 107.32
+# 社 長
+JP いるのはわかってるんだぞ。
+EN I know you're in there.
+
+@ 107.46
+# 真鍋 つかさ
+JP よく気づきましたにゃ～。
+JP にひひひひ。
+EN You noticed, nya~ Nihihihi.
+
+@ 107.49
+# 社 長
+JP （予想通りベットから
+JP 　真鍋が顔を出す）
+EN (As expected, Manabe poked her head out of the
+EN bed.)
+
+@ 107.53
+# 真鍋 つかさ
+JP このベッドは私が占拠した～。
+EN This bed is now occupied territory!
+
+@ 107.56
+# 社 長
+JP ……はいはい。
+EN ......Yeah, yeah.
+
+@ 107.66
+# 真鍋 つかさ
+JP もー。
+JP だ～りんってば、最近またかまって
+JP くれないんだから。
+EN Geez. Darling, you've stopped paying attention to me
+EN again lately.
+
+@ 107.76
+# 真鍋 つかさ
+JP ベッドを返して欲しければ
+JP 今度の週末どっかに遊びに
+JP つれてけ～。
+EN If you want your bed back, take me somewhere fun
+EN this weekend!
+
+@ 107.79
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.81
+# 社 長
+JP 寝たいんだが。
+EN I'd like to sleep.
+
+@ 107.91
+# 真鍋 つかさ
+JP つーれーてーけー。
+EN Ta-ake me-e out!
+
+@ 107.94
+# 社 長
+JP （ここで連れてくって言っても
+JP 　こいつ出て行かないんだよなぁ）
+EN (Even if I say I'll take her, she won't leave anyway...)
+
+@ 107.96
+# 社 長
+JP （俺は無視してベットに
+JP 　潜り込むことにした）
+EN (I decided to ignore her and crawl into bed.)
+
+@ 107.106
+# 真鍋 つかさ
+JP ぬおっ、強行突入かぁ！
+EN Whoa, a forced entry!
+
+@ 107.110
+# 真鍋 つかさ
+JP こらー。
+JP 私をかーまーえー！
+EN Hey! Pay at-ten-tion to meee!
+
+@ 107.113
+# 社 長
+JP 眠いから、話は明日聞く。
+EN I'm sleepy. I'll hear you out tomorrow.
+
+@ 107.117
+# 真鍋 つかさ
+JP こらー！
+JP おーい！！
+JP 寝るな――――！！
+EN Hey! Hellooo!! Don't you dare fall asleep!!
+
+@ 107.120
+# 社 長
+JP （何やらわめいているが無視）
+EN (She's yelling about something, but I ignored her.)
+
+@ 107.124
+# 真鍋 つかさ
+JP ぶーぶー！
+JP ぶ――！！
+EN Boo, boo! Booo!!
+
+@ 107.127
+# 社 長
+JP （何やら不満の鳴き声を
+JP 　あげているが…これも無視だ）
+EN (She's making some kind of grumpy noises... I'm
+EN ignoring that too.)
+
+@ 107.131
+# 真鍋 つかさ
+JP むぅ、てごわい。
+EN Hmph, a tough opponent.
+
+@ 107.134
+# 社 長
+JP （やがて）
+EN (Eventually...)
+
+@ 107.144
+# 真鍋 つかさ
+JP それはそれとして
+JP だ～りん、あったか……。
+EN That aside... darling, you're so warm......
+
+@ 107.148
+# 真鍋 つかさ
+JP ………むに………。
+EN .........mmf.........
+
+@ 107.158
+# 真鍋 つかさ
+JP す～～……。
+EN Zzz......
+
+@ 107.162
+# 真鍋 つかさ
+JP ……す～～……。
+JP ……す～～……。
+EN ......Zzz...... ......Zzz......
+
+@ 107.165
+# 社 長
+JP （騒ぎ疲れたのか、真鍋はあっさりと
+JP 　眠ってしまった）
+EN (Maybe she wore herself out from all the fuss, but
+EN Manabe fell asleep in no time.)
+
+@ 107.167
+# 社 長
+JP （俺も、寝よう）
+EN (Guess I'll sleep too.)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 真鍋 つかさ
+JP かも～ん、美沙ちー。
+EN C'mon, Misachi!
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# 真鍋 つかさ
+JP にひひひ、やろ♪
+EN Nihihihi, let's go♪
+
+@ 110.16
+# scene 113 練習開始
+# 真鍋 つかさ
+JP いっちょ、やりますか。
+EN Alright, let's do this.
+
+@ 111.16
+# scene 114 練習開始 好意
+# 真鍋 つかさ
+JP よろしくー！
+EN Let's have a good one!
+
+@ 112.16
+# scene 115 特訓開始
+# 真鍋 つかさ
+JP う～、こういうの
+JP 性に合わないんだけどなぁ。
+EN Ugh, this kind of thing really isn't my style...
+
+@ 113.20
+# scene 116 特訓成功
+# 真鍋 つかさ
+JP こりゃ、来た。
+JP 来たね♪
+EN Ooh, here it comes. It's coming♪
+
+@ 114.20
+# scene 117 特訓失敗
+# 真鍋 つかさ
+JP だから、合わないって言ったのに…。
+EN I told you it wasn't my style...
+
+@ 115.16
+# scene 118 休養
+# 真鍋 つかさ
+JP やり～♪
+JP どこ行こうかな～。
+EN Yay♪ Where should I go?
+
+@ 116.16
+# scene 119 入場1
+# 真鍋 つかさ
+JP 私だって、やるときはやるよ。
+EN Even I can deliver when it counts.
+
+@ 117.16
+# scene 119 入場2
+# 真鍋 つかさ
+JP 淫魔なコアクマ、さっそーと参上～♪
+EN The naughty little devil makes her dashing
+EN entrance♪
+
+@ 118.17
+# scene 120 タッグマッチ ベスト
+# 真鍋 つかさ
+JP うし。
+JP いっちょ、私らで引っかき回して
+JP あげよっか。
+EN Alright. Let's go stir things up together, you and me.
+
+@ 119.17
+# scene 121 タッグマッチ ベター1
+# 真鍋 つかさ
+JP いくよ…。
+JP 私たちの愛が試されるときだね。
+EN Here we go... Now our love will be put to the test.
+
+@ 120.16
+# scene 125 必殺技１
+# 真鍋 つかさ
+JP にひひひ…。
+JP いっただきぃっ！
+EN Nihihihi... Mine now!
+
+@ 121.16
+# scene 125 必殺技２
+# 真鍋 つかさ
+JP はーい。
+JP 見せ場いくよぉっ！
+EN Okay! Here comes the big moment!
+
+@ 122.16
+# scene 125 必殺技３
+# 真鍋 つかさ
+JP んっふっふ～。
+JP これで天国にごあんな～い♪
+EN Mmhmhm. Next stop, heaven♪
+
+@ 123.12
+# scene 126 勝利1
+# 真鍋 つかさ
+JP にひひひひ。
+JP やったね。
+EN Nihihihi. We did it.
+
+@ 124.12
+# scene 126 勝利2
+# 真鍋 つかさ
+JP ま、順当な結果ですにゃ～。
+EN Well, that's how it should be, nya~
+
+@ 125.12
+# scene 126 勝利3
+# 真鍋 つかさ
+JP やりぃ。
+JP 真鍋劇場、第一部……完！
+EN Yesss. The Manabe Show, Part One... the end!
+
+@ 126.15
+# scene 133 表彰1
+# 真鍋 つかさ
+JP みんな、ありがとう。
+JP 愛してるよぉ～！
+EN Thank you, everyone. I love you!
+
+@ 127.15
+# scene 133 表彰2
+# 真鍋 つかさ
+JP いや～、にひひひひ。
+JP 照れちゃうね♪
+EN Aw, nihihihi. You're making me blush♪
+
+@ 128.12
+# scene 134 優勝1
+# 真鍋 つかさ
+JP これも、社長の愛のおかげかなぁ♪
+EN Maybe this is all thanks to your love, Boss♪
+
+@ 129.12
+# scene 134 優勝２
+# 真鍋 つかさ
+JP や…やったよ。
+JP みんなあぁぁぁっっっ！
+EN I... I did it. Everyoooone!!
+
+@ 130.24
+# scene 135 エンディング 通常
+# 真鍋 つかさ
+JP 社長、おめ！
+JP これも私の力あればこそだよね～。
+EN Congrats, Boss! It's all thanks to me, right?
+
+@ 131.24
+# scene 136 エンディング 好意
+# 真鍋 つかさ
+JP さすが、私のだ～りん♪
+JP これからも二人で
+JP 力を合わせていこうね！
+EN That's my darling♪ Let's keep working together,
+EN just the two of us!

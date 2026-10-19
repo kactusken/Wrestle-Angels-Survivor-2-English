@@ -1,0 +1,67 @@
+{
+ "english": "Regular | League | Tournament | Regular | League | Tournament",
+ "boxes": [
+  [
+   96,
+   176,
+   104,
+   48
+  ],
+  [
+   201,
+   176,
+   125,
+   48
+  ],
+  [
+   329,
+   176,
+   158,
+   48
+  ],
+  [
+   96,
+   224,
+   104,
+   48
+  ],
+  [
+   201,
+   224,
+   125,
+   48
+  ],
+  [
+   329,
+   224,
+   158,
+   48
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "battle.draw",
+ "fill": "enclosed",
+ "layers": "rows",
+ "rim": 8,
+ "rim_y": 4,
+ "cap": 25,
+ "ground": "transparent",
+ "same_size": true,
+ "groups": [
+  {
+   "labels": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "labels": [
+    3,
+    4,
+    5
+   ]
+  }
+ ],
+ "notes": "event types (exe: Run regular matches / Run a league / Run a tournament), normal + highlighted rows; layered plate redrawn by tools/letter_ext/battle.py"
+}

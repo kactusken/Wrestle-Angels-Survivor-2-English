@@ -1,0 +1,84 @@
+{
+ "english": "CPU Thinking...",
+ "boxes": [
+  [
+   16,
+   15,
+   352,
+   38
+  ]
+ ],
+ "draw": "office.styled",
+ "region": [
+  0,
+  0,
+  384,
+  72
+ ],
+ "ground": "transparent",
+ "fill": "not (r < 0x60 and g < 0x60) and a == 255",
+ "reach": 8,
+ "learn_over": "transparent",
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "notes": "CPU-turn banner COM\u56e3\u4f53\u601d\u8003\u4e2d: metallic red letters, silver rim, shadow and magenta glow learnt from the original (tools/letter_ext/office.py styled); fill gradient sampled from the C's left stroke (fill_stops)",
+ "flood": {
+  "seed": "a < 255 or b > g + 0x30",
+  "pass": "a < 255 or b > g + 0x30 or (abs(r - g) < 0x1b and not (r < 0x60 and g < 0x60))"
+ },
+ "fill_mode": "rows+bevel",
+ "bevel": 2,
+ "min_blob": 40,
+ "fill_area": [
+  0,
+  0,
+  126,
+  72
+ ],
+ "bevel_sectors": [
+  1,
+  2,
+  3
+ ],
+ "rows_fill": "r - max(g, b) >= 0x1b",
+ "fill_stops": [
+  [
+   0,
+   "fe3330"
+  ],
+  [
+   0.15,
+   "fd6d61"
+  ],
+  [
+   0.3,
+   "fdb5a7"
+  ],
+  [
+   0.5,
+   "ffede8"
+  ],
+  [
+   0.68,
+   "fdc0b2"
+  ],
+  [
+   0.8,
+   "fd7e70"
+  ],
+  [
+   0.9,
+   "fe4941"
+  ],
+  [
+   0.96,
+   "c60000"
+  ],
+  [
+   1.0,
+   "780000"
+  ]
+ ],
+ "shear": 0.22,
+ "tracking": 2,
+ "step": 1
+}

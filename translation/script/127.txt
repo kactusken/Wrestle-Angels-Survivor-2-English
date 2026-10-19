@@ -1,0 +1,2239 @@
+# /SCR/127.BIN - 朝比奈 優香
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 127` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 朝比奈 優香
+JP 朝比奈だ。
+JP ヨロシクな！
+EN Name's Asahina. Nice to meetcha!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 朝比奈 優香
+JP これで思いっきり暴れられるぜ！
+EN Now I can cut loose all I want!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 朝比奈 優香
+JP なんだよ。
+JP ふざけんなよ。
+EN The hell? Gimme a break.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりのジャンクショップを
+JP うろついているって話だったけど…。
+EN I heard she hangs around the junk shops in this
+EN neighborhood...
+
+@ 3.25
+# 社 長
+JP 体格がいいから
+JP 一目見ればわかるって言ってたなぁ。
+EN They said she's so big I'd know her at a glance.
+
+@ 3.27
+# 社 長
+JP あそこにいるジャージ姿の
+JP 女の子。
+JP あの娘に違いないな。
+EN That girl over there in the tracksuit. That's got to
+EN be her.
+
+@ 3.29
+# 社 長
+JP 即戦力になりそうだし
+JP 早速声かけてみるか。
+EN She looks ready to wrestle right away. Let's go talk
+EN to her.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# 朝比奈 優香
+JP あん？
+JP なんか用すか？
+EN Huh? Whaddaya want?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.51
+# 朝比奈 優香
+JP プロレスかぁ…。
+JP 実はちっとだけ興味あんだよなぁ。
+EN Pro wrestling, huh... Truth is, I'm kinda interested.
+
+@ 3.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.61
+# 朝比奈 優香
+JP 好きなだけ暴れていいんだよな？
+EN I can cut loose as much as I want, right?
+
+@ 3.64
+# 社 長
+JP ルール内であれば問題ないよ。
+EN As long as it's within the rules, sure.
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 朝比奈 優香
+JP よし、決めた！
+JP やってやるよ！
+EN All right, I'm sold! I'll do it!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.26
+# 朝比奈 優香
+JP 社長、これからヨロシクな！
+EN Boss, I'm countin' on ya from here on!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 朝比奈 優香
+JP わりー。
+JP 興味はあんだけど、今はダチのＰＣ
+JP 組み立てねーといけねーから。
+EN Sorry. I'm interested, but right now I gotta finish
+EN building my buddy's PC.
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 朝比奈 優香
+JP おっ！
+JP この前の社長じゃねーか。
+JP またスカウトか？
+EN Oh! You're that president from before. Scouting me
+EN again?
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.40
+# 朝比奈 優香
+JP ははっ、意外に粘るんだなぁ。
+JP まぁオレもちっとは興味あるんだけどな。
+EN Haha, you're more stubborn than you look. Well, I'm
+EN kinda interested myself.
+
+@ 6.43
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.45
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 朝比奈 優香
+JP よし、決めた！
+JP やってやるよ！
+EN All right, I'm sold! I'll do it!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.26
+# 朝比奈 優香
+JP 社長、これからヨロシクな！
+EN Boss, I'm countin' on ya from here on!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 朝比奈 優香
+JP わりー。
+JP 興味はあんだけど、今はダチのＰＣ
+JP 組み立てねーといけねーから。
+EN Sorry. I'm interested, but right now I gotta finish
+EN building my buddy's PC.
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は朝比奈選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Asahina.
+
+@ 9.25
+# 社 長
+JP あの荒々しいファイティングスタイルには
+JP 魅力がある。
+EN That rough-and-tumble fighting style of hers has
+EN real appeal.
+
+@ 9.27
+# 社 長
+JP このあたりのジャンクショップの
+JP 常連らしいけど…。
+EN They say she's a regular at the junk shops around
+EN here...
+
+@ 9.30
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.32
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.42
+# 朝比奈 優香
+JP あん？
+JP なんか用すか？
+EN Huh? Whaddaya want?
+
+@ 9.45
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.52
+# 朝比奈 優香
+JP オレが社長さんの団体に移籍すんの？
+EN You want me to jump ship to your promotion?
+
+@ 9.55
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.62
+# 朝比奈 優香
+JP 移籍なぁ…。
+JP まぁ環境を変えてみるってのも
+JP ありかもな。
+EN Switchin' promotions, huh... Well, a change of scenery
+EN might not be bad.
+
+@ 9.65
+# 社 長
+JP うちの団体に
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend your strength to my promotion?
+
+@ 9.67
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 朝比奈 優香
+JP よっしゃ！
+JP その条件で移籍してやるぜ！
+EN All right! I'll sign on those terms!
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.26
+# 朝比奈 優香
+JP ああ、社長の団体で暴れてやるよ！
+EN Yeah, I'm gonna tear it up in your promotion, Boss!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 朝比奈 優香
+JP その条件じゃ移籍できねーな。
+JP じゃあな。
+EN Can't sign on those terms. See ya.
+
+@ 11.26
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 朝比奈選手が必要だ。
+EN My promotion really needs Asahina.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 朝比奈選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 朝比奈 優香
+JP あっ、この前の社長じゃねーか。
+JP また来たのか？
+EN Oh, you're that president from before. Back again?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.44
+# 朝比奈 優香
+JP 意外と粘るじゃねーか。
+EN You're more stubborn than ya look.
+
+@ 12.47
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.49
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 朝比奈 優香
+JP よっしゃ！
+JP その条件で移籍してやるぜ！
+EN All right! I'll sign on those terms!
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.26
+# 朝比奈 優香
+JP ああ、社長の団体で暴れてやるよ！
+EN Yeah, I'm gonna tear it up in your promotion, Boss!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 朝比奈 優香
+JP その条件じゃ移籍できねーな。
+JP じゃあな。
+EN Can't sign on those terms. See ya.
+
+@ 14.26
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は朝比奈選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Asahina.
+
+@ 15.25
+# 社 長
+JP ファイトスタイルは荒々しいが
+JP プロレスに取り組む姿勢は
+JP うちの若手の手本にもなるはずだ。
+EN Her fighting style is rough, but her attitude toward
+EN wrestling would set a good example for our young
+EN wrestlers.
+
+@ 15.27
+# 社 長
+JP たしかよくこのあたりで
+JP ブラついてるって話だが…。
+EN I heard she often wanders around this area...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 朝比奈 優香
+JP あん？
+JP なんか用すか？
+EN Huh? Whaddaya want?
+
+@ 15.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 15.51
+# 朝比奈 優香
+JP 社長の団体に入団ねぇ…。
+EN Join your promotion, huh...
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# 朝比奈 優香
+JP フリーの方が気が楽なんだよなぁ。
+EN Freelancin' is a lot less hassle, though.
+
+@ 15.64
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Could you please lend us your strength?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 朝比奈 優香
+JP まぁ、いいぜ。
+JP その条件で入団してやるよ！
+EN Eh, fine. I'll join on those terms!
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.26
+# 朝比奈 優香
+JP ああ。
+JP 社長、これから頼むぜ！
+EN Yeah. Boss, I'm countin' on ya!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 朝比奈 優香
+JP やっぱ、やめとくわ。
+JP わりーな。
+EN Nah, I'll pass. Sorry.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 朝比奈選手が必要だ。
+EN My promotion really needs Asahina.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 朝比奈選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 朝比奈 優香
+JP あっ、この前の社長じゃねーか。
+JP また来たのか？
+EN Oh, you're that president from before. Back again?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.44
+# 朝比奈 優香
+JP 見かけによらず粘るんだね。
+EN You're pretty stubborn for a guy who doesn't look
+EN it.
+
+@ 18.47
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.49
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 朝比奈 優香
+JP まぁ、いいぜ。
+JP その条件で入団してやるよ！
+EN Eh, fine. I'll join on those terms!
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.26
+# 朝比奈 優香
+JP ああ。
+JP 社長、これから頼むぜ！
+EN Yeah. Boss, I'm countin' on ya!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 朝比奈 優香
+JP やっぱ、やめとくわ。
+JP わりーな。
+EN Nah, I'll pass. Sorry.
+
+@ 20.21
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は朝比奈を訪ねることにした。
+EN I decided to go see Asahina.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she was somewhere around here...
+
+@ 21.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 朝比奈っ！
+EN Asahina!
+
+@ 21.41
+# 朝比奈 優香
+JP あん！？
+JP あー、てめぇ！
+EN Huh!? Aah, it's YOU!
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# 朝比奈 優香
+JP よくオレの前に顔が出せたもんだな！
+EN You got some nerve showin' your face around me!
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you. I want you to
+EN come back...
+
+@ 21.61
+# 朝比奈 優香
+JP 戻って欲しいだぁ！？
+JP 勝手なことぬかしてんじゃねーぞ！
+EN Come BACK!? Don't gimme that selfish crap!
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと
+JP 頼めた義理じゃないんだけど…。
+EN I know I've got no right to ask this, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 朝比奈 優香
+JP どうしても戻って欲しいのかよ？
+EN You really want me back that bad?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yes. I really want you back.
+
+@ 22.29
+# 朝比奈 優香
+JP …チッ！
+JP 仕方ねーから戻ってやるよ。
+JP ただし、今回だけだからな！
+EN ...Tch! Fine, I'll come back. But just this once, got it!?
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 朝比奈 優香
+JP 本気で言ってんのかよ？
+EN You serious?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yes. I really want you back.
+
+@ 23.29
+# 朝比奈 優香
+JP やっぱダメだ！
+JP もう信用できねーよ。
+EN Nah, no way! I can't trust you anymore.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び朝比奈を訪ねることにした。
+EN I decided to visit Asahina once again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP 朝比奈っ！
+EN Asahina!
+
+@ 24.37
+# 朝比奈 優香
+JP あん！？
+JP また来たのか？
+EN Huh!? You again?
+
+@ 24.40
+# 社 長
+JP ああ、また頼みに来たよ。
+EN Yeah, I've come to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.45
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 朝比奈 優香
+JP どうしても戻って欲しいのかよ？
+EN You really want me back that bad?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yes. I really want you back.
+
+@ 25.29
+# 朝比奈 優香
+JP …チッ！
+JP 仕方ねーから戻ってやるよ。
+JP ただし、今回だけだからな！
+EN ...Tch! Fine, I'll come back. But just this once, got it!?
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 朝比奈 優香
+JP 本気で言ってんのかよ？
+EN You serious?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yes. I really want you back.
+
+@ 26.29
+# 朝比奈 優香
+JP やっぱダメだ！
+JP もう信用できねーよ。
+EN Nah, no way! I can't trust you anymore.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 朝比奈 優香
+JP こんなもん
+JP ツバつけときゃ治るって。
+EN This? Spit on it and it'll heal.
+
+@ 28.16
+# scene 029 ケガ大
+# 朝比奈 優香
+JP 騒ぐなよ！
+JP たいしたことないって。
+EN Quit fussin'! It ain't a big deal.
+
+@ 29.16
+# scene 030 入院
+# 朝比奈 優香
+JP 入院なんて大げさなんだよ。
+EN The hospital? That's overkill.
+
+@ 30.16
+# scene 031 退院
+# 朝比奈 優香
+JP やっと病院のベッドとおさらばだ！
+EN Finally, so long to that hospital bed!
+
+@ 31.16
+# scene 032 ケガ完治
+# 朝比奈 優香
+JP もう問題ないぜ。
+EN I'm good to go now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 朝比奈 優香
+JP オレもそろそろ潮時ってことか…。
+EN Guess it's about time I hang it up...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 朝比奈 優香
+JP テメェの引き際くらい
+JP 自分で決めさせろよ！
+EN Let me decide when I quit, dammit!
+
+@ 34.16
+# scene 035 コーチ就任
+# 朝比奈 優香
+JP ビシビシしごいてやるから
+JP 覚悟しろよ！
+EN I'm gonna work you hard, so brace yourselves!
+
+@ 35.16
+# scene 036 ケガ引退
+# 朝比奈 優香
+JP とうとう限界みたいだ…。
+EN Looks like I finally hit my limit...
+
+@ 36.16
+# scene 037 年齢引退
+# 朝比奈 優香
+JP やることはやったしな…。
+EN I did what I came to do...
+
+@ 37.16
+# scene 038 退団
+# 朝比奈 優香
+JP じゃあな。
+EN See ya.
+
+@ 38.16
+# scene 039 スランプ
+# 朝比奈 優香
+JP うるせーな…。
+JP 放っとけっつってんだよ！
+EN Shut up... I told ya to leave me alone!
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 朝比奈 優香
+JP とんだ物好きもいるもんだねぇ。
+EN Takes all kinds, I guess.
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.23
+# 朝比奈 優香
+JP ボチボチがんばるよ。
+EN I'll take it as it comes.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 朝比奈 優香
+JP またかよ。
+JP 世の中おかしいんじゃねーか。
+EN Another one? The world's gone nuts.
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Live up to their expectations.
+
+@ 40.23
+# 朝比奈 優香
+JP わかってるって！
+EN I know, I know!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 朝比奈 優香
+JP 今まであったのが
+JP 不思議だったよな…。
+EN Honestly, it was weird it lasted this long...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.23
+# 朝比奈 優香
+JP せいぜいがんばるよ。
+EN I'll do what I can.
+
+@ 42.16
+# scene 043 映画出演
+# 朝比奈 優香
+JP 男役の方が向いてんじゃねーのか？
+EN Wouldn't I be better at playin' a guy?
+
+@ 43.16
+# scene 044 一日署長
+# 朝比奈 優香
+JP 逆に捕まらない程度に
+JP やってくるよ。
+EN I'll go do it. Just try not to get myself arrested.
+
+@ 44.16
+# scene 045 写真集発売
+# 朝比奈 優香
+JP おいおい、冗談だろ！
+EN Whoa, whoa, you gotta be kiddin'!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 朝比奈 優香
+JP おいおい
+JP 宣伝費ドブに捨てる気かよ。
+EN Whoa, whoa, you wanna flush your ad money down the
+EN drain?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 朝比奈 優香
+JP 音楽業界は
+JP そんなにネタ不足なのか？
+EN Is the music biz really that desperate for material?
+
+@ 47.16
+# scene 048 始球式
+# 朝比奈 優香
+JP バッターに当てて来ていいか？
+EN Mind if I bean the batter?
+
+@ 48.16
+# scene 048 学園祭
+# 朝比奈 優香
+JP 学生プロレスでも見てくっかな。
+EN Maybe I'll go check out some student wrestling.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a birthday present for you.
+
+@ 49.38
+# 朝比奈 優香
+JP へー。
+JP 社長がオレにプレゼントねぇ。
+EN Huh. The Boss got ME a present.
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.45
+# 朝比奈 優香
+JP まぁ、借りは返さないとな。
+EN Well, guess I owe ya one now.
+
+@ 50.32
+# scene 051 バレンタインデー
+# 朝比奈 優香
+JP 社長、ホラ、チョコレートだ！
+JP ありがたく思えよ。
+EN Boss, here. Chocolate! Be grateful.
+
+@ 50.35
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thanks.
+
+@ 50.42
+# 朝比奈 優香
+JP バカやろ…。
+JP ぎ、義理だよ、義理…。
+EN Idiot... I-it's obligation chocolate, obligation...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this thank-you for last month?
+
+@ 51.38
+# 朝比奈 優香
+JP あ、ああ…。
+JP 小腹がすいてたんでもらっておくよ。
+EN Y-yeah... I was kinda peckish, so I'll take it.
+
+@ 51.41
+# 社 長
+JP ああ。
+JP 練習の合間にでも食べてくれ。
+EN Sure. Have some between workouts.
+
+@ 52.31
+# scene 053 サイン会
+# 朝比奈 優香
+JP オレのサインが高く売れるからって
+JP オークションに出すんじゃねーぞ！
+EN Don't go puttin' my autograph up for auction just
+EN 'cause it sells high!
+
+@ 53.31
+# scene 054 コンサート
+# 朝比奈 優香
+JP ハァ～…。
+JP ガラじゃねーんだよ…。
+EN Haaah... This just ain't me...
+
+@ 54.28
+# scene 055 練習拒否
+# 朝比奈 優香
+JP ダメだ。
+JP 今日はパス…。
+EN Nope. I'm skippin' today...
+
+@ 55.28
+# scene 056 失踪
+# 朝比奈 優香
+JP じゃあな…。
+EN See ya...
+
+@ 56.16
+# scene 057 選手解雇
+# 朝比奈 優香
+JP この恨み忘れねーからな！
+EN I ain't gonna forget this!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 朝比奈 優香
+JP ちょっくら行ってくるわ！
+EN I'm headin' out for a bit!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 朝比奈 優香
+JP いま戻ったぜ。
+JP やっぱこっちは落ち着くなぁ。
+EN I'm back. It's way more relaxin' here.
+
+@ 59.28
+# scene 060 移籍思案
+# 朝比奈 優香
+JP そろそろ環境、変えてみっかなぁ…。
+EN Maybe it's time for a change of scenery...
+
+@ 60.16
+# scene 061 革命軍結成
+# 朝比奈 優香
+JP オラー！
+JP みんなオレの革命についてこい！
+EN Oraaa! Everybody, follow me in my revolution!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 朝比奈 優香
+JP オレの軍団に入りたい奴は
+JP 誰でも来な！
+EN Anybody who wants in on my crew, come on!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 朝比奈 優香
+JP いい加減勝負しやがれ！
+EN Quit stallin' and fight me already!
+
+@ 63.16
+# scene 065 遺恨発生
+# 朝比奈 優香
+JP この恨み、忘れねーぞ！
+EN I ain't gonna forget this grudge!
+
+@ 64.16
+# scene 065 殴り込み
+# 朝比奈 優香
+JP ちょっくら暴れてくるぜ！
+EN I'm gonna go raise some hell!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 朝比奈 優香
+JP この団体にオレがいたことが
+JP 不幸だったな！
+EN Too bad for you I was in this promotion!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 朝比奈 優香
+JP オメェら、ぶっ潰してやるぜ！
+EN I'm gonna crush every last one of ya!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 朝比奈 優香
+JP オレに任せておけば
+JP 大丈夫だって！
+EN Just leave it to me and it'll be fine!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 朝比奈 優香
+JP まぁ、当然の結果だな！
+EN Well, that's how it was supposed to go!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 朝比奈 優香
+JP …チッ！
+JP 油断しちまったぜ…。
+EN ...Tch! Got careless...
+
+@ 70.13
+# scene 071 引退式
+# 朝比奈 優香
+JP 今日で引退することになったけど
+JP 今まで世話になったな。
+JP アリガトよ！
+EN I'm retirin' as of today, but thanks for everything all
+EN this time. Thanks a lot!
+
+@ 71.18
+# 朝比奈 優香
+JP 社長、なんだよ？
+EN Boss, what is it?
+
+@ 71.37
+# 朝比奈 優香
+JP 社長、なんすか？
+EN Boss, what's up?
+
+@ 71.47
+# 朝比奈 優香
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in great shape lately. Keep it
+EN up!
+
+@ 71.90
+# 朝比奈 優香
+JP まぁ、ボチボチがんばるよ。
+EN Well, I'll take it as it comes.
+
+@ 71.111
+# 朝比奈 優香
+JP なんだよ。
+JP そんなことで呼んだのかよ！
+EN What? You called me here for THAT?
+
+@ 71.132
+# 朝比奈 優香
+JP フンッ…。
+JP い、言われなくても
+JP やってやるよ。
+EN Hmph... Y-you don't gotta tell me. I'll do it anyway.
+
+@ 71.153
+# 朝比奈 優香
+JP まぁ、程々にやらせてもらうよ。
+EN Well, I'll do it at my own pace.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 朝比奈 優香
+JP 次で挽回してやるよ。
+EN I'll make up for it next time.
+
+@ 71.211
+# 朝比奈 優香
+JP オレだって
+JP 調子の悪いときぐらいあんだよ！
+EN Even I have off days, y'know!
+
+@ 71.232
+# 朝比奈 優香
+JP 悪かったよ…。
+JP 次はまじめにやるよ…。
+EN My bad... I'll take it seriously next time...
+
+@ 71.253
+# 朝比奈 優香
+JP 調子が悪いときがあるってことも
+JP わかってくれよ…。
+EN Try to understand I have off days too...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# 朝比奈 優香
+JP なんだよ？
+JP 少しはオレのこと
+JP 心配してんのかよ。
+EN What? You actually worried about me or somethin'?
+
+@ 71.311
+# 朝比奈 優香
+JP うっせぇな！
+JP ほっとけよ！
+JP もうオレのこといらねーんだろ！
+EN Shut up! Leave me alone! You don't need me anymore
+EN anyway, right!?
+
+@ 71.332
+# 朝比奈 優香
+JP う、うるせぇな…。
+JP ま、まあ…その…なんだ。
+JP ありがとよ…。
+EN Sh-shut up... W-well... um... y'know. Thanks...
+
+@ 71.353
+# 朝比奈 優香
+JP バ、バカッ！
+JP そんなことねーよ。
+EN Y-you idiot! That ain't it.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 朝比奈 優香
+JP さぁな。
+JP とっとと話せよ。
+EN Who knows. Just spit it out.
+
+@ 71.400
+# 朝比奈 優香
+JP さっぱりわかんねーよ。
+EN Ain't got a clue.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Couldn't you try to get along with %chr?
+
+@ 71.433
+# 朝比奈 優香
+JP わかったよ。
+JP こっちから折れてやるよ。
+EN Fine. I'll be the one to back down.
+
+@ 71.454
+# 朝比奈 優香
+JP 社長、そいつは無理な注文だ。
+EN Boss, that's askin' the impossible.
+
+@ 71.475
+# 朝比奈 優香
+JP 社長、何言ってんだ？
+JP 大丈夫か？
+EN Boss, what're you talkin' about? You okay?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 朝比奈 優香
+JP なんだよ。
+JP 急に呼び出してよ？
+EN What? Callin' me in all of a sudden?
+
+@ 71.522
+# 朝比奈 優香
+JP なんの話だよ？
+EN What's this about?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Couldn't you try to get along with %chr?
+
+@ 71.557
+# 朝比奈 優香
+JP …チッ！
+JP 社長の頼みじゃ
+JP 断れねーっつうの。
+EN ...Tch! I can't say no when it's you askin', Boss.
+
+@ 71.578
+# 朝比奈 優香
+JP 社長の頼みでも
+JP それは勘弁してくれ。
+EN Even if you're askin', Boss, gimme a break on that
+EN one.
+
+@ 71.599
+# 朝比奈 優香
+JP 社長、疲れてるんじゃないか？
+EN Boss, you're tired, ain't ya?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 朝比奈 優香
+JP 社長、なんすか？
+EN Boss, what's up?
+
+@ 72.16
+# 朝比奈 優香
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in great shape lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 朝比奈 優香
+JP まぁボチボチがんばるよ。
+EN Well, I'll take it as it comes.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 朝比奈 優香
+JP なんだよ。
+JP そんなことで呼んだのかよ！
+EN What? You called me here for THAT?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 朝比奈 優香
+JP フン…。
+JP い、言われなくても、
+JP やってやるよ。
+EN Hmph... Y-you don't gotta tell me. I'll do it anyway.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 朝比奈 優香
+JP まぁ、程々にやらせてもらうよ。
+EN Well, I'll do it at my own pace.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 朝比奈 優香
+JP 次で挽回してやるよ。
+EN I'll make up for it next time.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 朝比奈 優香
+JP オレだって調子の悪いとき
+JP ぐらいあんだよ！
+EN Even I have off days, y'know!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 朝比奈 優香
+JP 悪かったよ…。
+JP 次はまじめにやるよ…。
+EN My bad... I'll take it seriously next time...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 朝比奈 優香
+JP 調子が悪いときがあるって
+JP こともわかってくれよ…。
+EN Try to understand I have off days too...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 朝比奈 優香
+JP なんだよ？
+JP 少しはオレのこと
+JP 心配してんのかよ。
+EN What? You actually worried about me or somethin'?
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 朝比奈 優香
+JP うっせぇな！ほっとけよ！
+JP もうオレのこといらねーんだろ！
+EN Shut up! Leave me alone! You don't need me anymore
+EN anyway, right!?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 朝比奈 優香
+JP う、うるせぇな…。
+JP ま、まあ…その…なんだ。
+JP ありがとよ…。
+EN Sh-shut up... W-well... um... y'know. Thanks...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 朝比奈 優香
+JP バ、バカ！
+JP そんなことねーよ。
+EN Y-you idiot! That ain't it.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 朝比奈 優香
+JP さぁな。とっとと話せよ。
+EN Who knows. Just spit it out.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 朝比奈 優香
+JP さっぱりわかんねーよ。
+EN Ain't got a clue.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Couldn't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 朝比奈 優香
+JP わかったよ。
+JP こっちから折れてやるよ。
+EN Fine. I'll be the one to back down.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 朝比奈 優香
+JP 社長、そいつは無理な注文だ。
+EN Boss, that's askin' the impossible.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 朝比奈 優香
+JP 社長、何言ってんだ？大丈夫か？
+EN Boss, what're you talkin' about? You okay?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.10
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 朝比奈 優香
+JP なんだよ。
+JP 急に呼び出してよ？
+EN What? Callin' me in all of a sudden?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 朝比奈 優香
+JP なんの話だよ？
+EN What's this about?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Couldn't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 朝比奈 優香
+JP …チッ！
+JP 社長の頼みじゃ
+JP 断れねーっつうの。
+EN ...Tch! I can't say no when it's you askin', Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 朝比奈 優香
+JP 社長の頼みでも、
+JP それは勘弁してくれ。
+EN Even if you're askin', Boss, gimme a break on that
+EN one.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 朝比奈 優香
+JP 社長、疲れてるんじゃないか？
+EN Boss, you're tired, ain't ya?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 朝比奈 優香
+JP まぁ、こんなもんだろうな。
+EN Well, that's about what I figured.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 朝比奈 優香
+JP ヘッヘー。
+JP サンキュー、社長。
+EN Heh heh! Thanks, Boss.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 朝比奈 優香
+JP …チッ！
+JP あれだけやって…こんだけかよ。
+EN ...Tch! After all I did... this is it?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics. The sun is scorching.)
+
+@ 105.34
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （…と思ったら
+JP 　一人不機嫌そうなのがいるな…）
+EN (...Or so I thought. One of them looks pretty
+EN grumpy...)
+
+@ 105.54
+# 朝比奈 優香
+JP うぅ…ったくよぉ！
+JP あいつら…。
+EN Ugh... Seriously! Those guys...
+
+@ 105.57
+# 社 長
+JP どうした？
+JP 随分と機嫌が悪いな。
+EN What's wrong? You're in a pretty bad mood.
+
+@ 105.61
+# 朝比奈 優香
+JP どうしたもこうしたもねぇよ。
+JP ナンパ野郎がうぜぇ…。
+EN What's wrong is these pickup creeps are a pain...
+
+@ 105.64
+# 社 長
+JP ナンパされたのか？
+EN Did someone hit on you?
+
+@ 105.68
+# 朝比奈 優香
+JP …あんっ？
+EN ...Huh?
+
+@ 105.78
+# 朝比奈 優香
+JP ははははっ！
+JP バーカ、オレがされる訳ねーだろ。
+EN Hahahaha! Dummy, like anybody's gonna hit on ME.
+
+@ 105.82
+# 朝比奈 優香
+JP 他の連中だよ。
+EN It was the other girls.
+
+@ 105.86
+# 朝比奈 優香
+JP 断ってるのにしつこかったから
+JP 上下逆さにして海に叩き込んでやったぜ。
+EN They kept pushin' even after gettin' turned down,
+EN so I flipped 'em upside down and slammed 'em into the
+EN sea.
+
+@ 105.89
+# 社 長
+JP そ、そうか…。
+EN I-I see...
+
+@ 105.91
+# 社 長
+JP （なるべく視界に入れないように
+JP 　していたが…）
+EN (I'd been trying not to look at it, but...)
+
+@ 105.107
+# 社 長
+JP （あのどっかの映画みたいに
+JP 　海から生えている足がそれか？）
+EN (So that's what those legs sticking out of the water
+EN like in some movie are?)
+
+@ 105.117
+# 朝比奈 優香
+JP …ったく、オチオチ泳いでも
+JP らんねーぜ…。
+EN ...Geez, can't even swim in peace around here...
+
+@ 105.120
+# 社 長
+JP （朝比奈は不機嫌そうだ）
+EN (Asahina seems grumpy.)
+
+@ 105.122
+# 社 長
+JP （でもな…）
+EN (But you know...)
+
+@ 105.124
+# 社 長
+JP （不機嫌そうな顔さえしなければ
+JP 　おまえもナンパされる側に
+JP 　まわる気がするぞ）
+EN (If she didn't wear that scowl, I bet she'd be the one
+EN getting hit on.)
+
+@ 105.134
+# 朝比奈 優香
+JP …んっ？
+JP どうした、社長、じろじろ見て。
+JP ははぁ…さては……。
+EN ...Hm? What's up, Boss, starin' at me like that? Ahh... I
+EN get it...
+
+@ 105.137
+# 社 長
+JP …えっ。
+JP いや…俺は別に…。
+EN ...Huh? No... I wasn't...
+
+@ 105.141
+# 朝比奈 優香
+JP ここか？
+JP この筋肉に見惚れてたのか？
+EN Here? You were checkin' out these muscles?
+
+@ 105.144
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.146
+# 社 長
+JP …まあ、そんなところだ。
+EN ...Well, something like that.
+
+@ 105.150
+# 朝比奈 優香
+JP …だろ。
+JP ちーっと自信あるんだよな。
+EN ...Figured. I'm kinda proud of 'em.
+
+@ 105.153
+# 社 長
+JP （今は言わなくてもいいか…）
+EN (Maybe I don't need to tell her right now...)
+
+@ 105.157
+# 朝比奈 優香
+JP さて…と…。
+EN Okay... Now then...
+
+@ 105.161
+# 朝比奈 優香
+JP 怪しい連中は…もういないな。
+JP よし、オレもそろそろ泳いでくっか。
+EN No more creeps around... Good, guess I'll go for a
+EN swim too.
+
+@ 105.164
+# 社 長
+JP ああ、そうするといい。
+EN Yeah, go ahead.
+
+@ 105.166
+# 社 長
+JP （というか、あの足…
+JP 　ピクリとも動いてないけど
+JP 　平気だろうな？）
+EN (Actually, those legs... they haven't moved an inch. I
+EN hope he's all right...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP すっかり遅くなってしまったな…。
+JP そろそろ帰るか。
+EN It's gotten really late... Time to head home.
+
+@ 106.26
+# 社 長
+JP （俺は仕事を終えて
+JP 　帰り支度を始めた）
+EN (I finished work and started getting ready to leave.)
+
+@ 106.28
+# 社 長
+JP （会社に残っているのも
+JP 　もう俺一人だろう）
+EN (I'm probably the only one left in the office by now.)
+
+@ 106.30
+# 社 長
+JP （…と思ったが
+JP 　窓から外を見ると
+JP 　灯りの付いている場所がある）
+EN (...Or so I thought, but looking out the window, I saw a
+EN light on somewhere.)
+
+@ 106.32
+# 社 長
+JP あそこは…車庫か？
+EN Is that... the garage?
+
+@ 106.34
+# 社 長
+JP （こんな時間にいったい誰が…）
+EN (Who could be there at this hour...)
+
+@ 106.46
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.48
+# 社 長
+JP （俺は車庫に足を運んだ）
+EN (I headed to the garage.)
+
+@ 106.69
+# 朝比奈 優香
+JP おっ、社長。
+JP こんな遅くまでご苦労さんだなぁ。
+EN Oh, Boss. Workin' late, huh? Good job.
+
+@ 106.72
+# 社 長
+JP 朝比奈か…。
+JP 何やってるんだ？
+JP こんな時間に。
+EN Asahina... What are you doing here at this hour?
+
+@ 106.76
+# 朝比奈 優香
+JP あれ…。
+JP 霧子さんから聞いてねぇ？
+EN Huh... Kiriko didn't tell ya?
+
+@ 106.79
+# 社 長
+JP 何も…。
+EN Not a word...
+
+@ 106.83
+# 朝比奈 優香
+JP そっか…。
+JP ちょっと資格欲しくてさ。
+JP 車をいじらせてもらってんだ。
+EN Guess not... I wanna get a license, see. So she's
+EN lettin' me tinker with the cars.
+
+@ 106.86
+# 社 長
+JP （資格…）
+EN (A license...)
+
+@ 106.88
+# 社 長
+JP 整備のか？
+EN A mechanic's license?
+
+@ 106.92
+# 朝比奈 優香
+JP ああ。
+JP 前から欲しいと思っててよ。
+EN Yeah. I've wanted one for a while.
+
+@ 106.95
+# 社 長
+JP 手慣れたものだな。
+EN You look like you know what you're doing.
+
+@ 106.105
+# 朝比奈 優香
+JP へへッ。
+JP 昔から機械いじるの好きだからよ。
+EN Heheh. I've always loved messin' with machines.
+
+@ 106.109
+# 朝比奈 優香
+JP まぁ、まだ資格もってねーから
+JP 最低限のことしかできねーけどな。
+EN Well, I ain't licensed yet, so I can only do the basics.
+
+@ 106.112
+# 社 長
+JP それで、会社の車を
+JP 整備してくれてるのか。
+EN So that's why you've been servicing the company
+EN cars.
+
+@ 106.122
+# 朝比奈 優香
+JP ああ…。
+EN Yeah...
+
+@ 106.126
+# 朝比奈 優香
+JP まっ、こんな時間だし。
+JP 社長が帰るなら、オレも切り上げるか。
+EN Anyway, it's late. If you're headin' home, Boss, guess
+EN I'll call it a night too.
+
+@ 106.129
+# 社 長
+JP そうか。
+JP なら、メシなんかどうだ？
+EN I see. Then how about grabbing a bite?
+
+@ 106.133
+# 朝比奈 優香
+JP メシ…？
+JP 奢りか？
+EN A bite...? Your treat?
+
+@ 106.136
+# 社 長
+JP ああ。
+JP 整備してもらってるお礼にな。
+EN Yeah. As thanks for looking after the cars.
+
+@ 106.146
+# 朝比奈 優香
+JP やりぃ。
+EN Sweet!
+
+@ 106.150
+# 朝比奈 優香
+JP じゃ、ちょっと待っててくれ。
+JP すぐバイク持ってくっからさ。
+EN Hang on a sec, then. I'll go get my bike.
+
+@ 106.162
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.164
+# 社 長
+JP （逞しいやつだなあ）
+EN (She's a tough one, all right.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP すっかり遅くなってしまったな…。
+JP そろそろ帰るか。
+EN It's gotten really late... Time to head home.
+
+@ 107.26
+# 社 長
+JP （俺は仕事を終えて
+JP 　帰り支度を始めた）
+EN (I finished work and started getting ready to leave.)
+
+@ 107.28
+# 社 長
+JP （会社に残っているのも
+JP 　もう俺一人だろう）
+EN (I'm probably the only one left in the office by now.)
+
+@ 107.30
+# 社 長
+JP （…と思ったが
+JP 　窓から外を見ると
+JP 　灯りの付いている場所がある）
+EN (...Or so I thought, but looking out the window, I saw a
+EN light on somewhere.)
+
+@ 107.32
+# 社 長
+JP あそこは…車庫か？
+EN Is that... the garage?
+
+@ 107.34
+# 社 長
+JP （こんな時間に、あそこにいるのは
+JP 　一人しかいない）
+EN (At this hour, there's only one person it could be.)
+
+@ 107.46
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.48
+# 社 長
+JP （俺は車庫に足を運んだ）
+EN (I headed to the garage.)
+
+@ 107.68
+# 社 長
+JP やっぱり朝比奈か。
+EN Asahina, I thought so.
+
+@ 107.72
+# 朝比奈 優香
+JP おっ、社長。
+JP お疲れさん。
+EN Oh, Boss. Good work today.
+
+@ 107.75
+# 社 長
+JP （こいつはこうやって
+JP 　会社の車を整備してくれている）
+EN (She's always servicing the company cars like this.)
+
+@ 107.77
+# 社 長
+JP すまないな、いつも。
+EN Sorry to keep you at it all the time.
+
+@ 107.81
+# 朝比奈 優香
+JP 気にすんな…よ…。
+JP 好きで…やってることさ…。
+EN Don't... worry about it... I'm doin' it... 'cause I like it...
+
+@ 107.84
+# 社 長
+JP （喋りながらも
+JP 　機械をいじる手は止まらない。
+JP 　手慣れたものだ）
+EN (Even while she talks, her hands keep working on
+EN the machine. She's a natural.)
+
+@ 107.86
+# 社 長
+JP 随分と手際がよくなったな。
+EN You've gotten a lot quicker at this.
+
+@ 107.90
+# 朝比奈 優香
+JP まだまだ…だよ。
+JP もっと…上の資格も欲しい…しな。
+EN Still got... a ways to go. I want... a higher license too...
+EN y'know.
+
+@ 107.93
+# 社 長
+JP 意外だな。
+JP 資格魔だったのか。
+EN That's a surprise. You're a license collector?
+
+@ 107.103
+# 朝比奈 優香
+JP へへっ…。
+JP そうじゃねぇ…よ。
+EN Heh... Nah... not really.
+
+@ 107.107
+# 朝比奈 優香
+JP でも、合格すると
+JP 好きなことで…認められたって
+JP 感じがしてな…。
+EN But when I pass one, it feels like... I'm recognized for
+EN somethin' I love...
+
+@ 107.117
+# 朝比奈 優香
+JP まぁ、今…一番認められたいのは
+JP リングの上だけどな。
+EN Then again, where I wanna be recognized most right
+EN now is in the ring.
+
+@ 107.120
+# 社 長
+JP ああ、わかるよ。
+EN Yeah, I get it.
+
+@ 107.130
+# 朝比奈 優香
+JP …っと…こんな時間か。
+JP 今日はもう切り上げだな。
+EN ...Whoa... look at the time. Guess I'll call it a day.
+
+@ 107.133
+# 社 長
+JP そうか。
+JP なら、いつもどおりメシいくか？
+EN I see. Then, grab a bite like usual?
+
+@ 107.143
+# 朝比奈 優香
+JP もち、行くぜ。
+EN You bet I'm in.
+
+@ 107.146
+# 社 長
+JP じゃ、待ってるよ。
+EN I'll wait for you, then.
+
+@ 107.150
+# 朝比奈 優香
+JP ああ。
+JP すぐバイク持ってくる。
+EN Yeah. I'll go get my bike.
+
+@ 107.162
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.164
+# 社 長
+JP （さて、今日はどこで
+JP 　メシを食うかな…）
+EN (Now, where should we eat tonight...)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 朝比奈 優香
+JP ヒュー♪
+JP キッツイ練習になりそうだな。
+EN Whew! Gonna be one rough practice.
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# 朝比奈 優香
+JP 練習のときは力をセーブしろよ。
+JP わかってんな？
+EN Hold back your power in practice. Got it?
+
+@ 110.17
+# scene 111 練習試合 ベター２
+# 朝比奈 優香
+JP やれやれ、本番モードかよ。
+EN Geez, you're goin' all out, huh?
+
+@ 111.16
+# scene 113 練習開始
+# 朝比奈 優香
+JP ボチボチやるとするか。
+EN Guess I'll get to it.
+
+@ 112.16
+# scene 114 練習開始 好意
+# 朝比奈 優香
+JP 今日もよろしく頼むぜ。
+EN Countin' on ya again today.
+
+@ 113.16
+# scene 115 特訓開始
+# 朝比奈 優香
+JP …ったく…。
+JP 好きにやらせろよ。
+EN ...Geez... Just let me do it my way.
+
+@ 114.20
+# scene 116 特訓成功
+# 朝比奈 優香
+JP …フンッ。
+JP たまにはありかもな。
+EN ...Hmph. Maybe it ain't so bad once in a while.
+
+@ 115.20
+# scene 117 特訓失敗
+# 朝比奈 優香
+JP だからムダだって言ってんだよ…。
+EN Told ya it was a waste of time...
+
+@ 116.16
+# scene 118 休養
+# 朝比奈 優香
+JP ＰＣの調子がワリーから
+JP メンテでもしておくか。
+EN My PC's actin' up, so maybe I'll do some maintenance.
+
+@ 117.16
+# scene 119 入場1
+# 朝比奈 優香
+JP オラッ！
+JP どけっ！
+JP 朝比奈様のお通りだぜ！
+EN Ora! Outta the way! The great Asahina's comin'
+EN through!
+
+@ 118.16
+# scene 119 入場2
+# 朝比奈 優香
+JP 潰される用意はできたか？
+EN Ready to get crushed?
+
+@ 119.17
+# scene 121 タッグマッチ ベスト
+# 朝比奈 優香
+JP ハッ！
+JP 今日は負ける気がしねぇな！
+EN Ha! No way I'm losin' today!
+
+@ 120.17
+# scene 121 タッグマッチ ベター１
+# 朝比奈 優香
+JP 今日は頼むぜぇ。
+EN Countin' on ya today.
+
+@ 121.17
+# scene 122 タッグマッチ ベター２
+# 朝比奈 優香
+JP ガンガンいってやろうぜ。
+EN Let's go hard!
+
+@ 122.16
+# scene 125 必殺技１
+# 朝比奈 優香
+JP パワー全開でいくぜ！
+EN Goin' full power!
+
+@ 123.16
+# scene 125 必殺技２
+# 朝比奈 優香
+JP ケガしたくなかったら、
+JP しっかり受け身とれよ！
+EN If ya don't wanna get hurt, you better take the bump
+EN right!
+
+@ 124.16
+# scene 125 必殺技３
+# 朝比奈 優香
+JP 決めたよ！
+JP こいつでやってやる！
+EN Decided! This is the one I'm gonna use!
+
+@ 125.12
+# scene 126 勝利1
+# 朝比奈 優香
+JP オレ様に勝てるヤツなんか
+JP いねーって言ってんだろ！
+EN Told ya, there ain't nobody who can beat me!
+
+@ 126.12
+# scene 126 勝利2
+# 朝比奈 優香
+JP 向かうとこ敵なしだな！
+EN Nobody can stand in my way!
+
+@ 127.12
+# scene 126 勝利3
+# 朝比奈 優香
+JP ほらよ。
+JP いっちょ上がりだぜ！
+EN There ya go. One more down!
+
+@ 128.15
+# scene 133 表彰1
+# 朝比奈 優香
+JP ワリィ。
+JP 軽ーくいただいちまったな。
+EN Sorry. Snagged it without breakin' a sweat.
+
+@ 129.15
+# scene 133 表彰2
+# 朝比奈 優香
+JP まぁ、表彰されるってのも
+JP 悪くねーもんだな。
+EN Well, gettin' an award ain't so bad.
+
+@ 130.12
+# scene 134 優勝1
+# 朝比奈 優香
+JP オレ様は無敵だって言ってんだろ！
+EN Told ya I'm invincible!
+
+@ 131.12
+# scene 134 優勝２
+# 朝比奈 優香
+JP 度胸のあるヤツはかかって来な！
+EN Anybody with guts, come and get it!
+
+@ 132.24
+# scene 135 エンディング 通常
+# 朝比奈 優香
+JP 社長、やったな。
+JP 今日は祝勝会といこうぜ！
+EN Boss, we did it. Let's throw a victory party tonight!
+
+@ 133.24
+# scene 136 エンディング 好意
+# 朝比奈 優香
+JP 別にいいだろ…。
+JP オレが勝手に社長のこと
+JP 好きになったって…。
+EN So what if... I went and fell for you, Boss...

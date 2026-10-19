@@ -1,0 +1,2208 @@
+# /SCR/109.BIN - コンバット斉藤
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 109` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# コンバット斉藤
+JP 斉藤です。
+JP 空手の経験があります。
+EN I'm Saito. I have a background in karate.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# コンバット斉藤
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# コンバット斉藤
+JP わかりました…。
+JP 出直します…。
+EN I understand... I'll try again another time...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP 今日会う選手は
+JP 全日本女子空手王者だな。
+EN The wrestler I'm meeting today is the All-Japan
+EN women's karate champion.
+
+@ 3.25
+# 社 長
+JP これは大変な話題を呼ぶぞ。
+JP 是非欲しいところだ。
+EN This would make huge headlines. I really want her.
+
+@ 3.27
+# 社 長
+JP プロレスでは打撃格闘技の選手は
+JP 必ずしも有利じゃないんだが…。
+EN In pro wrestling, strikers from combat sports don't
+EN necessarily have the advantage, but...
+
+@ 3.29
+# 社 長
+JP そういうのを超越した魅力が
+JP 斉藤選手にはあるんだよな…。
+EN Saito has an appeal that goes beyond all that...
+
+@ 3.33
+# ？？？
+JP はっ！　はっ！　はっ！　はっ！
+EN Hah! Hah! Hah! Hah!
+
+@ 3.36
+# 社 長
+JP あぁ、いたいた、彼女だ。
+JP あの、すみません。
+JP 斉藤さんですよね？
+EN Ah, there she is. Um, excuse me. You're Ms. Saito,
+EN aren't you?
+
+@ 3.46
+# コンバット斉藤
+JP はぁ、はぁ、はぁ…。
+JP はい、そうですけど？
+EN Hah, hah, hah... Yes, that's right. Why?
+
+@ 3.49
+# 社 長
+JP 突然すみません。
+JP 私、プロレスの団体を
+JP 経営している者なんですが…。
+EN Sorry to bother you out of the blue. I run a pro
+EN wrestling promotion...
+
+@ 3.56
+# コンバット斉藤
+JP プロレス？
+JP 私は空手の人間なんですが…。
+EN Pro wrestling? I'm a karate practitioner...
+
+@ 3.59
+# 社 長
+JP それはもちろん存じ上げています。
+JP 実はうちの団体に入ってもらえないかと
+JP 思いまして…。
+EN Of course, I'm well aware of that. Actually, I was
+EN hoping you might join my promotion...
+
+@ 3.66
+# コンバット斉藤
+JP …えっ！
+EN ...What?!
+
+@ 3.69
+# 社 長
+JP どうでしょうか。
+EN What do you think?
+
+@ 3.71
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# コンバット斉藤
+JP 正直、プロレスには
+JP あまりいい印象はありません。
+EN To be honest, I don't have a very good impression of
+EN pro wrestling.
+
+@ 4.18
+# 社 長
+JP そうですか…。
+JP それでは…。
+EN I see... Well then...
+
+@ 4.29
+# コンバット斉藤
+JP いえ…。
+JP 私の目で確かめたいと思います。
+JP この話、お受けします。
+EN No... I want to see it for myself. I accept your offer.
+
+@ 4.32
+# 社 長
+JP それはよかった。
+JP では、これからよろしく。
+EN That's great. I look forward to working with you.
+
+@ 5.15
+# scene 006 新人スカウト１ 失敗
+# コンバット斉藤
+JP 空手からプロレスに移る選手も
+JP いると聞きます。
+EN I've heard some karateka do move over to pro
+EN wrestling.
+
+@ 5.18
+# 社 長
+JP そうですね。
+JP そういう人も少なくありません。
+EN That's right. Quite a few, in fact.
+
+@ 5.29
+# コンバット斉藤
+JP ですが、私はそうした気持ちには
+JP なれません。
+JP すみませんが、失礼します。
+EN But I can't bring myself to feel that way. I'm sorry,
+EN but I'll be going.
+
+@ 5.32
+# 社 長
+JP そうですか。
+JP そういうお考えなら仕方ありません。
+EN I see. If that's how you feel, it can't be helped.
+
+@ 5.34
+# 社 長
+JP （斉藤選手の気持ちもわかるし…。
+JP 　いったん引き下がるか）
+EN (I can understand how she feels... I'll back off for
+EN now.)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, it should have been somewhere around
+EN here...
+
+@ 6.26
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.36
+# コンバット斉藤
+JP ああ、どうも…。
+JP まさか…またあの話ですか？
+EN Oh, hello... Don't tell me... this is about that offer
+EN again?
+
+@ 6.39
+# 社 長
+JP はい。
+JP 考え直してもらえないでしょうか？
+EN Yes. Would you reconsider?
+
+@ 6.41
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# コンバット斉藤
+JP 正直、プロレスには
+JP あまりいい印象はありません。
+EN To be honest, I don't have a very good impression of
+EN pro wrestling.
+
+@ 7.18
+# 社 長
+JP そうですか…。
+JP それでは…。
+EN I see... Well then...
+
+@ 7.29
+# コンバット斉藤
+JP いえ…。
+JP 私の目で確かめたいと思います。
+JP この話、お受けします。
+EN No... I want to see it for myself. I accept your offer.
+
+@ 7.32
+# 社 長
+JP それはよかった。
+JP では、これからよろしく。
+EN That's great. I look forward to working with you.
+
+@ 8.15
+# scene 009 新人スカウト ２回目以降  失敗
+# コンバット斉藤
+JP 空手からプロレスに移る選手も
+JP いると聞きます。
+EN I've heard some karateka do move over to pro
+EN wrestling.
+
+@ 8.18
+# 社 長
+JP そうですね。
+JP そういう人も少なくありません。
+EN That's right. Quite a few, in fact.
+
+@ 8.29
+# コンバット斉藤
+JP ですが、私はそうした気持ちには
+JP なれません。
+JP すみませんが、失礼します。
+EN But I can't bring myself to feel that way. I'm sorry,
+EN but I'll be going.
+
+@ 8.32
+# 社 長
+JP そうですか。
+JP そういうお考えなら仕方ありません。
+EN I see. If that's how you feel, it can't be helped.
+
+@ 8.34
+# 社 長
+JP （斉藤選手の気持ちもわかるし…。
+JP 　いったん引き下がるか）
+EN (I can understand how she feels... I'll back off for
+EN now.)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は斉藤選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Saito.
+
+@ 9.25
+# 社 長
+JP 空手一筋に徹底している
+JP 格闘スタイルは業界でも珍しい。
+EN A fighting style devoted purely to karate is rare in
+EN this business.
+
+@ 9.27
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She should be training somewhere around here...
+
+@ 9.31
+# ？？？
+JP たあっ！　たあっ！　たあっ！　たあっ！
+EN Tah! Tah! Tah! Tah!
+
+@ 9.34
+# 社 長
+JP あぁ、いたいた。
+JP あの、すみません。
+EN Ah, there she is. Um, excuse me.
+
+@ 9.44
+# コンバット斉藤
+JP はぁ、はぁ、はぁ…。
+JP 失礼、どなたですか？
+EN Hah, hah, hah... Pardon me, who are you?
+
+@ 9.47
+# 社 長
+JP 実は私はプロレス団体を
+JP 経営していまして…。
+EN Actually, I run a pro wrestling promotion...
+
+@ 9.49
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.56
+# コンバット斉藤
+JP なるほど…。
+JP 私は空手にこだわっているので
+JP レスラーとしては異端ですが…。
+EN I see... I'm devoted to karate, so as a wrestler I'm
+EN something of a heretic...
+
+@ 9.59
+# 社 長
+JP 承知しています。
+JP その上でお願いに来たんです。
+EN I'm aware of that. That's exactly why I came to ask.
+
+@ 9.61
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# コンバット斉藤
+JP 多くの選手と戦った方が
+JP 実力が試せるかもしれませんね…。
+EN Facing a lot of different opponents might be a
+EN better test of my strength...
+
+@ 10.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 10.29
+# コンバット斉藤
+JP その話、お受けします。
+EN I accept your offer.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# コンバット斉藤
+JP まだこの団体でやることがあるので
+JP お受けできません。
+EN I still have things to do in this promotion, so I can't
+EN accept.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+EN I see...
+
+@ 11.29
+# コンバット斉藤
+JP 私を認めてくださったことには
+JP 感謝します。
+JP それでは…。
+EN I'm grateful that you recognized me. Goodbye, then...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 斉藤選手が必要だ。
+EN My promotion really does need Saito.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度斉藤選手と
+JP 交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.28
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.38
+# コンバット斉藤
+JP ああ、また来られたんですか。
+EN Oh, you've come again.
+
+@ 12.41
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I just really want you to join my promotion...
+
+@ 12.43
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# コンバット斉藤
+JP 多くの選手と戦った方が
+JP 実力が試せるかもしれませんね…。
+EN Facing a lot of different opponents might be a
+EN better test of my strength...
+
+@ 13.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 13.29
+# コンバット斉藤
+JP その話、お受けします。
+EN I accept your offer.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# コンバット斉藤
+JP まだこの団体でやることがあるので
+JP お受けできません。
+EN I still have things to do in this promotion, so I can't
+EN accept.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+EN I see...
+
+@ 14.29
+# コンバット斉藤
+JP 私を認めてくださったことには
+JP 感謝します。
+JP それでは…。
+EN I'm grateful that you recognized me. Goodbye, then...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は斉藤選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Saito.
+
+@ 15.25
+# 社 長
+JP 空手一筋に徹底している
+JP 格闘スタイルは業界でも珍しい。
+EN A fighting style devoted purely to karate is rare in
+EN this business.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She should be training somewhere around here...
+
+@ 15.31
+# ？？？
+JP つぁっ！　つぁっ！　つぁっ！　つぁっ！
+EN Tsah! Tsah! Tsah! Tsah!
+
+@ 15.34
+# 社 長
+JP あぁ、いたいた。
+JP あの、すみません。
+EN Ah, there she is. Um, excuse me.
+
+@ 15.44
+# コンバット斉藤
+JP はぁ、はぁ、はぁ…。
+JP 何か用ですか？
+EN Hah, hah, hah... Can I help you?
+
+@ 15.47
+# 社 長
+JP 実は私はプロレス団体を
+JP 経営していまして…。
+EN Actually, I run a pro wrestling promotion...
+
+@ 15.49
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 15.56
+# コンバット斉藤
+JP なるほど…。
+JP しかし、私は空手を捨てる気は
+JP ありません。
+EN I see... But I have no intention of giving up karate.
+
+@ 15.59
+# 社 長
+JP そのスタイルのままで構いません。
+JP いかがでしょうか？
+EN You can keep your style just as it is. What do you
+EN say?
+
+@ 15.61
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# コンバット斉藤
+JP 一人では…確かに限界があるか…。
+EN On my own... there really is a limit...
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# コンバット斉藤
+JP これからお世話になります！
+JP よろしくお願いします！
+EN I'm in your hands from now on! I look forward to
+EN working with you!
+
+@ 17.15
+# scene 018 移籍交渉 フリー 失敗
+# コンバット斉藤
+JP 一人でやりたいことがあるんです。
+EN There's something I want to do on my own.
+
+@ 17.18
+# 社 長
+JP そう言わずに…。
+EN Don't say that...
+
+@ 17.29
+# コンバット斉藤
+JP お気持ちは感謝します。
+JP ですが…この話はお受けできません。
+EN I appreciate the thought. But... I can't accept this
+EN offer.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 斉藤選手が必要だ。
+EN My promotion really does need Saito.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度斉藤選手と
+JP 交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# コンバット斉藤
+JP なぜ、私なんかにそこまで
+JP こだわるんですか？
+EN Why are you so set on someone like me?
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I just really want you to join my promotion...
+
+@ 18.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# コンバット斉藤
+JP 一人では…確かに限界があるか…。
+EN On my own... there really is a limit...
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# コンバット斉藤
+JP これからお世話になります！
+JP よろしくお願いします！
+EN I'm in your hands from now on! I look forward to
+EN working with you!
+
+@ 20.15
+# scene 021 移籍交渉 フリー２ 失敗
+# コンバット斉藤
+JP 一人でやりたいことがあるんです。
+EN There's something I want to do on my own.
+
+@ 20.18
+# 社 長
+JP そう言わずに…。
+EN Don't say that...
+
+@ 20.29
+# コンバット斉藤
+JP お気持ちは感謝します。
+JP ですが…この話はお受けできません。
+EN I appreciate the thought. But... I can't accept this
+EN offer.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は斉藤を訪ねることにした。
+EN I decided to pay Saito a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be somewhere around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 斉藤っ！
+EN Saito!
+
+@ 21.41
+# コンバット斉藤
+JP 社長…。
+JP その節はお世話になりました。
+EN Boss... Thank you for everything back then.
+
+@ 21.44
+# 社 長
+JP 元気そうだな。
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN You look well. Actually, I've been looking for you
+EN because I want you to come back.
+
+@ 21.51
+# コンバット斉藤
+JP あそこに私の居場所はないと
+JP 思いますが？
+EN I don't think there's a place for me there anymore,
+EN is there?
+
+@ 21.54
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.56
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# コンバット斉藤
+JP 私の力がプロレスで通じるのか
+JP 試したい気持ちはまだ残っています。
+EN I do still want to test whether my strength can hold
+EN up in pro wrestling.
+
+@ 22.18
+# 社 長
+JP じゃあ、戻ってくれるのか？
+EN So you'll come back?
+
+@ 22.29
+# コンバット斉藤
+JP 再起を期してみます。
+JP よろしくお願いします！
+EN I'll aim for a comeback. I look forward to working with
+EN you!
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# コンバット斉藤
+JP まだ私は立ち直れていないんです。
+JP 不甲斐ないですが…。
+EN I still haven't gotten back on my feet. It's pathetic,
+EN but...
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP 悪かった…。
+EN I see... I'm sorry...
+
+@ 23.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I only have myself to blame...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び斉藤を訪ねることにした。
+EN I decided to visit Saito again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP 斉藤っ！
+EN Saito!
+
+@ 24.37
+# コンバット斉藤
+JP 社長…。
+EN Boss...
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN I've come to ask again. I really want you to come
+EN back.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# コンバット斉藤
+JP 私の力がプロレスで通じるのか
+JP 試したい気持ちはまだ残っています。
+EN I do still want to test whether my strength can hold
+EN up in pro wrestling.
+
+@ 25.18
+# 社 長
+JP じゃあ、戻ってくれるのか？
+EN So you'll come back?
+
+@ 25.29
+# コンバット斉藤
+JP 再起を期してみます。
+JP よろしくお願いします！
+EN I'll aim for a comeback. I look forward to working with
+EN you!
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# コンバット斉藤
+JP まだ私は立ち直れていないんです。
+JP 不甲斐ないですが…。
+EN I still haven't gotten back on my feet. It's pathetic,
+EN but...
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP 悪かった…。
+EN I see... I'm sorry...
+
+@ 26.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I only have myself to blame...)
+
+@ 27.16
+# scene 028 ケガ小
+# コンバット斉藤
+JP この程度、なんの問題もありません！
+EN Something like this is no problem at all!
+
+@ 28.16
+# scene 029 ケガ大
+# コンバット斉藤
+JP これしきのケガ…。
+JP う、うぐぅっ……。
+EN An injury like this is noth... Ngh, ughh...
+
+@ 29.16
+# scene 030 入院
+# コンバット斉藤
+JP クッ…。
+JP ゆっくり休んでいる暇などないのに…。
+EN Tch... I don't have time to be lying around resting...
+
+@ 30.16
+# scene 031 退院
+# コンバット斉藤
+JP 今日から復帰します。
+JP よろしくお願いします。
+EN I'm back as of today. I look forward to working with
+EN you all.
+
+@ 31.16
+# scene 032 ケガ完治
+# コンバット斉藤
+JP 大丈夫です。
+JP 痛みは引きました。
+EN I'm fine. The pain is gone.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# コンバット斉藤
+JP 社長に言われたのなら
+JP 諦めもつきます…。
+EN If it's you telling me, Boss, then I can accept it...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# コンバット斉藤
+JP 最後の時は自分自身で決めます。
+JP …失礼します。
+EN I'll decide when my time is up myself. ...Excuse me.
+
+@ 34.16
+# scene 035 コーチ就任
+# コンバット斉藤
+JP 私が持っているすべてを
+JP 教えることにします。
+EN I'll teach them everything I have.
+
+@ 35.16
+# scene 036 ケガ引退
+# コンバット斉藤
+JP 思ったように体が動かなくなりました…。
+JP どうやらここまでのようです…。
+EN My body won't move the way I want it to anymore... It
+EN seems this is as far as I go...
+
+@ 36.16
+# scene 037 年齢引退
+# コンバット斉藤
+JP ボロボロになるまでやりました。
+JP もう悔いはありません…。
+EN I fought until I was worn to pieces. I have no
+EN regrets...
+
+@ 37.16
+# scene 038 退団
+# コンバット斉藤
+JP ここでは私を鍛えることは
+JP できません。
+EN I can't get any stronger here.
+
+@ 38.16
+# scene 039 スランプ
+# コンバット斉藤
+JP くっ…。
+JP 体のキレが……。
+EN Ngh... My body's lost its sharpness...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# コンバット斉藤
+JP そ、そういうのは
+JP 慣れていないのですが…。
+EN I-I'm not used to that sort of thing...
+
+@ 39.19
+# 社 長
+JP あまり固く考えるな。
+JP 普段通りのおまえを見せればいい。
+EN Don't overthink it. Just show them the same you as
+EN always.
+
+@ 39.23
+# コンバット斉藤
+JP 普段通り…ですか…？
+EN The same me... as always...?
+
+@ 39.26
+# 社 長
+JP （うーん、完全に悩んでるな）
+EN (Hmm, she's completely stumped.)
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# コンバット斉藤
+JP こ、これは何かの間違いですよね？
+EN Th-this has to be some kind of mistake, right?
+
+@ 40.19
+# 社 長
+JP おいおい、滅多はことを
+JP 言うもんじゃないぞ。
+EN Hey now, don't say things like that.
+
+@ 40.26
+# コンバット斉藤
+JP しかし、あの…。
+JP 私なんかのどこに魅力が…？
+EN But, um... What could anyone find appealing about
+EN someone like me...?
+
+@ 40.29
+# 社 長
+JP 凄むなって。
+JP とにかくおまえは練習に励め。
+JP 対応はこっちで考えるから。
+EN Don't glare at me like that. Just focus on your
+EN training. I'll figure out how to handle it.
+
+@ 40.31
+# 社 長
+JP （やれやれ…こういう生一本な
+JP 　ところが受けるんだが
+JP 　それを言ったら怒るだろうな…）
+EN (Good grief... That earnest streak is exactly why
+EN they like her, but she'd get mad if I said so...)
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# コンバット斉藤
+JP ああ、やっぱり…。
+EN Ah, I knew it...
+
+@ 41.19
+# 社 長
+JP こんなことはよくあるんだ。
+JP 気にするな。
+EN This sort of thing happens all the time. Don't let it
+EN bother you.
+
+@ 41.23
+# コンバット斉藤
+JP 色々勉強したのに…。
+EN And I studied so much for it...
+
+@ 42.16
+# scene 043 映画出演
+# コンバット斉藤
+JP 受けた以上は全力で
+JP やり遂げてきます。
+EN Now that I've accepted, I'll see it through with
+EN everything I've got.
+
+@ 43.16
+# scene 044 一日署長
+# コンバット斉藤
+JP 世の悪を許す訳にはいきませんね。
+EN We can't let the evils of the world go unpunished.
+
+@ 44.16
+# scene 045 写真集発売
+# コンバット斉藤
+JP こ、これは…その…。
+JP 断ることはできないのでしょうか…。
+EN Th-this is... um... Is there no way I can turn it down...?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# コンバット斉藤
+JP テレビに映っているのを見ると
+JP 落ち着かないです。
+EN Seeing myself on television makes me uneasy.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# コンバット斉藤
+JP わ、私はこんなことのために
+JP 団体に入った訳では…。
+EN I-I didn't join this promotion to do things like this...
+
+@ 47.16
+# scene 048 始球式
+# コンバット斉藤
+JP 同じプロから何かを盗んできます。
+EN I'll go learn something from a fellow professional.
+
+@ 48.16
+# scene 049 学園祭
+# コンバット斉藤
+JP 試し割りは見世物ではないのですが…。
+EN Board breaking isn't meant to be a sideshow...
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# コンバット斉藤
+JP えっ！？
+JP ……お、押忍。
+EN Huh?! ...O-osu.
+
+@ 49.39
+# 社 長
+JP なんだ？
+JP 元気ないな。
+EN What's wrong? You don't sound very excited.
+
+@ 49.43
+# コンバット斉藤
+JP …こういうことは
+JP あまり経験がないもので…。
+EN ...I'm just not very used to this sort of thing...
+
+@ 50.29
+# scene 051 バレンタインデー
+# コンバット斉藤
+JP ……社長。
+EN ...Boss.
+
+@ 50.32
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 50.39
+# コンバット斉藤
+JP あ、あの…。
+JP こ、これ…置いておきますから…。
+EN U-um... I-I'll just leave this here...
+
+@ 50.45
+# 社 長
+JP えーと、これはチョコか…？
+EN Let's see, is this chocolate...?
+
+@ 50.47
+# 社 長
+JP そうか。
+JP 今日はバレンタインデーか…。
+EN Oh, right. Today's Valentine's Day...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.35
+# コンバット斉藤
+JP わ、私はそんなつもりでは…。
+EN I-I didn't mean it like that...
+
+@ 51.38
+# 社 長
+JP まぁ気にしないで。
+JP 練習の合間にでも食べてくれ。
+EN Don't worry about it. Have some between training
+EN sessions.
+
+@ 52.30
+# scene 053 サイン会
+# コンバット斉藤
+JP サインは自信がないので
+JP 手形でもいいでしょうか…？
+EN I'm not confident about my autograph... Would a
+EN handprint be all right...?
+
+@ 53.29
+# scene 054 コンサート
+# コンバット斉藤
+JP え…演武で勘弁して
+JP もらえないでしょうか…？
+EN C-couldn't I do a kata demonstration instead...?
+
+@ 54.26
+# scene 055 練習拒否
+# コンバット斉藤
+JP …ハァ～……。
+EN ...Haaah...
+
+@ 55.26
+# scene 056 失踪
+# コンバット斉藤
+JP しばらく留守にします…。
+EN I'll be away for a while...
+
+@ 56.16
+# scene 057 選手解雇
+# コンバット斉藤
+JP クッ…。
+JP これも私が未熟だからか…。
+EN Tch... Is this because I'm still not good enough...?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# コンバット斉藤
+JP 押忍っ！
+JP 空手の実力を世界に証明してきます！
+EN Osu! I'll prove the strength of karate to the world!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# コンバット斉藤
+JP 世界は広かったです。
+JP まだまだ修行が必要ですね。
+EN The world was a big place. I still need a lot more
+EN training.
+
+@ 59.28
+# scene 060 移籍思案
+# コンバット斉藤
+JP 余計なことに悩んでいる
+JP 時間などないのに…。
+EN I don't have time to be worrying about pointless
+EN things...
+
+@ 60.16
+# scene 061 革命軍結成
+# コンバット斉藤
+JP 破邪顕正！
+EN Crush evil, reveal the truth!
+
+@ 61.16
+# scene 062 反乱軍結成
+# コンバット斉藤
+JP 善く戦う者は
+JP 人を致して人に致されず！
+EN The skilled fighter imposes her will on the enemy, and
+EN never lets the enemy impose theirs!
+
+@ 62.16
+# scene 063 最終決戦要求
+# コンバット斉藤
+JP 我らが興廃は、この一戦にあり！
+EN Our fate rests on this one battle!
+
+@ 63.16
+# scene 064 遺恨発生
+# コンバット斉藤
+JP ふざけている…。
+EN This is a joke...
+
+@ 64.16
+# scene 065 殴り込み
+# コンバット斉藤
+JP 押忍っ！
+JP 相手にとって不足ありません！
+EN Osu! They're worthy opponents!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# コンバット斉藤
+JP 看板は私が守ってみせます！
+EN I'll defend our name myself!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# コンバット斉藤
+JP 空手の真価を思い知れ！
+EN Learn the true worth of karate!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# コンバット斉藤
+JP この拳を握る力がある限り
+JP 戦い抜きます！
+EN As long as I have the strength to make a fist, I'll
+EN keep fighting to the end!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# コンバット斉藤
+JP 勝った…。
+JP 私の勝ちだ……。
+EN I won... The victory is mine...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# コンバット斉藤
+JP すみません…。
+JP これが私の限界のようです…。
+EN I'm sorry... It seems this is my limit...
+
+@ 70.13
+# scene 071 引退式
+# コンバット斉藤
+JP 私のような者を
+JP 応援してくれたことを感謝します。
+JP …それでは！
+EN Thank you for supporting someone like me.
+EN ...Farewell!
+
+@ 71.18
+# コンバット斉藤
+JP なにか？
+EN Yes?
+
+@ 71.37
+# コンバット斉藤
+JP お呼びでしょうか、社長。
+EN You called for me, Boss?
+
+@ 71.47
+# コンバット斉藤
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# コンバット斉藤
+JP 押忍っ！
+JP がんばります！
+EN Osu! I'll do my best!
+
+@ 71.111
+# コンバット斉藤
+JP 言われるまでもありません…。
+EN That goes without saying...
+
+@ 71.132
+# コンバット斉藤
+JP そう言っていただけると
+JP 嬉しいです…。
+EN I'm happy to hear you say that...
+
+@ 71.153
+# コンバット斉藤
+JP 体が動かなくなるまで
+JP がんばるだけです。
+EN I'll just keep going until my body gives out.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# コンバット斉藤
+JP 申し訳ありません！
+JP 気合、入れ直します。
+EN I'm very sorry! I'll get my head back in the game.
+
+@ 71.211
+# コンバット斉藤
+JP 私なりに努力はしていますが
+JP まだたりないと…？
+EN I'm making an effort in my own way, but you're saying
+EN it's not enough...?
+
+@ 71.232
+# コンバット斉藤
+JP すみません。
+JP 私に甘えがありました。
+EN I'm sorry. I've been going easy on myself.
+
+@ 71.253
+# コンバット斉藤
+JP 私も…不甲斐ないのは
+JP わかっているのですが…。
+EN I know... I've been pathetic, but...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# コンバット斉藤
+JP 少し疲れていたみたいです。
+JP ですが、もう大丈夫です！
+EN I think I was a little tired. But I'm fine now!
+
+@ 71.311
+# コンバット斉藤
+JP 疲れが抜けなくて…。
+EN I can't shake this fatigue...
+
+@ 71.332
+# コンバット斉藤
+JP 不思議ですね…。
+JP 社長の声を聞いていると
+JP 力が沸いてきます。
+EN It's strange... Hearing your voice, Boss, I feel my
+EN strength welling up.
+
+@ 71.353
+# コンバット斉藤
+JP 何か胸が苦しくて…。
+JP 胸骨の異常でしょうか…？
+EN My chest feels so tight... Could something be wrong
+EN with my sternum...?
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# コンバット斉藤
+JP お、押忍っ！
+EN O-osu!
+
+@ 71.400
+# コンバット斉藤
+JP すみません。
+JP まったくわかりません。
+EN I'm sorry. I have no idea.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# コンバット斉藤
+JP わかりました。
+JP 私が頭を下げてきます。
+EN Understood. I'll go and apologize.
+
+@ 71.454
+# コンバット斉藤
+JP 頭を下げるとしたら
+JP それは私ではありません。
+EN If anyone should be apologizing, it isn't me.
+
+@ 71.475
+# コンバット斉藤
+JP すみません…。
+JP やはりなんの話かわかりません。
+EN I'm sorry... I still don't know what you're talking
+EN about.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# コンバット斉藤
+JP …はい。
+EN ...Yes.
+
+@ 71.522
+# コンバット斉藤
+JP わかりません。
+JP …なんでしょうか？
+EN I don't know. ...What is it?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# コンバット斉藤
+JP わかりました。
+JP 団体に迷惑をかけて
+JP すみませんでした。
+EN Understood. I'm sorry for causing the promotion
+EN trouble.
+
+@ 71.578
+# コンバット斉藤
+JP いけないとはわかっているのですが
+JP こればかりは…。
+EN I know it's wrong, but this is the one thing I can't...
+
+@ 71.599
+# コンバット斉藤
+JP 別にケンカはしていませんが…？
+EN We're not fighting or anything, though...?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# コンバット斉藤
+JP お呼びでしょうか、社長。
+EN You called for me, Boss?
+
+@ 72.16
+# コンバット斉藤
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# コンバット斉藤
+JP 押忍っ！
+JP がんばります！
+EN Osu! I'll do my best!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# コンバット斉藤
+JP 言われるまでもありません…。
+EN That goes without saying...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# コンバット斉藤
+JP そう言っていただけると
+JP 嬉しいです…。
+EN I'm happy to hear you say that...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# コンバット斉藤
+JP 体が動かなくなるまで…
+JP がんばるだけです。
+EN I'll just keep going... until my body gives out.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# コンバット斉藤
+JP 申し訳ありません！
+JP 気合、入れ直します。
+EN I'm very sorry! I'll get my head back in the game.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# コンバット斉藤
+JP 私なりに努力はしていますが、
+JP まだたりないと…？
+EN I'm making an effort in my own way, but you're saying
+EN it's not enough...?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# コンバット斉藤
+JP すみません。
+JP 私に甘えがありました。
+EN I'm sorry. I've been going easy on myself.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# コンバット斉藤
+JP 私も…不甲斐ないのは
+JP わかっているのですが…。
+EN I know... I've been pathetic, but...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# コンバット斉藤
+JP 少し疲れていたみたいです。
+JP ですが、もう大丈夫です！
+EN I think I was a little tired. But I'm fine now!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# コンバット斉藤
+JP 疲れが抜けなくて…。
+EN I can't shake this fatigue...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# コンバット斉藤
+JP 不思議ですね…。
+JP 社長の声を聞いていると、
+JP 力が沸いてきます。
+EN It's strange... Hearing your voice, Boss, I feel my
+EN strength welling up.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# コンバット斉藤
+JP 何か胸が苦しくて…。
+JP 胸骨の異常でしょうか…？
+EN My chest feels so tight... Could something be wrong
+EN with my sternum...?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# コンバット斉藤
+JP お、押忍っ！
+EN O-osu!
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# コンバット斉藤
+JP すみません、
+JP まったくわかりません。
+EN I'm sorry. I have no idea.
+
+@ 91.6
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.14
+# scene 093 会話 仲裁する 通常 遺恨解消
+# コンバット斉藤
+JP わかりました。
+JP 私が頭を下げてきます。
+EN Understood. I'll go and apologize.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# コンバット斉藤
+JP 頭を下げるとしたら、
+JP それは私ではありません。
+EN If anyone should be apologizing, it isn't me.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# コンバット斉藤
+JP すみません、
+JP やはりなんの話か、
+JP わかりません。
+EN I'm sorry... I still don't know what you're talking
+EN about.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# コンバット斉藤
+JP …はい。
+EN ...Yes.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# コンバット斉藤
+JP わかりません。
+JP …なんでしょうか？
+EN I don't know. ...What is it?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# コンバット斉藤
+JP わかりました。
+JP 団体に迷惑をかけて、
+JP すみませんでした。
+EN Understood. I'm sorry for causing the promotion
+EN trouble.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# コンバット斉藤
+JP いけないとはわかっているのですが、
+JP こればかりは…。
+EN I know it's wrong, but this is the one thing I can't...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# コンバット斉藤
+JP 別にケンカはしていませんが…？
+EN We're not fighting or anything, though...?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# コンバット斉藤
+JP ありがとうございます。
+JP これからもよろしくお願いします。
+EN Thank you very much. I look forward to continuing to
+EN work with you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# コンバット斉藤
+JP こんなにもらっても
+JP いいのでしょうか？
+EN Is it really all right for me to get this much?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# コンバット斉藤
+JP …わかりました。
+EN ...Understood.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN blazing.)
+
+@ 105.34
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （…んっ、あれは…？）
+EN (...Hm? What's that...?)
+
+@ 105.52
+# 社 長
+JP どうしたんだ、斉藤？
+EN What's the matter, Saito?
+
+@ 105.62
+# コンバット斉藤
+JP あっ…！
+JP 社長…。
+EN Ah...! Boss...
+
+@ 105.65
+# 社 長
+JP どうした？
+JP 怪我でもしたのか？
+EN What happened? Did you hurt yourself?
+
+@ 105.75
+# コンバット斉藤
+JP いえ…。
+JP なんでも…。
+EN No... It's nothing...
+
+@ 105.78
+# 社 長
+JP なんでもないってことはないだろう？
+EN It can't be nothing, can it?
+
+@ 105.82
+# コンバット斉藤
+JP いえ…。
+JP 本当に……。
+EN No... Really...
+
+@ 105.85
+# 社 長
+JP （うーん…）
+EN (Hmm...)
+
+@ 105.87
+# 社 長
+JP （…んっ、あれは…）
+EN (...Hm? Is that...)
+
+@ 105.89
+# 社 長
+JP その足、ケガしてるじゃないか！？
+JP どうしたんだ？
+EN Your foot's hurt, isn't it?! What happened?
+
+@ 105.99
+# コンバット斉藤
+JP いえ、本当に何も…。
+JP ちょっと岩場で切ってしまった
+JP だけですから…。
+EN No, really, it's nothing... I just cut it a little on the
+EN rocks, that's all...
+
+@ 105.102
+# 社 長
+JP なんだって？
+JP どうしてすぐに言わない。
+EN What? Why didn't you say something right away?
+
+@ 105.112
+# コンバット斉藤
+JP こんなことで
+JP 心配はかけられませんので…。
+EN I couldn't make you worry over something like this...
+
+@ 105.115
+# 社 長
+JP 考えすぎだ。
+EN You're overthinking it.
+
+@ 105.117
+# 社 長
+JP ばい菌が入ったら大変だろ。
+EN It'd be bad if it got infected.
+
+@ 105.121
+# コンバット斉藤
+JP すみません。
+EN I'm sorry.
+
+@ 105.124
+# 社 長
+JP 気にするな。
+JP すぐ手当してやる。
+EN Don't worry about it. I'll patch you up right now.
+
+@ 105.134
+# コンバット斉藤
+JP あっ…。
+EN Ah...
+
+@ 105.137
+# 社 長
+JP こういうのは
+JP 早く治療した方がいいんだぞ。
+EN It's best to treat these things quickly, you know.
+
+@ 105.141
+# コンバット斉藤
+JP ご迷惑をおかけしてすみません…。
+EN I'm sorry for the trouble...
+
+@ 105.144
+# 社 長
+JP 気にするな。
+EN Don't worry about it.
+
+@ 105.148
+# コンバット斉藤
+JP …押忍。
+JP あ、ありがとうございます…。
+EN ...Osu. Th-thank you very much...
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （あとはここの見回りで終わりだな）
+EN (Just this place left on my rounds, and I'm done.)
+
+@ 106.26
+# 社 長
+JP （んっ…電気が…？）
+EN (Hm... The lights are on...?)
+
+@ 106.28
+# 社 長
+JP （誰も消して帰らなかったのか。
+JP 　まったく困ったもんだ…）
+EN (Did someone leave without turning them off?
+EN Honestly...)
+
+@ 106.30
+# 社 長
+JP （一応、中の様子を確認して帰るか）
+EN (I'd better check inside before I head home.)
+
+@ 106.40
+# コンバット斉藤
+JP あっ…社長…。
+EN Ah... Boss...
+
+@ 106.43
+# 社 長
+JP あれ、斉藤？
+JP 居残り練習か？
+EN Huh, Saito? Staying late to train?
+
+@ 106.50
+# コンバット斉藤
+JP はい…。
+JP 関節技の対策を練っていたのですが
+JP 一人ではどうも上手くいかなくて…。
+EN Yes... I was working on how to counter submission
+EN holds, but it isn't going well on my own...
+
+@ 106.53
+# 社 長
+JP そうか。
+JP 関節技の場合は特に一人だと
+JP 難しいだろうな。
+EN I see. Submissions must be especially hard to
+EN practice alone.
+
+@ 106.55
+# 社 長
+JP 俺でよければ何か手伝おうか？
+EN If I'll do, want me to help out?
+
+@ 106.62
+# コンバット斉藤
+JP 押忍。
+JP ありがとうございます。
+EN Osu. Thank you very much.
+
+@ 106.65
+# 社 長
+JP で、何をしたらいい？
+EN So, what should I do?
+
+@ 106.72
+# コンバット斉藤
+JP では、私に技をかけてください。
+EN Then please put a hold on me.
+
+@ 106.75
+# 社 長
+JP 俺みたいな素人でも大丈夫か？
+EN Will an amateur like me really do?
+
+@ 106.79
+# コンバット斉藤
+JP 押忍。
+JP よろしくお願いします。
+EN Osu. I'm in your hands.
+
+@ 106.104
+# 社 長
+JP こ、こんな感じでいいか？
+EN L-like this?
+
+@ 106.108
+# コンバット斉藤
+JP もう少し強くても…。
+JP くっ…！
+EN You can go a little harder... Ngh...!
+
+@ 106.111
+# 社 長
+JP よ、よし！
+JP これでどうだ！
+EN O-okay! How's this?!
+
+@ 106.119
+# コンバット斉藤
+JP くっ…。
+JP ぐうっ……！
+EN Ngh... Gwuh...!
+
+@ 106.123
+# コンバット斉藤
+JP くうっ…。
+JP くあっ！
+JP ぬっ…！
+EN Nngh... Kah! Hnn...!
+
+@ 106.126
+# 社 長
+JP （ちょ…腕が胸に…！）
+EN (Wh-whoa... My arm's on her chest...!)
+
+@ 106.130
+# コンバット斉藤
+JP くっ…。
+JP ああああっ！
+EN Ngh... Aaaaah!
+
+@ 106.158
+# 社 長
+JP …抜けられなかったな。
+EN ...You couldn't get out of it.
+
+@ 106.162
+# コンバット斉藤
+JP やはり…打撃だけではダメなのか…。
+EN So... striking alone really isn't enough...
+
+@ 106.165
+# 社 長
+JP 落ち込むな。
+JP また練習すればいいさ。
+EN Don't be down. You can just practice some more.
+
+@ 106.169
+# コンバット斉藤
+JP そうですね…。
+EN You're right...
+
+@ 107.24
+# 社 長
+JP （あとはここの見回りで終わりだな）
+EN (Just this place left on my rounds, and I'm done.)
+
+@ 107.26
+# 社 長
+JP （んっ…電気が…？）
+EN (Hm... The lights are on...?)
+
+@ 107.28
+# 社 長
+JP （もしかして…）
+EN (Could it be...)
+
+@ 107.38
+# コンバット斉藤
+JP あっ…社長…。
+EN Ah... Boss...
+
+@ 107.41
+# 社 長
+JP 斉藤。
+JP また居残り練習か？
+EN Saito. Staying late to train again?
+
+@ 107.48
+# コンバット斉藤
+JP はい…。関節技の対策を練っていたのですが
+JP やはり一人ではどうも…。
+EN Yes... I was working on how to counter submission
+EN holds, but on my own it's just...
+
+@ 107.51
+# 社 長
+JP 俺でよければ、何か手伝おうか？
+EN If I'll do, want me to help out?
+
+@ 107.58
+# コンバット斉藤
+JP 押忍。
+JP ありがとうございます。
+EN Osu. Thank you very much.
+
+@ 107.61
+# 社 長
+JP で、何をしたらいい？
+EN So, what should I do?
+
+@ 107.68
+# コンバット斉藤
+JP では前と同じく
+JP 私に技を掛けてください。
+EN Then, same as before, please put a hold on me.
+
+@ 107.71
+# 社 長
+JP （そういえば前は胸に触れそうに…）
+EN (Come to think of it, last time I nearly touched her
+EN chest...)
+
+@ 107.73
+# 社 長
+JP やっぱり専門の人間に任せた方が
+JP よくないか？
+EN Wouldn't it be better to leave this to a specialist?
+
+@ 107.80
+# コンバット斉藤
+JP ぜひ、社長にお願いします！
+EN I'd really like you to do it, Boss!
+
+@ 107.83
+# 社 長
+JP …わ、わかった。
+EN ...O-okay, got it.
+
+@ 107.108
+# 社 長
+JP こ、こんな感じか？
+EN L-like this?
+
+@ 107.112
+# コンバット斉藤
+JP もう少し強くても大丈夫です！
+EN It's fine, you can go a little harder!
+
+@ 107.115
+# 社 長
+JP よ、よし！
+JP これでどうだ！
+EN O-okay! How's this?!
+
+@ 107.123
+# コンバット斉藤
+JP くっ…。
+JP ぐうっ…！
+EN Ngh... Gwuh...!
+
+@ 107.127
+# コンバット斉藤
+JP くうっ…。
+JP はあっ！
+JP ふっ…！
+EN Nngh... Hah! Hff...!
+
+@ 107.130
+# 社 長
+JP （ちょ…また腕が胸に…！）
+EN (Wh-whoa... My arm's on her chest again...!)
+
+@ 107.134
+# コンバット斉藤
+JP 社長、力を抜かないでッ…！
+EN Boss, don't ease up...!
+
+@ 107.137
+# 社 長
+JP お、おう。
+JP 悪い、悪い。
+EN R-right. Sorry, sorry.
+
+@ 107.141
+# コンバット斉藤
+JP ぐ…ぐぅっ……。
+JP うううぅ！
+EN Ngh... Gwuhh... Uuuugh!
+
+@ 107.172
+# コンバット斉藤
+JP よし！
+JP これならいける！
+EN All right! This will work!
+
+@ 107.175
+# 社 長
+JP 今回はうまく抜けれたな。
+EN You got out of it this time.
+
+@ 107.179
+# コンバット斉藤
+JP はい！
+JP ありがとうございます！
+EN Yes! Thank you very much!
+
+@ 107.182
+# 社 長
+JP （ふう…やれやれ…）
+EN (Phew... Good grief...)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# コンバット斉藤
+JP なぜ空手を封印したのか
+JP 教えてください…。
+EN Tell me why you sealed away your karate...
+
+@ 109.16
+# scene 113 練習開始
+# コンバット斉藤
+JP 押忍っ！
+JP 始めます！
+EN Osu! Let's begin!
+
+@ 110.16
+# scene 114 練習開始 好意
+# コンバット斉藤
+JP 今日は気合も十分です。
+EN I'm full of fighting spirit today.
+
+@ 111.16
+# scene 115 特訓開始
+# コンバット斉藤
+JP この機会、ムダにはしません。
+EN I won't waste this opportunity.
+
+@ 112.20
+# scene 116 特訓成功
+# コンバット斉藤
+JP よしっ！
+EN All right!
+
+@ 113.20
+# scene 117 特訓失敗
+# コンバット斉藤
+JP ク…クソッ…。
+EN D-damn it...
+
+@ 114.16
+# scene 118 休養
+# コンバット斉藤
+JP 滝に打たれてこようと思います。
+EN I think I'll go meditate under a waterfall.
+
+@ 115.16
+# scene 119 入場1
+# コンバット斉藤
+JP 私のすべてを
+JP おまえの体に叩き込む！
+EN I'll pound everything I have into your body!
+
+@ 116.16
+# scene 119 入場2
+# コンバット斉藤
+JP 空手の強さ、証明してみせる！
+EN I'll prove the strength of karate!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# コンバット斉藤
+JP 見せてやりましょう！
+JP 私たちの力を！
+EN Let's show them! Show them our strength!
+
+@ 118.16
+# scene 125 必殺技１
+# コンバット斉藤
+JP これが私のもてるすべてだ！
+EN This is everything I've got!
+
+@ 119.16
+# scene 125 必殺技２
+# コンバット斉藤
+JP この一撃を受けてみろ！
+EN Take this blow!
+
+@ 120.16
+# scene 125 必殺技３
+# コンバット斉藤
+JP まだ倒れる訳にはいかない！
+EN I can't fall yet!
+
+@ 121.12
+# scene 126 勝利1
+# コンバット斉藤
+JP 武を極める道に終わりはない…。
+EN The path to mastering the martial arts has no end...
+
+@ 122.12
+# scene 126 勝利2
+# コンバット斉藤
+JP 今日の勝ちが幸運でなかったこと
+JP 次の戦いで示してみせる！
+EN In my next fight, I'll prove today's win wasn't luck!
+
+@ 123.12
+# scene 126 勝利3
+# コンバット斉藤
+JP ただひたすら精進あるのみ。
+EN There's nothing to do but keep honing myself.
+
+@ 124.15
+# scene 133 表彰1
+# コンバット斉藤
+JP 私のような者を評価していただき
+JP ありがとうございます。
+EN Thank you for recognizing someone like me.
+
+@ 125.15
+# scene 133 表彰2
+# コンバット斉藤
+JP 私はこれからも空手家であることに
+JP こだわり続けます！
+EN I will always stay true to being a karateka!
+
+@ 126.12
+# scene 134 優勝1
+# コンバット斉藤
+JP 次の大会も勝つための修練は
+JP すでに始まっている…。
+EN My training to win the next tournament has already
+EN begun...
+
+@ 127.12
+# scene 134 優勝２
+# コンバット斉藤
+JP ひたすら稽古あるのみ。
+JP そうすれば、勝利はおのずと
+JP ついてくる！
+EN There's nothing but training, over and over. Do that,
+EN and victory will follow on its own!
+
+@ 128.24
+# scene 135 エンディング 通常
+# コンバット斉藤
+JP 押忍っ！
+JP 社長、素晴らしい手腕でした！
+EN Osu! Boss, you did a magnificent job!
+
+@ 129.24
+# scene 136 エンディング 好意
+# コンバット斉藤
+JP 社長…。
+JP 私は…空手よりも好きなものが
+JP できてしまったようです…。
+EN Boss... It seems... I've found something I love even
+EN more than karate...

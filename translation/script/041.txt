@@ -1,0 +1,2328 @@
+# /SCR/041.BIN - ガルム小鳥遊
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 041` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ガルム小鳥遊
+JP 小鳥遊だ。
+JP よろしく頼む。
+EN Name's Takanashi. Good to meet you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ガルム小鳥遊
+JP ありがとよ。
+JP ま、見てくれにあった働きは
+JP させてもらうぜ。
+EN Thanks. Well, I'll put in the kind of work you'd expect
+EN from a body like this.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ガルム小鳥遊
+JP そっか、邪魔したな。
+EN Figures. Sorry to bother you.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP はぁ……。
+JP はぁ……。
+EN *pant*... *pant*...
+
+@ 3.25
+# 社 長
+JP やっと…ついた……。
+EN Finally... made it...
+
+@ 3.27
+# 社 長
+JP 話によると、ここで実家の林業を
+JP 手伝っているってことだが…。
+JP はぁ……。
+EN I heard she helps out with her family's logging
+EN business up here, but... *pant*...
+
+@ 3.29
+# 社 長
+JP 現場にたどり着くだけで重労働だぞ…。
+JP 本当にこんな所で毎日……。
+EN Just getting to the site is hard labor... She really
+EN does this every day...?
+
+@ 3.31
+# 社 長
+JP ……うお、すげぇ。
+JP あんなでかい木材を
+JP 一人でかついでる人がいる……。
+EN ...Whoa, look at that. Someone's hauling a huge log all
+EN by herself...
+
+@ 3.33
+# 社 長
+JP って、写真と同じ。
+JP 彼女だ！
+EN Wait, she matches the photo. That's her!
+
+@ 3.48
+# 社 長
+JP （邪魔をしてはいけないので
+JP 　俺は作業が一段落つくのを
+JP 　見計らって声をかけた）
+EN (Not wanting to interrupt, I waited until she'd
+EN finished a stretch of work before calling out.)
+
+@ 3.63
+# 社 長
+JP あの、すみません。
+JP 小鳥遊さんですよね。
+EN Um, excuse me. You're Ms. Takanashi, right?
+
+@ 3.73
+# ガルム小鳥遊
+JP ああ、親父に用っすか？
+JP 親父なら今は小屋に…。
+EN Oh, you here for my old man? He's in the hut right
+EN now...
+
+@ 3.76
+# 社 長
+JP あ、いえ違います。
+JP あなたにお話があって来ました。
+EN Ah, no, not at all. I came to talk to you.
+
+@ 3.78
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.85
+# ガルム小鳥遊
+JP へぇ？
+JP プロレス団体ねぇ…。
+JP 私が？
+EN Huh? A wrestling promotion... Me?
+
+@ 3.88
+# 社 長
+JP ええ、どうでしょう？
+EN Yes. What do you say?
+
+@ 3.92
+# ガルム小鳥遊
+JP いいんすか？
+JP プロレスはテレビで見たことあっけど
+JP 綺麗ドコばっかでしょ。
+EN You sure? I've seen wrestling on TV. It's all pretty
+EN girls, ain't it?
+
+@ 3.95
+# 社 長
+JP 顔の世界じゃありません。
+JP 実力勝負の世界です。
+EN It's not a beauty contest. It's a world where
+EN strength decides everything.
+
+@ 3.97
+# 社 長
+JP （まあ、たしかに見栄えも実力も
+JP 　兼ね備えてるレスラーは多いが）
+EN (Well, true, plenty of wrestlers have both looks and
+EN skill...)
+
+@ 3.99
+# 社 長
+JP （そのあたりを飲み込んで
+JP 　俺は条件を提示してみた）
+EN (Swallowing that thought, I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ガルム小鳥遊
+JP …ま、私でいいなら受けましょう。
+EN ...Well, if I'll do, I'll take it.
+
+@ 4.22
+# 社 長
+JP 本当ですか！
+EN Really?!
+
+@ 4.29
+# ガルム小鳥遊
+JP ああ、親父がね、仕事たたむんですよ。
+JP 今は山仕事儲からないから…。
+JP だから丁度いい。
+EN Yeah. My old man's closing up shop. There's no money
+EN in mountain work these days... So the timing's good.
+
+@ 4.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ガルム小鳥遊
+JP すんません。
+JP わざわざ来てもらってアレですが…。
+JP 家業放り出すわけにはいかないんで。
+EN Sorry. You came all this way and all, but... I can't just
+EN walk out on the family business.
+
+@ 5.22
+# 社 長
+JP そうか、残念だな…。
+EN I see. That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP はぁ…はぁ……。
+JP この道は…何度来てもつらいな。
+EN *pant*... *pant*... This road... never gets any easier.
+
+@ 6.25
+# 社 長
+JP あ…あのー、すみません。
+EN Ah... um, excuse me.
+
+@ 6.35
+# ガルム小鳥遊
+JP おや…。社長さんじゃないっすか。
+JP 今日はいったい何の用事で？
+EN Well, well... If it ain't the President. What brings you
+EN up here today?
+
+@ 6.38
+# 社 長
+JP もう一度
+JP 考え直してもらえないかなって。
+EN I was hoping you'd reconsider my offer.
+
+@ 6.45
+# ガルム小鳥遊
+JP それでわざわざ？
+JP 素人さんが登ってくるのは
+JP 大変だったでしょう。
+EN You came all this way for that? Must've been rough
+EN climbing up here for a city fella.
+
+@ 6.48
+# 社 長
+JP いやあ、これも俺の仕事だから。
+EN Oh, this is part of my job.
+
+@ 6.50
+# 社 長
+JP それで…どうでしょう？
+EN So... what do you think?
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ガルム小鳥遊
+JP …ま、私でいいなら受けましょう。
+EN ...Well, if I'll do, I'll take it.
+
+@ 7.22
+# 社 長
+JP 本当ですか！
+EN Really?!
+
+@ 7.29
+# ガルム小鳥遊
+JP ああ、親父がね、仕事たたむんですよ。
+JP 今は山仕事儲からないから…。
+JP だから丁度いい。
+EN Yeah. My old man's closing up shop. There's no money
+EN in mountain work these days... So the timing's good.
+
+@ 7.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ガルム小鳥遊
+JP すんません。
+JP わざわざ来てもらってアレですが…。
+JP 家業放り出すわけにはいかないんで。
+EN Sorry. You came all this way and all, but... I can't just
+EN walk out on the family business.
+
+@ 8.22
+# 社 長
+JP そうか、残念だな…。
+EN I see. That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は小鳥遊選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Takanashi.
+
+@ 9.25
+# 社 長
+JP 小鳥遊選手は
+JP 日本人最重量級のレスラーだ。
+EN Takanashi is the heaviest Japanese wrestler in the
+EN business.
+
+@ 9.27
+# 社 長
+JP ただでかいだけではない。
+JP 幼い頃から家業の林業で培った
+JP パワーもある。
+EN And she's not just big. She has the power she built
+EN up since childhood working in her family's logging
+EN business.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりにいるはず
+JP だけど…。
+EN She should be somewhere around here...
+
+@ 9.31
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# ガルム小鳥遊
+JP ん？
+JP アンタ、誰だい？
+EN Hm? Who are you?
+
+@ 9.46
+# 社 長
+JP 私、こういう者ですが…。
+EN Here's my card...
+
+@ 9.48
+# 社 長
+JP （俺は身分を明かし
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 9.55
+# ガルム小鳥遊
+JP へえ？
+JP 引き抜きかい。
+JP 私を引き抜こうって魂胆かい？
+EN Heh? Poaching, huh? So you're scheming to steal me
+EN away?
+
+@ 9.58
+# 社 長
+JP まあ、ぶっちゃけて言えば。
+EN Well, to put it bluntly, yes.
+
+@ 9.65
+# ガルム小鳥遊
+JP いいのか？
+JP 私ャ、やるときはやっちまう
+JP レスラーだぜ？
+EN You sure? I'm the kind of wrestler who goes all the
+EN way when it counts, y'know.
+
+@ 9.68
+# 社 長
+JP 承知の上です。
+JP むしろ、それがあなたの
+JP 魅力でもあります。
+EN I know that. In fact, that's part of your appeal.
+
+@ 9.70
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (And then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# ガルム小鳥遊
+JP ……ＯＫだ。
+JP アンタんとこで世話になるよ。
+EN ...OK. I'll be in your care.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# ガルム小鳥遊
+JP そんかわし、ヌルいこと言ったら
+JP すぐに出てくぜ？
+EN But if you start talking soft, I'm out the door. Got it?
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ガルム小鳥遊
+JP わりぃな…。
+JP まだ、やり残したことがあんだよ。
+EN Sorry... I still got unfinished business here.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 小鳥遊選手が必要だ。
+EN Our promotion really needs Takanashi.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ガルム小鳥遊
+JP ああ、社長さんか。
+JP あれからいいレスラーは
+JP 見つかったかい？
+EN Oh, the President. Found yourself any good
+EN wrestlers since?
+
+@ 12.40
+# 社 長
+JP 探しているんですけどね。
+EN I've been looking.
+
+@ 12.42
+# 社 長
+JP 探せば探すほど
+JP あなたの代わりはいないと
+JP 痛感します。
+EN But the more I look, the more I realize there's no
+EN replacing you.
+
+@ 12.49
+# ガルム小鳥遊
+JP おいおい、おだてても
+JP 何にもでねぇぜ？
+EN Hey now, flattery won't get you anything, y'know.
+
+@ 12.52
+# 社 長
+JP 本心ですよ。
+JP もう一度、考え直しては
+JP もらえませんか？
+EN I mean it. Won't you reconsider?
+
+@ 12.54
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my offer.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# ガルム小鳥遊
+JP ……ＯＫだ。
+JP アンタんとこで世話になるよ。
+EN ...OK. I'll be in your care.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# ガルム小鳥遊
+JP そんかわし、ヌルいこと言ったら
+JP すぐに出てくぜ？
+EN But if you start talking soft, I'm out the door. Got it?
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ガルム小鳥遊
+JP わりぃな…。
+JP まだ、やり残したことがあんだよ。
+EN Sorry... I still got unfinished business here.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は小鳥遊選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Takanashi.
+
+@ 15.25
+# 社 長
+JP 小鳥遊選手は
+JP 日本人最重量級のレスラーだ。
+EN Takanashi is the heaviest Japanese wrestler in the
+EN business.
+
+@ 15.27
+# 社 長
+JP ただでかいだけではない。
+JP 幼い頃から家業の林業で培った
+JP パワーもある。
+EN And she's not just big. She has the power she built
+EN up since childhood working in her family's logging
+EN business.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりにいるはず
+JP だけど…。
+EN She should be somewhere around here...
+
+@ 15.31
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# ガルム小鳥遊
+JP ん？
+JP アンタは誰だい？
+EN Hm? And who are you?
+
+@ 15.46
+# 社 長
+JP えーと…。
+JP 私、こういう者ですが…。
+EN Uh... Here's my card...
+
+@ 15.48
+# 社 長
+JP （俺は身分を明かし
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 15.55
+# ガルム小鳥遊
+JP へぇ、入団ねぇ。
+JP 私を誘うなんざ、度胸あるな。
+EN Heh, join your promotion, huh? You've got guts,
+EN asking me.
+
+@ 15.58
+# 社 長
+JP あなたのようなレスラーが
+JP 必要だと感じまして。
+EN I felt we needed a wrestler like you.
+
+@ 15.65
+# ガルム小鳥遊
+JP いいのか？
+JP 私ャ、やるときはやっちまう
+JP レスラーだぜ？
+EN You sure? I'm the kind of wrestler who goes all the
+EN way when it counts, y'know.
+
+@ 15.68
+# 社 長
+JP 承知の上です。
+JP むしろ、それがあなたの
+JP 魅力でもあります。
+EN I know that. In fact, that's part of your appeal.
+
+@ 15.70
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (And then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# ガルム小鳥遊
+JP ……わかった。
+JP たまには１つの団体に
+JP 腰を落ち着けるのも悪かぁない。
+EN ...All right. Settling down with one promotion for a
+EN change ain't so bad.
+
+@ 16.22
+# 社 長
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 16.29
+# ガルム小鳥遊
+JP そんかわし、燃えたぎらせてくれよ？
+JP さもなきゃ、すぐに出てくぜ？
+EN But you'd better keep my blood boiling. Otherwise, I'm
+EN out the door. Got it?
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ガルム小鳥遊
+JP 見込んでもらっといて悪ぃが
+JP 今はどっかに縛られる気分じゃないな。
+EN Sorry, after you went and picked me and all, but I
+EN ain't in the mood to be tied down right now.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 小鳥遊選手が必要だ。
+EN Our promotion really needs Takanashi.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 小鳥遊選手と交渉することにした。
+EN I decided to negotiate with Takanashi once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ガルム小鳥遊
+JP あ…。
+JP アンタ、こないだの……。
+EN Ah... You're the guy from the other day...
+
+@ 18.40
+# 社 長
+JP ええ、その件をもう一度
+JP 考えていただけたらと思いまして。
+EN Yes. I was hoping you'd consider that offer once
+EN more.
+
+@ 18.47
+# ガルム小鳥遊
+JP そりゃ、見込まれたもんだ。
+EN Well, ain't I in demand.
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Will you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my offer.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# ガルム小鳥遊
+JP ……わかった。
+JP たまには１つの団体に
+JP 腰を落ち着けるのも悪かぁない。
+EN ...All right. Settling down with one promotion for a
+EN change ain't so bad.
+
+@ 19.22
+# 社 長
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 19.29
+# ガルム小鳥遊
+JP そんかわし、燃えたぎらせてくれよ？
+JP さもなきゃ、すぐに出てくぜ？
+EN But you'd better keep my blood boiling. Otherwise, I'm
+EN out the door. Got it?
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ガルム小鳥遊
+JP 見込んでもらっといて悪ぃが
+JP 今はどっかに縛られる気分じゃないな。
+EN Sorry, after you went and picked me and all, but I
+EN ain't in the mood to be tied down right now.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は小鳥遊を訪ねることにした。
+EN I decided to visit Takanashi.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be somewhere around here...
+
+@ 21.29
+# 社 長
+JP あ、いた。
+EN Ah, there she is.
+
+@ 21.31
+# 社 長
+JP 小鳥遊。
+EN Takanashi.
+
+@ 21.41
+# ガルム小鳥遊
+JP あ？
+JP なんだ社長じゃねぇか。
+JP どうした、元気でやってるかよ。
+EN Huh? Well, if it ain't the Boss. What's up? You doin' all
+EN right?
+
+@ 21.44
+# 社 長
+JP おかげさまで。
+JP その…小鳥遊の方は？
+EN Fine, thanks. And... how about you, Takanashi?
+
+@ 21.51
+# ガルム小鳥遊
+JP ああ、ボチボチやってるよ。
+JP 今日は突然、どうしたよ？
+EN Yeah, gettin' by. So what's this out of the blue?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you because I
+EN want you to come back.
+
+@ 21.61
+# ガルム小鳥遊
+JP 戻ってほしい、私にか？
+JP おいおい、随分調子いいお願いだな
+JP おい。
+EN Come back? Me? Hey now, that's a pretty convenient
+EN request, ain't it?
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to return to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ガルム小鳥遊
+JP ま、別に仕事上の
+JP 社長としてのアンタの判断だったんだ。
+JP 恨んじゃいねぇよ。
+EN Well, it was your call as the Boss. Just business. I
+EN ain't holding a grudge.
+
+@ 22.18
+# 社 長
+JP なら…。
+EN Then...
+
+@ 22.29
+# ガルム小鳥遊
+JP ああ、戻ってやるよ。
+JP ただなぁ、貸しは貸しだぜ？
+JP そのへんはわきまえといてくれよ？
+EN Yeah, I'll come back. But a debt's a debt, y'hear?
+EN Keep that in mind.
+
+@ 22.32
+# 社 長
+JP もちろんだ。
+JP ありがとう。
+EN Of course. Thank you.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# ガルム小鳥遊
+JP ま、別に仕事上の
+JP 社長としてのアンタの判断だったんだ。
+JP それは恨んじゃいねぇ。
+EN Well, it was your call as the Boss. Just business. I
+EN ain't holding a grudge about that.
+
+@ 23.18
+# 社 長
+JP なら…。
+EN Then...
+
+@ 23.29
+# ガルム小鳥遊
+JP ただ、だからって戻ってやる
+JP 義理もねぇのはわかるよな。
+JP 悪いが和解には時期尚早だ…。
+EN But that don't mean I owe you a comeback, you get
+EN that. Sorry, but it's too soon to make up...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった。
+EN I see... I understand.
+
+@ 23.34
+# 社 長
+JP （…これも身から出たサビか）
+EN (...I suppose I brought this on myself.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び小鳥遊を訪ねることにした。
+EN I decided to visit Takanashi again.
+
+@ 24.25
+# 社 長
+JP やはり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど……。
+EN I heard she'd be somewhere around here...
+
+@ 24.29
+# 社 長
+JP いた……。
+EN There she is...
+
+@ 24.31
+# 社 長
+JP 小鳥遊。
+EN Takanashi.
+
+@ 24.41
+# ガルム小鳥遊
+JP お、なんだ社長か。
+JP どうしたよ、景気の悪い顔して。
+EN Oh, it's the Boss. What's with the gloomy face?
+
+@ 24.44
+# 社 長
+JP おまえが戻ってきてくれたら
+JP すぐに景気の良い顔に
+JP なるんだがな…。
+EN If you'd come back, I'd cheer right up, you know...
+
+@ 24.46
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to return to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ガルム小鳥遊
+JP ま、別に仕事上の
+JP 社長としてのアンタの判断だったんだ。
+JP 恨んじゃいねぇよ。
+EN Well, it was your call as the Boss. Just business. I
+EN ain't holding a grudge.
+
+@ 25.18
+# 社 長
+JP なら…。
+EN Then...
+
+@ 25.29
+# ガルム小鳥遊
+JP ああ、戻ってやるよ。
+JP ただなぁ、貸しは貸しだぜ？
+JP そのへんはわきまえといてくれよ？
+EN Yeah, I'll come back. But a debt's a debt, y'hear?
+EN Keep that in mind.
+
+@ 25.32
+# 社 長
+JP もちろんだ。
+JP ありがとう。
+EN Of course. Thank you.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ガルム小鳥遊
+JP ま、別に仕事上の
+JP 社長としてのアンタの判断だったんだ。
+JP それは恨んじゃいねぇ。
+EN Well, it was your call as the Boss. Just business. I
+EN ain't holding a grudge about that.
+
+@ 26.18
+# 社 長
+JP なら…。
+EN Then...
+
+@ 26.29
+# ガルム小鳥遊
+JP ただ、だからって戻ってやる
+JP 義理もねぇのはわかるよな。
+JP 悪いが和解には時期尚早だ…。
+EN But that don't mean I owe you a comeback, you get
+EN that. Sorry, but it's too soon to make up...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった。
+EN I see... I understand.
+
+@ 26.34
+# 社 長
+JP （…これも身から出たサビか）
+EN (...I suppose I brought this on myself.)
+
+@ 27.16
+# scene 028 ケガ小
+# ガルム小鳥遊
+JP あ？
+JP 気にすんな。
+EN Huh? Don't sweat it.
+
+@ 28.16
+# scene 029 ケガ大
+# ガルム小鳥遊
+JP 騒ぐなよバカヤロー。
+JP レスラーがみっともない姿
+JP さらせるかよ。
+EN Quit fussin', you idiot. Like a wrestler's gonna let
+EN herself look pathetic.
+
+@ 29.16
+# scene 030 入院
+# ガルム小鳥遊
+JP ちょっくら骨休めしてくらあ。
+EN Guess I'll go rest my bones a bit.
+
+@ 30.16
+# scene 031 退院
+# ガルム小鳥遊
+JP おう、戻ったぜ。
+EN Yo, I'm back.
+
+@ 31.16
+# scene 032 ケガ完治
+# ガルム小鳥遊
+JP ああ、もう問題ねぇ。
+EN Yeah, no problems now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ガルム小鳥遊
+JP そうだな。
+JP もう…十分か。
+EN Yeah. I guess... I've had enough.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ガルム小鳥遊
+JP おいおい、引き際は自分で
+JP 決めさせてくれよ。
+EN Hey now, let me decide for myself when it's time to
+EN bow out.
+
+@ 34.16
+# scene 035 コーチ就任
+# ガルム小鳥遊
+JP 人にモノを教えるのは
+JP ガラじゃねぇんだがな…。
+JP やる以上は覚悟きめとけよ？
+EN Teaching folks ain't really my style... But if I'm doing
+EN it, you'd better brace yourselves.
+
+@ 35.16
+# scene 036 ケガ引退
+# ガルム小鳥遊
+JP ま、仕方ねえよな。
+JP うん、仕方ねえよ。
+EN Well, can't be helped. Yeah... can't be helped.
+
+@ 36.16
+# scene 037 年齢引退
+# ガルム小鳥遊
+JP レスラー人生の仕上げといくか。
+EN Time to put the finishing touches on my wrestling
+EN career.
+
+@ 37.16
+# scene 038 退団
+# ガルム小鳥遊
+JP あばよ。
+EN So long.
+
+@ 38.16
+# scene 039 スランプ
+# ガルム小鳥遊
+JP 焦ったってしょうがねえよな。
+JP しょうがねえよ。
+EN No use getting antsy. No use at all.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ガルム小鳥遊
+JP へえ、そりゃまた随分だな。
+EN Huh, now that's really something.
+
+@ 39.19
+# 社 長
+JP よかったな。
+JP 期待に応えるようにな。
+EN Good for you. Try to live up to their expectations.
+
+@ 39.26
+# ガルム小鳥遊
+JP ああ…。
+JP よりによって私のファンクラブだ。
+JP 応え方はわかってるつもりさ。
+EN Yeah... Of all things, a fan club for me. I figure I know
+EN how to answer 'em.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ガルム小鳥遊
+JP ほう…。
+EN Hoh...
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Try to live up to their expectations.
+
+@ 40.26
+# ガルム小鳥遊
+JP やれやれ…重いねぇ。
+EN Geez... That's a heavy load.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ガルム小鳥遊
+JP ふむ…。
+EN Hmm...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+EN Well, these things happen.
+
+@ 41.26
+# ガルム小鳥遊
+JP ま、失望させちまったってなら
+JP 私の不徳さ。
+EN Well, if I let 'em down, that's on me.
+
+@ 42.16
+# scene 043 映画出演
+# ガルム小鳥遊
+JP 相手はどんな正義の味方だい？
+EN So what kind of superhero am I up against?
+
+@ 43.16
+# scene 044 一日署長
+# ガルム小鳥遊
+JP おいおい、いいのかよ、私で。
+EN Hey now, you sure you want me for this?
+
+@ 44.16
+# scene 045 写真集発売
+# ガルム小鳥遊
+JP 今世紀最大のギャグだな…。
+EN Biggest joke of the century...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ガルム小鳥遊
+JP おいおい、私が宣伝して
+JP イメージダウンにならない
+JP 商品なんだろうな？
+EN Hey now, this better be a product that won't get a
+EN bad image from me selling it.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ガルム小鳥遊
+JP 演歌くらいしか歌えねーぞ？
+EN All I can sing is old enka, y'know?
+
+@ 47.16
+# scene 048 始球式
+# ガルム小鳥遊
+JP ボールって小っけぇんだよな…。
+JP ちゃんと投げられるか心配だぜ。
+EN Baseballs are tiny, ain't they... I'm worried I won't
+EN throw it right.
+
+@ 48.16
+# scene 049 学園祭
+# ガルム小鳥遊
+JP ……日本ってなぁ平和だなぁ、おい。
+EN ...Japan sure is a peaceful place, huh?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.34
+# ガルム小鳥遊
+JP お、こりゃ…どうも。
+EN Oh, this is... thanks.
+
+@ 49.37
+# 社 長
+JP ああ、これからもよろしく。
+EN Sure. Keep up the good work.
+
+@ 49.45
+# ガルム小鳥遊
+JP 言われなくても、だぜ。
+EN You don't gotta tell me.
+
+@ 50.31
+# scene 051 バレンタインデー
+# ガルム小鳥遊
+JP 社長、今日はバレンタインだって
+JP いうからよ、ほれ。
+EN Boss, they say today's Valentine's, so here.
+
+@ 50.34
+# 社 長
+JP ああ、ありがとう。
+EN Ah, thank you.
+
+@ 50.36
+# 社 長
+JP って……塩から？
+EN Wait... salted squid?
+
+@ 50.44
+# ガルム小鳥遊
+JP 私にチョコなんてあわねぇしな…。
+JP 味は保証するぜ。
+EN Chocolate don't suit me... The taste is guaranteed,
+EN though.
+
+@ 50.47
+# 社 長
+JP あ、ああ…。
+JP ありがとう。
+EN O-oh... Thank you.
+
+@ 50.49
+# 社 長
+JP （これ…。
+JP 　お返しどうすればいいんだ？）
+EN (This... What am I supposed to give back?)
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept my thanks for last month?
+
+@ 51.38
+# ガルム小鳥遊
+JP ほう…。
+JP なめ茸か。
+JP わかってんじゃねぇか。
+EN Hoh... Pickled nameko mushrooms. You know what's
+EN good.
+
+@ 51.41
+# 社 長
+JP 喜んでもらえて嬉しいよ。
+EN I'm glad you like them.
+
+@ 51.43
+# 社 長
+JP （よかった。
+JP 　アタリだったらしい）
+EN (Phew. Looks like I hit the jackpot.)
+
+@ 52.31
+# scene 053 サイン会
+# ガルム小鳥遊
+JP おう…オメエら物好き過ぎんぞ…。
+JP ほらよ、名前、なんてんだ？
+EN Hey... You lot have weird taste... Here. What's your
+EN name?
+
+@ 53.31
+# scene 054 コンサート
+# ガルム小鳥遊
+JP ……何しろって？
+EN ...You want me to do what?
+
+@ 54.28
+# scene 055 練習拒否
+# ガルム小鳥遊
+JP ちょっと空けるぜ。
+EN I'm stepping out for a bit.
+
+@ 55.28
+# scene 056 失踪
+# ガルム小鳥遊
+JP ブラっとしてくら。
+EN Gonna go wander around.
+
+@ 56.16
+# scene 057 選手解雇
+# ガルム小鳥遊
+JP そうか…。
+JP 社長がそう判断したなら
+JP しゃーねぇな。
+EN I see... If that's what you decided, Boss, nothing I can
+EN do.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ガルム小鳥遊
+JP おう、行ってくる。
+EN Yo, I'm off.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ガルム小鳥遊
+JP もどったぜ。
+EN I'm back.
+
+@ 59.28
+# scene 060 移籍思案
+# ガルム小鳥遊
+JP まあ、どこでも戦えるっちゃ
+JP 戦えるよな。
+EN Well, I can fight anywhere, when you get down to it.
+
+@ 60.16
+# scene 061 革命軍結成
+# ガルム小鳥遊
+JP ……やらせてもらうぜ。
+EN ...Count me in.
+
+@ 61.16
+# scene 062 反乱軍結成
+# ガルム小鳥遊
+JP ついてきたいヤツだけ、ついてこい。
+EN Follow me only if you want to.
+
+@ 62.16
+# scene 063 最終決戦要求
+# ガルム小鳥遊
+JP そろそろケリぃ…つけようや。
+EN Time we... settled this.
+
+@ 63.16
+# scene 064 遺恨発生
+# ガルム小鳥遊
+JP 覚悟はいいな？
+JP ……なんて、今さら聞かねぇさ。
+JP なぁ。
+EN You ready? ...Heh, like I need to ask now. Right?
+
+@ 64.16
+# scene 065 殴り込み
+# ガルム小鳥遊
+JP 楽しめる相手がいりゃあいいがな。
+EN Hope there's someone worth having fun with.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ガルム小鳥遊
+JP よく来た…。
+JP 遊んでけよ。
+EN Glad you came... Stick around and play.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ガルム小鳥遊
+JP 邪魔するぜ。
+EN Pardon the intrusion.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ガルム小鳥遊
+JP 任せておけ。
+EN Leave it to me.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ガルム小鳥遊
+JP ああ…。
+JP 当然だ。
+JP 当然の結果なんだよ。
+EN Yeah... Of course. It's only natural.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ガルム小鳥遊
+JP わりぃ…。
+JP 私じゃ力不足だった。
+JP それだけだな。
+EN Sorry... I just wasn't strong enough. That's all there
+EN is to it.
+
+@ 70.13
+# scene 071 引退式
+# ガルム小鳥遊
+JP ありがとよ、おまえら。
+JP ……これからもこのリング
+JP 見守っていってやってくれ！
+EN Thanks, all of you. ...Keep watching over this ring
+EN from here on out!
+
+@ 71.18
+# ガルム小鳥遊
+JP なんだ？
+EN What is it?
+
+@ 71.37
+# ガルム小鳥遊
+JP なんだ？
+EN What is it?
+
+@ 71.47
+# ガルム小鳥遊
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing great lately. Keep it up.
+
+@ 71.90
+# ガルム小鳥遊
+JP なんだよ…。
+JP いきなりほめるなよ、気持ちわりぃ。
+JP 言われなくてもやるってばよ。
+EN What's this... Don't go praising me outta nowhere,
+EN it's creepy. I'll do it without being told.
+
+@ 71.111
+# ガルム小鳥遊
+JP ほめても何もでねぇぞ？
+EN Praise won't get you anything, y'know.
+
+@ 71.132
+# ガルム小鳥遊
+JP おう、がんばんぜ！
+EN Yeah, I'll give it my all!
+
+@ 71.153
+# ガルム小鳥遊
+JP なんだなんだ？
+JP おだてても金は貸さねぇぞ？
+EN What's this, what's this? Butter me up all you want, I
+EN ain't lending you money.
+
+@ 71.166
+# 社 長
+JP ひとつ言っておきたいことがある。
+JP ここのところ、おまえは……
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 71.190
+# ガルム小鳥遊
+JP ん……。
+JP そりゃ悪かったな。
+EN Hm... My bad, then.
+
+@ 71.211
+# ガルム小鳥遊
+JP …………で？
+JP だから、なんだよ。
+EN .........And? So what?
+
+@ 71.232
+# ガルム小鳥遊
+JP オーケー、オーケー。
+JP 私が悪かった。
+JP だから、そうカッカすんな。
+EN Okay, okay. My fault. So don't get so worked up.
+
+@ 71.253
+# ガルム小鳥遊
+JP おいおい、そんなことで
+JP 目くじら立てんなよ。
+JP 社長なら、もっとドンとかまえてろ。
+EN Hey now, don't blow a fuse over something like that.
+EN You're the Boss. Be a little more laid-back.
+
+@ 71.266
+# 社 長
+JP どうした？
+JP 最近はおまえらしくないじゃないか。
+EN What's wrong? You haven't been yourself lately.
+
+@ 71.290
+# ガルム小鳥遊
+JP わかった、わかった。
+JP みなまで言うな。
+JP 気合、入れ直すからよ。
+EN All right, all right. Say no more. I'll get my fire back.
+
+@ 71.311
+# ガルム小鳥遊
+JP おう、そうか。
+EN Yeah, okay.
+
+@ 71.314
+# 社 長
+JP （そうか…って、
+JP 　反応それだけかよ）
+EN ("Yeah, okay"... That's all I get?)
+
+@ 71.335
+# ガルム小鳥遊
+JP 私が励まされるたぁなぁ…。
+JP 何かむずがゆいが、アリガトよ。
+EN Me, getting a pep talk... Kinda makes me itchy, but
+EN thanks.
+
+@ 71.356
+# ガルム小鳥遊
+JP はぁ…。
+JP そんな心配のされ方するようじゃあ
+JP お終いかねぇ。
+EN Sigh... If people are worrying about me like that,
+EN maybe I'm finished.
+
+@ 71.370
+# ガルム小鳥遊
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.386
+# ガルム小鳥遊
+JP 回りくどいのはやめようや。
+EN Let's skip the runaround.
+
+@ 71.403
+# ガルム小鳥遊
+JP いや…。
+JP さっぱりだ。
+EN Nope... No idea.
+
+@ 71.413
+# ガルム小鳥遊
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.435
+# ガルム小鳥遊
+JP ……ふむ。
+JP ここは社長の顔を立ててやるか。
+EN ...Hmm. Guess I'll let you save face this time, Boss.
+
+@ 71.456
+# ガルム小鳥遊
+JP それは…聞けねぇな。
+EN That... I can't do.
+
+@ 71.477
+# ガルム小鳥遊
+JP 話を聞いても
+JP やっぱり、さっぱりだな。
+EN Even after hearing you out, I still got no idea.
+
+@ 71.490
+# ガルム小鳥遊
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.507
+# ガルム小鳥遊
+JP おいおい、思わせぶりは
+JP やめてくれや。
+EN Hey now, quit being so cryptic.
+
+@ 71.524
+# ガルム小鳥遊
+JP なんだよ、思わせぶりに。
+EN What's with the cryptic act?
+
+@ 71.537
+# ガルム小鳥遊
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.559
+# ガルム小鳥遊
+JP ……仕方ねえな。
+JP アンタの顔を立てて
+JP 水に流すとするか。
+EN ...Fine. For your sake, I'll let bygones be bygones.
+
+@ 71.580
+# ガルム小鳥遊
+JP 社長の顔をたててやりたいが…。
+JP 悪い、ちょっと聞けねぇな。
+EN I'd like to do you the favor, Boss, but... sorry, that
+EN one I can't.
+
+@ 71.601
+# ガルム小鳥遊
+JP いや、何言ってんだかわかんねぇよ。
+EN Nope, I got no clue what you're talking about.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ガルム小鳥遊
+JP なんだ？
+EN What is it?
+
+@ 72.16
+# ガルム小鳥遊
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP このところいい感じだな。
+JP その調子で頑張ってくれ。
+EN You've been doing great lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ガルム小鳥遊
+JP なんだよ…。
+JP いきなりほめるなよ。気持ちわりぃ。
+JP 言われなくてもやるってばよ。
+EN What's this... Don't go praising me outta nowhere,
+EN it's creepy. I'll do it without being told.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ガルム小鳥遊
+JP ほめても何もでねぇぞ？
+EN Praise won't get you anything, y'know.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ガルム小鳥遊
+JP おう、がんばんぜ！
+EN Yeah, I'll give it my all!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ガルム小鳥遊
+JP なんだなんだ？
+JP おだてても金は貸さねぇぞ？
+EN What's this, what's this? Butter me up all you want, I
+EN ain't lending you money.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP ひとつ言っておきたいことがある。
+JP ここのところ、おまえは……
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ガルム小鳥遊
+JP ん……。
+JP そりゃ、悪かったな。
+EN Hm... My bad, then.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ガルム小鳥遊
+JP …………で？
+JP だから、なんだよ。
+EN .........And? So what?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ガルム小鳥遊
+JP オーケー、オーケー。
+JP 私が悪かった。
+JP だから、そうカッカすんな。
+EN Okay, okay. My fault. So don't get so worked up.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ガルム小鳥遊
+JP おいおい、
+JP そんな事で目くじら立てんなよ。
+JP 社長なら、もっとドンとかまえてろ。
+EN Hey now, don't blow a fuse over something like that.
+EN You're the Boss. Be a little more laid-back.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP どうした？
+JP 最近はおまえらしくないじゃないか。
+EN What's wrong? You haven't been yourself lately.
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ガルム小鳥遊
+JP わかった、わかった。
+JP みなまで言うな。
+JP 気合、入れ直すからよ。
+EN All right, all right. Say no more. I'll get my fire back.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ガルム小鳥遊
+JP おう、そうか。
+EN Yeah, okay.
+
+@ 85.19
+# 社 長
+JP （そうか……って、
+JP 　反応それだけかよ）
+EN ("Yeah, okay"... That's all I get?)
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ガルム小鳥遊
+JP 私が励まされるたぁなぁ…。
+JP 何かむずがゆいが、アリガトよ。
+EN Me, getting a pep talk... Kinda makes me itchy, but
+EN thanks.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ガルム小鳥遊
+JP はぁ…。
+JP そんな心配のされ方するようじゃあ
+JP お終いかねぇ。
+EN Sigh... If people are worrying about me like that,
+EN maybe I'm finished.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ガルム小鳥遊
+JP 回りくどいのはやめようや。
+EN Let's skip the runaround.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ガルム小鳥遊
+JP いや…。
+JP さっぱりだ。
+EN Nope... No idea.
+
+@ 91.1
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ガルム小鳥遊
+JP ……ふむ。
+JP ここは社長の顔を立ててやるか。
+EN ...Hmm. Guess I'll let you save face this time, Boss.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ガルム小鳥遊
+JP それは…聞けねぇな。
+EN That... I can't do.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ガルム小鳥遊
+JP 話を聞いても…やっぱり、
+JP さっぱりだな。
+EN Even after hearing you out, I still got no idea.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ガルム小鳥遊
+JP おいおい、
+JP 思わせぶりはやめてくれや。
+EN Hey now, quit being so cryptic.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ガルム小鳥遊
+JP なんだよ、思わせぶりに。
+EN What's with the cryptic act?
+
+@ 98.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ガルム小鳥遊
+JP ……仕方ねえな。
+JP アンタの顔を立てて、
+JP 水に流すとするか。
+EN ...Fine. For your sake, I'll let bygones be bygones.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ガルム小鳥遊
+JP 社長の顔をたててやりたいが…。
+JP 悪い、ちょっと聞けねぇな。
+EN I'd like to do you the favor, Boss, but... sorry, that
+EN one I can't.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ガルム小鳥遊
+JP いや、何言ってんだかわかんねぇよ。
+EN Nope, I got no clue what you're talking about.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ガルム小鳥遊
+JP ＯＫ。
+JP 今年も頼むぜ。
+EN OK. Count on me again this year.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ガルム小鳥遊
+JP おいおい、景気いいな。
+JP 大丈夫かよ。
+EN Hey now, that's generous. You sure you can afford
+EN it?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ガルム小鳥遊
+JP んー…。
+JP まあ…仕方ねえか。
+JP わかった。
+EN Hmm... Well... can't be helped, I guess. Fine.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やって来た）
+EN (And so we came to a tropical island.)
+
+@ 105.49
+# 社 長
+JP （俺と小鳥遊は船をチャーター。
+JP 　みんなとは別行動で海釣りだ）
+EN (Takanashi and I chartered a boat and went off on
+EN our own to fish at sea.)
+
+@ 105.51
+# 社 長
+JP （他のみんなは今頃
+JP 　浜辺で遊び回っていることだろう）
+EN (Everyone else is probably running around on the
+EN beach right now.)
+
+@ 105.57
+# ガルム小鳥遊
+JP うおっしゃ、来たぁっ！
+EN Hell yeah, got one!
+
+@ 105.60
+# 社 長
+JP おおっ！
+EN Whoa!
+
+@ 105.64
+# ガルム小鳥遊
+JP ガスガス来てんぞ！
+JP おらぁ――――――――――っ！
+EN It's really pulling! Rrraaaaaaaaaaah!
+
+@ 105.67
+# 社 長
+JP 引けー！
+JP 小鳥遊、ひけ――！
+EN Reel it in! Takanashi, reel it iiin!
+
+@ 105.83
+# ガルム小鳥遊
+JP よっしゃあ
+JP 大物ゲット！！
+EN All right! Landed a big one!!
+
+@ 105.86
+# 社 長
+JP でかいな！
+EN That's huge!
+
+@ 105.90
+# ガルム小鳥遊
+JP おおよ！
+EN You bet!
+
+@ 105.93
+# 社 長
+JP （マジで、シャレにならないくらいの
+JP 　大物だぞ）
+EN (Seriously, it's a ridiculously big catch.)
+
+@ 105.97
+# ガルム小鳥遊
+JP おっし。
+JP このまま全員が食う分の
+JP 魚を釣るぜ！
+EN Okay. Let's keep going till we've caught enough fish
+EN to feed everyone!
+
+@ 105.100
+# 社 長
+JP え、全員の分って……。
+EN Huh? Enough for everyone...?
+
+@ 105.102
+# 社 長
+JP こいつ一匹で十分じゃないか？
+EN Isn't this one fish enough?
+
+@ 105.106
+# ガルム小鳥遊
+JP いや、たりねぇな。
+JP あいつら食い盛りだぜ！
+EN Nah, not nearly. That bunch are growing girls with
+EN big appetites!
+
+@ 105.109
+# 社 長
+JP 食い盛りねぇ。
+EN Growing girls, huh.
+
+@ 105.113
+# ガルム小鳥遊
+JP っと、社長、
+JP その前に記念撮影だ、記念撮影！
+EN Oh, Boss, before that, commemorative photo!
+EN Commemorative photo!
+
+@ 105.116
+# 社 長
+JP あ、ああ。
+EN O-oh, sure.
+
+@ 105.136
+# 社 長
+JP （その後）
+EN (After that...)
+
+@ 105.138
+# 社 長
+JP （小鳥遊は次々と大物を釣り上げた）
+EN (Takanashi reeled in one big fish after another.)
+
+@ 105.140
+# 社 長
+JP （たしか、海釣りは初めてとか
+JP 　言っていた気がするが……）
+EN (I could've sworn she said this was her first time
+EN fishing at sea...)
+
+@ 105.142
+# 社 長
+JP （さてはこいつ、釣りの天才か！？）
+EN (Don't tell me she's a fishing genius!?)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある晩、仕事をしていると…。
+JP 　小鳥遊の携帯から連絡が入った）
+EN (One night, while I was working, I got a call from
+EN Takanashi's cell phone.)
+
+@ 106.26
+# 社 長
+JP （なんでも霧子くんと
+JP 　カラオケに行ったら）
+EN (Apparently she'd gone to karaoke with Kiriko...)
+
+@ 106.28
+# 社 長
+JP （霧子くんが疲れて
+JP 　寝てしまったとのこと）
+EN (...and Kiriko had gotten tired and fallen asleep.)
+
+@ 106.30
+# 社 長
+JP ……何をやっているんだ
+JP 霧子くん。
+EN ...What are you doing, Kiriko?
+
+@ 106.45
+# 社 長
+JP （仕方ないので
+JP 　迎えに行くことにする）
+EN (There was nothing for it but to go pick them up.)
+
+@ 106.49
+# ガルム小鳥遊
+JP おう、社長。
+JP こっちこっち！
+EN Yo, Boss. Over here, over here!
+
+@ 106.63
+# ガルム小鳥遊
+JP わりぃな、わざわざ。
+EN Sorry you had to come all this way.
+
+@ 106.66
+# 社 長
+JP いや、かまわんよ。
+JP というか、大変だろう。
+EN No, it's no trouble. Actually, this must be hard on
+EN you.
+
+@ 106.70
+# ガルム小鳥遊
+JP 私ゃ、これくらい全然だって。
+EN Me? This ain't nothing at all.
+
+@ 106.73
+# 霧 子
+JP ………………。
+EN .........
+
+@ 106.75
+# 社 長
+JP （あどけなく寝こけている霧子くん）
+EN (Kiriko was sleeping like a little kid.)
+
+@ 106.77
+# 社 長
+JP （起きる気配はまったくない）
+EN (She showed no sign of waking up whatsoever.)
+
+@ 106.81
+# ガルム小鳥遊
+JP ま、色々大変なんだろうさ。
+JP 寝かせといてやろうや。
+EN Well, she's got a lot on her plate, I bet. Let's let her
+EN sleep.
+
+@ 106.84
+# 霧 子
+JP ………………。
+EN .........
+
+@ 106.86
+# 社 長
+JP ああ、そうだな。
+EN Yeah, you're right.
+
+@ 106.100
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.102
+# 社 長
+JP （そして、俺は小鳥遊と霧子くんを
+JP 　車に乗せて、会社へと戻った）
+EN (Then I put Takanashi and Kiriko in the car and
+EN drove back to the office.)
+
+@ 106.104
+# 社 長
+JP （霧子くんをどこで寝かせようと
+JP 　考えながら）
+EN (Wondering where I was going to let Kiriko sleep.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある晩、仕事をしていると…。
+JP 　小鳥遊の携帯から連絡が入った）
+EN (One night, while I was working, I got a call from
+EN Takanashi's cell phone.)
+
+@ 107.26
+# 社 長
+JP （なんでも霧子くんと
+JP 　飲んでいたら…）
+EN (Apparently she'd been drinking with Kiriko...)
+
+@ 107.28
+# 社 長
+JP （霧子くんが飲みすぎて
+JP 　潰れてしまったとのことだ）
+EN (...and Kiriko had drunk too much and passed out.)
+
+@ 107.30
+# 社 長
+JP ……何をやっているんだ
+JP 霧子くん。
+EN ...What are you doing, Kiriko?
+
+@ 107.45
+# 社 長
+JP （仕方ないので
+JP 　迎えに行くことにする）
+EN (There was nothing for it but to go pick them up.)
+
+@ 107.49
+# ガルム小鳥遊
+JP おう、社長。
+JP こっちこっち！
+EN Yo, Boss. Over here, over here!
+
+@ 107.63
+# ガルム小鳥遊
+JP 毎度毎度、悪いな。
+EN Sorry to drag you out every time.
+
+@ 107.66
+# 社 長
+JP いや、小鳥遊こそいつも大変だな。
+EN No, you're the one who always has it rough,
+EN Takanashi.
+
+@ 107.69
+# 霧 子
+JP ………………。
+EN .........
+
+@ 107.71
+# 社 長
+JP （べろんべろんに潰れてる霧子くん）
+EN (Kiriko was completely plastered.)
+
+@ 107.73
+# 社 長
+JP （起きる気配はまったくない）
+EN (She showed no sign of waking up whatsoever.)
+
+@ 107.77
+# ガルム小鳥遊
+JP ま、色々大変なんだよ。
+EN Well, she's got a lot on her plate.
+
+@ 107.81
+# ガルム小鳥遊
+JP 寝かせといてやろうや。
+EN Let's let her sleep.
+
+@ 107.84
+# 霧 子
+JP ………………。
+EN .........
+
+@ 107.86
+# 社 長
+JP おまえは平気なのか？
+EN Are you okay yourself?
+
+@ 107.90
+# ガルム小鳥遊
+JP あいにく下戸でね。
+JP 愚痴聞き係だ。
+EN Afraid I can't hold my liquor, so I don't drink. I'm the
+EN designated listener.
+
+@ 107.93
+# 社 長
+JP （やれやれ、という顔の小鳥遊）
+EN (Takanashi had an "oh, brother" look on her face.)
+
+@ 107.95
+# 社 長
+JP （できたヤツだ）
+EN (She's a good person.)
+
+@ 107.97
+# 社 長
+JP （今の２人を見ていると……）
+EN (Looking at the two of them now...)
+
+@ 107.99
+# 社 長
+JP （片や「地獄の番犬」と恐れられてる
+JP 　レスラーで）
+EN (You'd never guess one is the wrestler feared as
+EN the "Hellhound"...)
+
+@ 107.101
+# 社 長
+JP （片や、しっかりものの
+JP 　やり手秘書とはとうてい思えない）
+EN (...and the other is a sharp, dependable secretary.)
+
+@ 107.105
+# ガルム小鳥遊
+JP さ、いこうや。
+EN Come on, let's go.
+
+@ 107.109
+# ガルム小鳥遊
+JP 落ち着いたところで
+JP 寝かせてやりてぇし。
+EN I wanna let her sleep somewhere comfy.
+
+@ 107.112
+# 社 長
+JP あ、ああ。
+JP わかった。
+EN O-oh, right. Got it.
+
+@ 107.126
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.128
+# 社 長
+JP （そして、俺は小鳥遊と霧子くんを
+JP 　車に乗せて、会社へと戻った）
+EN (Then I put Takanashi and Kiriko in the car and
+EN drove back to the office.)
+
+@ 108.17
+# scene 109 練習試合 ベター１
+# ガルム小鳥遊
+JP よし、練習だからって
+JP 手はぬかねぇぜ？
+EN All right. Just 'cause it's practice don't mean I'm
+EN holding back.
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# ガルム小鳥遊
+JP タイプが違うからこそ
+JP 面白いってな。
+EN It's 'cause our styles are different that it's fun,
+EN y'know.
+
+@ 110.17
+# scene 111 練習試合 ベター２
+# ガルム小鳥遊
+JP こりゃ、純粋に楽しめそうだ。
+EN This oughta be fun, plain and simple.
+
+@ 111.16
+# scene 113 練習開始
+# ガルム小鳥遊
+JP よっし、やるか。
+EN All right, let's do this.
+
+@ 112.16
+# scene 114 練習開始 好意
+# ガルム小鳥遊
+JP 今日も気合いいれてくぜ。
+EN Bringin' the fire again today.
+
+@ 113.16
+# scene 115 特訓開始
+# ガルム小鳥遊
+JP うし…。
+JP 来い！
+EN Right... Bring it!
+
+@ 114.20
+# scene 116 特訓成功
+# ガルム小鳥遊
+JP っしゃ！
+EN Yeah!
+
+@ 115.20
+# scene 117 特訓失敗
+# ガルム小鳥遊
+JP ……ちっ……。
+EN ...Tch...
+
+@ 116.16
+# scene 118 休養
+# ガルム小鳥遊
+JP たまにゃ、実家にも
+JP 顔ださねぇとな…。
+EN Every now and then I gotta show my face back
+EN home...
+
+@ 117.16
+# scene 119 入場1
+# ガルム小鳥遊
+JP さあ、楽しい晩餐会の始まりだ。
+EN Now, let the feast begin.
+
+@ 118.16
+# scene 119 入場2
+# ガルム小鳥遊
+JP リングに立つ以上
+JP お互い覚悟の上ってことだ。
+JP 楽しくなりそうだぜ。
+EN Once we step in the ring, we both know what we
+EN signed up for. This is gonna be fun.
+
+@ 119.17
+# scene 120 タッグマッチ ベスト
+# ガルム小鳥遊
+JP 意地ってもんを見せてやろうや。
+JP なあ。
+EN Let's show 'em what we're made of. Right?
+
+@ 120.17
+# scene 121 タッグマッチ ベター１
+# ガルム小鳥遊
+JP この組み合わせ…。
+JP 吉と出るか凶と出るか。
+EN This pairing... Could go either way.
+
+@ 121.17
+# scene 122 タッグマッチ ベター２
+# ガルム小鳥遊
+JP 今日はリングが
+JP 傾かなきゃいいけどな。
+EN Hope the ring don't tip over today.
+
+@ 122.16
+# scene 125 必殺技１
+# ガルム小鳥遊
+JP 砕け散れ！
+EN Shatter!
+
+@ 123.16
+# scene 125 必殺技２
+# ガルム小鳥遊
+JP とびっきりをご馳走してやるよ！
+EN I'll serve you up something special!
+
+@ 124.16
+# scene 125 必殺技３
+# ガルム小鳥遊
+JP 一足先に地獄へおちな。
+EN Go on ahead to hell.
+
+@ 125.12
+# scene 126 勝利1
+# ガルム小鳥遊
+JP あらぁ！
+JP 次の相手は誰だ！！
+EN Raaah! Who's next?!
+
+@ 126.12
+# scene 126 勝利2
+# ガルム小鳥遊
+JP 次の地獄で待ってんぜ。
+EN I'll be waiting for you in the next hell.
+
+@ 127.12
+# scene 126 勝利3
+# ガルム小鳥遊
+JP お楽しみはまだまだ続くぜ。
+JP なぁ？
+EN The fun's just getting started. Right?
+
+@ 128.15
+# scene 133 表彰1
+# ガルム小鳥遊
+JP 今回はありがたく
+JP いただいておくか…。
+EN Guess I'll gratefully take it this time...
+
+@ 129.15
+# scene 133 表彰2
+# ガルム小鳥遊
+JP はっ、いらねぇよ！
+JP 表彰されたくてやってんじゃねぇ！
+EN Hah, I don't want it! I ain't doing this to get awards!
+
+@ 130.12
+# scene 134 優勝1
+# ガルム小鳥遊
+JP おらぁっ！
+JP 誰でも挑戦してこいやぁ！
+EN Raaah! Anybody, come and challenge me!
+
+@ 131.12
+# scene 134 優勝２
+# ガルム小鳥遊
+JP おいおい、私が頂点でいいのか？
+JP 悔しかったらかかってこい！
+EN Hey now, you okay with me at the top? If it bugs you,
+EN come at me!
+
+@ 132.24
+# scene 135 エンディング 通常
+# ガルム小鳥遊
+JP おめっとさんよ。
+JP 今日は遠慮なくタカらせてもらうぜ？
+EN Congrats. Today I'm gonna mooch off you without
+EN holding back, y'hear?
+
+@ 133.24
+# scene 136 エンディング 好意
+# ガルム小鳥遊
+JP 社長になら妹を託してもいいな…。
+JP 安心してくれ
+JP 私とは似てないかわいいヤツだ。
+EN I'd trust you with my little sister, Boss... Relax, she's
+EN cute. Nothing like me.

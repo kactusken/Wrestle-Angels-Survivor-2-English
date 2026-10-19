@@ -1,0 +1,2445 @@
+# /SCR/179.BIN - パイレーツ森嶋
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 179` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# パイレーツ森嶋
+JP …よろしく…。
+EN ...Nice to meet you...
+
+@ 1.16
+# scene 002 新人テスト 成功
+# パイレーツ森嶋
+JP …ありがとう…。
+EN ...Thanks...
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# パイレーツ森嶋
+JP …そう…。
+EN ...I see...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP 褐色の肌が特徴の長身の女の子か…。
+EN A tall girl with tanned skin...
+
+@ 3.25
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN They said she'd be around here...
+
+@ 3.27
+# 社 長
+JP もしかしてあの娘のことか。
+EN Could that be her?
+
+@ 3.29
+# 社 長
+JP 話しかけてみるか…。
+EN Guess I'll talk to her...
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# パイレーツ森嶋
+JP …なに…？
+EN ...What...?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to recruit her.)
+
+@ 3.48
+# パイレーツ森嶋
+JP …プロレス…？
+EN ...Pro wrestling...?
+
+@ 3.51
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.58
+# パイレーツ森嶋
+JP …強い人はいるの…？
+EN ...Are there strong people...?
+
+@ 3.61
+# 社 長
+JP そうですね。
+JP 強い女性が多く集まっています。
+EN Well, plenty of strong women have gathered with us.
+
+@ 3.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# パイレーツ森嶋
+JP …わかった…。
+EN ...Fine...
+
+@ 4.22
+# 社 長
+JP それは入団してもらえるという
+JP ことですか？
+EN Does that mean you'll join us?
+
+@ 4.29
+# パイレーツ森嶋
+JP …よろしく…。
+EN ...Nice to meet you...
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# パイレーツ森嶋
+JP …やめとく…。
+EN ...I'll pass...
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# パイレーツ森嶋
+JP …また…？
+EN ...You again...?
+
+@ 6.36
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて、また来ました。
+EN I came back because I really want you in my
+EN promotion.
+
+@ 6.40
+# パイレーツ森嶋
+JP …そう…。
+EN ...I see...
+
+@ 6.43
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.45
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# パイレーツ森嶋
+JP …わかった…。
+EN ...Fine...
+
+@ 7.22
+# 社 長
+JP それは入団してもらえるという
+JP ことですか？
+EN Does that mean you'll join us?
+
+@ 7.29
+# パイレーツ森嶋
+JP …よろしく…。
+EN ...Nice to meet you...
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# パイレーツ森嶋
+JP …やめとく…。
+EN ...I'll pass...
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は森嶋選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Morishima.
+
+@ 9.25
+# 社 長
+JP あの独特のキャラクターなら
+JP うちの人気選手になれるはずだ。
+EN With that unique character of hers, she could be one
+EN of our most popular wrestlers.
+
+@ 9.27
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN They said she'd be around here...
+
+@ 9.29
+# 社 長
+JP あそこにいるのがそうかな。
+EN Is that her over there?
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# パイレーツ森嶋
+JP …私…？
+EN ...Me...?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.51
+# パイレーツ森嶋
+JP …移籍…？
+EN ...Transfer...?
+
+@ 9.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.61
+# パイレーツ森嶋
+JP …フゥ……。
+EN ...Hmph......
+
+@ 9.64
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 9.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# パイレーツ森嶋
+JP …いいわ…。
+EN ...All right...
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# パイレーツ森嶋
+JP …ええ…。
+EN ...Yes...
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# パイレーツ森嶋
+JP …無理ね…。
+EN ...Impossible...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 森嶋選手が必要だ。
+EN My promotion really does need Morishima.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 森嶋選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# パイレーツ森嶋
+JP …この前の…？
+EN ...From before...?
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて、また来ました。
+EN I came back because I really want you in my
+EN promotion.
+
+@ 12.47
+# パイレーツ森嶋
+JP …そうなの…。
+EN ...Is that so...
+
+@ 12.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# パイレーツ森嶋
+JP …いいわ…。
+EN ...All right...
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# パイレーツ森嶋
+JP …ええ…。
+EN ...Yes...
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# パイレーツ森嶋
+JP …無理ね…。
+EN ...Impossible...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は森嶋選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Morishima.
+
+@ 15.25
+# 社 長
+JP あの個性は
+JP うちの団体でこそ光るはずだ。
+EN A personality like hers would really shine in my
+EN promotion.
+
+@ 15.27
+# 社 長
+JP あそこにいるのがそうかな。
+EN Is that her over there?
+
+@ 15.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.39
+# パイレーツ森嶋
+JP …私に用…？
+EN ...You want something from me...?
+
+@ 15.42
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.49
+# パイレーツ森嶋
+JP …私が入団…？
+EN ...Me, join...?
+
+@ 15.52
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.56
+# パイレーツ森嶋
+JP …団体に所属…。
+EN ...Belong to a promotion...
+
+@ 15.59
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 15.61
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# パイレーツ森嶋
+JP …そうね…。
+EN ...I suppose...
+
+@ 16.22
+# 社 長
+JP それはＯＫということですか？
+EN Does that mean it's a yes?
+
+@ 16.26
+# パイレーツ森嶋
+JP …そういうこと…。
+EN ...That's what it means...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# パイレーツ森嶋
+JP …帰って…。
+EN ...Go home...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 森嶋選手が必要だ。
+EN My promotion really does need Morishima.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 森嶋選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# パイレーツ森嶋
+JP …また来たの…？
+EN ...You came again...?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you in my promotion...
+
+@ 18.47
+# パイレーツ森嶋
+JP …あ…そう…。
+EN ...Oh... I see...
+
+@ 18.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# パイレーツ森嶋
+JP …そうね…。
+EN ...I suppose...
+
+@ 19.22
+# 社 長
+JP それはＯＫということですか？
+EN Does that mean it's a yes?
+
+@ 19.26
+# パイレーツ森嶋
+JP …そういうこと…。
+EN ...That's what it means...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# パイレーツ森嶋
+JP …帰って…。
+EN ...Go home...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は森嶋を訪ねることにした。
+EN I decided to pay Morishima a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN They said she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 森嶋っ！
+EN Morishima!
+
+@ 21.41
+# パイレーツ森嶋
+JP …んっ…？
+EN ...Hm...?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.48
+# パイレーツ森嶋
+JP …どうしたの…？
+EN ...What is it...?
+
+@ 21.51
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you. I want you to
+EN come back...
+
+@ 21.58
+# パイレーツ森嶋
+JP …今さら…。
+EN ...Now, of all times...
+
+@ 21.61
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I've got no right to ask this...
+
+@ 21.63
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# パイレーツ森嶋
+JP …都合がいいわね…。
+EN ...How convenient for you...
+
+@ 22.18
+# 社 長
+JP もう一度力を貸して欲しいんだ。
+EN I want you to lend us your strength once more.
+
+@ 22.29
+# パイレーツ森嶋
+JP …今回だけよ…。
+EN ...Just this once...
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# パイレーツ森嶋
+JP …ご都合主義ね…。
+EN ...How very convenient...
+
+@ 23.18
+# 社 長
+JP どうしても戻って欲しいんだ。
+EN I really want you to come back.
+
+@ 23.26
+# パイレーツ森嶋
+JP …あきらめて…。
+EN ...Give up...
+
+@ 23.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び森嶋を訪ねることにした。
+EN I decided to visit Morishima again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP 森嶋っ！
+EN Morishima!
+
+@ 24.37
+# パイレーツ森嶋
+JP …社長…？
+EN ...Boss...?
+
+@ 24.40
+# 社 長
+JP ああ。
+EN Yeah.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# パイレーツ森嶋
+JP …都合がいいわね…。
+EN ...How convenient for you...
+
+@ 25.18
+# 社 長
+JP もう一度力を貸して欲しいんだ。
+EN I want you to lend us your strength once more.
+
+@ 25.29
+# パイレーツ森嶋
+JP …今回だけよ…。
+EN ...Just this once...
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# パイレーツ森嶋
+JP …ご都合主義ね…。
+EN ...How very convenient...
+
+@ 26.18
+# 社 長
+JP どうしても戻って欲しいんだ。
+EN I really want you to come back.
+
+@ 26.26
+# パイレーツ森嶋
+JP …あきらめて…。
+EN ...Give up...
+
+@ 26.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# パイレーツ森嶋
+JP …軽いケガね…。
+EN ...A minor injury...
+
+@ 28.16
+# scene 029 ケガ大
+# パイレーツ森嶋
+JP …重傷ね…。
+EN ...A serious one...
+
+@ 29.16
+# scene 030 入院
+# パイレーツ森嶋
+JP …休んで来るわ…。
+EN ...I'll go rest...
+
+@ 30.16
+# scene 031 退院
+# パイレーツ森嶋
+JP …ただいま…。
+EN ...I'm back...
+
+@ 31.16
+# scene 032 ケガ完治
+# パイレーツ森嶋
+JP …完治したわ…。
+EN ...Fully healed...
+
+@ 32.20
+# scene 033 引退勧告 成功
+# パイレーツ森嶋
+JP …あっという間ね…。
+EN ...That went by fast...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# パイレーツ森嶋
+JP …まだできるわ…。
+EN ...I can still go...
+
+@ 34.16
+# scene 035 コーチ就任
+# パイレーツ森嶋
+JP …気の毒ね…。
+EN ...Pity them...
+
+@ 35.16
+# scene 036 ケガ引退
+# パイレーツ森嶋
+JP …こんなことで……。
+EN ...Over something like this......
+
+@ 36.16
+# scene 037 年齢引退
+# パイレーツ森嶋
+JP …限界のようね…。
+EN ...Looks like I've hit my limit...
+
+@ 37.16
+# scene 038 退団
+# パイレーツ森嶋
+JP …サヨナラ…。
+EN ...Goodbye...
+
+@ 38.16
+# scene 039 スランプ
+# パイレーツ森嶋
+JP …ムダのようね…。
+EN ...It seems pointless...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# パイレーツ森嶋
+JP …ファンクラブ…？
+EN ...A fan club...?
+
+@ 39.19
+# 社 長
+JP 応援に負けないように
+JP がんばれよ。
+EN Work hard so you're worthy of their support.
+
+@ 39.26
+# パイレーツ森嶋
+JP …興味ない…。
+EN ...Not interested...
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# パイレーツ森嶋
+JP …増えたの…？
+EN ...More of them...?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.23
+# パイレーツ森嶋
+JP …関係ない…。
+EN ...Doesn't concern me...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# パイレーツ森嶋
+JP …減ったの…？
+EN ...Fewer of them...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.23
+# パイレーツ森嶋
+JP …どうでもいい…。
+EN ...Whatever...
+
+@ 42.16
+# scene 043 映画出演
+# パイレーツ森嶋
+JP …別に…。
+EN ...Fine, I guess...
+
+@ 43.16
+# scene 044 一日署長
+# パイレーツ森嶋
+JP …逮捕術、学んでくるわ…。
+EN ...I'll go learn arrest techniques...
+
+@ 44.16
+# scene 045 写真集発売
+# パイレーツ森嶋
+JP …脱ぐの…？
+EN ...Do I have to strip...?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# パイレーツ森嶋
+JP …時間のムダね…。
+EN ...A waste of time...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# パイレーツ森嶋
+JP …論外ね…。
+EN ...Out of the question...
+
+@ 47.16
+# scene 048 始球式
+# パイレーツ森嶋
+JP …何それ…？
+EN ...What's that...?
+
+@ 48.16
+# scene 049 学園祭
+# パイレーツ森嶋
+JP …遊んでる時間なんて…。
+EN ...I don't have time to play around...
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here's a birthday present.
+
+@ 49.35
+# パイレーツ森嶋
+JP …どうして…？
+EN ...Why...?
+
+@ 49.38
+# 社 長
+JP どうしてと言われても困るんだが…。
+JP これからもよろしくな。
+EN Even if you ask me why... Anyway, keep up the good
+EN work.
+
+@ 49.45
+# パイレーツ森嶋
+JP …買収ってこと…。
+EN ...So it's a bribe...
+
+@ 49.48
+# 社 長
+JP おいおい…。
+EN Hey now...
+
+@ 50.32
+# scene 051 バレンタインデー
+# パイレーツ森嶋
+JP …チョコレートよ…。
+EN ...Chocolate...
+
+@ 50.35
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thanks.
+
+@ 50.42
+# パイレーツ森嶋
+JP …気にしないで…。
+EN ...Don't mention it...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# パイレーツ森嶋
+JP …気にしないでって言ったのに…。
+EN ...I told you not to mention it...
+
+@ 51.41
+# 社 長
+JP まぁ練習の合間にでも食べてくれ。
+EN Well, have some between practices.
+
+@ 52.31
+# scene 053 サイン会
+# パイレーツ森嶋
+JP …よろしく…。
+EN ...Thanks for coming...
+
+@ 53.31
+# scene 054 コンサート
+# パイレーツ森嶋
+JP …暇な人が多いのね…。
+EN ...Lots of people with free time, huh...
+
+@ 54.28
+# scene 055 練習拒否
+# パイレーツ森嶋
+JP …やる気が出ないわ…。
+EN ...I'm not in the mood...
+
+@ 55.28
+# scene 056 失踪
+# パイレーツ森嶋
+JP …気にしないで…。
+EN ...Don't worry about me...
+
+@ 56.16
+# scene 057 選手解雇
+# パイレーツ森嶋
+JP …わかった…。
+EN ...Understood...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# パイレーツ森嶋
+JP …行ってくるわ…。
+EN ...I'm off...
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# パイレーツ森嶋
+JP …戻ったわ…。
+EN ...I'm back...
+
+@ 59.28
+# scene 060 移籍思案
+# パイレーツ森嶋
+JP …ここではもう…。
+EN ...I can't stay here anymore...
+
+@ 60.16
+# scene 061 革命軍結成
+# パイレーツ森嶋
+JP …蹴散らしてあげる…。
+EN ...I'll scatter you all...
+
+@ 61.16
+# scene 062 反乱軍結成
+# パイレーツ森嶋
+JP …潰してあげる…。
+EN ...I'll crush you...
+
+@ 62.16
+# scene 063 最終決戦要求
+# パイレーツ森嶋
+JP …これが最後…。
+EN ...This is the end...
+
+@ 63.16
+# scene 064 遺恨発生
+# パイレーツ森嶋
+JP …後悔しないでね…。
+EN ...Don't regret this...
+
+@ 64.16
+# scene 065 殴り込み
+# パイレーツ森嶋
+JP …蹴散らしてくるわ…。
+EN ...I'll go scatter them...
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# パイレーツ森嶋
+JP …ただでは帰さない…。
+EN ...They won't leave in one piece...
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# パイレーツ森嶋
+JP …相手は誰…？
+EN ...Who's my opponent...?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# パイレーツ森嶋
+JP …全力でいくわ…。
+EN ...I'll go all out...
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# パイレーツ森嶋
+JP …これが最強の座…。
+EN ...So this is the top spot...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# パイレーツ森嶋
+JP …力がたりない…。
+EN ...Not strong enough...
+
+@ 70.13
+# scene 071 引退式
+# パイレーツ森嶋
+JP …まぁ…上出来だったと思うわ…。
+JP …アリガト…。
+EN ...Well... I think I did all right... ...Thanks...
+
+@ 71.18
+# パイレーツ森嶋
+JP …なに…？
+EN ...What...?
+
+@ 71.37
+# パイレーツ森嶋
+JP …なに…？
+EN ...What...?
+
+@ 71.47
+# パイレーツ森嶋
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 71.90
+# パイレーツ森嶋
+JP …そうね…。
+EN ...I suppose...
+
+@ 71.111
+# パイレーツ森嶋
+JP …知らないわ…。
+EN ...Wouldn't know...
+
+@ 71.132
+# パイレーツ森嶋
+JP …がんばるわ…。
+EN ...I'll do my best...
+
+@ 71.153
+# パイレーツ森嶋
+JP …そうなの…？
+EN ...Is that so...?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Aren't you slacking off a little lately?
+
+@ 71.190
+# パイレーツ森嶋
+JP …気をつけるわ…。
+EN ...I'll be careful...
+
+@ 71.211
+# パイレーツ森嶋
+JP …関係ない…。
+EN ...None of your business...
+
+@ 71.232
+# パイレーツ森嶋
+JP …ごめん…。
+EN ...Sorry...
+
+@ 71.253
+# パイレーツ森嶋
+JP …気のせいよ…。
+EN ...You're imagining it...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very energetic lately. Are you
+EN all right?
+
+@ 71.290
+# パイレーツ森嶋
+JP …大丈夫…。
+EN ...I'm fine...
+
+@ 71.311
+# パイレーツ森嶋
+JP …別に…。
+EN ...Not really...
+
+@ 71.332
+# パイレーツ森嶋
+JP …ありがとう…。
+EN ...Thanks...
+
+@ 71.353
+# パイレーツ森嶋
+JP …心配しないで…。
+EN ...Don't worry...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# パイレーツ森嶋
+JP …ええ…。
+EN ...Yes...
+
+@ 71.400
+# パイレーツ森嶋
+JP …なに…？
+EN ...What...?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# パイレーツ森嶋
+JP …そうするわ…。
+EN ...I'll do that...
+
+@ 71.454
+# パイレーツ森嶋
+JP …ムリね…。
+EN ...Impossible...
+
+@ 71.475
+# パイレーツ森嶋
+JP …なんの話…？
+EN ...What are you talking about...?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# パイレーツ森嶋
+JP …そうね…。
+EN ...I suppose...
+
+@ 71.522
+# パイレーツ森嶋
+JP …どうして…？
+EN ...Why...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# パイレーツ森嶋
+JP …仕方ないわね…。
+EN ...If I have to...
+
+@ 71.578
+# パイレーツ森嶋
+JP …それは聞けない…。
+EN ...I can't do that...
+
+@ 71.599
+# パイレーツ森嶋
+JP …大丈夫…？
+EN ...Are you okay...?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# パイレーツ森嶋
+JP …なに…？
+EN ...What...?
+
+@ 72.16
+# パイレーツ森嶋
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# パイレーツ森嶋
+JP …そうね…。
+EN ...I suppose...
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# パイレーツ森嶋
+JP …知らないわ…。
+EN ...Wouldn't know...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# パイレーツ森嶋
+JP …がんばるわ…。
+EN ...I'll do my best...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# パイレーツ森嶋
+JP …そうなの…？
+EN ...Is that so...?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Aren't you slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# パイレーツ森嶋
+JP …気をつけるわ…。
+EN ...I'll be careful...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# パイレーツ森嶋
+JP …関係ない…。
+EN ...None of your business...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# パイレーツ森嶋
+JP …ごめん…。
+EN ...Sorry...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# パイレーツ森嶋
+JP …気のせいよ…。
+EN ...You're imagining it...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very energetic lately. Are you
+EN all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# パイレーツ森嶋
+JP …大丈夫…。
+EN ...I'm fine...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# パイレーツ森嶋
+JP …別に…。
+EN ...Not really...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# パイレーツ森嶋
+JP …ありがとう…。
+EN ...Thanks...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# パイレーツ森嶋
+JP …心配しないで…。
+EN ...Don't worry...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# パイレーツ森嶋
+JP …ええ…。
+EN ...Yes...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# パイレーツ森嶋
+JP …なに…？
+EN ...What...?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# パイレーツ森嶋
+JP …そうするわ…。
+EN ...I'll do that...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# パイレーツ森嶋
+JP …ムリね…。
+EN ...Impossible...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# パイレーツ森嶋
+JP …なんの話…？
+EN ...What are you talking about...?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# パイレーツ森嶋
+JP …そうね…。
+EN ...I suppose...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# パイレーツ森嶋
+JP …どうして…？
+EN ...Why...?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# パイレーツ森嶋
+JP …仕方ないわね…。
+EN ...If I have to...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# パイレーツ森嶋
+JP …それは聞けない…。
+EN ...I can't do that...
+
+@ 101.15
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# パイレーツ森嶋
+JP …大丈夫…？
+EN ...Are you okay...?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# パイレーツ森嶋
+JP …よろしくね…。
+EN ...Thanks...
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# パイレーツ森嶋
+JP …ありがとう…。
+EN ...Thank you...
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# パイレーツ森嶋
+JP …こんなものね…。
+EN ...I guess this is it...
+
+@ 105.20
+# scene 106 バカンスイベント
+# 社 長
+JP なんか張り紙が出てるな…。
+EN There's some kind of notice posted...
+
+@ 105.22
+# 社 長
+JP 「海賊が出没することあり。注意！」
+EN "Pirates sometimes appear in this area. Beware!"
+
+@ 105.24
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.26
+# 社 長
+JP 意外と物騒なのか…。
+JP このあたり…。
+EN So it's actually dangerous around here...
+
+@ 105.28
+# 社 長
+JP まぁ、沖に出なければ心配ないか。
+EN Well, as long as we don't go out to sea, it should be
+EN fine.
+
+@ 105.51
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics. The sun is scorching.)
+
+@ 105.53
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Everyone seems to be having fun.)
+
+@ 105.59
+# 社 長
+JP （俺も一眠りするかな…）
+EN (Maybe I'll take a nap too...)
+
+@ 105.61
+# 社 長
+JP （…んっ、あれは森嶋か…？
+JP 　うずくまってるみたいだが…）
+EN (...Hm, is that Morishima? Looks like she's crouched
+EN down...)
+
+@ 105.63
+# 社 長
+JP ちょっと行ってみるか。
+EN I'll go take a look.
+
+@ 105.79
+# 社 長
+JP （そこにいた森嶋は体に傷を負い
+JP 　水着もところどころ破けていた）
+EN (Morishima was covered in cuts, and her swimsuit was
+EN torn in places.)
+
+@ 105.81
+# 社 長
+JP ど、どうしたんだ、森嶋？
+JP その格好は？
+EN Wh-what happened, Morishima? Look at you!
+
+@ 105.85
+# パイレーツ森嶋
+JP …別に…。
+EN ...Nothing...
+
+@ 105.88
+# 社 長
+JP 別に、じゃないだろ？
+JP もしかして絡まれたか？
+EN Don't give me "nothing." Did someone pick a fight with
+EN you?
+
+@ 105.92
+# パイレーツ森嶋
+JP …関係ない…。
+EN ...Doesn't concern you...
+
+@ 105.95
+# 社 長
+JP 関係ない、じゃない。
+JP 誰かに襲われたのか？
+EN Of course it concerns me. Did someone attack you?
+
+@ 105.99
+# パイレーツ森嶋
+JP …違う…。
+EN ...No...
+
+@ 105.102
+# 社 長
+JP 俺はおまえたちを
+JP 預かっている身なんだ。
+JP 何があったか話してくれないか？
+EN I'm responsible for all of you. Won't you tell me what
+EN happened?
+
+@ 105.106
+# パイレーツ森嶋
+JP ………………。
+EN .........
+
+@ 105.109
+# 社 長
+JP 頼む。
+EN Please.
+
+@ 105.113
+# パイレーツ森嶋
+JP …海賊…。
+EN ...Pirates...
+
+@ 105.116
+# 社 長
+JP 海賊…？
+EN Pirates...?
+
+@ 105.118
+# 社 長
+JP 海賊がどうしたんだ？
+EN What about pirates?
+
+@ 105.122
+# パイレーツ森嶋
+JP …海賊を退治した…。
+EN ...I took care of some pirates...
+
+@ 105.125
+# 社 長
+JP …へっ？
+EN ...Huh?
+
+@ 105.127
+# 社 長
+JP どういうことだ…？
+EN What do you mean...?
+
+@ 105.131
+# パイレーツ森嶋
+JP …この海はおじいちゃんの
+JP 縄張りだった…。
+EN ...These waters were Grandpa's territory...
+
+@ 105.134
+# 社 長
+JP うん…。
+EN Okay...
+
+@ 105.138
+# パイレーツ森嶋
+JP …縄張りを荒らす者は許さない…。
+EN ...I don't forgive anyone who trespasses on it...
+
+@ 105.141
+# 社 長
+JP だから、退治したのか？
+EN So you took care of them?
+
+@ 105.145
+# パイレーツ森嶋
+JP …そう…。
+EN ...Yes...
+
+@ 105.148
+# 社 長
+JP そうって、おまえ…。
+EN "Yes," she says...
+
+@ 105.150
+# 社 長
+JP まぁいい…。
+JP とりあえず、傷の手当をしよう。
+EN Well, whatever... Let's get those wounds treated
+EN first.
+
+@ 105.154
+# パイレーツ森嶋
+JP …別にいい…。
+EN ...I don't need it...
+
+@ 105.157
+# 社 長
+JP ダメだ！
+EN Yes, you do!
+
+@ 105.167
+# パイレーツ森嶋
+JP …………ッ！
+EN ............!
+
+@ 105.170
+# 社 長
+JP ああ、大きな声出して悪かった。
+JP でも社長命令だ。
+JP 傷の手当をさせてくれ。
+EN Ah, sorry for raising my voice. But that's an order
+EN from your boss. Let me treat your wounds.
+
+@ 105.180
+# パイレーツ森嶋
+JP …わかった…。
+EN ...Understood...
+
+@ 105.183
+# 社 長
+JP じゃ、一度ホテルに戻ろう。
+EN Then let's head back to the hotel.
+
+@ 105.187
+# パイレーツ森嶋
+JP …はい…。
+EN ...Okay...
+
+@ 105.204
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.206
+# 社 長
+JP （この後、俺はホテルで
+JP 　森嶋の傷の手当をした）
+EN (After that, I treated Morishima's wounds at the
+EN hotel.)
+
+@ 105.208
+# 社 長
+JP （そして、その夜…）
+EN (And that night...)
+
+@ 105.210
+# 社 長
+JP （入り江の洞窟で倒れていた
+JP 　海賊が数十人逮捕されたという
+JP 　ニュースが流れていた）
+EN (The news reported that dozens of pirates had been
+EN arrested, found collapsed in a cave in the cove.)
+
+@ 105.212
+# 社 長
+JP 森嶋…。
+JP 怒らせると怖いな…。
+EN Morishima... She's scary when she's angry...
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP …フゥ～……。
+EN ...Phew......
+
+@ 106.26
+# 社 長
+JP （これで今日の仕事も終わりか…）
+EN (That's the end of today's work...)
+
+@ 106.28
+# 社 長
+JP （最近残業ばかりしてる
+JP 　気がするな…）
+EN (Feels like I've been doing nothing but overtime
+EN lately...)
+
+@ 106.30
+# 社 長
+JP さて、帰るか…。
+EN Well, time to head home...
+
+@ 106.34
+# ？？？
+JP …ヒャアアア…！
+EN ...Eeeeek...!
+
+@ 106.37
+# 社 長
+JP なんだ今の悲鳴？
+JP ジムからか？
+EN What was that scream? From the gym?
+
+@ 106.39
+# 社 長
+JP （ただ事じゃないぞ。
+JP 　ケガか、それとも泥棒？）
+EN (This is serious. An injury? Or a burglar?)
+
+@ 106.41
+# 社 長
+JP （そんなことを考えながら
+JP 　俺はジムへダッシュした）
+EN (With that on my mind, I dashed to the gym.)
+
+@ 106.60
+# 社 長
+JP 何があった？
+EN What happened?
+
+@ 106.62
+# 社 長
+JP （人気のないジムに入ると
+JP 　そこにいたのは森嶋だった）
+EN (When I entered the empty gym, I found Morishima
+EN there.)
+
+@ 106.72
+# パイレーツ森嶋
+JP …なに…？
+EN ...What...?
+
+@ 106.75
+# 社 長
+JP いや、今悲鳴が聞こえたんで…。
+EN Well, I just heard a scream...
+
+@ 106.79
+# パイレーツ森嶋
+JP …そう…。
+EN ...I see...
+
+@ 106.82
+# 社 長
+JP さっきの悲鳴、おまえか？
+EN Was that scream just now you?
+
+@ 106.89
+# パイレーツ森嶋
+JP …知らないわ…。
+EN ...No idea...
+
+@ 106.92
+# 社 長
+JP …そうだよな。
+EN ...Right, of course.
+
+@ 106.98
+# 社 長
+JP （いつも冷静な森嶋が
+JP 　あんな声出すとは考えにくい）
+EN (It's hard to imagine the always-cool Morishima
+EN making a sound like that.)
+
+@ 106.100
+# 社 長
+JP （もしかして
+JP 　外から聞こえたのかな…）
+EN (Maybe it came from outside...)
+
+@ 106.102
+# 社 長
+JP （そんなことを考えているとき…）
+EN (As I was thinking that...)
+
+@ 106.104
+# 社 長
+JP （俺は森嶋の足元に黒い物体
+JP 　ゴキブリがいるのを見つけた）
+EN (I spotted something black at Morishima's feet. A
+EN cockroach.)
+
+@ 106.106
+# 社 長
+JP 森嶋、足元にゴキブリが…！
+EN Morishima, there's a cockroach by your feet...!
+
+@ 106.108
+# 社 長
+JP 俺は森嶋がゴキブリを
+JP 踏み潰すことを想像していたが…。
+EN I imagined she'd just stomp it flat, but...
+
+@ 106.115
+# パイレーツ森嶋
+JP …ヒャアアア…！
+EN ...Eeeeek...!
+
+@ 106.130
+# 社 長
+JP …へっ？
+EN ...Huh?
+
+@ 106.132
+# 社 長
+JP （俺の予想と違って
+JP 　森嶋は悲鳴を上げると同時に
+JP 　俺にしがみついてきた）
+EN (Contrary to my expectations, Morishima screamed
+EN and clung to me at the same time.)
+
+@ 106.154
+# 社 長
+JP 森嶋…？
+EN Morishima...?
+
+@ 106.158
+# パイレーツ森嶋
+JP …ハゥゥ…。
+EN ...Hauuu...
+
+@ 106.161
+# 社 長
+JP おまえ…ゴキブリが
+JP そんなに苦手なのか？
+EN Are you... really that scared of cockroaches?
+
+@ 106.165
+# パイレーツ森嶋
+JP …ウゥゥ…。
+EN ...Uuuuh...
+
+@ 106.168
+# 社 長
+JP （うーむ…。
+JP 　こいつにこんな女の子らしい
+JP 　一面があるとは意外だ…）
+EN (Hmm... Who'd have thought she had such a girly
+EN side...)
+
+@ 106.170
+# 社 長
+JP （そんなことを考えていると
+JP 　ゴキブリはすでに姿を消していた）
+EN (While I was thinking that, the cockroach had already
+EN vanished.)
+
+@ 106.172
+# 社 長
+JP おい、森嶋…。
+JP もうゴキブリはいないから
+JP 安心しろ。
+EN Hey, Morishima... The cockroach is gone. You're safe.
+
+@ 106.176
+# パイレーツ森嶋
+JP ………………。
+EN .........
+
+@ 106.179
+# 社 長
+JP （周りを何度も見回してから
+JP 　森嶋はようやく俺から離れた）
+EN (After looking around again and again, Morishima
+EN finally let go of me.)
+
+@ 106.197
+# 社 長
+JP ゴキブリ、苦手なのか？
+EN You're not good with cockroaches?
+
+@ 106.204
+# パイレーツ森嶋
+JP …少し…。
+EN ...A little...
+
+@ 106.207
+# 社 長
+JP （少しっていう感じじゃ
+JP 　なかったが…）
+EN (It didn't look like "a little"...)
+
+@ 106.214
+# パイレーツ森嶋
+JP …社長…？
+EN ...Boss...?
+
+@ 106.217
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 106.221
+# パイレーツ森嶋
+JP …今日のことは内緒に…。
+EN ...Keep today a secret...
+
+@ 106.224
+# 社 長
+JP （もとから誰にも言う気は
+JP 　なかったが…）
+EN (I never intended to tell anyone in the first place...)
+
+@ 106.226
+# 社 長
+JP （そう言われると
+JP 　からかいたくなるのが心情だ…）
+EN (But when someone says that, you can't help wanting
+EN to tease them...)
+
+@ 106.228
+# 社 長
+JP さて、どうしようかなぁ？
+JP 森嶋の女の子らしい一面も
+JP 見られたしなぁ…。
+EN Hmm, what should I do? I did get to see Morishima's
+EN girly side...
+
+@ 106.235
+# パイレーツ森嶋
+JP ……………クッ…。
+EN ...............Ngh...
+
+@ 106.238
+# 社 長
+JP 誰かににうっかり話しそうだな。
+EN I might just let it slip to someone.
+
+@ 106.245
+# パイレーツ森嶋
+JP ……………ッ…。
+EN ...............!
+
+@ 106.248
+# 社 長
+JP 霧子くんにでも話してみようか。
+EN Maybe I'll tell Kiriko.
+
+@ 106.258
+# パイレーツ森嶋
+JP …社長…。
+EN ...Boss...
+
+@ 106.261
+# 社 長
+JP …んっ？
+JP どうした…？
+EN ...Hm? What is it...?
+
+@ 106.268
+# パイレーツ森嶋
+JP …大海原でサメのエサに
+JP なりたいですか…？
+EN ...Would you like to become shark bait out on the
+EN open sea...?
+
+@ 106.271
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 106.273
+# 社 長
+JP （その声は本気だった…）
+EN (She meant it...)
+
+@ 106.275
+# 社 長
+JP （おまえには冗談も通じないのか
+JP 　とも思ったが…）
+EN (I thought, can't you even take a joke? But...)
+
+@ 106.277
+# 社 長
+JP ハハ…。
+JP まさか、誰にも言うはず
+JP ないだろう…。
+EN Haha... Of course I'd never tell anyone...
+
+@ 106.284
+# パイレーツ森嶋
+JP …賢明な判断です…。
+EN ...A wise decision...
+
+@ 106.292
+# 社 長
+JP （そう言って、森嶋は去っていった）
+EN (With that, Morishima left.)
+
+@ 106.304
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.306
+# 社 長
+JP （あいつにあんな一面があったのは
+JP 　意外だったが…）
+EN (I never expected her to have a side like that...)
+
+@ 106.308
+# 社 長
+JP （あいつをからかうときは
+JP 　注意しよう…）
+EN (I'd better be careful when I tease her...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP …フゥ～……。
+EN ...Phew......
+
+@ 107.26
+# 社 長
+JP （これで今日の仕事も終わりか…。
+JP 　二日連続の徹夜はさすがに
+JP 　しんどいな…）
+EN (That's the end of today's work... Two all-nighters in
+EN a row is really rough...)
+
+@ 107.28
+# 社 長
+JP さて、帰るか…。
+EN Well, time to head home...
+
+@ 107.32
+# ？？？
+JP …ヒャアアア…！
+EN ...Eeeeek...!
+
+@ 107.35
+# 社 長
+JP なんだ、今の悲鳴？
+JP ジムからか？
+EN What was that scream? From the gym?
+
+@ 107.37
+# 社 長
+JP （前にもこんな悲鳴を
+JP 　聞いたような…）
+EN (I feel like I've heard a scream like this before...)
+
+@ 107.39
+# 社 長
+JP （そんなことを考えながら
+JP 　俺は急いでジムに入った）
+EN (With that on my mind, I hurried into the gym.)
+
+@ 107.61
+# 社 長
+JP 何があ…？
+EN What happ...?
+
+@ 107.83
+# 社 長
+JP （俺は言葉が言い終わらないうちに
+JP 　体に衝撃を受けた…）
+EN (Before I could finish, something slammed into me...)
+
+@ 107.85
+# 社 長
+JP （思いっきり
+JP 　しがみつかれたのだ）
+EN (Someone was clinging to me with all her might.)
+
+@ 107.89
+# パイレーツ森嶋
+JP …ハァゥゥ…。
+EN ...Hauuuu...
+
+@ 107.92
+# 社 長
+JP おい、森嶋。
+JP 大丈夫か。
+EN Hey, Morishima. Are you okay?
+
+@ 107.96
+# パイレーツ森嶋
+JP …アウウゥ…。
+EN ...Auuuuh...
+
+@ 107.99
+# 社 長
+JP （前と同じく目をぎゅっと閉じて
+JP 　俺にしがみついている）
+EN (Just like last time, she was clinging to me with her
+EN eyes squeezed shut.)
+
+@ 107.101
+# 社 長
+JP またゴキブリが出たのか？
+EN Did another cockroach show up?
+
+@ 107.105
+# パイレーツ森嶋
+JP …う、うん…。
+EN ...Y-yeah...
+
+@ 107.108
+# 社 長
+JP （弱々しい返事だが
+JP 　どうやらそうらしい）
+EN (A feeble answer, but apparently so.)
+
+@ 107.110
+# 社 長
+JP （俺は周囲を見回したが
+JP 　ゴキブリはもういないようだった）
+EN (I looked around, but the cockroach seemed to be
+EN gone.)
+
+@ 107.112
+# 社 長
+JP 森嶋、もういないから安心しろ。
+EN Morishima, it's gone. You're safe.
+
+@ 107.116
+# パイレーツ森嶋
+JP ………………。
+EN .........
+
+@ 107.134
+# 社 長
+JP （周りを何度も見回してから
+JP 　森嶋はようやく俺から離れた）
+EN (After looking around again and again, Morishima
+EN finally let go of me.)
+
+@ 107.156
+# 社 長
+JP あいかわらず
+JP ゴキブリは苦手みたいだな。
+EN Still not good with cockroaches, huh?
+
+@ 107.160
+# パイレーツ森嶋
+JP …ええ…。
+EN ...No...
+
+@ 107.163
+# 社 長
+JP （ようやく落ち着いたようだ）
+EN (She finally seemed to have calmed down.)
+
+@ 107.170
+# パイレーツ森嶋
+JP …社長…。
+EN ...Boss...
+
+@ 107.173
+# 社 長
+JP …どうした？
+JP 今日のことなら誰にも言わないぞ。
+EN ...What is it? If it's about today, I won't tell anyone.
+
+@ 107.177
+# パイレーツ森嶋
+JP …違う…。
+EN ...That's not it...
+
+@ 107.180
+# 社 長
+JP …なら、今度はなんだ？
+EN ...Then what is it this time?
+
+@ 107.187
+# パイレーツ森嶋
+JP …私の海賊の掟では…。
+EN ...By my pirate code...
+
+@ 107.190
+# 社 長
+JP 掟では？
+EN By your code?
+
+@ 107.197
+# パイレーツ森嶋
+JP …同じ男に二度弱みを見られた女は
+JP その男と婚約しなくてはならない…。
+EN ...A woman whose weakness is seen twice by the same
+EN man must become engaged to him...
+
+@ 107.201
+# パイレーツ森嶋
+JP …掟は絶対だから…。
+JP …私は社長の嫁…。
+EN ...The code is absolute... ...I am your bride, Boss...
+
+@ 107.204
+# 社 長
+JP ……へっ？
+EN ......Huh?
+
+@ 107.206
+# 社 長
+JP （…どこの漫画の設定だ…？）
+EN (...What manga did she get that from...?)
+
+@ 107.208
+# 社 長
+JP えーと…。
+JP その掟の話は本当なのか？
+EN Um... Is this code thing for real?
+
+@ 107.215
+# パイレーツ森嶋
+JP …ええ…。
+EN ...Yes...
+
+@ 107.218
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.225
+# パイレーツ森嶋
+JP ………………。
+EN .........
+
+@ 107.228
+# 社 長
+JP （そんなにじっと見つめられても
+JP 　困るんだが…）
+EN (Staring at me like that isn't helping...)
+
+@ 107.230
+# 社 長
+JP （なんとかしないと…）
+EN (I've got to do something...)
+
+@ 107.233
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.235
+# 社 長
+JP （そうだ！）
+EN (I know!)
+
+@ 107.238
+# 社 長
+JP ハッ！
+JP 俺は徹夜が続いて
+JP どうやら夢を見ていたらしい。
+EN Ah! I've pulled so many all-nighters, I must have been
+EN dreaming.
+
+@ 107.245
+# パイレーツ森嶋
+JP …………えっ…？
+EN ............Huh...?
+
+@ 107.248
+# 社 長
+JP そうでなければ
+JP 森嶋が俺に抱きつくなんて
+JP ありえない…。
+EN Otherwise there's no way Morishima would ever hug
+EN me...
+
+@ 107.255
+# パイレーツ森嶋
+JP …そ、そうですね…。
+EN ...Y-yes, that's right...
+
+@ 107.258
+# 社 長
+JP 悪い、森嶋。
+JP 俺はここで何か妄想していたらしい。
+EN Sorry, Morishima. I must have been having some kind
+EN of delusion here.
+
+@ 107.265
+# パイレーツ森嶋
+JP …わかりました…。
+JP …それではお互い何もなかったと…。
+EN ...Understood... ...Then nothing happened to either of
+EN us...
+
+@ 107.268
+# 社 長
+JP もちろんそうだ。
+JP すべては俺の妄想。
+JP 早く帰って寝ることにしよう。
+EN Of course not. It was all my imagination. I'd better
+EN get home and sleep.
+
+@ 107.270
+# 社 長
+JP それじゃ、お休み。
+EN Well, good night.
+
+@ 107.288
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.290
+# 社 長
+JP （俺はそう言って、森嶋を残して
+JP 　ジムを去ることにした）
+EN (With that, I left Morishima behind and walked out of
+EN the gym.)
+
+@ 107.292
+# 社 長
+JP （やれやれ…）
+EN (Good grief...)
+
+@ 108.16
+# scene 113 練習開始
+# パイレーツ森嶋
+JP …練習するわ…。
+EN ...Time to practice...
+
+@ 109.16
+# scene 114 練習開始 好意
+# パイレーツ森嶋
+JP …よろしくね…。
+EN ...Please watch over me...
+
+@ 110.16
+# scene 115 特訓開始
+# パイレーツ森嶋
+JP …強くなるためにね…。
+EN ...To get stronger...
+
+@ 111.20
+# scene 116 特訓成功
+# パイレーツ森嶋
+JP …これで少しは…。
+EN ...That should help a little...
+
+@ 112.20
+# scene 117 特訓失敗
+# パイレーツ森嶋
+JP …別に…。
+EN ...Whatever...
+
+@ 113.16
+# scene 118 休養
+# パイレーツ森嶋
+JP …海に行こうかな…。
+EN ...Maybe I'll go to the sea...
+
+@ 114.16
+# scene 119 入場1
+# パイレーツ森嶋
+JP …海賊の強さを見せる…。
+EN ...I'll show you a pirate's strength...
+
+@ 115.16
+# scene 119 入場2
+# パイレーツ森嶋
+JP …全力でぶつかる…。
+EN ...I'll hit with everything...
+
+@ 116.16
+# scene 125 必殺技１
+# パイレーツ森嶋
+JP …海賊の力、思い知りなさい…！
+EN ...Feel the power of a pirate...!
+
+@ 117.16
+# scene 125 必殺技２
+# パイレーツ森嶋
+JP …リングという海に沈みなさい…！
+EN ...Sink into the sea that is the ring...!
+
+@ 118.16
+# scene 125 必殺技３
+# パイレーツ森嶋
+JP …これでサヨナラね…！
+EN ...And this is goodbye...!
+
+@ 119.12
+# scene 126 勝利1
+# パイレーツ森嶋
+JP …私よりも強い人はいないの…？
+EN ...Is there no one stronger than me...?
+
+@ 120.12
+# scene 126 勝利2
+# パイレーツ森嶋
+JP …海賊の末裔をなめないでね…。
+EN ...Don't underestimate a pirate's descendant...
+
+@ 121.12
+# scene 126 勝利3
+# パイレーツ森嶋
+JP …もう少し練習して来なさい…。
+EN ...Go practice some more...
+
+@ 122.15
+# scene 133 表彰1
+# パイレーツ森嶋
+JP …ありがとう…。
+EN ...Thank you...
+
+@ 123.15
+# scene 133 表彰2
+# パイレーツ森嶋
+JP …別に興味ない…。
+EN ...Not really interested...
+
+@ 124.12
+# scene 134 優勝1
+# パイレーツ森嶋
+JP …私より強い人がいなかっただけ…。
+EN ...There was just no one stronger than me...
+
+@ 125.12
+# scene 134 優勝２
+# パイレーツ森嶋
+JP …私を満足させてくれる人は
+JP いないの…？
+EN ...Is there no one who can satisfy me...?
+
+@ 126.24
+# scene 135 エンディング 通常
+# パイレーツ森嶋
+JP …社長、おめでとう…。
+JP …これで慢心しないことね…。
+EN ...Congratulations, Boss... ...Don't let it go to your
+EN head...
+
+@ 127.24
+# scene 136 エンディング 好意
+# パイレーツ森嶋
+JP …社長、おめでとう…。
+JP …今度は私と一緒に
+JP 海賊をやってみる気はない…？
+EN ...Congratulations, Boss... ...Next time, how about
+EN becoming a pirate with me...?

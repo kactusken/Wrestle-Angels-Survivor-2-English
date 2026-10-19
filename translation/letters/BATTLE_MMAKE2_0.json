@@ -1,0 +1,15 @@
+{
+ "english": "Singles Match | Tag Match | Six-Woman Tag | Singles Match | Tag Match | Six-Woman Tag",
+ "boxes": [[100, 176, 168, 48], [279, 176, 147, 48], [436, 176, 167, 48], [100, 224, 168, 48], [279, 224, 147, 48], [439, 224, 161, 48]],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "battle.draw",
+ "fill": "enclosed",
+ "layers": "rows",
+ "rim": 8,
+ "rim_y": 4,
+ "cap": 25,
+ "ground": "transparent",
+ "same_size": true,
+ "groups": [{"labels": [0, 1, 2]}, {"labels": [3, 4, 5]}],
+ "notes": "special match types (help text: 1 vs 1, 2 vs 2, 3 vs 3; exe: Singles, Six-Woman Tag), normal + highlighted rows; layered plate redrawn by tools/letter_ext/battle.py"
+}

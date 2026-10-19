@@ -1,0 +1,31 @@
+{
+ "draw": "office.styled",
+ "region": [
+  409,
+  184,
+  216,
+  72
+ ],
+ "ground": "interpolate",
+ "fill": "a == 255 and r < 0xf0",
+ "fill_area": [
+  409,
+  201,
+  216,
+  40
+ ],
+ "reach": 9,
+ "learn_over": "transparent",
+ "font": "BarlowCondensed-ExtraBold.ttf",
+ "align": "right",
+ "english": "Special Training",
+ "boxes": [
+  [
+   250,
+   200,
+   364,
+   40
+  ]
+ ],
+ "notes": "gym banner \u7279\u8a13\u4e2d: as SYS_DIR_A_1; the English runs left over the stripe (a whole-picture banner)"
+}

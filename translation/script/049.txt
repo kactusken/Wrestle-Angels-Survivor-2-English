@@ -1,0 +1,2504 @@
+# /SCR/049.BIN - メイデン桜崎
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 049` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 桜崎 美咲
+JP 桜崎です。
+JP 体にはちょっと自信があります。
+EN I'm Sakurazaki. I'm fairly confident in my body.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# メイデン桜崎
+JP ありが……え、なんですか？
+JP メイドレスラーになれって…。
+JP ちょっ…聞いてないんですけど！
+EN Thank y... Wait, what? Become a maid wrestler...?
+EN H-hold on, nobody told me about this!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 桜崎 美咲
+JP ふぅ…。
+JP 残念です。
+EN Phew... That's too bad.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりに
+JP とてもメイド衣装の似合う
+JP 才媛がいると聞いたのだが…。
+EN I heard there's a gifted young woman around here
+EN who looks wonderful in a maid outfit...
+
+@ 3.25
+# 社 長
+JP 「鉄の女」
+JP 「絶対生徒会長」
+JP 「氷の女神」…。
+EN "The Iron Lady." "Student Council President for Life."
+EN "The Ice Goddess"...
+
+@ 3.27
+# 社 長
+JP 伝え聞く呼び名は
+JP どれも半端なものではない。
+EN None of the nicknames I've heard are anything to
+EN sneeze at.
+
+@ 3.29
+# 社 長
+JP それがなぜメイドに
+JP 結びつくのだろう？
+EN So how does that connect to being a maid?
+
+@ 3.31
+# 社 長
+JP お、どうやら彼女のようだな。
+EN Oh, that looks like her.
+
+@ 3.33
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 3.43
+# メイデン桜崎
+JP はい。
+JP …見かけない顔ですが
+JP どちら様ですか？
+EN Yes. ...I don't recognize you. Who might you be?
+
+@ 3.46
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.53
+# メイデン桜崎
+JP へえ…。
+JP プロレス。
+EN Huh... Pro wrestling.
+
+@ 3.56
+# 社 長
+JP どうでしょう？
+EN What do you think?
+
+@ 3.63
+# メイデン桜崎
+JP ふぅん…プロレスねぇ。
+JP このクソつまんない日常よりは
+JP マシかなぁ。…どうだろ？
+EN Hmm... Pro wrestling, huh. Beats this crappy, boring
+EN daily life, I guess. ...Or does it?
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# メイデン桜崎
+JP ＯＫ、その話、受けましょう。
+EN OK, I'll accept your offer.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.25
+# 社 長
+JP 期待しているよ。
+JP とても似合うという
+JP メイド姿とかも。
+EN I'm counting on you. And on that maid outfit I hear
+EN you look so good in.
+
+@ 4.32
+# メイデン桜崎
+JP ちょっ…それどっから聞いたの！？
+JP あれは学園祭のときに頼まれて
+JP 仕方なくっ！
+EN Wha... Where'd you hear about that?! They asked me
+EN to at the school festival, I had no choice!
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# メイデン桜崎
+JP ごめんなさい。
+JP やっぱり遠慮しておきます。
+EN I'm sorry. I think I'll pass after all.
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あのー、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# メイデン桜崎
+JP あら、こないだの社長さん。
+JP もしかして、こないだと
+JP 同じ用件ですか？
+EN Oh, the president from the other day. Could it be
+EN you're here on the same business as before?
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.43
+# メイデン桜崎
+JP う～ん。
+JP プロレス……ねぇ。
+EN Hmmm. Pro wrestling... huh.
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# メイデン桜崎
+JP ＯＫ、その話、受けましょう。
+EN OK, I'll accept your offer.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.25
+# 社 長
+JP 期待しているよ。
+JP とても似合うという
+JP メイド姿とかも。
+EN I'm counting on you. And on that maid outfit I hear
+EN you look so good in.
+
+@ 7.32
+# メイデン桜崎
+JP ちょっ…それどっから聞いたの！？
+JP あれは学園祭のときに頼まれて
+JP 仕方なくっ！
+EN Wha... Where'd you hear about that?! They asked me
+EN to at the school festival, I had no choice!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# メイデン桜崎
+JP ごめんなさい。
+JP やっぱり遠慮しておきます。
+EN I'm sorry. I think I'll pass after all.
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は桜崎選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Sakurazaki.
+
+@ 9.25
+# 社 長
+JP 桜崎選手といえば、いわずとしれた
+JP 「メイドレスラー」だが…。
+EN Sakurazaki is, of course, the famous "maid
+EN wrestler"...
+
+@ 9.27
+# 社 長
+JP 衣装に反して
+JP なかなかの武闘派なのだという。
+EN But despite the outfit, they say she's quite the
+EN brawler.
+
+@ 9.29
+# 社 長
+JP 華やかさと激しさを兼ね備える
+JP 彼女のような存在は貴重といえる。
+EN Someone like her, with both glamour and ferocity, is
+EN a rare find.
+
+@ 9.31
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be around here somewhere...
+
+@ 9.33
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.45
+# メイデン桜崎
+JP はい、なんですか？
+JP ご主人様。
+EN Yes, what can I do for you... Master?
+
+@ 9.48
+# 社 長
+JP ご…ご主人様……。
+EN M... Master...
+
+@ 9.50
+# 社 長
+JP あ、えーと…。
+JP 私、こういう者ですが…。
+EN Ah, um... I'm, er, this sort of person...
+
+@ 9.52
+# 社 長
+JP （俺は身分を明かし
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to recruit her.)
+
+@ 9.59
+# メイデン桜崎
+JP ああ、なんだ。
+JP 同業者なんだ…。
+JP プロレス団体の社長さん？
+EN Oh, is that all. You're in the business... The president
+EN of a wrestling promotion?
+
+@ 9.62
+# 社 長
+JP （話には聞いていたが
+JP 　本当にキャラを使い分けているな）
+EN (I'd heard about it, but she really does switch
+EN characters.)
+
+@ 9.64
+# 社 長
+JP ええ、そうなんです。
+JP どうでしょうか？
+EN Yes, that's right. What do you think?
+
+@ 9.71
+# メイデン桜崎
+JP うーん、移籍かぁ。
+JP 急に言われても……。
+EN Hmm, a transfer, huh. That's pretty sudden...
+
+@ 9.74
+# 社 長
+JP うちの団体に力を貸して
+JP もらえないでしょうか？
+EN Won't you lend my promotion your strength?
+
+@ 9.76
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# メイデン桜崎
+JP ま、いっか。
+JP こういうのは勢いっていうのも
+JP 必要だし。
+EN Eh, why not. Sometimes you just gotta go with the
+EN momentum.
+
+@ 10.18
+# 社 長
+JP それでは…。
+EN In that case...
+
+@ 10.29
+# メイデン桜崎
+JP ええ。
+JP これからよろしくお願いしますね…。
+JP 新しいご主人様♪
+EN Yes. I look forward to working with you... my new
+EN Master♪
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# メイデン桜崎
+JP やっぱり…今回は
+JP ごめんなさいってことで。
+EN I think... this time it'll have to be a "sorry."
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念だな……。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 桜崎選手が必要だ。
+EN My promotion really does need Sakurazaki.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# メイデン桜崎
+JP あ、こないだの……どーもー。
+JP ひょっとして、諦めてないんですか？
+EN Oh, it's you from the other day... Hiii. Don't tell me you
+EN haven't given up?
+
+@ 12.40
+# 社 長
+JP ええ、諦めてないんです。
+EN No, I haven't given up.
+
+@ 12.47
+# メイデン桜崎
+JP ふふふ。
+JP 買ってもらってますね。
+JP 悪い気はしないなぁ。
+EN Hehehe. You sure think highly of me. Can't say I mind.
+
+@ 12.50
+# 社 長
+JP ええ、買ってるんですよ。
+JP ですから、ぜひ……。
+EN Yes, I think very highly of you. So please...
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# メイデン桜崎
+JP ま、いっか。
+JP こういうのは勢いっていうのも
+JP 必要だし。
+EN Eh, why not. Sometimes you just gotta go with the
+EN momentum.
+
+@ 13.18
+# 社 長
+JP それでは…。
+EN In that case...
+
+@ 13.29
+# メイデン桜崎
+JP ええ。
+JP これからよろしくお願いしますね…。
+JP 新しいご主人様♪
+EN Yes. I look forward to working with you... my new
+EN Master♪
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# メイデン桜崎
+JP やっぱり…今回は
+JP ごめんなさいってことで。
+EN I think... this time it'll have to be a "sorry."
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念だな……。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は桜崎選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Sakurazaki.
+
+@ 15.25
+# 社 長
+JP メイドの衣装と、それに似合わぬ
+JP 激しい戦い方はすばらしい。
+EN A maid outfit paired with a ferocious fighting style
+EN that doesn't match it at all. Wonderful.
+
+@ 15.27
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 15.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# メイデン桜崎
+JP はい、なんでしょうか？
+JP ご主人様。
+EN Yes, how may I help you... Master?
+
+@ 15.44
+# 社 長
+JP ご…ご主人様…。
+EN M... Master...
+
+@ 15.46
+# 社 長
+JP あ、えーと…。
+JP 私、こういう者ですが…。
+EN Ah, um... I'm, er, this sort of person...
+
+@ 15.48
+# 社 長
+JP （俺は身分を明かし
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to recruit her.)
+
+@ 15.55
+# メイデン桜崎
+JP プロレス団体の社長さん？
+JP …なんだ、業界の人か。
+EN The president of a wrestling promotion? ...Oh, so
+EN you're in the business.
+
+@ 15.58
+# 社 長
+JP （話には聞いていたが
+JP 　本当にキャラを使い分けているな）
+EN (I'd heard about it, but she really does switch
+EN characters.)
+
+@ 15.60
+# 社 長
+JP ええ、そうなんです。
+JP どうでしょうか？
+EN Yes, that's right. What do you think?
+
+@ 15.67
+# メイデン桜崎
+JP 入団、ですか。
+JP うーん、どうしよっかなぁ。
+EN Joining you, huh. Hmm, what should I do...
+
+@ 15.70
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Won't you please lend us your strength?
+
+@ 15.72
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# メイデン桜崎
+JP こういうのは勢いも
+JP 大事ですもんね…。
+JP わかりました。
+EN Momentum matters in these things, doesn't it... All
+EN right.
+
+@ 16.18
+# 社 長
+JP それでは…。
+EN In that case...
+
+@ 16.29
+# メイデン桜崎
+JP お世話になります。
+JP これからよろしくお願いしますね…。
+JP 新しいご主人様♪
+EN I'll be in your care. I look forward to working with
+EN you... my new Master♪
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# メイデン桜崎
+JP ちょっと今回は
+JP ごめんなさいってことで。
+EN I think this time it'll have to be a "sorry."
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念だな…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 桜崎選手が必要だ。
+EN My promotion really does need Sakurazaki.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度桜崎選手と
+JP 交渉することにした。
+EN I decided to negotiate with Sakurazaki once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# メイデン桜崎
+JP あ、こないだの…どーもー。
+JP ひょっとして、諦めてないんですか？
+EN Oh, it's you from the other day... Hiii. Don't tell me you
+EN haven't given up?
+
+@ 18.40
+# 社 長
+JP ええ、諦めてないんです。
+EN No, I haven't given up.
+
+@ 18.47
+# メイデン桜崎
+JP ふふふ。
+JP 買ってもらってますね。
+JP 悪い気はしないなぁ。
+EN Hehehe. You sure think highly of me. Can't say I mind.
+
+@ 18.50
+# 社 長
+JP 悪い気のしないところで
+JP 入団してもらえないでしょうか？
+EN Then while you don't mind, won't you join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# メイデン桜崎
+JP こういうのは勢いも
+JP 大事ですもんね…。
+JP わかりました。
+EN Momentum matters in these things, doesn't it... All
+EN right.
+
+@ 19.18
+# 社 長
+JP それでは…。
+EN In that case...
+
+@ 19.29
+# メイデン桜崎
+JP お世話になります。
+JP これからよろしくお願いしますね…。
+JP 新しいご主人様♪
+EN I'll be in your care. I look forward to working with
+EN you... my new Master♪
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# メイデン桜崎
+JP ちょっと今回は
+JP ごめんなさいってことで。
+EN I think this time it'll have to be a "sorry."
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念だな…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は桜崎を訪ねることにした。
+EN I decided to pay Sakurazaki a visit.
+
+@ 21.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler my promotion needs, after all.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 21.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 桜崎！
+EN Sakurazaki!
+
+@ 21.41
+# メイデン桜崎
+JP あら…？
+EN Oh...?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# メイデン桜崎
+JP これはこれは…元ご主人様。
+JP 何かご用ですか？
+EN Well, well... my former Master. Is there something you
+EN need?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you. I want you to
+EN come back.
+
+@ 21.61
+# メイデン桜崎
+JP 戻って欲しい？
+JP 一方的に切り捨てておいて
+JP 戻ってきて欲しい？
+EN Come back? You cut me loose without a word, and now
+EN you want me back?
+
+@ 21.64
+# 社 長
+JP すまん、反省している。
+JP だから、戻ってきてはくれないか？
+EN I'm sorry. I regret it. So won't you come back?
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to return to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# メイデン桜崎
+JP …この貸しは大きいですよ？
+JP わかっています？
+EN ...You'll owe me big for this, you know? Do you
+EN understand?
+
+@ 22.18
+# 社 長
+JP ああ、もちろんだ。
+EN Yes, of course.
+
+@ 22.29
+# メイデン桜崎
+JP わかりました。
+JP 今回だけは許しましょう…。
+JP ご主人様。
+EN Very well. I'll forgive you, just this once... Master.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP また、よろしく頼む。
+EN Thank you. I'm counting on you again.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# メイデン桜崎
+JP んー、ダメ。
+EN Mmm, no.
+
+@ 23.22
+# 社 長
+JP どうしてもか？
+EN No matter what?
+
+@ 23.29
+# メイデン桜崎
+JP ま、メイドも主人を選ぶ権利は
+JP あるってことです。
+EN Well, let's just say a maid has the right to choose
+EN her master too.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな）
+EN (I brought this on myself, I suppose.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び桜崎を訪ねることにした。
+EN I decided to visit Sakurazaki again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler my promotion needs, after all.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 24.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 24.31
+# 社 長
+JP 桜崎！
+EN Sakurazaki!
+
+@ 24.41
+# メイデン桜崎
+JP あら？
+JP またですか。
+EN Oh? You again?
+
+@ 24.44
+# 社 長
+JP 本当にすまん。
+JP でも、おまえを諦めきれなくてね。
+EN I'm really sorry. But I just can't give up on you.
+
+@ 24.46
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.48
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to return to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# メイデン桜崎
+JP …この貸しは大きいですよ？
+JP わかっています？
+EN ...You'll owe me big for this, you know? Do you
+EN understand?
+
+@ 25.18
+# 社 長
+JP ああ、もちろんだ。
+EN Yes, of course.
+
+@ 25.29
+# メイデン桜崎
+JP わかりました。
+JP 今回だけは許しましょう…。
+JP ご主人様。
+EN Very well. I'll forgive you, just this once... Master.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP また、よろしく頼む。
+EN Thank you. I'm counting on you again.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# メイデン桜崎
+JP んー、ダメ。
+EN Mmm, no.
+
+@ 26.22
+# 社 長
+JP どうしてもか？
+EN No matter what?
+
+@ 26.29
+# メイデン桜崎
+JP ま、メイドも主人を選ぶ権利は
+JP あるってことです。
+EN Well, let's just say a maid has the right to choose
+EN her master too.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな）
+EN (I brought this on myself, I suppose.)
+
+@ 27.16
+# scene 028 ケガ小
+# メイデン桜崎
+JP イタッ…。
+JP まあ、これくらいなら
+JP 心配することもないですよ。
+EN Ow... Well, this much is nothing to worry about.
+
+@ 28.16
+# scene 029 ケガ大
+# メイデン桜崎
+JP すみません、ご主人様。
+JP ドジ踏みました…。
+EN I'm sorry, Master. I really messed up...
+
+@ 29.16
+# scene 030 入院
+# メイデン桜崎
+JP やれやれ…。
+JP ナースの研究でもしてこいって？
+EN Good grief... Am I supposed to go study up on nurses
+EN or something?
+
+@ 30.16
+# scene 031 退院
+# メイデン桜崎
+JP ご心配をおかけしました、ご主人様。
+JP 桜崎、完全復活です。
+EN I apologize for worrying you, Master. Sakurazaki is
+EN fully restored.
+
+@ 31.16
+# scene 032 ケガ完治
+# メイデン桜崎
+JP うし…。
+JP これで、ＯＫ。
+EN All right... That's OK now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# メイデン桜崎
+JP わかりました。
+JP それがご主人様の意志ならば
+JP 従います。
+EN Understood. If that is my Master's will, I shall obey.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# メイデン桜崎
+JP 申し訳ありません、ご主人様。
+JP 今しばし、考える猶予をください。
+EN My deepest apologies, Master. Please give me a little
+EN more time to consider.
+
+@ 34.16
+# scene 035 コーチ就任
+# メイデン桜崎
+JP 私、スパルタ主義ですよ？
+EN Just so you know, I'm a strict taskmaster.
+
+@ 35.16
+# scene 036 ケガ引退
+# メイデン桜崎
+JP すみません…。
+JP ギブアップです……。
+EN I'm sorry... I give up...
+
+@ 36.16
+# scene 037 年齢引退
+# メイデン桜崎
+JP そろそろキッツイですね。
+JP 体も、この衣装で戦うことも…。
+EN It's getting pretty rough. On my body, and fighting in
+EN this outfit too...
+
+@ 37.16
+# scene 038 退団
+# メイデン桜崎
+JP あんたをご主人様扱いするの
+JP 疲れたわ。
+JP ばぁ――か。
+EN I'm sick of treating you like my master. Byeee, idiot.
+
+@ 38.16
+# scene 039 スランプ
+# メイデン桜崎
+JP スランプってヤツね…。
+JP …はぁ……。
+EN So this is what they call a slump... ...Sigh...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# メイデン桜崎
+JP 私にファンクラブですか。
+EN A fan club for me?
+
+@ 39.19
+# 社 長
+JP よかったな。
+JP 期待に応えるようにな。
+EN Good for you. Make sure you live up to their
+EN expectations.
+
+@ 39.26
+# メイデン桜崎
+JP もちろんですわ、ご主人様。
+JP お任せください。
+EN But of course, Master. Leave it to me.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# メイデン桜崎
+JP また、増えたんですか。
+JP ファンクラブ？
+EN Another fan club? Again?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP ますますがんばらないとな。
+EN Yeah. We'll have to work even harder.
+
+@ 40.26
+# メイデン桜崎
+JP そうですわね。
+JP これは気が抜けませんわ。
+EN Indeed. I mustn't let my guard down now.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# メイデン桜崎
+JP 解散ですか…。
+EN It's disbanding...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard and try
+EN again.
+
+@ 41.26
+# メイデン桜崎
+JP まあ、こんなもんですよ。
+JP 人生山あり谷あり。
+EN Well, that's how it goes. Life has its ups and downs.
+
+@ 42.16
+# scene 043 映画出演
+# メイデン桜崎
+JP なんの役でしょうね？
+JP 殺人現場を見てしまうとか…。
+EN I wonder what role I'll get? Maybe the maid who
+EN witnesses the murder...
+
+@ 43.16
+# scene 044 一日署長
+# メイデン桜崎
+JP 署長も公僕。
+JP 誰かに仕える身ということには
+JP 変わりないですよね。
+EN A police chief is a public servant too. Still someone in
+EN service, right?
+
+@ 44.16
+# scene 045 写真集発売
+# メイデン桜崎
+JP 写真集…ねえ。
+JP 主役は私とメイド服の
+JP どっちなんでしょうかね？
+EN A photo book... huh. I wonder who the star is, me or
+EN the maid uniform?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# メイデン桜崎
+JP じゃ、ちょっと商品に
+JP 仕えてきましょうか。
+EN Well then, I'll go be of service to a product for a bit.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# メイデン桜崎
+JP 歌ですかぁ…？
+JP どんなの歌うんだろ？
+EN A song...? I wonder what kind I'll sing?
+
+@ 47.16
+# scene 048 始球式
+# メイデン桜崎
+JP メイド服着て投げるんですよね…。
+JP 想像すると、ちょっとシュール…。
+EN I'll be pitching in my maid uniform, won't I... Picturing
+EN it, it's a bit surreal...
+
+@ 48.16
+# scene 049 学園祭
+# メイデン桜崎
+JP くすくすくす。
+JP 学生さん達にご奉仕してきますね。
+EN Hee hee hee. I'm off to serve the students.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.36
+# メイデン桜崎
+JP え、私にですか？
+EN Oh, for me?
+
+@ 49.39
+# 社 長
+JP ああ、これからもよろしく。
+EN Yes. Here's to many more years together.
+
+@ 49.46
+# メイデン桜崎
+JP ありがとうございます。
+JP ご主人様からのプレゼント
+JP 大事にしますね。
+EN Thank you very much. I'll treasure this present from
+EN my Master.
+
+@ 50.30
+# scene 051 バレンタインデー
+# メイデン桜崎
+JP ご主人様。
+JP バレンタインのチョコです。
+EN Master. Here's your Valentine's chocolate.
+
+@ 50.33
+# 社 長
+JP お、ありがとう。
+EN Oh, thank you.
+
+@ 50.37
+# メイデン桜崎
+JP 来月、期待してますね。
+JP ３倍なんていいませんけど。
+EN I'll be looking forward to next month. Not that I'm
+EN asking for triple back, mind you.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# メイデン桜崎
+JP …忘れないでいてくれたんですね。
+JP ありがとうございます、ご主人様。
+EN ...You didn't forget. Thank you very much, Master.
+
+@ 51.39
+# 社 長
+JP ああ、後で食べてくれ。
+EN Sure. Enjoy it later.
+
+@ 52.31
+# scene 053 サイン会
+# メイデン桜崎
+JP はい…。
+JP 書かせていただきますね、ご主人様。
+JP 応援、ありがとうございます。
+EN Yes... Allow me to sign that for you, Master. Thank
+EN you for your support.
+
+@ 53.31
+# scene 054 コンサート
+# メイデン桜崎
+JP 本業以外で
+JP どこまでおもてなしできるか…。
+JP 勝負って感じですね。
+EN How well can I entertain outside my real job...? It
+EN feels like a real test.
+
+@ 54.28
+# scene 055 練習拒否
+# メイデン桜崎
+JP 一身上の都合につき
+JP お休みさせていただきます。
+EN For personal reasons, I will be taking the day off.
+
+@ 55.28
+# scene 056 失踪
+# メイデン桜崎
+JP 少々お暇をいただきます。
+EN I shall be taking a short leave.
+
+@ 56.16
+# scene 057 選手解雇
+# メイデン桜崎
+JP …………そうですか。
+EN ............I see.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# メイデン桜崎
+JP それでは行ってまいります。
+EN Well then, I'll be off.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# メイデン桜崎
+JP ただいま戻りました。
+EN I have returned.
+
+@ 59.26
+# scene 060 移籍思案
+# メイデン桜崎
+JP うーん…。
+JP 別の団体…かぁ。
+EN Hmm... Another promotion... huh.
+
+@ 60.16
+# scene 061 革命軍結成
+# メイデン桜崎
+JP 少々、リングのお掃除が
+JP 必要なようですね。
+EN It appears the ring is in need of a little cleaning.
+
+@ 61.16
+# scene 062 反乱軍結成
+# メイデン桜崎
+JP いっちょ…やりますか…。
+EN Guess I'll... give it a shot...
+
+@ 62.16
+# scene 063 最終決戦要求
+# メイデン桜崎
+JP そろそろ決着をつけましょうか。
+EN Shall we settle this once and for all?
+
+@ 63.16
+# scene 064 遺恨発生
+# メイデン桜崎
+JP くすくすくすくすくすくす…。
+JP ブッコロス。
+EN Hee hee hee hee hee hee... I'm gonna kill her.
+
+@ 64.16
+# scene 065 殴り込み
+# メイデン桜崎
+JP いってまいります、ご主人様。
+EN I'll be off now, Master.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# メイデン桜崎
+JP 私がおもてなししますわ、お客様…。
+JP 無事帰れると思わないでね。
+EN I shall entertain you myself, dear guests... Don't
+EN think you're getting home in one piece.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# メイデン桜崎
+JP お邪魔しますね。
+JP おほほほほほ……。
+EN Pardon the intrusion. Oh-ho-ho-ho-ho...
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# メイデン桜崎
+JP 承りましたわ、ご主人様。
+JP 我が団体に、勝利を！
+EN As you wish, Master. Victory to our promotion!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# メイデン桜崎
+JP やった。
+JP やりました、ご主人様…。
+JP うっしゃあ―――！
+EN I did it. I did it, Master... Hell yeaaah!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# メイデン桜崎
+JP 申し訳ありません、ご主人様…。
+EN My deepest apologies, Master...
+
+@ 70.13
+# scene 071 引退式
+# メイデン桜崎
+JP こんなにもたくさんのご主人様に
+JP 励まされ……桜崎は幸せでした。
+JP これで、お暇をいただき…ます…。
+EN Encouraged by so many masters... Sakurazaki was
+EN happy. And with this, I take my leave...
+
+@ 71.17
+# メイデン桜崎
+JP はい。
+JP なんでしょうか、ご主人様。
+EN Yes. How may I help you, Master?
+
+@ 71.36
+# メイデン桜崎
+JP はい。
+JP なんでしょうか、ご主人様。
+EN Yes. How may I help you, Master?
+
+@ 71.46
+# メイデン桜崎
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good shape lately. Keep it
+EN up!
+
+@ 71.89
+# メイデン桜崎
+JP ありがとうございます、ご主人様。
+JP これからもがんばらせて
+JP いただきます。
+EN Thank you very much, Master. Allow me to keep doing
+EN my best.
+
+@ 71.110
+# メイデン桜崎
+JP すみません、ご主人様。
+JP 今の褒められどころが
+JP わかりませんでした。
+EN I'm sorry, Master. I didn't catch which part of that
+EN was the praise.
+
+@ 71.131
+# メイデン桜崎
+JP ありがとうございます、ご主人様。
+JP これからも、誠心誠意
+JP ご奉仕いたします。
+EN Thank you very much, Master. I shall continue to
+EN serve you with all my heart.
+
+@ 71.152
+# メイデン桜崎
+JP ありがとうございます、ご主人様。
+JP しかし、この程度では浮かれて
+JP いられませんので…。
+EN Thank you very much, Master. But this is nothing to
+EN get carried away over...
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# メイデン桜崎
+JP 申し訳ありませんでした、ご主人様。
+EN My deepest apologies, Master.
+
+@ 71.210
+# メイデン桜崎
+JP はぁ…。
+JP よくわかりませんが
+JP 申し訳ありません。
+EN Um... I don't really understand, but I apologize.
+
+@ 71.231
+# メイデン桜崎
+JP 申し訳ありません、ご主人様。
+JP これからは気をつけます。
+EN My apologies, Master. I'll be more careful from now
+EN on.
+
+@ 71.252
+# メイデン桜崎
+JP ご主人様、そんなに私が
+JP 気になりますか？
+EN Master, are you really that interested in me?
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 71.289
+# メイデン桜崎
+JP ご忠告ありがとうございます、ご主人様。
+JP ご期待に添えるようがんばります。
+EN Thank you for your concern, Master. I'll do my best
+EN to live up to your expectations.
+
+@ 71.310
+# メイデン桜崎
+JP いつも通りにふるまっている
+JP つもりなのですが…。
+JP メイド分不足かな？
+EN I thought I was acting the same as always... Maybe I'm
+EN low on maid power?
+
+@ 71.331
+# メイデン桜崎
+JP 申し訳ありません、ご主人様。
+JP これからはもっと積極的に
+JP ご奉仕しますね。
+EN My apologies, Master. From now on I'll serve you more
+EN proactively.
+
+@ 71.352
+# メイデン桜崎
+JP お優しいのですね。
+JP でも、その優しさに甘えてばかりも
+JP いられませんので…。
+EN How kind of you. But I can't keep leaning on your
+EN kindness...
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# メイデン桜崎
+JP 察しはついています。
+EN I have a fair idea.
+
+@ 71.399
+# メイデン桜崎
+JP さあ、わかりません。
+EN I'm afraid I don't know.
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.432
+# メイデン桜崎
+JP わかりました。
+JP ご主人様の命令とあらば…。
+EN Understood. If that is my Master's order...
+
+@ 71.453
+# メイデン桜崎
+JP ご主人様の命令でも、
+JP それは聞けません…。
+JP …つか、仕掛けてきたのあいつだし…。
+EN Even if it's my Master's order, I can't do that... Like,
+EN she's the one who started it...
+
+@ 71.474
+# メイデン桜崎
+JP あの、ご主人様…。
+JP 誰かと間違えてはいませんか？
+EN Um, Master... Aren't you mistaking me for someone
+EN else?
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# メイデン桜崎
+JP 申し訳ありません…。
+EN My apologies...
+
+@ 71.521
+# メイデン桜崎
+JP さあ。
+JP 愛の告白だと嬉しいのですが…。
+EN Who knows. I'd be delighted if it were a confession of
+EN love...
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.556
+# メイデン桜崎
+JP わかりました。
+JP 他ならぬご主人様の頼みとあらば…。
+EN Understood. If it's a request from you of all people,
+EN Master...
+
+@ 71.577
+# メイデン桜崎
+JP ご主人様は…あの女のカタを
+JP 持つんですか？
+EN Master... you're taking that woman's side?
+
+@ 71.598
+# メイデン桜崎
+JP 遠回しのプロポーズ
+JP …ではないみたいですね。
+EN Not a roundabout marriage proposal... I see.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# メイデン桜崎
+JP はい。
+JP なんでしょうか、ご主人様。
+EN Yes. How may I help you, Master?
+
+@ 72.16
+# メイデン桜崎
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good shape lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# メイデン桜崎
+JP ありがとうございます、ご主人様。
+JP これからもがんばらせて
+JP いただきます。
+EN Thank you very much, Master. Allow me to keep doing
+EN my best.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# メイデン桜崎
+JP すみません、ご主人様。
+JP 今の褒められどころが
+JP わかりませんでした。
+EN I'm sorry, Master. I didn't catch which part of that
+EN was the praise.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# メイデン桜崎
+JP ありがとうございます、ご主人様。
+JP これからも、誠心誠意
+JP ご奉仕いたします。
+EN Thank you very much, Master. I shall continue to
+EN serve you with all my heart.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# メイデン桜崎
+JP ありがとうございます、ご主人様。
+JP しかし、この程度では浮かれて
+JP いられませんので…。
+EN Thank you very much, Master. But this is nothing to
+EN get carried away over...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# メイデン桜崎
+JP 申し訳ありませんでした、ご主人様。
+EN My deepest apologies, Master.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# メイデン桜崎
+JP はぁ…。
+JP よくわかりませんが…
+JP 申し訳ありません。
+EN Um... I don't really understand, but I apologize.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# メイデン桜崎
+JP 申し訳ありません、ご主人様。
+JP これからは気をつけます。
+EN My apologies, Master. I'll be more careful from now
+EN on.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# メイデン桜崎
+JP ご主人様、
+JP そんなに私が気になりますか？
+EN Master, are you really that interested in me?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# メイデン桜崎
+JP ご忠告ありがとうございます、
+JP ご主人様。ご期待に添えるよう
+JP がんばります。
+EN Thank you for your concern, Master. I'll do my best
+EN to live up to your expectations.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# メイデン桜崎
+JP いつも通りにふるまっている
+JP つもりなのですが…。
+JP メイド分不足かな？
+EN I thought I was acting the same as always... Maybe I'm
+EN low on maid power?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# メイデン桜崎
+JP 申し訳ありません、ご主人様。
+JP これからはもっと積極的に
+JP ご奉仕しますね。
+EN My apologies, Master. From now on I'll serve you more
+EN proactively.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# メイデン桜崎
+JP お優しいのですね。
+JP でも、その優しさに甘えてばかりも
+JP いられませんので…。
+EN How kind of you. But I can't keep leaning on your
+EN kindness...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# メイデン桜崎
+JP 察しはついています。
+EN I have a fair idea.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# メイデン桜崎
+JP さあ、わかりません。
+EN I'm afraid I don't know.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# メイデン桜崎
+JP わかりました。
+JP ご主人様の命令とあらば…。
+EN Understood. If that is my Master's order...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# メイデン桜崎
+JP ご主人様の命令でも、
+JP それは聞けません…
+JP つか、仕掛けてきたのあいつだし…。
+EN Even if it's my Master's order, I can't do that... Like,
+EN she's the one who started it...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# メイデン桜崎
+JP あの、ご主人様…。
+JP 誰かと間違えてはいませんか？
+EN Um, Master... Aren't you mistaking me for someone
+EN else?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# メイデン桜崎
+JP 申し訳ありません…。
+EN My apologies...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# メイデン桜崎
+JP さあ。
+JP 愛の告白だと嬉しいのですが…。
+EN Who knows. I'd be delighted if it were a confession of
+EN love...
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# メイデン桜崎
+JP わかりました。
+JP 他ならぬご主人様の頼みとあらば…。
+EN Understood. If it's a request from you of all people,
+EN Master...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# メイデン桜崎
+JP ご主人様は…
+JP あの女のカタを持つんですか？
+EN Master... you're taking that woman's side?
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# メイデン桜崎
+JP 遠回しのプロポーズ…
+JP ではないみたいですね。
+EN Not a roundabout marriage proposal... I see.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# メイデン桜崎
+JP 承知しました。
+JP では、この条件で…。
+EN Certainly. Then, on these terms...
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# メイデン桜崎
+JP これは、より真心込めて
+JP ご奉仕しないといけませんね。
+EN Well, now I'll have to serve you with even more
+EN devotion.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# メイデン桜崎
+JP …………承知しました。
+JP では、この条件で。
+EN ............Certainly. Then, on these terms.
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は国内の全天候型
+JP 　アミューズメントプールへ
+JP 　やってきた）
+EN (And so we arrived at an all-weather indoor
+EN amusement pool here in Japan.)
+
+@ 105.26
+# 社 長
+JP （この場所を希望したのは桜崎だ）
+EN (It was Sakurazaki who asked to come here.)
+
+@ 105.28
+# 社 長
+JP （なんでも、施設内に
+JP 　メイド喫茶のある全国初の
+JP 　施設だそうなのだが…）
+EN (Apparently it's the first facility in the country with
+EN a maid cafe inside...)
+
+@ 105.32
+# メイデン桜崎
+JP あ、あそこですよ、ご主人様。
+JP さぁ。
+EN Oh, there it is, Master. Come on.
+
+@ 105.35
+# 社 長
+JP え、俺も行くのか？
+EN Huh, I'm going too?
+
+@ 105.39
+# メイデン桜崎
+JP ええ、せっかくですし。
+JP さぁ。
+EN Yes, since we're here anyway. Come on.
+
+@ 105.42
+# 社 長
+JP （そして、俺は桜崎に引っ張られ…）
+EN (And so Sakurazaki dragged me along...)
+
+@ 105.44
+# 社 長
+JP （ともにプールサイドの
+JP 　メイド喫茶へと足を踏み入れた）
+EN (and we stepped into the poolside maid cafe
+EN together.)
+
+@ 105.58
+# メイド
+JP いらっしゃいませ～。
+JP ２名様ご来店で～す！
+EN Welcome! Table for two!
+
+@ 105.68
+# メイデン桜崎
+JP いらっしゃいませ？
+EN "Welcome"?
+
+@ 105.71
+# 社 長
+JP （希望していた店に来たにも
+JP 　関わらず…、なぜか、桜崎は
+JP 　不機嫌そうだった）
+EN (Even though this was the place she'd wanted to
+EN come to... for some reason, Sakurazaki looked
+EN annoyed.)
+
+@ 105.75
+# メイデン桜崎
+JP 違うでしょ。
+JP そこは「お帰りなさいませ」でしょ。
+EN That's wrong. It's supposed to be "Welcome home."
+
+@ 105.79
+# メイデン桜崎
+JP それに２名様じゃない。
+JP 「ご主人様」に「お嬢様」
+JP でしょうが。
+EN And it's not "table for two." It's "Master" and
+EN "Mistress," obviously.
+
+@ 105.83
+# メイデン桜崎
+JP いらっしゃいませじゃ
+JP メイドの意味ないでしょ…。
+EN If you just say "welcome," what's even the point of
+EN being a maid...?
+
+@ 105.86
+# 社 長
+JP （桜崎は何やらぶつぶつと
+JP 　不平をもらしている）
+EN (Sakurazaki was grumbling about something.)
+
+@ 105.88
+# 社 長
+JP どうした桜崎。
+JP せっかく望み通りの場所に来たのに。
+EN What's wrong, Sakurazaki? We came to the exact
+EN place you wanted.
+
+@ 105.92
+# メイデン桜崎
+JP はあ…なんというか…。
+JP 同じメイドとして
+JP お恥ずかしいというか…。
+EN Well... how should I put it... As a fellow maid, it's kind of
+EN embarrassing...
+
+@ 105.95
+# 社 長
+JP 同じメイドって…。
+EN "A fellow maid"...
+
+@ 105.97
+# 社 長
+JP （そこまでプロ意識持たなくても）
+EN (She doesn't need to be THAT professional about it.)
+
+@ 105.101
+# メイデン桜崎
+JP ああっ。
+JP ご主人様たちの見えるところで
+JP あんなにだべって…。
+EN Ahh! Look at them chatting away right where the
+EN masters can see...
+
+@ 105.105
+# メイデン桜崎
+JP 本当になってないなぁ…もう…。
+EN They really don't have a clue... Geez...
+
+@ 105.108
+# 社 長
+JP 桜崎…。
+JP もうちょっと力抜け。
+JP な？
+EN Sakurazaki... Relax a little, OK?
+
+@ 105.112
+# メイデン桜崎
+JP わかってますけど…。
+JP なんか、歯がゆいというか。
+EN I know, but... it's just so frustrating.
+
+@ 105.115
+# 社 長
+JP （マジメだなぁ）
+EN (She's so serious.)
+
+@ 105.119
+# メイデン桜崎
+JP ご主人様。
+EN Master.
+
+@ 105.122
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 105.126
+# メイデン桜崎
+JP ホテルに戻ったら
+JP ご奉仕の特訓につきあってください。
+EN When we get back to the hotel, please help me with
+EN some special service training.
+
+@ 105.130
+# メイデン桜崎
+JP なんか、いてもたっても
+JP いられません。
+EN I just can't sit still.
+
+@ 105.133
+# 社 長
+JP ご奉仕って…。
+EN Service training...
+
+@ 105.135
+# 社 長
+JP それって、特訓いるのか？
+EN Does that really need special training?
+
+@ 105.139
+# メイデン桜崎
+JP いるんです！
+EN It does!
+
+@ 105.143
+# メイデン桜崎
+JP 当然じゃないですか、もう。
+EN Obviously! Honestly.
+
+@ 105.146
+# 社 長
+JP わ、わかった。
+EN O-OK, got it.
+
+@ 105.148
+# 社 長
+JP （どんな特訓になるんだろう？）
+EN (What kind of training will that be?)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある日、仕事をしている俺の所へ
+JP 　桜崎がやってきた）
+EN (One day, as I was working, Sakurazaki came to see
+EN me.)
+
+@ 106.34
+# メイデン桜崎
+JP あの…ご主人様…お願いが…。
+EN Um... Master... I have a favor to ask...
+
+@ 106.37
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 106.44
+# メイデン桜崎
+JP ご存じの通り
+JP 私は一流のメイドレスラーに
+JP なるべく…。
+EN As you know, in order to become a first-class maid
+EN wrestler...
+
+@ 106.48
+# メイデン桜崎
+JP 色々とご奉仕の技術を
+JP 習得しているのですが。
+EN I've been mastering all sorts of service techniques.
+
+@ 106.51
+# 社 長
+JP ああ、いつも感心しているよ。
+EN Yes, I'm always impressed.
+
+@ 106.53
+# 社 長
+JP （こいつの中身は
+JP 　結構過激であることを
+JP 　俺は知っている）
+EN (I know that, inside, she's actually pretty wild.)
+
+@ 106.55
+# 社 長
+JP （普段、俺を「ご主人様」と呼ぶのは
+JP 　キャラづけを徹底させるためだ）
+EN (She calls me "Master" all the time just to stay fully in
+EN character.)
+
+@ 106.57
+# 社 長
+JP （そのあたり、真面目な性格である
+JP 　とも言える）
+EN (In that sense, you could say she's a serious
+EN person.)
+
+@ 106.64
+# メイデン桜崎
+JP で、ですね。
+EN So, um, you see.
+
+@ 106.68
+# メイデン桜崎
+JP 中には、ど～～しても練習相手が
+JP いないと上達しないスキルも
+JP あるんです。
+EN Some skills just abso-lutely can't be improved
+EN without a practice partner.
+
+@ 106.71
+# 社 長
+JP ほう。
+JP それはなんだ？
+EN Oh? Like what?
+
+@ 106.78
+# メイデン桜崎
+JP マッサージです。
+EN Massage.
+
+@ 106.81
+# 社 長
+JP マッサージ？
+EN Massage?
+
+@ 106.88
+# メイデン桜崎
+JP ええ、マッサージ。
+EN Yes, massage.
+
+@ 106.92
+# メイデン桜崎
+JP 全身オイルマッサージ。
+JP できたら、ぜひご主人様に実験台に…。
+EN A full-body oil massage. If possible, I'd love for you
+EN to be my test subject, Master...
+
+@ 106.95
+# 社 長
+JP おいおい。
+JP それなら他のレスラーでも
+JP できるだろうに。
+EN Hey, hey. You could do that with one of the other
+EN wrestlers.
+
+@ 106.99
+# メイデン桜崎
+JP 社長で試してみたいんです…。
+JP ぜひに！
+EN I want to try it on you, Boss... Please!
+
+@ 106.102
+# 社 長
+JP そ、そうか…。
+EN I-I see...
+
+@ 106.117
+# 社 長
+JP （そして、俺は押し切られ…）
+EN (And so she talked me into it...)
+
+@ 106.133
+# メイデン桜崎
+JP んっ……ふ……。
+EN Nn... hff...
+
+@ 106.136
+# 社 長
+JP （こうしてマッサージを
+JP 　受けているわけだが…）
+EN (So here I am, getting a massage...)
+
+@ 106.140
+# メイデン桜崎
+JP どうですか？
+JP ご主人様。
+EN How is it, Master?
+
+@ 106.143
+# 社 長
+JP どうもむずがゆいな…。
+EN It kind of tickles...
+
+@ 106.145
+# 社 長
+JP （たしかに、これは人間での練習が
+JP 　必要なんだろうなぁ）
+EN (I can see why she'd need a real person to practice
+EN on.)
+
+@ 106.147
+# 社 長
+JP （メイドとの関連性が
+JP 　いまだにわからないが）
+EN (I still don't see what it has to do with being a maid,
+EN though.)
+
+@ 106.151
+# メイデン桜崎
+JP うぅ…。
+JP じゃあ、これでは？
+EN Ugh... Then how about this?
+
+@ 106.154
+# 社 長
+JP ぐはっ！
+EN Gwah!
+
+@ 106.156
+# 社 長
+JP 痛っ！
+JP 痛すぎる…。
+EN Ow! That hurts way too much...
+
+@ 106.160
+# メイデン桜崎
+JP それなら…ここを、こう…。
+EN Then... here, like this...
+
+@ 106.163
+# 社 長
+JP イタタッ！
+JP そこはもういいよ！
+EN Owowow! That spot's fine now!
+
+@ 106.166
+# 社 長
+JP 桜崎！
+JP そ、そろそろ終わりにしよう！
+EN Sakurazaki! L-let's wrap this up!
+
+@ 106.170
+# メイデン桜崎
+JP ダメです！
+JP 恥ずかしがらないでください！
+EN No way! Don't be shy!
+
+@ 106.173
+# 社 長
+JP い、いや、そういう訳じゃない…！
+EN N-no, that's not it...!
+
+@ 106.175
+# 社 長
+JP （こうして
+JP 　天国か地獄かわからない
+JP 　俺と桜崎の特訓は続いた）
+EN (And so our training went on, and I couldn't tell if it
+EN was heaven or hell.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある日、仕事をしている俺の所へ
+JP 　桜崎がやってきた）
+EN (One day, as I was working, Sakurazaki came to see
+EN me.)
+
+@ 107.34
+# メイデン桜崎
+JP ご～しゅ～じ～ん～さ～ま～。
+EN Maaa~steeer~
+
+@ 107.37
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 107.41
+# メイデン桜崎
+JP くすくすくすくすくすくす。
+EN Hee hee hee hee hee hee.
+
+@ 107.44
+# 社 長
+JP （よく見ると、手をわきわきと
+JP 　させている）
+EN (Looking closer, I saw her fingers wriggling.)
+
+@ 107.46
+# 社 長
+JP （こ、これは…）
+EN (Th-this is...)
+
+@ 107.48
+# 社 長
+JP また、マッサージか？
+EN Another massage?
+
+@ 107.52
+# メイデン桜崎
+JP ピンポーン。
+JP 正解です♪
+EN Ding-dong! Correct♪
+
+@ 107.59
+# メイデン桜崎
+JP せっかく覚えたこのテクニック。
+JP 使わないともったいない
+JP じゃないですか。
+EN I went to all the trouble of learning this technique.
+EN It'd be a waste not to use it, right?
+
+@ 107.63
+# メイデン桜崎
+JP 使わなければ
+JP さび付いてしまいます。
+EN If I don't use it, it'll get rusty.
+
+@ 107.66
+# 社 長
+JP しかし、大変だろう？
+EN But isn't it a lot of work for you?
+
+@ 107.73
+# メイデン桜崎
+JP もしかして、ご迷惑ですか？
+EN Am I... bothering you, maybe?
+
+@ 107.76
+# 社 長
+JP い、いや、そんなことはない。
+JP おまえのマッサージは
+JP 気持ちいいからな。
+EN N-no, not at all. Your massages feel great.
+
+@ 107.91
+# 社 長
+JP （そう。
+JP 　度重なる特訓の結果…）
+EN (That's right. After all that repeated training...)
+
+@ 107.106
+# 社 長
+JP （こいつのマッサージは
+JP 　格段にうまくなっていた）
+EN (her massages had gotten dramatically better.)
+
+@ 107.110
+# メイデン桜崎
+JP どうですか？
+JP ご主人様。
+EN How is it, Master?
+
+@ 107.113
+# 社 長
+JP あぁ…。
+JP 気持ちいいよ。
+EN Ahh... That feels good.
+
+@ 107.117
+# メイデン桜崎
+JP でしょ、でしょ。
+JP 他のレスラーの子たちにも
+JP 評判良いんですよ。
+EN Right, right? The other wrestlers love them too.
+
+@ 107.120
+# 社 長
+JP だろうな。
+JP これは…とろけそうだ。
+EN I bet. This is... I'm melting.
+
+@ 107.122
+# 社 長
+JP （ああ、極楽気分って
+JP 　こういうのを言うのかもな）
+EN (Ahh, so this is what they mean by heavenly bliss.)
+
+@ 107.124
+# 社 長
+JP （それから、結構長い間
+JP 　マッサージは続いた）
+EN (The massage went on for quite a while after that.)
+
+@ 107.126
+# 社 長
+JP しかし、他の子にもやって
+JP 俺にもって大変じゃないか？
+EN But isn't it hard, doing the other girls and me on top
+EN of that?
+
+@ 107.130
+# メイデン桜崎
+JP いえいえ。
+JP とんでもない。
+EN No, no. Not at all.
+
+@ 107.134
+# メイデン桜崎
+JP やっぱり、愛するご主人様に
+JP ご奉仕するのが一番の喜びですから。
+EN After all, serving my beloved Master is my greatest
+EN joy.
+
+@ 107.137
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 107.141
+# メイデン桜崎
+JP えぇ…。
+JP メイドとしても…一人の女としても…。
+EN Yes... As a maid... and as a woman...
+
+@ 107.144
+# 社 長
+JP え？
+EN Huh?
+
+@ 107.148
+# メイデン桜崎
+JP くすくすくすくすくすくすくすくす。
+EN Hee hee hee hee hee hee hee hee.
+
+@ 108.17
+# scene 110 練習試合 ベスト
+# メイデン桜崎
+JP うふふふふ。
+JP お互い、中身でも勝負しなきゃ
+JP いけないから大変よね。
+EN Ufufufu. We both have to compete on what's inside
+EN too. Tough, isn't it?
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# メイデン桜崎
+JP ご奉仕の影に努力あり。
+JP いきますよ。
+EN Behind every service lies hard work. Here I come.
+
+@ 110.16
+# scene 113 練習開始
+# メイデン桜崎
+JP よろしくお願いいたします。
+EN I humbly ask for your instruction.
+
+@ 111.16
+# scene 114 練習開始 好意
+# メイデン桜崎
+JP よろしくお願いいたしますね。
+EN I humbly ask for your instruction, Master.
+
+@ 112.16
+# scene 115 特訓開始
+# メイデン桜崎
+JP …いっちょ、気合い入れて
+JP いきますか。
+EN ...Guess I'll fire myself up and go for it.
+
+@ 113.20
+# scene 116 特訓成功
+# メイデン桜崎
+JP ……っしゃ！
+EN ......Yes!
+
+@ 114.20
+# scene 117 特訓失敗
+# メイデン桜崎
+JP あ～…。
+JP ガラじゃなかったかな…。
+EN Aww... Maybe it wasn't my style...
+
+@ 115.16
+# scene 118 休養
+# メイデン桜崎
+JP メイド修行でもしてこようかな…。
+EN Maybe I'll go do some maid training...
+
+@ 116.16
+# scene 119 入場1
+# メイデン桜崎
+JP 今日のご奉仕の相手は…どなたです？
+EN Who will I be serving today?
+
+@ 117.16
+# scene 119 入場2
+# メイデン桜崎
+JP お待たせしました、お嬢様。
+JP 今日は私がお相手を務めます。
+EN Thank you for waiting, my lady. I shall be your
+EN opponent today.
+
+@ 118.17
+# scene 121 タッグマッチ ベスト
+# メイデン桜崎
+JP 最強ご奉仕巫女伝説。
+JP まいります。
+EN The legend of the ultimate serving maiden. Here we
+EN go.
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# メイデン桜崎
+JP サービス精神で
+JP 私たちに勝てる相手は
+JP いませんよ。
+EN Nobody can beat us when it comes to the spirit of
+EN service.
+
+@ 120.16
+# scene 125 必殺技１
+# メイデン桜崎
+JP お嬢様、まいりますっ！
+EN Here I come, my lady!
+
+@ 121.16
+# scene 125 必殺技２
+# メイデン桜崎
+JP 少々痛いですが、
+JP 我慢してくださいねっ！
+EN This will hurt a little, so please bear with it!
+
+@ 122.16
+# scene 125 必殺技３
+# メイデン桜崎
+JP 究極のご奉仕、まいります！
+EN The ultimate service, coming right up!
+
+@ 123.12
+# scene 126 勝利1
+# メイデン桜崎
+JP お休みなさいませ、お嬢様。
+EN Good night, my lady.
+
+@ 124.12
+# scene 126 勝利2
+# メイデン桜崎
+JP この勝利は
+JP 会場のご主人様、お嬢様方に
+JP 捧げます。
+EN I dedicate this victory to all the masters and
+EN mistresses in the arena.
+
+@ 125.12
+# scene 126 勝利3
+# メイデン桜崎
+JP ご満足いただけましたでしょうか。
+JP ご主人様方。
+EN I trust you were satisfied, Masters?
+
+@ 126.15
+# scene 133 表彰1
+# メイデン桜崎
+JP これも、ご主人様の
+JP ご指導のおかげです。
+EN This is all thanks to your guidance, Master.
+
+@ 127.15
+# scene 133 表彰2
+# メイデン桜崎
+JP ありがとうございます…。
+JP 感激で、胸がいっぱいです。
+EN Thank you very much... My heart is overflowing.
+
+@ 128.12
+# scene 134 優勝1
+# メイデン桜崎
+JP 桜崎、やらせていただきました！
+JP ありがとうございます！！
+EN Sakurazaki has done it! Thank you so much!!
+
+@ 129.12
+# scene 134 優勝２
+# メイデン桜崎
+JP うふふふ…。
+JP 今日より桜崎、メイド界最強を
+JP 名乗らせていただきます。
+EN Ufufufu... From this day on, Sakurazaki shall call
+EN herself the strongest in all maid-dom.
+
+@ 130.24
+# scene 135 エンディング 通常
+# メイデン桜崎
+JP おめでとうございます、ご主人様。
+JP この桜崎、ご主人様ならやれると
+JP 信じていました。
+EN Congratulations, Master. I, Sakurazaki, always
+EN believed you could do it.
+
+@ 131.24
+# scene 136 エンディング 好意
+# メイデン桜崎
+JP 社長…これからは、社長個人の
+JP メイドになってみたいです。
+JP ダメでしょうか？
+EN Boss... From now on, I'd like to try being your own
+EN personal maid. Would that be all right?

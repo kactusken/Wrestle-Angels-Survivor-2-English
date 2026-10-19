@@ -1,0 +1,2360 @@
+# /SCR/077.BIN - AGEHA
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 077` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# AGEHA
+JP ハァ～イ！
+JP よろしくお願いしまーす！
+EN Hiii! Nice to meet youuu!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# AGEHA
+JP ワォ、サンキューでーす。
+EN Wow, thank youuu.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# AGEHA
+JP オゥ、そうですか。
+JP 残念ですねー。
+EN Oh, I see. What a shame.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええっと…。
+JP このあたりに有望な娘が
+JP いるはずなんだけど…。
+EN Um... There should be a promising girl somewhere
+EN around here...
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「満月の晩に狼男と戦っていた」と
+JP あるな。
+EN The scouting report says "she was fighting a
+EN werewolf on the night of the full moon."
+
+@ 3.27
+# 社 長
+JP ………………。
+EN .........
+
+@ 3.29
+# 社 長
+JP なんだこりゃ。
+JP …特撮の撮影でもしてたのか？
+EN What is this? ...Was she shooting a monster movie or
+EN something?
+
+@ 3.39
+# ？？？
+JP あれ、おかしいですね。
+JP いつ見られたのでしょう？
+EN Huh, how strange. When did someone see that?
+
+@ 3.42
+# 社 長
+JP うわっ！
+JP な、なんですか、あなたは！？
+EN Whoa! Wh-who are you!?
+
+@ 3.49
+# AGEHA
+JP その資料、私のことですよー。
+JP そういうあなたはどなたでしょう？
+EN That report is about me. And who might you be?
+
+@ 3.52
+# 社 長
+JP …えっ！
+JP 私ですか。
+EN ...Huh! Me?
+
+@ 3.54
+# 社 長
+JP 私はプロレス団体を
+JP 経営していまして…。
+EN I run a pro wrestling promotion...
+
+@ 3.61
+# AGEHA
+JP オゥーー！
+JP ということは
+JP あなたはミスター・プレジデント。
+EN Ohhh! So that means you are Mister President.
+
+@ 3.64
+# 社 長
+JP は、はぁ…。
+EN Uh, yes...
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# AGEHA
+JP ウィ。
+JP これはいい機会です。
+JP 入団しましょう。
+EN Oui. This is a fine opportunity. I shall join.
+
+@ 4.22
+# 社 長
+JP は、はい？
+EN Excuse me?
+
+@ 4.29
+# AGEHA
+JP まあまあ、カタイこと言わずに。
+JP これからよろしくお願いしますね～。
+EN Now, now, don't be so stiff. I look forward to working
+EN with youuu.
+
+@ 4.32
+# 社 長
+JP あ、あの…。
+EN Um, wait...
+
+@ 4.34
+# 社 長
+JP （なぜか断り切れず
+JP 　俺は結局、彼女の入団を
+JP 　認めることになった…）
+EN (Somehow I couldn't say no, and in the end I let her
+EN join...)
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# AGEHA
+JP 申し訳ないですが
+JP 今回のスカウトは失敗のようです。
+EN I am sorry, but it seems this scouting attempt has
+EN failed.
+
+@ 5.22
+# 社 長
+JP は、はぁ？
+EN Huh? What?
+
+@ 5.29
+# AGEHA
+JP では、そういう訳で。
+JP サヨナラでーす。
+EN Well, that's how it is. Goodbyeee.
+
+@ 5.35
+# 社 長
+JP …行っちゃったよ。
+EN ...She's gone.
+
+@ 5.37
+# 社 長
+JP なんだったんだろう…？
+EN What was that all about...?
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP 今度はまともな交渉に
+JP なるといいんだが…。
+EN I hope this negotiation goes a little more normally...
+
+@ 6.25
+# 社 長
+JP それにしてもこの資料…。
+EN And this report, though...
+
+@ 6.27
+# 社 長
+JP 「三日月の夜、ゾンビと戦っていた」
+JP …って、なんでこんなレポート
+JP ばかりなんだ？
+EN "Fought zombies on the night of the crescent
+EN moon"... Why are all these reports like this?
+
+@ 6.37
+# AGEHA
+JP あれ…？
+JP また見られてしまったのですか？
+EN Huh...? Did someone see me again?
+
+@ 6.40
+# 社 長
+JP うわっ、また出た！
+EN Whoa, she's here again!
+
+@ 6.47
+# AGEHA
+JP 今日もスカウトに来たのですか？
+EN Did you come to scout me again today?
+
+@ 6.50
+# 社 長
+JP ええ…。
+JP まあ、一応は。
+EN Yes... Well, more or less.
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# AGEHA
+JP ウィ。
+JP これはいい機会です。
+JP 入団しましょう。
+EN Oui. This is a fine opportunity. I shall join.
+
+@ 7.22
+# 社 長
+JP は、はい？
+EN Excuse me?
+
+@ 7.29
+# AGEHA
+JP まあまあ、カタイこと言わずに。
+JP これからよろしくお願いしますね～。
+EN Now, now, don't be so stiff. I look forward to working
+EN with youuu.
+
+@ 7.32
+# 社 長
+JP あ、あの…。
+EN Um, wait...
+
+@ 7.34
+# 社 長
+JP （なぜか断り切れず
+JP 　俺は結局、彼女の入団を
+JP 　認めることになった…）
+EN (Somehow I couldn't say no, and in the end I let her
+EN join...)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# AGEHA
+JP 申し訳ないですが
+JP 今回のスカウトは失敗のようです。
+EN I am sorry, but it seems this scouting attempt has
+EN failed.
+
+@ 8.22
+# 社 長
+JP は、はぁ？
+EN Huh? What?
+
+@ 8.29
+# AGEHA
+JP では、そういう訳で。
+JP サヨナラでーす。
+EN Well, that's how it is. Goodbyeee.
+
+@ 8.35
+# 社 長
+JP …行っちゃったよ。
+EN ...She's gone.
+
+@ 8.37
+# 社 長
+JP なんだったんだろう…？
+EN What was that all about...?
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （ロシアで人造人間を倒したと
+JP 　言われる選手か…）
+EN (The wrestler who supposedly took down an artificial
+EN human in Russia...)
+
+@ 9.25
+# 社 長
+JP （………………）
+EN (.........)
+
+@ 9.27
+# 社 長
+JP （まあ、冗談はおいといて…）
+EN (Well, jokes aside...)
+
+@ 9.29
+# 社 長
+JP （あの華麗な空中技は魅力だ。
+JP 　是非ともうちの団体に欲しい）
+EN (Her dazzling high-flying moves are a real draw. I'd
+EN love to have her in my promotion.)
+
+@ 9.31
+# 社 長
+JP （たしか、このあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 9.33
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 9.43
+# AGEHA
+JP ホワット？
+JP あなた、誰ですか？
+EN What? Who are you?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.53
+# AGEHA
+JP つまりヘッドハンティングに
+JP 来た訳ですね？
+EN So you came to headhunt me?
+
+@ 9.56
+# 社 長
+JP ええ、まあ。
+JP いかがでしょうか？
+EN Yes, more or less. What do you say?
+
+@ 9.63
+# AGEHA
+JP そうですねー。
+JP アリといえばアリ。
+JP ナシといえばナシというような…。
+EN Hmm, let's see. It's a yes if you look at it one way,
+EN and a no if you look at it another...
+
+@ 9.66
+# 社 長
+JP は、はぁ…。
+EN Uh, I see...
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# AGEHA
+JP ウィ！
+JP 移籍しましょう。
+EN Oui! I shall transfer.
+
+@ 10.22
+# 社 長
+JP そうですか、それはよかった。
+EN Really? That's great.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# AGEHA
+JP ノン！
+JP 今動くのは得策ではないですね。
+EN Non! Moving now would not be wise.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （最近、メキシコで
+JP 　チュパカブラを倒したらしいが…）
+EN (I hear she recently defeated a chupacabra in
+EN Mexico...)
+
+@ 12.25
+# 社 長
+JP （………………）
+EN (.........)
+
+@ 12.27
+# 社 長
+JP （まあ、冗談はおいといて…）
+EN (Well, jokes aside...)
+
+@ 12.29
+# 社 長
+JP （あの空中技は素晴らしい。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Those aerial moves are superb. She's exactly the
+EN talent my promotion needs.)
+
+@ 12.31
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 12.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.43
+# AGEHA
+JP オゥ、ミスター・プレジデント。
+JP またヘッドハンティングですか？
+EN Oh, Mister President. Here to headhunt me again?
+
+@ 12.46
+# 社 長
+JP はい。
+JP もう一度考えてくれませんか？
+EN Yes. Won't you reconsider?
+
+@ 12.53
+# AGEHA
+JP プレジデントは
+JP ＣＩＡと関係あったりしますか？
+EN Mister President, do you happen to have ties to the
+EN CIA?
+
+@ 12.56
+# 社 長
+JP は、はぁ！？
+EN Wh-what!?
+
+@ 12.63
+# AGEHA
+JP あ、いや、ちょっと聞いてみただけです。
+JP では、ＫＧＢとは？
+EN Ah, no, I was only asking. Then how about the KGB?
+
+@ 12.66
+# 社 長
+JP いえ…。
+JP うちはごく普通の
+JP プロレス団体なものですから…。
+EN No... We're just a perfectly ordinary pro wrestling
+EN promotion...
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# AGEHA
+JP ウィ！
+JP 移籍しましょう。
+EN Oui! I shall transfer.
+
+@ 13.22
+# 社 長
+JP そうですか、それはよかった。
+EN Really? That's great.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# AGEHA
+JP ノン！
+JP 今動くのは得策ではないですね。
+EN Non! Moving now would not be wise.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （最近、イングランドで悪魔を
+JP 　退治したと言われる選手だ…）
+EN (This is the wrestler who supposedly exorcised a
+EN demon in England recently...)
+
+@ 15.25
+# 社 長
+JP （………………）
+EN (.........)
+
+@ 15.27
+# 社 長
+JP （まあ、冗談はおいといて…）
+EN (Well, jokes aside...)
+
+@ 15.29
+# 社 長
+JP （あの華麗な空中技は魅力だ。
+JP 　是非ともうちの団体に欲しい）
+EN (Her dazzling high-flying moves are a real draw. I'd
+EN love to have her in my promotion.)
+
+@ 15.31
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# AGEHA
+JP ハイ！
+JP なんでしょー？
+EN Yes! What is iiit?
+
+@ 15.46
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.53
+# AGEHA
+JP 入団要請ですか。
+JP なるほど～。
+EN An offer to join? I seeee.
+
+@ 15.56
+# 社 長
+JP どうでしょうか？
+EN What do you think?
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# AGEHA
+JP ダー！
+JP 入団しましょう。
+EN Da! I shall join.
+
+@ 16.22
+# 社 長
+JP そうですか、それはよかった。
+EN Really? That's great.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# AGEHA
+JP ニェット！
+JP 今入団するのは無理ですね～。
+EN Nyet! I cannot join right nowww.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （最近、ヒマラヤで
+JP 　ビッグフットを倒したらしいが…）
+EN (I hear she recently took down Bigfoot in the
+EN Himalayas...)
+
+@ 18.25
+# 社 長
+JP （………………）
+EN (.........)
+
+@ 18.27
+# 社 長
+JP （くどいようだが
+JP 　冗談はおいといて…）
+EN (I know I keep saying it, but jokes aside...)
+
+@ 18.29
+# 社 長
+JP （あの空中技は素晴らしい。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Those aerial moves are superb. She's exactly the
+EN talent my promotion needs.)
+
+@ 18.31
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 18.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.43
+# AGEHA
+JP オー、ミスター・プレジデント。
+JP ご機嫌いかがですかー。
+EN Oh, Mister President. How are you doing?
+
+@ 18.46
+# 社 長
+JP 以前のお話
+JP もう一度お願いにあがりました。
+EN I've come to ask you once more about what we
+EN discussed before.
+
+@ 18.53
+# AGEHA
+JP なるほど、なるほど。
+JP そうですねー。
+JP それはＵＭＡ次第というか…？
+EN I see, I see. Well, let's see... I suppose it depends on
+EN the UMA...?
+
+@ 18.56
+# 社 長
+JP ユーマ？
+EN The UMA?
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# AGEHA
+JP ダー！
+JP 入団しましょう。
+EN Da! I shall join.
+
+@ 19.22
+# 社 長
+JP そうですか、それはよかった。
+EN Really? That's great.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# AGEHA
+JP ニェット！
+JP 今入団するのは無理ですね～。
+EN Nyet! I cannot join right nowww.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、おーい！
+EN She should be around here... Ah, hey!
+
+@ 21.33
+# AGEHA
+JP ミスター・プレジデント？
+EN Mister President?
+
+@ 21.36
+# 社 長
+JP 実は戻って欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you. I want you to
+EN come back.
+
+@ 21.43
+# AGEHA
+JP …えっ！？
+JP それは少し勝手な話に思えるのは
+JP 気のせいでしょうかー？
+EN ...What!? Is it just me, or does that sound a little
+EN selfish?
+
+@ 21.46
+# 社 長
+JP それはわかってる。
+JP だけどそこを曲げて
+JP もう一度お願いに来たんだ。
+EN I know. But I'm asking you anyway. That's why I came.
+
+@ 21.48
+# 社 長
+JP どうかうちの団体に
+JP 戻ってきてくれないか？
+EN Please, won't you come back to our promotion?
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# AGEHA
+JP うーん…。
+JP そこまで言われると
+JP 断りにくいですね。
+EN Hmm... When you put it like that, it's hard to say no.
+
+@ 22.18
+# 社 長
+JP 戻ってくれるのか？
+EN You'll come back?
+
+@ 22.29
+# AGEHA
+JP これで最後ですよ。
+JP ミスター・プレジデント？
+EN But this is the last time, Mister President, okay?
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# AGEHA
+JP 悪いんですが…。
+JP ルーマニアに行かねばならない
+JP 用があるんです。
+EN I'm sorry, but... I have business in Romania I must
+EN attend to.
+
+@ 23.22
+# 社 長
+JP ルーマニア？
+JP その用事、長いのか？
+EN Romania? Will that take long?
+
+@ 23.29
+# AGEHA
+JP そうですねぇ。
+JP 一応５００年生きているヤツですから
+JP 簡単にはいかないかと…。
+EN Well... The fellow has been alive for 500 years, so I
+EN doubt it will be easy...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP 悪かったな。
+EN I see... Sorry to bother you.
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだ。
+JP 　今日のところは引き上げよう…）
+EN (I brought this on myself. I'll call it a day for now...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP あっ、おーい！
+EN Ah, hey!
+
+@ 24.33
+# AGEHA
+JP …あっ！
+JP ミスター・プレジデント。
+EN ...Ah! Mister President.
+
+@ 24.36
+# 社 長
+JP 頼む。
+JP うちに戻ってくれないか。
+EN Please. Won't you come back to us?
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# AGEHA
+JP うーん…。
+JP そこまで言われると
+JP 断りにくいですね。
+EN Hmm... When you put it like that, it's hard to say no.
+
+@ 25.18
+# 社 長
+JP 戻ってくれるのか？
+EN You'll come back?
+
+@ 25.29
+# AGEHA
+JP これで最後ですよ。
+JP ミスター・プレジデント？
+EN But this is the last time, Mister President, okay?
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# AGEHA
+JP 悪いんですが…。
+JP ルーマニアに行かねばならない
+JP 用があるんです。
+EN I'm sorry, but... I have business in Romania I must
+EN attend to.
+
+@ 26.22
+# 社 長
+JP ルーマニア？
+JP その用事、長いのか？
+EN Romania? Will that take long?
+
+@ 26.29
+# AGEHA
+JP そうですねぇ。
+JP 一応５００年生きているヤツですから
+JP 簡単にはいかないかと…。
+EN Well... The fellow has been alive for 500 years, so I
+EN doubt it will be easy...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP 悪かったな。
+EN I see... Sorry to bother you.
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだ。
+JP 　今日のところは引き上げよう…）
+EN (I brought this on myself. I'll call it a day for now...)
+
+@ 27.16
+# scene 028 ケガ小
+# AGEHA
+JP この程度なら
+JP インジャリータイムは不要ですね。
+EN Something this minor doesn't need any injury time.
+
+@ 28.16
+# scene 029 ケガ大
+# AGEHA
+JP むむ…。
+JP これはまずいかもしれません。
+EN Hmm... This might be bad.
+
+@ 29.16
+# scene 030 入院
+# AGEHA
+JP オゥ、あの病院ですか。
+JP これは好都合。
+EN Oh, that hospital? How convenient.
+
+@ 30.16
+# scene 031 退院
+# AGEHA
+JP ちゃんと祓ってきましたので。
+EN I made sure to exorcise the place before I left.
+
+@ 31.16
+# scene 032 ケガ完治
+# AGEHA
+JP もう回復したようです。
+EN It seems I've recovered.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# AGEHA
+JP そうですね…。
+JP そろそろ、真の戦いを始めましょうか。
+EN Yes... Perhaps it is time to begin the true battle.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# AGEHA
+JP もうちょっと
+JP トレーニングしたいでーす。
+EN I'd like to train a little longer!
+
+@ 34.16
+# scene 035 コーチ就任
+# AGEHA
+JP あなた方にＵＭＡと戦える力を
+JP つけてあげまーす。
+EN I shall give you all the strength to fight UMAs!
+
+@ 35.16
+# scene 036 ケガ引退
+# AGEHA
+JP これはいけません。
+JP このマスクを次の世代に渡すときが
+JP きたようです。
+EN This is no good. It seems the time has come to pass
+EN this mask on to the next generation.
+
+@ 36.16
+# scene 037 年齢引退
+# AGEHA
+JP そろそろ世代交代ですねー。
+JP このマスクは次の世代に
+JP 引き継ぎます。
+EN It's about time for a new generation. I shall hand this
+EN mask down to my successor.
+
+@ 37.16
+# scene 038 退団
+# AGEHA
+JP 申し訳ありません。
+JP 任務の方が忙しくなりまして…。
+EN I'm terribly sorry. My missions have gotten rather
+EN busy...
+
+@ 38.16
+# scene 039 スランプ
+# AGEHA
+JP なんだかヘンですね。
+JP こんなことでは…。
+EN Something feels off. At this rate...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# AGEHA
+JP ファンクラブですか。
+JP あまり目立ちたくないのですが…。
+EN A fan club? I'd rather not stand out too much...
+
+@ 39.19
+# 社 長
+JP そういわずに
+JP 期待に応えてやらなくちゃ。
+EN Don't say that. You've got to live up to their
+EN expectations.
+
+@ 39.23
+# AGEHA
+JP 仕方ありません。
+JP 任務を減らすよう
+JP マスターに頼んでおきます。
+EN It can't be helped. I'll ask my Master to give me fewer
+EN missions.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# AGEHA
+JP またファンクラブですか。
+JP うーん…。
+JP 困りました。
+EN Another fan club? Hmm... What a predicament.
+
+@ 40.19
+# 社 長
+JP おいおい、困るなよ。
+JP ちゃんとファンの期待に
+JP 応えるんだぞ。
+EN Hey now, don't be troubled by it. Live up to what
+EN your fans expect, okay?
+
+@ 40.26
+# AGEHA
+JP ムム…。
+JP わかりました。
+JP 任務は当分休むことにします。
+EN Mmm... Understood. I'll take a break from missions for
+EN a while.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# AGEHA
+JP ファンクラブ
+JP 解散してしまったのですか？
+EN The fan club has disbanded?
+
+@ 41.19
+# 社 長
+JP まあ、あまり気にするな。
+JP またがんばればいい。
+EN Don't let it get to you. Just keep working hard.
+
+@ 41.26
+# AGEHA
+JP なくなると寂しいものですね…。
+EN It's lonely when it's gone...
+
+@ 42.16
+# scene 043 映画出演
+# AGEHA
+JP マスクは取れないんですけど
+JP それでいいですか？
+EN I can't take off my mask, though. Is that all right?
+
+@ 43.16
+# scene 044 一日署長
+# AGEHA
+JP 人間の悪党よりも
+JP ＵＭＡの方がいいんですが…。
+EN I'd much rather go after UMAs than human crooks...
+
+@ 44.16
+# scene 045 写真集発売
+# AGEHA
+JP マスクは外せませんよ！
+EN The mask stays on!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# AGEHA
+JP あまり目立つことは
+JP したくないんですけど…。
+EN I'd really rather not draw attention to myself...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# AGEHA
+JP 歌には自信があります。
+JP リトル・グレイとも
+JP 交信できますから。
+EN I have confidence in my singing. I can even
+EN communicate with the Little Grays.
+
+@ 47.16
+# scene 048 始球式
+# AGEHA
+JP 手刀の要領でいいんでしょうか？
+EN Should I throw it like a karate chop?
+
+@ 48.16
+# scene 049 学園祭
+# AGEHA
+JP ああ、七不思議で有名な学園ですね。
+JP 一石二鳥でーす！
+EN Ah, the school famous for its Seven Mysteries! Two
+EN birds with one stone!
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here's a birthday present.
+
+@ 49.37
+# AGEHA
+JP あれ…？
+JP 個人情報が漏れていますね。
+EN Huh...? Someone has leaked my personal information.
+
+@ 49.40
+# 社 長
+JP おいおい。
+EN Hey now.
+
+@ 49.48
+# AGEHA
+JP でも嬉しいですよ。
+JP サンキュー。
+EN But I'm happy. Thank you.
+
+@ 50.32
+# scene 051 バレンタインデー
+# AGEHA
+JP ミスター・プレジデント！
+JP ショコラですよ。
+EN Mister President! Chocolat for you.
+
+@ 50.35
+# 社 長
+JP おっ、ありがとう。
+EN Oh, thanks.
+
+@ 50.42
+# AGEHA
+JP こういうイベントって
+JP 楽しいですねー。
+EN Events like this are so much fun!
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるか？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# AGEHA
+JP メルシー！
+JP 感謝感激です。
+EN Merci! I'm overjoyed.
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between practices.
+
+@ 52.31
+# scene 053 サイン会
+# AGEHA
+JP ありがとうございまーす！
+JP これからも世界のために
+JP 戦い続けまーす！
+EN Thank you so much! I'll keep fighting for the sake of
+EN the world!
+
+@ 53.31
+# scene 054 コンサート
+# AGEHA
+JP 今日は盛り上がっていきましょー！
+EN Let's get fired up tonight!
+
+@ 54.28
+# scene 055 練習拒否
+# AGEHA
+JP なんかやる気がでません…。
+EN I just don't feel motivated...
+
+@ 55.28
+# scene 056 失踪
+# AGEHA
+JP ＵＭＡの呼ぶ声が聞こえます…。
+EN I hear the UMAs calling to me...
+
+@ 56.16
+# scene 057 選手解雇
+# AGEHA
+JP あれれ！？
+JP 何か悪いことしましたっけ？
+EN Huh!? Did I do something wrong?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# AGEHA
+JP しっかり任務を果たしてきまーす！
+EN I'll go and complete my mission!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# AGEHA
+JP 向こうの連中も手強かったでーす。
+EN The ones over there were tough!
+
+@ 59.28
+# scene 060 移籍思案
+# AGEHA
+JP こっちの水は合わないです…。
+EN This place doesn't suit me...
+
+@ 60.16
+# scene 061 革命軍結成
+# AGEHA
+JP あなたがたのやり方には
+JP 納得できません！
+EN I cannot accept the way you people do things!
+
+@ 61.16
+# scene 062 反乱軍結成
+# AGEHA
+JP 戦いに正義も悪もありません！
+EN In battle, there is no good or evil!
+
+@ 62.16
+# scene 063 最終決戦要求
+# AGEHA
+JP 戦わねばならないなら
+JP 怯みはしません！
+EN If I must fight, I will not flinch!
+
+@ 63.16
+# scene 064 遺恨発生
+# AGEHA
+JP ＵＭＡより憎らしいです…。
+EN You're more hateful than a UMA...
+
+@ 64.16
+# scene 065 殴り込み
+# AGEHA
+JP ヒバゴンと同じくらい
+JP やっつけてやりまーす！
+EN I'll beat you just like I beat Hibagon!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# AGEHA
+JP ジャージー・デビルと同じくらい
+JP やっつけてやりまーす！
+EN I'll beat you just like I beat the Jersey Devil!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# AGEHA
+JP モノ・グランデと同じくらい
+JP やっつけてやりまーす！
+EN I'll beat you just like I beat Mono Grande!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# AGEHA
+JP 私の舞をご堪能してくださーい！
+EN Please enjoy my dance!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# AGEHA
+JP たまには光のもとにあることも
+JP いいものですね…。
+EN Now and then, it's nice to stand in the light...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# AGEHA
+JP ＵＭＡよりも強かったです…。
+EN They were stronger than a UMA...
+
+@ 70.13
+# scene 071 引退式
+# AGEHA
+JP 私は再び闇に帰ります。
+JP 今までありがとうでしたー！
+EN I shall return to the darkness. Thank you for
+EN everythiiing!
+
+@ 71.18
+# AGEHA
+JP イエス・サーです。
+JP ミスター・プレジデント。
+EN Yes, sir. Mister President.
+
+@ 71.37
+# AGEHA
+JP お呼びですか、ダーリン？
+EN You called, Darling?
+
+@ 71.47
+# AGEHA
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 71.90
+# AGEHA
+JP そうですねー。
+JP この調子でいきまーす！
+EN I think so too. I'll keep it up!
+
+@ 71.111
+# AGEHA
+JP 言われるまでもありませーん！
+EN You don't need to tell meee!
+
+@ 71.132
+# AGEHA
+JP すべてはダーリンのために…です！
+EN It's all for you, Darling!
+
+@ 71.153
+# AGEHA
+JP ダーリンはこの程度で
+JP 満足するのですか…？
+EN Is that enough to satisfy you, Darling...?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Aren't you slacking off a little lately?
+
+@ 71.190
+# AGEHA
+JP たしかに、少しダイエットした方が
+JP いいようでーす！
+EN You're right, maybe I should go on a little diet!
+
+@ 71.211
+# AGEHA
+JP えーっ！
+JP 体重も体脂肪率もウエストも
+JP 変わっていませんよー？
+EN Whaaat! My weight, body fat and waist haven't
+EN changed at all, you know?
+
+@ 71.232
+# AGEHA
+JP ダーリンに言われるとショックです。
+JP さっそくダイエット始めまーす！
+EN It's a shock hearing that from you, Darling. I'll start
+EN a diet right away!
+
+@ 71.253
+# AGEHA
+JP うぅ…。
+JP そんな…。
+JP ひどい……。
+EN Ugh... How could you... That's cruel......
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very energetic lately. Are you
+EN all right?
+
+@ 71.290
+# AGEHA
+JP 気を遣ってもらえて感謝です。
+JP がんばりまーす！
+EN Thank you for worrying about me. I'll do my best!
+
+@ 71.311
+# AGEHA
+JP この前のＵＭＡが
+JP ちょっと手強くてですね…。
+EN That last UMA was a bit of a tough one, you see...
+
+@ 71.332
+# AGEHA
+JP ダーリンの一言で
+JP 元気が出ましたよー！
+EN One word from you and I'm full of energy, Darling!
+
+@ 71.353
+# AGEHA
+JP なんだか心がこもっていない
+JP 気がします…。
+EN Somehow that doesn't feel very heartfelt...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# AGEHA
+JP はい。
+JP 予想はついています。
+EN Yes. I have a good idea.
+
+@ 71.400
+# AGEHA
+JP いいえ、全然。
+EN No, not at all.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# AGEHA
+JP ウェル…。
+JP 仕方ないかも…ですねー。
+EN Well... I suppose it can't be helped.
+
+@ 71.454
+# AGEHA
+JP いや…。
+JP それはちょっと納得できません！
+EN No... I just can't accept that!
+
+@ 71.475
+# AGEHA
+JP 超常現象並みに
+JP なんのことやらわかりません。
+EN I have no idea what you mean. It's as baffling as the
+EN paranormal.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# AGEHA
+JP ダーリンの目が怖いです…。
+EN Your eyes are scary, Darling...
+
+@ 71.522
+# AGEHA
+JP ダーリンと話せれば
+JP それで嬉しいです。
+EN Just talking with you makes me happy, Darling.
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# AGEHA
+JP ダーリンに言われては
+JP 仕方ないですねー。
+EN If you say so, Darling, I suppose it can't be helped.
+
+@ 71.578
+# AGEHA
+JP こればかりは
+JP いくらダーリンの言葉でも…。
+EN Even if it's you asking, Darling, this one I can't...
+
+@ 71.599
+# AGEHA
+JP ずっとフレンドリーに
+JP やってますけどー？
+EN I've been friendly with her all along, you know?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# AGEHA
+JP お呼びですか、ダーリン？
+EN You called, Darling?
+
+@ 72.16
+# AGEHA
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# AGEHA
+JP そうですねー。
+JP この調子でいきまーす！
+EN I think so too. I'll keep it up!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# AGEHA
+JP 言われるまでもありませーん！
+EN You don't need to tell meee!
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# AGEHA
+JP すべてはダーリンのために、です！
+EN It's all for you, Darling!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# AGEHA
+JP ダーリンはこの程度で満足するの
+JP ですか…？
+EN Is that enough to satisfy you, Darling...?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Aren't you slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# AGEHA
+JP たしかに、少しダイエットした方が
+JP いいようでーす！
+EN You're right, maybe I should go on a little diet!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# AGEHA
+JP えーっ！
+JP 体重も体脂肪率もウエストも
+JP 変わっていませんよー？
+EN Whaaat! My weight, body fat and waist haven't
+EN changed at all, you know?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# AGEHA
+JP ダーリンに言われるとショックです。
+JP さっそくダイエット始めまーす！
+EN It's a shock hearing that from you, Darling. I'll start
+EN a diet right away!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# AGEHA
+JP うぅ…。そんな…。ひどい……。
+EN Ugh... How could you... That's cruel......
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very energetic lately. Are you
+EN all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# AGEHA
+JP 気を遣ってもらえて感謝です。
+JP がんばりまーす！
+EN Thank you for worrying about me. I'll do my best!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# AGEHA
+JP この前のＵＭＡがちょっと手強くて
+JP ですね…。
+EN That last UMA was a bit of a tough one, you see...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# AGEHA
+JP ダーリンの一言で、
+JP 元気が出ましたよー！
+EN One word from you and I'm full of energy, Darling!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# AGEHA
+JP なんだか、心がこもっていない気が
+JP します…。
+EN Somehow that doesn't feel very heartfelt...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# AGEHA
+JP はい。予想はついています。
+EN Yes. I have a good idea.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# AGEHA
+JP いいえ、全然。
+EN No, not at all.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# AGEHA
+JP ウェル…。
+JP 仕方ないかも、ですねー。
+EN Well... I suppose it can't be helped.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# AGEHA
+JP いや…。
+JP それはちょっと納得できません！
+EN No... I just can't accept that!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# AGEHA
+JP 超常現象並になんのことやら
+JP わかりません。
+EN I have no idea what you mean. It's as baffling as the
+EN paranormal.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# AGEHA
+JP ダーリンの目が怖いです…。
+EN Your eyes are scary, Darling...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# AGEHA
+JP ダーリンと話せれば、
+JP それで嬉しいです。
+EN Just talking with you makes me happy, Darling.
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# AGEHA
+JP ダーリンに言われては、
+JP 仕方ないですねー。
+EN If you say so, Darling, I suppose it can't be helped.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# AGEHA
+JP こればかりはいくらダーリンの言葉
+JP でも…。
+EN Even if it's you asking, Darling, this one I can't...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# AGEHA
+JP ずっとフレンドリーに
+JP やってますけどー？
+EN I've been friendly with her all along, you know?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# AGEHA
+JP 戦ってお金がもらえるとは
+JP 嬉しいでーす。
+EN Getting paid to fight? How wonderful!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# AGEHA
+JP こんなにもらえると
+JP ＵＭＡ退治をやめたくなりますねー。
+EN With this much money, I almost want to quit hunting
+EN UMAs!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# AGEHA
+JP まあ、戦いでお金をもらおうとは
+JP 思っていません。
+EN Well, I never fought for the money anyway.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Everyone seems to be having fun.)
+
+@ 105.32
+# 社 長
+JP （さて…俺はのんびりしているか）
+EN (Now then... I think I'll just relax.)
+
+@ 105.47
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.49
+# 社 長
+JP （冷たっ！）
+EN (Cold!)
+
+@ 105.59
+# AGEHA
+JP こんなところで寝ていたら
+JP 日射病になってしまいますよ？
+EN If you sleep in a place like this, you'll get
+EN heatstroke, you know?
+
+@ 105.62
+# 社 長
+JP なんだ…。
+JP 驚かせるなよ…。
+EN Oh, it's you... Don't scare me like that...
+
+@ 105.66
+# AGEHA
+JP 私の飲みかけだけど
+JP いります？
+EN I already drank some of it, but do you want it?
+
+@ 105.69
+# 社 長
+JP ああ、ありがとう。
+JP もらうよ。
+EN Yeah, thanks. I'll take it.
+
+@ 105.78
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.80
+# 社 長
+JP 今、飲んだら間接キスになるな。
+EN If I drink this now, it's an indirect kiss.
+
+@ 105.90
+# AGEHA
+JP う…。
+EN Uh...
+
+@ 105.94
+# AGEHA
+JP そういうことを言うなら
+JP 返してください。
+EN If you're going to say things like that, give it back.
+
+@ 105.97
+# 社 長
+JP 冗談だよ。
+EN I'm kidding.
+
+@ 105.100
+# 社 長
+JP でまあ、これから言うことは
+JP 冗談じゃないんだが…。
+EN Anyway, what I'm about to say isn't a joke, but...
+
+@ 105.102
+# 社 長
+JP そのマスク、つけっぱなしだと
+JP 変な焼け方するんじゃないか？
+EN If you keep that mask on, won't you get a weird tan?
+
+@ 105.112
+# AGEHA
+JP あっ、うっ…！
+EN Ah, ugh...!
+
+@ 105.115
+# 社 長
+JP …今ごろ気付いたのか？
+EN ...You're only noticing now?
+
+@ 105.119
+# AGEHA
+JP どうしよう！？
+EN What do I do!?
+
+@ 105.123
+# AGEHA
+JP 変な焼け方するのはイヤだけど
+JP マスクを取ったら素顔が…！
+EN I don't want a weird tan, but if I take off the mask,
+EN my real face...!
+
+@ 105.126
+# 社 長
+JP マスク取ればいいんじゃないか？
+JP 誰も気付かないだろうし…。
+EN Why not just take it off? Nobody would notice...
+
+@ 105.130
+# AGEHA
+JP そうはいきません！
+EN I can't do that!
+
+@ 105.133
+# 社 長
+JP どうしてだ？
+EN Why not?
+
+@ 105.137
+# AGEHA
+JP 闇の者がどこに隠れているか
+JP わからないから！
+EN Because there's no telling where the creatures of
+EN darkness are hiding!
+
+@ 105.140
+# 社 長
+JP そ、そうなのか…。
+EN I-is that so...
+
+@ 105.144
+# AGEHA
+JP こうなれば日焼けしないよう
+JP 気をつけるしかありませーん！
+EN Then I'll just have to be careful not to get a tan!
+
+@ 105.147
+# 社 長
+JP …ま、まぁがんばってくれ。
+EN ...W-well, good luck with that.
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、
+JP 　今日の見回りはここで終わり）
+EN (All right, that's the end of tonight's rounds.)
+
+@ 106.26
+# 社 長
+JP （…んっ？
+JP 　ジムに明かりがついてる？）
+EN (...Hm? The lights are on in the gym?)
+
+@ 106.28
+# 社 長
+JP （あれはシャワー室のあたりだな…）
+EN (That's around the shower room...)
+
+@ 106.30
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがない。
+JP 　消しに行くか）
+EN (Someone forgot to turn them off... Oh well. I'll go
+EN switch them off.)
+
+@ 106.52
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 106.56
+# ？？？
+JP ………………ッ！
+EN .........!
+
+@ 106.59
+# 社 長
+JP あっ、すまんっ！
+EN Ah, sorry!
+
+@ 106.63
+# ？？？
+JP せいっ！
+EN Hyah!
+
+@ 106.87
+# 社 長
+JP （今の…ハイキックか…？）
+EN (Was that... a high kick...?)
+
+@ 106.94
+# 社 長
+JP （人の足音が遠ざかっていく…）
+EN (Footsteps are fading away...)
+
+@ 106.96
+# 社 長
+JP （ダメだ…。
+JP 　意識が……）
+EN (No good... I'm losing... consciousness......)
+
+@ 106.98
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.113
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.115
+# 社 長
+JP ……あれ？
+EN ......Huh?
+
+@ 106.117
+# 社 長
+JP イタタッ…。
+JP さっきのはなんだったんだ…。
+EN Owww... What was that just now...
+
+@ 106.131
+# AGEHA
+JP おや！？
+JP なぜこんなところに？
+JP ミスター・プレジデント！？
+EN Oh my!? Why are you here, Mister President!?
+
+@ 106.134
+# 社 長
+JP あれ…？
+EN Huh...?
+
+@ 106.141
+# AGEHA
+JP こんなところで寝ていると
+JP 風邪をひいてしまいますよ？
+EN If you sleep in a place like this, you'll catch a cold,
+EN you know?
+
+@ 106.144
+# 社 長
+JP （もしかして…さっきのは…？）
+EN (Could it be... that was...?)
+
+@ 106.146
+# 社 長
+JP なあ、さっきのおまえか？
+EN Hey, was that you just now?
+
+@ 106.153
+# AGEHA
+JP 社長が何を言っているのか
+JP わかりません。
+EN I don't know what you're talking about, Boss.
+
+@ 106.156
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.158
+# 社 長
+JP いや。
+JP やっぱりさっきのおまえだよな。
+EN No. That was definitely you just now.
+
+@ 106.165
+# AGEHA
+JP …機密事項です。
+EN ...That's classified.
+
+@ 106.168
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.172
+# AGEHA
+JP ………………。
+EN .........
+
+@ 106.175
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.182
+# AGEHA
+JP 忘れた方が
+JP 幸せなこともありますよ…。
+EN Some things are better off forgotten...
+
+@ 106.185
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.187
+# 社 長
+JP …ＯＫ。
+JP わかった。
+JP 忘れよう。
+EN ...Okay. Got it. I'll forget it.
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （よし、
+JP 　今日の見回りはここで終わり）
+EN (All right, that's the end of tonight's rounds.)
+
+@ 107.26
+# 社 長
+JP （…んっ？
+JP 　明かりがついてる？）
+EN (...Hm? The lights are on?)
+
+@ 107.28
+# 社 長
+JP （あれはシャワー室のあたりだな…）
+EN (That's around the shower room...)
+
+@ 107.30
+# 社 長
+JP （電気の消し忘れか…）
+EN (Someone forgot to turn them off...)
+
+@ 107.32
+# 社 長
+JP （前にもこんなことが
+JP 　あったような気がするが…）
+EN (I feel like this has happened before...)
+
+@ 107.34
+# 社 長
+JP （仕方ない。
+JP 　消しに行こう）
+EN (Oh well. I'll go switch them off.)
+
+@ 107.56
+# 社 長
+JP あっ…。
+EN Ah...
+
+@ 107.60
+# ？？？
+JP ………………ッ！
+EN .........!
+
+@ 107.63
+# 社 長
+JP あの、ちょっと待っ…！
+EN Um, wait a sec...!
+
+@ 107.67
+# ？？？
+JP しゃあっ！
+EN Shaaah!
+
+@ 107.89
+# 社 長
+JP （また…このパターンか…）
+EN (Not... this again...)
+
+@ 107.96
+# 社 長
+JP （人の足音が遠ざかっていく…）
+EN (Footsteps are fading away...)
+
+@ 107.98
+# 社 長
+JP （ダメだ…意識が……）
+EN (No good... I'm losing consciousness......)
+
+@ 107.100
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.115
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.117
+# 社 長
+JP …………うう……。
+EN ............Ugh......
+
+@ 107.119
+# 社 長
+JP イタタッ…。
+JP さっきのってやっぱり…。
+EN Owww... So that just now was...
+
+@ 107.133
+# AGEHA
+JP …おや？
+JP ミスター・プレジデントでは
+JP ないですかー！？
+EN ...Oh my? If it isn't Mister President!?
+
+@ 107.136
+# 社 長
+JP あっ…！？
+EN Ah...!?
+
+@ 107.142
+# 社 長
+JP さっきの…おまえだよな？
+EN That was... you just now, right?
+
+@ 107.149
+# AGEHA
+JP なんのことです？
+EN What are you talking about?
+
+@ 107.152
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.154
+# 社 長
+JP いや、間違いない。
+JP さっきのはおまえだ。
+EN No, there's no doubt about it. That was you.
+
+@ 107.161
+# AGEHA
+JP ………………。
+EN .........
+
+@ 107.168
+# AGEHA
+JP …く…く、屈辱です！
+EN ...Th-th-this is humiliating!
+
+@ 107.172
+# AGEHA
+JP 一度ならず二度までも…！
+EN Not once, but twice...!
+
+@ 107.175
+# 社 長
+JP …えっ、ちょっと…。
+JP そんなに悔しがることなのか？
+EN ...Huh, hey... Is it really that frustrating?
+
+@ 107.182
+# AGEHA
+JP こうなっては組織の掟に従い
+JP 二度素顔を見られた相手を
+JP 抹殺するしかありません！
+EN Then by the law of the Organization, I have no choice
+EN but to eliminate the one who saw my face twice!
+
+@ 107.185
+# 社 長
+JP ちょ、ちょっと待て。
+EN W-wait a minute.
+
+@ 107.189
+# AGEHA
+JP ミスター・プレジデント…。
+JP どうやら今日でお別れのようです…。
+EN Mister President... It seems today we must say
+EN goodbye...
+
+@ 107.192
+# 社 長
+JP …ま、待て。
+JP 落ち着いて話し合おう。
+EN ...W-wait. Calm down, let's talk this over.
+
+@ 107.196
+# AGEHA
+JP いいえ…。
+JP 話し合いの余地はありません…。
+EN No... There is nothing to talk about...
+
+@ 107.199
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.203
+# AGEHA
+JP ………………。
+EN .........
+
+@ 107.206
+# 社 長
+JP （やつは本気だ…）
+EN (She's serious...)
+
+@ 107.208
+# 社 長
+JP （ここは何とかごまかさないと…）
+EN (I have to talk my way out of this somehow...)
+
+@ 107.210
+# 社 長
+JP …あ、あれ？
+JP おかしいな？
+EN ...H-huh? That's strange.
+
+@ 107.214
+# AGEHA
+JP どうしました？
+JP ミスター・プレジデント？
+EN What's wrong, Mister President?
+
+@ 107.217
+# 社 長
+JP さっきショックを受けたせいで
+JP 急にその直前の記憶がなくなって…。
+EN The shock from earlier must have wiped out my
+EN memory of what happened right before it...
+
+@ 107.224
+# AGEHA
+JP ほ、本当ですか？
+EN R-really?
+
+@ 107.227
+# 社 長
+JP …あ、ああ。
+JP 全然思い出せない！
+EN ...Y-yeah. I can't remember a thing!
+
+@ 107.234
+# AGEHA
+JP それならお互い
+JP ハッピーでいられますね。
+EN Then we can both stay happy.
+
+@ 107.237
+# 社 長
+JP そ、そうだな…。
+EN R-right...
+
+@ 107.244
+# AGEHA
+JP 余計なことは
+JP 決して思い出さないように…。
+EN Make sure you never remember anything you
+EN shouldn't...
+
+@ 107.247
+# 社 長
+JP …お、ＯＫ。
+JP そうしよう。
+EN ...O-okay. I'll do that.
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# AGEHA
+JP あなたと稽古するのは
+JP 楽しいですねー。
+EN Sparring with you is fun!
+
+@ 109.17
+# scene 112 練習試合 バッド
+# AGEHA
+JP この邪悪な気配は
+JP なんでしょうかー？
+EN What is this evil presence I sense?
+
+@ 110.16
+# scene 113 練習開始
+# AGEHA
+JP では、始めまーす。
+EN Well then, let's begiiin.
+
+@ 111.16
+# scene 114 練習開始 好意
+# AGEHA
+JP ダーリン！
+JP 優しくお願いしまーす！
+EN Darling! Please be gentle!
+
+@ 112.16
+# scene 115 特訓開始
+# AGEHA
+JP 特訓ですか…？
+JP オーバーワークが少し心配ですね。
+EN Special training...? I'm a little worried about
+EN overwork.
+
+@ 113.20
+# scene 116 特訓成功
+# AGEHA
+JP たまには新しいメニューも
+JP いいかもですね♪
+EN A new routine once in a while might be nice♪
+
+@ 114.20
+# scene 117 特訓失敗
+# AGEHA
+JP 体がだるくてしんどいです…。
+EN My body feels heavy and worn out...
+
+@ 115.16
+# scene 118 休養
+# AGEHA
+JP さて何をしましょうか。
+JP 近くにＵＭＡがいればいいんですがー？
+EN Now, what shall I do? If only there were a UMA
+EN nearby...
+
+@ 116.16
+# scene 119 入場1
+# AGEHA
+JP 今宵の私はＵＭＡよりも
+JP 怖いですよー！
+EN Tonight I'm scarier than any UMA!
+
+@ 117.16
+# scene 119 入場2
+# AGEHA
+JP 見るがいい！
+JP 嵐に舞う私の妙技を！
+EN Behold! My dazzling art, dancing in the storm!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# AGEHA
+JP 二人の力で闇を抹殺しましょう。
+EN Let us destroy the darkness with our combined
+EN strength.
+
+@ 119.17
+# scene 123 タッグマッチ バッド
+# AGEHA
+JP とりあえず、先にパートナーから
+JP 倒すべきでしょうかー？
+EN Maybe I should take out my partner first?
+
+@ 120.16
+# scene 125 必殺技１
+# AGEHA
+JP 蝶の華麗な舞をお見せしましょう！
+EN Let me show you the graceful dance of the
+EN butterfly!
+
+@ 121.16
+# scene 125 必殺技２
+# AGEHA
+JP 闇を駆逐しまーす！
+EN I shall drive out the darkness!
+
+@ 122.16
+# scene 125 必殺技３
+# AGEHA
+JP ＵＭＡに決める技、いきますねっ♪
+EN Here comes the move I use on UMAs♪
+
+@ 123.12
+# scene 126 勝利1
+# AGEHA
+JP 闇との戦いはまだまだ続きます！
+EN The battle against darkness goes on!
+
+@ 124.12
+# scene 126 勝利2
+# AGEHA
+JP ＵＭＡでもないのに
+JP 本気を出してしまいました。
+JP ソーリーです。
+EN You're not even a UMA, and I went all out. Sorry!
+
+@ 125.12
+# scene 126 勝利3
+# AGEHA
+JP あなた、ＵＭＡと同じくらい
+JP 強かったですよー。
+EN You were as strong as a UMA!
+
+@ 126.15
+# scene 133 表彰1
+# AGEHA
+JP ありがとう！
+JP これからも世界の平和を守りまーす！
+EN Thank you! I'll keep protecting world peace!
+
+@ 127.15
+# scene 133 表彰2
+# AGEHA
+JP メルシー！
+JP とても光栄でーす！
+EN Merci! I'm truly honored!
+
+@ 128.12
+# scene 134 優勝1
+# AGEHA
+JP もっともっと強い人たちと
+JP 戦いたいでーす！
+EN I want to fight even stronger people!
+
+@ 129.12
+# scene 134 優勝２
+# AGEHA
+JP ＵＭＡよりも強い人は
+JP いないようですねー！
+JP 残念でーす！
+EN It seems no one is stronger than a UMA! What a
+EN shame!
+
+@ 130.24
+# scene 135 エンディング 通常
+# AGEHA
+JP おめでとうございます。
+JP ミスター・プレジデント！
+JP ワールドチャンピオンですよー！
+EN Congratulations, Mister President! You're the world
+EN champion!
+
+@ 131.24
+# scene 136 エンディング 好意
+# AGEHA
+JP 任務以外で世界を回りたいでーす。
+JP もちろん二人だけでですよ。
+EN I want to travel the world for something other than
+EN missions. Just the two of us, of course.

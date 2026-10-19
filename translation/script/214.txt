@@ -1,0 +1,93 @@
+# /SCR/214.BIN - アリス・スミルノフ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 214` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# アリス・スミルノフ
+JP おまえら、しょっぱすぎて
+JP 話にならねーな！
+EN You lot are so lame, you ain't even worth talkin'
+EN about!
+
+@ 1.16
+# scene 119 入場1
+# アリス・スミルノフ
+JP 全部ぶっ潰してやる！
+EN I'm gonna crush every last one of you!
+
+@ 2.16
+# scene 119 入場2
+# アリス・スミルノフ
+JP 北極海に沈めてやるよ！
+EN I'll sink you in the Arctic Ocean!
+
+@ 3.16
+# scene 125 必殺技１
+# アリス・スミルノフ
+JP そろそろ地獄に落ちな！
+EN Time to go to hell!
+
+@ 4.16
+# scene 125 必殺技２
+# アリス・スミルノフ
+JP お前をソテーにしてやるよ！
+EN I'm gonna make a saute outta you!
+
+@ 5.16
+# scene 125 必殺技３
+# アリス・スミルノフ
+JP 地獄の使者…。
+JP 冥土の土産話にでもにしておきな！
+EN The messenger of hell... Take that story with you to
+EN the grave!
+
+@ 6.12
+# scene 126 勝利1
+# アリス・スミルノフ
+JP 我が闘争に終わりなし！
+EN My struggle never ends!
+
+@ 7.12
+# scene 126 勝利2
+# アリス・スミルノフ
+JP 片手で十分だったなー！
+EN One hand was plenty!
+
+@ 8.12
+# scene 126 勝利3
+# アリス・スミルノフ
+JP 今日は勝利の美酒に酔いしれるぜ！
+EN Tonight I'm gettin' drunk on the sweet wine of
+EN victory!
+
+@ 9.15
+# scene 133 表彰1
+# アリス・スミルノフ
+JP くれるっていうんなら
+JP もらってやるよ。
+EN If you're givin' it away, I'll take it.
+
+@ 10.15
+# scene 133 表彰2
+# アリス・スミルノフ
+JP もらっといて損はねーよなぁ。
+EN No harm in takin' it, right?
+
+@ 11.12
+# scene 134 優勝1
+# アリス・スミルノフ
+JP もっとマシな相手用意しな！
+EN Get me a better opponent next time!
+
+@ 12.12
+# scene 134 優勝２
+# アリス・スミルノフ
+JP まるで手ごたえがねーんだよ！
+EN There was nothin' to it at all!

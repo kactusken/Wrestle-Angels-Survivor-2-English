@@ -1,0 +1,89 @@
+# /SCR/221.BIN - ダイナマイト・リン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 221` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ダイナマイト・リン
+JP 私が主役に決まってるじゃない！
+EN Of course I'm the star! Who else?
+
+@ 1.16
+# scene 119 入場1
+# ダイナマイト・リン
+JP 今日も勝っちゃおうかな！
+EN Guess I'll win again today!
+
+@ 2.16
+# scene 119 入場2
+# ダイナマイト・リン
+JP 少しは楽しませてよね？
+EN Try to make it a little fun for me, okay?
+
+@ 3.16
+# scene 125 必殺技１
+# ダイナマイト・リン
+JP くらいなさい！
+JP ダイナマイトスパイク！
+EN Take this! Dynamite Spike!
+
+@ 4.16
+# scene 125 必殺技２
+# ダイナマイト・リン
+JP とっておき出すわよーッ！
+EN Here comes my best stuff!
+
+@ 5.16
+# scene 125 必殺技３
+# ダイナマイト・リン
+JP これであなたも終わりよっ！
+EN And that's the end of you!
+
+@ 6.12
+# scene 126 勝利1
+# ダイナマイト・リン
+JP まあ、楽勝よね！
+EN Well, that was a breeze!
+
+@ 7.12
+# scene 126 勝利2
+# ダイナマイト・リン
+JP もっと練習しなくちゃダメよ！
+EN You need to train way harder!
+
+@ 8.12
+# scene 126 勝利3
+# ダイナマイト・リン
+JP もう終わり？
+JP 準備運動にもならないわ。
+EN Done already? That wasn't even a warm-up.
+
+@ 9.15
+# scene 133 表彰1
+# ダイナマイト・リン
+JP みんな少しは見る目あるじゃない！
+EN So you guys have some taste after all!
+
+@ 10.15
+# scene 133 表彰2
+# ダイナマイト・リン
+JP まぁ、私がもらって当然よね！
+EN Well, of course it goes to me!
+
+@ 11.12
+# scene 134 優勝1
+# ダイナマイト・リン
+JP みんなが弱すぎなのよ！
+EN Everyone else is just too weak!
+
+@ 12.12
+# scene 134 優勝２
+# ダイナマイト・リン
+JP まぁ順当な結果じゃないの？
+EN Well, that's how it was supposed to go, right?

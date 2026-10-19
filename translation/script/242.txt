@@ -1,0 +1,102 @@
+# /SCR/242.BIN - コリィ・スナイパー
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 242` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# コリィ・スナイパー
+JP これでスナイパーシスターズの力を
+JP 証明できたわ！
+EN Now we've proven the power of the Sniper Sisters!
+
+@ 1.16
+# scene 119 入場1
+# コリィ・スナイパー
+JP 今日はベルトを狙い撃ちよ！
+EN Today, the belt's in my sights!
+
+@ 2.16
+# scene 119 入場2
+# コリィ・スナイパー
+JP あとはターゲットを
+JP ロックオンするだけよ！
+EN All that's left is to lock on to the target!
+
+@ 3.17
+# scene 120 タッグマッチ ベスト
+# コリィ・スナイパー
+JP 姉さん、今日もよろしくね！
+EN Sis, let's do this again today!
+
+@ 4.16
+# scene 125 必殺技１
+# コリィ・スナイパー
+JP これで終わりにしてあげる！
+EN I'll finish you with this!
+
+@ 5.16
+# scene 125 必殺技２
+# コリィ・スナイパー
+JP ロックオン完了よ！
+EN Lock-on complete!
+
+@ 6.16
+# scene 125 必殺技３
+# コリィ・スナイパー
+JP 私が高みに行くためにも
+JP ここで消えてね！
+EN I need to climb higher, so be a dear and disappear!
+
+@ 7.12
+# scene 126 勝利1
+# コリィ・スナイパー
+JP スナイパーシスターズの強さ
+JP わかったでしょ？
+EN Now you know how strong the Sniper Sisters are,
+EN right?
+
+@ 8.12
+# scene 126 勝利2
+# コリィ・スナイパー
+JP スナイパーに狙われた獲物は
+JP 逃げられないの。
+EN Prey in a sniper's sights can't escape.
+
+@ 9.12
+# scene 126 勝利3
+# コリィ・スナイパー
+JP よしっ、今日もハント完了ね！
+EN All right, another hunt complete!
+
+@ 10.15
+# scene 133 表彰1
+# コリィ・スナイパー
+JP タイトルを
+JP 狙い撃ちしちゃったみたいね。
+EN Looks like I shot that title right down.
+
+@ 11.15
+# scene 133 表彰2
+# コリィ・スナイパー
+JP これで私たちも
+JP また有名になっちゃうわね。
+EN Now we'll be even more famous, won't we?
+
+@ 12.12
+# scene 134 優勝1
+# コリィ・スナイパー
+JP スナイパーシスターズは
+JP 狙った獲物は逃がさないわ！
+EN The Sniper Sisters never let their prey escape!
+
+@ 13.12
+# scene 134 優勝２
+# コリィ・スナイパー
+JP 狙った獲物は絶対に逃がさないわ！
+EN I never let my prey escape!

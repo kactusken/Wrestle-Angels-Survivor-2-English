@@ -1,0 +1,100 @@
+# /SCR/240.BIN - リリィ・スナイパー
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 240` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# リリィ・スナイパー
+JP スナイパーシスターズの力を
+JP 証明できたな！
+EN We've proven the power of the Sniper Sisters!
+
+@ 1.16
+# scene 119 入場1
+# リリィ・スナイパー
+JP 今日はベルトを狙い撃ちだ！
+EN Today, the belt is in my sights!
+
+@ 2.16
+# scene 119 入場2
+# リリィ・スナイパー
+JP あとはターゲットを
+JP ロックオンするだけだ！
+EN All that's left is to lock on to the target!
+
+@ 3.17
+# scene 120 タッグマッチ ベスト
+# リリィ・スナイパー
+JP 私たち姉妹の絆は最強だ。
+EN The bond between us sisters is the strongest.
+
+@ 4.16
+# scene 125 必殺技１
+# リリィ・スナイパー
+JP この技でねじ伏せる！
+EN This move will force you down!
+
+@ 5.16
+# scene 125 必殺技２
+# リリィ・スナイパー
+JP ロックオン完了だ！
+EN Lock-on complete!
+
+@ 6.16
+# scene 125 必殺技３
+# リリィ・スナイパー
+JP 一発痛いのかましてやるぜ！
+EN I'm gonna hit you with one that really hurts!
+
+@ 7.12
+# scene 126 勝利1
+# リリィ・スナイパー
+JP スナイパーシスターズの力
+JP わかったか！
+EN See the power of the Sniper Sisters?
+
+@ 8.12
+# scene 126 勝利2
+# リリィ・スナイパー
+JP スナイパーに狙われた獲物は
+JP 逃げられないんだよ！
+EN No prey escapes once a sniper's got it in her sights!
+
+@ 9.12
+# scene 126 勝利3
+# リリィ・スナイパー
+JP 狙撃者は一度狙った獲物を
+JP 決して逃がさない！
+EN A sniper never lets her prey escape once she takes
+EN aim!
+
+@ 10.15
+# scene 133 表彰1
+# リリィ・スナイパー
+JP タイトルを狙うのも軽いものだな。
+EN Taking aim at a title is easy.
+
+@ 11.15
+# scene 133 表彰2
+# リリィ・スナイパー
+JP スナイパーシスターズは無敵だ！
+EN The Sniper Sisters are invincible!
+
+@ 12.12
+# scene 134 優勝1
+# リリィ・スナイパー
+JP 今回の優勝も狙いどおりだ！
+EN This win went right where I aimed!
+
+@ 13.12
+# scene 134 優勝２
+# リリィ・スナイパー
+JP スナイパーシスターズは
+JP 狙った獲物は逃がさない！
+EN The Sniper Sisters never let their prey escape!

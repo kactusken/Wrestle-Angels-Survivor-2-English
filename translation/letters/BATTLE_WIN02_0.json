@@ -1,0 +1,16 @@
+{
+ "english": "TITLE DEFENDED!",
+ "boxes": [[90, 36, 460, 88]],
+ "font": "BarlowCondensed-BlackItalic.ttf",
+ "draw": "battle.banner",
+ "fill": "enclosed",
+ "barrier": "bright",
+ "layers": "rows",
+ "reach": 8,
+ "rim": 9,
+ "grad": "group",
+ "blur": [30, 16],
+ "pick": "common",
+ "ground": "transparent",
+ "notes": "title match result banner (ベルト防衛, exe: successfully defends the title); chrome fill, rings and glow rebuilt by tools/letter_ext/battle.py (banner)"
+}

@@ -1,0 +1,12 @@
+{
+ "english": "The names of all promotions, people and facilities | appearing in this game are fictitious | and have no connection whatsoever | to any real persons, organizations or places.",
+ "boxes": [[20, 136, 600, 32], [20, 184, 600, 32], [20, 232, 600, 32], [20, 280, 600, 32]],
+ "draw": "system.draw",
+ "font": "Barlow-Medium.ttf",
+ "cap": 16,
+ "fill": [248, 248, 248],
+ "ground": "interpolate",
+ "clear": [[100, 130, 440, 190]],
+ "margin": 1,
+ "notes": "start-up notice: four centred lines, Barlow Medium, anti-aliased in the picture's greys (tools/letter_ext/system.py)"
+}

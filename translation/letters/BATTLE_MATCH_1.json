@@ -1,0 +1,11 @@
+{
+ "english": "Auto | Semi-Auto | Manual",
+ "boxes": [[274, 16, 42, 16], [274, 32, 68, 17], [274, 49, 68, 15]],
+ "fill": "colour",
+ "ground": "transparent",
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "draw": "battle.draw",
+ "align": "left",
+ "cap": 11,
+ "notes": "match control mode labels (exe: Auto / Semi-Auto / Manual); colour gradients sampled per label (tools/letter_ext/battle.py)"
+}

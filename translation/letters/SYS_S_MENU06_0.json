@@ -1,0 +1,22 @@
+{
+ "english": "Roster | Coaches",
+ "boxes": [
+  [
+   11,
+   0,
+   48,
+   24
+  ],
+  [
+   2,
+   24,
+   69,
+   25
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf"
+}

@@ -1,0 +1,2576 @@
+# /SCR/074.BIN - 栗浜亜魅
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 074` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 栗浜 亜魅
+JP 栗浜です。
+JP 本当のご主人様を探しています。
+EN I am Kurihama. I am searching for my true Master.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 栗浜 亜魅
+JP ご主人様…。
+JP かわいがってくださいね。
+EN Master... Please take good care of me.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 栗浜 亜魅
+JP …このまがいもの。
+EN ...You fake.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here.
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「黒魔術に通じた異色の少女」と
+JP あるが…。
+EN The scouting report says "an unusual girl versed in
+EN the black arts"...
+
+@ 3.27
+# 社 長
+JP 本当にプロレスラー候補なのか…。
+EN Is she really a wrestling prospect?
+
+@ 3.29
+# 社 長
+JP たしか、このあたりのはずだけど…。
+EN She should be somewhere around here...
+
+@ 3.31
+# 社 長
+JP なんか、あそこに黒いオーラを
+JP 発している子がいるな…。
+JP とりあえず話しかけてみるか。
+EN There's a girl over there giving off some kind of
+EN black aura... Well, I'll try talking to her.
+
+@ 3.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.43
+# 栗浜 亜魅
+JP 誰ですか？
+JP あなたは？
+EN Who are you?
+
+@ 3.46
+# 社 長
+JP えーと、私はプロレス団体の
+JP 社長をしている者ですが…。
+EN Er, I'm the president of a pro-wrestling promotion...
+
+@ 3.53
+# 栗浜 亜魅
+JP やはり暗黒魔術の占いの通り…。
+EN Just as the dark divination foretold...
+
+@ 3.56
+# 社 長
+JP へっ…？
+EN Huh...?
+
+@ 3.63
+# 栗浜 亜魅
+JP やっとお会いできました。
+JP ご主人様！
+EN At last we meet again. My Master!
+
+@ 3.66
+# 社 長
+JP （な、何言っているんだ。
+JP 　この娘は？）
+EN (Wh-what is this girl talking about?)
+
+@ 3.73
+# 栗浜 亜魅
+JP お忘れなのですか、この私を。
+JP あなたのクラウディアを。
+EN Have you forgotten me? Your Claudia?
+
+@ 3.76
+# 社 長
+JP （クラウディア…って
+JP 　いったい誰のことだ？）
+EN (Claudia...? Who on earth is that?)
+
+@ 3.78
+# 社 長
+JP あ、あの、たぶん人違いだと
+JP 思いますよ。
+EN Uh, um, I think you've got the wrong person.
+
+@ 3.80
+# 社 長
+JP 君とは今日初めて会った訳だし…。
+EN I mean, we only just met today...
+
+@ 4.16
+# scene 005 新人スカウト１ 成功
+# 栗浜 亜魅
+JP 今のお姿がどうであるかなど
+JP 些細なことですわ、ご主人様。
+EN What form you wear in this life is a trifling matter,
+EN Master.
+
+@ 4.23
+# 栗浜 亜魅
+JP ここでお会いできたことこそが
+JP 前世からの因縁…。
+JP 地獄の底までもお供いたします。
+EN That we have met here is a bond from a past life... I
+EN shall follow you to the very depths of Hell.
+
+@ 4.26
+# 社 長
+JP （何がどうなってるんだ。
+JP 　それに地獄って…？）
+EN (What is going on here? And what's this about Hell...?)
+
+@ 4.33
+# 栗浜 亜魅
+JP この世でもよろしくお願いします。
+JP アレイスター様。
+EN I am yours in this world as well, Lord Aleister.
+
+@ 4.36
+# 社 長
+JP （何が起きているのか
+JP 　サッパリわからなかったが…）
+EN (I had absolutely no idea what was happening, but...)
+
+@ 4.38
+# 社 長
+JP （結局…彼女はそのまま
+JP 　俺についてきてしまった…）
+EN (In the end... she just followed me home...)
+
+@ 5.44
+# scene 006 新人スカウト１ 失敗
+# 社 長
+JP ………………。
+EN ..................
+
+@ 5.52
+# 栗浜 亜魅
+JP …まがいもの。
+EN ...A fake.
+
+@ 5.55
+# 社 長
+JP …へっ？
+EN ...Huh?
+
+@ 5.59
+# 栗浜 亜魅
+JP おまえはアレイスター様なんか
+JP じゃない、フンッ！
+EN You are no Lord Aleister. Hmph!
+
+@ 5.68
+# 社 長
+JP ………………。
+EN ..................
+
+@ 5.70
+# 社 長
+JP （なんだかわからないが
+JP 　ことなきを得た
+JP 　…と思っていいんだよな）
+EN (I have no idea what happened, but... I guess I got off
+EN lightly?)
+
+@ 5.72
+# 社 長
+JP （…帰るか）
+EN (...Time to head home.)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （前回がある意味
+JP 　衝撃的だったからな）
+EN (Last time was a shock, in a way.)
+
+@ 6.25
+# 社 長
+JP （今日は普通にスカウトできると
+JP 　いいけど…）
+EN (I hope I can scout her normally today...)
+
+@ 6.27
+# 社 長
+JP たしか、このあたりだったよな…。
+EN It was around here, I think...
+
+@ 6.29
+# 社 長
+JP 今日はいないのかな…？
+EN Maybe she's not here today...?
+
+@ 6.39
+# 栗浜 亜魅
+JP …ご主人様。
+EN ...Master.
+
+@ 6.42
+# 社 長
+JP うわっ！
+EN Whoa!
+
+@ 6.46
+# 栗浜 亜魅
+JP やはりあなたはアレイスター様です。
+JP また星が同じ導きをいたしました。
+EN So you are Lord Aleister after all. The stars have
+EN guided us together once again.
+
+@ 6.49
+# 社 長
+JP （やっぱり、こんな展開なのか…）
+EN (I knew it would go like this...)
+
+@ 6.51
+# 社 長
+JP あの…。
+JP 私はプロレスの団体を
+JP 経営している者で…。
+EN Um... I run a pro-wrestling promotion, and...
+
+@ 7.16
+# scene 008 新人スカウト ２回目以降・成功
+# 栗浜 亜魅
+JP 今のお姿がどうであるかなど
+JP 些細なことですわ、ご主人様。
+EN What form you wear in this life is a trifling matter,
+EN Master.
+
+@ 7.23
+# 栗浜 亜魅
+JP ここでお会いできたことこそが
+JP 前世からの因縁…。
+JP 地獄の底までもお供いたします。
+EN That we have met here is a bond from a past life... I
+EN shall follow you to the very depths of Hell.
+
+@ 7.26
+# 社 長
+JP （何がどうなってるんだ。
+JP 　それに地獄って…？）
+EN (What is going on here? And what's this about Hell...?)
+
+@ 7.33
+# 栗浜 亜魅
+JP この世でもよろしくお願いします。
+JP アレイスター様。
+EN I am yours in this world as well, Lord Aleister.
+
+@ 7.36
+# 社 長
+JP （何が起きているのか
+JP 　サッパリわからなかったが…）
+EN (I had absolutely no idea what was happening, but...)
+
+@ 7.38
+# 社 長
+JP （結局…彼女はそのまま
+JP 　俺についてきてしまった…）
+EN (In the end... she just followed me home...)
+
+@ 8.44
+# scene 009 新人スカウト ２回目以降  失敗
+# 社 長
+JP ………………。
+EN ..................
+
+@ 8.52
+# 栗浜 亜魅
+JP …まがいもの。
+EN ...A fake.
+
+@ 8.55
+# 社 長
+JP …へっ？
+EN ...Huh?
+
+@ 8.59
+# 栗浜 亜魅
+JP おまえはアレイスター様なんか
+JP じゃない、フンッ！
+EN You are no Lord Aleister. Hmph!
+
+@ 8.68
+# 社 長
+JP ………………。
+EN ..................
+
+@ 8.70
+# 社 長
+JP （なんだかわからないが
+JP 　ことなきを得た
+JP 　…と思っていいんだよな）
+EN (I have no idea what happened, but... I guess I got off
+EN lightly?)
+
+@ 8.72
+# 社 長
+JP （…帰るか）
+EN (...Time to head home.)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （栗浜選手の個性は
+JP 　うちの団体にはない魅力だ）
+EN (Kurihama's personality is something our promotion
+EN doesn't have.)
+
+@ 9.25
+# 社 長
+JP （うちの団体に入ってもらえば
+JP 　興行がいっそう盛り上がるのは
+JP 　間違いない）
+EN (If she joined us, our shows would get even more
+EN exciting. No doubt about it.)
+
+@ 9.27
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 9.29
+# 社 長
+JP あの、すいません！
+EN Um, excuse me!
+
+@ 9.39
+# 栗浜 亜魅
+JP …なんですか、あなたは。
+EN ...What do you want?
+
+@ 9.42
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.49
+# 栗浜 亜魅
+JP スカウト？
+JP …なぜ、私を……。
+EN Recruit me? ...Why me...?
+
+@ 9.56
+# 栗浜 亜魅
+JP あなたはもしや…？
+EN Could you be...?
+
+@ 9.67
+# 社 長
+JP （な、なんだ？）
+EN (Wh-what?)
+
+@ 9.69
+# 社 長
+JP （…いきなり瞳を覗き込んできて…）
+EN (...She's suddenly staring into my eyes...)
+
+@ 10.16
+# scene 011 移籍交渉 他団体所属 成功
+# 栗浜 亜魅
+JP …こんなところに
+JP おいででしたのですね…。
+JP アレイスター様。
+EN ...So this is where you were... Lord Aleister.
+
+@ 10.19
+# 社 長
+JP はっ…？
+EN Huh...?
+
+@ 10.26
+# 栗浜 亜魅
+JP お声をかけていただくまで
+JP 気づけないとは不覚です。
+JP 使い魔失格です…。
+EN To not notice until you spoke to me... how shameful. I
+EN am unworthy to be your familiar...
+
+@ 10.29
+# 社 長
+JP 言っている意味が
+JP よくわからないんですけど…。
+EN I don't really understand what you're saying...
+
+@ 10.36
+# 栗浜 亜魅
+JP どうぞ、お気の済むまで
+JP 罰をお与えください。
+JP …ご主人様。
+EN Please, punish me as much as you see fit... Master.
+
+@ 10.39
+# 社 長
+JP （………………？）
+EN (..................?)
+
+@ 10.41
+# 社 長
+JP （栗浜選手はうちの団体への
+JP 　移籍を承知してくれた）
+EN (Kurihama agreed to transfer to our promotion.)
+
+@ 10.43
+# 社 長
+JP （結果的には
+JP 　望み通りになったんだが…）
+EN (In the end, I got what I wanted, but...)
+
+@ 10.45
+# 社 長
+JP （…あんまりややこしいことを
+JP 　考えるのはやめておこう…）
+EN (...Better not think too hard about it...)
+
+@ 11.16
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 栗浜 亜魅
+JP …違うな。
+JP フンッ、このまがいものめ。
+EN ...Wrong. Hmph, you fake.
+
+@ 11.19
+# 社 長
+JP あの…。
+JP い、いったい何が何やら…。
+EN Um... Wh-what is going on here...
+
+@ 11.23
+# 栗浜 亜魅
+JP おまえなどに用はない。
+JP あっちへ行ってしまえ。
+EN I have no use for the likes of you. Begone.
+
+@ 11.26
+# 社 長
+JP （結局…何が何だかわからないまま
+JP 　俺は追い返されてしまった…）
+EN (In the end... I got sent packing without
+EN understanding a thing...)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　栗浜選手が必要だ）
+EN (Our promotion really needs Kurihama.)
+
+@ 12.25
+# 社 長
+JP （俺はもう一度
+JP 　交渉を試みることにした）
+EN (I decided to try negotiating once more.)
+
+@ 12.27
+# 社 長
+JP あの、すいません。
+EN Um, excuse me.
+
+@ 12.37
+# 栗浜 亜魅
+JP …あっ、まがいもの…。
+EN ...Ah, the fake...
+
+@ 12.40
+# 社 長
+JP あの…。
+JP もう一度、移籍を考えて
+JP いただけないでしょうか。
+EN Um... Would you consider transferring to us once
+EN more?
+
+@ 12.47
+# 栗浜 亜魅
+JP 何を言う。
+JP おまえはまがいもので…。
+JP んっ…？
+EN What are you saying? You are a fake, and... Hm...?
+
+@ 12.53
+# 社 長
+JP …はっ？
+JP なに？
+EN ...Huh? What?
+
+@ 12.61
+# 社 長
+JP （彼女はまたしても
+JP 　いきなり瞳を覗き込んできた）
+EN (Once again, she suddenly stared into my eyes.)
+
+@ 13.16
+# scene 014 移籍交渉 他団体所属２ 成功
+# 栗浜 亜魅
+JP …こんなところに
+JP おいででしたのですね…。
+JP アレイスター様。
+EN ...So this is where you were... Lord Aleister.
+
+@ 13.19
+# 社 長
+JP は…？
+EN Huh...?
+
+@ 13.26
+# 栗浜 亜魅
+JP お声をかけていただくまで
+JP 気づけないとは不覚です。
+JP 使い魔失格です…。
+EN To not notice until you spoke to me... how shameful. I
+EN am unworthy to be your familiar...
+
+@ 13.29
+# 社 長
+JP 言っている意味が
+JP よくわからないんですけど…。
+EN I don't really understand what you're saying...
+
+@ 13.36
+# 栗浜 亜魅
+JP どうぞ、お気の済むまで
+JP 罰をお与えください。
+JP …ご主人様。
+EN Please, punish me as much as you see fit... Master.
+
+@ 13.39
+# 社 長
+JP （………………？）
+EN (..................?)
+
+@ 13.41
+# 社 長
+JP （栗浜選手はうちの団体への
+JP 　移籍を承知してくれた）
+EN (Kurihama agreed to transfer to our promotion.)
+
+@ 13.43
+# 社 長
+JP （結果的には
+JP 　望み通りになったんだが…）
+EN (In the end, I got what I wanted, but...)
+
+@ 13.45
+# 社 長
+JP （あんまりややこしいことを
+JP 　考えるのはやめておこう…）
+EN (Better not think too hard about it...)
+
+@ 14.16
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 栗浜 亜魅
+JP …違うな。
+JP フンッ、このまがいものめ。
+EN ...Wrong. Hmph, you fake.
+
+@ 14.19
+# 社 長
+JP あの…。
+JP い、いったい何が何やら……。
+EN Um... Wh-what is going on here...
+
+@ 14.23
+# 栗浜 亜魅
+JP おまえなどに用はない。
+JP あっちへ行ってしまえ。
+EN I have no use for the likes of you. Begone.
+
+@ 14.26
+# 社 長
+JP （結局…何が何だかわからないまま
+JP 　俺は追い返されてしまった…）
+EN (In the end... I got sent packing without
+EN understanding a thing...)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （栗浜選手のあの個性。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (That personality of Kurihama's... She's exactly the
+EN talent I want for our promotion.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 15.27
+# 社 長
+JP あの、すいません！
+EN Um, excuse me!
+
+@ 15.37
+# 栗浜 亜魅
+JP …なんですか、あなたは。
+EN ...What do you want?
+
+@ 15.40
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.47
+# 栗浜 亜魅
+JP ハッ…。
+JP あなたはもしかして…。
+EN Ah... Could you be...?
+
+@ 15.54
+# 栗浜 亜魅
+JP ちょっと動かないでください。
+EN Please hold still for a moment.
+
+@ 15.57
+# 社 長
+JP （えっ、なに？）
+EN (Huh? What?)
+
+@ 15.65
+# 社 長
+JP （なんだ…。
+JP 　いきなり瞳を覗き込んできて…）
+EN (What...? She's suddenly staring into my eyes...)
+
+@ 16.16
+# scene 017 移籍交渉 フリー１ 成功
+# 栗浜 亜魅
+JP …こんなところにおいでとは
+JP 気づきませんでしたわ。
+JP アレイスター様。
+EN ...I never noticed you were here, Lord Aleister.
+
+@ 16.19
+# 社 長
+JP …はっ？
+EN ...Huh?
+
+@ 16.26
+# 栗浜 亜魅
+JP お声をかけていただくまで
+JP 気づけないとは不覚です。
+JP 使い魔失格です。
+EN To not notice until you spoke to me... how shameful. I
+EN am unworthy to be your familiar.
+
+@ 16.29
+# 社 長
+JP 言っている意味が
+JP よくわからないんですけど…。
+EN I don't really understand what you're saying...
+
+@ 16.36
+# 栗浜 亜魅
+JP これからは誠心誠意
+JP 仕えさせていただきます。
+JP お許しください。
+EN From now on I shall serve you with all my heart.
+EN Please forgive me.
+
+@ 16.39
+# 社 長
+JP （………………？）
+EN (..................?)
+
+@ 16.41
+# 社 長
+JP （栗浜選手はうちへの入団を
+JP 　承知してくれた）
+EN (Kurihama agreed to join us.)
+
+@ 16.43
+# 社 長
+JP （結果的には
+JP 　望み通りになったんだが…）
+EN (In the end, I got what I wanted, but...)
+
+@ 16.45
+# 社 長
+JP （あんまりややこしいことを
+JP 　考えるのはやめておこう…）
+EN (Better not think too hard about it...)
+
+@ 17.16
+# scene 018 移籍交渉 フリー 失敗
+# 栗浜 亜魅
+JP …なんだ、まがいものか。
+EN ...Oh. Just a fake.
+
+@ 17.19
+# 社 長
+JP あの…。
+JP い、いったい何が何やら…。
+EN Um... Wh-what is going on here...
+
+@ 17.23
+# 栗浜 亜魅
+JP あっちへ行け。
+JP 私は真に仕えるべき
+JP ご主人様を探しているのだ。
+EN Go away. I am searching for the Master I am truly
+EN meant to serve.
+
+@ 17.26
+# 社 長
+JP （……？？？）
+EN (......???)
+
+@ 17.28
+# 社 長
+JP （結局…何が何だかわからないまま
+JP 　俺は追い返されてしまった…）
+EN (In the end... I got sent packing without
+EN understanding a thing...)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには栗浜選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (Our promotion really needs Kurihama. I decided to
+EN negotiate once more.)
+
+@ 18.25
+# 社 長
+JP あの、すいません。
+EN Um, excuse me.
+
+@ 18.35
+# 栗浜 亜魅
+JP …あっ、まがいもの…。
+EN ...Ah, the fake...
+
+@ 18.38
+# 社 長
+JP 移籍の話をもう一度
+JP 考えてもらえないかと思いまして…。
+EN I was hoping you'd reconsider joining us...
+
+@ 18.45
+# 栗浜 亜魅
+JP なぜそこまで…。
+JP もしかして調べ方が悪かった？
+EN Why go so far...? Could my divination have been
+EN wrong?
+
+@ 18.51
+# 社 長
+JP …はっ？
+JP なに？
+EN ...Huh? What?
+
+@ 18.59
+# 社 長
+JP （彼女はまたしても
+JP 　いきなり瞳を覗き込んできた）
+EN (Once again, she suddenly stared into my eyes.)
+
+@ 19.16
+# scene 020 移籍交渉 フリー２ 成功
+# 栗浜 亜魅
+JP …こんなところにおいでとは
+JP 気づきませんでしたわ。
+JP アレイスター様。
+EN ...I never noticed you were here, Lord Aleister.
+
+@ 19.19
+# 社 長
+JP …はっ？
+EN ...Huh?
+
+@ 19.26
+# 栗浜 亜魅
+JP お声をかけていただくまで
+JP 気づけないとは不覚です。
+JP 使い魔失格です。
+EN To not notice until you spoke to me... how shameful. I
+EN am unworthy to be your familiar.
+
+@ 19.29
+# 社 長
+JP 言っている意味が
+JP よくわからないんですけど…。
+EN I don't really understand what you're saying...
+
+@ 19.36
+# 栗浜 亜魅
+JP これからは誠心誠意
+JP 仕えさせていただきます。
+JP お許しください。
+EN From now on I shall serve you with all my heart.
+EN Please forgive me.
+
+@ 19.39
+# 社 長
+JP （………………？）
+EN (..................?)
+
+@ 19.41
+# 社 長
+JP （栗浜選手はうちへの入団を
+JP 　承知してくれた）
+EN (Kurihama agreed to join us.)
+
+@ 19.43
+# 社 長
+JP （結果的には
+JP 　望み通りになったんだが…）
+EN (In the end, I got what I wanted, but...)
+
+@ 19.45
+# 社 長
+JP （あんまりややこしいことを
+JP 　考えるのはやめておこう…）
+EN (Better not think too hard about it...)
+
+@ 20.16
+# scene 021 移籍交渉 フリー２ 失敗
+# 栗浜 亜魅
+JP …なんだ、まがいものか。
+EN ...Oh. Just a fake.
+
+@ 20.19
+# 社 長
+JP あの…。
+JP い、いったい何が何やら…。
+EN Um... Wh-what is going on here...
+
+@ 20.23
+# 栗浜 亜魅
+JP あっちへ行け。
+JP 私は真に仕えるべき
+JP ご主人様を探しているのだ。
+EN Go away. I am searching for the Master I am truly
+EN meant to serve.
+
+@ 20.26
+# 社 長
+JP （……？？？）
+EN (......???)
+
+@ 20.28
+# 社 長
+JP （結局…何が何だかわからないまま
+JP 　俺は追い返されてしまった…）
+EN (In the end... I got sent packing without
+EN understanding a thing...)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 確かこのあたりに…あっ、栗浜っ！
+EN She should be around here... Ah, Kurihama!
+
+@ 21.33
+# 栗浜 亜魅
+JP …あっ。
+JP ご主人様…。
+EN ...Ah. Master...
+
+@ 21.36
+# 社 長
+JP 今日は栗浜に戻って欲しくて
+JP ここまで来たんだ。
+EN I came all this way today because I want you to come
+EN back.
+
+@ 21.43
+# 栗浜 亜魅
+JP …本当ですか？
+JP もう捨てたりしませんか？
+EN ...Truly? You won't cast me away again?
+
+@ 21.46
+# 社 長
+JP ああ。
+JP 今度こそ一緒に
+JP 団体を盛り上げていこう！
+EN Right. This time, let's make the promotion a hit
+EN together!
+
+@ 21.48
+# 社 長
+JP だから、もう一度だけ
+JP 俺を助けてくれないか？
+EN So won't you help me out, just one more time?
+
+@ 22.16
+# scene 023 移籍交渉 退団あり１ 成功
+# 栗浜 亜魅
+JP ええ、喜んで…。
+JP ハッ！
+EN Yes, gladly... Ah!
+
+@ 22.19
+# 社 長
+JP どうした？
+EN What's wrong?
+
+@ 22.26
+# 栗浜 亜魅
+JP ウフフ…。
+JP ご主人様、わざとイジワル
+JP されたのですね。
+EN Ufufu... Master, you were being cruel to me on
+EN purpose, weren't you?
+
+@ 22.29
+# 社 長
+JP あ、いや…。
+JP 別にそんなつもりはないんだが…。
+EN Ah, no... That wasn't my intention...
+
+@ 22.33
+# 栗浜 亜魅
+JP いいんですわ。
+JP 私、怒ったりしていませんから。
+EN It's quite all right. I am not angry.
+
+@ 22.37
+# 栗浜 亜魅
+JP それにそういうイジワルなご主人様
+JP 嫌いではありませんから。
+JP ふふっ。
+EN Besides, I don't dislike a cruel Master like that. Fufu.
+
+@ 22.40
+# 社 長
+JP ………………。
+EN ..................
+
+@ 23.16
+# scene 024 移籍交渉 退団あり１ 失敗
+# 栗浜 亜魅
+JP ごめんなさい、ご主人様。
+JP それは無理ですわ。
+EN I'm sorry, Master. That is impossible.
+
+@ 23.19
+# 社 長
+JP どうしてもダメか？
+EN There's no way at all?
+
+@ 23.26
+# 栗浜 亜魅
+JP 一度契約が失われれば
+JP もう私は使い魔ではありません。
+EN Once the contract is broken, I am no longer your
+EN familiar.
+
+@ 23.33
+# 栗浜 亜魅
+JP 未来永劫、もうご主人様のもとには
+JP 戻れません…。
+JP それが定めですわ。
+EN I can never return to your side, for all eternity...
+EN Such is fate.
+
+@ 23.36
+# 社 長
+JP 栗浜…。
+EN Kurihama...
+
+@ 23.38
+# 社 長
+JP （身から出たサビだな。
+JP 　今日のところは引き上げよう…）
+EN (I brought this on myself. I'll call it a day for now...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 栗浜っ！
+EN Kurihama!
+
+@ 24.33
+# 栗浜 亜魅
+JP あっ、ご主人様。
+JP また来られたんですか？
+EN Ah, Master. You came again?
+
+@ 24.36
+# 社 長
+JP この間の話
+JP もう一度考え直してくれないか。
+EN Won't you reconsider what we talked about the
+EN other day?
+
+@ 24.38
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.16
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 栗浜 亜魅
+JP ええ、喜んで…。
+JP ハッ！
+EN Yes, gladly... Ah!
+
+@ 25.19
+# 社 長
+JP どうした？
+EN What's wrong?
+
+@ 25.26
+# 栗浜 亜魅
+JP ウフフ…。
+JP ご主人様、わざとイジワル
+JP されたのですね。
+EN Ufufu... Master, you were being cruel to me on
+EN purpose, weren't you?
+
+@ 25.29
+# 社 長
+JP あ、いや…。
+JP 別にそんなつもりはないんだが…。
+EN Ah, no... That wasn't my intention...
+
+@ 25.33
+# 栗浜 亜魅
+JP いいんですわ。
+JP 私、怒ったりしていませんから。
+EN It's quite all right. I am not angry.
+
+@ 25.37
+# 栗浜 亜魅
+JP それにそういうイジワルなご主人様
+JP 嫌いではありませんから。
+JP ふふっ。
+EN Besides, I don't dislike a cruel Master like that. Fufu.
+
+@ 25.40
+# 社 長
+JP ………………。
+EN ..................
+
+@ 26.16
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 栗浜 亜魅
+JP ごめんなさい、ご主人様。
+JP それは無理ですわ。
+EN I'm sorry, Master. That is impossible.
+
+@ 26.19
+# 社 長
+JP どうしてもダメか？
+EN There's no way at all?
+
+@ 26.26
+# 栗浜 亜魅
+JP 一度契約が失われれば
+JP もう私は使い魔ではありません。
+EN Once the contract is broken, I am no longer your
+EN familiar.
+
+@ 26.33
+# 栗浜 亜魅
+JP 未来永劫、もうご主人様のもとには
+JP 戻れません…。
+JP それが定めですわ。
+EN I can never return to your side, for all eternity...
+EN Such is fate.
+
+@ 26.36
+# 社 長
+JP 栗浜…。
+EN Kurihama...
+
+@ 26.38
+# 社 長
+JP （身から出たサビだな。
+JP 　今日のところは引き上げよう…）
+EN (I brought this on myself. I'll call it a day for now...)
+
+@ 27.16
+# scene 028 ケガ小
+# 栗浜 亜魅
+JP この程度の傷なら
+JP 呪文の必要もありません。
+EN A wound this slight doesn't even need a spell.
+
+@ 28.16
+# scene 029 ケガ大
+# 栗浜 亜魅
+JP これは…秘薬の調合が必要そうです。
+EN This... will require a secret potion.
+
+@ 29.16
+# scene 030 入院
+# 栗浜 亜魅
+JP 調合の素材が
+JP 色々手に入りそうですね。
+EN I should be able to gather all sorts of ingredients
+EN for my potions here.
+
+@ 30.16
+# scene 031 退院
+# 栗浜 亜魅
+JP ウフフ…。
+JP あそこの看護師
+JP みんなウブでかわいかったです。
+EN Ufufu... The nurses there were all so innocent and
+EN cute.
+
+@ 31.16
+# scene 032 ケガ完治
+# 栗浜 亜魅
+JP 治りました。
+JP 秘薬が効いたようですね。
+EN I'm healed. The secret potion seems to have worked.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 栗浜 亜魅
+JP では、これからは
+JP ご主人様のお傍においてください。
+EN Then from now on, please keep me at your side,
+EN Master.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 栗浜 亜魅
+JP 私を捨てる？
+JP …冗談ですよね、ご主人様。
+EN Cast me away? ...You're joking, aren't you, Master?
+
+@ 34.16
+# scene 035 コーチ就任
+# 栗浜 亜魅
+JP 実験体がこんなにたくさん…。
+JP ウフフ…。
+EN So many test subjects... Ufufu...
+
+@ 35.16
+# scene 036 ケガ引退
+# 栗浜 亜魅
+JP もうご主人様の
+JP お役に立てないようです…。
+JP 残念です。
+EN It seems I can no longer be of use to you, Master...
+EN How unfortunate.
+
+@ 36.16
+# scene 037 年齢引退
+# 栗浜 亜魅
+JP 魔力が消えてしまいました…。
+JP 残念です。
+EN My magic power has faded away... How unfortunate.
+
+@ 37.16
+# scene 038 退団
+# 栗浜 亜魅
+JP ご主人様と離れて生きていきます…。
+EN I shall go on living apart from you, Master...
+
+@ 38.16
+# scene 039 スランプ
+# 栗浜 亜魅
+JP …星の位置が悪いようです。
+EN ...The stars seem to be poorly aligned.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 栗浜 亜魅
+JP ファンクラブ？
+JP 私のシモベですか？
+EN A fan club? My servants, you mean?
+
+@ 39.19
+# 社 長
+JP いや、違うぞ。
+JP でも、ケーキやぬいぐるみを
+JP 差し入れてくれるかもな。
+EN No, not at all. But they might bring you cakes and
+EN stuffed animals.
+
+@ 39.26
+# 栗浜 亜魅
+JP ええっ！
+JP …そ、そんなのシモベならば
+JP 当然のことです！
+EN Whaaat! ...W-well, that is only natural for servants!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 栗浜 亜魅
+JP また、私のシモベが増えたのですね。
+EN So my servants have increased once more.
+
+@ 40.19
+# 社 長
+JP ファンにはあまり変なことを
+JP 言うなよ。
+EN Don't say anything too weird to the fans.
+
+@ 40.26
+# 栗浜 亜魅
+JP 私のシモベはご主人様のシモベ。
+JP 千年王国の樹立も間近ですね。
+EN My servants are your servants, Master. The
+EN Millennial Kingdom will soon be at hand.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 栗浜 亜魅
+JP …魅惑の術が
+JP 解けてしまったのでしょうか。
+EN ...Has my charm spell been broken?
+
+@ 41.19
+# 社 長
+JP 何の話だ？
+EN What are you talking about?
+
+@ 41.26
+# 栗浜 亜魅
+JP …もっと力が必要なのですね。
+EN ...I need more power, then.
+
+@ 42.16
+# scene 043 映画出演
+# 栗浜 亜魅
+JP 本当の魔術をお見せします。
+EN I shall show them real magic.
+
+@ 43.16
+# scene 044 一日署長
+# 栗浜 亜魅
+JP 悪人を捕まえたら
+JP 実験体にしてもいいでしょうか。
+EN If I catch any criminals, may I use them as test
+EN subjects?
+
+@ 44.16
+# scene 045 写真集発売
+# 栗浜 亜魅
+JP ご主人様のご命令ならば…。
+EN If it is your command, Master...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 栗浜 亜魅
+JP 買わない者に
+JP 呪いをかけてしまっても
+JP いいでしょうか？
+EN May I put a curse on anyone who doesn't buy it?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 栗浜 亜魅
+JP ボーナストラックに
+JP 霊の声を入れておきましょうか。
+EN Shall I put the voices of spirits on a bonus track?
+
+@ 47.16
+# scene 048 始球式
+# 栗浜 亜魅
+JP 球団マスコットのぬいぐるみ
+JP もらえないでしょうか？
+EN Do you think they'd give me a plush of the team
+EN mascot?
+
+@ 48.16
+# scene 049 学園祭
+# 栗浜 亜魅
+JP わかりました。
+JP 見事な「収穫祭」にして
+JP ご覧にいれます。
+EN Understood. I shall make it a splendid "harvest
+EN festival" for you.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.38
+# 栗浜 亜魅
+JP ……えっ。
+EN ......Oh.
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.48
+# 栗浜 亜魅
+JP …はい。
+JP 宝物にします。
+EN ...Yes. I will treasure it.
+
+@ 50.32
+# scene 051 バレンタインデー
+# 栗浜 亜魅
+JP ご主人様。
+JP チョコレートです。
+EN Master. Chocolate for you.
+
+@ 50.35
+# 社 長
+JP バレンタインのチョコか。
+JP ありがとう。
+EN Valentine's chocolate, huh? Thanks.
+
+@ 50.42
+# 栗浜 亜魅
+JP 三日三晩、煮込みました。
+JP 効果はてきめんです。
+EN I simmered it for three days and three nights. The
+EN effect is guaranteed.
+
+@ 50.45
+# 社 長
+JP （…なんの効果だ？）
+EN (...What effect?)
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 栗浜。
+JP 先月のお礼、受け取ってくれるか？
+EN Kurihama. Will you take this, as thanks for last
+EN month?
+
+@ 51.38
+# 栗浜 亜魅
+JP あう…。
+JP ありがとうございます。
+EN Ah... Thank you very much.
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# 栗浜 亜魅
+JP あなた方の身も心も
+JP すべてご主人様に捧げるのです。
+EN Offer your bodies and souls, all of them, to my
+EN Master.
+
+@ 53.31
+# scene 054 コンサート
+# 栗浜 亜魅
+JP あなた方もご主人様に
+JP ご奉仕するように。
+EN You too shall serve my Master.
+
+@ 54.28
+# scene 055 練習拒否
+# 栗浜 亜魅
+JP ソフトクリームを食べてきます。
+EN I'm going to go eat soft-serve ice cream.
+
+@ 55.28
+# scene 056 失踪
+# 栗浜 亜魅
+JP どこかで私を呼ぶ声が聞こえます。
+EN I hear a voice calling me from somewhere.
+
+@ 56.16
+# scene 057 選手解雇
+# 栗浜 亜魅
+JP …そんなご主人様…。
+JP 私を捨てるなんて……。
+EN ...No, Master... You're casting me away...?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 栗浜 亜魅
+JP 昔、ご一緒に世界を回ったことを
+JP 思い出しますね、ご主人様。
+EN It reminds me of when we traveled the world
+EN together long ago, Master.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 栗浜 亜魅
+JP 一人旅は寂しかったです。
+EN Traveling alone was lonely.
+
+@ 59.28
+# scene 060 移籍思案
+# 栗浜 亜魅
+JP 本当のご主人様は
+JP まさかあちらの…。
+EN Could my true Master be over there...?
+
+@ 60.16
+# scene 061 革命軍結成
+# 栗浜 亜魅
+JP ご主人様のためにならない者は
+JP 追い出します。
+EN I shall drive out anyone who does not serve your
+EN interests, Master.
+
+@ 61.16
+# scene 062 反乱軍結成
+# 栗浜 亜魅
+JP 歪んだ正義など駆逐してやります。
+EN I shall wipe out their twisted justice.
+
+@ 62.16
+# scene 063 最終決戦要求
+# 栗浜 亜魅
+JP 光と闇…。
+JP ハルマゲドンの幕開けです。
+EN Light and darkness... Armageddon begins.
+
+@ 63.16
+# scene 064 遺恨発生
+# 栗浜 亜魅
+JP …呪われろ。
+EN ...Be cursed.
+
+@ 64.16
+# scene 065 殴り込み
+# 栗浜 亜魅
+JP 露払いは私にお任せください。
+EN Leave clearing the way to me.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 栗浜 亜魅
+JP イキのいい実験体が
+JP いっぱい来ましたね。
+EN So many lively test subjects have come to us.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 栗浜 亜魅
+JP まがいものども…。
+JP 闇の力を思い知りなさい！
+EN You fakes... Feel the power of darkness!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 栗浜 亜魅
+JP ご主人様のためにがんばります。
+EN I will do my best for you, Master.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 栗浜 亜魅
+JP ひれ伏しなさい。
+JP 闇の勝利…。
+JP ご主人様の勝利です。
+EN Bow down. Darkness is victorious... Victory to my
+EN Master.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 栗浜 亜魅
+JP 今日のところは
+JP 負けておいてあげます。
+EN I'll let you have the win... for today.
+
+@ 70.13
+# scene 071 引退式
+# 栗浜 亜魅
+JP 人の心に闇がある限り
+JP 私はきっと蘇ります。
+JP 覚えていてください。
+EN As long as darkness dwells in human hearts, I will
+EN surely return. Remember that.
+
+@ 71.18
+# 栗浜 亜魅
+JP ご主人様、なんでしょうか？
+EN Master, what is it?
+
+@ 71.37
+# 栗浜 亜魅
+JP はい、参りました。
+JP …ご主人様。
+EN Yes, I have come... Master.
+
+@ 71.47
+# 栗浜 亜魅
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be on a roll lately. Keep it up!
+
+@ 71.90
+# 栗浜 亜魅
+JP はい。
+JP ご主人様の期待に応えてみせます。
+EN Yes. I shall live up to your expectations, Master.
+
+@ 71.111
+# 栗浜 亜魅
+JP 本当にきちんと
+JP 私を見てくださって
+JP いるんでしょうか？
+EN Are you really watching me properly?
+
+@ 71.132
+# 栗浜 亜魅
+JP …もっと褒めてください。
+EN ...Praise me more.
+
+@ 71.153
+# 栗浜 亜魅
+JP 当たり前のことを
+JP しているだけです。
+EN I am only doing what is expected.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 栗浜 亜魅
+JP 申し訳ありません。
+JP もっとがんばります。
+EN I'm terribly sorry. I will try harder.
+
+@ 71.211
+# 栗浜 亜魅
+JP 使い魔にできることには
+JP 限界がありますから…。
+EN There are limits to what a familiar can do...
+
+@ 71.232
+# 栗浜 亜魅
+JP ご主人様のお声、素敵ですわ…。
+EN Your voice is lovely, Master...
+
+@ 71.253
+# 栗浜 亜魅
+JP そんな…。
+JP 嫌わないでください。
+EN No... Please don't hate me.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# 栗浜 亜魅
+JP ちょっと魔力が切れていただけです。
+JP もう補充しましたから。
+EN My magic power just ran out for a moment. I've
+EN already recharged it.
+
+@ 71.311
+# 栗浜 亜魅
+JP 魔力が…。
+JP 早く補充しないと……。
+EN My magic power... I must recharge it quickly...
+
+@ 71.332
+# 栗浜 亜魅
+JP なんてお優しいお言葉！
+JP もう大丈夫です。
+JP 元気百倍です！
+EN Such kind words! I'm all right now. I feel a hundred
+EN times better!
+
+@ 71.353
+# 栗浜 亜魅
+JP ご主人様が
+JP かまってくださらないから…。
+EN It's because you never pay any attention to me,
+EN Master...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 栗浜 亜魅
+JP …なんとなく、わかります。
+EN ...I have an idea, yes.
+
+@ 71.400
+# 栗浜 亜魅
+JP いえ。
+JP 何かご用ですか？
+EN No. What do you need?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 栗浜 亜魅
+JP 仕方ありませんね。
+JP ご主人様のご命令なら。
+EN It can't be helped. If it is your command, Master.
+
+@ 71.454
+# 栗浜 亜魅
+JP ダメです。
+JP 途中で止めると自分に返ってきて
+JP しまいますから。
+EN No. If you stop a curse halfway, it rebounds on you.
+
+@ 71.475
+# 栗浜 亜魅
+JP もしかして、前世のお話ですか？
+EN Is this perhaps about a past life?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 栗浜 亜魅
+JP ああ、ばれてしまったのですね。
+JP ご主人様。
+EN Ah, so you've found me out, Master.
+
+@ 71.522
+# 栗浜 亜魅
+JP 理由なんて…。
+JP お会いできるだけで嬉しいです。
+EN A reason...? I'm happy just to see you.
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 栗浜 亜魅
+JP ご主人様にそう言われたら
+JP とても逆らえません…。
+EN When you put it that way, Master, I simply cannot
+EN refuse...
+
+@ 71.578
+# 栗浜 亜魅
+JP でも、悪いのはあっちですから…。
+EN But she's the one in the wrong...
+
+@ 71.599
+# 栗浜 亜魅
+JP ウフフ…。
+JP 謎かけですわね。
+JP 私、そういうの大好きです。
+EN Ufufu... A riddle. I adore those.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 栗浜 亜魅
+JP はい、参りました。…ご主人様。
+EN Yes, I have come... Master.
+
+@ 72.16
+# 栗浜 亜魅
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be on a roll lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 栗浜 亜魅
+JP はい。
+JP ご主人様の期待に応えてみせます。
+EN Yes. I shall live up to your expectations, Master.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 栗浜 亜魅
+JP 本当にきちんと私を見てくださって
+JP いるんでしょうか？
+EN Are you really watching me properly?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 栗浜 亜魅
+JP …もっと褒めてください。
+EN ...Praise me more.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 栗浜 亜魅
+JP 当たり前のことをしているだけです。
+EN I am only doing what is expected.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 栗浜 亜魅
+JP 申し訳ありません。
+JP もっとがんばります。
+EN I'm terribly sorry. I will try harder.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 栗浜 亜魅
+JP 使い魔にできることには
+JP 限界がありますから…。
+EN There are limits to what a familiar can do...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 栗浜 亜魅
+JP ご主人様のお声、素敵ですわ…。
+EN Your voice is lovely, Master...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 栗浜 亜魅
+JP そんな…。嫌わないでください。
+EN No... Please don't hate me.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 栗浜 亜魅
+JP ちょっと魔力が切れていただけです。
+JP もう補充しましたから。
+EN My magic power just ran out for a moment. I've
+EN already recharged it.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 栗浜 亜魅
+JP 魔力が…。
+JP 早く補充しないと……。
+EN My magic power... I must recharge it quickly...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 栗浜 亜魅
+JP 何てお優しいお言葉！
+JP もう大丈夫です。元気百倍です！
+EN Such kind words! I'm all right now. I feel a hundred
+EN times better!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 栗浜 亜魅
+JP ご主人様が
+JP かまってくださらないから……。
+EN It's because you never pay any attention to me,
+EN Master...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 栗浜 亜魅
+JP …なんとなく、わかります。
+EN ...I have an idea, yes.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 栗浜 亜魅
+JP いえ。何かご用ですか？
+EN No. What do you need?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 栗浜 亜魅
+JP 仕方ありませんね。
+JP ご主人様のご命令なら。
+EN It can't be helped. If it is your command, Master.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 栗浜 亜魅
+JP ダメです。途中で止めると
+JP 自分に返ってきてしまいますから。
+EN No. If you stop a curse halfway, it rebounds on you.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 栗浜 亜魅
+JP もしかして、前世のお話ですか？
+EN Is this perhaps about a past life?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 栗浜 亜魅
+JP ああ、ばれてしまったのですね。
+JP ご主人様。
+EN Ah, so you've found me out, Master.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 栗浜 亜魅
+JP 理由なんて…。
+JP お会いできるだけで嬉しいです。
+EN A reason...? I'm happy just to see you.
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.14
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 栗浜 亜魅
+JP ご主人様にそう言われたら、
+JP とても逆らえません…。
+EN When you put it that way, Master, I simply cannot
+EN refuse...
+
+@ 100.14
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 栗浜 亜魅
+JP でも、悪いのはあっちですから…。
+EN But she's the one in the wrong...
+
+@ 101.14
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 栗浜 亜魅
+JP ウフフ…。謎かけですわね。
+JP 私、そういうの大好きです。
+EN Ufufu... A riddle. I adore those.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 栗浜 亜魅
+JP ご主人様の仰せのままに。
+EN As you command, Master.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 栗浜 亜魅
+JP 来年はおやつの時間が楽しみです。
+EN I'm looking forward to snack time next year.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 栗浜 亜魅
+JP ソフトクリーム代が
+JP ちょっとピンチです…。
+EN My soft-serve budget is in a bit of a pinch...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Well, it's the tropics all right. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （…んっ？
+JP 　あそこにいるのは…栗浜か？）
+EN (...Hm? Is that... Kurihama over there?)
+
+@ 105.38
+# 社 長
+JP おーい、栗浜っ。
+EN Hey, Kurihama!
+
+@ 105.55
+# 栗浜 亜魅
+JP …あっ、ご主人様。
+EN ...Ah, Master.
+
+@ 105.58
+# 社 長
+JP こんなところで何してるんだ？
+EN What are you doing out here?
+
+@ 105.62
+# 栗浜 亜魅
+JP …見ての通りです。
+EN ...What does it look like?
+
+@ 105.65
+# 社 長
+JP ソフトクリームか。
+JP うまそうだな。
+EN Soft-serve, huh? Looks good.
+
+@ 105.67
+# 社 長
+JP ちょっと食わせてくれよ。
+EN Let me have a bite.
+
+@ 105.71
+# 栗浜 亜魅
+JP …３万円。
+EN ...30,000 yen.
+
+@ 105.74
+# 社 長
+JP …うわっ、高っ！
+EN ...Whoa, that's steep!
+
+@ 105.76
+# 社 長
+JP …って、本当に３万円もするのか？
+EN ...Wait, does it really cost 30,000 yen?
+
+@ 105.80
+# 栗浜 亜魅
+JP ……３万円。
+EN ......30,000 yen.
+
+@ 105.83
+# 社 長
+JP いくら観光地でも
+JP その値段はないだろ。
+EN Even at a tourist spot, it can't cost that much.
+
+@ 105.87
+# 栗浜 亜魅
+JP ………………。
+EN ..................
+
+@ 105.98
+# 栗浜 亜魅
+JP …じゃあ、30円。
+EN ...Fine, then. 30 yen.
+
+@ 105.101
+# 社 長
+JP 今度は安っ！
+EN Now that's cheap!
+
+@ 105.103
+# 社 長
+JP …どうして急に安くなったんだ？
+EN ...Why'd it suddenly get so cheap?
+
+@ 105.107
+# 栗浜 亜魅
+JP もちろん条件があります。
+EN There is a condition, of course.
+
+@ 105.110
+# 社 長
+JP （やっぱりそうきたか）
+EN (I knew it.)
+
+@ 105.112
+# 社 長
+JP …で、条件ってなんだ？
+EN ...So what's the condition?
+
+@ 105.116
+# 栗浜 亜魅
+JP …一緒に食べてください。
+EN ...Eat it together with me.
+
+@ 105.119
+# 社 長
+JP 一緒に食べれば30円なのか？
+EN If we eat it together, it's 30 yen?
+
+@ 105.123
+# 栗浜 亜魅
+JP ……ん。
+EN ......Mm.
+
+@ 105.126
+# 社 長
+JP そんなことでいいなら
+JP 構わないぞ。
+EN If that's all, sure, no problem.
+
+@ 105.135
+# 社 長
+JP じゃあ、さっそくいただくとするか。
+EN Well then, don't mind if I do.
+
+@ 105.139
+# 栗浜 亜魅
+JP …あっ…間接…。
+EN ...Ah... An indirect...
+
+@ 105.142
+# 社 長
+JP …えっ？
+JP なんだって？
+EN ...Huh? What was that?
+
+@ 105.146
+# 栗浜 亜魅
+JP いえ…。
+JP なんでもありません…。
+EN No... It's nothing...
+
+@ 105.149
+# 社 長
+JP そうか…。
+JP うん、うまいな。
+EN I see... Mm, this is good.
+
+@ 105.153
+# 栗浜 亜魅
+JP はい…。
+EN Yes...
+
+@ 105.156
+# 社 長
+JP 水着も似合ってるぞ。
+EN That swimsuit looks good on you, too.
+
+@ 105.160
+# 栗浜 亜魅
+JP はい…。
+EN Yes...
+
+@ 105.163
+# 社 長
+JP …なんだか今日は馬鹿に素直だな。
+EN ...You're awfully meek today.
+
+@ 105.167
+# 栗浜 亜魅
+JP はい…。
+EN Yes...
+
+@ 105.170
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.174
+# 栗浜 亜魅
+JP 間接…。
+EN Indirect...
+
+@ 105.177
+# 社 長
+JP ………………？
+EN ..................?
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （栗浜に荷物か…）
+EN (A package for Kurihama, huh...)
+
+@ 106.26
+# 社 長
+JP （なんだか禍々しい気配を感じるが
+JP 　オフィスに置いておけないしな）
+EN (I sense something ominous about it, but I can't leave
+EN it in the office.)
+
+@ 106.41
+# 社 長
+JP （さあ、ついたぞ）
+EN (Here we are.)
+
+@ 106.48
+# 社 長
+JP おーい、栗浜ー。
+EN Hey, Kurihama!
+
+@ 106.79
+# 栗浜 亜魅
+JP ………………。
+EN ..................
+
+@ 106.82
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.84
+# 社 長
+JP ……何をしているんだ？
+EN ......What are you doing?
+
+@ 106.88
+# 栗浜 亜魅
+JP …猫の真似です……。
+EN ...Pretending to be a cat......
+
+@ 106.91
+# 社 長
+JP 猫？
+EN A cat?
+
+@ 106.95
+# 栗浜 亜魅
+JP …にゃーん。
+EN ...Meow.
+
+@ 106.98
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.102
+# 栗浜 亜魅
+JP ………………。
+EN ..................
+
+@ 106.111
+# 栗浜 亜魅
+JP 猫キャラ、いただきです…。
+EN The cat character is mine now...
+
+@ 106.114
+# 社 長
+JP いや、いただきって…。
+EN Hey, what do you mean, "mine"...
+
+@ 106.124
+# 栗浜 亜魅
+JP 猫は年中恋の季節…。
+EN Cats are in the season of love all year round...
+
+@ 106.127
+# 社 長
+JP いや、違うだろ。
+EN No, they're not.
+
+@ 106.131
+# 栗浜 亜魅
+JP …にゃーん。
+EN ...Meow.
+
+@ 106.134
+# 社 長
+JP あー、えっと…。
+EN Ah, um...
+
+@ 106.138
+# 栗浜 亜魅
+JP ご主人様は、私が会いたいなって
+JP 思ったら、来てくれました。
+EN I thought, "I want to see my Master," and then you
+EN came to me.
+
+@ 106.142
+# 栗浜 亜魅
+JP 魂が霊界を通じて
+JP 深く繋がっている証拠です。
+EN It's proof that our souls are deeply bound through
+EN the spirit world.
+
+@ 106.145
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 106.149
+# 栗浜 亜魅
+JP …にゃーん。
+EN ...Meow.
+
+@ 106.152
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.169
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.171
+# 社 長
+JP （やれやれ…）
+EN (Good grief...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （また栗浜に荷物か…）
+EN (Another package for Kurihama...)
+
+@ 107.26
+# 社 長
+JP （前より禍々しい気配を感じる…。
+JP 　何に使うつもりなんだ？）
+EN (It feels even more ominous than last time... What is
+EN she going to use it for?)
+
+@ 107.41
+# 社 長
+JP （さあ、ついた）
+EN (Here we are.)
+
+@ 107.43
+# 社 長
+JP おーい、栗浜ー。
+EN Hey, Kurihama!
+
+@ 107.74
+# 栗浜 亜魅
+JP ………………。
+EN ..................
+
+@ 107.77
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.79
+# 社 長
+JP …今度は…なんの真似なんだ？
+EN ...And what are you pretending to be this time?
+
+@ 107.83
+# 栗浜 亜魅
+JP …犬です……。
+EN ...A dog......
+
+@ 107.86
+# 社 長
+JP …犬？
+EN ...A dog?
+
+@ 107.90
+# 栗浜 亜魅
+JP …犬派に転向。
+EN ...I've converted. I'm a dog person now.
+
+@ 107.93
+# 社 長
+JP …そうか。
+EN ...I see.
+
+@ 107.97
+# 栗浜 亜魅
+JP …わん。
+EN ...Woof.
+
+@ 107.100
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.104
+# 栗浜 亜魅
+JP ………………。
+EN ..................
+
+@ 107.113
+# 栗浜 亜魅
+JP 犬キャラいただきです…。
+EN The dog character is mine now...
+
+@ 107.116
+# 社 長
+JP あの、いただきっていうか…。
+EN Um, I don't think it's a matter of "mine"...
+
+@ 107.126
+# 栗浜 亜魅
+JP 忠犬…。
+EN A faithful hound...
+
+@ 107.129
+# 社 長
+JP 自分が忠実だって言いたいのか。
+EN You're trying to say you're loyal.
+
+@ 107.133
+# 栗浜 亜魅
+JP …わん。
+EN ...Woof.
+
+@ 107.136
+# 社 長
+JP （…で、どう反応すればいいんだ？）
+EN (...And how am I supposed to react to this?)
+
+@ 107.140
+# 栗浜 亜魅
+JP 私は…社長の…忠実なしもべ…。
+JP ペット…。
+EN I am... the Boss's... faithful servant... His pet...
+
+@ 107.143
+# 社 長
+JP …俺が変な趣味をもってるみたいに
+JP 聞こえるからやめてくれないか…？
+EN ...Could you stop that? It makes it sound like I have
+EN weird tastes...
+
+@ 107.153
+# 栗浜 亜魅
+JP 変な…趣味…？
+EN Weird... tastes...?
+
+@ 107.156
+# 社 長
+JP ああ。
+EN Yeah.
+
+@ 107.160
+# 栗浜 亜魅
+JP …ご主人様の趣味は変な趣味……？
+EN ...My Master has weird tastes......?
+
+@ 107.163
+# 社 長
+JP なんでそうなる！
+EN How did you get that out of it!
+
+@ 107.167
+# 栗浜 亜魅
+JP …わん。
+EN ...Woof.
+
+@ 107.170
+# 社 長
+JP そんなかわいい声で
+JP ごまかそうとしても…。
+EN Don't think you can get out of this with that cute
+EN little voice...
+
+@ 107.180
+# 栗浜 亜魅
+JP わんこは…ご主人様が大好き…。
+EN Doggy... loves her Master...
+
+@ 107.183
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 107.187
+# 栗浜 亜魅
+JP …がんばって
+JP ご主人様の趣味に合わせます。
+EN ...I'll do my best to match my Master's tastes.
+
+@ 107.190
+# 社 長
+JP さらりと危険なことを言うな！
+EN Don't say dangerous things so casually!
+
+@ 108.17
+# scene 112 練習試合 バッド
+# 栗浜 亜魅
+JP 殺気！？
+JP …こいつ、もしかして……。
+EN Bloodlust!? ...Could she be...?
+
+@ 109.16
+# scene 113 練習開始
+# 栗浜 亜魅
+JP では、始めます。
+EN Then, I shall begin.
+
+@ 110.16
+# scene 114 練習開始 好意
+# 栗浜 亜魅
+JP がんばりますので
+JP 褒めてください。
+EN I'll do my best, so please praise me.
+
+@ 111.16
+# scene 115 特訓開始
+# 栗浜 亜魅
+JP ソフトクリーム３本で
+JP 手を打ちましょう。
+EN Three soft-serve cones, and we have a deal.
+
+@ 112.20
+# scene 116 特訓成功
+# 栗浜 亜魅
+JP 魔力が高まったようです。
+EN My magic power seems to have grown.
+
+@ 113.20
+# scene 117 特訓失敗
+# 栗浜 亜魅
+JP うぅ…。
+JP 疲れました。
+JP …ソフトクリーム欲しいです。
+EN Ugh... I'm tired. ...I want soft-serve.
+
+@ 114.16
+# scene 118 休養
+# 栗浜 亜魅
+JP ご主人様の膝の上で
+JP 過ごしていいですか？
+EN May I spend the day on your lap, Master?
+
+@ 115.16
+# scene 119 入場1
+# 栗浜 亜魅
+JP すべてはご主人様のために…。
+EN All for my Master...
+
+@ 116.16
+# scene 119 入場2
+# 栗浜 亜魅
+JP まがいものなどに負けません。
+EN I will not lose to a fake.
+
+@ 117.17
+# scene 123 タッグマッチ バッド
+# 栗浜 亜魅
+JP 試合のどさくさに紛れて処分を…。
+EN I'll dispose of her in the chaos of the match...
+
+@ 118.16
+# scene 125 必殺技１
+# 栗浜 亜魅
+JP 黒魔術の恐ろしさを
+JP 味わってもらいます。
+EN Now you shall taste the terror of black magic.
+
+@ 119.16
+# scene 125 必殺技２
+# 栗浜 亜魅
+JP ……消えろ、まがいもの。
+EN ......Vanish, fake.
+
+@ 120.16
+# scene 125 必殺技３
+# 栗浜 亜魅
+JP お祈りは無駄です。
+EN Prayer is futile.
+
+@ 121.12
+# scene 126 勝利1
+# 栗浜 亜魅
+JP 黒魔術の前では
+JP すべてが無力です。
+EN Before black magic, all are powerless.
+
+@ 122.12
+# scene 126 勝利2
+# 栗浜 亜魅
+JP ご主人様…。
+JP この勝利をあなたに捧げます。
+EN Master... I dedicate this victory to you.
+
+@ 123.12
+# scene 126 勝利3
+# 栗浜 亜魅
+JP 闇の力を思い知りましたか？
+EN Have you learned the power of darkness?
+
+@ 124.15
+# scene 133 表彰1
+# 栗浜 亜魅
+JP 褒めてください、ご主人様。
+EN Praise me, Master.
+
+@ 125.15
+# scene 133 表彰2
+# 栗浜 亜魅
+JP 闇の力がいっそう
+JP 高まったようです。
+EN The power of darkness seems to have grown even
+EN stronger.
+
+@ 126.12
+# scene 134 優勝1
+# 栗浜 亜魅
+JP 闇の力の前に敵などいません。
+EN Before the power of darkness, there are no
+EN enemies.
+
+@ 127.12
+# scene 134 優勝２
+# 栗浜 亜魅
+JP 闇の勢力がさらに拡大するのに
+JP 貢献できました。
+EN I have helped the forces of darkness spread even
+EN further.
+
+@ 128.24
+# scene 135 エンディング 通常
+# 栗浜 亜魅
+JP おめでとうございます。
+JP あの、ご主人様。
+JP そろそろ前世の記憶戻りました？
+EN Congratulations. Um, Master... Have your memories of
+EN your past life returned yet?
+
+@ 129.24
+# scene 136 エンディング 好意
+# 栗浜 亜魅
+JP ご主人様。
+JP 私たちの愛は何代生まれ変わっても
+JP 永遠ですわ。
+EN Master. Our love is eternal, no matter how many times
+EN we are reborn.

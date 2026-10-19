@@ -1,0 +1,2093 @@
+# /SCR/120.BIN - ハイブリッド南
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 120` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ハイブリッド南
+JP 南よ。
+JP テクニックには自信があるわ。
+EN I'm Minami. I'm confident in my technique.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ハイブリッド南
+JP お世話になるわね。
+EN I'll be in your care.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ハイブリッド南
+JP そう…。
+JP だったらいいわ…。
+EN I see... Fine, then...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP よーしっ！
+JP 南って娘のスカウトに行くか…。
+EN All right! Time to go scout this Minami girl...
+
+@ 3.25
+# 社 長
+JP えーと、なになに…。
+JP 空手経験有りで度胸も抜群か…。
+JP 期待できそうだな。
+EN Let's see here... Karate background, and nerves of
+EN steel... She sounds promising.
+
+@ 3.27
+# 社 長
+JP このあたりで練習してるって
+JP 話だったけど…。
+EN I heard she trains somewhere around here...
+
+@ 3.29
+# 社 長
+JP あっ、もしかして、あの娘か。
+EN Ah, could that be her?
+
+@ 3.31
+# 社 長
+JP あの、すみません？
+EN Um, excuse me?
+
+@ 3.41
+# ハイブリッド南
+JP …私に用？
+EN ...You want something with me?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and made her an offer.)
+
+@ 3.51
+# ハイブリッド南
+JP 私をスカウトに…？
+EN You're scouting me...?
+
+@ 3.54
+# 社 長
+JP ええ。
+JP うちの団体で戦ってみませんか？
+EN Yes. How would you like to fight for our promotion?
+
+@ 3.61
+# ハイブリッド南
+JP プロのリングで戦う…か…。
+EN Fighting in a pro ring... huh...
+
+@ 3.64
+# 社 長
+JP （俺は粘り強く交渉を続けてみた）
+EN (I kept pressing my case.)
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# ハイブリッド南
+JP …面白そうね。
+EN ...Sounds interesting.
+
+@ 4.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 4.29
+# ハイブリッド南
+JP ちょうど探してたのよ。
+JP 自分を試せる場所…。
+EN I've been looking for exactly that. A place to test
+EN myself...
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ハイブリッド南
+JP …やっぱりやめておくわ。
+EN ...On second thought, I'll pass.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+EN I see...
+
+@ 5.29
+# ハイブリッド南
+JP それじゃ…。
+EN Goodbye, then...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, it should be around here somewhere...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# ハイブリッド南
+JP この前の…？
+EN You're the one from before...?
+
+@ 6.38
+# 社 長
+JP もう一度、考え直して
+JP もらえないかな？
+EN Would you reconsider?
+
+@ 6.45
+# ハイブリッド南
+JP …プロになるってこと？
+EN ...Going pro, you mean?
+
+@ 6.48
+# 社 長
+JP …えぇ。
+JP 君の才能や度胸を買いたいんだ。
+JP どうかな？
+EN ...Yes. I want to invest in your talent and your nerve.
+EN What do you say?
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# ハイブリッド南
+JP …面白そうね。
+EN ...Sounds interesting.
+
+@ 7.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 7.29
+# ハイブリッド南
+JP えぇ。
+JP ちょうど探してたのよ。
+JP 自分を試せる場所…。
+EN Yes. I've been looking for exactly that. A place to
+EN test myself...
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ハイブリッド南
+JP …やっぱりやめておくわ。
+EN ...On second thought, I'll pass.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+EN I see...
+
+@ 8.29
+# ハイブリッド南
+JP それじゃ…。
+EN Goodbye, then...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は南選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Minami.
+
+@ 9.25
+# 社 長
+JP クールビューティというべき外観と
+JP あの卓越したグランドテクニック。
+EN Those cool-beauty looks, and that outstanding mat
+EN technique.
+
+@ 9.27
+# 社 長
+JP うちの団体を盛り上げていくには
+JP 是非とも欲しい逸材だ。
+EN She's exactly the talent I need to get our promotion
+EN buzzing.
+
+@ 9.29
+# 社 長
+JP このあたりでトレーニングしている
+JP はずだけど…。
+EN She's supposed to be training somewhere around
+EN here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# ハイブリッド南
+JP ふぅ…。
+JP サインはお断りよ。
+EN Sigh... No autographs.
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.53
+# ハイブリッド南
+JP …移籍？
+JP 私が…？
+EN ...A transfer? Me...?
+
+@ 9.56
+# 社 長
+JP はい、どうでしょう？
+EN Yes. What do you say?
+
+@ 9.58
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# ハイブリッド南
+JP そうね…。
+JP 環境を変えてみるのも
+JP 悪くないわね。
+EN Well... A change of scenery might not be so bad.
+
+@ 10.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 10.29
+# ハイブリッド南
+JP えぇ。
+JP 今の話、受けるわ。
+JP よろしくね。
+EN Yes. I accept your offer. I look forward to working
+EN with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ハイブリッド南
+JP …興味ないわ。
+JP 今の団体には満足してるもの。
+EN ...Not interested. I'm satisfied with my current
+EN promotion.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 南選手が必要だ。
+EN Our promotion really needs Minami.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度南選手と
+JP 交渉することにした。
+EN I decided to negotiate with Minami one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ハイブリッド南
+JP ああ…この前の…。
+JP 意外と粘り強いのね？
+EN Oh... you again... You're more persistent than you
+EN look.
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I just really want you to join our promotion...
+
+@ 12.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# ハイブリッド南
+JP そうね…。
+JP 環境を変えてみるのも
+JP 悪くないわね。
+EN Well... A change of scenery might not be so bad.
+
+@ 13.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 13.29
+# ハイブリッド南
+JP えぇ。
+JP 今の話、受けるわ。
+JP よろしくね。
+EN Yes. I accept your offer. I look forward to working
+EN with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ハイブリッド南
+JP …興味ないわ。
+JP 今の団体には満足してるもの。
+EN ...Not interested. I'm satisfied with my current
+EN promotion.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は南選手と交渉してみる
+JP ことにした。
+EN I decided to try negotiating with Minami.
+
+@ 15.25
+# 社 長
+JP クールビューティというべき外観と
+JP あの卓越したグランドテクニック。
+EN Those cool-beauty looks, and that outstanding mat
+EN technique.
+
+@ 15.27
+# 社 長
+JP うちの団体を盛り上げていくには
+JP 是非とも欲しい逸材だ。
+EN She's exactly the talent I need to get our promotion
+EN buzzing.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりにいるはず
+JP だけど…。
+EN She should be around here somewhere...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# ハイブリッド南
+JP …なんの用？
+EN ...What do you want?
+
+@ 15.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 15.53
+# ハイブリッド南
+JP …そう。
+EN ...I see.
+
+@ 15.56
+# 社 長
+JP どうでしょう？
+JP うちの団体から世界を目指して
+JP みませんか？
+EN What do you say? Why not aim for the world stage
+EN with our promotion?
+
+@ 15.58
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# ハイブリッド南
+JP そうね…。
+JP 相手がいる方が練習もしやすいかもね…。
+EN Well... Training might be easier with sparring
+EN partners around...
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# ハイブリッド南
+JP えぇ。
+JP この話、乗ったわ。
+JP よろしくね。
+EN Yes. I'm in. I look forward to working with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ハイブリッド南
+JP …興味ないわ。
+JP 今の状況には満足してるから…。
+EN ...Not interested. I'm satisfied with how things are
+EN now...
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 南選手が必要だ。
+EN Our promotion really needs Minami.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度南選手と
+JP 交渉することにした。
+EN I decided to negotiate with Minami one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ハイブリッド南
+JP この前の…？
+JP たしか断ったはずだけど？
+EN You're the one from before...? I'm sure I turned you
+EN down.
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I just really want you to join our promotion...
+
+@ 18.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# ハイブリッド南
+JP そうね…。
+JP 相手がいる方が練習もしやすいかもね…。
+EN Well... Training might be easier with sparring
+EN partners around...
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# ハイブリッド南
+JP えぇ。
+JP この話、乗ったわ。
+JP よろしくね。
+EN Yes. I'm in. I look forward to working with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ハイブリッド南
+JP …興味ないわ。
+JP 今の状況には満足してるから…。
+EN ...Not interested. I'm satisfied with how things are
+EN now...
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は南を訪ねることにした。
+EN I decided to pay Minami a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler our promotion needs, no question.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって話
+JP だったけど…あっ、いた！
+EN I heard she was somewhere around here... Ah, there
+EN she is!
+
+@ 21.29
+# 社 長
+JP 南っ！
+EN Minami!
+
+@ 21.39
+# ハイブリッド南
+JP 社長…！？
+EN Boss...!?
+
+@ 21.42
+# 社 長
+JP 元気そうだな…。
+JP 安心したよ。
+EN You look well... That's a relief.
+
+@ 21.49
+# ハイブリッド南
+JP …帰って。
+JP 私はもう退団したのよ。
+EN ...Go home. I already left the promotion.
+
+@ 21.52
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you because I want
+EN you to come back.
+
+@ 21.59
+# ハイブリッド南
+JP …えっ！？
+EN ...What!?
+
+@ 21.62
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this...
+
+@ 21.64
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# ハイブリッド南
+JP …仕方…ないわね……。
+EN ...I suppose... I have no choice...
+
+@ 22.22
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 22.29
+# ハイブリッド南
+JP 練習相手が欲しいだけよ！
+JP 社長のことを許した訳じゃないわ…。
+EN I just want a sparring partner, that's all! Don't think
+EN this means I've forgiven you...
+
+@ 22.32
+# 社 長
+JP ありがとう、南。
+JP また、よろしくな…。
+EN Thank you, Minami. Let's work together again...
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# ハイブリッド南
+JP 帰って…。
+EN Go home...
+
+@ 23.18
+# 社 長
+JP 頼む。
+JP この通りだ。
+EN Please. I'm begging you.
+
+@ 23.29
+# ハイブリッド南
+JP いいから、早く帰って…！
+EN Just go home already...!
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び南を訪ねることにした。
+EN I decided to visit Minami again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler our promotion needs, no question.
+
+@ 24.27
+# 社 長
+JP 南っ！
+EN Minami!
+
+@ 24.37
+# ハイブリッド南
+JP 社長…。
+JP また来たの？
+EN Boss... You came again?
+
+@ 24.40
+# 社 長
+JP 頼む、南。
+JP どうしても団体に戻って欲しいんだ。
+EN Please, Minami. I really want you back with us.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ハイブリッド南
+JP …仕方…ないわね……。
+EN ...I suppose... I have no choice...
+
+@ 25.22
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 25.29
+# ハイブリッド南
+JP 練習相手が欲しいだけよ！
+JP 社長のことを許した訳じゃないわ…。
+EN I just want a sparring partner, that's all! Don't think
+EN this means I've forgiven you...
+
+@ 25.32
+# 社 長
+JP ありがとう、南。
+JP また、よろしくな…。
+EN Thank you, Minami. Let's work together again...
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ハイブリッド南
+JP 帰って…。
+EN Go home...
+
+@ 26.18
+# 社 長
+JP 頼む。この通りだ。
+EN Please. I'm begging you.
+
+@ 26.29
+# ハイブリッド南
+JP いいから、早く帰って…！
+EN Just go home already...!
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ハイブリッド南
+JP これくらい平気よ。
+EN This is nothing.
+
+@ 28.16
+# scene 029 ケガ大
+# ハイブリッド南
+JP …たいしたことないわ。
+EN ...It's not that bad.
+
+@ 29.16
+# scene 030 入院
+# ハイブリッド南
+JP 我ながら情けないわね…。
+EN How pathetic of me...
+
+@ 30.16
+# scene 031 退院
+# ハイブリッド南
+JP 治ったわ。
+JP もう平気よ。
+EN I'm healed. I'm fine now.
+
+@ 31.16
+# scene 032 ケガ完治
+# ハイブリッド南
+JP たいしたことないって言ったでしょ？
+EN I told you it was nothing, didn't I?
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ハイブリッド南
+JP …そうね。
+JP 私、これ以上の高みに
+JP いけないものね…。
+EN ...You're right. I can't climb any higher than this...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ハイブリッド南
+JP …聞かなかったことにするわ。
+EN ...I'll pretend I didn't hear that.
+
+@ 34.16
+# scene 035 コーチ就任
+# ハイブリッド南
+JP 私の指導は甘くないから覚悟してね。
+EN I don't go easy when I coach, so brace yourselves.
+
+@ 35.16
+# scene 036 ケガ引退
+# ハイブリッド南
+JP こんなケガした
+JP 自分が悪いのよね…。
+EN It's my own fault I got hurt like this...
+
+@ 36.16
+# scene 037 年齢引退
+# ハイブリッド南
+JP ここまでみたいね…。
+JP 仕方ないわ。
+EN Looks like this is as far as I go... It can't be helped.
+
+@ 37.16
+# scene 038 退団
+# ハイブリッド南
+JP …辞めるわ。
+JP それじゃ。
+EN ...I'm quitting. Goodbye.
+
+@ 38.16
+# scene 039 スランプ
+# ハイブリッド南
+JP …全然ダメ……。
+EN ...I'm no good at all...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ハイブリッド南
+JP 私のファンクラブ…？
+JP それが…なんだって言うの？
+EN My fan club...? And what about it?
+
+@ 39.19
+# 社 長
+JP いや、つまり…多くの人が
+JP おまえを応援してるってことだろ？
+EN Well, I mean... it means a lot of people are cheering
+EN for you, right?
+
+@ 39.26
+# ハイブリッド南
+JP …そうね。
+JP 負けられない理由が増えたわ。
+EN ...I suppose. That's one more reason I can't lose.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ハイブリッド南
+JP またできたの？
+EN Another one?
+
+@ 40.19
+# 社 長
+JP そんなにイヤか？
+JP ファンに応援されること。
+EN Do you really hate it that much? Having fans cheer
+EN you on?
+
+@ 40.26
+# ハイブリッド南
+JP そんなことないけど
+JP 少し不思議な気がしただけ…。
+EN It's not that. It just feels a little strange...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ハイブリッド南
+JP …そう。
+EN ...I see.
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいいんだよ。
+EN These things happen. You just have to work hard
+EN again.
+
+@ 41.26
+# ハイブリッド南
+JP そうね…。
+JP …あっ、別に気にしてないわ。
+EN I suppose... Oh, not that it bothers me.
+
+@ 42.16
+# scene 043 映画出演
+# ハイブリッド南
+JP やるからには完璧にこなすわ。
+JP 劇場公開、楽しみにしてなさい。
+EN If I'm doing it, I'll do it perfectly. Look forward to the
+EN premiere.
+
+@ 43.16
+# scene 044 一日署長
+# ハイブリッド南
+JP 私が一日署長ねぇ…。
+JP よくこんな仕事取ってくるわね。
+EN Me, police chief for a day... You sure do dig up some
+EN jobs.
+
+@ 44.16
+# scene 045 写真集発売
+# ハイブリッド南
+JP わ、わかったわよ…。
+JP やればいいんでしょ、やれば…。
+EN F-fine, I'll do it... That's what you want, isn't it...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ハイブリッド南
+JP 人気のあるＣＭ
+JP 適当に録画しておいて。
+JP 参考にするから。
+EN Record some popular commercials for me. I'll study
+EN them.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ハイブリッド南
+JP 冗談じゃなかったの？
+EN You weren't joking?
+
+@ 47.16
+# scene 048 始球式
+# ハイブリッド南
+JP 練習あるのみね。
+JP 投球フォームも完璧にしてみせるわ。
+EN It's all about practice. I'll perfect my pitching form,
+EN too.
+
+@ 48.16
+# scene 049 学園祭
+# ハイブリッド南
+JP 気分転換になるといいけど。
+EN I hope it's a nice change of pace.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# ハイブリッド南
+JP ……えっ？
+EN ...Huh?
+
+@ 49.39
+# 社 長
+JP もしかして…こういうの
+JP イヤだったか？
+EN Is this... not your kind of thing?
+
+@ 49.46
+# ハイブリッド南
+JP ううん…。
+JP ちょっと意外だっただけ…。
+JP ありがとう……。
+EN No... I just didn't expect it, that's all... Thank you...
+
+@ 50.30
+# scene 051 バレンタインデー
+# ハイブリッド南
+JP 社長…。
+JP こ、これ……。
+EN Boss... Th-this is...
+
+@ 50.33
+# 社 長
+JP …んっ？
+JP …あぁ、バレンタインか。
+EN ...Hm? ...Ah, Valentine's Day.
+
+@ 50.40
+# ハイブリッド南
+JP 義理よ、義理！
+JP いつも世話になってるから…。
+EN It's obligation chocolate, obligation! Because you're
+EN always looking out for me...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept my thanks for last month?
+
+@ 51.36
+# ハイブリッド南
+JP …えっ！？
+JP なっ…こんなところで…！？
+JP 誰かに見られるじゃない…！
+EN ...What!? Wh-here...!? Someone might see...!
+
+@ 51.39
+# 社 長
+JP 気にすることないだろ？
+JP まぁ、練習の合間にでも食べてくれ。
+EN What's there to worry about? Anyway, have it
+EN between training sessions.
+
+@ 51.46
+# ハイブリッド南
+JP う、うん…。
+JP そうするわ…。
+JP ありがとう…。
+EN O-okay... I will... Thank you...
+
+@ 52.31
+# scene 053 サイン会
+# ハイブリッド南
+JP 応援ありがとう…。
+JP 次の試合もよろしく…。
+EN Thank you for your support... Please come to my
+EN next match too...
+
+@ 53.31
+# scene 054 コンサート
+# ハイブリッド南
+JP えーと…。
+JP どうしてこんなことに
+JP なったのかしら…。
+EN Um... How did it come to this...?
+
+@ 54.28
+# scene 055 練習拒否
+# ハイブリッド南
+JP 好きにさせてもらうわ。
+EN I'll do as I please.
+
+@ 55.28
+# scene 056 失踪
+# ハイブリッド南
+JP 一人になりたいの…。
+EN I want to be alone...
+
+@ 56.16
+# scene 057 選手解雇
+# ハイブリッド南
+JP …わかった。
+JP クビってことね。
+EN ...Understood. So I'm fired.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ハイブリッド南
+JP …海外か……。
+JP それじゃ、行ってくるわ。
+EN ...Overseas, huh... Well, I'm off.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ハイブリッド南
+JP 戻ったわ。
+JP いい経験ができたわ。
+EN I'm back. It was a good experience.
+
+@ 59.28
+# scene 060 移籍思案
+# ハイブリッド南
+JP 悩みどころね…。
+EN Tough call...
+
+@ 60.16
+# scene 061 革命軍結成
+# ハイブリッド南
+JP 腐った大木を切り倒す。
+JP それだけのことよ。
+EN Cut down the rotten old tree. That's all there is to it.
+
+@ 61.16
+# scene 062 反乱軍結成
+# ハイブリッド南
+JP 気に入らない連中は
+JP 壊すことにするわ。
+EN Anyone I don't like, I'll break.
+
+@ 62.16
+# scene 063 最終決戦要求
+# ハイブリッド南
+JP そろそろ決着を付けるときね。
+EN It's about time we settled this.
+
+@ 63.16
+# scene 064 遺恨発生
+# ハイブリッド南
+JP …忘れないわよ。
+EN ...I won't forget this.
+
+@ 64.16
+# scene 065 殴り込み
+# ハイブリッド南
+JP 軽く締めてくるわ。
+EN I'll go teach them a little lesson.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ハイブリッド南
+JP 弱い犬ほど吠えるって言うわね。
+EN They say the weakest dogs bark the loudest.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ハイブリッド南
+JP 私に壊されたいのは誰なの？
+EN Which of you wants me to break you?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ハイブリッド南
+JP これで最後ね…。
+JP 勝ちにいくわ。
+EN This is the last one... I'm going to win.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ハイブリッド南
+JP 世界を極めることができたようね。
+EN Looks like I've conquered the world.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ハイブリッド南
+JP 私も…まだまだね……。
+EN I still... have a long way to go...
+
+@ 70.13
+# scene 071 引退式
+# ハイブリッド南
+JP 私は…こういうのが苦手なんで…。
+JP ごめんなさい…。
+JP 今まで応援してくれて…ありがとう。
+EN I'm... not good at this sort of thing... I'm sorry...
+EN Thank you for supporting me all this time.
+
+@ 71.18
+# ハイブリッド南
+JP なに？
+EN What?
+
+@ 71.37
+# ハイブリッド南
+JP あっ、社長。
+JP 何か用？
+EN Oh, Boss. Do you need something?
+
+@ 71.47
+# ハイブリッド南
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# ハイブリッド南
+JP …当たり前よ。
+EN ...Naturally.
+
+@ 71.111
+# ハイブリッド南
+JP …あからさまなお世辞ね。
+JP 逆に冷めるわ。
+EN ...What blatant flattery. It just turns me off.
+
+@ 71.132
+# ハイブリッド南
+JP と、当然よ…。
+JP コンディションを保つのも
+JP プロの仕事でしょ…。
+EN O-of course... Staying in condition is part of being a
+EN pro...
+
+@ 71.153
+# ハイブリッド南
+JP …えぇ。
+EN ...Yes.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# ハイブリッド南
+JP …そうね。
+JP 注意するわ。
+EN ...You're right. I'll be careful.
+
+@ 71.211
+# ハイブリッド南
+JP 社長は何も見えてないのね…。
+EN You don't see anything, do you, Boss...
+
+@ 71.232
+# ハイブリッド南
+JP 女には色々あるのよ…。
+JP わかるでしょ？
+EN A woman has her reasons... You understand, don't
+EN you?
+
+@ 71.253
+# ハイブリッド南
+JP そう…。
+JP わかったわ…。
+EN I see... Understood...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 71.290
+# ハイブリッド南
+JP …平気よ。
+EN ...I'm fine.
+
+@ 71.311
+# ハイブリッド南
+JP …練習…あるから。
+EN ...I have... training.
+
+@ 71.332
+# ハイブリッド南
+JP あ、あんまり…優しくしないで…。
+JP 甘えたく…なるから……。
+EN D-don't be... so nice to me... It makes me want to...
+EN lean on you...
+
+@ 71.353
+# ハイブリッド南
+JP …一人にして……。
+EN ...Leave me alone...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# ハイブリッド南
+JP 言いたいことがあるなら
+JP さっさと言って。
+EN If you have something to say, just say it.
+
+@ 71.400
+# ハイブリッド南
+JP さぁ？
+EN Who knows?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# ハイブリッド南
+JP …努力するわ。
+EN ...I'll make an effort.
+
+@ 71.454
+# ハイブリッド南
+JP 向こう次第よ。
+EN That depends on her.
+
+@ 71.475
+# ハイブリッド南
+JP 社長。
+JP 誰かと勘違いしてない？
+EN Boss. Aren't you mixing me up with someone else?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# ハイブリッド南
+JP …えぇ。
+JP わかってるわ。
+EN ...Yes. I know.
+
+@ 71.522
+# ハイブリッド南
+JP 次の試合のこと？
+EN About the next match?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# ハイブリッド南
+JP 社長にそう言われたら…。
+JP わかったわ。
+JP なんとかするわ。
+EN If you're the one asking... Fine. I'll work something
+EN out.
+
+@ 71.578
+# ハイブリッド南
+JP …相手の考え方次第ね。
+EN ...That depends on how she sees it.
+
+@ 71.599
+# ハイブリッド南
+JP 誤解よ。
+JP 私は別に…。
+EN It's a misunderstanding. I'm not...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ハイブリッド南
+JP あ、社長。
+JP なにか用？
+EN Oh, Boss. Do you need something?
+
+@ 72.16
+# ハイブリッド南
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ハイブリッド南
+JP …当たり前よ。
+EN ...Naturally.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ハイブリッド南
+JP …あからさまなお世辞ね。
+JP 逆に冷めるわ。
+EN ...What blatant flattery. It just turns me off.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ハイブリッド南
+JP と、当然よ…。
+JP コンディションを保つのも
+JP プロの仕事でしょ…。
+EN O-of course... Staying in condition is part of being a
+EN pro...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ハイブリッド南
+JP …えぇ。
+EN ...Yes.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ハイブリッド南
+JP …そうね。
+JP 注意するわ。
+EN ...You're right. I'll be careful.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ハイブリッド南
+JP 社長は何も見えてないのね…。
+EN You don't see anything, do you, Boss...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ハイブリッド南
+JP …女には色々あるのよ…。
+JP わかるでしょ？
+EN ...A woman has her reasons... You understand, don't
+EN you?
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ハイブリッド南
+JP …そう……。
+JP わかったわ…。
+EN ...I see... Understood...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ハイブリッド南
+JP …平気よ。
+EN ...I'm fine.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ハイブリッド南
+JP …練習、あるから。
+EN ...I have training.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ハイブリッド南
+JP あ、あんまり…優しくしないで…。
+JP 甘えたく…なるから……。
+EN D-don't be... so nice to me... It makes me want to...
+EN lean on you...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ハイブリッド南
+JP …ひとりにして……。
+EN ...Leave me alone...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ハイブリッド南
+JP 言いたいことがあるなら、
+JP さっさと言って。
+EN If you have something to say, just say it.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ハイブリッド南
+JP さぁ？
+EN Who knows?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ハイブリッド南
+JP …努力するわ。
+EN ...I'll make an effort.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ハイブリッド南
+JP 向こう次第よ。
+EN That depends on her.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ハイブリッド南
+JP 社長。
+JP 誰かと勘違いしてない？
+EN Boss. Aren't you mixing me up with someone else?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ハイブリッド南
+JP ……えぇ。
+JP わかってるわ。
+EN ...Yes. I know.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ハイブリッド南
+JP 次の試合のこと？
+EN About the next match?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ハイブリッド南
+JP 社長にそう言われたら…。
+JP わかったわ。
+JP なんとかするわ。
+EN If you're the one asking... Fine. I'll work something
+EN out.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ハイブリッド南
+JP …相手の考え方次第ね。
+EN ...That depends on how she sees it.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ハイブリッド南
+JP 誤解よ。
+JP 私は別に……。
+EN It's a misunderstanding. I'm not...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ハイブリッド南
+JP お金はどうでもいいわ。
+EN I don't care about the money.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ハイブリッド南
+JP 私のこと
+JP 高く評価してるってこと…？
+EN Does this mean you think highly of me...?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ハイブリッド南
+JP 私の評価…この程度なのね。
+EN So this is all I'm worth to you...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Hmm, it's the tropics, all right. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （…んっ、ゴムボートが流れて…。
+JP 　あれって南が借りたやつだよな？）
+EN (...Hm, a rubber raft drifting out... Isn't that the one
+EN Minami rented?)
+
+@ 105.38
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.40
+# 社 長
+JP まっ、念のために見に行くか。
+EN Well, I'd better go check, just in case.
+
+@ 105.67
+# 社 長
+JP ふぅ…。
+JP おーい、南。
+EN Phew... Hey, Minami.
+
+@ 105.79
+# ハイブリッド南
+JP ……んっ…。
+EN ...Mm...
+
+@ 105.89
+# ハイブリッド南
+JP …あっ、社長…。
+JP どうかしたの…？
+EN ...Oh, Boss... Is something wrong...?
+
+@ 105.92
+# 社 長
+JP いや…邪魔して悪い。
+JP のんびりしてたんだな。
+EN No... Sorry to bother you. You were relaxing, huh?
+
+@ 105.102
+# ハイブリッド南
+JP えぇ…。
+JP こんなに安らいだの
+JP 久しぶりだから…。
+EN Yes... It's been a long time since I felt this at peace...
+
+@ 105.112
+# ハイブリッド南
+JP それより…どうかしたの…？
+EN More importantly... is something wrong...?
+
+@ 105.115
+# 社 長
+JP あぁ、このゴムボートが
+JP 沖に流されていたんでな。
+JP 少し心配になったんだ。
+EN Well, this raft was drifting out to sea. I got a little
+EN worried.
+
+@ 105.119
+# ハイブリッド南
+JP …平気よ…。
+JP 泳げるから心配しないで…。
+EN ...I'm fine... I can swim, so don't worry...
+
+@ 105.122
+# 社 長
+JP でも、海の上で迷子になるかも
+JP しれないだろ？
+EN But you could get lost out on the water, right?
+
+@ 105.132
+# ハイブリッド南
+JP …バカ……。
+JP そんなことないわよ…。
+EN ...Idiot... That won't happen...
+
+@ 105.135
+# 社 長
+JP そうか？
+EN You think?
+
+@ 105.145
+# ハイブリッド南
+JP そうよ。
+JP いくらなんでも…。
+EN I know. Even I wouldn't...
+
+@ 105.155
+# ハイブリッド南
+JP …だ、だから…もういいから戻って。
+EN ...S-so... that's enough, go back.
+
+@ 105.158
+# 社 長
+JP …えっ？
+JP どうしてだ？
+EN ...Huh? Why?
+
+@ 105.168
+# ハイブリッド南
+JP そ、そんなところから見られたら
+JP 恥ずかしいのよ…！
+EN B-being looked at from there... is embarrassing...!
+
+@ 105.171
+# 社 長
+JP …あっ、いや、ええっと…。
+EN ...Ah, um, well...
+
+@ 105.175
+# ハイブリッド南
+JP ………………。
+EN ..................
+
+@ 105.178
+# 社 長
+JP じ、じゃあ、俺は戻るから
+JP き、気を付けろよ。
+EN W-well, I'll head back, then. B-be careful.
+
+@ 105.188
+# ハイブリッド南
+JP …えぇ……。
+EN ...Okay...
+
+@ 105.210
+# ハイブリッド南
+JP …………バカ……。
+EN ............Idiot...
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP （よし、仕事も終わったし、帰るか）
+EN (Okay, work's done. Time to head home.)
+
+@ 106.38
+# 社 長
+JP 戸締まりＯＫ…っと。
+EN All locked up... there.
+
+@ 106.42
+# ？？？
+JP あっ、社長…。
+EN Oh, Boss...
+
+@ 106.56
+# 社 長
+JP おっ、南？
+JP おまえ、バイクに乗ってたのか？
+EN Oh, Minami? You ride a motorcycle?
+
+@ 106.60
+# ハイブリッド南
+JP えぇ…。
+JP 免許ようやくとれたから。
+EN Yes... I finally got my license.
+
+@ 106.63
+# 社 長
+JP へぇ…。
+JP だったら家まで送ってくれないか？
+EN Huh... Then how about giving me a ride home?
+
+@ 106.73
+# ハイブリッド南
+JP ……えっ？
+EN ...What?
+
+@ 106.83
+# ハイブリッド南
+JP ま、まだ、２人乗りは
+JP したことないし…。
+EN I-I've never ridden with a passenger before...
+
+@ 106.86
+# 社 長
+JP じゃあ、俺が初めてか？
+EN So I'd be your first?
+
+@ 106.96
+# ハイブリッド南
+JP ……えっ…！？
+EN ...Wh-what...!?
+
+@ 106.106
+# ハイブリッド南
+JP あっ…でも、ヘルメットもないし…。
+JP そ、そうよ、ヘルメットがないから…。
+EN Oh... but I don't have a helmet for you... Th-that's
+EN right, there's no helmet, so...
+
+@ 106.109
+# 社 長
+JP だったら気分だけ。
+JP ちょっと跨るくらいならいいだろ？
+EN Then just for the feel of it. Sitting on it for a second
+EN is fine, right?
+
+@ 106.119
+# ハイブリッド南
+JP ダメッ！
+EN No!
+
+@ 106.122
+# 社 長
+JP ……えっ？
+EN ...Huh?
+
+@ 106.126
+# ハイブリッド南
+JP とにかくダメと言ったらダメなのっ！
+EN Anyway, no means no!
+
+@ 106.147
+# 社 長
+JP あっ、南っ！
+JP おーい！！
+EN Ah, Minami! Hey!!
+
+@ 106.149
+# 社 長
+JP 逃げることないだろ…。
+JP まったく、どうしたんだ。
+JP 南のやつ…。
+EN No need to run off... Honestly, what's gotten into
+EN her...
+
+@ 107.20
+# scene 108 日常イベント２
+# 社 長
+JP （よし、仕事も終わったし、帰るか）
+EN (Okay, work's done. Time to head home.)
+
+@ 107.39
+# 社 長
+JP 戸締まりＯＫ…っと。
+EN All locked up... there.
+
+@ 107.43
+# ？？？
+JP …しゃ、社長！
+EN ...B-Boss!
+
+@ 107.46
+# 社 長
+JP ……んっ？
+EN ...Hm?
+
+@ 107.62
+# ハイブリッド南
+JP よかったら…家まで
+JP 送ってあげようかと思って…。
+EN If you want... I thought I could give you a ride home...
+
+@ 107.72
+# ハイブリッド南
+JP い、嫌ならいいわよ…。
+JP 私は…別にどっちでもいいんだから…。
+EN I-if you don't want to, that's fine... It makes no
+EN difference to me either way...
+
+@ 107.75
+# 社 長
+JP いいのか？
+EN Really?
+
+@ 107.77
+# 社 長
+JP あっ…でも、どうしたんだ？
+EN Oh... but what's going on?
+
+@ 107.79
+# 社 長
+JP 練習終わって随分経つだろ。
+JP もしかして待っててくれたのか？
+EN Training ended ages ago. Were you waiting for me?
+
+@ 107.89
+# ハイブリッド南
+JP ……えっ…？
+JP あっ…それは…その……。
+EN ...Huh...? Oh... that's... um...
+
+@ 107.123
+# ハイブリッド南
+JP そんなことはどうでもいいのっ！
+EN That doesn't matter!
+
+@ 107.126
+# 社 長
+JP （機嫌悪いのかな…）
+EN (Is she in a bad mood...?)
+
+@ 107.136
+# ハイブリッド南
+JP の、乗るの、乗らないの？
+JP どうするの？
+EN A-are you getting on or not? Which is it?
+
+@ 107.139
+# 社 長
+JP あっ、いや…。
+JP でもヘルメットがないだろ。
+EN Oh, well... But there's no helmet, right?
+
+@ 107.149
+# ハイブリッド南
+JP …あ、あるわよ。
+EN ...Th-there is.
+
+@ 107.153
+# ハイブリッド南
+JP 今日はちゃんと…買ってあるから…。
+EN Today I... made sure to buy one...
+
+@ 107.156
+# 社 長
+JP さすが、南、用意がいいな。
+JP じゃ、乗ってもいいか？
+EN That's Minami for you, always prepared. So, can I hop
+EN on?
+
+@ 107.166
+# ハイブリッド南
+JP えっ…。
+JP あ…うん……。
+EN Huh... Oh... yeah...
+
+@ 107.206
+# ハイブリッド南
+JP し、しっかり…捕まってよ…。
+EN H-hold on... tight...
+
+@ 107.209
+# 社 長
+JP あぁ、わかった。
+EN Okay, got it.
+
+@ 107.213
+# ハイブリッド南
+JP あ、あんッ…。
+JP そ、そんなに捕まったらダメ！
+JP 事故るから！
+EN A-ahn... N-not that tight! We'll crash!
+
+@ 107.216
+# 社 長
+JP あぁ…。
+EN Oh...
+
+@ 107.232
+# ハイブリッド南
+JP それじゃ行くわよ。
+JP ちゃんと捕まってね…。
+EN Here we go, then. Hold on properly...
+
+@ 107.235
+# 社 長
+JP あ、あぁ…。
+EN O-okay...
+
+@ 107.239
+# ハイブリッド南
+JP …で、でも変なところに
+JP 捕まったらダメよ…。
+EN ...B-but don't grab anywhere weird...
+
+@ 107.242
+# 社 長
+JP （ホントに大丈夫なのか？
+JP 　どうも不安が残るんだが…？）
+EN (Is this really going to be okay? I can't shake this
+EN uneasy feeling...)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# ハイブリッド南
+JP ムキにならないでね…。
+EN Don't get too worked up...
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# ハイブリッド南
+JP どちらが多く極められるかしら？
+EN I wonder which of us can lock in more holds?
+
+@ 110.16
+# scene 113 練習開始
+# ハイブリッド南
+JP 練習、始めるわよ。
+EN Let's start training.
+
+@ 111.16
+# scene 114 練習開始 好意
+# ハイブリッド南
+JP 今日はいい練習ができそうね。
+EN Looks like we'll have a good session today.
+
+@ 112.16
+# scene 115 特訓開始
+# ハイブリッド南
+JP やるからには徹底的にやるわ。
+EN If I'm doing it, I'm doing it all the way.
+
+@ 113.20
+# scene 116 特訓成功
+# ハイブリッド南
+JP …いい感じだったわ。
+EN ...That felt good.
+
+@ 114.20
+# scene 117 特訓失敗
+# ハイブリッド南
+JP …疲れただけね。
+EN ...That just wore me out.
+
+@ 115.16
+# scene 118 休養
+# ハイブリッド南
+JP ツーリングにでも行くわ。
+EN I think I'll go for a ride.
+
+@ 116.16
+# scene 119 入場1
+# ハイブリッド南
+JP 関節の悲鳴…。
+JP 聞かせてあげるわ。
+EN The screams of your joints... I'll let you hear them.
+
+@ 117.16
+# scene 119 入場2
+# ハイブリッド南
+JP やると決めたら
+JP 完全勝利あるのみよ。
+EN Once I decide to fight, it's total victory or nothing.
+
+@ 118.17
+# scene 120 タッグマッチ ベスト
+# ハイブリッド南
+JP おいしいところはあげるわ。
+EN I'll leave the best part to you.
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# ハイブリッド南
+JP いつも通りにいくわよ。
+EN Let's do it like always.
+
+@ 120.16
+# scene 125 必殺技１
+# ハイブリッド南
+JP この技に耐えられるかしら？
+EN Can you withstand this hold?
+
+@ 121.16
+# scene 125 必殺技２
+# ハイブリッド南
+JP 抵抗は無駄よ。
+JP 極限まで磨き上げられた技の前では
+JP すべてが無力よ。
+EN Resistance is futile. Before a technique honed to its
+EN limit, everything is powerless.
+
+@ 122.16
+# scene 125 必殺技３
+# ハイブリッド南
+JP あなたにも見せてあげる…。
+JP リングに煌く南十字星を！
+EN I'll show you too... The Southern Cross shining in the
+EN ring!
+
+@ 123.12
+# scene 126 勝利1
+# ハイブリッド南
+JP 私はまだ負ける訳にはいかないの…。
+EN I can't afford to lose yet...
+
+@ 124.12
+# scene 126 勝利2
+# ハイブリッド南
+JP こんなに苦戦するなんて…。
+JP まだまだ練習が必要ね。
+EN To struggle this much... I still need a lot more
+EN practice.
+
+@ 125.12
+# scene 126 勝利3
+# ハイブリッド南
+JP 関節技の怖さは
+JP 十分わかってもらえたみたいね。
+EN Looks like you've learned just how scary submission
+EN holds are.
+
+@ 126.15
+# scene 133 表彰1
+# ハイブリッド南
+JP 私の技はまだまだ未熟です。
+JP これを励みに、より完璧な技に
+JP 仕上げてみせます。
+EN My technique is still unrefined. I'll take this as
+EN encouragement to perfect it even further.
+
+@ 127.15
+# scene 133 表彰2
+# ハイブリッド南
+JP 私なんかが表彰されていいのか
+JP わかりませんが…。
+JP ありがとうございます。
+EN I'm not sure someone like me deserves this honor,
+EN but... thank you very much.
+
+@ 128.12
+# scene 134 優勝1
+# ハイブリッド南
+JP この程度で満足するつもりはないわ。
+EN I don't intend to be satisfied with this much.
+
+@ 129.12
+# scene 134 優勝２
+# ハイブリッド南
+JP 次の試合は今回以上の私を見せるわ。
+EN In the next match, I'll show you an even better me.
+
+@ 130.24
+# scene 135 エンディング 通常
+# ハイブリッド南
+JP 社長、ご苦労様。
+JP ここまでやるなんて…。
+JP 少しだけ…見直したわ…。
+EN Good work, Boss. To think you'd make it this far... I
+EN think a little more of you now...
+
+@ 131.24
+# scene 136 エンディング 好意
+# ハイブリッド南
+JP 社長、あなたはそういう星の下に
+JP 生まれてきたのね。
+JP 私の星はその側にあるのかな…？
+EN Boss, you were born under that kind of star. I
+EN wonder if my star is beside yours...?

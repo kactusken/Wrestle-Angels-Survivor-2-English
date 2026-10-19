@@ -1,0 +1,2187 @@
+# /SCR/076.BIN - 神楽紫苑
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 076` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 神楽 紫苑
+JP 私は合格でしょ？
+EN I passed, didn't I?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 神楽 紫苑
+JP 少しは見る目があるようね。
+EN Seems you have a bit of an eye after all.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 神楽 紫苑
+JP バカな男…。
+EN Foolish man...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 3.25
+# 社 長
+JP もしかしてあの娘のことか。
+EN Could it be that girl?
+
+@ 3.27
+# 社 長
+JP 話しかけてみるか…。
+EN Guess I'll talk to her...
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.39
+# 神楽 紫苑
+JP 私に用？
+EN You want something with me?
+
+@ 3.42
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to recruit her.)
+
+@ 3.49
+# 神楽 紫苑
+JP …プロレス…？
+EN ...Pro wrestling...?
+
+@ 3.52
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.56
+# 神楽 紫苑
+JP 私にあんたのために戦えというの？
+EN You want me to fight for you?
+
+@ 3.59
+# 社 長
+JP 俺のためにという訳では
+JP ないですが…。
+EN Well, not for me exactly...
+
+@ 3.61
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 神楽 紫苑
+JP いいよ。
+JP あんたの好きにすればいいさ。
+EN Fine. Do as you please.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# 神楽 紫苑
+JP お礼は契約を済ませてからね。
+EN Save the thanks until the contract's signed.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 神楽 紫苑
+JP どうしてあんたのために
+JP 戦わなけりゃいけないのさ。
+EN Why should I have to fight for you?
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 神楽 紫苑
+JP あら、あんた？
+EN Oh, it's you?
+
+@ 6.36
+# 社 長
+JP どうしてもうちに入って欲しくて
+JP また来ました。
+EN I came back because I really want you to join us.
+
+@ 6.43
+# 神楽 紫苑
+JP よほど暇みたいね。
+EN You must have a lot of free time.
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 神楽 紫苑
+JP いいよ。
+JP あんたの好きにすればいいさ。
+EN Fine. Do as you please.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# 神楽 紫苑
+JP お礼は契約を済ませてからね。
+EN Save the thanks until the contract's signed.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 神楽 紫苑
+JP どうしてあんたのために
+JP 戦わなけりゃいけないのさ。
+EN Why should I have to fight for you?
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は神楽選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kagura.
+
+@ 9.25
+# 社 長
+JP あの独特の個性を
+JP うちの団体でも発揮して
+JP 人気選手になって欲しい。
+EN I want her to show off that unique personality in our
+EN promotion and become a star.
+
+@ 9.27
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 9.29
+# 社 長
+JP あそこにいるのがそうかな。
+EN Is that her over there?
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# 神楽 紫苑
+JP 私に何か用？
+EN Something you want with me?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.51
+# 神楽 紫苑
+JP あんたの団体に移れっていうこと？
+EN You're telling me to move to your promotion?
+
+@ 9.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.61
+# 神楽 紫苑
+JP 別に不満もないしねぇ…。
+EN I don't really have any complaints where I am,
+EN though...
+
+@ 9.64
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 9.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 神楽 紫苑
+JP その条件なら移籍してみようかしら。
+EN On those terms, maybe I'll give transferring a try.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# 神楽 紫苑
+JP 約束は守ってちょうだいね。
+EN Keep your promises, won't you?
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 神楽 紫苑
+JP その条件では話にならないわ。
+EN On those terms, there's nothing to talk about.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 神楽選手が必要だ。
+EN Our promotion really needs Kagura.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 神楽選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 神楽 紫苑
+JP あんたはプロレス団体の？
+EN You're the guy from that wrestling promotion?
+
+@ 12.40
+# 社 長
+JP どうしてもうちに入って欲しくて
+JP また来ました。
+EN I came back because I really want you to join us.
+
+@ 12.47
+# 神楽 紫苑
+JP 暇な男ねぇ…。
+JP それとも私に惚れたの？
+EN What an idle man... Or have you fallen for me?
+
+@ 12.50
+# 社 長
+JP そういう訳ではないですが…。
+JP どうか入団して
+JP もらえないでしょうか？
+EN It's not that, but... Won't you please join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 神楽 紫苑
+JP その条件なら移籍してみようかしら。
+EN On those terms, maybe I'll give transferring a try.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# 神楽 紫苑
+JP 約束は守ってちょうだいね。
+EN Keep your promises, won't you?
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 神楽 紫苑
+JP その条件では話にならないわ。
+EN On those terms, there's nothing to talk about.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は神楽選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kagura.
+
+@ 15.25
+# 社 長
+JP あの個性は
+JP うちの団体でこそ光るはずだ。
+EN That personality of hers would really shine in our
+EN promotion.
+
+@ 15.27
+# 社 長
+JP あそこにいるのがそうかな。
+EN Is that her over there?
+
+@ 15.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.39
+# 神楽 紫苑
+JP 私を呼んだ？
+EN You called me?
+
+@ 15.42
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.48
+# 神楽 紫苑
+JP あんたの団体に入れっていうこと？
+EN You're telling me to join your promotion?
+
+@ 15.51
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.58
+# 神楽 紫苑
+JP 今の方が自由でいいのよねぇ…。
+EN I kind of like being free the way I am now...
+
+@ 15.61
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 15.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 神楽 紫苑
+JP その条件なら入団してあげるわ。
+EN On those terms, I'll do you the favor of joining.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# 神楽 紫苑
+JP ええ。
+JP 約束は守ってちょうだいね。
+EN Yes. Keep your promises, won't you?
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 神楽 紫苑
+JP 出直してちょうだい。
+EN Come back when you've got something better.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 神楽選手が必要だ。
+EN Our promotion really needs Kagura.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 神楽選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 神楽 紫苑
+JP あんたはどこかの団体の…？
+EN You're from some promotion or other...?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP うちの団体に入って欲しくて
+JP また来ました。
+EN Yes. I came back because I want you to join us.
+
+@ 18.47
+# 神楽 紫苑
+JP 暇な男…。
+JP もしかして私に惚れたの？
+EN What an idle man... Could it be you've fallen for me?
+
+@ 18.50
+# 社 長
+JP そういう訳ではないですが…。
+JP どうか入団して
+JP もらえないでしょうか？
+EN It's not that, but... Won't you please join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 神楽 紫苑
+JP その条件なら入団してあげるわ。
+EN On those terms, I'll do you the favor of joining.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# 神楽 紫苑
+JP ええ。
+JP 約束は守ってちょうだいね。
+EN Yes. Keep your promises, won't you?
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 神楽 紫苑
+JP 出直してちょうだい。
+EN Come back when you've got something better.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は神楽を訪ねることにした。
+EN I decided to go see Kagura.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 神楽っ！
+EN Kagura!
+
+@ 21.41
+# 神楽 紫苑
+JP …あら？
+EN ...Oh?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# 神楽 紫苑
+JP 何しに来たの？
+EN What are you here for?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you because I
+EN want you back...
+
+@ 21.58
+# 神楽 紫苑
+JP フンッ、ずいぶん勝手な言い草ね。
+EN Hmph, that's pretty selfish of you.
+
+@ 21.61
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask, but...
+
+@ 21.63
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 神楽 紫苑
+JP あんたが私を追い出したのよ？
+EN You're the one who threw me out, remember?
+
+@ 22.18
+# 社 長
+JP 頼む。
+JP もう一度力を貸して欲しいんだ。
+EN Please. I need your help one more time.
+
+@ 22.29
+# 神楽 紫苑
+JP いいわ。
+JP 今回だけは戻ってあげる。
+EN Fine. I'll come back, just this once.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Good to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 神楽 紫苑
+JP あんたが私を追い出したのよ？
+EN You're the one who threw me out, remember?
+
+@ 23.18
+# 社 長
+JP 頼む。
+JP どうしても戻って欲しいんだ。
+EN Please. I really want you back.
+
+@ 23.26
+# 神楽 紫苑
+JP 私はあんたの顔も見たくないの。
+EN I don't even want to see your face.
+
+@ 23.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び神楽を訪ねることにした。
+EN I decided to visit Kagura again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 神楽っ！
+EN Kagura!
+
+@ 24.37
+# 神楽 紫苑
+JP …社長？
+EN ...Boss?
+
+@ 24.40
+# 社 長
+JP ああ。
+EN Yeah.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しくて
+JP 頼みに来たよ。
+EN I came to ask you again. I really want you back with
+EN us.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 神楽 紫苑
+JP あんたが私を追い出したのよ？
+EN You're the one who threw me out, remember?
+
+@ 25.18
+# 社 長
+JP 頼む。
+JP もう一度力を貸して欲しいんだ。
+EN Please. I need your help one more time.
+
+@ 25.29
+# 神楽 紫苑
+JP いいわ。
+JP 今回だけは戻ってあげる。
+EN Fine. I'll come back, just this once.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Good to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 神楽 紫苑
+JP あんたが私を追い出したのよ？
+EN You're the one who threw me out, remember?
+
+@ 26.18
+# 社 長
+JP 頼む。
+JP どうしても戻って欲しいんだ。
+EN Please. I really want you back.
+
+@ 26.26
+# 神楽 紫苑
+JP 私はあんたの顔も見たくないの。
+EN I don't even want to see your face.
+
+@ 26.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 神楽 紫苑
+JP 私の体に傷が…。
+EN A scratch on my body...
+
+@ 28.16
+# scene 029 ケガ大
+# 神楽 紫苑
+JP 私の体が傷ものに…。
+EN My body's been damaged...
+
+@ 29.16
+# scene 030 入院
+# 神楽 紫苑
+JP 専用の個室を用意してね。
+EN Get me a private room, won't you?
+
+@ 30.16
+# scene 031 退院
+# 神楽 紫苑
+JP 専用の個室じゃなかったわ。
+EN That was not a private room.
+
+@ 31.16
+# scene 032 ケガ完治
+# 神楽 紫苑
+JP やっと良くなったわ。
+EN Finally, I'm better.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 神楽 紫苑
+JP あんたに言われるようじゃ
+JP 潮時かもね。
+EN If even you are saying it, maybe it's time.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 神楽 紫苑
+JP 私のことは私が決めるわ！
+EN I'll decide what happens to me!
+
+@ 34.16
+# scene 035 コーチ就任
+# 神楽 紫苑
+JP 私に教えてもらえるなんて
+JP 光栄に思いなさい。
+EN You should feel honored to be taught by me.
+
+@ 35.16
+# scene 036 ケガ引退
+# 神楽 紫苑
+JP この体じゃ話にならないわね。
+EN With this body, there's no point.
+
+@ 36.16
+# scene 037 年齢引退
+# 神楽 紫苑
+JP 私はもう役に立てないようね。
+EN Seems I'm no use anymore.
+
+@ 37.16
+# scene 038 退団
+# 神楽 紫苑
+JP あんたの顔も見飽きたわ。
+EN I'm sick of seeing your face.
+
+@ 38.16
+# scene 039 スランプ
+# 神楽 紫苑
+JP やるだけムダね。
+EN No point in even trying.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 神楽 紫苑
+JP 世の中暇人が多いわね。
+EN There sure are a lot of people with time on their
+EN hands.
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Don't let their cheering down. Do your best.
+
+@ 39.26
+# 神楽 紫苑
+JP そうね。
+JP 何もないよりはましね。
+EN I suppose. Better than nothing.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 神楽 紫苑
+JP １つあればいいんじゃないの？
+EN Isn't one enough?
+
+@ 40.19
+# 社 長
+JP そう言わずに期待に応えるようにな。
+EN Don't say that. Try to live up to their expectations.
+
+@ 40.26
+# 神楽 紫苑
+JP まったくどうなってんだか…。
+EN Honestly, what's gotten into people...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 神楽 紫苑
+JP ようやく目が覚めたみたいね。
+EN Looks like they've finally come to their senses.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. You'll just have to try
+EN again.
+
+@ 41.26
+# 神楽 紫苑
+JP はいはい。
+EN Yeah, yeah.
+
+@ 42.16
+# scene 043 映画出演
+# 神楽 紫苑
+JP まぁいいわ。
+JP どうせ端役でしょ？
+EN Well, fine. It's just a bit part anyway, right?
+
+@ 43.16
+# scene 044 一日署長
+# 神楽 紫苑
+JP ウフフッ。
+JP 私が捕まえる側にまわるなんてね。
+EN Ufufu. Me, on the side that does the arresting.
+
+@ 44.16
+# scene 045 写真集発売
+# 神楽 紫苑
+JP そんなに私のヌードが見たいの？
+EN Do you want to see me nude that badly?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 神楽 紫苑
+JP ギャラはきっちりもらうわよ。
+EN I'm getting paid in full, you know.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 神楽 紫苑
+JP ギャラがもらえるなら
+JP なんでもやるわ。
+EN I'll do anything if there's a paycheck.
+
+@ 47.16
+# scene 048 始球式
+# 神楽 紫苑
+JP ボールを投げて
+JP ギャラがもらえるなんて
+JP いいじゃない？
+EN Getting paid to throw a ball? Not bad, right?
+
+@ 48.16
+# scene 049 学園祭
+# 神楽 紫苑
+JP ギャラは出るんでしょうね？
+EN There's a fee, I hope?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.38
+# 神楽 紫苑
+JP …あら？
+EN ...Oh?
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.48
+# 神楽 紫苑
+JP 本当は現金の方が嬉しいんだけど？
+EN Honestly, I'd rather have cash, you know?
+
+@ 50.32
+# scene 051 バレンタインデー
+# 神楽 紫苑
+JP 社長、あげるわ。
+EN Boss, here.
+
+@ 50.35
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Ah, chocolate? Thanks.
+
+@ 50.42
+# 神楽 紫苑
+JP ３倍返し、期待してるわよ。
+EN I'm expecting triple in return.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you take this, as thanks for last month?
+
+@ 51.38
+# 神楽 紫苑
+JP 思ったより普通のお返しね。
+EN A more ordinary gift than I expected.
+
+@ 51.41
+# 社 長
+JP まぁ練習の合間にでも食べてくれ。
+EN Well, have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# 神楽 紫苑
+JP ウフフッ。
+JP 私のサインが欲しいの？
+EN Ufufu. You want my autograph?
+
+@ 53.31
+# scene 054 コンサート
+# 神楽 紫苑
+JP あなたたちの入場料が
+JP 私のギャラになるの。
+JP アリガト。
+EN Your ticket money turns into my paycheck. Thanks.
+
+@ 54.28
+# scene 055 練習拒否
+# 神楽 紫苑
+JP やりたくないの。
+EN I don't feel like it.
+
+@ 55.28
+# scene 056 失踪
+# 神楽 紫苑
+JP ちょっと出てくるわ。
+EN I'm heading out for a bit.
+
+@ 56.16
+# scene 057 選手解雇
+# 神楽 紫苑
+JP そう…。
+JP 仕方ないわね。
+EN I see... Can't be helped.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 神楽 紫苑
+JP 海外に行くのは
+JP プライベートの旅行だけに
+JP したいのに…。
+EN I'd rather only go abroad on private vacations...
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 神楽 紫苑
+JP やっぱり旅行だけにしておけば
+JP よかったわ。
+EN I should've stuck to vacations after all.
+
+@ 59.28
+# scene 060 移籍思案
+# 神楽 紫苑
+JP もっとギャラのいいところ
+JP あるみたいね…。
+EN Seems there are places that pay better...
+
+@ 60.16
+# scene 061 革命軍結成
+# 神楽 紫苑
+JP ホントは面倒なことは
+JP 嫌いなんだけど…。
+EN I really hate dealing with a hassle, but...
+
+@ 61.16
+# scene 062 反乱軍結成
+# 神楽 紫苑
+JP 私は面倒なことは苦手なんだけど…。
+EN Hassles aren't really my thing, but...
+
+@ 62.16
+# scene 063 最終決戦要求
+# 神楽 紫苑
+JP めんどくさいから
+JP これで終わりにしましょ。
+EN This is such a pain, so let's end it here.
+
+@ 63.16
+# scene 064 遺恨発生
+# 神楽 紫苑
+JP 私を怒らせたら怖いわよ。
+EN You don't want to see me angry.
+
+@ 64.16
+# scene 065 殴り込み
+# 神楽 紫苑
+JP ちょっと行ってくるわ。
+EN I'll be back in a bit.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 神楽 紫苑
+JP 場違いなお客さんが来たようね。
+EN Looks like some guests have wandered into the
+EN wrong place.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 神楽 紫苑
+JP ウサ晴らしに来てあげたわ。
+EN I came here to blow off some steam.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 神楽 紫苑
+JP せいぜい楽しんでくるわ。
+EN I'll try to have a little fun.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 神楽 紫苑
+JP いい思い出ができたわ。
+EN That made a nice memory.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 神楽 紫苑
+JP まぁ現実はこんなもんよね。
+EN Well, that's reality for you.
+
+@ 70.13
+# scene 071 引退式
+# 神楽 紫苑
+JP まぁ、私にしては
+JP 上出来だったと思うわ。
+JP アリガト。
+EN Well, I think I did pretty well, for me. Thanks.
+
+@ 71.18
+# 神楽 紫苑
+JP なに？
+EN What?
+
+@ 71.37
+# 神楽 紫苑
+JP なによ？
+EN What is it?
+
+@ 71.47
+# 神楽 紫苑
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be on a roll lately. Keep it up!
+
+@ 71.90
+# 神楽 紫苑
+JP はいはい。
+JP その調子でがんばるわ。
+EN Yeah, yeah. I'll keep it up.
+
+@ 71.111
+# 神楽 紫苑
+JP そんなこと言われて
+JP 私ががんばると思う？
+EN You think saying that will make me try harder?
+
+@ 71.132
+# 神楽 紫苑
+JP あら…？
+JP 私を褒めるなんて珍しいわね。
+JP 明日は台風が来るかもね。
+EN Oh...? You, praising me? That's rare. Maybe a
+EN typhoon's coming tomorrow.
+
+@ 71.153
+# 神楽 紫苑
+JP がんばるって…。
+JP 私のキャラに合わないの
+JP わかるでしょ？
+EN "Do your best"... You know that's not my style, right?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 神楽 紫苑
+JP そうなのよ。
+JP 少しお腹のあたりが…。
+JP なんてね。
+EN I know, right? Getting a little soft around the middle...
+EN Just kidding.
+
+@ 71.211
+# 神楽 紫苑
+JP 私、説教されるの
+JP 好きじゃないから。
+EN I don't like being lectured.
+
+@ 71.232
+# 神楽 紫苑
+JP ばれちゃったみたいね…。
+JP これから気をつけるわ。
+EN Looks like you caught me... I'll be careful from now
+EN on.
+
+@ 71.253
+# 神楽 紫苑
+JP 私はいつもたるんでるわよ。
+EN I'm always slacking off.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# 神楽 紫苑
+JP まぁ大丈夫なんじゃない？
+EN Well, I guess I'm fine?
+
+@ 71.311
+# 神楽 紫苑
+JP ……フゥ～…………。
+EN ......Haaah............
+
+@ 71.332
+# 神楽 紫苑
+JP 私を心配してくれるの？
+JP アリガト。
+EN You're worried about me? Thanks.
+
+@ 71.353
+# 神楽 紫苑
+JP 最近テンション上がんないのよね…。
+EN I just can't get pumped up lately...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 神楽 紫苑
+JP …なに？
+EN ...What?
+
+@ 71.400
+# 神楽 紫苑
+JP なに？
+EN What?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 神楽 紫苑
+JP まぁ仕方ないからそうするわ。
+EN Well, it can't be helped, so I will.
+
+@ 71.454
+# 神楽 紫苑
+JP ダーメ。
+JP 私、あの娘が嫌いなの。
+EN Nope. I can't stand that girl.
+
+@ 71.475
+# 神楽 紫苑
+JP 社長、何言ってるの？
+EN Boss, what are you talking about?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 神楽 紫苑
+JP …なによ？
+EN ...What is it?
+
+@ 71.522
+# 神楽 紫苑
+JP なによ？
+EN What is it?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 神楽 紫苑
+JP 仕方ないわね。
+JP 今回は社長の顔を立ててあげるわ。
+EN Can't be helped. I'll let you save face this time, Boss.
+
+@ 71.578
+# 神楽 紫苑
+JP 私、あの娘と合わないのよね…。
+EN That girl and I just don't click...
+
+@ 71.599
+# 神楽 紫苑
+JP 社長、疲れてるんじゃない？
+EN Boss, aren't you tired?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 神楽 紫苑
+JP なによ？
+EN What is it?
+
+@ 72.16
+# 神楽 紫苑
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be on a roll lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 神楽 紫苑
+JP はいはい。
+JP その調子でがんばるわ。
+EN Yeah, yeah. I'll keep it up.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 神楽 紫苑
+JP そんなこと言われて、
+JP 私ががんばると思う？
+EN You think saying that will make me try harder?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 神楽 紫苑
+JP あら…？
+JP 私を褒めるなんて珍しいわね。
+JP 明日は台風が来るかもね。
+EN Oh...? You, praising me? That's rare. Maybe a
+EN typhoon's coming tomorrow.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 神楽 紫苑
+JP がんばるって…。
+JP 私のキャラに合わないの
+JP わかるでしょ？
+EN "Do your best"... You know that's not my style, right?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 神楽 紫苑
+JP そうなのよ。
+JP 少しお腹のあたりが…。
+JP なんてね。
+EN I know, right? Getting a little soft around the middle...
+EN Just kidding.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 神楽 紫苑
+JP 私、説教されるの好きじゃないから。
+EN I don't like being lectured.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 神楽 紫苑
+JP ばれちゃったみたいね…。
+JP これから気をつけるわ。
+EN Looks like you caught me... I'll be careful from now
+EN on.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 神楽 紫苑
+JP 私はいつもたるんでるわよ。
+EN I'm always slacking off.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 神楽 紫苑
+JP まぁ大丈夫なんじゃない？
+EN Well, I guess I'm fine?
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 神楽 紫苑
+JP ……フゥ～…………。
+EN ......Haaah............
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 神楽 紫苑
+JP 私を心配してくれるの？
+JP アリガト。
+EN You're worried about me? Thanks.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 神楽 紫苑
+JP 最近テンション上がんないのよね…。
+EN I just can't get pumped up lately...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 神楽 紫苑
+JP …なに？
+EN ...What?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 神楽 紫苑
+JP なに？
+EN What?
+
+@ 91.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 神楽 紫苑
+JP まぁ仕方ないからそうするわ。
+EN Well, it can't be helped, so I will.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 神楽 紫苑
+JP ダーメ。
+JP 私、あの娘が嫌いなの。
+EN Nope. I can't stand that girl.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 神楽 紫苑
+JP 社長、何言ってるの？
+EN Boss, what are you talking about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 神楽 紫苑
+JP …なによ？
+EN ...What is it?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 神楽 紫苑
+JP なによ？
+EN What is it?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 神楽 紫苑
+JP 仕方ないわね。
+JP 今回は社長の顔を立ててあげるわ。
+EN Can't be helped. I'll let you save face this time, Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 神楽 紫苑
+JP 私、あの娘と合わないのよね…。
+EN That girl and I just don't click...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 神楽 紫苑
+JP 社長、疲れてるんじゃない？
+EN Boss, aren't you tired?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 神楽 紫苑
+JP まぁこんなもんよね。
+EN Well, about what I expected.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 神楽 紫苑
+JP アハハッ！
+JP こんなにもらっていいんだ。
+JP アリガト。
+EN Ahaha! I get this much? Thanks.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 神楽 紫苑
+JP しみったれてるわね。
+JP ケチッ…。
+EN How stingy. Cheapskate...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived at a tropical island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Well, it's the tropics all right. The sun is scorching.)
+
+@ 105.32
+# 社 長
+JP （俺もゆっくり休ませてもらうか…）
+EN (Guess I'll take it easy too...)
+
+@ 105.34
+# 社 長
+JP （………………）
+EN (..................)
+
+@ 105.41
+# ？？？
+JP …社長。
+EN ...Boss.
+
+@ 105.44
+# 社 長
+JP …んっ……。
+EN ...Mm......
+
+@ 105.46
+# 社 長
+JP その声は神楽か…？
+EN Is that you, Kagura...?
+
+@ 105.62
+# 社 長
+JP お、おまえ、その格好！？
+EN Wh-what are you wearing!?
+
+@ 105.66
+# 神楽 紫苑
+JP ほとんど私たちの貸切なんだから
+JP いいじゃない？
+EN We've practically got the place to ourselves, so
+EN what's the harm?
+
+@ 105.69
+# 社 長
+JP いや、それはそうだが…。
+EN Well, that's true, but...
+
+@ 105.73
+# 神楽 紫苑
+JP それに私は開放感を
+JP 味わいたいのよ。
+EN Besides, I want to feel liberated.
+
+@ 105.76
+# 社 長
+JP 開放感？
+EN Liberated?
+
+@ 105.86
+# 神楽 紫苑
+JP …そ。
+JP 全部脱いですっきり開放感。
+EN ...Yep. Take it all off and feel nice and free.
+
+@ 105.89
+# 社 長
+JP そんなのダメに決まってるだろ！
+EN Obviously you can't do that!
+
+@ 105.99
+# 神楽 紫苑
+JP 別にいいじゃない。
+JP 見られて減るもんじゃないし。
+EN What's the big deal? It's not like it wears out from
+EN being looked at.
+
+@ 105.102
+# 社 長
+JP （そのセリフは
+JP 　男のセリフじゃないのか…）
+EN (Isn't that line usually a guy's...?)
+
+@ 105.104
+# 社 長
+JP 俺が困るんだって…。
+EN It's a problem for me...
+
+@ 105.114
+# 神楽 紫苑
+JP 本当は見たいんでしょ？
+JP 私の全部。
+EN You actually want to see, don't you? All of me.
+
+@ 105.124
+# 神楽 紫苑
+JP それとも見たくないの？
+EN Or don't you want to?
+
+@ 105.127
+# 社 長
+JP 見たくない訳じゃないが…。
+EN It's not that I don't want to, but...
+
+@ 105.137
+# 神楽 紫苑
+JP そうでしょ。
+JP 社長になら全部見せてあげても
+JP いいわよ。
+EN See? For you, Boss, I wouldn't mind showing
+EN everything.
+
+@ 105.140
+# 社 長
+JP バカ、やめろって。
+EN Idiot, cut it out.
+
+@ 105.144
+# 神楽 紫苑
+JP ウフフ…。
+JP ほら見たいんでしょ。
+EN Ufufu... Come on, you want to see.
+
+@ 105.151
+# 社 長
+JP あっ、しまった！
+EN Ah, oh no!
+
+@ 105.161
+# 神楽 紫苑
+JP …えっ！？
+EN ...Huh!?
+
+@ 105.164
+# 社 長
+JP 約束があったのを思い出した。
+EN I just remembered I have an appointment.
+
+@ 105.166
+# 社 長
+JP 悪い、神楽。
+JP ゆっくりバカンス楽しんでくれ！
+EN Sorry, Kagura. Enjoy your vacation!
+
+@ 105.184
+# 神楽 紫苑
+JP 社長！
+JP 逃げるなんて卑怯じゃない！
+EN Boss! Running away is cheating!
+
+@ 105.187
+# 社 長
+JP （神楽の声が聞こえない振りをして
+JP 　俺は一時退散することにした）
+EN (Pretending I couldn't hear Kagura, I beat a
+EN temporary retreat.)
+
+@ 105.189
+# 社 長
+JP （やれやれだ…）
+EN (Good grief...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP もうこんな時間か…。
+EN Is it this late already...?
+
+@ 106.26
+# 社 長
+JP 今夜は仕事で泊まりになりそうだな。
+EN Looks like I'll be staying overnight for work.
+
+@ 106.28
+# 社 長
+JP 少し疲れてきたし
+JP ソファーで仮眠でも取るか…。
+EN I'm getting a little tired. Maybe I'll grab a nap on the
+EN sofa...
+
+@ 106.30
+# 社 長
+JP （俺はソファーに
+JP 　横になって目を閉じた）
+EN (I lay down on the sofa and closed my eyes.)
+
+@ 106.47
+# 社 長
+JP （うっ…）
+EN (Ugh...)
+
+@ 106.49
+# 社 長
+JP （なんだか体が重い…）
+EN (My body feels heavy...)
+
+@ 106.51
+# 社 長
+JP （もしかして
+JP 　これが金縛りってやつか…）
+EN (Could this be what they call sleep paralysis...?)
+
+@ 106.53
+# 社 長
+JP （なんとか目だけでも開けば…）
+EN (If I can just open my eyes...)
+
+@ 106.68
+# 神楽 紫苑
+JP …あら？
+EN ...Oh?
+
+@ 106.71
+# 社 長
+JP か、神楽…？
+EN K-Kagura...?
+
+@ 106.73
+# 社 長
+JP （目を開けると
+JP 　俺の体の上に神楽がいた）
+EN (When I opened my eyes, Kagura was on top of me.)
+
+@ 106.75
+# 社 長
+JP （なぜか俺のシャツのボタンに
+JP 　手をかけて…）
+EN (And for some reason, her hands were on my shirt
+EN buttons...)
+
+@ 106.79
+# 神楽 紫苑
+JP 目が覚めちゃったの…？
+EN You woke up...?
+
+@ 106.82
+# 社 長
+JP おまえ、何してるんだ？
+EN What are you doing?
+
+@ 106.92
+# 神楽 紫苑
+JP 社長が疲れているみたいだから
+JP マッサージでもしてあげようかと
+JP 思ったの…。
+EN You looked tired, Boss, so I thought I'd give you a
+EN massage...
+
+@ 106.95
+# 社 長
+JP …マッサージ？
+EN ...A massage?
+
+@ 106.99
+# 神楽 紫苑
+JP そうよ。
+EN That's right.
+
+@ 106.102
+# 社 長
+JP 本当にマッサージなら
+JP なぜ俺のシャツのボタンに
+JP 手をかけてるんだ？
+EN If it's really a massage, why are your hands on my
+EN shirt buttons?
+
+@ 106.112
+# 神楽 紫苑
+JP 直接体にマッサージした方が
+JP 気持ちいいじゃない？
+EN Doesn't a massage feel better directly on the skin?
+
+@ 106.115
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.117
+# 社 長
+JP （俺は神楽に疑いのまなざしを
+JP 　向けながらじっと見る）
+EN (I stared at Kagura suspiciously.)
+
+@ 106.127
+# 神楽 紫苑
+JP …ウフフ……。
+EN ...Ufufu......
+
+@ 106.130
+# 社 長
+JP （さらに神楽に疑いのまなざしを
+JP 　向けながらじっと見る）
+EN (I stared at her even more suspiciously.)
+
+@ 106.140
+# 神楽 紫苑
+JP ………………。
+EN ..................
+
+@ 106.143
+# 社 長
+JP （こいつ、今視線外したぞ…）
+EN (She just looked away...)
+
+@ 106.153
+# 神楽 紫苑
+JP 社長の疲れも取れたみたいだから
+JP 私は帰るわ。
+EN Looks like your fatigue's all gone, Boss, so I'll be
+EN going home.
+
+@ 106.170
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.172
+# 社 長
+JP （神楽はそう言って去っていった…）
+EN (With that, Kagura left...)
+
+@ 106.174
+# 社 長
+JP （残された俺の第六感は
+JP 　ここで寝るのは危険だと
+JP 　告げていた…）
+EN (Left behind, my sixth sense told me sleeping here
+EN was dangerous...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP …フゥ～………。
+EN ...Haaah.........
+
+@ 107.26
+# 社 長
+JP （付き合いの飲み会から戻ると
+JP 　もう終電が過ぎている時間…）
+EN (By the time I got back from a work drinking party,
+EN the last train had already gone...)
+
+@ 107.28
+# 社 長
+JP 今夜はここに泊まるしかないな。
+EN Guess I'll have to stay here tonight.
+
+@ 107.30
+# 社 長
+JP とりあえず今夜はソファーで寝るか。
+EN I'll just sleep on the sofa for tonight.
+
+@ 107.32
+# 社 長
+JP （俺はソファーに
+JP 　横になって目を閉じた）
+EN (I lay down on the sofa and closed my eyes.)
+
+@ 107.49
+# 社 長
+JP （うっ…）
+EN (Ugh...)
+
+@ 107.51
+# 社 長
+JP （なんだか体が重い…）
+EN (My body feels heavy...)
+
+@ 107.53
+# 社 長
+JP （もしかして
+JP 　これが金縛りってやつか…）
+EN (Could this be what they call sleep paralysis...?)
+
+@ 107.55
+# 社 長
+JP （なんとか目だけでも開けば…）
+EN (If I can just open my eyes...)
+
+@ 107.70
+# 神楽 紫苑
+JP …あら？
+EN ...Oh?
+
+@ 107.73
+# 社 長
+JP か、神楽…？
+EN K-Kagura...?
+
+@ 107.75
+# 社 長
+JP （目を開けると俺の体の上には
+JP 　神楽がいた）
+EN (When I opened my eyes, Kagura was on top of me.)
+
+@ 107.77
+# 社 長
+JP （しかもなぜか俺のシャツの
+JP 　ボタンに手をかけて…）
+EN (And for some reason, her hands were on my shirt
+EN buttons again...)
+
+@ 107.79
+# 社 長
+JP おまえ、今度は何してるんだ？
+EN What are you doing this time?
+
+@ 107.83
+# 神楽 紫苑
+JP あら？
+JP 何って…？
+EN Oh? What do you mean...?
+
+@ 107.86
+# 社 長
+JP …何って？
+EN ...What do I mean?
+
+@ 107.96
+# 神楽 紫苑
+JP 社長、眠る前に私にしたこと
+JP 覚えてないの？
+EN Boss, don't you remember what you did to me before
+EN you fell asleep?
+
+@ 107.99
+# 社 長
+JP ……はっ…？
+EN ......Huh...?
+
+@ 107.103
+# 神楽 紫苑
+JP あんな恥ずかしいことまで
+JP させたくせに…。
+EN After you made me do something so embarrassing...
+
+@ 107.106
+# 社 長
+JP おまえは何を言ってるんだ…？
+EN What are you talking about...?
+
+@ 107.110
+# 神楽 紫苑
+JP そんな…。
+JP 社長、ひどいわ。
+JP 人でなし…。
+EN How could you... Boss, that's cruel. You heartless
+EN brute...
+
+@ 107.113
+# 社 長
+JP （俺は冷静に時計を確認した）
+EN (Calmly, I checked the clock.)
+
+@ 107.115
+# 社 長
+JP （時計の針は
+JP 　俺が横になってから
+JP 　５分しか経っていなかった）
+EN (Only five minutes had passed since I lay down.)
+
+@ 107.117
+# 社 長
+JP なぁ、神楽？
+JP 俺が横になってから
+JP ５分しか経ってないんだが…？
+EN Hey, Kagura? It's only been five minutes since I lay
+EN down...?
+
+@ 107.127
+# 神楽 紫苑
+JP …えっ？
+EN ...Huh?
+
+@ 107.130
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.132
+# 社 長
+JP （俺は神楽に疑いのまなざしを
+JP 　向けながらじっと見る）
+EN (I stared at Kagura suspiciously.)
+
+@ 107.142
+# 神楽 紫苑
+JP ………………。
+EN ..................
+
+@ 107.145
+# 社 長
+JP （こいつ、今視線外したぞ…）
+EN (She just looked away...)
+
+@ 107.149
+# 神楽 紫苑
+JP …チッ……！
+EN ...Tch......!
+
+@ 107.152
+# 社 長
+JP …えっ……？
+EN ...Huh......?
+
+@ 107.156
+# 神楽 紫苑
+JP 既成事実さえ作ってしまえば
+JP この団体の資産が手に入ったのに…。
+EN If I'd just made it a done deal, this promotion's
+EN assets would've been mine...
+
+@ 107.159
+# 社 長
+JP おいおい、聞こえてるぞ。
+EN Hey, hey, I can hear you.
+
+@ 107.169
+# 神楽 紫苑
+JP まぁ、次のチャンスを
+JP 狙うことにするわ。
+EN Well, I'll just wait for my next chance.
+
+@ 107.172
+# 社 長
+JP おいおい…。
+EN Hey now...
+
+@ 107.188
+# 神楽 紫苑
+JP それじゃ、社長。
+JP 酔ったときは
+JP 会社に泊まるようにしてね。
+EN Well then, Boss. Whenever you're drunk, be sure to
+EN stay over at the office.
+
+@ 107.191
+# 社 長
+JP まだこんなことする気か？
+EN You're planning to try this again?
+
+@ 107.195
+# 神楽 紫苑
+JP …ウフフ…。
+JP おやすみなさい。
+EN ...Ufufu... Good night.
+
+@ 107.209
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.211
+# 社 長
+JP （神楽はそう言って去っていった…）
+EN (With that, Kagura left...)
+
+@ 107.213
+# 社 長
+JP （やはり俺の第六感は
+JP 　ここで寝るのは危険だと
+JP 　告げていた…）
+EN (Once again, my sixth sense told me sleeping here
+EN was dangerous...)
+
+@ 108.16
+# scene 113 練習開始
+# 神楽 紫苑
+JP はいはい。
+JP 今日も練習、練習っと。
+EN Yeah, yeah. Training again today.
+
+@ 109.16
+# scene 114 練習開始 好意
+# 神楽 紫苑
+JP 少しはがんばろっかなぁ。
+EN Maybe I'll try a little harder.
+
+@ 110.16
+# scene 115 特訓開始
+# 神楽 紫苑
+JP 私にこんなことさせるの？
+EN You're making me do this?
+
+@ 111.20
+# scene 116 特訓成功
+# 神楽 紫苑
+JP まぁ結果オーライよね。
+EN Well, all's well that ends well.
+
+@ 112.20
+# scene 117 特訓失敗
+# 神楽 紫苑
+JP だからやりたくなかったのよ…。
+EN This is why I didn't want to do it...
+
+@ 113.16
+# scene 118 休養
+# 神楽 紫苑
+JP 久しぶりにゆっくりするわ。
+EN I'll take it easy for once.
+
+@ 114.16
+# scene 119 入場1
+# 神楽 紫苑
+JP 負けるのって気分悪いのよねぇ。
+EN Losing puts me in such a bad mood.
+
+@ 115.16
+# scene 119 入場2
+# 神楽 紫苑
+JP 私もたまには
+JP 本気出してみようかな。
+EN Maybe I'll get serious for once.
+
+@ 116.16
+# scene 125 必殺技１
+# 神楽 紫苑
+JP 少しオイタが過ぎたようね！
+EN Looks like you've been a little too naughty!
+
+@ 117.16
+# scene 125 必殺技２
+# 神楽 紫苑
+JP あいにくだけど、
+JP この勝負私のものみたいね。
+EN Sorry, but it looks like this match is mine.
+
+@ 118.16
+# scene 125 必殺技３
+# 神楽 紫苑
+JP お姉さんがいいこと教えてあげるわ♪
+EN Let big sister teach you something nice♪
+
+@ 119.12
+# scene 126 勝利1
+# 神楽 紫苑
+JP 私の相手をするのは
+JP まだ早かったようね。
+EN Looks like you weren't ready to take me on yet.
+
+@ 120.12
+# scene 126 勝利2
+# 神楽 紫苑
+JP つまらない試合だったわ…。
+EN What a boring match...
+
+@ 121.12
+# scene 126 勝利3
+# 神楽 紫苑
+JP それで私に勝てるつもりだったの？
+EN You really thought you could beat me with that?
+
+@ 122.15
+# scene 133 表彰1
+# 神楽 紫苑
+JP くれるって言うなら
+JP ありがたくもらっておくわ。
+EN If you're giving it to me, I'll gladly take it.
+
+@ 123.15
+# scene 133 表彰2
+# 神楽 紫苑
+JP 私が表彰されるなんて
+JP 世も末ね。
+EN Me, getting an award? The world must be ending.
+
+@ 124.12
+# scene 134 優勝1
+# 神楽 紫苑
+JP 私もやるときはやるって
+JP わかったでしょ？
+EN Now you know I can deliver when it counts, right?
+
+@ 125.12
+# scene 134 優勝２
+# 神楽 紫苑
+JP 少しは私の実力
+JP わかってくれた？
+EN Do you get how good I am now?
+
+@ 126.24
+# scene 135 エンディング 通常
+# 神楽 紫苑
+JP 社長、オメデト。
+JP 私も少しは貢献したってこと
+JP 忘れないでよ。
+EN Congrats, Boss. Don't forget I helped out a little too.
+
+@ 127.24
+# scene 136 エンディング 好意
+# 神楽 紫苑
+JP 社長、あんたなかなかいい男だったわ。
+JP 私が保証してあげる。
+EN Boss, you turned out to be quite a man. I'll vouch for
+EN that.

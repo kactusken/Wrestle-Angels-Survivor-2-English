@@ -1,0 +1,2429 @@
+# /SCR/033.BIN - 杉浦美月
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 033` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 杉浦 美月
+JP 杉浦です。
+JP 情報分析能力には
+JP 自信があります。
+EN I'm Sugiura. I have full confidence in my information
+EN analysis skills.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 杉浦 美月
+JP ありがとうございます。
+JP 団体に貢献できるように
+JP ベストを尽くします。
+EN Thank you. I'll do my very best to contribute to the
+EN promotion.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 杉浦 美月
+JP 不採用の理由がわかりません。
+JP 判断ミスではありませんか？
+EN I don't understand the reason for rejecting me.
+EN Isn't this an error in judgment?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりの商店街にいるって
+JP ことだったけど…。
+EN I heard she'd be somewhere in this shopping
+EN district...
+
+@ 3.25
+# 社 長
+JP どこにいるのかな？
+EN Where could she be?
+
+@ 3.27
+# 社 長
+JP あっ、もしかしてあの娘か？
+EN Oh, could that be her?
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.39
+# 杉浦 美月
+JP 私に何かご用ですか？
+EN Is there something I can do for you?
+
+@ 3.42
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 3.46
+# 杉浦 美月
+JP やはりスカウトでしたか。
+EN So it was a scouting offer after all.
+
+@ 3.49
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.56
+# 杉浦 美月
+JP 冷静に考えて
+JP 私は身体能力が不足していると
+JP 思うのですが…。
+EN Thinking about it rationally, I believe I lack the
+EN physical ability...
+
+@ 3.59
+# 社 長
+JP その冷静な判断力こそ
+JP 求めているんです。
+EN That rational judgment is exactly what I'm looking
+EN for.
+
+@ 3.61
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 杉浦 美月
+JP わかりました。
+JP 今回のお話お受けします。
+EN Understood. I accept your offer.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# 杉浦 美月
+JP 早速自分の基礎能力を
+JP 分析しないといけませんね。
+EN I'll need to analyze my basic abilities right away.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# 杉浦 美月
+JP すみません。
+JP 今の私ではあらゆる面で
+JP 能力不足のようです。
+EN I'm sorry. At this point I seem to fall short in every
+EN respect.
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 杉浦 美月
+JP この前の社長さんですよね？
+JP またスカウトのお話ですか？
+EN You're the president from the other day, aren't
+EN you? Is this about scouting again?
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.43
+# 杉浦 美月
+JP 先日お断りしたと思ったのですが…。
+EN I believe I turned you down the other day...
+
+@ 6.46
+# 社 長
+JP もう一度考えてみて
+JP もらえないかな？
+EN Could you think it over once more?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 杉浦 美月
+JP わかりました。
+JP 今回のお話お受けします。
+EN Understood. I accept your offer.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# 杉浦 美月
+JP 早速自分の基礎能力を
+JP 分析しないといけませんね。
+EN I'll need to analyze my basic abilities right away.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 杉浦 美月
+JP すみません。
+JP 今の私ではあらゆる面で
+JP 能力不足のようです。
+EN I'm sorry. At this point I seem to fall short in every
+EN respect.
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は美月選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Mitsuki.
+
+@ 9.25
+# 社 長
+JP あの身体能力をカバーする
+JP 情報分析能力は魅力的だ。
+EN Her analytical skills, which make up for her physical
+EN limits, are very appealing.
+
+@ 9.27
+# 社 長
+JP うちの団体でも間違いなく
+JP 活躍できるはずだ。
+EN She could definitely shine in our promotion, too.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりにいるはず
+JP だけど…。
+EN She should be somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 杉浦 美月
+JP 私に何かご用ですか？
+EN Is there something I can do for you?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.53
+# 杉浦 美月
+JP 社長さんの団体に移籍しろと…。
+EN You want me to transfer to your promotion...
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.63
+# 杉浦 美月
+JP いきなりのお話で
+JP 分析が難しいのですが…。
+EN This is so sudden, it's difficult to analyze...
+
+@ 9.66
+# 社 長
+JP うちの団体に
+JP 力を貸してもらえないでしょうか？
+EN Would you lend your strength to our promotion?
+
+@ 9.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 杉浦 美月
+JP わかりました。
+JP そこまで言われたら断れませんね。
+EN Understood. When you put it that way, I can't refuse.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.26
+# 杉浦 美月
+JP よろしくお願いします。
+EN I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 杉浦 美月
+JP すみませんが
+JP 今の団体が自分の力を
+JP 一番いかせそうです。
+EN I'm sorry, but my current promotion seems to make
+EN the best use of my abilities.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 美月選手が必要だ。
+EN Our promotion really does need Mitsuki.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 美月選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 杉浦 美月
+JP 以前もお会いしましたね。
+JP またあのお話でしょうか？
+EN We've met before, haven't we? Is this about that
+EN offer again?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.47
+# 杉浦 美月
+JP あれから少しは
+JP シミュレーションして
+JP いたのですが…。
+EN I have run a few simulations since then, but...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Would you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 杉浦 美月
+JP わかりました。
+JP そこまで言われたら断れませんね。
+EN Understood. When you put it that way, I can't refuse.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.26
+# 杉浦 美月
+JP よろしくお願いします。
+EN I look forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 杉浦 美月
+JP すみませんが
+JP 今の団体が自分の力を
+JP 一番いかせそうです。
+EN I'm sorry, but my current promotion seems to make
+EN the best use of my abilities.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は美月選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Mitsuki.
+
+@ 15.25
+# 社 長
+JP あの相手の隙をつく一瞬の関節技には
+JP 目を見張るものがある。
+EN The way she seizes an opening for a split-second
+EN joint lock is remarkable.
+
+@ 15.27
+# 社 長
+JP このあたりにいるらしいけど…。
+EN I heard she'd be around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 杉浦 美月
+JP …はい？
+JP 何かご用ですか？
+EN ...Yes? Is there something you need?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.51
+# 杉浦 美月
+JP 私が社長さんの団体に入団ですか…。
+EN You want me to join your promotion...
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# 杉浦 美月
+JP もう少し情報を分析してみる
+JP 必要があるのですが…。
+EN I'd need to analyze a bit more information first...
+
+@ 15.64
+# 社 長
+JP なんとか
+JP 力を貸してもらえないでしょうか？
+EN Is there any way you could lend us your strength?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 杉浦 美月
+JP わかりました。
+JP あなたの団体に入団した方が
+JP 能力の伸び率が高いようです。
+EN Understood. My abilities seem likely to grow faster if
+EN I join your promotion.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.26
+# 杉浦 美月
+JP はい、よろしくお願いします。
+EN Yes. I look forward to working with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 杉浦 美月
+JP 残念ですが、あなたの団体では
+JP 私の能力は発揮できないようです。
+EN Unfortunately, it seems I couldn't put my abilities to
+EN use in your promotion.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 美月選手が必要だ。
+EN Our promotion really does need Mitsuki.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 美月選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 杉浦 美月
+JP 社長さんですか。
+JP またいらしたのですか？
+EN Oh, it's you, President. You came again?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.47
+# 杉浦 美月
+JP 私を過大評価されているのでは
+JP ないですか？
+EN Aren't you overestimating me?
+
+@ 18.50
+# 社 長
+JP そんなことはありません。
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN Not at all. Would you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 杉浦 美月
+JP わかりました。
+JP あなたの団体に入団した方が
+JP 能力の伸び率が高いようです。
+EN Understood. My abilities seem likely to grow faster if
+EN I join your promotion.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.26
+# 杉浦 美月
+JP はい、よろしくお願いします。
+EN Yes. I look forward to working with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 杉浦 美月
+JP 残念ですが、あなたの団体では
+JP 私の能力は発揮できないようです。
+EN Unfortunately, it seems I couldn't put my abilities to
+EN use in your promotion.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は美月を訪ねることにした。
+EN I decided to go see Mitsuki.
+
+@ 21.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 美月っ！
+EN Mitsuki!
+
+@ 21.41
+# 杉浦 美月
+JP …社長？
+EN ...Boss?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# 杉浦 美月
+JP 今さら何かご用ですか？
+EN What could you possibly want with me now?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you. I want you to
+EN come back...
+
+@ 21.61
+# 杉浦 美月
+JP そんな話を信じろというのですか？
+EN You expect me to believe that?
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 杉浦 美月
+JP 過去のことを反省していると…？
+EN You're saying you regret what happened...?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 22.26
+# 杉浦 美月
+JP わかりました。
+JP 昔のことは消去しておきます。
+EN Understood. I'll delete the past from my memory.
+
+@ 22.29
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 杉浦 美月
+JP 過去のことを反省していると…？
+EN You're saying you regret what happened...?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 23.29
+# 杉浦 美月
+JP やはり無理です。
+JP 歴史は繰り返すと言いますので…。
+EN No, it's impossible. They do say history repeats
+EN itself...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び美月を訪ねることにした。
+EN I decided to go see Mitsuki again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 美月っ！
+EN Mitsuki!
+
+@ 24.37
+# 杉浦 美月
+JP 社長、またいらしたのですか？
+EN Boss, you came again?
+
+@ 24.40
+# 社 長
+JP ああ。
+JP また頼みに来たよ。
+EN Yeah. I came to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 杉浦 美月
+JP 過去のことを反省していると…？
+EN You're saying you regret what happened...?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 25.26
+# 杉浦 美月
+JP わかりました。
+JP 昔のことは消去しておきます。
+EN Understood. I'll delete the past from my memory.
+
+@ 25.29
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 杉浦 美月
+JP 過去のことを反省していると…？
+EN You're saying you regret what happened...?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 26.29
+# 杉浦 美月
+JP やはり無理です。
+JP 歴史は繰り返すと言いますので…。
+EN No, it's impossible. They do say history repeats
+EN itself...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 杉浦 美月
+JP 全治一週間といったところ
+JP でしょうか。
+EN I'd estimate about one week to full recovery.
+
+@ 28.16
+# scene 029 ケガ大
+# 杉浦 美月
+JP 全治一ヶ月以上ですね。
+JP 温泉治療が効果的かと…。
+EN Over a month to full recovery. Hot spring therapy
+EN should be effective...
+
+@ 29.16
+# scene 030 入院
+# 杉浦 美月
+JP 入院よりも温泉治療は
+JP ダメでしょうか？
+EN Instead of the hospital, wouldn't hot spring therapy
+EN do?
+
+@ 30.16
+# scene 031 退院
+# 杉浦 美月
+JP やはり温泉治療の方が
+JP 良かったですね…。
+EN Hot spring therapy would have been better after
+EN all...
+
+@ 31.16
+# scene 032 ケガ完治
+# 杉浦 美月
+JP 無事完治したようです。
+EN It appears I've made a full recovery.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 杉浦 美月
+JP 引き際というのも
+JP 大事かもしれませんね。
+EN Knowing when to step away may be important, too.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 杉浦 美月
+JP 自分の分析は
+JP 自分でできるつもりです。
+EN I believe I can analyze myself on my own, thank you.
+
+@ 34.16
+# scene 035 コーチ就任
+# 杉浦 美月
+JP コーチとして、自分の能力を
+JP いかしていこうと思います。
+EN As a coach, I intend to put my abilities to good use.
+
+@ 35.16
+# scene 036 ケガ引退
+# 杉浦 美月
+JP 今回のケガでは
+JP 現役を続けるのは無理ですね。
+EN With this injury, continuing my career is impossible.
+
+@ 36.16
+# scene 037 年齢引退
+# 杉浦 美月
+JP そろそろ潮時のようです。
+EN It seems the time has come.
+
+@ 37.16
+# scene 038 退団
+# 杉浦 美月
+JP もうこの団体にいる意味が
+JP ありませんね。
+EN There's no longer any point in my staying with this
+EN promotion.
+
+@ 38.16
+# scene 039 スランプ
+# 杉浦 美月
+JP …そうだ。
+JP 温泉に行こう…。
+EN ...I know. I'll go to a hot spring...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 杉浦 美月
+JP 私のファンクラブですか？
+EN A fan club for me?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their cheering.
+
+@ 39.23
+# 杉浦 美月
+JP 私に何を期待されているのか
+JP ファン心理を分析してみたいですね。
+EN I'd like to analyze fan psychology to see what they
+EN expect of me.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 杉浦 美月
+JP またファンクラブですか？
+EN Another fan club?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# 杉浦 美月
+JP 以前よりもファンの数が
+JP ３０％増加と言ったところでしょうか。
+EN I'd estimate a 30% increase in fans compared to
+EN before.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 杉浦 美月
+JP ファンクラブが解散ですか？
+EN My fan club is disbanding?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard again.
+
+@ 41.26
+# 杉浦 美月
+JP ファンの数が
+JP ２０％減少と言ったところでしょうか。
+EN I'd estimate a 20% decrease in fans.
+
+@ 42.16
+# scene 043 映画出演
+# 杉浦 美月
+JP 違った分野の情報を
+JP 収集することも大切ですね。
+EN Gathering information from different fields is
+EN important, too.
+
+@ 43.16
+# scene 044 一日署長
+# 杉浦 美月
+JP 迷宮入り事件を解決してきます。
+EN I'll go solve some cold cases.
+
+@ 44.16
+# scene 045 写真集発売
+# 杉浦 美月
+JP 世の中にはマニアックな
+JP 趣味の方がいるようですね。
+EN It seems some people out there have rather niche
+EN tastes.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 杉浦 美月
+JP 私を起用することで
+JP 売上げは何％アップするか
+JP 興味がありますね。
+EN I'm curious what percentage sales will rise by using
+EN me.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 杉浦 美月
+JP 私は歌手ではないのですが…。
+EN I'm not a singer, though...
+
+@ 47.16
+# scene 048 始球式
+# 杉浦 美月
+JP 投球モーションを利用した投げ技を
+JP 研究してくることにします。
+EN I'll go study a throw that makes use of a pitching
+EN motion.
+
+@ 48.16
+# scene 049 学園祭
+# 杉浦 美月
+JP 騒々しいところは苦手なのですが…。
+EN I'm not fond of noisy places, but...
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.38
+# 杉浦 美月
+JP 私にですか？
+EN For me?
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.45
+# 杉浦 美月
+JP あ、ありがとうございます。
+JP 大事にします…。
+EN Th-thank you very much. I'll treasure it...
+
+@ 50.32
+# scene 051 バレンタインデー
+# 杉浦 美月
+JP 社長、チョコレートです。
+EN Boss, here's some chocolate.
+
+@ 50.35
+# 社 長
+JP ああ。
+JP ありがとう。
+EN Oh. Thanks.
+
+@ 50.42
+# 杉浦 美月
+JP カカオ７０％のビタータイプで…。
+JP い、一応手作りです…。
+EN It's a bitter type, 70% cacao... It's, um, homemade,
+EN technically...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, to thank you for last month?
+
+@ 51.38
+# 杉浦 美月
+JP あ、ありがとうございます…。
+JP カ、カロリーコントロールのため
+JP 成分分析してもいいでしょうか？
+EN Th-thank you... W-would you mind if I analyzed its
+EN ingredients, for calorie control?
+
+@ 51.41
+# 社 長
+JP ああ。
+JP まぁ好きにしてくれ。
+EN Sure. Do whatever you like.
+
+@ 52.31
+# scene 053 サイン会
+# 杉浦 美月
+JP そこ、列を作って
+JP 順番に並んでください。
+EN You there, please form a line and wait your turn.
+
+@ 53.31
+# scene 054 コンサート
+# 杉浦 美月
+JP 本当に私は歌手では
+JP ないのですが…。
+EN I really am not a singer, you know...
+
+@ 54.28
+# scene 055 練習拒否
+# 杉浦 美月
+JP これはサボタージュではなく
+JP 正当な休暇として…。
+EN This isn't sabotage. Consider it a legitimate
+EN vacation...
+
+@ 55.28
+# scene 056 失踪
+# 杉浦 美月
+JP 秘湯を探しに行ってきます…。
+EN I'm off to look for a secret hot spring...
+
+@ 56.16
+# scene 057 選手解雇
+# 杉浦 美月
+JP 解雇の正当な理由を
+JP 聞かせていただけますか？
+EN Could you tell me the legitimate reason for my
+EN dismissal?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 杉浦 美月
+JP テクニックに磨きをかけてきます。
+EN I'll go polish my technique.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 杉浦 美月
+JP いま帰りました。
+JP 有意義な遠征になったようです。
+EN I'm back. It seems the tour was a meaningful one.
+
+@ 59.28
+# scene 060 移籍思案
+# 杉浦 美月
+JP 他の団体の情報も
+JP 集めておいた方が良さそうですね。
+EN It might be wise to gather information on other
+EN promotions, too.
+
+@ 60.16
+# scene 061 革命軍結成
+# 杉浦 美月
+JP 革命を達成するには
+JP 戦力分析が重要ですね。
+EN To make the revolution succeed, analyzing our
+EN forces is key.
+
+@ 61.16
+# scene 062 反乱軍結成
+# 杉浦 美月
+JP 早速正規軍の戦力を分析しないと…。
+EN I need to analyze the regular army's forces right
+EN away...
+
+@ 62.16
+# scene 063 最終決戦要求
+# 杉浦 美月
+JP 決戦するなら
+JP 今が最適のようですね。
+EN If we're going to have a showdown, now appears to
+EN be the optimal time.
+
+@ 63.16
+# scene 065 遺恨発生
+# 杉浦 美月
+JP このことは永久保存しておかないと
+JP いけませんね。
+EN I'll have to save this to permanent memory.
+
+@ 64.16
+# scene 065 殴り込み
+# 杉浦 美月
+JP 私が敵情の視察と分析を
+JP してきます。
+EN I'll go scout out the enemy and analyze them.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 杉浦 美月
+JP まずは私が敵の情報を
+JP 収集しましょう。
+EN First, let me gather information on the enemy.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 杉浦 美月
+JP あなたたちの情報は
+JP すでに分析済みです。
+EN I've already finished analyzing all of you.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 杉浦 美月
+JP 大きな試合ほど
+JP 事前の準備が大切ですね。
+EN The bigger the match, the more preparation matters.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 杉浦 美月
+JP 情報戦の大切さが
+JP 証明できたようですね。
+EN It seems I've proven how important information
+EN warfare is.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 杉浦 美月
+JP 力の差とは思いたくないのですが…。
+EN I'd rather not believe it was a gap in ability...
+
+@ 70.13
+# scene 071 引退式
+# 杉浦 美月
+JP 引退時期も想定内なのですが
+JP この感情は…想定外ですね…。
+EN I'd planned for the timing of my retirement, but this
+EN feeling... wasn't in my projections...
+
+@ 71.18
+# 杉浦 美月
+JP 社長、何かご用ですか？
+EN Boss, is there something you need?
+
+@ 71.37
+# 杉浦 美月
+JP 社長、お呼びでしょうか？
+EN Boss, you called for me?
+
+@ 71.47
+# 杉浦 美月
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# 杉浦 美月
+JP ありがとうございます。
+JP これからもがんばります。
+EN Thank you very much. I'll keep working hard.
+
+@ 71.111
+# 杉浦 美月
+JP 社長は情報の分析がまだ甘いですね。
+EN Your analysis is still a little sloppy, Boss.
+
+@ 71.132
+# 杉浦 美月
+JP あっ、ありがとうございます。
+JP 社長は内面も見てくださるのですね。
+EN Oh, th-thank you. So you look at what's on the inside
+EN too, Boss.
+
+@ 71.153
+# 杉浦 美月
+JP その言葉は嬉しいのですが…。
+EN I'm glad to hear that, but...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 杉浦 美月
+JP すみません…。
+JP 自己管理を徹底します。
+EN I'm sorry... I'll be strict about managing myself.
+
+@ 71.211
+# 杉浦 美月
+JP 社長、表面しか
+JP 観察されていないのではないですか？
+EN Boss, aren't you only observing the surface?
+
+@ 71.232
+# 杉浦 美月
+JP すみませんでした…。
+JP 心に油断があったようです。
+EN I'm sorry... It seems I let my guard down.
+
+@ 71.253
+# 杉浦 美月
+JP 私だって人間ですから…。
+EN I'm only human, too...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# 杉浦 美月
+JP 温泉に行って
+JP 気分転換でもすれば大丈夫です。
+EN I'll be fine if I go to a hot spring for a change of
+EN pace.
+
+@ 71.311
+# 杉浦 美月
+JP 私は団体に必要なのでしょうか…。
+EN Does the promotion even need me...?
+
+@ 71.332
+# 杉浦 美月
+JP しゃ、社長のためなら…。
+JP もう少しがんばれる気がします。
+EN F-for you, Boss... I feel like I can keep going a little
+EN longer.
+
+@ 71.353
+# 杉浦 美月
+JP 社長にとって
+JP 私は必要なのでしょうか…。
+EN Do you need me, Boss...?
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 杉浦 美月
+JP 予想はできますね。
+EN I can guess.
+
+@ 71.400
+# 杉浦 美月
+JP わかりかねます。
+EN I'm afraid I don't.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 杉浦 美月
+JP わかりました。
+JP チームワークも大切ですね。
+EN Understood. Teamwork is important, too.
+
+@ 71.454
+# 杉浦 美月
+JP 原因は向こうにあります。
+JP 向こうの謝罪が先のはずです。
+EN The cause lies with her. She should apologize first.
+
+@ 71.475
+# 杉浦 美月
+JP 社長、情報ソースが
+JP おかしいのではないですか？
+EN Boss, isn't there something wrong with your source
+EN of information?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 杉浦 美月
+JP だいたいの予想は…。
+EN I have a rough idea...
+
+@ 71.522
+# 杉浦 美月
+JP 何かありましたか？
+EN Did something happen?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 杉浦 美月
+JP 社長に頼まれたら断れないですね。
+EN I can't refuse when you're the one asking, Boss.
+
+@ 71.578
+# 杉浦 美月
+JP 社長の頼みでも
+JP それは納得できません。
+EN Even if you ask, Boss, I can't accept that.
+
+@ 71.599
+# 杉浦 美月
+JP 社長、根拠のない情報は
+JP 信用しない方がいいですよ。
+EN Boss, you shouldn't trust unfounded information.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 杉浦 美月
+JP 社長、お呼びでしょうか？
+EN Boss, you called for me?
+
+@ 72.16
+# 杉浦 美月
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 杉浦 美月
+JP ありがとうございます。
+JP これからもがんばります。
+EN Thank you very much. I'll keep working hard.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 杉浦 美月
+JP 社長は情報の分析がまだ甘いですね。
+EN Your analysis is still a little sloppy, Boss.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 杉浦 美月
+JP あ、ありがとうございます。
+JP 社長は内面も見てくださるのですね。
+EN Oh, th-thank you. So you look at what's on the inside
+EN too, Boss.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 杉浦 美月
+JP その言葉は嬉しいのですが…。
+EN I'm glad to hear that, but...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 杉浦 美月
+JP すみません…。
+JP 自己管理を徹底します。
+EN I'm sorry... I'll be strict about managing myself.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 杉浦 美月
+JP 社長、表面しか観察されていない
+JP のではないですか？
+EN Boss, aren't you only observing the surface?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 杉浦 美月
+JP すみませんでした…。
+JP 心に油断があったようです。
+EN I'm sorry... It seems I let my guard down.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 杉浦 美月
+JP 私だって人間ですから…。
+EN I'm only human, too...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 杉浦 美月
+JP 温泉に行って気分転換でも
+JP すれば大丈夫です。
+EN I'll be fine if I go to a hot spring for a change of
+EN pace.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 杉浦 美月
+JP 私は団体に必要なのでしょうか…。
+EN Does the promotion even need me...?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 杉浦 美月
+JP しゃ、社長のためなら…。
+JP もう少しがんばれる気がします。
+EN F-for you, Boss... I feel like I can keep going a little
+EN longer.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 杉浦 美月
+JP 社長にとって私は
+JP 必要なのでしょうか…。
+EN Do you need me, Boss...?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 杉浦 美月
+JP 予想はできますね。
+EN I can guess.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 杉浦 美月
+JP わかりかねます。
+EN I'm afraid I don't.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 杉浦 美月
+JP わかりました。
+JP チームワークも大切ですね。
+EN Understood. Teamwork is important, too.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 杉浦 美月
+JP 原因は向こうにあります。
+JP 向こうの謝罪が先のはずです。
+EN The cause lies with her. She should apologize first.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 杉浦 美月
+JP 社長、情報ソースが
+JP おかしいのではないですか？
+EN Boss, isn't there something wrong with your source
+EN of information?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 杉浦 美月
+JP だいたいの予想は…。
+EN I have a rough idea...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 杉浦 美月
+JP 何かありましたか？
+EN Did something happen?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 杉浦 美月
+JP 社長に頼まれたら断れないですね。
+EN I can't refuse when you're the one asking, Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 杉浦 美月
+JP 社長の頼みでも、
+JP それは納得できません。
+EN Even if you ask, Boss, I can't accept that.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 杉浦 美月
+JP 社長、根拠のない情報は
+JP 信用しない方がいいですよ。
+EN Boss, you shouldn't trust unfounded information.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 杉浦 美月
+JP 自分の能力に見合った報酬だと
+JP 分析できました。
+EN My analysis shows this pay matches my abilities.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 杉浦 美月
+JP 能力以上の報酬ですが
+JP 期待値としていただいておきます。
+EN It's more than my abilities merit, but I'll accept it as
+EN an expected value.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 杉浦 美月
+JP 能力に見合っているとは思えませんが
+JP そう評価されたのなら仕方ないですね。
+EN I don't think it matches my abilities, but if that's
+EN your assessment, it can't be helped.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived at a southern island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN scorching.)
+
+@ 105.32
+# 社 長
+JP （さて、まずは荷物を置いて
+JP 　水着に着替えないと…）
+EN (Now, first I'd better drop off our bags and change
+EN into my swimsuit...)
+
+@ 105.45
+# 杉浦 美月
+JP 良いところですね。
+JP 日本では得られない景色です。
+EN What a nice place. You can't get scenery like this in
+EN Japan.
+
+@ 105.48
+# 社 長
+JP …だろ。
+EN ...Isn't it?
+
+@ 105.55
+# 杉浦 美月
+JP ええ、本当に…。
+JP ただ、くだらないものもありますが…。
+EN Yes, truly... Though there are some ridiculous things
+EN here, too...
+
+@ 105.58
+# 社 長
+JP …くだらない？
+EN ...Ridiculous?
+
+@ 105.65
+# 杉浦 美月
+JP ええ…。
+JP あれとか。
+EN Yes... That, for example.
+
+@ 105.68
+# 社 長
+JP （そう言って
+JP 　美月が指さした先には…）
+EN (The place Mitsuki pointed to...)
+
+@ 105.70
+# 社 長
+JP （「どこよりも絶叫、バナナボート」
+JP 　という看板が掲げられていた）
+EN (...had a sign up that said "The Most Screams
+EN Anywhere: Banana Boat.")
+
+@ 105.72
+# 社 長
+JP （なぜか日本語で書かれている。
+JP 　日本人観光客目当てなのだろう）
+EN (For some reason it was in Japanese. Probably aimed
+EN at Japanese tourists.)
+
+@ 105.74
+# 社 長
+JP （ちなみにバナナボートとは
+JP 　文字通りバナナの形の乗り物だ。
+JP 　水上バイクで牽引する）
+EN (A banana boat, by the way, is just what it sounds
+EN like: a banana-shaped float towed by a jet ski.)
+
+@ 105.78
+# 杉浦 美月
+JP 本当にくだらない…。
+JP あんなもの、何が楽しいのか
+JP 理解に苦しみます。
+EN Truly ridiculous... I struggle to understand what's
+EN fun about a thing like that.
+
+@ 105.81
+# 社 長
+JP （バカにしきった声色だ）
+EN (Her voice was dripping with contempt.)
+
+@ 105.83
+# 社 長
+JP たしかに上品な乗り物とは言えないが
+JP そこまで言うこともないだろう。
+EN Sure, it's not exactly a classy ride, but you don't
+EN have to go that far.
+
+@ 105.85
+# 社 長
+JP 結構、人気あるみたいだぞ。
+EN It seems pretty popular, you know.
+
+@ 105.87
+# 社 長
+JP （海の上では何台かの
+JP 　バナナボートが走っている）
+EN (Several banana boats were racing across the
+EN water.)
+
+@ 105.89
+# 社 長
+JP 乗ってる人たちも楽しそうだしな。
+EN And the people riding them look like they're having
+EN fun.
+
+@ 105.96
+# 杉浦 美月
+JP なぜあんなもので楽しめるのか
+JP 理解に苦しみます。
+EN I struggle to understand how anyone could enjoy
+EN that.
+
+@ 105.99
+# 社 長
+JP （こいつの堅すぎるところは
+JP 　少し治した方がいいと思うんだが…）
+EN (I think she could stand to loosen up a little...)
+
+@ 105.101
+# 社 長
+JP （そうだ…）
+EN (I know...)
+
+@ 105.103
+# 社 長
+JP そんなに言うなら
+JP 実際に乗って理解してみたらどうだ？
+EN If you feel that strongly, why not ride it and see for
+EN yourself?
+
+@ 105.110
+# 杉浦 美月
+JP …えっ？
+JP ええっ！？
+EN ...What? Whaaat!?
+
+@ 105.113
+# 社 長
+JP そうすれば
+JP おまえの疑問も解消するかも。
+EN That might clear up your question.
+
+@ 105.120
+# 杉浦 美月
+JP な、何を言っているんですか！
+JP そんな必要ありません！
+EN Wh-what are you saying! There's no need for that!
+
+@ 105.123
+# 社 長
+JP （…あれ？
+JP 　この反応…）
+EN (...Huh? That reaction...)
+
+@ 105.127
+# 杉浦 美月
+JP 乗らなくてもわかります。
+JP あんなもの…あんなもの…。
+EN I can tell without riding it. That thing... that thing is...
+
+@ 105.130
+# 社 長
+JP まさか…怖いのか？
+EN Don't tell me... You're scared?
+
+@ 105.137
+# 杉浦 美月
+JP な、何を言うのですか！
+JP あんな子供だましが怖いなんて！
+JP そんなことあるはずないでしょう。
+EN Wh-what are you saying! Scared of a kiddie ride like
+EN that! That couldn't possibly be true.
+
+@ 105.140
+# 社 長
+JP （ジェットコースターを怖がる子供に
+JP 　反応がそっくりなんだが…）
+EN (She's reacting exactly like a kid who's scared of
+EN roller coasters...)
+
+@ 105.142
+# 社 長
+JP ふーん…。
+EN Hmm...
+
+@ 105.149
+# 杉浦 美月
+JP わかりました、乗ります。
+JP そして、くだらないということを
+JP 立証してみせます。
+EN Fine, I'll ride it. And I'll prove that it's ridiculous.
+
+@ 105.152
+# 社 長
+JP そうか…。
+EN All right...
+
+@ 105.154
+# 社 長
+JP （無理することないのに…）
+EN (She doesn't have to push herself...)
+
+@ 105.172
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.174
+# 社 長
+JP （そして、俺と美月は
+JP 　バナナボートに乗ってみた）
+EN (And so Mitsuki and I rode the banana boat.)
+
+@ 105.182
+# 杉浦 美月
+JP いやああぁぁぁぁっっっっ！
+EN Noooooooooo!
+
+@ 105.196
+# 社 長
+JP （美月が絶叫をあげて
+JP 　ぎゅっと俺にしがみつく）
+EN (Mitsuki screamed and clung to me tightly.)
+
+@ 105.198
+# 社 長
+JP （このバナナボートの運転は
+JP 　無茶苦茶荒い）
+EN (The driver of this banana boat was insanely rough.)
+
+@ 105.200
+# 社 長
+JP （他のバナナボートと比べればわかる。
+JP 　明らかに一線を画している）
+EN (Compared to the other banana boats, he was clearly
+EN in a league of his own.)
+
+@ 105.202
+# 社 長
+JP （乗るときからずっとくだらないと
+JP 　言い続けていたからだろうなぁ…）
+EN (Probably because she'd kept calling it ridiculous
+EN the whole time we were getting on...)
+
+@ 105.204
+# 社 長
+JP （日本語の看板があるくらいだ。
+JP 　悪口もわかっていたに違いない）
+EN (The sign was in Japanese, after all. He must have
+EN understood the insults.)
+
+@ 105.206
+# 社 長
+JP なあ、怖いなら素直に謝って
+JP 降ろしてもらった方がいいぞ。
+EN Hey, if you're scared, just apologize and ask him to
+EN let you off.
+
+@ 105.210
+# 杉浦 美月
+JP こっ…こんな子供のオモチャ…。
+JP こ、怖くもなんとも
+JP …きゃああっ！
+EN A-a kid's toy like this... I-I'm not scared in the
+EN least... Eeeek!
+
+@ 105.213
+# 社 長
+JP でも今、悲鳴を…。
+EN But you just screamed...
+
+@ 105.217
+# 杉浦 美月
+JP 悲鳴なんかあげていません！
+JP バカなことを言わないで
+JP …いやあぁぁぁっ！
+EN I did not scream! Don't say such foolish... Noooooo!
+
+@ 105.220
+# 社 長
+JP …あげてるよな。
+EN ...You did.
+
+@ 105.222
+# 社 長
+JP （美月の抱きつく力が強くなる）
+EN (Mitsuki's grip around me tightened.)
+
+@ 105.226
+# 杉浦 美月
+JP ひっ…。
+JP やっ…やああぁっ！
+EN Hii... N-nooooo!
+
+@ 105.230
+# 杉浦 美月
+JP こ、この恐怖はっ…。
+JP け…け…計算外で…ひぃっ…！
+EN Th-this terror... w-w-wasn't in my calculations...
+EN Hiii...!
+
+@ 105.233
+# 社 長
+JP やれやれ…。
+EN Good grief...
+
+@ 105.235
+# 社 長
+JP （ふと前を見たら）
+EN (I happened to look ahead...)
+
+@ 105.237
+# 社 長
+JP （バナナボートを牽引している
+JP 　ドライバーが満面の笑顔で
+JP 　親指をピッと立てていた）
+EN (...and the driver towing the banana boat flashed us
+EN a beaming grin and a thumbs-up.)
+
+@ 105.247
+# 杉浦 美月
+JP えぐっ…ごめんなさい…。
+JP 許して…許してください…。
+JP …えぐっ…！
+EN *Sob*... I'm sorry... Forgive me... Please forgive me...
+EN *sob*...!
+
+@ 105.250
+# 社 長
+JP （バカにして悪かったから
+JP 　あまりいじめないでくれよ）
+EN (She's sorry she mocked it, so please go easy on
+EN her...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある日、オフィスで仕事を
+JP 　していると…）
+EN (One day, while I was working in the office...)
+
+@ 106.33
+# 社 長
+JP （なんの前触れもなく
+JP 　美月がやってきた）
+EN (Mitsuki came in without any warning.)
+
+@ 106.35
+# 社 長
+JP …んっ、美月。
+JP 何か用か？
+EN ...Hm, Mitsuki. Need something?
+
+@ 106.42
+# 杉浦 美月
+JP 用というか…。
+JP その…特に用でもないのですが…。
+EN Not need, exactly... Well... I don't have any particular
+EN business, but...
+
+@ 106.49
+# 杉浦 美月
+JP 社長、私がこの部屋にいると
+JP 邪魔ですか？
+EN Boss, am I in the way if I stay in this room?
+
+@ 106.52
+# 社 長
+JP …いや、別に…。
+EN ...No, not really...
+
+@ 106.59
+# 杉浦 美月
+JP そうですか…。
+EN I see...
+
+@ 106.62
+# 社 長
+JP （俺が答えると
+JP 　美月はホッとした顔になり…）
+EN (When I answered, Mitsuki looked relieved...)
+
+@ 106.64
+# 社 長
+JP （何やら早口でまくし立てた）
+EN (...and then rattled off something at top speed.)
+
+@ 106.71
+# 杉浦 美月
+JP 最近、自分でも自分が計算通りに
+JP ならないのです。これはその計算の
+JP 上での行動なのです。
+EN Lately even I can't make myself behave as
+EN calculated. This action is based on those
+EN calculations.
+
+@ 106.74
+# 社 長
+JP えっと…。
+JP つまり？
+EN Um... Meaning?
+
+@ 106.78
+# 杉浦 美月
+JP この状況を解決できる方法を
+JP 思いついたのですが
+JP それには社長の協力が必要で…。
+EN I've thought of a way to resolve this situation, but it
+EN requires your cooperation, Boss...
+
+@ 106.85
+# 杉浦 美月
+JP その…試してもいいですか？
+EN Um... May I try it?
+
+@ 106.88
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.90
+# 社 長
+JP （言ってることは
+JP 　よくわからないが…）
+EN (I don't really follow what she's saying, but...)
+
+@ 106.92
+# 社 長
+JP かまわないぞ。
+JP それが美月に必要なことなら
+JP 協力しよう。
+EN Go ahead. If it's something you need, Mitsuki, I'll help.
+
+@ 106.99
+# 杉浦 美月
+JP ありがとうございます。
+JP それでは失礼して…。
+EN Thank you very much. Then, excuse me...
+
+@ 106.114
+# 社 長
+JP （そう言うと美月は）
+EN (With that, Mitsuki...)
+
+@ 106.116
+# 社 長
+JP （俺の横に寄り添うように座ると）
+EN (...sat down snuggled up beside me...)
+
+@ 106.132
+# 社 長
+JP （そのまま読書を始めた）
+EN (...and started reading a book.)
+
+@ 106.134
+# 社 長
+JP えっ…？
+EN Huh...?
+
+@ 106.138
+# 杉浦 美月
+JP も、もし…迷惑なようでしたら
+JP 言ってくださいね。
+EN I-if... if this bothers you, please say so.
+
+@ 106.141
+# 社 長
+JP 別に迷惑じゃないが…。
+EN It doesn't bother me, but...
+
+@ 106.145
+# 杉浦 美月
+JP …そ、そうですか。
+EN ...I-I see.
+
+@ 106.148
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.150
+# 社 長
+JP それで協力って…？
+EN So, about that cooperation...?
+
+@ 106.154
+# 杉浦 美月
+JP これです。
+EN This is it.
+
+@ 106.157
+# 社 長
+JP これって…本を読むことが？
+EN This...? You mean reading a book?
+
+@ 106.161
+# 杉浦 美月
+JP 読書はうまく時間を
+JP 経過させるためのアイテムです。
+JP …ほ、本題ではありません。
+EN Reading is just an item for passing the time
+EN smoothly. ...I-it's not the main point.
+
+@ 106.164
+# 社 長
+JP そうなのか。
+EN Is that so.
+
+@ 106.166
+# 社 長
+JP （よくわからん）
+EN (I don't get it.)
+
+@ 106.176
+# 杉浦 美月
+JP でも…この解決策は
+JP 正解だったようです。
+EN But... it seems this solution was correct.
+
+@ 106.179
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 106.181
+# 社 長
+JP （よくわからないが…。
+JP 　それならいいか）
+EN (I don't really get it... but if she's happy, fine.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある日、オフィスで仕事を
+JP 　していると…）
+EN (One day, while I was working in the office...)
+
+@ 107.33
+# 社 長
+JP （なんの前触れもなく
+JP 　美月がやってきた）
+EN (Mitsuki came in without any warning.)
+
+@ 107.40
+# 杉浦 美月
+JP 失礼します。
+EN Excuse me.
+
+@ 107.43
+# 社 長
+JP （前のあの日から
+JP 　よく来るようになったのかも
+JP 　しれない…）
+EN (Ever since that day, she seems to come by a lot...)
+
+@ 107.47
+# 杉浦 美月
+JP 今、大丈夫ですか？
+EN Is now all right?
+
+@ 107.50
+# 社 長
+JP ああ、構わないよ。
+EN Yeah, go ahead.
+
+@ 107.54
+# 杉浦 美月
+JP そうですか。
+JP それでは…。
+EN I see. Then...
+
+@ 107.62
+# 社 長
+JP （そう言うと美月は…）
+EN (With that, Mitsuki...)
+
+@ 107.78
+# 社 長
+JP （いつものように俺に背中を預けて
+JP 　読書を始めた）
+EN (...leaned her back against me as usual and started
+EN reading.)
+
+@ 107.80
+# 社 長
+JP （もう見慣れた風景だ）
+EN (It's a familiar sight by now.)
+
+@ 107.90
+# 杉浦 美月
+JP 社長…。
+EN Boss...
+
+@ 107.93
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 107.97
+# 杉浦 美月
+JP 本当に迷惑ではありませんか？
+EN Are you sure I'm not bothering you?
+
+@ 107.100
+# 社 長
+JP ああ、迷惑じゃないよ。
+EN Yeah, you're not bothering me.
+
+@ 107.102
+# 社 長
+JP （この会話もいつものことだ）
+EN (This exchange is a regular thing, too.)
+
+@ 107.106
+# 杉浦 美月
+JP ふふ…。
+JP 安心しました。
+EN Heh... That's a relief.
+
+@ 107.109
+# 社 長
+JP （しばらくの時間が過ぎ…）
+EN (Some time passed...)
+
+@ 107.111
+# 社 長
+JP 今日はもう仕事が終わるんだが…。
+EN I'm about to wrap up work for today...
+
+@ 107.121
+# 杉浦 美月
+JP もう…ですか…？
+EN Already...?
+
+@ 107.124
+# 社 長
+JP ああ。
+JP だからどうだ？
+JP この後一緒に食事でも…。
+EN Yeah. So how about it? Want to grab dinner together
+EN after this...?
+
+@ 107.128
+# 杉浦 美月
+JP …えっと。
+EN ...Um.
+
+@ 107.138
+# 杉浦 美月
+JP はい…。
+JP 喜んで…。
+EN Yes... I'd love to...
+
+@ 107.152
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.154
+# 社 長
+JP （そうして俺と美月は
+JP 　食事に行くことにした）
+EN (And so Mitsuki and I went out to eat.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 杉浦 美月
+JP フフッ、本気でいきますよ！
+EN Heh, I'm going all out!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# 杉浦 美月
+JP あなたのことは分析できない…。
+EN I can't analyze you...
+
+@ 110.16
+# scene 113 練習開始
+# 杉浦 美月
+JP 試合に勝つためにも
+JP 練習は大事ですね。
+EN Training matters if we want to win matches.
+
+@ 111.16
+# scene 114 練習開始 好意
+# 杉浦 美月
+JP やる気と効果は比例するようです。
+EN It seems motivation and results are proportional.
+
+@ 112.16
+# scene 115 特訓開始
+# 杉浦 美月
+JP 特訓の効果を検証します。
+EN I'll verify the effects of special training.
+
+@ 113.20
+# scene 116 特訓成功
+# 杉浦 美月
+JP 特訓の効果は十分のようですね。
+EN The special training seems to have been quite
+EN effective.
+
+@ 114.20
+# scene 117 特訓失敗
+# 杉浦 美月
+JP 効果どころかマイナスのようです…。
+EN Far from helping, it seems to have had a negative
+EN effect...
+
+@ 115.16
+# scene 118 休養
+# 杉浦 美月
+JP 秘湯巡りに行ってきます。
+EN I'm off on a tour of secret hot springs.
+
+@ 116.16
+# scene 119 入場1
+# 杉浦 美月
+JP この試合は
+JP シミュレーション済みです。
+EN I've already simulated this match.
+
+@ 117.16
+# scene 119 入場2
+# 杉浦 美月
+JP 勝利へのプロセスは頭に入っています。
+JP 後は実行するだけです。
+EN The process for victory is in my head. All that's left
+EN is to execute it.
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# 杉浦 美月
+JP 足を引っ張らないでくださいね。
+EN Please don't drag me down.
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# 杉浦 美月
+JP ボーっとしてちゃダメですよ！
+EN No spacing out!
+
+@ 120.16
+# scene 125 必殺技１
+# 杉浦 美月
+JP これが勝利の方程式の解法です！
+EN This is the solution to the equation of victory!
+
+@ 121.16
+# scene 125 必殺技２
+# 杉浦 美月
+JP 分析完了しました。
+JP これで決めてみせます！
+EN Analysis complete. This will finish it!
+
+@ 122.16
+# scene 125 必殺技３
+# 杉浦 美月
+JP この勝負、これで詰みです！
+EN This match ends here. Checkmate!
+
+@ 123.12
+# scene 126 勝利1
+# 杉浦 美月
+JP 情報の分析が正しくできていた
+JP ということです。
+EN It means my analysis of the information was correct.
+
+@ 124.12
+# scene 126 勝利2
+# 杉浦 美月
+JP 勝利の方程式を解いただけです。
+EN I merely solved the equation of victory.
+
+@ 125.12
+# scene 126 勝利3
+# 杉浦 美月
+JP この試合
+JP シミュレーションどおりでした。
+EN This match went exactly as simulated.
+
+@ 126.15
+# scene 133 表彰1
+# 杉浦 美月
+JP この受賞は想定外ですね。
+JP ありがとうございます。
+EN This award wasn't in my projections. Thank you very
+EN much.
+
+@ 127.15
+# scene 133 表彰2
+# 杉浦 美月
+JP この受賞を糧にさらに自分に
+JP 磨きをかけていきたいと思います。
+EN I'll use this award as fuel to keep polishing myself.
+
+@ 128.12
+# scene 134 優勝1
+# 杉浦 美月
+JP すべて計算どおりです。
+JP 傾向と対策がうまくいった
+JP ようですね。
+EN Everything went as calculated. It seems my research
+EN and countermeasures worked.
+
+@ 129.12
+# scene 134 優勝２
+# 杉浦 美月
+JP スタミナ配分が
+JP うまくいったようです。
+JP 次もがんばります。
+EN It seems my stamina management worked. I'll do my
+EN best next time, too.
+
+@ 130.24
+# scene 135 エンディング 通常
+# 杉浦 美月
+JP 社長、おめでとうございます。
+JP 私は社長のことを正しく分析できて
+JP いなかったようです。
+EN Congratulations, Boss. It seems I hadn't analyzed
+EN you correctly.
+
+@ 131.24
+# scene 136 エンディング 好意
+# 杉浦 美月
+JP 社長…。
+JP 私に…恋の方程式の解き方を
+JP 教えてもらえますか？
+EN Boss... Would you teach me... how to solve the
+EN equation of love?

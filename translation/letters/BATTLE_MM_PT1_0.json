@@ -1,0 +1,9 @@
+{
+ "english": "Change | Details | Random | Auto Sort | Title Match",
+ "boxes": [[55, 22, 68, 16], [164, 22, 72, 16], [276, 22, 70, 16], [410, 22, 74, 16], [38, 81, 86, 17]],
+ "fill": "bright",
+ "ground": "interpolate",
+ "reach": 2,
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "notes": "button bar of the match card screen: L2 Change, Triangle Details, Square Random, SELECT Auto Sort, R2 Title Match"
+}

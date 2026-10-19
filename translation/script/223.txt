@@ -1,0 +1,96 @@
+# /SCR/223.BIN - ディジー・クライ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 223` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ディジー・クライ
+JP おまえらとはレベルが違うんだよ！
+EN I'm on a whole other level from you lot!
+
+@ 1.16
+# scene 119 入場1
+# ディジー・クライ
+JP 私の対戦相手になるとは
+JP 不幸な奴だ！
+EN Unlucky you, gettin' stuck with me as your
+EN opponent!
+
+@ 2.16
+# scene 119 入場2
+# ディジー・クライ
+JP 叩き潰されたい奴は前に出な！
+EN Anyone who wants to get smashed, step up!
+
+@ 3.16
+# scene 125 必殺技１
+# ディジー・クライ
+JP 地獄に連れていってやるよ！
+EN I'll drag you to hell!
+
+@ 4.16
+# scene 125 必殺技２
+# ディジー・クライ
+JP こいつで脳を揺らしてやるよ！
+EN This one's gonna rattle your brain!
+
+@ 5.16
+# scene 125 必殺技３
+# ディジー・クライ
+JP ガードごと吹き飛ばすハリケーン、
+JP とくと味わいなッ！
+EN A hurricane that blows right through your guard!
+EN Have a good taste!
+
+@ 6.12
+# scene 126 勝利1
+# ディジー・クライ
+JP 私のケリをくらいたい奴は
+JP 出てきな！
+EN Anyone else want a taste of my kicks? Step up!
+
+@ 7.12
+# scene 126 勝利2
+# ディジー・クライ
+JP ウォーミングアップにも
+JP ならないよ！
+EN That wasn't even a warm-up!
+
+@ 8.12
+# scene 126 勝利3
+# ディジー・クライ
+JP 他愛もない。
+JP ウォームアップで潰れやがった。
+EN Pathetic. She broke during the warm-up.
+
+@ 9.15
+# scene 133 表彰1
+# ディジー・クライ
+JP まぁ、ありがたくいただいとくよ。
+EN Well, I'll take it, thanks.
+
+@ 10.15
+# scene 133 表彰2
+# ディジー・クライ
+JP これで少しは
+JP ハクが付くってもんだね。
+EN Guess this'll get me a little more cred.
+
+@ 11.12
+# scene 134 優勝1
+# ディジー・クライ
+JP これが格の違いってやつだよ！
+EN That's what you call a difference in class!
+
+@ 12.12
+# scene 134 優勝２
+# ディジー・クライ
+JP 私のケリの怖さが
+JP 少しはわかったか？
+EN Now do you get how scary my kicks are?

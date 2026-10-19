@@ -1,0 +1,2260 @@
+# /SCR/162.BIN - アドミラル八島
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 162` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# アドミラル八島
+JP まさか、この私を雇わないなんて
+JP ことはないだろうねぇ。
+EN Don't tell me you're thinkin' of not hiring someone
+EN like me, huh?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# アドミラル八島
+JP 当然だね。
+JP まあ、見ていな。
+EN Naturally. Just you watch.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# アドミラル八島
+JP そうかい。
+JP あんた、いい度胸してんじゃないか。
+EN Is that so? You've got some nerve, pal.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here.
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「パワーや度胸、存在感が抜群」と
+JP あるが…。
+EN The scouting file says "outstanding power, guts and
+EN presence"...
+
+@ 3.27
+# 社 長
+JP 今回はわかりやすそうだな。
+EN Sounds like she'll be easy to spot this time.
+
+@ 3.29
+# 社 長
+JP あっ、なんだかそれらしい娘がいるぞ。
+EN Oh, there's a girl who looks the part.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# アドミラル八島
+JP あん？
+JP なんか用かい？
+EN Huh? You want somethin'?
+
+@ 3.44
+# 社 長
+JP ええ、実はですね…。
+EN Yes, well, the thing is...
+
+@ 3.46
+# 社 長
+JP （俺は事情を話して
+JP 　入団してくれるよう頼んでみた）
+EN (I explained the situation and asked her to join us.)
+
+@ 3.53
+# アドミラル八島
+JP ふーん。
+JP プロレスねぇ。
+EN Hmm. Pro wrestling, huh.
+
+@ 3.56
+# 社 長
+JP どうでしょうか？
+EN What do you think?
+
+@ 3.63
+# アドミラル八島
+JP そうだねぇ。
+JP まあ、ひと暴れするのも
+JP 悪くないけど…。
+EN Well now. Raisin' a little hell wouldn't be so bad, but...
+
+@ 3.66
+# 社 長
+JP （あんまり気乗りじゃないのかな…）
+EN (She doesn't seem very keen...)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# アドミラル八島
+JP まっ、いいだろ。
+JP チームは若いのに
+JP 任せることにしよう。
+EN Eh, why not. I'll leave the gang to the young ones.
+
+@ 4.22
+# 社 長
+JP では、入団してくれるんですか？
+EN So you'll join us?
+
+@ 4.29
+# アドミラル八島
+JP ああ、いいよ。
+JP 思う存分、暴れてやろうじゃないか。
+EN Yeah, sure. I'll raise all the hell I want.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# アドミラル八島
+JP 悪いけど、まだまだチームには
+JP 私が必要なんでねぇ。
+EN Sorry, but my gang still needs me around.
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしか
+JP このあたりだったはずだが…。
+EN Let's see, it should have been around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# アドミラル八島
+JP おや、この間の社長さんじゃないか。
+EN Well, if it ain't the president from the other day.
+
+@ 6.38
+# 社 長
+JP あの、もう一度考え直して
+JP もらえないでしょうか？
+EN Um, would you reconsider?
+
+@ 6.45
+# アドミラル八島
+JP ああん？
+JP プロレスをやれってのかい？
+EN Huh? You still want me doin' pro wrestling?
+
+@ 6.48
+# 社 長
+JP はい、どうかお願いします。
+EN Yes. Please.
+
+@ 6.50
+# 社 長
+JP （やっぱり乗り気じゃない
+JP 　みたいだけど…）
+EN (She still doesn't seem very keen...)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# アドミラル八島
+JP まっ、いいだろ。
+JP チームは若いのに
+JP 任せることにしよう。
+EN Eh, why not. I'll leave the gang to the young ones.
+
+@ 7.22
+# 社 長
+JP では、入団してくれるんですか？
+EN So you'll join us?
+
+@ 7.29
+# アドミラル八島
+JP ああ、いいよ。
+JP 思う存分、暴れてやろうじゃないか。
+EN Yeah, sure. I'll raise all the hell I want.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# アドミラル八島
+JP 悪いけど、まだまだチームには
+JP 私が必要なんでねぇ。
+EN Sorry, but my gang still needs me around.
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は八島選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Shizuka Yajima.
+
+@ 9.25
+# 社 長
+JP 彼女のパワーと凄みのある迫力は
+JP うちの選手にはない魅力だ。
+EN Her power and fearsome presence are something
+EN none of our wrestlers have.
+
+@ 9.27
+# 社 長
+JP 団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined our promotion, our shows would get
+EN even hotter, no doubt about it.
+
+@ 9.29
+# 社 長
+JP 元レディースのヘッドだというし
+JP 迫力があるのも当然だよな。
+EN They say she used to lead a biker girl gang, so no
+EN wonder she's so intimidating.
+
+@ 9.31
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 9.33
+# 社 長
+JP ああ、いた！
+EN Ah, there she is!
+
+@ 9.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.45
+# アドミラル八島
+JP あん？
+JP …なんだい？
+EN Huh? ...What?
+
+@ 9.48
+# 社 長
+JP （さすがに間近で見ると
+JP 　相当な迫力があるな）
+EN (Up close, she's seriously intimidating.)
+
+@ 9.50
+# 社 長
+JP 実はですね…。
+EN Well, the thing is...
+
+@ 9.52
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.56
+# アドミラル八島
+JP なんだって？
+JP 今の団体を裏切れって言うのかい？
+EN What's that? You're tellin' me to betray my
+EN promotion?
+
+@ 9.59
+# 社 長
+JP 裏切るというか…。
+JP 移籍のお願いです。
+EN Not betray, exactly... I'm asking you to transfer.
+
+@ 9.66
+# アドミラル八島
+JP だからそれが
+JP 裏切りだってんだろうが！
+EN And I'm sayin' that's betrayal!
+
+@ 9.69
+# 社 長
+JP （これは難しそうかな？）
+EN (This might be tough.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# アドミラル八島
+JP …まあ、いいだろ。
+JP わかった、承知してやるよ。
+EN ...Eh, why not. Fine, you've got a deal.
+
+@ 10.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 10.29
+# アドミラル八島
+JP 今ンとこ、待遇が悪いからね。
+JP あんたンとこは頼んだよ。
+EN They treat me lousy where I am now. I'm countin' on
+EN your outfit, got it?
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# アドミラル八島
+JP 帰んな！
+JP ここで裏切ったら
+JP スジが通らないんだよ。
+EN Get lost! If I turn traitor here, it goes against my
+EN code.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 八島選手が必要だ。
+EN Our promotion really needs Yajima.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 八島選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# アドミラル八島
+JP なんだい、また来たのかい。
+EN What, you came back again?
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 12.47
+# アドミラル八島
+JP へぇ…。
+JP ずいぶん私を買って
+JP くれてるんだねえ。
+EN Heh... You sure think a lot of me, huh.
+
+@ 12.50
+# 社 長
+JP なんとかお願いします！
+EN Please, I'm begging you!
+
+@ 12.57
+# アドミラル八島
+JP さて、どうしようかねぇ…。
+EN Now, what should I do...
+
+@ 12.60
+# 社 長
+JP （前よりは期待が持てそうかな？）
+EN (This looks more hopeful than last time.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# アドミラル八島
+JP …まあ、いいだろ。
+JP わかった、承知してやるよ。
+EN ...Eh, why not. Fine, you've got a deal.
+
+@ 13.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 13.26
+# アドミラル八島
+JP 今ンとこ、待遇が悪いからね。
+JP あんたンとこは頼んだよ。
+EN They treat me lousy where I am now. I'm countin' on
+EN your outfit, got it?
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# アドミラル八島
+JP 帰んな！
+JP ここで裏切ったら
+JP スジが通らないんだよ。
+EN Get lost! If I turn traitor here, it goes against my
+EN code.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は八島選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Shizuka Yajima.
+
+@ 15.25
+# 社 長
+JP 彼女の堂々とした風格は
+JP 他の選手にはない魅力だ。
+EN Her commanding air is something no other wrestler
+EN has.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined our promotion, our shows would get
+EN even hotter, no doubt about it.
+
+@ 15.29
+# 社 長
+JP 元レディースのヘッドだというし
+JP まさに筋金入りの凄みだよな。
+EN They say she used to lead a biker girl gang. She's
+EN tough to the core.
+
+@ 15.31
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 15.33
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.45
+# アドミラル八島
+JP ああん、なんだい？
+EN Huh? What?
+
+@ 15.48
+# 社 長
+JP （近くで見ると迫力が違うな。
+JP 　思わずひるんでしまいそうだ）
+EN (Up close, she's on another level. I almost flinched.)
+
+@ 15.50
+# 社 長
+JP あの、実はですね…。
+EN Um, the thing is...
+
+@ 15.52
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.59
+# アドミラル八島
+JP つまり、社長の団体に
+JP 入れっていうことだね？
+EN So you want me to join your promotion, Mr.
+EN President?
+
+@ 15.62
+# 社 長
+JP はい。
+JP どうでしょうか？
+EN Yes. What do you think?
+
+@ 15.69
+# アドミラル八島
+JP ふーん…。
+JP 私ゃ、気ままなままが
+JP いいんだけどねぇ。
+EN Hmm... I kinda like doin' things my own way, y'know.
+
+@ 15.72
+# 社 長
+JP そこを何とか。
+JP お願いします！
+EN Please, I'm begging you!
+
+@ 15.79
+# アドミラル八島
+JP なるほど。
+JP たいそうな入れ込みぶりだねぇ。
+EN I see. You're real keen on this, huh.
+
+@ 15.82
+# 社 長
+JP （どうかな？）
+EN (How will this go?)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# アドミラル八島
+JP よし、わかった。
+JP いいだろう。
+JP 入ってやるよ。
+EN All right, fine. You got it. I'll join.
+
+@ 16.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 16.29
+# アドミラル八島
+JP まあ、損はさせないよ。
+EN Well, you won't regret it.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# アドミラル八島
+JP 私のガラじゃないねえ。
+JP 悪いけど、フリーでやらせて
+JP もらうよ。
+EN Ain't really my style. Sorry, but I'll stay freelance.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 八島選手が必要だ。
+EN Our promotion really needs Yajima.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 八島選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# アドミラル八島
+JP おやおや、また来たのかい？
+EN Well, well. Back again?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入ってもらいたいんです。
+EN Yes. I really want you to join our promotion.
+
+@ 18.47
+# アドミラル八島
+JP その話なら
+JP もう済んでると思うけどねぇ。
+EN I thought we already settled that.
+
+@ 18.50
+# 社 長
+JP そこをなんとか。
+JP 俺を男にしてくれませんか？
+EN Please, I'm begging you. Help me prove myself as a
+EN man!
+
+@ 18.57
+# アドミラル八島
+JP おや、痛いところを突くじゃないか。
+EN Ooh, now that hits where it hurts.
+
+@ 18.60
+# 社 長
+JP （今度はいけるかな？）
+EN (Maybe this time it'll work?)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# アドミラル八島
+JP よし、わかった。
+JP いいだろう。
+JP 入ってやるよ。
+EN All right, fine. You got it. I'll join.
+
+@ 19.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 19.29
+# アドミラル八島
+JP まあ、損はさせないよ。
+EN Well, you won't regret it.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# アドミラル八島
+JP 私のガラじゃないねえ。
+JP 悪いけど、フリーでやらせて
+JP もらうよ。
+EN Ain't really my style. Sorry, but I'll stay freelance.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は八島を訪ねることにした。
+EN I decided to visit Yajima.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 八島っ！
+EN Yajima!
+
+@ 21.41
+# アドミラル八島
+JP ああん？
+EN Huh?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# アドミラル八島
+JP はん。
+JP …今さら、なんの用だい。
+EN Hmph. ...What do you want now?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you because I
+EN want you to come back.
+
+@ 21.58
+# アドミラル八島
+JP ああん？
+JP どのツラ下げて
+JP そんな話してるんだい。
+EN Huh? You've got some nerve showin' your face to
+EN ask me that.
+
+@ 21.61
+# 社 長
+JP たしかにこんなことを頼めた
+JP 義理じゃないのはわかっているが…。
+EN I know I'm in no position to ask this of you...
+
+@ 21.63
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# アドミラル八島
+JP まったく、勝手なことばかり
+JP 言いやがって…。
+EN Geez, sayin' whatever suits you...
+
+@ 22.18
+# 社 長
+JP あのときのことは謝る。
+JP 力を貸して欲しいんだ。
+EN I'm sorry about what happened back then. I need
+EN your help.
+
+@ 22.29
+# アドミラル八島
+JP …わかったよ。
+JP もう一度つき合ってやるよ。
+JP けど、またやったら覚悟しなよ。
+EN ...Fine. I'll go along with you one more time. But pull
+EN that again and you're done.
+
+@ 22.32
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# アドミラル八島
+JP 出直してきな。
+EN Come back when you've got your act together.
+
+@ 23.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that, please. Come back.
+
+@ 23.29
+# アドミラル八島
+JP ふざけんじゃないよ！
+JP 私に何をやったか
+JP てめぇの胸に聞いてみな。
+EN Don't make me laugh! Ask yourself what you did to
+EN me!
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+JP 悪かったな。
+EN I see... All right... I'm sorry.
+
+@ 23.34
+# 社 長
+JP （身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び八島を訪ねることにした。
+EN I decided to visit Yajima again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 八島っ！
+EN Yajima!
+
+@ 24.37
+# アドミラル八島
+JP …ったく…。
+JP もういい加減にしておくれよ。
+EN ...Geez... Give it a rest already.
+
+@ 24.40
+# 社 長
+JP すまない。
+JP もう一度話を聞いてくれ。
+EN I'm sorry. Please hear me out once more.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# アドミラル八島
+JP まったく、勝手なことばかり
+JP 言いやがって…。
+EN Geez, sayin' whatever suits you...
+
+@ 25.18
+# 社 長
+JP あのときのことは謝る。
+JP 力を貸して欲しいんだ。
+EN I'm sorry about what happened back then. I need
+EN your help.
+
+@ 25.29
+# アドミラル八島
+JP …わかったよ。
+JP もう一度つき合ってやるよ。
+JP けど、またやったら覚悟しなよ。
+EN ...Fine. I'll go along with you one more time. But pull
+EN that again and you're done.
+
+@ 25.32
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# アドミラル八島
+JP 出直してきな。
+EN Come back when you've got your act together.
+
+@ 26.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that, please. Come back.
+
+@ 26.29
+# アドミラル八島
+JP ふざけんじゃないよ！
+JP 私に何をやったか
+JP てめぇの胸に聞いてみな。
+EN Don't make me laugh! Ask yourself what you did to
+EN me!
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+JP 悪かったな。
+EN I see... All right... I'm sorry.
+
+@ 26.34
+# 社 長
+JP （身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# アドミラル八島
+JP ガタガタ騒ぐほどの
+JP ケガじゃないよ。
+EN It ain't the kind of injury worth makin' a fuss over.
+
+@ 28.16
+# scene 029 ケガ大
+# アドミラル八島
+JP さすがにこれは参ったねぇ。
+EN Now this one's got me beat, huh.
+
+@ 29.16
+# scene 030 入院
+# アドミラル八島
+JP 悪いね、社長。
+JP 少し休ませてもらうよ。
+EN Sorry, Boss. I'm gonna take a little rest.
+
+@ 30.16
+# scene 031 退院
+# アドミラル八島
+JP 迷惑かけたね。
+JP さて、またひと暴れしようかね。
+EN Sorry for the trouble. Now, time to raise some more
+EN hell.
+
+@ 31.16
+# scene 032 ケガ完治
+# アドミラル八島
+JP もう平気だよ。
+JP 面倒かけたねぇ。
+EN I'm fine now. Sorry for all the bother.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# アドミラル八島
+JP たしかに…もう潮時かもしれないね。
+EN Yeah... Maybe it's about time I hung it up.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# アドミラル八島
+JP 何言ってんだい！
+JP まだまだいけるよ！
+EN What're you talkin' about! I've still got plenty left!
+
+@ 34.16
+# scene 035 コーチ就任
+# アドミラル八島
+JP いっちょ、シメてやるか！
+EN Time to whip these kids into shape!
+
+@ 35.16
+# scene 036 ケガ引退
+# アドミラル八島
+JP 悪いけど、これ以上は無理だね。
+EN Sorry, but I can't go on anymore.
+
+@ 36.16
+# scene 037 年齢引退
+# アドミラル八島
+JP 世話になったね。
+JP ありがとよ。
+EN Thanks for everything. Much obliged.
+
+@ 37.16
+# scene 038 退団
+# アドミラル八島
+JP ここにいても面白くないんでね。
+EN It ain't any fun stickin' around here.
+
+@ 38.16
+# scene 039 スランプ
+# アドミラル八島
+JP 最近調子がおかしいねぇ…。
+EN Somethin's been off with me lately...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# アドミラル八島
+JP ファンクラブ？
+JP …私のかい？
+EN A fan club? ...For me?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you're worthy of their support.
+
+@ 39.26
+# アドミラル八島
+JP まっ、ガラじゃないけど
+JP がんばろうか。
+EN Eh, it ain't my style, but I'll give it my best.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# アドミラル八島
+JP ファンクラブ？
+JP …またかい？
+EN A fan club? ...Another one?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# アドミラル八島
+JP 照れくさいけど嬉しいねぇ。
+EN It's embarrassin', but I'm happy, y'know.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# アドミラル八島
+JP チッ…。
+JP ふぬけたことをやっちまったね。
+EN Tch... I really let myself go soft.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.26
+# アドミラル八島
+JP そうだね。
+JP しっかり巻き返させてもらうよ。
+EN Yeah. I'll make one heck of a comeback.
+
+@ 42.16
+# scene 043 映画出演
+# アドミラル八島
+JP どんな役なんだい？
+JP …まっ、聞かずとも予想はつくけどさ。
+EN What kinda role is it? ...Eh, I can guess without askin'.
+
+@ 43.16
+# scene 044 一日署長
+# アドミラル八島
+JP 警察ってとこは
+JP どうも落ち着かないんだけどねぇ。
+EN Police stations always make me kinda jumpy, y'know.
+
+@ 44.16
+# scene 045 写真集発売
+# アドミラル八島
+JP 私なんかでいいのかい？
+JP まぁサービスしてやるさ。
+EN You sure you want someone like me? Well, I'll give 'em
+EN a show.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# アドミラル八島
+JP 世の中には変わった趣味のヤツが
+JP いるんだねぇ。
+EN Some folks out there sure have weird tastes, huh.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# アドミラル八島
+JP 本気で言ってんのかい？
+EN You serious?
+
+@ 47.16
+# scene 048 始球式
+# アドミラル八島
+JP ど真ん中にぶち込んでやるよ！
+EN I'll fire it right down the middle!
+
+@ 48.16
+# scene 049 学園祭
+# アドミラル八島
+JP 祭はいいもんだよねぇ。
+EN Festivals are great, ain't they?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# アドミラル八島
+JP おや、気が利くじゃないか。
+EN Well, ain't you thoughtful.
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Thanks for everything, and here's to more.
+
+@ 49.46
+# アドミラル八島
+JP ああ、がんばるよ。
+JP 嬉しいねぇ。
+EN Yeah, I'll do my best. This makes me happy.
+
+@ 50.30
+# scene 051 バレンタインデー
+# アドミラル八島
+JP 社長、これ渡しとくよ。
+JP 一応バレンタインだからね。
+EN Boss, here, take this. It's Valentine's Day, after all.
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thanks.
+
+@ 50.40
+# アドミラル八島
+JP 舎弟に菓子職人がいてねぇ。
+JP そいつに作らせたんだよ。
+EN One of my old gang's a pastry chef. I had him make it.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# アドミラル八島
+JP おやおや…。
+JP かえって気を遣わせちまったねぇ。
+EN Well, well... Now I've gone and made you go to the
+EN trouble.
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have it between training sessions.
+
+@ 52.29
+# scene 053 サイン会
+# アドミラル八島
+JP これからも応援、夜露死苦っ！
+EN Keep on cheerin' for me. Ride or die!
+
+@ 53.31
+# scene 054 コンサート
+# アドミラル八島
+JP さあ、盛り上がっていこうか！
+EN All right, let's get this party goin'!
+
+@ 54.28
+# scene 055 練習拒否
+# アドミラル八島
+JP 今日は乗り気になれないねぇ…。
+EN I just ain't feelin' it today...
+
+@ 55.28
+# scene 056 失踪
+# アドミラル八島
+JP 何もかもうんざりしたよ…。
+EN I'm sick and tired of everything...
+
+@ 56.16
+# scene 057 選手解雇
+# アドミラル八島
+JP …いい度胸だ。
+JP 覚悟しときな。
+EN ...You've got guts. Better watch your back.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# アドミラル八島
+JP どんなヤツがいるのか
+JP 楽しみだねぇ。
+EN Can't wait to see what kinda folks they've got over
+EN there.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# アドミラル八島
+JP 私がいない間
+JP 面倒なことはなかったかい？
+EN Any trouble while I was gone?
+
+@ 59.26
+# scene 060 移籍思案
+# アドミラル八島
+JP ここを裏切るなんてマネは
+JP したくないねぇ…。
+EN I don't wanna go pullin' a betrayal on this place...
+
+@ 60.16
+# scene 061 革命軍結成
+# アドミラル八島
+JP さあ、立ち上がるときが来たよ！
+EN All right, the time's come to rise up!
+
+@ 61.16
+# scene 062 反乱軍結成
+# アドミラル八島
+JP ふざけんじゃないよ！
+JP 思い知らせてやるからね！
+EN Don't make me laugh! I'll show you what's what!
+
+@ 62.16
+# scene 063 最終決戦要求
+# アドミラル八島
+JP 私の挑戦を受けてみな！
+EN Take my challenge, if you dare!
+
+@ 63.16
+# scene 064 遺恨発生
+# アドミラル八島
+JP チッ…。
+JP いきがりやがって…。
+EN Tch... Gettin' cocky...
+
+@ 64.16
+# scene 065 殴り込み
+# アドミラル八島
+JP 全員病院送りにしてきてやるよ！
+EN I'll put every last one of 'em in the hospital!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# アドミラル八島
+JP ここは私に任せておきな。
+EN Leave this one to me.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# アドミラル八島
+JP 私とタイマン張れるヤツは
+JP いるのかい！
+EN Anybody here got the guts to go one-on-one with
+EN me!?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# アドミラル八島
+JP 今日のリングはいちだんと
+JP まぶしいねぇ。
+EN The ring sure is dazzlin' today.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# アドミラル八島
+JP この私を誰だと思ってるんだい？
+EN Who do you think I am?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# アドミラル八島
+JP ふがいない話だね…。
+JP ザマァないよ…。
+EN What a pathetic showing... Serves me right...
+
+@ 70.13
+# scene 071 引退式
+# アドミラル八島
+JP これまで世話になったね。
+JP これからもうちの応援、夜露死苦っ！
+EN Thanks for everything. Keep cheerin' us on. Ride or
+EN die!
+
+@ 71.17
+# アドミラル八島
+JP なんだい？
+EN What?
+
+@ 71.36
+# アドミラル八島
+JP お呼びかい？
+EN You called?
+
+@ 71.46
+# アドミラル八島
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.89
+# アドミラル八島
+JP ああ、任せておきな。
+EN Yeah, leave it to me.
+
+@ 71.110
+# アドミラル八島
+JP 口先だけの男は嫌いだね。
+EN I hate guys who are all talk.
+
+@ 71.131
+# アドミラル八島
+JP 嬉しいねぇ。
+JP もっと誉めておくれよ。
+EN That makes me happy. Praise me some more.
+
+@ 71.152
+# アドミラル八島
+JP あんまり適当なことは
+JP 言わないでおくれよ。
+EN Don't go sayin' stuff you don't mean.
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# アドミラル八島
+JP …言うじゃないか。
+JP まあ、次は見てな。
+EN ...Big talk. Well, just watch me next time.
+
+@ 71.210
+# アドミラル八島
+JP なにぃ！
+JP もう一度言ってみな！
+EN What!? Say that again!
+
+@ 71.231
+# アドミラル八島
+JP 痛いところを突かれたねぇ。
+JP すまなかったねぇ…。
+EN Ouch, you got me there. Sorry about that...
+
+@ 71.252
+# アドミラル八島
+JP 私なら何を言われても
+JP 平気だと思ってんのかい…？
+EN You think I'm fine no matter what anybody says to
+EN me...?
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed yourself lately. Are you all
+EN right?
+
+@ 71.289
+# アドミラル八島
+JP ふーん…。
+JP ちゃんと見るとこ見てるんだねぇ。
+EN Hmm... You really do keep an eye on the things that
+EN matter.
+
+@ 71.310
+# アドミラル八島
+JP まあ、心配されるほどじゃないよ。
+EN Eh, it ain't anything worth worryin' about.
+
+@ 71.331
+# アドミラル八島
+JP ありがとよ。
+JP そんなこと言ってくれるのは
+JP あんただけだよ。
+EN Thanks. You're the only one who says stuff like that
+EN to me.
+
+@ 71.352
+# アドミラル八島
+JP しばらく一人にしておいて
+JP くれよ…。
+EN Leave me alone for a while...
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# アドミラル八島
+JP …ああ、わかるよ。
+EN ...Yeah, I know.
+
+@ 71.399
+# アドミラル八島
+JP さてねぇ。
+JP さっぱりだね。
+EN Beats me. Haven't got a clue.
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# アドミラル八島
+JP 仕方ないね。
+JP 社長の顔を立ててやるよ。
+EN Can't be helped. I'll do it for your sake, Boss.
+
+@ 71.453
+# アドミラル八島
+JP 余計なお世話だね。
+JP 首突っ込まないでもらおうか！
+EN Mind your own business. Keep your nose out of it!
+
+@ 71.474
+# アドミラル八島
+JP いったい、なんの話を
+JP してるんだい？
+EN What in the world are you talkin' about?
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# アドミラル八島
+JP まあ、予想はついてるよ。
+EN Well, I've got a pretty good idea.
+
+@ 71.521
+# アドミラル八島
+JP 私に会いたくなったんじゃ
+JP ないのかい？
+EN Wasn't it 'cause you missed me?
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# アドミラル八島
+JP わかったよ。
+JP 他ならぬあんたの頼みだからね。
+EN All right. Since it's you askin', of all people.
+
+@ 71.577
+# アドミラル八島
+JP 悪いけど、それは無理だね。
+JP 口を出さないでおくれ。
+EN Sorry, but no can do. Stay out of it.
+
+@ 71.598
+# アドミラル八島
+JP あん？
+JP …あんた、マジに
+JP 勘違いしてんのかい？
+EN Huh? ...You seriously got the wrong idea?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# アドミラル八島
+JP お呼びかい？
+EN You called?
+
+@ 72.16
+# アドミラル八島
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# アドミラル八島
+JP ああ、任せておきな。
+EN Yeah, leave it to me.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# アドミラル八島
+JP 口先だけの男は嫌いだね。
+EN I hate guys who are all talk.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# アドミラル八島
+JP 嬉しいねぇ。
+JP もっと誉めておくれよ。
+EN That makes me happy. Praise me some more.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# アドミラル八島
+JP あんまり適当なことは
+JP 言わないでおくれよ。
+EN Don't go sayin' stuff you don't mean.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# アドミラル八島
+JP …言うじゃないか。
+JP まあ、次は見てな。
+EN ...Big talk. Well, just watch me next time.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# アドミラル八島
+JP なにぃ！
+JP もう一度言ってみな！
+EN What!? Say that again!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# アドミラル八島
+JP 痛いところを突かれたねぇ。
+JP すまなかったねぇ…。
+EN Ouch, you got me there. Sorry about that...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# アドミラル八島
+JP 私なら何を言われても
+JP 平気だと思ってんのかい…？
+EN You think I'm fine no matter what anybody says to
+EN me...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed yourself lately. Are you all
+EN right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# アドミラル八島
+JP ふーん…。
+JP ちゃんと見るとこ見てるんだねぇ。
+EN Hmm... You really do keep an eye on the things that
+EN matter.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# アドミラル八島
+JP まあ、心配されるほどじゃないよ。
+EN Eh, it ain't anything worth worryin' about.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# アドミラル八島
+JP ありがとよ。
+JP そんなこと言ってくれるのは
+JP あんただけだよ。
+EN Thanks. You're the only one who says stuff like that
+EN to me.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# アドミラル八島
+JP しばらくひとりにしておいて
+JP くれよ…。
+EN Leave me alone for a while...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# アドミラル八島
+JP …ああ、わかるよ。
+EN ...Yeah, I know.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# アドミラル八島
+JP さてねぇ。
+JP さっぱりだね。
+EN Beats me. Haven't got a clue.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# アドミラル八島
+JP 仕方ないね。
+JP 社長の顔を立ててやるよ。
+EN Can't be helped. I'll do it for your sake, Boss.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# アドミラル八島
+JP 余計なお世話だね。
+JP 首突っ込まないでもらおうか！
+EN Mind your own business. Keep your nose out of it!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# アドミラル八島
+JP いったい、なんの話をしてるんだい？
+EN What in the world are you talkin' about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# アドミラル八島
+JP まあ、予想はついてるよ。
+EN Well, I've got a pretty good idea.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# アドミラル八島
+JP 私に会いたくなったんじゃ
+JP ないのかい？
+EN Wasn't it 'cause you missed me?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# アドミラル八島
+JP わかったよ。
+JP 他ならぬあんたの頼みだからね。
+EN All right. Since it's you askin', of all people.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# アドミラル八島
+JP 悪いけど、それは無理だね。
+JP 口を出さないでおくれ。
+EN Sorry, but no can do. Stay out of it.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# アドミラル八島
+JP あん？　…あんた、
+JP マジに勘違いしてんのかい？
+EN Huh? ...You seriously got the wrong idea?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# アドミラル八島
+JP これからもよろしく頼むよ。
+EN Keep lookin' out for me.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# アドミラル八島
+JP あんたの思いは無駄にしないよ。
+JP 必ず応えてみせるからね。
+EN I won't let your faith in me go to waste. I'll live up to
+EN it, count on that.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# アドミラル八島
+JP ふん…。
+JP こんなもんかい…。
+EN Hmph... This is all I'm worth...?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN blazing.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.32
+# 社 長
+JP （よし、俺も泳ぎに行くか）
+EN (All right, I'll go for a swim too.)
+
+@ 105.54
+# 社 長
+JP うひょう。
+JP 水が冷たい。
+EN Whoo! The water's cold.
+
+@ 105.56
+# 社 長
+JP 気温が高いから
+JP この冷たさが気持ちいいなぁ。
+EN It's so hot out, the cold water feels great.
+
+@ 105.65
+# アドミラル八島
+JP どけ、どけぇ！
+EN Outta the way, outta the way!
+
+@ 105.68
+# 社 長
+JP なんだ…？
+EN What the...?
+
+@ 105.80
+# 社 長
+JP うわぁっ！
+EN Whoaaa!
+
+@ 105.93
+# 社 長
+JP な、なんだ！？
+JP 今のは水上バイクか！？
+EN Wh-what was that!? A jet ski!?
+
+@ 105.95
+# 社 長
+JP …えっ…？
+EN ...Huh...?
+
+@ 105.107
+# 社 長
+JP 戻ってきた！？
+EN It's coming back!?
+
+@ 105.120
+# 社 長
+JP うわぁっ！
+EN Whoaaa!
+
+@ 105.140
+# アドミラル八島
+JP よう、大丈夫かい？
+EN Yo, you okay?
+
+@ 105.143
+# 社 長
+JP や、八島！？
+EN Y-Yajima!?
+
+@ 105.147
+# アドミラル八島
+JP ああ、無事みたいだね。
+EN Yeah, looks like you're in one piece.
+
+@ 105.150
+# 社 長
+JP 危ないだろ！
+JP 死ぬとこだったぞ！
+EN That was dangerous! You nearly killed me!
+
+@ 105.154
+# アドミラル八島
+JP いやぁ、わるいねぇ。
+EN Ahh, my bad.
+
+@ 105.157
+# 社 長
+JP （…こいつ、反省してないな）
+EN (...She's not sorry at all.)
+
+@ 105.161
+# アドミラル八島
+JP まだこいつの扱いに
+JP 慣れてないもんでね。
+EN I ain't got the hang of handlin' this baby yet.
+
+@ 105.164
+# 社 長
+JP そのバイク借りてきたのか？
+EN Did you rent that jet ski?
+
+@ 105.168
+# アドミラル八島
+JP ああ。
+JP すっかり気に入ったから
+JP 私の愛車にすることにしたよ。
+EN Yeah. I like it so much, I've decided to make it my ride.
+
+@ 105.171
+# 社 長
+JP そうなのか…。
+EN Is that so...
+
+@ 105.175
+# アドミラル八島
+JP じゃあ、無事ならもう行くよ。
+EN Well, if you're okay, I'll be off.
+
+@ 105.178
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.182
+# アドミラル八島
+JP 社長も気をつけなよ。
+JP 死なれちゃ困るからね。
+EN You be careful too, Boss. Can't have you dyin' on me.
+
+@ 105.185
+# 社 長
+JP おい、安全運転しろよ！
+EN Hey, drive safely!
+
+@ 105.189
+# アドミラル八島
+JP さあて、仏恥義るよ！
+EN All right, full throttle!
+
+@ 105.192
+# 社 長
+JP （全然聞いてないな…）
+EN (She's not listening at all...)
+
+@ 105.214
+# 社 長
+JP うわっぷ！
+EN Bwah!
+
+@ 105.222
+# アドミラル八島
+JP オラオラオラオラーッ！
+JP 八島様のお通りだよ！
+JP どきな！
+EN Ora ora ora ora! Make way for Yajima! Move it!
+
+@ 105.225
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.227
+# 社 長
+JP はぁ……。
+EN Sigh......
+
+@ 106.21
+# scene 107 日常イベント１
+# 社 長
+JP （さて、あとはここの見回りで
+JP 　終わりだな）
+EN (Now, once I check this place, I'm done.)
+
+@ 106.23
+# 社 長
+JP （んっ…電気が……？）
+EN (Hm... The lights are...?)
+
+@ 106.25
+# 社 長
+JP （誰も消して帰らなかったのか。
+JP 　まったく困ったものだな…）
+EN (Nobody turned them off before leaving? Honestly...)
+
+@ 106.27
+# 社 長
+JP （一応、中の様子だけ
+JP 　確認して帰るか）
+EN (I'll just take a look inside before I go.)
+
+@ 106.47
+# 社 長
+JP （あれは…八島？）
+EN (Is that... Yajima?)
+
+@ 106.57
+# アドミラル八島
+JP ………おう。
+EN .........Yo.
+
+@ 106.60
+# 社 長
+JP あっ…。
+JP えっと、どうしたんだ？
+JP こんな時間に？
+EN Oh... Um, what's up? At this hour?
+
+@ 106.70
+# アドミラル八島
+JP ちょっと包帯、取り替えてただけだよ。
+JP すぐ終わるから少し待ってくれよ。
+EN Just changin' my bandages. I'll be done in a sec, so
+EN hang on.
+
+@ 106.73
+# 社 長
+JP それ、試合のケガか？
+EN Is that from a match?
+
+@ 106.77
+# アドミラル八島
+JP まぁそんなところだね。
+EN Somethin' like that.
+
+@ 106.80
+# 社 長
+JP 大丈夫か？
+EN Are you all right?
+
+@ 106.90
+# アドミラル八島
+JP こんなのどうってことないよ。
+JP いつものことさ。
+EN This ain't nothin'. Happens all the time.
+
+@ 106.93
+# 社 長
+JP …団体のために無理をさせて
+JP すまないな。
+EN ...I'm sorry for pushing you so hard for the
+EN promotion.
+
+@ 106.103
+# アドミラル八島
+JP 別に…。
+JP 私は好きなことをやってるだけだよ。
+EN Whatever... I'm just doin' what I love.
+
+@ 106.106
+# 社 長
+JP だけど、どの傷も
+JP 団体のためにできた傷だ…。
+EN But every one of those wounds is from fighting for
+EN the promotion...
+
+@ 106.110
+# アドミラル八島
+JP 関係ないよ。
+JP 傷ができるのは私が未熟なだけさ。
+EN Doesn't matter. I only get hurt 'cause I'm still green.
+
+@ 106.120
+# アドミラル八島
+JP 「このくらいでケガしてんじゃねぇ」
+JP くらい言えるようになりな。
+EN You oughta be able to say, "Don't go gettin' hurt
+EN over somethin' like that."
+
+@ 106.123
+# 社 長
+JP …そうか。
+JP わかった。
+EN ...I see. All right.
+
+@ 106.133
+# アドミラル八島
+JP それよりいつまで見てるつもりだい？
+JP これでも女なんで
+JP 恥ずかしいんだけどねぇ。
+EN Anyway, how long you gonna keep starin'? I'm still a
+EN woman, y'know. It's embarrassin'.
+
+@ 106.143
+# アドミラル八島
+JP それとも私の裸が見たいのかい？
+EN Or do you wanna see me naked?
+
+@ 106.146
+# 社 長
+JP …えっ！？
+JP あっ、スマン！
+EN ...What!? Ah, sorry!
+
+@ 106.163
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.175
+# 社 長
+JP （俺はいそいそとジムを出て行った）
+EN (I hurried out of the gym.)
+
+@ 107.21
+# scene 108 日常イベント２
+# 社 長
+JP （さて、あとはここの見回りで
+JP 　終わりだな）
+EN (Now, once I check this place, I'm done.)
+
+@ 107.23
+# 社 長
+JP （んっ…電気が……？）
+EN (Hm... The lights are...?)
+
+@ 107.25
+# 社 長
+JP （誰も消して帰らなかったのか。
+JP 　まったく困ったものだな…）
+EN (Nobody turned them off before leaving? Honestly...)
+
+@ 107.27
+# 社 長
+JP （一応、中の様子だけ
+JP 　確認して帰るか）
+EN (I'll just take a look inside before I go.)
+
+@ 107.41
+# 社 長
+JP （あれは…八島？）
+EN (Is that... Yajima?)
+
+@ 107.51
+# アドミラル八島
+JP よう、社長。
+EN Yo, Boss.
+
+@ 107.54
+# 社 長
+JP あっ…。
+JP えっと、どうしたんだ？
+JP こんな時間に？
+EN Oh... Um, what's up? At this hour?
+
+@ 107.56
+# 社 長
+JP また試合のケガか？
+EN Another injury from a match?
+
+@ 107.60
+# アドミラル八島
+JP まぁそんなところだね。
+EN Somethin' like that.
+
+@ 107.63
+# 社 長
+JP …あいかわらず無理をさせて
+JP すまないな。
+EN ...I'm sorry I keep pushing you so hard.
+
+@ 107.67
+# アドミラル八島
+JP 別に…。
+JP 私は好きなことをやっている
+JP だけだよ。
+EN Whatever... I'm just doin' what I love.
+
+@ 107.71
+# アドミラル八島
+JP それにね…。
+JP この傷の一つ一つが
+JP 今は私の大切な思い出さ…。
+EN And besides... every one of these scars is a
+EN precious memory to me now...
+
+@ 107.74
+# 社 長
+JP …そうか。
+EN ...I see.
+
+@ 107.84
+# アドミラル八島
+JP ……フゥ～……。
+EN ......Phew......
+
+@ 107.94
+# アドミラル八島
+JP まっ、少しは感謝しているって
+JP 言うんなら、包帯を巻くのを
+JP 手伝ってくれるかい？
+EN Well, if you're feelin' a little grateful, how about
+EN helpin' me wrap these bandages?
+
+@ 107.97
+# 社 長
+JP ああ。
+JP それくらいならお安いご用だ。
+EN Sure. That's no trouble at all.
+
+@ 107.100
+# 社 長
+JP そのくらいのことで
+JP 俺の感謝の気持ちが
+JP 少しでも伝わるならな。
+EN If something like that gets even a little of my
+EN gratitude across.
+
+@ 107.110
+# アドミラル八島
+JP …ま、まったく。
+JP …本当に口のうまい男だね。
+EN ...G-geez. ...You really are a smooth talker.
+
+@ 107.113
+# 社 長
+JP どこを巻けばいいんだ？
+EN Where should I wrap?
+
+@ 107.123
+# アドミラル八島
+JP あ、ああ…。
+JP 腕のところを頼むよ。
+EN Oh, uh... Do my arm.
+
+@ 107.126
+# 社 長
+JP ああ、わかった。
+EN Got it.
+
+@ 107.135
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.137
+# 社 長
+JP （その後、俺は八島の手当ての
+JP 　手伝いをした）
+EN (After that, I helped Yajima dress her wounds.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# アドミラル八島
+JP 胸を貸してやるよ。
+EN I'll let you take your best shot.
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# アドミラル八島
+JP 手ぇ抜くんじゃないよ。
+EN Don't you dare go easy.
+
+@ 110.16
+# scene 113 練習開始
+# アドミラル八島
+JP それじゃ、始めようか！
+EN All right, let's get started!
+
+@ 111.16
+# scene 114 練習開始 好意
+# アドミラル八島
+JP 気合い入れていこうかねぇ。
+EN Let's put some fire into it.
+
+@ 112.16
+# scene 115 特訓開始
+# アドミラル八島
+JP さあ、いつでもいいよ。
+EN Bring it on, anytime.
+
+@ 113.20
+# scene 116 特訓成功
+# アドミラル八島
+JP いい汗かいたねぇ。
+EN Now that was a good sweat.
+
+@ 114.20
+# scene 117 特訓失敗
+# アドミラル八島
+JP なんてこったい、まったく！
+EN What the heck, seriously!
+
+@ 115.16
+# scene 118 休養
+# アドミラル八島
+JP じゃあ、遠慮なく休ませてもらうよ。
+EN Then I'll take my rest, no holdin' back.
+
+@ 116.16
+# scene 119 入場1
+# アドミラル八島
+JP 覚悟を決めてかかってきな！
+EN Make up your mind and come at me!
+
+@ 117.16
+# scene 119 入場2
+# アドミラル八島
+JP 私を敵に回すなんて
+JP いい度胸だね！
+EN You've got guts, makin' an enemy outta me!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# アドミラル八島
+JP しっかり付いて来なよ！
+EN Keep up with me!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# アドミラル八島
+JP 遅れるんじゃないよ！
+EN Don't fall behind!
+
+@ 120.16
+# scene 125 必殺技１
+# アドミラル八島
+JP 私の魂、受けてみなっ！
+EN Take my soul, full force!
+
+@ 121.16
+# scene 125 必殺技２
+# アドミラル八島
+JP あんたの出番は終わりだよ！
+EN Your turn's over!
+
+@ 122.16
+# scene 125 必殺技３
+# アドミラル八島
+JP よーく見ときな！
+JP プロレスってのはこうやるんだよ！
+EN Watch close! This is how you do pro wrestling!
+
+@ 123.12
+# scene 126 勝利1
+# アドミラル八島
+JP 話にならないね。
+JP 鍛えて出直してきな。
+EN You're no match. Go train and come back.
+
+@ 124.12
+# scene 126 勝利2
+# アドミラル八島
+JP プロレスはねぇ。
+JP 気合の勝負なんだよ！
+EN Pro wrestling is a battle of fighting spirit!
+
+@ 125.12
+# scene 126 勝利3
+# アドミラル八島
+JP これからは相手見て
+JP 喧嘩売るんだね。
+EN From now on, look before you pick a fight.
+
+@ 126.15
+# scene 133 表彰1
+# アドミラル八島
+JP ありがとよ。
+JP これからも夜露死苦っ！
+EN Thanks. Ride or die, from here on out!
+
+@ 127.15
+# scene 133 表彰2
+# アドミラル八島
+JP 少しは舎弟に自慢できるかも
+JP しれないねぇ。
+EN Maybe I'll have somethin' to brag about to my old
+EN gang.
+
+@ 128.12
+# scene 134 優勝1
+# アドミラル八島
+JP たまらなくいい気分だねぇ。
+EN Feels so darn good.
+
+@ 129.12
+# scene 134 優勝２
+# アドミラル八島
+JP まだまだこんなもんじゃ
+JP 終わらないよ！
+EN This ain't the end of me, not by a long shot!
+
+@ 130.24
+# scene 135 エンディング 通常
+# アドミラル八島
+JP 社長、やったじゃないか。
+JP あんたは私があった男の中で
+JP 一番でかい男だよ。
+EN You did it, Boss. You're the biggest man I've ever
+EN met.
+
+@ 131.24
+# scene 136 エンディング 好意
+# アドミラル八島
+JP どうやら、私ゃ、あんたに
+JP 骨抜きにされちまったようだよ…。
+EN Looks like you've gone and stolen my heart clean
+EN away...

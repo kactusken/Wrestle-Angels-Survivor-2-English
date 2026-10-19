@@ -1,0 +1,2320 @@
+# /SCR/004.BIN - 金森 麗子
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 004` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 金森 麗子
+JP 金森です。
+JP ミスコンで優勝したこともあるんだよ。
+EN I'm Kanamori. I've even won a beauty pageant, you
+EN know.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 金森 麗子
+JP やったー！
+JP 社長さん、大好き！
+EN Yaaay! I love you, President!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 金森 麗子
+JP そんなぁ…。
+JP グスン…。
+EN No way... *sniff*...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、このあたりに有望な選手が
+JP いるって聞いたけど…？
+EN Let's see, I heard there's a promising prospect
+EN around here...?
+
+@ 3.25
+# 社 長
+JP あっ、あそこにいる娘がそうかな？
+EN Ah, could that be her over there?
+
+@ 3.27
+# 社 長
+JP すみませーん！
+EN Excuse me!
+
+@ 3.37
+# 金森 麗子
+JP はい…？
+JP あっ、もしかしてスカウトですか？
+EN Yes...? Oh, are you a scout?
+
+@ 3.40
+# 社 長
+JP えっ！？
+JP たしかにそうですけど…。
+JP よくわかりましたね？
+EN Huh!? Well, yes, I am... How did you know?
+
+@ 3.47
+# 金森 麗子
+JP はい！
+JP こう見えて慣れてますから！
+EN Yep! I may not look it, but I'm used to this!
+
+@ 3.50
+# 社 長
+JP それは好都合。
+JP それで、どうでしょうか？
+EN That makes things easy. So, what do you think?
+
+@ 3.52
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out the terms.)
+
+@ 3.54
+# 社 長
+JP レスラーとして活躍できれば
+JP さらにギャラもアップしていく
+JP 予定ですし…。
+EN And if you do well as a wrestler, we plan to raise
+EN your pay even more...
+
+@ 3.61
+# 金森 麗子
+JP …えっ、レスラー？
+JP プロレス？
+JP タレント事務所じゃなくて！？
+EN ...Huh, wrestler? Pro wrestling? You're not a talent
+EN agency!?
+
+@ 3.64
+# 社 長
+JP …タレント？
+JP いいえ、うちはプロレス団体ですが…。
+EN ...Talent? No, we're a pro-wrestling promotion...
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# 金森 麗子
+JP そうなんだぁ。
+JP でも、さすがにプロレスは
+JP やったことないから…。
+EN Oh, I see. But I've never done pro wrestling before,
+EN so...
+
+@ 4.18
+# 社 長
+JP そうですよね…。
+JP わかりました。
+EN Of course not... I understand.
+
+@ 4.29
+# 金森 麗子
+JP 待って！
+JP …ううん、いいよ。
+JP 私、入ってあげる！
+EN Wait! ...Hmm, okay. I'll join you!
+
+@ 4.32
+# 社 長
+JP えっ、いいのかい？
+JP それじゃあ、改めてよろしく頼むよ！
+EN Huh, really? Well then, I look forward to working with
+EN you!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 金森 麗子
+JP ダメダメ！
+JP プロレスなんてできないもん！
+EN No way, no way! I can't do pro wrestling!
+
+@ 5.22
+# 社 長
+JP そりゃ、そうか…。
+EN Well, I suppose not...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （スカウトも楽じゃないな。
+JP 　ここのところ失敗続きだ…）
+EN (Scouting sure isn't easy. I've been striking out
+EN lately...)
+
+@ 6.33
+# 金森 麗子
+JP あれ！？
+JP 社長さん、こんにちは～。
+JP まだスカウト活動してるの？
+EN Huh!? Hi there, President! Still out scouting?
+
+@ 6.36
+# 社 長
+JP あ、どうも。
+JP なかなかいい人がいなくてね…。
+EN Oh, hello. I just can't seem to find the right person...
+
+@ 6.38
+# 社 長
+JP 君みたいなかわいい娘が入ってくれると
+JP すごく助かるんですけど…。
+EN It'd be a huge help if a cute girl like you would join
+EN us...
+
+@ 6.45
+# 金森 麗子
+JP 残念！
+JP おだてても入ってあげないよ～。
+EN Too bad! Flattery won't get me to join!
+
+@ 6.48
+# 社 長
+JP 結構、本気だったんだけどね…。
+EN I was pretty serious, actually...
+
+@ 6.50
+# 社 長
+JP 君がリングで活躍してくれると信じて
+JP 声をかけたから…。
+EN I talked to you because I believe you'd shine in the
+EN ring...
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# 金森 麗子
+JP そうなんだぁ。
+JP でも、さすがにプロレスは
+JP やったことないから…。
+EN Oh, I see. But I've never done pro wrestling before,
+EN so...
+
+@ 7.18
+# 社 長
+JP そうですよね…。
+JP わかりました。
+EN Of course not... I understand.
+
+@ 7.29
+# 金森 麗子
+JP 待って！
+JP …ううん、いいよ。
+JP 私、入ってあげる！
+EN Wait! ...Hmm, okay. I'll join you!
+
+@ 7.32
+# 社 長
+JP えっ、いいのかい？
+JP それじゃあ、改めてよろしく頼むよ！
+EN Huh, really? Well then, I look forward to working with
+EN you!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 金森 麗子
+JP ダメダメ！
+JP プロレスなんてできないもん！
+EN No way, no way! I can't do pro wrestling!
+
+@ 8.22
+# 社 長
+JP そりゃ、そうか…。
+EN Well, I suppose not...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （金森選手…。
+JP 　鋭い打撃とルックスで人気の選手だ。
+JP 　是非ともうちに欲しいのだが…）
+EN (Kanamori... Her sharp strikes and good looks make
+EN her popular. I'd love to have her...)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She trains around here, I think... Ah, there she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# 金森 麗子
+JP えっと…。
+JP あっ、もしかしてスカウトの人？
+EN Let's see... Oh, are you a scout?
+
+@ 9.40
+# 社 長
+JP はい、その通りです。
+JP あなたをスカウトに来ました。
+EN Yes, that's right. I've come to scout you.
+
+@ 9.47
+# 金森 麗子
+JP そっか～。
+JP どうしようかな～。
+EN I see! Hmm, what should I do?
+
+@ 9.50
+# 社 長
+JP 是非、うちの団体に
+JP 力を貸してください。
+EN Please, lend your strength to our promotion.
+
+@ 9.52
+# 社 長
+JP 今のプロレス界には
+JP あなたのような華が必要なんです！
+EN The wrestling world today needs a star like you!
+
+@ 9.54
+# 社 長
+JP 迷う材料があるなら後押しします。
+JP どうかお願いできないでしょうか？
+EN If something's holding you back, I'll help however I
+EN can. Won't you please consider it?
+
+@ 9.61
+# 金森 麗子
+JP 団体？
+JP プロレス？
+JP あの…芸能事務所じゃないの？
+EN Promotion? Pro wrestling? Um... you're not an
+EN entertainment agency?
+
+@ 9.64
+# 社 長
+JP …へ？
+JP うちはプロレス団体ですが？
+EN ...Huh? We're a pro-wrestling promotion.
+
+@ 9.66
+# 社 長
+JP （…何やら根本的なところで
+JP 　勘違いがあったらしい）
+EN (Seems there was a fundamental misunderstanding
+EN somewhere...)
+
+@ 10.14
+# scene 011 移籍交渉 他団体所属 成功
+# 社 長
+JP やはりダメでしょうか？
+EN So it's a no after all?
+
+@ 10.21
+# 金森 麗子
+JP うーん…。
+JP ま、いっか。
+JP 社長さん、いい人そうだし。
+EN Hmm... Oh, whatever. You seem like a nice guy,
+EN President.
+
+@ 10.24
+# 社 長
+JP えっと…。
+JP どういうことですか？
+EN Um... What do you mean?
+
+@ 10.35
+# 金森 麗子
+JP そっちの団体に移籍してあげる。
+JP これからよろしくね！
+EN I'll transfer to your promotion. Let's get along!
+
+@ 10.38
+# 社 長
+JP 本当ですか？
+JP ありがとうございます！
+EN Really? Thank you very much!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 金森 麗子
+JP そういうのは事務所を通してください。
+JP 私の一存では決められないから…。
+EN Please go through my agency for that sort of thing.
+EN I can't decide on my own...
+
+@ 11.22
+# 社 長
+JP （あ、あれ…。
+JP 　なんだか態度が急変したような…？）
+EN (Huh... Did her attitude just change all of a
+EN sudden...?)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには金森選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really do need Kanamori. I decided to try
+EN negotiating once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# 金森 麗子
+JP あっ、社長さん…。
+EN Oh, it's the President...
+
+@ 12.38
+# 社 長
+JP どうしてもうちに入って欲しくて
+JP また来てしまいました。
+EN I just had to have you on board, so I came back
+EN again.
+
+@ 12.40
+# 社 長
+JP 移籍の話
+JP 考えてもらえないでしょうか？
+EN Would you consider transferring to us?
+
+@ 12.47
+# 金森 麗子
+JP それは…社長さんのところの
+JP プロレス団体ですよね？
+EN That's... your pro-wrestling promotion, right?
+
+@ 12.50
+# 社 長
+JP はい、そうです。
+EN Yes, that's right.
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out the terms again and pleaded with her
+EN earnestly.)
+
+@ 13.14
+# scene 014 移籍交渉 他団体所属２ 成功
+# 社 長
+JP やはりダメでしょうか？
+EN So it's a no after all?
+
+@ 13.21
+# 金森 麗子
+JP うーん…。
+JP ま、いっか。
+JP 社長さん、いい人そうだし。
+EN Hmm... Oh, whatever. You seem like a nice guy,
+EN President.
+
+@ 13.24
+# 社 長
+JP えっと…。
+JP どういうことですか？
+EN Um... What do you mean?
+
+@ 13.35
+# 金森 麗子
+JP そっちの団体に移籍してあげる。
+JP これからよろしくね！
+EN I'll transfer to your promotion. Let's get along!
+
+@ 13.38
+# 社 長
+JP 本当ですか？
+JP ありがとうございます！
+EN Really? Thank you very much!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 金森 麗子
+JP そういうのは事務所を通してください。
+JP 私の一存では決められないから…。
+EN Please go through my agency for that sort of thing.
+EN I can't decide on my own...
+
+@ 14.22
+# 社 長
+JP （あ、あれ…。
+JP 　なんだか態度が急変したような…？）
+EN (Huh... Did her attitude just change all of a
+EN sudden...?)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （金森選手…。
+JP 　鋭い打撃とルックスで人気の選手だ。
+JP 　是非ともうちに欲しいのだが…）
+EN (Kanamori... Her sharp strikes and good looks make
+EN her popular. I'd love to have her...)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She trains around here, I think... Ah, there she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# 金森 麗子
+JP はい。
+JP あ…もしかして
+JP スカウトの人ですか？
+EN Yes. Oh... are you a scout, by any chance?
+
+@ 15.40
+# 社 長
+JP よくわかりましたね。
+JP はい、スカウトです。
+EN Good guess. Yes, I'm a scout.
+
+@ 15.47
+# 金森 麗子
+JP やっぱり！　それで得意分野は何？　
+JP グラビア、モデル、タレント
+JP もしかしてコンパニオン？
+EN I knew it! So what's your specialty? Gravure,
+EN modeling, TV talent... or maybe event hostess?
+
+@ 15.50
+# 社 長
+JP （あれ…？）
+EN (Huh...?)
+
+@ 15.52
+# 社 長
+JP （そりゃまあ、人気が出ればＣＭとか
+JP 　映画とか写真集とか色々出せるように
+JP 　なると思うけど…）
+EN (Well, sure, if she gets popular, she could land
+EN commercials, movies, photo books and so on...)
+
+@ 15.54
+# 社 長
+JP （もしかして…根本的に
+JP 　勘違いされてないか？）
+EN (But is she... fundamentally misunderstanding
+EN something?)
+
+@ 15.56
+# 社 長
+JP あの…。
+JP うちはプロレス団体なんですが…。
+EN Um... We're a pro-wrestling promotion...
+
+@ 15.63
+# 金森 麗子
+JP …あれ？
+JP 芸能事務所じゃないの？
+EN ...Huh? You're not an entertainment agency?
+
+@ 15.66
+# 社 長
+JP 違います。
+EN No, we're not.
+
+@ 15.68
+# 社 長
+JP （という訳で、俺は自分の身元を話し
+JP 　単刀直入に入団を持ちかけてみた）
+EN (So I explained who I was and asked her straight out
+EN to join us.)
+
+@ 15.70
+# 社 長
+JP あの…確認しますが
+JP 本業はレスラーなんですよね？
+EN Um... Just to check, wrestling is your main job, right?
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# 金森 麗子
+JP うん、そうだよ。
+JP でも色々やってるなら
+JP 社長さんのところもいいかなぁ。
+EN Yep, that's right. But if you do all kinds of stuff,
+EN your place might be nice too.
+
+@ 16.18
+# 社 長
+JP …えっ？
+JP それはどういう意味ですか？
+EN ...Huh? What do you mean by that?
+
+@ 16.29
+# 金森 麗子
+JP うん、まずはレスラーとして
+JP 社長さんのところに行っても
+JP いいかなぁって思って。
+EN Yeah, I was thinking I could start out with you as a
+EN wrestler, President.
+
+@ 16.32
+# 社 長
+JP 本当ですか？
+JP 是非お願いします！
+EN Really? Yes, please!
+
+@ 16.34
+# 社 長
+JP （こうして…なし崩し的に
+JP 　彼女はうちの団体に加わることに
+JP 　なったのだった）
+EN (And so... somehow or other, she ended up joining
+EN our promotion.)
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 金森 麗子
+JP それはそうだけど…。
+JP とりあえず、その話はまた後にして
+JP もらっていいですか？
+EN Well, yeah, but... Could we talk about that some other
+EN time?
+
+@ 17.22
+# 社 長
+JP はあ…。
+JP そうですか……。
+EN Uh... I see......
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには金森選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really do need Kanamori. I decided to try
+EN negotiating once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# 金森 麗子
+JP あっ、社長さん。
+JP …えっと、プロレスの…。
+EN Oh, it's the President. ...Um, the wrestling one...
+
+@ 18.38
+# 社 長
+JP はい、プロレス団体の社長です。
+JP 実は今日もスカウトに来ました。
+EN Yes, the president of a pro-wrestling promotion. I'm
+EN here to scout you again today.
+
+@ 18.45
+# 金森 麗子
+JP うーん…。
+JP たしかに待ってるだけじゃ
+JP 芸能関係の仕事も来ないだろうし…。
+EN Hmm... I guess just waiting around won't get me any
+EN showbiz work either...
+
+@ 18.48
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out the terms again and pleaded with her
+EN earnestly.)
+
+@ 18.50
+# 社 長
+JP あの…確認しますが
+JP 本業はレスラーなんですよね？
+EN Um... Just to check, wrestling is your main job, right?
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# 金森 麗子
+JP うん、そうだよ。
+JP でも色々やってるなら
+JP 社長さんのところもいいかなぁ。
+EN Yep, that's right. But if you do all kinds of stuff,
+EN your place might be nice too.
+
+@ 19.18
+# 社 長
+JP …えっ？
+JP それはどういう意味ですか？
+EN ...Huh? What do you mean by that?
+
+@ 19.29
+# 金森 麗子
+JP うん、まずはレスラーとして
+JP 社長さんのところに行っても
+JP いいかなぁって思って。
+EN Yeah, I was thinking I could start out with you as a
+EN wrestler, President.
+
+@ 19.32
+# 社 長
+JP 本当ですか？
+JP 是非お願いします！
+EN Really? Yes, please!
+
+@ 19.34
+# 社 長
+JP （こうして…なし崩し的に彼女は
+JP 　うちの団体に加わることに
+JP 　なったのだった）
+EN (And so... somehow or other, she ended up joining
+EN our promotion.)
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 金森 麗子
+JP それはそうだけど…。
+JP とりあえず、その話はまた後にして
+JP もらっていいですか？
+EN Well, yeah, but... Could we talk about that some other
+EN time?
+
+@ 20.22
+# 社 長
+JP はあ…。
+JP そうですか……。
+EN Uh... I see......
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は金森のもとを訪ねていた。
+JP 　やはり彼女はうちに必要な選手だ）
+EN (I'd come to see Kanamori. She really is a wrestler we
+EN need.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she was supposed to be around here...
+
+@ 21.27
+# 社 長
+JP あ、いた！
+JP 金森っ！
+EN Ah, there she is! Kanamori!
+
+@ 21.37
+# 金森 麗子
+JP あっ…社長…！？
+EN Oh... Boss...!?
+
+@ 21.40
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.47
+# 金森 麗子
+JP 何しに来たの…？
+EN What are you doing here...?
+
+@ 21.50
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you because I want
+EN you to come back...
+
+@ 21.57
+# 金森 麗子
+JP そんなこと、今さら言われても…。
+EN Saying that now, after everything...
+
+@ 21.60
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I have no right to ask this...
+
+@ 21.62
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 金森 麗子
+JP どうしようかな…？
+EN Hmm, what should I do...?
+
+@ 22.18
+# 社 長
+JP 頼む。
+JP 力を貸して欲しいんだ。
+EN Please. I need your help.
+
+@ 22.29
+# 金森 麗子
+JP しょうがない！
+JP 他ならぬ社長の頼みだし！
+JP 改めてよろしくお願いします！
+EN Oh, fine! It's you asking, Boss, after all! Let's do this
+EN again!
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしく頼むよ。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 金森 麗子
+JP 私、もう社長のこと
+JP 信じられないもん…。
+JP グスン…。
+EN I just can't trust you anymore, Boss... *sniff*...
+
+@ 23.18
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.29
+# 金森 麗子
+JP いっぱい反省してから
+JP 出直してください。
+EN Go do a whole lot of soul-searching and then try
+EN again.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 金森っ！
+EN Kanamori!
+
+@ 24.33
+# 金森 麗子
+JP …社長。
+EN ...Boss.
+
+@ 24.36
+# 社 長
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN I came to ask again. I really want you back in the
+EN promotion.
+
+@ 24.38
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 金森 麗子
+JP どうしようかな…？
+EN Hmm, what should I do...?
+
+@ 25.18
+# 社 長
+JP 頼む。
+JP 力を貸して欲しいんだ。
+EN Please. I need your help.
+
+@ 25.29
+# 金森 麗子
+JP しょうがない！
+JP 他ならぬ社長の頼みだし！
+JP 改めてよろしくお願いします！
+EN Oh, fine! It's you asking, Boss, after all! Let's do this
+EN again!
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしく頼むよ。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 金森 麗子
+JP 私、もう社長のこと
+JP 信じられないもん…。
+JP グスン…。
+EN I just can't trust you anymore, Boss... *sniff*...
+
+@ 26.18
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.29
+# 金森 麗子
+JP いっぱい反省してから
+JP 出直してください。
+EN Go do a whole lot of soul-searching and then try
+EN again.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 金森 麗子
+JP ケガしちゃった…。
+JP グスン…。
+EN I got hurt... *sniff*...
+
+@ 28.16
+# scene 029 ケガ大
+# 金森 麗子
+JP いたいよ～…。
+JP グスン…。
+EN It hurts... *sniff*...
+
+@ 29.16
+# scene 030 入院
+# 金森 麗子
+JP ごめんね、社長。
+JP ドジっちゃった…。
+JP グスン…。
+EN Sorry, Boss. I messed up... *sniff*...
+
+@ 30.16
+# scene 031 退院
+# 金森 麗子
+JP ただいま～！
+EN I'm baaack!
+
+@ 31.16
+# scene 032 ケガ完治
+# 金森 麗子
+JP もうバッチリ治ったよ！
+EN I'm totally healed now!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 金森 麗子
+JP 人気絶頂のときに辞めて
+JP 伝説になるのもありかなぁ…。
+EN Maybe quitting at the height of my popularity and
+EN becoming a legend wouldn't be so bad...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 金森 麗子
+JP …社長のバカー！
+EN ...Boss, you big dummy!
+
+@ 34.16
+# scene 035 コーチ就任
+# 金森 麗子
+JP 社長、これからは
+JP コーチとしてよろしくね！
+EN Boss, I'm counting on you from now on, as a coach!
+
+@ 35.16
+# scene 036 ケガ引退
+# 金森 麗子
+JP 平気じゃなくなっちゃった…。
+JP グスン…。
+EN I'm not okay anymore... *sniff*...
+
+@ 36.16
+# scene 037 年齢引退
+# 金森 麗子
+JP もう限界かな…。
+JP ごめんね、社長……。
+EN I guess I've hit my limit... Sorry, Boss......
+
+@ 37.16
+# scene 038 退団
+# 金森 麗子
+JP 後で後悔しても知らないんだから！
+EN Don't come crying to me when you regret this!
+
+@ 38.16
+# scene 039 スランプ
+# 金森 麗子
+JP うまくいかないよ～…。
+JP グスン…。
+EN Nothing's going right... *sniff*...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 金森 麗子
+JP やったー！
+JP うれしいーっ！
+EN Yaaay! I'm so happy!
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to all that support.
+
+@ 39.26
+# 金森 麗子
+JP うん、社長も応援してね！
+EN Okay! You cheer me on too, Boss!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 金森 麗子
+JP すごーいっ！
+JP またまたできたの！？
+EN Amazing! Another one formed!?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their expectations.
+
+@ 40.26
+# 金森 麗子
+JP うん！
+JP 社長も応援よろしくね！
+EN Okay! Keep cheering me on, Boss!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 金森 麗子
+JP ショックぅ…。
+EN What a shock...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. You'll just have to work
+EN hard again.
+
+@ 41.26
+# 金森 麗子
+JP うん。
+JP 私、がんばる！
+EN Okay. I'll do my best!
+
+@ 42.16
+# scene 043 映画出演
+# 金森 麗子
+JP 私が女優デビュー！？
+JP ファンのみんなも喜んでくれるかな～？
+EN My debut as an actress!? I wonder if my fans will be
+EN happy!
+
+@ 43.16
+# scene 044 一日署長
+# 金森 麗子
+JP 婦人警官にも
+JP ミスコンってあるのかな？
+EN I wonder if policewomen have beauty pageants too?
+
+@ 44.16
+# scene 045 写真集発売
+# 金森 麗子
+JP 社長はどんなポーズが好き？
+JP 社長のお願いだったら
+JP なんでも聞いちゃうよ！
+EN What kind of poses do you like, Boss? If it's your
+EN request, I'll do anything!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 金森 麗子
+JP 私の魅力をお茶の間に届けちゃうね！
+EN I'll bring my charm right into everyone's living room!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 金森 麗子
+JP 社長とのデュエットも収録したいな～！
+EN I want to put a duet with you on it too, Boss!
+
+@ 47.16
+# scene 048 始球式
+# 金森 麗子
+JP 社長。
+JP 私って、野球のユニフォームも
+JP 似合うかな？
+EN Boss, do you think a baseball uniform looks good on
+EN me too?
+
+@ 48.16
+# scene 049 学園祭
+# 金森 麗子
+JP ミス・キャンパスに選ばれたら
+JP どうしようかな…？
+EN What should I do if I get picked as Miss Campus...?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.37
+# 金森 麗子
+JP お祝いくれるの！？
+JP ありがとう、社長！
+EN A present for me!? Thanks, Boss!
+
+@ 49.40
+# 社 長
+JP ああ、これからもよろしくな。
+EN Yeah. I'm counting on you from here on, too.
+
+@ 49.44
+# 金森 麗子
+JP 社長、だ～い好きっ！
+EN Boss, I lo-o-ove you!
+
+@ 50.32
+# scene 051 バレンタインデー
+# 金森 麗子
+JP 社長、バレンタインのチョコを
+JP 持ってきたよー！
+EN Boss, I brought you Valentine's chocolate!
+
+@ 50.35
+# 社 長
+JP ああ、ありがとう。
+JP そこに置いておいてくれ。
+EN Ah, thanks. Just leave it over there.
+
+@ 50.42
+# 金森 麗子
+JP …むぅ～！
+JP いま食べてよー！
+EN ...Hmph! Eat it now!
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼なんだけど
+JP 受け取ってくれるか？
+EN This is my thanks for last month. Will you take it?
+
+@ 51.38
+# 金森 麗子
+JP 社長、ありがとう！
+JP みんなに自慢してくるね！
+EN Thanks, Boss! I'm gonna go show it off to everyone!
+
+@ 51.41
+# 社 長
+JP …頼むから、この場で食べてくれ。
+EN ...Please, I'm begging you, just eat it here.
+
+@ 52.31
+# scene 053 サイン会
+# 金森 麗子
+JP ありがとー！
+JP これからも応援よろしくねー！
+EN Thank youuu! Keep on cheering for me!
+
+@ 53.31
+# scene 054 コンサート
+# 金森 麗子
+JP 今日は目いっぱい楽しんでいってね！
+EN Have as much fun as you can today!
+
+@ 54.28
+# scene 055 練習拒否
+# 金森 麗子
+JP もうムリ！
+JP 練習しない！
+EN I can't take it anymore! I'm not training!
+
+@ 55.28
+# scene 056 失踪
+# 金森 麗子
+JP 探さないでね…。
+EN Don't come looking for me...
+
+@ 56.16
+# scene 057 選手解雇
+# 金森 麗子
+JP 社長、ひどいよー！
+EN Boss, that's so mean!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 金森 麗子
+JP お土産を楽しみにしててね！
+EN Look forward to your souvenir!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 金森 麗子
+JP ただいまー！
+JP 私がいない間、寂しくなかった？
+EN I'm back! Were you lonely without me?
+
+@ 59.28
+# scene 060 移籍思案
+# 金森 麗子
+JP どうしよう…。
+JP 社長に相談なんかできないし…。
+EN What should I do... It's not like I can ask the Boss for
+EN advice...
+
+@ 60.16
+# scene 061 革命軍結成
+# 金森 麗子
+JP 私の実力、見せてやるんだから！
+EN I'll show you what I'm really made of!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 金森 麗子
+JP こんなにかわいい反乱軍って
+JP 見たことある？
+EN Have you ever seen a rebel army this cute?
+
+@ 62.16
+# scene 063 最終決戦要求
+# 金森 麗子
+JP さぁ、私の相手は誰がするの！？
+EN Okay, who's going to take me on!?
+
+@ 63.16
+# scene 064 遺恨発生
+# 金森 麗子
+JP もーっ！
+JP 絶対許さなーい！
+EN Grrr! I'll never forgive her!
+
+@ 64.16
+# scene 065 殴り込み
+# 金森 麗子
+JP 先鋒は私に任せてね！
+EN Leave the opening match to me!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 金森 麗子
+JP 私が相手するんだから！
+EN I'm the one you'll be facing!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 金森 麗子
+JP 私の相手は誰なの？
+EN Who's my opponent?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 金森 麗子
+JP よーし！
+JP がんばるぞー！
+EN All right! Let's do this!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 金森 麗子
+JP やったー！
+JP 優勝したよ、社長～！
+EN Yaaay! I won, Boss!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 金森 麗子
+JP 負けちゃった…。
+JP グスン…。
+EN I lost... *sniff*...
+
+@ 70.13
+# scene 071 引退式
+# 金森 麗子
+JP みんな、これまで応援ありがとう！
+JP 私…普通の「芸能人」になります！
+JP 応援よろしくね！
+EN Thank you all for cheering me on! I'm going to
+EN become an ordinary "celebrity"! Please keep
+EN supporting me!
+
+@ 71.18
+# 金森 麗子
+JP どうしたの、社長？
+EN What's up, Boss?
+
+@ 71.38
+# 金森 麗子
+JP あっ、社長。
+JP なぁに？
+EN Oh, Boss. Whaaat?
+
+@ 71.48
+# 金森 麗子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.67
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good shape lately. Keep it
+EN up!
+
+@ 71.91
+# 金森 麗子
+JP うん、任せといて！
+EN Yep, leave it to me!
+
+@ 71.112
+# 金森 麗子
+JP 社長、それってプレッシャー…。
+EN Boss, that's pressure...
+
+@ 71.133
+# 金森 麗子
+JP 社長が応援してくれたから
+JP もっとがんばるね！
+EN You cheered me on, Boss, so I'll try even harder!
+
+@ 71.154
+# 金森 麗子
+JP どうせ、みんなに言ってるんでしょ…？
+EN You probably say that to everyone anyway...
+
+@ 71.167
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.191
+# 金森 麗子
+JP じゃあ、ちょっと本気だそうかな。
+EN Guess I'll get a little serious, then.
+
+@ 71.212
+# 金森 麗子
+JP 一生懸命やってるってば！
+EN I AM trying my hardest!
+
+@ 71.233
+# 金森 麗子
+JP ごめんね！
+JP 私、もっとがんばる！
+EN Sorry! I'll try harder!
+
+@ 71.254
+# 金森 麗子
+JP もう少し優しく言って欲しいのに…。
+EN You could say it a little more nicely...
+
+@ 71.267
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a bit down lately. Are you okay?
+
+@ 71.291
+# 金森 麗子
+JP ありがとう、社長。
+JP ちょっと元気になったかも。
+EN Thanks, Boss. I think I feel a little better.
+
+@ 71.312
+# 金森 麗子
+JP 大丈夫じゃないよ～。
+EN I'm not okaaay...
+
+@ 71.333
+# 金森 麗子
+JP ありがとう、社長。
+JP ちょっとだけ甘えてもいい？
+EN Thanks, Boss. Can I lean on you, just a little?
+
+@ 71.354
+# 金森 麗子
+JP 大丈夫だから…。
+JP 社長は心配しないで…。
+EN I'm fine... Don't worry about me, Boss...
+
+@ 71.368
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.384
+# 金森 麗子
+JP う～っ…。
+JP 誰かに聞いたの？
+EN Ugh... Did somebody tell you?
+
+@ 71.401
+# 金森 麗子
+JP …ん？
+JP なんなの？
+EN ...Hm? What is it?
+
+@ 71.412
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.434
+# 金森 麗子
+JP 社長命令じゃ逆らえないよね…。
+EN I can't exactly disobey an order from the Boss...
+
+@ 71.455
+# 金森 麗子
+JP …だめ。
+JP これって女同士の戦いなんだから。
+EN ...No. This is a fight between women.
+
+@ 71.476
+# 金森 麗子
+JP そんなこと言われても…。
+JP 私は知らないよー。
+EN Even if you say that... I don't know anything about it!
+
+@ 71.489
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.506
+# 金森 麗子
+JP だって、あれはあっちが～！
+EN But she's the one who started it!
+
+@ 71.523
+# 金森 麗子
+JP …もしかしてデートのお誘い？
+EN ...Are you asking me out on a date?
+
+@ 71.536
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.558
+# 金森 麗子
+JP 社長に心配かけたくないし…。
+JP わかった、今回はそうする。
+EN I don't want to worry you, Boss... Okay, I'll do it, this
+EN time.
+
+@ 71.579
+# 金森 麗子
+JP ヒドイ…。
+JP あっちに味方するんだ…。
+EN That's so mean... You're taking her side...
+
+@ 71.600
+# 金森 麗子
+JP え～…っ。
+JP なんでそうなるのぉ？
+JP 普通に仲良しだよぉ。
+EN Whaaat? Why would you think that? We get along just
+EN fine!
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 金森 麗子
+JP あっ、社長。なぁに？
+EN Oh, Boss. Whaaat?
+
+@ 72.16
+# 金森 麗子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good shape lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 金森 麗子
+JP うん、任せといて！
+EN Yep, leave it to me!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 金森 麗子
+JP 社長、それってプレッシャー…。
+EN Boss, that's pressure...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 金森 麗子
+JP 社長が応援してくれたから、
+JP もっとがんばるね！
+EN You cheered me on, Boss, so I'll try even harder!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 金森 麗子
+JP どうせ、みんなに言ってるんでしょ…？
+EN You probably say that to everyone anyway...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 金森 麗子
+JP じゃあ、ちょっと本気だそうかな。
+EN Guess I'll get a little serious, then.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 金森 麗子
+JP 一生懸命やってるってば！
+EN I AM trying my hardest!
+
+@ 81.14
+# scene 082 会話 しかる 好意 成功
+# 金森 麗子
+JP ごめんね！　私、もっとがんばる！
+EN Sorry! I'll try harder!
+
+@ 82.14
+# scene 083 会話 しかる 好意 失敗
+# 金森 麗子
+JP もう少し優しく
+JP 言って欲しいのに…。
+EN You could say it a little more nicely...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a bit down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 金森 麗子
+JP ありがとう、社長。
+JP ちょっと元気になったかも。
+EN Thanks, Boss. I think I feel a little better.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 金森 麗子
+JP 大丈夫じゃないよ～。
+EN I'm not okaaay...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 金森 麗子
+JP ありがとう、社長。
+JP ちょっとだけ甘えてもいい？
+EN Thanks, Boss. Can I lean on you, just a little?
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 金森 麗子
+JP 大丈夫だから…。
+JP 社長は心配しないで。
+EN I'm fine... Don't worry about me, Boss.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 金森 麗子
+JP う～っ…。誰かに聞いたの？
+EN Ugh... Did somebody tell you?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 金森 麗子
+JP ん？　なんなの？
+EN Hm? What is it?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 金森 麗子
+JP 社長命令じゃ逆らえないよね…。
+EN I can't exactly disobey an order from the Boss...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 金森 麗子
+JP だめ。これって女同士の
+JP 戦いなんだから。
+EN No. This is a fight between women.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 金森 麗子
+JP そんなこと言われても…。
+JP 私は知らないよー。
+EN Even if you say that... I don't know anything about it!
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 金森 麗子
+JP だって、あれはあっちが～！！
+EN But she's the one who started it!!
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 金森 麗子
+JP …もしかしてデートのお誘い？
+EN ...Are you asking me out on a date?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 金森 麗子
+JP 社長に心配かけたくないし…。
+JP わかった、今回はそうする。
+EN I don't want to worry you, Boss... Okay, I'll do it, this
+EN time.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 金森 麗子
+JP ヒドイ…。あっちに味方するんだ…。
+EN That's so mean... You're taking her side...
+
+@ 101.15
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 金森 麗子
+JP え～…っ。なんでそうなるのぉ？
+JP 普通に仲良しだよぉ。
+EN Whaaat? Why would you think that? We get along just
+EN fine!
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 金森 麗子
+JP うん、こんなところかな。
+JP 社長、何か食べに行こうよ。
+EN Yeah, that sounds about right. Boss, let's go get
+EN something to eat.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 金森 麗子
+JP やったー！
+JP ありがとう、社長！
+JP 今日は私がおごってあげる！
+EN Yaaay! Thanks, Boss! Today's my treat!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 金森 麗子
+JP 社長のけちんぼー。
+EN Boss, you big cheapskate!
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this is the tropics all right. The sun is
+EN scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.37
+# 金森 麗子
+JP 社長――っ！
+EN Bo-o-oss!
+
+@ 105.40
+# 社 長
+JP （…んっ、あそこにいるのは金森か？）
+EN (...Hm, is that Kanamori over there?)
+
+@ 105.50
+# 金森 麗子
+JP こっちこっちー！
+JP 早くー！
+EN Over here, over here! Hurry!
+
+@ 105.53
+# 社 長
+JP おお、金森。
+JP これから泳ぎに行くのか？
+EN Oh, Kanamori. Going for a swim?
+
+@ 105.60
+# 金森 麗子
+JP もちろん！
+JP そのために来たんだもん！
+EN Of course! That's what I came here for!
+
+@ 105.63
+# 社 長
+JP そうか。
+JP 気をつけろよ。
+EN I see. Be careful.
+
+@ 105.70
+# 金森 麗子
+JP あっ、社長、見て見て！
+JP あんなところに崖があるよ！
+EN Oh, Boss, look, look! There's a cliff over there!
+
+@ 105.73
+# 社 長
+JP （崖…？）
+EN (A cliff...?)
+
+@ 105.77
+# 金森 麗子
+JP ほらほら。
+JP 地元の子供たちかな？
+JP 人がどんどん飛び降りてるよ！
+EN See, see? Maybe they're local kids? People keep
+EN jumping off it!
+
+@ 105.80
+# 社 長
+JP （まさか…）
+EN (Don't tell me...)
+
+@ 105.87
+# 金森 麗子
+JP ねぇ、社長、一緒に行ってみない？
+EN Hey, Boss, wanna go try it together?
+
+@ 105.90
+# 社 長
+JP 待て待て！
+JP ストップ、ストップ！
+EN Hold it, hold it! Stop, stop!
+
+@ 105.97
+# 金森 麗子
+JP もう、何よー。
+EN Jeez, what?
+
+@ 105.100
+# 社 長
+JP 崖はマズイ！
+JP 危険だし！
+EN Cliffs are a bad idea! They're dangerous!
+
+@ 105.107
+# 金森 麗子
+JP そんなことないよ。
+JP 子供だって飛んでるんだし。
+EN No they're not. Even kids are jumping.
+
+@ 105.110
+# 社 長
+JP いや、無理だから！
+JP ダメ、絶対！
+EN No, I can't do it! No way, absolutely not!
+
+@ 105.117
+# 金森 麗子
+JP そうなのぉ…？
+EN Really...?
+
+@ 105.120
+# 社 長
+JP 他のことなら
+JP なんでも言うこと聞くからさ！
+EN I'll do anything else you ask, okay!?
+
+@ 105.127
+# 金森 麗子
+JP …えっ、ほんと！？
+EN ...Huh, really!?
+
+@ 105.130
+# 社 長
+JP （今、すごくマズイこと言った…？）
+EN (Did I just say something really bad...?)
+
+@ 105.153
+# 金森 麗子
+JP やったぁ♪
+JP これ、ずっと気になってたんだよねー。
+EN Yay! I've been dying to try this!
+
+@ 105.173
+# 社 長
+JP （ふう…ジャンポスイーツパフェを
+JP 　奢るくらいで済んでよかった…）
+EN (Phew... Glad I got off with just buying her a Jumbo
+EN Sweets Parfait...)
+
+@ 105.175
+# 社 長
+JP （それにしても…）
+EN (Still...)
+
+@ 105.177
+# 社 長
+JP （なんというか…）
+EN (How do I put this...)
+
+@ 105.179
+# 社 長
+JP （目のやり場に困るんだが…）
+EN (I don't know where to look...)
+
+@ 105.181
+# 社 長
+JP なあ、なんでわざわざ
+JP 水着に着替えてきたんだ？
+EN Hey, why'd you go to the trouble of changing into a
+EN swimsuit?
+
+@ 105.185
+# 金森 麗子
+JP えーと…。
+JP 社長に見てもらいたかったから。
+EN Um... Because I wanted you to see me in it, Boss.
+
+@ 105.188
+# 社 長
+JP そうか…。
+JP よく似合ってるぞ。
+EN I see... It looks great on you.
+
+@ 105.198
+# 金森 麗子
+JP 本当！？
+JP うれしー！
+EN Really!? Yay!
+
+@ 105.201
+# 社 長
+JP ところでそのジャンポスイーツパフェ
+JP うまいか？
+EN By the way, is that Jumbo Sweets Parfait any good?
+
+@ 105.205
+# 金森 麗子
+JP うん！
+JP おいしいよ。
+EN Yep! It's yummy.
+
+@ 105.209
+# 金森 麗子
+JP えへへ、そういえば前に
+JP ミス・スイーツに選ばれたことも
+JP あるんだよ。
+EN Hehe, come to think of it, I was once picked as Miss
+EN Sweets, you know.
+
+@ 105.212
+# 社 長
+JP へえ、そうなのか。
+EN Huh, is that so?
+
+@ 105.222
+# 金森 麗子
+JP それでね、
+JP そのときのコンテストがね…。
+EN And so, that contest was, like...
+
+@ 105.225
+# 社 長
+JP （それからしばらく
+JP 　俺は金森と他愛もないおしゃべりを
+JP 　続けたのだった）
+EN (After that, Kanamori and I kept chatting about
+EN nothing in particular for a while.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ふぅ、ようやく外回りも終わりだ）
+EN (Phew, my rounds are finally over.)
+
+@ 106.26
+# 社 長
+JP （ええと、自転車の鍵は…。
+JP 　あった、あった）
+EN (Let's see, my bike key... There it is.)
+
+@ 106.28
+# 社 長
+JP （いやぁ、車みたいに
+JP 　渋滞に引っかからないし
+JP 　自転車は便利だよな）
+EN (Unlike a car, you never get stuck in traffic. Bikes
+EN sure are handy.)
+
+@ 106.30
+# 社 長
+JP （よし、急いで帰ろう）
+EN (All right, better hurry back.)
+
+@ 106.45
+# 社 長
+JP （んっ…あれは…？）
+EN (Hm... is that...?)
+
+@ 106.55
+# 金森 麗子
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 106.59
+# 金森 麗子
+JP 社長も今帰り？
+EN Heading back too, Boss?
+
+@ 106.62
+# 社 長
+JP ああ。
+JP 金森はランニング中か？
+EN Yeah. Out for a run, Kanamori?
+
+@ 106.69
+# 金森 麗子
+JP うん。
+JP でも、今はちょっと休憩中だけどね。
+EN Yep. Though I'm taking a little break right now.
+
+@ 106.72
+# 社 長
+JP そうか。
+JP まあ、気をつけて帰れよ。
+EN I see. Well, get home safe.
+
+@ 106.79
+# 金森 麗子
+JP あっ、社長。
+JP ちょっと待って。
+EN Oh, Boss. Wait a sec.
+
+@ 106.82
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 106.89
+# 金森 麗子
+JP えっとねぇ…。
+JP 後ろに乗せていって♪
+EN Um, well... Give me a ride on the back!
+
+@ 106.92
+# 社 長
+JP …それじゃ、練習にならないだろ。
+EN ...That wouldn't be much of a workout.
+
+@ 106.99
+# 金森 麗子
+JP 今日の練習はもう終わりだから
+JP ＯＫなの。
+EN Training's over for today, so it's okay.
+
+@ 106.102
+# 社 長
+JP （さっき休憩って言ってなかったか？）
+EN (Didn't she just say she was taking a break?)
+
+@ 106.129
+# 金森 麗子
+JP あはは～。
+JP ラックチ～ン♪
+EN Ahaha! This is so comfy!
+
+@ 106.132
+# 社 長
+JP まったく…。
+JP 仕方ないヤツだな。
+EN Honestly... You're hopeless.
+
+@ 106.135
+# 社 長
+JP みんなには内緒にしろよ。
+EN Keep this a secret from everyone.
+
+@ 106.139
+# 金森 麗子
+JP どうしようかな～。
+EN Hmm, should I?
+
+@ 106.142
+# 社 長
+JP 練習をサボって
+JP 遊んでると思われるぞ。
+EN They'll think you skipped training to goof off.
+
+@ 106.144
+# 社 長
+JP いや…。
+JP 俺が霧子くんに怒られそうだ。
+EN No... Kiriko will probably chew me out.
+
+@ 106.148
+# 金森 麗子
+JP しょうがないな～。
+JP 黙っておいてあげる♪
+EN Oh, all right. I'll keep quiet for you!
+
+@ 106.152
+# 金森 麗子
+JP でも、これで二人の秘密ができたね♪
+EN But now we have a secret, just the two of us!
+
+@ 106.155
+# 社 長
+JP そ、そういう
+JP 誤解を生むような言い方はよせって！
+EN D-don't say it like that! People will get the wrong
+EN idea!
+
+@ 106.159
+# 金森 麗子
+JP アハハッ！
+EN Ahaha!
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ふぅ、ようやく外回りも終わりだ）
+EN (Phew, my rounds are finally over.)
+
+@ 107.26
+# 社 長
+JP （やっぱり自転車は便利だよな～）
+EN (Bikes sure are handy.)
+
+@ 107.28
+# 社 長
+JP （よし、急いで帰ろう）
+EN (All right, better hurry back.)
+
+@ 107.43
+# 社 長
+JP （んっ…あれは…？）
+EN (Hm... is that...?)
+
+@ 107.53
+# 金森 麗子
+JP あっ…社長…。
+EN Oh... Boss...
+
+@ 107.56
+# 社 長
+JP よぉ。
+JP 金森はランニング中か？
+EN Hey. Out for a run, Kanamori?
+
+@ 107.60
+# 金森 麗子
+JP うん。
+JP でも、ちょっと足を挫いちゃって…。
+EN Yeah. But I twisted my ankle a little...
+
+@ 107.63
+# 社 長
+JP おいおい、大丈夫なのか？
+EN Hey, hey, are you all right?
+
+@ 107.70
+# 金森 麗子
+JP うん…。
+JP ちょっと休んだらすぐ…イタッ…。
+EN Yeah... If I just rest a bit, I'll be... Ow...
+
+@ 107.76
+# 社 長
+JP どこが大丈夫なんだよ。
+JP よし、後ろに乗れ。
+EN You call that all right? Okay, get on the back.
+
+@ 107.83
+# 金森 麗子
+JP …えっ？
+JP いいの…？
+EN ...Huh? Is that okay...?
+
+@ 107.86
+# 社 長
+JP こんなときだけ遠慮するな。
+JP ほら早く乗れ。
+EN Don't hold back now of all times. Come on, hop on.
+
+@ 107.93
+# 金森 麗子
+JP …うん。
+EN ...Okay.
+
+@ 107.120
+# 金森 麗子
+JP あったかい…。
+EN So warm...
+
+@ 107.123
+# 社 長
+JP まったく…。
+JP ホントに仕方ないヤツだな。
+EN Honestly... You really are hopeless.
+
+@ 107.127
+# 金森 麗子
+JP ごめんね…。
+JP グスン…。
+EN Sorry... *sniff*...
+
+@ 107.130
+# 社 長
+JP …ま、とにかくだ。
+EN ...Well, anyway.
+
+@ 107.132
+# 社 長
+JP おまえの活躍を楽しみにしている
+JP ファンも大勢いるんだ。
+JP もっと気をつけろよ。
+EN You've got lots of fans looking forward to seeing
+EN you in action. Be more careful.
+
+@ 107.142
+# 金森 麗子
+JP うん。
+JP ありがとう、社長。
+EN Okay. Thanks, Boss.
+
+@ 107.152
+# 金森 麗子
+JP 社長の背中、あったかい…。
+EN Your back is so warm, Boss...
+
+@ 107.155
+# 社 長
+JP んっ…？
+JP 何か言ったか？
+EN Hm...? Did you say something?
+
+@ 107.165
+# 金森 麗子
+JP ううん…。
+JP なんでもないよ。
+EN Nope... It's nothing.
+
+@ 107.168
+# 社 長
+JP （なんだ？
+JP 　おかしなヤツだな？）
+EN (What's with her? Weird kid.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 金森 麗子
+JP 相手が誰でも負けないよ！
+EN I won't lose, no matter who I'm up against!
+
+@ 109.16
+# scene 113 練習開始
+# 金森 麗子
+JP よーし、がんばろっと。
+EN All right, let's do this!
+
+@ 110.16
+# scene 114 練習開始 好意
+# 金森 麗子
+JP がんばって強くなるからね！
+EN I'll work hard and get stronger!
+
+@ 111.16
+# scene 115 特訓開始
+# 金森 麗子
+JP 特訓って…スポ根ノリなの？
+EN Special training... Is this some kind of sports-drama
+EN thing?
+
+@ 112.20
+# scene 116 特訓成功
+# 金森 麗子
+JP やったー！
+JP 絶好調！
+EN Yaaay! I'm on fire!
+
+@ 113.20
+# scene 117 特訓失敗
+# 金森 麗子
+JP こんなの体がついていかないよぉ…。
+EN My body can't keep up with this...
+
+@ 114.16
+# scene 118 休養
+# 金森 麗子
+JP ショッピング行こーっと！
+JP あっ、社長は時間ある？
+EN I'm going shopping! Oh, Boss, are you free?
+
+@ 115.16
+# scene 119 入場1
+# 金森 麗子
+JP カワイイだけじゃないってことを
+JP 教えてあげる！
+EN I'll show you I'm not just a pretty face!
+
+@ 116.16
+# scene 119 入場2
+# 金森 麗子
+JP 今日もカッコいいところ
+JP 見せちゃうから！
+EN I'm gonna look super cool again today!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# 金森 麗子
+JP えっとえっと…
+JP オ、オーッホッホッホ！
+EN Um, um... O-ohohoho!
+
+@ 118.16
+# scene 125 必殺技１
+# 金森 麗子
+JP これが今日のクライマックス！
+JP  見逃しちゃダメだよ！
+EN This is today's climax! Don't you dare miss it!
+
+@ 119.16
+# scene 125 必殺技２
+# 金森 麗子
+JP みんなー！　必殺技、いっくよー！
+EN Everybody! Here comes my finisher!
+
+@ 120.16
+# scene 125 必殺技３
+# 金森 麗子
+JP お待たせー！
+JP すっごいのいくよー！
+EN Sorry to keep you waiting! Here comes something
+EN amazing!
+
+@ 121.12
+# scene 126 勝利1
+# 金森 麗子
+JP カワイイだけじゃないんだから！
+EN I'm not just a pretty face, you know!
+
+@ 122.12
+# scene 126 勝利2
+# 金森 麗子
+JP スウィーツだって
+JP 甘いだけじゃないモン！
+EN Sweets aren't just sweet, either!
+
+@ 123.12
+# scene 126 勝利3
+# 金森 麗子
+JP 文句なしの大勝利でしょ！？
+EN That was a total, undeniable victory, right!?
+
+@ 124.15
+# scene 133 表彰1
+# 金森 麗子
+JP がんばれたのは
+JP みんなのおかげだよー！
+JP ありがとー！
+EN I could do my best thanks to all of you! Thank youuu!
+
+@ 125.15
+# scene 133 表彰2
+# 金森 麗子
+JP ありがとうございます！
+JP これを励みにもっと素敵な女性を
+JP 目指しまーす！
+EN Thank you very much! This will inspire me to become
+EN an even more wonderful woman!
+
+@ 126.12
+# scene 134 優勝1
+# 金森 麗子
+JP やった、優勝っ！
+JP みんな、応援ありがとー！
+EN Yay, I won the tournament! Thanks for cheering,
+EN everyone!
+
+@ 127.12
+# scene 134 優勝２
+# 金森 麗子
+JP 優勝しちゃった！
+JP みんな、もっと練習しないと
+JP ダメだよ！
+EN I won! You all need to train harder!
+
+@ 128.24
+# scene 135 エンディング 通常
+# 金森 麗子
+JP 社長、おめでとう！
+JP 今日はみんなでお祝いしようね！
+EN Congratulations, Boss! Let's all celebrate together
+EN today!
+
+@ 129.24
+# scene 136 エンディング 好意
+# 金森 麗子
+JP 社長と一緒にいるとすごく幸せ…。
+JP だから、ずーっと一緒にいていい…？
+EN I'm so happy when I'm with you, Boss... So, can I stay
+EN with you forever and ever...?

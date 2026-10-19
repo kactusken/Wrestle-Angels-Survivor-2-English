@@ -1,0 +1,99 @@
+# /SCR/324.BIN - ドスカナ・リブレ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 324` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ドスカナ・リブレ
+JP これがルチャの戦士の強さよ！
+EN That's the strength of a lucha warrior!
+
+@ 1.16
+# scene 119 入場1
+# ドスカナ・リブレ
+JP ルチャ・ドーラの戦い
+JP 見せてあげるわ！
+EN I'll show you how a luchadora fights!
+
+@ 2.16
+# scene 119 入場2
+# ドスカナ・リブレ
+JP 私を止められるものなら
+JP 止めてみせて！
+EN Stop me if you can!
+
+@ 3.16
+# scene 121 タッグマッチ ベター１
+# ドスカナ・リブレ
+JP がんばります！
+EN I'll do my best!
+
+@ 4.16
+# scene 125 必殺技１
+# ドスカナ・リブレ
+JP とっておき出しちゃうよーッ！
+EN Here comes my secret weapon!
+
+@ 5.16
+# scene 125 必殺技２
+# ドスカナ・リブレ
+JP ルチャの真髄、受けてみなさい！
+EN Take the very soul of lucha!
+
+@ 6.16
+# scene 125 必殺技３
+# ドスカナ・リブレ
+JP 本場の切れ味！　その身に刻めー！
+EN The real deal from Mexico! Feel how sharp it is!
+
+@ 7.12
+# scene 126 勝利1
+# ドスカナ・リブレ
+JP スピード勝負なら負けないって
+JP 言ったでしょ！
+EN Told you I don't lose when it comes to speed!
+
+@ 8.12
+# scene 126 勝利2
+# ドスカナ・リブレ
+JP 私の動きに付いて
+JP 来れなかったみたいね！
+EN Looks like you couldn't keep up with my moves!
+
+@ 9.12
+# scene 126 勝利3
+# ドスカナ・リブレ
+JP 撹乱と陽動もスピードのうちよ！
+EN Feints and misdirection are part of speed too!
+
+@ 10.15
+# scene 133 表彰1
+# ドスカナ・リブレ
+JP このまま突っ走るわよーッ！
+EN I'm gonna keep charging ahead like this!
+
+@ 11.15
+# scene 133 表彰2
+# ドスカナ・リブレ
+JP 私の受賞なら、みんな納得でしょ？
+EN If it's me getting the award, nobody can complain,
+EN right?
+
+@ 12.12
+# scene 134 優勝1
+# ドスカナ・リブレ
+JP このくらい当然の結果でしょ！
+EN This was only natural!
+
+@ 13.12
+# scene 134 優勝２
+# ドスカナ・リブレ
+JP これでルチャの強さが
+JP わかったでしょ！
+EN Now you understand how strong lucha is!

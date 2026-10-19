@@ -1,0 +1,95 @@
+# /SCR/339.BIN - ハニー・ボンバー
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 339` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ハニー・ボンバー
+JP 世界最強のバニーガールの誕生ね！
+EN The world's strongest bunny girl is born!
+
+@ 1.16
+# scene 119 入場1
+# ハニー・ボンバー
+JP お姉さんのファイト期待してね！
+EN Look forward to big sis's fight!
+
+@ 2.16
+# scene 119 入場2
+# ハニー・ボンバー
+JP さぁ、ショー・タイムの始まりよ！
+EN Now, let the show begin!
+
+@ 3.16
+# scene 125 必殺技１
+# ハニー・ボンバー
+JP 今日はサービスしちゃおうかな！
+EN Maybe I'll give you a little bonus today!
+
+@ 4.16
+# scene 125 必殺技２
+# ハニー・ボンバー
+JP バニーは狩られるだけとは
+JP 限らないわよ。
+EN Bunnies aren't always the ones being hunted, you
+EN know.
+
+@ 5.16
+# scene 125 必殺技３
+# ハニー・ボンバー
+JP とっておきの技でイカせてアゲル♪
+EN I'll send you to heaven with my special move♪
+
+@ 6.12
+# scene 126 勝利1
+# ハニー・ボンバー
+JP ウフフッ。
+JP 体が少し火照っちゃったかも。
+EN Ufufu. I think I've gotten a little flushed.
+
+@ 7.12
+# scene 126 勝利2
+# ハニー・ボンバー
+JP 勝利のポーズは
+JP こんな感じでいいかしら？
+EN Is this a good victory pose?
+
+@ 8.12
+# scene 126 勝利3
+# ハニー・ボンバー
+JP ああん、すごく気持ちよかった～。
+EN Ahhn, that felt sooo good.
+
+@ 9.15
+# scene 133 表彰1
+# ハニー・ボンバー
+JP お姉さん、こんなのもらっちゃった。
+EN Look what big sis got!
+
+@ 10.15
+# scene 133 表彰2
+# ハニー・ボンバー
+JP お返しのサービスは
+JP 何をしたらいいかしら？
+EN What kind of special service should I give in return?
+
+@ 11.12
+# scene 134 優勝1
+# ハニー・ボンバー
+JP ウフフッ。
+JP 熱中しすぎて体が熱くなっちゃった。
+EN Ufufu. I got so into it, my body's all hot.
+
+@ 12.12
+# scene 134 優勝２
+# ハニー・ボンバー
+JP 史上最強のバニーガールと
+JP 呼んでもらっていいかしら？
+EN Would you mind calling me the strongest bunny girl in
+EN history?

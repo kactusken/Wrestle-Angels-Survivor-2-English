@@ -1,0 +1,2262 @@
+# /SCR/063.BIN - ライラ神威
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 063` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ライラ神威
+JP 破壊と流血のショーを見せてやるよ。
+EN I'll give you a show of carnage and bloodshed.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ライラ神威
+JP よしっ、期待してな。
+JP ひゃーはっはっは！
+EN Alright, look forward to it. Hyaaa-hahaha!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ライラ神威
+JP なんだとっ～！
+JP 責任者、出てきやがれ！
+EN What the hell?! Get the guy in charge out here!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here.
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「古武術経験者だが破門歴あり」と
+JP あるが…。
+EN The scouting file says "trained in an ancient martial
+EN art, but was expelled"...
+
+@ 3.27
+# 社 長
+JP 古武術の名は…。
+JP 「神威流」か…。
+EN And the name of the art... "Kamui-ryu," huh.
+
+@ 3.29
+# 社 長
+JP 資料には「将軍警護のため
+JP 大奥の女官が学んだ流派」と
+JP あるが…。
+EN The file says it was "a style learned by the ladies of
+EN the shogun's inner palace to guard him"...
+
+@ 3.33
+# ？？？
+JP 神威流がなんだって？
+EN What's that about Kamui-ryu?
+
+@ 3.36
+# 社 長
+JP えっ…？
+EN Huh...?
+
+@ 3.46
+# ライラ神威
+JP 今、言ってたじゃねぇか。
+JP 神威流がどうこうって。
+EN You just said it, didn't ya? Kamui-ryu this, Kamui-ryu
+EN that.
+
+@ 3.49
+# 社 長
+JP ええ、実はその使い手が
+JP このへんにいると聞いて…。
+EN Yes, well, I heard a practitioner of it lives around
+EN here...
+
+@ 3.56
+# ライラ神威
+JP テメェ、何モンだ？
+EN And who the hell are you?
+
+@ 3.59
+# 社 長
+JP 私はプロレス団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 3.66
+# ライラ神威
+JP へえ…。
+JP すると社長って訳か。
+JP こいつは面白ぇな。
+EN Heh... So you're a president, huh? Now this is
+EN interesting.
+
+@ 3.69
+# 社 長
+JP （待てよ、資料に「神威流の使い手は
+JP 　身分を隠すため仮面を付ける」と
+JP 　あったが…）
+EN (Wait, the file said "practitioners of Kamui-ryu wear
+EN masks to hide who they are"...)
+
+@ 3.71
+# 社 長
+JP （このマスク、その仮面そっくりの
+JP 　デザインじゃないか…？\b）
+EN (Isn't that mask exactly like the one described?)
+
+@ 3.73
+# 社 長
+JP あの、まさかあなたが
+JP その神威流の使い手ですか…？
+EN Um, don't tell me you're the Kamui-ryu
+EN practitioner...?
+
+@ 3.80
+# ライラ神威
+JP ハンッ！
+JP やっとわかったのかよ。
+JP トロすぎんだよ。
+EN Hah! Took you long enough. You're way too slow.
+
+@ 3.83
+# 社 長
+JP それは失礼しました。
+JP それでどうでしょうか。
+JP 入団してもらえますか？
+EN My apologies. So, what do you say? Will you join us?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ライラ神威
+JP よしっ、入ってやるよ。
+EN Alright, I'll join.
+
+@ 4.22
+# 社 長
+JP 本当ですか？
+EN Really?
+
+@ 4.26
+# ライラ神威
+JP 思いきり人ブン殴れんだろ。
+JP 楽しそーじゃねえか。
+JP ひゃははは。
+EN I get to beat people senseless, right? Sounds like a
+EN blast. Hyahahaha.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ライラ神威
+JP ダメだ。
+JP ルールのあるケンカなんざ
+JP アホらしくてやってられねぇ。
+EN No way. A fight with rules? That's too stupid to
+EN bother with.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+EN I see...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, it should be somewhere around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# ライラ神威
+JP しつこいヤツだな。
+JP いい加減にしねぇと
+JP 血ぃ見ることになるぜ？
+EN You just don't quit, do ya? Knock it off, or there's
+EN gonna be blood.
+
+@ 6.38
+# 社 長
+JP どうしても、うちの団体に
+JP 入ってもらいたくて…。
+EN I really want you to join our promotion...
+
+@ 6.45
+# ライラ神威
+JP おかしなヤツだな。
+JP 師匠も見捨てた私をさ…。
+EN You're a weird one. Wanting me, when even my master
+EN gave up on me...
+
+@ 6.48
+# 社 長
+JP どうかお願いします。
+EN Please, I'm asking you.
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ライラ神威
+JP よしっ、入ってやるよ。
+EN Alright, I'll join.
+
+@ 7.22
+# 社 長
+JP 本当ですか？
+EN Really?
+
+@ 7.26
+# ライラ神威
+JP 思いきり人ブン殴れんだろ。
+JP 楽しそーじゃねえか。
+JP ひゃははは。
+EN I get to beat people senseless, right? Sounds like a
+EN blast. Hyahahaha.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ライラ神威
+JP ダメだ。
+JP ルールのあるケンカなんざ
+JP アホらしくてやってられねぇ。
+EN No way. A fight with rules? That's too stupid to
+EN bother with.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+EN I see...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は神威選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kamui.
+
+@ 9.25
+# 社 長
+JP あの暴れっぷりには非難もあるが
+JP それはうちの選手にはない個性だ。
+EN Her wild streak draws criticism, but it's a
+EN personality none of our wrestlers have.
+
+@ 9.27
+# 社 長
+JP 団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined the promotion, our shows would get a
+EN lot more exciting. No doubt about it.
+
+@ 9.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she hangs around here...
+
+@ 9.31
+# 社 長
+JP ああ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# ライラ神威
+JP ああん？
+EN Huh?
+
+@ 9.46
+# 社 長
+JP 実はですね…。
+EN Well, you see...
+
+@ 9.49
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.53
+# ライラ神威
+JP はん…。
+JP つまり、移籍しろってんだな？
+EN Hmph... So you want me to switch promotions?
+
+@ 9.56
+# 社 長
+JP はい、どうでしょうか？
+EN Yes. What do you think?
+
+@ 9.63
+# ライラ神威
+JP まあ、どこで暴れたって
+JP 変わりはねえんだが…。
+EN Well, it ain't like it matters where I go wild...
+
+@ 9.66
+# 社 長
+JP （どうかな？）
+EN (Will she?)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# ライラ神威
+JP よしっ、移籍してやるよ。
+EN Alright, I'll switch over.
+
+@ 10.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN Glad to hear it. I look forward to working with you.
+
+@ 10.26
+# ライラ神威
+JP 血の雨が降るぜぇ～。
+JP 楽しみにしてな。
+JP ひゃははー。
+EN It's gonna rain blood! Look forward to it. Hyahahaa!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ライラ神威
+JP なんか気が乗らねぇな。
+JP 帰りな。
+EN I'm just not feelin' it. Go home.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 神威選手が必要だ。
+EN Our promotion really needs Kamui.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 神威選手と交渉することにした。
+EN I decided to negotiate with Kamui once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ライラ神威
+JP またかよ。
+JP しつこい野郎だな。
+EN You again? You're one persistent bastard.
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 12.44
+# ライラ神威
+JP なんでそんなこだわってんだよ…。
+JP 変わってるぜ、テメェ。
+EN Why're you so hung up on me...? You're a weird one.
+
+@ 12.47
+# 社 長
+JP ダメでしょうか？
+EN Is it no good?
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# ライラ神威
+JP よしっ、移籍してやるよ。
+EN Alright, I'll switch over.
+
+@ 13.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN Glad to hear it. I look forward to working with you.
+
+@ 13.26
+# ライラ神威
+JP 血の雨が降るぜぇ～。
+JP 楽しみにしてな。
+JP ひゃははー。
+EN It's gonna rain blood! Look forward to it. Hyahahaa!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ライラ神威
+JP なんか気が乗らねぇ。
+JP 帰りな。
+EN I'm just not feelin' it. Go home.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は神威選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kamui.
+
+@ 15.25
+# 社 長
+JP ラフファイトを超えた暴れっぷりで
+JP 悪名が高いが、それも貴重な個性だ。
+EN She's notorious for going wild well beyond rough
+EN fighting, but that's a valuable trait too.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined our promotion, our shows would get a
+EN lot more exciting. No doubt about it.
+
+@ 15.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she hangs around here...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# ライラ神威
+JP 誰だ、テメェ？
+EN Who the hell are you?
+
+@ 15.46
+# 社 長
+JP あの、実はですね…。
+EN Um, well, you see...
+
+@ 15.48
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.55
+# ライラ神威
+JP スカウト、この私をか？
+JP そいつはケッサクだなぁ～。
+JP ひゃーははは。
+EN Scouting? Me? Now that's a riot! Hyaaa-hahaha.
+
+@ 15.58
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 15.62
+# ライラ神威
+JP テメェ、変わってるぜ。
+JP 私のこと知ってんのによくもまあ…。
+EN You're a weird one. You know all about me and you
+EN still...
+
+@ 15.65
+# 社 長
+JP 是非お願いします！
+EN Please, I'd love to have you!
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# ライラ神威
+JP いいだろ。
+JP フリーじゃ暴れるのも限界あるしな。
+EN Fine. There's only so much damage a freelancer can
+EN do anyway.
+
+@ 16.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 16.29
+# ライラ神威
+JP いいからさっさと試合組めよ。
+JP 楽しみだぜぇ！
+JP ひゃーはっはっは！
+EN Never mind that, just book me a match already. This
+EN is gonna be fun! Hyaaa-hahahaha!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ライラ神威
+JP いや、やっぱダメだな。
+JP 帰りな。
+EN Nah, forget it. Go home.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 神威選手が必要だ。
+EN Our promotion really needs Kamui.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 神威選手と交渉することにした。
+EN I decided to negotiate with Kamui once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ライラ神威
+JP おいおい、
+JP もう断ったろうが。
+EN Hey now, I already turned you down.
+
+@ 18.40
+# 社 長
+JP どうしてもうちに入って
+JP もらいたくて…。
+EN I really want you to join us...
+
+@ 18.47
+# ライラ神威
+JP なんでそんなこだわんだよ。
+JP テメェみたいの初めて見たぜ。
+EN Why're you so hung up on me? Never seen a guy like
+EN you before.
+
+@ 18.50
+# 社 長
+JP ダメでしょうか？
+EN Is it no good?
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# ライラ神威
+JP いいだろ。
+JP フリーじゃ暴れるのも限界あるしな。
+EN Fine. There's only so much damage a freelancer can
+EN do anyway.
+
+@ 19.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 19.29
+# ライラ神威
+JP いいからさっさと試合組めよ。
+JP 楽しみだぜぇ！
+JP ひゃーはっはっは！
+EN Never mind that, just book me a match already. This
+EN is gonna be fun! Hyaaa-hahahaha!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ライラ神威
+JP いや、やっぱダメだな。
+JP 帰りな。
+EN Nah, forget it. Go home.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は神威を訪ねることにした。
+EN I decided to go see Kamui.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN I knew it: she's a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she hangs around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 神威っ！
+EN Kamui!
+
+@ 21.41
+# ライラ神威
+JP あん…？
+JP テメェ！
+EN Huh...? You!
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# ライラ神威
+JP なんだ？
+JP ぶちのめされに来たのか？
+EN What? You come here to get your face smashed in?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you because I want
+EN you to come back.
+
+@ 21.61
+# ライラ神威
+JP ナメてんのか、テメェ！
+EN You makin' fun of me, you bastard?!
+
+@ 21.64
+# 社 長
+JP たしかにこんなことを頼めた
+JP 義理じゃないのはわかっているが…。
+EN I know I'm in no position to ask you something like
+EN this, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# ライラ神威
+JP ゼッテェ、許す気はなかったが…。
+JP わかった、戻ってやる。
+EN I had no damn intention of forgiving you, but... Fine,
+EN I'll come back.
+
+@ 22.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 22.29
+# ライラ神威
+JP それなりの覚悟はしておけよ。
+JP いいな！
+EN You'd better be ready for what's coming. Got it?!
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ライラ神威
+JP さっさと失せろ。
+EN Get lost already.
+
+@ 23.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that, please. Come back to us.
+
+@ 23.26
+# ライラ神威
+JP うるせぇ！
+JP 血ィ見たくなきゃ、とっとと消えろ！
+EN Shut up! If you don't wanna see blood, get outta my
+EN sight!
+
+@ 23.29
+# 社 長
+JP （ダメか…。
+JP 　身から出たサビだな）
+EN (No good... I brought this on myself.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び神威を訪ねることにした。
+EN I decided to go see Kamui again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN I knew it: she's a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 神威っ！
+EN Kamui!
+
+@ 24.37
+# ライラ神威
+JP なんなんだ、いったい？
+JP しつこいってんだよ！
+EN What the hell is it now? You're a damn pest!
+
+@ 24.40
+# 社 長
+JP すまない。
+JP もう一度話を聞いてくれ。
+EN Sorry. Hear me out one more time.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ライラ神威
+JP ゼッテェ、許す気はなかったが…。
+JP わかった、戻ってやる。
+EN I had no damn intention of forgiving you, but... Fine,
+EN I'll come back.
+
+@ 25.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 25.29
+# ライラ神威
+JP それなりの覚悟はしておけよ。
+JP いいな！
+EN You'd better be ready for what's coming. Got it?!
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ライラ神威
+JP さっさと失せろ。
+EN Get lost already.
+
+@ 26.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that, please. Come back to us.
+
+@ 26.26
+# ライラ神威
+JP うるせぇ！
+JP 血ィ見たくなきゃ、とっとと消えろ！
+EN Shut up! If you don't wanna see blood, get outta my
+EN sight!
+
+@ 26.29
+# 社 長
+JP （ダメか…。
+JP 　身から出たサビだな）
+EN (No good... I brought this on myself.)
+
+@ 27.16
+# scene 028 ケガ小
+# ライラ神威
+JP こんなもん
+JP ケガのうちに入んねぇんだよ！
+EN This ain't even worth calling an injury!
+
+@ 28.16
+# scene 029 ケガ大
+# ライラ神威
+JP 上等だぜ。
+JP この礼は病院送りじゃ済まさねぇぞ。
+EN Bring it on. I'm gonna pay this back with way worse
+EN than a trip to the hospital.
+
+@ 29.16
+# scene 030 入院
+# ライラ神威
+JP 自分の骨が折れる音を聞くのも
+JP 悪くねぇな。
+EN Hearing my own bones snap... Not bad at all.
+
+@ 30.16
+# scene 031 退院
+# ライラ神威
+JP さてと、また暴れさせてもらうぜ。
+EN Alright, time to go wild again.
+
+@ 31.16
+# scene 032 ケガ完治
+# ライラ神威
+JP これでまた暴れてやるぜ！
+EN Now I can go wild all over again!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ライラ神威
+JP もう暴れんのも飽きたところだぜ。
+EN I was gettin' bored of busting heads anyway.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ライラ神威
+JP もっと暴れてからじゃねぇと
+JP とても辞められねぇな！
+EN No way I'm quitting till I've raised a lot more hell!
+
+@ 34.16
+# scene 035 コーチ就任
+# ライラ神威
+JP 相手をぶち殺す気で戦え。
+JP 血の海に沈めるまで
+JP リングを降りんじゃねぇ！
+EN Fight like you mean to kill 'em. Don't you dare leave
+EN the ring till they're drowning in their own blood!
+
+@ 35.16
+# scene 036 ケガ引退
+# ライラ神威
+JP チッ…。
+JP 無理し過ぎたか。
+JP 限界だな。
+EN Tch... Pushed it too far, huh. I'm done.
+
+@ 36.16
+# scene 037 年齢引退
+# ライラ神威
+JP もうやめだ。
+JP じゃあな！
+EN I'm quitting. See ya!
+
+@ 37.16
+# scene 038 退団
+# ライラ神威
+JP ここにいてもつまんねぇんだよ！
+EN This place is boring as hell!
+
+@ 38.16
+# scene 039 スランプ
+# ライラ神威
+JP イラつくぜー…！
+EN This is pissin' me off...!
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ライラ神威
+JP ファンクラブ？
+JP 私のファンなんていたのかよ。
+EN A fan club? I've got fans?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.23
+# ライラ神威
+JP 全員流血させてやるかぁ？
+JP ファンなら、私の獲物になれりゃ
+JP 大満足だろ？
+EN Maybe I'll make 'em all bleed? If they're fans, they'd
+EN be thrilled to be my prey, right?
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ライラ神威
+JP またファンクラブができたって？
+JP 世の中おかしいぜ。
+EN Another fan club? The world's gone nuts.
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Live up to their expectations.
+
+@ 40.26
+# ライラ神威
+JP 全員絞れば血のプールが
+JP できそうだな。
+JP ひゃーはっはっは！
+EN If I wrung 'em all out, I could fill a pool with blood.
+EN Hyaaa-hahahaha!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ライラ神威
+JP ファンクラブが解散したってか。
+EN So my fan club broke up, huh.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.26
+# ライラ神威
+JP この間の脅しが効きすぎたか…？
+EN Guess I threatened 'em a little too hard last time...?
+
+@ 42.16
+# scene 043 映画出演
+# ライラ神威
+JP 血ノリはいらねぇぜ。
+JP ホンモノで代用してやるよ。
+EN Don't need fake blood. I'll give 'em the real stuff
+EN instead.
+
+@ 43.16
+# scene 044 一日署長
+# ライラ神威
+JP ひゃーはっはっは！
+JP こりゃ笑えるなぁ。
+EN Hyaaa-hahahaha! Me, a police chief for a day?
+EN That's hilarious.
+
+@ 44.16
+# scene 045 写真集発売
+# ライラ神威
+JP 血まみれの写真を
+JP どっさり入れようぜぇ～。
+EN Let's pack it full of bloody photos!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ライラ神威
+JP お茶の間に
+JP 戦慄と狂気をもたらしてやる。
+JP ひゃーはっはっは！
+EN I'll bring terror and madness into every living room.
+EN Hyaaa-hahahaha!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ライラ神威
+JP 私の歌なんて聴くヤツがいるのか？
+EN Who'd ever listen to me sing?
+
+@ 47.16
+# scene 048 始球式
+# ライラ神威
+JP デッドボールから大乱闘で
+JP 球場を血の海にしてやるぜ！
+EN A beanball, then a bench-clearing brawl, and I'll turn
+EN the ballpark into a sea of blood!
+
+@ 48.16
+# scene 049 学園祭
+# ライラ神威
+JP そいつは面白ぇ！
+JP キャンパスを血の海に
+JP 変えてやるぜ～！
+EN Now that's fun! I'll turn the campus into a sea of
+EN blood!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here. This is for your birthday.
+
+@ 49.36
+# ライラ神威
+JP 気の利いたことをするじゃないか。
+EN Well, ain't you thoughtful.
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN I'm counting on you from here on, too.
+
+@ 49.43
+# ライラ神威
+JP ああ…。
+JP リングを深紅に染めてやるから
+JP 期待してな。
+EN Yeah... I'll paint the ring crimson, so look forward to
+EN it.
+
+@ 50.30
+# scene 051 バレンタインデー
+# ライラ神威
+JP 社長、これやるよ。
+EN Boss, here. It's for you.
+
+@ 50.33
+# 社 長
+JP なんだ？
+JP ああ、チョコレートか。
+JP ありがとう。
+EN What's this? Oh, chocolate. Thanks.
+
+@ 50.40
+# ライラ神威
+JP なんだはねぇだろ、
+JP バレンタインにチョコもらって
+JP おいてよ～！
+EN "What's this"? Seriously? You get chocolate on
+EN Valentine's Day and that's what you say?!
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼だ。
+JP 受け取ってくれ。
+EN A thank-you for last month. Here, take it.
+
+@ 51.36
+# ライラ神威
+JP へえ、まさか返しがあるとは
+JP 思わなかったぜ。
+EN Heh, never figured I'd get anything back.
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have it between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# ライラ神威
+JP 希望者は特別サービスで
+JP ボコボコにしてやるぜ。
+EN Anyone who asks gets a special bonus: a free
+EN beatdown.
+
+@ 53.29
+# scene 054 コンサート
+# ライラ神威
+JP ちゃんと聴けよ。
+JP 席立ったら、死ぬほど後悔させて
+JP やるからな！
+EN Listen properly. Anyone who leaves their seat is
+EN gonna regret it like hell!
+
+@ 54.28
+# scene 055 練習拒否
+# ライラ神威
+JP もう飽きたんだよ。
+EN I'm sick of it.
+
+@ 55.26
+# scene 056 失踪
+# ライラ神威
+JP 誰かボコボコにして
+JP 来ることにするぜ！
+EN Think I'll go beat the crap outta somebody!
+
+@ 56.16
+# scene 057 選手解雇
+# ライラ神威
+JP テメェも師匠と同じタマかよ…。
+EN So you're just like my master, huh...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ライラ神威
+JP 外国人の血の色を
+JP この目でたしかめてきてやるぜ。
+EN I'm gonna go see what color foreigners bleed with my
+EN own eyes.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ライラ神威
+JP 外国人の血をたっぷり見てきたぜ！
+EN I saw plenty of foreign blood out there!
+
+@ 59.26
+# scene 060 移籍思案
+# ライラ神威
+JP 団体はここだけじゃねぇしな…。
+EN This ain't the only promotion out there...
+
+@ 60.16
+# scene 061 革命軍結成
+# ライラ神威
+JP こんな腐った団体、潰してやるよ！
+EN I'm gonna crush this rotten promotion!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ライラ神威
+JP 徹底的にぶっ壊してやるから
+JP 覚悟しろ！
+EN I'm gonna wreck this place top to bottom, so get
+EN ready!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ライラ神威
+JP 全員まとめて血化粧だ！
+EN I'll paint every last one of you in blood!
+
+@ 63.16
+# scene 064 遺恨発生
+# ライラ神威
+JP あンの野郎…。
+EN That bitch...
+
+@ 64.16
+# scene 065 殴り込み
+# ライラ神威
+JP 全身の骨を打ち砕いて
+JP バラバラにしてやるぜ。
+EN I'll shatter every bone in their bodies and tear 'em
+EN to pieces.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ライラ神威
+JP 私の出番だな。
+JP 血祭りにあげてやるよ！
+EN My turn, huh. I'll make a bloody example of 'em!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ライラ神威
+JP スプラッターショーの始まりだぜぇ。
+JP ひゃーはっはっは！
+EN Let the splatter show begin! Hyaaa-hahahaha!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ライラ神威
+JP 全員血祭りにあげてやるよ！
+EN I'll make a bloody example of every one of 'em!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ライラ神威
+JP ひゃーはっはっは！
+JP 私の怖さがわかったか？
+EN Hyaaa-hahahaha! Now you know how scary I am!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ライラ神威
+JP ……チイッ……！
+EN ......Tch......!
+
+@ 70.13
+# scene 071 引退式
+# ライラ神威
+JP 十分暴れたぜ。
+JP あばよ！
+EN I've raised enough hell. So long!
+
+@ 71.17
+# ライラ神威
+JP なんだよ？
+EN What?
+
+@ 71.36
+# ライラ神威
+JP 呼んだか？
+EN You call me?
+
+@ 71.46
+# ライラ神威
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been on a roll lately. Keep it up!
+
+@ 71.89
+# ライラ神威
+JP 任せときな。
+JP まだまだ血を流してやるぜぇ。
+EN Leave it to me. I'll spill plenty more blood yet.
+
+@ 71.110
+# ライラ神威
+JP 思ってもねぇことを
+JP 口にすんじゃねぇ！
+EN Don't say stuff you don't mean!
+
+@ 71.131
+# ライラ神威
+JP まあ、私なりにやるだけさ。
+EN Well, I'll just do things my way.
+
+@ 71.152
+# ライラ神威
+JP 適当なこと言ってんじゃねぇのか？
+EN You're just sayin' whatever, ain't ya?
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# ライラ神威
+JP 強気じゃねぇか。
+JP そういうの嫌いじゃねぇぜ。
+EN Pretty gutsy of you. I don't hate that.
+
+@ 71.210
+# ライラ神威
+JP のぼせてんじゃねぇのか、テメェ！
+EN Gettin' full of yourself, ain't ya, punk?!
+
+@ 71.231
+# ライラ神威
+JP 甘くねぇなあ…ったく。
+JP …まっ、任せとけって。
+EN You don't go easy, do ya... Geez. ...Eh, leave it to me.
+
+@ 71.252
+# ライラ神威
+JP あんま調子に乗ってると後悔するぜ？
+EN Get too cocky and you'll regret it, y'know?
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.289
+# ライラ神威
+JP 社長様に言われちゃ
+JP 悪い気はしねぇな。
+EN Comin' from the big Boss himself, I can't say I mind.
+
+@ 71.310
+# ライラ神威
+JP やかましいんだよ！
+EN Shut the hell up!
+
+@ 71.331
+# ライラ神威
+JP 私のことは
+JP なんでもお見通しなんだな。
+EN You see right through me, don't ya.
+
+@ 71.352
+# ライラ神威
+JP 誠意が全然感じられねぇな？
+EN I don't feel a lick of sincerity there, y'know?
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# ライラ神威
+JP ああ。
+EN Yeah.
+
+@ 71.399
+# ライラ神威
+JP いや。
+JP 何の話だよ？
+EN Nope. What're you talkin' about?
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# ライラ神威
+JP チッ…。
+JP 社長様の命令だ。
+JP 仕方ねぇ。
+EN Tch... Orders from the big Boss. Guess I got no
+EN choice.
+
+@ 71.453
+# ライラ神威
+JP テメェには関係ねぇ！
+JP 口を挟むんじゃねぇ！
+EN This got nothin' to do with you! Butt out!
+
+@ 71.474
+# ライラ神威
+JP テメェ、何言ってんだ！？
+EN What the hell are you talkin' about?!
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# ライラ神威
+JP まあ…な。
+EN Yeah... kinda.
+
+@ 71.521
+# ライラ神威
+JP いや、まるでわからねぇよ。
+EN Nope, ain't got a clue.
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# ライラ神威
+JP 今回は顔を立てといてやるよ。
+JP これは貸しだぜ。
+EN Fine, I'll do it for your sake this time. But you owe me
+EN one.
+
+@ 71.577
+# ライラ神威
+JP この件はテメェには関係ねぇだろ。
+EN This got nothin' to do with you.
+
+@ 71.598
+# ライラ神威
+JP 訳わかんねぇ話すんじゃねぇよ！
+EN Quit talkin' nonsense!
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ライラ神威
+JP 呼んだか？
+EN You call me?
+
+@ 72.16
+# ライラ神威
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been on a roll lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ライラ神威
+JP 任せときな、
+JP まだまだ血を流してやるぜぇ。
+EN Leave it to me. I'll spill plenty more blood yet.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ライラ神威
+JP 思ってもねぇことを
+JP 口にすんじゃねぇ！
+EN Don't say stuff you don't mean!
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ライラ神威
+JP まあ、私なりにやるだけさ。
+EN Well, I'll just do things my way.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ライラ神威
+JP 適当なこと言ってんじゃねぇのか？
+EN You're just sayin' whatever, ain't ya?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ライラ神威
+JP 強気じゃねぇか。
+JP そういうの嫌いじゃねぇぜ。
+EN Pretty gutsy of you. I don't hate that.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ライラ神威
+JP のぼせてんじゃねぇのか、テメェ！
+EN Gettin' full of yourself, ain't ya, punk?!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ライラ神威
+JP 甘くねぇなあ、ったく。
+JP …ま、任せとけって。
+EN You don't go easy, do ya... Geez. ...Eh, leave it to me.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ライラ神威
+JP あんま調子に乗ってると後悔するぜ？
+EN Get too cocky and you'll regret it, y'know?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ライラ神威
+JP 社長様に言われちゃ
+JP 悪い気はしねぇな。
+EN Comin' from the big Boss himself, I can't say I mind.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ライラ神威
+JP やかましいんだよ！
+EN Shut the hell up!
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ライラ神威
+JP 私のことは何でもお見通しなんだな。
+EN You see right through me, don't ya.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ライラ神威
+JP 誠意が全然感じられねぇな？
+EN I don't feel a lick of sincerity there, y'know?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ライラ神威
+JP ああ。
+EN Yeah.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ライラ神威
+JP いや。
+JP 何の話だよ？
+EN Nope. What're you talkin' about?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ライラ神威
+JP チッ…。
+JP 社長様の命令だ。
+JP 仕方ねぇ。
+EN Tch... Orders from the big Boss. Guess I got no
+EN choice.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ライラ神威
+JP テメェには関係ねぇ！
+JP 口を挟むんじゃねぇ！
+EN This got nothin' to do with you! Butt out!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ライラ神威
+JP テメェ、何言ってんだ！？
+EN What the hell are you talkin' about?!
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ライラ神威
+JP まあ…な。
+EN Yeah... kinda.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ライラ神威
+JP いや、まるでわからねぇよ。
+EN Nope, ain't got a clue.
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ライラ神威
+JP 今回は顔を立てといてやるよ。
+JP これは貸しだぜ。
+EN Fine, I'll do it for your sake this time. But you owe me
+EN one.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ライラ神威
+JP この件はテメェには関係ねぇだろ。
+EN This got nothin' to do with you.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ライラ神威
+JP 訳わかんねぇ話すんじゃねぇよ！
+EN Quit talkin' nonsense!
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ライラ神威
+JP 私は暴れられればいいんだよ！
+EN As long as I get to go wild, I'm good!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ライラ神威
+JP 祝いにどっかで
+JP ひと暴れしてくるぜ！
+EN I'm gonna go raise some hell somewhere to celebrate!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ライラ神威
+JP チッ…。
+JP なんだこりゃ。
+JP しけてやがる！
+EN Tch... What the hell is this? Cheapskate!
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （さて…全員分のチェックインも
+JP 　済ませたし…）
+EN (Well... everyone's checked in now...)
+
+@ 105.26
+# 社 長
+JP （さっそく泳ぎに行くか）
+EN (Time to go for a swim.)
+
+@ 105.28
+# 社 長
+JP （…んっ…あれは……）
+EN (...Hm...? Is that...)
+
+@ 105.30
+# 社 長
+JP 神威っ！
+EN Kamui!
+
+@ 105.40
+# ライラ神威
+JP ああン？
+EN Huh?
+
+@ 105.44
+# ライラ神威
+JP 呼んだか？
+EN You call me?
+
+@ 105.47
+# 社 長
+JP これから泳ぎに行くのか？
+EN Are you going for a swim?
+
+@ 105.54
+# ライラ神威
+JP まあ、そんなところだよ。
+EN Somethin' like that.
+
+@ 105.57
+# 社 長
+JP 楽しんでるか？
+EN Are you having fun?
+
+@ 105.61
+# ライラ神威
+JP まあまあだが、血が足りねえな。
+JP どっかでひと暴れしたいぜ！
+EN It's alright, but there ain't enough blood. I wanna go
+EN raise some hell somewhere!
+
+@ 105.64
+# 社 長
+JP （…まったく。困ったヤツだな）
+EN (...Honestly. She's a handful.)
+
+@ 105.66
+# 社 長
+JP どうだ。
+JP 海に行くなら俺と一緒に…。
+EN Say, if you're heading to the beach, why not come
+EN with me...
+
+@ 105.70
+# ライラ神威
+JP はぁっはっはっ！
+JP 冗談！
+JP ゴメンだね！
+EN Hah-hah-hah! You're kidding! No way!
+
+@ 105.74
+# ライラ神威
+JP 私は勝手にやらせてもらうよ！
+EN I'm gonna do my own thing!
+
+@ 105.77
+# 社 長
+JP そうか。
+JP 気をつけろよ。
+EN I see. Be careful.
+
+@ 105.86
+# 社 長
+JP （ふぅ…やれやれ…）
+EN (Phew... good grief...)
+
+@ 105.88
+# 社 長
+JP （俺も海に行くか）
+EN (Guess I'll head to the beach too.)
+
+@ 105.105
+# 社 長
+JP な、なんだっ！？
+EN Wh-what's going on?!
+
+@ 105.107
+# 社 長
+JP （ホテルのスタッフが
+JP 　入り口に駆けつけている）
+EN (Hotel staff were rushing to the entrance.)
+
+@ 105.109
+# 社 長
+JP （「怪我人だ」とか
+JP 　「血まみれだぞ」とかの
+JP 　声が聞こえてくるし…）
+EN (I could hear voices shouting "Someone's hurt!" and
+EN "She's covered in blood!"...)
+
+@ 105.111
+# 社 長
+JP まさか…。
+EN Don't tell me...
+
+@ 105.128
+# ライラ神威
+JP ………………。
+EN ..................
+
+@ 105.131
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.134
+# 社 長
+JP （俺がそこで目にしたのは
+JP 　血だらけの神威の姿…）
+EN (What I saw there was Kamui, drenched in blood...)
+
+@ 105.136
+# 社 長
+JP だ、大丈夫か！？
+EN A-are you alright?!
+
+@ 105.146
+# ライラ神威
+JP …ちくしょおおおっ！
+EN ...Dammit aaaall!
+
+@ 105.160
+# ライラ神威
+JP なんだってあんなとこで
+JP 看板描いてんだぁっ！
+EN Why the hell was somebody painting a sign in a spot
+EN like that?!
+
+@ 105.163
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 105.167
+# ライラ神威
+JP うがあぁっ！
+JP 誰かボコボコにしねぇと
+JP 収まらねぇ！
+EN Graaagh! I ain't gonna calm down till I beat the crap
+EN outta somebody!
+
+@ 105.170
+# 社 長
+JP （赤い液体は血ではなく
+JP 　赤いペンキだったらしい）
+EN (Apparently the red liquid wasn't blood, but red
+EN paint.)
+
+@ 105.172
+# 社 長
+JP …とにかく無事で
+JP よかったじゃないか。
+EN ...Anyway, I'm glad you're unharmed.
+
+@ 105.176
+# ライラ神威
+JP これのどこが無事だってんだぁっ！
+EN How the hell is this unharmed?!
+
+@ 105.180
+# ライラ神威
+JP あー、ムカつく！
+JP 絶対誰かボッコボコにしてやるぜ！
+EN Argh, this pisses me off! I'm gonna beat the crap
+EN outta somebody, I swear!
+
+@ 105.183
+# 社 長
+JP やれやれ…。
+EN Good grief...
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP まずいな。
+JP 少し急がないと…。
+EN This is bad. I need to hurry...
+
+@ 106.26
+# 社 長
+JP 試合に遅れちゃ申し訳が立たないぞ。
+EN I'd have no excuse if I were late for the match.
+
+@ 106.28
+# 社 長
+JP 問題が起きてないといいが…。
+EN I hope there hasn't been any trouble...
+
+@ 106.51
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.55
+# ライラ神威
+JP なんだぁ？
+JP ふて腐れた顔してよぉ。
+EN What's with that sulky face?
+
+@ 106.59
+# ライラ神威
+JP 今日の試合、よかっただろう？
+EN Today's match was great, wasn't it?
+
+@ 106.62
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.64
+# 社 長
+JP …ラフファイトのやり過ぎだ。
+EN ...You went way overboard with the rough stuff.
+
+@ 106.66
+# 社 長
+JP 相手選手を病院送りにした挙げ句
+JP 自分は反則負けでは話にならない。
+EN You sent your opponent to the hospital and lost by
+EN DQ yourself. That's unacceptable.
+
+@ 106.68
+# 社 長
+JP プロレスは喧嘩じゃないんだぞ。
+EN Pro wrestling isn't a street fight, you know.
+
+@ 106.78
+# ライラ神威
+JP ひゃーはっはっは！
+JP 昔も同じことを言われたなあ！
+EN Hyaaa-hahahaha! I got told the same thing back in
+EN the day!
+
+@ 106.81
+# 社 長
+JP …昔？
+JP 昔ってなんだ？
+EN ...Back in the day? What do you mean?
+
+@ 106.91
+# ライラ神威
+JP ガキのころ、北海道で
+JP 格闘技を習ってたんだ。
+EN When I was a kid, I learned martial arts up in
+EN Hokkaido.
+
+@ 106.94
+# 社 長
+JP …神威流か。
+EN ...Kamui-ryu, huh.
+
+@ 106.104
+# ライラ神威
+JP ああ、詳しいじゃねぇか。
+EN Yeah. You know your stuff.
+
+@ 106.108
+# ライラ神威
+JP そこも師匠が嫌なヤツだったから
+JP 飛び出してやったよ！
+EN The master there was a real piece of work too, so I
+EN walked out on 'em!
+
+@ 106.118
+# ライラ神威
+JP ひゃーはっはっは！
+EN Hyaaa-hahahaha!
+
+@ 106.128
+# ライラ神威
+JP ここも出てってやって
+JP いいんだぜ！？
+EN I could walk out on this place too, y'know?!
+
+@ 106.131
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.133
+# 社 長
+JP ああ…。
+JP そうしたけりゃそうしろ。
+EN Yeah... If that's what you want, go ahead.
+
+@ 106.135
+# 社 長
+JP そうやって嫌なものから
+JP 逃げ続ければいい。
+EN Just keep running away from whatever you don't
+EN like.
+
+@ 106.139
+# ライラ神威
+JP ああ、なんだってぇ？
+EN Huh? What'd you say?
+
+@ 106.142
+# 社 長
+JP 反則を使わないと
+JP 相手を倒せないのは弱い証拠だ。
+EN Needing to cheat to beat your opponent is a sign of
+EN weakness.
+
+@ 106.144
+# 社 長
+JP おまえがそれでいいなら勝手にしろ。
+EN If you're fine with that, do whatever you want.
+
+@ 106.154
+# ライラ神威
+JP ………………。
+EN ..................
+
+@ 106.164
+# ライラ神威
+JP ひゃーはっはっは！
+JP 言い方まで師匠にそっくりだぜ！
+EN Hyaaa-hahahaha! You even talk just like my master!
+
+@ 106.167
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.184
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.186
+# 社 長
+JP （フゥ～…）
+EN (Sigh...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP まずいな。
+JP 少し急がないと…。
+EN This is bad. I need to hurry...
+
+@ 107.26
+# 社 長
+JP 試合に遅れちゃ申し訳が立たないぞ。
+EN I'd have no excuse if I were late for the match.
+
+@ 107.28
+# 社 長
+JP 問題が起きてないといいが…。
+EN I hope there hasn't been any trouble...
+
+@ 107.50
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.54
+# ライラ神威
+JP どうした？
+JP 不満そうな顔してよぉ？
+EN What's up? You look unhappy.
+
+@ 107.58
+# ライラ神威
+JP 今日の試合、よかっただろう？
+EN Today's match was great, wasn't it?
+
+@ 107.61
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.63
+# 社 長
+JP …相手の選手があそこまで
+JP ラフファイトをやってくるとは
+JP 思わなかった。
+EN ...I never expected your opponent to get that rough.
+
+@ 107.65
+# 社 長
+JP 後で話してくる。
+EN I'll go have a word with them later.
+
+@ 107.75
+# ライラ神威
+JP ひゃーはっはっは！
+JP いいからほっとけ！
+EN Hyaaa-hahahaha! Just leave it be!
+
+@ 107.78
+# 社 長
+JP しかしだな…。
+EN But still...
+
+@ 107.88
+# ライラ神威
+JP たしかにメチャクチャやられたが
+JP 勝ったのはこっちだ。
+EN Sure, she tore me apart, but I'm the one who won.
+
+@ 107.92
+# ライラ神威
+JP それも正真正銘の
+JP フォール勝ちなんだ。
+JP 満足してるぜ。
+EN And it was a clean pinfall, fair and square. I'm
+EN satisfied.
+
+@ 107.95
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.97
+# 社 長
+JP ああ。
+JP おまえはよくやったよ。
+EN Yeah. You did well.
+
+@ 107.107
+# ライラ神威
+JP 今日のファイト
+JP 昔の師匠に見せてやりたかったぜ。
+EN Wish I could've shown today's fight to my old master.
+
+@ 107.110
+# 社 長
+JP ああ、それならビデオを送ろうか？
+EN Well, why don't I send a video?
+
+@ 107.120
+# ライラ神威
+JP ひゃーはっはっは！
+JP もう死んじまってるから
+JP そいつは無理だな！
+EN Hyaaa-hahahaha! She's dead already, so that ain't
+EN happening!
+
+@ 107.130
+# ライラ神威
+JP それより早く次の試合を組んでくれ。
+EN More importantly, book my next match already.
+
+@ 107.133
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 107.137
+# ライラ神威
+JP 次は私流のファイトを
+JP 見せてやるからよ。
+EN Next time I'll show 'em a fight my way.
+
+@ 107.140
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.144
+# ライラ神威
+JP 見てろ！
+JP いつかあいつもぶっ倒してやる！
+EN Just watch! One day I'm gonna take that one down
+EN too!
+
+@ 107.147
+# 社 長
+JP （はぁ…気苦労が絶えないな…）
+EN (Sigh... the worrying never ends...)
+
+@ 107.149
+# 社 長
+JP ＯＫ。
+JP わかったよ。
+EN Okay. Got it.
+
+@ 108.17
+# scene 110 練習試合 ベター２
+# ライラ神威
+JP 適当に流そうぜ。
+EN Let's just take it easy.
+
+@ 109.17
+# scene 111 練習試合 バッド
+# ライラ神威
+JP この機会にぶちのめしてやるぜ。
+EN Perfect chance to beat you down.
+
+@ 110.16
+# scene 113 練習開始
+# ライラ神威
+JP かったりぃな…ったく。
+EN What a pain... Geez.
+
+@ 111.16
+# scene 114 練習開始 好意
+# ライラ神威
+JP 仕方ねぇなぁ。
+JP とっとと始めるぜ。
+EN Guess I got no choice. Let's get it over with.
+
+@ 112.16
+# scene 115 特訓開始
+# ライラ神威
+JP 本気で言ってんのかよ？
+EN You serious?
+
+@ 113.20
+# scene 116 特訓成功
+# ライラ神威
+JP 本気出せばこんなもんだぜ。
+EN This is what I can do when I get serious.
+
+@ 114.20
+# scene 117 特訓失敗
+# ライラ神威
+JP チィッ…。
+JP クソが…ッ！
+EN Tch... Dammit...!
+
+@ 115.16
+# scene 118 休養
+# ライラ神威
+JP 街へ行って
+JP ひと暴れしてくるぜ。
+EN I'm gonna hit the town and raise some hell.
+
+@ 116.16
+# scene 119 入場1
+# ライラ神威
+JP 血の雨を降らせてやるぜぇ！
+EN I'm gonna make it rain blood!
+
+@ 117.16
+# scene 119 入場2
+# ライラ神威
+JP オラオラ！
+JP 近づくと血ぃ見るぜぇ！
+EN Outta my way! Get close and you'll see blood!
+
+@ 118.17
+# scene 122 タッグマッチ ベター２
+# ライラ神威
+JP ひゃはははは！
+JP 今日はストッパーがいないぜ！
+EN Hyahahahaha! No one's here to hold me back today!
+
+@ 119.17
+# scene 121 タッグマッチ バッド
+# ライラ神威
+JP 背中見せたときは覚悟しな。
+EN Turn your back on me and you'd better be ready.
+
+@ 120.16
+# scene 125 必殺技１
+# ライラ神威
+JP 壊れちまいな！
+EN Go on and break!
+
+@ 121.16
+# scene 125 必殺技２
+# ライラ神威
+JP これでテメェはバラバラだぁー！！
+EN Now I'll tear you to pieces!!
+
+@ 122.16
+# scene 125 必殺技３
+# ライラ神威
+JP 地獄を見せてやるよーッ！
+EN I'll show you hell!
+
+@ 123.12
+# scene 126 勝利1
+# ライラ神威
+JP ひゃーはっはっは！
+JP いいザマじゃねぇか。
+EN Hyaaa-hahahaha! Serves you right.
+
+@ 124.12
+# scene 126 勝利2
+# ライラ神威
+JP まあ、私に勝てるヤツなんて
+JP いないんだよ！
+EN Well, nobody can beat me!
+
+@ 125.12
+# scene 126 勝利3
+# ライラ神威
+JP これがホントの
+JP 出血大サービスってやつだ！
+EN That's what I call a real bloodbath bargain sale!
+
+@ 126.15
+# scene 133 表彰1
+# ライラ神威
+JP こんな賞はいらねぇが
+JP 副賞だけはもらっといてやる！
+EN Don't need this award, but I'll take the prize that
+EN comes with it!
+
+@ 127.15
+# scene 133 表彰2
+# ライラ神威
+JP ひゃーはっはっは！
+JP 次はもっと派手な流血シーンを
+JP 見せてやるぜ！
+EN Hyaaa-hahahaha! Next time I'll give you an even
+EN bloodier show!
+
+@ 128.12
+# scene 134 優勝1
+# ライラ神威
+JP どいつもこいつも
+JP 相手にならねぇって。
+EN Not one of 'em was any match for me.
+
+@ 129.12
+# scene 134 優勝２
+# ライラ神威
+JP 暴れ足りねぇ！
+JP もっと血を流させろ！
+EN I ain't done going wild! Let me spill more blood!
+
+@ 130.24
+# scene 135 エンディング 通常
+# ライラ神威
+JP よかったなぁ、社長。
+JP これも全部、私のおかげって
+JP ヤツかぁ？
+EN Good for you, Boss. Guess it's all thanks to me, huh?
+
+@ 131.24
+# scene 136 エンディング 好意
+# ライラ神威
+JP テメェとは
+JP はっきりさせてぇことがある。
+JP 後で二人だけの時間用意しな。
+EN There's somethin' I gotta settle with you. Set up
+EN some time later, just the two of us.

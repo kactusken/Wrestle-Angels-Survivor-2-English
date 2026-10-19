@@ -1,0 +1,2435 @@
+# /SCR/022.BIN - 武藤 めぐみ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 022` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 武藤 めぐみ
+JP 武藤です。
+JP 運動神経には自信があります。
+JP よろしくお願いします。
+EN I'm Muto. I'm confident in my athleticism. Nice to meet
+EN you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 武藤 めぐみ
+JP がんばります。
+JP よろしくお願いします。
+EN I'll do my best. Nice to meet you.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 武藤 めぐみ
+JP わかりました…。
+JP 失礼します…。
+EN I see... Excuse me...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ふぅ…。
+JP たしか、このへんだったな。
+JP ええっと……。
+EN Phew... I'm pretty sure it was around here. Let's
+EN see......
+
+@ 3.25
+# 社 長
+JP 資料は「希有な才能の持ち主」
+JP 「若干協調性に難あり」となっているが…。
+EN Her file says "rare talent" and "somewhat lacking in
+EN teamwork"...
+
+@ 3.27
+# 社 長
+JP …んっ？
+JP もしかして、あの娘か？
+EN ...Hm? Could that be her?
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+JP 武藤さんですか？
+EN Um, excuse me. Are you Ms. Muto?
+
+@ 3.39
+# 武藤 めぐみ
+JP そうですけど…。
+JP あなたは？
+EN Yes, but... who are you?
+
+@ 3.42
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.49
+# 武藤 めぐみ
+JP ふーん…。
+JP プロレスのスカウト…。
+EN Hmm... A pro wrestling scout...
+
+@ 3.52
+# 社 長
+JP どうでしょう。
+JP うちの団体で戦ってみませんか？
+EN What do you say? Would you like to fight for our
+EN promotion?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 武藤 めぐみ
+JP 別にいいかな。
+EN Sure, I guess.
+
+@ 4.22
+# 社 長
+JP 本当かい！？
+EN Really!?
+
+@ 4.29
+# 武藤 めぐみ
+JP えぇ…。
+JP 今日からよろしくね。
+EN Yeah... Looking forward to working with you,
+EN starting today.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 武藤 めぐみ
+JP ん～…今は興味ないかな。
+EN Mm... I'm not really interested right now.
+
+@ 5.28
+# 社 長
+JP あっ、待って！
+JP あぁ、ダメか…。
+EN Ah, wait! Oh, no good...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, I'm sure it was around here somewhere...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# 武藤 めぐみ
+JP この前の社長さん？
+JP また来たの？
+EN The president from before? You came again?
+
+@ 6.38
+# 社 長
+JP あの、もう一度考え直して
+JP もらえないでしょうか？
+EN Um, would you please reconsider?
+
+@ 6.40
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 武藤 めぐみ
+JP 別にいいかな。
+EN Sure, I guess.
+
+@ 7.22
+# 社 長
+JP 本当かい！？
+EN Really!?
+
+@ 7.29
+# 武藤 めぐみ
+JP えぇ…。
+JP 今日からよろしくね。
+EN Yeah... Looking forward to working with you,
+EN starting today.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 武藤 めぐみ
+JP ん～…今は興味ないかな。
+EN Mm... I'm not really interested right now.
+
+@ 8.28
+# 社 長
+JP あっ、待って！
+JP あぁ、ダメか…。
+EN Ah, wait! Oh, no good...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は武藤選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Muto.
+
+@ 9.25
+# 社 長
+JP 彼女はまさに天才だ。
+JP 華のあるファイトスタイルは
+JP 誰にも真似のできないものだ。
+EN She's a true genius. Nobody can copy her flashy
+EN fighting style.
+
+@ 9.27
+# 社 長
+JP うちに来てくれれば
+JP これほど嬉しいことはない。
+EN Nothing would make me happier than having her join
+EN us.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+JP あっ、いた！
+EN She should be training around here somewhere... Ah,
+EN there she is!
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# 武藤 めぐみ
+JP 私に何か用なの？
+EN You want something with me?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.51
+# 武藤 めぐみ
+JP …私を引き抜きたいってこと？
+EN ...You mean you want to poach me?
+
+@ 9.54
+# 社 長
+JP えぇ、そうなります。
+JP 考えていただけませんか？
+EN Yes, I suppose so. Would you consider it?
+
+@ 9.56
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 武藤 めぐみ
+JP 移籍してもいいかな…。
+EN I guess I could transfer...
+
+@ 10.22
+# 社 長
+JP 本当ですか！？
+EN Really!?
+
+@ 10.29
+# 武藤 めぐみ
+JP 社長さんの団体の方が
+JP 強くなれる気がするから…。
+EN I feel like I could get stronger in your promotion...
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 武藤 めぐみ
+JP ごめんなさい…。
+JP 今は興味ないから…。
+EN Sorry... I'm not interested right now...
+
+@ 11.28
+# 社 長
+JP あっ、待って！
+JP あぁ、ダメか…。
+EN Ah, wait! Oh, no good...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 武藤選手が必要だ。
+EN Our promotion really needs Muto.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度武藤選手と
+JP 交渉することにした。
+EN I decided to negotiate with Muto once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 武藤 めぐみ
+JP ああ…この前の社長さん…。
+JP また移籍の話？
+EN Oh... the president from before... Another transfer
+EN offer?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 武藤 めぐみ
+JP 移籍してもいいかな…。
+EN I guess I could transfer...
+
+@ 13.22
+# 社 長
+JP 本当ですか！？
+EN Really!?
+
+@ 13.29
+# 武藤 めぐみ
+JP 社長さんの団体の方が
+JP 強くなれる気がするから…。
+EN I feel like I could get stronger in your promotion...
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 武藤 めぐみ
+JP ごめんなさい…。
+JP 今は興味ないから…。
+EN Sorry... I'm not interested right now...
+
+@ 14.28
+# 社 長
+JP あっ、待って！
+JP あぁ、ダメか…。
+EN Ah, wait! Oh, no good...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は武藤選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Muto.
+
+@ 15.25
+# 社 長
+JP 彼女はまさに天才だ。
+JP 華のあるファイトスタイルは
+JP 誰にも真似のできないものだ。
+EN She's a true genius. Nobody can copy her flashy
+EN fighting style.
+
+@ 15.27
+# 社 長
+JP うちに来てくれれば
+JP これほど嬉しいことはない。
+EN Nothing would make me happier than having her join
+EN us.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+JP あっ、いた！
+EN She should be training around here somewhere... Ah,
+EN there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 武藤 めぐみ
+JP …えっ？
+JP 私に用事？
+EN ...Huh? You want something with me?
+
+@ 15.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 15.51
+# 武藤 めぐみ
+JP 社長さんの団体に入れってこと？
+EN You're telling me to join your promotion?
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+JP うちのリングで戦ってくれませんか？
+EN What do you think? Would you fight in our ring?
+
+@ 15.56
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 武藤 めぐみ
+JP 別にいいかな。
+JP 社長さんのところ
+JP 悪くなさそうだしね。
+EN Sure, I guess. Your place doesn't seem too bad.
+
+@ 16.22
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# 武藤 めぐみ
+JP これからよろしくね。
+EN Looking forward to working with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 武藤 めぐみ
+JP ごめんなさい…。
+JP 一人の方が気楽でいいから…。
+EN Sorry... Being on my own is easier...
+
+@ 17.28
+# 社 長
+JP あっ、待って！
+JP あぁ、ダメか…。
+EN Ah, wait! Oh, no good...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 武藤選手が必要だ。
+EN Our promotion really needs Muto.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度武藤選手と
+JP 交渉することにした。
+EN I decided to negotiate with Muto once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 武藤 めぐみ
+JP …また来たの？
+JP 意外と粘るのね。
+EN ...You came again? You're more persistent than you
+EN look.
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 18.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 武藤 めぐみ
+JP 別にいいかな。
+JP 社長さんのところ
+JP 悪くなさそうだしね。
+EN Sure, I guess. Your place doesn't seem too bad.
+
+@ 19.22
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# 武藤 めぐみ
+JP これからよろしくね。
+EN Looking forward to working with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 武藤 めぐみ
+JP ごめんなさい…。
+JP 一人の方が気楽でいいから…。
+EN Sorry... Being on my own is easier...
+
+@ 20.28
+# 社 長
+JP あっ、待って！
+JP あぁ、ダメか…。
+EN Ah, wait! Oh, no good...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は武藤を訪ねることにした。
+EN I decided to go see Muto.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she was somewhere around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 武藤っ！
+EN Muto!
+
+@ 21.41
+# 武藤 めぐみ
+JP 社長…。
+JP 来ないで…。
+EN Boss... Stay away...
+
+@ 21.44
+# 社 長
+JP 待ってくれ。
+JP 戻ってきて欲しいんだ。
+EN Wait. I want you to come back.
+
+@ 21.51
+# 武藤 めぐみ
+JP 何よ…今さら…。
+EN What... after all this time...
+
+@ 21.54
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this...
+
+@ 21.56
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 武藤 めぐみ
+JP わかったわよ…。
+JP 戻ればいいんでしょ。
+EN Fine... I'll come back. That's what you want, right?
+
+@ 22.22
+# 社 長
+JP ホントに戻ってくれるのか？
+EN You'll really come back?
+
+@ 22.29
+# 武藤 めぐみ
+JP …何よ？
+JP 戻って欲しいんじゃないの？
+EN ...What? Don't you want me back?
+
+@ 22.32
+# 社 長
+JP いや、ありがとう。
+JP また…よろしくな…。
+EN No, I do. Thank you. Good to have you back...
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 武藤 めぐみ
+JP 二度と来ないで…！
+EN Don't ever come here again...!
+
+@ 23.28
+# 社 長
+JP あっ、待ってくれ！
+JP 武藤っ！
+EN Ah, wait! Muto!
+
+@ 23.30
+# 社 長
+JP （だが武藤は待ってくれなかった。
+JP 　これも、身から出たサビか…）
+EN (But Muto didn't wait. I suppose I brought this on
+EN myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び武藤を訪ねることにした。
+EN I decided to visit Muto again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 武藤っ！
+EN Muto!
+
+@ 24.37
+# 武藤 めぐみ
+JP …また…来たの…？
+EN ...You came... again...?
+
+@ 24.40
+# 社 長
+JP 話だけでも聞いてくれないか？
+EN Won't you at least hear me out?
+
+@ 24.47
+# 武藤 めぐみ
+JP …言ったでしょ。
+JP 二度と来ないでって…。
+EN ...I told you. Don't ever come again...
+
+@ 24.50
+# 社 長
+JP すまない。
+JP でも、うちの団体には…。
+JP 俺には、おまえが必要なんだ。
+EN I'm sorry. But our promotion... No, I need you.
+
+@ 24.57
+# 武藤 めぐみ
+JP ……えっ！？
+EN ......What!?
+
+@ 24.60
+# 社 長
+JP 頼む！
+JP 戻って来てくれ。
+EN Please! Come back.
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 武藤 めぐみ
+JP わかったわよ…。
+JP 戻ればいいんでしょ。
+EN Fine... I'll come back. That's what you want, right?
+
+@ 25.22
+# 社 長
+JP ホントに戻ってくれるのか？
+EN You'll really come back?
+
+@ 25.29
+# 武藤 めぐみ
+JP …何よ？
+JP 戻って欲しいんじゃないの？
+EN ...What? Don't you want me back?
+
+@ 25.32
+# 社 長
+JP いや、ありがとう。
+JP また…よろしくな…。
+EN No, I do. Thank you. Good to have you back...
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 武藤 めぐみ
+JP 二度と来ないで…！
+EN Don't ever come here again...!
+
+@ 26.28
+# 社 長
+JP あっ、待ってくれ！
+JP 武藤っ！
+EN Ah, wait! Muto!
+
+@ 26.30
+# 社 長
+JP （だが武藤は待ってくれなかった。
+JP 　これも、身から出たサビか…）
+EN (But Muto didn't wait. I suppose I brought this on
+EN myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 武藤 めぐみ
+JP かすり傷みたいなものよ…。
+EN It's just a scratch...
+
+@ 28.16
+# scene 029 ケガ大
+# 武藤 めぐみ
+JP たいしたことないわ…。
+EN It's nothing serious...
+
+@ 29.16
+# scene 030 入院
+# 武藤 めぐみ
+JP …ごめんなさい。
+EN ...Sorry.
+
+@ 30.16
+# scene 031 退院
+# 武藤 めぐみ
+JP 今日から練習していいみたい。
+EN Looks like I can train again starting today.
+
+@ 31.16
+# scene 032 ケガ完治
+# 武藤 めぐみ
+JP もう大丈夫だから。
+EN I'm fine now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 武藤 めぐみ
+JP そう…。
+JP 社長がそう言うなら…そうするわ…。
+EN I see... If you say so, Boss... I'll do that...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 武藤 めぐみ
+JP まだ、私は戦いたいから…。
+EN I still want to fight...
+
+@ 34.16
+# scene 035 コーチ就任
+# 武藤 めぐみ
+JP 私は…コーチなんて
+JP 向いてないんじゃ…。
+EN Me... a coach? I don't think I'm cut out for that...
+
+@ 35.16
+# scene 036 ケガ引退
+# 武藤 めぐみ
+JP ごめん…。
+JP もう体が思う通りに動かないから…。
+EN Sorry... My body won't move the way I want anymore...
+
+@ 36.16
+# scene 037 年齢引退
+# 武藤 めぐみ
+JP もう…休んでもいいかな…？
+EN Is it okay... if I rest now...?
+
+@ 37.16
+# scene 038 退団
+# 武藤 めぐみ
+JP お世話になりました。
+JP それじゃ…。
+EN Thanks for everything. Bye, then...
+
+@ 38.16
+# scene 039 スランプ
+# 武藤 めぐみ
+JP …これじゃ…ダメね…。
+EN ...This is... no good...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 武藤 めぐみ
+JP …私を騙してるの？
+EN ...Are you messing with me?
+
+@ 39.19
+# 社 長
+JP まさか！
+JP 本当だって。
+JP 応援に負けないよう、がんばれよ。
+EN Of course not! It's true. Work hard so you live up to
+EN their support.
+
+@ 39.26
+# 武藤 めぐみ
+JP 信じられないな…。
+JP がんばるわね。
+EN I can't believe it... I'll do my best.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 武藤 めぐみ
+JP また増えた…の…？
+EN There's... more of them...?
+
+@ 40.19
+# 社 長
+JP あぁ。
+JP これからもっとがんばらないとな。
+EN Yeah. You'll have to work even harder from now on.
+
+@ 40.26
+# 武藤 めぐみ
+JP うん…。
+JP そうするわ…。
+EN Yeah... I will...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 武藤 めぐみ
+JP …なくなっちゃったの…？
+EN ...It's gone...?
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. You just have to work hard
+EN again.
+
+@ 41.26
+# 武藤 めぐみ
+JP そうね…。
+JP またがんばればいいよね。
+EN Right... I'll just have to work hard again.
+
+@ 42.16
+# scene 043 映画出演
+# 武藤 めぐみ
+JP 台詞のない役がいいかな…。
+JP それ以外は無理だから…。
+EN A role with no lines would be good... I can't do
+EN anything else...
+
+@ 43.16
+# scene 044 一日署長
+# 武藤 めぐみ
+JP …泥棒とか捕まえてくればいいの？
+EN ...So I just go catch some thieves or something?
+
+@ 44.16
+# scene 045 写真集発売
+# 武藤 めぐみ
+JP 脱がないと…ダメなの…？
+EN Do I... have to take my clothes off...?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 武藤 めぐみ
+JP 別にいいけど…。
+JP 売れなくても文句言わないでよ。
+EN Fine, I guess... But don't complain if it doesn't sell.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 武藤 めぐみ
+JP 私よりあの娘の方が
+JP 向いてると思うけど…。
+EN I think that other girl would be better suited for it
+EN than me...
+
+@ 47.16
+# scene 048 始球式
+# 武藤 めぐみ
+JP 別に野球なんて
+JP 興味はないんだけどな…。
+EN I'm not even interested in baseball...
+
+@ 48.16
+# scene 049 学園祭
+# 武藤 めぐみ
+JP 一緒に行きたい子が
+JP いるんだけど…いい…？
+EN There's someone I want to go with... Is that okay...?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.35
+# 武藤 めぐみ
+JP 誕生日…。
+JP 私に…？
+EN A birthday present... For me...?
+
+@ 49.38
+# 社 長
+JP これからもよろしくな。
+JP じゃ、俺は外回りがあるから。
+EN I'm counting on you from here on, too. Well, I've got
+EN rounds to make.
+
+@ 49.45
+# 武藤 めぐみ
+JP …あっ、待って…。
+EN ...Ah, wait...
+
+@ 49.48
+# 社 長
+JP …んっ？
+JP どうした？
+EN ...Hm? What is it?
+
+@ 49.55
+# 武藤 めぐみ
+JP ……………………。
+EN ........................
+
+@ 49.59
+# 武藤 めぐみ
+JP …ううん、なんでもない…。
+EN ...No, it's nothing...
+
+@ 49.62
+# 社 長
+JP そうか…。
+JP じゃあ、ケガに気をつけて
+JP 練習するんだぞ。
+EN I see... Well, train hard, and be careful not to get
+EN hurt.
+
+@ 49.80
+# 武藤 めぐみ
+JP ………………。
+EN ..................
+
+@ 49.84
+# 武藤 めぐみ
+JP …ありがとう、社長…。
+JP 私…もっとがんばるから…。
+EN ...Thank you, Boss... I'll... work even harder...
+
+@ 50.23
+# scene 051 バレンタインデー
+# 社 長
+JP ふわ～っ…。
+JP 結局、徹夜になったか…。
+EN Haaah... So I ended up pulling an all-nighter after all...
+
+@ 50.26
+# 社 長
+JP ううっ、トイレ、トイレっと…。
+EN Ugh, bathroom, bathroom...
+
+@ 50.61
+# 社 長
+JP ………………。
+EN ..................
+
+@ 50.64
+# 社 長
+JP …あれっ？
+JP オフィスのドア閉めたはずだよな…？
+EN ...Huh? I'm sure I closed the office door...
+
+@ 50.66
+# 社 長
+JP もしかして、霧子くんでも
+JP 来たのかな…？
+EN Maybe Kiriko came in early...?
+
+@ 50.75
+# 社 長
+JP …んっ？
+EN ...Hm?
+
+@ 50.84
+# 社 長
+JP あれっ、武藤か。
+JP どうしたんだ？
+EN Oh, Muto. What's up?
+
+@ 50.91
+# 武藤 めぐみ
+JP ……あっ！
+EN ......Ah!
+
+@ 50.94
+# 社 長
+JP 今日は早いな。
+JP 何か俺に話でも…。
+EN You're here early today. Did you want to talk to me
+EN about...
+
+@ 50.98
+# 武藤 めぐみ
+JP ジムの鍵…取りに来ただけ…。
+JP それじゃ…。
+EN I just came to get the gym key... Bye...
+
+@ 50.106
+# 社 長
+JP うぉっと…。
+JP そんなに焦らなくたって…。
+EN Whoa... You don't have to rush off like that...
+
+@ 50.109
+# 社 長
+JP ……んっ？
+EN ......Hm?
+
+@ 50.112
+# 社 長
+JP なんだ、この小箱？
+EN What's this little box?
+
+@ 50.114
+# 社 長
+JP …あっ！
+JP 今日は２月１４日か…。
+EN ...Ah! Today's February 14th...
+
+@ 50.116
+# 社 長
+JP …武藤ぉ！
+JP チョコ、ありがとうなぁー！
+EN ...Muto! Thanks for the chocolate!
+
+@ 50.130
+# 社 長
+JP （外からオフィスを去っていく
+JP 　足音が聞こえた。
+JP 　どうやらまだ外にいたらしい）
+EN (I heard footsteps leaving the office from outside.
+EN Apparently she'd still been out there.)
+
+@ 50.132
+# 社 長
+JP （素直に渡してくれればいいのにな）
+EN (She could've just handed it to me.)
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 武藤、先月のお礼だ。
+JP 受け取ってくれるか？
+EN Muto, this is to thank you for last month. Will you
+EN take it?
+
+@ 51.36
+# 武藤 めぐみ
+JP …えっ！？
+JP あっ…。
+EN ...What!? Ah...
+
+@ 51.39
+# 社 長
+JP もしかして、いらなかったか？
+EN Don't you want it?
+
+@ 51.43
+# 武藤 めぐみ
+JP そうじゃなくてっ！
+JP だから…もぉっ…！
+EN That's not it! I mean... geez...!
+
+@ 51.55
+# 社 長
+JP （武藤は俺の手から
+JP 　クッキーの包みを奪うと
+JP 　一目散に駆け去っていった）
+EN (Muto snatched the bag of cookies out of my hand
+EN and ran off at full speed.)
+
+@ 51.57
+# 社 長
+JP （残されたのは
+JP 　俺とそれを見ていた他のスタッフたち）
+EN (Left behind were me and the other staff members
+EN who'd watched it all.)
+
+@ 51.59
+# 社 長
+JP …あっ、それでか…。
+EN ...Ah, so that's why...
+
+@ 51.61
+# 社 長
+JP （その後、武藤の機嫌が直るまで
+JP 　１週間以上かかってしまった…）
+EN (After that, it took more than a week for Muto's
+EN mood to recover...)
+
+@ 52.31
+# scene 053 サイン会
+# 武藤 めぐみ
+JP 応援ありがとう。
+JP これからもよろしくね。
+EN Thanks for the support. Keep cheering for me.
+
+@ 53.31
+# scene 054 コンサート
+# 武藤 めぐみ
+JP えーと…。
+JP 私が一人ずつビンタするとかどうかな…？
+EN Um... How about I slap each of you, one at a time...?
+
+@ 54.26
+# scene 055 練習拒否
+# 武藤 めぐみ
+JP 放っておいて…。
+EN Leave me alone...
+
+@ 55.28
+# scene 056 失踪
+# 武藤 めぐみ
+JP …ごめん…。
+JP 今は一人にして……。
+EN ...Sorry... Let me be alone for now......
+
+@ 56.16
+# scene 057 選手解雇
+# 武藤 めぐみ
+JP やっぱりね…。
+JP 私、誰からも必要とされない
+JP 人間だから…。
+EN I knew it... I'm the kind of person nobody needs...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 武藤 めぐみ
+JP 海外か…。
+JP 自分を試すのには
+JP ちょうどいいかもね。
+EN Overseas, huh... It might be just right for testing
+EN myself.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 武藤 めぐみ
+JP ただいま。
+JP 自分の力を試せたかな…。
+EN I'm back. I think I got to test what I can do...
+
+@ 59.28
+# scene 060 移籍思案
+# 武藤 めぐみ
+JP 移籍かぁ…。
+EN A transfer, huh...
+
+@ 60.16
+# scene 061 革命軍結成
+# 武藤 めぐみ
+JP 自分の思いを通したければ
+JP 戦って勝つしかない…。
+JP ここは、そういうところでしょ？
+EN If you want things your way, you have to fight and
+EN win... That's how it works here, right?
+
+@ 61.16
+# scene 062 反乱軍結成
+# 武藤 めぐみ
+JP 何もかも気に入らないの！
+EN I hate everything about this!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 武藤 めぐみ
+JP もう言葉はいらないわ。
+JP 勝負よ。
+EN No more words. Let's fight.
+
+@ 63.16
+# scene 064 遺恨発生
+# 武藤 めぐみ
+JP …やっぱりね。
+EN ...I knew it.
+
+@ 64.16
+# scene 065 殴り込み
+# 武藤 めぐみ
+JP 全員倒してくるから！
+EN I'll take them all down!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 武藤 めぐみ
+JP 私が相手よ。
+EN I'll be your opponent.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 武藤 めぐみ
+JP ザコは邪魔よ。
+JP 一番強いのは誰？
+EN Small fry, out of my way. Who's the strongest here?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 武藤 めぐみ
+JP 約束する…。
+JP 必ず勝ってみせるから…！
+EN I promise... I'll win, no matter what...!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 武藤 めぐみ
+JP 約束守ることができて…よかった…。
+EN I'm glad... I could keep my promise...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 武藤 めぐみ
+JP 約束守れなくて…ごめん…。
+EN I couldn't keep my promise... I'm sorry...
+
+@ 70.13
+# scene 071 引退式
+# 武藤 めぐみ
+JP 私はプロレスをやってきて
+JP よかったです…。
+JP 応援ありがとうございました。
+EN I'm glad I did pro wrestling... Thank you for all your
+EN support.
+
+@ 71.18
+# 武藤 めぐみ
+JP なに？
+EN What?
+
+@ 71.37
+# 武藤 めぐみ
+JP どうしたの？
+EN What's up?
+
+@ 71.47
+# 武藤 めぐみ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 71.90
+# 武藤 めぐみ
+JP うん…。
+JP そのつもりだけど…。
+EN Yeah... That's the plan...
+
+@ 71.111
+# 武藤 めぐみ
+JP それだけ…？
+EN That's all...?
+
+@ 71.132
+# 武藤 めぐみ
+JP うん。
+JP 次の興業、期待していいから。
+EN Yeah. You can expect a lot at the next show.
+
+@ 71.153
+# 武藤 めぐみ
+JP …お世辞…下手ね。
+EN ...You're bad at flattery.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# 武藤 めぐみ
+JP …気を付けるわ。
+EN ...I'll be careful.
+
+@ 71.211
+# 武藤 めぐみ
+JP …気のせいよ。
+EN ...You're imagining it.
+
+@ 71.232
+# 武藤 めぐみ
+JP …ごめん…。
+JP 気を付ける…。
+EN ...Sorry... I'll be careful...
+
+@ 71.253
+# 武藤 めぐみ
+JP そんなことないけど…。
+EN That's not true...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed like yourself lately. Are you
+EN okay?
+
+@ 71.290
+# 武藤 めぐみ
+JP …うん、平気。
+JP なんでもないから…。
+EN ...Yeah, I'm fine. It's nothing...
+
+@ 71.311
+# 武藤 めぐみ
+JP 別に…。
+JP 気にしないで…。
+EN Not really... Don't worry about it...
+
+@ 71.332
+# 武藤 めぐみ
+JP 平気だから…。
+JP 心配してくれて
+JP ありがとう…。
+EN I'm fine... Thanks for worrying about me...
+
+@ 71.353
+# 武藤 めぐみ
+JP …練習…あるから…。
+EN ...I have... training...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 武藤 めぐみ
+JP …えぇ…。
+EN ...Yeah...
+
+@ 71.400
+# 武藤 めぐみ
+JP さぁ？
+EN Who knows?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 武藤 めぐみ
+JP …わかったわよ。
+JP 仲良くすればいいんでしょ？
+EN ...Fine. I just have to get along with her, right?
+
+@ 71.454
+# 武藤 めぐみ
+JP …向こうに言ってよ。
+EN ...Tell her that.
+
+@ 71.475
+# 武藤 めぐみ
+JP 別にあの娘とは何もないわよ。
+EN There's nothing going on between me and her.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 武藤 めぐみ
+JP …うん。
+EN ...Yeah.
+
+@ 71.522
+# 武藤 めぐみ
+JP ううん。
+JP どうしたの？
+EN No. What's wrong?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 武藤 めぐみ
+JP …社長がそう言うなら
+JP そうする。
+EN ...If you say so, Boss... I'll do it.
+
+@ 71.578
+# 武藤 めぐみ
+JP …ごめん。
+JP 頭でわかっても…。
+JP どうにもならないの。
+EN ...Sorry. Even if I understand it in my head... I just
+EN can't help it.
+
+@ 71.599
+# 武藤 めぐみ
+JP 特に喧嘩してないけど…。
+JP 何かあったの？
+EN We're not really fighting... Did something happen?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 武藤 めぐみ
+JP どうしたの？
+EN What's up?
+
+@ 72.16
+# 武藤 めぐみ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 武藤 めぐみ
+JP …うん、
+JP そのつもりだけど。
+EN Yeah... That's the plan...
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 武藤 めぐみ
+JP それだけ？
+EN That's all...?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 武藤 めぐみ
+JP うん。
+JP 次の興業、期待していいから。
+EN Yeah. You can expect a lot at the next show.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 武藤 めぐみ
+JP …お世辞…下手ね。
+EN ...You're bad at flattery.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 武藤 めぐみ
+JP …気を付けるわ。
+EN ...I'll be careful.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 武藤 めぐみ
+JP …気のせいよ。
+EN ...You're imagining it.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 武藤 めぐみ
+JP …ごめん…。
+JP 気を付ける……。
+EN ...Sorry... I'll be careful...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 武藤 めぐみ
+JP そんなことないけど…。
+EN That's not true...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed like yourself lately. Are you
+EN okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 武藤 めぐみ
+JP …うん、平気。
+JP なんでもないから。
+EN ...Yeah, I'm fine. It's nothing...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 武藤 めぐみ
+JP 別に…。
+JP 気にしないで…。
+EN Not really... Don't worry about it...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 武藤 めぐみ
+JP 平気だから…。
+JP 心配してくれて…
+JP ありがとう……。
+EN I'm fine... Thanks for worrying about me...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 武藤 めぐみ
+JP …練習、あるから…。
+EN ...I have... training...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 武藤 めぐみ
+JP …えぇ…。
+EN ...Yeah...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 武藤 めぐみ
+JP さぁ？
+EN Who knows?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 武藤 めぐみ
+JP …わかったわよ。
+JP 仲良くすればいいんでしょ？
+EN ...Fine. I just have to get along with her, right?
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 武藤 めぐみ
+JP …向こうに言ってよ。
+EN ...Tell her that.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 武藤 めぐみ
+JP 別にあの娘とは何もないわよ。
+EN There's nothing going on between me and her.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 武藤 めぐみ
+JP …うん。
+EN ...Yeah.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 武藤 めぐみ
+JP ううん。
+JP どうしたの？
+EN No. What's wrong?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 武藤 めぐみ
+JP …社長がそう言うなら…
+JP そうする。
+EN ...If you say so, Boss... I'll do it.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 武藤 めぐみ
+JP …ごめん。
+JP 頭でわかっても…。
+JP どうにもならないの。
+EN ...Sorry. Even if I understand it in my head... I just
+EN can't help it.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 武藤 めぐみ
+JP 特に喧嘩してないけど…。
+JP 何かあったの？
+EN We're not really fighting... Did something happen?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 武藤 めぐみ
+JP ありがとう。
+JP これからもよろしくね。
+EN Thanks. Keep looking out for me.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 武藤 めぐみ
+JP ありがとう。
+JP でも、少し多すぎない？
+EN Thanks. But isn't this a little too much?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 武藤 めぐみ
+JP …少し…寂しいかな…。
+EN ...That's a little... disappointing...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP ん～っ…。
+JP 羽根を伸ばすなら
+JP こういうところが一番だなぁ。
+EN Mmm... If you want to stretch your wings, there's no
+EN place like this.
+
+@ 105.34
+# 社 長
+JP みんなも楽しんでたみたいだし…。
+JP よしっ、俺も軽く泳ぐか。
+EN Looks like everyone was having fun, too... All right,
+EN I'll go for a little swim myself.
+
+@ 105.53
+# 社 長
+JP ふぅ、気持ちいい！
+EN Phew, this feels great!
+
+@ 105.63
+# 社 長
+JP （…んっ？
+JP 　なんか足が…）
+EN (...Hm? Something's wrong with my leg...)
+
+@ 105.77
+# 社 長
+JP （つぁあああああああああああ！！）
+EN (GAAAAAAAAAAAAAHHH!!)
+
+@ 105.79
+# 社 長
+JP （ま、マズイ！
+JP 　脚がつってる！
+JP 　あいたたたた！！）
+EN (Th-this is bad! My leg's cramping up! Ow ow ow ow!!)
+
+@ 105.81
+# 社 長
+JP だ、誰かたすゲボガァブボォバ……。
+EN S-somebody hel-glub-blub-blbbb......
+
+@ 105.101
+# 社 長
+JP （………………）
+EN (..................)
+
+@ 105.103
+# 社 長
+JP （…んっ…なんだ…？
+JP 　何か柔らかいものが…口に…）
+EN (...Hm... What's this...? Something soft... on my mouth...)
+
+@ 105.105
+# 社 長
+JP （………………）
+EN (..................)
+
+@ 105.109
+# ？？？
+JP 社長、社長…！
+JP 起きて、社長っ！
+EN Boss, Boss...! Wake up, Boss!
+
+@ 105.112
+# 社 長
+JP （…んっ…この声…）
+EN (...Hm... That voice...)
+
+@ 105.116
+# ？？？
+JP 社長…！
+EN Boss...!
+
+@ 105.136
+# 社 長
+JP …む…武藤……？
+EN ...M... Muto......?
+
+@ 105.146
+# 武藤 めぐみ
+JP …よかった……。
+EN ...Thank goodness......
+
+@ 105.149
+# 社 長
+JP ごほっ、ごほっ！
+JP 俺…溺れてたのか？
+EN Cough, cough! Was I... drowning?
+
+@ 105.153
+# 武藤 めぐみ
+JP えぇ…。
+JP 泳ぎ得意だから…私が助けて…。
+EN Yeah... I'm a good swimmer... so I saved you...
+
+@ 105.156
+# 社 長
+JP そうか…。
+JP ありがとう。
+JP 助かったよ…。
+EN I see... Thank you. You saved me...
+
+@ 105.158
+# 社 長
+JP あっ…？
+EN Huh...?
+
+@ 105.162
+# 武藤 めぐみ
+JP …なに？
+EN ...What?
+
+@ 105.165
+# 社 長
+JP じゃあ、あの感触…。
+JP もしかして俺に人工呼吸
+JP してくれたのか？
+EN Then that feeling... Did you give me mouth-to-mouth?
+
+@ 105.175
+# 武藤 めぐみ
+JP …私…じゃないわ…。
+EN ...It... wasn't me...
+
+@ 105.178
+# 社 長
+JP でも…武藤なんだろ？
+JP 本当にありがとう。
+EN But... it was you, right? Thank you, really.
+
+@ 105.188
+# 武藤 めぐみ
+JP …知らないわ…。
+EN ...I don't know anything about it...
+
+@ 105.191
+# 社 長
+JP いや、でも…？
+EN No, but...?
+
+@ 105.201
+# 武藤 めぐみ
+JP バカッ！
+JP 知らないっ！
+EN Idiot! I don't know!
+
+@ 105.204
+# 社 長
+JP いや、本当にお礼が言いたかった
+JP だけなんだ。
+EN No, I really just wanted to thank you.
+
+@ 105.206
+# 社 長
+JP 本当に死んだかもしれないって
+JP 思ったからな…。
+EN Because I honestly thought I might have died...
+
+@ 105.216
+# 武藤 めぐみ
+JP ………………。
+EN ..................
+
+@ 105.219
+# 社 長
+JP でも、そう思ったのも
+JP 武藤の膝枕が天国気分だった
+JP せいだな、きっと…。
+EN But I bet I only thought that because your lap pillow
+EN felt like heaven...
+
+@ 105.229
+# 武藤 めぐみ
+JP …バ、バカ……。
+EN ...Y-you idiot......
+
+@ 105.242
+# 武藤 めぐみ
+JP 本当に…バカなんだから……。
+EN You really are... such an idiot......
+
+@ 105.245
+# 社 長
+JP ……ああ…。
+EN ......Yeah...
+
+@ 105.249
+# 武藤 めぐみ
+JP 勝手に死んだりしたら
+JP 許さないんだから…。
+EN If you go and die on me, I'll never forgive you...
+
+@ 105.252
+# 社 長
+JP ああ…。
+JP 悪かったよ…。
+EN Yeah... Sorry about that...
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP ふぅ…。
+JP 後は帰って書類をまとめれば
+JP おしまいか。
+EN Phew... Now I just go back and sort the paperwork,
+EN and I'm done.
+
+@ 106.26
+# 社 長
+JP （ジムが明るいな。
+JP 　誰かいるのか？）
+EN (The gym lights are on. Is someone there?)
+
+@ 106.45
+# 社 長
+JP おーい、まだ誰か残ってるのかぁ？
+EN Hello? Is somebody still here?
+
+@ 106.49
+# ？？？
+JP …そこにいるの、社長？
+EN ...Is that you out there, Boss?
+
+@ 106.52
+# 社 長
+JP もしかして、武藤か？
+EN Is that you, Muto?
+
+@ 106.54
+# 社 長
+JP あぁ、シャワー中なら
+JP ゆっくり浴びてていいぞ。
+EN Oh, if you're in the shower, take your time.
+
+@ 106.58
+# 武藤 めぐみ
+JP それより…服…貸して…。
+EN More importantly... lend me... some clothes...
+
+@ 106.61
+# 社 長
+JP …えっ？
+EN ...What?
+
+@ 106.65
+# 武藤 めぐみ
+JP …服……。
+JP 着替え、忘れてきたから…。
+EN ...Clothes...... I forgot my change of clothes...
+
+@ 106.68
+# 社 長
+JP 着替えって…。
+JP 替えのシャツくらいならあるけど…。
+JP それでいいか？
+EN A change of clothes... I do have a spare shirt... Will
+EN that do?
+
+@ 106.72
+# 武藤 めぐみ
+JP …汗くさい服
+JP また着るよりはマシだから…。
+JP 貸して…。
+EN ...It beats putting my sweaty clothes back on... Lend
+EN it to me...
+
+@ 106.75
+# 社 長
+JP じゃ、あとでここに置いとくぞ。
+JP 着替えは誰かに電話して
+JP もって来てもらえよ。
+EN Okay, I'll leave it here later. Call someone to bring
+EN you a change of clothes.
+
+@ 106.79
+# 武藤 めぐみ
+JP …うん…。
+EN ...Okay...
+
+@ 106.97
+# 社 長
+JP ええっと…。
+JP あとは印鑑、印鑑っと……。
+EN Let's see... Now I just need my seal, my seal......
+
+@ 106.101
+# 武藤 めぐみ
+JP …社長。
+EN ...Boss.
+
+@ 106.104
+# 社 長
+JP おっ、武藤か？
+JP 着替えの方は…。
+EN Oh, Muto? How's the change of clothes...
+
+@ 106.124
+# 社 長
+JP ぶはっ！？
+EN Pfft!?
+
+@ 106.128
+# 武藤 めぐみ
+JP …社長？
+EN ...Boss?
+
+@ 106.131
+# 社 長
+JP ごほごほっ！
+JP う、うん…なんでもないぞ。
+JP うん。
+EN Cough, cough! Y-yeah... It's nothing. Yep.
+
+@ 106.135
+# 武藤 めぐみ
+JP …シャツ、ありがとう。
+EN ...Thanks for the shirt.
+
+@ 106.138
+# 社 長
+JP いや、べ、別に気にするな。
+JP ワイシャツは山ほどあるからな。
+JP あははは…。
+EN N-no, d-don't worry about it. I've got tons of dress
+EN shirts. Ahaha...
+
+@ 106.142
+# 武藤 めぐみ
+JP ………………。
+EN ..................
+
+@ 106.145
+# 社 長
+JP （い、いかん…。
+JP 　落ち着け、俺）
+EN (Th-this is bad... Calm down, man.)
+
+@ 106.155
+# 武藤 めぐみ
+JP あっ……。
+EN Ah......
+
+@ 106.158
+# 社 長
+JP ど、どうした！？
+EN Wh-what is it!?
+
+@ 106.168
+# 武藤 めぐみ
+JP ううん…。
+JP 別に…その……。
+EN No... It's nothing... it's just......
+
+@ 106.178
+# 武藤 めぐみ
+JP これ…。
+JP 社長のニオイするよね…。
+EN This... smells like you, Boss...
+
+@ 106.181
+# 社 長
+JP まぁ、俺のシャツだからな。
+EN Well, it is my shirt.
+
+@ 106.191
+# 武藤 めぐみ
+JP …うん……。
+EN ...Yeah......
+
+@ 106.194
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.198
+# 武藤 めぐみ
+JP ………………。
+EN ..................
+
+@ 106.201
+# 社 長
+JP （き、気まずい……）
+EN (Th-this is awkward......)
+
+@ 106.203
+# 社 長
+JP と、とにかく
+JP 早く着替えをなんとかしろよ！
+EN A-anyway, hurry up and sort out a change of
+EN clothes!
+
+@ 106.205
+# 社 長
+JP あっ、そのシャツは
+JP 適当に処分していいぞ！
+JP まだ山ほどあるからな！
+EN Oh, and do whatever you want with that shirt! I've
+EN still got tons!
+
+@ 106.215
+# 武藤 めぐみ
+JP …うん…。
+JP あの…社長……？
+EN ...Okay... Um... Boss......?
+
+@ 106.218
+# 社 長
+JP な、なんだ！？
+EN Wh-what is it!?
+
+@ 106.228
+# 武藤 めぐみ
+JP …シャツ…ありがとう…。
+JP それだけ…。
+EN ...Thanks... for the shirt... That's all...
+
+@ 106.252
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.254
+# 社 長
+JP まいったな…。
+EN Good grief...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP 後は帰って書類をまとめるだけか…。
+JP もうこんな時間なんだよなぁ。
+EN Now I just go back and sort the paperwork... It's
+EN already this late, huh.
+
+@ 107.26
+# 社 長
+JP （ジムが明るいな…。
+JP 　誰か居残り練習でもしてるのか？）
+EN (The gym lights are on... Is someone staying late to
+EN train?)
+
+@ 107.45
+# 社 長
+JP （誰もいない…。
+JP 　いや、シャワールームから
+JP 　人の気配が……）
+EN (Nobody here... No, I can sense someone in the
+EN shower room......)
+
+@ 107.49
+# ？？？
+JP …そこにいるの、社長？
+EN ...Is that you out there, Boss?
+
+@ 107.52
+# 社 長
+JP もしかして武藤か？
+JP どうした？
+EN Is that you, Muto? What's wrong?
+
+@ 107.54
+# 社 長
+JP （前にも同じことがあったよな…。
+JP 　まさか…？）
+EN (The same thing happened before... Don't tell me...?)
+
+@ 107.58
+# 武藤 めぐみ
+JP 着替え忘れたから…。
+JP 貸して…。
+EN I forgot my change of clothes... Lend me something...
+
+@ 107.61
+# 社 長
+JP ええっと…それはつまり…。
+JP 俺の予備のシャツを…？
+EN Uh... So you mean... my spare shirt...?
+
+@ 107.65
+# 武藤 めぐみ
+JP …なんでもいい。
+EN ...Anything's fine.
+
+@ 107.68
+# 社 長
+JP …わかった。
+JP 後でここに置いとくけど…。
+EN ...All right. I'll leave it here later, but...
+
+@ 107.70
+# 社 長
+JP 寮の誰かに連絡して
+JP 着替え持ってきてもらえよ。
+EN Get in touch with someone at the dorm and have them
+EN bring you a change of clothes.
+
+@ 107.74
+# 武藤 めぐみ
+JP …うん…ごめん…。
+EN ...Okay... Sorry...
+
+@ 107.92
+# 社 長
+JP よし、これで書類は完成。
+EN All right, the paperwork's done.
+
+@ 107.96
+# 武藤 めぐみ
+JP …社長、いい？
+EN ...Boss, got a minute?
+
+@ 107.99
+# 社 長
+JP …あぁ…。
+EN ...Yeah...
+
+@ 107.120
+# 武藤 めぐみ
+JP ………………。
+EN ..................
+
+@ 107.123
+# 社 長
+JP （また、その格好か…。
+JP 　どこを見ていいかわからんぞ）
+EN (That outfit again... I don't know where to look.)
+
+@ 107.125
+# 社 長
+JP えーと…。
+JP 寮の誰かと連絡はついたのか？
+EN Uh... Did you reach anyone at the dorm?
+
+@ 107.129
+# 武藤 めぐみ
+JP …うん。
+JP ３０分ぐらいで持ってこれるって…。
+EN ...Yeah. They said they can bring it in about 30
+EN minutes...
+
+@ 107.132
+# 社 長
+JP そうか…。
+JP じゃあ、コーヒーでも飲むか？
+EN I see... Well, how about some coffee?
+
+@ 107.136
+# 武藤 めぐみ
+JP 社長…それ、紅茶…。
+EN Boss... that's tea...
+
+@ 107.139
+# 社 長
+JP あぁ、そ、そうだな！
+JP いつも霧子くんがやってくれるから…。
+JP あははは…。
+EN Ah, r-right! Kiriko always makes it for me... Ahaha...
+
+@ 107.149
+# 武藤 めぐみ
+JP ………………。
+EN ..................
+
+@ 107.152
+# 社 長
+JP ええっと…砂糖はどこだったかな…。
+EN Uh... Where was the sugar again...
+
+@ 107.162
+# 武藤 めぐみ
+JP …社長…私……。
+EN ...Boss... I......
+
+@ 107.165
+# 社 長
+JP …んっ？
+JP ど、どうした？
+EN ...Hm? Wh-what is it?
+
+@ 107.169
+# 武藤 めぐみ
+JP 私…社長にどうやって
+JP お返しすればいいかな？
+EN How should I... repay you, Boss?
+
+@ 107.172
+# 社 長
+JP シャツのことなら気にするな。
+EN If it's about the shirt, don't worry about it.
+
+@ 107.176
+# 武藤 めぐみ
+JP でも……。
+EN But......
+
+@ 107.179
+# 社 長
+JP まぁゆっくりしてろ。
+EN Just relax for now.
+
+@ 107.183
+# 武藤 めぐみ
+JP 社長…。
+JP もし社長が望むなら…。
+EN Boss... If you want...
+
+@ 107.193
+# 武藤 めぐみ
+JP 私のこと
+JP 社長の好きにしてもいいよ…。
+EN You can do whatever you like with me...
+
+@ 107.196
+# 社 長
+JP バ、バカッ！
+JP 大人をからかうもんじゃないぞ！
+EN D-don't be stupid! You shouldn't tease a grown man
+EN like that!
+
+@ 107.208
+# 武藤 めぐみ
+JP …冗談……。
+EN ...Just kidding......
+
+@ 107.211
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 107.221
+# 武藤 めぐみ
+JP 冗談に決まってるでしょ…。
+EN Obviously I was kidding...
+
+@ 107.224
+# 社 長
+JP そ、そうだよな。
+JP あははは…。
+EN R-right, of course. Ahaha...
+
+@ 107.234
+# 武藤 めぐみ
+JP ………………。
+EN ..................
+
+@ 107.237
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.240
+# 社 長
+JP （ふぅ…。
+JP 　まいったな…）
+EN (Phew... Good grief...)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 武藤 めぐみ
+JP …ケガ、しないでね。
+EN ...Don't get hurt.
+
+@ 109.17
+# scene 112 練習試合 バッド
+# 武藤 めぐみ
+JP あなたじゃ勝てない…。
+EN You can't beat me...
+
+@ 110.16
+# scene 113 練習開始
+# 武藤 めぐみ
+JP よろしく…。
+EN Let's do this...
+
+@ 111.16
+# scene 114 練習開始 好意
+# 武藤 めぐみ
+JP 今日もよろしくね。
+EN Let's do this again today.
+
+@ 112.16
+# scene 115 特訓開始
+# 武藤 めぐみ
+JP 強くなるには必要かもね。
+EN Might be necessary if I want to get stronger.
+
+@ 113.20
+# scene 116 特訓成功
+# 武藤 めぐみ
+JP この感触、忘れないわ。
+EN I won't forget this feeling.
+
+@ 114.20
+# scene 117 特訓失敗
+# 武藤 めぐみ
+JP こんなのじゃ…ダメ…。
+EN This... isn't good enough...
+
+@ 115.16
+# scene 118 休養
+# 武藤 めぐみ
+JP 社長…。
+JP 私、何すればいいかな…？
+EN Boss... What should I do with myself...?
+
+@ 116.16
+# scene 119 入場1
+# 武藤 めぐみ
+JP あなたには何もさせないわ！
+EN I won't let you do a thing!
+
+@ 117.16
+# scene 119 入場2
+# 武藤 めぐみ
+JP 駆け上る私を見ていて！
+EN Watch me climb to the top!
+
+@ 118.17
+# scene 120 タッグマッチ ベスト
+# 武藤 めぐみ
+JP あなたとならどこまでもいける！
+EN With you, I can go anywhere!
+
+@ 119.17
+# scene 123 タッグマッチ バッド
+# 武藤 めぐみ
+JP …まぁ、いいけどね。
+EN ...Well, whatever.
+
+@ 120.16
+# scene 125 必殺技１
+# 武藤 めぐみ
+JP 勝機は自分の手で掴んでみせる！
+EN I'll seize victory with my own hands!
+
+@ 121.16
+# scene 125 必殺技２
+# 武藤 めぐみ
+JP 誰にも私の邪魔はさせないわ！
+EN I won't let anyone get in my way!
+
+@ 122.16
+# scene 125 必殺技３
+# 武藤 めぐみ
+JP 私は誰よりも高く飛んでみせる！
+EN I'll fly higher than anyone!
+
+@ 123.12
+# scene 126 勝利1
+# 武藤 めぐみ
+JP 私は、この場所でもっと輝いてみせる！
+EN I'll shine even brighter in this place!
+
+@ 124.12
+# scene 126 勝利2
+# 武藤 めぐみ
+JP 見ていて！
+JP 私はまだ駆け上ってみせるから！
+EN Watch me! I'm still going to keep climbing!
+
+@ 125.12
+# scene 126 勝利3
+# 武藤 めぐみ
+JP 私はまだ上を目指さないと
+JP いけないの！
+EN I still have to aim higher!
+
+@ 126.15
+# scene 133 表彰1
+# 武藤 めぐみ
+JP ありがとうございます。
+JP でも、私が本当に欲しいのは
+JP 全部のベルトです。
+EN Thank you very much. But what I really want is every
+EN belt there is.
+
+@ 127.15
+# scene 133 表彰2
+# 武藤 めぐみ
+JP この賞を励みに、これからも
+JP がんばっていきたいと思います。
+EN This award will encourage me to keep working hard.
+
+@ 128.12
+# scene 134 優勝1
+# 武藤 めぐみ
+JP まだ満足していません。
+JP 次も、その次もずっと勝ち続けます。
+EN I'm not satisfied yet. I'll keep winning, next time and
+EN every time after.
+
+@ 129.12
+# scene 134 優勝２
+# 武藤 めぐみ
+JP これはただの通過点です。
+JP もっと強くなります。
+EN This is just a stepping stone. I'll get even stronger.
+
+@ 130.24
+# scene 135 エンディング 通常
+# 武藤 めぐみ
+JP …おめでとう。
+JP 社長なら絶対できるって信じてた…。
+JP ホントよ…。
+EN ...Congratulations. I believed you could do it, Boss... I
+EN really did...
+
+@ 131.24
+# scene 136 エンディング 好意
+# 武藤 めぐみ
+JP 私も…社長の役に立ったよね？
+JP これからも社長の側にいても
+JP いいかな…？
+EN I was useful to you too, right, Boss? Is it okay... if I
+EN stay by your side from now on, too?

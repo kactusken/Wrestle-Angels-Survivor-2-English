@@ -1,0 +1,2119 @@
+# /SCR/011.BIN - テディキャット堀
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 011` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# テディキャット堀
+JP 堀です。
+JP 将来の夢は優しい旦那さまと
+JP ネコに囲まれて暮らすことです！
+EN I'm Hori. My dream is to live with a sweet husband,
+EN surrounded by cats!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# テディキャット堀
+JP アリガト！
+JP これからよろしくにゃん！
+EN Thank you! I'm in your care now, nya!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# テディキャット堀
+JP いきなり挫折にゃん…。
+EN Flopped right out of the gate, nya...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （走り高跳びの選手に有望そうな娘が
+JP 　いるそうだが……）
+EN (I heard there's a promising girl on the high jump
+EN team...)
+
+@ 3.25
+# 社 長
+JP （あっ、あそこで練習している娘が
+JP 　そうかな？）
+EN (Oh, is that her practicing over there?)
+
+@ 3.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.37
+# テディキャット堀
+JP うにゃ？
+JP どちら様ですか？
+EN Mew? Who are you?
+
+@ 3.40
+# 社 長
+JP 私はプロレス団体を
+JP 経営している者なのですが…。
+EN I run a pro wrestling promotion...
+
+@ 3.47
+# テディキャット堀
+JP えっ…？
+JP プロレス団体の社長さん？
+EN Huh...? You're the president of a wrestling
+EN promotion?
+
+@ 3.50
+# 社 長
+JP はい。
+JP 実はうちの団体に入って
+JP いただけないかと思いまして…。
+EN Yes. Actually, I was hoping you might join my
+EN promotion...
+
+@ 3.54
+# テディキャット堀
+JP プロレスのスカウトですかぁ？
+EN You're scouting me for pro wrestling?
+
+@ 3.57
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# テディキャット堀
+JP えっと…社長さんはネコ好きですか？
+EN Um... do you like cats, sir?
+
+@ 4.18
+# 社 長
+JP えっ…？
+JP 嫌いじゃないですけど…？
+EN Huh...? I don't dislike them...?
+
+@ 4.29
+# テディキャット堀
+JP それなら……いいかな。
+EN Then... I guess that's okay.
+
+@ 4.32
+# 社 長
+JP 本当ですか！？
+JP よかった！
+JP これからよろしく！
+EN Really!? Great! I'm glad to have you!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# テディキャット堀
+JP やっぱり格闘技は苦手で…。
+JP すみません。
+EN Fighting sports just aren't my thing... Sorry.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （なんとか彼女に入団してもらう
+JP 　方法はないだろうか…）
+EN (Isn't there some way to get her to join...?)
+
+@ 6.25
+# 社 長
+JP あっ、今日もあそこで
+JP 練習しているみたいだな。
+EN Ah, looks like she's practicing over there again
+EN today.
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# テディキャット堀
+JP ふにゃ？
+JP …あっ、社長さん。
+EN Mrrow? ...Oh, it's the President.
+
+@ 6.40
+# 社 長
+JP 懲りずにスカウトに来ました。
+JP 気持ちは変わりませんか？
+EN I'm back to scout you again. Have you changed your
+EN mind?
+
+@ 6.47
+# テディキャット堀
+JP えっと…。
+JP 何事も経験かとは思ったんですけど…。
+EN Um... I did think it might be worth trying, like
+EN anything...
+
+@ 6.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 6.52
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# テディキャット堀
+JP えっと…社長さんはネコ好きですか？
+EN Um... do you like cats, sir?
+
+@ 7.18
+# 社 長
+JP えっ…？
+JP 嫌いじゃないですけど…？
+EN Huh...? I don't dislike them...?
+
+@ 7.29
+# テディキャット堀
+JP それなら……いいかな。
+EN Then... I guess that's okay.
+
+@ 7.32
+# 社 長
+JP 本当ですか！？
+JP よかった！
+JP これからよろしく！
+EN Really!? Great! I'm glad to have you!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# テディキャット堀
+JP やっぱり格闘技は苦手で…。
+JP すみません。
+EN Fighting sports just aren't my thing... Sorry.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （堀選手…。
+JP 　全身のバネを利用した投げ技には
+JP 　彼女ならではの魅力がある）
+EN (Hori... Her throws, powered by the spring in her
+EN whole body, have a charm all her own.)
+
+@ 9.25
+# 社 長
+JP （是非ともうちに欲しいところ
+JP 　だが…あっ、あそこにいるのは…）
+EN (I'd love to have her... Oh, is that her over there...?)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# テディキャット堀
+JP ふにゃ…？
+JP あなたは…？
+EN Mew...? Who are you?
+
+@ 9.40
+# 社 長
+JP （俺は自分について説明して
+JP 　単刀直入に彼女をスカウトしてみた）
+EN (I introduced myself and asked her straight out to
+EN join us.)
+
+@ 9.47
+# テディキャット堀
+JP 社長さんだったんですか？
+JP う～ん…でも移籍かぁ…。
+EN You're a president? Hmm... but switching promotions...
+
+@ 9.50
+# 社 長
+JP どうでしょう？
+EN What do you think?
+
+@ 9.57
+# テディキャット堀
+JP えっと…社長さんはネコ好きですか？
+EN Um... do you like cats, sir?
+
+@ 10.14
+# scene 011 移籍交渉 他団体所属 成功
+# 社 長
+JP えっ…？
+JP 嫌いじゃないですけど…？
+EN Huh...? I don't dislike them...?
+
+@ 10.21
+# テディキャット堀
+JP 私もネコかわいがりしてくれますか？
+EN Will you pamper me like a pet cat, too?
+
+@ 10.24
+# 社 長
+JP …はっ？
+JP えっ、いや、まぁ…。
+JP お望みであれば…。
+EN ...Huh? Er, well, I mean... If that's what you want...
+
+@ 10.35
+# テディキャット堀
+JP それならＯＫです。
+JP よろしくにゃん！
+EN Then it's a deal. Pleased to meet you, nya!
+
+@ 11.14
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 社 長
+JP あの…それがこの件と
+JP 何か関係あるんでしょうか？
+EN Um... does that have anything to do with this?
+
+@ 11.25
+# テディキャット堀
+JP やっぱり…ダメです。
+EN I knew it... no can do.
+
+@ 11.28
+# 社 長
+JP （何が悪かったんだろう…）
+EN (What did I do wrong...?)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには堀選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really need Hori. I decided to try negotiating
+EN once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# テディキャット堀
+JP うにゅ…？
+JP あっ、社長さん。
+EN Mnyu...? Oh, it's the President.
+
+@ 12.38
+# 社 長
+JP また伺わせてもらいました。
+EN I've come to see you again.
+
+@ 12.40
+# 社 長
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.42
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my offer again and pleaded with her
+EN earnestly.)
+
+@ 12.49
+# テディキャット堀
+JP えっと…。
+JP 社長さんはネコ好きですか？
+EN Um... do you like cats, sir?
+
+@ 12.52
+# 社 長
+JP （…前にも聞かれたような？）
+EN (...Didn't she ask me that before?)
+
+@ 13.14
+# scene 014 移籍交渉 他団体所属２ 成功
+# 社 長
+JP えっ…？
+JP 嫌いじゃないですけど…？
+EN Huh...? I don't dislike them...?
+
+@ 13.21
+# テディキャット堀
+JP 私もネコかわいがりしてくれますか？
+EN Will you pamper me like a pet cat, too?
+
+@ 13.24
+# 社 長
+JP …はっ？
+JP えっ、いや、まぁ…。
+JP お望みであれば…。
+EN ...Huh? Er, well, I mean... If that's what you want...
+
+@ 13.35
+# テディキャット堀
+JP それならＯＫです。
+JP よろしくにゃん！
+EN Then it's a deal. Pleased to meet you, nya!
+
+@ 14.14
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 社 長
+JP あの…それがこの件と
+JP 何か関係あるんでしょうか？
+EN Um... does that have anything to do with this?
+
+@ 14.25
+# テディキャット堀
+JP やっぱり…ダメです。
+EN I knew it... no can do.
+
+@ 14.28
+# 社 長
+JP （何が悪かったんだろう…）
+EN (What did I do wrong...?)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （堀選手…。
+JP 　あの俊敏さを活かした投げ技。
+JP 　是非ともうちに欲しい逸材だ）
+EN (Hori... Throws that make the most of her quickness.
+EN She's exactly the talent I want.)
+
+@ 15.25
+# 社 長
+JP （このあたりにいるって
+JP 　話だけど…あぁ、いたいた）
+EN (I heard she'd be around here... Ah, there she is.)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# テディキャット堀
+JP にゃん…？
+JP どちら様ですか？
+EN Nya...? Who are you?
+
+@ 15.40
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro wrestling promotion...
+
+@ 15.47
+# テディキャット堀
+JP 社長さんなんですか？
+JP えっと…私に何か？
+EN You're a president? Um... what do you want with me?
+
+@ 15.50
+# 社 長
+JP うちの団体に入団して
+JP いただけないでしょうか？
+EN Would you be willing to join my promotion?
+
+@ 15.57
+# テディキャット堀
+JP スカウトですか…。
+JP 弱ったにゃ～。
+EN Scouting, huh... What a pickle, nya.
+
+@ 15.60
+# 社 長
+JP どうかお願いできないでしょうか？
+EN Won't you please consider it?
+
+@ 15.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# テディキャット堀
+JP 私でいいんですか？
+EN You really want me?
+
+@ 16.18
+# 社 長
+JP もちろんです！
+JP 是非お願いします！
+EN Of course! Please join us!
+
+@ 16.29
+# テディキャット堀
+JP それならよろしくお願いします。
+EN Then I'm in your hands.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# テディキャット堀
+JP でも…気ままなノラ生活を
+JP もう少し続けたいと思っているので…。
+EN But... I'd like to keep living the carefree stray-cat
+EN life a little longer...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには堀選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really need Hori. I decided to try negotiating
+EN once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# テディキャット堀
+JP にゃう…？
+JP あっ、社長さん。
+EN Nyau...? Oh, it's the President.
+
+@ 18.38
+# 社 長
+JP どうでしょう？
+JP お考えに変わりはありませんか？
+EN How about it? Do you still feel the same way?
+
+@ 18.45
+# テディキャット堀
+JP 変わったといえば
+JP 変わりましたけど…。
+EN Well, I guess I've changed my mind... kind of...
+
+@ 18.48
+# 社 長
+JP でしたら、私を信じて
+JP 入団してもらえないでしょうか？
+EN Then won't you trust me and join us?
+
+@ 18.50
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my offer again and pleaded with her
+EN earnestly.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# テディキャット堀
+JP 私でいいんですか？
+EN You really want me?
+
+@ 19.18
+# 社 長
+JP もちろんです！
+JP 是非お願いします！
+EN Of course! Please join us!
+
+@ 19.29
+# テディキャット堀
+JP それならよろしくお願いします。
+EN Then I'm in your hands.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# テディキャット堀
+JP でも…気ままなノラ生活を
+JP もう少し続けたいと思っているので…。
+EN But... I'd like to keep living the carefree stray-cat
+EN life a little longer...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は堀を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to visit Hori. She's a wrestler we really
+EN need.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、いたいた。
+JP おーい、堀ぃ！
+EN She should be around here... Ah, there she is. Hey,
+EN Hori!
+
+@ 21.35
+# テディキャット堀
+JP あっ…社長！？
+EN Oh... Boss!?
+
+@ 21.38
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.42
+# テディキャット堀
+JP どうかしたの…？
+EN What's going on...?
+
+@ 21.45
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you because I
+EN want you to come back...
+
+@ 21.52
+# テディキャット堀
+JP いきなりそんなこと言われても…。
+EN You can't just spring that on me...
+
+@ 21.55
+# 社 長
+JP そうだな。
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN You're right. I know I'm in no position to ask you
+EN this...
+
+@ 21.57
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# テディキャット堀
+JP 本当に戻って欲しいの？
+EN You really want me back?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 是非とも力を貸して欲しいんだ。
+EN Yeah. I really need your help.
+
+@ 22.29
+# テディキャット堀
+JP …社長にお願いされたら
+JP 断れないよね…。
+EN ...I can't say no when you ask me like that, Boss...
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP よろしくな。
+EN Thanks. Welcome back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# テディキャット堀
+JP 今はそんな気分になれないし…。
+EN I'm just not in the mood right now...
+
+@ 23.22
+# 社 長
+JP どうしてもダメなのか？
+EN There's no way at all?
+
+@ 23.29
+# テディキャット堀
+JP ネコの恨みは七代続くのにゃ。
+EN A cat's grudge lasts seven generations, nya.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び堀を訪ねることにした。
+JP 　彼女を諦めることはできない）
+EN (I decided to visit Hori again. I can't give up on her.)
+
+@ 24.25
+# 社 長
+JP 堀っ！
+EN Hori!
+
+@ 24.35
+# テディキャット堀
+JP あっ…社長…。
+EN Oh... Boss...
+
+@ 24.38
+# 社 長
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN I've come to ask again. I really want you back with
+EN us.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# テディキャット堀
+JP 本当に戻って欲しいの？
+EN You really want me back?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 是非とも力を貸して欲しいんだ。
+EN Yeah. I really need your help.
+
+@ 25.29
+# テディキャット堀
+JP …社長にお願いされたら
+JP 断れないよね…。
+EN ...I can't say no when you ask me like that, Boss...
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP よろしくな。
+EN Thanks. Welcome back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# テディキャット堀
+JP 今はそんな気分になれないし…。
+EN I'm just not in the mood right now...
+
+@ 26.22
+# 社 長
+JP どうしてもダメなのか？
+EN There's no way at all?
+
+@ 26.29
+# テディキャット堀
+JP ネコの恨みは七代続くのにゃ。
+EN A cat's grudge lasts seven generations, nya.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# テディキャット堀
+JP こんなのなめれば治るにゃん！
+EN I'll just lick it and it'll heal, nya!
+
+@ 28.16
+# scene 029 ケガ大
+# テディキャット堀
+JP こんなときにごめんなさい…。
+EN I'm so sorry, at a time like this...
+
+@ 29.16
+# scene 030 入院
+# テディキャット堀
+JP クセにならなきゃいいんだけど…。
+EN I hope this doesn't turn into a habit...
+
+@ 30.16
+# scene 031 退院
+# テディキャット堀
+JP ただいま～。
+JP ネコたちに会いたいよ～。
+EN I'm home! I missed my kitties!
+
+@ 31.16
+# scene 032 ケガ完治
+# テディキャット堀
+JP 治ったにゃん！
+EN All healed, nya!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# テディキャット堀
+JP ネズミを獲れなくなったネコは
+JP 去るべきかな…。
+EN A cat who can't catch mice anymore should leave, I
+EN guess...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# テディキャット堀
+JP 段ボールに入れられて
+JP 捨てられるの…？
+EN Are you gonna put me in a cardboard box and
+EN abandon me...?
+
+@ 34.16
+# scene 035 コーチ就任
+# テディキャット堀
+JP 改めて挨拶しないとね！
+EN Guess I'd better introduce myself all over again!
+
+@ 35.16
+# scene 036 ケガ引退
+# テディキャット堀
+JP 社長、ゴメンにゃん……。
+EN Boss, I'm sorry, nya...
+
+@ 36.16
+# scene 037 年齢引退
+# テディキャット堀
+JP 限界までがんばったけど…。
+EN I gave it everything I had, right to the limit...
+
+@ 37.16
+# scene 038 退団
+# テディキャット堀
+JP 今日から気ままなノラネコにゃん…。
+EN From today I'm a carefree stray cat, nya...
+
+@ 38.16
+# scene 039 スランプ
+# テディキャット堀
+JP ちょっと調子悪いかも…。
+EN I might be a little off my game...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# テディキャット堀
+JP ネコ好きの人たちかな？
+EN Maybe they're all cat lovers?
+
+@ 39.19
+# 社 長
+JP どうだろう？
+JP とにかく応援に負けないように
+JP がんばれよ。
+EN Who knows? Anyway, work hard and live up to their
+EN support.
+
+@ 39.26
+# テディキャット堀
+JP うん。
+JP がんばるにゃん！
+EN Okay. I'll do my best, nya!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# テディキャット堀
+JP 新しいファンクラブ！？
+EN A new fan club!?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# テディキャット堀
+JP うん！
+JP もっとがんばるにゃん！
+EN Okay! I'll work even harder, nya!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# テディキャット堀
+JP ハァ～…。
+EN Haaah...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.26
+# テディキャット堀
+JP うん…。
+JP そうだよね…。
+EN Yeah... You're right...
+
+@ 42.16
+# scene 043 映画出演
+# テディキャット堀
+JP ネコっぽい演技なら
+JP 任せてほしいにゃん。
+EN If they need cat-like acting, leave it to me, nya.
+
+@ 43.16
+# scene 044 一日署長
+# テディキャット堀
+JP ネコのおまわりさんだよ～！
+EN I'm a kitty cop!
+
+@ 44.16
+# scene 045 写真集発売
+# テディキャット堀
+JP ネコの写真集かなぁ？
+EN Will it be a cat photo book?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# テディキャット堀
+JP ちょっと緊張するかも…。
+EN I might be a little nervous...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# テディキャット堀
+JP ジャケットはネコの写真がいいなぁ。
+EN I want a cat photo on the cover!
+
+@ 47.16
+# scene 048 始球式
+# テディキャット堀
+JP 幻のキャットトルネード投法を
+JP 見せるときが来たにゃん！
+EN The time has come to unveil my legendary Cat
+EN Tornado pitch, nya!
+
+@ 48.16
+# scene 048 学園祭
+# テディキャット堀
+JP お祭り大好き～！
+EN I love festivals!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# テディキャット堀
+JP …えっ！？
+JP もらっていいの？
+EN ...Huh!? I can have this?
+
+@ 49.39
+# 社 長
+JP 気にするな。
+JP これからもよろしくな。
+EN Don't mention it. Keep up the good work.
+
+@ 49.46
+# テディキャット堀
+JP 社長、大好き！
+JP ありがとにゃん！
+EN I love you, Boss! Thank you, nya!
+
+@ 50.30
+# scene 051 バレンタインデー
+# テディキャット堀
+JP 社長、チョコあげる！
+JP ネコの形がラブリーなのよ！
+EN Boss, here's some chocolate! It's shaped like a cat,
+EN isn't it lovely?
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Ah, thank you.
+
+@ 50.40
+# テディキャット堀
+JP 感想聞かせてほしいにゃん！
+EN Tell me what you think, nya!
+
+@ 51.29
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# テディキャット堀
+JP くれるの！？
+JP やったー！
+JP うれしいにゃん！
+EN For me!? Yay! I'm so happy, nya!
+
+@ 51.39
+# 社 長
+JP まぁ、練習の合間にでも食べてくれ。
+EN Well, have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# テディキャット堀
+JP ありがと～。
+JP これからも応援よろしくにゃん！
+EN Thank you! Keep cheering for me, nya!
+
+@ 53.31
+# scene 054 コンサート
+# テディキャット堀
+JP 跳んだり、跳ねたり
+JP 楽しく歌うにゃん！
+EN I'll hop and bounce and sing my heart out, nya!
+
+@ 54.28
+# scene 055 練習拒否
+# テディキャット堀
+JP ネコは気まぐれなの…。
+EN Cats are fickle...
+
+@ 55.28
+# scene 056 失踪
+# テディキャット堀
+JP ネコはひっそりと消えていくの…。
+EN A cat just quietly slips away...
+
+@ 56.16
+# scene 057 選手解雇
+# テディキャット堀
+JP こうして捨てられていくのにゃん…。
+EN So this is how I get abandoned, nya...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# テディキャット堀
+JP 外国のネコもきっとかわいいよね！
+EN I bet cats overseas are cute too!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# テディキャット堀
+JP ただいまぁ！
+JP 外国のネコの写真
+JP いっぱい撮ってきたよ！
+EN I'm home! I took tons of pictures of cats abroad!
+
+@ 59.26
+# scene 060 移籍思案
+# テディキャット堀
+JP んー…。
+JP あっちにもネコ好きの人は
+JP いるかなぁ…？
+EN Hmm... I wonder if there are cat lovers over there
+EN too...?
+
+@ 60.16
+# scene 061 革命軍結成
+# テディキャット堀
+JP やるからにはトコトンやるにゃん！
+EN If I'm doing this, I'm going all the way, nya!
+
+@ 61.16
+# scene 062 反乱軍結成
+# テディキャット堀
+JP 女心はネコの眼なのにゃん！
+EN A girl's heart changes like a cat's eyes, nya!
+
+@ 62.16
+# scene 063 最終決戦要求
+# テディキャット堀
+JP 勝負だにゃん！
+EN Let's settle this, nya!
+
+@ 63.16
+# scene 065 遺恨発生
+# テディキャット堀
+JP ネコの恨みを思い知るがいいにゃん！
+EN Now you'll learn what a cat's grudge feels like, nya!
+
+@ 64.16
+# scene 065 殴り込み
+# テディキャット堀
+JP 暴れてくるにゃん！
+EN I'm gonna go raise some heck, nya!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# テディキャット堀
+JP 自分のおうちは自分で守るにゃん！！
+EN I'll protect my own home myself, nya!!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# テディキャット堀
+JP 全力で勝負して欲しいにゃん！
+EN Give me everything you've got, nya!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# テディキャット堀
+JP 腕が鳴るにゃん！
+EN I'm itching to go, nya!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# テディキャット堀
+JP 優勝できたのは
+JP みんなのおかげにゃん！
+EN I won the tournament thanks to all of you, nya!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# テディキャット堀
+JP うにぃ…。
+JP 負けちゃったにゃん…。
+EN Mnyuu... I lost, nya...
+
+@ 70.13
+# scene 071 引退式
+# テディキャット堀
+JP 笑ってお別れするにゃん！
+JP バイバイにゃん！
+EN Let's say goodbye with a smile, nya! Bye-bye, nya!
+
+@ 71.18
+# テディキャット堀
+JP なに、社長？
+EN What is it, Boss?
+
+@ 71.37
+# テディキャット堀
+JP あっ、社長！
+EN Oh, Boss!
+
+@ 71.47
+# テディキャット堀
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# テディキャット堀
+JP うん、がんばるにゃん！
+EN Okay, I'll do my best, nya!
+
+@ 71.111
+# テディキャット堀
+JP ふにゃ～ん…んっ…。
+EN Funyaaan... Mm...
+
+@ 71.132
+# テディキャット堀
+JP そんなこと言われると
+JP 調子に乗っちゃうにゃん♪
+EN If you say things like that, I'll get carried away, nya!
+
+@ 71.153
+# テディキャット堀
+JP まだがんばりたりないにゃあ…？
+EN I'm still not trying hard enough, nya...?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# テディキャット堀
+JP 気を引き締めるにゃん！
+EN I'll pull myself together, nya!
+
+@ 71.211
+# テディキャット堀
+JP ネコは気分屋なんだもん。
+EN Cats are moody, that's all.
+
+@ 71.232
+# テディキャット堀
+JP がんばる！
+JP もっとがんばるにゃん！
+EN I'll try! I'll try even harder, nya!
+
+@ 71.253
+# テディキャット堀
+JP うん…。
+JP わかってるにゃん…。
+EN Yeah... I know, nya...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# テディキャット堀
+JP ありがとう！
+JP 元気が出てきたにゃん！
+EN Thank you! I'm feeling better already, nya!
+
+@ 71.311
+# テディキャット堀
+JP …ちょっと疲れたにゃあ～。
+EN ...I'm just a little tired, nyaa.
+
+@ 71.332
+# テディキャット堀
+JP うん！
+JP まだまだがんばれるよっ！
+EN Yeah! I can keep going!
+
+@ 71.353
+# テディキャット堀
+JP たまには
+JP 甘えたくなるときもあるよぅ。
+EN Sometimes a girl just wants to be pampered.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# テディキャット堀
+JP えーと…えーと…。
+JP あのこと？
+EN Um... um... Is it about that?
+
+@ 71.400
+# テディキャット堀
+JP えっと…。
+JP アニマルセラピー？
+EN Um... Animal therapy?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.433
+# テディキャット堀
+JP んー…。
+JP 社長の頼みだから
+JP 聞いてあげるにゃん。
+EN Hmm... Since it's you asking, Boss, I'll do it, nya.
+
+@ 71.454
+# テディキャット堀
+JP ネコは執念深いんだもん。
+EN Cats hold grudges, you know.
+
+@ 71.475
+# テディキャット堀
+JP 社長、疲れてるの？
+EN Boss, are you tired?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# テディキャット堀
+JP 怒られるようなことはしてないもん。
+EN I didn't do anything to get scolded for.
+
+@ 71.522
+# テディキャット堀
+JP なんだろ？
+JP もしかして深刻な話…？
+EN What is it? Is this something serious...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.557
+# テディキャット堀
+JP 社長が甘えさせてくれたら
+JP 仲直りするにゃん。
+EN I'll make up with her if you pamper me, Boss, nya.
+
+@ 71.578
+# テディキャット堀
+JP …そういうことは
+JP 向こうに言って欲しいにゃん。
+EN ...Say that to her, not me, nya.
+
+@ 71.599
+# テディキャット堀
+JP 社長、大丈夫？
+EN Boss, are you okay?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# テディキャット堀
+JP あっ、社長！
+EN Oh, Boss!
+
+@ 72.16
+# テディキャット堀
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# テディキャット堀
+JP うん、がんばるにゃん！
+EN Okay, I'll do my best, nya!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# テディキャット堀
+JP ふにゃ～ん……
+JP んっ。
+EN Funyaaan... Mm.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# テディキャット堀
+JP そんなこと言われると、
+JP 調子に乗っちゃうにゃん♪
+EN If you say things like that, I'll get carried away, nya!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# テディキャット堀
+JP まだがんばりたりないにゃあ…？
+EN I'm still not trying hard enough, nya...?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# テディキャット堀
+JP 気を引き締めるにゃん！
+EN I'll pull myself together, nya!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# テディキャット堀
+JP ネコは気分屋なんだもん。
+EN Cats are moody, that's all.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# テディキャット堀
+JP がんばる！
+JP もっとがんばるにゃん！
+EN I'll try! I'll try even harder, nya!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# テディキャット堀
+JP うん…。
+JP わかってるにゃん…。
+EN Yeah... I know, nya...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# テディキャット堀
+JP ありがとう！
+JP 元気が出てきたにゃん！
+EN Thank you! I'm feeling better already, nya!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# テディキャット堀
+JP ……ちょっと疲れたにゃあ～。
+EN ...I'm just a little tired, nyaa.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# テディキャット堀
+JP うん！
+JP まだまだがんばれるよっ！
+EN Yeah! I can keep going!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# テディキャット堀
+JP たまには
+JP 甘えたくなるときもあるよぅ。
+EN Sometimes a girl just wants to be pampered.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# テディキャット堀
+JP えーとえーと…。
+JP あのこと？
+EN Um, um... Is it about that?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# テディキャット堀
+JP えっと…。
+JP アニマルセラピー？
+EN Um... Animal therapy?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# テディキャット堀
+JP んー…。
+JP 社長の頼みだから
+JP 聞いてあげるにゃん。
+EN Hmm... Since it's you asking, Boss, I'll do it, nya.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# テディキャット堀
+JP ネコは執念深いんだもん。
+EN Cats hold grudges, you know.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# テディキャット堀
+JP 社長、疲れてるの？
+EN Boss, are you tired?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# テディキャット堀
+JP 怒られるようなことはしてないもん。
+EN I didn't do anything to get scolded for.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# テディキャット堀
+JP なんだろ？
+JP もしかして深刻な話…？
+EN What is it? Is this something serious...?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# テディキャット堀
+JP 社長が甘えさせてくれたら、
+JP 仲直りするにゃん。
+EN I'll make up with her if you pamper me, Boss, nya.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# テディキャット堀
+JP …そういうことは、
+JP 向こうに言って欲しいにゃん。
+EN ...Say that to her, not me, nya.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# テディキャット堀
+JP 社長、大丈夫？
+EN Boss, are you okay?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# テディキャット堀
+JP 社長、ありがとにゃん。
+EN Thanks, Boss, nya.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# テディキャット堀
+JP ネコたちにもご馳走できるにゃん！
+EN Now I can treat my kitties to a feast too, nya!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# テディキャット堀
+JP エサ代が大変かも…。
+EN Cat food might get pricey...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN scorching.)
+
+@ 105.34
+# 社 長
+JP （うちの選手に事故がないように
+JP 　ちゃんと監視してまわらないとな）
+EN (I'd better keep making the rounds so none of my
+EN wrestlers get hurt.)
+
+@ 105.36
+# 社 長
+JP （と言っても
+JP 　このあたりには来ていないか…）
+EN (Though I guess nobody's come out this far...)
+
+@ 105.43
+# ？？？
+JP 社長、助けて～！
+EN Boss, help me!
+
+@ 105.46
+# 社 長
+JP （今のは堀の声！？）
+EN (Was that Hori's voice!?)
+
+@ 105.48
+# 社 長
+JP 待ってろ！
+JP すぐに行くぞ！
+EN Hang on! I'm coming!
+
+@ 105.72
+# テディキャット堀
+JP う～ん……。
+EN Mmm...
+
+@ 105.75
+# 社 長
+JP どうした！？
+JP 大丈夫か！？
+EN What happened!? Are you okay!?
+
+@ 105.77
+# 社 長
+JP 意識がない…ってことは溺れたのか？
+EN She's unconscious... Did she nearly drown?
+
+@ 105.79
+# 社 長
+JP 誰かにすぐにライフセイバーを
+JP 呼んできてもらって…。
+EN I need someone to go get a lifeguard...
+
+@ 105.81
+# 社 長
+JP …くそっ。
+JP このあたりには人がいないのか。
+EN ...Dammit. Isn't there anyone around here?
+
+@ 105.83
+# 社 長
+JP なんでこんなところに
+JP 一人で来たんだ。
+EN Why did she come out here all alone?
+
+@ 105.85
+# 社 長
+JP ともかく…。
+JP 急いで人工呼吸をしないと…。
+EN Anyway... I need to give her mouth-to-mouth, fast...
+
+@ 105.95
+# テディキャット堀
+JP ………………。
+EN ..................
+
+@ 105.98
+# 社 長
+JP ……んっ？
+EN ......Hm?
+
+@ 105.107
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.109
+# 社 長
+JP （今…口が動いたよな…）
+EN (Her lips just moved, didn't they...)
+
+@ 105.111
+# 社 長
+JP よーし。
+JP 人工呼吸をするぞー。
+EN All right. Here comes the mouth-to-mouth.
+
+@ 105.125
+# テディキャット堀
+JP ………………。
+EN ..................
+
+@ 105.128
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.132
+# テディキャット堀
+JP ………………。
+EN ..................
+
+@ 105.135
+# 社 長
+JP おーい、ばれてるぞ。
+EN Hey, I know you're faking.
+
+@ 105.145
+# テディキャット堀
+JP ちぇー。
+EN Aww, shucks.
+
+@ 105.148
+# 社 長
+JP まったく…悪い冗談だぞ。
+JP 心配したじゃないか。
+EN Honestly... that's a nasty joke. You had me worried.
+
+@ 105.152
+# テディキャット堀
+JP ごめんにゃん。
+EN Sorry, nya.
+
+@ 105.155
+# 社 長
+JP もう二度とやるなよ。
+EN Don't ever do that again.
+
+@ 105.159
+# テディキャット堀
+JP はーい。
+EN Okaaay.
+
+@ 105.162
+# 社 長
+JP まったく…。
+EN Honestly...
+
+@ 105.166
+# テディキャット堀
+JP …でも本気で心配してくれたんだ。
+EN ...But you were really worried about me.
+
+@ 105.169
+# 社 長
+JP そりぁそうだろう。
+EN Well, of course I was.
+
+@ 105.173
+# テディキャット堀
+JP ウフフ…。
+JP 社長、アリガト…。
+EN Hee hee... Thanks, Boss...
+
+@ 105.176
+# 社 長
+JP …んっ？
+JP なんだって？
+EN ...Hm? What did you say?
+
+@ 105.180
+# テディキャット堀
+JP なーんでーも、なーいにゃん♪
+EN Nothing at all, nya!
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （昼休みももう終わりか。
+JP 　そろそろオフィスに戻らないと…）
+EN (Lunch break's almost over. I should head back to
+EN the office...)
+
+@ 106.26
+# 社 長
+JP （んっ…あれは…？）
+EN (Hm... what's that...?)
+
+@ 106.43
+# テディキャット堀
+JP にゃ～。
+JP にゃん、にゃん、にゃん♪
+EN Nyaa. Nya, nya, nya!
+
+@ 106.46
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.50
+# テディキャット堀
+JP なでて欲しいのかな～。
+JP なでなで～。
+EN Do you want some pets? There, there.
+
+@ 106.53
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.57
+# テディキャット堀
+JP 抱っこは順番ね。
+JP もう、みんな甘えん坊さんねー。
+EN Take turns for cuddles. Geez, you're all such babies.
+
+@ 106.60
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.62
+# 社 長
+JP 何をしているんだ、堀。
+EN What are you doing, Hori?
+
+@ 106.72
+# テディキャット堀
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 106.75
+# 社 長
+JP …で、いったい何してるんだ？
+EN ...So, what exactly are you doing?
+
+@ 106.79
+# テディキャット堀
+JP 社長が見てた通りだよ。
+JP ネコたちと遊んでたの。
+EN Just what you saw, Boss. I was playing with the cats.
+
+@ 106.89
+# テディキャット堀
+JP この子はチャピ。
+JP この甘えん坊がタマ吉。
+JP こっちの子はミーコちゃんね。
+EN This one's Chapi. This little sweetie is Tamakichi. And
+EN this one's Miko.
+
+@ 106.92
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.102
+# テディキャット堀
+JP は～い。
+JP パパにご挨拶しましょうね～。
+EN Okay, everyone, say hello to Daddy!
+
+@ 106.105
+# 社 長
+JP 誰がパパだ。
+EN Who are you calling Daddy?
+
+@ 106.109
+# テディキャット堀
+JP ねーねー、社長。
+EN Hey, hey, Boss.
+
+@ 106.113
+# テディキャット堀
+JP この子たち、全員飼ってもいい？
+EN Can I keep all of them?
+
+@ 106.116
+# 社 長
+JP 待て待て。
+JP どこで飼う気だ？
+EN Whoa, whoa. Where are you planning to keep them?
+
+@ 106.120
+# テディキャット堀
+JP 寮。
+EN The dorm.
+
+@ 106.123
+# 社 長
+JP 寮がネコ屋敷になるだろ。
+EN The dorm would turn into a cat house.
+
+@ 106.127
+# テディキャット堀
+JP １匹ならいい？
+EN What about just one?
+
+@ 106.130
+# 社 長
+JP そもそも寮では動物を飼えない
+JP 決まりになっているじゃないか。
+EN The dorm rules say no pets in the first place,
+EN remember?
+
+@ 106.134
+# テディキャット堀
+JP どうしても？
+EN Not even one?
+
+@ 106.137
+# 社 長
+JP どうしても。
+EN Not even one.
+
+@ 106.147
+# テディキャット堀
+JP 社長のケチ～！
+EN Boss, you meanie!
+
+@ 106.150
+# 社 長
+JP …やれやれ。
+EN ...Good grief.
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （さて、昼休みももう終わりだな。
+JP 　そろそろオフィスに戻らないと…）
+EN (Well, lunch break's almost over. I should head back
+EN to the office...)
+
+@ 107.26
+# 社 長
+JP （んっ…あれは…？）
+EN (Hm... what's that...?)
+
+@ 107.43
+# テディキャット堀
+JP ほらほら、ハナちゃん。
+JP なでなで～。
+EN There, there, Hana. Pet, pet.
+
+@ 107.46
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.50
+# テディキャット堀
+JP こら、サスケ。
+JP トラをいじめちゃダメでしょ～。
+EN Hey, Sasuke! Don't pick on Tora!
+
+@ 107.53
+# 社 長
+JP （…あれ？）
+EN (...Huh?)
+
+@ 107.57
+# テディキャット堀
+JP やん！
+JP ブーニー、変なところ触らないの！
+EN Eek! Booney, don't touch me there!
+
+@ 107.60
+# 社 長
+JP （…ネコの数、増えてないか？）
+EN (...Aren't there more cats than before?)
+
+@ 107.70
+# テディキャット堀
+JP …あっ、パパ。
+EN ...Oh, Daddy.
+
+@ 107.73
+# 社 長
+JP 誰がパパだ。
+EN Who are you calling Daddy?
+
+@ 107.75
+# 社 長
+JP またネコと遊んでいたのか？
+EN Playing with the cats again?
+
+@ 107.79
+# テディキャット堀
+JP うん。
+JP この子たちに会いに来たんだよ。
+EN Yep. I came to see these guys.
+
+@ 107.88
+# 社 長
+JP （もしかしてロードワークのたびに
+JP 　ネコたちと遊んでいたのか？）
+EN (Has she been playing with the cats every time she
+EN goes on a run?)
+
+@ 107.90
+# 社 長
+JP 言っておくが
+JP 寮には連れて帰れないぞ。
+EN I'm telling you now, you can't bring them back to the
+EN dorm.
+
+@ 107.92
+# 社 長
+JP ペットは禁止ってのは
+JP わかってるよな？
+EN You know pets aren't allowed, right?
+
+@ 107.102
+# テディキャット堀
+JP わかってまーす。
+EN I knooow.
+
+@ 107.106
+# テディキャット堀
+JP でもそうすると
+JP 私も寮にいちゃダメになるよね？
+EN But then I wouldn't be allowed in the dorm either,
+EN right?
+
+@ 107.109
+# 社 長
+JP …どうしてだ？
+EN ...Why's that?
+
+@ 107.119
+# テディキャット堀
+JP だって、私は社長のペットだもーん！
+EN Because I'm your pet, Boss!
+
+@ 107.122
+# 社 長
+JP こ、こらっ！
+JP 誤解されるようなことを言うのは
+JP やめなさい！
+EN H-hey! Stop saying things people could take the
+EN wrong way!
+
+@ 107.126
+# テディキャット堀
+JP エヘヘッ！
+EN Ehehe!
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# テディキャット堀
+JP 手加減しないよー！
+JP かかってくるにゃん！
+EN I won't go easy on you! Bring it on, nya!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# テディキャット堀
+JP うにゅ？
+JP よーし、いっくにゃーっ！
+EN Mnyu? All right, here I come, nyaa!
+
+@ 110.16
+# scene 113 練習開始
+# テディキャット堀
+JP トレーニング開始にゃん！
+EN Training time, nya!
+
+@ 111.16
+# scene 114 練習開始 好意
+# テディキャット堀
+JP 今日もいっぱいがんばるにゃん！
+EN I'll give it my all again today, nya!
+
+@ 112.16
+# scene 115 特訓開始
+# テディキャット堀
+JP 本気でいくにゃん！
+EN I'm going all out, nya!
+
+@ 113.20
+# scene 116 特訓成功
+# テディキャット堀
+JP 特訓、大成功にゃん！
+EN Special training was a huge success, nya!
+
+@ 114.20
+# scene 117 特訓失敗
+# テディキャット堀
+JP これじゃ逆効果にゃん…。
+EN That just made things worse, nya...
+
+@ 115.16
+# scene 118 休養
+# テディキャット堀
+JP ネコたちと日向ぼっこして
+JP 過ごそーっと！
+EN I'll spend the day sunbathing with my kitties!
+
+@ 116.16
+# scene 119 入場1
+# テディキャット堀
+JP ベルトをもらって帰るにゃん！
+EN I'm taking that belt home, nya!
+
+@ 117.16
+# scene 119 入場2
+# テディキャット堀
+JP ただいま参上にゃん～！
+EN Here I am, nya!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# テディキャット堀
+JP 二人がかりでかわいがって
+JP あげるにゃん！
+EN The two of us will give you lots of love, nya!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# テディキャット堀
+JP 協力していくにゃん！
+EN Let's work together, nya!
+
+@ 120.16
+# scene 125 必殺技１
+# テディキャット堀
+JP 一気に決めるにゃん！
+EN I'll finish this in one go, nya!
+
+@ 121.16
+# scene 125 必殺技２
+# テディキャット堀
+JP 今度は私の番だよ！
+EN Now it's my turn!
+
+@ 122.16
+# scene 125 必殺技３
+# テディキャット堀
+JP チャンスがきたにゃーん！
+EN Here's my chance, nyaa!
+
+@ 123.12
+# scene 126 勝利1
+# テディキャット堀
+JP 私の首に鈴でも付けてみる？
+EN Wanna try putting a bell on me?
+
+@ 124.12
+# scene 126 勝利2
+# テディキャット堀
+JP ネコの動きを研究してから
+JP 出直してね！
+EN Go study how cats move, then come back!
+
+@ 125.12
+# scene 126 勝利3
+# テディキャット堀
+JP 私に勝とうなんて甘いにゃん！
+EN You thought you could beat me? Dream on, nya!
+
+@ 126.15
+# scene 133 表彰1
+# テディキャット堀
+JP とっても素敵な賞、アリガトにゃん！
+EN Thank you for this wonderful award, nya!
+
+@ 127.15
+# scene 133 表彰2
+# テディキャット堀
+JP ネコに小判にならないように
+JP するにゃん！
+EN I'll try not to make it pearls before a cat, nya!
+
+@ 128.12
+# scene 134 優勝1
+# テディキャット堀
+JP 優勝、優勝♪
+JP にゃん、にゃん、にゃん♪
+EN Winner, winner! Nya, nya, nya!
+
+@ 129.12
+# scene 134 優勝２
+# テディキャット堀
+JP この勝利はファンのみんなと
+JP ネコちゃんたちのおかげにゃん！
+EN I owe this win to all my fans and my kitties, nya!
+
+@ 130.24
+# scene 135 エンディング 通常
+# テディキャット堀
+JP 社長、おめでとにゃん！
+JP ネコの手が必要なときは
+JP いつでも呼んでほしいにゃん！
+EN Congrats, Boss, nya! If you ever need a cat's paw,
+EN call me anytime, nya!
+
+@ 131.24
+# scene 136 エンディング 好意
+# テディキャット堀
+JP 社長～！
+JP ネコたちと一緒に私の飼い主に
+JP なってほしいにゃん！
+EN Boss! I want you to be my owner, along with all my
+EN kitties, nya!

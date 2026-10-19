@@ -1,0 +1,93 @@
+# /SCR/236.BIN - マリア・クロフォード
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 236` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# マリア・クロフォード
+JP 次に壊して欲しいのは誰かしら？
+EN Now, who would like to be broken next?
+
+@ 1.16
+# scene 119 入場1
+# マリア・クロフォード
+JP 心も体も恐怖で
+JP 埋め尽くしてあげるわ。
+EN I'll fill you with terror, body and soul.
+
+@ 2.16
+# scene 119 入場2
+# マリア・クロフォード
+JP あなたはどんな声で
+JP 鳴いてくれるのかしら？
+EN I wonder what kind of sounds you'll make for me?
+
+@ 3.16
+# scene 125 必殺技１
+# マリア・クロフォード
+JP 残念だけど、これで実験終了ね。
+EN Too bad, but that concludes the experiment.
+
+@ 4.16
+# scene 125 必殺技２
+# マリア・クロフォード
+JP もう飽きたわ…。
+EN I'm bored of you now...
+
+@ 5.16
+# scene 125 必殺技３
+# マリア・クロフォード
+JP あなたの苦痛が私の快楽…。
+EN Your pain is my pleasure...
+
+@ 6.12
+# scene 126 勝利1
+# マリア・クロフォード
+JP まだ実験したりなかったのに…。
+JP 残念ね。
+EN And I wasn't done experimenting yet... Pity.
+
+@ 7.12
+# scene 126 勝利2
+# マリア・クロフォード
+JP あなた、本当に弱いわね。
+EN You really are weak, aren't you?
+
+@ 8.12
+# scene 126 勝利3
+# マリア・クロフォード
+JP フフ…。
+JP 今日もいいデータが取れたわ…。
+EN Hehe... I got some fine data again today...
+
+@ 9.15
+# scene 133 表彰1
+# マリア・クロフォード
+JP 実験の費用くらいにはなりそうね。
+EN Well, this should at least cover my research costs.
+
+@ 10.15
+# scene 133 表彰2
+# マリア・クロフォード
+JP 人を壊して表彰されるのも
+JP 不思議なものね。
+EN How curious, to be honored for breaking people.
+
+@ 11.12
+# scene 134 優勝1
+# マリア・クロフォード
+JP 全員もっといたぶってあげれば
+JP よかったわ。
+EN I should have tormented every one of them more.
+
+@ 12.12
+# scene 134 優勝２
+# マリア・クロフォード
+JP いい実験結果が得られたわ。
+EN I obtained some excellent experimental results.

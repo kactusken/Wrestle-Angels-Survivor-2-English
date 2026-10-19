@@ -1,0 +1,103 @@
+# /SCR/306.BIN - ブルック・ウォン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 306` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ブルック・ウォン
+JP 国士無双！
+JP まさしくワタシのことね！
+EN "Peerless in the land!" That's me exactly!
+
+@ 1.16
+# scene 119 入場1
+# ブルック・ウォン
+JP 獅子奮迅の活躍を見ていなさい！
+EN Watch me fight with the fury of a lion!
+
+@ 2.16
+# scene 119 入場2
+# ブルック・ウォン
+JP 不撓不屈！
+JP ワタシのアイデンティティ！
+EN "Never bending, never yielding!" That is my identity!
+
+@ 3.16
+# scene 120 タッグマッチ ベスト
+# ブルック・ウォン
+JP 姉さん！
+JP 速戦即決！
+EN Sister! "Swift battle, swift victory!"
+
+@ 4.16
+# scene 125 必殺技１
+# ブルック・ウォン
+JP 神機妙算、受けてみなさい！
+EN "Divine strategy!" Take this!
+
+@ 5.16
+# scene 125 必殺技２
+# ブルック・ウォン
+JP 乾坤一擲、この一撃で勝負！
+EN "All on one throw!" This blow decides it!
+
+@ 6.16
+# scene 125 必殺技３
+# ブルック・ウォン
+JP 疾風怒涛！　くらいなさい！
+EN "Raging wind and wave!" Eat this!
+
+@ 7.12
+# scene 126 勝利1
+# ブルック・ウォン
+JP 痛快無比！
+JP それがワタシのクォリティ！
+EN "Unrivaled thrill!" That is my quality!
+
+@ 8.12
+# scene 126 勝利2
+# ブルック・ウォン
+JP 泰山北斗！
+JP それがワタシのスタンダード！
+EN "Mountain among mountains!" That is my standard!
+
+@ 9.12
+# scene 126 勝利3
+# ブルック・ウォン
+JP 面目躍如！
+JP ワタシの強さわかったか？
+EN "Reputation upheld!" You see how strong I am?
+
+@ 10.15
+# scene 133 表彰1
+# ブルック・ウォン
+JP 才気煥発！
+JP ワタシの受賞は当然ね！
+EN "Brilliant talent!" Naturally the award goes to me!
+
+@ 11.15
+# scene 133 表彰2
+# ブルック・ウォン
+JP 明鏡止水！
+JP もらって当然！
+EN "Mind clear as still water!" Of course it is mine!
+
+@ 12.12
+# scene 134 優勝1
+# ブルック・ウォン
+JP 武運長久！
+JP もはやワタシに敵はなし！
+EN "Eternal fortune in war!" Nobody can beat me now!
+
+@ 13.12
+# scene 134 優勝２
+# ブルック・ウォン
+JP 唯我独尊！
+JP ワタシ以外に誰がいる！
+EN "I alone am supreme!" Who else is there but me?

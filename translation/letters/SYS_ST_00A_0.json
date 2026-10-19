@@ -1,0 +1,17 @@
+{
+ "english": "Ring Name | Hometown | Birthday | Class | Age | Special Skills | / | =",
+ "boxes": [[15, 9, 66, 22], [15, 41, 66, 22], [15, 73, 66, 22], [15, 105, 66, 22], [15, 145, 66, 22],
+           [116, 48, 98, 23], [181, 9, 24, 24], [228, 9, 24, 24]],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "status.draw",
+ "groups": [
+  {"labels": [0, 1, 2, 3, 4, 5], "fill": "bright", "ground": "interpolate", "reach": 2.5, "cap": 13,
+   "patches": [[22, 145, 56, 23, "col", 21],
+               [15, 9, 67, 23, "copy", 0, 136], [15, 41, 67, 23, "copy", 0, 104],
+               [15, 73, 67, 23, "copy", 0, 72], [15, 105, 67, 23, "copy", 0, 40],
+               [115, 48, 100, 24, "col", 114]]},
+  {"labels": [6, 7], "fill": "bright", "ground": "transparent", "reach": 3, "cap": 14,
+   "patches": [[181, 9, 24, 24, "transparent"], [228, 9, 24, 24, "transparent"]]}
+ ],
+ "notes": "wrestler status page 1 (status batch, tools/letter_ext/status.py). Birthday month/day: 月 -> '/', 日 erased"
+}

@@ -1,0 +1,266 @@
+{
+ "english": "Moves | Switch Category | Throws | Holds | Power | Strikes | Aerials | Move | Difficulty",
+ "boxes": [
+  [
+   25,
+   24,
+   67,
+   24
+  ],
+  [
+   363,
+   27,
+   84,
+   17
+  ],
+  [
+   31,
+   62,
+   61,
+   22
+  ],
+  [
+   103,
+   62,
+   61,
+   22
+  ],
+  [
+   175,
+   62,
+   61,
+   22
+  ],
+  [
+   247,
+   62,
+   61,
+   22
+  ],
+  [
+   319,
+   62,
+   61,
+   22
+  ],
+  [
+   179,
+   93,
+   61,
+   22
+  ],
+  [
+   474,
+   93,
+   61,
+   22
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "status.draw",
+ "groups": [
+  {
+   "labels": [
+    0
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 2.5,
+   "cap": 15,
+   "patches": [
+    [
+     25,
+     26,
+     67,
+     21,
+     "fill",
+     [
+      27,
+      24
+     ]
+    ],
+    [
+     26,
+     25,
+     65,
+     1,
+     "fill",
+     [
+      27,
+      24
+     ]
+    ],
+    [
+     26,
+     24,
+     64,
+     1,
+     "fill",
+     [
+      27,
+      24
+     ]
+    ],
+    [
+     27,
+     47,
+     63,
+     1,
+     "fill",
+     [
+      27,
+      24
+     ]
+    ],
+    [
+     90,
+     47,
+     4,
+     1,
+     "fill",
+     [
+      23,
+      30
+     ]
+    ],
+    [
+     92,
+     26,
+     1,
+     21,
+     "fill",
+     [
+      23,
+      30
+     ]
+    ]
+   ]
+  },
+  {
+   "labels": [
+    1
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 3,
+   "cap": 10,
+   "patches": [
+    [
+     363,
+     27,
+     84,
+     17,
+     "inpaint",
+     {
+      "bmin": 90
+     }
+    ]
+   ]
+  },
+  {
+   "labels": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "fill": [
+    184,
+    176,
+    168,
+    160
+   ],
+   "ground": "interpolate",
+   "reach": 2,
+   "cap": 12,
+   "patches": [
+    [
+     31,
+     62,
+     61,
+     22,
+     "inpaint",
+     {
+      "sat": 40,
+      "lmin": 150
+     }
+    ],
+    [
+     103,
+     62,
+     61,
+     22,
+     "inpaint",
+     {
+      "sat": 40,
+      "lmin": 150
+     }
+    ],
+    [
+     175,
+     62,
+     61,
+     22,
+     "inpaint",
+     {
+      "sat": 40,
+      "lmin": 150
+     }
+    ],
+    [
+     247,
+     62,
+     61,
+     22,
+     "inpaint",
+     {
+      "sat": 40,
+      "lmin": 150
+     }
+    ],
+    [
+     319,
+     62,
+     61,
+     22,
+     "inpaint",
+     {
+      "sat": 40,
+      "lmin": 150
+     }
+    ]
+   ]
+  },
+  {
+   "labels": [
+    7,
+    8
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 2,
+   "cap": 12,
+   "patches": [
+    [
+     182,
+     93,
+     55,
+     22,
+     "col",
+     181
+    ],
+    [
+     475,
+     93,
+     59,
+     22,
+     "copy",
+     -295,
+     0
+    ]
+   ]
+  }
+ ],
+ "notes": "moves learned, no page buttons or Other tab (status batch): same English as SYS_ST_06_0"
+}

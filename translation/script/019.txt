@@ -1,0 +1,2396 @@
+# /SCR/019.BIN - マイティ祐希子
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 019` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# マイティ祐希子
+JP 祐希子です。
+JP 取り柄は元気なこと！
+JP よろしくお願いします！
+EN I'm Yukiko! My strong point is energy! Nice to meet
+EN you!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# マイティ祐希子
+JP そうこなくっちゃ！
+JP 期待は裏切らないからね！
+EN That's what I like to hear! I won't let you down!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# マイティ祐希子
+JP うそ～っ。
+JP もぉ、こうなったら
+JP ヤケ食いするしかないじゃない！
+EN No way! Ugh, guess there's nothing left to do but
+EN stress-eat!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP さて、この近所のカレー屋に
+JP よく出入りしてるっていう話
+JP だったけど…。
+EN So, I heard she's a regular at a curry shop around
+EN here...
+
+@ 3.25
+# チンピラＡ
+JP て、てめぇ！
+JP なんのつもりだ！？
+EN H-hey, you! What's your problem!?
+
+@ 3.29
+# ？？？
+JP そっちが勝手に因縁つけて
+JP きたんでしょ！
+EN You're the ones who came picking a fight with me!
+
+@ 3.32
+# 社 長
+JP …んっ…なんだ？
+JP 喧嘩か？
+EN ...Hm...? What's going on? A fight?
+
+@ 3.34
+# 社 長
+JP あれ…あの娘…？
+JP 写真と一緒だ。
+JP 間違いない。
+EN Wait... that girl...? She matches the photo. No doubt
+EN about it.
+
+@ 3.36
+# チンピラＢ
+JP あんだぁ、この女ぁ！
+JP やっちまうぞ！？
+EN What's with this chick!? You want us to mess you
+EN up!?
+
+@ 3.40
+# ？？？
+JP 売られたケンカは買うわよ！
+JP 女だからって甘く見ないでね。
+EN You want a fight, you've got one! Don't go easy on
+EN me just because I'm a girl.
+
+@ 3.43
+# 社 長
+JP （喧嘩が始まると…。
+JP 　二人の男は、あっという間に
+JP 　ＫＯされていた）
+EN (Once the fight started... the two men were KO'd in
+EN no time flat.)
+
+@ 3.47
+# ？？？
+JP もう…。
+JP こっちはお腹すいてて
+JP 機嫌が悪いのよ！
+EN Geez... I'm starving here, so I'm in a bad mood!
+
+@ 3.50
+# 社 長
+JP ちょ、ちょっと！
+JP そこの君っ！
+EN H-hold on! You there!
+
+@ 3.60
+# マイティ祐希子
+JP …えっ！？
+JP わ、私のこと？
+EN ...Huh!? W-who, me?
+
+@ 3.63
+# 社 長
+JP そう、君だよ、君！
+JP 君、プロレスやってみないか！？
+EN Yes, you! You! How'd you like to try pro wrestling!?
+
+@ 3.70
+# マイティ祐希子
+JP …えっ！？
+JP 何よ急に…。
+EN ...Huh!? Where's this coming from...?
+
+@ 3.73
+# 社 長
+JP 私はプロレス団体の社長なんだ！
+JP 今の喧嘩、全部見てたよ！
+EN I'm the president of a pro-wrestling promotion! I saw
+EN that whole fight!
+
+@ 3.75
+# 社 長
+JP 断言してもいい！
+JP 君なら絶対にスターになれる！
+JP 君こそ俺が探していた原石なんだ！
+EN I'll say it flat out! You could be a star, guaranteed!
+EN You're the diamond in the rough I've been looking
+EN for!
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# マイティ祐希子
+JP うーん…。
+JP そこまで言われちゃうと……。
+EN Hmm... When you put it like that...
+
+@ 4.18
+# 社 長
+JP 頼む！
+JP この通り！
+EN Please! I'm begging you!
+
+@ 4.29
+# マイティ祐希子
+JP …うん、いいよ。
+JP 社長さんを男にしてあげる！
+EN ...Okay, sure. I'll make a real man out of you, Boss!
+
+@ 4.32
+# 社 長
+JP ほ、本当に！？
+EN R-really!?
+
+@ 4.39
+# マイティ祐希子
+JP …と、その前に…ご飯食べさせて。
+JP お腹ペコペコなんだ。
+EN ...But first... feed me. I'm totally starving.
+
+@ 4.42
+# 社 長
+JP （このときの祐希子の笑顔は
+JP 　天使のように輝いていた）
+EN (Yukiko's smile in that moment shone like an angel's.)
+
+@ 4.44
+# 社 長
+JP （…その後カレーを食べまくられて
+JP 　財布が空になった訳だが…）
+EN (...Though afterward she devoured so much curry
+EN that my wallet was left empty...)
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# マイティ祐希子
+JP えーと…ごめーん！
+JP 今は忙しいから、また今度ね！
+EN Umm... sorry! I'm busy right now, so maybe next time!
+
+@ 5.28
+# 社 長
+JP あっ、待って！
+JP せめて話だけでも！
+EN Ah, wait! At least hear me out!
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP 今度こそあの娘を説得しないと…。
+JP 霧子くんにも顔向けできないからな…。
+EN This time I have to convince that girl... Otherwise I
+EN won't be able to face Kiriko...
+
+@ 6.33
+# マイティ祐希子
+JP うーん…。
+JP このお店も潰れちゃったんだぁ…。
+JP どうしてかなぁ？
+EN Aww... This place went out of business too... I wonder
+EN why?
+
+@ 6.36
+# 社 長
+JP あっ、君っ！
+EN Ah, you there!
+
+@ 6.43
+# マイティ祐希子
+JP …あっ！
+JP この前の！！
+EN ...Ah! You're the guy from before!!
+
+@ 6.52
+# 社 長
+JP ま、待ってくれ！
+JP 話だけでも聞いてくれ！
+EN W-wait! Just hear me out!
+
+@ 6.61
+# 社 長
+JP （俺は必死に彼女を説得してみた）
+EN (I gave it everything I had to convince her.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# マイティ祐希子
+JP うーん…。
+JP そこまで言われちゃうと……。
+EN Hmm... When you put it like that...
+
+@ 7.18
+# 社 長
+JP 頼む！
+JP この通り！
+EN Please! I'm begging you!
+
+@ 7.29
+# マイティ祐希子
+JP …うん、いいよ。
+JP 社長さんを男にしてあげる！
+EN ...Okay, sure. I'll make a real man out of you, Boss!
+
+@ 7.32
+# 社 長
+JP ほ、本当に！？
+EN R-really!?
+
+@ 7.39
+# マイティ祐希子
+JP …と、その前に…ご飯食べさせて。
+JP お腹ペコペコなんだ。
+EN ...But first... feed me. I'm totally starving.
+
+@ 7.42
+# 社 長
+JP （このときの祐希子の笑顔は
+JP 　天使のように輝いていた）
+EN (Yukiko's smile in that moment shone like an angel's.)
+
+@ 7.44
+# 社 長
+JP （…その後カレーを食べまくられて
+JP 　財布が空になった訳だが…）
+EN (...Though afterward she devoured so much curry
+EN that my wallet was left empty...)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# マイティ祐希子
+JP えーっと…ごめーん！
+JP 今は忙しいから、また今度ね！
+EN Umm... sorry! I'm busy right now, so maybe next time!
+
+@ 8.28
+# 社 長
+JP あっ、待って！
+JP せめて話だけでも！
+EN Ah, wait! At least hear me out!
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は祐希子選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Yukiko.
+
+@ 9.25
+# 社 長
+JP 卓越した足腰のバネを生かした
+JP 空中殺法と…。
+JP そして、あのリング上での輝き…。
+EN High-flying moves powered by those amazing
+EN springy legs... And that sparkle she has in the ring...
+
+@ 9.27
+# 社 長
+JP 彼女こそリングの天使。
+JP 絶対に欲しい逸材だ。
+EN She's the angel of the ring. I've got to have her.
+
+@ 9.29
+# 社 長
+JP このあたりでトレーニングして
+JP いるはずだけど…。
+EN She's supposed to be training somewhere around
+EN here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# マイティ祐希子
+JP …んっ、なに？
+JP 私のこと…？
+EN ...Hm, what? You mean me...?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.53
+# マイティ祐希子
+JP ん～っ…。
+JP つまり引き抜きってこと？
+EN Hmmm... So you're trying to poach me?
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+JP 考えていただけませんか？
+EN What do you say? Would you consider it?
+
+@ 9.58
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# マイティ祐希子
+JP これも何かの縁かもね…。
+JP うん、いいよ。
+EN Maybe this is fate... Okay, sure.
+
+@ 10.22
+# 社 長
+JP 本当ですか！？
+EN Really!?
+
+@ 10.29
+# マイティ祐希子
+JP その代わり、今日は何か
+JP ごちそうしてよ。
+JP …あっ、契約金とは別だからね。
+EN In exchange, treat me to something today. ...Oh, and
+EN that's separate from the signing bonus!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# マイティ祐希子
+JP やっぱ、やめとく…。
+JP 今の団体、けっこう
+JP 気に入ってるんだよね。
+EN Nah, I'll pass... I kinda like my current promotion.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 祐希子選手が必要だ。
+EN Our promotion really needs Yukiko.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度祐希子選手と
+JP 交渉することにした。
+EN I decided to negotiate with Yukiko one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# マイティ祐希子
+JP あ～っ、この前の社長さん。
+JP また移籍の話ぃ？
+EN Ah, it's that president from before. Another
+EN transfer pitch?
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I just really want you to join our promotion...
+
+@ 12.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# マイティ祐希子
+JP これも何かの縁かもね…。
+JP うん、いいよ。
+EN Maybe this is fate... Okay, sure.
+
+@ 13.22
+# 社 長
+JP 本当ですか！？
+EN Really!?
+
+@ 13.29
+# マイティ祐希子
+JP その代わり、今日は何か
+JP ごちそうしてよ。
+JP …あっ、契約金とは別だからね。
+EN In exchange, treat me to something today. ...Oh, and
+EN that's separate from the signing bonus!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# マイティ祐希子
+JP やっぱ、やめとく…。
+JP 今の団体、けっこう
+JP 気に入ってるんだよね。
+EN Nah, I'll pass... I kinda like my current promotion.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は祐希子選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Yukiko.
+
+@ 15.25
+# 社 長
+JP 卓越した足腰のバネを生かした
+JP 空中殺法と…。
+JP そして、あのリング上での輝き。
+EN High-flying moves powered by those amazing
+EN springy legs... And that sparkle she has in the ring.
+
+@ 15.27
+# 社 長
+JP 彼女こそリングの天使。
+JP 絶対に欲しい逸材だ。
+EN She's the angel of the ring. I've got to have her.
+
+@ 15.29
+# 社 長
+JP このあたりでトレーニングしている
+JP はずだけど…。
+EN She's supposed to be training somewhere around
+EN here...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# マイティ祐希子
+JP …んっ？
+JP 呼んだ？
+EN ...Hm? You called?
+
+@ 15.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 15.53
+# マイティ祐希子
+JP ん～っ…。
+JP つまり社長さんの団体に
+JP 入れってこと？
+EN Hmmm... So you want me to join your promotion?
+
+@ 15.56
+# 社 長
+JP どうでしょう？
+JP 考えていただけませんか？
+EN What do you say? Would you consider it?
+
+@ 15.58
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# マイティ祐希子
+JP まぁ、いいか。
+JP フリーでいるのも飽きてきたし…。
+EN Well, why not. I was getting bored of freelancing
+EN anyway...
+
+@ 16.18
+# 社 長
+JP それじゃ？
+EN So that's a yes?
+
+@ 16.29
+# マイティ祐希子
+JP うん、よろしくね。
+JP そういう訳でお祝いに何かおごって！
+EN Yep, nice to meet you! So, to celebrate, treat me to
+EN something!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# マイティ祐希子
+JP う～ん…やめとく…。
+JP フリーって気楽でいいんだよね。
+EN Hmmm... I'll pass... Freelancing is nice and easygoing.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 祐希子選手が必要だ。
+EN Our promotion really needs Yukiko.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度祐希子選手と
+JP 交渉することにした。
+EN I decided to negotiate with Yukiko one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# マイティ祐希子
+JP あ～っ、この前の社長さんっ！
+JP またこの前の話ぃ？
+EN Ah, it's that president from before! Same pitch as
+EN last time?
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I just really want you to join our promotion...
+
+@ 18.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# マイティ祐希子
+JP まぁ、いいか。
+JP フリーでいるのも飽きてきたし…。
+EN Well, why not. I was getting bored of freelancing
+EN anyway...
+
+@ 19.18
+# 社 長
+JP それじゃ？
+EN So that's a yes?
+
+@ 19.29
+# マイティ祐希子
+JP うん、よろしくね。
+JP そういう訳でお祝いに何かおごって！
+EN Yep, nice to meet you! So, to celebrate, treat me to
+EN something!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# マイティ祐希子
+JP う～ん…やめとく…。
+JP フリーって気楽でいいんだよね。
+EN Hmmm... I'll pass... Freelancing is nice and easygoing.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は祐希子を訪ねることにした。
+EN I decided to pay Yukiko a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler our promotion needs, no question.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she was somewhere around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 祐希子っ！
+EN Yukiko!
+
+@ 21.41
+# マイティ祐希子
+JP …あっ、社長…！
+JP 元気だった…？
+EN ...Ah, Boss...! Have you been well...?
+
+@ 21.44
+# 社 長
+JP あぁ、そっちも元気そうだな。
+JP カレー屋が何軒か潰れてたけど…。
+EN Yeah, and you look well too. Though I noticed a few
+EN curry shops went under...
+
+@ 21.51
+# マイティ祐希子
+JP チャレンジメニューは
+JP 毎日食べてたけど…。
+JP それより、なんでここに？
+EN I did eat the challenge menu every day... But more
+EN importantly, why are you here?
+
+@ 21.54
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだが…。
+JP 戻ってきてくれないか？
+EN I know I'm in no position to ask this... but would you
+EN come back?
+
+@ 21.56
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# マイティ祐希子
+JP うん、いいよ。
+EN Yeah, okay.
+
+@ 22.22
+# 社 長
+JP えっ！？
+JP いいのか！？
+EN Huh!? Really!?
+
+@ 22.29
+# マイティ祐希子
+JP もう許してもいいかなぁって
+JP 感じもするし…。
+JP またよろしくね。
+EN I kinda feel like I can forgive you now... Let's do this
+EN again!
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# マイティ祐希子
+JP うーん…今回はパス。
+JP まだ胸の奥がゾワゾワしてるし…。
+EN Hmm... I'll pass this time. It still stirs me up deep
+EN inside...
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び祐希子を訪ねることにした。
+EN I decided to visit Yukiko again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler our promotion needs, no question.
+
+@ 24.27
+# 社 長
+JP 祐希子っ！
+EN Yukiko!
+
+@ 24.37
+# マイティ祐希子
+JP あっ…社長…？
+JP また来たんだ。
+JP 今でもマメなんだね…。
+EN Ah... Boss...? You came again. You're as persistent as
+EN ever...
+
+@ 24.40
+# 社 長
+JP あぁ、また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN Yeah, I came to ask again. I really want you back with
+EN us.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# マイティ祐希子
+JP うん、いいよ。
+EN Yeah, okay.
+
+@ 25.22
+# 社 長
+JP えっ！？
+JP いいのか！？
+EN Huh!? Really!?
+
+@ 25.29
+# マイティ祐希子
+JP もう許してもいいかなぁって
+JP 感じもするし…。
+JP またよろしくね。
+EN I kinda feel like I can forgive you now... Let's do this
+EN again!
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# マイティ祐希子
+JP うーん…今回はパス。
+JP まだ胸の奥がゾワゾワしてるし…。
+EN Hmm... I'll pass this time. It still stirs me up deep
+EN inside...
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# マイティ祐希子
+JP 平気、平気！
+JP カレー１０杯で治るから。
+EN I'm fine, I'm fine! Ten bowls of curry and I'll be good
+EN as new.
+
+@ 28.16
+# scene 029 ケガ大
+# マイティ祐希子
+JP あいたたた…。
+JP ちょーっとマズイかも……。
+EN Ow ow ow... This might be kinda bad...
+
+@ 29.16
+# scene 030 入院
+# マイティ祐希子
+JP 社長ぉっ…。
+JP お見舞いにカレーもってきてぇ。
+EN Boss... Bring me curry when you visit...
+
+@ 30.16
+# scene 031 退院
+# マイティ祐希子
+JP たっだいまぁ！
+JP 社長、心配かけてごめんね。
+EN I'm baaack! Sorry for worrying you, Boss.
+
+@ 31.16
+# scene 032 ケガ完治
+# マイティ祐希子
+JP うん、もう平気。
+JP ごめんね、心配させちゃって…。
+EN Yep, I'm all better. Sorry for making you worry...
+
+@ 32.20
+# scene 033 引退勧告 成功
+# マイティ祐希子
+JP うーん…。
+JP 辞めたらカレー屋さんかな…。
+EN Hmm... If I quit, maybe I'll open a curry shop...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# マイティ祐希子
+JP 社長の言いたいことはわかるけど…。
+JP でも、もう少しだけ…ね…。
+EN I get what you're saying, Boss... But just a little
+EN longer... okay?
+
+@ 34.16
+# scene 035 コーチ就任
+# マイティ祐希子
+JP よーしっ！
+JP まずはバケツカレー１０杯からね！
+EN All right! First up, ten bucket-sized curries!
+
+@ 35.16
+# scene 036 ケガ引退
+# マイティ祐希子
+JP このケガじゃ、お客さんが
+JP 満足する試合もできないし…。
+JP 社長、ごめんね。
+EN With this injury, I can't give the fans a match worth
+EN watching... Sorry, Boss.
+
+@ 36.16
+# scene 037 年齢引退
+# マイティ祐希子
+JP あ～ぁ、早かったなぁ…。
+JP …ごめん、社長…少しだけ
+JP 背中貸して…。
+EN Aww, that went by so fast... Sorry, Boss... let me lean
+EN on your back for a little bit...
+
+@ 37.16
+# scene 038 退団
+# マイティ祐希子
+JP 社長…。
+JP 私、辞めることにするから…。
+EN Boss... I've decided to quit...
+
+@ 38.16
+# scene 039 スランプ
+# マイティ祐希子
+JP うーっ…。
+JP 最近５皿しか…。
+EN Ugh... Lately I can only manage five plates...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# マイティ祐希子
+JP うそっ！？
+JP 本当に私のファンクラブ！？
+EN No way!? I really have my own fan club!?
+
+@ 39.19
+# 社 長
+JP あぁ。
+JP 応援に負けないように
+JP がんばらないとな。
+EN Yep. We'll have to work hard to live up to their
+EN support.
+
+@ 39.26
+# マイティ祐希子
+JP もちろん！
+JP もっとがんばらないとねっ！
+EN Of course! I've gotta work even harder now!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# マイティ祐希子
+JP 嬉しいけど…。
+JP ちょっと照れくさいね。
+EN I'm happy, but... it's kinda embarrassing.
+
+@ 40.19
+# 社 長
+JP なんだ？
+JP おまえらしくないぞ？
+EN What's this? That's not like you.
+
+@ 40.23
+# マイティ祐希子
+JP そうかな…？
+JP でも…照れ嬉しいって感じなんだ。
+EN You think...? It's like... I'm embarrassed and happy at
+EN the same time.
+
+@ 40.26
+# 社 長
+JP まぁ、これからもっと
+JP がんばらないとな。
+EN Well, we'll just have to work even harder from here
+EN on.
+
+@ 40.33
+# マイティ祐希子
+JP もっちろん！
+JP 任せてよっ！
+EN Ab-so-lutely! Leave it to me!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# マイティ祐希子
+JP あう～っ…。
+JP これって…ファンが減ってるって
+JP こと…？
+EN Awww... Does this mean... I'm losing fans...?
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. You just have to work hard
+EN again.
+
+@ 41.26
+# マイティ祐希子
+JP …よしっ！
+JP 社長、ちょっと走ってくる！！
+EN ...All right! Boss, I'm gonna go for a run!!
+
+@ 42.16
+# scene 043 映画出演
+# マイティ祐希子
+JP やるやるっ！
+JP でも演技とかできないよ？
+JP それでもいいんだよね？
+EN I'm in, I'm in! But I can't act or anything, you know?
+EN That's okay, right?
+
+@ 43.16
+# scene 044 一日署長
+# マイティ祐希子
+JP やるやるっ！
+JP よーし…悪いヤツ
+JP ぜーんぶ捕まえるぞぉ！
+EN I'm in, I'm in! All right... I'm gonna catch every last bad
+EN guy!
+
+@ 44.16
+# scene 045 写真集発売
+# マイティ祐希子
+JP 社長にだけなら
+JP 全部見せてもいいわよ…なんてね♪
+EN For you, Boss, I might show everything... just kidding!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# マイティ祐希子
+JP やるやるっ！
+JP カレーのＣＭだよね！？
+JP だよね、だよね！？
+EN I'm in, I'm in! It's a curry commercial, right!? Right,
+EN right!?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# マイティ祐希子
+JP えへへへ…。
+JP これでアーティストの仲間入り？
+EN Ehehehe... Does this make me an artist now?
+
+@ 47.16
+# scene 048 始球式
+# マイティ祐希子
+JP えへへへ…。
+JP これで国民的スターの仲間入り？
+EN Ehehehe... Does this make me a national star now?
+
+@ 48.16
+# scene 049 学園祭
+# マイティ祐希子
+JP カレーの出店でてるかなぁ…？
+EN I wonder if there's a curry stand...?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# マイティ祐希子
+JP うわぁ…。
+JP 社長、ありがとう！
+EN Wow... Thanks, Boss!
+
+@ 49.39
+# 社 長
+JP うわっ！？
+JP こら、抱きつくな！！
+EN Whoa!? Hey, don't hug me!!
+
+@ 49.43
+# マイティ祐希子
+JP えへへへ。
+JP もしかして…ドキッとした？
+EN Ehehehe. Did I make your heart skip a beat?
+
+@ 50.30
+# scene 051 バレンタインデー
+# マイティ祐希子
+JP 社長！
+JP はい、バレンタインのチョコレート。
+JP 本命だからね。
+EN Boss! Here, Valentine's chocolate. And it's the real
+EN thing, okay?
+
+@ 50.33
+# 社 長
+JP 本命って…んっ？
+JP これって板チョコじゃ…
+JP いや、待てよ……。
+EN The real thing...? Hm? Isn't this just a chocolate bar...
+EN No, wait a minute...
+
+@ 50.37
+# マイティ祐希子
+JP さーて！
+JP 練習、練習～っと。
+EN Okaaay! Time for practice, practice!
+
+@ 50.43
+# 社 長
+JP こら、待て！
+JP これ、カレーじゃないか！
+JP おい、祐希子！
+EN Hey, hold it! This is curry roux, isn't it! Hey, Yukiko!
+
+@ 50.47
+# マイティ祐希子
+JP ホワイトデーよろしくね～っ♪
+EN Looking forward to White Day!
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP あぁ、祐希子。
+JP バレンタインのお返しだ。
+EN Ah, Yukiko. Here's my return gift for Valentine's.
+
+@ 51.35
+# マイティ祐希子
+JP ほえ…？
+JP 何これ？
+EN Huh...? What's this?
+
+@ 51.38
+# 社 長
+JP 近所のカレー専門店の
+JP 食べ放題チケット。
+EN An all-you-can-eat ticket for the curry place
+EN nearby.
+
+@ 51.46
+# マイティ祐希子
+JP 社長！
+JP 愛してる～っ！
+EN Boss! I love you!
+
+@ 51.49
+# 社 長
+JP おまえが愛してるのはカレーだろ。
+EN It's curry you love.
+
+@ 51.56
+# マイティ祐希子
+JP でも、本当にありがとう。
+JP 社長は１皿でいいから
+JP 後で一緒に行こうね？
+EN But seriously, thank you. You only need to eat one
+EN plate, so let's go together later, okay?
+
+@ 52.31
+# scene 053 サイン会
+# マイティ祐希子
+JP これからも応援
+JP よろしくお願いしま～す♪
+EN Please keep on cheering for me!
+
+@ 53.31
+# scene 054 コンサート
+# マイティ祐希子
+JP みんなぁ！
+JP カレー食べてるぅ？
+EN Hey, everybody! Are you eating your curry?
+
+@ 54.28
+# scene 055 練習拒否
+# マイティ祐希子
+JP あう～っ…。
+JP 今日はパス…。
+EN Awww... I'll pass today...
+
+@ 55.26
+# scene 056 失踪
+# マイティ祐希子
+JP ごめん、社長…。
+JP 必ず戻るから……。
+EN Sorry, Boss... I'll definitely come back...
+
+@ 56.16
+# scene 057 選手解雇
+# マイティ祐希子
+JP 社長…。
+JP 本気なんだよね…。
+JP じゃ、バイバイ…。
+EN Boss... You really mean it, huh... Well, bye-bye...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# マイティ祐希子
+JP カレーも持ったし…。
+JP それじゃ、行ってきます！
+EN Got my curry packed... Okay, I'm off!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# マイティ祐希子
+JP ただいまー！
+JP やっぱりカレーは日本が一番かな！
+EN I'm home! Japan really does have the best curry!
+
+@ 59.28
+# scene 060 移籍思案
+# マイティ祐希子
+JP うーん…。
+JP どうしよっかなぁ……。
+EN Hmm... What should I do...?
+
+@ 60.16
+# scene 061 革命軍結成
+# マイティ祐希子
+JP このままでいい訳がないわ！
+JP だから…宣戦布告よ！
+EN Things can't stay the way they are! So... this is a
+EN declaration of war!
+
+@ 61.16
+# scene 062 反乱軍結成
+# マイティ祐希子
+JP 暴れたいの…！
+JP ただそれだけ…。
+EN I just want to cut loose...! That's all...
+
+@ 62.16
+# scene 063 最終決戦要求
+# マイティ祐希子
+JP 最後の勝負よ！
+JP これでシロクロつけましょ！！
+EN This is the final showdown! Let's settle this once and
+EN for all!!
+
+@ 63.16
+# scene 064 遺恨発生
+# マイティ祐希子
+JP もぉっ！
+JP あったまきたーっ！
+EN Ugh! That makes me so mad!
+
+@ 64.16
+# scene 065 殴り込み
+# マイティ祐希子
+JP 楽勝、楽勝♪
+JP ちょっと暴れてくるね。
+EN Easy, easy! I'll go cause a little trouble.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# マイティ祐希子
+JP いい度胸してるわね。
+EN You've got some nerve.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# マイティ祐希子
+JP 私と勝負してもらうわよ！
+EN You're going to fight me!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# マイティ祐希子
+JP 世界を相手に腕試しね！
+JP 行ってきます！
+EN Time to test myself against the world! I'm off!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# マイティ祐希子
+JP 社長…。
+JP 私…世界を掴んだんだよね？
+EN Boss... I've really got the world in my hands, haven't
+EN I?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# マイティ祐希子
+JP そんな…。
+JP ごめん、社長…負けちゃった…。
+EN No way... Sorry, Boss... I lost...
+
+@ 70.13
+# scene 071 引退式
+# マイティ祐希子
+JP …ぐすっ…だ、ダメだね…。
+JP 泣かないつもりだったのに…。
+JP みんな…今まで…本当にありがとぉ！
+EN ...Sniff... I-I'm hopeless... I wasn't going to cry...
+EN Everyone... thank you so much for everything!
+
+@ 71.18
+# マイティ祐希子
+JP ほーい。
+EN Okey-dokey!
+
+@ 71.37
+# マイティ祐希子
+JP うん。
+JP なに？
+EN Yeah. What is it?
+
+@ 71.47
+# マイティ祐希子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# マイティ祐希子
+JP もっちろん♪
+JP 見ててよぉ！
+JP ガンガンいっちゃうんだからぁ！
+EN Ab-so-lutely! Just watch me! I'm going full throttle!
+
+@ 71.111
+# マイティ祐希子
+JP ちょっとぉ。
+JP それ、本気で言ってる？
+EN Come on. Are you serious?
+
+@ 71.132
+# マイティ祐希子
+JP えへへへっ…。
+JP もっと褒めてくれたら
+JP もっとがんばれる…かな…。
+EN Ehehehe... If you praise me more, maybe I'll work even
+EN harder...
+
+@ 71.153
+# マイティ祐希子
+JP 社長ぉ…。
+JP お世辞はいいよぉ。
+EN Boss... You don't have to flatter me.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# マイティ祐希子
+JP あっ、そうかな？
+JP ちょっと気を付けるね。
+EN Oh, have I? I'll be more careful.
+
+@ 71.211
+# マイティ祐希子
+JP う～…。
+JP 社長ぉ、ひど～い。
+EN Ugh... Boss, that's so mean!
+
+@ 71.232
+# マイティ祐希子
+JP ゴメンなさい…。
+JP 社長、私を鍛え直して。
+EN I'm sorry... Boss, whip me back into shape.
+
+@ 71.253
+# マイティ祐希子
+JP う～っ…。
+EN Ugh...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 71.290
+# マイティ祐希子
+JP …うん。
+JP まだ、自分でなんとかできるから
+JP 大丈夫っ！
+EN ...Yeah. I can still handle it myself, so I'm fine!
+
+@ 71.311
+# マイティ祐希子
+JP うん…。
+JP 大丈夫…。
+EN Yeah... I'm fine...
+
+@ 71.332
+# マイティ祐希子
+JP う～ん…。
+JP 社長が食事に連れて行ってくれたら
+JP 元気になるかも♪
+EN Hmm... If you took me out to eat, Boss, maybe I'd
+EN cheer up!
+
+@ 71.353
+# マイティ祐希子
+JP うん…。
+JP 大丈夫…。
+JP たぶん……。
+EN Yeah... I'm fine... Probably...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# マイティ祐希子
+JP あちゃぁ…。
+EN Uh-oh...
+
+@ 71.400
+# マイティ祐希子
+JP ほえ…？
+EN Huh...?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# マイティ祐希子
+JP う～ん…。
+JP 仕方ないなぁ。
+JP 仲直りしてくるね。
+EN Hmm... Oh, all right. I'll go make up with her.
+
+@ 71.454
+# マイティ祐希子
+JP う～…。
+JP それはちょっと…。
+EN Ugh... That's kind of...
+
+@ 71.475
+# マイティ祐希子
+JP えっ？
+JP 喧嘩なんてしてないよ？
+EN Huh? We're not fighting or anything.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# マイティ祐希子
+JP …うん、なんとなく。
+EN ...Yeah, sort of.
+
+@ 71.522
+# マイティ祐希子
+JP 何かな？
+EN What is it?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# マイティ祐希子
+JP うん…。
+JP 仲直りしてくる…。
+JP ごめんね、心配させちゃって…。
+EN Okay... I'll go make up with her... Sorry for making you
+EN worry...
+
+@ 71.578
+# マイティ祐希子
+JP …む～っ。
+EN ...Hmph.
+
+@ 71.599
+# マイティ祐希子
+JP …えっ？
+JP あ、ええっと…。
+JP 喧嘩なんてしてないよ？
+EN ...Huh? Ah, umm... We're not fighting or anything.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# マイティ祐希子
+JP うん。
+JP なに？
+EN Yeah. What is it?
+
+@ 72.16
+# マイティ祐希子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# マイティ祐希子
+JP もっちろん♪　見ててよぉ、
+JP ガンガンいっちゃうんだからぁ！
+EN Ab-so-lutely! Just watch me! I'm going full throttle!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# マイティ祐希子
+JP ちょっとぉ。
+JP それ、本気で言ってる？
+EN Come on. Are you serious?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# マイティ祐希子
+JP えへへへっ…。
+JP もっと褒めてくれたら、
+JP もっとがんばれる…かな。
+EN Ehehehe... If you praise me more, maybe I'll work even
+EN harder...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# マイティ祐希子
+JP 社長ぉ…。
+JP お世辞はいいよぉ。
+EN Boss... You don't have to flatter me.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# マイティ祐希子
+JP あっ、そうかな？
+JP ちょっと、気を付けるね。
+EN Oh, have I? I'll be more careful.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# マイティ祐希子
+JP う～…。
+JP 社長ぉ、ひど～い。
+EN Ugh... Boss, that's so mean!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# マイティ祐希子
+JP ゴメンなさい…。
+JP 社長、私を鍛え直して。
+EN I'm sorry... Boss, whip me back into shape.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# マイティ祐希子
+JP う～っ……。
+EN Ugh...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# マイティ祐希子
+JP …うん。
+JP まだ、自分でなんとかできるから、
+JP 大丈夫っ！
+EN ...Yeah. I can still handle it myself, so I'm fine!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# マイティ祐希子
+JP うん…。
+JP 大丈夫……。
+EN Yeah... I'm fine...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# マイティ祐希子
+JP う～ん…。
+JP 社長が食事に連れて行ってくれたら、
+JP 元気になるかも♪
+EN Hmm... If you took me out to eat, Boss, maybe I'd
+EN cheer up!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# マイティ祐希子
+JP うん…。
+JP 大丈夫……。
+JP 多分……。
+EN Yeah... I'm fine... Probably...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.10
+# scene 090 会話 仲裁する 通常 遺恨あり
+# マイティ祐希子
+JP あちゃぁ……。
+EN Uh-oh...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# マイティ祐希子
+JP ほえ？
+EN Huh?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# マイティ祐希子
+JP う～ん…。
+JP 仕方ないなぁ。
+JP 仲直りしてくるね。
+EN Hmm... Oh, all right. I'll go make up with her.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# マイティ祐希子
+JP う～…。
+JP それはちょっと……。
+EN Ugh... That's kind of...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# マイティ祐希子
+JP え？
+JP 喧嘩なんてしてないよ？
+EN Huh? We're not fighting or anything.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# マイティ祐希子
+JP …うん、なんとなく。
+EN ...Yeah, sort of.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# マイティ祐希子
+JP 何かな？
+EN What is it?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# マイティ祐希子
+JP うん…。
+JP 仲直りしてくる…。
+JP ごめんね、心配させちゃって。
+EN Okay... I'll go make up with her... Sorry for making you
+EN worry.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# マイティ祐希子
+JP ……む～っ。
+EN ...Hmph.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# マイティ祐希子
+JP え？
+JP あ、ええっと…。
+JP 喧嘩なんてしてないよ？
+EN Huh? Ah, umm... We're not fighting or anything.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# マイティ祐希子
+JP これからもよろしくね。
+EN Let's keep it up together!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# マイティ祐希子
+JP 来年はいっぱい、カレー食べても
+JP ＯＫってことだよね！
+EN So that means next year I can eat all the curry I
+EN want, right!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# マイティ祐希子
+JP う～っ…。
+JP カレー代どうしよぉ…？
+EN Ugh... How am I gonna pay for my curry...?
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP ん～っ…。
+JP 羽根を伸ばすなら
+JP こういうところが一番だなぁ。
+EN Ahh... When it comes to kicking back, nothing beats a
+EN place like this.
+
+@ 105.26
+# 社 長
+JP みんなも楽しんでたみたいだし…。
+EN Looks like everyone's having fun, too...
+
+@ 105.28
+# 社 長
+JP …んっ？
+JP あそこにいるのは…。
+EN ...Hm? Who's that over there...?
+
+@ 105.35
+# ？？？
+JP あっ、社長…。
+EN Ah, Boss...
+
+@ 105.61
+# 社 長
+JP 邪魔したか？
+EN Am I interrupting?
+
+@ 105.65
+# マイティ祐希子
+JP ううん…。
+JP 夕日、見てただけだから…。
+EN Nope... I was just watching the sunset...
+
+@ 105.75
+# マイティ祐希子
+JP キレイだよね…。
+JP ここの夕陽…。
+EN It's beautiful, isn't it... The sunset here...
+
+@ 105.78
+# 社 長
+JP 何かいいことでもあったのか？
+EN Did something good happen?
+
+@ 105.88
+# マイティ祐希子
+JP デビュー前にさ。
+EN Before my debut, you know?
+
+@ 105.91
+# 社 長
+JP デビュー前？
+EN Before your debut?
+
+@ 105.95
+# マイティ祐希子
+JP …うん。
+JP レスラーになる前の私って
+JP 町中で喧嘩ばっかりしてたじゃない。
+EN ...Yeah. Before I became a wrestler, all I ever did was
+EN get into fights around town, remember?
+
+@ 105.105
+# マイティ祐希子
+JP あの頃の私…明日のことだって
+JP 全然考えてなかったんだよね。
+EN Back then... I never gave a single thought to
+EN tomorrow.
+
+@ 105.109
+# マイティ祐希子
+JP でも、今は明日のことも
+JP 明後日のことも、その先のことも…。
+EN But now I think about tomorrow, and the day after,
+EN and what comes after that...
+
+@ 105.112
+# 社 長
+JP 考えるようになった？
+EN You've started thinking ahead?
+
+@ 105.116
+# マイティ祐希子
+JP うん…少しは…。
+EN Yeah... a little...
+
+@ 105.126
+# マイティ祐希子
+JP 社長のおかげだよ。
+EN It's all thanks to you, Boss.
+
+@ 105.129
+# 社 長
+JP それは違うぞ。
+JP おまえが変わったなら
+JP それはおまえ自身のおかげだ。
+EN That's not true. If you've changed, you have
+EN yourself to thank for it.
+
+@ 105.132
+# 社 長
+JP だいたい、おまえがレスラーに
+JP なろうと思わなかったら
+JP こうしてなかっただろ。
+EN Besides, if you hadn't decided to become a wrestler,
+EN none of this would've happened.
+
+@ 105.136
+# マイティ祐希子
+JP そんなことないよ…。
+EN That's not true...
+
+@ 105.139
+# 社 長
+JP いや、あるぞ。
+EN No, it is.
+
+@ 105.141
+# 社 長
+JP 何よりおまえには
+JP 世界トップクラスの選手になる
+JP 可能性がある。
+EN Above all, you have it in you to become one of the
+EN best wrestlers in the world.
+
+@ 105.143
+# 社 長
+JP それをここまで引き出してきたのも
+JP おまえ自身が努力してきたからだ。
+EN And the reason you've brought that out this far is
+EN your own hard work.
+
+@ 105.153
+# マイティ祐希子
+JP でも…さ。
+JP たとえそうだとしても…。
+EN But... you know. Even if that's true...
+
+@ 105.156
+# 社 長
+JP そうだとしても？
+EN Even if that's true?
+
+@ 105.166
+# マイティ祐希子
+JP 戦いたいって気持ちがなかったら
+JP レスラーなんて、そうそうできないよ。
+EN If you don't have the will to fight, you can't really be
+EN a wrestler.
+
+@ 105.170
+# マイティ祐希子
+JP 社長は…それをくれるんだ。
+JP 私に…。
+EN And you... you give me that, Boss...
+
+@ 105.173
+# 社 長
+JP …それって？
+EN ...Give you what?
+
+@ 105.177
+# マイティ祐希子
+JP 戦う理由。
+JP 私の中にある熱いものを
+JP 正しく燃やしてくれる、何か。
+EN A reason to fight. Something that makes the fire
+EN inside me burn the right way.
+
+@ 105.180
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 105.184
+# マイティ祐希子
+JP だからね…。
+EN So, you know...
+
+@ 105.194
+# マイティ祐希子
+JP 私、がんばる！
+JP 必ず世界のトップに立ってみせるから！
+EN I'm gonna work hard! I'll make it to the top of the
+EN world, I promise!
+
+@ 105.197
+# 社 長
+JP …そうだな。
+JP おまえならできる。
+JP 間違いない。
+EN ...Yeah. You can do it. No doubt about it.
+
+@ 105.201
+# マイティ祐希子
+JP うん！
+JP 任せて！
+EN Yeah! Leave it to me!
+
+@ 105.204
+# 社 長
+JP （俺には…）
+EN (To me...)
+
+@ 105.220
+# 社 長
+JP （この時の祐希子が
+JP 　本物の天使に見えた……）
+EN (...Yukiko looked like a real angel just then...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、仕事も終わったし帰るか）
+EN (Okay, work's done. Time to head home.)
+
+@ 106.26
+# 社 長
+JP （…ん？
+JP 　ジムに明かりがついてる？）
+EN (...Hm? The lights are on in the gym?)
+
+@ 106.28
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがないな）
+EN (Someone forgot to turn them off... Can't be helped.)
+
+@ 106.40
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.44
+# ？？？
+JP ぷふぁ～っ！
+JP やっぱりコレだよねっ！
+EN Pwahhh! Nothing beats this!
+
+@ 106.47
+# 社 長
+JP …んっ？
+JP 誰かいるのか？
+EN ...Hm? Is someone there?
+
+@ 106.77
+# マイティ祐希子
+JP あ～、えっちい。
+EN Ahh, you perv!
+
+@ 106.80
+# 社 長
+JP そういう台詞はロッカールームの
+JP ドアを閉めてから言え。
+EN Say that after you close the locker room door.
+
+@ 106.84
+# マイティ祐希子
+JP いいの、いいの。
+JP どうせ誰もいなかったんだし。
+EN It's fine, it's fine. Nobody was around anyway.
+
+@ 106.87
+# 社 長
+JP 俺がいただろ。
+JP だいたい何やってんだ？
+EN I was around. And what are you even doing?
+
+@ 106.91
+# マイティ祐希子
+JP 牛乳飲んでた。
+EN Drinking milk.
+
+@ 106.94
+# 社 長
+JP 見ればわかる。
+EN I can see that.
+
+@ 106.98
+# マイティ祐希子
+JP お風呂上がりは牛乳！
+JP これ世界の常識！
+EN Milk after a bath! It's common knowledge all over the
+EN world!
+
+@ 106.101
+# 社 長
+JP どこの世界だ…。
+EN What world is that...
+
+@ 106.103
+# 社 長
+JP まったく…。
+JP 常識をうんぬん言うなら
+JP 誰かに見られる前に服ぐらい着ろ。
+EN Honestly... If you're going to talk about common
+EN sense, at least put some clothes on before someone
+EN sees you.
+
+@ 106.107
+# マイティ祐希子
+JP 別にいいよ。
+JP 社長なんだし。
+EN It's fine. It's just you, Boss.
+
+@ 106.110
+# 社 長
+JP いや、そういう問題じゃなくてだな…。
+EN No, that's not the point here...
+
+@ 106.120
+# マイティ祐希子
+JP あっ、そうだ！
+JP 社長ぉ、お腹すいたぁ。
+JP カレー食べに行こ、ねっ？
+EN Oh, I know! Boss, I'm hungry! Let's go eat curry,
+EN okay?
+
+@ 106.123
+# 社 長
+JP まったく…。
+JP 花より団子か…。
+EN Honestly... Food over romance, huh...
+
+@ 106.127
+# マイティ祐希子
+JP 団子もいいけどカレーもね♪
+EN Food is great, and curry is even better!
+
+@ 106.130
+# 社 長
+JP はいはい。
+JP 本当に色気より食い気だな…。
+EN Yeah, yeah. You really do care more about food than
+EN looking sexy...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （よし、仕事も終わったし帰るか）
+EN (Okay, work's done. Time to head home.)
+
+@ 107.26
+# 社 長
+JP （…ん？
+JP 　ジムに明かりがついてる？）
+EN (...Hm? The lights are on in the gym?)
+
+@ 107.28
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがないな）
+EN (Someone forgot to turn them off... Can't be helped.)
+
+@ 107.40
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.44
+# ？？？
+JP ぷふぁ～っ！
+JP やっぱりコレだよねっ！
+EN Pwahhh! Nothing beats this!
+
+@ 107.47
+# 社 長
+JP （…この声は）
+EN (...That voice...)
+
+@ 107.77
+# マイティ祐希子
+JP …あっ、社長も飲む？
+EN ...Oh, Boss, want some too?
+
+@ 107.80
+# 社 長
+JP いや、いい…。
+JP それより早く何か着て
+JP 戸締まりしてから帰るんだぞ。
+EN No, I'm good... More importantly, put something on,
+EN then lock up before you go home.
+
+@ 107.85
+# マイティ祐希子
+JP ほーい。
+EN Okey-dokey!
+
+@ 107.89
+# 社 長
+JP じゃあ、俺はそろそろ行くぞ。
+EN Well, I'll get going, then.
+
+@ 107.93
+# マイティ祐希子
+JP …あっ、社長…。
+EN ...Ah, Boss...
+
+@ 107.96
+# 社 長
+JP …んっ、なんだ？
+EN ...Hm, what is it?
+
+@ 107.106
+# マイティ祐希子
+JP あの…さ…。
+EN Um... so...
+
+@ 107.109
+# 社 長
+JP だから、なんだ？
+EN So what?
+
+@ 107.113
+# マイティ祐希子
+JP …私って…やっぱり色気とか
+JP ないのかな？
+EN ...Am I... not sexy at all after all?
+
+@ 107.116
+# 社 長
+JP なんだ急に？
+JP おまえらしくもない。
+EN Where's this coming from? That's not like you.
+
+@ 107.120
+# マイティ祐希子
+JP だって…こんな格好してるけど…。
+JP 社長はドキドキしないんでしょ…？
+EN Well... I'm dressed like this, and... my heart's not even
+EN racing for you, is it, Boss...?
+
+@ 107.123
+# 社 長
+JP …んっ…いや…ええっと…。
+EN ...Hm... well... uh...
+
+@ 107.125
+# 社 長
+JP （勘弁してくれ…。
+JP 　こっちは意識しないように
+JP 　してるんだぞ？）
+EN (Give me a break... I'm trying hard not to notice here,
+EN you know?)
+
+@ 107.127
+# 社 長
+JP だから…まぁ…。
+JP まったくしない訳では…。
+EN So... well... It's not like it doesn't at all...
+
+@ 107.137
+# マイティ祐希子
+JP うん…。
+JP よしっ、決めたっ！
+EN Okay... All right, I've decided!
+
+@ 107.140
+# 社 長
+JP ……はい？
+EN ...Come again?
+
+@ 107.144
+# マイティ祐希子
+JP 社長をびーっくりさせるぐらい
+JP すっごく「いい女」になってやるっ！
+EN I'm gonna become such a "fine woman" that you'll be
+EN totally blown away, Boss!
+
+@ 107.147
+# 社 長
+JP …そ、そうか……。
+EN ...I-I see...
+
+@ 107.149
+# 社 長
+JP （なんか知らんが、自己解決して
+JP 　くれたみたいだな…）
+EN (No idea what that was about, but it seems she
+EN worked it out on her own...)
+
+@ 107.153
+# マイティ祐希子
+JP それで絶対ベルトと社長のハートを
+JP この手でゲッチューッ！
+EN And then I'll get the belt and your heart, Boss, with
+EN my own two hands! Gotcha!
+
+@ 107.156
+# 社 長
+JP うん、うん。
+JP おまえだったらがんばれば…。
+EN Uh-huh. If you work hard, you can...
+
+@ 107.158
+# 社 長
+JP （…んっ…祐希子のやつ
+JP 　ベルトと…何をゲッチューするって
+JP 　言った？）
+EN (...Hm... Yukiko said she'd get the belt and... what?)
+
+@ 107.168
+# マイティ祐希子
+JP よーしっ、燃えてきたぁあああ！
+EN All right, I'm all fired uuup!
+
+@ 107.171
+# 社 長
+JP まぁ、がんばれ。
+JP 俺は帰るから戸締まりよろしくな。
+EN Well, good luck. I'm going home, so lock up for me.
+
+@ 107.186
+# マイティ祐希子
+JP …えっ？
+JP あっ…待ってよぉ！
+JP 待ってってばぁ！
+EN ...Huh? Ah... wait for me! Wait, I said!
+
+@ 107.190
+# マイティ祐希子
+JP 一緒にカレー食べに行こうよー！
+EN Let's go eat curry together!
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# マイティ祐希子
+JP よぉーし、いっくよぉ！
+EN All right, here I come!
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# マイティ祐希子
+JP 技の確認から始める？
+EN Wanna start by running through some moves?
+
+@ 110.17
+# scene 112 練習試合 バッド
+# マイティ祐希子
+JP 埼玉のおばさん！
+JP 本気でいくからね！！
+EN Saitama auntie! I'm going all out!!
+
+@ 111.16
+# scene 113 練習開始
+# マイティ祐希子
+JP よ～し、今日もがんばるぞーっ！
+EN All right, let's give it our all again today!
+
+@ 112.16
+# scene 114 練習開始 好意
+# マイティ祐希子
+JP 今日も一日
+JP しっかり練習するわよっ！
+EN Let's train hard all day today too!
+
+@ 113.16
+# scene 115 特訓開始
+# マイティ祐希子
+JP よしっ、いつでもいいわよ！
+EN All right, ready whenever you are!
+
+@ 114.20
+# scene 116 特訓成功
+# マイティ祐希子
+JP はぁ～…。
+JP 充実した時間が過ごせたかな。
+EN Phew... That was time well spent, I think.
+
+@ 115.20
+# scene 117 特訓失敗
+# マイティ祐希子
+JP これで終わり？
+JP なんか拍子抜けっていうか…？
+EN That's it? Kind of a letdown, if you ask me...?
+
+@ 116.16
+# scene 118 休養
+# マイティ祐希子
+JP カレー屋さん巡りの旅でも
+JP してみようかな…。
+EN Maybe I'll go on a curry shop tour...
+
+@ 117.16
+# scene 119 入場1
+# マイティ祐希子
+JP 最初から全開で行くわよっ！
+EN I'm going full throttle from the start!
+
+@ 118.16
+# scene 119 入場2
+# マイティ祐希子
+JP みんな！
+JP 今日も熱くするわよ！！
+EN Everybody! Let's heat things up again today!!
+
+@ 119.17
+# scene 120 タッグマッチ ベスト
+# マイティ祐希子
+JP よーしっ！
+JP 燃えてきたぁ！
+EN All right! I'm all fired up!
+
+@ 120.17
+# scene 121 タッグマッチ ベター１
+# マイティ祐希子
+JP 今日も勝つわよ！
+EN We're winning today too!
+
+@ 121.17
+# scene 123 タッグマッチ バッド
+# マイティ祐希子
+JP あんたの出番なんてないから！！
+EN You won't get a turn at all!!
+
+@ 122.16
+# scene 125 必殺技１
+# マイティ祐希子
+JP 心も体も全部熱くってたまらないの！
+EN My heart and body are burning up and I can't stand
+EN it!
+
+@ 123.16
+# scene 125 必殺技２
+# マイティ祐希子
+JP 私の全身全霊の炎、受けてみなさい！
+EN Take the flames of my heart and soul!
+
+@ 124.16
+# scene 125 必殺技３
+# マイティ祐希子
+JP 私のハートに火をつけたこと、
+JP 後悔させてあげる！
+EN You lit a fire in my heart, and now I'll make you
+EN regret it!
+
+@ 125.12
+# scene 126 勝利1
+# マイティ祐希子
+JP だれの挑戦でも受けるわよ！
+EN I'll take on any challenger!
+
+@ 126.12
+# scene 126 勝利2
+# マイティ祐希子
+JP けっこうやるじゃない。
+JP 今度もいい試合しようね。
+EN You're pretty good. Let's have another great match
+EN next time.
+
+@ 127.12
+# scene 126 勝利3
+# マイティ祐希子
+JP 私はもっと高くまで飛んでみせる！
+EN I'll fly even higher!
+
+@ 128.15
+# scene 133 表彰1
+# マイティ祐希子
+JP 社長！
+JP ほらほら、すごいでしょ！？
+JP えっへへっ！
+EN Boss! Look, look, isn't it amazing!? Ehehe!
+
+@ 129.15
+# scene 133 表彰2
+# マイティ祐希子
+JP 応援してくれたみんなぁ！
+JP ありがと～っ！
+EN To everyone who cheered for me! Thank youuu!
+
+@ 130.12
+# scene 134 優勝1
+# マイティ祐希子
+JP よーし！
+JP 今回もトップとったわよ！
+EN All right! I took the top spot again!
+
+@ 131.12
+# scene 134 優勝２
+# マイティ祐希子
+JP 私は誰の挑戦でも受けるから！
+JP かかってらっしゃい！
+EN I'll take on any challenger! Bring it on!
+
+@ 132.24
+# scene 135 エンディング 通常
+# マイティ祐希子
+JP 社長、オメデト！
+JP 今日は私がおごってあげる！
+JP もちろんカレーだけどね♪
+EN Congrats, Boss! Today's my treat! Curry, of course!
+
+@ 133.24
+# scene 136 エンディング 好意
+# マイティ祐希子
+JP おめでとう、社長…。
+JP 私…今度は社長のパートナーに
+JP なりたいんだけど…どうかな？
+EN Congratulations, Boss... Next, I'd like to become your
+EN partner... What do you say?

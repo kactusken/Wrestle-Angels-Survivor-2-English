@@ -1,0 +1,2172 @@
+# /SCR/118.BIN - 来島 恵理
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 118` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 来島 恵理
+JP 来島だよ。
+JP 自慢はガタイの大きさかな。
+JP よろしく！
+EN Name's Kishima. My big frame's what I'm proudest of, I
+EN guess. Nice to meetcha!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 来島 恵理
+JP そうこなくっちゃ！
+JP 早速だけど、今日から
+JP 練習していいっすか？
+EN That's what I'm talkin' about! Hey, mind if I start
+EN training today?
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 来島 恵理
+JP えぇえええ！？
+JP な、なんでだよ！？
+JP この体、絶対プロレス向きだろ！？
+EN Whaaaat!? B-but why!? This body was made for pro
+EN wrestling!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP 資料通りなら、このあたりに
+JP 「類い希な体格」に恵まれた娘が…。
+EN According to the file, there's a girl around here
+EN blessed with "an exceptional physique"...
+
+@ 3.25
+# 社 長
+JP あっ、あの娘…写真と一緒だ。
+JP 間違いない。
+EN Ah, that girl... she matches the photo. That's her, no
+EN doubt.
+
+@ 3.27
+# 社 長
+JP あの、すみません。
+JP 来島さんですか？
+EN Um, excuse me. Are you Kishima?
+
+@ 3.37
+# 来島 恵理
+JP …んっ？
+JP まぁ…そうだけど…。
+JP あんた、誰？
+EN ...Hm? Well... yeah... Who are you?
+
+@ 3.40
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.47
+# 来島 恵理
+JP へぇ…。
+JP 俺をスカウトしに来たって訳か。
+EN Huh... So you came to scout me.
+
+@ 3.50
+# 社 長
+JP どうでしょう。
+JP うちの団体で戦ってみませんか？
+EN What do you think? Would you like to fight for our
+EN promotion?
+
+@ 3.52
+# 社 長
+JP （俺はねばり強く説得を続けてみた）
+EN (I kept at it, trying to convince her.)
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# 来島 恵理
+JP プロレスか…。
+JP それも悪くないか。
+EN Pro wrestling, huh... Guess that ain't so bad.
+
+@ 4.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 4.29
+# 来島 恵理
+JP あぁ。
+JP あんたのところに入ってやるよ。
+JP よろしくな。
+EN Yeah. I'll join your outfit. Let's do this.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 来島 恵理
+JP 悪いけど…今はそれどころじゃ
+JP ないんでね。
+EN Sorry... I've got bigger things to deal with right now.
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, I'm pretty sure it was somewhere around
+EN here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# 来島 恵理
+JP あっ、この前の…。
+JP たしか断ったはずだろ？
+EN Oh, you're that guy from before... Didn't I already
+EN say no?
+
+@ 6.38
+# 社 長
+JP あの、もう一度考え直して
+JP もらえないでしょうか？
+EN Um, could you possibly reconsider?
+
+@ 6.40
+# 社 長
+JP （俺は粘り強く説得を続けてみた）
+EN (I kept at it, trying to convince her.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# 来島 恵理
+JP プロレスか…。
+JP それも悪くないか。
+EN Pro wrestling, huh... Guess that ain't so bad.
+
+@ 7.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 7.29
+# 来島 恵理
+JP あぁ。
+JP あんたのところに入ってやるよ。
+JP よろしくな。
+EN Yeah. I'll join your outfit. Let's do this.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 来島 恵理
+JP 悪いけど…今はそれどころじゃ
+JP ないんでね。
+EN Sorry... I've got bigger things to deal with right now.
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は来島選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kishima.
+
+@ 9.25
+# 社 長
+JP あの恵まれた体格、屈指のパワー。
+JP 少し地味なのが玉に瑕だが…。
+JP でも、うちに欲しい逸材だ。
+EN That great build, that top-class power. She's a little
+EN plain, which is a pity... but she's talent I want.
+
+@ 9.27
+# 社 長
+JP たしかこのあたりでトレーニング
+JP しているはずだけど…。
+EN She should be training somewhere around here...
+
+@ 9.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# 来島 恵理
+JP …んっ？
+JP なんか用っすか？
+EN ...Hm? You need somethin'?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.51
+# 来島 恵理
+JP …移籍？
+JP 俺が…？
+EN ...Transfer? Me...?
+
+@ 9.54
+# 社 長
+JP はい、どうでしょう？
+EN Yes. What do you think?
+
+@ 9.56
+# 社 長
+JP （俺は粘り強く説得を続けてみた）
+EN (I kept at it, trying to convince her.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# 来島 恵理
+JP 移籍も悪くないな…。
+JP よしっ、決めた！
+EN Switching promotions ain't a bad idea... All right, I've
+EN decided!
+
+@ 10.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 10.29
+# 来島 恵理
+JP あぁ、世話になるよ。
+JP よろしくっ！
+EN Yeah, I'm in your hands. Let's do this!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 来島 恵理
+JP 悪いけど、ここが気に入ってんだ。
+JP まっ、そういう訳で。
+EN Sorry, but I like it here. So, yeah, that's that.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 来島選手が必要だ。
+EN Our promotion really does need Kishima.
+
+@ 12.26
+# 社 長
+JP 俺はもう一度来島選手と
+JP 交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 12.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.39
+# 来島 恵理
+JP またあんたか。
+JP しつこいねぇ…。
+EN You again? You sure are stubborn...
+
+@ 12.42
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.44
+# 社 長
+JP （俺は粘り強く説得を続けてみた）
+EN (I kept at it, trying to convince her.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# 来島 恵理
+JP 移籍も悪くないな…。
+JP よしっ、決めた！
+EN Switching promotions ain't a bad idea... All right, I've
+EN decided!
+
+@ 13.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 13.29
+# 来島 恵理
+JP あぁ、世話になるよ。
+JP よろしくっ！
+EN Yeah, I'm in your hands. Let's do this!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 来島 恵理
+JP 悪いけど、ここが気に入ってんだ。
+JP まっ、そういう訳で。
+EN Sorry, but I like it here. So, yeah, that's that.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は来島選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kishima.
+
+@ 15.25
+# 社 長
+JP あの恵まれた体格、屈指のパワー。
+JP 是非ともうちに欲しい逸材だ。
+EN That great build, that top-class power. She's talent
+EN I absolutely want.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりにいる
+JP はずだけど…。
+EN She should be somewhere around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 来島 恵理
+JP …んっ？
+JP なんか用？
+EN ...Hm? You need somethin'?
+
+@ 15.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 15.51
+# 来島 恵理
+JP なるほどね。
+JP 俺をあんたのところに
+JP 入団させようってことか。
+EN I get it. You wanna sign me up with your outfit.
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you think?
+
+@ 15.56
+# 社 長
+JP （俺は粘り強く説得を続けてみた）
+EN (I kept at it, trying to convince her.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# 来島 恵理
+JP フリーにも飽きたしなぁ…。
+JP よしっ！
+EN I'm kinda sick of freelancing anyway... All right!
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# 来島 恵理
+JP あぁ、世話になるよ。
+JP よろしくっ！
+EN Yeah, I'm in your hands. Let's do this!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 来島 恵理
+JP フリーの方が性に合ってるんでね。
+JP 悪いね、社長さん。
+EN Freelancing suits me better. Sorry, Mr. President.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 来島選手が必要だ。
+EN Our promotion really does need Kishima.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度来島選手と
+JP 交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 来島 恵理
+JP またあんたか。
+JP 意外としつこいねぇ…。
+EN You again? You're stubborner than you look...
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 18.42
+# 社 長
+JP （俺は粘り強く説得を続けてみた）
+EN (I kept at it, trying to convince her.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# 来島 恵理
+JP フリーにも飽きたしなぁ…。
+JP よしっ！
+EN I'm kinda sick of freelancing anyway... All right!
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# 来島 恵理
+JP あぁ、世話になるよ。
+JP よろしくっ！
+EN Yeah, I'm in your hands. Let's do this!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 来島 恵理
+JP フリーの方が性に合ってるんでね。
+JP 悪いね、社長さん。
+EN Freelancing suits me better. Sorry, Mr. President.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は来島を訪ねることにした。
+EN I decided to go see Kishima.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be somewhere around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 来島っ！
+EN Kishima!
+
+@ 21.41
+# 来島 恵理
+JP 社長っ！？
+JP な、なんだよ、今さら…。
+EN Boss!? Wh-what do you want, after all this time...
+
+@ 21.44
+# 社 長
+JP いや、実は…戻ってきて欲しくて
+JP 探していたんだ。
+EN Well, actually... I've been looking for you. I want you
+EN to come back.
+
+@ 21.51
+# 来島 恵理
+JP それこそ今さらだよ。
+JP 俺は戻る気なんてないよ。
+EN Now that's what I call "after all this time." I've got no
+EN intention of going back.
+
+@ 21.54
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.56
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 来島 恵理
+JP …ったく…。
+JP 社長には適わないな…。
+EN ...Geez... I can never win against you, Boss...
+
+@ 22.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 22.29
+# 来島 恵理
+JP 負けたって言ってるだろ！
+JP …ったく…俺も甘いよなぁ…。
+EN I said you win, didn't I! ...Geez... I'm such a softie...
+
+@ 22.32
+# 社 長
+JP ありがとう、来島。
+JP また、よろしくな…。
+EN Thank you, Kishima. Glad to have you back...
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 来島 恵理
+JP 帰れよ。
+JP こっちはもう縁を切ってんだ。
+EN Go home. I already cut ties with you.
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び来島を訪ねることにした。
+EN I decided to visit Kishima again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 来島っ！
+EN Kishima!
+
+@ 24.37
+# 来島 恵理
+JP …またかよ。
+JP 縁は切ったって言ったろ。
+EN ...You again? I told you, we're done.
+
+@ 24.40
+# 社 長
+JP だけど、また頼みに来たよ。
+EN Even so, I came to ask you again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.45
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 来島 恵理
+JP …ったく…。
+JP 社長には適わないな…。
+EN ...Geez... I can never win against you, Boss...
+
+@ 25.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 25.29
+# 来島 恵理
+JP 負けたって言ってるだろ！
+JP …ったく…俺も甘いよなぁ…。
+EN I said you win, didn't I! ...Geez... I'm such a softie...
+
+@ 25.32
+# 社 長
+JP ありがとう、来島。
+JP また、よろしくな…。
+EN Thank you, Kishima. Glad to have you back...
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 来島 恵理
+JP 帰れよ。
+JP こっちはもう縁を切ってんだ！
+EN Go home. I already cut ties with you!
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 来島 恵理
+JP こんなのケガなんかじゃないって。
+EN This ain't even an injury, I'm tellin' ya.
+
+@ 28.16
+# scene 029 ケガ大
+# 来島 恵理
+JP イタタッ…。
+JP 俺としたことが…。
+EN Ow ow ow... Can't believe I let that happen...
+
+@ 29.16
+# scene 030 入院
+# 来島 恵理
+JP 病院の臭い、苦手なんだよなぁ…。
+EN I can't stand the smell of hospitals...
+
+@ 30.16
+# scene 031 退院
+# 来島 恵理
+JP 完・全・復・活！
+JP さぁ、練習、練習！
+EN Com-plete-ly re-cov-ered! All right, training time,
+EN training time!
+
+@ 31.16
+# scene 032 ケガ完治
+# 来島 恵理
+JP うーっし、治ったぜ。
+JP さっそく練習、練習！
+EN Yeah! I'm all healed up. Time to train, train!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 来島 恵理
+JP 社長の言う通りにするよ。
+JP 俺も…ここまでなんだろうな……。
+EN I'll do what you say, Boss. I guess... this is as far as I
+EN go...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 来島 恵理
+JP ざけんな！
+JP 終わりぐらい、自分で決めるよ！
+EN Screw that! I'll decide when I'm done, at least!
+
+@ 34.16
+# scene 035 コーチ就任
+# 来島 恵理
+JP 俺の指導は厳しいぜ？
+EN I'm a tough coach, y'know?
+
+@ 35.16
+# scene 036 ケガ引退
+# 来島 恵理
+JP 社長…俺…悔しいよ…。
+JP こんなことでリタイアかよ……。
+EN Boss... I... this sucks... Retiring over something like
+EN this...
+
+@ 36.16
+# scene 037 年齢引退
+# 来島 恵理
+JP これだけ筋肉があっても
+JP 時間には勝てないみたいだね…。
+EN Even with all this muscle, looks like I can't beat time...
+
+@ 37.16
+# scene 038 退団
+# 来島 恵理
+JP …辞めるよ。
+JP 理由は言わなくてもわかるだろ？
+EN ...I'm quitting. You know why without me saying, right?
+
+@ 38.16
+# scene 039 スランプ
+# 来島 恵理
+JP くそっ…。
+JP なんで思うとおりにいかないんだよ…。
+EN Dammit... Why won't anything go the way I want...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 来島 恵理
+JP そういやぁ、世の中には
+JP マッチョな女に弱い連中も
+JP いるんだってな。
+EN Come to think of it, I hear there are guys out there
+EN with a thing for muscly women.
+
+@ 39.19
+# 社 長
+JP そういうことじゃないだろ。
+JP まぁ、応援に負けないよう
+JP がんばれよ。
+EN That's not what this is about. Anyway, work hard so
+EN you live up to their support.
+
+@ 39.26
+# 来島 恵理
+JP おう！
+JP 任せとけ！
+EN You got it! Leave it to me!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 来島 恵理
+JP また物好きが増えたんだって？
+EN I hear we got more weirdos joining?
+
+@ 40.19
+# 社 長
+JP あのなぁ…。
+JP まぁ、これからもっと
+JP がんばらないとな。
+EN Come on now... Anyway, you'll have to work even
+EN harder from here on.
+
+@ 40.26
+# 来島 恵理
+JP おぅ！
+JP 任せときな！
+EN You got it! Leave it to me!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 来島 恵理
+JP やっぱりなぁ…。
+JP こうなるんじゃないかって
+JP 思ってたよ。
+EN Figures... I kinda thought this would happen.
+
+@ 41.19
+# 社 長
+JP そう落ち込むなって。
+JP またがんばればいいだけだろ。
+EN Don't be so down. You just have to work hard and
+EN try again.
+
+@ 41.23
+# 来島 恵理
+JP …あぁ、わかってる。
+JP でも…いや、なんでもない。
+JP 練習してくる。
+EN ...Yeah, I know. But... nah, never mind. I'm gonna go
+EN train.
+
+@ 42.16
+# scene 043 映画出演
+# 来島 恵理
+JP 弱ったなぁ…。
+JP こういうの苦手なんだ。
+JP ほんと弱ったな…。
+EN Ugh, this is a pain... I'm no good at this stuff.
+EN Seriously, what a pain...
+
+@ 43.16
+# scene 044 一日署長
+# 来島 恵理
+JP あぁ、社長。
+JP 制服は特注になるってこと
+JP ちゃんと伝えてるよな？
+EN Oh, Boss. You did tell 'em my uniform's gotta be
+EN custom-made, right?
+
+@ 44.16
+# scene 045 写真集発売
+# 来島 恵理
+JP 任せな！
+JP 自分で言うのもなんだけど
+JP いい筋肉してるんだぜ。
+EN Leave it to me! Not to brag, but I've got some pretty
+EN nice muscles.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 来島 恵理
+JP へぇ…。
+JP 広告業界にも物好きはいるんだな。
+EN Huh... Guess the ad business has its share of
+EN weirdos too.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 来島 恵理
+JP …マジで？
+JP 冗談だろ？
+EN ...Seriously? You're kidding, right?
+
+@ 47.16
+# scene 048 始球式
+# 来島 恵理
+JP おっしゃーっ！
+JP 球場は福岡だよな！？
+EN All riiight! The stadium's in Fukuoka, right!?
+
+@ 48.16
+# scene 049 学園祭
+# 来島 恵理
+JP 学生プロレスに
+JP 飛び入り参加してくるぜ！
+EN I'm gonna jump into their student wrestling show!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.36
+# 来島 恵理
+JP へぇ…。
+JP ありがとさん。
+JP 俺の誕生日なんてよく覚えてんな。
+EN Huh... Thanks a bunch. Can't believe you remembered
+EN my birthday.
+
+@ 49.39
+# 社 長
+JP 当然だろ。
+JP これからもよろしくな。
+EN Of course I did. Keep up the good work.
+
+@ 50.30
+# scene 051 バレンタインデー
+# 来島 恵理
+JP 社長、ガラじゃないけど
+JP 世話になってる礼だ。
+EN Boss, it ain't really my style, but here's a thanks for
+EN looking after me.
+
+@ 50.33
+# 社 長
+JP …んっ？
+JP …あぁ、バレンタインか。
+EN ...Hm? ...Ah, Valentine's Day.
+
+@ 50.40
+# 来島 恵理
+JP まっ、これからも
+JP よろしくってことで…。
+EN Well, here's to more of the same, I guess...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept a little thank-you for last month?
+
+@ 51.36
+# 来島 恵理
+JP …んっ？
+JP あぁ、ホワイトデーか。
+JP 忘れてたよ。
+EN ...Hm? Oh, White Day. I totally forgot.
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have it between practices or something.
+
+@ 52.31
+# scene 053 サイン会
+# 来島 恵理
+JP ほら、そこ！
+JP ちゃんと一列に並んで！
+EN Hey, you there! Line up properly in a single file!
+
+@ 53.31
+# scene 054 コンサート
+# 来島 恵理
+JP 俺は何すりゃいいんだ？
+EN So what am I supposed to do?
+
+@ 54.28
+# scene 055 練習拒否
+# 来島 恵理
+JP こんな軽いメニューじゃ
+JP 筋肉が鍛えられないって！
+EN A light routine like this won't build any muscle!
+
+@ 55.28
+# scene 056 失踪
+# 来島 恵理
+JP あぁ、もぉ！
+JP どうだっていいだろ！！
+EN Argh, geez! Who cares!!
+
+@ 56.16
+# scene 057 選手解雇
+# 来島 恵理
+JP そうかよ…。
+JP 今すぐ出てくよ。
+JP じゃあな。
+EN Is that so... I'll clear out right now. See ya.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 来島 恵理
+JP 自分がどれくらいのレスラーか
+JP 確かめてくるよ。
+EN I'm gonna go find out just how good a wrestler I am.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 来島 恵理
+JP ふぅ、疲れた…。
+JP やっぱ日本人は白いお米に
+JP 味噌汁だよなぁ。
+EN Phew, I'm beat... Nothing beats white rice and miso
+EN soup for a Japanese gal.
+
+@ 59.28
+# scene 060 移籍思案
+# 来島 恵理
+JP 引き抜きか…。
+JP 俺も成長したなぁ……。
+EN Getting headhunted, huh... I've come a long way...
+
+@ 60.16
+# scene 061 革命軍結成
+# 来島 恵理
+JP これまでの俺だと思ってたら
+JP 泣き見ることになるぜ！
+EN If you think I'm the same old me, you're gonna be
+EN cryin'!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 来島 恵理
+JP こっちは色々と溜まってんだ。
+JP とことん暴れさせてもらうぜ！
+EN I've got a lot built up inside. I'm gonna cut loose all
+EN the way!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 来島 恵理
+JP シロクロ付けようじゃねぇか！
+EN Let's settle this once and for all!
+
+@ 63.16
+# scene 064 遺恨発生
+# 来島 恵理
+JP ちっ…。
+JP なめやがって……。
+EN Tch... Lookin' down on me...
+
+@ 64.16
+# scene 065 殴り込み
+# 来島 恵理
+JP よーっし、暴れてくるぜ！
+EN All riiight, I'm gonna go wreck the place!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 来島 恵理
+JP あん？
+JP なんか言ったか？
+EN Huh? You say somethin'?
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 来島 恵理
+JP 全員まとめて潰してやるぜ！
+EN I'll crush every last one of you!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 来島 恵理
+JP うーっし…。
+JP 最後にひと華咲かせてやるぜ！
+EN All right... One last time, I'm gonna make it bloom!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 来島 恵理
+JP 俺のパワーが爆発した結果だな！
+EN That's what happens when my power explodes!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 来島 恵理
+JP わりぃ…。
+JP 俺のパワーが通用しないなんてな…。
+EN Sorry... Can't believe my power didn't cut it...
+
+@ 70.13
+# scene 071 引退式
+# 来島 恵理
+JP 悩んでばかりのレスラー人生…。
+JP でも…悔いはありません。
+JP 応援ありがとうございましたっ！
+EN My wrestling career was full of doubts... But... I have
+EN no regrets. Thank you for all your support!
+
+@ 71.18
+# 来島 恵理
+JP うぃーっす。
+EN Yo-o-o.
+
+@ 71.37
+# 来島 恵理
+JP 社長、なんすか？
+EN Boss, what's up?
+
+@ 71.47
+# 来島 恵理
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# 来島 恵理
+JP お、おう…。
+JP 任せなっ！
+EN Y-yeah... Leave it to me!
+
+@ 71.111
+# 来島 恵理
+JP …うっす。
+EN ...'Kay.
+
+@ 71.132
+# 来島 恵理
+JP …えっ、あ…な、なんだよ…。
+JP 照れるだろ…。
+JP そんなこと言われたら……。
+EN ...Huh? Ah... wh-what's this... You're embarrassing
+EN me... saying stuff like that...
+
+@ 71.153
+# 来島 恵理
+JP …嬉しいけど世辞はいいよ。
+EN ...I'm happy, but you don't gotta flatter me.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 来島 恵理
+JP そうか？
+JP う～ん…わかった。
+JP 気を付ける。
+EN You think so? Hmm... okay. I'll be careful.
+
+@ 71.211
+# 来島 恵理
+JP 俺が…？
+JP まさか。
+EN Me...? No way.
+
+@ 71.232
+# 来島 恵理
+JP わーってるよ…。
+JP ちょっと…な。
+JP すぐ…元に戻すよ。
+EN I know, I know... It's just... y'know. I'll get back on
+EN track... real soon.
+
+@ 71.253
+# 来島 恵理
+JP 俺にも調子の悪いときだって
+JP あるんだよ…。
+EN Even I have off days sometimes...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 71.290
+# 来島 恵理
+JP …なんでもないよ。
+JP ちょっとプロ野球の好きなチームが
+JP 連敗してたんでね。
+EN ...It's nothing. My favorite pro baseball team's just
+EN been on a losing streak.
+
+@ 71.311
+# 来島 恵理
+JP …気のせいだろ。
+EN ...You're imagining it.
+
+@ 71.332
+# 来島 恵理
+JP 社長…。
+JP ブルファイトって
+JP もう時代遅れなのか…？
+EN Boss... Is the bull-rush style already outdated...?
+
+@ 71.353
+# 来島 恵理
+JP …なんでもないよ。
+EN ...It's nothing.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 来島 恵理
+JP …あぁ。
+JP 想像はついてる。
+EN ...Yeah. I can guess.
+
+@ 71.400
+# 来島 恵理
+JP なんだよ。
+JP ズバッと言えよ、ズバっと。
+EN What is it? Just spit it out, straight up.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 来島 恵理
+JP …ったく。
+JP しょうがねぇなぁ。
+EN ...Geez. Fine, fine.
+
+@ 71.454
+# 来島 恵理
+JP ほっといてくれ。
+JP これは俺とあいつの問題だ。
+EN Stay out of it. This is between me and her.
+
+@ 71.475
+# 来島 恵理
+JP …えっ？
+JP いや、社長…。
+JP なんで、そういう話になるんだ？
+EN ...Huh? Wait, Boss... Why are you bringing this up?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 来島 恵理
+JP …わりぃ、心配させちまって。
+EN ...Sorry for making you worry.
+
+@ 71.522
+# 来島 恵理
+JP まさか…。
+EN No way...
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 来島 恵理
+JP …ったく。
+JP どうにかするよ…。
+EN ...Geez. I'll figure something out...
+
+@ 71.578
+# 来島 恵理
+JP 決着はリングの上で付けたいんだ。
+JP それがレスラーってもんだろ？
+EN I wanna settle it in the ring. That's what being a
+EN wrestler's about, right?
+
+@ 71.599
+# 来島 恵理
+JP ………………。
+EN ..................
+
+@ 71.606
+# 来島 恵理
+JP はぁあああ…。
+JP 社長ぉ、脅かすなよぉ…。
+JP クビかと思ってビビっただろ…。
+EN Phewww... Boss, don't scare me like that... I thought I
+EN was getting fired...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 来島 恵理
+JP 社長、なんすか？
+EN Boss, what's up?
+
+@ 72.16
+# 来島 恵理
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 来島 恵理
+JP お、おう…。
+JP 任せなっ！
+EN Y-yeah... Leave it to me!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 来島 恵理
+JP …うっす。
+EN ...'Kay.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 来島 恵理
+JP え、あ…な、なんだよ…。
+JP 照れるだろ…。
+JP そんなこと言われたら……。
+EN Huh? Ah... wh-what's this... You're embarrassing me...
+EN saying stuff like that...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 来島 恵理
+JP …嬉しいけど、世辞はいいよ。
+EN ...I'm happy, but you don't gotta flatter me.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 来島 恵理
+JP そうか？
+JP う～ん…わかった。
+JP 気を付ける。
+EN You think so? Hmm... okay. I'll be careful.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 来島 恵理
+JP 俺が？
+JP まさか。
+EN Me? No way.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 来島 恵理
+JP わーってるよ…。
+JP ちょっと、な。
+JP すぐ…元に戻すよ。
+EN I know, I know... It's just... y'know. I'll get back on
+EN track... real soon.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 来島 恵理
+JP 俺にも調子の悪いときだって
+JP あるんだよ…。
+EN Even I have off days sometimes...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 来島 恵理
+JP …なんでもないよ。
+JP ちょっとプロ野球の好きなチームが
+JP 連敗してたんでね。
+EN ...It's nothing. My favorite pro baseball team's just
+EN been on a losing streak.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 来島 恵理
+JP ……気のせいだろ。
+EN ...You're imagining it.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 来島 恵理
+JP 社長…。
+JP ブルファイトって、
+JP もう時代遅れなのか…？
+EN Boss... Is the bull-rush style already outdated...?
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 来島 恵理
+JP …なんでもないよ。
+EN ...It's nothing.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 来島 恵理
+JP …あぁ。
+JP 想像はついてる。
+EN ...Yeah. I can guess.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 来島 恵理
+JP なんだよ。
+JP ズバッと言えよ、ズバっと。
+EN What is it? Just spit it out, straight up.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 来島 恵理
+JP ったく…。
+JP しょうがねぇなぁ。
+EN Geez... Fine, fine.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 来島 恵理
+JP ほっといてくれ。
+JP これは俺とあいつの問題だ。
+EN Stay out of it. This is between me and her.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 来島 恵理
+JP ……えっ？
+JP いや、社長…。
+JP なんで、そういう話になるんだ？
+EN ...Huh? Wait, Boss... Why are you bringing this up?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 来島 恵理
+JP …わりぃ、心配させちまって。
+EN ...Sorry for making you worry.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 来島 恵理
+JP まさか……。
+EN No way...
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 来島 恵理
+JP ったく…。
+JP どうにかするよ…。
+EN Geez... I'll figure something out...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 来島 恵理
+JP 決着はリングの上で付けたいんだ。
+JP それがレスラーってもんだろ？
+EN I wanna settle it in the ring. That's what being a
+EN wrestler's about, right?
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 来島 恵理
+JP ………………。
+EN ..................
+
+@ 101.23
+# 来島 恵理
+JP はぁあああ…。
+JP 社長ぉ、おどかすなよぉ…。
+JP クビかと思ってビビっただろ…。
+EN Phewww... Boss, don't scare me like that... I thought I
+EN was getting fired...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 来島 恵理
+JP また１年、世話になるよ。
+EN Guess I'm in your hands for another year.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 来島 恵理
+JP おいおい…。
+JP 過剰評価ってやつじゃないのか？
+EN Whoa, whoa... Aren't you overrating me a bit?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 来島 恵理
+JP まぁ、こんなもんか…。
+JP もう少しいくと思ったんだけど…。
+EN Well, guess that's about right... I figured it'd be a bit
+EN more, though...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいる
+JP 　みたいだな…）
+EN (Everyone seems to be having fun...)
+
+@ 105.36
+# 社 長
+JP （…んっ、向こうから来るのは
+JP 　来島か？）
+EN (...Hm, is that Kishima coming this way?)
+
+@ 105.40
+# 来島 恵理
+JP あっ、いたいた。
+JP 社長、ちょっとこれ見てくれよ。
+EN Oh, there you are. Boss, check this out.
+
+@ 105.57
+# 来島 恵理
+JP ほらっ！
+EN Look!
+
+@ 105.60
+# 社 長
+JP …ええっと…。
+JP どうしたんだ、急に。
+EN ...Um... What's this all of a sudden?
+
+@ 105.64
+# 来島 恵理
+JP へへーんっ！
+EN Heh heh!
+
+@ 105.67
+# 社 長
+JP （いや、そんな勝ち誇られても
+JP 　困るんだが…）
+EN (Well, acting all triumphant doesn't really help me
+EN here...)
+
+@ 105.77
+# 来島 恵理
+JP ……ンッ…！
+EN ...Hmph...!
+
+@ 105.80
+# 社 長
+JP （あっ、来島のやつ
+JP 　機嫌が悪くなってきてるぞ…。
+JP 　ええっと、そうだな…）
+EN (Uh-oh, Kishima's getting cranky... Um, let's see...)
+
+@ 105.82
+# 社 長
+JP よく、焼けてるな。
+EN You've got a nice tan.
+
+@ 105.86
+# 来島 恵理
+JP 違うって！
+JP ほらっ！
+EN That's not it! Look!
+
+@ 105.89
+# 社 長
+JP あっ、オイルか？
+JP サンオイルを塗れってことだろ？
+EN Oh, the oil? You want me to put sunscreen on you,
+EN right?
+
+@ 105.93
+# 来島 恵理
+JP わかってないなぁ。
+EN You don't get it at all.
+
+@ 105.97
+# 来島 恵理
+JP ほら、これだよ、これ。
+JP けっこういい感じだと思わないか？
+EN Look, this, right here. Don't you think it's lookin'
+EN pretty good?
+
+@ 105.100
+# 社 長
+JP いや、だから…。
+JP 何がだ？
+EN Like I said... What is?
+
+@ 105.110
+# 来島 恵理
+JP 背筋。
+EN My back muscles.
+
+@ 105.113
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.115
+# 社 長
+JP はい？
+EN Come again?
+
+@ 105.119
+# 来島 恵理
+JP いやぁ、マッサージしてきたら
+JP なんかいい感じになってさ。
+EN See, I got a massage and they came out lookin' real
+EN good.
+
+@ 105.123
+# 来島 恵理
+JP ほら、どうすか。
+JP この筋肉の張り具合。
+EN C'mon, what do you think? Check out how firm these
+EN are.
+
+@ 105.126
+# 社 長
+JP …あぁ、うん。
+JP いい筋肉だな。
+EN ...Ah, yeah. Nice muscles.
+
+@ 105.130
+# 来島 恵理
+JP だろ？　特に…ここ。
+JP 僧帽筋のあたり、どうすか？
+EN Right? Especially... here. How about the traps, huh?
+
+@ 105.133
+# 社 長
+JP …そうだな。
+JP すごく…いいな…。
+EN ...Yeah. They're really... great...
+
+@ 105.137
+# 来島 恵理
+JP へへっ。
+JP さすが社長、わかってんなぁ！
+JP あははは！
+EN Heh heh. That's my Boss, you get it! Ahahaha!
+
+@ 105.140
+# 社 長
+JP あぁ。
+JP 今日の来島は輝いて見えるよ…。
+JP 色々な意味で…。
+EN Yeah. You're really shining today, Kishima... In more
+EN ways than one...
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP ん～…。
+JP ようやく全部片づいたか…。
+JP さて、帰るとするか…。
+EN Mmm... Finally got everything done... Guess I'll head
+EN home...
+
+@ 106.24
+# ？？？
+JP うわぁあああ！
+EN Waaaaah!
+
+@ 106.43
+# 社 長
+JP な、なんだ今の！？
+JP ジムか！？
+EN Wh-what was that!? The gym!?
+
+@ 106.58
+# 社 長
+JP おい、今のはなんだ！？
+JP どうした！？
+EN Hey, what was that!? What happened!?
+
+@ 106.62
+# ？？？
+JP あいたたた……。
+EN Ow ow ow...
+
+@ 106.76
+# 社 長
+JP 来島か！？
+JP おい、平気か？
+JP 何があった？？
+EN Kishima!? Hey, are you all right? What happened??
+
+@ 106.86
+# 来島 恵理
+JP あぁ、社長、わりぃ…。
+JP ちょっと張りきり過ぎちゃってさ。
+EN Ah, Boss, sorry... I got a little too fired up.
+
+@ 106.89
+# 社 長
+JP 張りきりすぎたって…。
+JP それにしても限度ってものが
+JP あるだろ。
+EN Too fired up... Even so, there's such a thing as limits.
+
+@ 106.93
+# 来島 恵理
+JP いや、ちょっとさ。
+EN Well, it's just...
+
+@ 106.96
+# 社 長
+JP ちょっと？
+EN Just what?
+
+@ 106.106
+# 来島 恵理
+JP ほら…。
+JP 最近さ、俺のことバカにするヤツが
+JP いてさ…。
+EN See... lately there's been someone making fun of me...
+
+@ 106.110
+# 来島 恵理
+JP 筋肉ばっかり鍛えても
+JP 世界に通用しないとかな…。
+EN Saying stuff like all that muscle won't get me
+EN anywhere on the world stage...
+
+@ 106.113
+# 社 長
+JP …誰だ。
+JP そんなふざけたこと言ったやつは。
+EN ...Who? Who said something so ridiculous?
+
+@ 106.117
+# 来島 恵理
+JP 誰だっていいだろ。
+EN Doesn't matter who.
+
+@ 106.121
+# 来島 恵理
+JP そりゃ…。
+JP 俺も最初はカチンときたけどさ。
+EN I mean... sure, it ticked me off at first.
+
+@ 106.131
+# 来島 恵理
+JP 今はもっともっと体を鍛えて
+JP そいつを見返してやる
+JP つもりだからさ。
+EN But now I'm gonna build my body up even more and
+EN show 'em.
+
+@ 106.134
+# 社 長
+JP そうか…。
+JP おまえなら絶対できる。
+JP がんばれよ。
+EN I see... You can definitely do it. Hang in there.
+
+@ 106.138
+# 来島 恵理
+JP もちろん！
+JP パワーレスリングの真髄
+JP 社長にも見せてやるよ。
+EN You bet! I'll show you the true essence of power
+EN wrestling too, Boss.
+
+@ 106.148
+# 来島 恵理
+JP だからって訳じゃないんだけどさ…。
+EN Not that it's got anything to do with that, but...
+
+@ 106.151
+# 社 長
+JP …んっ？
+JP どうした？
+EN ...Hm? What is it?
+
+@ 106.155
+# 来島 恵理
+JP トレーニングの機材
+JP 色々壊れちまってさ。
+JP 買い直してくれないか？
+EN A bunch of the training equipment kinda broke. Could
+EN you buy new stuff?
+
+@ 106.158
+# 社 長
+JP 「壊れた」じゃなくて
+JP 「壊した」だろ。
+EN You mean you "broke it," not "it broke."
+
+@ 106.168
+# 来島 恵理
+JP あはははは…。
+EN Ahahahaha...
+
+@ 106.171
+# 社 長
+JP まったく…。
+JP 鍛えるのもいいが程々にしろよ…。
+EN Honestly... Training's fine, but don't overdo it...
+
+@ 107.20
+# scene 108 日常イベント２
+# 社 長
+JP よし、これで帳簿はいいとして…
+JP あぁ、もうこんな時間か。
+JP 腹減ったな…。
+EN Okay, that takes care of the books... Ah, it's this
+EN late already? I'm starving...
+
+@ 107.24
+# ？？？
+JP うわぁあああ！
+EN Waaaaah!
+
+@ 107.43
+# 社 長
+JP な、なんだ今の！？
+JP ジムか！？
+EN Wh-what was that!? The gym!?
+
+@ 107.58
+# 社 長
+JP おい、今のはなんだ！？
+JP どうした！？
+EN Hey, what was that!? What happened!?
+
+@ 107.62
+# ？？？
+JP あいたたた……。
+EN Ow ow ow...
+
+@ 107.76
+# 社 長
+JP 来島…また壊したのか。
+EN Kishima... Did you break something again?
+
+@ 107.86
+# 来島 恵理
+JP いやぁ、あれからずいぶん
+JP 鍛えたけど、また別のヤツが
+JP バカにしてきてさ。
+EN Well, I've trained a ton since then, but now some
+EN other people are making fun of me.
+
+@ 107.96
+# 来島 恵理
+JP そいつらも見返さなきゃ
+JP ならないんで、ちょーっと…さ。
+JP あははは。
+EN I gotta show them too, so I just went a liiittle...
+EN Ahahaha.
+
+@ 107.99
+# 社 長
+JP 見返すって……んっ？
+EN Show them... Hm?
+
+@ 107.101
+# 社 長
+JP なぁ、来島。
+JP もしかしておまえ…。
+JP からかわれてるだけじゃないのか？
+EN Hey, Kishima. Could it be... they're just teasing you?
+
+@ 107.111
+# 来島 恵理
+JP 俺が…？
+JP まさか…。
+JP 褒めてくれるヤツだっているんすよ？
+EN Me...? No way... There are people who compliment me
+EN too, y'know?
+
+@ 107.114
+# 社 長
+JP なんて褒められるんだ？
+EN What kind of compliments?
+
+@ 107.118
+# 来島 恵理
+JP えっと…なんだったかな。
+JP あぁ、そうそう。
+EN Um... what was it again? Oh, right, right.
+
+@ 107.131
+# 後 輩
+JP 「来島先輩の筋肉見たか」
+EN "Did you see Kishima-senpai's muscles?"
+
+@ 107.135
+# 後 輩
+JP 「あれなら男でも締め落とせる」
+EN "She could choke out a guy with those."
+
+@ 107.139
+# 後 輩
+JP 「ますますマニア受けする選手に
+JP 　なってきた」
+EN "She's turning into more and more of a cult-favorite
+EN wrestler."
+
+@ 107.150
+# 来島 恵理
+JP ほら、普通に褒められてるだろ？
+EN See? Totally normal compliments, right?
+
+@ 107.153
+# 社 長
+JP それ、思いっきりバカにされてるぞ。
+EN They're totally making fun of you.
+
+@ 107.163
+# 来島 恵理
+JP またまたぁ。
+EN Oh, come on.
+
+@ 107.166
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.176
+# 来島 恵理
+JP それに…どっちでも
+JP いいじゃないっすか。
+EN Besides... does it matter either way?
+
+@ 107.186
+# 来島 恵理
+JP 鍛えられたことには
+JP 間違いないんだし。
+EN I definitely got stronger, no question.
+
+@ 107.189
+# 社 長
+JP まったく…。
+JP おまえのまっすぐなところには
+JP 感服するよ。
+EN Honestly... I have to admire how straightforward you
+EN are.
+
+@ 107.191
+# 社 長
+JP …ってことで、どうだ。
+JP これから焼き肉でも食いに行くか？
+EN ...So, how about it? Want to go out for yakiniku?
+
+@ 107.195
+# 来島 恵理
+JP やりっ！
+JP もち社長のおごりだろ？
+EN Score! Your treat, of course, right?
+
+@ 107.198
+# 社 長
+JP あぁ。
+JP でも、これを片づけてからだ。
+EN Yeah. But after you clean this up.
+
+@ 107.202
+# 来島 恵理
+JP よしっ！
+JP チャチャッと片付けるから
+JP ちょっと待っててくれよ。
+EN All right! I'll tidy up in a jiffy, so wait for me!
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 来島 恵理
+JP へへっ…。
+JP さぁ、来いっ！
+EN Heh heh... Come on, bring it!
+
+@ 109.17
+# scene 112 練習試合 バッド
+# 来島 恵理
+JP その減らず口、力で閉ざしてやるよ！
+EN I'll shut that smart mouth of yours with pure power!
+
+@ 110.16
+# scene 113 練習開始
+# 来島 恵理
+JP おーっし、始めるとするかっ！
+EN All riiight, let's get started!
+
+@ 111.16
+# scene 114 練習開始 好意
+# 来島 恵理
+JP よしっ！
+JP 今日もみっちり筋トレするぜ！
+EN All right! Another day of hardcore muscle training!
+
+@ 112.16
+# scene 115 特訓開始
+# 来島 恵理
+JP こっちはいつでもいいぜ！
+EN I'm ready anytime!
+
+@ 113.20
+# scene 116 特訓成功
+# 来島 恵理
+JP 毎日特訓でもいいぜ。
+EN I'd be fine with special training every day.
+
+@ 114.20
+# scene 117 特訓失敗
+# 来島 恵理
+JP もしかして…全部ムダかよ…？
+EN Could it be... it's all been for nothing...?
+
+@ 115.16
+# scene 118 休養
+# 来島 恵理
+JP 理想のダンベル
+JP 探しに出かけてくるよ。
+EN I'm gonna go out and look for the perfect dumbbell.
+
+@ 116.16
+# scene 119 入場1
+# 来島 恵理
+JP 圧倒的なパワーってやつ
+JP 見せてやるよ！
+EN I'll show you what overwhelming power looks like!
+
+@ 117.16
+# scene 119 入場2
+# 来島 恵理
+JP よっしゃーッ！
+JP リングで爆発してやるぜ！
+EN All riiight! I'm gonna explode in that ring!
+
+@ 118.17
+# scene 120 タッグマッチ ベスト
+# 来島 恵理
+JP 俺がブレーキ役って
+JP 何かの間違いだろ？
+EN Me, the one holding back? Gotta be some kinda
+EN mistake, right?
+
+@ 119.19
+# scene 122 タッグマッチ ベター２
+# 来島 恵理
+JP …かみ合うのか？
+EN ...Are we even gonna click?
+
+@ 120.17
+# scene 123 タッグマッチ バッド
+# 来島 恵理
+JP ちっ…。
+JP なんでこんなタッグを…。
+EN Tch... Why'd I get stuck in this tag team...
+
+@ 121.16
+# scene 125 必殺技１
+# 来島 恵理
+JP 押して、押して、押しまくるっ！
+EN Push, push, and keep on pushing!
+
+@ 122.16
+# scene 125 必殺技２
+# 来島 恵理
+JP 一撃必殺ってもんの
+JP お手本を見せてやるぜ！
+EN I'll show you a textbook one-hit KO!
+
+@ 123.16
+# scene 125 必殺技３
+# 来島 恵理
+JP こいつでブッ飛んじまえ！
+EN Go flying with this one!
+
+@ 124.12
+# scene 126 勝利1
+# 来島 恵理
+JP やっぱり最後はパワーの差が出たな！
+EN In the end, the difference in power showed!
+
+@ 125.12
+# scene 126 勝利2
+# 来島 恵理
+JP へへっ。
+JP 悪くない試合だったぜ。
+EN Heh heh. That wasn't a bad match.
+
+@ 126.12
+# scene 126 勝利3
+# 来島 恵理
+JP へっへー！
+JP この肉体で負ける訳ないだろ！
+EN Heh heh! No way I'd lose with a body like this!
+
+@ 127.15
+# scene 133 表彰1
+# 来島 恵理
+JP へへへっ…。
+JP こうして評価されるのって
+JP 嬉しいもんだな。
+EN Heh heh heh... Getting recognized like this sure feels
+EN nice.
+
+@ 128.15
+# scene 133 表彰2
+# 来島 恵理
+JP 日頃の練習とみんなの声援の
+JP おかげかな。
+EN Guess it's thanks to my daily training and
+EN everyone's cheers.
+
+@ 129.12
+# scene 134 優勝1
+# 来島 恵理
+JP へへっ。
+JP プロレスはパワーってことが
+JP 証明できたぜ！
+EN Heh heh. I proved that pro wrestling is all about
+EN power!
+
+@ 130.12
+# scene 134 優勝２
+# 来島 恵理
+JP どうだ！
+JP 俺でも勝てること証明してやったぞ！
+EN How 'bout that! I proved even I can win!
+
+@ 131.24
+# scene 135 エンディング 通常
+# 来島 恵理
+JP 社長ぉ、すごいよ！
+JP マジですごいって、あはははっ！
+JP やればできるんだな、社長は！
+EN Boss, that's amazing! Seriously amazing, ahahaha!
+EN You can do it when you try, Boss!
+
+@ 132.24
+# scene 136 エンディング 好意
+# 来島 恵理
+JP 社長…ほんと、すごいよ。
+JP 惚れ直し…あぁ、いや、なんでもない。
+JP なんでもないって！
+EN Boss... you're really amazing. I'm falling for you all
+EN over... Ah, no, never mind. I said never mind!

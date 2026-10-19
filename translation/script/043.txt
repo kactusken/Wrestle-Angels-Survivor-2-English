@@ -1,0 +1,2305 @@
+# /SCR/043.BIN - 佐尾山幸音鈴
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 043` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 佐尾山 幸音鈴
+JP 佐尾山です！
+JP 見た目よりでっかいこと
+JP してやります！！
+EN I'm Saoyama! I'm gonna do things a whole lot bigger
+EN than I look!!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 佐尾山 幸音鈴
+JP うっしゃあ！
+JP がんばります！
+EN Hell yeah! I'll give it everything!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 佐尾山 幸音鈴
+JP くっ…。
+JP あ、ありがとうございました！
+EN Ngh... Th-thank you very much!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりにムエタイの強い娘が
+JP いると聞いていたんだが…。
+EN I heard there was a girl around here who's really
+EN good at Muay Thai...
+
+@ 3.25
+# 社 長
+JP ん…あそこで練習している子。
+JP 写真と同じだ。
+JP 蹴りも鋭いし、間違いない。
+EN Hm... that girl training over there. She matches the
+EN photo. And those kicks are sharp. It's her.
+
+@ 3.27
+# 社 長
+JP 予想していたより
+JP 随分と小さいけれど…。
+EN She's a lot smaller than I expected, though...
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.39
+# 佐尾山 幸音鈴
+JP はい？
+EN Yeah?
+
+@ 3.42
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.46
+# 佐尾山 幸音鈴
+JP へぇ…。
+JP プロレスの社長さん？
+EN Huh... You run a pro-wrestling promotion?
+
+@ 3.49
+# 社 長
+JP どうでしょう？
+JP その技を是非プロレスのリングで…。
+EN What do you say? I'd love to see those moves in a
+EN wrestling ring...
+
+@ 3.56
+# 佐尾山 幸音鈴
+JP そりゃいいや、私がムエタイを
+JP 習っているのも、実はプロレスラーに
+JP なりたかったからだし。
+EN Now that's a deal! Truth is, the whole reason I'm
+EN learning Muay Thai is 'cause I wanted to be a pro
+EN wrestler.
+
+@ 3.59
+# 社 長
+JP へえ、それなら是非。
+EN Really? Then by all means.
+
+@ 3.61
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 佐尾山 幸音鈴
+JP わかった。
+JP これも縁ってヤツだよな…。
+JP うっし、よろしくお願いします！
+EN All right. Guess this is what they call fate... Okay, I'm
+EN in. Nice to meet ya!
+
+@ 4.22
+# 社 長
+JP こちらこそ。
+EN Likewise.
+
+@ 4.29
+# 佐尾山 幸音鈴
+JP よっし！
+JP これから、でかい連中をバッシバシ
+JP なぎ倒していってやるぜ！！
+EN Yes! From now on I'm gonna knock those big lugs
+EN down one after another!!
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# 佐尾山 幸音鈴
+JP ごめん。
+JP 私は目標とする人がいるんだ。
+JP 行くならそこって決めてるから…。
+EN Sorry. There's someone I look up to. If I go anywhere,
+EN I already decided it's gonna be there...
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 佐尾山 幸音鈴
+JP お？
+JP こないだの社長さん。
+JP ちゅっす！
+EN Oh? It's the president from the other day. 'Sup!
+
+@ 6.36
+# 社 長
+JP あれから考えたんだけれど
+JP やっぱりうちの団体に
+JP 入って欲しいと思って。
+EN I've been thinking since then, and I really do want
+EN you in my promotion.
+
+@ 6.43
+# 佐尾山 幸音鈴
+JP えっ、う～ん。
+JP そこまで買ってくれてるのは
+JP 嬉しいけど…。
+EN Huh? Hmmm. I'm glad you think that highly of me, but...
+
+@ 6.46
+# 社 長
+JP うん、買っているんだよ。
+EN Yes, I do think highly of you.
+
+@ 6.48
+# 社 長
+JP （そして、俺は
+JP 　再び条件を提示してみた）
+EN (Then I laid out my offer once again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 佐尾山 幸音鈴
+JP わかった。
+JP これも縁ってヤツだよな…。
+JP うっし、よろしくお願いします！
+EN All right. Guess this is what they call fate... Okay, I'm
+EN in. Nice to meet ya!
+
+@ 7.22
+# 社 長
+JP こちらこそ。
+EN Likewise.
+
+@ 7.29
+# 佐尾山 幸音鈴
+JP よっし！
+JP これから、でかい連中をバッシバシ
+JP なぎ倒していってやるぜ！！
+EN Yes! From now on I'm gonna knock those big lugs
+EN down one after another!!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 佐尾山 幸音鈴
+JP ごめん。
+JP 私は目標とする人がいるんだ。
+JP 行くならそこって決めてるから…。
+EN Sorry. There's someone I look up to. If I go anywhere,
+EN I already decided it's gonna be there...
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は佐尾山選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Saoyama.
+
+@ 9.25
+# 社 長
+JP 小柄ながらもムエタイの使い手。
+JP 被弾を覚悟で突っ込んで行く
+JP スタイルは燃えるものがある。
+EN She's small, but a real Muay Thai fighter. The way she
+EN charges in, ready to eat any hit, gets the blood
+EN pumping.
+
+@ 9.27
+# 社 長
+JP 彼女がいれば
+JP うちのリングはもっと熱気に
+JP 包まれるだろう。
+EN With her around, my ring would be even more fired up.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP よく練習しているはずだけれど…。
+EN She's supposed to train around here a lot...
+
+@ 9.31
+# 社 長
+JP いた！
+EN There she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 佐尾山 幸音鈴
+JP はい？
+EN Yeah?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.50
+# 佐尾山 幸音鈴
+JP へぇ…。
+JP これ、ヘッドハンティングってヤツ？
+EN Huh... So this is what they call headhunting?
+
+@ 9.53
+# 社 長
+JP まあ、そういうことです。
+EN Well, yes, that's about it.
+
+@ 9.60
+# 佐尾山 幸音鈴
+JP そっか。
+JP へへ、なんか私も偉くなった
+JP モンだな。
+EN I see. Heh, guess I've become a pretty big deal.
+
+@ 9.63
+# 社 長
+JP ぜひ、うちのリングに
+JP あがって欲しいんですよ。
+EN I'd really like you to fight in my ring.
+
+@ 9.65
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 佐尾山 幸音鈴
+JP ＯＫ！
+JP そこまで見込まれたら…。
+JP 行くしかないな！！
+EN OK! If you think that much of me... I gotta go for it!!
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# 佐尾山 幸音鈴
+JP ああ、女に二言はねぇ！
+JP これから…よろしく！！
+EN Yeah, a woman keeps her word! Let's do this...
+EN partner!!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 佐尾山 幸音鈴
+JP 悪い、社長さん！
+JP 私、まだ今の団体でやることあるんだ。
+JP だから、ごめん！
+EN Sorry, Mr. President! I've still got stuff to do in my
+EN current promotion. So, sorry!
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP わかりました。
+JP すみません、無理を言って。
+EN I see... I understand. Sorry for pushing you.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 佐尾山選手が必要だ。
+EN My promotion really does need Saoyama.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 佐尾山選手と交渉することにした。
+EN I decided to negotiate with Saoyama one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 佐尾山 幸音鈴
+JP お？
+JP こないだの社長さん。
+JP ちゅっす！
+EN Oh? It's the president from the other day. 'Sup!
+
+@ 12.40
+# 社 長
+JP あれから考えたんだけれど
+JP やっぱりうちの団体に
+JP 入って欲しいと思って。
+EN I've been thinking since then, and I really do want
+EN you in my promotion.
+
+@ 12.47
+# 佐尾山 幸音鈴
+JP うーん、買ってもらえるのは
+JP 嬉しいんだけど…。
+EN Hmm, I'm glad you think highly of me, but...
+
+@ 12.50
+# 社 長
+JP なんとかうちに
+JP 来てもらえないでしょうか？
+EN Is there any way you'd come join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 佐尾山 幸音鈴
+JP ＯＫ！
+JP そこまで見込まれたら…。
+JP 行くしかないな！！
+EN OK! If you think that much of me... I gotta go for it!!
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# 佐尾山 幸音鈴
+JP ああ、女に二言はねぇ！
+JP これから…よろしく！！
+EN Yeah, a woman keeps her word! Let's do this...
+EN partner!!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 佐尾山 幸音鈴
+JP 悪い、社長さん！
+JP 私、まだ今の団体でやることあるんだ。
+JP だから、ごめん！
+EN Sorry, Mr. President! I've still got stuff to do in my
+EN current promotion. So, sorry!
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP わかりました。
+JP すみません、無理を言って。
+EN I see... I understand. Sorry for pushing you.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は佐尾山選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Saoyama.
+
+@ 15.25
+# 社 長
+JP 小さな体に大きな気合い。
+JP あんなタイプは是非欲しい。
+EN A small body with huge fighting spirit. I'd love to
+EN have a wrestler like that.
+
+@ 15.27
+# 社 長
+JP 彼女がいれば
+JP うちのリングはもっと熱く
+JP 燃え上がるはずだ。
+EN With her around, my ring would burn even hotter.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりで
+JP よく練習しているはずだけれど…。
+EN She's supposed to train around here a lot...
+
+@ 15.31
+# 社 長
+JP いた！
+EN There she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# 佐尾山 幸音鈴
+JP はい？
+EN Yeah?
+
+@ 15.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 15.53
+# 佐尾山 幸音鈴
+JP んー、団体かぁ。
+EN Hmm, a promotion, huh?
+
+@ 15.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.60
+# 佐尾山 幸音鈴
+JP フリーっていうのも
+JP 悪くないんだよなぁ。
+EN Being a freelancer ain't so bad either, y'know.
+
+@ 15.63
+# 社 長
+JP そこをなんとか。
+EN Please, think it over.
+
+@ 15.65
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 佐尾山 幸音鈴
+JP どこか根城を持つのも悪くないか…。
+JP ＯＫ、その話のった！！
+EN Maybe having a home base wouldn't be so bad... OK,
+EN you got a deal!!
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# 佐尾山 幸音鈴
+JP ああ、女に二言はねぇ！
+JP これから…よろしく！！
+EN Yeah, a woman keeps her word! Let's do this...
+EN partner!!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 佐尾山 幸音鈴
+JP わざわざ来てもらって悪いけれど…。
+JP ごめん、今はそんな気になれないや。
+JP ほんと、ごめん！
+EN Sorry you came all the way out here, but... I'm just
+EN not feeling it right now. Really, sorry!
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP わかりました。
+JP すみません、無理を言って。
+EN I see... I understand. Sorry for pushing you.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 佐尾山選手が必要だ。
+EN My promotion really does need Saoyama.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 佐尾山選手と交渉することにした。
+EN I decided to negotiate with Saoyama one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 佐尾山 幸音鈴
+JP お？
+JP こないだの社長さん。
+JP ちゅっす！
+EN Oh? It's the president from the other day. 'Sup!
+
+@ 18.40
+# 社 長
+JP やっぱり、うちの団体に
+JP 入って欲しくて…。
+EN I still want you to join my promotion...
+
+@ 18.47
+# 佐尾山 幸音鈴
+JP う～ん。
+JP フリーっていうのが
+JP 性にあってるんだよなぁ。
+EN Hmmm. Freelancing just suits me, y'know.
+
+@ 18.50
+# 社 長
+JP そこを何とか。
+EN Please, think it over.
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 佐尾山 幸音鈴
+JP どこか根城を持つのも悪くないか…。
+JP ＯＫ、その話のった！！
+EN Maybe having a home base wouldn't be so bad... OK,
+EN you got a deal!!
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# 佐尾山 幸音鈴
+JP ああ、女に二言はねぇ！
+JP これから…よろしく！！
+EN Yeah, a woman keeps her word! Let's do this...
+EN partner!!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 佐尾山 幸音鈴
+JP わざわざ来てもらって悪いけれど…。
+JP ごめん、今はそんな気になれないや。
+JP ほんと、ごめん！
+EN Sorry you came all the way out here, but... I'm just
+EN not feeling it right now. Really, sorry!
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP わかりました。
+JP すみません、無理を言って。
+EN I see... I understand. Sorry for pushing you.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は佐尾山を訪ねることにした。
+EN I decided to go see Saoyama.
+
+@ 21.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 21.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 佐尾山！
+EN Saoyama!
+
+@ 21.41
+# 佐尾山 幸音鈴
+JP あれ、社長？
+EN Huh, Boss?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.48
+# 佐尾山 幸音鈴
+JP うんうん、久しぶり。
+JP どお？
+JP 変わりない？
+EN Yeah, yeah, long time! So how's it going? Same as
+EN ever?
+
+@ 21.51
+# 社 長
+JP ああ、おかげさまで。
+EN Yes, doing fine, thanks.
+
+@ 21.53
+# 社 長
+JP それで、今日来たのは他でもない。
+JP おまえに戻ってきて欲しくて。
+EN Anyway, I came here today for one reason. I want
+EN you to come back.
+
+@ 21.60
+# 佐尾山 幸音鈴
+JP あはははは！
+JP なんだよ調子いいなー。
+JP 辞める原因作ったの、誰だよ。
+EN Ahahahaha! Wow, you've got some nerve. And who
+EN was it that made me quit, huh?
+
+@ 21.63
+# 社 長
+JP たしかに、こんなこと頼めた
+JP 義理じゃないとわかってはいるんだが。
+EN I know I'm in no position to ask you something like
+EN this.
+
+@ 21.65
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 佐尾山 幸音鈴
+JP ん、わかった！
+JP 私に任せとけ！！
+EN Mm, all right! Leave it to me!!
+
+@ 22.22
+# 社 長
+JP 許して…くれるのか？
+EN You'll... forgive me?
+
+@ 22.29
+# 佐尾山 幸音鈴
+JP 許すも許さないもないって。
+JP 私と社長の仲だろ！
+JP な！！
+EN Forgive, not forgive, who cares? We go way back,
+EN Boss! Right?!
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP また、よろしく。
+EN Thank you. Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 佐尾山 幸音鈴
+JP ごめんな、社長。
+JP 戻ってやりたいのはやまやまだけど
+JP 今やることがあるんだ。
+EN Sorry, Boss. I'd love to come back, I really would, but
+EN I've got stuff to do right now.
+
+@ 23.22
+# 社 長
+JP そうなのか…。
+EN I see...
+
+@ 23.26
+# 佐尾山 幸音鈴
+JP ああ、ホント、ごめんな。
+EN Yeah, really, I'm sorry.
+
+@ 23.29
+# 社 長
+JP いや、こっちこそ。
+JP 無理を言ってすまなかった。
+EN No, I'm the one who should apologize. Sorry for
+EN asking so much.
+
+@ 23.31
+# 社 長
+JP （こっちを恨んでないと
+JP 　わかっただけでもよかったよ）
+EN (At least I know she doesn't hold a grudge.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び佐尾山を訪ねることにした。
+EN I decided to go see Saoyama again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 24.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 24.31
+# 社 長
+JP 佐尾山！
+EN Saoyama!
+
+@ 24.41
+# 佐尾山 幸音鈴
+JP あ、社長。
+JP ひっさしぶり～。
+JP 今日はなんの用？
+EN Oh, Boss. Lo-o-ong time no see! What's up today?
+
+@ 24.44
+# 社 長
+JP こないだと同じなんだ。
+EN Same as last time.
+
+@ 24.46
+# 社 長
+JP どうしてもお前に戻って欲しくて。
+EN I really want you to come back.
+
+@ 24.48
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 佐尾山 幸音鈴
+JP ん、わかった！
+JP 私に任せとけ！！
+EN Mm, all right! Leave it to me!!
+
+@ 25.22
+# 社 長
+JP 許して…くれるのか？
+EN You'll... forgive me?
+
+@ 25.29
+# 佐尾山 幸音鈴
+JP 許すも許さないもないって。
+JP 私と社長の仲だろ！
+JP な！！
+EN Forgive, not forgive, who cares? We go way back,
+EN Boss! Right?!
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP また、よろしく。
+EN Thank you. Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 佐尾山 幸音鈴
+JP ごめんな、社長。
+JP 戻ってやりたいのはやまやまだけど
+JP 今やることがあるんだ。
+EN Sorry, Boss. I'd love to come back, I really would, but
+EN I've got stuff to do right now.
+
+@ 26.22
+# 社 長
+JP そうなのか…。
+EN I see...
+
+@ 26.26
+# 佐尾山 幸音鈴
+JP ああ、ホントにごめんな。
+EN Yeah, I'm really sorry.
+
+@ 26.29
+# 社 長
+JP いや、こっちこそ。
+JP 無理を言ってすまなかった。
+EN No, I'm the one who should apologize. Sorry for
+EN asking so much.
+
+@ 26.31
+# 社 長
+JP （こっちを恨んでないと
+JP 　わかっただけでもよかったよ）
+EN (At least I know she doesn't hold a grudge.)
+
+@ 27.16
+# scene 028 ケガ小
+# 佐尾山 幸音鈴
+JP ち…。
+JP これくらい、ツバつけときゃ治る！
+EN Tch... A little spit'll fix this right up!
+
+@ 28.16
+# scene 029 ケガ大
+# 佐尾山 幸音鈴
+JP く…やっちまった…。
+JP これはさすがに…。
+JP ツバじゃ治らないよなぁ…。
+EN Ngh... I messed up... This one's... not gonna heal with
+EN spit, huh...
+
+@ 29.16
+# scene 030 入院
+# 佐尾山 幸音鈴
+JP うぅ…。
+JP 病院の匂い苦手なんだよなぁ。
+EN Ugh... I hate the hospital smell.
+
+@ 30.16
+# scene 031 退院
+# 佐尾山 幸音鈴
+JP ただいま！
+JP あー、外の空気はうまいぜ！
+EN I'm back! Aaah, the air out here tastes great!
+
+@ 31.16
+# scene 032 ケガ完治
+# 佐尾山 幸音鈴
+JP よぉぉぉし！
+JP 完全復活ぅ！！
+EN Allll riiight! Fully recharged!!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 佐尾山 幸音鈴
+JP んー、わかった！
+JP 女は引き際も肝心だもんな。
+EN Mm, all right! Knowing when to step away matters for
+EN a woman too.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 佐尾山 幸音鈴
+JP いや、まだだ。
+JP 私はまだやれる！
+EN No, not yet. I can still fight!
+
+@ 34.16
+# scene 035 コーチ就任
+# 佐尾山 幸音鈴
+JP ビッシビシいくからな！
+EN I'm gonna be tough on you, got it?!
+
+@ 35.16
+# scene 036 ケガ引退
+# 佐尾山 幸音鈴
+JP しくったなぁ…。
+JP はぁ……。
+EN Blew it, huh... Haaah......
+
+@ 36.16
+# scene 037 年齢引退
+# 佐尾山 幸音鈴
+JP 時代ってやつか。
+JP うん、そうだな…。
+JP 覚悟を決めるか。
+EN Guess my time's up. Yeah, that's how it is... Time to
+EN make up my mind.
+
+@ 37.16
+# scene 038 退団
+# 佐尾山 幸音鈴
+JP ふう……。
+JP 今まで、ありがとうございましたっ！
+EN Whew...... Thank you for everything up to now!
+
+@ 38.16
+# scene 039 スランプ
+# 佐尾山 幸音鈴
+JP なんだろうなぁ。
+JP なんか、気合いが空回りするぞ？
+EN What's going on? My fighting spirit just keeps
+EN spinning its wheels.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 佐尾山 幸音鈴
+JP え、ファンクラブ？
+JP 私にぃ？
+EN Huh, a fan club? For me?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# 佐尾山 幸音鈴
+JP あ、あぁ…。
+JP でも、なんか照れくさいな。
+EN Y-yeah... Kinda embarrassing, though.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 佐尾山 幸音鈴
+JP 増えたの？
+JP ファンクラブが？
+EN It got bigger? My fan club?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yes. Live up to their hopes.
+
+@ 40.26
+# 佐尾山 幸音鈴
+JP お、おぅ！
+JP やったらぁ！！
+EN Y-you bet! I'll show 'em!!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 佐尾山 幸音鈴
+JP 潰れた…？
+EN It folded...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard again.
+
+@ 41.26
+# 佐尾山 幸音鈴
+JP う～ん。
+JP これも私が未熟故なんだろうし…。
+JP しょーがないよなぁ。
+EN Hmmm. I guess it's 'cause I'm still not good enough...
+EN Can't be helped.
+
+@ 42.16
+# scene 043 映画出演
+# 佐尾山 幸音鈴
+JP え、映画かよ。
+JP …そっち方面の自信はないなぁ。
+EN Huh, a movie? ...I'm not real confident in that
+EN department.
+
+@ 43.16
+# scene 044 一日署長
+# 佐尾山 幸音鈴
+JP 署長？
+JP へへへ、一度あの服
+JP 着てみたかったんだよな！
+EN Police chief? Heh heh, I always wanted to try on that
+EN uniform!
+
+@ 44.16
+# scene 045 写真集発売
+# 佐尾山 幸音鈴
+JP 写真集かぁ…。
+JP 動かない私を見て嬉しいのかな？
+EN A photo book, huh... Do people really like seeing me
+EN when I'm not moving?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 佐尾山 幸音鈴
+JP ＣＭね。
+JP うーん、ピンと来ないけど…。
+JP ま、いいよ。
+EN A commercial, huh. Hmm, can't really picture it, but...
+EN Eh, sure.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 佐尾山 幸音鈴
+JP おいおい、ちょっと待ってくれよ。
+JP 私、カラオケもろくに
+JP 行かないような人間だぞ。
+EN Whoa, whoa, wait a sec. I'm the kind of person who
+EN barely even goes to karaoke.
+
+@ 47.16
+# scene 048 始球式
+# 佐尾山 幸音鈴
+JP 野球かぁ…。
+JP そういや、小学生の頃は
+JP 野球もよく見ていたっけ。
+EN Baseball, huh... Come to think of it, I used to watch a
+EN lot of baseball in grade school.
+
+@ 48.16
+# scene 049 学園祭
+# 佐尾山 幸音鈴
+JP はぁ～。
+JP 学校のお祭りでも
+JP レスラーとか呼ぶんだ？
+EN Huh. So even school festivals invite wrestlers?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a birthday present.
+
+@ 49.38
+# 佐尾山 幸音鈴
+JP え？
+JP あ…ありがと……。
+EN Huh? Oh... th-thanks......
+
+@ 49.41
+# 社 長
+JP 今日から
+JP おまえも大人の仲間入りだな。
+EN As of today, you're officially an adult.
+
+@ 49.48
+# 佐尾山 幸音鈴
+JP それは嬉しいんだけれど……。
+JP はぁ、ここまで来たら
+JP もう背は伸びそうもないなぁ。
+EN That's great and all, but...... Sigh, at this point I don't
+EN think I'm getting any taller.
+
+@ 50.32
+# scene 051 バレンタインデー
+# 佐尾山 幸音鈴
+JP しゃ…社長……。
+JP その、これ…バレンタインだし……。
+EN B-Boss...... Um, here... I mean, it's Valentine's......
+
+@ 50.35
+# 社 長
+JP チョコか…。
+JP ありがとう。
+EN Chocolate... Thank you.
+
+@ 50.39
+# 佐尾山 幸音鈴
+JP ガ、ガラじゃないのは
+JP わかってんだけどさ。
+JP ほら、な、色々とさ……な？
+EN I-I know it ain't really my style. But, y'know, there's...
+EN stuff... y'know?
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, for last month?
+
+@ 51.38
+# 佐尾山 幸音鈴
+JP あ、ありがとう……。
+JP その…大事にするから……絶対。
+EN Th-thank you...... I'll... treasure it...... For sure.
+
+@ 51.41
+# 社 長
+JP これからも、よろしく。
+EN I'm counting on you from here on, too.
+
+@ 52.31
+# scene 053 サイン会
+# 佐尾山 幸音鈴
+JP うっしゃ、ドンドン来い！
+EN All right, bring 'em on!
+
+@ 53.31
+# scene 054 コンサート
+# 佐尾山 幸音鈴
+JP コンサートって……。
+JP 私、何すりゃいいんだよ。
+EN A concert...... What am I even supposed to do?
+
+@ 54.28
+# scene 055 練習拒否
+# 佐尾山 幸音鈴
+JP あー、疲れたぁ。
+JP ちょっと休憩、休憩。
+EN Aah, I'm beat. Break time, break time.
+
+@ 55.28
+# scene 056 失踪
+# 佐尾山 幸音鈴
+JP ごめん、社長。
+EN Sorry, Boss.
+
+@ 56.16
+# scene 057 選手解雇
+# 佐尾山 幸音鈴
+JP そっか……。
+JP これまで、ありがとうございましたっ！
+EN I see...... Thank you for everything up to now!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 佐尾山 幸音鈴
+JP んじゃ、いってくるよ！
+EN Okay, I'm off!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 佐尾山 幸音鈴
+JP ただいまー。
+JP いやー、向こうは向こうで
+JP 食いもんうまいなー！
+EN I'm ba-ack. Man, the food over there's pretty great
+EN too!
+
+@ 59.28
+# scene 060 移籍思案
+# 佐尾山 幸音鈴
+JP ん～……。
+JP どうすっかなぁ。
+EN Mmm...... What should I do?
+
+@ 60.16
+# scene 061 革命軍結成
+# 佐尾山 幸音鈴
+JP こうなりゃ、私が全部
+JP ひっくり返したらぁ！
+EN Fine, then I'll turn this whole place upside down
+EN myself!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 佐尾山 幸音鈴
+JP マジで反抗させてもらうぜ！
+EN I'm gonna rebel for real!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 佐尾山 幸音鈴
+JP なぁ、そろそろ決着つけねぇ？
+EN Hey, ain't it about time we settled this?
+
+@ 63.16
+# scene 065 遺恨発生
+# 佐尾山 幸音鈴
+JP こんの…。
+JP てめぇ！
+EN Why, you... You little!
+
+@ 64.16
+# scene 065 殴り込み
+# 佐尾山 幸音鈴
+JP うっしゃあ！
+JP 佐尾山、ここにありってところを
+JP 見せてやる！！
+EN Hell yeah! I'll show you Saoyama's here to stay!!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 佐尾山 幸音鈴
+JP 返り討ちにしてやるぜ！
+EN I'll send you packing!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 佐尾山 幸音鈴
+JP 佐尾山、いかせてもらうかんな！
+EN Saoyama's comin' at ya!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 佐尾山 幸音鈴
+JP よし、私に任せとけ！
+EN Okay, leave it to me!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 佐尾山 幸音鈴
+JP うし、どんなもんだ！！
+EN Yeah! How d'ya like that?!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 佐尾山 幸音鈴
+JP くそぉっ！
+JP わりぃ、社長…力不足だった。
+JP ごめん……。
+EN Dammit! Sorry, Boss... I wasn't good enough. Sorry......
+
+@ 70.13
+# scene 071 引退式
+# 佐尾山 幸音鈴
+JP 私はっ…今、ここに立っていることを
+JP 最っ高に誇りに思う！
+JP 本当にありがとうございましたぁ―！
+EN Standing here... right now... makes me prouder than
+EN anything! Thank you so much, everyoooone!
+
+@ 71.17
+# 佐尾山 幸音鈴
+JP ん？
+JP なんスか？
+EN Hm? What's up?
+
+@ 71.36
+# 佐尾山 幸音鈴
+JP ん？
+JP なんスか？
+EN Hm? What's up?
+
+@ 71.46
+# 佐尾山 幸音鈴
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.89
+# 佐尾山 幸音鈴
+JP ＯＫ。
+JP ぐだぐだ考えずにぶち進むから
+JP 見ていてくれよな。
+EN OK. I'm just gonna charge ahead without
+EN overthinking, so keep watching!
+
+@ 71.110
+# 佐尾山 幸音鈴
+JP んー、その調子ってのが
+JP いまいちわかんないなぁ。
+EN Hmm, I don't really get what this "form" thing is.
+
+@ 71.131
+# 佐尾山 幸音鈴
+JP なんだよ、照れるなぁ。
+JP そんなこと言われたら
+JP その気になっちゃうじゃん。
+EN Geez, you're making me blush. Say stuff like that and
+EN I'm gonna start believing it.
+
+@ 71.152
+# 佐尾山 幸音鈴
+JP やだなぁ、私をおだてても
+JP なんも出ないよ？
+EN C'mon, flattering me won't get you anything, y'know?
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking a bit lately?
+
+@ 71.189
+# 佐尾山 幸音鈴
+JP そんなつもりじゃ
+JP なかったんだけど…。
+JP すみませんでした。
+EN I didn't mean to... I'm sorry.
+
+@ 71.210
+# 佐尾山 幸音鈴
+JP えっと… ごめん。
+JP 何が悪いのか
+JP よくわからないけど。
+EN Um... sorry. Not that I really get what I did wrong.
+
+@ 71.231
+# 佐尾山 幸音鈴
+JP あ…やっぱり、まずかった？
+JP ごめんなさい。
+EN Ah... so it was bad after all? I'm sorry.
+
+@ 71.252
+# 佐尾山 幸音鈴
+JP もう、そんなことでいちいち…。
+JP 大丈夫、大丈夫だってば。
+EN Geez, getting worked up over every little thing... I'm
+EN fine, I'm fine, okay?
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed a little down lately. Are you okay?
+
+@ 71.289
+# 佐尾山 幸音鈴
+JP うん、そうだよな。
+JP よぉし、元気出して
+JP もう一踏ん張りいきますか。
+EN Yeah, you're right. Okay, time to cheer up and give it
+EN one more push.
+
+@ 71.310
+# 佐尾山 幸音鈴
+JP そっかな？
+JP 自分ではそう思ってないんだけど。
+EN You think? I don't feel that way.
+
+@ 71.331
+# 佐尾山 幸音鈴
+JP やっぱり？
+JP よ～し、気合い入れ直さねぇと！
+EN You noticed? All right, I gotta get my fighting spirit
+EN back!
+
+@ 71.352
+# 佐尾山 幸音鈴
+JP 大丈夫、大丈夫。
+JP いつでも絶好調だから！
+EN I'm fine, I'm fine. I'm always in top shape!
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 佐尾山 幸音鈴
+JP たぶんね。
+EN Probably.
+
+@ 71.400
+# 佐尾山 幸音鈴
+JP いや。
+JP 回りくどいのは嫌だよ？
+EN Nope. I don't like beating around the bush, y'know?
+
+@ 71.412
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.434
+# 佐尾山 幸音鈴
+JP んー、まあ…私はどっちでもいいよ。
+EN Hmm, well... I don't care either way.
+
+@ 71.455
+# 佐尾山 幸音鈴
+JP ダメだね。
+JP いくら社長の頼みでも
+JP 半端はダメだ。
+EN No way. Even if you're asking, Boss, I don't do things
+EN halfway.
+
+@ 71.476
+# 佐尾山 幸音鈴
+JP だからさ、話が見えないんだって。
+EN Like I said, I don't get what you're talking about.
+
+@ 71.489
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.506
+# 佐尾山 幸音鈴
+JP ん…たぶん。
+EN Mm... probably.
+
+@ 71.523
+# 佐尾山 幸音鈴
+JP 何かな？
+EN What is it?
+
+@ 71.536
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.558
+# 佐尾山 幸音鈴
+JP 仕方ないなぁ。
+JP 社長の顔をたてるよ。
+EN Oh, fine. I'll do it for your sake, Boss.
+
+@ 71.579
+# 佐尾山 幸音鈴
+JP 私じゃなくて、相手に言ってよ。
+EN Don't tell me, tell her.
+
+@ 71.600
+# 佐尾山 幸音鈴
+JP あのさ…。
+JP さっきから言ってる意味が
+JP わかんないんだけど。
+EN Look... I don't get what you've been saying this
+EN whole time.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 佐尾山 幸音鈴
+JP ん？　なんスか？
+EN Hm? What's up?
+
+@ 72.16
+# 佐尾山 幸音鈴
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 佐尾山 幸音鈴
+JP ＯＫ。ぐだぐだ考えずに
+JP ぶち進むから、見ていてくれよな。
+EN OK. I'm just gonna charge ahead without
+EN overthinking, so keep watching!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 佐尾山 幸音鈴
+JP んー、その調子ってのが…
+JP いまいちわかんないなぁ。
+EN Hmm, I don't really get what this "form" thing is.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 佐尾山 幸音鈴
+JP なんだよ、照れるなぁ。
+JP そんなこと言われたらその気に
+JP なっちゃうじゃん。
+EN Geez, you're making me blush. Say stuff like that and
+EN I'm gonna start believing it.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 佐尾山 幸音鈴
+JP やだなぁ、私をおだてても、
+JP なんも出ないよ？
+EN C'mon, flattering me won't get you anything, y'know?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 佐尾山 幸音鈴
+JP そんなつもりじゃなかったん
+JP だけど…。すみませんでした。
+EN I didn't mean to... I'm sorry.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 佐尾山 幸音鈴
+JP えっと… ごめん。
+JP 何が悪いのか、
+JP よくわからないけど。
+EN Um... sorry. Not that I really get what I did wrong.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 佐尾山 幸音鈴
+JP あ…やっぱり、まずかった？
+JP ごめんなさい。
+EN Ah... so it was bad after all? I'm sorry.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 佐尾山 幸音鈴
+JP もう、そんなことでいちいち…。
+JP 大丈夫、大丈夫だってば。
+EN Geez, getting worked up over every little thing... I'm
+EN fine, I'm fine, okay?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed a little down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 佐尾山 幸音鈴
+JP うん、そうだよな。
+JP よぉし、元気出して
+JP もう一踏ん張りいきますか。
+EN Yeah, you're right. Okay, time to cheer up and give it
+EN one more push.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 佐尾山 幸音鈴
+JP そっかな？
+JP 自分ではそう思ってないんだけど。
+EN You think? I don't feel that way.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 佐尾山 幸音鈴
+JP やっぱり？
+JP よ～し、気合い入れ直さねぇと！
+EN You noticed? All right, I gotta get my fighting spirit
+EN back!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 佐尾山 幸音鈴
+JP 大丈夫、大丈夫。
+JP いつでも絶好調だから！
+EN I'm fine, I'm fine. I'm always in top shape!
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 佐尾山 幸音鈴
+JP たぶんね。
+EN Probably.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 佐尾山 幸音鈴
+JP いや。
+JP 回りくどいのは嫌だよ？
+EN Nope. I don't like beating around the bush, y'know?
+
+@ 91.1
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 佐尾山 幸音鈴
+JP んー、まあ…
+JP 私はどっちでもいいよ。
+EN Hmm, well... I don't care either way.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 佐尾山 幸音鈴
+JP ダメだね。
+JP いくら社長の頼みでも、
+JP 半端はダメだ。
+EN No way. Even if you're asking, Boss, I don't do things
+EN halfway.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 佐尾山 幸音鈴
+JP だからさ、話が見えないんだって。
+EN Like I said, I don't get what you're talking about.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 佐尾山 幸音鈴
+JP ん…たぶん。
+EN Mm... probably.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 佐尾山 幸音鈴
+JP 何かな？
+EN What is it?
+
+@ 98.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 佐尾山 幸音鈴
+JP 仕方ないなぁ。
+JP 社長の顔をたてるよ。
+EN Oh, fine. I'll do it for your sake, Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 佐尾山 幸音鈴
+JP 私じゃなくて、相手に言ってよ。
+EN Don't tell me, tell her.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 佐尾山 幸音鈴
+JP あのさ…。
+JP さっきから言ってる意味が
+JP わかんないんだけど。
+EN Look... I don't get what you've been saying this
+EN whole time.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 佐尾山 幸音鈴
+JP 文句ないよ。
+JP 来年もよろしく！
+EN No complaints. Here's to next year!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 佐尾山 幸音鈴
+JP え？
+JP こんなに？
+JP だ、大丈夫か、社長？
+EN Huh? This much? A-are you sure, Boss?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 佐尾山 幸音鈴
+JP ん～、まぁいっか！
+JP 来年もよろしく！
+EN Mmm, well, whatever! Here's to next year!
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived on a southern island.)
+
+@ 105.26
+# 社 長
+JP （穏やかな波の音と……）
+EN (The gentle sound of the waves...)
+
+@ 105.33
+# 佐尾山 幸音鈴
+JP くはー、生き返る～～っ！
+EN Aaah, I feel alive agaaain!
+
+@ 105.36
+# 社 長
+JP （それはそれは香ばしい
+JP 　海の幸の焼ける匂い）
+EN (And the oh-so-savory smell of grilling seafood.)
+
+@ 105.40
+# 佐尾山 幸音鈴
+JP はやく焼けねぇかな～。
+EN Is it done yet?
+
+@ 105.59
+# 社 長
+JP （ジュウジュウという音が
+JP 　食欲をそそるのだが…）
+EN (The sizzling sound really works up an appetite,
+EN but...)
+
+@ 105.63
+# 佐尾山 幸音鈴
+JP これ、もういいんじゃないかな。
+EN I think this one's ready.
+
+@ 105.67
+# 佐尾山 幸音鈴
+JP よさそうだな…。
+EN Looks good...
+
+@ 105.71
+# 佐尾山 幸音鈴
+JP よし、焼けた！
+EN All right, it's done!
+
+@ 105.74
+# 社 長
+JP （そそることはそそるのだが…）
+EN (It does work up an appetite, but...)
+
+@ 105.78
+# 佐尾山 幸音鈴
+JP さ、社長。
+JP 食べようぜ！
+EN C'mon, Boss. Let's eat!
+
+@ 105.81
+# 社 長
+JP あ、ああ……。
+EN Y-yeah......
+
+@ 105.85
+# 佐尾山 幸音鈴
+JP ほら、コレなんか良く焼けてるから！
+EN Here, this one's grilled real nice!
+
+@ 105.88
+# 社 長
+JP 焼けてるのはいいが…。
+JP 食えるのか、それ？
+EN Grilled is fine, but... can you even eat that?
+
+@ 105.90
+# 社 長
+JP （どう見ても食える魚に見えない）
+EN (No matter how I look at it, that doesn't look like an
+EN edible fish.)
+
+@ 105.94
+# 佐尾山 幸音鈴
+JP うまいに決まってるじゃん。
+EN Of course it's tasty.
+
+@ 105.97
+# 社 長
+JP いや、俺は貝やそっちの魚でいいよ。
+JP 食えるなら、おまえが食え。
+EN No, I'll just have the shellfish and those other fish. If
+EN it's edible, you eat it.
+
+@ 105.101
+# 佐尾山 幸音鈴
+JP え？
+JP いいの？
+JP １匹しかとれなかったのに。
+EN Huh? You sure? I only caught one.
+
+@ 105.104
+# 社 長
+JP いいから食え。
+EN Just eat it.
+
+@ 105.108
+# 佐尾山 幸音鈴
+JP いやぁ…。
+JP 悪いなぁ。
+EN Aw, gee... Thanks a bunch.
+
+@ 105.111
+# 社 長
+JP （あんなに目を輝かせて…）
+EN (Her eyes are sparkling...)
+
+@ 105.115
+# 佐尾山 幸音鈴
+JP 社長って優しいよなぁ…。
+JP うん！
+EN You're really sweet, Boss... Yeah!
+
+@ 105.118
+# 社 長
+JP （すまん…。
+JP 　別に優しさから出た
+JP 　言葉じゃないんだ）
+EN (Sorry... I didn't say it to be sweet.)
+
+@ 105.122
+# 佐尾山 幸音鈴
+JP うめぇ――――！
+EN Deeeliciooous!
+
+@ 105.125
+# 社 長
+JP （うまいのか、それ……）
+EN (It's good? That thing......)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （夜中に警察から
+JP 　電話がかかってきた）
+EN (I got a call from the police in the middle of the night.)
+
+@ 106.26
+# 社 長
+JP （なんでも
+JP 　子供を補導したのだが……）
+EN (Apparently they'd picked up a kid out past
+EN curfew......)
+
+@ 106.28
+# 社 長
+JP （自分は大人でプロレスラーだと
+JP 　言い張っている……と）
+EN (But she insisted she was an adult and a pro
+EN wrestler.)
+
+@ 106.30
+# 社 長
+JP （名前は、佐尾山）
+EN (Her name: Saoyama.)
+
+@ 106.32
+# 社 長
+JP （佐尾山…。不憫なヤツ）
+EN (Saoyama... Poor thing.)
+
+@ 106.34
+# 社 長
+JP その者でしたら
+JP たしかにうちのレスラーです。
+JP 今から迎えに行きます。
+EN If it's her, she's definitely one of my wrestlers. I'll
+EN come pick her up right away.
+
+@ 106.36
+# 社 長
+JP そして……。
+EN And so......
+
+@ 106.59
+# 社 長
+JP （俺たちは２人、夜道を歩く）
+EN (The two of us walked down the dark street.)
+
+@ 106.63
+# 佐尾山 幸音鈴
+JP く、くっそぉ…。
+JP 警察めぇ。
+EN Ugh, dammit... Stupid cops.
+
+@ 106.66
+# 社 長
+JP まぁ、そういうな。
+JP あっちもそれが仕事だ。
+EN Now, don't say that. They're just doing their job.
+
+@ 106.70
+# 佐尾山 幸音鈴
+JP で、でもさぁ！
+EN B-but still!
+
+@ 106.74
+# 佐尾山 幸音鈴
+JP こんなに立派なレディをつかまえて
+JP 子供扱いしやがって！
+EN Treating a fine, grown-up lady like me like some kid!
+
+@ 106.77
+# 社 長
+JP （まあ…身長だけでなく
+JP 　雰囲気もそこらで遊んでる
+JP 　悪ガキっぽいしなぁ）
+EN (Well... it's not just her height. She's got the air of
+EN some brat goofing around, too.)
+
+@ 106.87
+# 佐尾山 幸音鈴
+JP ひどいよな。
+JP 社長もそう思うだろ？
+EN It's awful, right? You think so too, don't you, Boss?
+
+@ 106.90
+# 社 長
+JP えっと。
+EN Um.
+
+@ 106.92
+# 社 長
+JP （いつものように
+JP 　軽口を叩こうと思ったが
+JP 　声が上げられない）
+EN (I meant to make my usual wisecrack, but the words
+EN wouldn't come.)
+
+@ 106.94
+# 社 長
+JP （夜道で見る佐尾山は…）
+EN (Saoyama, walking down the street at night...)
+
+@ 106.96
+# 社 長
+JP （ちょっとだけ大人びて見えて
+JP 　少し美しかった）
+EN (...looked just a little grown-up, and a little
+EN beautiful.)
+
+@ 106.98
+# 社 長
+JP あ…ああ、そうだな。
+JP ひどいな。
+EN Y-yeah, you're right. It's awful.
+
+@ 106.108
+# 佐尾山 幸音鈴
+JP だろ！
+JP ひっでぇーよなぁ。
+EN Right?! So awful!
+
+@ 106.111
+# 社 長
+JP （ちょっとドキマキしてしまったのは
+JP 　内緒にしておこう）
+EN (I'll keep it to myself that my heart skipped a beat.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （夜中に警察から
+JP 　電話がかかってきた）
+EN (I got a call from the police in the middle of the night.)
+
+@ 107.26
+# 社 長
+JP （なんでも
+JP 　子供を補導したのだが……）
+EN (Apparently they'd picked up a kid out past
+EN curfew......)
+
+@ 107.28
+# 社 長
+JP （自分は大人でプロレスラーだと
+JP 　言い張っている…と）
+EN (But she insisted she was an adult and a pro
+EN wrestler...)
+
+@ 107.30
+# 社 長
+JP （名前は、佐尾山）
+EN (Her name: Saoyama.)
+
+@ 107.32
+# 社 長
+JP （って、またかよ！）
+EN (Wait, again?!)
+
+@ 107.34
+# 社 長
+JP （佐尾山…。とことん不憫なヤツ）
+EN (Saoyama... You poor, poor thing.)
+
+@ 107.36
+# 社 長
+JP その者でしたら
+JP たしかにうちのレスラーです。
+JP 今から迎えに行きます。
+EN If it's her, she's definitely one of my wrestlers. I'll
+EN come pick her up right away.
+
+@ 107.38
+# 社 長
+JP そして…。
+EN And so...
+
+@ 107.61
+# 社 長
+JP （またも俺たちは２人で夜道を歩く）
+EN (Once again, the two of us walked down the dark
+EN street.)
+
+@ 107.65
+# 佐尾山 幸音鈴
+JP く、くっそぉ…。
+JP 何度も何度もぉっ！
+EN Ugh, dammit... Over and over and over!
+
+@ 107.68
+# 社 長
+JP 許してやれ。
+JP 新任だったらしいし。
+EN Let it go. I hear he was new on the job.
+
+@ 107.70
+# 社 長
+JP 仕事熱心でいいじゃないか。
+EN At least he takes his work seriously.
+
+@ 107.80
+# 佐尾山 幸音鈴
+JP はあぁ…。
+EN Haaah...
+
+@ 107.83
+# 社 長
+JP （佐尾山が大きなため息をつく）
+EN (Saoyama let out a big sigh.)
+
+@ 107.87
+# 佐尾山 幸音鈴
+JP 私って…そんなに
+JP 子供っぽいのかなぁ。
+JP 成人したってのに…。
+EN Do I really... look that much like a kid? Even though
+EN I'm an adult now...
+
+@ 107.90
+# 社 長
+JP （まただ）
+EN (There it is again.)
+
+@ 107.92
+# 社 長
+JP （また、佐尾山が綺麗に見える）
+EN (Saoyama looks beautiful again.)
+
+@ 107.94
+# 社 長
+JP （ちょっともの悲しげで
+JP 　憂いを含んだ瞳は
+JP 　十分色っぽかった）
+EN (Those slightly sad, melancholy eyes were plenty
+EN alluring.)
+
+@ 107.96
+# 社 長
+JP お前は、十分にレディだよ。
+EN You're every bit a lady.
+
+@ 107.98
+# 社 長
+JP （まったく。
+JP 　その新任警官も見る目がない）
+EN (Honestly. That new cop doesn't know what he's
+EN looking at.)
+
+@ 107.108
+# 佐尾山 幸音鈴
+JP えへへ…。
+JP ありがと。
+JP お世辞でも嬉しいや。
+EN Ehehe... Thanks. Even if it's just flattery, it makes
+EN me happy.
+
+@ 107.118
+# 佐尾山 幸音鈴
+JP 私も、自分では
+JP ガキに見られるかもなって
+JP 自覚はしてるからさ…。
+EN I know it myself, y'know, that people might see me as
+EN a kid...
+
+@ 107.122
+# 佐尾山 幸音鈴
+JP そんな、気をつかわなくて
+JP いいよ。
+EN So you don't have to be so nice about it.
+
+@ 107.125
+# 社 長
+JP バカ。
+JP お前は本当に綺麗だよ。
+EN Idiot. You really are beautiful.
+
+@ 107.135
+# 佐尾山 幸音鈴
+JP そ、そんなマジな顔で言われたら
+JP 信じちまうじゃんか。
+EN Wh-when you say it with such a serious face, I'm
+EN gonna end up believing you.
+
+@ 107.138
+# 社 長
+JP 信じろよ。
+EN Then believe it.
+
+@ 107.148
+# 佐尾山 幸音鈴
+JP …………ん……。
+EN ............Mm......
+
+@ 107.151
+# 社 長
+JP （そして、佐尾山は小さく頷いた）
+EN (And Saoyama gave a small nod.)
+
+@ 107.155
+# 佐尾山 幸音鈴
+JP わかった。
+JP 社長は…嘘、つかないもんな。
+EN Okay. You... don't tell lies, Boss.
+
+@ 107.158
+# 社 長
+JP それでよし、だ。
+EN That's more like it.
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 佐尾山 幸音鈴
+JP 香澄、遠慮はいらねぇからな。
+EN Kasumi, don't hold back on me.
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# 佐尾山 幸音鈴
+JP ふぅ、でけぇな…。
+JP でも、それでこそ！
+EN Whew, you're huge... But that's what makes it fun!
+
+@ 110.16
+# scene 113 練習開始
+# 佐尾山 幸音鈴
+JP うっしゃ、行くぞぉ！
+EN All right, let's go!
+
+@ 111.16
+# scene 114 練習開始 好意
+# 佐尾山 幸音鈴
+JP 今日もがんばるかぁっ！
+EN Time to give it my all again today!
+
+@ 112.16
+# scene 115 特訓開始
+# 佐尾山 幸音鈴
+JP よ～し、やったろうじゃん！
+EN All riiight, bring it on!
+
+@ 113.20
+# scene 116 特訓成功
+# 佐尾山 幸音鈴
+JP うっしゃあ！
+EN Hell yeah!
+
+@ 114.20
+# scene 117 特訓失敗
+# 佐尾山 幸音鈴
+JP あ～、くそっ！
+EN Aaah, dammit!
+
+@ 115.16
+# scene 118 休養
+# 佐尾山 幸音鈴
+JP 休み…か。
+JP 実家に顔でも出しにいくかなぁ。
+EN A day off... huh. Maybe I'll go show my face back
+EN home.
+
+@ 116.16
+# scene 119 入場1
+# 佐尾山 幸音鈴
+JP おぉっし！
+JP いくぞ、正面突破ぁ！！
+EN All right! Here I go, straight through the front!!
+
+@ 117.16
+# scene 119 入場2
+# 佐尾山 幸音鈴
+JP 身長なんざ勝敗に関係ないんだよ！
+EN Height's got nothing to do with winning!
+
+@ 118.17
+# scene 120 タッグマッチ ベスト
+# 佐尾山 幸音鈴
+JP いくぜ、香澄。
+JP 目にものみせてやろうぜ！
+EN Let's go, Kasumi. Let's show 'em what we've got!
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# 佐尾山 幸音鈴
+JP サイズだけは、足して２で割りゃ
+JP ちょうどいいんだけどな。
+JP へへ…。
+EN If you added our sizes together and split 'em down
+EN the middle, we'd be just right. Heh heh...
+
+@ 120.16
+# scene 125 必殺技１
+# 佐尾山 幸音鈴
+JP 歯ぁ、食いしばれ！
+EN Grit your teeth!
+
+@ 121.16
+# scene 125 必殺技２
+# 佐尾山 幸音鈴
+JP よっしゃあ、ここが勝負時！
+EN All right, this is the moment!
+
+@ 122.16
+# scene 125 必殺技３
+# 佐尾山 幸音鈴
+JP こいつが魂の一撃ってヤツだ！
+EN This here's what you call a blow from the soul!
+
+@ 123.12
+# scene 126 勝利1
+# 佐尾山 幸音鈴
+JP ふぅ、楽しい試合だったぜ！
+EN Whew, that was a fun match!
+
+@ 124.12
+# scene 126 勝利2
+# 佐尾山 幸音鈴
+JP また、ここで待ってるぜ！
+EN I'll be waiting right here for the next one!
+
+@ 125.12
+# scene 126 勝利3
+# 佐尾山 幸音鈴
+JP まだまだ！
+JP もっと高みにのぼってやる！
+EN Not done yet! I'm climbing even higher!
+
+@ 126.15
+# scene 133 表彰1
+# 佐尾山 幸音鈴
+JP うっし！
+JP ありがとうございまーす！
+EN All right! Thank you very muuuch!
+
+@ 127.15
+# scene 133 表彰2
+# 佐尾山 幸音鈴
+JP ま、背の高さなんか
+JP 関係ねぇってこった！！
+EN See? Height's got nothing to do with it!!
+
+@ 128.12
+# scene 134 優勝1
+# 佐尾山 幸音鈴
+JP よっしゃああぁぁぁぁぁっっっ！
+EN Yeaaaahhhhhhh!!!
+
+@ 129.12
+# scene 134 優勝２
+# 佐尾山 幸音鈴
+JP へへ、やったぜ。
+JP やってやったぜ！
+EN Heh, I did it. I really did it!
+
+@ 130.24
+# scene 135 エンディング 通常
+# 佐尾山 幸音鈴
+JP 社長！
+JP おめでと…。
+JP そして、ナイス！
+EN Boss! Congrats... And, nice one!
+
+@ 131.24
+# scene 136 エンディング 好意
+# 佐尾山 幸音鈴
+JP へへへ、社長…。
+JP 今だから言うけど…愛してるぜ！
+JP くはぁ、言っちまった！！
+EN Heh heh heh, Boss... I can say it now, so... I love ya!
+EN Gaaah, I said it!!

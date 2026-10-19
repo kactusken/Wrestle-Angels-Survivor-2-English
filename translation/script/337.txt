@@ -1,0 +1,90 @@
+# /SCR/337.BIN - イレーヌ・シウバ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 337` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# イレーヌ・シウバ
+JP オレの打撃は世界一だぜ！
+EN My strikes are the best in the world!
+
+@ 1.16
+# scene 119 入場1
+# イレーヌ・シウバ
+JP ガツンといくぜ！
+EN I'm gonna hit 'em hard!
+
+@ 2.16
+# scene 119 入場2
+# イレーヌ・シウバ
+JP 殴られる覚悟はできてんだろうな？
+EN You ready to get punched or what?
+
+@ 3.16
+# scene 125 必殺技１
+# イレーヌ・シウバ
+JP 勝機ッ！　もらったー！
+EN There's my opening! It's mine!
+
+@ 4.16
+# scene 125 必殺技２
+# イレーヌ・シウバ
+JP このタイミング、待ってたぜ！
+EN This is the moment I've been waiting for!
+
+@ 5.16
+# scene 125 必殺技３
+# イレーヌ・シウバ
+JP こっちは遊びじゃねぇんだよ！
+EN I ain't here to play games!
+
+@ 6.12
+# scene 126 勝利1
+# イレーヌ・シウバ
+JP ブラジルが強いのは
+JP サッカーだけじゃないんだよ！
+EN Brazil ain't just strong at soccer, y'know!
+
+@ 7.12
+# scene 126 勝利2
+# イレーヌ・シウバ
+JP もっと鍛えて出直して来な！
+EN Go toughen up and come back!
+
+@ 8.12
+# scene 126 勝利3
+# イレーヌ・シウバ
+JP 中途半端な気持ちで
+JP 戦ってんじゃねーぞ！
+EN Don't step in the ring if you ain't fully committed!
+
+@ 9.15
+# scene 133 表彰1
+# イレーヌ・シウバ
+JP オレはこれからも突っ走るぜ！
+EN I'm gonna keep chargin' ahead!
+
+@ 10.15
+# scene 133 表彰2
+# イレーヌ・シウバ
+JP やっとオレの実力が
+JP 認められたみたいだな！
+EN Looks like they finally recognize what I can do!
+
+@ 11.12
+# scene 134 優勝1
+# イレーヌ・シウバ
+JP 次も蹴りまくってやるぜ！
+EN Next time I'll kick everybody around too!
+
+@ 12.12
+# scene 134 優勝２
+# イレーヌ・シウバ
+JP 褐色の弾丸とはオレのことだぜ！
+EN I'm the one they call the Bronze Bullet!

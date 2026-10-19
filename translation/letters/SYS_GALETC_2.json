@@ -1,0 +1,11 @@
+{
+ "english": "Page | Page",
+ "boxes": [[264, 50, 44, 15], [554, 52, 44, 16]],
+ "fill": "bright",
+ "ground": "interpolate",
+ "reach": 2,
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "cap": 10,
+ "catalogue": {"source": "/SYS/GALETC.BIN", "width": 640, "height": 408, "bpp": 8, "category": "screen", "japanese": "ページ (page counter \"n / m ページ\") / L1 R1 ページ (GALLERY already English)"},
+ "notes": "gallery screen frame (picture 2 of SYS/GALETC.BIN, not a .GSL: needs gfx.py support for .BIN containers)"
+}

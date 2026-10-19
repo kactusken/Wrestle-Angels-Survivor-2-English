@@ -1,0 +1,2166 @@
+# /SCR/136.BIN - 白石 なぎさ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 136` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 白石 なぎさ
+JP …………えっと…テスト……？
+EN ......Um... a test...?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 白石 なぎさ
+JP …………だれが合格……？
+EN ......Who passed...?
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 白石 なぎさ
+JP …………バイバイ……。
+EN ......Bye-bye...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりで
+JP ボーっとしているらしいけど…。
+EN I heard she spends her time spacing out around
+EN here...
+
+@ 3.25
+# 社 長
+JP たしかにあそこで
+JP ボーっとしてる子はいるけど…。
+EN There's certainly a girl spacing out over there,
+EN but...
+
+@ 3.27
+# 社 長
+JP ホントにあの娘に
+JP プロレスができるのか？
+EN Can that girl really wrestle?
+
+@ 3.29
+# 社 長
+JP でも、スカウトからの評価は
+JP 高かったからな。
+JP 話してみるか。
+EN Still, the scouts rated her highly. Let's talk to her.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# 白石 なぎさ
+JP …………なぁに……。
+EN ......Whaaat...
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.48
+# 白石 なぎさ
+JP …………ふーん……。
+EN ......Hmm...
+
+@ 3.51
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.58
+# 白石 なぎさ
+JP …………風船くれる……？
+EN ......Will you give me a balloon...?
+
+@ 3.61
+# 社 長
+JP あ、ああ。
+JP そのくらい問題ないよ。
+EN Uh, sure. That's no problem at all.
+
+@ 3.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 白石 なぎさ
+JP …………やってみる……。
+EN ......I'll try it...
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 白石 なぎさ
+JP …………さよーなら……。
+EN ......Goodbyyye...
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 白石 なぎさ
+JP …………なぁに……。
+EN ......Whaaat...
+
+@ 6.36
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて、また来ました。
+EN I came back because I really want you to join my
+EN promotion.
+
+@ 6.43
+# 白石 なぎさ
+JP …………どうしても……？
+EN ......Really want...?
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms once again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 白石 なぎさ
+JP …………やってみる……。
+EN ......I'll try it...
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 白石 なぎさ
+JP …………さよーなら……。
+EN ......Goodbyyye...
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は白石選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Shiraishi.
+
+@ 9.25
+# 社 長
+JP あの細い体に
+JP 信じられないパワーを秘めている。
+EN That slender body hides unbelievable power.
+
+@ 9.27
+# 社 長
+JP うちの団体でも
+JP きっと活躍できるはずだ。
+EN I'm sure she could shine in my promotion too.
+
+@ 9.29
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 白石 なぎさ
+JP …………だれ……？
+EN ......Who...?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.53
+# 白石 なぎさ
+JP …………お引越し……？
+EN ......Moving house...?
+
+@ 9.56
+# 社 長
+JP ちょっと違うけどどうかな？
+EN Not quite, but what do you think?
+
+@ 9.63
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 9.66
+# 社 長
+JP 力を貸してもらえないかな？
+EN Won't you lend us your strength?
+
+@ 9.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 白石 なぎさ
+JP …………お引越ししてみる……。
+EN ......I'll try moving house...
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 白石 なぎさ
+JP …………お引越し…イヤ……。
+EN ......Moving house... no...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 白石選手が必要だ。
+EN My promotion really does need Shiraishi.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 白石選手と交渉することにした。
+EN I decided to negotiate with Shiraishi once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 白石 なぎさ
+JP …………前にあった人……？
+EN ......Someone I met before...?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.47
+# 白石 なぎさ
+JP …………ふーん……。
+EN ......Hmm...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms once again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 白石 なぎさ
+JP …………お引越ししてみる……。
+EN ......I'll try moving house...
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 白石 なぎさ
+JP …………お引越し…イヤ……。
+EN ......Moving house... no...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は白石選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Shiraishi.
+
+@ 15.25
+# 社 長
+JP あの強力なパワーは
+JP 観客の目を引くに違いない。
+EN Power like hers is sure to catch the audience's eye.
+
+@ 15.27
+# 社 長
+JP このあたりにいるはずだけど…。
+EN She should be around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 白石 なぎさ
+JP …………なぁに……？
+EN ......Whaaat...?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.48
+# 白石 なぎさ
+JP …………そう……。
+EN ......I see...
+
+@ 15.51
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.58
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 15.61
+# 社 長
+JP 力を貸してもらえないかな？
+EN Won't you lend us your strength?
+
+@ 15.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 白石 なぎさ
+JP …………うん……。
+JP …………やってみる……。
+EN ......Mm-hm... ......I'll try it...
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 白石 なぎさ
+JP …………帰る……。
+EN ......Going home...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 白石選手が必要だ。
+EN My promotion really does need Shiraishi.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 白石選手と交渉することにした。
+EN I decided to negotiate with Shiraishi once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 白石 なぎさ
+JP …………前にあった……？
+EN ......We met before...?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.47
+# 白石 なぎさ
+JP …………どうしても……？
+EN ......Really want...?
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms once again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 白石 なぎさ
+JP …………うん……。
+JP …………やってみる……。
+EN ......Mm-hm... ......I'll try it...
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 白石 なぎさ
+JP …………帰る……。
+EN ......Going home...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は白石を訪ねることにした。
+EN I decided to pay Shiraishi a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 白石っ！
+EN Shiraishi!
+
+@ 21.41
+# 白石 なぎさ
+JP …………あっ……。
+EN ......Oh...
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# 白石 なぎさ
+JP ………………。
+EN ......
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you because I
+EN want you to come back...
+
+@ 21.61
+# 白石 なぎさ
+JP …………そう……。
+EN ......I see...
+
+@ 21.64
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 白石 なぎさ
+JP …………また風船くれる……？
+EN ......Will you give me a balloon again...?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP お安いご用さ。
+EN Sure. No problem at all.
+
+@ 22.29
+# 白石 なぎさ
+JP …………なら…戻る……。
+EN ......Then... I'll come back...
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 23.18
+# 社 長
+JP どうしても戻って欲しいんだ。
+EN I really want you to come back.
+
+@ 23.29
+# 白石 なぎさ
+JP …………社長…嫌い……。
+EN ......I don't like you... Boss...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び白石を訪ねることにした。
+EN I decided to visit Shiraishi again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP 白石っ！
+EN Shiraishi!
+
+@ 24.37
+# 白石 なぎさ
+JP …………んっ……？
+EN ......Hm...?
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+EN I've come to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 白石 なぎさ
+JP …………また風船くれる……？
+EN ......Will you give me a balloon again...?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP お安いご用さ。
+EN Sure. No problem at all.
+
+@ 25.29
+# 白石 なぎさ
+JP …………なら…戻る……。
+EN ......Then... I'll come back...
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 26.18
+# 社 長
+JP どうしても戻って欲しいんだ。
+EN I really want you to come back.
+
+@ 26.29
+# 白石 なぎさ
+JP …………社長…嫌い……。
+EN ......I don't like you... Boss...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 白石 なぎさ
+JP …………痛いの痛いの飛んでけー……。
+EN ......Pain, pain, fly away...
+
+@ 28.16
+# scene 029 ケガ大
+# 白石 なぎさ
+JP …………なんか…動かない……。
+EN ......Something... won't move...
+
+@ 29.16
+# scene 030 入院
+# 白石 なぎさ
+JP …………お泊り……？
+EN ......A sleepover...?
+
+@ 30.16
+# scene 031 退院
+# 白石 なぎさ
+JP …………ただいま……。
+EN ......I'm home...
+
+@ 31.16
+# scene 032 ケガ完治
+# 白石 なぎさ
+JP …………痛いの飛んでった……。
+EN ......The pain flew away...
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 白石 なぎさ
+JP …………もう辞める……。
+EN ......I'll quit now...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 白石 なぎさ
+JP …………まだやる……。
+EN ......I'll keep going...
+
+@ 34.16
+# scene 035 コーチ就任
+# 白石 なぎさ
+JP …………ビシビシ……。
+JP …………ビシビシ……。
+EN ......Snap to it... ......Snap to it...
+
+@ 35.16
+# scene 036 ケガ引退
+# 白石 なぎさ
+JP …………バイバイ……。
+EN ......Bye-bye...
+
+@ 36.16
+# scene 037 年齢引退
+# 白石 なぎさ
+JP …………疲れた……。
+EN ......I'm tired...
+
+@ 37.16
+# scene 038 退団
+# 白石 なぎさ
+JP …………さよーなら……。
+EN ......Goodbyyye...
+
+@ 38.16
+# scene 039 スランプ
+# 白石 なぎさ
+JP …………フゥ～……。
+EN ......Haaah...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 白石 なぎさ
+JP …………ファンクラブ……？
+EN ......A fan club...?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Don't let their cheering outdo you. Work hard.
+
+@ 39.26
+# 白石 なぎさ
+JP …………誰ががんばるの……？
+EN ......Who's working hard...?
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 白石 なぎさ
+JP …………また……？
+EN ......Again...?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their expectations.
+
+@ 40.26
+# 白石 なぎさ
+JP …………誰が期待に応えるの……？
+EN ......Who's living up to them...?
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 白石 なぎさ
+JP …………解散……？
+EN ......Disbanded...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard and win
+EN them back.
+
+@ 41.26
+# 白石 なぎさ
+JP …………がんばれー……。
+EN ......Do your best...
+
+@ 42.16
+# scene 043 映画出演
+# 白石 なぎさ
+JP …………映画館、映画館……。
+EN ......Movie theater, movie theater...
+
+@ 43.16
+# scene 044 一日署長
+# 白石 なぎさ
+JP …………タイホ、タイホ……。
+EN ......You're under arrest, under arrest...
+
+@ 44.16
+# scene 045 写真集発売
+# 白石 なぎさ
+JP …………カシャ、カシャまぶしい……。
+EN ......Click, click... so bright...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 白石 なぎさ
+JP …………テレビに映るの……？
+EN ......I'll be on TV...?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 白石 なぎさ
+JP …………歌も…練習……？
+EN ......Singing... practice too...?
+
+@ 47.16
+# scene 048 始球式
+# 白石 なぎさ
+JP …………野球選手になるの……？
+EN ......Am I becoming a baseball player...?
+
+@ 48.16
+# scene 049 学園祭
+# 白石 なぎさ
+JP …………ワイワイ…ガヤガヤ……。
+EN ......Chatter... chatter...
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.35
+# 白石 なぎさ
+JP …………んっ……？
+EN ......Hm...?
+
+@ 49.38
+# 社 長
+JP これからもよろしくな。
+EN Here's to another good year.
+
+@ 49.46
+# 白石 なぎさ
+JP …………わーい……。
+EN ......Yaaay...
+
+@ 50.32
+# scene 051 バレンタインデー
+# 白石 なぎさ
+JP …………社長…あげる……。
+EN ......Boss... for you...
+
+@ 50.35
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Ah, chocolate. Thank you.
+
+@ 50.42
+# 白石 なぎさ
+JP …………あーん……。
+EN ......Say "aah"...
+
+@ 50.45
+# 社 長
+JP それは…遠慮しておくよ…。
+EN I think... I'll pass on that...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# 白石 なぎさ
+JP …………うん……。
+JP …………受け取る……。
+EN ......Mm-hm... ......I'll take it...
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# 白石 なぎさ
+JP …………またカキカキ……。
+JP …………もっとカキカキ……。
+EN ......Scribble again... ......More scribbling...
+
+@ 53.31
+# scene 054 コンサート
+# 白石 なぎさ
+JP …………人がいっぱい……。
+EN ......So many people...
+
+@ 54.28
+# scene 055 練習拒否
+# 白石 なぎさ
+JP …………練習…飽きた……。
+EN ......I'm bored... of training...
+
+@ 55.28
+# scene 056 失踪
+# 白石 なぎさ
+JP …………風船ふわふわ～……。
+EN ......Balloon, floating away...
+
+@ 56.16
+# scene 057 選手解雇
+# 白石 なぎさ
+JP …………バイバイ……。
+EN ......Bye-bye...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 白石 なぎさ
+JP …………海の向こうへ～……。
+EN ......Over the seaaa...
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 白石 なぎさ
+JP …………ただいま～……。
+EN ......I'm hooome...
+
+@ 59.28
+# scene 060 移籍思案
+# 白石 なぎさ
+JP …………お引越し……。
+EN ......Moving house...
+
+@ 60.16
+# scene 061 革命軍結成
+# 白石 なぎさ
+JP …………革命軍…けっせー……！
+EN ......Revolution... formed...!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 白石 なぎさ
+JP …………反乱軍…けっせー……！
+EN ......Rebels... formed...!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 白石 なぎさ
+JP …………勝負するの……？
+EN ......Are we having a showdown...?
+
+@ 63.16
+# scene 065 遺恨発生
+# 白石 なぎさ
+JP …………怒ってもいいの……。
+EN ......Can I get angry...?
+
+@ 64.16
+# scene 065 殴り込み
+# 白石 なぎさ
+JP …………私が行くの……？
+EN ......I'm the one going...?
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 白石 なぎさ
+JP …………私が守るの……？
+EN ......I'm the one defending...?
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 白石 なぎさ
+JP …………殴り込みに来たの……。
+EN ......We've come to invade...
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 白石 なぎさ
+JP …………これが最後……？
+EN ......This is the last one...?
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 白石 なぎさ
+JP …………これで終わり……？
+EN ......Is this the end...?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 白石 なぎさ
+JP …………ドンマイ……。
+EN ......Never mind...
+
+@ 70.13
+# scene 071 引退式
+# 白石 なぎさ
+JP …………バイバイ……。
+JP …………バイバイ…バイ…バイ……。
+EN ......Bye-bye... ......Bye-bye... bye... bye...
+
+@ 71.18
+# 白石 なぎさ
+JP …………なに……？
+EN ......What...?
+
+@ 71.37
+# 白石 なぎさ
+JP …………なぁに……？
+EN ......Whaaat...?
+
+@ 71.47
+# 白石 なぎさ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 71.111
+# 白石 なぎさ
+JP …………う～ん……。
+EN ......Hmmm...
+
+@ 71.132
+# 白石 なぎさ
+JP …………ありがとう……。
+EN ......Thank you...
+
+@ 71.153
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 白石 なぎさ
+JP …………たるみ…なくす……。
+EN ......I'll... stop slacking...
+
+@ 71.211
+# 白石 なぎさ
+JP …………はい……？
+EN ......Huh...?
+
+@ 71.232
+# 白石 なぎさ
+JP …………うん……。
+JP …………ごめんなさい……。
+EN ......Mm-hm... ......I'm sorry...
+
+@ 71.253
+# 白石 なぎさ
+JP …………社長…少し嫌い……。
+EN ......I don't like you... a little... Boss...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# 白石 なぎさ
+JP …………大丈夫……。
+EN ......I'm okay...
+
+@ 71.311
+# 白石 なぎさ
+JP …………大丈夫じゃない……。
+EN ......I'm not okay...
+
+@ 71.332
+# 白石 なぎさ
+JP …………社長…好き……。
+EN ......I like you... Boss...
+
+@ 71.353
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 白石 なぎさ
+JP …………んっ……？
+EN ......Hm...?
+
+@ 71.400
+# 白石 なぎさ
+JP …………さぁ……？
+EN ......Who knows...?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 71.454
+# 白石 なぎさ
+JP …………ムリ……。
+EN ......Can't...
+
+@ 71.475
+# 白石 なぎさ
+JP …………仲良し…仲良し……。
+EN ......Friends... friends...
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 白石 なぎさ
+JP …………ん～～……？
+EN ......Hmmm...?
+
+@ 71.522
+# 白石 なぎさ
+JP …………風船くれるの……？
+EN ......Are you giving me a balloon...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 白石 なぎさ
+JP …………仲直りしないと……。
+EN ......I should make up with her...
+
+@ 71.578
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 71.599
+# 白石 なぎさ
+JP …………みんな仲良し……。
+EN ......Everyone's friends...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 白石 なぎさ
+JP …………なぁに……？
+EN ......Whaaat...?
+
+@ 72.16
+# 白石 なぎさ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 白石 なぎさ
+JP …………う～ん……。
+EN ......Hmmm...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 白石 なぎさ
+JP …………ありがとう……。
+EN ......Thank you...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 白石 なぎさ
+JP …………たるみ…なくす……。
+EN ......I'll... stop slacking...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 白石 なぎさ
+JP …………はい……？
+EN ......Huh...?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 白石 なぎさ
+JP …………うん……。
+JP …………ごめんなさい……。
+EN ......Mm-hm... ......I'm sorry...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 白石 なぎさ
+JP …………社長…少し嫌い……。
+EN ......I don't like you... a little... Boss...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 白石 なぎさ
+JP …………大丈夫……。
+EN ......I'm okay...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 白石 なぎさ
+JP …………大丈夫じゃない……。
+EN ......I'm not okay...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 白石 なぎさ
+JP …………社長…好き……。
+EN ......I like you... Boss...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 白石 なぎさ
+JP …………ん……？
+EN ......Hm...?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 白石 なぎさ
+JP …………さぁ……？
+EN ......Who knows...?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 白石 なぎさ
+JP …………ムリ……。
+EN ......Can't...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 白石 なぎさ
+JP …………仲良し…仲良し……。
+EN ......Friends... friends...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 白石 なぎさ
+JP …………ん～～……？
+EN ......Hmmm...?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 白石 なぎさ
+JP …………風船くれるの……？
+EN ......Are you giving me a balloon...?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 白石 なぎさ
+JP …………仲直りしないと……。
+EN ......I should make up with her...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 白石 なぎさ
+JP …………みんな仲良し……。
+EN ......Everyone's friends...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 白石 なぎさ
+JP …………よろしく……。
+EN ......Thank you...
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 白石 なぎさ
+JP …………風船いっぱい……。
+EN ......Lots of balloons...
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 白石 なぎさ
+JP …………ん～～……。
+EN ......Mmmm...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so, we arrived on a tropical island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this is the tropics all right. The sun is
+EN scorching.)
+
+@ 105.32
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Everyone seems to be having fun.)
+
+@ 105.38
+# 社 長
+JP （んっ……？）
+EN (Hm...?)
+
+@ 105.40
+# 社 長
+JP （誰かが海で浮かんだり
+JP 　沈んだりを繰り返している）
+EN (Someone out in the sea keeps bobbing up and
+EN sinking down.)
+
+@ 105.42
+# 社 長
+JP （あれは…白石か…）
+EN (Is that... Shiraishi?)
+
+@ 105.44
+# 社 長
+JP （まさか溺れてるんじゃ！？）
+EN (Don't tell me she's drowning?!)
+
+@ 105.46
+# 社 長
+JP 白石～～！
+EN Shiraishiii!
+
+@ 105.48
+# 社 長
+JP （俺は慌てて海に飛び込んだ）
+EN (I hurriedly dove into the sea.)
+
+@ 105.78
+# 白石 なぎさ
+JP …………なに……？
+EN ......What...?
+
+@ 105.81
+# 社 長
+JP （近づいてみると）
+EN (When I got closer...)
+
+@ 105.83
+# 社 長
+JP （溺れている訳ではなく
+JP 　自分の意志で
+JP 　浮き沈みしていることがわかった）
+EN (I realized she wasn't drowning at all. She was
+EN bobbing up and down on purpose.)
+
+@ 105.85
+# 社 長
+JP あ…いや……。
+EN Ah... well...
+
+@ 105.87
+# 社 長
+JP 浮いたり沈んだりしていたから
+JP 溺れたんじゃないかと思って…。
+EN You kept bobbing up and down, so I thought you were
+EN drowning...
+
+@ 105.91
+# 白石 なぎさ
+JP …………ふ～ん……。
+EN ......Hmm...
+
+@ 105.95
+# 白石 なぎさ
+JP …………過保護……。
+EN ......Overprotective...
+
+@ 105.98
+# 社 長
+JP たしかに…。
+EN Fair enough...
+
+@ 105.100
+# 社 長
+JP まあ、それはおいといて…。
+JP 何をしていたんだ？
+EN Anyway, setting that aside... what were you doing?
+
+@ 105.102
+# 社 長
+JP ただ泳いでいたにしては
+JP 随分と変な動きだったが。
+EN That was a pretty strange way to move if you were
+EN just swimming.
+
+@ 105.106
+# 白石 なぎさ
+JP …………勝負……。
+EN ......A contest...
+
+@ 105.109
+# 社 長
+JP 勝負…？
+EN A contest...?
+
+@ 105.113
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 105.116
+# 社 長
+JP 誰と…？
+EN Against who...?
+
+@ 105.120
+# 白石 なぎさ
+JP …………ふわふわの……。
+EN ......The squishy one...
+
+@ 105.123
+# 社 長
+JP ふわふわ…？
+EN Squishy...?
+
+@ 105.126
+# 社 長
+JP （白石の側をよく見ると
+JP 　巨大なクラゲが浮かんでいる）
+EN (Looking closely, I saw a giant jellyfish floating
+EN beside her.)
+
+@ 105.128
+# 社 長
+JP もしかして、そのクラゲとか？
+EN Don't tell me... against that jellyfish?
+
+@ 105.132
+# 白石 なぎさ
+JP …………強敵……。
+EN ......A tough opponent...
+
+@ 105.135
+# 社 長
+JP そ、そうか…。
+EN I-I see...
+
+@ 105.139
+# 白石 なぎさ
+JP …………呼吸の分……不利……。
+EN ......Breathing... puts me at a disadvantage...
+
+@ 105.142
+# 社 長
+JP そりゃ、そうだろう。
+EN Well, naturally.
+
+@ 105.144
+# 社 長
+JP （しかし、当人は真剣っぽい）
+EN (But she seemed dead serious about it.)
+
+@ 105.146
+# 社 長
+JP …………まあ、がんばれ……。
+EN ......Well, good luck...
+
+@ 105.150
+# 白石 なぎさ
+JP …………うん……。
+JP …………がんばる……。
+EN ......Mm-hm... ......I'll do my best...
+
+@ 105.164
+# 社 長
+JP ………………。
+EN ......
+
+@ 105.166
+# 社 長
+JP （そうして白石は…）
+EN (And with that, Shiraishi...)
+
+@ 105.168
+# 社 長
+JP （クラゲとのよくわからない勝負を
+JP 　再開した…）
+EN (resumed her baffling contest with the jellyfish...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （それは、ある日のこと…）
+EN (It happened one day...)
+
+@ 106.26
+# 社 長
+JP （寮に立ち寄った俺は
+JP 　奇妙なものを発見した）
+EN (I stopped by the dorm and found something
+EN strange.)
+
+@ 106.28
+# 社 長
+JP （部屋の隅に何やら山ができている）
+EN (Some sort of mound had formed in the corner of the
+EN room.)
+
+@ 106.30
+# 社 長
+JP （なんだ、あれは…）
+EN (What is that...?)
+
+@ 106.46
+# 社 長
+JP （よく見ると
+JP 　それは…洗濯物の山だった）
+EN (Looking closely, I saw it was... a mound of laundry.)
+
+@ 106.48
+# 社 長
+JP （ああ、洗濯物を取り込んだのか）
+EN (Ah, someone brought in the washing.)
+
+@ 106.50
+# 社 長
+JP （人数が多いからな。
+JP 　洗濯も大変だな）
+EN (With this many people, laundry must be a real chore.)
+
+@ 106.52
+# 社 長
+JP （納得して去ろうとすると
+JP 　その山が視界の隅で動いた）
+EN (Satisfied, I turned to leave, but the mound moved in
+EN the corner of my eye.)
+
+@ 106.54
+# 社 長
+JP （近寄ってみると
+JP 　その山が更に動いてから崩れた）
+EN (When I went closer, it moved again and collapsed.)
+
+@ 106.56
+# 社 長
+JP （すると、中には…）
+EN (And inside was...)
+
+@ 106.72
+# 社 長
+JP うわっ、白石！
+EN Whoa, Shiraishi!
+
+@ 106.76
+# 白石 なぎさ
+JP …………社長……？
+EN ......Boss...?
+
+@ 106.79
+# 社 長
+JP な…何をやってるんだ？
+EN Wh-what are you doing?
+
+@ 106.83
+# 白石 なぎさ
+JP …………マイベッド……。
+EN ......My bed...
+
+@ 106.86
+# 社 長
+JP マ…マイベッド？
+EN Y-your bed?
+
+@ 106.90
+# 白石 なぎさ
+JP …………そう……。
+EN ......Yes...
+
+@ 106.93
+# 社 長
+JP （ぽわーんとした顔をしている。
+JP 　なんだかとても幸せそうだ）
+EN (She had a dreamy look on her face. She seemed
+EN incredibly happy.)
+
+@ 106.103
+# 白石 なぎさ
+JP …………お日様のにおい……。
+JP …………空のにおい……。
+EN ......It smells like sunshine... ......It smells like the sky...
+
+@ 106.106
+# 社 長
+JP そ、そうか。
+EN I-I see.
+
+@ 106.110
+# 白石 なぎさ
+JP …………幸せ……。
+EN ......Happy...
+
+@ 106.113
+# 社 長
+JP ああ、いいよな。
+JP 洗濯物の香り。
+EN Yeah, it's nice, isn't it? The smell of fresh laundry.
+
+@ 106.115
+# 社 長
+JP （んっ…洗濯物？）
+EN (Hm... laundry?)
+
+@ 106.117
+# 社 長
+JP でも、せっかく取り込んだ洗濯物を
+JP ぐちゃぐちゃにして、怒られないか？
+EN But won't you get yelled at for messing up the
+EN laundry after someone brought it in?
+
+@ 106.127
+# 白石 なぎさ
+JP ………………。
+EN ......
+
+@ 106.130
+# 社 長
+JP （そう指摘すると
+JP 　白石はしばらく考え込み）
+EN (When I pointed that out, Shiraishi thought it over
+EN for a while...)
+
+@ 106.132
+# 社 長
+JP （俺を指さし、こう言った）
+EN (Then she pointed at me and said...)
+
+@ 106.136
+# 白石 なぎさ
+JP …………いけないんだ……。
+EN ......You're in trouble...
+
+@ 106.139
+# 社 長
+JP 俺のせいかよ！
+EN So it's MY fault?!
+
+@ 106.153
+# 社 長
+JP ………………。
+EN ......
+
+@ 106.155
+# 社 長
+JP （その後、俺と白石はたっぷりと
+JP 　説教されることになった…）
+EN (Afterward, Shiraishi and I both got a long lecture...)
+
+@ 106.157
+# 社 長
+JP （なんで俺まで…）
+EN (Why me too...?)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （それは、ある日のこと…）
+EN (It happened one day...)
+
+@ 107.26
+# 社 長
+JP （寮に立ち寄った俺は
+JP 　奇妙なものを発見した）
+EN (I stopped by the dorm and found something
+EN strange.)
+
+@ 107.42
+# 社 長
+JP （相変わらず、すごい量だな）
+EN (What a huge pile, as always.)
+
+@ 107.44
+# 社 長
+JP （まさか、また白石が
+JP 　入っていたりして…）
+EN (Don't tell me Shiraishi's in there again...)
+
+@ 107.46
+# 社 長
+JP （いや、それはないか）
+EN (No, that can't be.)
+
+@ 107.48
+# 社 長
+JP （前回、滅茶苦茶怒られて
+JP 　しゅんとなってたもんな）
+EN (She got chewed out so badly last time, she was
+EN totally crestfallen.)
+
+@ 107.50
+# 社 長
+JP （…と思ったのもつかの間）
+EN (...Or so I thought, but only for a moment.)
+
+@ 107.52
+# 社 長
+JP （俺の見ている前で
+JP 　洗濯物の山がグラっと動いた）
+EN (Right before my eyes, the laundry pile wobbled.)
+
+@ 107.54
+# 社 長
+JP まさか…。
+EN No way...
+
+@ 107.70
+# 社 長
+JP （ホントにいたよ…）
+EN (She really was in there...)
+
+@ 107.73
+# 社 長
+JP 懲りないな、おまえも。
+EN You never learn, do you?
+
+@ 107.77
+# 白石 なぎさ
+JP …………社長……？
+EN ......Boss...?
+
+@ 107.80
+# 社 長
+JP 洗濯物でそんなことしてると
+JP また怒られるぞ。
+EN If you do that with the laundry, you'll get yelled at
+EN again.
+
+@ 107.90
+# 白石 なぎさ
+JP …………でも…マイベッド……。
+EN ......But... my bed...
+
+@ 107.93
+# 社 長
+JP でも、じゃない。
+EN No buts.
+
+@ 107.97
+# 白石 なぎさ
+JP ………………。
+EN ......
+
+@ 107.100
+# 社 長
+JP （白石が、また考えごとを始めた）
+EN (Shiraishi started thinking again.)
+
+@ 107.104
+# 白石 なぎさ
+JP …………社長……。
+EN ......Boss...
+
+@ 107.107
+# 社 長
+JP ……んっ？
+EN ...Hm?
+
+@ 107.111
+# 白石 なぎさ
+JP …………社長は偉い人……？
+EN ......Are you an important person, Boss...?
+
+@ 107.114
+# 社 長
+JP ……んっ？
+JP まぁ、そうだな。
+EN ...Hm? Well, I suppose so.
+
+@ 107.118
+# 白石 なぎさ
+JP …………うん……。
+EN ......Mm-hm...
+
+@ 107.121
+# 社 長
+JP ………………。
+EN ......
+
+@ 107.131
+# 白石 なぎさ
+JP …………社長も……。
+EN ......You too, Boss...
+
+@ 107.134
+# 社 長
+JP （何がなのか理解するよりも早く…）
+EN (Before I could figure out what she meant...)
+
+@ 107.150
+# 社 長
+JP （白石は俺の手を掴み
+JP 　洗濯物の中に引きずり込んだ）
+EN (Shiraishi grabbed my hand and dragged me into the
+EN laundry.)
+
+@ 107.154
+# 白石 なぎさ
+JP …………社長も一緒なら……。
+JP …………怒られない……。
+EN ......If you're in here too, Boss... ......we won't get yelled
+EN at...
+
+@ 107.157
+# 社 長
+JP いや、これはこれでマズいって！
+EN No, this is bad in a whole different way!
+
+@ 107.161
+# 白石 なぎさ
+JP …………連帯責任……。
+EN ......Shared responsibility...
+
+@ 107.164
+# 社 長
+JP 連帯じゃない！
+EN There's nothing shared about it!
+
+@ 107.166
+# 社 長
+JP （とはいえ、白石と一緒にもぐった
+JP 　洗濯物の中は）
+EN (Still, burrowed in the laundry with Shiraishi...)
+
+@ 107.168
+# 社 長
+JP （お日様の匂いと
+JP 　白石のぬくもりが合わさって
+JP 　たしかに幸せな雰囲気がした）
+EN (with the smell of sunshine and her warmth together,
+EN it really did feel blissful.)
+
+@ 107.186
+# 社 長
+JP （しかし）
+EN (However...)
+
+@ 107.188
+# 社 長
+JP （後で俺もめちゃくちゃ文句を
+JP 　言われるハメとなった）
+EN (Later, I ended up getting an earful too.)
+
+@ 107.190
+# 社 長
+JP （やれやれ…）
+EN (Oh, boy...)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 白石 なぎさ
+JP …………負けない……。
+EN ......I won't lose...
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# 白石 なぎさ
+JP …………戦うの……？
+EN ......Are we fighting...?
+
+@ 110.16
+# scene 113 練習開始
+# 白石 なぎさ
+JP …………今日も練習……。
+EN ......Training again today...
+
+@ 111.16
+# scene 114 練習開始 好意
+# 白石 なぎさ
+JP …………練習…楽しい……。
+EN ......Training... is fun...
+
+@ 112.16
+# scene 115 特訓開始
+# 白石 なぎさ
+JP …………今日は特訓……。
+EN ......Special training today...
+
+@ 113.20
+# scene 116 特訓成功
+# 白石 なぎさ
+JP …………終わり……。
+EN ......Done...
+
+@ 114.20
+# scene 117 特訓失敗
+# 白石 なぎさ
+JP …………ダメ……？
+EN ......No good...?
+
+@ 115.16
+# scene 118 休養
+# 白石 なぎさ
+JP …………お休み……？
+EN ......A day off...?
+
+@ 116.16
+# scene 119 入場1
+# 白石 なぎさ
+JP …………勝たないと…ダメ……？
+EN ......Do I have to... win...?
+
+@ 117.16
+# scene 119 入場2
+# 白石 なぎさ
+JP …………もう時間……？
+EN ......Is it time already...?
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# 白石 なぎさ
+JP …………エイエイオー……。
+EN ......Let's gooo...
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# 白石 なぎさ
+JP …………いっしょ、いっしょ……♪
+EN ......Together, together...♪
+
+@ 120.16
+# scene 125 必殺技１
+# 白石 なぎさ
+JP …………風船フワフワ～……。
+EN ......Balloon, floating awaaay...
+
+@ 121.16
+# scene 125 必殺技２
+# 白石 なぎさ
+JP …………もうおしまい……。
+EN ......It's all over...
+
+@ 122.16
+# scene 125 必殺技３
+# 白石 なぎさ
+JP …………これで終わり……。
+JP …………何が終わるの……？
+EN ......This is the end... ......The end of what...?
+
+@ 123.12
+# scene 126 勝利1
+# 白石 なぎさ
+JP …………私が勝ったの……？
+EN ......Did I win...?
+
+@ 124.12
+# scene 126 勝利2
+# 白石 なぎさ
+JP …………私の勝ち……。
+EN ......I win...
+
+@ 125.12
+# scene 126 勝利3
+# 白石 なぎさ
+JP …………んっ……？
+EN ......Hm...?
+
+@ 126.15
+# scene 133 表彰1
+# 白石 なぎさ
+JP …………わーい……。
+EN ......Yaaay...
+
+@ 127.15
+# scene 133 表彰2
+# 白石 なぎさ
+JP …………私がもらっていいの……？
+EN ......Can I really have this...?
+
+@ 128.12
+# scene 134 優勝1
+# 白石 なぎさ
+JP …………優勝…優勝……！
+EN ......Champion... champion...!
+
+@ 129.12
+# scene 134 優勝２
+# 白石 なぎさ
+JP …………私が優勝……？
+JP …………ふ～ん……。
+EN ......I'm the champion...? ......Hmm...
+
+@ 130.24
+# scene 135 エンディング 通常
+# 白石 なぎさ
+JP …………社長だから…できた……。
+EN ......Because it was you, Boss... we could do it...
+
+@ 131.24
+# scene 136 エンディング 好意
+# 白石 なぎさ
+JP …………社長……。
+JP …………風船よりも社長が好き……。
+EN ......Boss... ......I like you more than balloons...

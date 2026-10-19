@@ -1,0 +1,2431 @@
+# /SCR/121.BIN - 吉原 泉
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 121` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 吉原 泉
+JP 吉原です。
+JP 空手から転向してきました。
+JP よろしくお願いします。
+EN I'm Yoshihara. I'm switching over from karate. It's a
+EN pleasure to meet you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 吉原 泉
+JP プロレスラーとして
+JP ゼロから学びたいと思います。
+EN I want to learn pro wrestling from the ground up.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 吉原 泉
+JP わかりました。
+JP 他の団体に行ってみます…。
+EN I understand. I'll try another promotion...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP 今日の人材は
+JP 「元全日本空手王者」か。
+JP これはすごいな。
+EN Today's prospect is a "former All-Japan karate
+EN champion." That's impressive.
+
+@ 3.25
+# 社 長
+JP 資料通りなら、このあたりで
+JP トレーニングをしているはずだが…。
+EN If the file is right, she should be training somewhere
+EN around here...
+
+@ 3.27
+# 社 長
+JP あっ、あの娘…。
+JP 写真と一緒だ。
+JP 間違いない。
+EN Ah, that girl... She matches the photo. No doubt
+EN about it.
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+JP 吉原さんですか？
+EN Um, excuse me. Are you Ms. Yoshihara?
+
+@ 3.39
+# 吉原 泉
+JP はい、私が吉原ですが…。
+EN Yes, I'm Yoshihara...
+
+@ 3.42
+# 社 長
+JP 実は私はプロレス団体を
+JP 経営している者なんですが…。
+EN Actually, I run a pro wrestling promotion...
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.46
+# 社 長
+JP 吉原さんは元空手王者ということ
+JP ですが、プロレスはどうですか？
+EN I hear you're a former karate champion. How do you
+EN feel about pro wrestling?
+
+@ 3.53
+# 吉原 泉
+JP そうですね。
+JP 以前から関心はありました。
+JP ただ…あの…ひとついいですか？
+EN Well... I've been interested for a while. But... um... may I
+EN ask one thing?
+
+@ 3.56
+# 社 長
+JP なんでしょうか？
+EN What is it?
+
+@ 3.63
+# 吉原 泉
+JP レスラーになったら
+JP 空手を封印します。
+JP それでもいいでしょうか？
+EN If I become a wrestler, I'll be sealing away my karate.
+EN Would that still be all right?
+
+@ 3.66
+# 社 長
+JP …えっ！？
+JP 空手を封印！？
+EN ...What!? Seal away your karate!?
+
+@ 4.14
+# scene 005 新人スカウト１ 成功
+# 社 長
+JP （元王者がこんなことを言うとは
+JP 　よほどの事情があるのかな？）
+EN (For a former champion to say that... she must have
+EN some serious reason.)
+
+@ 4.16
+# 社 長
+JP （理由を聞きたいが
+JP 　真剣な顔つきだしとても無理そうだ）
+EN (I'd like to ask why, but with that serious look, it
+EN doesn't seem possible.)
+
+@ 4.18
+# 社 長
+JP （正直もったいないと思うが
+JP 　仕方ないだろうな）
+EN (Honestly, it feels like a waste, but I suppose it can't
+EN be helped.)
+
+@ 4.20
+# 社 長
+JP …構いません。
+JP 私が欲しいのはレスラーとしての
+JP あなたですから…。
+EN ...That's fine. What I want is you, as a wrestler...
+
+@ 4.31
+# 吉原 泉
+JP でしたら
+JP ぜひお世話になりたいと思います。
+EN In that case, I'd be glad to join you.
+
+@ 4.34
+# 社 長
+JP わかりました。
+JP では入団はＯＫということで
+JP いいでしょうか？
+EN All right. Then can I take that as a yes to joining us?
+
+@ 4.41
+# 吉原 泉
+JP 勝手を言ってすみません。
+JP よろしくお願いします。
+EN I'm sorry for being so selfish. I look forward to
+EN working with you.
+
+@ 5.14
+# scene 006 新人スカウト１ 失敗
+# 社 長
+JP （よほどの事情があるのかな…。
+JP 　ただ、元日本王者だし…？）
+EN (She must have some serious reason... But she's a
+EN former national champion...?)
+
+@ 5.16
+# 社 長
+JP あまりにもったいないのでは？
+JP ファンも納得しないでしょうし…。
+EN Isn't that a terrible waste? I don't think the fans
+EN would accept it either...
+
+@ 5.27
+# 吉原 泉
+JP でしたら、受けられません。
+JP すみません…。
+JP お引き取りください…。
+EN Then I can't accept. I'm sorry... Please leave...
+
+@ 5.30
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, I'm sure it was around here somewhere...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# 吉原 泉
+JP あっ、社長さん…。
+JP また、来てくださったんですか。
+EN Oh, it's you, President... You came back again?
+
+@ 6.38
+# 社 長
+JP あの、この間言われた
+JP 空手を封印する件ですが
+JP あれは絶対の条件ですか？
+EN About sealing away your karate, like you said the
+EN other day... Is that an absolute condition?
+
+@ 6.45
+# 吉原 泉
+JP …はい。
+JP これは私にとってのけじめなんです。
+JP ですから…絶対条件です。
+EN ...Yes. It's how I draw a line for myself. So... it's
+EN absolute.
+
+@ 7.14
+# scene 008 新人スカウト ２回目以降・成功
+# 社 長
+JP （元王者がこんなことを言うとは
+JP 　よほどの事情があるのかな？）
+EN (For a former champion to say that... she must have
+EN some serious reason.)
+
+@ 7.16
+# 社 長
+JP （理由を聞きたいが
+JP 　真剣な顔つきだしとても無理そうだ）
+EN (I'd like to ask why, but with that serious look, it
+EN doesn't seem possible.)
+
+@ 7.18
+# 社 長
+JP （正直もったいないと思うが
+JP 　仕方ないだろうな）
+EN (Honestly, it feels like a waste, but I suppose it can't
+EN be helped.)
+
+@ 7.20
+# 社 長
+JP …構いません。
+JP 私が欲しいのはレスラーとしての
+JP あなたですから…。
+EN ...That's fine. What I want is you, as a wrestler...
+
+@ 7.31
+# 吉原 泉
+JP でしたら
+JP ぜひお世話になりたいと思います。
+EN In that case, I'd be glad to join you.
+
+@ 7.34
+# 社 長
+JP わかりました。
+JP では入団はＯＫということで
+JP いいでしょうか？
+EN All right. Then can I take that as a yes to joining us?
+
+@ 7.41
+# 吉原 泉
+JP 勝手を言ってすみません。
+JP よろしくお願いします。
+EN I'm sorry for being so selfish. I look forward to
+EN working with you.
+
+@ 8.14
+# scene 009 新人スカウト ２回目以降  失敗
+# 社 長
+JP （よほどの事情があるのかな…。
+JP 　ただ、元日本王者だし…？）
+EN (She must have some serious reason... But she's a
+EN former national champion...?)
+
+@ 8.16
+# 社 長
+JP あまりにもったいないのでは？
+JP ファンも納得しないでしょうし。
+EN Isn't that a terrible waste? I don't think the fans
+EN would accept it either.
+
+@ 8.27
+# 吉原 泉
+JP でしたら、受けられません。
+JP すみません…。
+JP お引き取りください…。
+EN Then I can't accept. I'm sorry... Please leave...
+
+@ 8.30
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は吉原選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Yoshihara.
+
+@ 9.25
+# 社 長
+JP 元空手王者でありながら
+JP あえて空手を封じ
+JP レスリングのみで戦っている…。
+EN A former karate champion who deliberately seals
+EN away her karate and fights with wrestling alone...
+
+@ 9.27
+# 社 長
+JP そういう筋の通った考えは
+JP 若手にもいい刺激を与えて
+JP くれるだろう。
+EN That kind of principled thinking should be a good
+EN influence on the younger wrestlers.
+
+@ 9.29
+# 社 長
+JP このあたりで練習している
+JP はずだけど…。
+EN She should be training somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 吉原 泉
+JP なんでしょうか？
+EN Can I help you?
+
+@ 9.46
+# 社 長
+JP 実は私はプロレス団体を
+JP 経営している者なんですが…。
+EN Actually, I run a pro wrestling promotion...
+
+@ 9.48
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.55
+# 吉原 泉
+JP 移籍のお誘い…ですか？
+EN You're inviting me to transfer...?
+
+@ 9.58
+# 社 長
+JP はい、どうでしょう？
+EN Yes. What do you think?
+
+@ 9.60
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# 吉原 泉
+JP そうですね…。
+JP 正直、今の団体では少し
+JP くすぶっているので…。
+EN Well... to be honest, I've been kind of stuck where I
+EN am now...
+
+@ 10.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 10.29
+# 吉原 泉
+JP わかりました。
+JP これからお世話になります。
+JP よろしくお願いします。
+EN All right. I'll be in your care from now on. I look
+EN forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 吉原 泉
+JP もう少し考えさせてくれませんか。
+JP この場で答えを出すのは難しいです。
+EN Could you give me a little more time to think? It's
+EN hard to answer on the spot.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 吉原選手が必要だ。
+EN Our promotion really needs Yoshihara.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度吉原選手と
+JP 交渉することにした。
+EN I decided to negotiate with Yoshihara once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 吉原 泉
+JP ああ、先日は。
+JP …あの…まだ私に声をかけて
+JP くださるんですか。
+EN Oh, it's you from the other day. ...Um... you're still
+EN asking me?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しいんです。
+EN Yes. I really want you to join our promotion.
+
+@ 12.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# 吉原 泉
+JP そうですね…。
+JP 正直、今の団体では少し
+JP くすぶっているので…。
+EN Well... to be honest, I've been kind of stuck where I
+EN am now...
+
+@ 13.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 13.29
+# 吉原 泉
+JP わかりました。
+JP これからお世話になります。
+JP よろしくお願いします。
+EN All right. I'll be in your care from now on. I look
+EN forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 吉原 泉
+JP もう少し考えさせてくれませんか。
+JP この場で答えを出すのは難しいです。
+EN Could you give me a little more time to think? It's
+EN hard to answer on the spot.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は吉原選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Yoshihara.
+
+@ 15.25
+# 社 長
+JP 元空手王者でありながら
+JP あえて空手を封じ
+JP レスリングのみで戦っている…。
+EN A former karate champion who deliberately seals
+EN away her karate and fights with wrestling alone...
+
+@ 15.27
+# 社 長
+JP そういう筋の通った考えは
+JP 若手にもいい刺激を与えて
+JP くれるだろう。
+EN That kind of principled thinking should be a good
+EN influence on the younger wrestlers.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりにいるはず
+JP だけど…。
+EN She's supposed to be around here somewhere...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+JP 吉原さんですね？
+EN Um, excuse me. You're Ms. Yoshihara, right?
+
+@ 15.43
+# 吉原 泉
+JP あっ、はい。
+JP 失礼ですが、どちら様でしょうか。
+EN Ah, yes. Excuse me, but who are you?
+
+@ 15.46
+# 社 長
+JP 実は私はプロレス団体を
+JP 経営している者なんですが…。
+EN Actually, I run a pro wrestling promotion...
+
+@ 15.49
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 15.56
+# 吉原 泉
+JP 入団のお話ですか…。
+JP それはどうしましょう…。
+JP 困りましたね。
+EN An offer to join... What should I do... This is a tough
+EN one.
+
+@ 15.59
+# 社 長
+JP （あんまり乗り気じゃない
+JP 　みたいだな）
+EN (She doesn't seem too keen.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# 吉原 泉
+JP 私、空手を使うことを自らに禁じて
+JP いるんですが、ご存知でしょうか？
+EN I've forbidden myself from using karate. Did you
+EN know that?
+
+@ 16.18
+# 社 長
+JP はい、存じています。
+JP うちでもそれで結構です。
+EN Yes, I'm aware. That's fine with us.
+
+@ 16.29
+# 吉原 泉
+JP …わかりました。
+JP では、ＯＫです。
+JP これからよろしくお願いします。
+EN ...All right. Then it's a yes. I look forward to working
+EN with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 吉原 泉
+JP 色々と悩むところがあって
+JP 団体には入りたくないんです。
+EN I have a lot on my mind, and I don't want to join a
+EN promotion.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 吉原選手が必要だ。
+EN Our promotion really needs Yoshihara.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度吉原選手と
+JP 交渉することにした。
+EN I decided to negotiate with Yoshihara once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 吉原 泉
+JP 社長さん…！
+JP またいらしたんですか。
+JP それほどまでに私を？
+EN President...! You came again? You want me that
+EN badly?
+
+@ 18.40
+# 社 長
+JP はい。
+JP どうしてもうちの団体に
+JP 入ってもらいたいんです。
+EN Yes. I really want you to join our promotion.
+
+@ 18.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# 吉原 泉
+JP 私、空手を使うことを自らに禁じて
+JP いるんですが、ご存知でしょうか。
+EN I've forbidden myself from using karate. Did you
+EN know that?
+
+@ 19.18
+# 社 長
+JP はい、存じています。
+JP うちでもそれで結構です。
+EN Yes, I'm aware. That's fine with us.
+
+@ 19.29
+# 吉原 泉
+JP …わかりました。
+JP では、ＯＫです。
+JP これからよろしくお願いします。
+EN ...All right. Then it's a yes. I look forward to working
+EN with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 吉原 泉
+JP 色々と悩むところがあって
+JP 団体には入りたくないんです。
+EN I have a lot on my mind, and I don't want to join a
+EN promotion.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は吉原を訪ねることにした。
+EN I decided to go see Yoshihara.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she was somewhere around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 吉原っ！
+EN Yoshihara!
+
+@ 21.41
+# 吉原 泉
+JP ああ、社長…。
+JP お元気でしたか…？
+EN Oh, Boss... Have you been well...?
+
+@ 21.44
+# 社 長
+JP あぁ、こっちはな。
+JP そっちはどうだ？
+EN Yeah, I'm fine. How about you?
+
+@ 21.51
+# 吉原 泉
+JP 丈夫なだけが取り柄ですから…。
+EN Being sturdy is my only strong point...
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you because I want
+EN you to come back.
+
+@ 21.61
+# 吉原 泉
+JP ……えっ？
+EN ......What?
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 吉原 泉
+JP よほどの事情があるんですね。
+EN You must have a serious reason.
+
+@ 22.18
+# 社 長
+JP 詳しいことは言えないんだが…。
+EN I can't go into details, but...
+
+@ 22.29
+# 吉原 泉
+JP わかりました。
+JP いいですよ。
+EN All right. I'll do it.
+
+@ 22.32
+# 社 長
+JP 本当か？
+EN Really?
+
+@ 22.39
+# 吉原 泉
+JP 社長にはお世話になりましたから…。
+EN You did a lot for me, Boss...
+
+@ 22.42
+# 社 長
+JP そうか…。
+JP すまない、吉原。
+EN I see... Thank you, Yoshihara. I'm sorry.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 吉原 泉
+JP あのことはまだ私の中で
+JP 決着がついていないんです。
+JP …だから……。
+EN I still haven't settled that matter inside myself.
+EN ...So......
+
+@ 23.22
+# 社 長
+JP そうか、わかった。
+JP すまなかった、吉原。
+EN I see. I understand. I'm sorry, Yoshihara.
+
+@ 23.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び吉原を訪ねることにした。
+EN I decided to visit Yoshihara again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 吉原っ！
+EN Yoshihara!
+
+@ 24.37
+# 吉原 泉
+JP 社長…。
+JP どうしても私に戻れと
+JP おっしゃるんですか？
+EN Boss... You're really set on me coming back?
+
+@ 24.40
+# 社 長
+JP あぁ、そうだ。
+JP …頼む、この通りだ。
+EN Yeah, I am. ...Please, I'm begging you.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 吉原 泉
+JP よほどの事情があるんですね。
+EN You must have a serious reason.
+
+@ 25.18
+# 社 長
+JP 詳しいことは言えないんだが…。
+EN I can't go into details, but...
+
+@ 25.29
+# 吉原 泉
+JP わかりました。
+JP いいですよ。
+EN All right. I'll do it.
+
+@ 25.32
+# 社 長
+JP 本当か？
+EN Really?
+
+@ 25.39
+# 吉原 泉
+JP 社長にはお世話になりましたから…。
+EN You did a lot for me, Boss...
+
+@ 25.42
+# 社 長
+JP そうか…。
+JP すまない、吉原。
+EN I see... Thank you, Yoshihara. I'm sorry.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 吉原 泉
+JP あのことはまだ私の中で
+JP 決着がついていないんです。
+JP …だから……。
+EN I still haven't settled that matter inside myself.
+EN ...So......
+
+@ 26.22
+# 社 長
+JP そうか、わかった。
+JP すまなかった、吉原。
+EN I see. I understand. I'm sorry, Yoshihara.
+
+@ 26.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 吉原 泉
+JP この程度でしたら大丈夫です。
+EN Something this minor is no problem.
+
+@ 28.16
+# scene 029 ケガ大
+# 吉原 泉
+JP 気が緩んでたのかな。
+JP なんでこんなケガを…。
+EN Maybe I let my guard down. How did I get hurt like
+EN this...
+
+@ 29.16
+# scene 030 入院
+# 吉原 泉
+JP 今は体を治すことに専念します。
+EN For now, I'll focus on healing my body.
+
+@ 30.16
+# scene 031 退院
+# 吉原 泉
+JP さあ、休んでた分を取り戻さないと！
+EN Now, I have to make up for the time I lost!
+
+@ 31.16
+# scene 032 ケガ完治
+# 吉原 泉
+JP なんとか治ったみたいです！
+EN Looks like I'm healed, somehow!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 吉原 泉
+JP んー…。
+JP たしかに体のキレが悪くなって
+JP きましたしね。
+EN Hmm... It's true, my body has lost some of its
+EN sharpness.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 吉原 泉
+JP ウフッ…。
+JP 社長、冗談でも怒りますよ。
+EN Hehe... Boss, I'll get angry even if it's a joke.
+
+@ 34.16
+# scene 035 コーチ就任
+# 吉原 泉
+JP ウフッ…。
+JP 私、意外と鬼コーチになるかも
+JP しれませんね。
+EN Hehe... I might turn out to be a surprisingly strict
+EN coach.
+
+@ 35.16
+# scene 036 ケガ引退
+# 吉原 泉
+JP 体が自由に動かないんです…。
+JP これでは…ううっ…。
+EN My body won't move the way I want... Like this... ugh...
+
+@ 36.16
+# scene 037 年齢引退
+# 吉原 泉
+JP 色々な意味で
+JP 自分の限界がわかりましたから…。
+EN I've learned my limits, in more ways than one...
+
+@ 37.16
+# scene 038 退団
+# 吉原 泉
+JP 私の歩むべき道は
+JP 他にあるみたいです…。
+EN It seems the path I'm meant to walk lies elsewhere...
+
+@ 38.16
+# scene 039 スランプ
+# 吉原 泉
+JP なんとか調子を戻さないと…。
+EN I have to get back in form somehow...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 吉原 泉
+JP ファンクラブができたって
+JP 本当ですか？
+EN Is it true I have a fan club now?
+
+@ 39.19
+# 社 長
+JP ああ。
+JP 応援に負けないよう
+JP がんばってくれよ。
+EN Yeah. Work hard so you live up to their support.
+
+@ 39.26
+# 吉原 泉
+JP やっと認めてもらえるように
+JP なったんですね。
+JP 嬉しいです。
+EN So people have finally come to recognize me. I'm so
+EN happy.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 吉原 泉
+JP またファンクラブができたんですね。
+EN Another fan club has formed, huh?
+
+@ 40.19
+# 社 長
+JP これからもっとがんばらないとな。
+EN You'll have to work even harder from now on.
+
+@ 40.23
+# 吉原 泉
+JP はい…。
+JP プロレスの魅力を
+JP しっかり伝えていきたいです。
+EN Yes... I really want to share the appeal of pro
+EN wrestling with people.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 吉原 泉
+JP 残念です…。
+EN That's a shame...
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. You just have to work hard
+EN again.
+
+@ 41.26
+# 吉原 泉
+JP そうですね。
+JP 一人でも多くの人に
+JP プロレスの可能性を伝えたいです。
+EN You're right. I want to show as many people as I can
+EN what pro wrestling can be.
+
+@ 42.16
+# scene 043 映画出演
+# 吉原 泉
+JP 演技なんてできないですけど…。
+JP でも、がんばります。
+EN I can't act at all... But I'll do my best.
+
+@ 43.16
+# scene 044 一日署長
+# 吉原 泉
+JP 自信ないですけど…。
+JP 大切な仕事ですから
+JP しっかりやってきます。
+EN I'm not confident... But it's an important job, so I'll do
+EN it properly.
+
+@ 44.16
+# scene 045 写真集発売
+# 吉原 泉
+JP 恥ずかしいですけど…。
+JP 社…あ、いえ
+JP ファンが喜んでくれるなら…。
+EN It's embarrassing... But if it makes the B... I mean, the
+EN fans happy...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 吉原 泉
+JP 大事なお仕事ですから
+JP がんばらないといけませんね。
+EN It's an important job, so I'll have to do my best.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 吉原 泉
+JP 歌は好きなんです。
+JP ＣＤできたら
+JP 真っ先に聞いてくださいね。
+EN I love singing. When the CD is done, please be the
+EN first to listen to it.
+
+@ 47.16
+# scene 048 始球式
+# 吉原 泉
+JP 届かせる自信はありますけど…。
+JP ぶつけないかなあ？
+EN I'm sure I can reach the plate... but what if I hit the
+EN batter?
+
+@ 48.16
+# scene 049 学園祭
+# 吉原 泉
+JP 社長と一緒に周りたいのですが
+JP …ダメですか？
+EN I'd like to go around the festival with you, Boss... Is
+EN that no good?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.36
+# 吉原 泉
+JP わあ…。
+JP ありがとうございます。
+EN Wow... Thank you so much.
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN I'm counting on you from here on, too.
+
+@ 49.46
+# 吉原 泉
+JP はい、こちらこそ
+JP よろしくお願いしますね。
+EN Yes, and I'm counting on you too.
+
+@ 50.30
+# scene 051 バレンタインデー
+# 吉原 泉
+JP 社長…。
+JP 今日が何の日かわかりますか？
+EN Boss... Do you know what day it is today?
+
+@ 50.33
+# 社 長
+JP …んっ？
+JP …あぁ、バレンタインか。
+EN ...Hm? ...Ah, Valentine's Day.
+
+@ 50.40
+# 吉原 泉
+JP 私も用意しちゃいました。
+JP すみません、既製品ですけど…。
+EN I got you something too. I'm sorry it's
+EN store-bought...
+
+@ 50.43
+# 社 長
+JP そんなこと、気にするな。
+JP もらえるだけで嬉しいよ。
+EN Don't worry about that. I'm happy just to get
+EN something.
+
+@ 50.45
+# 社 長
+JP （あれ、有名店の限定品じゃないか。
+JP 　…なんか、かえって悪いな）
+EN (Wait, isn't that a limited item from a famous shop?
+EN ...Now I almost feel bad.)
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, as thanks for last month?
+
+@ 51.36
+# 吉原 泉
+JP わあ…。
+JP このケーキ知ってますよ。
+JP 有名店の限定品ですよね！
+EN Wow... I know this cake. It's a limited item from a
+EN famous shop!
+
+@ 51.39
+# 社 長
+JP まあな。
+JP …練習の合間にでも食べてくれ。
+EN Well, yeah. ...Have some between training sessions.
+
+@ 52.29
+# scene 053 サイン会
+# 吉原 泉
+JP みなさんとプロレスを
+JP 守っていきたいと思います。
+JP よろしくお願いします。
+EN I want to protect pro wrestling together with all of
+EN you. Thank you for your support.
+
+@ 53.31
+# scene 054 コンサート
+# 吉原 泉
+JP みんな、盛り上がってますかー？
+EN Everyone, are you having fun?
+
+@ 54.28
+# scene 055 練習拒否
+# 吉原 泉
+JP 今日は勘弁してください…。
+EN Please, let me off today...
+
+@ 55.28
+# scene 056 失踪
+# 吉原 泉
+JP 転向なんて
+JP 私の認識が甘かったです…。
+EN Switching over... I was too naive about it...
+
+@ 56.16
+# scene 057 選手解雇
+# 吉原 泉
+JP 残念です…。
+JP でも、私はまだこの道を
+JP 歩むつもりですから…。
+EN That's a shame... But I still intend to keep walking
+EN this path...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 吉原 泉
+JP こんな機会を与えてくださって
+JP 感謝しています。
+EN I'm grateful you've given me this opportunity.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 吉原 泉
+JP とても勉強になりました。
+JP ありがとうございます。
+EN I learned so much. Thank you very much.
+
+@ 59.28
+# scene 060 移籍思案
+# 吉原 泉
+JP どうしよう…。
+JP あっちの方が条件が…。
+EN What should I do... Their offer is better...
+
+@ 60.16
+# scene 061 革命軍結成
+# 吉原 泉
+JP 今の団体は腐敗しています！
+JP 私はそんなの認めません！
+EN This promotion has become corrupt! I won't stand
+EN for it!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 吉原 泉
+JP 久しぶりに怒りを覚えました。
+JP 昔の私に戻ってしまいそうです…。
+EN It's been a long time since I felt this angry. I might go
+EN back to the old me...
+
+@ 62.16
+# scene 063 最終決戦要求
+# 吉原 泉
+JP すべての因縁は今日で
+JP 終わりにしましょう！
+JP さあ、正々堂々勝負です！
+EN Let's put an end to every grudge today! Now, let's
+EN settle this fair and square!
+
+@ 63.16
+# scene 064 遺恨発生
+# 吉原 泉
+JP 礼儀知らずですね…。
+EN How rude...
+
+@ 64.16
+# scene 065 殴り込み
+# 吉原 泉
+JP 私が相手の力量を測ってきます。
+EN I'll go and gauge their strength.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 吉原 泉
+JP 身の程を思い知らせてあげます！
+EN I'll teach them their place!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 吉原 泉
+JP あなたがたの力を見極めに来ました。
+JP さぁ、勝負です！
+EN I've come to size up your strength. Now, let's fight!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 吉原 泉
+JP 団体の名誉を背負った戦い…。
+JP 絶対に負けません！
+EN A fight with the promotion's honor on the line... I
+EN won't lose!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 吉原 泉
+JP 私の勝ちです…。
+JP プロレスに転向してよかった…。
+EN I won... I'm so glad I switched to pro wrestling...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 吉原 泉
+JP まだ力がたりないというの…。
+EN I still don't have enough strength...?
+
+@ 70.13
+# scene 071 引退式
+# 吉原 泉
+JP 私は今日でリングを降ります。
+JP でも、みなさん、これからも
+JP プロレスを愛してくださいね！
+EN Today, I step down from the ring. But everyone,
+EN please keep loving pro wrestling!
+
+@ 71.18
+# 吉原 泉
+JP お待たせしました。
+EN Sorry to keep you waiting.
+
+@ 71.37
+# 吉原 泉
+JP 何かご用ですか。
+EN Did you need something?
+
+@ 71.47
+# 吉原 泉
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 71.90
+# 吉原 泉
+JP はい！
+JP この調子を維持していきます！
+EN Yes! I'll keep up this pace!
+
+@ 71.111
+# 吉原 泉
+JP 社長の声がひどく空虚に聞こえます…。
+EN Your words sound awfully hollow, Boss...
+
+@ 71.132
+# 吉原 泉
+JP 社長…。
+JP ちゃんと私を見てくれて
+JP いるんですね…。
+EN Boss... You really are watching me...
+
+@ 71.153
+# 吉原 泉
+JP あまりおだてないでください…。
+EN Please don't flatter me so much...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# 吉原 泉
+JP …すみません。
+JP 気合いを入れ直します。
+EN ...I'm sorry. I'll pull myself together.
+
+@ 71.211
+# 吉原 泉
+JP 疲れがたまっていて…。
+JP 決してさぼっている訳では…。
+EN I've just been worn out... I'm not slacking off,
+EN honestly...
+
+@ 71.232
+# 吉原 泉
+JP 甘えていたのかもしれません。
+JP 気をつけます…。
+EN Maybe I was getting too comfortable. I'll be careful...
+
+@ 71.253
+# 吉原 泉
+JP 社長は…
+JP 私のこと、嫌いなのかな…？
+EN Does the Boss... dislike me...?
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed like yourself lately. Are you
+EN okay?
+
+@ 71.290
+# 吉原 泉
+JP そんな風に言っていただけると
+JP 元気が出てきます。
+EN Hearing you say that gives me energy.
+
+@ 71.311
+# 吉原 泉
+JP …大丈夫です。
+JP たぶん…。
+EN ...I'm fine. Probably...
+
+@ 71.332
+# 吉原 泉
+JP 社長…あの…。
+JP あとで少しお時間いただけますか？
+EN Boss... um... Could I have a little of your time later?
+
+@ 71.353
+# 吉原 泉
+JP あの…。
+JP ダメ…こんなこと頼めない…。
+EN Um... No... I can't ask something like this...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 吉原 泉
+JP …はい。
+EN ...Yes.
+
+@ 71.400
+# 吉原 泉
+JP なんでしょう？
+EN What is it?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 吉原 泉
+JP …そうですね。
+JP いつまで怒っていても
+JP 仕方ないですよね。
+EN ...You're right. There's no point staying angry
+EN forever.
+
+@ 71.454
+# 吉原 泉
+JP もう少し時が経てば
+JP 解決すると思いますけど…。
+EN I think it'll work itself out with a little more time...
+
+@ 71.475
+# 吉原 泉
+JP 私たち、別に仲悪くないですよ？
+EN We don't get along badly at all, you know?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 吉原 泉
+JP …すみません。
+EN ...I'm sorry.
+
+@ 71.522
+# 吉原 泉
+JP 何かありました？
+EN Did something happen?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 吉原 泉
+JP わかりました。
+JP ちゃんと話し合ってきます。
+EN All right. I'll go and talk it out with her properly.
+
+@ 71.578
+# 吉原 泉
+JP 私はいつでもＯＫですけど
+JP 向こうが頑固なんです！
+EN I'm always ready to make up, but she's the stubborn
+EN one!
+
+@ 71.599
+# 吉原 泉
+JP …えっ？
+JP 社長、お疲れですか？
+EN ...What? Boss, are you tired?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 吉原 泉
+JP 何かご用ですか。
+EN Did you need something?
+
+@ 72.16
+# 吉原 泉
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 吉原 泉
+JP はい！　この調子を
+JP 維持していきます！
+EN Yes! I'll keep up this pace!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 吉原 泉
+JP 社長の声がひどく空虚に
+JP 聞こえます…。
+EN Your words sound awfully hollow, Boss...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 吉原 泉
+JP 社長…。
+JP ちゃんと私を見てくれて
+JP いるんですね…。
+EN Boss... You really are watching me...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 吉原 泉
+JP あまりおだてないでください…。
+EN Please don't flatter me so much...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 吉原 泉
+JP …すみません。
+JP 気合いを入れ直します。
+EN ...I'm sorry. I'll pull myself together.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 吉原 泉
+JP 疲れがたまっていて…。
+JP 決してさぼっている訳では…。
+EN I've just been worn out... I'm not slacking off,
+EN honestly...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 吉原 泉
+JP 甘えていたのかもしれません。
+JP 気をつけます…。
+EN Maybe I was getting too comfortable. I'll be careful...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 吉原 泉
+JP 社長は…私のこと、
+JP 嫌いなのかな…？
+EN Does the Boss... dislike me...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed like yourself lately. Are you
+EN okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 吉原 泉
+JP そんな風に言って戴けると、
+JP 元気が出てきます。
+EN Hearing you say that gives me energy.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 吉原 泉
+JP …大丈夫です。
+JP 多分……。
+EN ...I'm fine. Probably...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 吉原 泉
+JP 社長…あの…。
+JP あとで少し、
+JP お時間いただけますか？
+EN Boss... um... Could I have a little of your time later?
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 吉原 泉
+JP あの…。
+JP ダメ、こんなこと、頼めない…。
+EN Um... No... I can't ask something like this...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 吉原 泉
+JP ……はい。
+EN ...Yes.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 吉原 泉
+JP なんでしょう？
+EN What is it?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 吉原 泉
+JP …そうですね。
+JP いつまで怒っていても
+JP 仕方ないですよね。
+EN ...You're right. There's no point staying angry
+EN forever.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 吉原 泉
+JP もう少し時が経てば、
+JP 解決すると思いますけど…。
+EN I think it'll work itself out with a little more time...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 吉原 泉
+JP 私たち、別に仲悪くないですよ？
+EN We don't get along badly at all, you know?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 吉原 泉
+JP ……すみません。
+EN ...I'm sorry.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 吉原 泉
+JP 何かありました？
+EN Did something happen?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 吉原 泉
+JP わかりました。
+JP ちゃんと話し合ってきます。
+EN All right. I'll go and talk it out with her properly.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 吉原 泉
+JP 私はいつでもＯＫですけど、
+JP 向こうが頑固なんです！
+EN I'm always ready to make up, but she's the stubborn
+EN one!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 吉原 泉
+JP えっ？　社長、
+JP お疲れですか？
+EN ...What? Boss, are you tired?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 吉原 泉
+JP 社長のご判断、的確だと思います。
+EN I think your judgment is spot on, Boss.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 吉原 泉
+JP ええっ、こんなに！？
+JP 嬉しいですけど
+JP 社長、大丈夫ですか？
+EN Wh-what, this much!? I'm happy, but are you sure you
+EN can afford it, Boss?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 吉原 泉
+JP そうですか…。
+JP 社長のお考えなら仕方ないですね…。
+EN I see... If that's what you think, Boss, it can't be
+EN helped...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this is the tropics for you. The sun is
+EN scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun, too.)
+
+@ 105.32
+# 社 長
+JP 一休みするか。
+EN Guess I'll take a break.
+
+@ 105.50
+# 社 長
+JP 久しぶりにゆっくりできたな。
+EN It's been a while since I got to relax like this.
+
+@ 105.54
+# ？？？
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 105.57
+# 社 長
+JP （…んっ、今のは…？）
+EN (...Hm? That voice...?)
+
+@ 105.73
+# 社 長
+JP 吉原か。
+EN Oh, Yoshihara.
+
+@ 105.83
+# 吉原 泉
+JP 社長もこっちで休んでいきませんか？
+EN Boss, why don't you take a break over here too?
+
+@ 105.86
+# 社 長
+JP ああ、せっかくだから
+JP そうさせてもらうとするか。
+EN Sure, since I'm here, I think I'll do that.
+
+@ 105.103
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.121
+# 社 長
+JP ずいぶん長いこと
+JP 話し込んでしまったな。
+EN We sure talked for a long time.
+
+@ 105.123
+# 社 長
+JP こんなところにまで来て
+JP おしゃべりするだけっていうのも
+JP もったいなかったな。
+EN Coming all the way out here just to chat feels like
+EN kind of a waste.
+
+@ 105.127
+# 吉原 泉
+JP そんなことありませんよ。
+JP 私はこうしているだけでも
+JP 楽しいです。
+EN Not at all. I'm having fun just being like this.
+
+@ 105.130
+# 社 長
+JP そういうものか？
+EN Is that so?
+
+@ 105.140
+# 吉原 泉
+JP ええ。
+JP こういうのっていいじゃないですか。
+EN Yes. Isn't something like this nice?
+
+@ 105.150
+# 吉原 泉
+JP それに、今の私たち
+JP 他の人にはどう見えていると思います？
+EN Besides, how do you think we look to other people
+EN right now?
+
+@ 105.153
+# 社 長
+JP どうって？
+EN How do we look?
+
+@ 105.157
+# 吉原 泉
+JP 例えば、恋人に見えるか…とか。
+EN For example... whether we look like lovers.
+
+@ 105.160
+# 社 長
+JP こ、恋人か…。
+JP う～ん、どうだろなぁ？
+EN L-lovers, huh... Hmm, I wonder about that?
+
+@ 105.164
+# 吉原 泉
+JP それなら試してみましょう。
+EN Then let's test it.
+
+@ 105.167
+# 社 長
+JP 試すって言っても…。
+EN Test it, you say...
+
+@ 105.177
+# 吉原 泉
+JP これ、二人で一緒に飲みませんか？
+EN Why don't we drink this together, the two of us?
+
+@ 105.180
+# 社 長
+JP 一緒にか…？
+EN Together...?
+
+@ 105.184
+# 吉原 泉
+JP えぇ…。
+EN Yes...
+
+@ 105.187
+# 社 長
+JP 少し恥ずかしくないか？
+EN Isn't that a little embarrassing?
+
+@ 105.191
+# 吉原 泉
+JP あっ…私は社長となら
+JP 恥ずかしくないですよ…。
+EN Oh... With you, Boss, I'm not embarrassed at all...
+
+@ 105.194
+# 社 長
+JP そ、そうか…。
+JP じゃ、一緒に飲んでみるか？
+EN R-really... Well then, shall we drink it together?
+
+@ 105.198
+# 吉原 泉
+JP はい！
+EN Yes!
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP ふぁああ～…。
+JP 昨日は徹夜だったし…。
+JP さすがに疲れたな…。
+EN Haaah... I pulled an all-nighter yesterday... I'm really
+EN beat...
+
+@ 106.26
+# 社 長
+JP （さて、あとは
+JP 　ここの見回りで終わりだな）
+EN (Well, I just have to check this place and I'm done.)
+
+@ 106.28
+# 社 長
+JP （んっ…電気が……？）
+EN (Hm... the lights are...?)
+
+@ 106.30
+# 社 長
+JP （誰か残っているのか…？）
+EN (Is someone still here...?)
+
+@ 106.40
+# 吉原 泉
+JP あっ…社長…。
+EN Oh... Boss...
+
+@ 106.43
+# 社 長
+JP あれ、吉原？
+JP まだやってたのか？
+EN Huh, Yoshihara? You're still at it?
+
+@ 106.50
+# 吉原 泉
+JP ええ…。
+JP 最近、試合での関節技のかかりが
+JP 甘い気がして…。
+EN Yes... Lately I feel like my joint locks haven't been
+EN sinking in during matches...
+
+@ 106.54
+# 吉原 泉
+JP 少し鍛えようと思ったんですけど
+JP 相手がいなくって…。
+EN I wanted to work on them a bit, but I don't have a
+EN partner...
+
+@ 106.57
+# 社 長
+JP たしかに関節技の場合は
+JP 一人で練習するのは難しいだろうな。
+EN True, joint locks must be hard to practice on your
+EN own.
+
+@ 106.59
+# 社 長
+JP 俺でよければ、何か手伝おうか？
+EN If I'll do, can I help out somehow?
+
+@ 106.66
+# 吉原 泉
+JP 本当ですか。
+JP ありがとうございます。
+EN Really? Thank you so much.
+
+@ 106.69
+# 社 長
+JP いや、それくらい
+JP いつでも言ってくれよ。
+EN Hey, it's nothing. Just ask anytime.
+
+@ 106.71
+# 社 長
+JP （こうして俺は吉原の練習に
+JP 　付き合うことになったのだった）
+EN (And so I ended up helping Yoshihara with her
+EN training.)
+
+@ 106.98
+# 吉原 泉
+JP …社長！
+JP 社長っ！
+EN ...Boss! Boss!
+
+@ 106.101
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.120
+# 社 長
+JP （……あれ？）
+EN (......Huh?)
+
+@ 106.130
+# 吉原 泉
+JP ああ、よかった。
+JP 気がついてくれて。
+EN Oh, thank goodness. You came to.
+
+@ 106.133
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.135
+# 社 長
+JP うわっ！
+EN Whoa!
+
+@ 106.137
+# 社 長
+JP （な、なんで吉原の顔が
+JP 　こんなに近くに！？）
+EN (W-why is Yoshihara's face so close!?)
+
+@ 106.139
+# 社 長
+JP （しかもこの後頭部の柔らかい感触は
+JP 　……膝枕か！？）
+EN (And this soft feeling under the back of my head... Is
+EN this a lap pillow!?)
+
+@ 106.149
+# 吉原 泉
+JP すみません…。
+JP 喉に入ってたのに
+JP 気づくのが遅れてしまって…。
+EN I'm sorry... The hold was on your throat, and I didn't
+EN notice in time...
+
+@ 106.152
+# 社 長
+JP あっ…。
+JP いや、別に……。
+EN Ah... No, it's fine......
+
+@ 106.156
+# 吉原 泉
+JP 社長も苦しければ
+JP ギブアップしてくれれば
+JP よかったのに…。
+EN If it hurt, Boss, you should have just tapped out...
+
+@ 106.159
+# 社 長
+JP （つまり…俺は気絶してたのか？）
+EN (So... I passed out?)
+
+@ 106.161
+# 社 長
+JP （このくらいの役得があるなら
+JP 　それも悪くないか…）
+EN (If this is the reward, maybe that's not so bad...)
+
+@ 106.163
+# 社 長
+JP （それにしても柔らかいし
+JP 　いい匂いはするし…）
+EN (Besides, it's so soft, and she smells nice...)
+
+@ 106.165
+# 社 長
+JP （…まさか俺、本当はあの世に
+JP 　いるんじゃないだろうか…？）
+EN (...Wait, am I actually in the afterlife right now...?)
+
+@ 106.169
+# 吉原 泉
+JP あの…社長…？
+JP 大丈夫ですか？
+EN Um... Boss...? Are you all right?
+
+@ 106.172
+# 社 長
+JP （うーむ…不安になってきた）
+EN (Hmm... now I'm getting worried.)
+
+@ 106.174
+# 社 長
+JP （それに仕事の疲れで眠気が…）
+EN (And I'm so tired from work, I'm getting sleepy...)
+
+@ 106.176
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.186
+# 吉原 泉
+JP …社長？
+JP 社長っ！？
+EN ...Boss? Boss!?
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP ふぁああ～…。
+JP 昨日は徹夜だったし…。
+JP さすがに疲れたな…。
+EN Haaah... I pulled an all-nighter yesterday... I'm really
+EN beat...
+
+@ 107.26
+# 社 長
+JP （さて、あとは
+JP 　ここの見回りで終わりだな）
+EN (Well, I just have to check this place and I'm done.)
+
+@ 107.28
+# 社 長
+JP （んっ…電気が…？）
+EN (Hm... the lights are...?)
+
+@ 107.30
+# 社 長
+JP （まさか…？）
+EN (Could it be...?)
+
+@ 107.40
+# 吉原 泉
+JP あっ…社長…。
+EN Oh... Boss...
+
+@ 107.43
+# 社 長
+JP やっぱり吉原か。
+JP まだやっていたんだな。
+EN So it is you, Yoshihara. You're still at it.
+
+@ 107.50
+# 吉原 泉
+JP ええ…。
+JP やっぱりまだ試合での
+JP 関節技のかかりが甘くって…。
+EN Yes... My joint locks still aren't sinking in during
+EN matches...
+
+@ 107.54
+# 吉原 泉
+JP 練習しようにも相手がいなくて
+JP 途方にくれていたんですけど…。
+EN I want to practice, but I don't have a partner, so I
+EN was at a loss...
+
+@ 107.57
+# 社 長
+JP （安易に手伝うって言ったら
+JP 　また気絶しそうだけど…）
+EN (If I offer to help too easily, I'll probably pass out
+EN again...)
+
+@ 107.59
+# 社 長
+JP （困っている選手を
+JP 　放っておく訳にもな…）
+EN (But I can't just leave a wrestler in trouble...)
+
+@ 107.61
+# 社 長
+JP なあ、俺で良ければ
+JP 何か手伝おうか？
+EN Hey, if I'll do, can I help out somehow?
+
+@ 107.68
+# 吉原 泉
+JP 本当ですか？
+JP でも…この前の様なこともありますし…。
+EN Really? But... after what happened last time...
+
+@ 107.71
+# 社 長
+JP そう気にするな。
+JP いつでも言ってくれって言っただろ。
+EN Don't worry about it. I told you to ask anytime, didn't
+EN I?
+
+@ 107.78
+# 吉原 泉
+JP それならお願いできますか。
+EN Then, may I ask you?
+
+@ 107.81
+# 社 長
+JP （こうして俺は再び吉原の練習に
+JP 　付き合うことになったのだった）
+EN (And so I ended up helping Yoshihara with her
+EN training once again.)
+
+@ 107.108
+# 吉原 泉
+JP …社長！
+JP 社長っ！
+EN ...Boss! Boss!
+
+@ 107.111
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.130
+# 社 長
+JP うわっ！
+EN Whoa!
+
+@ 107.132
+# 社 長
+JP （吉原の顔がこんな近くに！）
+EN (Yoshihara's face is so close!)
+
+@ 107.134
+# 社 長
+JP （しかもこの後頭部の柔らかい感触は
+JP 　……やはり膝枕！）
+EN (And this soft feeling under the back of my head... A
+EN lap pillow again!)
+
+@ 107.144
+# 吉原 泉
+JP ああ、よかった。
+JP 気がついてくれて…。
+EN Oh, thank goodness. You came to...
+
+@ 107.147
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.149
+# 社 長
+JP （ようするに…。
+JP 　また気絶したのか）
+EN (In other words... I passed out again.)
+
+@ 107.159
+# 吉原 泉
+JP すみません…。
+JP またやってしまいました…。
+EN I'm sorry... I did it again...
+
+@ 107.163
+# 吉原 泉
+JP お詫びに社長が望むことを
+JP なんでもします。
+EN To make it up to you, I'll do anything you want, Boss.
+
+@ 107.167
+# 吉原 泉
+JP それで…その…。
+JP どうか許してください…。
+EN So... um... Please forgive me...
+
+@ 107.170
+# 社 長
+JP …なんでもいいのか？
+EN ...Anything at all?
+
+@ 107.180
+# 吉原 泉
+JP ……えっ…！？
+EN ......What...!?
+
+@ 107.190
+# 吉原 泉
+JP は、はい…。
+JP なんでもします。
+JP 社長の言われることなら…。
+EN Y-yes... I'll do anything. Whatever you tell me, Boss...
+
+@ 107.193
+# 社 長
+JP それじゃ…。
+EN In that case...
+
+@ 107.197
+# 吉原 泉
+JP はい…。
+EN Yes...
+
+@ 107.200
+# 社 長
+JP しばらく、このままに
+JP してもらっていいかな？
+EN Could we stay like this for a while?
+
+@ 107.210
+# 吉原 泉
+JP えっ…？
+EN ...Huh...?
+
+@ 107.213
+# 社 長
+JP このまま膝枕して欲しいんだけど…。
+JP いいかな？
+EN I'd like you to keep giving me this lap pillow... Is that
+EN okay?
+
+@ 107.223
+# 吉原 泉
+JP は、はい…。
+JP ずっと…膝枕してあげます…。
+EN Y-yes... I'll be your pillow... forever...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 吉原 泉
+JP 空手に固執したらダメだからね！
+JP いい？
+EN You can't cling to karate! Got it?
+
+@ 109.16
+# scene 113 練習開始
+# 吉原 泉
+JP 鍛練あるのみ、ですね！
+EN Training is all there is, right?
+
+@ 110.16
+# scene 114 練習開始 好意
+# 吉原 泉
+JP いい汗かきましょうか？
+EN Shall we work up a good sweat?
+
+@ 111.16
+# scene 115 特訓開始
+# 吉原 泉
+JP いいですよ。
+JP ガンガンいきましょう！
+EN Sure. Let's go all out!
+
+@ 112.20
+# scene 116 特訓成功
+# 吉原 泉
+JP かなりいい感じでしたね。
+EN That felt pretty good.
+
+@ 113.20
+# scene 117 特訓失敗
+# 吉原 泉
+JP …うぅ…。
+JP こんな結果になるなんて…。
+EN ...Ugh... I can't believe it turned out like this...
+
+@ 114.16
+# scene 118 休養
+# 吉原 泉
+JP お休みですか…。
+JP んー、何しようかな？
+EN A day off... Hmm, what should I do?
+
+@ 115.16
+# scene 119 入場1
+# 吉原 泉
+JP プロレスラーに生まれ変わった私を
+JP お見せします！
+EN I'll show you the new me, reborn as a pro wrestler!
+
+@ 116.16
+# scene 119 入場2
+# 吉原 泉
+JP 力を封じる技術というものを
+JP 見せてあげます！
+EN I'll show you the art of sealing away power!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# 吉原 泉
+JP 良きライバルこそ一番の友。
+EN A good rival is the best friend of all.
+
+@ 118.16
+# scene 125 必殺技１
+# 吉原 泉
+JP 関節の魔術、見せてあげます！
+EN Behold the magic of joint locks!
+
+@ 119.16
+# scene 125 必殺技２
+# 吉原 泉
+JP 悪く思わないでくださいね！
+EN Please don't hold this against me!
+
+@ 120.16
+# scene 125 必殺技３
+# 吉原 泉
+JP 逃がしません！
+EN You're not getting away!
+
+@ 121.12
+# scene 126 勝利1
+# 吉原 泉
+JP たとえ空手を封じても
+JP 負ける訳にはいきません。
+EN Even with my karate sealed away, I can't afford to
+EN lose.
+
+@ 122.12
+# scene 126 勝利2
+# 吉原 泉
+JP やはりレスラーとしては
+JP まだまだ未熟ですね…。
+EN As a wrestler, I'm still far from polished...
+
+@ 123.12
+# scene 126 勝利3
+# 吉原 泉
+JP 今日はちょっと
+JP がんばっちゃいました♪
+EN I went a little all out today♪
+
+@ 124.15
+# scene 133 表彰1
+# 吉原 泉
+JP レスラーとしての私を
+JP 評価していただいたこと
+JP 本当に感謝しています。
+EN I'm truly grateful to be recognized as a wrestler.
+
+@ 125.15
+# scene 133 表彰2
+# 吉原 泉
+JP 慢心することなく
+JP より高みを目指して励みます。
+EN I won't get complacent. I'll keep striving for greater
+EN heights.
+
+@ 126.12
+# scene 134 優勝1
+# 吉原 泉
+JP あきらめずに戦えば
+JP 必ず道は開けるんです！
+EN If you keep fighting without giving up, a path always
+EN opens!
+
+@ 127.12
+# scene 134 優勝２
+# 吉原 泉
+JP この喜びをファンのみんなと
+JP 分かち合いたいと思います。
+EN I want to share this joy with all the fans.
+
+@ 128.24
+# scene 135 エンディング 通常
+# 吉原 泉
+JP おめでとうございます！
+JP こんな強い団体にいられて
+JP 私、とっても幸せでした。
+EN Congratulations! I was so happy to be part of such a
+EN strong promotion.
+
+@ 129.24
+# scene 136 エンディング 好意
+# 吉原 泉
+JP 気づいているかもしれませんけど…。
+JP 私、社長のことが……。
+JP んー…やっぱり言えません…！
+EN You might have noticed already, but... Boss, I... I... Mm...
+EN No, I just can't say it...!

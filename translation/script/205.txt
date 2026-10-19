@@ -1,0 +1,100 @@
+# /SCR/205.BIN - シルバーフェンリル
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 205` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# シルバーフェンリル
+JP 百獣の王こそ、フェンリルだ！
+EN The king of beasts is Fenrir!
+
+@ 1.16
+# scene 119 入場1
+# シルバーフェンリル
+JP おまえの血で
+JP この血のたぎりを鎮めるぞ！
+EN Your blood will cool the boiling of my own!
+
+@ 2.16
+# scene 119 入場2
+# シルバーフェンリル
+JP おまえが泣き叫ぶ姿が
+JP 目に浮かぶぞ！
+EN I can already see you screaming and crying!
+
+@ 3.16
+# scene 120 タッグマッチ ベスト
+# シルバーフェンリル
+JP 協力して狩るぞ！
+EN We hunt as one!
+
+@ 4.16
+# scene 125 必殺技１
+# シルバーフェンリル
+JP お前の悲鳴を聞かせろーッ！
+EN Let me hear you scream!
+
+@ 5.16
+# scene 125 必殺技２
+# シルバーフェンリル
+JP 獣の恐ろしさを思い知れーッ！
+EN Learn the terror of the beast!
+
+@ 6.16
+# scene 125 必殺技３
+# シルバーフェンリル
+JP 食いちぎってやるぞ！
+EN I'll tear you to pieces!
+
+@ 7.12
+# scene 126 勝利1
+# シルバーフェンリル
+JP 獣の暴走は止められない！
+EN No one can stop the beast's rampage!
+
+@ 8.12
+# scene 126 勝利2
+# シルバーフェンリル
+JP 我らを繋ぎとめる鎖はない！
+EN No chain can hold us!
+
+@ 9.12
+# scene 126 勝利3
+# シルバーフェンリル
+JP 野生の恐ろしさがわかったか？
+EN Now do you understand the terror of the wild?
+
+@ 10.15
+# scene 133 表彰1
+# シルバーフェンリル
+JP 獣の本性を解放した
+JP 結果に過ぎないな。
+EN This is simply what happens when the beast within is
+EN unleashed.
+
+@ 11.15
+# scene 133 表彰2
+# シルバーフェンリル
+JP フェンリルという名を
+JP 心に刻み込むんだな！
+EN Better carve the name Fenrir into your heart!
+
+@ 12.12
+# scene 134 優勝1
+# シルバーフェンリル
+JP 頂上はやはり良いモノだぞ。
+JP アオーン！
+EN The summit feels good, as it should. Awooooo!
+
+@ 13.12
+# scene 134 優勝２
+# シルバーフェンリル
+JP マットに横たわるのは
+JP やはりおまえたちだったな！
+EN Just as I thought, you're the ones lying on the mat!

@@ -1,0 +1,9 @@
+{
+ "english": "Wrestlers",
+ "boxes": [[29, 5, 65, 23]],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "status.draw",
+ "fill": "bright", "ground": "interpolate", "reach": 2.5, "cap": 13,
+ "patches": [[29, 5, 65, 23, "heal", [8, 23], 222]],
+ "notes": "coach status, wrestlers panel (status batch): 担当選手 Wrestlers"
+}

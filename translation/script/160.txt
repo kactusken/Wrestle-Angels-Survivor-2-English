@@ -1,0 +1,2314 @@
+# /SCR/160.BIN - セイレーン千春
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 160` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# セイレーン千春
+JP せっかく来てやったのに
+JP まさか雇わない気か？
+EN I went to all the trouble of comin' here, and you ain't
+EN gonna hire me?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# セイレーン千春
+JP まあそうだよな。
+JP 私みたいなかわいい子を
+JP 雇えて幸せだろ？
+EN Yeah, figured. Lucky you, gettin' to hire a cutie like
+EN me, huh?
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# セイレーン千春
+JP ふざけやがって！
+JP 交通費出しやがれ！
+EN The hell is this!? Pay my train fare, then!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here somewhere.
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「ヒールとしての資質は十分」と
+JP あるが…。
+EN The scouting report says she "has plenty of
+EN potential as a heel"...
+
+@ 3.27
+# 社 長
+JP どんな子だろう…。
+EN I wonder what kind of girl she is...
+
+@ 3.44
+# 社 長
+JP うわっ！
+EN Whoa!
+
+@ 3.53
+# ？？？
+JP なんだ、テメェ！
+JP どこ見て歩いてンだ…ったく！
+EN The hell, you!? Watch where you're walkin'... geez!
+
+@ 3.56
+# 社 長
+JP ああ、どうもすみません。
+EN Ah, I'm very sorry.
+
+@ 3.60
+# ？？？
+JP ゴタクはいいから
+JP とっとと出せよ。
+EN Cut the crap and pay up already.
+
+@ 3.63
+# 社 長
+JP …えっ？
+JP 何の話ですか？
+EN ...Huh? What are you talking about?
+
+@ 3.67
+# ？？？
+JP 治療費だよ、治療費。
+JP 今ので首折れちまったぜ。
+JP おお、痛ぇ。
+EN Medical bills, pal, medical bills. You just broke my
+EN neck. Ow, ow, it hurts.
+
+@ 3.70
+# 社 長
+JP （なんだ、このガラの悪い子は…）
+EN (What a thuggish girl...)
+
+@ 3.72
+# 社 長
+JP （あっ！
+JP 　もしかして資料の…）
+EN (Oh! Could she be the one in the report...?)
+
+@ 3.76
+# セイレーン千春
+JP 何チンタラしてんだよ。
+JP ケガしてぇのか！
+JP あぁ？
+EN Whatcha dawdlin' for? You lookin' to get hurt!? Huh?
+
+@ 3.79
+# 社 長
+JP あの、実は私、プロレスの団体を
+JP 経営している者なんですが…。
+EN Um, actually, I run a pro wrestling promotion...
+
+@ 3.83
+# セイレーン千春
+JP プロレスだぁ？
+EN Pro wrestling?
+
+@ 3.86
+# 社 長
+JP （俺は事情を話して
+JP 　入団してくれるよう頼んでみた）
+EN (I explained the situation and asked her to join.)
+
+@ 3.93
+# セイレーン千春
+JP ふーん…。
+JP 社長さんとはねぇ…。
+EN Huh... A company president, eh...
+
+@ 3.96
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 3.103
+# セイレーン千春
+JP こいつはいい金ヅルが
+JP 見つかったってヤツか？
+EN Guess I just found myself a nice cash cow, huh?
+
+@ 3.106
+# 社 長
+JP （いちおう乗り気…なのかな）
+EN (She seems... interested, sort of.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# セイレーン千春
+JP わかったよ。
+JP やってやろうじゃないか。
+EN Fine. I'll do it.
+
+@ 4.22
+# 社 長
+JP では、入団してくれるんですか？
+EN Then you'll join us?
+
+@ 4.29
+# セイレーン千春
+JP ああ。
+JP とりあえずマンションと送迎車
+JP よろしく頼むぜ。
+EN Yeah. For starters, I'll be needin' an apartment and a
+EN car with a driver.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# セイレーン千春
+JP やっぱヤメだ。
+JP 殴られたり、蹴られたり
+JP 割に合わねぇからな。
+EN Nah, forget it. Gettin' punched and kicked ain't
+EN worth it.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です。
+EN I see... That's a shame.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしか
+JP このあたりだったはずだが…。
+EN Let's see, it should have been around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# セイレーン千春
+JP 誰だ、おまえ？
+EN Who the hell are you?
+
+@ 6.38
+# 社 長
+JP （完璧に忘れてるよ）
+EN (She's completely forgotten me.)
+
+@ 6.40
+# 社 長
+JP あの、私はプロレス団体の
+JP 経営をしていまして…。
+EN Um, I run a pro wrestling promotion...
+
+@ 6.47
+# セイレーン千春
+JP へぇ、社長さんとはねぇ。
+JP 私をスカウトに来た訳か？
+EN Huh, a company president, eh? So you came to scout
+EN me?
+
+@ 6.50
+# 社 長
+JP はい、どうかお願いします。
+EN Yes, please, I'm asking you.
+
+@ 6.52
+# 社 長
+JP （前よりは反応がいいような
+JP 　気がするけど…）
+EN (She seems to be reacting better than last time...)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# セイレーン千春
+JP わかったよ。
+JP やってやろうじゃないか。
+EN Fine. I'll do it.
+
+@ 7.22
+# 社 長
+JP では、入団してくれるんですか？
+EN Then you'll join us?
+
+@ 7.29
+# セイレーン千春
+JP ああ。
+JP とりあえずマンションと送迎車
+JP よろしく頼むぜ。
+EN Yeah. For starters, I'll be needin' an apartment and a
+EN car with a driver.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# セイレーン千春
+JP やっぱヤメだ。
+JP 殴られたり、蹴られたり
+JP 割に合わねぇからな。
+EN Nah, forget it. Gettin' punched and kicked ain't
+EN worth it.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です。
+EN I see... That's a shame.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は千春選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Chiharu.
+
+@ 9.25
+# 社 長
+JP 素行の悪さで有名だが
+JP それもうちの選手にはない魅力だ。
+EN She's famous for bad behavior, but that's an appeal
+EN none of our wrestlers have.
+
+@ 9.27
+# 社 長
+JP 団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joins us, our shows will be livelier than ever.
+EN No doubt about it.
+
+@ 9.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she hangs around here...
+
+@ 9.31
+# 社 長
+JP ああ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# セイレーン千春
+JP なんだよ？
+EN Whaddaya want?
+
+@ 9.46
+# 社 長
+JP （噂に違わないガラの悪さだな）
+EN (She's every bit the thug the rumors say...)
+
+@ 9.48
+# 社 長
+JP 実はですね…。
+EN Well, the thing is...
+
+@ 9.50
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.57
+# セイレーン千春
+JP ほーう。
+JP つまり移籍しろってんだな。
+EN Heh. So you want me to switch promotions.
+
+@ 9.60
+# 社 長
+JP はい、どうでしょうか？
+EN Yes. What do you say?
+
+@ 9.64
+# セイレーン千春
+JP まあ、待遇次第だなぁ…。
+EN Well, depends what you're offerin'...
+
+@ 9.67
+# 社 長
+JP （結構乗り気みたいだな）
+EN (She seems pretty interested.)
+
+@ 9.70
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 9.72
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (And so I laid out my terms.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# セイレーン千春
+JP いいぜ。
+JP 移籍してやるよ。
+EN Sure. I'll switch.
+
+@ 10.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 10.29
+# セイレーン千春
+JP とりあえず、契約金は
+JP 今ンとこの倍な。
+JP 頼んだぜ。
+EN For starters, my signing bonus is double what I get
+EN now. Don't forget.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# セイレーン千春
+JP いや、まだ早ぇな。
+JP もっと今ンとこで搾り取ってからだ。
+EN Nah, too soon. Gotta squeeze my current place dry
+EN first.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 千春選手が必要だ。
+EN Our promotion really does need Chiharu.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 千春選手と交渉することにした。
+EN I decided to negotiate with Chiharu one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# セイレーン千春
+JP 誰だよ、おまえ？
+JP 勧誘ならいらねぇぜ。
+EN Who the hell are you? I ain't buyin' anything.
+
+@ 12.40
+# 社 長
+JP （完璧に忘れてるらしい）
+EN (Apparently she's completely forgotten me.)
+
+@ 12.42
+# 社 長
+JP 実は、どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Actually, I really want you to join our promotion...
+
+@ 12.49
+# セイレーン千春
+JP ほう。
+JP …つまり、ヘッドハンティングに
+JP 来た訳だな。
+EN Heh. ...So you came headhuntin', huh.
+
+@ 12.52
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 12.59
+# セイレーン千春
+JP そろそろ今ンとこにいるのも
+JP ヤバくなってきたしな…。
+EN Things are gettin' kinda dicey for me at my current
+EN place anyway...
+
+@ 12.62
+# 社 長
+JP （前よりはいけそうな感じか？）
+EN (Maybe it'll work out better than last time?)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# セイレーン千春
+JP いいぜ。
+JP 移籍してやるよ。
+EN Sure. I'll switch.
+
+@ 13.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 13.29
+# セイレーン千春
+JP とりあえず、契約金は
+JP 今ンとこの倍な。
+JP 頼んだぜ。
+EN For starters, my signing bonus is double what I get
+EN now. Don't forget.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# セイレーン千春
+JP いや、まだ早ぇな。
+JP もっと今ンとこで搾り取ってからだ。
+EN Nah, too soon. Gotta squeeze my current place dry
+EN first.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は千春選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Chiharu.
+
+@ 15.25
+# 社 長
+JP 何かと評判は悪いが
+JP あのヒールっぷりには
+JP 固定ファンも多いと聞く。
+EN Her reputation is bad all around, but I hear her heel
+EN act has plenty of loyal fans.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joins us, our shows will be livelier than ever.
+EN No doubt about it.
+
+@ 15.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she hangs around here...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# セイレーン千春
+JP なんだよ。
+JP 人がのんびりしてんのが
+JP わかンねぇのか？
+EN Whaddaya want? Can't ya see I'm relaxin' here?
+
+@ 15.46
+# 社 長
+JP （噂通りのガラの悪さだな）
+EN (She's every bit the thug the rumors say...)
+
+@ 15.48
+# 社 長
+JP あの、実はですね…。
+EN Um, well, the thing is...
+
+@ 15.50
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and made her an offer.)
+
+@ 15.57
+# セイレーン千春
+JP ほう。
+JP ようするに入団しろってんだな。
+EN Heh. So basically you want me to join.
+
+@ 15.60
+# 社 長
+JP はい。
+JP どうでしょうか？
+EN Yes. What do you say?
+
+@ 15.67
+# セイレーン千春
+JP まあ、条件次第で考えてもいいがな。
+JP 言っとくけど私は高いよ。
+EN Well, I might consider it, dependin' on the terms. Just
+EN so ya know, I don't come cheap.
+
+@ 15.70
+# 社 長
+JP 是非お願いします！
+EN Please, I'm asking you!
+
+@ 15.77
+# セイレーン千春
+JP ずいぶん熱心じゃないか。
+JP そんなに選手がいないのかい？
+EN Pretty eager, ain'tcha? You really that short on
+EN wrestlers?
+
+@ 15.80
+# 社 長
+JP （結構乗り気に見えるが…？）
+EN (She looks fairly interested...?)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# セイレーン千春
+JP わかった。
+JP 入団してやるよ。
+EN Fine. I'll join.
+
+@ 16.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 16.26
+# セイレーン千春
+JP 礼はいいから。
+JP じゃ、さっさと歓迎パーティを
+JP やってくれよ。
+EN Skip the thanks. Just hurry up and throw me a
+EN welcome party.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# セイレーン千春
+JP いや、ヤメだ。
+JP 一人の方が勝手できるしな。
+EN Nah, forget it. I can do whatever I want on my own.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 千春選手が必要だ。
+EN Our promotion really does need Chiharu.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 千春選手と交渉することにした。
+EN I decided to negotiate with Chiharu one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# セイレーン千春
+JP どっかで見た顔だな。
+JP …誰だっけ？
+EN I've seen that face somewhere... Who're you again?
+
+@ 18.40
+# 社 長
+JP 私はプロレスの団体を
+JP 経営していまして…。
+EN I run a pro wrestling promotion...
+
+@ 18.47
+# セイレーン千春
+JP ああ、いつかの社長か。
+JP つまり、ヘッドハンティングって訳か？
+EN Oh, that president from before. So it's headhuntin',
+EN huh?
+
+@ 18.50
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 18.57
+# セイレーン千春
+JP ちょうど身を隠せる場所が
+JP 欲しかったンだが…。
+EN I was lookin' for a place to lay low for a while, but...
+
+@ 18.60
+# 社 長
+JP （何の話だ？）
+EN (What is she talking about?)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# セイレーン千春
+JP わかった。
+JP 入団してやるよ。
+EN Fine. I'll join.
+
+@ 19.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 19.26
+# セイレーン千春
+JP 礼はいいから。
+JP じゃ、さっさと歓迎パーティを
+JP やってくれよ。
+EN Skip the thanks. Just hurry up and throw me a
+EN welcome party.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# セイレーン千春
+JP いや、ヤメだ。
+JP 一人の方が勝手できるしな。
+EN Nah, forget it. I can do whatever I want on my own.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は千春を訪ねることにした。
+EN I decided to go see Chiharu.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she was around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 千春っ！
+EN Chiharu!
+
+@ 21.41
+# セイレーン千春
+JP …ケッ。
+EN ...Tch.
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# セイレーン千春
+JP …まだ生きてやがったのかよ。
+EN ...So you're still alive, huh.
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you because I want
+EN you back.
+
+@ 21.58
+# セイレーン千春
+JP お断りだ。
+EN No way.
+
+@ 21.61
+# 社 長
+JP たしかにこんなことを頼めた
+JP 義理じゃないのはわかっているが…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.63
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# セイレーン千春
+JP 勝手すぎるぜ。
+JP いったい何を考えてンだよ。
+EN You got some nerve. What the hell are you thinkin'?
+
+@ 22.18
+# 社 長
+JP あのときのことは謝る。
+JP 力を貸して欲しいんだ。
+EN I apologize for what happened back then. I need your
+EN help.
+
+@ 22.29
+# セイレーン千春
+JP …ったく、人の心を弄びやがって…。
+JP もう一回だけだぞ。
+EN ...Geez, playin' with people's feelings like that... Just
+EN one more time, got it?
+
+@ 22.32
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# セイレーン千春
+JP 帰れよ。
+EN Get lost.
+
+@ 23.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that. Please, come back.
+
+@ 23.29
+# セイレーン千春
+JP もううんざりなんだよ。
+JP あのときの私の気持ち
+JP 考えたことあんのか？
+EN I'm sick of this. You ever think about how I felt back
+EN then?
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった、悪かったな。
+EN I see... All right. I'm sorry.
+
+@ 23.34
+# 社 長
+JP （身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び千春を訪ねることにした。
+EN I decided to go see Chiharu again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 千春っ！
+EN Chiharu!
+
+@ 24.37
+# セイレーン千春
+JP ウゼェ…。
+EN Ugh, you again...
+
+@ 24.40
+# 社 長
+JP すまない。
+JP もう一度話を聞いてくれ。
+EN Sorry. Please hear me out one more time.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you back in the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# セイレーン千春
+JP 勝手すぎるぜ。
+JP いったい何を考えてンだよ。
+EN You got some nerve. What the hell are you thinkin'?
+
+@ 25.18
+# 社 長
+JP あのときのことは謝る。
+JP 力を貸して欲しいんだ。
+EN I apologize for what happened back then. I need your
+EN help.
+
+@ 25.29
+# セイレーン千春
+JP …ったく、人の心を弄びやがって…。
+JP もう一回だけだぞ。
+EN ...Geez, playin' with people's feelings like that... Just
+EN one more time, got it?
+
+@ 25.32
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# セイレーン千春
+JP 帰れよ。
+EN Get lost.
+
+@ 26.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that. Please, come back.
+
+@ 26.29
+# セイレーン千春
+JP もううんざりなんだよ。
+JP あのときの私の気持ち
+JP 考えたことあんのか？
+EN I'm sick of this. You ever think about how I felt back
+EN then?
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった、悪かったな。
+EN I see... All right. I'm sorry.
+
+@ 26.34
+# 社 長
+JP （身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# セイレーン千春
+JP マジヤバイぜ、このケガ。
+EN This injury's seriously bad news.
+
+@ 28.16
+# scene 029 ケガ大
+# セイレーン千春
+JP この痛み
+JP １００倍にして返してやるぜ！
+EN I'm payin' this pain back a hundredfold!
+
+@ 29.16
+# scene 030 入院
+# セイレーン千春
+JP 個室で頼むぜ。
+JP 世話係は２名でいいや。
+EN Private room, please. Two attendants'll do.
+
+@ 30.16
+# scene 031 退院
+# セイレーン千春
+JP チッ…。
+JP サービスの悪い病院だったぜ。
+EN Tch... Lousy service at that hospital.
+
+@ 31.16
+# scene 032 ケガ完治
+# セイレーン千春
+JP まあ、どうにかなったな。
+JP 私がいなくて寂しかったろ？
+EN Well, I pulled through. Bet you were lonely without me,
+EN huh?
+
+@ 32.20
+# scene 033 引退勧告 成功
+# セイレーン千春
+JP そうだな。
+JP こんな割に合わねぇ商売
+JP 辞めちまうか。
+EN Yeah. Maybe I'll quit this lousy, thankless racket.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# セイレーン千春
+JP 追い出そうたってそうはいかないぜ！
+JP 徹底的に居座ってやるからな！
+EN You ain't kickin' me out that easy! I'm stayin' put no
+EN matter what!
+
+@ 34.16
+# scene 035 コーチ就任
+# セイレーン千春
+JP クックック…。
+JP ぶっ壊れるまでしごいてやるぜ。
+EN Kukuku... I'll work 'em till they break.
+
+@ 35.16
+# scene 036 ケガ引退
+# セイレーン千春
+JP かああっ！
+JP やってられるか。
+JP もうヤメだ、ヤメ！
+EN Gaaah! To hell with this. I quit, I'm done!
+
+@ 36.16
+# scene 037 年齢引退
+# セイレーン千春
+JP そろそろいいだろ。
+JP お礼参りを楽しみにしてな。
+EN I've had enough. Look forward to me comin' back to
+EN settle scores.
+
+@ 37.16
+# scene 038 退団
+# セイレーン千春
+JP もっと待遇のいいとこ
+JP 見つけたんでな。
+EN Found myself a place with better treatment.
+
+@ 38.16
+# scene 039 スランプ
+# セイレーン千春
+JP なんだかつまんねぇなあ！
+EN Man, everything's so boring!
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# セイレーン千春
+JP ファンクラブだあ？
+EN A fan club?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# セイレーン千春
+JP いい金ヅルができたぜ…。
+JP クックック…。
+EN Now I've got a nice cash cow... Kukuku...
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# セイレーン千春
+JP ファンクラブ？
+JP へぇ、さすが私だね。
+EN A fan club? Heh, that's me for ya.
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# セイレーン千春
+JP 社長こそ、がっぽり金を
+JP 巻き上げる手を考えてくれよ。
+EN You too, Boss. Think up ways to squeeze 'em for
+EN every penny.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# セイレーン千春
+JP 解散だあ？
+JP …生意気抜かしやがって！
+EN It broke up!? ...The nerve of those punks!
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+EN Well, these things happen.
+
+@ 41.26
+# セイレーン千春
+JP 許せねぇなあ。
+JP …そうだ、名簿貸してくれねぇか？
+EN I ain't lettin' this go. ...Hey, can I borrow the member
+EN list?
+
+@ 41.29
+# 社 長
+JP ダメだ、絶対ダメ！
+EN No. Absolutely not!
+
+@ 41.31
+# 社 長
+JP （何をやらかすか
+JP 　わかったものじゃないからな）
+EN (Who knows what she'd do with it.)
+
+@ 42.16
+# scene 043 映画出演
+# セイレーン千春
+JP ギャラが低けりゃ、やらねぇぜ。
+EN If the pay's lousy, I ain't doin' it.
+
+@ 43.16
+# scene 044 一日署長
+# セイレーン千春
+JP 警官に命令できるのか？
+JP クックック…。
+JP そいつはたまんねぇな。
+EN I get to boss cops around? Kukuku... Now that's
+EN sweet.
+
+@ 44.16
+# scene 045 写真集発売
+# セイレーン千春
+JP いやらしい男どもに
+JP 私の肢体をさらせってのか？
+EN You want me to put my body on display for a bunch of
+EN creeps?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# セイレーン千春
+JP 私のギャラの取り分は
+JP ７０パーセントでいいからな。
+EN I'll take seventy percent of the fee. That's fair.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# セイレーン千春
+JP 歌なんて金になんのか？
+EN Is there even money in singin'?
+
+@ 47.16
+# scene 048 始球式
+# セイレーン千春
+JP バッターにぶち当ててやるよ！
+EN I'm gonna bean the batter!
+
+@ 48.16
+# scene 049 学園祭
+# セイレーン千春
+JP そいつは楽しみだな。
+JP 思う存分、盛り上げてやるぜ。
+JP クックック…。
+EN Sounds fun. I'll liven things up plenty. Kukuku...
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# セイレーン千春
+JP …な、なんだよ、突然。
+EN ...Wh-what's this all of a sudden?
+
+@ 49.39
+# 社 長
+JP いらないなら
+JP 別にいいんだが…。
+EN If you don't want it, that's fine...
+
+@ 49.46
+# セイレーン千春
+JP 誰もそんなこと言ってねぇだろ。
+JP …と、突然だから驚いただけだ。
+EN Nobody said that! ...I-it was just sudden, that's all.
+EN Surprised me.
+
+@ 50.30
+# scene 051 バレンタインデー
+# セイレーン千春
+JP 社長、はいよ。
+EN Boss, here.
+
+@ 50.33
+# 社 長
+JP なんだ、これ？
+EN What's this?
+
+@ 50.40
+# セイレーン千春
+JP …な、何って
+JP 今日バレンタインだろうが…。
+JP いいから、取っておけよ。
+EN ...Wh-what's it look like? It's Valentine's Day, ain't it...
+EN Just take it already.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.35
+# セイレーン千春
+JP そ、そんなんで機嫌取ろうとしたって
+JP 無駄だからな。
+EN D-don't think you can butter me up with somethin'
+EN like this.
+
+@ 51.38
+# 社 長
+JP そんなつもりはないよ。
+JP 練習の合間にでも食べてくれ。
+EN That's not what I'm trying to do. Have it between
+EN training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# セイレーン千春
+JP １枚いくらで買うんだ？
+EN How much are ya payin' per autograph?
+
+@ 53.29
+# scene 054 コンサート
+# セイレーン千春
+JP いてぇっ！
+JP どこのどいつだ！
+JP ビンなんか投げやがって！
+EN Ow! Who the hell was that!? Throwin' bottles at me!
+
+@ 54.28
+# scene 055 練習拒否
+# セイレーン千春
+JP あーあ、つまらねぇ。
+JP 今日は休みだ、休み。
+EN Ugh, so boring. I'm takin' the day off.
+
+@ 55.28
+# scene 056 失踪
+# セイレーン千春
+JP 追ってきたら後悔するぜ。
+EN Come after me and you'll regret it.
+
+@ 56.16
+# scene 057 選手解雇
+# セイレーン千春
+JP なんだと！
+JP 私のどこが悪かったってんだよ！
+EN What!? What the hell did I do wrong!?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# セイレーン千春
+JP こんな金があるなら、
+JP 私にくれりゃいいだろうが…。
+EN If you got money for this, you could just give it to
+EN me...
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# セイレーン千春
+JP あーあ…。
+JP 無駄な時間を過ごしちまったぜ。
+EN Ugh... What a waste of time.
+
+@ 59.26
+# scene 060 移籍思案
+# セイレーン千春
+JP 引き留めないと
+JP よそへ行っちまうぜ。
+EN If you don't stop me, I'm gonna walk.
+
+@ 60.16
+# scene 061 革命軍結成
+# セイレーン千春
+JP クックック…。
+JP 私の力を見せてやるよ。
+EN Kukuku... I'll show 'em what I can do.
+
+@ 61.16
+# scene 062 反乱軍結成
+# セイレーン千春
+JP ぶちのめしてやるから
+JP 覚悟しとくんだな。
+EN I'm gonna beat 'em to a pulp, so they better brace
+EN themselves.
+
+@ 62.16
+# scene 063 最終決戦要求
+# セイレーン千春
+JP 決着をつけようじゃないか！
+EN Let's settle this once and for all!
+
+@ 63.16
+# scene 065 遺恨発生
+# セイレーン千春
+JP …やってくれたぜ。
+JP 覚えてろよ。
+EN ...You got me. I won't forget this.
+
+@ 64.16
+# scene 065 殴り込み
+# セイレーン千春
+JP こいつは特別ボーナスを
+JP もらうからな。
+EN I'm gettin' a special bonus for this, got it?
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# セイレーン千春
+JP ザコがいきがりやがって！
+EN Small fry actin' tough!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# セイレーン千春
+JP 私に勝てるヤツなんて
+JP いるのかい？
+EN Is there anybody who can beat me?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# セイレーン千春
+JP 思う存分、痛めつけてやるぜ。
+EN I'll make 'em hurt all I want.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# セイレーン千春
+JP どいつもこいつも弱すぎだな。
+EN Every last one of 'em was way too weak.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# セイレーン千春
+JP さてと、帰って寝るか…。
+EN Well then, guess I'll go home and sleep...
+
+@ 70.13
+# scene 071 引退式
+# セイレーン千春
+JP 私の美貌も見納めだな。
+JP まぶたに焼きつけておけよ。
+EN Last chance to look at this gorgeous face. Burn it
+EN into your memory.
+
+@ 71.17
+# セイレーン千春
+JP なんだよ？
+EN Whaddaya want?
+
+@ 71.36
+# セイレーン千春
+JP 何か用か？
+EN You need somethin'?
+
+@ 71.46
+# セイレーン千春
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been doing well lately. Keep it up!
+
+@ 71.89
+# セイレーン千春
+JP 任せときな。
+JP …おっと、ボーナス
+JP たっぷり用意しとけよ。
+EN Leave it to me. ...Oh, and have a nice fat bonus ready.
+
+@ 71.110
+# セイレーン千春
+JP 何おだててんだよ。
+JP 気色悪ぃ。
+EN What's with the flattery? Creepy.
+
+@ 71.131
+# セイレーン千春
+JP この程度で、いちいち誉めんなよ。
+JP …照れるだろうが。
+EN Don't praise me over every little thing. ...It's
+EN embarrassin'.
+
+@ 71.152
+# セイレーン千春
+JP くだらない世辞は聞きたくないぜ。
+EN I don't wanna hear cheap compliments.
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# セイレーン千春
+JP チッ…。
+JP わかったよ。
+JP これから取り返してやるぜ。
+EN Tch... Fine. I'll make up for it from here on.
+
+@ 71.210
+# セイレーン千春
+JP ああ、そーだよ。
+JP なんか文句あンのか？
+EN Yeah, so what? Got a problem with that?
+
+@ 71.231
+# セイレーン千春
+JP …意外とキツいんだな。
+JP 驚いたぜ。
+EN ...You're tougher than I thought. Surprised me.
+
+@ 71.252
+# セイレーン千春
+JP …うるせぇな。
+JP 調子に乗んじゃねぇ！
+EN ...Shut up. Don't get cocky!
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 71.289
+# セイレーン千春
+JP …なんだよ…。
+JP ガラにもなく優しいこと
+JP 言いやがって。
+EN ...What's this... Sayin' somethin' nice, of all things.
+
+@ 71.310
+# セイレーン千春
+JP 優しい顔すれば
+JP なびくとでも思ったのか。
+EN You think puttin' on a kind face'll win me over?
+
+@ 71.331
+# セイレーン千春
+JP …そんな風に見えたのかよ。
+JP 別に平気だけどな。
+EN ...Did I look like that? I'm fine, though.
+
+@ 71.352
+# セイレーン千春
+JP …今はちょっとな。
+JP 悪ぃ、一人にしといてくれるか。
+EN ...Not right now. Sorry, could ya leave me alone?
+
+@ 71.366
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# セイレーン千春
+JP …ああ。
+EN ...Yeah.
+
+@ 71.399
+# セイレーン千春
+JP 何の話だ、いったい？
+EN What the hell's this about?
+
+@ 71.409
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.431
+# セイレーン千春
+JP まあ、いいだろ。
+JP もともと、どうってこと
+JP なかったからな。
+EN Eh, fine. It was never a big deal to begin with.
+
+@ 71.452
+# セイレーン千春
+JP なんで私が頭を下げなきゃ
+JP ならないんだ？
+EN Why should I be the one to bow my head?
+
+@ 71.473
+# セイレーン千春
+JP だから、何の話をしてるのか
+JP わからねぇって。
+EN Like I said, I got no idea what you're talkin' about.
+
+@ 71.486
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.503
+# セイレーン千春
+JP まあ…な。
+EN Kinda... yeah.
+
+@ 71.520
+# セイレーン千春
+JP 照れるなって。
+JP 私に会いたくなったんだろ？
+EN Don't be shy. You wanted to see me, right?
+
+@ 71.533
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.555
+# セイレーン千春
+JP しゃーねぇな。
+JP 社長の頼みだ。
+JP わかったよ。
+EN Can't be helped. It's you askin', Boss. Fine.
+
+@ 71.576
+# セイレーン千春
+JP 社長の頼みでも
+JP 無理なモンは無理だね。
+EN Even if you're askin', Boss, what's impossible is
+EN impossible.
+
+@ 71.597
+# セイレーン千春
+JP 寝ぼけてんのか
+JP 知らねぇって。
+EN You half asleep or somethin'? I got no idea.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# セイレーン千春
+JP 何か用か？
+EN You need somethin'?
+
+@ 72.16
+# セイレーン千春
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been doing well lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# セイレーン千春
+JP 任せときな。
+JP …おっと、ボーナス、
+JP たっぷり用意しとけよ。
+EN Leave it to me. ...Oh, and have a nice fat bonus ready.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# セイレーン千春
+JP 何おだててんだよ。
+JP 気色悪ぃ。
+EN What's with the flattery? Creepy.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# セイレーン千春
+JP この程度で、いちいち誉めんなよ。
+JP …照れるだろうが。
+EN Don't praise me over every little thing. ...It's
+EN embarrassin'.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# セイレーン千春
+JP くだらない世辞は聞きたくないぜ。
+EN I don't wanna hear cheap compliments.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# セイレーン千春
+JP チッ…。
+JP わかったよ。
+JP これから取り返してやるぜ。
+EN Tch... Fine. I'll make up for it from here on.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# セイレーン千春
+JP ああ、そーだよ。
+JP なんか文句あンのか？
+EN Yeah, so what? Got a problem with that?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# セイレーン千春
+JP …意外とキツいんだな。
+JP 驚いたぜ。
+EN ...You're tougher than I thought. Surprised me.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# セイレーン千春
+JP …うるせぇな、
+JP 調子に乗んじゃねぇ！
+EN ...Shut up. Don't get cocky!
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# セイレーン千春
+JP …なんだよ…。
+JP ガラにもなく優しいこと
+JP 言いやがって。
+EN ...What's this... Sayin' somethin' nice, of all things.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# セイレーン千春
+JP 優しい顔すれば、
+JP なびくとでも思ったのか。
+EN You think puttin' on a kind face'll win me over?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# セイレーン千春
+JP …そんな風に見えたのかよ。
+JP 別に平気だけどな。
+EN ...Did I look like that? I'm fine, though.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# セイレーン千春
+JP …今はちょっとな。
+JP 悪ぃ、ひとりにしといてくれるか。
+EN ...Not right now. Sorry, could ya leave me alone?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# セイレーン千春
+JP …ああ。
+EN ...Yeah.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# セイレーン千春
+JP 何の話だ、いったい？
+EN What the hell's this about?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# セイレーン千春
+JP まあ、いいだろ。
+JP もともと、どうってこと
+JP なかったからな。
+EN Eh, fine. It was never a big deal to begin with.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# セイレーン千春
+JP なんで私が頭を下げなきゃ
+JP ならないんだ？
+EN Why should I be the one to bow my head?
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# セイレーン千春
+JP だから、
+JP 何の話をしてるのか
+JP わからねぇって。
+EN Like I said, I got no idea what you're talkin' about.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# セイレーン千春
+JP まあ…な。
+EN Kinda... yeah.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# セイレーン千春
+JP 照れるなって。
+JP 私に会いたくなったんだろ？
+EN Don't be shy. You wanted to see me, right?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# セイレーン千春
+JP しゃーねぇな。
+JP 社長の頼みだ、
+JP わかったよ。
+EN Can't be helped. It's you askin', Boss. Fine.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# セイレーン千春
+JP 社長の頼みでも
+JP 無理なモンは無理だね。
+EN Even if you're askin', Boss, what's impossible is
+EN impossible.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# セイレーン千春
+JP 寝ぼけてんのか、
+JP 知らねぇって。
+EN You half asleep or somethin'? I got no idea.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# セイレーン千春
+JP まあ、我慢してやるか。
+EN Eh, guess I'll put up with it.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# セイレーン千春
+JP まあ、勘弁してやるか。
+EN Eh, guess I'll let you off the hook.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# セイレーン千春
+JP この程度かよ。
+JP ふざけやがって！
+EN That's it? Are you kiddin' me!?
+
+@ 105.30
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Hmm, the tropics sure are something. The sun is
+EN scorching.)
+
+@ 105.32
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.38
+# 社 長
+JP （俺はもう少し
+JP 　ゆっくりとここで休んで…）
+EN (I think I'll rest here a little longer...)
+
+@ 105.40
+# 社 長
+JP うおっ！？
+JP そこにいるのは千春か！？
+EN Whoa!? Is that you, Chiharu!?
+
+@ 105.56
+# セイレーン千春
+JP よう、社長。
+JP 楽しませてもらってるぜ。
+EN Yo, Boss. I'm havin' a great time.
+
+@ 105.59
+# 社 長
+JP なんだ、これ！？
+JP どうしたんだ！？
+EN What is all this!? What's going on!?
+
+@ 105.63
+# セイレーン千春
+JP うるせぇな。
+JP 決まってんだろう？
+EN Quit yappin'. Ain't it obvious?
+
+@ 105.67
+# セイレーン千春
+JP 頼んだんだよ、団体のツケで。
+EN I ordered it. On the company's tab.
+
+@ 105.70
+# 社 長
+JP だ、団体のツケって…。
+EN Th-the company's tab...
+
+@ 105.74
+# セイレーン千春
+JP これくらいケチケチするなよ。
+EN Don't be so stingy about a little thing like this.
+
+@ 105.77
+# 社 長
+JP お前なぁ…。
+EN You know...
+
+@ 105.81
+# セイレーン千春
+JP バカンスだろう？
+JP ケチケチしてたら男がすたるぜ。
+EN It's a vacation, right? A real man don't pinch
+EN pennies.
+
+@ 105.84
+# 社 長
+JP そんな言い分が通じるとでも…。
+EN You think that excuse is going to fly...
+
+@ 105.88
+# セイレーン千春
+JP 頼んじまったもんは
+JP しょうがねぇよなぁ？
+EN Well, it's already ordered. Nothin' to be done, right?
+
+@ 105.91
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.95
+# セイレーン千春
+JP おい、オヤジ。
+JP トロピカルドリンク追加！
+EN Hey, pops! Another tropical drink!
+
+@ 105.98
+# 社 長
+JP お、おい！
+EN H-hey!
+
+@ 105.102
+# セイレーン千春
+JP こっちは日頃
+JP 社長のために体張ってるんだ。
+EN I put my body on the line for you every day, Boss.
+
+@ 105.106
+# セイレーン千春
+JP バカンスくらい
+JP 羽目はずさせろって。
+EN Let me cut loose on vacation, at least.
+
+@ 105.109
+# 社 長
+JP ハァ…。
+EN Sigh...
+
+@ 105.113
+# セイレーン千春
+JP 帰ったら
+JP またたっぷり働いてやるよ。
+JP ハハハッ！
+EN I'll work my butt off for ya when we get back.
+EN Hahaha!
+
+@ 105.116
+# 社 長
+JP （いくらになるんだ…。
+JP 　これ…）
+EN (How much is this going to cost...?)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （まいったな…）
+EN (This is a problem...)
+
+@ 106.26
+# 社 長
+JP （どんどん雨が強くなってきてるぞ）
+EN (The rain's getting heavier and heavier.)
+
+@ 106.28
+# 社 長
+JP （もう帰るところだから
+JP 　よかったけど…）
+EN (Good thing I was heading home anyway...)
+
+@ 106.30
+# 社 長
+JP （…んっ？
+JP 　あそこにいるのは…）
+EN (...Hm? Who's that over there...?)
+
+@ 106.32
+# 社 長
+JP （千春じゃないか！？）
+EN (Isn't that Chiharu!?)
+
+@ 106.54
+# 社 長
+JP どうしたんだ！？
+JP 大丈夫か！？
+EN What happened!? Are you okay!?
+
+@ 106.58
+# セイレーン千春
+JP ああ、社長か。
+EN Oh, it's you, Boss.
+
+@ 106.61
+# 社 長
+JP 何があったんだ？
+EN What happened to you?
+
+@ 106.65
+# セイレーン千春
+JP 平気だって。
+JP 大騒ぎすんな。
+EN I'm fine. Don't make a fuss.
+
+@ 106.68
+# 社 長
+JP 平気じゃないだろう！？
+JP アザだらけじゃないか！？
+JP いったいどうしたんだ！？
+EN You're not fine! You're covered in bruises! What on
+EN earth happened!?
+
+@ 106.72
+# セイレーン千春
+JP ケンカだよ。
+JP つまらねえケンカだ。
+EN A fight. A stupid fight.
+
+@ 106.75
+# 社 長
+JP ケンカ？
+EN A fight?
+
+@ 106.77
+# 社 長
+JP （あっ、路地の向こうに
+JP 　男たちが倒れてる。
+JP 　あいつらか…！？）
+EN (Oh, there are men lying in the alley over there. Was
+EN it them...!?)
+
+@ 106.87
+# セイレーン千春
+JP 言っとくが正当防衛だぜ。
+EN For the record, it was self-defense.
+
+@ 106.91
+# セイレーン千春
+JP あいつらから
+JP 絡んできやがったんだからな…。
+EN They're the ones who started it...
+
+@ 106.94
+# 社 長
+JP …ああ、わかった。
+EN ...All right, I get it.
+
+@ 106.96
+# 社 長
+JP とにかく今は手当てが先だ。
+JP ほら、手を貸せ。
+EN Anyway, first we need to get you treated. Here, take
+EN my hand.
+
+@ 106.106
+# セイレーン千春
+JP いらねぇ。
+JP ガキじゃねぇんだから
+JP 一人で帰れる。
+EN Don't need it. I ain't a kid. I can get home by myself.
+
+@ 106.109
+# 社 長
+JP …無理するな。
+EN ...Don't push yourself.
+
+@ 106.113
+# セイレーン千春
+JP 無理なんてしてねぇよ！
+EN I ain't pushin' myself!
+
+@ 106.117
+# セイレーン千春
+JP 私のことなんて
+JP 放っておけばいいんだよ。
+EN Just leave me alone, why don'tcha.
+
+@ 106.120
+# 社 長
+JP …千春……。
+EN ...Chiharu...
+
+@ 106.130
+# セイレーン千春
+JP じゃあな。
+EN See ya.
+
+@ 106.151
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ここのところ
+JP 　雨続きで嫌な感じだな…）
+EN (It's been raining nonstop lately. Lousy weather...)
+
+@ 107.26
+# 社 長
+JP （さあ、急いで帰ろう…）
+EN (Better hurry home...)
+
+@ 107.28
+# 社 長
+JP （…んっ？
+JP 　あそこにいるのは…）
+EN (...Hm? Who's that over there...?)
+
+@ 107.30
+# 社 長
+JP （千春か！？）
+EN (Chiharu!?)
+
+@ 107.55
+# 社 長
+JP どうしたんだ！？
+JP 大丈夫か！？
+EN What happened!? Are you okay!?
+
+@ 107.65
+# セイレーン千春
+JP ああ、社長か。
+EN Oh, it's you, Boss.
+
+@ 107.69
+# セイレーン千春
+JP 平気だって。
+JP 大騒ぎすんな。
+EN I'm fine. Don't make a fuss.
+
+@ 107.72
+# 社 長
+JP 平気じゃないだろう！？
+JP アザだらけじゃないか！？
+EN You're not fine! You're covered in bruises!
+
+@ 107.74
+# 社 長
+JP いったいどうしたんだ！？
+JP またケンカなのか！？
+EN What on earth happened!? Another fight!?
+
+@ 107.84
+# セイレーン千春
+JP …このあたりには
+JP クズどもが多すぎるぜ。
+EN ...There's way too much scum around here.
+
+@ 107.87
+# 社 長
+JP 説明は後でいい。
+JP 今は治療が先だ。
+EN You can explain later. Treatment comes first.
+
+@ 107.97
+# セイレーン千春
+JP おまえも懲りねえな。
+JP 私なんかに優しくして
+JP なんのトクがあるんだ？
+EN You never learn, do ya? What's in it for you, bein'
+EN nice to someone like me?
+
+@ 107.100
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.104
+# セイレーン千春
+JP なんか下心でも
+JP あんじゃねえのか？
+EN You got some ulterior motive or somethin'?
+
+@ 107.107
+# 社 長
+JP 馬鹿なことを言うな！
+EN Don't be ridiculous!
+
+@ 107.109
+# 社 長
+JP おまえはうちの選手だ。
+JP 気にするのは当然だろう！
+EN You're one of our wrestlers. Of course I care about
+EN you!
+
+@ 107.119
+# セイレーン千春
+JP …綺麗ごと言いやがって。
+EN ...Spoutin' pretty words...
+
+@ 107.122
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.126
+# セイレーン千春
+JP でも今の言葉
+JP ちょっと効いたぜ…。
+EN But that... kinda got to me just now...
+
+@ 107.130
+# セイレーン千春
+JP 今日は連れてってもらうか。
+EN Guess I'll let you take me back today.
+
+@ 107.133
+# 社 長
+JP よし。
+JP じゃあ、行くぞ。
+EN All right. Let's go, then.
+
+@ 107.137
+# セイレーン千春
+JP …ああ……。
+EN ...Yeah......
+
+@ 107.156
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.158
+# 社 長
+JP （そうして俺は
+JP 　千春を寮へ連れて帰った）
+EN (And so I took Chiharu back to the dorm.)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# セイレーン千春
+JP ちゃちゃと済ませて
+JP 遊びに行こうぜ。
+EN Let's wrap this up quick and go have some fun.
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# セイレーン千春
+JP 今日はまじめにやんねーと
+JP ダメか…。
+EN Guess I gotta take it seriously today...
+
+@ 110.17
+# scene 112 練習試合 バッド
+# セイレーン千春
+JP 正義正義って
+JP うるせぇヤツだな…。
+EN Justice this, justice that... What a pain in the neck...
+
+@ 111.16
+# scene 113 練習開始
+# セイレーン千春
+JP まっ、適当にやっとくか。
+EN Eh, I'll just go through the motions.
+
+@ 112.16
+# scene 114 練習開始 好意
+# セイレーン千春
+JP 仕方ねぇな。
+JP ちっとは練習してやるよ。
+EN Can't be helped. I'll do a little trainin' for ya.
+
+@ 113.16
+# scene 115 特訓開始
+# セイレーン千春
+JP 面倒なことさせやがって…。
+EN Makin' me do this annoyin' crap...
+
+@ 114.20
+# scene 116 特訓成功
+# セイレーン千春
+JP 私にかかればこんなモンだな。
+EN This is nothin' for someone like me.
+
+@ 115.20
+# scene 117 特訓失敗
+# セイレーン千春
+JP 思いっきり
+JP くたびれちまったぜ。
+EN Man, I'm totally beat.
+
+@ 116.16
+# scene 118 休養
+# セイレーン千春
+JP 海外旅行にでも行くかな。
+JP 費用は会社持ちで頼むぜ。
+EN Maybe I'll take a trip abroad. On the company's dime,
+EN of course.
+
+@ 117.16
+# scene 119 入場1
+# セイレーン千春
+JP 五体満足で帰れると思うなよ！
+EN Don't think you're leavin' here in one piece!
+
+@ 118.16
+# scene 119 入場2
+# セイレーン千春
+JP 救急車の手配はもう済んだのか？
+EN You call the ambulance yet?
+
+@ 119.17
+# scene 120 タッグマッチ ベスト
+# セイレーン千春
+JP 地獄のコンビネーション
+JP 見せてやるぜ！
+EN We'll show you a combination straight from hell!
+
+@ 120.17
+# scene 122 タッグマッチ ベター２
+# セイレーン千春
+JP 姉さん、とばしすぎんなよ！
+EN Sis, don't burn yourself out!
+
+@ 121.17
+# scene 123 タッグマッチ バッド
+# セイレーン千春
+JP なんだ、このパートナー？
+JP 最初に潰しとくか？
+EN What's with this partner? Should I crush her first?
+
+@ 122.16
+# scene 125 必殺技１
+# セイレーン千春
+JP ぶっ壊してやる！
+EN I'm gonna break you!
+
+@ 123.16
+# scene 125 必殺技２
+# セイレーン千春
+JP これで終わりだな。
+EN This is the end for you.
+
+@ 124.16
+# scene 125 必殺技３
+# セイレーン千春
+JP 泡でも吹いてブッ倒れてな！
+EN Go on, foam at the mouth and drop!
+
+@ 125.12
+# scene 126 勝利1
+# セイレーン千春
+JP 私に勝とうなんて
+JP １００年早いんだよ。
+EN You're a hundred years too early to beat me.
+
+@ 126.12
+# scene 126 勝利2
+# セイレーン千春
+JP お似合いだな、そのザマ！
+EN That sorry state suits you!
+
+@ 127.12
+# scene 126 勝利3
+# セイレーン千春
+JP つまんねーな。
+JP もう終わりかよ？
+EN Boring. Over already?
+
+@ 128.15
+# scene 133 表彰1
+# セイレーン千春
+JP こんなモンより金が欲しいぜ。
+EN I'd rather have cash than this junk.
+
+@ 129.15
+# scene 133 表彰2
+# セイレーン千春
+JP このトロフィー
+JP いくらで売れんだ？
+EN How much could I sell this trophy for?
+
+@ 130.12
+# scene 134 優勝1
+# セイレーン千春
+JP まっ、これが実力ってやつだな。
+EN Well, that's what you call real skill.
+
+@ 131.12
+# scene 134 優勝２
+# セイレーン千春
+JP 私に勝てるヤツはいないのか？
+EN Ain't there anybody who can beat me?
+
+@ 132.24
+# scene 135 エンディング 通常
+# セイレーン千春
+JP 少しはやるじゃないか。
+JP よかったな。
+EN Not bad at all. Good for you.
+
+@ 133.24
+# scene 136 エンディング 好意
+# セイレーン千春
+JP なあ、こんな私でも
+JP つき合えるって言えるのかよ？
+EN Hey... Can you really say you'd go out with someone
+EN like me?

@@ -1,0 +1,2135 @@
+# /SCR/130.BIN - ガイア小早川
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 130` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ガイア小早川
+JP 小早川です。
+JP よろしくお願いします！
+EN I'm Kobayakawa. Nice to meet you!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ガイア小早川
+JP やったねっ！
+JP がんばって練習するから！
+EN Yesss! I'll train super hard!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ガイア小早川
+JP なんだよ、ケチッ！
+EN What the heck? Cheapskate!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP 資料によると
+JP この公園で走り回っているって
+JP 話だったけど…。
+EN According to the file, she's always running around
+EN this park...
+
+@ 3.25
+# 社 長
+JP 本当にいるのかな…？
+EN I wonder if she's really here...?
+
+@ 3.27
+# 社 長
+JP あっ、あの娘かな。
+EN Oh, maybe that's her.
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.39
+# ガイア小早川
+JP なぁに？
+EN Whaaat?
+
+@ 3.42
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 3.49
+# ガイア小早川
+JP …えっ！？
+JP プロレス？
+EN ...Huh!? Pro wrestling?
+
+@ 3.52
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.59
+# ガイア小早川
+JP 私でも強くなれるかな？
+EN Could someone like me get strong?
+
+@ 3.62
+# 社 長
+JP きっと強くなれるよ。
+EN I'm sure you could.
+
+@ 3.64
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ガイア小早川
+JP わかった。
+JP 社長さんの団体に入ってあげる。
+EN Okay. I'll join your promotion, mister. Lucky you!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# ガイア小早川
+JP よろしくね。
+EN Looking forward to it!
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# ガイア小早川
+JP やっぱり今回はパス！
+JP ごめんね。
+EN Nah, I'll pass this time! Sorry!
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# ガイア小早川
+JP …あっ、この前の社長さん！
+JP また来たの？
+EN ...Oh, it's the president from the other day! You came
+EN back?
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.43
+# ガイア小早川
+JP そう言われてもなぁ…。
+EN Even if you put it like that...
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ガイア小早川
+JP わかった。
+JP 社長さんの団体に入ってあげる。
+EN Okay. I'll join your promotion, mister. Lucky you!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# ガイア小早川
+JP よろしくね。
+EN Looking forward to it!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ガイア小早川
+JP やっぱり今回はパス！
+JP ごめんね。
+EN Nah, I'll pass this time! Sorry!
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は小早川選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kobayakawa.
+
+@ 9.25
+# 社 長
+JP 体は小さいが
+JP あの気の強さは買える。
+EN She's small, but that fighting spirit is worth a lot.
+
+@ 9.27
+# 社 長
+JP うちの団体でも
+JP 活躍できるに違いない。
+EN She's sure to shine in my promotion too.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She should be working out somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# ガイア小早川
+JP 私に何か用？
+EN You want something?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.53
+# ガイア小早川
+JP 社長さんの団体に移籍かぁ…。
+EN Transfer to your promotion, huh...
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.63
+# ガイア小早川
+JP そうだなぁ…。
+EN Hmm, let's see...
+
+@ 9.66
+# 社 長
+JP うちの団体に
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend your strength to my promotion?
+
+@ 9.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# ガイア小早川
+JP オッケー。
+JP 社長さんに力を貸してあげる。
+EN Okay! I'll lend you a hand, mister.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.26
+# ガイア小早川
+JP これからよろしくね！
+EN Looking forward to working with you!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ガイア小早川
+JP ごめん！
+JP やっぱりムリ。
+EN Sorry! I just can't.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 小早川選手が必要だ。
+EN My promotion needs Kobayakawa. No doubt about it.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 小早川選手と交渉することにした。
+EN I decided to negotiate with Kobayakawa one more
+EN time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ガイア小早川
+JP …あっ、社長さん！
+JP また移籍の話？
+EN ...Oh, it's the president! The transfer thing again?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.47
+# ガイア小早川
+JP そんなこと言われてもなぁ…。
+EN Even if you say stuff like that...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# ガイア小早川
+JP オッケー。
+JP 社長さんに力を貸してあげる。
+EN Okay! I'll lend you a hand, mister.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.26
+# ガイア小早川
+JP これからよろしくね！
+EN Looking forward to working with you!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ガイア小早川
+JP ごめん！
+JP やっぱりムリ。
+EN Sorry! I just can't.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は小早川選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kobayakawa.
+
+@ 15.25
+# 社 長
+JP あの強敵にも向かっていく姿勢を
+JP うちの選手にも見習わせたい。
+EN I want my wrestlers to learn from the way she takes
+EN on even the toughest opponents.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be around here somewhere...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# ガイア小早川
+JP 私に何か用？
+EN You want something?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to recruit her.)
+
+@ 15.48
+# ガイア小早川
+JP 社長さんの団体に入団しろってこと？
+EN You're saying you want me to join your promotion?
+
+@ 15.51
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.58
+# ガイア小早川
+JP う～ん…。
+JP そうだなぁ…。
+EN Hmmm... Let's see...
+
+@ 15.61
+# 社 長
+JP なんとか
+JP 力を貸してもらえないでしょうか？
+EN Is there any way you could lend us your strength?
+
+@ 15.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# ガイア小早川
+JP オッケー。
+JP 社長さんのところに行くよ。
+EN Okay! I'll come work for you, mister.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.26
+# ガイア小早川
+JP これからよろしくね！
+EN Looking forward to working with you!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ガイア小早川
+JP 私、やっぱり今のままがいいや。
+JP ごめんね！
+EN Nah, I think I'm good where I am. Sorry!
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 小早川選手が必要だ。
+EN My promotion needs Kobayakawa. No doubt about it.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 小早川選手と交渉することにした。
+EN I decided to negotiate with Kobayakawa one more
+EN time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ガイア小早川
+JP …あっ、社長さん！？
+JP また来たの？
+EN ...Oh, it's the president!? You came back?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.47
+# ガイア小早川
+JP そう言われてもなぁ…。
+EN Even if you put it like that...
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# ガイア小早川
+JP オッケー。
+JP 社長さんのところに行くよ。
+EN Okay! I'll come work for you, mister.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.26
+# ガイア小早川
+JP これからよろしくね！
+EN Looking forward to working with you!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ガイア小早川
+JP 私、やっぱり今のままがいいや。
+JP ごめんね！
+EN Nah, I think I'm good where I am. Sorry!
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は小早川を訪ねることにした。
+EN I decided to go see Kobayakawa.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler my promotion needs. I'm sure of it.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 小早川っ！
+EN Kobayakawa!
+
+@ 21.41
+# ガイア小早川
+JP 社長っ！？
+EN Boss!?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# ガイア小早川
+JP う～～…。
+EN Grrr...
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you because I
+EN want you to come back...
+
+@ 21.61
+# ガイア小早川
+JP そんなウソばっかり言って…。
+EN You and your lies...
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ガイア小早川
+JP 社長、本気で言ってるの？
+EN Boss, do you really mean that?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 22.29
+# ガイア小早川
+JP わかった。
+JP 今回だけだからね！
+EN Fine. But just this once!
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# ガイア小早川
+JP 本気で戻って欲しいと思ってるの？
+EN You seriously want me back?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 23.29
+# ガイア小早川
+JP やっぱりヤダ。
+EN Nope. Not happening.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び小早川を
+JP 訪ねることにした。
+EN I decided to go see Kobayakawa again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler my promotion needs. I'm sure of it.
+
+@ 24.27
+# 社 長
+JP 小早川っ！
+EN Kobayakawa!
+
+@ 24.37
+# ガイア小早川
+JP 社長っ！？
+EN Boss!?
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+EN I came to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に
+JP 戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ガイア小早川
+JP 社長、本気で言ってるの？
+EN Boss, do you really mean that?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 25.29
+# ガイア小早川
+JP わかった。
+JP 今回だけだからね！
+EN Fine. But just this once!
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ガイア小早川
+JP 本気で戻って欲しいと思ってるの？
+EN You seriously want me back?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 26.29
+# ガイア小早川
+JP やっぱりヤダ。
+EN Nope. Not happening.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ガイア小早川
+JP このくらい平気だって！
+EN This is nothing, I'm telling you!
+
+@ 28.16
+# scene 029 ケガ大
+# ガイア小早川
+JP ごめん…。
+JP やっちゃったみたい…。
+EN Sorry... Looks like I really did it this time...
+
+@ 29.16
+# scene 030 入院
+# ガイア小早川
+JP ハァ～…。
+JP ついてないなぁ。
+EN Haaah... Just my luck.
+
+@ 30.16
+# scene 031 退院
+# ガイア小早川
+JP 今日から練習に復帰するよ！
+EN I'm back to training starting today!
+
+@ 31.16
+# scene 032 ケガ完治
+# ガイア小早川
+JP もう大丈夫だってさ。
+EN They say I'm all better now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ガイア小早川
+JP 社長がそう言うなら…。
+EN If that's what you want, Boss...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ガイア小早川
+JP 私の自由にさせてよ！
+EN Let me decide for myself!
+
+@ 34.16
+# scene 035 コーチ就任
+# ガイア小早川
+JP 私がビシビシ鍛えてあげるからね。
+EN I'm gonna whip you all into shape!
+
+@ 35.16
+# scene 036 ケガ引退
+# ガイア小早川
+JP あのケガが致命的だったみたい…。
+EN Looks like that injury was the end of me...
+
+@ 36.16
+# scene 037 年齢引退
+# ガイア小早川
+JP 体がついて来ないんじゃ
+JP もうダメだよね…。
+EN If my body can't keep up anymore, I guess that's it...
+
+@ 37.16
+# scene 038 退団
+# ガイア小早川
+JP ここじゃ戦えないよ。
+EN I can't fight here anymore.
+
+@ 38.16
+# scene 039 スランプ
+# ガイア小早川
+JP もうダメなのかな…。
+EN Maybe I'm just washed up...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ガイア小早川
+JP 私のファンクラブ…？
+EN My fan club...?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Keep at it, and live up to all that support.
+
+@ 39.26
+# ガイア小早川
+JP もっちろん！
+JP がんばっちゃうよー！
+EN Ab-so-lutely! I'm gonna give it my all!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ガイア小早川
+JP またファンクラブができたの？
+EN Another fan club got started?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their hopes.
+
+@ 40.26
+# ガイア小早川
+JP もっとがんばるよ！
+EN I'll work even harder!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ガイア小早川
+JP …そうなの…？
+EN ...Really...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.23
+# ガイア小早川
+JP そうだよね…。
+EN Yeah, I guess...
+
+@ 42.16
+# scene 043 映画出演
+# ガイア小早川
+JP 体当たりでがんばっちゃうよー。
+EN I'm gonna throw myself into it, full body!
+
+@ 43.16
+# scene 044 一日署長
+# ガイア小早川
+JP 悪い奴らは許さないってね！
+EN Bad guys, you're going down!
+
+@ 44.16
+# scene 045 写真集発売
+# ガイア小早川
+JP 私…写真集なんて出していいの…？
+EN Me...? Is it really okay for me to put out a photo
+EN book...?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ガイア小早川
+JP 私にＣＭ！？
+JP なんでもやっちゃうよー！
+EN A commercial, for me!? I'll do anything!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ガイア小早川
+JP 私のＣＤなんて売れるのかなぁ…。
+EN Would a CD of mine even sell...?
+
+@ 47.16
+# scene 048 始球式
+# ガイア小早川
+JP キャッチボールの練習もしないとね。
+EN Guess I'd better practice playing catch too.
+
+@ 48.16
+# scene 049 学園祭
+# ガイア小早川
+JP お好み焼き、焼きそば、リンゴ飴…。
+JP たっのしみー！
+EN Okonomiyaki, yakisoba, candy apples... Can't wait!
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.35
+# ガイア小早川
+JP …えっ！？
+JP あ、私に？
+EN ...Huh!? F-for me?
+
+@ 49.38
+# 社 長
+JP これからもよろしくな。
+EN Thanks for everything, and here's to more.
+
+@ 49.45
+# ガイア小早川
+JP ありがとー。
+JP 大事にするから…。
+EN Thaaanks. I'll take good care of it...
+
+@ 50.32
+# scene 051 バレンタインデー
+# ガイア小早川
+JP あ、あの社長、これ…。
+EN Um, h-hey, Boss, this...
+
+@ 50.35
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Oh, chocolate. Thank you.
+
+@ 50.42
+# ガイア小早川
+JP べ、別に深い意味はないからね…。
+JP か、勘違いしないでね。
+EN I-it doesn't mean anything special, okay...? D-don't
+EN get the wrong idea.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# ガイア小早川
+JP いいの？
+JP ありがとー、社長。
+EN For real? Thaaanks, Boss!
+
+@ 51.41
+# 社 長
+JP まぁ、練習の合間にでも食べてくれ。
+EN Well, have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# ガイア小早川
+JP みんなー、応援ありがとー！
+EN Thanks for cheering for me, everybody!
+
+@ 53.29
+# scene 054 コンサート
+# ガイア小早川
+JP 実は歌はちょっと苦手なんだけど…。
+EN Actually, I'm kinda bad at singing...
+
+@ 54.28
+# scene 055 練習拒否
+# ガイア小早川
+JP 今日はパス…。
+EN I'll pass today...
+
+@ 55.28
+# scene 056 失踪
+# ガイア小早川
+JP もう、やってらんない！
+EN Ugh, I can't take this anymore!
+
+@ 56.16
+# scene 057 選手解雇
+# ガイア小早川
+JP 後悔したって知らないからね！
+EN Don't come crying to me when you regret it!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ガイア小早川
+JP 武者修業の旅に行ってきます！
+EN I'm off on a warrior's training journey!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ガイア小早川
+JP 小早川、ただいま戻りました！
+EN Kobayakawa, reporting back!
+
+@ 59.28
+# scene 060 移籍思案
+# ガイア小早川
+JP 別の団体で力を試してみようかな…。
+EN Maybe I should test myself at another promotion...
+
+@ 60.16
+# scene 061 革命軍結成
+# ガイア小早川
+JP 私の心がメラメラ燃えてるんだ！
+EN My heart's burning like crazy!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ガイア小早川
+JP 私は本気だからね！
+JP 覚悟してよ！
+EN I'm dead serious! Get ready!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ガイア小早川
+JP これが最後の勝負だよ！
+EN This is the final showdown!
+
+@ 63.16
+# scene 065 遺恨発生
+# ガイア小早川
+JP あったまきたーッ！
+EN That's it, I'm maaad!
+
+@ 64.16
+# scene 065 殴り込み
+# ガイア小早川
+JP ここは私の出番でしょ！
+EN This is my time to shine, right?
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ガイア小早川
+JP 返り討ちにしてやるよ！
+EN I'll send you packing!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ガイア小早川
+JP 全員根性叩き直してやるから！
+EN I'm gonna straighten out every last one of you!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ガイア小早川
+JP ここが総仕上げってやつだよね。
+EN This is what you call the grand finale, right?
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ガイア小早川
+JP 私の実力なら当然でしょ！
+EN With my skills, of course I won!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ガイア小早川
+JP クッソー…。
+JP 私じゃダメなのかな…。
+EN Dammit... Am I just not good enough...?
+
+@ 70.13
+# scene 071 引退式
+# ガイア小早川
+JP 私のこと…。
+JP 今まで…応援してくれて
+JP ありがとうございました…！
+EN Thank you... for cheering for me... all this time...!
+
+@ 71.18
+# ガイア小早川
+JP 社長、呼んだ？
+EN Boss, you called?
+
+@ 71.37
+# ガイア小早川
+JP 社長、呼んだ…かな…？
+EN Boss, you called... right...?
+
+@ 71.47
+# ガイア小早川
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems like you've been in great shape lately. Keep it
+EN up!
+
+@ 71.90
+# ガイア小早川
+JP 社長、ありがとー。
+JP がんばるよ。
+EN Thaaanks, Boss. I'll do my best.
+
+@ 71.111
+# ガイア小早川
+JP 努力はしてみるよ…。
+EN I'll try, I guess...
+
+@ 71.132
+# ガイア小早川
+JP 社長、ありがとー。
+JP もっとがんばっちゃおーかな。
+EN Thaaanks, Boss. Maybe I'll try even harder.
+
+@ 71.153
+# ガイア小早川
+JP 努力はしてみようかな…。
+EN I guess I could try...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# ガイア小早川
+JP ごめんなさい…。
+EN I'm sorry...
+
+@ 71.211
+# ガイア小早川
+JP がんばってるんだけどなぁ…。
+EN But I'm trying...
+
+@ 71.232
+# ガイア小早川
+JP ごめんなさい…。
+JP これからもっとがんばるから…。
+EN I'm sorry... I'll work even harder from now on...
+
+@ 71.253
+# ガイア小早川
+JP これでもがんばってるのに…。
+EN But I'm trying my best as it is...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed a little down lately. Are you okay?
+
+@ 71.290
+# ガイア小早川
+JP 大丈夫だって。
+EN I'm fine, I said.
+
+@ 71.311
+# ガイア小早川
+JP ハァ～…。
+EN Haaah...
+
+@ 71.332
+# ガイア小早川
+JP 大丈夫だよ、社長。
+JP 心配かけてごめん。
+EN I'm fine, Boss. Sorry for worrying you.
+
+@ 71.353
+# ガイア小早川
+JP ちょっと大丈夫じゃないかな…。
+EN Maybe I'm not really fine...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# ガイア小早川
+JP なんとなくね…。
+EN Kinda...
+
+@ 71.400
+# ガイア小早川
+JP 全然わかんないけど？
+EN No clue. Why?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# ガイア小早川
+JP わかったって。
+JP 仲直りすればいいんでしょ。
+EN Okay, okay. I just gotta make up with her, right?
+
+@ 71.454
+# ガイア小早川
+JP 社長の頼みでも絶対ヤダ！
+EN Even if you ask, Boss, no way! Never!
+
+@ 71.475
+# ガイア小早川
+JP 社長、何言ってんの？
+EN Boss, what are you talking about?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# ガイア小早川
+JP なんとなくだけど…。
+EN Kind of, I guess...
+
+@ 71.522
+# ガイア小早川
+JP 何か期待していいのかな…？
+EN Should I be expecting something...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# ガイア小早川
+JP 社長にお願いされたら
+JP 断れないよね。
+EN If you ask me like that, Boss, I can't say no.
+
+@ 71.578
+# ガイア小早川
+JP 社長の頼みでも…それはムリ…。
+EN Even if you ask, Boss... that's impossible...
+
+@ 71.599
+# ガイア小早川
+JP 社長、なんか勘違いしてない？
+EN Boss, aren't you getting the wrong idea?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ガイア小早川
+JP 社長、呼んだ…かな？
+EN Boss, you called... right?
+
+@ 72.16
+# ガイア小早川
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems like you've been in great shape lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ガイア小早川
+JP 社長、ありがとー。がんばるよ。
+EN Thaaanks, Boss. I'll do my best.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ガイア小早川
+JP 努力はしてみるよ…。
+EN I'll try, I guess...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ガイア小早川
+JP 社長、ありがとー。
+JP もっとがんばっちゃおーかな。
+EN Thaaanks, Boss. Maybe I'll try even harder.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ガイア小早川
+JP 努力はしてみようかな…。
+EN I guess I could try...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ガイア小早川
+JP ごめんなさい…。
+EN I'm sorry...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ガイア小早川
+JP がんばってるんだけどなぁ…。
+EN But I'm trying...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ガイア小早川
+JP ごめんなさい…。
+JP これからもっとがんばるから。
+EN I'm sorry... I'll work even harder from now on.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ガイア小早川
+JP これでもがんばってるのに…。
+EN But I'm trying my best as it is...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed a little down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ガイア小早川
+JP 大丈夫だって。
+EN I'm fine, I said.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ガイア小早川
+JP ハァ～…。
+EN Haaah...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ガイア小早川
+JP 大丈夫だよ、社長。心配かけてごめん。
+EN I'm fine, Boss. Sorry for worrying you.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ガイア小早川
+JP ちょっと大丈夫じゃないかな…。
+EN Maybe I'm not really fine...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ガイア小早川
+JP なんとなくね…。
+EN Kinda...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ガイア小早川
+JP 全然わかんないけど？
+EN No clue. Why?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ガイア小早川
+JP わかったって。仲直りすればいいんでしょ。
+EN Okay, okay. I just gotta make up with her, right?
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ガイア小早川
+JP 社長の頼みでも絶対ヤダ！
+EN Even if you ask, Boss, no way! Never!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ガイア小早川
+JP 社長、何言ってんの？
+EN Boss, what are you talking about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ガイア小早川
+JP なんとなくだけど…。
+EN Kind of, I guess...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ガイア小早川
+JP 何か期待していいのかな…？
+EN Should I be expecting something...?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ガイア小早川
+JP 社長にお願いされたら
+JP 断れないよね。
+EN If you ask me like that, Boss, I can't say no.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ガイア小早川
+JP 社長の頼みでも、それはムリ…。
+EN Even if you ask, Boss, that's impossible...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ガイア小早川
+JP 社長、なんか勘違いしてない？
+EN Boss, aren't you getting the wrong idea?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ガイア小早川
+JP 社長、これからもよろしくね！
+EN Boss, here's to another year!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ガイア小早川
+JP こんなにもらえるんだ！
+JP 社長、アリガト！
+EN I get this much!? Thanks, Boss!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ガイア小早川
+JP 我慢することも大事だよね…。
+EN Sometimes you gotta grin and bear it, I guess...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺たちは南の島へと
+JP 　やってきた）
+EN (And so we arrived at a tropical island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN blazing.)
+
+@ 105.32
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.39
+# ガイア小早川
+JP ああ…。
+JP おいしそう…。
+EN Ahh... That looks so good...
+
+@ 105.42
+# 社 長
+JP 小早川…。
+EN Kobayakawa...
+
+@ 105.57
+# 社 長
+JP （気付けば、うちの団体の
+JP 　小柄なマタドーラが）
+EN (Before I knew it, our pint-sized matadora...)
+
+@ 105.59
+# 社 長
+JP （居並ぶ屋台を
+JP 　恍惚の表情で眺めている）
+EN (...was gazing at the row of food stalls with a look of
+EN pure rapture.)
+
+@ 105.61
+# 社 長
+JP （そういえば、こいつは
+JP 　食に関してはかなりのツワモノ
+JP 　だったよなぁ…）
+EN (Come to think of it, when it comes to food, she's a
+EN real heavyweight...)
+
+@ 105.65
+# ガイア小早川
+JP 未知の味覚がいっぱい～。
+EN So many flavors I've never tried...
+
+@ 105.68
+# 社 長
+JP （灯りに惹き寄せられる虫のように
+JP 　小早川はフラフラと屋台へ
+JP 　向かって歩を進めている）
+EN (Like a moth drawn to a flame, Kobayakawa was
+EN drifting toward the stalls.)
+
+@ 105.70
+# 社 長
+JP （…のは、いい…）
+EN (...Which is fine...)
+
+@ 105.72
+# 社 長
+JP （それはいいが…）
+EN (That part's fine, but...)
+
+@ 105.74
+# 社 長
+JP （なぜ、しっかり俺の腕を
+JP 　掴んでいるのだろう？）
+EN (Why does she have such a firm grip on my arm?)
+
+@ 105.76
+# 社 長
+JP おい…。
+EN Hey...
+
+@ 105.80
+# ガイア小早川
+JP なぁに、社長？
+EN What is it, Boss?
+
+@ 105.83
+# 社 長
+JP なんだ、この手は？
+EN What's this hand doing?
+
+@ 105.87
+# ガイア小早川
+JP ……エヘッ。
+EN ......Ehe.
+
+@ 105.90
+# 社 長
+JP （なんだ、その不気味な笑みは）
+EN (What's with that creepy grin?)
+
+@ 105.94
+# ガイア小早川
+JP おごって、パパ。
+EN Treat me, Daddy.
+
+@ 105.97
+# 社 長
+JP パ…パパ？
+EN D-Daddy?
+
+@ 105.99
+# 社 長
+JP あのな、小早川…。
+EN Listen, Kobayakawa...
+
+@ 105.103
+# ガイア小早川
+JP おごって～。
+EN Treat meee.
+
+@ 105.106
+# 社 長
+JP （ダメだ。
+JP 　今のコイツは正常な状態ではない）
+EN (It's no use. She's not in her right mind right now.)
+
+@ 105.108
+# 社 長
+JP （そう判断して、
+JP 　俺は仕方なく頷いた）
+EN (Having judged as much, I reluctantly nodded.)
+
+@ 105.110
+# 社 長
+JP わかった。
+JP 今回だけだぞ。
+EN All right. Just this once.
+
+@ 105.114
+# ガイア小早川
+JP わ～～～い！
+EN Yaaaaaay!
+
+@ 105.131
+# 社 長
+JP ………………。
+EN ..............
+
+@ 105.133
+# 社 長
+JP （そして、この日…）
+EN (And on that day...)
+
+@ 105.135
+# 社 長
+JP （南国に伝説のフードファイターが
+JP 　誕生した）
+EN (...a legendary food fighter was born in the tropics.)
+
+@ 105.137
+# 社 長
+JP （大食いの多いプロレス界においても
+JP 　こいつはベスト３に入るだろう）
+EN (Even in the wrestling world, full of big eaters, she'd
+EN make the top three.)
+
+@ 105.139
+# 社 長
+JP （軽くなった財布を感じながら
+JP 　そう確信した）
+EN (I was sure of it, feeling how light my wallet had
+EN become.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP ふう、やっと戻ってこれた。
+EN Phew, finally made it back.
+
+@ 106.26
+# 社 長
+JP （外での打ち合わせを終えて
+JP 　会社に帰ってきてみると…）
+EN (I came back to the office after a meeting outside,
+EN and...)
+
+@ 106.28
+# 社 長
+JP ……んっ？
+EN ......Hm?
+
+@ 106.44
+# 社 長
+JP （小早川がソファで
+JP 　だらしなく寝転がっていた）
+EN (Kobayakawa was sprawled out on the sofa.)
+
+@ 106.46
+# 社 長
+JP ……小早川？
+EN ......Kobayakawa?
+
+@ 106.50
+# ガイア小早川
+JP …ふにゃ～……。
+EN ...Funyaa......
+
+@ 106.53
+# 社 長
+JP 小早川？
+JP どうした、こんな所で？
+EN Kobayakawa? What are you doing here?
+
+@ 106.57
+# ガイア小早川
+JP …すか～……。
+EN ...Zzz......
+
+@ 106.60
+# 社 長
+JP 小早川。
+JP おい、小早川。
+EN Kobayakawa. Hey, Kobayakawa.
+
+@ 106.70
+# ガイア小早川
+JP ……むにゃ？
+EN ......Mmh?
+
+@ 106.74
+# ガイア小早川
+JP あれ…社長…？
+EN Huh... Boss...?
+
+@ 106.77
+# 社 長
+JP あれ、じゃない。
+JP どうした、こんな所で寝て。
+EN Don't "huh" me. Why are you sleeping here?
+
+@ 106.81
+# ガイア小早川
+JP …ん……。
+JP えっと…社長に用事があって…。
+JP …んで……。
+EN ...Mm...... Um... I had something to tell you, Boss... ...so......
+
+@ 106.91
+# ガイア小早川
+JP ふあぁ～～ぁ。
+EN Fwaaaaah.
+
+@ 106.101
+# ガイア小早川
+JP それで帰ってくるの
+JP 待ってたんだけど…。
+JP そうか、寝ちゃってたのか。
+EN So I was waiting for you to get back... Oh, I guess I
+EN fell asleep.
+
+@ 106.104
+# 社 長
+JP ああ、思いっきりな…。
+EN Yeah, out cold...
+
+@ 106.108
+# ガイア小早川
+JP むに…。
+EN Mnn...
+
+@ 106.111
+# 社 長
+JP それで、なんの用事だったんだ？
+EN So, what did you need?
+
+@ 106.115
+# ガイア小早川
+JP ん～～～…。
+EN Hmmmm...
+
+@ 106.118
+# 社 長
+JP （小早川は、用事を思い出そうと
+JP 　うなった）
+EN (Kobayakawa groaned, trying to remember.)
+
+@ 106.122
+# ガイア小早川
+JP ん～～～～～～～。
+EN Hmmmmmmmmm.
+
+@ 106.125
+# 社 長
+JP ………………。
+EN ..............
+
+@ 106.129
+# ガイア小早川
+JP 寝てたら忘れちゃった。
+EN I forgot while I was sleeping.
+
+@ 106.132
+# 社 長
+JP （思い出すことが
+JP 　できなかったらしい）
+EN (Apparently she couldn't remember.)
+
+@ 106.136
+# ガイア小早川
+JP まっ、いいや。
+EN Oh well, whatever.
+
+@ 106.139
+# 社 長
+JP いいのかよ。
+EN Whatever?
+
+@ 106.143
+# ガイア小早川
+JP うん。
+JP きっともう一眠りすれば
+JP 思い出すから。
+EN Yup. I'm sure I'll remember after another nap.
+
+@ 106.146
+# 社 長
+JP おい。
+EN Hey.
+
+@ 106.150
+# ガイア小早川
+JP おやすみ～…。
+EN Niiight...
+
+@ 106.160
+# ガイア小早川
+JP …すか～……。
+EN ...Zzz......
+
+@ 106.163
+# 社 長
+JP うわっ！
+JP マジに寝やがった。
+JP しかも一瞬で…。
+EN Whoa! She actually fell asleep. And in a split second...
+
+@ 106.181
+# 社 長
+JP ………………。
+EN ..............
+
+@ 106.183
+# 社 長
+JP （この後、夜まで寝続けた小早川は）
+EN (After that, Kobayakawa slept until night...)
+
+@ 106.185
+# 社 長
+JP （結局、用事を思い出すことなく
+JP 　すっきりした顔で帰って行った）
+EN (...and went home refreshed, never remembering
+EN what she wanted.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP ふう、やっと戻ってこれた。
+EN Phew, finally made it back.
+
+@ 107.26
+# 社 長
+JP （外での打ち合わせを終えて
+JP 　会社に帰ってきてみると…）
+EN (I came back to the office after a meeting outside,
+EN and...)
+
+@ 107.28
+# 社 長
+JP ……んっ？
+EN ......Hm?
+
+@ 107.44
+# 社 長
+JP （また、小早川がソファで
+JP 　寝転がっていた）
+EN (Kobayakawa was sprawled out on the sofa again.)
+
+@ 107.46
+# 社 長
+JP …小早川？
+EN ...Kobayakawa?
+
+@ 107.50
+# ガイア小早川
+JP ……すか～……。
+EN ......Zzz......
+
+@ 107.53
+# 社 長
+JP 小早川？
+JP どうした、こんな所で。
+EN Kobayakawa? What are you doing here?
+
+@ 107.57
+# ガイア小早川
+JP ……すか～……。
+EN ......Zzz......
+
+@ 107.60
+# 社 長
+JP 小早川。
+JP おい、小早川。
+EN Kobayakawa. Hey, Kobayakawa.
+
+@ 107.64
+# ガイア小早川
+JP ……むにゃ？
+EN ......Mmh?
+
+@ 107.74
+# ガイア小早川
+JP あれ…社長？
+JP えへへ…。
+JP おかえり～。
+EN Huh... Boss? Ehehe... Welcome baaack.
+
+@ 107.77
+# 社 長
+JP ただいま。
+JP どうしたんだ？
+JP 俺に何か用事でもあったのか？
+EN I'm back. What's up? Did you need something from
+EN me?
+
+@ 107.81
+# ガイア小早川
+JP …んっ…えっと……。
+EN ...Mm... um......
+
+@ 107.91
+# ガイア小早川
+JP ふにゃああぁ～～ぁ。
+EN Funyaaaaaah.
+
+@ 107.101
+# ガイア小早川
+JP いや…ここ…居心地いいから…。
+EN Nah... it's just... really comfy here...
+
+@ 107.104
+# 社 長
+JP いいから？
+EN Comfy, so...?
+
+@ 107.108
+# ガイア小早川
+JP 眠りにきた。
+EN I came to sleep.
+
+@ 107.111
+# 社 長
+JP おい。
+EN Hey.
+
+@ 107.115
+# ガイア小早川
+JP ん～～…もうちょっと…。
+EN Mmm... just a little longer...
+
+@ 107.119
+# ガイア小早川
+JP おやしゅみ～…。
+EN Nighty-nighty...
+
+@ 107.122
+# 社 長
+JP おやしゅみって…。
+JP おいおい…。
+EN "Nighty-nighty"... Come on...
+
+@ 107.126
+# ガイア小早川
+JP 起きたら…むに…ご飯連れてって…。
+JP パパ…。
+EN When I wake up... mnn... take me out to eat... Daddy...
+
+@ 107.129
+# 社 長
+JP どれだけ自由なんだ、おまえは…。
+EN Just how free-spirited are you...?
+
+@ 107.139
+# ガイア小早川
+JP …すか～……。
+EN ...Zzz......
+
+@ 107.142
+# 社 長
+JP 寝ちまった。
+EN She's out.
+
+@ 107.144
+# 社 長
+JP 自由すぎる…。
+EN Way too free-spirited...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# ガイア小早川
+JP 激しいノリでいってみようか！
+EN Let's go all out and get wild!
+
+@ 109.16
+# scene 113 練習開始
+# ガイア小早川
+JP 今日もよろしく！
+EN Let's do this again today!
+
+@ 110.16
+# scene 114 練習開始 好意
+# ガイア小早川
+JP 今日もがんばるからね！
+EN I'm gonna give it my all today too!
+
+@ 111.16
+# scene 115 特訓開始
+# ガイア小早川
+JP 特訓かぁ…。
+JP 強くなるには仕方ないか。
+EN Special training, huh... Guess I gotta if I wanna get
+EN stronger.
+
+@ 112.20
+# scene 116 特訓成功
+# ガイア小早川
+JP 特訓もいいかもね！
+EN Maybe special training isn't so bad!
+
+@ 113.20
+# scene 117 特訓失敗
+# ガイア小早川
+JP こんなの最悪…。
+EN That was the worst...
+
+@ 114.16
+# scene 118 休養
+# ガイア小早川
+JP どこに遊びに行こうかな。
+EN Where should I go have fun?
+
+@ 115.16
+# scene 119 入場1
+# ガイア小早川
+JP 今日は負けないんだから！
+EN I'm not losing today, got it!
+
+@ 116.16
+# scene 119 入場2
+# ガイア小早川
+JP うぉ～！
+JP 燃えてきた～！
+EN Woooo! I'm fired up!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# ガイア小早川
+JP 勢いでおしていこっ！
+EN Let's push 'em with momentum!
+
+@ 118.16
+# scene 125 必殺技１
+# ガイア小早川
+JP 一気にいっちゃうからねーっ！
+EN I'm going all in, in one shot!
+
+@ 119.16
+# scene 125 必殺技２
+# ガイア小早川
+JP 私だって負けられないんだ！
+EN I can't lose either!
+
+@ 120.16
+# scene 125 必殺技３
+# ガイア小早川
+JP 私はもっと高く飛んでみせるよ！
+EN I'll fly even higher, just watch!
+
+@ 121.12
+# scene 126 勝利1
+# ガイア小早川
+JP 小さいからって
+JP なめないでよねっ！
+EN Don't underestimate me just 'cause I'm small!
+
+@ 122.12
+# scene 126 勝利2
+# ガイア小早川
+JP 今日は私の勝ちだね！
+EN Today the win is mine!
+
+@ 123.12
+# scene 126 勝利3
+# ガイア小早川
+JP 私が本気を出せばこんなもんよ！
+EN This is what happens when I get serious!
+
+@ 124.15
+# scene 133 表彰1
+# ガイア小早川
+JP 私だってやればできるって
+JP わかったでしょ！
+EN See? I can do it when I try!
+
+@ 125.15
+# scene 133 表彰2
+# ガイア小早川
+JP これが私のホントの実力ってこと！
+EN This is what I can really do!
+
+@ 126.12
+# scene 134 優勝1
+# ガイア小早川
+JP 私の強さが少しはわかった？
+EN Get it now? That's how strong I am!
+
+@ 127.12
+# scene 134 優勝２
+# ガイア小早川
+JP 練習の成果が出せたみたいね！
+EN Looks like my training paid off!
+
+@ 128.24
+# scene 135 エンディング 通常
+# ガイア小早川
+JP やったね、社長！
+JP 私、社長について来てよかったよ！
+EN We did it, Boss! I'm so glad I followed you!
+
+@ 129.24
+# scene 136 エンディング 好意
+# ガイア小早川
+JP 社長、やったね。
+JP これからも社長に
+JP 付いていっていいかな…？
+EN We did it, Boss. Can I... keep following you from now
+EN on...?

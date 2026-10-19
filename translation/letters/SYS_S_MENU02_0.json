@@ -1,0 +1,60 @@
+{
+ "english": "Promotion Data | History | Roster | Rankings | Belts | Influence Map | Other Promotions",
+ "boxes": [
+  [
+   12,
+   0,
+   114,
+   24
+  ],
+  [
+   12,
+   24,
+   115,
+   24
+  ],
+  [
+   1,
+   48,
+   135,
+   24
+  ],
+  [
+   13,
+   72,
+   116,
+   24
+  ],
+  [
+   11,
+   96,
+   116,
+   24
+  ],
+  [
+   23,
+   120,
+   93,
+   24
+  ],
+  [
+   1,
+   144,
+   136,
+   25
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   0,
+   0,
+   256,
+   169
+  ]
+ ]
+}

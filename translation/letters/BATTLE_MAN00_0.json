@@ -1,0 +1,71 @@
+{
+ "english": "FULL | HOUSE | ! | SOLD OUT!",
+ "boxes": [
+  [
+   0,
+   0,
+   96,
+   87
+  ],
+  [
+   96,
+   0,
+   96,
+   87
+  ],
+  [
+   192,
+   0,
+   96,
+   87
+  ],
+  [
+   28,
+   98,
+   212,
+   75
+  ]
+ ],
+ "font": "BarlowCondensed-Black.ttf",
+ "draw": "battle.draw",
+ "notes": "超満員 FULL HOUSE ! (three tiles, kept apart in case the game shows them one by one) over 札止め SOLD OUT! on a ticket; chrome lettering, rings and ticket paper rebuilt by tools/letter_ext/battle.py",
+ "groups": [
+  {
+   "fill": "enclosed",
+   "barrier": "grey",
+   "layers": "dir",
+   "reach": 10,
+   "rim": 6,
+   "grad": "group",
+   "pick": "common",
+   "ground": "transparent",
+   "alpha_min": 250,
+   "labels": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "labels": [
+    3
+   ],
+   "fill": "enclosed",
+   "barrier": "bright",
+   "layers": "dir",
+   "reach": 5,
+   "rim": 5,
+   "grad": "group",
+   "pick": "common",
+   "ground": "column",
+   "sample_rows": [
+    97,
+    98,
+    99,
+    175,
+    176,
+    177
+   ]
+  }
+ ]
+}

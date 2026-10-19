@@ -1,0 +1,11 @@
+{
+ "english": "Page | Change",
+ "boxes": [[435, 52, 44, 19], [530, 52, 69, 19]],
+ "fill": "bright",
+ "ground": "interpolate",
+ "reach": 2,
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "cap": 10,
+ "catalogue": {"source": "/SYS/OPTION.BIN", "width": 640, "height": 352, "bpp": 8, "category": "screen", "japanese": "ページ 設定変更 (labels SOUND...MESSAGE SPEED already English)"},
+ "notes": "options screen page 1 (picture 1 of SYS/OPTION.BIN, not a .GSL: needs gfx.py support for .BIN containers)"
+}

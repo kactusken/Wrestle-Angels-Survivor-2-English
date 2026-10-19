@@ -1,0 +1,2214 @@
+# /SCR/105.BIN - ハリケーン神田
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 105` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ハリケーン神田
+JP 神田です。
+JP ボクサーをしていました。
+EN I'm Kanda. I used to be a boxer.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ハリケーン神田
+JP よし…。
+JP これでまずは第一関門突破だ。
+EN Good... That's the first hurdle cleared.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ハリケーン神田
+JP そう甘くはないか。
+JP …当然だな。
+EN It's not that easy, then. ...Naturally.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP たしか、このへんだと聞いたんだが…。
+EN This is supposed to be the area, I think...
+
+@ 3.25
+# 社 長
+JP 資料によると
+JP 「将来有望な女性ボクサー」とあるが…。
+EN The file says "promising female boxer"...
+
+@ 3.27
+# 社 長
+JP うちに入ってくれるのかな。
+JP ああ、あの娘みたいだな。
+EN I wonder if she'll join us. Ah, that looks like her.
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+JP 神田さんですか？
+EN Um, excuse me. Are you Sachiko Kanda?
+
+@ 3.39
+# ハリケーン神田
+JP …はい。
+EN ...Yes.
+
+@ 3.42
+# 社 長
+JP 私はプロレス団体を
+JP 経営している者ですが…。
+EN I run a pro-wrestling promotion...
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.51
+# ハリケーン神田
+JP 私はボクサーなんですが…。
+JP どうしてプロレス団体の社長さんが？
+EN I'm a boxer, though... Why would the president of a
+EN wrestling promotion come to me?
+
+@ 3.54
+# 社 長
+JP あなたの身体能力なら
+JP プロレスでも十分戦えると思いまして。
+EN With your athleticism, I think you could hold your own
+EN in pro wrestling too.
+
+@ 3.56
+# 社 長
+JP どうですか？
+JP 不安はあるかもしれませんが
+JP 別の道を試してみませんか？
+EN What do you say? You may have doubts, but why not
+EN try a different path?
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# ハリケーン神田
+JP 私は世界に名を轟かせてみたいんです。
+JP プロレスでそれが叶いますか？
+EN I want to make my name known around the world. Can
+EN pro wrestling make that happen?
+
+@ 4.18
+# 社 長
+JP 練習次第ですが
+JP 神田さんなら可能だと思います。
+EN It depends on your training, but I think you can do it,
+EN Kanda.
+
+@ 4.29
+# ハリケーン神田
+JP …なるほど。
+JP 好奇心がわきました。
+JP 転向してみます。
+EN ...I see. You've made me curious. I'll make the switch.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ハリケーン神田
+JP すみませんが、やはりプロレスと
+JP ボクシングは違いすぎます。
+EN I'm sorry, but pro wrestling and boxing are just too
+EN different.
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, I'm pretty sure it was around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# ハリケーン神田
+JP あぁ…また来たんですか。
+JP やはり転向の話ですか？
+EN Ah... You're back again. Still about switching over?
+
+@ 6.38
+# 社 長
+JP はい。
+JP 考え直してもらえないでしょうか？
+EN Yes. Won't you reconsider?
+
+@ 6.40
+# 社 長
+JP （俺は女子プロレス界の現状を
+JP 　交えつつ、必死に説得してみた）
+EN (I described the state of women's wrestling and did
+EN my best to persuade her.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# ハリケーン神田
+JP 私は世界に名を轟かせてみたいんです。
+JP プロレスでそれが叶いますか？
+EN I want to make my name known around the world. Can
+EN pro wrestling make that happen?
+
+@ 7.18
+# 社 長
+JP 練習次第ですが
+JP 神田さんなら可能だと思います。
+EN It depends on your training, but I think you can do it,
+EN Kanda.
+
+@ 7.29
+# ハリケーン神田
+JP …なるほど。
+JP 好奇心がわきました。
+JP 転向してみます。
+EN ...I see. You've made me curious. I'll make the switch.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ハリケーン神田
+JP すみませんが、やはりプロレスと
+JP ボクシングは違いすぎます。
+EN I'm sorry, but pro wrestling and boxing are just too
+EN different.
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は神田選手と交渉してみることにした。
+EN I decided to negotiate with Kanda.
+
+@ 9.25
+# 社 長
+JP ボクシングの女子アマで
+JP 活躍したという実力の高さと
+JP あのクールさ。
+EN A standout in women's amateur boxing, with real skill
+EN and that cool demeanor.
+
+@ 9.27
+# 社 長
+JP 女性ファンも多いと聞くし
+JP 是非ともうちの団体に欲しい選手だ。
+EN I hear she has lots of female fans, too. I'd love to
+EN have her in our promotion.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She's supposed to train somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# ハリケーン神田
+JP …なんでしょうか。
+EN ...Can I help you?
+
+@ 9.46
+# 社 長
+JP 実は私、プロレス団体を
+JP 経営している者でして…。
+EN Actually, I run a pro-wrestling promotion...
+
+@ 9.48
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 9.55
+# ハリケーン神田
+JP 移籍…ですか？
+EN A transfer...?
+
+@ 9.58
+# 社 長
+JP はい。
+JP うちの団体に来てもらえませんか？
+EN Yes. Would you come join our promotion?
+
+@ 9.60
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# ハリケーン神田
+JP そのお誘い、悪い気はしません。
+EN I can't say I mind the offer.
+
+@ 10.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 10.29
+# ハリケーン神田
+JP 移籍しましょう。
+JP 新しい発見がありそうです。
+EN I'll transfer. I expect I'll discover something new.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ハリケーン神田
+JP 今の待遇に不満はないですから…。
+JP お引き取りください。
+EN I have no complaints about how I'm treated now...
+EN Please leave.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 神田選手が必要だ。
+EN Our promotion really needs Kanda.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 神田選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ハリケーン神田
+JP ああ、社長さん。
+JP まだ私をスカウトされる
+JP つもりですか？
+EN Ah, it's the president. You still mean to scout me?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# ハリケーン神田
+JP そのお誘い、悪い気はしません。
+EN I can't say I mind the offer.
+
+@ 13.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 13.29
+# ハリケーン神田
+JP 移籍しましょう。
+JP 新しい発見がありそうです。
+EN I'll transfer. I expect I'll discover something new.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ハリケーン神田
+JP 今の待遇に不満はないですから…。
+JP お引き取りください。
+EN I have no complaints about how I'm treated now...
+EN Please leave.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は神田選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Kanda.
+
+@ 15.25
+# 社 長
+JP ボクシングの女子アマで活躍したと
+JP いう実力の高さとあのクールさ。
+EN A standout in women's amateur boxing, with real skill
+EN and that cool demeanor.
+
+@ 15.27
+# 社 長
+JP 女性ファンも多いと聞くし
+JP 是非ともうちの団体に欲しい選手だ。
+EN I hear she has lots of female fans, too. I'd love to
+EN have her in our promotion.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりにいるはずだけど…。
+EN She's supposed to be around here somewhere...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# ハリケーン神田
+JP …はい、何か？
+EN ...Yes, what is it?
+
+@ 15.46
+# 社 長
+JP 実は私、プロレス団体を
+JP 経営している者でして…。
+EN Actually, I run a pro-wrestling promotion...
+
+@ 15.48
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 15.55
+# ハリケーン神田
+JP 入団…ですか。
+EN Join your promotion...?
+
+@ 15.58
+# 社 長
+JP はい。
+JP うちの団体に来ていただけませんか？
+EN Yes. Would you be willing to come join us?
+
+@ 15.60
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# ハリケーン神田
+JP フリーではやはり
+JP 世界へ名乗りを上げるのは
+JP 難しいですね。
+EN As a freelancer, it's hard to make a name for myself
+EN on the world stage after all.
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# ハリケーン神田
+JP 私の目標は世界です。
+JP そのためなら戦う場所には
+JP こだわりません。
+EN My goal is the world. For that, I'm not particular
+EN about where I fight.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ハリケーン神田
+JP もう少しフリーで鍛えたいですから…。
+JP すみません…。
+EN I want to train a while longer as a freelancer... I'm
+EN sorry...
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 神田選手が必要だ。
+EN Our promotion really needs Kanda.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 神田選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ハリケーン神田
+JP あっ…社長さん。
+JP とっくに諦めたと思っていました。
+EN Oh... the president. I thought you'd given up long
+EN ago.
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に入って
+JP 欲しくて…。
+EN I really want you to join our promotion...
+
+@ 18.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# ハリケーン神田
+JP フリーではやはり
+JP 世界へ名乗りを上げるのは
+JP 難しいですね。
+EN As a freelancer, it's hard to make a name for myself
+EN on the world stage after all.
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# ハリケーン神田
+JP 私の目標は世界です。
+JP そのためなら戦う場所には
+JP こだわりません。
+EN My goal is the world. For that, I'm not particular
+EN about where I fight.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ハリケーン神田
+JP もう少しフリーで鍛えたいですから…。
+JP すみません…。
+EN I want to train a while longer as a freelancer... I'm
+EN sorry...
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は神田を訪ねることにした。
+EN I decided to pay Kanda a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+JP 神田っ！
+EN Ah, there she is! Kanda!
+
+@ 21.39
+# ハリケーン神田
+JP ………………。
+EN ..................
+
+@ 21.42
+# 社 長
+JP 実は相談があるんだ。
+JP 戻ってくれないか？
+EN I've got something to ask you. Won't you come back?
+
+@ 21.49
+# ハリケーン神田
+JP 無理です。
+EN Impossible.
+
+@ 21.52
+# 社 長
+JP そう言わずに考え直してくれ。
+EN Don't say that. Please reconsider.
+
+@ 21.59
+# ハリケーン神田
+JP 世界を目指すためには
+JP 時間をムダにできないんです。
+JP それなのに…。
+EN If I'm aiming for the world, I can't afford to waste
+EN time. And yet...
+
+@ 21.62
+# 社 長
+JP 前のことは謝る。
+JP …頼む。
+EN I apologize for what happened before. ...Please.
+
+@ 21.64
+# 社 長
+JP （俺は彼女に団体に戻ってくれるように
+JP 　頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ハリケーン神田
+JP 今度は、世界に向けて
+JP 私のことをバックアップして
+JP もらえるのですか？
+EN This time, will you back me as I go for the world?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 全力でバックアップするよ。
+EN Yeah. I'll back you with everything I've got.
+
+@ 22.29
+# ハリケーン神田
+JP ならば、もう一度この身を
+JP お預けします。
+JP …裏切らないでください。
+EN Then I'll put myself in your hands once more. ...Don't
+EN betray me.
+
+@ 22.32
+# 社 長
+JP ああ。
+JP 約束するよ。
+JP ありがとう、神田。
+EN I won't. I promise. Thank you, Kanda.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ハリケーン神田
+JP トレーニング中ですので
+JP 失礼します。
+EN I'm in the middle of training. Excuse me.
+
+@ 23.31
+# 社 長
+JP あっ、待ってくれ！
+JP 神田、神田ぁ！！
+EN Ah, wait! Kanda, Kanda!!
+
+@ 23.33
+# 社 長
+JP （神田は最後まで俺の話を
+JP 　聞こうとしなかった）
+EN (Kanda never did hear me out.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び神田を訪ねることにした。
+EN I decided to visit Kanda again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 神田っ！
+EN Kanda!
+
+@ 24.37
+# ハリケーン神田
+JP なぜ…。
+EN Why...
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN I came to ask again. I really want you back in the
+EN promotion.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ハリケーン神田
+JP 今度は、世界に向けて
+JP 私のことをバックアップして
+JP もらえるのですか？
+EN This time, will you back me as I go for the world?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 全力でバックアップするよ。
+EN Yeah. I'll back you with everything I've got.
+
+@ 25.29
+# ハリケーン神田
+JP ならば、もう一度この身を
+JP お預けします。
+JP …裏切らないでください。
+EN Then I'll put myself in your hands once more. ...Don't
+EN betray me.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ハリケーン神田
+JP トレーニング中ですので
+JP 失礼します。
+EN I'm in the middle of training. Excuse me.
+
+@ 26.31
+# 社 長
+JP あっ、待ってくれ！
+JP 神田、神田ぁ！！
+EN Ah, wait! Kanda, Kanda!!
+
+@ 26.33
+# 社 長
+JP （神田は最後まで俺の話を
+JP 　聞こうとしなかった）
+EN (Kanda never did hear me out.)
+
+@ 27.16
+# scene 028 ケガ小
+# ハリケーン神田
+JP 大丈夫です。
+JP 軽傷ですから…。
+EN I'm fine. It's only a minor injury...
+
+@ 28.16
+# scene 029 ケガ大
+# ハリケーン神田
+JP これは…しっかり治さないと
+JP ダメか？
+EN This... I'll have to let it heal properly, won't I?
+
+@ 29.16
+# scene 030 入院
+# ハリケーン神田
+JP こんなところで貴重な時間を
+JP 失うとは…。
+EN To lose precious time in a place like this...
+
+@ 30.16
+# scene 031 退院
+# ハリケーン神田
+JP 失った時間を取り戻せるように
+JP がんばります。
+EN I'll work hard to make up for the time I lost.
+
+@ 31.16
+# scene 032 ケガ完治
+# ハリケーン神田
+JP 完治したようです。
+EN It seems I've fully recovered.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ハリケーン神田
+JP そうですね。
+JP 私も限界を感じていました…。
+EN You're right. I'd been feeling my limits too...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ハリケーン神田
+JP 私はまだ…限界には達していません。
+EN I haven't... reached my limit yet.
+
+@ 34.16
+# scene 035 コーチ就任
+# ハリケーン神田
+JP 打撃の技術を継承できるように
+JP がんばります。
+EN I'll do my best to pass on my striking technique.
+
+@ 35.16
+# scene 036 ケガ引退
+# ハリケーン神田
+JP ドクターストップをかけられました…。
+JP もう無理ですね。
+EN The doctor has stopped me... I'm done.
+
+@ 36.16
+# scene 037 年齢引退
+# ハリケーン神田
+JP この年齢になれば
+JP この選択も自然だと思います。
+EN At my age, I think this choice is only natural.
+
+@ 37.16
+# scene 038 退団
+# ハリケーン神田
+JP ここではダメだ…。
+EN This place is no good...
+
+@ 38.16
+# scene 039 スランプ
+# ハリケーン神田
+JP クッ…。
+JP どうしてうまくいかないんだ…。
+EN Tch... Why isn't anything going right...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ハリケーン神田
+JP 私のどこがいいんでしょうか？
+EN What is it they like about me?
+
+@ 39.19
+# 社 長
+JP 真顔で聞かれても困る。
+JP とにかく、せっかくの機会だ。
+JP 大切にしろよ。
+EN Don't ask me that with a straight face. Anyway, it's
+EN a great opportunity. Treasure it.
+
+@ 39.26
+# ハリケーン神田
+JP 努力はしてみます。
+EN I'll make the effort.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ハリケーン神田
+JP ファンというのはありがたいですね。
+EN Fans really are something to be grateful for.
+
+@ 40.19
+# 社 長
+JP 期待を裏切らないようにな。
+EN Don't let them down.
+
+@ 40.26
+# ハリケーン神田
+JP はい…！
+JP 最近、少しわかってきました。
+EN Right...! I've started to understand that lately.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ハリケーン神田
+JP …なくなりましたか。
+EN ...So it's gone.
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. Just work hard again.
+
+@ 41.26
+# ハリケーン神田
+JP 期待に応えられないようでは
+JP プロとしては失格ですね。
+EN If I can't live up to expectations, I'm a failure as a
+EN pro.
+
+@ 42.16
+# scene 043 映画出演
+# ハリケーン神田
+JP このシナリオ、面白いです。
+JP 気に入りました。
+EN This screenplay is interesting. I like it.
+
+@ 43.16
+# scene 044 一日署長
+# ハリケーン神田
+JP ああ、あの警察署ですか。
+JP よく知っています。
+JP 任せてください。
+EN Ah, that police station? I know it well. Leave it to me.
+
+@ 44.16
+# scene 045 写真集発売
+# ハリケーン神田
+JP 水着を着るのは…。
+JP 少し恥ずかしいのですが…。
+EN Wearing a swimsuit is... a little embarrassing,
+EN though...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ハリケーン神田
+JP このスポンサーのドリンクいいですよ。
+JP 社長にもお奨めです。
+EN This sponsor's drink is good. I recommend it to you
+EN too, Boss.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ハリケーン神田
+JP いい曲だと思います。
+JP しっかり練習しておきます。
+EN I think it's a good song. I'll practice it properly.
+
+@ 47.16
+# scene 048 始球式
+# ハリケーン神田
+JP 嬉しいですね。
+JP その球団、ヒイキなんです。
+EN I'm glad. That's my favorite team.
+
+@ 48.16
+# scene 049 学園祭
+# ハリケーン神田
+JP 学園…異種格闘技戦の審判…？
+JP いろんな仕事がありますね。
+EN A school... refereeing a mixed martial arts bout...?
+EN There are all kinds of jobs.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.37
+# ハリケーン神田
+JP …よく覚えていますね。
+EN ...You remembered.
+
+@ 49.40
+# 社 長
+JP 当然だろ。
+JP これからもよろしくな。
+EN Of course. Keep up the good work.
+
+@ 49.48
+# ハリケーン神田
+JP はい…。
+JP ありがとうございます。
+EN Yes... Thank you.
+
+@ 50.29
+# scene 051 バレンタインデー
+# ハリケーン神田
+JP 社長、今日はバレンタインデー
+JP ですよね。
+EN Boss, today is Valentine's Day, isn't it?
+
+@ 50.32
+# 社 長
+JP …んっ？
+JP …ああ、そうだな。
+EN ...Hm? ...Oh, yeah, it is.
+
+@ 50.39
+# ハリケーン神田
+JP そこで一応義理チョコを
+JP 用意しました。
+EN So I've prepared obligation chocolate, just for
+EN form's sake.
+
+@ 50.42
+# 社 長
+JP そうか。
+JP それは悪いな。
+JP ありがとう。
+EN Really? That's kind of you. Thanks.
+
+@ 50.49
+# ハリケーン神田
+JP 義理です。
+JP あくまでも義理なんです。
+JP 深い意味のない義理チョコです。
+EN It's obligation. Purely obligation. Obligation chocolate
+EN with no deeper meaning.
+
+@ 50.52
+# 社 長
+JP （いつになく饒舌だな…？）
+EN (She's unusually talkative...?)
+
+@ 50.54
+# 社 長
+JP （もしかして…照れ隠しか？）
+EN (Could she... be covering up her embarrassment?)
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, as thanks for last month?
+
+@ 51.38
+# ハリケーン神田
+JP 義理なのですから、お返しなど…。
+EN It was only obligation chocolate. There's no need to
+EN return the favor...
+
+@ 51.41
+# 社 長
+JP いいから。
+JP 練習の合間にでも食べてくれ。
+EN Just take it. Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# ハリケーン神田
+JP 無愛想ですみません。
+JP …でも、感謝しています。
+EN I'm sorry I'm not very friendly. ...But I am grateful.
+
+@ 53.31
+# scene 054 コンサート
+# ハリケーン神田
+JP いい曲です。
+JP 私の歌ですみませんが
+JP 聴いてください。
+EN It's a good song. Sorry it's me singing, but please
+EN listen.
+
+@ 54.28
+# scene 055 練習拒否
+# ハリケーン神田
+JP こんな練習、なんの役に立つ？
+EN What good is training like this?
+
+@ 55.28
+# scene 056 失踪
+# ハリケーン神田
+JP ボクシングに戻るか…。
+EN Maybe I should go back to boxing...
+
+@ 56.16
+# scene 057 選手解雇
+# ハリケーン神田
+JP 社長を信じてついてきた
+JP 私がバカだった…。
+EN I was a fool to trust you and follow you...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ハリケーン神田
+JP 世界という目標を間近で見てきます。
+EN I'll go see my goal, the world, up close.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ハリケーン神田
+JP 戻りました。
+JP 貴重な経験をさせてもらいました。
+EN I'm back. It was a valuable experience.
+
+@ 59.28
+# scene 060 移籍思案
+# ハリケーン神田
+JP 移籍要請か…。
+JP 意外といい条件だな…。
+EN A transfer offer... The terms are surprisingly good...
+
+@ 60.16
+# scene 061 革命軍結成
+# ハリケーン神田
+JP 悪しきなれ合いは、この拳で打ち砕く！
+EN I'll smash this rotten cronyism with these fists!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ハリケーン神田
+JP この怒りを鎮めるには
+JP もはやこの拳で語り合うしかない！
+EN There's only one way to quell this anger now: let our
+EN fists do the talking!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ハリケーン神田
+JP これ以上、ムダな時間は費やせない！
+JP 決着をつけよう！
+EN I can't waste any more time! Let's settle this!
+
+@ 63.16
+# scene 064 遺恨発生
+# ハリケーン神田
+JP 気に入らないな。
+EN I don't like it.
+
+@ 64.16
+# scene 065 殴り込み
+# ハリケーン神田
+JP こちらの実力を見せつけてやります。
+EN We'll show them what we're capable of.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ハリケーン神田
+JP 軽くあしらって
+JP 帰ってもらいましょう。
+EN Let's brush them off and send them home.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ハリケーン神田
+JP 最初に倒されたいのは、誰だ？
+EN Which of you wants to go down first?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ハリケーン神田
+JP この栄えある舞台、必ず勝ってみせる！
+EN On this glorious stage, I will win!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ハリケーン神田
+JP ついに…。
+JP ついに世界に手が届いた…。
+EN At last... At last I've reached the world...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ハリケーン神田
+JP こんな絶好の機会を逃すとは…。
+EN To let a golden chance like this slip away...
+
+@ 70.13
+# scene 071 引退式
+# ハリケーン神田
+JP ボクシングから転向してきた私を
+JP 暖かく迎えてくれたこと…。
+JP 感謝します。
+EN You warmly welcomed me when I came over from
+EN boxing... For that, I thank you.
+
+@ 71.18
+# ハリケーン神田
+JP …なにか。
+EN ...What is it?
+
+@ 71.37
+# ハリケーン神田
+JP お呼びと聞きましたが？
+EN I heard you wanted to see me?
+
+@ 71.47
+# ハリケーン神田
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems you're in good form lately. Keep it up!
+
+@ 71.90
+# ハリケーン神田
+JP そうですね…。
+JP この調子が続けば…。
+EN Yes... If I can keep this going...
+
+@ 71.111
+# ハリケーン神田
+JP 調子の波は
+JP 常に繰り返されるものです。
+EN Form comes and goes in waves. It always does.
+
+@ 71.132
+# ハリケーン神田
+JP …はい。
+JP 今ならいい試合をお見せできそうです。
+EN ...Yes. I think I could show you a good match right
+EN now.
+
+@ 71.153
+# ハリケーン神田
+JP 不調のときでも
+JP それなりにはやってみせますから。
+EN Even in a slump, I'll still manage a decent showing.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# ハリケーン神田
+JP そうですね。
+JP …しっかりしないと。
+EN You're right. ...I need to tighten up.
+
+@ 71.211
+# ハリケーン神田
+JP 今は無理できない状態なんです…。
+EN I'm in no condition to push myself right now...
+
+@ 71.232
+# ハリケーン神田
+JP 社長に叱られるのはこたえますね…。
+EN Being scolded by you really stings, Boss...
+
+@ 71.253
+# ハリケーン神田
+JP ……嫌われたか…。
+EN ...He hates me now...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# ハリケーン神田
+JP バテているだけです。
+JP すぐに持ち直せます。
+EN I'm just worn out. I'll bounce back soon.
+
+@ 71.311
+# ハリケーン神田
+JP 上手くいかないことが多くて…。
+EN A lot of things haven't been going well...
+
+@ 71.332
+# ハリケーン神田
+JP 社長と話すことが
+JP 一番の治療法のようです。
+EN Talking with you seems to be the best medicine, Boss.
+
+@ 71.353
+# ハリケーン神田
+JP 社長と話しても戻らない…。
+JP どうしたんだ…？
+EN Even talking with the Boss doesn't fix it... What's
+EN wrong with me...?
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# ハリケーン神田
+JP たぶん、あの件ではないかと…。
+EN Probably about that matter, I'd guess...
+
+@ 71.400
+# ハリケーン神田
+JP 次の試合のミーティングですか？
+EN A meeting about the next match?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# ハリケーン神田
+JP わかりました。
+JP きちんと話して解決してきます。
+EN Understood. I'll talk it out properly and settle it.
+
+@ 71.454
+# ハリケーン神田
+JP 向こうが怒っているだけです。
+EN She's the only one who's angry.
+
+@ 71.475
+# ハリケーン神田
+JP 時間のムダのようですので
+JP 失礼します。
+EN This seems to be a waste of time, so excuse me.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# ハリケーン神田
+JP はい、すみません…。
+JP お手間をかけてしまって…。
+EN Yes, I'm sorry... for causing you trouble...
+
+@ 71.522
+# ハリケーン神田
+JP 何か問題でも？
+EN Is there some problem?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# ハリケーン神田
+JP …わかりました。
+JP ご心配おかけしてすみません。
+EN ...Understood. I'm sorry for worrying you.
+
+@ 71.578
+# ハリケーン神田
+JP 白黒はっきりつけないと無理です。
+EN It won't work unless we settle it once and for all.
+
+@ 71.599
+# ハリケーン神田
+JP 何か誤解されていませんか？
+EN Aren't you misunderstanding something?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ハリケーン神田
+JP お呼びと聞きましたが？
+EN I heard you wanted to see me?
+
+@ 72.16
+# ハリケーン神田
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems you're in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ハリケーン神田
+JP そうですね…。
+JP この調子が続けば…。
+EN Yes... If I can keep this going...
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ハリケーン神田
+JP 調子の波は
+JP 常に繰り返されるものです。
+EN Form comes and goes in waves. It always does.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ハリケーン神田
+JP …はい。今ならいい試合を
+JP お見せできそうです。
+EN ...Yes. I think I could show you a good match right
+EN now.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ハリケーン神田
+JP 不調のときでもそれなりには
+JP やってみせますから。
+EN Even in a slump, I'll still manage a decent showing.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ハリケーン神田
+JP そうですね。
+JP …しっかりしないと。
+EN You're right. ...I need to tighten up.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ハリケーン神田
+JP 今は無理できない状態なんです…。
+EN I'm in no condition to push myself right now...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ハリケーン神田
+JP 社長に叱られるのは
+JP こたえますね…。
+EN Being scolded by you really stings, Boss...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ハリケーン神田
+JP ……嫌われたか…。
+EN ...He hates me now...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ハリケーン神田
+JP バテているだけです。
+JP すぐに持ち直せます。
+EN I'm just worn out. I'll bounce back soon.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ハリケーン神田
+JP 上手くいかないことが多くて…。
+EN A lot of things haven't been going well...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ハリケーン神田
+JP 社長と話すことが
+JP 一番の治療法のようです。
+EN Talking with you seems to be the best medicine, Boss.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ハリケーン神田
+JP 社長と話しても、戻らない。
+JP どうしたんだ…？
+EN Even talking with the Boss doesn't fix it. What's
+EN wrong with me...?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ハリケーン神田
+JP たぶん、あの件ではないかと…。
+EN Probably about that matter, I'd guess...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ハリケーン神田
+JP 次の試合のミーティングですか？
+EN A meeting about the next match?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ハリケーン神田
+JP わかりました。
+JP きちんと話して解決してきます。
+EN Understood. I'll talk it out properly and settle it.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ハリケーン神田
+JP 向こうが怒っているだけです。
+EN She's the only one who's angry.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ハリケーン神田
+JP 時間のムダのようですので
+JP 失礼します。
+EN This seems to be a waste of time, so excuse me.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ハリケーン神田
+JP はい。すみません、
+JP お手間をかけてしまって…。
+EN Yes. I'm sorry for causing you trouble...
+
+@ 97.10
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ハリケーン神田
+JP 何か問題でも？
+EN Is there some problem?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ハリケーン神田
+JP …わかりました。
+JP ご心配おかけしてすみません。
+EN ...Understood. I'm sorry for worrying you.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ハリケーン神田
+JP 白黒はっきりつけないと無理です。
+EN It won't work unless we settle it once and for all.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ハリケーン神田
+JP 何か誤解されていませんか？
+EN Aren't you misunderstanding something?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ハリケーン神田
+JP ＯＫです。
+JP 問題ありません。
+EN OK. No problem.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ハリケーン神田
+JP 高い評価に感謝します。
+JP より一層精進します。
+EN Thank you for valuing me so highly. I'll push myself
+EN even harder.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ハリケーン神田
+JP 私の評価はこんなものなのですね…。
+EN So this is all I'm worth to you...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Mmm, just what you'd expect from the tropics. The
+EN sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP 俺はゆっくりさせてもらうか…。
+JP ふわぁあああ…んっ……。
+EN Guess I'll take it easy myself... Fwaaah... mm...
+
+@ 105.50
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.54
+# ？？？
+JP …社長。
+JP お休みのところ、すみません。
+EN ...Boss. Sorry to bother you while you're resting.
+
+@ 105.57
+# 社 長
+JP んっ…？
+EN Hm...?
+
+@ 105.73
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.77
+# ハリケーン神田
+JP ………………。
+EN ..................
+
+@ 105.80
+# 社 長
+JP （神田って…。
+JP 　胸、意外とあるんだな…）
+EN (Kanda... she's surprisingly well-endowed...)
+
+@ 105.82
+# 社 長
+JP （そうじゃなくて！）
+EN (That's not the point!)
+
+@ 105.86
+# ハリケーン神田
+JP 社長。
+EN Boss.
+
+@ 105.89
+# 社 長
+JP な、なんだ！？
+EN Wh-what is it!?
+
+@ 105.93
+# ハリケーン神田
+JP ランニングに
+JP 付き合っていただけませんか？
+EN Would you go running with me?
+
+@ 105.96
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.100
+# ハリケーン神田
+JP ダメでしょうか。
+EN Is that a no?
+
+@ 105.103
+# 社 長
+JP いや…ダメとかいう前に…。
+JP バカンスの時くらい練習はいいだろ。
+EN Well... before yes or no... Can't you skip training on
+EN vacation, at least?
+
+@ 105.107
+# ハリケーン神田
+JP 砂浜は下半身の鍛錬に最適です。
+JP ご存知ありませんか。
+EN Sand is ideal for training the lower body. Didn't you
+EN know?
+
+@ 105.110
+# 社 長
+JP いや…たしかにその通りだが…。
+EN Well... that's true, but...
+
+@ 105.114
+# ハリケーン神田
+JP お願いします。
+EN Please.
+
+@ 105.117
+# 社 長
+JP …他の人間じゃダメなのか？
+EN ...Can't you go with someone else?
+
+@ 105.121
+# ハリケーン神田
+JP はい…。
+JP 社長でないと…。
+EN No... It has to be you, Boss...
+
+@ 105.124
+# 社 長
+JP …理由、聞いてもいいか？
+EN ...Mind if I ask why?
+
+@ 105.128
+# ハリケーン神田
+JP 女ばかりだと
+JP 男が寄ってきて邪魔です。
+EN When it's just women, men come swarming over. They
+EN get in the way.
+
+@ 105.131
+# 社 長
+JP たしかに…。
+EN Fair point...
+
+@ 105.133
+# 社 長
+JP （特に今の神田なら、ビーチ中の
+JP 　ナンパ野郎を集めそうだな…）
+EN (Especially the way Kanda looks right now. She'd
+EN draw every pickup artist on the beach...)
+
+@ 105.137
+# ハリケーン神田
+JP それに…。
+EN Besides...
+
+@ 105.147
+# ハリケーン神田
+JP 社長と一緒だと…。
+JP 心が落ち着く気がします。
+EN When I'm with you... I feel like my heart calms down.
+
+@ 105.150
+# 社 長
+JP そうなのか？
+EN Is that so?
+
+@ 105.154
+# ハリケーン神田
+JP …え、えぇ……。
+EN ...Y-yes...
+
+@ 105.157
+# 社 長
+JP よしっ、でも、本気で走るなよ？
+JP 体を休めるのもバカンスの目的
+JP なんだからな。
+EN All right, but don't run full-out, okay? Resting your
+EN body is part of the point of a vacation.
+
+@ 105.167
+# ハリケーン神田
+JP …はい。
+JP ありがとうございます。
+EN ...Yes. Thank you.
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP （あー、やっと仕事が終わった）
+EN (Phew, work's finally over.)
+
+@ 106.22
+# 社 長
+JP （このまま帰ってもいいけど…）
+EN (I could just head home, but...)
+
+@ 106.24
+# 社 長
+JP （せっかくだし、ジムのサウナで
+JP 　汗を流していくか）
+EN (Since I'm here, why not work up a sweat in the gym
+EN sauna?)
+
+@ 106.39
+# 社 長
+JP よし、誰もいないな。
+EN All right, nobody's here.
+
+@ 106.53
+# 社 長
+JP （仕事の後のサウナ…最高だな）
+EN (A sauna after work... it doesn't get better than
+EN this.)
+
+@ 106.60
+# 社 長
+JP （おっ、いい具合に温まってるな）
+EN (Oh, it's nice and hot in here.)
+
+@ 106.62
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.64
+# 社 長
+JP （…んっ？
+JP 　今、物音がしたような…？）
+EN (...Hm? Did I just hear something...?)
+
+@ 106.72
+# ？？？
+JP ………………。
+EN ..................
+
+@ 106.76
+# ？？？
+JP ああ、社長でしたか。
+EN Oh, it's you, Boss.
+
+@ 106.96
+# 社 長
+JP って、神田！？
+EN Wait, Kanda!?
+
+@ 106.100
+# ハリケーン神田
+JP はい、何か？
+EN Yes, what is it?
+
+@ 106.103
+# 社 長
+JP いや、何かって……。
+EN What do you mean, "what is it"...
+
+@ 106.107
+# ハリケーン神田
+JP ……ハァ～……。
+EN ...Haaah...
+
+@ 106.110
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.112
+# 社 長
+JP （……男として
+JP 　意識されてないんだろうか）
+EN (...Does she not even see me as a man?)
+
+@ 106.114
+# 社 長
+JP ええと……。
+EN Um...
+
+@ 106.116
+# 社 長
+JP （気まずい…）
+EN (This is awkward...)
+
+@ 106.118
+# 社 長
+JP （何か話題を…）
+EN (I need a topic...)
+
+@ 106.120
+# 社 長
+JP あっ、そういえば神田は
+JP なんでボクシングを始めたんだ？
+EN Oh, by the way, Kanda, why did you start boxing?
+
+@ 106.124
+# ハリケーン神田
+JP なんですか、急に？
+EN What's this, all of a sudden?
+
+@ 106.127
+# 社 長
+JP いや、ちょっと知りたくなってな。
+EN Nothing, I just got curious.
+
+@ 106.131
+# ハリケーン神田
+JP とにかく世界に
+JP 名を知らしめたかった。
+EN I wanted to make my name known around the world,
+EN no matter what.
+
+@ 106.135
+# ハリケーン神田
+JP そして自分にはボクシングが
+JP 一番合っていた。
+JP それだけです。
+EN And boxing suited me best. That's all.
+
+@ 106.138
+# 社 長
+JP そ、そうか…。
+EN I-I see...
+
+@ 106.140
+# 社 長
+JP （……話が広がらないな）
+EN (...This conversation isn't going anywhere.)
+
+@ 106.149
+# 社 長
+JP （…うおっ！？）
+EN (...Whoa!?)
+
+@ 106.151
+# 社 長
+JP か、神田。
+JP バスタオルが！
+EN K-Kanda. Your towel!
+
+@ 106.155
+# ハリケーン神田
+JP …どうかしましたか？
+EN ...Is something wrong?
+
+@ 106.158
+# 社 長
+JP 落ちそうだってば！
+EN It's about to fall off!
+
+@ 106.162
+# ハリケーン神田
+JP そうですか…。
+EN Is that so...
+
+@ 106.165
+# 社 長
+JP そうですか、じゃなくて！
+JP 少しは恥ずかしがってくれ！
+EN Don't "is that so" me! Act a little embarrassed!
+
+@ 106.169
+# ハリケーン神田
+JP ……はあ。
+EN ...Huh.
+
+@ 106.172
+# 社 長
+JP （…そもそも、男とか女とか気にして
+JP 　ないんだろうな、きっと…）
+EN (...She probably doesn't even care about men and
+EN women in the first place...)
+
+@ 107.20
+# scene 108 日常イベント２
+# 社 長
+JP （ふう、今日もこれで仕事が終わりだ）
+EN (Phew, that's it for work today.)
+
+@ 107.22
+# 社 長
+JP （今日もジムのサウナで
+JP 　汗を流して帰るかな）
+EN (Think I'll sweat it out in the gym sauna again before
+EN heading home.)
+
+@ 107.37
+# 社 長
+JP よし、誰もいないと。
+EN All right, nobody's here.
+
+@ 107.53
+# 社 長
+JP ふう…。
+EN Phew...
+
+@ 107.55
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.66
+# 社 長
+JP （…んっ、今、物音がしたような…？）
+EN (...Hm? Did I just hear something...?)
+
+@ 107.68
+# 社 長
+JP （まさか、また…？）
+EN (Don't tell me, again...?)
+
+@ 107.72
+# ？？？
+JP ああ、やはり社長でしたか。
+EN Ah, so it is you, Boss.
+
+@ 107.96
+# 社 長
+JP やっぱり神田か。
+EN So it's you, Kanda.
+
+@ 107.100
+# ハリケーン神田
+JP はい。
+JP 日課のようなものです。
+EN Yes. It's become something of a daily routine.
+
+@ 107.103
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.107
+# ハリケーン神田
+JP ……ハァ～……。
+EN ...Haaah...
+
+@ 107.110
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.112
+# 社 長
+JP ええと……。
+EN Um...
+
+@ 107.114
+# 社 長
+JP （気まずい…）
+EN (This is awkward...)
+
+@ 107.116
+# 社 長
+JP （何か話題を…）
+EN (I need a topic...)
+
+@ 107.118
+# 社 長
+JP あっ、そういえば神田は、
+JP どうしてボクサーから
+JP プロレスに転向したんだ？
+EN Oh, by the way, Kanda, why did you switch from
+EN boxing to pro wrestling?
+
+@ 107.122
+# ハリケーン神田
+JP どうしたんですか、急に？
+EN What's gotten into you, all of a sudden?
+
+@ 107.125
+# 社 長
+JP いや、ちょっと知りたくなって。
+EN Nothing, I just got curious.
+
+@ 107.129
+# ハリケーン神田
+JP 自分の拳が
+JP プロレスでどこまで通用するか
+JP 試したかったからです。
+EN Because I wanted to test how far my fists could take
+EN me in pro wrestling.
+
+@ 107.132
+# 社 長
+JP そうか…。
+JP それであんなに強さに
+JP こだわっているのか。
+EN I see... So that's why you're so fixated on strength.
+
+@ 107.136
+# ハリケーン神田
+JP ええ。
+JP それが自分の生き様ですので…。
+EN Yes. That's my way of life...
+
+@ 107.139
+# 社 長
+JP なるほどな。
+JP 練習熱心なのも納得できるよ。
+EN Makes sense. No wonder you train so hard.
+
+@ 107.148
+# 社 長
+JP （…うおっ！？）
+EN (...Whoa!?)
+
+@ 107.150
+# 社 長
+JP か、神田。
+JP バスタオルが！
+EN K-Kanda. Your towel!
+
+@ 107.160
+# ハリケーン神田
+JP …………ッ！
+EN ......!
+
+@ 107.169
+# 社 長
+JP フゥ～…。
+EN Phew...
+
+@ 107.173
+# ハリケーン神田
+JP …しかし社長のせいで
+JP 最近は強さ以外のことも
+JP 気にするようになってしまいました。
+EN ...But because of you, Boss, lately I've started
+EN caring about things besides strength.
+
+@ 107.176
+# 社 長
+JP …えっ！？
+JP ど、どういうことだ！？
+EN ...Huh!? Wh-what do you mean!?
+
+@ 107.180
+# ハリケーン神田
+JP し、失礼します。
+EN E-excuse me.
+
+@ 107.205
+# 社 長
+JP 俺のせいってなんだ！？
+EN What do you mean, because of me!?
+
+@ 108.16
+# scene 113 練習開始
+# ハリケーン神田
+JP 世界を目指すには
+JP もっと技を磨かないと…。
+EN If I'm aiming for the world, I have to hone my
+EN technique more...
+
+@ 109.16
+# scene 114 練習開始 好意
+# ハリケーン神田
+JP 私の強さ…見てください。
+EN My strength... Watch it.
+
+@ 110.16
+# scene 115 特訓開始
+# ハリケーン神田
+JP よし、一気に鍛え抜く！
+EN All right, I'll train myself to the limit in one go!
+
+@ 111.20
+# scene 116 特訓成功
+# ハリケーン神田
+JP 充実した時間だった…。
+EN That was time well spent...
+
+@ 112.20
+# scene 117 特訓失敗
+# ハリケーン神田
+JP 私というやつは…。
+EN What's wrong with me...
+
+@ 113.16
+# scene 118 休養
+# ハリケーン神田
+JP 軽いメニューで
+JP 汗を流しておきます。
+EN I'll do a light routine and work up a sweat.
+
+@ 114.16
+# scene 119 入場1
+# ハリケーン神田
+JP この拳で世界を唸らせてみせる！
+EN With these fists, I'll make the world roar!
+
+@ 115.16
+# scene 119 入場2
+# ハリケーン神田
+JP ボクシングの経験をムダにはしない！
+EN My boxing experience won't go to waste!
+
+@ 116.16
+# scene 125 必殺技１
+# ハリケーン神田
+JP かわせるものならかわしてみろ！
+EN Dodge this if you can!
+
+@ 117.16
+# scene 125 必殺技２
+# ハリケーン神田
+JP 相手の意識ごと…切る！
+EN I'll cut right through... your consciousness!
+
+@ 118.16
+# scene 125 必殺技３
+# ハリケーン神田
+JP 今すぐ楽にしてやる！
+EN I'll put you out of your misery right now!
+
+@ 119.12
+# scene 126 勝利1
+# ハリケーン神田
+JP 頂上は果てしなく遠くとも
+JP ただ前に進むのみ！
+EN The summit may be endlessly far, but I just keep
+EN moving forward!
+
+@ 120.12
+# scene 126 勝利2
+# ハリケーン神田
+JP 次はもっと強い敵と戦わねば…。
+JP そして世界の高みへと…。
+EN Next I must fight stronger opponents... And rise to
+EN the heights of the world...
+
+@ 121.12
+# scene 126 勝利3
+# ハリケーン神田
+JP 練習は裏切らない。
+JP ボクシングであろうと
+JP プロレスであろうと…。
+EN Training never betrays you. Whether in boxing or in
+EN pro wrestling...
+
+@ 122.15
+# scene 133 表彰1
+# ハリケーン神田
+JP プロレスでも通じることが
+JP 証明されたな。
+EN That proves I can make it in pro wrestling too.
+
+@ 123.15
+# scene 133 表彰2
+# ハリケーン神田
+JP 社長…。
+JP あなたが私を拾ってくれた
+JP おかげです。
+EN Boss... It's all thanks to you taking me in.
+
+@ 124.12
+# scene 134 優勝1
+# ハリケーン神田
+JP 積み重ねがすべて…。
+JP 目先の勝ち負けに一喜一憂している
+JP 暇はない…。
+EN It all comes down to what you build up... No time to
+EN fret over each win or loss...
+
+@ 125.12
+# scene 134 優勝２
+# ハリケーン神田
+JP 今日だけは勝利に浸っていよう…。
+EN Just for today, I'll savor the victory...
+
+@ 126.24
+# scene 135 エンディング 通常
+# ハリケーン神田
+JP おめでとうございます。
+JP 一匹狼の私でも
+JP 社長の役に立てましたか？
+EN Congratulations. Even a lone wolf like me... was I of
+EN use to you, Boss?
+
+@ 127.24
+# scene 136 エンディング 好意
+# ハリケーン神田
+JP 社長…。
+JP プライベートでも…私のセコンドに
+JP なってくれませんか…？
+EN Boss... Would you be my second... in private life too...?

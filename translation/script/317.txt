@@ -1,0 +1,94 @@
+# /SCR/317.BIN - ミスUSAマスク
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 317` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ミスUSAマスク
+JP アメリカの威厳は
+JP 私が守りまーす！
+EN I'll defend the dignity of America!
+
+@ 1.16
+# scene 119 入場1
+# ミスUSAマスク
+JP ラヴ　アンド　ピース！
+EN Love and peace!
+
+@ 2.16
+# scene 119 入場2
+# ミスUSAマスク
+JP アメリカンジャスティス！
+JP 見てクダサーイ！
+EN American Justice! Pleeease watch!
+
+@ 3.16
+# scene 125 必殺技１
+# ミスUSAマスク
+JP スペシャルアタック
+JP 受けてみなさい！
+EN Try my Special Attack!
+
+@ 4.16
+# scene 125 必殺技２
+# ミスUSAマスク
+JP この技でバイバイね～！
+EN With this move, it's bye-bye!
+
+@ 5.16
+# scene 125 必殺技３
+# ミスUSAマスク
+JP この技で勝利の女神は
+JP 私に微笑むね！
+EN With this move, Lady Luck will smile on me!
+
+@ 6.12
+# scene 126 勝利1
+# ミスUSAマスク
+JP 自由の女神が微笑んだわ！
+EN The Statue of Liberty smiled on me!
+
+@ 7.12
+# scene 126 勝利2
+# ミスUSAマスク
+JP 今日は私の勝ちね。
+JP またやりましょ！
+EN I win today. Let's do it again sometime!
+
+@ 8.12
+# scene 126 勝利3
+# ミスUSAマスク
+JP あなたやるわね。
+JP 今度タッグを組んでみない？
+EN You're pretty good. Wanna team up sometime?
+
+@ 9.15
+# scene 133 表彰1
+# ミスUSAマスク
+JP 受賞を記念して
+JP マスクをプレゼントしまーす！
+EN To celebrate the award, I'm giving away masks!
+
+@ 10.15
+# scene 133 表彰2
+# ミスUSAマスク
+JP みなさーん、サンキューねー！
+EN Everybody, thank youuu!
+
+@ 11.12
+# scene 134 優勝1
+# ミスUSAマスク
+JP 新しい勝利の女神は私のことね！
+EN I'm the new Goddess of Victory!
+
+@ 12.12
+# scene 134 優勝２
+# ミスUSAマスク
+JP 自由の女神にキスしたい気分だわ！
+EN I feel like kissing the Statue of Liberty!

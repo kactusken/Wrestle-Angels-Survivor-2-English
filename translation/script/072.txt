@@ -1,0 +1,2368 @@
+# /SCR/072.BIN - 桜井千里
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 072` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 桜井 千里
+JP 桜井です。
+JP 力の限り戦い抜きます。
+EN I'm Sakurai. I will fight with everything I have.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 桜井 千里
+JP ありがとうございます。
+JP 必ず強くなってみせますから…。
+EN Thank you very much. I swear I will grow stronger...
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 桜井 千里
+JP ここも私の居場所ではないのか…。
+EN So this isn't where I belong either...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりで練習してるとか
+JP 言ってたけど…。
+EN They said she trains around here...
+
+@ 3.25
+# 社 長
+JP 長いポニーテールが特徴って
+JP 言ってたな。
+EN And that she has a long ponytail.
+
+@ 3.27
+# 社 長
+JP もしかしてあの娘のことか？
+EN Could that be her?
+
+@ 3.29
+# 社 長
+JP 話しかけてみるか…。
+EN Let's try talking to her...
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 3.41
+# 桜井 千里
+JP …何か？
+EN ...Yes?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and made her an offer.)
+
+@ 3.51
+# 桜井 千里
+JP …プロレスですか？
+EN ...Pro wrestling?
+
+@ 3.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.61
+# 桜井 千里
+JP あなたの団体で
+JP 私はもっと強くなれるでしょうか？
+EN In your promotion... could I become stronger?
+
+@ 3.64
+# 社 長
+JP うちの団体でがんばれば
+JP 強くなれると思うよ。
+EN If you work hard with us, I think you'll get stronger.
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 桜井 千里
+JP わかりました。
+JP どんな練習にも耐えますので
+JP 私をしごいてください。
+EN Very well. I can endure any training, so drive me as
+EN hard as you like.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.26
+# 桜井 千里
+JP これからよろしくお願いします。
+EN I look forward to working with you.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 桜井 千里
+JP …すみません。
+JP あなたの団体では
+JP 強くなれる気がしません。
+EN ...I'm sorry. I don't feel I could get stronger in your
+EN promotion.
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしか
+JP このあたりだったはずだが…。
+EN Let's see, it should have been around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Excuse me.
+
+@ 6.35
+# 桜井 千里
+JP 先日の社長さん。
+JP またいらしたのですか？
+EN The president from the other day. You came back?
+
+@ 6.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 6.42
+# 桜井 千里
+JP そこまで私のことを
+JP 評価してもらっているのですか…。
+EN You think that highly of me...?
+
+@ 6.45
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.47
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my terms.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 桜井 千里
+JP わかりました。
+JP どんな練習にも耐えますので
+JP 私をしごいてください。
+EN Very well. I can endure any training, so drive me as
+EN hard as you like.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.26
+# 桜井 千里
+JP これからよろしくお願いします。
+EN I look forward to working with you.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 桜井 千里
+JP …すみません。
+JP あなたの団体では
+JP 強くなれる気がしません。
+EN ...I'm sorry. I don't feel I could get stronger in your
+EN promotion.
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は桜井選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Sakurai.
+
+@ 9.25
+# 社 長
+JP 勝利にこだわるあの姿勢を
+JP うちの選手にも見習わさせたい。
+EN I'd like my wrestlers to learn from the way she's so
+EN set on winning.
+
+@ 9.27
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 9.29
+# 社 長
+JP あそこにいるのがそうかな。
+EN Is that her over there?
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 9.41
+# 桜井 千里
+JP …なんですか？
+EN ...What is it?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.51
+# 桜井 千里
+JP あなたの団体に
+JP 移れということですか…。
+EN You're telling me to move to your promotion...
+
+@ 9.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.61
+# 桜井 千里
+JP 移籍ですか…。
+EN A transfer...
+
+@ 9.64
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 9.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 桜井 千里
+JP わかりました。
+JP 強くなるためにあなたのところへ
+JP 行きましょう。
+EN Very well. To become stronger, I will come to you.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.26
+# 桜井 千里
+JP ええ。
+JP よろしくお願いします。
+EN Yes. I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 桜井 千里
+JP すみません…。
+JP 今回の移籍は強くなることに
+JP 繋がらない気がします…。
+EN I'm sorry... I don't think this transfer would make me
+EN any stronger...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 桜井選手が必要だ。
+EN Our promotion really needs Sakurai.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 桜井選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 12.37
+# 桜井 千里
+JP 先日の社長さん？
+JP たしかお断りしたはずですが…？
+EN The president from the other day? I believe I already
+EN turned you down...?
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 12.47
+# 桜井 千里
+JP その言葉は嬉しいのですが…。
+EN I'm glad to hear that, but...
+
+@ 12.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my terms.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 桜井 千里
+JP わかりました。
+JP 強くなるためにあなたのところへ
+JP 行きましょう。
+EN Very well. To become stronger, I will come to you.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.26
+# 桜井 千里
+JP ええ。
+JP よろしくお願いします。
+EN Yes. I look forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 桜井 千里
+JP すみません…。
+JP 今回の移籍は強くなることに
+JP 繋がらない気がします…。
+EN I'm sorry... I don't think this transfer would make me
+EN any stronger...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は桜井選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Sakurai.
+
+@ 15.25
+# 社 長
+JP あのひたむきに勝利を目指す姿は
+JP うちの選手の見本になるはずだ。
+EN The single-minded way she chases victory would set
+EN a fine example for my wrestlers.
+
+@ 15.27
+# 社 長
+JP このあたりにいるはずだけど…。
+EN She should be around here...
+
+@ 15.29
+# 社 長
+JP あそこにいるのがそうかな。
+EN Is that her over there?
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 15.41
+# 桜井 千里
+JP …どなたですか？
+EN ...Who are you?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and made her an offer.)
+
+@ 15.51
+# 桜井 千里
+JP あなたの団体に入団ですか…。
+EN Join your promotion...
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# 桜井 千里
+JP 私は一人で強さを追求していく方が
+JP 向いているのですが…。
+EN I'm better suited to pursuing strength on my own,
+EN though...
+
+@ 15.64
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 桜井 千里
+JP わかりました。
+JP 少しでも力になれるなら…。
+EN Very well. If I can be of even a little help...
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.26
+# 桜井 千里
+JP ええ。
+JP よろしくお願いします。
+EN Yes. I look forward to working with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 桜井 千里
+JP やはり、私ではあなたの力に
+JP なれそうもありません…。
+EN After all, I don't think I'd be of any help to you...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 桜井選手が必要だ。
+EN Our promotion really needs Sakurai.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 桜井選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 18.37
+# 桜井 千里
+JP 先日の社長さん？
+JP 例のお話でしたら
+JP お断りしたはずですが？
+EN The president from the other day? If this is about
+EN that offer, I believe I turned it down.
+
+@ 18.40
+# 社 長
+JP ええ。
+JP ですが、どうしても
+JP うちの団体に入って欲しくて…。
+EN Yes. But I really want you to join our promotion...
+
+@ 18.47
+# 桜井 千里
+JP そこまで熱心に誘っていただけるのは
+JP 嬉しいのですが…。
+EN I'm glad you're so eager to have me, but...
+
+@ 18.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my terms.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 桜井 千里
+JP わかりました。
+JP 少しでも力になれるなら…。
+EN Very well. If I can be of even a little help...
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.26
+# 桜井 千里
+JP ええ。
+JP よろしくお願いします。
+EN Yes. I look forward to working with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 桜井 千里
+JP やはり、私ではあなたの力に
+JP なれそうもありません…。
+EN After all, I don't think I'd be of any help to you...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は桜井を訪ねることにした。
+EN I decided to pay Sakurai a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler our promotion needs, after all.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Oh, there she is!
+
+@ 21.31
+# 社 長
+JP 桜井っ！
+EN Sakurai!
+
+@ 21.41
+# 桜井 千里
+JP …社長…！
+EN ...Boss...!
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# 桜井 千里
+JP …何もお話しすることはありません。
+EN ...I have nothing to say to you.
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you. I want you to
+EN come back...
+
+@ 21.58
+# 桜井 千里
+JP そんな話は都合が良すぎます。
+EN That's far too convenient for you.
+
+@ 21.61
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask, but...
+
+@ 21.63
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 桜井 千里
+JP 過去の仕打ちを忘れろと…？
+EN You want me to forget how you treated me...?
+
+@ 22.18
+# 社 長
+JP どうしても、もう一度
+JP 力を貸して欲しいんだ。
+EN I really need your strength, one more time.
+
+@ 22.29
+# 桜井 千里
+JP …わかりました。
+JP もう一度だけ力をお貸しします。
+EN ...Very well. I will lend you my strength one more time.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 桜井 千里
+JP 過去の仕打ちを忘れろと…？
+EN You want me to forget how you treated me...?
+
+@ 23.18
+# 社 長
+JP どうしても戻って欲しいんだ。
+EN I really want you to come back.
+
+@ 23.29
+# 桜井 千里
+JP 社長の言葉は
+JP もう私の心に響きません…。
+EN Your words don't reach my heart anymore, Boss...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I made my own bed this time, too...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び桜井を訪ねることにした。
+EN I decided to visit Sakurai again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler our promotion needs, after all.
+
+@ 24.27
+# 社 長
+JP 桜井っ！
+EN Sakurai!
+
+@ 24.37
+# 桜井 千里
+JP …社長。
+JP お互いもうムダな話はやめましょう。
+EN ...Boss. Let's both stop wasting our breath.
+
+@ 24.40
+# 社 長
+JP そう言わずに
+JP もう一度話をさせてくれ。
+EN Don't say that. Let me talk to you one more time.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 桜井 千里
+JP 過去の仕打ちを忘れろと…？
+EN You want me to forget how you treated me...?
+
+@ 25.18
+# 社 長
+JP どうしても、もう一度
+JP 力を貸して欲しいんだ。
+EN I really need your strength, one more time.
+
+@ 25.29
+# 桜井 千里
+JP …わかりました。
+JP もう一度だけ力をお貸しします。
+EN ...Very well. I will lend you my strength one more time.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 桜井 千里
+JP 過去の仕打ちを忘れろと…？
+EN You want me to forget how you treated me...?
+
+@ 26.18
+# 社 長
+JP どうしても戻って欲しいんだ。
+EN I really want you to come back.
+
+@ 26.29
+# 桜井 千里
+JP 社長の言葉は
+JP もう私の心に響きません…。
+EN Your words don't reach my heart anymore, Boss...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I made my own bed this time, too...)
+
+@ 27.16
+# scene 028 ケガ小
+# 桜井 千里
+JP ちょうど良い
+JP ハンデが付いた程度です。
+EN Just enough of a handicap to make it interesting.
+
+@ 28.16
+# scene 029 ケガ大
+# 桜井 千里
+JP この程度の傷…クッ…。
+EN A wound like this... Kuh...
+
+@ 29.16
+# scene 030 入院
+# 桜井 千里
+JP クッ…。
+JP 大切な戦いを前にして…。
+EN Kuh... Right before an important fight...
+
+@ 30.16
+# scene 031 退院
+# 桜井 千里
+JP 英気を養うことができました。
+EN I've recharged my energy.
+
+@ 31.16
+# scene 032 ケガ完治
+# 桜井 千里
+JP これで万全の状態で戦えます。
+EN Now I can fight at full strength.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 桜井 千里
+JP もう私は
+JP 戦えないということですね…。
+EN So you're saying I can't fight anymore...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 桜井 千里
+JP 戦って勝つこと
+JP 私からそれを取ったら
+JP 何も残りません！
+EN Fighting and winning... Take that from me, and
+EN there's nothing left!
+
+@ 34.16
+# scene 035 コーチ就任
+# 桜井 千里
+JP 私より優れた戦士を
+JP 育てられるように努力します。
+EN I'll strive to raise fighters greater than myself.
+
+@ 35.16
+# scene 036 ケガ引退
+# 桜井 千里
+JP クッ…。
+JP まだ気持ちは折れていないのに…。
+EN Kuh... And my spirit isn't even broken yet...
+
+@ 36.16
+# scene 037 年齢引退
+# 桜井 千里
+JP 戦えない戦士に意味はないですね…。
+EN A warrior who can't fight has no meaning...
+
+@ 37.16
+# scene 038 退団
+# 桜井 千里
+JP 私の戦いの場は
+JP ここではなかったようです。
+EN It seems this wasn't my battlefield after all.
+
+@ 38.16
+# scene 039 スランプ
+# 桜井 千里
+JP どうして…。
+EN Why...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 桜井 千里
+JP 私のような者を
+JP 応援してくれる人がいると…？
+EN There are people who'd cheer for someone like me...?
+
+@ 39.19
+# 社 長
+JP 応援に負けないように
+JP がんばれよ。
+EN Give it your all, so you live up to their cheering.
+
+@ 39.26
+# 桜井 千里
+JP 私は戦うことしか
+JP できませんから…。
+EN Fighting is all I know how to do...
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 桜井 千里
+JP また…ですか…？
+EN Again...?
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Make sure you live up to their expectations.
+
+@ 40.26
+# 桜井 千里
+JP なぜだろう…。
+JP 心が熱くなってくる…。
+EN I wonder why... My heart feels warm...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 桜井 千里
+JP これが自然なことです。
+EN This is only natural.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just give it your best
+EN again.
+
+@ 41.26
+# 桜井 千里
+JP 私は戦い続けるだけです。
+EN I'll simply keep on fighting.
+
+@ 42.16
+# scene 043 映画出演
+# 桜井 千里
+JP こんなことに時間を割いている
+JP 場合ではないのですが…。
+EN I don't have time to waste on things like this...
+
+@ 43.16
+# scene 044 一日署長
+# 桜井 千里
+JP 練習の時間が
+JP 削られないか心配です。
+EN I'm worried it will cut into my training time.
+
+@ 44.16
+# scene 045 写真集発売
+# 桜井 千里
+JP バッ、バカバカしい…。
+EN R-ridiculous...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 桜井 千里
+JP 私は人気者になりたいのではなく
+JP 強くなりたいのです。
+EN I don't want to be popular. I want to be strong.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 桜井 千里
+JP 冗談も程々にしてください！
+EN Don't push your joke too far!
+
+@ 47.16
+# scene 048 始球式
+# 桜井 千里
+JP 戦いに備えなければ
+JP いけないときに…。
+EN At a time when I need to be preparing for battle...
+
+@ 48.16
+# scene 049 学園祭
+# 桜井 千里
+JP 強くなることと関係ないのでは？
+EN What does this have to do with getting stronger?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.37
+# 桜井 千里
+JP …えっ？
+EN ...Huh?
+
+@ 49.40
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.48
+# 桜井 千里
+JP あ、ありがとうございます…。
+EN Th-thank you very much...
+
+@ 50.32
+# scene 051 バレンタインデー
+# 桜井 千里
+JP 社長…。
+JP こ、これを…。
+EN Boss... Th-this is...
+
+@ 50.35
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Ah, chocolate. Thank you.
+
+@ 50.39
+# 桜井 千里
+JP は、早めに忘れてください…。
+EN P-please forget about it as soon as you can...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# 桜井 千里
+JP わ、私は見返りを
+JP 求めていた訳では…！
+EN I-I wasn't expecting anything in return...!
+
+@ 51.41
+# 社 長
+JP まぁ練習の合間にでも食べてくれ。
+EN Well, have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# 桜井 千里
+JP 応援ありがとうございます。
+EN Thank you for your support.
+
+@ 53.31
+# scene 054 コンサート
+# 桜井 千里
+JP こんなことをしている場合では…。
+EN I don't have time for this...
+
+@ 54.28
+# scene 055 練習拒否
+# 桜井 千里
+JP 自主トレの方がマシです！
+EN I'd rather train on my own!
+
+@ 55.28
+# scene 056 失踪
+# 桜井 千里
+JP しばらく戻りません…。
+EN I won't be back for a while...
+
+@ 56.16
+# scene 057 選手解雇
+# 桜井 千里
+JP 別の戦いの場を探すことにします。
+EN I'll go find another place to fight.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 桜井 千里
+JP 世界を相手に戦ってきます。
+EN I'm off to take on the world.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 桜井 千里
+JP 世界というものを
+JP 肌で感じることができました。
+EN I got to feel what the world is like firsthand.
+
+@ 59.28
+# scene 060 移籍思案
+# 桜井 千里
+JP 戦いの場はここだけではないか…。
+EN This isn't the only place I can fight...
+
+@ 60.16
+# scene 061 革命軍結成
+# 桜井 千里
+JP もう、ぬるま湯に
+JP つかっているときではない！
+EN This is no time to be soaking in lukewarm water!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 桜井 千里
+JP 熾烈な戦いは覚悟の上です！
+EN I'm ready for a fierce battle!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 桜井 千里
+JP 決戦のときが来たようです！
+EN It seems the time for the decisive battle has come!
+
+@ 63.16
+# scene 064 遺恨発生
+# 桜井 千里
+JP クッ…。
+JP 借りは必ず返します。
+EN Kuh... I will pay this back, without fail.
+
+@ 64.16
+# scene 065 殴り込み
+# 桜井 千里
+JP たとえ敵地でも、必ず倒してきます！
+EN Enemy territory or not, I'll take them down!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 桜井 千里
+JP 歯向かう者に容赦はしない！
+EN No mercy for those who defy us!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 桜井 千里
+JP 私と渡り合える者はいるのか？
+EN Is there anyone here who can stand up to me?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 桜井 千里
+JP この舞台で
+JP 勝利を掴み取ってみせる！
+EN On this stage, I will seize victory!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 桜井 千里
+JP これが私が求めてきたもの…。
+EN This is what I've been searching for...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 桜井 千里
+JP 私はこんなところで…。
+EN To fall in a place like this...
+
+@ 70.13
+# scene 071 引退式
+# 桜井 千里
+JP 私は今このときに
+JP 本当の勝利というものを
+JP 手にしたのかもしれない…。
+EN Perhaps right now, at this very moment, I've finally
+EN grasped what true victory is...
+
+@ 71.18
+# 桜井 千里
+JP 何か？
+EN Yes?
+
+@ 71.37
+# 桜井 千里
+JP なんでしょうか？
+EN What is it?
+
+@ 71.47
+# 桜井 千里
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# 桜井 千里
+JP そうですね。
+JP 勝つことが私に力を与えて
+JP くれているようです。
+EN Yes. It seems winning is giving me strength.
+
+@ 71.111
+# 桜井 千里
+JP 調子なんて関係ありません。
+JP 勝つための絶対的な力が
+JP 必要なのです。
+EN Form has nothing to do with it. What I need is
+EN absolute strength to win.
+
+@ 71.132
+# 桜井 千里
+JP あ、ありがとうございます。
+JP がんばります。
+EN Th-thank you very much. I'll do my best.
+
+@ 71.153
+# 桜井 千里
+JP 調子に左右されているようでは…。
+JP 実力がたりない証拠です。
+EN If I'm swayed by my form... it only proves I lack real
+EN ability.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 桜井 千里
+JP すみません…。
+JP 油断があったのかもしれません。
+EN I'm sorry... Perhaps I let my guard down.
+
+@ 71.211
+# 桜井 千里
+JP 私は強くなることを
+JP 誰よりも追求しているつもりです！
+EN I believe I pursue strength harder than anyone!
+
+@ 71.232
+# 桜井 千里
+JP 社長には…すべてを
+JP 見透かされているようですね…。
+EN It seems you see right through me, Boss...
+
+@ 71.253
+# 桜井 千里
+JP 私の努力不足ということでしょうね。
+EN I suppose it means I'm not trying hard enough.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# 桜井 千里
+JP ありがとうございます。
+JP 大丈夫です。
+EN Thank you very much. I'm all right.
+
+@ 71.311
+# 桜井 千里
+JP 心配いりません。
+JP 少し疲れが出ただけです。
+EN No need to worry. I'm just a little tired.
+
+@ 71.332
+# 桜井 千里
+JP そんな…。
+JP だ、大丈夫です。
+EN Oh, no... I-I'm all right.
+
+@ 71.353
+# 桜井 千里
+JP 少し疲れが出ただけですから…。
+EN I'm just a little tired, that's all...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 桜井 千里
+JP …何か？
+EN ...What is it?
+
+@ 71.400
+# 桜井 千里
+JP 何か？
+EN What is it?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 桜井 千里
+JP わかりました。
+JP ムダな労力を費やすことはやめます。
+EN Understood. I'll stop wasting energy on it.
+
+@ 71.454
+# 桜井 千里
+JP 当事者同士で解決する問題です。
+EN That's a problem for the two of us to settle.
+
+@ 71.475
+# 桜井 千里
+JP …社長？
+JP 何を言っているのですか？
+EN ...Boss? What are you talking about?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 桜井 千里
+JP …ど、どうしました？
+EN ...Wh-what's the matter?
+
+@ 71.522
+# 桜井 千里
+JP どうしました？
+EN What's the matter?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 桜井 千里
+JP しゃ、社長の頼みでしたら
+JP そうします。
+EN I-if you're asking, Boss, then I will.
+
+@ 71.578
+# 桜井 千里
+JP そのうち時間が
+JP 解決してくれます。
+EN Time will settle it eventually.
+
+@ 71.599
+# 桜井 千里
+JP 社長、大丈夫ですか？
+EN Boss, are you feeling all right?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 桜井 千里
+JP なんでしょうか？
+EN What is it?
+
+@ 72.16
+# 桜井 千里
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 桜井 千里
+JP そうですね。
+JP 勝つことが私に力を与えて
+JP くれているようです。
+EN Yes. It seems winning is giving me strength.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 桜井 千里
+JP 調子なんて関係ありません。
+JP 勝つための絶対的な力が
+JP 必要なのです。
+EN Form has nothing to do with it. What I need is
+EN absolute strength to win.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 桜井 千里
+JP あ、ありがとうございます。
+JP がんばります。
+EN Th-thank you very much. I'll do my best.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 桜井 千里
+JP 調子に左右されているようでは…。
+JP 実力がたりない証拠です。
+EN If I'm swayed by my form... it only proves I lack real
+EN ability.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 桜井 千里
+JP すみません…。
+JP 油断があったのかもしれません。
+EN I'm sorry... Perhaps I let my guard down.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 桜井 千里
+JP 私は強くなることを誰よりも
+JP 追求しているつもりです！
+EN I believe I pursue strength harder than anyone!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 桜井 千里
+JP 社長には…すべてを見透かされている
+JP ようですね…。
+EN It seems you see right through me, Boss...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 桜井 千里
+JP 私の努力不足ということでしょうね。
+EN I suppose it means I'm not trying hard enough.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 桜井 千里
+JP ありがとうございます。
+JP 大丈夫です。
+EN Thank you very much. I'm all right.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 桜井 千里
+JP 心配いりません。
+JP 少し疲れが出ただけです。
+EN No need to worry. I'm just a little tired.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 桜井 千里
+JP そんな…。だ、大丈夫です。
+EN Oh, no... I-I'm all right.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 桜井 千里
+JP 少し疲れが出ただけですから…。
+EN I'm just a little tired, that's all...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 桜井 千里
+JP …何か？
+EN ...What is it?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 桜井 千里
+JP 何か？
+EN What is it?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 桜井 千里
+JP わかりました。
+JP ムダな労力を費やすことはやめます。
+EN Understood. I'll stop wasting energy on it.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 桜井 千里
+JP 当事者同士で解決する問題です。
+EN That's a problem for the two of us to settle.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 桜井 千里
+JP …社長？何を言っているのですか？
+EN ...Boss? What are you talking about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 桜井 千里
+JP …ど、どうしました？
+EN ...Wh-what's the matter?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 桜井 千里
+JP どうしました？
+EN What's the matter?
+
+@ 98.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 桜井 千里
+JP しゃ、社長の頼みでしたら、
+JP そうします。
+EN I-if you're asking, Boss, then I will.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 桜井 千里
+JP そのうち時間が解決してくれます。
+EN Time will settle it eventually.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 桜井 千里
+JP 社長、大丈夫ですか？
+EN Boss, are you feeling all right?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 桜井 千里
+JP ありがとうございます。
+JP これで戦いに打ち込めます。
+EN Thank you very much. Now I can devote myself to
+EN fighting.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 桜井 千里
+JP これで安心して
+JP 戦いに打ち込めそうです。
+EN Now I can devote myself to fighting without worry.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 桜井 千里
+JP ………………。
+EN ..................
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this is the tropics for you. The sun is
+EN scorching.)
+
+@ 105.34
+# 社 長
+JP （俺もゆっくり休ませてもらうか…）
+EN (Guess I'll take it easy and relax, too...)
+
+@ 105.44
+# 桜井 千里
+JP 社長…。
+EN Boss...
+
+@ 105.47
+# 社 長
+JP …んっ、桜井か？
+JP どうした？
+EN ...Hm, Sakurai? What's up?
+
+@ 105.51
+# 桜井 千里
+JP 社長、私もみんなのように
+JP 水着に着替えないといけないですか？
+EN Boss, do I have to change into a swimsuit like
+EN everyone else?
+
+@ 105.54
+# 社 長
+JP 着替えないといけないことは
+JP ないが…。
+EN You don't have to, but...
+
+@ 105.56
+# 社 長
+JP バカンスなんだし
+JP 泳いで楽しんだ方が
+JP いいんじゃないか？
+EN We're on vacation. Wouldn't it be more fun to go for
+EN a swim?
+
+@ 105.63
+# 桜井 千里
+JP そうですか…。
+JP わかりました。
+EN I see... Understood.
+
+@ 105.71
+# 社 長
+JP （今度こそゆっくりするか…）
+EN (Now I can finally relax...)
+
+@ 105.88
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.105
+# 社 長
+JP （…んっ？
+JP 　なんだか向こうが騒がしいな）
+EN (...Hm? It's getting noisy over there.)
+
+@ 105.107
+# 社 長
+JP （ちょっと行ってみるか）
+EN (Let's go take a look.)
+
+@ 105.136
+# カメラ小僧Ａ
+JP おねーさん、寝そべってみて！
+EN Hey, miss, lie down for us!
+
+@ 105.138
+# カメラ小僧Ｂ
+JP 何言ってんの！
+JP 次は雌豹のポーズでしょ！
+EN What are you saying? Next up is the panther pose!
+
+@ 105.164
+# 桜井 千里
+JP …おっ、おまえたち！
+JP な、何を言っている！
+EN ...Y-you people! Wh-what are you saying?!
+
+@ 105.167
+# カメラ小僧Ｃ
+JP こっちに視線お願いしまーす！
+EN Eyes over here, pleeease!
+
+@ 105.189
+# 桜井 千里
+JP や、やめろ。
+JP こんな格好のときに写真を撮るな！
+EN S-stop it. Don't take pictures of me dressed like
+EN this!
+
+@ 105.192
+# 社 長
+JP （やれやれ…。
+JP 　なんか即席の撮影会に
+JP 　なってるな）
+EN (Good grief... It's turned into an impromptu photo
+EN shoot.)
+
+@ 105.201
+# 社 長
+JP まったく仕方ないな…。
+EN Honestly, what a pain...
+
+@ 105.203
+# 社 長
+JP 悪い、こいつはうちの選手で
+JP 今はプライベートの時間だから
+JP 写真はやめてくれ。
+EN Sorry, she's one of my wrestlers, and this is her
+EN private time. No pictures, please.
+
+@ 105.205
+# カメラ小僧Ａ
+JP なんだよ。
+JP 男連れかよ。
+EN What the heck? She's got a guy with her.
+
+@ 105.207
+# カメラ小僧Ｂ
+JP …ちぇ。
+JP 帰るか…。
+EN ...Tch. Let's go...
+
+@ 105.216
+# 社 長
+JP ほら、いなくなったぞ。
+EN There, they're gone.
+
+@ 105.226
+# 桜井 千里
+JP …ハァ～……。
+JP 助かりました…。
+EN ...Haaah...... Thank you for the help...
+
+@ 105.229
+# 社 長
+JP いったいどうしたんだ？
+EN What on earth happened?
+
+@ 105.233
+# 桜井 千里
+JP 水着に着替えて戻ったら
+JP 急に囲まれて…。
+EN I came back in my swimsuit, and suddenly they
+EN surrounded me...
+
+@ 105.236
+# 社 長
+JP （まぁ、このプロポーションなら
+JP 　写真を撮りたくなる気持ちも
+JP 　少しわかるな…）
+EN (Well, with a figure like hers, I can sort of see why
+EN they'd want pictures...)
+
+@ 105.246
+# 桜井 千里
+JP そんなに…見ないでください…。
+EN Please... don't stare at me like that...
+
+@ 105.249
+# 社 長
+JP あー、悪い、悪い。
+EN Ah, sorry, sorry.
+
+@ 105.251
+# 社 長
+JP でも似合ってるぞ、その水着。
+EN But that swimsuit looks good on you.
+
+@ 105.261
+# 桜井 千里
+JP …えっ！？
+EN ...What?!
+
+@ 105.264
+# 社 長
+JP それにその髪型も新鮮でいいしな。
+EN And that hairstyle's a nice change, too.
+
+@ 105.274
+# 桜井 千里
+JP …その…。
+JP あ、ありがとう…ございます。
+EN ...Um... Th-thank you...very much.
+
+@ 105.277
+# 社 長
+JP 水着は着慣れてないのか？
+EN You're not used to wearing swimsuits?
+
+@ 105.281
+# 桜井 千里
+JP あまり着ることがないですから…。
+EN I don't wear them very often...
+
+@ 105.284
+# 社 長
+JP そうか。
+JP でも、惜しいことしたな…。
+EN I see. Still, what a missed chance...
+
+@ 105.294
+# 桜井 千里
+JP …えっ？
+JP 何がですか？
+EN ...Huh? What is?
+
+@ 105.297
+# 社 長
+JP いや、さっき撮ってた写真を
+JP １枚もらっておけば良かったと
+JP 思ってな…。
+EN Well, I should've gotten one of those pictures they
+EN were taking...
+
+@ 105.307
+# 桜井 千里
+JP バ、バカなこと
+JP 言わないでください…。
+EN D-don't say such stupid things...
+
+@ 105.310
+# 社 長
+JP いや、ホントに…。
+EN No, really...
+
+@ 105.320
+# 桜井 千里
+JP まったく男の人は…。
+EN Honestly, men...
+
+@ 105.323
+# 社 長
+JP …ん？
+JP 何か言ったか？
+EN ...Hm? Did you say something?
+
+@ 105.333
+# 桜井 千里
+JP な、何も言ってません！
+JP は、早くみんなのところに
+JP 戻りましょう。
+EN N-nothing at all! L-let's hurry back to everyone.
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （これで今日の仕事も終わりか…）
+EN (That's it for today's work...)
+
+@ 106.26
+# 社 長
+JP （ジムを見回って帰るか）
+EN (I'll check on the gym and head home.)
+
+@ 106.28
+# 社 長
+JP （まだ明かりがついてるな）
+EN (The lights are still on.)
+
+@ 106.43
+# 社 長
+JP （…んっ？
+JP 　あれは桜井か？）
+EN (...Hm? Is that Sakurai?)
+
+@ 106.45
+# 社 長
+JP 桜井、まだいたのか？
+EN Sakurai, you're still here?
+
+@ 106.54
+# 桜井 千里
+JP …あっ、社長？
+EN ...Oh, Boss?
+
+@ 106.57
+# 社 長
+JP どうかしたのか？
+EN Is something wrong?
+
+@ 106.64
+# 桜井 千里
+JP いえ…別に…。
+EN No... Not really...
+
+@ 106.67
+# 社 長
+JP 別にっていう顔じゃないだろ？
+JP 何かあったのなら話してみろ。
+EN That's not a "not really" face. If something
+EN happened, talk to me.
+
+@ 106.71
+# 桜井 千里
+JP ………………。
+EN ..................
+
+@ 106.74
+# 社 長
+JP 話さないとわからないだろ？
+EN I can't help if you don't tell me.
+
+@ 106.78
+# 桜井 千里
+JP …私は…。
+JP 私はここに入ってから
+JP 強くなっていない気がします…。
+EN ...I... Since I joined here, I don't feel like I've gotten
+EN any stronger...
+
+@ 106.81
+# 社 長
+JP そんなことはない。
+JP おまえは確実に成長しているぞ。
+EN That's not true. You're definitely improving.
+
+@ 106.85
+# 桜井 千里
+JP そんな言葉は信じられません…。
+EN I can't believe words like that...
+
+@ 106.89
+# 桜井 千里
+JP すいません…。
+JP 失礼します。
+EN I'm sorry... Excuse me.
+
+@ 106.97
+# 社 長
+JP …あっ、待て、桜井！
+EN ...Ah, wait, Sakurai!
+
+@ 106.99
+# 社 長
+JP （俺は思わず立ち去ろうとする
+JP 　桜井の手を掴んだ）
+EN (Without thinking, I grabbed Sakurai's hand as she
+EN tried to leave.)
+
+@ 106.112
+# 桜井 千里
+JP …あっ！？
+EN ...Ah?!
+
+@ 106.131
+# 社 長
+JP （そのはずみで…）
+EN (And in the momentum...)
+
+@ 106.133
+# 社 長
+JP （俺は桜井を
+JP 　抱きかかえる格好になった…）
+EN (I ended up holding Sakurai in my arms...)
+
+@ 106.136
+# 社 長
+JP …あっ。
+JP すまない…。
+EN ...Oh. I'm sorry...
+
+@ 106.146
+# 桜井 千里
+JP …いえ…。
+JP だ、大丈夫です…。
+EN ...No... I-it's all right...
+
+@ 106.149
+# 社 長
+JP 桜井、聞いてくれ。
+JP おまえは強くなっているから
+JP 心配しなくて大丈夫だ。
+EN Sakurai, listen. You're getting stronger, so you
+EN don't need to worry.
+
+@ 106.159
+# 桜井 千里
+JP そうでしょうか…？
+EN Do you really think so...?
+
+@ 106.162
+# 社 長
+JP 俺が保証してやるから安心しろ。
+EN I guarantee it, so don't worry.
+
+@ 106.166
+# 桜井 千里
+JP …………。
+EN ............
+
+@ 106.176
+# 桜井 千里
+JP ……………………。
+EN ........................
+
+@ 106.186
+# 桜井 千里
+JP 私はこんな性格ですから
+JP ただ強くなることを目指して、他人と
+JP 接点を持とうとは思いませんでした…。
+EN With a personality like mine, all I aimed for was
+EN strength. I never tried to connect with others...
+
+@ 106.190
+# 桜井 千里
+JP 人に頼らないこと…。
+JP 強くなるためには、それが一番いいと
+JP 思っていました…。
+EN Never relying on anyone... I thought that was the
+EN best way to get stronger...
+
+@ 106.194
+# 桜井 千里
+JP ですが、この団体は…。
+JP 特に社長は…。
+EN But this promotion... And you especially, Boss...
+
+@ 106.197
+# 社 長
+JP 桜井…。
+EN Sakurai...
+
+@ 106.207
+# 桜井 千里
+JP すいません…。
+JP 失礼します…。
+EN I'm sorry... Excuse me...
+
+@ 106.226
+# 社 長
+JP あっ…。
+EN Ah...
+
+@ 106.233
+# 社 長
+JP （そうして、桜井は去っていった）
+EN (And with that, Sakurai left.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （これで今日の仕事も終わりか…）
+EN (That's it for today's work...)
+
+@ 107.26
+# 社 長
+JP （ジムを見回って帰るか）
+EN (I'll check on the gym and head home.)
+
+@ 107.28
+# 社 長
+JP （まだ明かりがついてるな）
+EN (The lights are still on.)
+
+@ 107.43
+# 社 長
+JP （…んっ？
+JP 　あれは桜井か？）
+EN (...Hm? Is that Sakurai?)
+
+@ 107.45
+# 社 長
+JP 桜井、まだいたのか？
+EN Sakurai, you're still here?
+
+@ 107.55
+# 桜井 千里
+JP …あっ、社長？
+EN ...Oh, Boss?
+
+@ 107.58
+# 社 長
+JP どうかしたのか？
+EN Is something wrong?
+
+@ 107.65
+# 桜井 千里
+JP いえ…別に…。
+EN No... Not really...
+
+@ 107.68
+# 社 長
+JP 何かあったのなら話してみろ。
+EN If something happened, talk to me.
+
+@ 107.72
+# 桜井 千里
+JP ………………。
+EN ..................
+
+@ 107.75
+# 社 長
+JP 話さないとわからないだろ？
+EN I can't help if you don't tell me.
+
+@ 107.79
+# 桜井 千里
+JP 私は…。
+JP 私はこの団体を
+JP 退団しようと思います…。
+EN I... I'm thinking of leaving this promotion...
+
+@ 107.82
+# 社 長
+JP …えっ！？
+JP どうしたんだ、急に？
+EN ...What?! Where's this coming from all of a sudden?
+
+@ 107.86
+# 桜井 千里
+JP すいません…。
+JP 失礼します。
+EN I'm sorry... Excuse me.
+
+@ 107.95
+# 社 長
+JP あっ、待て、桜井！
+EN Ah, wait, Sakurai!
+
+@ 107.97
+# 社 長
+JP （俺は思わず立ち去ろうとする
+JP 　桜井の手を掴んだ）
+EN (Without thinking, I grabbed Sakurai's hand as she
+EN tried to leave.)
+
+@ 107.110
+# 桜井 千里
+JP …あっ！？
+EN ...Ah?!
+
+@ 107.126
+# 社 長
+JP （そのはずみで…）
+EN (And in the momentum...)
+
+@ 107.128
+# 社 長
+JP （俺は桜井を
+JP 　抱きかかえる格好になった…）
+EN (I ended up holding Sakurai in my arms...)
+
+@ 107.131
+# 社 長
+JP …あっ。
+JP すまん。
+EN ...Oh. Sorry.
+
+@ 107.141
+# 桜井 千里
+JP …いえ…。
+JP だ、大丈夫です…。
+EN ...No... I-it's all right...
+
+@ 107.144
+# 社 長
+JP 桜井、せめて理由だけでも
+JP 聞かせてくれないか？
+EN Sakurai, won't you at least tell me why?
+
+@ 107.154
+# 桜井 千里
+JP 私は今まで強くあるために
+JP 守るべきものを持ちませんでした。
+EN Until now, to stay strong, I never had anything to
+EN protect.
+
+@ 107.158
+# 桜井 千里
+JP …ですが、この団体に入ってから
+JP 私には守るべきものが
+JP できてしまいました…。
+EN ...But since joining this promotion, I've come to have
+EN something I want to protect...
+
+@ 107.161
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.165
+# 桜井 千里
+JP それに社長は
+JP 今までの男の人と違って
+JP 私の心の中にどんどん入ってきて…。
+EN And you, Boss... Unlike other men, you keep finding
+EN your way deeper into my heart...
+
+@ 107.168
+# 社 長
+JP 桜井、聞いてくれ。
+EN Sakurai, listen to me.
+
+@ 107.170
+# 社 長
+JP おまえは決して
+JP 弱くなんてなっていない。
+EN You haven't gotten weaker. Not one bit.
+
+@ 107.172
+# 社 長
+JP 守ることができたことは
+JP おまえが成長した証だ。
+JP おまえは前よりずっと強くなっている。
+EN Having something to protect is proof you've grown.
+EN You're much stronger than before.
+
+@ 107.174
+# 社 長
+JP それに本当に
+JP おまえが弱くなったというなら
+JP 俺がお前を守ってやる！
+EN And if you really have gotten weaker, then I'll
+EN protect you!
+
+@ 107.184
+# 桜井 千里
+JP ……………ッ！
+EN ...............!
+
+@ 107.187
+# 社 長
+JP ど、どうした、桜井？
+JP 俺なんか悪いこと言ったか！？
+EN Wh-what's wrong, Sakurai? Did I say something bad?!
+
+@ 107.191
+# 桜井 千里
+JP …い、いえ。
+JP なんでもありません。
+JP ただ、急に涙が…。
+EN ...N-no. It's nothing. Tears just came out all of a
+EN sudden...
+
+@ 107.194
+# 社 長
+JP そ、そうか…。
+JP ならよかった。
+EN I-I see... Good, then.
+
+@ 107.196
+# 社 長
+JP …あっ、さっき俺がどうかしたと
+JP 言ってたような気がしたが
+JP あれはどういう意味だ？
+EN ...Oh, I think you said something about me a moment
+EN ago. What did you mean by that?
+
+@ 107.206
+# 桜井 千里
+JP …それは…もういいです…。
+EN ...That's... never mind...
+
+@ 107.209
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 107.211
+# 社 長
+JP 桜井。
+JP これからも俺と一緒に
+JP がんばってくれないか？
+EN Sakurai. Will you keep going with me from here on?
+
+@ 107.215
+# 桜井 千里
+JP …はい、社長。
+EN ...Yes, Boss.
+
+@ 108.16
+# scene 113 練習開始
+# 桜井 千里
+JP 勝つために
+JP 今日もベストを尽くします。
+EN I'll do my best today too, so I can win.
+
+@ 109.16
+# scene 114 練習開始 好意
+# 桜井 千里
+JP き、今日もよろしくお願いします…。
+EN I-I'm in your hands again today...
+
+@ 110.16
+# scene 115 特訓開始
+# 桜井 千里
+JP 勝つためには
+JP 試練を超えてみせます！
+EN To win, I'll overcome any trial!
+
+@ 111.20
+# scene 116 特訓成功
+# 桜井 千里
+JP よし！
+JP これならいける！
+EN Yes! This will work!
+
+@ 112.20
+# scene 117 特訓失敗
+# 桜井 千里
+JP クッ…。
+JP こんな試練も
+JP 乗り越えられないとは…。
+EN Kuh... I couldn't even overcome a trial like this...
+
+@ 113.16
+# scene 118 休養
+# 桜井 千里
+JP 急に休みと言われても…。
+JP 練習してはいけませんか？
+EN A day off, all of a sudden...? Can't I train?
+
+@ 114.16
+# scene 119 入場1
+# 桜井 千里
+JP 一戦必勝、今日も勝ちます！
+EN Every fight is one I must win. I'll win today too!
+
+@ 115.16
+# scene 119 入場2
+# 桜井 千里
+JP 自分の力を信じて
+JP 今日の勝利を掴み取る！
+EN I'll trust in my own strength and seize today's
+EN victory!
+
+@ 116.16
+# scene 125 必殺技１
+# 桜井 千里
+JP この技であなたを仕留めてみせます！
+EN I'll finish you with this move!
+
+@ 117.16
+# scene 125 必殺技２
+# 桜井 千里
+JP あなたでは私を止めることは
+JP できない！
+EN You can't stop me!
+
+@ 118.16
+# scene 125 必殺技３
+# 桜井 千里
+JP 立ちはだかる者は倒すのみ！
+EN Whoever stands in my way, I'll defeat!
+
+@ 119.12
+# scene 126 勝利1
+# 桜井 千里
+JP 私を見くびってもらっては
+JP 困ります。
+EN Don't underestimate me.
+
+@ 120.12
+# scene 126 勝利2
+# 桜井 千里
+JP 流した汗は
+JP 誰にも負けないつもりです。
+EN No one has shed more sweat than I have.
+
+@ 121.12
+# scene 126 勝利3
+# 桜井 千里
+JP やはり最後に立っていたのは
+JP 私でしたね。
+EN As expected, I was the last one standing.
+
+@ 122.15
+# scene 133 表彰1
+# 桜井 千里
+JP 日々の練習の
+JP ご褒美のようなものですね。
+EN I suppose it's a reward for my daily training.
+
+@ 123.15
+# scene 133 表彰2
+# 桜井 千里
+JP 私はこういう舞台は苦手なので…。
+JP 練習がありますから失礼します。
+EN I'm not good with stages like this... I have training, so
+EN please excuse me.
+
+@ 124.12
+# scene 134 優勝1
+# 桜井 千里
+JP 努力は報われる…。
+JP 今回はそれを証明できました。
+EN Hard work pays off... This time, I proved it.
+
+@ 125.12
+# scene 134 優勝２
+# 桜井 千里
+JP どんな苦しい試合でも
+JP 練習という土台があれば
+JP 乗り越えられます！
+EN With a foundation of training, I can overcome any
+EN match, however tough!
+
+@ 126.24
+# scene 135 エンディング 通常
+# 桜井 千里
+JP 社長、おめでとうございます。
+JP これからも私をしごいてください。
+EN Congratulations, Boss. Please keep driving me hard
+EN from here on.
+
+@ 127.24
+# scene 136 エンディング 好意
+# 桜井 千里
+JP あなたが悪いのです…。
+JP 私の心に入ってくるから…。
+JP せ、責任は取ってもらいます…。
+EN It's your fault... You came into my heart... Y-you're
+EN going to take responsibility...

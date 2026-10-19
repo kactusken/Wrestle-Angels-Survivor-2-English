@@ -1,0 +1,185 @@
+{
+ "english": "Start Match | Skip | Watch | Start Match | Skip | Watch",
+ "boxes": [
+  [
+   5,
+   114,
+   87,
+   18
+  ],
+  [
+   9,
+   150,
+   77,
+   20
+  ],
+  [
+   20,
+   181,
+   56,
+   22
+  ],
+  [
+   101,
+   114,
+   87,
+   18
+  ],
+  [
+   104,
+   150,
+   80,
+   20
+  ],
+  [
+   110,
+   181,
+   66,
+   22
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "cap": 13,
+ "same_size": true,
+ "draw": "audit.draw",
+ "ground": "rows",
+ "reach": 1,
+ "grad": true,
+ "groups": [
+  {
+   "labels": [
+    0
+   ],
+   "fill": [
+    9,
+    11,
+    13,
+    14
+   ],
+   "ring": [
+    5
+   ],
+   "ground_skip": [
+    3,
+    5,
+    8,
+    6,
+    7
+   ]
+  },
+  {
+   "labels": [
+    1
+   ],
+   "fill": [
+    10,
+    11,
+    13,
+    14
+   ],
+   "ring": [
+    5
+   ],
+   "ground_skip": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "labels": [
+    2
+   ],
+   "fill": [
+    10,
+    11,
+    13,
+    14
+   ],
+   "ring": [
+    5
+   ],
+   "ground_skip": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "labels": [
+    3
+   ],
+   "fill": [
+    10,
+    12
+   ],
+   "ring": [
+    8
+   ],
+   "ground_skip": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "labels": [
+    4
+   ],
+   "fill": [
+    10
+   ],
+   "ring": [
+    6
+   ],
+   "ground_skip": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "labels": [
+    5
+   ],
+   "fill": [
+    10
+   ],
+   "ring": [
+    6,
+    2,
+    2
+   ],
+   "ground_skip": [
+    4
+   ],
+   "ground_cols": [
+    105,
+    106,
+    107
+   ],
+   "reach": 3
+  }
+ ],
+ "catalogue": {
+  "source": "/BATTLE/BT_LIST.BIN",
+  "width": 256,
+  "height": 256,
+  "bpp": 4,
+  "category": "button",
+  "japanese": "試合開始 否観戦 観戦 (2 states each; COM/AUTO/S-AUTO/MANUAL already English)"
+ },
+ "notes": "match start screen buttons (picture 0 of BATTLE/BT_LIST.BIN, not a .GSL: needs gfx.py support for .BIN containers); 4bpp, multi-row CLUT"
+}

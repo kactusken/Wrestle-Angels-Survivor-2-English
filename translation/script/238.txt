@@ -1,0 +1,89 @@
+# /SCR/238.BIN - ユン・メイファ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 238` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ユン・メイファ
+JP テコンドー、サイコー！
+EN Taekwondo is the best!
+
+@ 1.16
+# scene 119 入場1
+# ユン・メイファ
+JP ドキドキしてきたー！
+EN My heart's pounding!
+
+@ 2.16
+# scene 119 入場2
+# ユン・メイファ
+JP 足技ならテコンドーが世界一よ！
+EN When it comes to kicks, taekwondo is number one in
+EN the world!
+
+@ 3.16
+# scene 125 必殺技１
+# ユン・メイファ
+JP これでもくらえー！
+EN Take this!
+
+@ 4.16
+# scene 125 必殺技２
+# ユン・メイファ
+JP 必殺の打撃受けてみろー！
+EN Take my deadly strike!
+
+@ 5.16
+# scene 125 必殺技３
+# ユン・メイファ
+JP 蹴って蹴って蹴りまくるっ！
+EN Kick, kick, and kick some more!
+
+@ 6.12
+# scene 126 勝利1
+# ユン・メイファ
+JP 楽勝、楽勝―っ！
+EN Easy, easy!
+
+@ 7.12
+# scene 126 勝利2
+# ユン・メイファ
+JP いい試合だったね！
+EN That was a good match!
+
+@ 8.12
+# scene 126 勝利3
+# ユン・メイファ
+JP まだまだ修行がたりないね！
+EN You still need more training!
+
+@ 9.15
+# scene 133 表彰1
+# ユン・メイファ
+JP これからもがんばって練習します！
+EN I'll keep training hard!
+
+@ 10.15
+# scene 133 表彰2
+# ユン・メイファ
+JP これからも応援よろしくね！
+EN Please keep cheering for me!
+
+@ 11.12
+# scene 134 優勝1
+# ユン・メイファ
+JP やったね！
+JP みんな応援アリガトー！
+EN Yay! Thanks for cheering, everybody!
+
+@ 12.12
+# scene 134 優勝２
+# ユン・メイファ
+JP これからも突っ走っていくよー！
+EN I'm gonna keep charging ahead!

@@ -1,0 +1,2259 @@
+# /SCR/016.BIN - 藤島 瞳
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 016` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 藤島 瞳
+JP アイドル候補の藤島です。
+JP 入団させないと損するわよ？
+EN I'm Fujishima, future idol. You'll be sorry if you don't
+EN sign me, you know?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 藤島 瞳
+JP ありがとう！
+JP お礼にとびきりの笑顔を
+JP プレゼントしてあげるわね！
+EN Thank you! As thanks, I'll give you my very best
+EN smile!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 藤島 瞳
+JP あらら…。
+JP 意外に硬派なのね？
+EN Oh dear... You're more old-school than you look,
+EN huh?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （ここに有望な選手がいるという
+JP 　話だが…あそこにいるのは？）
+EN (I heard there's a promising wrestler around here...
+EN Is that her over there?)
+
+@ 3.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.35
+# 藤島 瞳
+JP なに、ナンパ？
+JP 私は高いわよ？
+EN What, are you hitting on me? I don't come cheap, you
+EN know?
+
+@ 3.38
+# 社 長
+JP いえ、私はプロレス団体を
+JP 経営している者なのですが…。
+EN No, I actually run a pro wrestling promotion...
+
+@ 3.45
+# 藤島 瞳
+JP …社長さん？
+JP えっ、どうして私に？
+EN ...You're a company president? Huh, why me?
+
+@ 3.48
+# 社 長
+JP 実はうちの団体に入って
+JP いただけないかと思いまして…。
+EN I was hoping you might join our promotion...
+
+@ 3.52
+# 藤島 瞳
+JP …ええええっ！？
+JP これ、もしかしてスカウト！？
+EN ...Whaaat!? Wait, is this a scouting offer!?
+
+@ 3.55
+# 社 長
+JP はい。
+JP 俺にあなたをプロデュースさせて
+JP もらえないでしょうか？
+EN Yes. Would you let me be your producer?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 藤島 瞳
+JP オッケー！
+JP そうまで言われちゃ断れないわよね。
+EN Okay! I can't exactly say no when you put it like
+EN that.
+
+@ 4.22
+# 社 長
+JP そうですか。
+JP ありがとう。
+JP これからよろしく。
+EN Great. Thank you. I'm looking forward to working
+EN with you.
+
+@ 4.29
+# 藤島 瞳
+JP 私の衣装、楽しみにしてるから！
+EN I can't wait to see my costumes!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 藤島 瞳
+JP でも、プロレスってのがネックね…。
+JP あんまり興味ないし…。
+EN But the pro wrestling part is kind of a sticking
+EN point... I'm not really into it...
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （彼女のアイドルとしての資質は
+JP 　本物だ。団体の華として、興行を
+JP 　盛りあげて欲しい……）
+EN (Her talent as an idol is the real deal. I want her to
+EN be the star of our promotion and liven up our
+EN shows...)
+
+@ 6.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.35
+# 藤島 瞳
+JP あっ、この間の社長さんじゃない！？
+JP どうしたの？
+EN Oh, aren't you that president from the other day!?
+EN What's up?
+
+@ 6.38
+# 社 長
+JP どうしてもうちに入って欲しくて
+JP またお願いに来ました。
+EN I really want you to join us, so I came to ask again.
+
+@ 6.45
+# 藤島 瞳
+JP そうなんだぁ。
+JP 本当に熱心ねぇ。
+EN Oh, really? You sure are dedicated.
+
+@ 6.48
+# 社 長
+JP あなたの才能を眠らせておくのは
+JP もったいないと思うんです。
+EN I think it'd be a waste to let your talent go unused.
+
+@ 6.50
+# 社 長
+JP （俺は必死になって
+JP 　彼女を説得し続けた）
+EN (I kept trying desperately to persuade her.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 藤島 瞳
+JP オッケー！
+JP そうまで言われちゃ断れないわよね。
+EN Okay! I can't exactly say no when you put it like
+EN that.
+
+@ 7.22
+# 社 長
+JP そうですか。
+JP ありがとう。
+JP これからよろしく。
+EN Great. Thank you. I'm looking forward to working
+EN with you.
+
+@ 7.29
+# 藤島 瞳
+JP 私の衣装、楽しみにしてるから！
+EN I can't wait to see my costumes!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 藤島 瞳
+JP でも、プロレスってのがネックね…。
+JP あんまり興味ないし…。
+EN But the pro wrestling part is kind of a sticking
+EN point... I'm not really into it...
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （藤島選手…。
+JP 　彼女のようなアイドルレスラーが
+JP 　是非うちの団体に欲しい）
+EN (Fujishima... I'd really love an idol wrestler like her in
+EN our promotion.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be somewhere around here... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# 藤島 瞳
+JP あっ、ごめんなさい。
+JP 仕事の話なら事務所を通して…。
+EN Oh, sorry. If it's about work, please go through my
+EN agency...
+
+@ 9.40
+# 社 長
+JP いえ、私はこういう者で…。
+EN No, I'm, well... Here's my card.
+
+@ 9.47
+# 藤島 瞳
+JP …えっ、団体の社長さんなの…？
+JP もしかして…？
+EN ...Huh, you're a promotion's president...? Could it
+EN be...?
+
+@ 9.50
+# 社 長
+JP はい。
+JP あなたを引き抜きに来ました。
+EN Yes. I've come to poach you.
+
+@ 9.57
+# 藤島 瞳
+JP そっかぁ…。
+JP うーん…どうしよっかな…。
+EN I see... Hmm... What should I do...
+
+@ 9.60
+# 社 長
+JP どうかご一考願えませんか？
+EN Won't you please give it some thought?
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 藤島 瞳
+JP そうね…。
+JP 今度は社長さんのところで
+JP プロデュースしてもらおうかな。
+EN Well... Maybe I'll let you produce me this time, Mr.
+EN President.
+
+@ 10.22
+# 社 長
+JP …えっ！？
+JP それは移籍ＯＫということですか！？
+EN ...Huh!? Does that mean you'll transfer!?
+
+@ 10.29
+# 藤島 瞳
+JP でも、私のコスチュームは高いわよ～。
+JP 覚悟しておいてね♪
+EN But my costumes are pricey, you know! Better be
+EN ready for it~♪
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 藤島 瞳
+JP やっぱりダメ。
+JP 今以上のところじゃないと
+JP 移るメリットがないもの。
+EN No, sorry. Unless it's somewhere better than where I
+EN am now, there's no point in moving.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには藤島選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (Our promotion really does need Fujishima. I decided
+EN to negotiate with her once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# 藤島 瞳
+JP あっ、社長さん…。
+JP また来たんだ？
+EN Oh, Mr. President... You came back?
+
+@ 12.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.45
+# 藤島 瞳
+JP ふぅん…。
+JP で、今回はどんな条件を
+JP 提案してくれるの？
+EN Hmm... So, what kind of terms are you offering this
+EN time?
+
+@ 12.48
+# 社 長
+JP はい、藤島選手をアイドル
+JP レスラーとして売り出すところは
+JP 以前と変わりなく…。
+EN Well, we'd still promote you as an idol wrestler, just
+EN like before...
+
+@ 12.50
+# 社 長
+JP （俺は必死になって
+JP 　彼女を説得し続けた）
+EN (I kept trying desperately to persuade her.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 藤島 瞳
+JP そうね…。
+JP 今度は社長さんのところで
+JP プロデュースしてもらおうかな。
+EN Well... Maybe I'll let you produce me this time, Mr.
+EN President.
+
+@ 13.22
+# 社 長
+JP …えっ！？
+JP それは移籍ＯＫということですか！？
+EN ...Huh!? Does that mean you'll transfer!?
+
+@ 13.29
+# 藤島 瞳
+JP でも、私のコスチュームは高いわよ～。
+JP 覚悟しておいてね♪
+EN But my costumes are pricey, you know! Better be
+EN ready for it~♪
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 藤島 瞳
+JP やっぱりダメ。
+JP 今以上のところじゃないと
+JP 移るメリットがないもの。
+EN No, sorry. Unless it's somewhere better than where I
+EN am now, there's no point in moving.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （藤島選手…。
+JP 　あのアイドルとしての魅力
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Fujishima... With that idol charm of hers, she's
+EN exactly the kind of talent I want in our promotion.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるって
+JP 　話だけど…あぁ、いたいた）
+EN (I heard she'd be around here... Ah, there she is.)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# 藤島 瞳
+JP ごめんなさい。
+JP 今はオフだからサインと写真は
+JP ＮＧなの。
+EN Sorry, I'm off duty right now, so no autographs or
+EN photos.
+
+@ 15.40
+# 社 長
+JP いえ、私はプロレス団体を
+JP 経営している者で…。
+EN No, I actually run a pro wrestling promotion...
+
+@ 15.47
+# 藤島 瞳
+JP あら、社長さんなんだ…。
+JP もしかして入団のお誘い？
+EN Oh, you're a company president... Are you inviting me
+EN to join?
+
+@ 15.50
+# 社 長
+JP はい。
+JP 是非にと思いまして…。
+EN Yes. I'd really love to have you...
+
+@ 15.57
+# 藤島 瞳
+JP …そういえば、
+JP 新しいリングコスチュームが
+JP 欲しかったのよねぇ。
+EN ...Come to think of it, I've been wanting a new ring
+EN costume.
+
+@ 15.60
+# 社 長
+JP もちろん、そのあたりも
+JP 私にお任せください！
+EN Of course, you can leave all that to me!
+
+@ 15.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 藤島 瞳
+JP ＯＫ。
+JP そういうことなら
+JP これからお世話になるわね。
+EN Okay. In that case, I'll be in your care from now on.
+
+@ 16.22
+# 社 長
+JP こちらこそ、よろしくお願いします。
+EN The pleasure's all mine.
+
+@ 16.29
+# 藤島 瞳
+JP 衣装の約束、忘れないでよ？
+EN Don't forget your promise about the costumes,
+EN okay?
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 藤島 瞳
+JP 社長さんとはセンスが合わないかも…。
+JP やっぱり、やめとく…。
+EN I don't think our tastes match, Mr. President... I think
+EN I'll pass after all...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには藤島選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (Our promotion really does need Fujishima. I decided
+EN to negotiate with her once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# 藤島 瞳
+JP あっ、社長さん。
+JP またスカウト？
+EN Oh, Mr. President. Scouting me again?
+
+@ 18.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 18.45
+# 藤島 瞳
+JP うーん。
+JP たしかに今のリングコスチュームも
+JP 古くなってきたしなぁ…。
+EN Hmm. It's true my current ring costume is getting
+EN kind of old...
+
+@ 18.48
+# 社 長
+JP そのあたりは
+JP 私にお任せください！
+EN You can leave all that to me!
+
+@ 18.50
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my terms again and tried earnestly to
+EN persuade her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 藤島 瞳
+JP ＯＫ。
+JP そういうことなら
+JP これからお世話になるわね。
+EN Okay. In that case, I'll be in your care from now on.
+
+@ 19.22
+# 社 長
+JP こちらこそ、よろしくお願いします。
+EN The pleasure's all mine.
+
+@ 19.29
+# 藤島 瞳
+JP 衣装の約束、忘れないでよ？
+EN Don't forget your promise about the costumes,
+EN okay?
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 藤島 瞳
+JP 社長さんとはセンスが合わないかも…。
+JP やっぱり、やめとく…。
+EN I don't think our tastes match, Mr. President... I think
+EN I'll pass after all...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は藤島を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to go see Fujishima. She really is a
+EN wrestler we need.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、藤島！
+EN She should be around here... Ah, Fujishima!
+
+@ 21.35
+# 藤島 瞳
+JP あれ、社長！？
+JP なんで…！？
+EN Huh, Boss!? Why are you...!?
+
+@ 21.38
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you because I
+EN want you to come back.
+
+@ 21.45
+# 藤島 瞳
+JP …ちょっと今更なんじゃない？
+EN ...Isn't it a little late for that?
+
+@ 21.48
+# 社 長
+JP わかってる。
+JP たしかにこんなこと頼めた
+JP 義理じゃないが…。
+EN I know. I'm really in no position to ask this of you...
+
+@ 21.50
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 藤島 瞳
+JP 社長にも、やっと私のありがたみが
+JP わかったって訳ね？
+EN So you finally realize how lucky you were to have me,
+EN Boss?
+
+@ 22.18
+# 社 長
+JP ああ、そうだ。
+EN Yeah, that's right.
+
+@ 22.29
+# 藤島 瞳
+JP …もう。
+JP 仕方ないわね。
+JP もう一回だけ協力してあげる。
+EN ...Geez. Fine, I guess. I'll help you out one more time.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP 恩に着るよ。
+EN Thanks. I owe you one.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 藤島 瞳
+JP なんで今になって
+JP そんなこと言うのよ…。
+EN Why are you saying this now...?
+
+@ 23.18
+# 社 長
+JP どうしてもダメか？
+EN Is there really no way?
+
+@ 23.29
+# 藤島 瞳
+JP 気持ちの整理
+JP つく訳ないじゃない…。
+EN How am I supposed to sort out my feelings that
+EN easily...?
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... I understand...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I guess I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び藤島を訪ねることにした。
+JP 　彼女を諦めきることはできない）
+EN (I decided to go see Fujishima again. I just can't give
+EN up on her.)
+
+@ 24.25
+# 社 長
+JP 藤島っ！
+EN Fujishima!
+
+@ 24.35
+# 藤島 瞳
+JP …社長。
+JP また来たの？
+EN ...Boss. You came back?
+
+@ 24.38
+# 社 長
+JP ああ…。
+JP どうしても団体に戻って欲しいんだ。
+EN Yeah... I really want you to come back to the
+EN promotion.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 藤島 瞳
+JP 社長にも、やっと私のありがたみが
+JP わかったって訳ね？
+EN So you finally realize how lucky you were to have me,
+EN Boss?
+
+@ 25.18
+# 社 長
+JP ああ、そうだ。
+EN Yeah, that's right.
+
+@ 25.29
+# 藤島 瞳
+JP …もう。
+JP 仕方ないわね。
+JP もう一回だけ協力してあげる。
+EN ...Geez. Fine, I guess. I'll help you out one more time.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP 恩に着るよ。
+EN Thanks. I owe you one.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 藤島 瞳
+JP なんで今になって
+JP そんなこと言うのよ…。
+EN Why are you saying this now...?
+
+@ 26.18
+# 社 長
+JP どうしてもダメか？
+EN Is there really no way?
+
+@ 26.29
+# 藤島 瞳
+JP 気持ちの整理
+JP つく訳ないじゃない…。
+EN How am I supposed to sort out my feelings that
+EN easily...?
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... I understand...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I guess I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 藤島 瞳
+JP ちょっと…痛いかも…。
+EN That... kinda hurts...
+
+@ 28.16
+# scene 029 ケガ大
+# 藤島 瞳
+JP うぅ…。
+JP 傷が残ったらどうしよう…。
+EN Ugh... What if it leaves a scar...?
+
+@ 29.16
+# scene 030 入院
+# 藤島 瞳
+JP 私がいない間に浮気しないでね…？
+EN Don't go cheating on me while I'm gone, okay...?
+
+@ 30.16
+# scene 031 退院
+# 藤島 瞳
+JP いつまでも病院のアイドルって訳に
+JP いかないからね。
+EN I can't be the hospital's idol forever, after all.
+
+@ 31.16
+# scene 032 ケガ完治
+# 藤島 瞳
+JP 今日からアイドル活動再開ね♪
+EN Idol activities resume today♪
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 藤島 瞳
+JP もう…かわいいだけのアイドルは
+JP いらないってことね…。
+EN So... you don't need an idol who's only cute anymore...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 藤島 瞳
+JP イヤッ！
+JP 私はアイドルとして
+JP まだまだやれるもの！
+EN No way! I've still got plenty left in me as an idol!
+
+@ 34.16
+# scene 035 コーチ就任
+# 藤島 瞳
+JP コーチ用の衣装も注文していい？
+EN Can I order a coach outfit too?
+
+@ 35.16
+# scene 036 ケガ引退
+# 藤島 瞳
+JP 残念…。
+JP アイドルとレスラーの兼業って
+JP 難しいのね…。
+EN What a shame... Being an idol and a wrestler at the
+EN same time is hard...
+
+@ 36.16
+# scene 037 年齢引退
+# 藤島 瞳
+JP アイドル業は引き際も肝心よね…。
+EN For an idol, knowing when to bow out is important
+EN too...
+
+@ 37.16
+# scene 038 退団
+# 藤島 瞳
+JP 普通の女の子になるから…。
+EN I'm going to become an ordinary girl...
+
+@ 38.16
+# scene 039 スランプ
+# 藤島 瞳
+JP 最近…衣装が重くて…。
+EN Lately... my costumes feel so heavy...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 藤島 瞳
+JP もっと早くあっても
+JP 良かったと思うけどね。
+EN Honestly, I think it could've happened sooner.
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to all that support.
+
+@ 39.26
+# 藤島 瞳
+JP もちろん！
+JP 期待してて！
+EN Of course! Just watch me!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 藤島 瞳
+JP 私の人気も絶好調みたいね！
+EN Looks like my popularity is through the roof!
+
+@ 40.19
+# 社 長
+JP ああ。
+JP ファンの期待に応えられるよう
+JP がんばれよ。
+EN Yeah. Work hard so you live up to the fans'
+EN expectations.
+
+@ 40.23
+# 藤島 瞳
+JP 任せといて！
+JP ファンが多いほど
+JP 燃え上がるんだから！
+EN Leave it to me! The more fans I have, the more fired
+EN up I get!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 藤島 瞳
+JP がーんっ！
+EN Nooo!
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. You just have to work
+EN hard again.
+
+@ 41.23
+# 藤島 瞳
+JP …もしかして…お客さんが
+JP 今の衣装に飽きてきちゃったのかも…。
+EN ...Maybe... the audience is getting tired of my current
+EN costume...
+
+@ 42.16
+# scene 043 映画出演
+# 藤島 瞳
+JP 今どきのアイドルは
+JP 演技もできないとね！
+EN Idols these days have to be able to act, too!
+
+@ 43.16
+# scene 044 一日署長
+# 藤島 瞳
+JP みんなに親しまれる
+JP アイドル署長を目指しまーす！
+EN I'm going to be an idol police chief everyone loves!
+
+@ 44.16
+# scene 045 写真集発売
+# 藤島 瞳
+JP 素材は最高なんだから
+JP 成功間違いなしでしょ。
+EN With a model this perfect, it's bound to be a hit.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 藤島 瞳
+JP ＣＭに合わせた新しい衣装が
+JP 必要よね！
+EN I'll need a new costume to match the commercial!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 藤島 瞳
+JP ジャケット用に新しい
+JP 西陣織の衣装が欲しいなぁ…。
+EN I want a new Nishijin brocade outfit for the album
+EN cover...
+
+@ 47.16
+# scene 048 始球式
+# 藤島 瞳
+JP これ、一度やってみたかったのよね～。
+EN I've always wanted to try this!
+
+@ 48.16
+# scene 049 学園祭
+# 藤島 瞳
+JP 学園祭のゲストかぁ。
+JP アイドル冥利につきるわね！
+EN A guest at a school festival, huh? That's what being
+EN an idol is all about!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# 藤島 瞳
+JP えーっ！？
+JP うれしいっ！
+JP ありがとう！
+EN Whaaat!? I'm so happy! Thank you!
+
+@ 49.39
+# 社 長
+JP そんなに喜ばれると
+JP なんだかくすぐったいな。
+EN It's kind of embarrassing when you're this happy
+EN about it.
+
+@ 49.46
+# 藤島 瞳
+JP 今度は西陣織を買ってね。
+JP エヘヘッ。
+EN Next time, buy me some Nishijin brocade. Ehehe.
+
+@ 50.30
+# scene 051 バレンタインデー
+# 藤島 瞳
+JP 社長～。
+JP はいっ、バレンタインチョコ！
+EN Boss! Here, Valentine's chocolate!
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thanks.
+
+@ 50.40
+# 藤島 瞳
+JP お返し期待してるわね！
+EN I'm expecting something in return!
+
+@ 51.31
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼だ。
+JP 受け取ってくれるか？
+EN This is to thank you for last month. Will you accept
+EN it?
+
+@ 51.38
+# 藤島 瞳
+JP えーっ…！
+JP 新しい西陣織のコスチュームじゃ
+JP ないんだぁ。
+EN Awww...! It's not a new Nishijin brocade costume?
+
+@ 51.41
+# 社 長
+JP 当然だろ。
+JP 練習の合間にでも食べてくれ。
+EN Of course not. Have them between training sessions.
+
+@ 51.48
+# 藤島 瞳
+JP ウフフッ…冗談だって。
+JP ありがとね。
+EN Ufufu... Just kidding. Thanks.
+
+@ 52.29
+# scene 053 サイン会
+# 藤島 瞳
+JP 応援ありがとう！
+JP あっ、写真撮影は後にしてね。
+EN Thanks for your support! Oh, photos later, please.
+
+@ 53.31
+# scene 054 コンサート
+# 藤島 瞳
+JP 来てくれてありがとう！
+JP 今日は楽しんでいってね！
+EN Thanks for coming! Have fun today!
+
+@ 54.28
+# scene 055 練習拒否
+# 藤島 瞳
+JP 今日くらい見逃してよ…。
+EN Just let it slide today...
+
+@ 55.26
+# scene 056 失踪
+# 藤島 瞳
+JP そんな気分なの！
+EN I'm just in that kind of mood!
+
+@ 56.16
+# scene 057 選手解雇
+# 藤島 瞳
+JP ウッソー！
+JP ありえないわよ～！
+EN No way! You can't be serious!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 藤島 瞳
+JP 楽しんで来よーっと！
+EN I'm gonna have fun!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 藤島 瞳
+JP 帰ってきたことを
+JP ファンのみんなに報告しないとね！
+EN I have to tell all my fans I'm back!
+
+@ 59.28
+# scene 060 移籍思案
+# 藤島 瞳
+JP うーん…。
+JP そろそろアイドルとして
+JP 独り立ちするべきかなぁ…？
+EN Hmm... Maybe it's about time I went solo as an idol...?
+
+@ 60.16
+# scene 061 革命軍結成
+# 藤島 瞳
+JP 題して「アイドル革命！」
+JP うん、いいフレーズかも！
+EN I'll call it "Idol Revolution!" Yeah, that has a nice ring
+EN to it!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 藤島 瞳
+JP 題して「アイドルの反乱！」
+JP 話題性はバッチリよね！
+EN I'll call it "Idol Rebellion!" It's sure to get people
+EN talking!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 藤島 瞳
+JP お客さんも期待してるし
+JP そろそろ決着つけましょ！
+EN The audience is expecting it, so let's settle this
+EN once and for all!
+
+@ 63.16
+# scene 064 遺恨発生
+# 藤島 瞳
+JP アイドルをバカにしたら
+JP どうなるか教えてあげる！
+EN I'll show you what happens when you make fun of an
+EN idol!
+
+@ 64.16
+# scene 065 殴り込み
+# 藤島 瞳
+JP 今回は私にまかせて！
+EN Leave this one to me!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 藤島 瞳
+JP アイドルだからって
+JP なめないでよね！
+EN Don't underestimate me just because I'm an idol!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 藤島 瞳
+JP 私の踏み台になってもらうわよ！
+EN You're going to be my stepping stone!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 藤島 瞳
+JP アイドル史に残る
+JP 試合にしてみせるわ！
+EN I'll make this a match that goes down in idol history!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 藤島 瞳
+JP 一番かわいい娘が勝つ！
+JP 当然よね。
+EN The cutest girl wins! Obviously.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 藤島 瞳
+JP ルックスでは負けて
+JP なかったんだけどなぁ…。
+EN I wasn't losing in the looks department, though...
+
+@ 70.13
+# scene 071 引退式
+# 藤島 瞳
+JP みんなありがとう！
+JP 私との思い出、いつまでも
+JP 忘れないでね！
+EN Thank you, everyone! Never forget the memories we
+EN made together!
+
+@ 71.18
+# 藤島 瞳
+JP 社長、呼んだ？
+EN You called, Boss?
+
+@ 71.37
+# 藤島 瞳
+JP 社長。
+JP どうしたの～？
+EN Boss. What's up?
+
+@ 71.47
+# 藤島 瞳
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# 藤島 瞳
+JP 当然よ、任せといて！
+EN Of course, leave it to me!
+
+@ 71.111
+# 藤島 瞳
+JP アイドルは弱気なところを
+JP 見せられないもんね。
+EN An idol can't let anyone see her weak side, after all.
+
+@ 71.132
+# 藤島 瞳
+JP もちろん！
+JP ファンの期待に応えるのが
+JP アイドルだもの！
+EN Of course! Living up to the fans' expectations is
+EN what idols do!
+
+@ 71.153
+# 藤島 瞳
+JP …どうしてそういうこと
+JP 言うかなぁ…。
+EN ...Why would you say something like that...?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 藤島 瞳
+JP 怒った顔もステキよ、社長。
+EN You look great even when you're angry, Boss.
+
+@ 71.211
+# 藤島 瞳
+JP そんなに心配しなくても
+JP ちゃんとやるってば！
+EN You don't have to worry so much. I'm doing my job!
+
+@ 71.232
+# 藤島 瞳
+JP …ごめんなさい。
+JP 私、もっとがんばるから！
+EN ...I'm sorry. I'll try harder!
+
+@ 71.253
+# 藤島 瞳
+JP まだ足りないの…？
+EN It's still not enough...?
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# 藤島 瞳
+JP ありがとう。
+JP そう言ってもらえると
+JP 気が楽になるかな。
+EN Thanks. Hearing you say that makes me feel a little
+EN better.
+
+@ 71.311
+# 藤島 瞳
+JP うん…。
+JP ちょっと疲れただけだから…。
+EN Yeah... I'm just a little tired...
+
+@ 71.332
+# 藤島 瞳
+JP うんっ！
+JP 社長と話してたら元気が出てきた！
+EN Yeah! Talking with you cheered me right up, Boss!
+
+@ 71.353
+# 藤島 瞳
+JP アイドルって孤独…。
+EN Being an idol is so lonely...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 藤島 瞳
+JP まぁ…。
+JP あのあたりの話かな？
+EN Well... Is it about that whole thing?
+
+@ 71.400
+# 藤島 瞳
+JP 何かあったの？
+EN Did something happen?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 藤島 瞳
+JP そうね。
+JP 仲直りするわ。
+JP 長引かせたくないし。
+EN Okay. I'll make up with her. I don't want this dragging
+EN on.
+
+@ 71.454
+# 藤島 瞳
+JP 向こうが折れたら
+JP 考えてもいいけど？
+EN If she backs down first, I might think about it.
+
+@ 71.475
+# 藤島 瞳
+JP それ…私に関係のある話？
+EN Does that... have anything to do with me?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 藤島 瞳
+JP あぁ…。
+JP 社長も大変ねぇ。
+EN Ah... It's tough being the boss, huh?
+
+@ 71.522
+# 藤島 瞳
+JP もしかしてデートのお誘い？
+EN Could this be an invitation to a date?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 藤島 瞳
+JP ＯＫ。
+JP アイドルがいつまでも怒ってたんじゃ
+JP 絵にならないものね。
+EN Okay. An idol who stays mad forever doesn't look
+EN good in pictures, after all.
+
+@ 71.578
+# 藤島 瞳
+JP こんなところで話しても
+JP 解決しないわよ！
+EN Talking about it here won't solve anything!
+
+@ 71.599
+# 藤島 瞳
+JP えっと…。
+JP 社長、疲れてる？
+EN Um... Are you tired, Boss?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 藤島 瞳
+JP 社長。
+JP どうしたの～？
+EN Boss. What's up?
+
+@ 72.16
+# 藤島 瞳
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 藤島 瞳
+JP 当然よ、任せといて！
+EN Of course, leave it to me!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 藤島 瞳
+JP アイドルは弱気なところを
+JP 見せられないもんね。
+EN An idol can't let anyone see her weak side, after all.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 藤島 瞳
+JP もちろん！
+JP ファンの期待に応えるのが
+JP アイドルだもの！
+EN Of course! Living up to the fans' expectations is
+EN what idols do!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 藤島 瞳
+JP ……どうしてそういうこと
+JP 言うかなぁ…。
+EN ......Why would you say something like that...?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 藤島 瞳
+JP 怒った顔もステキよ、社長。
+EN You look great even when you're angry, Boss.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 藤島 瞳
+JP そんなに心配しなくても
+JP ちゃんとやるってば！
+EN You don't have to worry so much. I'm doing my job!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 藤島 瞳
+JP …ごめんなさい。
+JP 私、もっとがんばるから！
+EN ...I'm sorry. I'll try harder!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 藤島 瞳
+JP まだ足りないの…？
+EN It's still not enough...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 藤島 瞳
+JP ありがとう。
+JP そう言ってもらえると
+JP 気が楽になるかな。
+EN Thanks. Hearing you say that makes me feel a little
+EN better.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 藤島 瞳
+JP うん…。
+JP ちょっと疲れただけだから…。
+EN Yeah... I'm just a little tired...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 藤島 瞳
+JP うんっ！
+JP 社長と話してたら元気が出てきた！
+EN Yeah! Talking with you cheered me right up, Boss!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 藤島 瞳
+JP アイドルって孤独…。
+EN Being an idol is so lonely...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 藤島 瞳
+JP まぁ…。
+JP あのあたりの話かな？
+EN Well... Is it about that whole thing?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 藤島 瞳
+JP 何かあったの？
+EN Did something happen?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 藤島 瞳
+JP そうね。
+JP 仲直りするわ。
+JP 長引かせたくないし。
+EN Okay. I'll make up with her. I don't want this dragging
+EN on.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 藤島 瞳
+JP 向こうが折れたら
+JP 考えてもいいけど？
+EN If she backs down first, I might think about it.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 藤島 瞳
+JP それ…私に関係のある話？
+EN Does that... have anything to do with me?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 藤島 瞳
+JP あぁ…。
+JP 社長も大変ねぇ。
+EN Ah... It's tough being the boss, huh?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 藤島 瞳
+JP もしかして、デートのお誘い？
+EN Could this be an invitation to a date?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 藤島 瞳
+JP ＯＫ。
+JP アイドルがいつまでも怒ってたんじゃ
+JP 絵にならないものね。
+EN Okay. An idol who stays mad forever doesn't look
+EN good in pictures, after all.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 藤島 瞳
+JP こんなところで話しても
+JP 解決しないわよ！
+EN Talking about it here won't solve anything!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 藤島 瞳
+JP えっと…。
+JP 社長、疲れてる？
+EN Um... Are you tired, Boss?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 藤島 瞳
+JP なるほどぉ。
+JP 社長の私への評価は
+JP こんな感じなんだ。
+EN I see. So this is what you think I'm worth, Boss.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 藤島 瞳
+JP やったぁ！
+JP ねぇ、社長、西陣織のコスチューム代
+JP 別経費よね？
+EN Yay! Hey, Boss, the Nishijin brocade costume is a
+EN separate expense, right?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 藤島 瞳
+JP 衣装代、天引きしてるんじゃないの？
+EN Aren't you docking my costume money from this?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this really is the tropics. The sun is scorching.)
+
+@ 105.31
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.41
+# ？？？
+JP きゃ――――っ！
+JP 助けて――っ！
+EN Kyaaaaah! Heeelp!
+
+@ 105.44
+# 社 長
+JP （今の声は…！？）
+EN (That voice...!?)
+
+@ 105.46
+# 社 長
+JP 待ってろ！
+JP すぐに行くぞ！
+EN Hang on! I'm coming!
+
+@ 105.67
+# 藤島 瞳
+JP い――や―――っ！
+EN Nooooo!
+
+@ 105.70
+# 社 長
+JP どうしたんだ、藤島！？
+EN What's wrong, Fujishima!?
+
+@ 105.74
+# 藤島 瞳
+JP あ、足っ！
+JP ナマ…ワカ…が…気持ち悪いー！
+EN M-my leg! Sea... cu... weed...! It's so gross!
+
+@ 105.77
+# 社 長
+JP （ナマワカ…？
+JP 　何を言っているのか
+JP 　わからないが…？）
+EN (Sea-cu-weed...? I have no idea what she's saying...)
+
+@ 105.79
+# 社 長
+JP （足にからみついているのは
+JP 　海草とナマコか？）
+EN (Is that seaweed and a sea cucumber wrapped
+EN around her leg?)
+
+@ 105.81
+# 社 長
+JP もしかして騒いでたのは
+JP それが原因か？
+EN Was that what all the screaming was about?
+
+@ 105.83
+# 社 長
+JP そんなに嫌なら
+JP 取ればいいじゃないか？
+EN If you hate it that much, why not just take it off?
+
+@ 105.87
+# 藤島 瞳
+JP 触るのヤダから取ってー！
+EN I don't wanna touch it, so take it off for me!
+
+@ 105.90
+# 社 長
+JP …まったく仕方ないな。
+EN ...Geez, fine.
+
+@ 105.100
+# 社 長
+JP （ポイッ）
+EN (Toss!)
+
+@ 105.102
+# 社 長
+JP 取れたぞ。
+EN There, it's off.
+
+@ 105.112
+# 藤島 瞳
+JP …はぁ……。
+EN ...Phew......
+
+@ 105.115
+# 社 長
+JP （…やれやれ。
+JP 　やっと静かになったか）
+EN (...Good grief. Finally, some peace and quiet.)
+
+@ 105.117
+# 社 長
+JP ともかく今度は気をつけろよ。
+EN Anyway, be more careful next time.
+
+@ 105.121
+# 藤島 瞳
+JP …うん。
+JP 社長、アリガト…。
+EN ...Okay. Thanks, Boss...
+
+@ 105.124
+# 社 長
+JP じゃ、俺はいくぞ。
+EN Well, I'll be going.
+
+@ 105.134
+# 藤島 瞳
+JP あっ、ストップ！
+EN Ah, stop!
+
+@ 105.137
+# 社 長
+JP …まだ何かあるのか？
+EN ...Is there something else?
+
+@ 105.147
+# 藤島 瞳
+JP 今日の社長は、お姫様のピンチを
+JP 救った白馬の王子様みたいで
+JP かっこよかったわよ。
+EN Today you were like a prince on a white horse saving
+EN a princess in distress. You looked really cool.
+
+@ 105.150
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.154
+# 藤島 瞳
+JP また何かあったら助けに来てね。
+EN Come save me again if anything happens, okay?
+
+@ 105.157
+# 社 長
+JP …やれやれ。
+JP 調子のいいヤツだな。
+EN ...Good grief. You sure know how to get your way.
+
+@ 105.161
+# 藤島 瞳
+JP それが王子様の役目なんだから
+JP 仕方ないでしょ♪
+EN That's a prince's job, so you've got no choice♪
+
+@ 105.164
+# 社 長
+JP …はいはい。
+EN ...Yeah, yeah.
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （うちの団体もそれらしく
+JP 　体裁を整えてきたけど…）
+EN (Our promotion has started to look like the real
+EN thing, but...)
+
+@ 106.26
+# 社 長
+JP （大規模な興行を打つためには
+JP 　無駄な出費を減らしていかないと
+JP 　マズイな…）
+EN (If we want to put on big shows, I've got to cut
+EN wasteful spending...)
+
+@ 106.28
+# 社 長
+JP （まずはガス、水道、電気…。
+JP 　あと減らせるのは…）
+EN (First, gas, water, electricity... What else can I cut...)
+
+@ 106.30
+# 社 長
+JP （あまったチラシを
+JP 　コピー用紙に回せば
+JP 　紙代が浮きそうだぞ！）
+EN (If I use the leftover flyers as copy paper, I could
+EN save on paper!)
+
+@ 106.32
+# 社 長
+JP （この調子で他にも
+JP 　節約できるものを探すか）
+EN (Let's keep this up and look for other ways to save.)
+
+@ 106.39
+# 藤島 瞳
+JP しゃーちょーっ！
+EN Boooss!
+
+@ 106.56
+# 社 長
+JP おわっ！？
+EN Whoa!?
+
+@ 106.77
+# 藤島 瞳
+JP 私、新しいリングコスチュームが
+JP 欲しいの。
+EN I want a new ring costume.
+
+@ 106.80
+# 社 長
+JP なんだ？
+JP 藪から棒に？
+EN What? Out of nowhere?
+
+@ 106.90
+# 藤島 瞳
+JP そんなに嫌そうな顔しなくても
+JP いいじゃない！
+EN You don't have to look so unhappy about it!
+
+@ 106.100
+# 藤島 瞳
+JP こんなにかわいいアイドルが
+JP お願いに来たのよ。
+EN An idol this cute came all the way here to ask you a
+EN favor.
+
+@ 106.103
+# 社 長
+JP （お願いっていう感じには
+JP 　見えないが…）
+EN (Doesn't really look like asking a favor to me...)
+
+@ 106.105
+# 社 長
+JP …それで、どういうのが欲しいんだ？
+EN ...So, what kind do you want?
+
+@ 106.115
+# 藤島 瞳
+JP あっ、デザインは問題ないの。
+JP 馴染みの店にデザインさせるから。
+EN Oh, the design's no problem. I'll have my usual shop
+EN design it.
+
+@ 106.119
+# 藤島 瞳
+JP だからお金だけ立て替えてくれない？
+EN So could you just front me the money?
+
+@ 106.122
+# 社 長
+JP ……いくらなんだ？
+EN ......How much?
+
+@ 106.134
+# 藤島 瞳
+JP ３００万。
+EN Three million yen.
+
+@ 106.137
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.139
+# 社 長
+JP そんな金が出せるか！
+EN Like I could pay that much!
+
+@ 106.141
+# 社 長
+JP （そうか。
+JP 　うちの運営資金の大半は
+JP 　こいつに使われているのか…）
+EN (I see. So this is where most of our operating funds
+EN have been going...)
+
+@ 106.151
+# 藤島 瞳
+JP 社長、これは投資よ、投資。
+JP 絶対損はさせないから。
+EN Boss, this is an investment. An investment! I promise
+EN you won't lose out.
+
+@ 106.154
+# 社 長
+JP （うーむ…。
+JP 　これだけ自信満々なのは
+JP 　さすがだよな…）
+EN (Hmm... She's so confident, I have to hand it to her...)
+
+@ 106.156
+# 社 長
+JP （実際アイドルとしては
+JP 　一級な訳だし…）
+EN (She really is a first-rate idol, after all...)
+
+@ 106.158
+# 社 長
+JP …わかった。
+EN ...All right.
+
+@ 106.162
+# 藤島 瞳
+JP 本当！？
+EN Really!?
+
+@ 106.165
+# 社 長
+JP リングコスチュームは却下だが
+JP 同等の金額でおまえ中心のＰＲを
+JP うってやる。
+EN The ring costume's a no, but I'll spend the same
+EN amount on a PR campaign built around you.
+
+@ 106.167
+# 社 長
+JP それで妥協しないか？
+EN How about we compromise on that?
+
+@ 106.177
+# 藤島 瞳
+JP オッケー。
+JP それで手を打ちましょ！
+EN Okay. It's a deal!
+
+@ 106.187
+# 藤島 瞳
+JP ちゅっ♪
+EN *smooch*♪
+
+@ 106.190
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.192
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 106.202
+# 藤島 瞳
+JP これはお礼ね♪
+EN That's my thank-you♪
+
+@ 106.206
+# 藤島 瞳
+JP 任せといて。
+JP 期待は裏切らないから！
+EN Leave it to me. I won't let you down!
+
+@ 106.227
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ううむ…今月もなんだかんだで
+JP 　経費を使ったな…）
+EN (Hmm... One way or another, I spent a lot on expenses
+EN again this month...)
+
+@ 107.26
+# 社 長
+JP （やっぱりどこかで節約して
+JP 　いかないと…）
+EN (I really need to start saving somewhere...)
+
+@ 107.33
+# ？？？
+JP しゃーちょーっ！
+EN Boooss!
+
+@ 107.50
+# 社 長
+JP おわっ！？
+EN Whoa!?
+
+@ 107.71
+# 藤島 瞳
+JP 社長、お願いがあるの？
+EN Boss, I have a favor to ask?
+
+@ 107.74
+# 社 長
+JP またリングコスチュームの話か？
+EN Is this about a ring costume again?
+
+@ 107.78
+# 藤島 瞳
+JP 正解♪
+JP リングコスチュームを変えたいの。
+EN Correct♪ I want to change my ring costume.
+
+@ 107.81
+# 社 長
+JP …どんなものだ？
+JP 言っておくが、高いのはダメだぞ。
+EN ...What kind? I'm warning you, nothing expensive.
+
+@ 107.85
+# 藤島 瞳
+JP わかってるって。
+EN I know, I know.
+
+@ 107.88
+# 社 長
+JP …で、いくらだ？
+EN ...So, how much?
+
+@ 107.100
+# 藤島 瞳
+JP ５００万。
+EN Five million yen.
+
+@ 107.103
+# 社 長
+JP （なんで前より
+JP 　高くなってるんだ…！？）
+EN (Why is it more expensive than last time...!?)
+
+@ 107.105
+# 社 長
+JP すまん。
+JP 勘弁してくれ…。
+EN Sorry. Please give me a break...
+
+@ 107.115
+# 藤島 瞳
+JP その５００万の中には
+JP 社長のために着る白無垢も
+JP 入っているんだけどな～。
+EN But that five million includes the white wedding
+EN kimono I'd wear for you...
+
+@ 107.118
+# 社 長
+JP …はっ？
+JP 白無垢？
+EN ...Huh? A wedding kimono?
+
+@ 107.120
+# 社 長
+JP （い、いかん！
+JP 　惑わされるな、俺！）
+EN (N-no! Don't fall for it!)
+
+@ 107.122
+# 社 長
+JP ダメだといったらダメだ。
+JP そんな手には乗らないぞ。
+EN No means no. I'm not falling for that.
+
+@ 107.132
+# 藤島 瞳
+JP やっぱりダメか～。
+EN Aww, no luck after all.
+
+@ 107.142
+# 藤島 瞳
+JP でも、私の花嫁姿
+JP 見てみたかったでしょ？
+EN But you wanted to see me as a bride, didn't you?
+
+@ 107.145
+# 社 長
+JP ノーコメント。
+EN No comment.
+
+@ 107.149
+# 藤島 瞳
+JP 素直じゃないな～。
+EN You're so stubborn~
+
+@ 107.152
+# 社 長
+JP とにかく。
+JP リングコスチュームの件は却下。
+JP ＰＲの方はまた考えるが…。
+EN Anyway, the ring costume is a no. I'll think about the
+EN PR again, but...
+
+@ 107.156
+# 藤島 瞳
+JP うん。
+JP オッケー。
+EN Yeah. Okay.
+
+@ 107.160
+# 藤島 瞳
+JP じゃ、よろしくね、社長♪
+EN Well, I'm counting on you, Boss♪
+
+@ 107.181
+# 社 長
+JP …やれやれ。
+JP ホント困ったヤツだよな。
+EN ...Good grief. She really is a handful.
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 藤島 瞳
+JP さっ、軽～く流そっか。
+EN Okay, let's take it nice and easy.
+
+@ 109.17
+# scene 112 練習試合 バッド
+# 藤島 瞳
+JP トップアイドルの座は
+JP 渡さないわよ～！
+EN I won't give up my spot as top idol!
+
+@ 110.16
+# scene 113 練習開始
+# 藤島 瞳
+JP 練習でも笑顔は忘れずに…。
+JP これ鉄則だから。
+EN Never forget to smile, even in training... That's the
+EN golden rule.
+
+@ 111.16
+# scene 114 練習開始 好意
+# 藤島 瞳
+JP 練習が終わったらデートしようか？
+JP ウフフッ。
+EN Want to go on a date after training? Ufufu.
+
+@ 112.16
+# scene 115 特訓開始
+# 藤島 瞳
+JP 特訓なんて泥臭くない？
+EN Isn't special training kind of unglamorous?
+
+@ 113.20
+# scene 116 特訓成功
+# 藤島 瞳
+JP アイドルは汗を流しても
+JP 絵になるわね！
+EN An idol looks good even when she's sweating!
+
+@ 114.20
+# scene 117 特訓失敗
+# 藤島 瞳
+JP ほらね…。
+JP キャラに合わないことするから…。
+EN See...? That's what happens when I do things that
+EN don't suit my image...
+
+@ 115.16
+# scene 118 休養
+# 藤島 瞳
+JP 美味しいお店を見つけたの。
+JP 社長、デートしない？
+EN I found a great restaurant. Boss, want to go on a
+EN date?
+
+@ 116.16
+# scene 119 入場1
+# 藤島 瞳
+JP アイドルだって
+JP やるときはやるんだから！
+EN Even idols get serious when it counts!
+
+@ 117.16
+# scene 119 入場2
+# 藤島 瞳
+JP みんなー！
+JP 今日も私に注目してね！
+EN Everyone! Keep your eyes on me today, too!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# 藤島 瞳
+JP 方向性が違っていれば
+JP かわいい子は組んだ方が強いのよ。
+EN As long as our styles are different, cute girls are
+EN stronger as a team.
+
+@ 119.17
+# scene 123 タッグマッチ バッド
+# 藤島 瞳
+JP みんなぁ！
+JP 応援は一番かわいい子にだけで
+JP いいからね！
+EN Everyone! Just cheer for the cutest girl, okay?
+
+@ 120.16
+# scene 125 必殺技１
+# 藤島 瞳
+JP 今日も華麗に舞うわよっ！
+EN Time to dance gracefully again today!
+
+@ 121.16
+# scene 125 必殺技２
+# 藤島 瞳
+JP ごめんね♪
+JP アイドルだって強いのよ！
+EN Sorry♪ Idols are strong too!
+
+@ 122.16
+# scene 125 必殺技３
+# 藤島 瞳
+JP かわいいだけじゃないわよ！
+EN I'm not just cute, you know!
+
+@ 123.12
+# scene 126 勝利1
+# 藤島 瞳
+JP かわいい娘が勝った方が
+JP 絵になるでしょ？
+EN It looks better when the cute girl wins, right?
+
+@ 124.12
+# scene 126 勝利2
+# 藤島 瞳
+JP あなたにたりないのは…。
+JP アイドルの素質かなっ？
+EN What you're missing is... idol potential, maybe?
+
+@ 125.12
+# scene 126 勝利3
+# 藤島 瞳
+JP 絶対無敵のアイドルは負けないのよ？
+EN An absolutely invincible idol never loses, you know?
+
+@ 126.15
+# scene 133 表彰1
+# 藤島 瞳
+JP 最高の気分！
+JP アイドル冥利に尽きるわね！
+EN I feel amazing! This is what being an idol is all about!
+
+@ 127.15
+# scene 133 表彰2
+# 藤島 瞳
+JP 最初にこの受賞を知らせたい人は
+JP ファンのみんなです！
+JP ありがと～！
+EN The first people I want to share this award with are
+EN all my fans! Thank you!
+
+@ 128.12
+# scene 134 優勝1
+# 藤島 瞳
+JP 優勝しちゃうのって
+JP アイドルの宿命なのかなぁ？
+JP ウフフッ。
+EN Maybe winning championships is just an idol's
+EN destiny? Ufufu.
+
+@ 129.12
+# scene 134 優勝２
+# 藤島 瞳
+JP 私が本気になれば
+JP いつでも優勝間違いなし！
+JP だってそれがアイドルだもの！
+EN Once I get serious, I'm sure to win every time!
+EN Because that's what an idol is!
+
+@ 130.24
+# scene 135 エンディング 通常
+# 藤島 瞳
+JP 社長、お疲れ様。
+JP お祝いパーティーの会場選びは
+JP 任せておいてね！
+EN Good work, Boss. Leave choosing the venue for the
+EN celebration party to me!
+
+@ 131.24
+# scene 136 エンディング 好意
+# 藤島 瞳
+JP 社長…。
+JP 今日だけは、みんなのアイドルを
+JP 独り占めさせて…あ・げ・るっ♪
+EN Boss... Just for today, I'll let you have everyone's
+EN idol all to yourself♪

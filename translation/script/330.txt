@@ -1,0 +1,94 @@
+# /SCR/330.BIN - デニース・ハン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 330` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# デニース・ハン
+JP これが歴史の力というものよ！
+EN This is the power of history!
+
+@ 1.16
+# scene 119 入場1
+# デニース・ハン
+JP この一戦にすべてをかける！
+EN I stake everything on this one bout!
+
+@ 2.16
+# scene 119 入場2
+# デニース・ハン
+JP リングに上がった以上
+JP 逃がしはしない！
+EN Now that you've stepped into the ring, there's no
+EN escape!
+
+@ 3.16
+# scene 125 必殺技１
+# デニース・ハン
+JP 中国・四千年の秘技くらいなさい！
+EN Take the secret art of China's four thousand years!
+
+@ 4.16
+# scene 125 必殺技２
+# デニース・ハン
+JP 愚か者はマットで眠りなさい！
+EN Fools belong asleep on the mat!
+
+@ 5.16
+# scene 125 必殺技３
+# デニース・ハン
+JP この技であなたを倒してみせるわ！
+EN With this move, I'll bring you down!
+
+@ 6.12
+# scene 126 勝利1
+# デニース・ハン
+JP 顔を洗って出直してきなさい！
+EN Go wash your face and come back when you're
+EN ready!
+
+@ 7.12
+# scene 126 勝利2
+# デニース・ハン
+JP まじめに練習してくることね！
+EN Go and train seriously for once!
+
+@ 8.12
+# scene 126 勝利3
+# デニース・ハン
+JP あなたとは格が違いすぎたようね。
+EN It seems we were in different leagues entirely.
+
+@ 9.15
+# scene 133 表彰1
+# デニース・ハン
+JP ありがたくいただいておくわ。
+EN I'll accept this gratefully.
+
+@ 10.15
+# scene 133 表彰2
+# デニース・ハン
+JP まぁ私がもらうのが
+JP 妥当でしょうね。
+EN Well, I'm the obvious choice to receive it.
+
+@ 11.12
+# scene 134 優勝1
+# デニース・ハン
+JP 中国四千年の力を
+JP 証明できたようね。
+EN It seems I've proven the power of China's four
+EN thousand years.
+
+@ 12.12
+# scene 134 優勝２
+# デニース・ハン
+JP 修練を重ねてきた甲斐が
+JP あったようね。
+EN It seems all my years of discipline paid off.

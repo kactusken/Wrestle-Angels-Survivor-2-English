@@ -1,0 +1,42 @@
+{
+ "english": "Move Difficulty | New Move | Change Finisher | Rename Move",
+ "boxes": [
+  [
+   3,
+   0,
+   122,
+   24
+  ],
+  [
+   23,
+   24,
+   82,
+   24
+  ],
+  [
+   13,
+   48,
+   102,
+   24
+  ],
+  [
+   23,
+   72,
+   82,
+   24
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   0,
+   0,
+   128,
+   96
+  ]
+ ]
+}

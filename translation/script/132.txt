@@ -1,0 +1,2184 @@
+# /SCR/132.BIN - バーニング真田
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 132` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# バーニング真田
+JP 真田です。
+JP 気合と根性は誰にも負けませんっ！
+EN I'm Sanada! Nobody beats me when it comes to spirit
+EN and guts!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# バーニング真田
+JP 死ぬ気でがんばります！
+EN I'll give it everything, like my life depends on it!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# バーニング真田
+JP 気合い入れて出直してきます…。
+EN I'll fire myself up and come back stronger...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP この辺で叫びながら
+JP 走り回ってるらしいけど…。
+EN I heard she runs around this area shouting...
+
+@ 3.25
+# 社 長
+JP 本当にそんな娘いるのかな…？
+EN Is there really a girl like that...?
+
+@ 3.27
+# 社 長
+JP あっ、あそこで何か叫びながら
+JP 全力疾走している娘がいる。
+EN Ah, there's a girl over there sprinting all-out and
+EN yelling something.
+
+@ 3.29
+# 社 長
+JP あの娘のことかな。
+EN Maybe that's her.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# バーニング真田
+JP ハァハァ…。
+JP 自分に何か用ですか？
+EN Hah, hah... You need something from me?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.51
+# バーニング真田
+JP 自分をスカウトですか？
+EN You're scouting me?
+
+@ 3.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.61
+# バーニング真田
+JP 自分にやっていけるでしょうか？
+EN Do you think I could make it?
+
+@ 3.64
+# 社 長
+JP そのガッツがあれば大丈夫だよ。
+EN With guts like yours, you'll be fine.
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# バーニング真田
+JP わかりました！
+JP 社長さんのところで
+JP お世話になるっス！
+EN Got it! I'm in your hands, President!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# バーニング真田
+JP よろしくお願いします！
+EN I look forward to working with you!
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# バーニング真田
+JP すみません。
+JP やっぱり自分では力不足っス…。
+EN Sorry. I just don't think I'm up to it...
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# バーニング真田
+JP …あっ、この前の社長さん！
+JP またスカウトですか？
+EN ...Oh, the president from before! Scouting me again?
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 6.43
+# バーニング真田
+JP そんなこと言われたら悩むっス…。
+EN When you put it like that, it's hard to say no...
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# バーニング真田
+JP わかりました！
+JP 社長さんのところで
+JP お世話になるっス！
+EN Got it! I'm in your hands, President!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# バーニング真田
+JP よろしくお願いします！
+EN I look forward to working with you!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# バーニング真田
+JP すみません。
+JP やっぱり自分では力不足っス…。
+EN Sorry. I just don't think I'm up to it...
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は真田選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Sanada.
+
+@ 9.25
+# 社 長
+JP あの気合いと根性は
+JP プロレス界ナンバーワンと
+JP 言ってもいい。
+EN Her spirit and guts are arguably number one in the
+EN wrestling world.
+
+@ 9.27
+# 社 長
+JP うちの団体でも
+JP 間違いなく活躍できるはずだ。
+EN She'd definitely shine in our promotion too.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She's supposed to train somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# バーニング真田
+JP 自分に何か用っスか？
+EN You need something from me?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.53
+# バーニング真田
+JP 社長さんの団体に移籍ですか…。
+EN Transfer to your promotion, huh...
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.60
+# バーニング真田
+JP そうっスねぇ…。
+EN Let me see...
+
+@ 9.63
+# 社 長
+JP うちの団体に
+JP 力を貸してもらえないでしょうか？
+EN Would you lend your strength to our promotion?
+
+@ 9.65
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# バーニング真田
+JP 了解です！
+JP その話お受けします！
+EN Roger that! I accept!
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# バーニング真田
+JP よろしくお願いします！
+EN I look forward to working with you!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# バーニング真田
+JP すみません…。
+JP 今の団体を裏切れないっス…。
+EN Sorry... I can't betray my current promotion...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 真田選手が必要だ。
+EN Our promotion really needs Sanada.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 真田選手と交渉することにした。
+EN I decided to negotiate with Sanada once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# バーニング真田
+JP …あっ、社長さん！
+JP また来たんですか？
+EN ...Oh, the president! You came back?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.47
+# バーニング真田
+JP そんなこと言われてもなぁ…。
+EN Even if you say that...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# バーニング真田
+JP 了解です！
+JP その話お受けします！
+EN Roger that! I accept!
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# バーニング真田
+JP よろしくお願いします！
+EN I look forward to working with you!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# バーニング真田
+JP すみません…。
+JP 今の団体を裏切れないっス…。
+EN Sorry... I can't betray my current promotion...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は真田選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Sanada.
+
+@ 15.25
+# 社 長
+JP あのガッツと
+JP 強力な打撃技は魅力的だ。
+EN Her guts and powerful strikes are a real draw.
+
+@ 15.27
+# 社 長
+JP このあたりにいるはずだけど…。
+EN She should be around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# バーニング真田
+JP 自分に何か用っスか？
+EN You need something from me?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.51
+# バーニング真田
+JP 社長さんの団体に入団ですか…。
+EN Join your promotion, huh...
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.58
+# バーニング真田
+JP う～ん…。
+JP そうっスねぇ…。
+EN Hmmm... Let me see...
+
+@ 15.61
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Is there any way you'd lend us your strength?
+
+@ 15.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# バーニング真田
+JP わかりました！
+JP ここで断ったら女がすたるっスね。
+EN Got it! If I turned this down, I wouldn't be much of a
+EN woman!
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.26
+# バーニング真田
+JP よろしくお願いします！
+EN I look forward to working with you!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# バーニング真田
+JP すいません。
+JP 団体に所属するのは
+JP 自分には合わない気がするっス。
+EN Sorry. I don't think belonging to a promotion suits
+EN me.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 真田選手が必要だ。
+EN Our promotion really needs Sanada.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 真田選手と交渉することにした。
+EN I decided to negotiate with Sanada once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# バーニング真田
+JP …あっ、社長さん！？
+JP また来たんですか？
+EN ...Oh, the president!? You came back?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 18.47
+# バーニング真田
+JP そんな…。
+JP 困るっス…。
+EN Aw, man... You're putting me on the spot...
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# バーニング真田
+JP わかりました！
+JP ここで断ったら女がすたるっスね。
+EN Got it! If I turned this down, I wouldn't be much of a
+EN woman!
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.26
+# バーニング真田
+JP よろしくお願いします！
+EN I look forward to working with you!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# バーニング真田
+JP すいません。
+JP 団体に所属するのは
+JP 自分には合わない気がするっス。
+EN Sorry. I don't think belonging to a promotion suits
+EN me.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は真田を訪ねることにした。
+EN I decided to go see Sanada.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 真田っ！
+EN Sanada!
+
+@ 21.41
+# バーニング真田
+JP ああッ！
+JP 社長！？
+EN Ahh! Boss!?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# バーニング真田
+JP 今さら何しに来たっスか？
+EN What are you here for, after all this time?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Truth is, I've been looking for you. I want you to
+EN come back...
+
+@ 21.61
+# バーニング真田
+JP そんなこと信じられないっス！
+EN I can't believe that!
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# バーニング真田
+JP 本気で言ってるんスか？
+EN Are you serious?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your strength.
+
+@ 22.29
+# バーニング真田
+JP …もう一度だけ
+JP 社長を信じてみるっス。
+EN ...I'll trust you one more time, Boss.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# バーニング真田
+JP 本気で言ってるんスか？
+EN Are you serious?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 23.29
+# バーニング真田
+JP やっぱり無理っス！
+EN No, I just can't!
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び真田を訪ねることにした。
+EN I decided to go see Sanada again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 真田！
+EN Sanada!
+
+@ 24.37
+# バーニング真田
+JP 社長！？
+JP また来たんですか？
+EN Boss!? You came back?
+
+@ 24.40
+# 社 長
+JP ああ。
+JP また頼みに来たよ。
+EN Yeah. I came to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you back with us.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# バーニング真田
+JP 本気で言ってるんスか？
+EN Are you serious?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your strength.
+
+@ 25.29
+# バーニング真田
+JP …もう一度だけ
+JP 社長を信じてみるっス。
+EN ...I'll trust you one more time, Boss.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# バーニング真田
+JP 本気で言ってるんスか？
+EN Are you serious?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 26.29
+# バーニング真田
+JP やっぱり無理っス！
+EN No, I just can't!
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# バーニング真田
+JP 大丈夫っス。
+EN I'm fine!
+
+@ 28.16
+# scene 029 ケガ大
+# バーニング真田
+JP こんなケガして悔しいっス…。
+EN Getting hurt like this... It's so frustrating...
+
+@ 29.16
+# scene 030 入院
+# バーニング真田
+JP 入院なんて…情けないっス…。
+EN The hospital... How pathetic...
+
+@ 30.16
+# scene 031 退院
+# バーニング真田
+JP 休んでいた分、１０倍返しっス！
+EN I'll pay back the time I missed tenfold!
+
+@ 31.16
+# scene 032 ケガ完治
+# バーニング真田
+JP もう全然平気っス！
+EN I'm totally fine now!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# バーニング真田
+JP 社長がそう言うなら…。
+JP 従うっス…。
+EN If you say so, Boss... I'll do as you say...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# バーニング真田
+JP 自分はまだまだできるっス！
+EN I've still got plenty left in me!
+
+@ 34.16
+# scene 035 コーチ就任
+# バーニング真田
+JP 今後はコーチとして
+JP がんばるっス！
+EN From now on, I'll give it my all as a coach!
+
+@ 35.16
+# scene 036 ケガ引退
+# バーニング真田
+JP ケガに負けるなんて
+JP 悔しいっス…。
+EN Losing to an injury... It's so frustrating...
+
+@ 36.16
+# scene 037 年齢引退
+# バーニング真田
+JP そろそろ潮時かも
+JP しれないっスね…。
+EN Maybe it's about time I called it quits...
+
+@ 37.16
+# scene 038 退団
+# バーニング真田
+JP もう我慢の限界っス！
+EN I can't take it anymore!
+
+@ 38.16
+# scene 039 スランプ
+# バーニング真田
+JP 空回りしてる気がするっス…。
+EN I feel like I'm just spinning my wheels...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# バーニング真田
+JP 自分のファンクラブっスか？
+EN My own fan club?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Don't let your fans down. Give it your all.
+
+@ 39.26
+# バーニング真田
+JP 今まで以上にがんばるっス！
+EN I'll work harder than ever!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# バーニング真田
+JP またファンクラブっスか？
+EN Another fan club?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# バーニング真田
+JP 嬉しいっス！
+JP 燃えてきたっス！
+EN I'm so happy! I'm all fired up!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# バーニング真田
+JP ファンクラブが解散…？
+EN My fan club broke up...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard again.
+
+@ 41.26
+# バーニング真田
+JP 二度とこんなことが
+JP 起きないようにするっス！
+EN I'll make sure this never happens again!
+
+@ 42.16
+# scene 043 映画出演
+# バーニング真田
+JP はわわ…。
+JP 自分に演技なんて無理っス！
+EN Wawawa... There's no way I can act!
+
+@ 43.16
+# scene 044 一日署長
+# バーニング真田
+JP 悪党は全員逮捕するっス！
+EN I'll arrest every last bad guy!
+
+@ 44.16
+# scene 045 写真集発売
+# バーニング真田
+JP いやいやいやいや！
+JP もう絶対無理っス！
+EN No no no no no! Absolutely no way!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# バーニング真田
+JP 本当に自分でいいんでしょうか…。
+EN Are you sure I'm the right person for this...?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# バーニング真田
+JP あわわわわわ…。
+JP 歌なんて自分には
+JP 無理に決まってるっス！
+EN Awawawawa... There's no way I can sing! No way at all!
+
+@ 47.16
+# scene 048 始球式
+# バーニング真田
+JP 全力投球っス！
+EN Full power pitch!
+
+@ 48.16
+# scene 049 学園祭
+# バーニング真田
+JP 祭りっスね！
+JP 盛り上げてくるっス！
+EN A festival! I'll go get the crowd pumped!
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.37
+# バーニング真田
+JP 自分にっスか？
+EN For me?
+
+@ 49.40
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.47
+# バーニング真田
+JP 感激っス！
+JP 自分、社長のためなら
+JP たとえ火の中、水の中っス！
+EN I'm so moved! For you, Boss, I'd go through fire and
+EN water!
+
+@ 50.29
+# scene 051 バレンタインデー
+# バーニング真田
+JP しゃ、しゃ、社長…。
+JP こ、これ受け取って欲しいっス…。
+EN B-b-b-Boss... P-please take this...
+
+@ 50.32
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Oh, chocolate. Thanks.
+
+@ 50.39
+# バーニング真田
+JP きっとまずいから
+JP 捨ててもいいっス…。
+EN It's probably awful, so you can throw it out...
+
+@ 50.42
+# 社 長
+JP （ずいぶん弱気だな）
+EN (That's awfully timid of her.)
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, for last month?
+
+@ 51.38
+# バーニング真田
+JP く～…。
+JP 社長、こんなの卑怯っス…。
+EN Grrr... Boss, this is playing dirty...
+
+@ 51.41
+# 社 長
+JP （…何が卑怯なんだ…？）
+EN (...What's dirty about it...?)
+
+@ 52.31
+# scene 053 サイン会
+# バーニング真田
+JP 自分、感激っス…！
+JP 何万枚でもサインするっス！
+EN I'm so moved...! I'll sign tens of thousands of
+EN autographs!
+
+@ 53.31
+# scene 054 コンサート
+# バーニング真田
+JP う…歌は本当に…勘弁っス…。
+EN Ugh... Singing is really... please spare me...
+
+@ 54.28
+# scene 055 練習拒否
+# バーニング真田
+JP 今日は帰るっス…。
+EN I'm going home today...
+
+@ 55.28
+# scene 056 失踪
+# バーニング真田
+JP もう無理っス…。
+EN I can't do this anymore...
+
+@ 56.16
+# scene 057 選手解雇
+# バーニング真田
+JP 自分の力がたりないって
+JP ことっスね…。
+EN So you're saying I'm not strong enough...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# バーニング真田
+JP 一回り大きくなって
+JP 帰ってくるっス！
+EN I'll come back a whole size bigger!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# バーニング真田
+JP 真田、帰って来たっス！
+EN Sanada is back!
+
+@ 59.28
+# scene 060 移籍思案
+# バーニング真田
+JP 他の団体で腕試しをするのも
+JP ありっスよね…。
+EN Testing myself in another promotion wouldn't be so
+EN bad...
+
+@ 60.16
+# scene 061 革命軍結成
+# バーニング真田
+JP 革命の炎が燃えてるっス！
+EN The flames of revolution are burning!
+
+@ 61.16
+# scene 062 反乱軍結成
+# バーニング真田
+JP 反乱と言われても
+JP この気持ちは抑えきれないっス！
+EN Call it rebellion if you want, I can't hold back this
+EN feeling!
+
+@ 62.16
+# scene 063 最終決戦要求
+# バーニング真田
+JP 天下分け目の勝負っス！
+EN This is the battle that decides everything!
+
+@ 63.16
+# scene 065 遺恨発生
+# バーニング真田
+JP この恨み忘れないっス！
+EN I won't forget this grudge!
+
+@ 64.16
+# scene 065 殴り込み
+# バーニング真田
+JP 先鋒は自分がいくっス！
+EN I'll lead the charge!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# バーニング真田
+JP 自分が返り討ちにしてやるっス！
+EN I'll send them packing myself!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# バーニング真田
+JP まとめて潰してやるっス！
+EN I'll crush you all at once!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# バーニング真田
+JP 一世一代の晴れ舞台っス！
+EN The biggest stage of my life!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# バーニング真田
+JP ヨッシャー！
+JP 天下取ったっスー！
+EN Yeaaah! I took the top spot!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# バーニング真田
+JP まだまだ力不足だったっス…。
+EN I still wasn't strong enough...
+
+@ 70.13
+# scene 071 引退式
+# バーニング真田
+JP 自分は全力で突っ走ってきましたが
+JP 足を休めるときが来たみたいっス！
+JP ありがとうございましたーっ！
+EN I've charged ahead full speed, but it looks like it's
+EN time to rest my legs! Thank you so muuuch!
+
+@ 71.18
+# バーニング真田
+JP 社長、呼んだっスか？
+EN Boss, you called?
+
+@ 71.37
+# バーニング真田
+JP 社長、呼びました？
+EN Boss, you wanted me?
+
+@ 71.47
+# バーニング真田
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems you're in good form lately. Keep it up!
+
+@ 71.90
+# バーニング真田
+JP 嬉しいっス！
+JP がんばるっス！
+EN That makes me happy! I'll do my best!
+
+@ 71.111
+# バーニング真田
+JP やるだけやってみるっス…。
+EN I'll do what I can...
+
+@ 71.132
+# バーニング真田
+JP 社長、自分感激っス！
+JP 精一杯がんばるっス！
+EN Boss, I'm so moved! I'll give it everything I've got!
+
+@ 71.153
+# バーニング真田
+JP 社長の頼みなら
+JP がんばってみるっス…。
+EN If you're asking, Boss, I'll give it a shot...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking a little lately?
+
+@ 71.190
+# バーニング真田
+JP すみません…。
+JP 緊張感がたりなかったっス…。
+EN Sorry... I wasn't focused enough...
+
+@ 71.211
+# バーニング真田
+JP そんなことないっス…。
+EN That's not true...
+
+@ 71.232
+# バーニング真田
+JP すみません…。
+JP 心を入れ替えるっス…。
+EN Sorry... I'll turn over a new leaf...
+
+@ 71.253
+# バーニング真田
+JP そんなときがあることも
+JP わかって欲しいっス…。
+EN I wish you'd understand that everybody has times
+EN like that...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# バーニング真田
+JP 大丈夫っス！
+JP 心配ご無用っス！
+EN I'm fine! No need to worry!
+
+@ 71.311
+# バーニング真田
+JP 自分、もう限界のような
+JP 気がするっス…。
+EN I feel like... I've hit my limit...
+
+@ 71.332
+# バーニング真田
+JP 社長に心配してもらえるなんて
+JP 嬉しいっス。
+EN I'm happy you'd worry about me, Boss.
+
+@ 71.353
+# バーニング真田
+JP 社長、自分はまだやれると
+JP 思いますか…？
+EN Boss, do you think I can still keep going...?
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# バーニング真田
+JP なんとなく…。
+EN Kind of...
+
+@ 71.400
+# バーニング真田
+JP 全然わからないっス。
+EN No idea at all.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# バーニング真田
+JP わかりました！
+JP 謝ってくるっス！
+EN Got it! I'll go apologize!
+
+@ 71.454
+# バーニング真田
+JP 自分は悪くないっス！
+EN I didn't do anything wrong!
+
+@ 71.475
+# バーニング真田
+JP 社長、大丈夫っスか？
+EN Boss, are you feeling okay?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# バーニング真田
+JP なんとなくわかるっス…。
+EN I kind of know...
+
+@ 71.522
+# バーニング真田
+JP 想像もつかないっス。
+EN I can't even imagine.
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# バーニング真田
+JP 社長に頼まれたら
+JP 謝るしかないっスね。
+EN If you're the one asking, Boss, I've got no choice but
+EN to apologize.
+
+@ 71.578
+# バーニング真田
+JP 自分は悪くないっス…。
+EN I didn't do anything wrong...
+
+@ 71.599
+# バーニング真田
+JP 社長、何言ってるか
+JP わからないっス。
+EN Boss, I don't get what you're talking about.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# バーニング真田
+JP 社長、呼びました？
+EN Boss, you wanted me?
+
+@ 72.16
+# バーニング真田
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems you're in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# バーニング真田
+JP 嬉しいっス！
+JP がんばるっス！
+EN That makes me happy! I'll do my best!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# バーニング真田
+JP やるだけやってみるっス…。
+EN I'll do what I can...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# バーニング真田
+JP 社長、自分感激っス！
+JP 精一杯がんばるっス！
+EN Boss, I'm so moved! I'll give it everything I've got!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# バーニング真田
+JP 社長の頼みなら
+JP がんばってみるっス…。
+EN If you're asking, Boss, I'll give it a shot...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# バーニング真田
+JP すみません…。
+JP 緊張感がたりなかったっス…。
+EN Sorry... I wasn't focused enough...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# バーニング真田
+JP そんなことないっス…。
+EN That's not true...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# バーニング真田
+JP すみません…。
+JP 心を入れ替えるっス…。
+EN Sorry... I'll turn over a new leaf...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# バーニング真田
+JP そんなときがあることも
+JP わかって欲しいっス…。
+EN I wish you'd understand that everybody has times
+EN like that...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# バーニング真田
+JP 大丈夫っス！
+JP 心配ご無用っス！
+EN I'm fine! No need to worry!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# バーニング真田
+JP 自分、もう限界のような
+JP 気がするっス…。
+EN I feel like... I've hit my limit...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# バーニング真田
+JP 社長に心配してもらえるなんて
+JP 嬉しいっス。
+EN I'm happy you'd worry about me, Boss.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# バーニング真田
+JP 社長、自分はまだやれると
+JP 思いますか…？
+EN Boss, do you think I can still keep going...?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# バーニング真田
+JP なんとなく…。
+EN Kind of...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# バーニング真田
+JP 全然わからないっス。
+EN No idea at all.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# バーニング真田
+JP わかりました！
+JP 謝ってくるっス！
+EN Got it! I'll go apologize!
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# バーニング真田
+JP 自分は悪くないっス！
+EN I didn't do anything wrong!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# バーニング真田
+JP 社長、大丈夫っスか？
+EN Boss, are you feeling okay?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# バーニング真田
+JP なんとなくわかるっス…。
+EN I kind of know...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# バーニング真田
+JP 想像もつかないっス。
+EN I can't even imagine.
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# バーニング真田
+JP 社長に頼まれたら
+JP 謝るしかないっスね。
+EN If you're the one asking, Boss, I've got no choice but
+EN to apologize.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# バーニング真田
+JP 自分は悪くないっス…。
+EN I didn't do anything wrong...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# バーニング真田
+JP 社長、何言ってるか
+JP わからないっス。
+EN Boss, I don't get what you're talking about.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# バーニング真田
+JP これからもがんばるっス！
+EN I'll keep giving it my all!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# バーニング真田
+JP 社長、サイコーっス！
+EN Boss, you're the best!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# バーニング真田
+JP 社会の厳しさが身にしみるっス…。
+EN The real world sure is harsh...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺たちは南国へと
+JP 　やってきた）
+EN (And so we came to the tropics.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い…）
+EN (Mmm, just what you'd expect from the tropics. The
+EN sun is scorching...)
+
+@ 105.36
+# 社 長
+JP （絶好の海水浴日和だが…）
+EN (Perfect beach weather, but...)
+
+@ 105.38
+# 社 長
+JP （海岸には「サメ発生！遊泳注意！」
+JP 　の看板…）
+EN (On the beach, a sign: "Shark sighted! Swim with
+EN caution!")
+
+@ 105.40
+# 社 長
+JP （楽しみにしていた一同も
+JP 　がっかりした顔をしている）
+EN (Everyone who'd been looking forward to this looks
+EN crestfallen.)
+
+@ 105.42
+# 社 長
+JP …泳ぐのは無理かな。
+EN ...Guess swimming's out.
+
+@ 105.44
+# 社 長
+JP （俺の呟きに、
+JP 　一人のレスラーが反応した）
+EN (One wrestler reacted to my muttering.)
+
+@ 105.60
+# バーニング真田
+JP 何をいってるんスか、社長！
+EN What are you saying, Boss!
+
+@ 105.64
+# バーニング真田
+JP それだと逃げたことになるっス！
+EN That'd be running away!
+
+@ 105.68
+# バーニング真田
+JP そんなの
+JP 勝負師のすることじゃないっス！
+EN That's not what a true competitor does!
+
+@ 105.71
+# 社 長
+JP （こんなことを言うのは
+JP 　もちろん一人しかいない）
+EN (Naturally, there's only one person who'd say
+EN something like this.)
+
+@ 105.73
+# 社 長
+JP だがなぁ、真田。
+EN But, Sanada...
+
+@ 105.75
+# 社 長
+JP （みなぎる彼女を落ち着かせようと
+JP 　俺は海を指さした）
+EN (Trying to calm her overflowing energy, I pointed at
+EN the sea.)
+
+@ 105.77
+# 社 長
+JP あの海に
+JP サメがいるかもしれないんだぞ！
+EN There might be sharks out there!
+
+@ 105.79
+# 社 長
+JP 残念だが、今日は街にでも
+JP 繰り出して…。
+EN It's a shame, but today let's head into town or...
+
+@ 105.83
+# バーニング真田
+JP これはサメの
+JP 大自然の挑戦に違いないっス！
+EN This has to be a challenge from the shark, from
+EN Mother Nature herself!
+
+@ 105.86
+# 社 長
+JP あっ、おいっ！
+EN Ah, hey!
+
+@ 105.88
+# 社 長
+JP （そんな解釈をするのは
+JP 　おまえくらいだっ！）
+EN (You're the only one who'd read it that way!)
+
+@ 105.92
+# バーニング真田
+JP 自分はっ、
+JP 自分は負けないぃぃっ！
+EN I... I won't looooose!
+
+@ 105.111
+# 社 長
+JP あぶないぞー！
+EN It's dangerous!
+
+@ 105.115
+# バーニング真田
+JP 大丈夫っス！
+JP 自分、泳ぎは得意っスから！
+EN I'm fine! I'm a great swimmer!
+
+@ 105.119
+# バーニング真田
+JP うおおぉぉぉ！
+JP 自分の生き様見せてやるぅぅ！！
+EN Raaaaah! I'll show you how I live my liiife!!
+
+@ 105.126
+# 社 長
+JP （真田は海に飛び込んでいき…）
+EN (Sanada dove into the sea...)
+
+@ 105.141
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.145
+# バーニング真田
+JP ぎゃ―――！！
+JP ホントに出たっスぅぅ！！
+EN Gyaaaaah!! It really showed uuup!!
+
+@ 105.148
+# 社 長
+JP 真田あぁぁっっっっ！
+EN Sanadaaaaaa!
+
+@ 105.150
+# 社 長
+JP …………。
+EN ............
+
+@ 105.152
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.154
+# 社 長
+JP （そこには、
+JP 　さんざんサメに追い回され…）
+EN (There, after being chased all over by the shark...)
+
+@ 105.156
+# 社 長
+JP （息も絶え絶えに
+JP 　海岸にたどり着いた
+JP 　真田の姿があった…）
+EN (...was Sanada, who'd made it to shore, gasping for
+EN breath...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある日、寮に出向くと真田がいた）
+EN (One day, I dropped by the dorm and found Sanada
+EN there.)
+
+@ 106.40
+# 社 長
+JP おっ…真田か。
+EN Oh... Sanada.
+
+@ 106.51
+# バーニング真田
+JP しゃ、社長っ…。
+EN B-Boss...
+
+@ 106.55
+# バーニング真田
+JP ど、どうしたんスか？
+EN Wh-what's up?
+
+@ 106.58
+# 社 長
+JP ああ。
+JP ちょっと用事があってな。
+EN Yeah. I had some business here.
+
+@ 106.69
+# バーニング真田
+JP そ…そうっスか……。
+EN I... I see...
+
+@ 106.72
+# 社 長
+JP …んっ？
+EN ...Hm?
+
+@ 106.74
+# 社 長
+JP （真田の様子がおかしい）
+EN (Something's off with Sanada.)
+
+@ 106.76
+# 社 長
+JP （普段は元気すぎるほどに
+JP 　元気なヤツなのに）
+EN (Normally she's energetic to a fault.)
+
+@ 106.78
+# 社 長
+JP （なぜか普段と違って
+JP 　オドオドしている）
+EN (But for some reason she's all jittery today.)
+
+@ 106.80
+# 社 長
+JP …何してるんだ？
+EN ...What are you doing?
+
+@ 106.90
+# バーニング真田
+JP あ、あの…。
+JP さっきコーヒーをこぼされて
+JP スパッツがびしょびしょに…。
+EN W-well... somebody spilled coffee on me earlier, and
+EN my spats got soaked...
+
+@ 106.99
+# 社 長
+JP そうだったのか。
+EN Oh, I see.
+
+@ 106.109
+# バーニング真田
+JP それで…こぼした相手が
+JP 今、洗いに行ってくれてるん
+JP ですが…。
+EN So... the one who spilled it went to wash them for me
+EN right now, but...
+
+@ 106.112
+# 社 長
+JP なるほどな。
+EN I see.
+
+@ 106.122
+# バーニング真田
+JP 面目ないっス…。
+JP 社長が来るとは思ってなかったもんで…。
+EN This is so embarrassing... I didn't think you'd show
+EN up, Boss...
+
+@ 106.126
+# バーニング真田
+JP こんな破廉恥な格好で…。
+EN Me, dressed so indecently...
+
+@ 106.129
+# 社 長
+JP いや、こっちこそ。
+EN No, I'm the one who should apologize.
+
+@ 106.131
+# 社 長
+JP それにしても…あれだな。
+JP 普段とは随分雰囲気が違うな。
+EN Still... You're giving off a pretty different vibe than
+EN usual.
+
+@ 106.141
+# バーニング真田
+JP そ、そうっスか？
+EN I-is that so?
+
+@ 106.144
+# 社 長
+JP 言ったら悪いが
+JP 裸でも堂々としてるイメージだった。
+EN No offense, but I pictured you strutting around
+EN proudly even naked.
+
+@ 106.154
+# バーニング真田
+JP うぅ…普段、どんな目で
+JP 自分を見てるっスか。
+EN Ugh... How do you normally see me?
+
+@ 106.158
+# バーニング真田
+JP これでも乙女っスよ。
+EN I'm still a maiden, you know.
+
+@ 106.161
+# 社 長
+JP そうだな。
+JP すまん。
+JP 認識を改めよう。
+EN You're right. Sorry. I'll reconsider.
+
+@ 106.171
+# バーニング真田
+JP うぅ～…。
+JP 下がスースーして
+JP 心許ない感じっス…。
+EN Uuugh... It's all drafty down there. I feel so exposed...
+
+@ 106.174
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.177
+# 社 長
+JP （今後本当に認識を改めよう）
+EN (I really will reconsider from now on.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある日、寮に出向くと真田がいた）
+EN (One day, I dropped by the dorm and found Sanada
+EN there.)
+
+@ 107.40
+# 社 長
+JP おっ、真田か。
+EN Oh, Sanada.
+
+@ 107.51
+# バーニング真田
+JP しゃ、社長…。
+EN B-Boss...
+
+@ 107.54
+# 社 長
+JP （随分と心許ない返事だ）
+EN (That was an awfully shaky reply.)
+
+@ 107.57
+# 社 長
+JP もしかして、またか…？
+EN Don't tell me, again...?
+
+@ 107.67
+# バーニング真田
+JP そうっス。
+JP うぅ、自分…水難の相でも
+JP あるっスかね？
+EN Yeah. Ugh, do I have some kind of curse with water
+EN or something?
+
+@ 107.70
+# 社 長
+JP 祟られてるんじゃないか？
+EN Maybe you're haunted?
+
+@ 107.74
+# バーニング真田
+JP や、やめてくださいよぉ…。
+EN D-don't say that...
+
+@ 107.78
+# バーニング真田
+JP そうでなくても
+JP 最近ここ出るって
+JP 噂になってるんスから。
+EN There are already rumors going around that this
+EN place has a ghost.
+
+@ 107.81
+# 社 長
+JP そうだったのか…。
+EN Is that so...
+
+@ 107.83
+# 社 長
+JP （知らなかった）
+EN (I had no idea.)
+
+@ 107.85
+# 社 長
+JP おっと、そんな格好のときは
+JP 側にいない方がいいよな。
+EN Oops, I shouldn't hang around when you're dressed
+EN like that.
+
+@ 107.87
+# 社 長
+JP …それじゃ。
+EN ...See you.
+
+@ 107.97
+# バーニング真田
+JP まっ、ま…待った！
+EN W-w-wait!
+
+@ 107.100
+# 社 長
+JP （去ろうとする俺を
+JP 　真田は必死で呼び止めた）
+EN (As I turned to go, Sanada desperately called me
+EN back.)
+
+@ 107.102
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 107.106
+# バーニング真田
+JP 怖いことを思い出させておいて
+JP 一人にするなんてムゴすぎるっス！
+EN Reminding me of scary stuff and then leaving me
+EN alone is way too cruel!
+
+@ 107.109
+# 社 長
+JP あれ…？
+JP この手の話苦手だったっけ？
+EN Huh...? Are you bad with this kind of thing?
+
+@ 107.119
+# バーニング真田
+JP うぅ…。
+JP お恥ずかしながら…。
+EN Ugh... Embarrassing as it is...
+
+@ 107.122
+# 社 長
+JP 意外だ。
+EN That's a surprise.
+
+@ 107.126
+# バーニング真田
+JP 普段なら大丈夫なんスが
+JP スパッツを履いていないと
+JP 気合いが出ないっス…。
+EN Usually I'm fine, but without my spats on, I can't get
+EN fired up...
+
+@ 107.129
+# 社 長
+JP アレが気合いの元なのか？
+EN Those are the source of your fighting spirit?
+
+@ 107.139
+# バーニング真田
+JP うぅ…。
+JP 心細い感じっス。
+JP 一人にしないで欲しいっス。
+EN Ugh... I feel so helpless. Please don't leave me alone.
+
+@ 107.142
+# 社 長
+JP わかった、わかった。
+JP 誰かが来るまで一緒にいるよ。
+EN All right, all right. I'll stay with you until someone
+EN comes.
+
+@ 107.146
+# バーニング真田
+JP 面目ないっス…。
+EN This is so embarrassing...
+
+@ 107.160
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.162
+# 社 長
+JP （それからしばらく。
+JP 　２人で真田のスパッツが
+JP 　戻ってくるのを待った）
+EN (After that, the two of us waited a while for
+EN Sanada's spats to come back.)
+
+@ 107.164
+# 社 長
+JP （その間、ずっと）
+EN (And the whole time...)
+
+@ 107.166
+# 社 長
+JP （真田は俺の服の端を
+JP 　離そうとはしなかった）
+EN (Sanada wouldn't let go of the hem of my shirt.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# バーニング真田
+JP いくっス！
+EN Here I go!
+
+@ 109.16
+# scene 113 練習開始
+# バーニング真田
+JP 今日も練習するっス！
+EN Training again today!
+
+@ 110.16
+# scene 114 練習開始 好意
+# バーニング真田
+JP 自分、今日もがんばります！
+EN I'll do my best today too!
+
+@ 111.16
+# scene 115 特訓開始
+# バーニング真田
+JP 手加減は不要っス！
+EN Don't hold back on me!
+
+@ 112.20
+# scene 116 特訓成功
+# バーニング真田
+JP すごく強くなった気がするっス！
+EN I feel like I got way stronger!
+
+@ 113.20
+# scene 117 特訓失敗
+# バーニング真田
+JP 自分の情けなさに涙が出るっス…。
+EN I'm so pathetic it makes me cry...
+
+@ 114.16
+# scene 118 休養
+# バーニング真田
+JP 休暇といっても
+JP 気は抜かないっス！
+EN Day off or not, I won't let my guard down!
+
+@ 115.16
+# scene 119 入場1
+# バーニング真田
+JP ヨッシャー！
+JP 勝負っス！
+EN Yeaaah! Let's do this!
+
+@ 116.16
+# scene 119 入場2
+# バーニング真田
+JP どんな相手だろうと
+JP 気合と根性で勝ってくるっス！
+EN No matter who it is, I'll win with spirit and guts!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# バーニング真田
+JP 飛ばしていくっスよ！
+EN Going full throttle!
+
+@ 118.16
+# scene 125 必殺技１
+# バーニング真田
+JP この勝負もらったー！
+EN This match is mine!
+
+@ 119.16
+# scene 125 必殺技２
+# バーニング真田
+JP 真田六文銭の一撃受けてみろーっ！
+EN Take the Sanada Six Coins strike!
+
+@ 120.16
+# scene 125 必殺技３
+# バーニング真田
+JP 根性が負けてたまるかぁぁぁああ！
+EN Like my guts would ever lose! Raaaaaaaah!
+
+@ 121.12
+# scene 126 勝利1
+# バーニング真田
+JP 気合と根性！
+JP これに勝るものはないっス！
+EN Spirit and guts! Nothing beats them!
+
+@ 122.12
+# scene 126 勝利2
+# バーニング真田
+JP もっともっと熱い試合をしたいっス！
+EN I want to fight even hotter matches!
+
+@ 123.12
+# scene 126 勝利3
+# バーニング真田
+JP あんたの気合
+JP しかと受け止めたっス！
+EN I felt your fighting spirit loud and clear!
+
+@ 124.15
+# scene 133 表彰1
+# バーニング真田
+JP 気合いと根性の結果です！
+JP これからも全力でいきます！
+EN This is the result of spirit and guts! I'll keep going
+EN all out!
+
+@ 125.15
+# scene 133 表彰2
+# バーニング真田
+JP 期待に応えられるように
+JP もっと気合い入れていきます！
+EN I'll get even more fired up to live up to your
+EN expectations!
+
+@ 126.12
+# scene 134 優勝1
+# バーニング真田
+JP 真田の名前を
+JP ここに刻むことができたっス！
+EN I carved the Sanada name right here!
+
+@ 127.12
+# scene 134 優勝２
+# バーニング真田
+JP 気合いと根性があれば
+JP なんでもできるっス！
+EN With spirit and guts, you can do anything!
+
+@ 128.24
+# scene 135 エンディング 通常
+# バーニング真田
+JP 社長、やったっス！
+JP 自分らが天下取ったっス！
+EN Boss, we did it! We took the top spot!
+
+@ 129.24
+# scene 136 エンディング 好意
+# バーニング真田
+JP 社長、嬉しいっス！
+JP これからもずっと社長と一緒に
+JP 歩んでいきたいっス…。
+EN Boss, I'm so happy! I want to walk with you forever
+EN from now on...

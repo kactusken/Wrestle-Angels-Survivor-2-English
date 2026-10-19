@@ -1,0 +1,2330 @@
+# /SCR/106.BIN - エアリアル菊池
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 106` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# エアリアル菊池
+JP 菊池です！
+JP 体の小ささは気力でカバーします！
+EN I'm Kikuchi! I make up for being small with pure guts!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# エアリアル菊池
+JP やったーッ！
+JP これで私、プロレスラーだよね？
+EN Yaaay! So that makes me a pro wrestler, right?
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# エアリアル菊池
+JP え～っ、そんなぁ…。
+JP やっぱり小さいとダメなのかな…？
+EN Whaaat, no way... Is being small really that bad...?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （資料通りなら
+JP 　このあたりにいるはずだよな…）
+EN (If the file's right, she should be around here...)
+
+@ 3.25
+# 社 長
+JP （ええっと…「小柄ながら運動神経抜群」
+JP 　「早いうちに鍛えるべき人材」？）
+EN (Let's see... "Small, but superb athletic reflexes."
+EN "Should be trained early"?)
+
+@ 3.27
+# 社 長
+JP 早熟な選手か…。
+JP それなら１日も早く
+JP スカウトしておかないと…。
+EN An early bloomer, huh... Then I'd better scout her as
+EN soon as I can...
+
+@ 3.31
+# ？？？
+JP ９８、９９…ひゃーくっ！
+JP ふわぁあああ、きゅーけ～っ！
+EN 98, 99... a hundred! Phew, break time!
+
+@ 3.34
+# 社 長
+JP （…んっ？
+JP 　あそこで練習している子は…）
+EN (...Hm? That girl training over there...)
+
+@ 3.36
+# 社 長
+JP あの、すみません。
+JP 菊池さんですか？
+EN Um, excuse me. Are you Riyu Kikuchi?
+
+@ 3.46
+# エアリアル菊池
+JP …えっ？
+JP あ、ええっと…誰？
+EN ...Huh? Ah, um... who are you?
+
+@ 3.49
+# 社 長
+JP 突然すみません。
+JP 実は私、プロレス団体を
+JP 経営している者で…。
+EN Sorry to bother you out of nowhere. Actually, I run a
+EN pro-wrestling promotion...
+
+@ 3.51
+# 社 長
+JP （俺は自分のことを説明して
+JP 　単刀直入に彼女をスカウトしてみた）
+EN (I explained who I was and got straight to the point: I
+EN tried to scout her.)
+
+@ 3.53
+# 社 長
+JP どうでしょう。
+JP うちの団体で自分を試してみませんか？
+EN What do you say? Want to test yourself in our
+EN promotion?
+
+@ 3.60
+# エアリアル菊池
+JP …えっ？
+JP えぇえええ！？
+JP こ、これってスカウトってやつ！？
+EN ...Huh? Whaaaat!? I-is this one of those scouting
+EN things!?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# エアリアル菊池
+JP …うん、やるやる、やりますっ！
+JP どうせ最初から
+JP プロになるつもりだったし！
+EN ...Yeah, I'm in, I'm in, I'll do it! I was planning to go pro
+EN all along anyway!
+
+@ 4.22
+# 社 長
+JP じゃあ、詳しい話はご家族と一緒に。
+EN Then let's go over the details with your family.
+
+@ 4.29
+# エアリアル菊池
+JP うんっ！
+JP あっ、こっちこっち！
+JP ほら、はやくぅ！
+EN Okay! Oh, this way, this way! Come on, hurry up!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# エアリアル菊池
+JP ごめん！
+JP プロを目指すのは
+JP もっと鍛えてからにする予定なんだ。
+EN Sorry! I'm planning to get stronger before I aim to
+EN go pro.
+
+@ 5.22
+# 社 長
+JP そう言わずに…。
+EN Don't say that...
+
+@ 5.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she didn't
+EN change her mind...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP よーし、今度こそ…。
+JP あっ、いたいた。
+EN All right, this time for sure... Ah, there she is.
+
+@ 6.33
+# エアリアル菊池
+JP いっちにっ、さんしっ、
+JP ごーろっく、しっちはっちっ！
+EN One, two, three, four, five, six, seven, eight!
+
+@ 6.36
+# 社 長
+JP こんにちは。
+JP 相変わらずだね。
+EN Hello. Same as always, I see.
+
+@ 6.43
+# エアリアル菊池
+JP あっ、こんにちはぁ。
+JP 前に来た社長さん…だよね？
+EN Oh, hiii. You're the president who came before...
+EN right?
+
+@ 6.46
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 6.53
+# エアリアル菊池
+JP あははは。
+JP もしかして私って
+JP 将来有望とか思われてたりする？
+EN Ahaha. Wait, do you think I've got a bright future or
+EN something?
+
+@ 6.56
+# 社 長
+JP それは君次第かな。
+JP 才能があっても芽の出ない選手だって
+JP いるんだ。
+EN That's up to you. Some wrestlers have talent and
+EN never blossom.
+
+@ 6.58
+# 社 長
+JP 逆に才能を努力でカバーしてる
+JP 選手もいる。
+JP どうなるかは本人次第なんだ。
+EN Others make up for less talent with hard work. How it
+EN turns out depends on the person.
+
+@ 6.65
+# エアリアル菊池
+JP へぇ…。
+JP やっぱり最後は本人のやる気ってこと？
+EN Huh... So in the end, it comes down to how bad you
+EN want it?
+
+@ 6.68
+# 社 長
+JP そう。
+JP だから君に惹かれているんだ。
+EN Right. That's why you caught my eye.
+
+@ 6.70
+# 社 長
+JP どうかな。
+JP うちの団体で自分を試してみないかな？
+EN What do you say? Want to test yourself in our
+EN promotion?
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# エアリアル菊池
+JP …うん、やるやる、やりますっ！
+JP どうせ最初から
+JP プロになるつもりだったし！
+EN ...Yeah, I'm in, I'm in, I'll do it! I was planning to go pro
+EN all along anyway!
+
+@ 7.22
+# 社 長
+JP じゃあ、詳しい話はご家族と一緒に。
+EN Then let's go over the details with your family.
+
+@ 7.29
+# エアリアル菊池
+JP うんっ！
+JP あっ、こっちこっち！
+JP ほら、はやくぅ！
+EN Okay! Oh, this way, this way! Come on, hurry up!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# エアリアル菊池
+JP ごめん！
+JP プロを目指すのは
+JP もっと鍛えてからにする予定なんだ。
+EN Sorry! I'm planning to get stronger before I aim to
+EN go pro.
+
+@ 8.22
+# 社 長
+JP そう言わずに…。
+EN Don't say that...
+
+@ 8.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she didn't
+EN change her mind...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （菊池選手…。
+JP 　あの元気でまっすぐな気質。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Kikuchi... All that energy and that honest spirit.
+EN She's exactly the talent we need.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 9.37
+# エアリアル菊池
+JP あ、はーい…。
+JP あれ…どこかで…？
+JP あっ、どっかの団体の社長さん？
+EN Oh, yeees... Huh... Haven't I seen you...? Oh, you're the
+EN president of some promotion?
+
+@ 9.40
+# 社 長
+JP （俺は単刀直入に移籍を持ちかけてみた）
+EN (I got straight to the point and offered her a
+EN transfer.)
+
+@ 9.47
+# エアリアル菊池
+JP うわぁ…。
+JP 私のこと、引き抜きに来たの？
+EN Whoa... You came to poach me?
+
+@ 9.50
+# 社 長
+JP えぇ、そうです。
+JP どうでしょう。
+JP 考えてもらえませんか？
+EN Yes, that's right. What do you say? Will you think
+EN about it?
+
+@ 9.57
+# エアリアル菊池
+JP うーん…。
+JP 困っちゃうなぁ。
+JP ヘッドハンティングかぁ…。
+EN Hmm... You've got me in a tough spot. Headhunting,
+EN huh...
+
+@ 9.60
+# 社 長
+JP お願いします。
+JP どうかうちの団体に。
+EN Please. Come join our promotion.
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# エアリアル菊池
+JP よしっ、決めた！
+JP 私、移籍してもいいよ！
+EN Okay, I've decided! I'll transfer!
+
+@ 10.22
+# 社 長
+JP えっ、本当に！？
+EN Huh, really!?
+
+@ 10.29
+# エアリアル菊池
+JP なんかピピーンときたの！
+JP ピピーンって。
+JP という訳で、よろしく！
+EN I just got this zing! Like, zing! So yeah, nice to be
+EN working with you!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# エアリアル菊池
+JP ごめんね！
+JP 今はそんなつもりないから。
+EN Sorry! I'm not thinking about that right now.
+
+@ 11.22
+# 社 長
+JP それは…残念だな…。
+EN That's... a shame...
+
+@ 11.29
+# エアリアル菊池
+JP あははは、ごめんね。
+JP 無駄足ふませちゃって。
+EN Ahaha, sorry. You came all this way for nothing.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには菊池選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really need Kikuchi. I decided to negotiate with
+EN her once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# エアリアル菊池
+JP あっ、社長さんだ！
+JP やっほー、元気にしてた？
+EN Oh, it's the president! Heya, how've you been?
+
+@ 12.38
+# 社 長
+JP 相変わらずだなぁ…。
+JP ところで移籍の話
+JP 考え直してくれないかな？
+EN Same as ever, huh... So, about that transfer. Won't
+EN you reconsider?
+
+@ 12.45
+# エアリアル菊池
+JP えーっ、あんまり困らせないでよ…。
+EN Aww, don't put me on the spot like that...
+
+@ 12.48
+# 社 長
+JP そこをなんとか。
+EN Please, I'm asking you.
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# エアリアル菊池
+JP よしっ、決めた！
+JP 私、移籍してもいいよ！
+EN Okay, I've decided! I'll transfer!
+
+@ 13.22
+# 社 長
+JP えっ、本当に！？
+EN Huh, really!?
+
+@ 13.29
+# エアリアル菊池
+JP なんかピピーンときたの！
+JP ピピーンって。
+JP という訳で、よろしく！
+EN I just got this zing! Like, zing! So yeah, nice to be
+EN working with you!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# エアリアル菊池
+JP ごめんね！
+JP 今はそんなつもりないから。
+EN Sorry! I'm not thinking about that right now.
+
+@ 14.22
+# 社 長
+JP それは…残念だな…。
+EN That's... a shame...
+
+@ 14.29
+# エアリアル菊池
+JP あははは、ごめんね。
+JP 無駄足ふませちゃって。
+EN Ahaha, sorry. You came all this way for nothing.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （菊池選手…。
+JP 　あの元気でまっすぐな気質。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Kikuchi... All that energy and that honest spirit.
+EN She's exactly the talent we need.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 15.37
+# エアリアル菊池
+JP あっ、は～い…。
+JP えっと…誰だっけ？
+EN Oh, yeees... Um... who are you again?
+
+@ 15.40
+# 社 長
+JP （俺は単刀直入に移籍を持ちかけてみた）
+EN (I got straight to the point and offered her a spot.)
+
+@ 15.47
+# エアリアル菊池
+JP えっ、えーっと…。
+JP つまり、フリーをやめて
+JP 団体に入らないかってこと？
+EN Huh, um... So you mean quit freelancing and join a
+EN promotion?
+
+@ 15.50
+# 社 長
+JP えぇ、そうです。
+JP どうでしょう。
+JP 考えてもらえませんか？
+EN Yes, that's right. What do you say? Will you think
+EN about it?
+
+@ 15.57
+# エアリアル菊池
+JP うーん…。
+JP フリーも気に入ってるんだけどなぁ。
+JP なんとなく気楽だし…。
+EN Hmm... I kinda like freelancing, though. It's sort of
+EN laid-back...
+
+@ 15.60
+# 社 長
+JP お願いします。
+JP どうかうちの団体に。
+EN Please. Come join our promotion.
+
+@ 15.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently persuading
+EN her.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# エアリアル菊池
+JP よしっ、決めた！
+JP 社長さんのところに入ってあげる！
+EN Okay, I've decided! I'll join your promotion, Boss!
+
+@ 16.22
+# 社 長
+JP えっ、本当に！？
+EN Huh, really!?
+
+@ 16.29
+# エアリアル菊池
+JP うん。
+JP フリーより団体に入った方が
+JP いいかなって。
+EN Yeah. I figured joining a promotion might be better
+EN than freelancing.
+
+@ 16.32
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. Glad to have you aboard!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# エアリアル菊池
+JP ごめん。
+JP 今はフリーでどこまでできるか
+JP 試したいの。
+EN Sorry. Right now I want to see how far I can get as a
+EN freelancer.
+
+@ 17.22
+# 社 長
+JP それは…残念だな…。
+EN That's... a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには菊池選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really need Kikuchi. I decided to negotiate with
+EN her once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# エアリアル菊池
+JP あっ、社長さん！
+JP もしかしてまた入団の誘い？
+EN Oh, the president! Are you here to recruit me again?
+
+@ 18.38
+# 社 長
+JP はい。
+JP どうしてもうちの団体に移籍して
+JP 欲しいんです。
+EN Yes. I really want you to come to our promotion.
+
+@ 18.45
+# エアリアル菊池
+JP うーん…。
+JP でもフリーの気楽さって
+JP 性に合ってるんだよねぇ。
+EN Hmm... But that laid-back freelance life really suits
+EN me.
+
+@ 18.48
+# 社 長
+JP そこをなんとか。
+EN Please, I'm asking you.
+
+@ 18.50
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I offered my terms again and worked hard to
+EN persuade her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# エアリアル菊池
+JP よしっ、決めた！
+JP 社長さんのところに入ってあげる！
+EN Okay, I've decided! I'll join your promotion, Boss!
+
+@ 19.22
+# 社 長
+JP えっ、本当に！？
+EN Huh, really!?
+
+@ 19.29
+# エアリアル菊池
+JP うん。
+JP フリーより団体に入った方が
+JP いいかなって。
+EN Yeah. I figured joining a promotion might be better
+EN than freelancing.
+
+@ 19.32
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. Glad to have you aboard!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# エアリアル菊池
+JP ごめん。
+JP 今はフリーでどこまでできるか
+JP 試したいの。
+EN Sorry. Right now I want to see how far I can get as a
+EN freelancer.
+
+@ 20.22
+# 社 長
+JP それは…残念だな…。
+EN That's... a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、いた、菊池！
+EN She should be around here... Ah, there she is.
+EN Kikuchi!
+
+@ 21.33
+# エアリアル菊池
+JP 社長…！
+JP こんなところで何してるんですか…？
+EN Boss...! What are you doing here...?
+
+@ 21.36
+# 社 長
+JP 今日は菊池に会いに来たんだ。
+EN I came to see you today, Kikuchi.
+
+@ 21.43
+# エアリアル菊池
+JP もしかして私のこと
+JP また誘いに来たって訳？
+EN Don't tell me you came to recruit me again?
+
+@ 21.46
+# 社 長
+JP ああ。
+JP 言えた義理じゃないが…。
+JP 戻ってきてくれないか？
+EN Yeah. I know I'm in no position to ask... but will you
+EN come back?
+
+@ 21.53
+# エアリアル菊池
+JP ほんと、言えた義理じゃないよね。
+EN Seriously, you're in no position to ask.
+
+@ 21.56
+# 社 長
+JP わかってる。
+JP でも…菊池、俺が悪かった。
+JP 許してくれ。
+EN I know. But... Kikuchi, I was wrong. Please forgive me.
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# エアリアル菊池
+JP うん、わかった、許す。
+EN Okay, fine. I forgive you.
+
+@ 22.22
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 22.29
+# エアリアル菊池
+JP そのかわり、次はないからね。
+JP 今回だけだよ、今回だけ。
+EN But there won't be a next time. Just this once, okay?
+EN Just this once.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# エアリアル菊池
+JP だーめ。
+EN Nooope.
+
+@ 23.22
+# 社 長
+JP …だめか。
+EN ...No good, huh.
+
+@ 23.29
+# エアリアル菊池
+JP うん。
+JP 簡単には許してあげないんだから。
+EN Nope. I'm not forgiving you that easily.
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 菊池っ！
+EN Kikuchi!
+
+@ 24.33
+# エアリアル菊池
+JP あっ、社長。
+JP また来たの…？
+EN Oh, Boss. You came again...?
+
+@ 24.36
+# 社 長
+JP ああ。
+JP 頼むからうちの団体に戻ってこないか？
+EN Yeah. Please, won't you come back to our promotion?
+
+@ 24.38
+# 社 長
+JP 前のことは本当にすまなかった。
+JP だから…。
+EN I'm really sorry about what happened before. So...
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# エアリアル菊池
+JP うん、わかった、許す。
+EN Okay, fine. I forgive you.
+
+@ 25.22
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 25.29
+# エアリアル菊池
+JP そのかわり、次はないからね。
+JP 今回だけだよ、今回だけ。
+EN But there won't be a next time. Just this once, okay?
+EN Just this once.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# エアリアル菊池
+JP だーめ。
+EN Nooope.
+
+@ 26.22
+# 社 長
+JP …だめか。
+EN ...No good, huh.
+
+@ 26.29
+# エアリアル菊池
+JP うん。
+JP 簡単には許してあげないんだから。
+EN Nope. I'm not forgiving you that easily.
+
+@ 27.16
+# scene 028 ケガ小
+# エアリアル菊池
+JP こんなのテーピングで…。
+JP ほら、全然平気っ！
+EN A little tape will fix this... See, totally fine!
+
+@ 28.16
+# scene 029 ケガ大
+# エアリアル菊池
+JP これはちょっとテーピングじゃ
+JP きついかな…。
+EN Tape might not cut it for this one...
+
+@ 29.16
+# scene 030 入院
+# エアリアル菊池
+JP あははは…。
+JP ちょっとだけ戦線離脱かな…。
+EN Ahaha... Guess I'm off the front lines for a bit...
+
+@ 30.16
+# scene 031 退院
+# エアリアル菊池
+JP 菊池、復活しましたー！
+EN Kikuchi is back in action!
+
+@ 31.16
+# scene 032 ケガ完治
+# エアリアル菊池
+JP 私、ケガしてたんだっけ？
+EN Wait, was I injured?
+
+@ 32.20
+# scene 033 引退勧告 成功
+# エアリアル菊池
+JP そっかぁ…。
+JP ここまでかぁ…。
+JP 次は何しようかな…。
+EN I see... So this is as far as I go... What should I do
+EN next...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# エアリアル菊池
+JP ヘーキ、ヘーキ。
+JP 私、まだまだいけるって。
+EN I'm fine, I'm fine. I've still got plenty left in me.
+
+@ 34.16
+# scene 035 コーチ就任
+# エアリアル菊池
+JP とりあえずみんな腕立て１万回！
+JP あぁ、冗談だってば！
+EN Okay everyone, ten thousand push-ups to start! Ah,
+EN I'm kidding, I'm kidding!
+
+@ 35.16
+# scene 036 ケガ引退
+# エアリアル菊池
+JP はい、医者の診断書…。
+JP もうダメなんだって。
+JP あははは……。
+EN Here, the doctor's note... It says I'm done. Ahaha...
+
+@ 36.16
+# scene 037 年齢引退
+# エアリアル菊池
+JP 歳も歳だから、引退するね。
+JP ついでに社長、お嫁さん欲しくない？
+JP あははは、冗談、冗談。
+EN I'm getting up there, so I'm retiring. Oh, Boss, want a
+EN wife while you're at it? Ahaha, kidding!
+
+@ 37.16
+# scene 038 退団
+# エアリアル菊池
+JP あっ、社長。
+JP 私、今日で辞めるから。
+JP お世話になりました！
+EN Oh, Boss. I'm quitting as of today. Thanks for
+EN everything!
+
+@ 38.16
+# scene 039 スランプ
+# エアリアル菊池
+JP うーん…。
+JP スランプ…なのかな？
+EN Hmm... Am I... in a slump?
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# エアリアル菊池
+JP うわぁ…。
+JP なんかすごーく恥ずかしい気も
+JP するんだけど…。
+EN Whoa... I kinda feel super embarrassed, though...
+
+@ 39.19
+# 社 長
+JP そういうなって。
+JP 応援に負けないよう
+JP がんばればいいだけだろ？
+EN Don't say that. Just work hard enough to live up to
+EN their support, right?
+
+@ 39.26
+# エアリアル菊池
+JP もっちろん！
+JP もっともっとファンも
+JP 増やさないとね！
+EN You bet! I've gotta get even more fans!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# エアリアル菊池
+JP うわぁ、またできたの？
+JP 私のファンって、そんなにいたの？
+EN Whoa, another one? I had that many fans?
+
+@ 40.19
+# 社 長
+JP 増えてるんだよ。
+JP いいことじゃないか。
+EN Your fanbase is growing. That's a good thing.
+
+@ 40.26
+# エアリアル菊池
+JP うーん…。
+JP まっ、いっか。
+JP じゃ、練習いってきまーす。
+EN Hmm... Oh well. Okay, I'm off to practice!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# エアリアル菊池
+JP えーっ！
+JP 解散しちゃったの？
+EN Whaaat! They disbanded?
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. Just work hard again.
+
+@ 41.26
+# エアリアル菊池
+JP …うん、そうだよね。
+JP よーし、がんばるぞーっ！
+EN ...Yeah, you're right. Okay, I'm gonna work hard!
+
+@ 42.16
+# scene 043 映画出演
+# エアリアル菊池
+JP 目指せ、ハリウッド！
+JP なんてねっ！
+EN Next stop, Hollywood! Just kidding!
+
+@ 43.16
+# scene 044 一日署長
+# エアリアル菊池
+JP 本官はこれより
+JP 一日署長をしてくるであります！
+JP びしっ！
+EN This officer will now report for duty as police chief
+EN for a day! Salute!
+
+@ 44.16
+# scene 045 写真集発売
+# エアリアル菊池
+JP 撮影場所って海外だよね？
+JP サイパンとかグァムとか！
+EN The shoot's overseas, right? Like Saipan or Guam!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# エアリアル菊池
+JP ＣＭの女王も目指しちゃおうかな～。
+JP なんてねっ！
+EN Maybe I'll aim to be the queen of commercials too!
+EN Just kidding!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# エアリアル菊池
+JP 歌はちょーっと自信ないんだけどね…。
+EN I'm not suuuper confident about singing, though...
+
+@ 47.16
+# scene 048 始球式
+# エアリアル菊池
+JP 社長、社長。
+JP 本気で投げても、いいんだよね？
+EN Boss, Boss. It's okay if I throw it for real, right?
+
+@ 48.16
+# scene 049 学園祭
+# エアリアル菊池
+JP よーし、盛り上げちゃうぞーっ！
+EN All right, let's get this party going!
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.38
+# エアリアル菊池
+JP えっ！？
+JP うわぁ…社長、ありがとう！
+EN Huh!? Wow... Thanks, Boss!
+
+@ 49.41
+# 社 長
+JP おめでとう。
+JP まぁ、これからもよろしくな。
+EN Happy birthday. Well, keep up the good work.
+
+@ 49.48
+# エアリアル菊池
+JP うん！
+JP 社長、抱きついてもいい？
+EN Okay! Boss, can I give you a hug?
+
+@ 49.51
+# 社 長
+JP バ、バカ。
+JP みんないるだろ。
+EN D-don't be silly. Everyone's here.
+
+@ 50.32
+# scene 051 バレンタインデー
+# エアリアル菊池
+JP 社長、社長！
+JP はい、バレンタインデーの
+JP チョコレートっ！
+EN Boss, Boss! Here, Valentine's chocolate!
+
+@ 50.35
+# 社 長
+JP おっ、ありがとう
+JP …って、なんだこれ。
+JP やけにデカイな。
+EN Oh, thanks... wait, what is this? It's huge.
+
+@ 50.42
+# エアリアル菊池
+JP うん、チャンピオンベルトだから。
+EN Yeah, 'cause it's a championship belt.
+
+@ 50.45
+# 社 長
+JP べ、ベルトぉ！？
+EN A b-belt!?
+
+@ 50.52
+# エアリアル菊池
+JP がんばったんだよぉ。
+JP ちゃんと食べてね。
+EN I worked really hard on it. Make sure you eat it all.
+
+@ 50.55
+# 社 長
+JP おまえ…俺を胸焼けさせるつもりか？
+EN Are you trying to give me heartburn?
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 菊池。
+JP バレンタインのお返しだ。
+EN Kikuchi. Here's my return gift for Valentine's.
+
+@ 51.38
+# エアリアル菊池
+JP うわっ！？
+JP 何これ、すっごく大きいけど。
+EN Whoa!? What is this? It's super big.
+
+@ 51.41
+# 社 長
+JP お返しのクッキーだ。
+JP チャンピオンベルトをイメージした
+JP 原寸大の。
+EN A thank-you cookie. Modeled on a championship belt,
+EN life-size.
+
+@ 51.48
+# エアリアル菊池
+JP うわぁ…。
+JP そうくるんだぁ…。
+EN Whoa... So that's how you're playing it...
+
+@ 51.51
+# 社 長
+JP まぁ、全員で食べてくれ。
+JP 菊池もそれでいいよな？
+EN Well, share it with everyone. That okay with you,
+EN Kikuchi?
+
+@ 51.58
+# エアリアル菊池
+JP もっちろん！
+JP これ、一人で食べられる訳
+JP ないもんね。
+EN You bet! No way I could eat this all by myself.
+
+@ 51.61
+# 社 長
+JP あははは。
+JP よしっ、さぁ、練習に戻った戻った。
+EN Ahaha. All right, now back to practice, go, go.
+
+@ 52.31
+# scene 053 サイン会
+# エアリアル菊池
+JP いつもありがとーっ！
+JP あっ、君、前の試合のとき来てたよね？
+EN Thanks as always! Oh, you came to my last match,
+EN didn't you?
+
+@ 53.31
+# scene 054 コンサート
+# エアリアル菊池
+JP みんなぁ、のってる～っ！？
+JP 私は試合のときよりのってるかも～！
+EN Everybody, are you having fun!? I think I'm more
+EN fired up than at my matches!
+
+@ 54.28
+# scene 055 練習拒否
+# エアリアル菊池
+JP 今日の練習はパスっ！
+EN I'm skipping practice today!
+
+@ 55.28
+# scene 056 失踪
+# エアリアル菊池
+JP はぁ～…。
+JP 私、何やってんだろ…。
+EN Sigh... What am I even doing...
+
+@ 56.16
+# scene 057 選手解雇
+# エアリアル菊池
+JP …………えっ？
+EN .........Huh?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# エアリアル菊池
+JP なんでかな、体が震えて…。
+JP あっ、これって武者震い？
+EN Why's my body shaking...? Oh, is this what they call
+EN trembling with excitement?
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# エアリアル菊池
+JP 菊池、恥ずかしながら戻ってきました！
+JP なんてねっ。
+JP 社長、ただいま！
+EN Kikuchi has returned, humbly! Just kidding. Boss, I'm
+EN home!
+
+@ 59.28
+# scene 060 移籍思案
+# エアリアル菊池
+JP ヘッドハンティングかぁ…。
+JP うーん、どうしよう…？
+EN Headhunting, huh... Hmm, what should I do...?
+
+@ 60.16
+# scene 061 革命軍結成
+# エアリアル菊池
+JP やると決めたからには
+JP 最後までやるんだから！
+EN Now that I've decided to do this, I'm seeing it
+EN through to the end!
+
+@ 61.16
+# scene 062 反乱軍結成
+# エアリアル菊池
+JP ふっふっふ…。
+JP 私だってやるときはやるんだよ？
+EN Heh heh heh... I can get serious when it counts too,
+EN you know?
+
+@ 62.16
+# scene 063 最終決戦要求
+# エアリアル菊池
+JP いざ尋常に勝負！
+EN Let's settle this, fair and square!
+
+@ 63.16
+# scene 064 遺恨発生
+# エアリアル菊池
+JP もう、我慢の限界っ！
+EN That's it, I've had it!
+
+@ 64.16
+# scene 065 殴り込み
+# エアリアル菊池
+JP 私が全員倒してくるから！
+EN I'll go take them all down!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# エアリアル菊池
+JP 私が相手よっ！
+EN I'm your opponent!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# エアリアル菊池
+JP 私のスピードに
+JP ついて来られる人いる？
+EN Can anyone here keep up with my speed?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# エアリアル菊池
+JP 社長、任せてっ！
+JP 必ず優勝してみせるから！！
+EN Leave it to me, Boss! I'll win this thing for sure!!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# エアリアル菊池
+JP やったーっ！
+JP みんなぁ、優勝したよー！
+EN Yaaay! Everybody, I won!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# エアリアル菊池
+JP 負けちゃった…。
+JP ごめんなさい…。
+EN I lost... I'm sorry...
+
+@ 70.13
+# scene 071 引退式
+# エアリアル菊池
+JP 今日まで必死にやってきました。
+JP 後悔はしてません。
+JP 今まで応援ありがとうございました！
+EN I gave it my all up to today. I have no regrets. Thank
+EN you all for your support!
+
+@ 71.18
+# エアリアル菊池
+JP あ、社長。
+JP なに？
+EN Oh, Boss. What is it?
+
+@ 71.37
+# エアリアル菊池
+JP あ、社長♪
+JP なになに？
+EN Oh, Boss! What's up, what's up?
+
+@ 71.47
+# エアリアル菊池
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You're doing great lately. Keep it up.
+
+@ 71.90
+# エアリアル菊池
+JP うん、任せてよ！
+EN Yeah, leave it to me!
+
+@ 71.111
+# エアリアル菊池
+JP あーっ！
+JP 社長、何か企んでるでしょ？
+EN Aha! Boss, you're up to something, aren't you?
+
+@ 71.132
+# エアリアル菊池
+JP だめだよ、社長。
+JP このままいったら
+JP 調子にのりすぎちゃうよ？
+EN Careful, Boss. Keep this up and I'll get way too full of
+EN myself, you know?
+
+@ 71.153
+# エアリアル菊池
+JP あははは…。
+JP えーと…それなりにがんばるじゃ
+JP …ダメ？
+EN Ahaha... Um... Would "I'll try reasonably hard"... be no
+EN good?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# エアリアル菊池
+JP はーい。
+JP 以後、気をつけまーす。
+EN Okaaay. I'll be careful from now on.
+
+@ 71.211
+# エアリアル菊池
+JP そうかな？
+JP う～ん…社長の気のせいじゃない？
+EN You think? Hmm... Isn't that just your imagination,
+EN Boss?
+
+@ 71.232
+# エアリアル菊池
+JP …うん…。
+JP 気合いの入れ直しだね。
+JP よーし、がんばるぞーっ！
+EN ...Yeah... Time to get fired up again. All right, I'm
+EN gonna work hard!
+
+@ 71.253
+# エアリアル菊池
+JP あははは。
+JP そんな訳ないじゃない。
+JP 気のせいだよ、気のせい。
+EN Ahaha. No way. It's your imagination, your
+EN imagination.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# エアリアル菊池
+JP あははは…。
+JP やっぱりバレてた？
+EN Ahaha... You noticed, huh?
+
+@ 71.311
+# エアリアル菊池
+JP え、全然平気だけど？
+EN Huh, I'm totally fine, though?
+
+@ 71.332
+# エアリアル菊池
+JP 社長にはバレバレかぁ…。
+JP でも、全然大丈夫。
+JP 元気が私の取り柄だもん！
+EN Can't hide anything from you, Boss... But I'm totally
+EN okay. Energy is my strong suit!
+
+@ 71.353
+# エアリアル菊池
+JP はうー…。
+JP うーん…ちょっとねぇ…。
+EN Uuuh... Hmm... It's just kinda...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# エアリアル菊池
+JP えっ…。
+JP な、なんのことかなぁ？
+EN Huh... Wh-what could you mean?
+
+@ 71.400
+# エアリアル菊池
+JP えっ？
+JP なんのこと？
+EN Huh? What do you mean?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# エアリアル菊池
+JP あははは…。
+JP そうだよねぇ。
+JP うん、なんとかしてくる。
+EN Ahaha... Yeah, I guess. Okay, I'll go work it out.
+
+@ 71.454
+# エアリアル菊池
+JP 知らない。
+JP 私が悪いんじゃないもん。
+EN Don't care. It's not my fault.
+
+@ 71.475
+# エアリアル菊池
+JP …えっ？
+JP 別に喧嘩とかしてないけど？
+EN ...Huh? We're not fighting or anything, though?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# エアリアル菊池
+JP あうっ…。
+JP やっぱりバレバレ？
+EN Ugh... You saw right through me?
+
+@ 71.522
+# エアリアル菊池
+JP …ん？
+JP 全然心当たりないけど…？
+EN ...Hm? I have no idea what you mean...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# エアリアル菊池
+JP …うん。
+JP 社長がそう言うなら
+JP 私的には全然ＯＫ！
+EN ...Okay. If you say so, Boss, it's totally fine by me!
+
+@ 71.578
+# エアリアル菊池
+JP う～…。
+JP 社長がそう言うのもわかるけど…。
+EN Uuu... I get why you're saying that, Boss, but...
+
+@ 71.599
+# エアリアル菊池
+JP やだなぁ、社長。
+JP リングを下りたら、みんな仲良しだよ？
+EN Come on, Boss. Once we're out of the ring, we're all
+EN friends, okay?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# エアリアル菊池
+JP あ、社長♪
+JP なになに？
+EN Oh, Boss! What's up, what's up?
+
+@ 72.16
+# エアリアル菊池
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You're doing great lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# エアリアル菊池
+JP うん、任せてよ！
+EN Yeah, leave it to me!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# エアリアル菊池
+JP あーっ！
+JP 社長、何か企んでるでしょ？
+EN Aha! Boss, you're up to something, aren't you?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# エアリアル菊池
+JP だめだよ、社長。このままいったら、
+JP 調子にのりすぎちゃうよ？
+EN Careful, Boss. Keep this up and I'll get way too full of
+EN myself, you know?
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# エアリアル菊池
+JP あははは…。
+JP えーと…それなりにがんばるじゃ、
+JP ダメ？
+EN Ahaha... Um... Would "I'll try reasonably hard" be no
+EN good?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# エアリアル菊池
+JP はーい。
+JP 以後、気をつけまーす。
+EN Okaaay. I'll be careful from now on.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# エアリアル菊池
+JP そうかな？　う～ん…。
+JP 社長の気のせいじゃない？
+EN You think? Hmm... Isn't that just your imagination,
+EN Boss?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# エアリアル菊池
+JP …うん…。
+JP 気合いの入れ直しだね。
+JP よーし、がんばるぞーっ！
+EN ...Yeah... Time to get fired up again. All right, I'm
+EN gonna work hard!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# エアリアル菊池
+JP あははは。
+JP そんな訳ないじゃない。
+JP 気のせいだよ、気のせい。
+EN Ahaha. No way. It's your imagination, your
+EN imagination.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# エアリアル菊池
+JP あははは…。
+JP やっぱりバレてた？
+EN Ahaha... You noticed, huh?
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# エアリアル菊池
+JP え、全然平気だけど？
+EN Huh, I'm totally fine, though?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# エアリアル菊池
+JP 社長にはバレバレかぁ…。
+JP でも、全然大丈夫。
+JP 元気が私の取り柄だもん！
+EN Can't hide anything from you, Boss... But I'm totally
+EN okay. Energy is my strong suit!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# エアリアル菊池
+JP はうー。
+JP うーん、ちょっとねぇ……。
+EN Uuuh. Hmm, it's just kinda...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# エアリアル菊池
+JP えっ…。
+JP な、なんのことかなぁ？
+EN Huh... Wh-what could you mean?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# エアリアル菊池
+JP えっ？　なんのこと？
+EN Huh? What do you mean?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# エアリアル菊池
+JP あははは…。
+JP そうだよねぇ。
+JP うん、なんとかしてくる。
+EN Ahaha... Yeah, I guess. Okay, I'll go work it out.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# エアリアル菊池
+JP 知らない。
+JP 私が悪いんじゃないもん。
+EN Don't care. It's not my fault.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# エアリアル菊池
+JP えっ？　別に喧嘩とかしてないけど？
+EN Huh? We're not fighting or anything, though?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# エアリアル菊池
+JP あうっ…。
+JP やっぱりバレバレ？
+EN Ugh... You saw right through me?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# エアリアル菊池
+JP ん？　全然心当たりないけど…？
+EN Hm? I have no idea what you mean...?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# エアリアル菊池
+JP …うん。
+JP 社長がそう言うなら、私的には
+JP 全然ＯＫ！
+EN ...Okay. If you say so, Boss, it's totally fine by me!
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# エアリアル菊池
+JP う～…。
+JP 社長がそう言うのもわかるけど…。
+EN Uuu... I get why you're saying that, Boss, but...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# エアリアル菊池
+JP やだなぁ、社長。リングを下りたら、
+JP みんな仲良しだよ？
+EN Come on, Boss. Once we're out of the ring, we're all
+EN friends, okay?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# エアリアル菊池
+JP はーい、菊池はこの金額で
+JP 合意ＯＫでーす。
+EN Okaaay, Kikuchi agrees to this amount. Deal!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# エアリアル菊池
+JP うわっ！？
+JP こんなにもらっていいの！？
+JP もっとがんばらないとね！
+EN Whoa!? I get this much!? I'd better work even harder!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# エアリアル菊池
+JP これが私の評価かぁ…。
+JP ちょっと寂しいなぁ…。
+EN So this is what I'm worth... That's kinda sad...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP さーて。
+JP 俺も羽根を伸ばさせてもらうか…。
+EN Okay then. Time for me to kick back too...
+
+@ 105.28
+# ？？？
+JP あっ、社長、社長！
+EN Oh, Boss, Boss!
+
+@ 105.37
+# 社 長
+JP あぁ、菊池。
+JP どうした？
+EN Ah, Kikuchi. What's up?
+
+@ 105.44
+# エアリアル菊池
+JP ねぇねぇ、無人島に行かない？
+EN Hey, hey, wanna go to a deserted island?
+
+@ 105.47
+# 社 長
+JP 無人島？
+JP なんだ、藪から棒に。
+EN A deserted island? Where did that come from?
+
+@ 105.54
+# エアリアル菊池
+JP これこれ！
+EN This, this!
+
+@ 105.57
+# 社 長
+JP なんだこれ。たしか部屋にあった
+JP パンフレットじゃ…。
+JP あぁ、そういうことか。
+EN What's this? Isn't it the brochure from the room...?
+EN Ah, I see.
+
+@ 105.64
+# エアリアル菊池
+JP 無人島探検ツアー！
+JP 沖合いの無人島で安全かつ
+JP エキサイティングな冒険！
+EN Deserted Island Exploration Tour! A safe and
+EN exciting adventure on an island offshore!
+
+@ 105.67
+# 社 長
+JP 安全だとエキサイトできないんじゃ
+JP ないのか？
+EN If it's safe, how can it be exciting?
+
+@ 105.74
+# エアリアル菊池
+JP まぁまぁ。
+JP そういう細かいことは気にしない
+JP 気にしない♪
+EN Now, now. Don't sweat the small stuff!
+
+@ 105.77
+# 社 長
+JP まぁ、面白そうだな。
+EN Well, it does sound fun.
+
+@ 105.84
+# エアリアル菊池
+JP やったー！
+JP ささ、気が変わる前にレッツゴー♪
+EN Yaaay! Come on, let's go before you change your
+EN mind!
+
+@ 105.87
+# 社 長
+JP お、おい、逃げないから押すなって！
+EN H-hey, I'm not running away, stop pushing!
+
+@ 105.116
+# エアリアル菊池
+JP うわぁ、夕陽がキレー。
+EN Wow, the sunset's so pretty.
+
+@ 105.119
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.123
+# エアリアル菊池
+JP ねぇねぇ、社長！
+JP ほらほら、キレーじゃない？
+EN Hey, hey, Boss! Look, look, isn't it pretty?
+
+@ 105.126
+# 社 長
+JP そんな場合じゃないだろ…。
+EN This is no time for that...
+
+@ 105.144
+# エアリアル菊池
+JP やだなぁ、クヨクヨしたって
+JP 始まらないじゃない！
+EN Come on, moping won't get us anywhere!
+
+@ 105.147
+# 社 長
+JP 待て。
+JP そもそも、おまえが集合時間を
+JP 勘違いしたのが発端なんだぞ？
+EN Hold on. This all started because you got the
+EN meeting time wrong, remember?
+
+@ 105.149
+# 社 長
+JP 迎えの船は明日の朝にならないと
+JP 来ないし…。
+EN And the boat won't come pick us up until tomorrow
+EN morning...
+
+@ 105.159
+# エアリアル菊池
+JP ええっと…。
+JP あははは。
+EN Um... Ahaha.
+
+@ 105.169
+# エアリアル菊池
+JP ごめんなさい。
+JP 反省してます。
+EN I'm sorry. I'm reflecting on it.
+
+@ 105.172
+# 社 長
+JP わかればいいんだ、わかれば。
+EN As long as you understand.
+
+@ 105.182
+# エアリアル菊池
+JP でもここって暖かいでしょ？
+JP いざとなったら
+JP 浜辺で朝まで寝てていいんじゃない？
+EN But it's warm here, right? Worst case, we can just
+EN sleep on the beach till morning, can't we?
+
+@ 105.185
+# 社 長
+JP まったく…。
+JP おまえはどんなときも前向きだな。
+EN Honestly... You're always looking on the bright side,
+EN no matter what.
+
+@ 105.189
+# エアリアル菊池
+JP だってほら
+JP 悩んだって仕方ないじゃない。
+EN Well, I mean, worrying won't help, right?
+
+@ 105.199
+# エアリアル菊池
+JP それにほら、
+JP 南の楽園に二人っきりでしょ？
+JP 夕日もロマンチックだし♪
+EN Plus, look, it's just the two of us in a tropical
+EN paradise, right? And the sunset's romantic!
+
+@ 105.202
+# 社 長
+JP まったく…。
+JP ポジティヴなのはいいんだがな…。
+JP はぁ……。
+EN Honestly... Being positive is great and all, but... Sigh...
+
+@ 106.28
+# scene 107 日常イベント１
+# エアリアル菊池
+JP 社長ぉ、ちょっといい？
+EN Bossss, got a sec?
+
+@ 106.31
+# 社 長
+JP おっ、菊池、どうした？
+JP 今日は午後から全員オフのはずだぞ？
+EN Oh, Kikuchi, what's up? Isn't everyone off this
+EN afternoon?
+
+@ 106.38
+# エアリアル菊池
+JP リストバンド、ボロボロになってきた
+JP から、新しいの買うの付き合って。
+EN My wristbands are getting all ragged, so come with
+EN me to buy new ones.
+
+@ 106.41
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 106.48
+# エアリアル菊池
+JP どうせ社長も午後はオフなんでしょ？
+EN You're off this afternoon too, right, Boss?
+
+@ 106.51
+# 社 長
+JP ええっと…。
+JP 霧子くんとか他の誰かじゃ…。
+EN Well, um... Couldn't you ask Kiriko or someone else...?
+
+@ 106.58
+# エアリアル菊池
+JP だって社長に買ってもらったら
+JP 練習も試合ももっとがんばれそう
+JP でしょ？
+EN But if you buy them for me, I'll work even harder in
+EN practice and matches, right?
+
+@ 106.61
+# 社 長
+JP 買ってもらったらって…。
+JP それが目的か。
+EN "If I buy them for you"... So that's your angle.
+
+@ 106.68
+# エアリアル菊池
+JP まぁまぁ
+JP 細かいことは気にしないっ！
+EN Now, now, don't sweat the small stuff!
+
+@ 106.71
+# 社 長
+JP まったく…。
+JP わかった、わかった。
+EN Honestly... All right, all right.
+
+@ 106.93
+# 社 長
+JP ……で。
+EN ...So.
+
+@ 106.106
+# 社 長
+JP そろそろ決めてくれないか？
+EN Could you hurry up and decide?
+
+@ 106.110
+# エアリアル菊池
+JP ん～っ、もうちょっと…。
+JP あっ、これこれ。
+JP これかわいいかも？
+EN Mmm, just a little longer... Oh, this one, this one. This
+EN might be cute?
+
+@ 106.113
+# 社 長
+JP それはバイザー。
+EN That's a visor.
+
+@ 106.117
+# エアリアル菊池
+JP あっ、これカワイーっ♪
+EN Oh, this is so cute!
+
+@ 106.120
+# 社 長
+JP それは水を入れて使うダンベル。
+EN That's a dumbbell you fill with water.
+
+@ 106.122
+# 社 長
+JP ほら、いいから早く欲しいもの選べ。
+JP リストバンドなら買ってやるから。
+EN Come on, just pick what you want already. I'll buy you
+EN the wristbands.
+
+@ 106.126
+# エアリアル菊池
+JP あっ、社長、社長！
+JP あれって、あれだよね！
+JP 少し前に流行った乗馬のやつ！
+EN Oh, Boss, Boss! That's that thing, right? That
+EN horse-riding machine that was a fad a while back!
+
+@ 106.129
+# 社 長
+JP やれやれ…。
+EN Good grief...
+
+@ 106.131
+# 社 長
+JP （まっ、今日はオフだし…。
+JP 　菊池も楽しそうだから
+JP 　これはこれで仕方ないか）
+EN (Well, it's my day off... Kikuchi's having fun, so I
+EN guess this is fine.)
+
+@ 107.28
+# scene 108 日常イベント２
+# エアリアル菊池
+JP 社長ぉ、ちょっといい？
+EN Bossss, got a sec?
+
+@ 107.31
+# 社 長
+JP おっ、菊池か。
+JP どうした？
+EN Oh, Kikuchi. What's up?
+
+@ 107.38
+# エアリアル菊池
+JP ほら、今日って午後からオフでしょ？
+JP 社長もそうなんじゃないかなぁって。
+EN See, we're off this afternoon, right? I figured you
+EN might be too, Boss.
+
+@ 107.41
+# 社 長
+JP …前にもあったな。
+JP こんなこと。
+EN ...This has happened before.
+
+@ 107.48
+# エアリアル菊池
+JP あっ、わかる？
+EN Oh, you noticed?
+
+@ 107.51
+# 社 長
+JP 今度はなんだ？
+EN What is it this time?
+
+@ 107.58
+# エアリアル菊池
+JP うん。
+JP ハチマキが切れちゃって
+JP 予備もなくなっちゃったの。
+EN Well, my headband snapped, and I'm out of spares.
+
+@ 107.61
+# 社 長
+JP 念のため聞くが
+JP 霧子くんとか他の…。
+EN Just to be sure, couldn't Kiriko or someone else...
+
+@ 107.68
+# エアリアル菊池
+JP 社長に買ってもらったハチマキなら
+JP きっと願いもかなうと思うの！
+JP お願いっ！
+EN If you buy me a headband, Boss, I just know my wish
+EN will come true! Please!
+
+@ 107.71
+# 社 長
+JP はいはい。
+JP どうせこっちもオフだからな。
+JP でも、ハチマキだけだぞ？
+EN Yes, yes. I'm off anyway. But just a headband, got it?
+
+@ 107.78
+# エアリアル菊池
+JP やったぁ！
+JP さすが社長、そうこなくっちゃ♪
+EN Yay! That's my Boss, I knew you'd say yes!
+
+@ 107.100
+# 社 長
+JP ……で。
+EN ...So.
+
+@ 107.113
+# 社 長
+JP またこうなる訳か。
+EN It's turning out like this again, huh.
+
+@ 107.117
+# エアリアル菊池
+JP あ、社長、社長。
+JP 水着も見ていい？
+JP 見るだけだから。
+EN Oh, Boss, Boss. Can I look at swimsuits too? Just
+EN looking!
+
+@ 107.120
+# 社 長
+JP 待て待て待て。
+JP 買いに来たのはハチマキだろ？
+EN Whoa, whoa, whoa. We came to buy a headband, didn't
+EN we?
+
+@ 107.124
+# エアリアル菊池
+JP うわぁ…。
+JP あんなハイレグもあるんだぁ。
+JP ちょっとすごいかも…。
+EN Whoa... They even have high-cut ones like that.
+EN That's kinda wild...
+
+@ 107.127
+# 社 長
+JP そうか？
+JP あれくらいなら…。
+JP いやいや、だからだな。
+EN Is it? That's not so bad... No, no, that's not the point.
+
+@ 107.129
+# 社 長
+JP あっ、そうだ。
+EN Oh, right.
+
+@ 107.131
+# 社 長
+JP 菊池、ハチマキに何か
+JP 願掛けでもしてるのか？
+EN Kikuchi, are you making some kind of wish on that
+EN headband?
+
+@ 107.135
+# エアリアル菊池
+JP えっ？
+JP 別にしてないけど？
+EN Huh? No, not really?
+
+@ 107.138
+# 社 長
+JP でもおまえ、事務所で願いがどうとか
+JP 言ってただろ。
+EN But at the office, you said something about a wish.
+
+@ 107.142
+# エアリアル菊池
+JP あぁ、それはあれ。
+EN Oh, that.
+
+@ 107.146
+# エアリアル菊池
+JP 社長に買ってもらったハチマキを
+JP 締めてれば、史上最強のチャンピオンに
+JP なれる気がするから。
+EN If I wear a headband you bought me, Boss, I feel like I
+EN can be the strongest champion ever.
+
+@ 107.149
+# 社 長
+JP 史上最強って…。
+JP 大きくでたな。
+EN The strongest ever... That's thinking big.
+
+@ 107.159
+# エアリアル菊池
+JP （…それに占いの本にあったんだよね）
+EN (...Plus, I read it in a fortune-telling book.)
+
+@ 107.163
+# エアリアル菊池
+JP （ハチマキの裏に
+JP 　好きな人の名前を書いて
+JP 　それで勝負事に勝てば…）
+EN (If you write the name of the one you love inside
+EN your headband and win a match...)
+
+@ 107.166
+# 社 長
+JP …んっ？
+JP どうした？
+EN ...Hm? What's wrong?
+
+@ 107.176
+# エアリアル菊池
+JP ううん…！
+JP なんでもない、なんでもない！
+EN N-no...! It's nothing, nothing!
+
+@ 107.179
+# 社 長
+JP 変なやつだな…。
+JP ほら、それよりハチマキだろ、
+JP ハチマキ。
+EN You're a strange one... Come on, never mind that. The
+EN headband, remember?
+
+@ 107.183
+# エアリアル菊池
+JP うん！
+JP ハチマキ、ハチマキ～っと♪
+EN Okay! Headband, headband!
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# エアリアル菊池
+JP 祐希子さん！
+JP 今の私、見てくださいっ！
+EN Yukiko! Watch what I can do now!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# エアリアル菊池
+JP 練習だからって
+JP 負けないんだからっ！
+EN Just 'cause it's practice doesn't mean I'll lose!
+
+@ 110.16
+# scene 113 練習開始
+# エアリアル菊池
+JP 今日もよろしくお願いします！
+EN Let's have another great day of training!
+
+@ 111.16
+# scene 114 練習開始 好意
+# エアリアル菊池
+JP 今日も一生懸命がんばるからね！
+EN I'll give it my all again today!
+
+@ 112.16
+# scene 115 特訓開始
+# エアリアル菊池
+JP よしっ！
+JP いつでもいいよ！！
+EN All right! Ready whenever you are!!
+
+@ 113.20
+# scene 116 特訓成功
+# エアリアル菊池
+JP レベルアーップ！
+EN Level uuup!
+
+@ 114.20
+# scene 117 特訓失敗
+# エアリアル菊池
+JP 疲れただけだよぅ…。
+EN I'm just tired, that's all...
+
+@ 115.16
+# scene 118 休養
+# エアリアル菊池
+JP う～ん…。
+JP 休みのときに限って
+JP 練習したくなるんだよね…。
+EN Hmm... Somehow I always want to train most on my
+EN days off...
+
+@ 116.16
+# scene 119 入場1
+# エアリアル菊池
+JP 神風一閃！
+JP 菊池、行きますっ！
+EN A flash of the divine wind! Kikuchi, here I come!
+
+@ 117.16
+# scene 119 入場2
+# エアリアル菊池
+JP すべて出し切るまで
+JP 全力で戦い抜きます！
+EN I'll fight with everything I've got until there's
+EN nothing left!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# エアリアル菊池
+JP 完全無欠の師弟コンビ、参上っ！
+EN The flawless mentor-and-student team has arrived!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# エアリアル菊池
+JP 最初から全力で行くからねっ！
+EN I'm going all out from the start!
+
+@ 120.16
+# scene 125 必殺技１
+# エアリアル菊池
+JP 神風ファイターの力、見せてあげる！
+EN I'll show you the power of the Kamikaze Fighter!
+
+@ 121.16
+# scene 125 必殺技２
+# エアリアル菊池
+JP 神風娘の真髄、受けてみなさい！
+EN Take the true essence of the Kamikaze Girl!
+
+@ 122.16
+# scene 125 必殺技３
+# エアリアル菊池
+JP 私の全力を受け取ってください！
+EN Take everything I've got!
+
+@ 123.12
+# scene 126 勝利1
+# エアリアル菊池
+JP いつか見た
+JP あの背中に追いつくためにも
+JP 負けられないの！
+EN I can't lose, not if I'm ever gonna catch up to that
+EN back I once saw!
+
+@ 124.12
+# scene 126 勝利2
+# エアリアル菊池
+JP 今日も神風吹かせてみましたー！
+EN I made the divine wind blow again today!
+
+@ 125.12
+# scene 126 勝利3
+# エアリアル菊池
+JP 今日も絶好調です！
+EN I'm in top form again today!
+
+@ 126.15
+# scene 133 表彰1
+# エアリアル菊池
+JP やったーっ！
+JP 来年もがんばりまーすっ！
+JP みんな、応援よろしく！
+EN Yaaay! I'll work hard next year too! Keep cheering
+EN for me, everyone!
+
+@ 127.15
+# scene 133 表彰2
+# エアリアル菊池
+JP 社長！
+JP どう、私の風！
+JP うちの団体、まだまだ大きくなるよ！
+EN Boss! How about my wind? Our promotion's gonna
+EN keep getting bigger!
+
+@ 128.12
+# scene 134 優勝1
+# エアリアル菊池
+JP ファンのみんなが起こしてくれた神風！
+JP 私はそれに乗っただけだよ！
+EN This divine wind was stirred up by all my fans! I just
+EN rode it!
+
+@ 129.12
+# scene 134 優勝２
+# エアリアル菊池
+JP あいむ・うぃなー！
+JP みんなぁ、やったよーっ！
+EN I'm the winner! Everybody, I did it!
+
+@ 130.24
+# scene 135 エンディング 通常
+# エアリアル菊池
+JP 社長、社長！
+JP 今日はみんなでお祝いだね！
+JP ホテル貸しきっちゃおうか？
+EN Boss, Boss! Today we're all celebrating! Should we
+EN rent out a whole hotel?
+
+@ 131.24
+# scene 136 エンディング 好意
+# エアリアル菊池
+JP 社長、おめでとーっ！
+JP お祝いに…ちゅっ…。
+JP あははは、嬉しい？
+EN Congratulations, Boss! As a reward... smooch...
+EN Ahaha, happy?

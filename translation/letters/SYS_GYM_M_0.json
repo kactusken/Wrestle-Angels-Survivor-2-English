@@ -1,0 +1,147 @@
+{
+ "english": "Coaching | Coaches | Talk | Sparring | Office | Coaching | Coaches | Talk | Sparring | Office",
+ "boxes": [
+  [
+   64,
+   16,
+   62,
+   24
+  ],
+  [
+   62,
+   40,
+   68,
+   24
+  ],
+  [
+   60,
+   64,
+   69,
+   24
+  ],
+  [
+   54,
+   88,
+   82,
+   24
+  ],
+  [
+   55,
+   112,
+   80,
+   24
+  ],
+  [
+   174,
+   14,
+   66,
+   28
+  ],
+  [
+   172,
+   38,
+   72,
+   28
+  ],
+  [
+   170,
+   62,
+   73,
+   28
+  ],
+  [
+   164,
+   86,
+   86,
+   28
+  ],
+  [
+   165,
+   110,
+   84,
+   28
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "cap": 14,
+ "same_size": true,
+ "groups": [
+  {
+   "labels": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 2.5,
+   "clear": [
+    [
+     52,
+     15,
+     86,
+     122
+    ]
+   ],
+   "draw": "office.panel",
+   "restore": {
+    "checker": [
+     53,
+     132,
+     127,
+     123
+    ],
+    "rows": [
+     38,
+     39
+    ],
+    "band": [
+     20,
+     132
+    ],
+    "top": [
+     56,
+     57
+    ],
+    "bottom": [
+     124,
+     125
+    ],
+    "bevel_x": [
+     53,
+     135
+    ]
+   }
+  },
+  {
+   "labels": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 3.5,
+   "clear": [
+    [
+     163,
+     12,
+     93,
+     128
+    ]
+   ],
+   "copy_of": [
+    0,
+    [
+     112,
+     0
+    ]
+   ]
+  }
+ ],
+ "notes": "gym menu: panel labels + red highlight copy, as SYS_MENU_0; the panel's dither is rebuilt by tools/letter_ext/office.py (panel); the copy's ground is index 0 at alpha 2 (no fully transparent index), so it is 'interpolate' from the empty columns either side; red copy = the white letters shifted exactly (112, 0), as in the original (copy_of)"
+}

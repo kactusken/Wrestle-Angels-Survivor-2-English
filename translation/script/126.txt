@@ -1,0 +1,2354 @@
+# /SCR/126.BIN - ラズベリー榎本
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 126` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ラズベリー榎本
+JP エヘヘッ。
+JP よろしくお願いしまーす。
+EN Ehehe. Nice to meet youuu.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ラズベリー榎本
+JP ヤッターッ！
+JP フリル付きのコスチューム
+JP 買っちゃお！
+EN Yaaay! I'm gonna buy a costume with frills!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ラズベリー榎本
+JP えーっ！
+JP なんでー！
+JP なんでダメなのー？
+EN Whaaat?! Why? Why can't I pass?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP たしかこのあたりにいる子って
+JP ことだったけど…。
+EN The girl I'm looking for is supposed to be around
+EN here...
+
+@ 3.25
+# 社 長
+JP プロレスに向いてそうな子は
+JP いないけどなぁ…。
+EN I don't see anyone who looks cut out for wrestling,
+EN though...
+
+@ 3.27
+# 社 長
+JP …おや？
+JP あそこで遊んでる子は
+JP ずいぶんすばしっこそうだなぁ。
+EN ...Oh? That girl playing over there looks pretty quick
+EN on her feet.
+
+@ 3.29
+# 社 長
+JP ちょっと声をかけてみるか。
+EN Maybe I'll talk to her.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# ラズベリー榎本
+JP なーに？
+JP 知らない人にはついて
+JP いかないもん！
+EN Whaaat? I don't go anywhere with strangers!
+
+@ 3.44
+# 社 長
+JP （俺は自分の説明をして
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 3.51
+# ラズベリー榎本
+JP プロレス～？
+JP なんか怖いよー。
+EN Pro wrestling? That sounds scary...
+
+@ 3.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.61
+# ラズベリー榎本
+JP かわいいコスチューム着たいけど
+JP イタイのはヤダ…。
+EN I wanna wear cute costumes, but I don't want it to
+EN hurt...
+
+@ 3.64
+# 社 長
+JP 君の素質を伸ばすこともできると
+JP 思うんだ。
+EN I think we could help you develop your talent.
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ラズベリー榎本
+JP わかった！
+JP やってみる！
+JP かわいいコスチューム着てみたいし！
+EN Okay! I'll try it! I wanna wear cute costumes anyway!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# ラズベリー榎本
+JP これからよろしくお願いしまーす！
+EN Nice to be working with youuu!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ラズベリー榎本
+JP お母さんに怒られちゃうから
+JP ヤダもん！
+EN My mom would get mad at me, so no way!
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# ラズベリー榎本
+JP …あっ、この前の社長さん！？
+JP また来たのー？
+EN ...Oh, it's that President from before?! You came
+EN back?
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 6.43
+# ラズベリー榎本
+JP う～ん…。
+JP でもなぁ…。
+JP イタイのはヤダなぁ…。
+EN Hmmm... But still... I don't want it to hurt...
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my offer.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ラズベリー榎本
+JP わかった！
+JP やってみる！
+JP かわいいコスチューム着てみたいし！
+EN Okay! I'll try it! I wanna wear cute costumes anyway!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# ラズベリー榎本
+JP これからよろしくお願いしまーす！
+EN Nice to be working with youuu!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ラズベリー榎本
+JP お母さんに怒られちゃうから
+JP ヤダもん！
+EN My mom would get mad at me, so no way!
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は榎本選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Enomoto.
+
+@ 9.25
+# 社 長
+JP あの天性の明るさや集客力には
+JP 魅力がある。
+EN Her natural cheerfulness and drawing power are
+EN very appealing.
+
+@ 9.27
+# 社 長
+JP たしかこのあたりで
+JP よく買物してるって聞いたんだが…。
+EN I heard she often goes shopping around here...
+
+@ 9.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# ラズベリー榎本
+JP な～に？
+EN Whaaat?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.48
+# ラズベリー榎本
+JP 私が社長さんの団体に移籍するの？
+EN You want me to transfer to your promotion?
+
+@ 9.51
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.58
+# ラズベリー榎本
+JP 難しくってわかんないよー…。
+EN That's too complicated, I don't get it...
+
+@ 9.61
+# 社 長
+JP うちの団体に力を貸して
+JP もらえないでしょうか？
+EN Won't you lend our promotion your strength?
+
+@ 9.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# ラズベリー榎本
+JP よくわかんないけど
+JP 移籍しちゃおっかな。
+EN I don't really get it, but maybe I'll transfer.
+
+@ 10.18
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# ラズベリー榎本
+JP うん！
+JP その代わりお菓子いっぱい
+JP 買ってね！
+EN Yup! But in return, you gotta buy me lots of candy!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ラズベリー榎本
+JP よくわかんないから
+JP やっぱりヤダ！
+EN I don't really get it, so no thanks!
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 榎本選手が必要だ。
+EN Our promotion really does need Enomoto.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 榎本選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ラズベリー榎本
+JP …あっ、この前の社長さんだ！？
+JP また難しい話～？
+EN ...Oh, it's that President from before?! More
+EN complicated stuff?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.47
+# ラズベリー榎本
+JP 難しいこと言われたら
+JP 困っちゃうよ～。
+EN When you say complicated stuff, I get all confused...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my offer.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# ラズベリー榎本
+JP よくわかんないけど
+JP 移籍しちゃおっかな。
+EN I don't really get it, but maybe I'll transfer.
+
+@ 13.18
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# ラズベリー榎本
+JP うん！
+JP その代わりお菓子いっぱい
+JP 買ってね！
+EN Yup! But in return, you gotta buy me lots of candy!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ラズベリー榎本
+JP よくわかんないから
+JP やっぱりヤダ！
+EN I don't really get it, so no thanks!
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は榎本選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Enomoto.
+
+@ 15.25
+# 社 長
+JP 体は小さいが、フリーでの活躍は
+JP よく耳に入ってくる。
+EN She's small, but I keep hearing about how well she's
+EN doing as a freelancer.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりで
+JP よく買物してるって聞いたんだが…。
+EN I heard she often goes shopping around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# ラズベリー榎本
+JP な～に？
+EN Whaaat?
+
+@ 15.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 15.51
+# ラズベリー榎本
+JP 社長さんの団体に私が入るの～？
+EN You want me to join your promotion?
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# ラズベリー榎本
+JP 別に今のままでもいいしな～。
+EN I'm kinda fine the way things are, though...
+
+@ 15.64
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Is there any way you could lend us your strength?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# ラズベリー榎本
+JP わかった！
+JP 社長さんの団体に入っちゃう！
+EN Okay! I'll join your promotion!
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# ラズベリー榎本
+JP その代わり、リボン付きの
+JP かわいいコスチューム買ってね。
+EN But in return, buy me a cute costume with ribbons,
+EN okay?
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ラズベリー榎本
+JP 私、やっぱり今のままの方がいいや！
+JP ごめんね！
+EN I think I like things the way they are after all! Sorry!
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 榎本選手が必要だ。
+EN Our promotion really does need Enomoto.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 榎本選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ラズベリー榎本
+JP …あっ、この前の社長さんだ！？
+JP また来たの～？
+EN ...Oh, it's that President from before?! You came
+EN back?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 18.47
+# ラズベリー榎本
+JP そんなこと言われてもなぁ…。
+EN Even if you say that...
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my offer.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# ラズベリー榎本
+JP わかった！
+JP 社長さんの団体に入っちゃう！
+EN Okay! I'll join your promotion!
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# ラズベリー榎本
+JP その代わり、リボン付きの
+JP かわいいコスチューム買ってね。
+EN But in return, buy me a cute costume with ribbons,
+EN okay?
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ラズベリー榎本
+JP 私、やっぱり今のままの方がいいや！
+JP ごめんね！
+EN I think I like things the way they are after all! Sorry!
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は榎本を訪ねることにした。
+EN I decided to pay Enomoto a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりの店に出入り
+JP してるって話だったけど…。
+EN I heard she hangs around the shops near here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 榎本っ！
+EN Enomoto!
+
+@ 21.41
+# ラズベリー榎本
+JP あーっ！？
+EN Aaah?!
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.48
+# ラズベリー榎本
+JP 社長なんか嫌いだもん！
+EN I don't like you anymore, Boss!
+
+@ 21.51
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you because I
+EN want you to come back...
+
+@ 21.55
+# ラズベリー榎本
+JP 社長なんて信じられないもん！
+EN I can't trust you, Boss!
+
+@ 21.58
+# 社 長
+JP たしかにこんなこと
+JP 頼めた義理じゃないんだけど…。
+EN I know I'm in no position to ask this, but...
+
+@ 21.60
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ラズベリー榎本
+JP どうしても戻って欲しい？
+EN You really, really want me back?
+
+@ 22.18
+# 社 長
+JP どうしても戻って欲しいんだ。
+EN I really, really want you back.
+
+@ 22.29
+# ラズベリー榎本
+JP わかった。
+JP 今回は社長のお願い聞いてあげる！
+EN Okay. This time I'll do what you ask, Boss!
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# ラズベリー榎本
+JP ホントに戻って欲しいの？
+EN You really want me back?
+
+@ 23.18
+# 社 長
+JP ああ、どうしても戻って欲しいんだ。
+EN Yes, I really want you back.
+
+@ 23.29
+# ラズベリー榎本
+JP やっぱりヤダ。
+JP だって社長を許せないもん！
+EN Nope, no way. 'Cause I can't forgive you, Boss!
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び榎本を訪ねることにした。
+EN I decided to visit Enomoto again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 榎本っ！
+EN Enomoto!
+
+@ 24.37
+# ラズベリー榎本
+JP あっ、社長！？
+JP また来たー！
+EN Oh, Boss?! You came again!
+
+@ 24.40
+# 社 長
+JP ああ、また頼みに来たよ。
+EN Yeah, I've come to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ラズベリー榎本
+JP どうしても戻って欲しい？
+EN You really, really want me back?
+
+@ 25.18
+# 社 長
+JP どうしても戻って欲しいんだ。
+EN I really, really want you back.
+
+@ 25.29
+# ラズベリー榎本
+JP わかった。
+JP 今回は社長のお願い聞いてあげる！
+EN Okay. This time I'll do what you ask, Boss!
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ラズベリー榎本
+JP ホントに戻って欲しいの？
+EN You really want me back?
+
+@ 26.18
+# 社 長
+JP ああ、どうしても戻って欲しいんだ。
+EN Yes, I really want you back.
+
+@ 26.29
+# ラズベリー榎本
+JP やっぱりヤダ。
+JP だって社長を許せないもん！
+EN Nope, no way. 'Cause I can't forgive you, Boss!
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ラズベリー榎本
+JP イタイよ～。
+JP もうやだよー！
+EN Owww, it hurts! I don't wanna do this anymore!
+
+@ 28.16
+# scene 029 ケガ大
+# ラズベリー榎本
+JP イタイよ～。
+JP もう動けないよー！
+EN Owww, it hurts! I can't move anymore!
+
+@ 29.16
+# scene 030 入院
+# ラズベリー榎本
+JP 病院なんてヤダよー！
+JP 社長、一緒に来てー！
+EN I don't wanna go to the hospital! Boss, come with me!
+
+@ 30.16
+# scene 031 退院
+# ラズベリー榎本
+JP エヘヘッ。
+JP 社長、元気になったよ！
+EN Ehehe. Boss, I'm all better!
+
+@ 31.16
+# scene 032 ケガ完治
+# ラズベリー榎本
+JP エヘヘッ。
+JP 社長、治ったよ！
+EN Ehehe. Boss, I'm all healed!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ラズベリー榎本
+JP ムゥ～。
+JP もうダメなのかなぁ…。
+EN Mmmh... Is this the end for me...?
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ラズベリー榎本
+JP イヤ、イヤ！
+JP 引退なんてヤダもん！
+EN No, no! I don't wanna retire!
+
+@ 34.16
+# scene 035 コーチ就任
+# ラズベリー榎本
+JP 今日からコーチって呼んでね！
+EN From today on, call me Coach!
+
+@ 35.16
+# scene 036 ケガ引退
+# ラズベリー榎本
+JP もう…がんばれないもん…。
+EN I just... can't try anymore...
+
+@ 36.16
+# scene 037 年齢引退
+# ラズベリー榎本
+JP …疲れちゃった…。
+EN ...I'm all tired out...
+
+@ 37.16
+# scene 038 退団
+# ラズベリー榎本
+JP もう社長と遊んであげない！
+EN I'm not gonna play with you anymore, Boss!
+
+@ 38.16
+# scene 039 スランプ
+# ラズベリー榎本
+JP おうち帰りたいなぁ…。
+EN I wanna go home...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ラズベリー榎本
+JP これで私もアイドルレスラーかな？
+EN Does this make me an idol wrestler?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# ラズベリー榎本
+JP ウンッ！
+JP がんばるね。
+EN Uh-huh! I'll do my best.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ラズベリー榎本
+JP わーい！
+JP すごい、すごーい！
+EN Yaaay! Amazing, amaaazing!
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Make sure you live up to their expectations.
+
+@ 40.26
+# ラズベリー榎本
+JP お菓子いっぱいもらえるといいなぁ。
+EN I hope they give me lots of candy.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ラズベリー榎本
+JP ふぇ～ん！
+JP 私、嫌われちゃったの？
+EN Waaah! Do they hate me now?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.23
+# ラズベリー榎本
+JP うぅ…。
+JP 私、がんばる…。
+EN Sniff... I'll do my best...
+
+@ 42.16
+# scene 043 映画出演
+# ラズベリー榎本
+JP 女優さんだー！
+JP 演技のお勉強しよーっと！
+EN I'm an actress! I'm gonna study acting!
+
+@ 43.16
+# scene 044 一日署長
+# ラズベリー榎本
+JP 悪い人はみんなタイホしてくるね！
+EN I'll arrest all the bad guys!
+
+@ 44.16
+# scene 045 写真集発売
+# ラズベリー榎本
+JP わー…。
+JP グラビアアイドルだー！
+EN Wow... I'm a gravure idol!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ラズベリー榎本
+JP お菓子のＣＭだったら
+JP いっぱいもらえるかな？
+EN If it's a candy commercial, do you think they'll give
+EN me lots?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ラズベリー榎本
+JP カラオケ行って練習しよーっと！
+EN I'm gonna go practice at karaoke!
+
+@ 47.16
+# scene 048 始球式
+# ラズベリー榎本
+JP 社長、キャッチボールの相手して？
+EN Boss, will you play catch with me?
+
+@ 48.16
+# scene 049 学園祭
+# ラズベリー榎本
+JP 綿アメ食べて来てもいい？
+EN Can I go eat cotton candy?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.38
+# ラズベリー榎本
+JP 私にプレゼント…？
+EN A present for me...?
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Thanks for everything, and keep it up.
+
+@ 49.48
+# ラズベリー榎本
+JP 社長、お礼になんでもしてあげる！
+EN Boss, I'll do anything you want to thank you!
+
+@ 50.32
+# scene 051 バレンタインデー
+# ラズベリー榎本
+JP 社長、はい、チョコレート！
+EN Boss, here! Chocolate!
+
+@ 50.35
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thank you.
+
+@ 50.42
+# ラズベリー榎本
+JP 社長、私も一緒に食べていい？
+EN Boss, can I eat some with you?
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# ラズベリー榎本
+JP ヤッター！
+JP 社長、だーい好き！
+EN Yaaay! Boss, I loooove you!
+
+@ 51.41
+# 社 長
+JP いや、そこまで言われても
+JP 困るんだが…。
+EN Well, that's a bit much...
+
+@ 52.31
+# scene 053 サイン会
+# ラズベリー榎本
+JP 私のサインが欲しい人は
+JP この指とーまれ！
+EN Everyone who wants my autograph, line up here!
+
+@ 53.31
+# scene 054 コンサート
+# ラズベリー榎本
+JP 私、がんばって歌うね！
+EN I'll do my best singing!
+
+@ 54.28
+# scene 055 練習拒否
+# ラズベリー榎本
+JP 今日はやりたくないなぁ…。
+EN I don't feel like it today...
+
+@ 55.28
+# scene 056 失踪
+# ラズベリー榎本
+JP 今日はおうち帰っちゃうもん…。
+EN I'm going home today, so there...
+
+@ 56.16
+# scene 057 選手解雇
+# ラズベリー榎本
+JP 社長のバカ、バカッ！
+JP もう嫌い！
+EN Boss, you dummy, dummy! I hate you!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ラズベリー榎本
+JP 社長、海外って怖くなーい？
+EN Boss, isn't it scary overseas?
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ラズベリー榎本
+JP ただいまー！
+JP お土産買ってきたよー！
+EN I'm home! I brought you souvenirs!
+
+@ 59.26
+# scene 060 移籍思案
+# ラズベリー榎本
+JP あっちの方がお菓子いっぱい
+JP もらえるのかな…。
+EN Would they give me more candy over there...?
+
+@ 60.16
+# scene 061 革命軍結成
+# ラズベリー榎本
+JP 私、カクメイしちゃうよ！
+EN I'm gonna start a revo-lution!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ラズベリー榎本
+JP 私、ハンランしちゃうよ！
+EN I'm gonna start a re-bellion!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ラズベリー榎本
+JP しょ、勝負する…？
+JP 勝った方がお菓子もらえるんだよ！
+EN W-wanna fight...? The winner gets candy!
+
+@ 63.16
+# scene 064 遺恨発生
+# ラズベリー榎本
+JP ふぇーん…ひどいよー！
+EN Waaah... That's so mean!
+
+@ 64.16
+# scene 065 殴り込み
+# ラズベリー榎本
+JP 私、行ってくるね！
+EN I'm off!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ラズベリー榎本
+JP ムゥ～！
+JP 私、負けないよ！
+EN Mmmh! I won't lose!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ラズベリー榎本
+JP 遊びに来たんじゃないんだから！
+EN I didn't come here to play, you know!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ラズベリー榎本
+JP 私、がんばってくるね！
+EN I'll go do my best!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ラズベリー榎本
+JP やったー！
+JP 私、優勝しちゃったー！
+EN Yaaay! I won the whole thing!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ラズベリー榎本
+JP ふぇーん…。
+JP 負けちゃったよー…。
+EN Waaah... I lost...
+
+@ 70.13
+# scene 071 引退式
+# ラズベリー榎本
+JP 私…精一杯がんばったよ…。
+JP 応援アリガト…。
+JP ふぇーん…。
+EN I... tried as hard as I could... Thanks for cheering for
+EN me... Waaah...
+
+@ 71.18
+# ラズベリー榎本
+JP 社長、何かな？
+EN Boss, what is it?
+
+@ 71.37
+# ラズベリー榎本
+JP 社長、なーに？
+EN Boss, whaaat?
+
+@ 71.47
+# ラズベリー榎本
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been on a roll lately. Keep it up!
+
+@ 71.90
+# ラズベリー榎本
+JP うん！
+JP この調子でがんばるね！
+EN Uh-huh! I'll keep it up!
+
+@ 71.111
+# ラズベリー榎本
+JP 調子なんて良くないよ…。
+EN I'm not doing well at all...
+
+@ 71.132
+# ラズベリー榎本
+JP エヘヘッ。社長にほめられちゃったー。
+JP うれしいなぁ…。
+EN Ehehe. The Boss praised me! That makes me so
+EN happy...
+
+@ 71.153
+# ラズベリー榎本
+JP 社長はもう少し
+JP 私のことわかってくれてると
+JP 思ったのになぁ…。
+EN Boss, I thought you understood me a little better
+EN than that...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# ラズベリー榎本
+JP ふぇーん！
+JP ごめんなさい…。
+EN Waaah! I'm sorry...
+
+@ 71.211
+# ラズベリー榎本
+JP ふぇーん！
+JP 社長なんてキライ！
+EN Waaah! I hate you, Boss!
+
+@ 71.232
+# ラズベリー榎本
+JP ふぇーん！
+JP もっと練習するから
+JP 怒っちゃヤダー！
+EN Waaah! I'll practice more, so don't be mad!
+
+@ 71.253
+# ラズベリー榎本
+JP ふぇーん！
+JP 社長なんて知らない！
+EN Waaah! I'm not talking to you, Boss!
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# ラズベリー榎本
+JP 私は全然元気だよ！
+EN I'm totally fine!
+
+@ 71.311
+# ラズベリー榎本
+JP 社長、何言ってるかわかんない。
+EN Boss, I don't get what you're saying.
+
+@ 71.332
+# ラズベリー榎本
+JP 社長、私のこと心配してくれるの？
+JP アリガト。
+EN Boss, you're worried about me? Thank you.
+
+@ 71.353
+# ラズベリー榎本
+JP 社長、ホントに心配してるー？
+EN Boss, are you really worried about me?
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# ラズベリー榎本
+JP 社長、怒ってるの？
+EN Boss, are you mad?
+
+@ 71.400
+# ラズベリー榎本
+JP 全然わかんなーい。
+EN I have no idea.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# ラズベリー榎本
+JP うん。
+JP みんな仲良くしないと
+JP いけないよね。
+EN Okay. Everybody's gotta get along, right?
+
+@ 71.454
+# ラズベリー榎本
+JP 私は悪くないもん！
+JP 絶対謝らないもん！
+EN It's not my fault! I'm never gonna apologize!
+
+@ 71.475
+# ラズベリー榎本
+JP ……？
+JP 社長、何言ってるの？
+EN ......? Boss, what are you talking about?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# ラズベリー榎本
+JP 社長、怒ってる…？
+EN Boss, are you mad...?
+
+@ 71.522
+# ラズベリー榎本
+JP 二人っきりで秘密の話～？
+EN A secret talk, just the two of us?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# ラズベリー榎本
+JP 社長に頼まれたら
+JP 私、断れないよー。
+EN If you ask me, Boss, I can't say no.
+
+@ 71.578
+# ラズベリー榎本
+JP 社長の頼みでも
+JP 聞けないこともあるもん！
+EN Even if you ask, Boss, there are some things I just
+EN won't do!
+
+@ 71.599
+# ラズベリー榎本
+JP 社長は私のこと何もわかってない！
+EN Boss, you don't understand me at all!
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ラズベリー榎本
+JP 社長、なーに？
+EN Boss, whaaat?
+
+@ 72.16
+# ラズベリー榎本
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been on a roll lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ラズベリー榎本
+JP うん！　この調子でがんばるね！
+EN Uh-huh! I'll keep it up!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ラズベリー榎本
+JP 調子なんて良くないよ…。
+EN I'm not doing well at all...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ラズベリー榎本
+JP エヘヘ。社長にほめられちゃったー。
+JP 嬉しいなぁ。
+EN Ehehe. The Boss praised me! That makes me so
+EN happy...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ラズベリー榎本
+JP 社長はもう少し
+JP 私のことわかってくれてると
+JP 思ったのになぁ…。
+EN Boss, I thought you understood me a little better
+EN than that...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ラズベリー榎本
+JP ふぇーん！　ごめんなさい…。
+EN Waaah! I'm sorry...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ラズベリー榎本
+JP ふぇーん！　社長なんてキライ！
+EN Waaah! I hate you, Boss!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ラズベリー榎本
+JP ふぇーん！　もっと練習するから
+JP 怒っちゃヤダー！
+EN Waaah! I'll practice more, so don't be mad!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ラズベリー榎本
+JP ふぇーん！　社長なんて知らない！
+EN Waaah! I'm not talking to you, Boss!
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ラズベリー榎本
+JP 私は全然元気だよ！
+EN I'm totally fine!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ラズベリー榎本
+JP 社長、何言ってるかわかんない。
+EN Boss, I don't get what you're saying.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ラズベリー榎本
+JP 社長、私のこと心配してくれるの？
+JP アリガト。
+EN Boss, you're worried about me? Thank you.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ラズベリー榎本
+JP 社長、ホントに心配してるー？
+EN Boss, are you really worried about me?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ラズベリー榎本
+JP 社長、怒ってるの？
+EN Boss, are you mad?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ラズベリー榎本
+JP 全然わかんなーい。
+EN I have no idea.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.14
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ラズベリー榎本
+JP うん。
+JP みんな仲良くしないといけないよね。
+EN Okay. Everybody's gotta get along, right?
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ラズベリー榎本
+JP 私は悪くないもん！
+JP 絶対謝らないもん！
+EN It's not my fault! I'm never gonna apologize!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ラズベリー榎本
+JP ……？
+JP 社長、何言ってるの？
+EN ......? Boss, what are you talking about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ラズベリー榎本
+JP 社長、怒ってる…？
+EN Boss, are you mad...?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ラズベリー榎本
+JP 二人っきりで秘密の話～？
+EN A secret talk, just the two of us?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ラズベリー榎本
+JP 社長に頼まれたら、
+JP 私、断れないよー。
+EN If you ask me, Boss, I can't say no.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ラズベリー榎本
+JP 社長の頼みでも
+JP 聞けないこともあるもん！
+EN Even if you ask, Boss, there are some things I just
+EN won't do!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ラズベリー榎本
+JP 社長は私のこと何もわかってない！
+EN Boss, you don't understand me at all!
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ラズベリー榎本
+JP エヘヘッ。
+JP 社長、アリガト！
+EN Ehehe. Thanks, Boss!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ラズベリー榎本
+JP こんなにもらっていいのー？
+JP 社長、アリガト！
+EN I really get this much? Thanks, Boss!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ラズベリー榎本
+JP これじゃお菓子
+JP あんまり買えないかも…。
+EN I can't buy much candy with this...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived at a tropical island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN scorching.)
+
+@ 105.36
+# 社 長
+JP （さて、まずは荷物を置いて
+JP 　水着に着替えないと…）
+EN (Now, first I need to drop off my bags and change
+EN into my swimsuit...)
+
+@ 105.46
+# ラズベリー榎本
+JP ねぇ、社長、社長ー！
+EN Hey, Boss, Boss!
+
+@ 105.49
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 105.53
+# ラズベリー榎本
+JP アレ！
+JP アレ乗りたい！
+EN That! I wanna ride that!
+
+@ 105.56
+# 社 長
+JP （榎本が指さした乗り物は…）
+EN (The thing Enomoto was pointing at was...)
+
+@ 105.58
+# 社 長
+JP …バナナボート？
+EN ...A banana boat?
+
+@ 105.65
+# ラズベリー榎本
+JP うんっ！
+JP かわいいでしょ♪
+EN Yup! Isn't it cute? ♪
+
+@ 105.68
+# 社 長
+JP （バナナボートとは文字通り
+JP 　バナナの形をした乗り物だ。
+JP 　水上バイクで牽引する）
+EN (A banana boat is just what it sounds like: a
+EN banana-shaped float, towed by a jet ski.)
+
+@ 105.72
+# ラズベリー榎本
+JP 乗りたい！
+JP 乗りたーい！
+EN I wanna ride it! I wanna ride iiit!
+
+@ 105.75
+# 社 長
+JP 乗ればいいだろう？
+EN So go ride it.
+
+@ 105.82
+# ラズベリー榎本
+JP 乗るけど…１人だと怖いの…。
+EN I will, but... it's scary by myself...
+
+@ 105.88
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.90
+# 社 長
+JP （なんだ、その訴えかけるような
+JP 　目は…）
+EN (What's with those pleading eyes...)
+
+@ 105.94
+# ラズベリー榎本
+JP 誰か一緒に乗ってくれないかなぁ。
+EN I wonder if someone would ride with me...
+
+@ 105.97
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.104
+# ラズベリー榎本
+JP ……かなぁ…。
+EN ......I wonder...
+
+@ 105.107
+# 社 長
+JP …わかった。
+JP 俺と乗るか？
+EN ...Fine. Want to ride with me?
+
+@ 105.114
+# ラズベリー榎本
+JP わーい！
+JP やったぁ！
+EN Yaaay! Hooray!
+
+@ 105.117
+# 社 長
+JP じゃあ、着替えてからな。
+EN Okay, after we get changed.
+
+@ 105.121
+# ラズベリー榎本
+JP は―――いっ！
+EN Oooookay!
+
+@ 105.124
+# 社 長
+JP （そして俺たちは…）
+EN (And so we...)
+
+@ 105.155
+# 社 長
+JP （バナナボートにのってみた…が…）
+EN (...tried out the banana boat... but...)
+
+@ 105.159
+# ラズベリー榎本
+JP わ―――い！
+JP 速―――いっ♪
+EN Wheeee! So fast! ♪
+
+@ 105.162
+# 社 長
+JP こ…これは結構…速いな。
+EN Th-this is... pretty fast.
+
+@ 105.164
+# 社 長
+JP （見かけによらず
+JP 　かなりのスリルだぞコレは！）
+EN (It looks harmless, but this is a real thrill ride!)
+
+@ 105.168
+# ラズベリー榎本
+JP わ――――いっ！
+EN Wheeeeee!
+
+@ 105.171
+# 社 長
+JP （榎本ははしゃぎまくっている）
+EN (Enomoto is having the time of her life.)
+
+@ 105.175
+# ラズベリー榎本
+JP …ね、楽しいね！
+JP 社長！！
+EN ...Isn't this fun? Boss!!
+
+@ 105.178
+# 社 長
+JP あ…ああ…。
+EN Y-yeah...
+
+@ 105.180
+# 社 長
+JP （おまえ、一人でも絶対大丈夫だろ）
+EN (You'd have been totally fine by yourself.)
+
+@ 105.184
+# ラズベリー榎本
+JP ねーねー、運転手の人！
+JP もっとスピード出して―っ！
+EN Hey, hey, Mister Driver! Go even faster!
+
+@ 105.187
+# 社 長
+JP おいっ！
+EN Hey!
+
+@ 105.189
+# 社 長
+JP 運転手もっ！
+JP グッと親指立てたりするなよ！
+EN And you, driver! Don't give her a thumbs-up!
+
+@ 105.191
+# 社 長
+JP （そして…）
+EN (And then...)
+
+@ 105.209
+# 社 長
+JP （バナナボートはあり得ない速さで
+JP 　海を突っ走った）
+EN (The banana boat tore across the sea at an
+EN impossible speed.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 霧 子
+JP はい、たしかに受け取りました。
+EN Yes, received.
+
+@ 106.26
+# 宅配業者
+JP ありがとうございましたー。
+EN Thank you very much.
+
+@ 106.28
+# 社 長
+JP （会社には年中色々な書類や
+JP 　荷物が届く）
+EN (All sorts of documents and packages arrive at the
+EN office all year round.)
+
+@ 106.30
+# 社 長
+JP 俺宛のは何か来てたかい？
+EN Anything come for me?
+
+@ 106.39
+# 霧 子
+JP いいえ…。
+JP 今、届いたのは
+JP 榎本選手宛のものだけです。
+EN No... The only delivery just now is for Enomoto.
+
+@ 106.41
+# 社 長
+JP …榎本の？
+EN ...Enomoto?
+
+@ 106.43
+# 霧 子
+JP ええ。
+JP ええと…実家からですね。
+EN Yes. Let's see... It's from her family.
+
+@ 106.45
+# 社 長
+JP そうか。
+EN I see.
+
+@ 106.47
+# 社 長
+JP （そういえば今度の興行のことで
+JP 　榎本と話をしないといけないな…）
+EN (Come to think of it, I need to talk to Enomoto about
+EN the next show...)
+
+@ 106.49
+# 社 長
+JP ちょうど彼女に用事があったんだ。
+JP ついでに俺が届けよう。
+EN I needed to see her anyway. I'll take it to her.
+
+@ 106.55
+# 霧 子
+JP そうですか。
+JP なら、お任せします。
+EN I see. Then I'll leave it to you.
+
+@ 106.73
+# 社 長
+JP （そして、俺は寮へ向かった）
+EN (And so I headed to the dorm.)
+
+@ 106.92
+# 社 長
+JP 榎本、いるか？
+EN Enomoto, you in?
+
+@ 106.96
+# ラズベリー榎本
+JP だーれー？
+EN Whooo is it?
+
+@ 106.99
+# 社 長
+JP 俺だ。
+EN It's me.
+
+@ 106.103
+# ラズベリー榎本
+JP あっ、はーい。
+JP 開いてるよー。
+JP 入って、入って～。
+EN Oh, okaaay. It's open. Come in, come in!
+
+@ 106.106
+# 社 長
+JP 邪魔するぞ。
+EN Pardon the intrusion.
+
+@ 106.133
+# 社 長
+JP 実家からお前宛の荷物が…。
+EN A package came for you from home...
+
+@ 106.135
+# 社 長
+JP （俺の言葉は途中で止まった）
+EN (I stopped mid-sentence.)
+
+@ 106.137
+# 社 長
+JP …なんて格好をしてるんだ。
+EN ...What are you wearing?
+
+@ 106.139
+# 社 長
+JP （なんというか…。
+JP 　着替えの途中じゃないのか…）
+EN (How should I put it... Isn't she in the middle of
+EN changing...?)
+
+@ 106.141
+# 社 長
+JP （まあ、自分の部屋だし
+JP 　どんな格好でいるかは
+JP 　当人の自由だが…）
+EN (Well, it's her own room, so what she wears is her
+EN business, but...)
+
+@ 106.151
+# ラズベリー榎本
+JP エヘヘヘッ。
+JP かわいいでしょー。
+EN Ehehehe. Isn't it cute?
+
+@ 106.154
+# 社 長
+JP （そう言って榎本は自慢げに
+JP 　洋服を掲げてみせた）
+EN (Enomoto proudly held up an outfit.)
+
+@ 106.158
+# ラズベリー榎本
+JP 今度、どんなお洋服を着ようか
+JP 悩んでたの～。
+EN I was trying to decide which clothes to wear next
+EN time.
+
+@ 106.161
+# 社 長
+JP ……悩んでましたか。
+EN ......Trying to decide, were you.
+
+@ 106.165
+# ラズベリー榎本
+JP うん、悩んでたの。
+JP 重要な問題なんだよ。
+EN Uh-huh, I was. It's a really important problem.
+
+@ 106.168
+# 社 長
+JP その格好でか？
+EN Dressed like that?
+
+@ 106.178
+# ラズベリー榎本
+JP その格好って…？
+EN Like what...?
+
+@ 106.181
+# 社 長
+JP （俺は黙って榎本の体を指さした）
+EN (Without a word, I pointed at her.)
+
+@ 106.185
+# ラズベリー榎本
+JP …………んっ？
+EN ............Hm?
+
+@ 106.188
+# 社 長
+JP （ようやく榎本は自分の姿を
+JP 　自覚したらしい）
+EN (Enomoto finally seemed to realize what she looked
+EN like.)
+
+@ 106.198
+# ラズベリー榎本
+JP もー！
+JP 社長のえっちー。
+EN Hey! Boss, you perv!
+
+@ 106.201
+# 社 長
+JP えっちー…って。
+EN "Perv"...?
+
+@ 106.205
+# ラズベリー榎本
+JP すけっちー、わんたっちー。
+EN Pervy-wervy, touchy-feely!
+
+@ 106.208
+# 社 長
+JP 随分と古い言い回しが出てきたな！
+EN Where'd you dig up a line that old?!
+
+@ 106.212
+# ラズベリー榎本
+JP うん。
+JP 古くから伝わる
+JP チカンを撃退する呪文なんだよ。
+EN Uh-huh. It's an ancient spell to drive off gropers.
+
+@ 106.215
+# 社 長
+JP 間違ってるから、それ。
+EN That's not right, you know.
+
+@ 106.225
+# ラズベリー榎本
+JP そうなの…？
+EN It's not...?
+
+@ 106.228
+# 社 長
+JP （誰だ、そんな嘘を教えたの）
+EN (Who taught her that nonsense?)
+
+@ 106.230
+# 社 長
+JP …って、チカン扱いか、俺！？
+EN ...Wait, she's treating me like a groper?!
+
+@ 106.232
+# 社 長
+JP （少しショックを受けたので
+JP 　その場は荷物だけ渡して
+JP 　出直すことにした…）
+EN (A little shaken, I just handed over the package and
+EN decided to come back later...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 霧 子
+JP はい、たしかに受け取りました。
+EN Yes, received.
+
+@ 107.26
+# 宅配業者
+JP ありがとうございましたー。
+EN Thank you very much.
+
+@ 107.28
+# 社 長
+JP （会社には色々な書類や荷物が届く）
+EN (All sorts of documents and packages arrive at the
+EN office.)
+
+@ 107.30
+# 社 長
+JP 俺宛のは何か来てたかい？
+EN Anything come for me?
+
+@ 107.39
+# 霧 子
+JP いいえ…。
+JP 今、届いたのは
+JP 榎本選手宛のものだけです。
+EN No... The only delivery just now is for Enomoto.
+
+@ 107.41
+# 社 長
+JP そうか。
+EN I see.
+
+@ 107.47
+# 霧 子
+JP なので…。
+JP 社長、届けてあげてください。
+EN So... Sir, please take it to her.
+
+@ 107.49
+# 社 長
+JP …俺が？
+EN ...Me?
+
+@ 107.55
+# 霧 子
+JP ええ。彼女、最近は随分と社長に
+JP 懐いているようですし…。
+EN Yes. She seems to have grown quite attached to you
+EN lately...
+
+@ 107.57
+# 社 長
+JP まあ…いいが…。
+EN Well... All right...
+
+@ 107.63
+# 霧 子
+JP では、お任せします。
+EN Then I'll leave it to you.
+
+@ 107.71
+# 社 長
+JP （霧子くん…。
+JP 　自分で届けるのが面倒くさいから
+JP 　なんてことはないよな？）
+EN (Kiriko... You're not just making me do it because you
+EN can't be bothered, are you?)
+
+@ 107.86
+# 社 長
+JP （そして、俺は寮へ向かった）
+EN (And so I headed to the dorm.)
+
+@ 107.105
+# 社 長
+JP 榎本、いるか？
+EN Enomoto, you in?
+
+@ 107.109
+# ラズベリー榎本
+JP だーれっ？
+EN Whooo is it?
+
+@ 107.112
+# 社 長
+JP 俺だ。
+EN It's me.
+
+@ 107.116
+# ラズベリー榎本
+JP あっ、社長だー。
+JP 開いてるよー。
+JP 入って、入って♪
+EN Oh, it's the Boss! It's open. Come in, come in! ♪
+
+@ 107.119
+# 社 長
+JP 邪魔するぞ。
+EN Pardon the intrusion.
+
+@ 107.143
+# 社 長
+JP （榎本の部屋は、あいかわらず
+JP 　俺にとって異世界だった）
+EN (Enomoto's room was, as always, another world to
+EN me.)
+
+@ 107.145
+# 社 長
+JP おまえ宛の荷物が来てるぞ。
+EN A package came for you.
+
+@ 107.155
+# ラズベリー榎本
+JP ありがと～♪
+EN Thank youuu! ♪
+
+@ 107.158
+# 社 長
+JP しかし…。
+EN But...
+
+@ 107.168
+# ラズベリー榎本
+JP なぁに？
+EN Whaaat?
+
+@ 107.171
+# 社 長
+JP おまえ、俺が部屋に来る度に
+JP その格好だな。
+EN Every time I come to your room, you're dressed like
+EN that.
+
+@ 107.173
+# 社 長
+JP （部屋が部屋だけに
+JP 　あまり違和感も感じないが…）
+EN (Given the room, it doesn't feel all that out of place,
+EN but...)
+
+@ 107.183
+# ラズベリー榎本
+JP だって、この方がラクなんだもん。
+EN 'Cause it's more comfy this way.
+
+@ 107.186
+# 社 長
+JP かわいい服を持ってるんだから
+JP 何か着ていればいいのに…。
+EN You've got all these cute clothes. You could put
+EN some on...
+
+@ 107.190
+# ラズベリー榎本
+JP 着るのも好きだけど
+JP 眺めているのも好きなの♪
+EN I like wearing them, but I like looking at them too! ♪
+
+@ 107.193
+# 社 長
+JP そうなのか…。
+JP でも…その格好誰かに見られたら…。
+EN Is that so... But if someone saw you like that...
+
+@ 107.197
+# ラズベリー榎本
+JP 私のお部屋にくる男の人って
+JP 社長だけだし…。
+EN The only man who ever comes to my room is you,
+EN Boss...
+
+@ 107.201
+# ラズベリー榎本
+JP 社長なら別にいいの♪
+EN So it's okay if it's you! ♪
+
+@ 107.204
+# 社 長
+JP いいのかよ。
+EN It's okay?
+
+@ 107.208
+# ラズベリー榎本
+JP うんっ！
+JP いいんだよ♪
+EN Uh-huh! It's okay! ♪
+
+@ 107.211
+# 社 長
+JP う、う～む…。
+EN W-well...
+
+@ 107.213
+# 社 長
+JP （そう、キッパリ言い切られると
+JP 　それ以上、何も言えなくなるな）
+EN (When she says it so firmly, I can't really argue.)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# ラズベリー榎本
+JP なんだか、安心♪
+EN I feel so safe with you! ♪
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# ラズベリー榎本
+JP い…いじめないでね…。
+EN P-please don't bully me...
+
+@ 110.17
+# scene 111 練習試合 ベター２
+# ラズベリー榎本
+JP はわぁ～。
+JP いつ見てもキレ～。
+EN Wooow... You're always so pretty...
+
+@ 111.16
+# scene 113 練習開始
+# ラズベリー榎本
+JP 今日もよろしくお願いしまーす！
+EN Let's have a good session today toooo!
+
+@ 112.16
+# scene 114 練習開始 好意
+# ラズベリー榎本
+JP 今日もよろしくね！
+EN Let's have fun today too!
+
+@ 113.16
+# scene 115 特訓開始
+# ラズベリー榎本
+JP 特訓…やらなくちゃダメなの？
+EN Special training... Do I have to?
+
+@ 114.20
+# scene 116 特訓成功
+# ラズベリー榎本
+JP 全然楽しかったよー！
+EN That was totally fun!
+
+@ 115.20
+# scene 117 特訓失敗
+# ラズベリー榎本
+JP もう絶対特訓なんてヤダー！
+EN I'm never doing special training again!
+
+@ 116.16
+# scene 118 休養
+# ラズベリー榎本
+JP わーい！
+JP お休みの間、何しようかなぁ。
+EN Yaaay! What should I do on my break?
+
+@ 117.16
+# scene 119 入場1
+# ラズベリー榎本
+JP エヘヘッ。
+JP がんばっちゃうから！
+EN Ehehe. I'm gonna do my best!
+
+@ 118.16
+# scene 119 入場2
+# ラズベリー榎本
+JP こ、怖いから
+JP すぐに終わらせちゃおうね？
+EN I-it's scary, so let's finish this quick, okay?
+
+@ 119.17
+# scene 120 タッグマッチ ベスト
+# ラズベリー榎本
+JP エヘヘッ。
+JP 楽しくなりそう。
+EN Ehehe. This is gonna be fun.
+
+@ 120.17
+# scene 121 タッグマッチ ベター１
+# ラズベリー榎本
+JP あまり怖いこと…しないであげてね？
+EN Please don't... do anything too scary to her, okay?
+
+@ 121.17
+# scene 122 タッグマッチ ベター２
+# ラズベリー榎本
+JP 今日は強くなった気分♪
+EN I feel super strong today! ♪
+
+@ 122.16
+# scene 125 必殺技１
+# ラズベリー榎本
+JP これで決めちゃうんだから！
+EN This'll finish it!
+
+@ 123.16
+# scene 125 必殺技２
+# ラズベリー榎本
+JP いじめっこはどっかいっちゃえー！
+EN Bullies, go away!
+
+@ 124.16
+# scene 125 必殺技３
+# ラズベリー榎本
+JP 私だって、やればできるもん！
+EN I can do it too if I try!
+
+@ 125.12
+# scene 126 勝利1
+# ラズベリー榎本
+JP わーい！
+JP 勝ったよー！
+EN Yaaay! I won!
+
+@ 126.12
+# scene 126 勝利2
+# ラズベリー榎本
+JP 私の勝ちだよね？
+EN I won, right?
+
+@ 127.12
+# scene 126 勝利3
+# ラズベリー榎本
+JP 怖くてもがんばったよ！
+EN I was scared, but I did my best!
+
+@ 128.15
+# scene 133 表彰1
+# ラズベリー榎本
+JP やったー！
+JP みんな、ありがと！
+EN Yaaay! Thanks, everybody!
+
+@ 129.15
+# scene 133 表彰2
+# ラズベリー榎本
+JP みんな、見て見て。
+JP 私、表彰されちゃった！
+EN Everybody, look, look! I got an award!
+
+@ 130.12
+# scene 134 優勝1
+# ラズベリー榎本
+JP エヘヘッ。
+JP 私が一等賞だよ！
+EN Ehehe. I'm number one!
+
+@ 131.12
+# scene 134 優勝２
+# ラズベリー榎本
+JP 私が一番強いんだよね！
+EN I'm the strongest, right?
+
+@ 132.24
+# scene 135 エンディング 通常
+# ラズベリー榎本
+JP 社長、オメデト！
+JP これからもよろしくね！
+EN Congrats, Boss! Let's keep it up together!
+
+@ 133.24
+# scene 136 エンディング 好意
+# ラズベリー榎本
+JP 社長、一緒じゃないと寂しいから
+JP ずーっと一緒にいて欲しいの…。
+JP ねぇ、ダメ…？
+EN Boss, I'll be lonely without you, so I want you to stay
+EN with me forever and ever... Please? Is that okay...?

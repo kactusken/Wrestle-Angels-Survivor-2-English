@@ -1,0 +1,97 @@
+# /SCR/229.BIN - エミリー・ネルソン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 229` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# エミリー・ネルソン
+JP これで家の復興の
+JP 足がかりになるわ。
+EN This will be a foothold for restoring my family's
+EN house.
+
+@ 1.16
+# scene 119 入場1
+# エミリー・ネルソン
+JP さっさと片付けてあげるわ！
+EN I'll have this tidied up in no time!
+
+@ 2.16
+# scene 119 入場2
+# エミリー・ネルソン
+JP 騎士道精神をもった
+JP 戦いをお見せするわ！
+EN I'll show you a fight worthy of the code of chivalry!
+
+@ 3.16
+# scene 125 必殺技１
+# エミリー・ネルソン
+JP これで眠りなさいッ！
+EN Now, sleep!
+
+@ 4.16
+# scene 125 必殺技２
+# エミリー・ネルソン
+JP イギリスの稲妻と呼ばれるこの一撃、
+JP 受けてみなさい！
+EN Take the blow they call the Lightning of England!
+
+@ 5.16
+# scene 125 必殺技３
+# エミリー・ネルソン
+JP 決して退かない！
+JP それが私のノブレス・オブリージュ！
+EN I never retreat! That is my noblesse oblige!
+
+@ 6.12
+# scene 126 勝利1
+# エミリー・ネルソン
+JP 貴族の誇りにかけて
+JP 負ける訳にはいかないわ。
+EN On my noble pride, I cannot afford to lose.
+
+@ 7.12
+# scene 126 勝利2
+# エミリー・ネルソン
+JP もうジャイアントキリングとは
+JP 言わせないわ！
+EN No one will call my wins giant killing anymore!
+
+@ 8.12
+# scene 126 勝利3
+# エミリー・ネルソン
+JP あなたに遅れをとる訳には
+JP いかないわ。
+EN I can't afford to fall behind the likes of you.
+
+@ 9.15
+# scene 133 表彰1
+# エミリー・ネルソン
+JP 富と名声、両方を得てみせるわ！
+EN I'll win both wealth and fame, you'll see!
+
+@ 10.15
+# scene 133 表彰2
+# エミリー・ネルソン
+JP これで少しは名前が売れたわね。
+EN Now my name is a little better known.
+
+@ 11.12
+# scene 134 優勝1
+# エミリー・ネルソン
+JP 当然の結果ね。
+JP 私に敵はいないわ。
+EN Only natural. No one can stand against me.
+
+@ 12.12
+# scene 134 優勝２
+# エミリー・ネルソン
+JP もう中堅レスラーなんて
+JP 呼ばせないわ！
+EN No one will call me a midcard wrestler anymore!

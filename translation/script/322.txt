@@ -1,0 +1,110 @@
+# /SCR/322.BIN - ハイサスカラス
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 322` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ハイサスカラス
+JP 最強のルチャ・ドーラの戦い
+JP 楽しんでいただけました？
+EN Did you enjoy the fight of the strongest luchadora?
+
+@ 1.16
+# scene 119 入場1
+# ハイサスカラス
+JP 優雅な戦いをお見せしましょう！
+EN Allow me to show you an elegant fight!
+
+@ 2.16
+# scene 119 入場2
+# ハイサスカラス
+JP 気高く美しく華麗に舞う。
+JP このマスクにかけて！
+EN Noble, beautiful, I dance with grace. On my mask!
+
+@ 3.16
+# scene 121 タッグマッチ ベター１
+# ハイサスカラス
+JP 私がフォローしてあげるから
+JP 思いっきり戦いなさい。
+EN I'll back you up, so fight with everything you've got.
+
+@ 4.16
+# scene 125 必殺技１
+# ハイサスカラス
+JP 仮面の貴婦人の技、
+JP 目に焼けつけておきなさい！
+EN Burn the technique of the Masked Lady into your
+EN eyes!
+
+@ 5.16
+# scene 125 必殺技２
+# ハイサスカラス
+JP 私が鳥人と呼ばれる所以を
+JP お見せしましょう！
+EN Allow me to show you why they call me the Birdwoman!
+
+@ 6.16
+# scene 125 必殺技３
+# ハイサスカラス
+JP ルチャリブレの意味、
+JP そして神髄をその身で覚えなさい！
+EN Learn the meaning and the very soul of lucha libre
+EN with your body!
+
+@ 7.12
+# scene 126 勝利1
+# ハイサスカラス
+JP 仮面の貴婦人の実力
+JP わかっていただけたかしら？
+EN Do you understand the Masked Lady's strength
+EN now?
+
+@ 8.12
+# scene 126 勝利2
+# ハイサスカラス
+JP 私に挑戦するのは早すぎたようね。
+EN It seems you challenged me too soon.
+
+@ 9.12
+# scene 126 勝利3
+# ハイサスカラス
+JP ルチャリブレの真骨頂
+JP 見ていただけたかしら？
+EN Did you enjoy lucha libre at its finest?
+
+@ 10.15
+# scene 133 表彰1
+# ハイサスカラス
+JP こんな賞いただけるなんて
+JP 光栄ですわ。
+EN What an honor to receive an award like this.
+
+@ 11.15
+# scene 133 表彰2
+# ハイサスカラス
+JP 仮面の貴婦人の面目躍如ですわね。
+EN The Masked Lady lives up to her name, wouldn't you
+EN say?
+
+@ 12.12
+# scene 134 優勝1
+# ハイサスカラス
+JP 仮面の貴婦人の強さが
+JP わかっていただけたかしら？
+EN Do you understand the Masked Lady's strength
+EN now?
+
+@ 13.12
+# scene 134 優勝２
+# ハイサスカラス
+JP 次も仮面の貴婦人の力
+JP 存分にお見せしましょう。
+EN Next time too, I shall show you the Masked Lady's full
+EN power.

@@ -1,0 +1,48 @@
+{
+ "english": "Throws | Holds | Power | Strikes | Aerial",
+ "boxes": [
+  [
+   5,
+   0,
+   102,
+   24
+  ],
+  [
+   5,
+   24,
+   102,
+   24
+  ],
+  [
+   0,
+   48,
+   112,
+   24
+  ],
+  [
+   5,
+   72,
+   102,
+   24
+  ],
+  [
+   5,
+   96,
+   102,
+   24
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   0,
+   0,
+   112,
+   120
+  ]
+ ]
+}

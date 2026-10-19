@@ -1,0 +1,118 @@
+{
+ "english": "NORMAL | FINISHERS | HIDDEN | CPU BUSINESS | MOVE ART | TRAINING FX | WATCH | SKIP | FINISHERS ONLY",
+ "boxes": [
+  [
+   359,
+   88,
+   98,
+   26
+  ],
+  [
+   320,
+   128,
+   150,
+   25
+  ],
+  [
+   371,
+   168,
+   74,
+   26
+  ],
+  [
+   13,
+   326,
+   166,
+   28
+  ],
+  [
+   35,
+   366,
+   121,
+   28
+  ],
+  [
+   23,
+   406,
+   145,
+   28
+  ],
+  [
+   235,
+   368,
+   58,
+   26
+  ],
+  [
+   223,
+   408,
+   78,
+   26
+  ],
+  [
+   19,
+   448,
+   155,
+   26
+  ]
+ ],
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "draw": "audit.draw",
+ "fill": [
+  13
+ ],
+ "ground": "rows",
+ "ground_skip": [],
+ "reach": 3.5,
+ "same_size": true,
+ "groups": [
+  {
+   "labels": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    8
+   ],
+   "cap": 15
+  },
+  {
+   "labels": [
+    3,
+    4,
+    5
+   ],
+   "cap": 16,
+   "ground_cols": null,
+   "ground_skip": [
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+   ]
+  }
+ ],
+ "catalogue": {
+  "source": "/SYS/OPTION.BIN",
+  "width": 512,
+  "height": 512,
+  "bpp": 4,
+  "category": "menu",
+  "japanese": "通常表示 フィニッシュ 非表示 COM団体の営業 技絵の表示 練習時の演出 見る 見ない フィニッシュ表示 (option values and highlighted labels; SOUND...SLOW already English)"
+ },
+ "notes": "options screen atlas (picture 3 of SYS/OPTION.BIN, not a .GSL: needs gfx.py support for .BIN containers); 4bpp, the game's CLUT row unknown - lettered by index",
+ "ground_cols": "edges",
+ "ring": [
+  9,
+  3,
+  3,
+  5
+ ]
+}

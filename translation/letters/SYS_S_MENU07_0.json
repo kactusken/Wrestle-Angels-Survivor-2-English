@@ -1,0 +1,30 @@
+{
+ "english": "Hire Coach | Dismiss Coach",
+ "boxes": [
+  [
+   0,
+   0,
+   112,
+   24
+  ],
+  [
+   0,
+   24,
+   112,
+   25
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   0,
+   0,
+   256,
+   49
+  ]
+ ]
+}

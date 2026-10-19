@@ -1,0 +1,2250 @@
+# /SCR/101.BIN - ミネルヴァ石川
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 101` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ミネルヴァ石川
+JP 石川です。
+JP これでも意外と力持ちなんです～。
+EN I'm Ishikawa. I'm actually stronger than I look, you
+EN know.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ミネルヴァ石川
+JP 勇気を出して来た甲斐がありました～。
+EN I'm so glad I worked up the courage to come!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ミネルヴァ石川
+JP 仕方ないですねえ。
+JP お手間を取らせました～。
+EN Oh well, it can't be helped. Sorry for taking up your
+EN time.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええっと…このあたりに
+JP 有望な娘がいると聞いたんだが…。
+EN Let's see... I heard there was a promising girl
+EN somewhere around here...
+
+@ 3.25
+# 社 長
+JP 資料には「のんびり屋だが
+JP パワーに光るものがある」…か。
+EN The file said "laid-back, but shows real promise in
+EN power"... huh.
+
+@ 3.27
+# 社 長
+JP ええと…。
+JP あの娘がそうかな…？
+EN Hmm... Could that be her...?
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.39
+# ミネルヴァ石川
+JP はい、なんでしょう？
+EN Yes, what is it?
+
+@ 3.42
+# 社 長
+JP 失礼ですが、石川さんですか？
+EN Pardon me, but are you Ms. Ishikawa?
+
+@ 3.49
+# ミネルヴァ石川
+JP あれ…？
+JP 私のことをご存知なんですか？
+EN Huh...? You know who I am?
+
+@ 3.52
+# 社 長
+JP 実は私、プロレス団体を
+JP 経営している者でして…。
+EN Actually, I run a pro wrestling promotion...
+
+@ 3.54
+# 社 長
+JP うちの団体に入ってもらえないかと
+JP 思って、スカウトに来たんです。
+EN I came to scout you. I was hoping you'd join my
+EN promotion.
+
+@ 3.61
+# ミネルヴァ石川
+JP でも、私、格闘技の経験とか
+JP 全然ないんですけど。
+JP できるんでしょうか～？
+EN But I don't have any fighting experience at all. Do
+EN you really think I could do it?
+
+@ 3.64
+# 社 長
+JP 大丈夫です。
+JP そこはちゃんと指導しますから。
+EN It's all right. We'll train you properly.
+
+@ 3.66
+# 社 長
+JP どうでしょう？
+JP 関心があるならやってみませんか？
+EN What do you say? If you're interested, why not give
+EN it a try?
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# ミネルヴァ石川
+JP そうですねぇ。
+JP ちょっと不安ですけど面白そうですね。
+EN Let me see... I'm a little nervous, but it does sound
+EN fun.
+
+@ 4.18
+# 社 長
+JP では？
+EN So...?
+
+@ 4.29
+# ミネルヴァ石川
+JP やってみます。
+JP よろしくお願いします～。
+EN I'll give it a try. Please take good care of me!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ミネルヴァ石川
+JP うーん…関心はありますけど…。
+JP でも、やっぱり不安なので……。
+EN Hmm... I am interested, but... I'm just too nervous
+EN after all...
+
+@ 5.22
+# 社 長
+JP …そうですか。
+JP 残念です。
+EN ...I see. That's a shame.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （もう少し粘ってみよう。
+JP 　簡単にあきらめたら
+JP 　選手は集まらないしな）
+EN (I'll try a little harder. If I give up that easily, I'll
+EN never build a roster.)
+
+@ 6.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.35
+# ミネルヴァ石川
+JP あら…？
+JP 前にもお会いしましたよね。
+EN Oh...? We've met before, haven't we?
+
+@ 6.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しいんです。
+EN Yes. I really want you to join my promotion.
+
+@ 6.45
+# ミネルヴァ石川
+JP そうなんですか…。
+JP あは、そこまで求められると
+JP ちょっと嬉しくなっちゃいますね。
+EN Is that so... Aha, being wanted that much makes me a
+EN little happy.
+
+@ 6.48
+# 社 長
+JP どうでしょう？
+JP 考え直してもらえないでしょうか？
+EN What do you say? Won't you reconsider?
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# ミネルヴァ石川
+JP そうですねぇ。
+JP ちょっと不安ですけど面白そうですね。
+EN Let me see... I'm a little nervous, but it does sound
+EN fun.
+
+@ 7.18
+# 社 長
+JP では？
+EN So...?
+
+@ 7.29
+# ミネルヴァ石川
+JP やってみます。
+JP よろしくお願いします～。
+EN I'll give it a try. Please take good care of me!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ミネルヴァ石川
+JP うーん…関心はありますけど…。
+JP でも、やっぱり不安なので……。
+EN Hmm... I am interested, but... I'm just too nervous
+EN after all...
+
+@ 8.22
+# 社 長
+JP …そうですか。
+JP 残念です。
+EN ...I see. That's a shame.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （石川選手…。
+JP 　あの個性とパワー。
+JP 　是非ともうちに欲しい人材だ）
+EN (Ishikawa... That personality, that power. She's
+EN exactly who I want on my roster.)
+
+@ 9.25
+# 社 長
+JP （このあたりでトレーニングしている
+JP 　という話だが…あっ、いた！）
+EN (I heard she trains around here... Ah, there she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# ミネルヴァ石川
+JP はい？
+JP えーと、どちら様でしょうか。
+EN Yes? Um, who might you be?
+
+@ 9.40
+# 社 長
+JP 実は私、プロレス団体を
+JP 経営している者でして…。
+EN Actually, I run a pro wrestling promotion...
+
+@ 9.42
+# 社 長
+JP （俺は単刀直入に彼女を
+JP 　スカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.49
+# ミネルヴァ石川
+JP ええっと…。
+JP つまり、引き抜きってことですか？
+EN Let's see... So you're trying to poach me?
+
+@ 9.52
+# 社 長
+JP そうです。
+JP どうでしょうか！？
+EN That's right. What do you say!?
+
+@ 9.59
+# ミネルヴァ石川
+JP なんだか、すごく熱心ですねえ。
+JP 情熱的な人って好きなんです～。
+EN My, you're awfully eager. I like passionate people!
+
+@ 9.62
+# 社 長
+JP では？
+EN So...?
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# ミネルヴァ石川
+JP そうですねぇ…。
+JP でも、私、あんまり強くないですよ？
+EN Let me see... But I'm not all that strong, you know?
+
+@ 10.18
+# 社 長
+JP 気にしないでください。
+JP 入ってもらえれば
+JP バックアップできますし…。
+EN Don't worry about that. If you join us, we'll back you
+EN all the way...
+
+@ 10.29
+# ミネルヴァ石川
+JP そうですか。
+JP えへ、社長さんの情熱に負けました。
+JP よろしくお願いしますね。
+EN Is that so? Hehe, your passion wins, Boss. Please
+EN take good care of me.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ミネルヴァ石川
+JP あ～…悪いんですけど…。
+JP 今の団体にもよくしてもらって
+JP いますから…。
+EN Ahh... I'm sorry, but... my current promotion treats
+EN me really well...
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP …わかりました。
+JP 残念です。
+EN I see. ...Understood. That's a shame.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　石川選手が必要だ）
+EN (My promotion really does need Ishikawa.)
+
+@ 12.25
+# 社 長
+JP （俺はもう一度、交渉を試みる
+JP 　ことにした）
+EN (I decided to try negotiating with her one more time.)
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ミネルヴァ石川
+JP あっ、こんにちは。
+JP 今日はいいお天気ですね。
+EN Oh, hello! Lovely weather today, isn't it?
+
+@ 12.40
+# 社 長
+JP あの、移籍のお話ですが、もう一度、
+JP 考えていただけないでしょうか？
+EN About transferring to my promotion... Would you
+EN please consider it once more?
+
+@ 12.47
+# ミネルヴァ石川
+JP ええっ！？
+JP そんなに私のことを
+JP 想ってくれているんですか？
+EN Whaaat!? You think that much of me?
+
+@ 12.50
+# 社 長
+JP はい。
+JP うちにはあなたが必要なんです。
+EN Yes. My promotion needs you.
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# ミネルヴァ石川
+JP そうですねぇ…。
+JP でも、私、あんまり強くないですよ？
+EN Let me see... But I'm not all that strong, you know?
+
+@ 13.18
+# 社 長
+JP 気にしないでください。
+JP 入ってもらえれば
+JP バックアップできますし。
+EN Don't worry about that. If you join us, we'll back you
+EN all the way.
+
+@ 13.29
+# ミネルヴァ石川
+JP えへ、そうですか。
+JP 社長さんの情熱に負けました。
+JP よろしくお願いしますね。
+EN Hehe, is that so? Your passion wins, Boss. Please
+EN take good care of me.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ミネルヴァ石川
+JP 悪いんですけど…。
+JP 今の団体にもよくしてもらって
+JP いますから…。
+EN I'm sorry, but... my current promotion treats me
+EN really well...
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP …わかりました。
+JP 残念です。
+EN I see. ...Understood. That's a shame.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （石川選手…。
+JP 　あの個性とパワー。
+JP 　是非ともうちに欲しい人材だ）
+EN (Ishikawa... That personality, that power. She's
+EN exactly who I want on my roster.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (I'm sure she trains around here... Ah, there she is!)
+
+@ 15.34
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# ミネルヴァ石川
+JP はい？
+JP えーと、どちら様でしょうか？
+EN Yes? Um, who might you be?
+
+@ 15.44
+# 社 長
+JP 実は私、プロレス団体を
+JP 経営している者でして…。
+EN Actually, I run a pro wrestling promotion...
+
+@ 15.46
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.53
+# ミネルヴァ石川
+JP つまり、社長さんの団体に
+JP 入って欲しいというお話なんですね。
+EN So you're saying you'd like me to join your
+EN promotion, President?
+
+@ 15.56
+# 社 長
+JP はい。
+JP どうでしょうか？
+EN Yes. What do you say?
+
+@ 15.63
+# ミネルヴァ石川
+JP ん～、どうでしょうね～。
+JP マイペースが性に合っているので
+JP 団体に所属するのは…。
+EN Hmm, I wonder... Going at my own pace suits me, so
+EN belonging to a promotion...
+
+@ 15.66
+# 社 長
+JP そこをなんとか。
+JP 力を貸していただけないでしょうか。
+EN Please, I'm asking you. Won't you lend us your
+EN strength?
+
+@ 15.68
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out my offer.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# ミネルヴァ石川
+JP …わかりました。
+JP 社長さん、いい人みたいですし。
+EN ...All right. You seem like a nice person, President.
+
+@ 16.18
+# 社 長
+JP では、ＯＫということですね？
+EN So that's a yes?
+
+@ 16.29
+# ミネルヴァ石川
+JP はい。
+JP ふつつか者ですが
+JP よろしくお願いします。
+EN Yes. I may not be much, but please take good care of
+EN me.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ミネルヴァ石川
+JP やっぱり、自分のペースで
+JP やりたいので…。
+JP ごめんなさい…。
+EN I'd really rather go at my own pace... I'm sorry...
+
+@ 17.22
+# 社 長
+JP そう…ですか…。
+JP 残念です…。
+EN I... see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには石川選手が必要だ）
+EN (My promotion really does need Ishikawa.)
+
+@ 18.25
+# 社 長
+JP （俺はもう一度
+JP 　石川選手と交渉することにした）
+EN (I decided to negotiate with Ishikawa one more time.)
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ミネルヴァ石川
+JP あっ、お久しぶりです。
+JP お元気ですか？
+EN Oh, long time no see! How have you been?
+
+@ 18.40
+# 社 長
+JP おかげさまで。
+JP あの、実は入団のお話で
+JP もう一度お願いにあがりました。
+EN Very well, thanks. Actually, I came to ask you once
+EN more about joining us.
+
+@ 18.47
+# ミネルヴァ石川
+JP え～っ！？
+JP そんなに私のことを
+JP 求めていらっしゃるんですか？
+EN Whaaat!? You want me that badly?
+
+@ 18.50
+# 社 長
+JP はい。
+JP どうか力を貸してください。
+EN Yes. Please, lend us your strength.
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my offer again and pleaded my case with all
+EN I had.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# ミネルヴァ石川
+JP …わかりました。
+JP 社長さん、いい人みたいですし。
+EN ...All right. You seem like a nice person, President.
+
+@ 19.18
+# 社 長
+JP では、ＯＫということですね？
+EN So that's a yes?
+
+@ 19.29
+# ミネルヴァ石川
+JP はい。
+JP ふつつか者ですが
+JP よろしくお願いします。
+EN Yes. I may not be much, but please take good care of
+EN me.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ミネルヴァ石川
+JP やっぱり、自分のペースで
+JP やりたいので…。
+JP ごめんなさい…。
+EN I'd really rather go at my own pace... I'm sorry...
+
+@ 20.22
+# 社 長
+JP そう…ですか…。
+JP 残念です…。
+EN I... see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…あっ、石川ぁ！
+EN She should be around here... Ah, Ishikawa!
+
+@ 21.33
+# ミネルヴァ石川
+JP あっ、社長。
+JP どうしたんですか？
+JP こんなところまで？
+EN Oh, Boss. What's wrong? What brings you all the way
+EN out here?
+
+@ 21.36
+# 社 長
+JP 実は団体に戻ってもらえないかと
+JP 思って頼みに来たんだ。
+EN I came to ask if you'd come back to the promotion.
+
+@ 21.43
+# ミネルヴァ石川
+JP えっ…？
+JP でも～、私が辞めたのは社長の…。
+EN Huh...? But... the reason I quit was because of you,
+EN Boss...
+
+@ 21.46
+# 社 長
+JP それはそうかもしれないが…。
+JP 俺が悪かった、許して欲しい。
+EN That may be true... I was wrong. Please forgive me.
+
+@ 21.48
+# 社 長
+JP 頼む。
+JP もう一度だけ俺を信じてくれないか？
+EN I'm begging you. Won't you trust me just one more
+EN time?
+
+@ 21.52
+# ミネルヴァ石川
+JP 突然そんなことを言われても
+JP 困ってしまうんですけど…。
+EN Springing that on me out of nowhere puts me in a
+EN tough spot...
+
+@ 21.55
+# 社 長
+JP こんなこと言えた義理じゃないが…。
+JP 頼む、この通りだ。
+EN I know I have no right to ask... but please. I'm
+EN begging you.
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ミネルヴァ石川
+JP はぁ…。
+JP わかりました。
+JP もぉ、仕方ないですね。
+EN Sigh... All right. Honestly, it can't be helped.
+
+@ 22.18
+# 社 長
+JP それじゃ…。
+EN Then...
+
+@ 22.29
+# ミネルヴァ石川
+JP なんだかドラマみたいですね。
+JP 自分を捨てた男性を想い続ける女
+JP みたいな。
+EN It's kind of like a TV drama, isn't it? The woman who
+EN still pines for the man who dumped her, or something.
+
+@ 22.32
+# 社 長
+JP す、すまん…。
+JP ありがとう、石川。
+EN S-sorry... Thank you, Ishikawa.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ミネルヴァ石川
+JP …ダメです。
+EN ...No.
+
+@ 23.22
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 23.26
+# ミネルヴァ石川
+JP 簡単に許せないこともあるんですよ。
+JP なんて言いましたっけ？
+JP えーと…おととい来やがれ？
+EN Some things aren't so easy to forgive. How does
+EN that saying go? Um... don't let the door hit you on
+EN the way out?
+
+@ 23.29
+# 社 長
+JP …そうだな。
+JP わかった。
+JP 悪かった。
+EN ...Fair enough. I understand. I'm sorry.
+
+@ 23.31
+# 社 長
+JP （これも身から出たサビだ。
+JP 　今日のところは引き上げよう…）
+EN (I brought this on myself. I'll leave it for today...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び石川を訪ねることにした。
+EN (I decided to visit Ishikawa again.)
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN (She really is a wrestler my promotion needs.)
+
+@ 24.27
+# 社 長
+JP 石川っ！
+EN Ishikawa!
+
+@ 24.37
+# ミネルヴァ石川
+JP …またいらしたんですね？
+JP この間のお話ですか？
+EN ...You came again? Is this about the other day?
+
+@ 24.40
+# 社 長
+JP 頼む。
+JP もう一度だけ俺を信じてくれないか。
+EN Please. Won't you trust me just one more time?
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ミネルヴァ石川
+JP わかりました。
+JP もぉ～、仕方ないですね。
+EN All right. Honestly, it can't be helped.
+
+@ 25.18
+# 社 長
+JP それじゃ…。
+EN Then...
+
+@ 25.29
+# ミネルヴァ石川
+JP なんだかドラマみたいですね。
+JP 自分を捨てた男性を想い続ける女
+JP みたいな。
+EN It's kind of like a TV drama, isn't it? The woman who
+EN still pines for the man who dumped her, or something.
+
+@ 25.32
+# 社 長
+JP す、すまん…。
+JP ありがとう、石川。
+EN S-sorry... Thank you, Ishikawa.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ミネルヴァ石川
+JP …ダメです。
+EN ...No.
+
+@ 26.22
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 26.26
+# ミネルヴァ石川
+JP 簡単に許せないこともあるんですよ。
+JP なんて言いましたっけ？
+JP …おととい来やがれ？
+EN Some things aren't so easy to forgive. How does
+EN that saying go? ...Don't let the door hit you on the
+EN way out?
+
+@ 26.29
+# 社 長
+JP …そうだな。
+JP わかった。
+JP 悪かった。
+EN ...Fair enough. I understand. I'm sorry.
+
+@ 26.31
+# 社 長
+JP （これも身から出たサビだ。
+JP 　今日のところは引き上げよう…）
+EN (I brought this on myself. I'll leave it for today...)
+
+@ 27.16
+# scene 028 ケガ小
+# ミネルヴァ石川
+JP 大丈夫です。
+JP …というか、私、ケガしてるんですか？
+EN I'm fine. ...Wait, am I hurt?
+
+@ 28.16
+# scene 029 ケガ大
+# ミネルヴァ石川
+JP あっ…これはちょっと痛いです…。
+JP どこでやっちゃったのかなぁ？
+EN Ow... This one kind of hurts... Where did I do that, I
+EN wonder?
+
+@ 29.16
+# scene 030 入院
+# ミネルヴァ石川
+JP ちゃんと治さないとダメみたいです。
+JP ごめんなさい、社長…。
+EN Looks like I need to heal up properly. I'm sorry,
+EN Boss...
+
+@ 30.16
+# scene 031 退院
+# ミネルヴァ石川
+JP もう治ったみたいです。
+JP 優秀なお医者さんでよかった～。
+EN Looks like I'm all better. I'm glad I had such a good
+EN doctor!
+
+@ 31.16
+# scene 032 ケガ完治
+# ミネルヴァ石川
+JP あれ、痛くない…？
+JP あはははは…なんだか治っちゃった
+JP みたいですね。
+EN Huh, it doesn't hurt...? Ahahaha... Looks like it just
+EN sort of healed by itself.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ミネルヴァ石川
+JP 社長がそう言うなら従います。
+JP 私、社長を信じると決めて
+JP この世界に来ましたので。
+EN If you say so, Boss, I'll do as you say. I came into this
+EN world because I decided to trust you.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ミネルヴァ石川
+JP 社長のことは信じているんですけど
+JP こればかりは…。
+EN I do trust you, Boss, but this one thing...
+
+@ 34.16
+# scene 035 コーチ就任
+# ミネルヴァ石川
+JP はーい、コーチの石川でーす。
+JP 楽しくプロレスしましょうね。
+EN Hi there, I'm Coach Ishikawa! Let's have fun wrestling
+EN together.
+
+@ 35.16
+# scene 036 ケガ引退
+# ミネルヴァ石川
+JP 体が動かなくて…。
+JP これ以上は社長の期待に
+JP 応えられそうにないです。
+EN My body won't move like it used to... I don't think I
+EN can live up to your expectations anymore, Boss.
+
+@ 36.16
+# scene 037 年齢引退
+# ミネルヴァ石川
+JP もう年齢的にキツイかな…って。
+JP えへっ、いいんです。
+JP 自分でもわかってますから。
+EN I think I'm getting a little old for this... Hehe, it's
+EN okay. I know it myself.
+
+@ 37.16
+# scene 038 退団
+# ミネルヴァ石川
+JP 社長には申し訳ないんですけど…。
+JP 身を退かせていただきます。
+EN I'm so sorry, Boss... but I'm going to step away.
+
+@ 38.16
+# scene 039 スランプ
+# ミネルヴァ石川
+JP 調子が出ない…。
+JP …あっ、これがスランプなのかな？
+EN I just can't get going... Oh, is this what they call a
+EN slump?
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ミネルヴァ石川
+JP ファンクラブ？
+JP 誰のですか？
+EN A fan club? For who?
+
+@ 39.19
+# 社 長
+JP 何言っているんだ。
+JP おまえのだよ。
+EN What are you talking about? For you!
+
+@ 39.26
+# ミネルヴァ石川
+JP えー、そうなんですか。
+JP わあ、嬉しいですねえ。
+EN Really? Wow, that makes me so happy.
+
+@ 39.29
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you're worthy of their support.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ミネルヴァ石川
+JP 新しいファンクラブですか。
+JP あはっ、それも私のですよね。
+EN A new fan club? Aha, that one's for me too, right?
+
+@ 40.19
+# 社 長
+JP もちろんだ。
+JP 期待に応えるようにな。
+EN Of course. Make sure you live up to their hopes.
+
+@ 40.26
+# ミネルヴァ石川
+JP なんだか、私
+JP アイドルみたいですね～。
+EN I feel kind of like an idol!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ミネルヴァ石川
+JP え～！？
+JP ファンクラブ
+JP なくなっちゃったんですか～？
+EN Whaaat!? My fan club... is gone?
+
+@ 41.19
+# 社 長
+JP まあ、こんなこともあるさ。
+JP あんまり気にするな。
+EN Well, these things happen. Don't let it get to you.
+
+@ 41.23
+# ミネルヴァ石川
+JP 大ショックです…。
+JP ふぅー…。
+EN What a shock... Phew...
+
+@ 42.16
+# scene 043 映画出演
+# ミネルヴァ石川
+JP えー、本当ですか～？
+JP 早速友だちに連絡しなくちゃ！
+EN Whaaat, really? I have to tell my friends right away!
+
+@ 43.16
+# scene 044 一日署長
+# ミネルヴァ石川
+JP あの…制服
+JP 胸が少しきついんですけど～…。
+EN Um... the uniform's a little tight across the chest...
+
+@ 44.16
+# scene 045 写真集発売
+# ミネルヴァ石川
+JP どこで撮るんですか？
+JP 外国だったらいいですね～。
+EN Where's the shoot? It'd be nice if it was somewhere
+EN overseas!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ミネルヴァ石川
+JP ニコニコしていればいいんでしょうか？
+JP それなら得意なんですけど。
+EN Do I just have to smile? I'm good at that.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ミネルヴァ石川
+JP 歌は好きなんです。
+JP でも、あまり上手くないんです～…。
+EN I love singing. But I'm not very good at it...
+
+@ 47.16
+# scene 048 始球式
+# ミネルヴァ石川
+JP どこに飛んでいくか
+JP わからないですよ～。
+EN I have no idea where the ball will end up, you know!
+
+@ 48.16
+# scene 049 学園祭
+# ミネルヴァ石川
+JP リングコスチュームで
+JP 立っているだけでいい？
+JP あはっ、なんだか楽なお仕事ですね～。
+EN I just have to stand there in my ring gear? Aha, what
+EN an easy job!
+
+@ 49.29
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here. A little something for your birthday.
+
+@ 49.36
+# ミネルヴァ石川
+JP あらぁ…。
+JP 社長、意外とマメですね。
+EN Oh my... You're more thoughtful than you look, Boss.
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.47
+# ミネルヴァ石川
+JP えへっ、こちらこそ。
+JP おかげさまで思い出の誕生日に
+JP なりました～。
+EN Hehe, likewise. Thanks to you, this birthday's one to
+EN remember!
+
+@ 50.32
+# scene 051 バレンタインデー
+# ミネルヴァ石川
+JP 社長。
+JP チョコあげます。
+JP こっちが義理で、こっちが本命。
+EN Boss, here's some chocolate. This one's the
+EN courtesy one, and this one's the real one.
+
+@ 50.35
+# 社 長
+JP なんで２つともくれるんだ？
+EN Why are you giving me both?
+
+@ 50.42
+# ミネルヴァ石川
+JP 本命は覚悟付きなんです。
+JP それでも食べてくれますか？
+EN The real one comes with strings attached. Will you
+EN still eat it?
+
+@ 51.29
+# scene 052 ホワイトデー
+# 社 長
+JP 石川。
+JP 先月のお礼、受け取ってくれるか？
+EN Ishikawa. Will you accept this, to thank you for last
+EN month?
+
+@ 51.37
+# ミネルヴァ石川
+JP ありがとうございます。
+JP …あっ、２つありますね。
+EN Thank you very much. ...Oh, there are two.
+
+@ 51.40
+# 社 長
+JP 説明が必要か？
+EN Do I need to explain?
+
+@ 51.47
+# ミネルヴァ石川
+JP いえいえ、大丈夫です。
+JP うふふ、やった～！
+EN No, no, that's fine. Teehee, yay!
+
+@ 52.31
+# scene 053 サイン会
+# ミネルヴァ石川
+JP みなさんの笑顔が
+JP 私のパワーの源なんですよ～。
+EN Everyone's smiles are where my power comes from!
+
+@ 53.29
+# scene 054 コンサート
+# ミネルヴァ石川
+JP あれ、マイクの調子が変です。
+JP あ～、すみません、スタッフさーん！
+EN Huh, the mic's acting funny. Ahh, sorry, staff? Hello!
+
+@ 54.28
+# scene 055 練習拒否
+# ミネルヴァ石川
+JP 今日は練習したくないです～…。
+EN I don't feel like training today...
+
+@ 55.28
+# scene 056 失踪
+# ミネルヴァ石川
+JP 人気のない断崖を探しに行きます…。
+EN I'm off to look for a lonely cliff...
+
+@ 56.16
+# scene 057 選手解雇
+# ミネルヴァ石川
+JP わかりました。
+JP 私、社長の期待に
+JP 応えられなかったんですね…。
+EN I understand. I couldn't live up to your expectations,
+EN could I, Boss...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ミネルヴァ石川
+JP 向こうのスタッフへのお土産
+JP 何がいいんでしょうか？
+EN I wonder what souvenirs I should bring for the staff
+EN over there?
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ミネルヴァ石川
+JP あれ、お土産から変な匂いが…。
+JP おかしいですねえ…？
+JP 新鮮なはずなのに～？
+EN Huh, the souvenirs smell funny... That's strange...?
+EN They should be fresh...
+
+@ 59.26
+# scene 060 移籍思案
+# ミネルヴァ石川
+JP 社長と離れ離れになるのかな…。
+EN Am I going to be apart from the Boss, I wonder...
+
+@ 60.16
+# scene 061 革命軍結成
+# ミネルヴァ石川
+JP 悪は正さないといけないと
+JP 思うんですよ～。
+EN I think evil has to be set right!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ミネルヴァ石川
+JP トラブルメーカーになってみたいと
+JP 思ったんです～。
+EN I just thought I'd like to try being a troublemaker!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ミネルヴァ石川
+JP 覚悟を決めてもらいます～。
+EN Time to brace yourself!
+
+@ 63.16
+# scene 064 遺恨発生
+# ミネルヴァ石川
+JP むう…。
+JP 私、ちょっと怒りました。
+EN Hmph... I'm a little angry now.
+
+@ 64.16
+# scene 065 殴り込み
+# ミネルヴァ石川
+JP お姉さんの本気、見せてきますね。
+EN I'm going to go show them Big Sis is serious.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ミネルヴァ石川
+JP 社長の敵は私の敵です。
+JP やっつけちゃいましょう。
+EN Your enemies are my enemies, Boss. Let's get them!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ミネルヴァ石川
+JP お姉さんと試合する人
+JP この指止～まれ。
+EN Anyone who wants a match with Big Sis, raise your
+EN ha-and!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ミネルヴァ石川
+JP 社長のためにがんばりますよ～。
+EN I'll do my best for you, Boss!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ミネルヴァ石川
+JP もしかして優勝しちゃいました～？
+EN Did I... maybe win the whole thing?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ミネルヴァ石川
+JP はぁ…。
+JP いいとこ見せたかったな～…。
+EN Sigh... I wanted to look good out there...
+
+@ 70.13
+# scene 071 引退式
+# ミネルヴァ石川
+JP 笑顔でお別れしたかったんですけど…。
+JP 無理みたいです。
+JP …ぐすっ。
+EN I wanted to say goodbye with a smile... but I guess I
+EN can't. ...Sniff.
+
+@ 71.17
+# ミネルヴァ石川
+JP お呼びでしょうか。
+EN You called for me?
+
+@ 71.36
+# ミネルヴァ石川
+JP えへっ、呼ばれました～。
+EN Hehe, I got called in!
+
+@ 71.46
+# ミネルヴァ石川
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.89
+# ミネルヴァ石川
+JP 喜んでもらえてよかったです。
+EN I'm glad you're pleased.
+
+@ 71.110
+# ミネルヴァ石川
+JP はい。
+JP マイペースでいきま～す。
+EN Okay. I'll keep going at my own pace.
+
+@ 71.131
+# ミネルヴァ石川
+JP あんまり誉めないでください。
+JP その気になっちゃいますから～。
+EN Don't praise me too much. I'll start getting ideas.
+
+@ 71.152
+# ミネルヴァ石川
+JP 今の私を見ていたら
+JP そんなこと言う気にならないと
+JP 思うんですけど…？
+EN If you've been watching me lately, I don't think you'd
+EN really say that...?
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# ミネルヴァ石川
+JP …かもしれません…。
+JP 反省します…。
+EN ...Maybe I have... I'll reflect on it...
+
+@ 71.210
+# ミネルヴァ石川
+JP いつもこんな感じですよ、私。
+EN I'm always like this, you know.
+
+@ 71.231
+# ミネルヴァ石川
+JP 怒っている社長も素敵ですね…。
+EN You look nice when you're angry too, Boss...
+
+@ 71.252
+# ミネルヴァ石川
+JP あ、怒られてしまいました～。
+EN Oh, I got scolded.
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 71.289
+# ミネルヴァ石川
+JP すみません。
+JP 気を遣ってもらって…。
+JP がんばります。
+EN I'm sorry. Thank you for worrying about me... I'll do
+EN my best.
+
+@ 71.310
+# ミネルヴァ石川
+JP 私、元気ですよ。
+JP とっても。
+EN I'm fine. Really fine.
+
+@ 71.331
+# ミネルヴァ石川
+JP 優しい社長も素敵です…。
+EN You look nice when you're being kind, too, Boss...
+
+@ 71.352
+# ミネルヴァ石川
+JP 私の気持ちに気づいてくれない人が
+JP いるから…。
+EN It's just that someone doesn't notice how I feel...
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# ミネルヴァ石川
+JP すみません。
+JP 心当たりがあります。
+EN I'm sorry. I have an idea why.
+
+@ 71.399
+# ミネルヴァ石川
+JP えーと、何かお話があるから
+JP 呼ばれたと思ったんですけど…。
+EN Um, I figured you called me because you had
+EN something to talk about...
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# ミネルヴァ石川
+JP …わかりました。
+JP 社長がそう言うのなら…。
+EN ...All right. If you say so, Boss...
+
+@ 71.453
+# ミネルヴァ石川
+JP すみません、
+JP これは私の問題ですから…。
+EN I'm sorry, but this is my problem...
+
+@ 71.474
+# ミネルヴァ石川
+JP …え？
+JP 私たち仲良しですよ～。
+EN ...Huh? We're good friends, you know!
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# ミネルヴァ石川
+JP …あっ！
+JP やっぱりあのことですよね。
+JP …すみません。
+EN ...Oh! It's about that, isn't it. ...I'm sorry.
+
+@ 71.521
+# ミネルヴァ石川
+JP 別に理由なんて、フフ…。
+JP 社長とお話しするのは
+JP いつでもＯＫです～。
+EN You don't need a reason, hehe... Talking with you is
+EN always okay with me!
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# ミネルヴァ石川
+JP わかりました。
+JP 絶対仲直りしてきます。
+EN All right. I'll definitely make up with her.
+
+@ 71.577
+# ミネルヴァ石川
+JP 私、すっごく怒ってるんですよ。
+JP 謝るのは向こうですよ～。
+EN I'm really, really angry, you know. She's the one who
+EN should apologize!
+
+@ 71.598
+# ミネルヴァ石川
+JP 社長、今日のネクタイ素敵ですね～。
+EN Boss, that's a lovely tie you're wearing today!
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ミネルヴァ石川
+JP えへっ、呼ばれました～。
+EN Hehe, I got called in!
+
+@ 72.16
+# ミネルヴァ石川
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ミネルヴァ石川
+JP 喜んでもらえてよかったです。
+EN I'm glad you're pleased.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ミネルヴァ石川
+JP はい。
+JP マイペースでいきま～す。
+EN Okay. I'll keep going at my own pace.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ミネルヴァ石川
+JP あは、あんまり誉めないでください。
+JP その気になっちゃいますから～。
+EN Aha, don't praise me too much. I'll start getting
+EN ideas.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ミネルヴァ石川
+JP 今の私を見ていたら
+JP そんなこと言う気にならないと
+JP 思うんですけど…？
+EN If you've been watching me lately, I don't think you'd
+EN really say that...?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ミネルヴァ石川
+JP あ…かもしれません…。
+JP 反省します…。
+EN Oh... Maybe I have... I'll reflect on it...
+
+@ 80.16
+# scene 081 会話 しかる通常 失敗
+# ミネルヴァ石川
+JP いつもこんな感じですよ、私。
+EN I'm always like this, you know.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ミネルヴァ石川
+JP 怒っている社長も素敵ですね…。
+EN You look nice when you're angry too, Boss...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ミネルヴァ石川
+JP あ…怒られてしまいました～。
+EN Oh... I got scolded.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 84.18
+# scene 085 会話 はげます 通常 成功
+# ミネルヴァ石川
+JP すみません。
+JP 気を遣ってもらって…。
+JP がんばります。
+EN I'm sorry. Thank you for worrying about me... I'll do
+EN my best.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ミネルヴァ石川
+JP 私、元気ですよ、とっても。
+EN I'm fine. Really fine.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ミネルヴァ石川
+JP 優しい社長も素敵です…。
+EN You look nice when you're being kind, too, Boss...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ミネルヴァ石川
+JP 私の気持ちに気づいてくれない人が
+JP いるから…。
+EN It's just that someone doesn't notice how I feel...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ミネルヴァ石川
+JP すみません。
+JP 心当たりがあります。
+EN I'm sorry. I have an idea why.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ミネルヴァ石川
+JP えーと、何かお話があるから
+JP 呼ばれたと思ったんですけど。
+EN Um, I figured you called me because you had
+EN something to talk about.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ミネルヴァ石川
+JP …わかりました。
+JP 社長がそう言うのなら…。
+EN ...All right. If you say so, Boss...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ミネルヴァ石川
+JP すみません…。
+JP これは私の問題ですから…。
+EN I'm sorry... but this is my problem...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ミネルヴァ石川
+JP え？
+JP 私たち仲良しですよ～。
+EN Huh? We're good friends, you know!
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ミネルヴァ石川
+JP あっ…！
+JP やっぱりあのことですよね。
+JP …すみません。
+EN Oh...! It's about that, isn't it. ...I'm sorry.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ミネルヴァ石川
+JP 別に理由なんて、ふふ。
+JP 社長とお話しするのは
+JP いつでもＯＫです～。
+EN You don't need a reason, hehe. Talking with you is
+EN always okay with me!
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ミネルヴァ石川
+JP わかりました。
+JP 絶対、仲直りしてきます。
+EN All right. I'll definitely make up with her.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ミネルヴァ石川
+JP 私、すっごく怒ってるんですよ。
+JP 謝るのは向こうですよ～。
+EN I'm really, really angry, you know. She's the one who
+EN should apologize!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ミネルヴァ石川
+JP 社長、今日のネクタイ素敵ですね～。
+EN Boss, that's a lovely tie you're wearing today!
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ミネルヴァ石川
+JP これで来年も安心ですね～。
+EN Now I can rest easy for another year!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ミネルヴァ石川
+JP わあ！
+JP 嬉しいです、社長。
+JP ありがとうございます～！
+EN Wow! I'm so happy, Boss. Thank you so much!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ミネルヴァ石川
+JP あれ…？
+JP むむむ…。
+JP う～ん、こんなところなの…かなあ？
+EN Huh...? Hmmm... Well... I guess this is about right...
+EN maybe?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP ふぅ、けっこう泳いだな…。
+EN Phew, that was quite a swim...
+
+@ 105.34
+# 社 長
+JP （みんなも楽しんでるようだし…。
+JP 　俺は昼寝でもさせてもらうか…）
+EN (Everyone seems to be having fun... Maybe I'll grab a
+EN nap...)
+
+@ 105.36
+# 社 長
+JP ふわぁああ…。
+JP 極楽、極楽……。
+EN *Yaaawn*... This is the life...
+
+@ 105.55
+# ？？？
+JP うふっ…。
+JP 社長の寝顔、子供みたいですねぇ。
+EN Teehee... Your sleeping face looks just like a little
+EN kid's, Boss.
+
+@ 105.58
+# 社 長
+JP （…んっ…この声は？）
+EN (...Hm...? That voice...)
+
+@ 105.78
+# 社 長
+JP ………………。
+EN ..........
+
+@ 105.82
+# ミネルヴァ石川
+JP あら…？
+JP 起こしちゃいました？
+EN Oh...? Did I wake you?
+
+@ 105.85
+# 社 長
+JP …………ええっと……？
+EN ..........Um......?
+
+@ 105.89
+# ミネルヴァ石川
+JP ご飯まで時間ありますし
+JP まだ寝ててもいいですよ？
+EN There's still time before dinner, so you can keep
+EN sleeping if you like.
+
+@ 105.92
+# 社 長
+JP そ、そうか？
+EN R-really?
+
+@ 105.94
+# 社 長
+JP （いや、そうじゃなくて…。
+JP 　なんで石川が俺の隣に？）
+EN (No, wait, that's not the point... Why is Ishikawa lying
+EN next to me?)
+
+@ 105.96
+# 社 長
+JP （それ以前に…。
+JP 　目の前にあるこの巨大なふくらみ…。
+JP 　胸、だよな……？）
+EN (And more importantly... this enormous swell right in
+EN front of my face... That's... her chest, isn't it......?)
+
+@ 105.106
+# ミネルヴァ石川
+JP ふぅ…。
+JP 気持ちいいですねぇ……。
+EN Ahh... This feels so nice......
+
+@ 105.109
+# 社 長
+JP ………………。
+EN ..........
+
+@ 105.113
+# ミネルヴァ石川
+JP ………………。
+EN ..........
+
+@ 105.116
+# 社 長
+JP （…寝たのか？）
+EN (...Is she asleep?)
+
+@ 105.120
+# ミネルヴァ石川
+JP ………………。
+EN ..........
+
+@ 105.123
+# 社 長
+JP （それにしても…すごいな…。
+JP 　ファンが騒ぐのもわかるな。うん）
+EN (Still... wow... I can see why the fans go crazy. Yep.)
+
+@ 105.127
+# ミネルヴァ石川
+JP ………………。
+EN ..........
+
+@ 105.130
+# 社 長
+JP （水着だから…だろうな。
+JP 　今日は妙に大きさが強調されて
+JP 　いるような…）
+EN (It must be the swimsuit... They seem extra
+EN emphasized today...)
+
+@ 105.134
+# ミネルヴァ石川
+JP …んっ…。
+JP 社長……。
+EN ...Mm... Boss......
+
+@ 105.137
+# 社 長
+JP な、なんだ！？
+EN Wh-what!?
+
+@ 105.141
+# ミネルヴァ石川
+JP あっ…ダメです…。
+JP そんな……。
+EN Ah... No, you can't... Not like that......
+
+@ 105.144
+# 社 長
+JP い、いや！
+JP 見てただけだぞ、見てただけ！
+EN N-no! I was only looking, only looking!
+
+@ 105.148
+# ミネルヴァ石川
+JP お肉ばっかり…。
+JP 野菜も食べないと…。
+JP んんっ…すぅ……すぅ…………。
+EN Nothing but meat... You have to eat your veggies
+EN too... Mmm... zzz... zzz......
+
+@ 105.151
+# 社 長
+JP ………………。
+EN ..........
+
+@ 105.153
+# 社 長
+JP ね…寝言？
+EN Sh... she's talking in her sleep?
+
+@ 105.168
+# 社 長
+JP （俺は石川を起こさないよう
+JP 　気を付けながら、その場を立ち去る
+JP 　ことにした）
+EN (Careful not to wake her, I slipped away.)
+
+@ 105.171
+# 社 長
+JP （それにしても…）
+EN (Still...)
+
+@ 105.180
+# 社 長
+JP （無防備すぎるぞ石川。
+JP 　俺のためにも、なんとかしてくれ）
+EN (You're way too defenseless, Ishikawa. Do something
+EN about it, for my sake.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP お疲れーっ。
+EN Good work, everyone!
+
+@ 106.34
+# ミネルヴァ石川
+JP ………………。
+EN ..........
+
+@ 106.37
+# 社 長
+JP んっ？
+JP 石川、どうした？
+EN Hm? Ishikawa, what's wrong?
+
+@ 106.62
+# ミネルヴァ石川
+JP あっ…。
+JP お疲れ様です。
+JP なんでしょうか～？
+EN Oh... Good work today. Did you need something?
+
+@ 106.65
+# 社 長
+JP どうした？
+JP 顔色、悪いぞ？
+EN What's wrong? You look pale.
+
+@ 106.72
+# ミネルヴァ石川
+JP いえ…。
+JP 別になんでもありませんから…。
+EN No... It's nothing, really...
+
+@ 106.75
+# 社 長
+JP いや、どうみても顔色が……。
+EN No, you definitely look pale......
+
+@ 106.79
+# ミネルヴァ石川
+JP ………………。
+EN ..........
+
+@ 106.82
+# 社 長
+JP 石川？
+EN Ishikawa?
+
+@ 106.95
+# 社 長
+JP お、おい！？
+JP 石川！
+JP おい、石川！！
+EN H-hey!? Ishikawa! Hey, Ishikawa!!
+
+@ 106.117
+# ミネルヴァ石川
+JP んっ……。
+JP あれ……？
+EN Mm...... Huh......?
+
+@ 106.140
+# 社 長
+JP おっ、ようやく起きたか？
+EN Oh, finally awake?
+
+@ 106.144
+# ミネルヴァ石川
+JP 社長…。
+JP あの…ここ……。
+EN Boss... Um... where......
+
+@ 106.147
+# 社 長
+JP 選手寮のおまえの部屋だ。
+JP ジムで倒れたこと覚えてるか？
+EN Your room in the dorm. Do you remember collapsing
+EN at the gym?
+
+@ 106.151
+# ミネルヴァ石川
+JP …はい…。
+JP すみません……。
+EN ...Yes... I'm sorry......
+
+@ 106.154
+# 社 長
+JP とりあえず部屋に運んで…。
+JP あっ、着替えは霧子くんに任せた。
+JP 俺じゃないぞ？
+EN I carried you up here... Oh, I left changing your
+EN clothes to Kiriko. It wasn't me, okay?
+
+@ 106.157
+# 社 長
+JP そのあとでドクターに診てもらった。
+JP 過労からくる風邪だそうだ。
+JP 明日も悪かったら、病院だからな？
+EN Then I had the doctor look at you. A cold, from
+EN overwork. If you're still sick tomorrow, it's the
+EN hospital.
+
+@ 106.161
+# ミネルヴァ石川
+JP …すみません……
+JP ご迷惑…おかけして……。
+EN ...I'm sorry...... for all... the trouble......
+
+@ 106.164
+# 社 長
+JP それより聞いたぞ。
+JP 最近、あんまり寝てないんだって？
+EN Never mind that. I heard you haven't been sleeping
+EN much lately.
+
+@ 106.168
+# ミネルヴァ石川
+JP …すみません…。
+JP ちょっと…色々…あって……。
+EN ...I'm sorry... There was just... a lot... going on......
+
+@ 106.171
+# 社 長
+JP 他の連中の世話を
+JP やいてたんだってな。
+EN I heard you've been looking after all the others.
+
+@ 106.173
+# 社 長
+JP 人の世話だけじゃなく
+JP 自分もいたわらないと意味ないだろう。
+EN Taking care of other people is fine, but it means
+EN nothing if you don't take care of yourself too.
+
+@ 106.177
+# ミネルヴァ石川
+JP …はい……。
+JP すみません……。
+EN ...Yes...... I'm sorry......
+
+@ 106.180
+# 社 長
+JP いいから今日はこのまま寝てろ。
+JP 霧子くんが戻るまで、
+JP 俺がいてやるから…。
+EN Never mind, just get some sleep for today. I'll stay
+EN with you until Kiriko gets back...
+
+@ 106.191
+# ミネルヴァ石川
+JP …はい……。
+JP 社長…ありがとうございます～…。
+EN ...Okay...... Thank you... Boss...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP お疲れーっ。
+EN Good work, everyone!
+
+@ 107.34
+# ミネルヴァ石川
+JP ………………。
+EN ..........
+
+@ 107.37
+# 社 長
+JP んっ？
+JP 石川、どうした？
+EN Hm? Ishikawa, what's wrong?
+
+@ 107.44
+# ミネルヴァ石川
+JP あっ…。
+JP お疲れ様です。
+JP なんでしょうか～？
+EN Oh... Good work today. Did you need something?
+
+@ 107.47
+# 社 長
+JP 顔色悪いぞ。
+JP また具合でも悪いのか？
+EN You look pale. Are you feeling sick again?
+
+@ 107.54
+# ミネルヴァ石川
+JP いいえ…。
+JP 別になんでも……。
+EN No... It's nothing, really......
+
+@ 107.63
+# 社 長
+JP おっとっ。
+EN Whoa there.
+
+@ 107.66
+# 社 長
+JP まったく…。
+JP なにが「別に」だ。
+EN Honestly... "Nothing," my foot.
+
+@ 107.88
+# ミネルヴァ石川
+JP んっ……？
+EN Mm......?
+
+@ 107.111
+# 社 長
+JP 起きたか？
+EN You awake?
+
+@ 107.115
+# ミネルヴァ石川
+JP …はい…。
+JP すみません、社長……。
+EN ...Yes... I'm sorry, Boss......
+
+@ 107.118
+# 社 長
+JP まったく、おまえときたら……。
+EN Honestly, you......
+
+@ 107.122
+# ミネルヴァ石川
+JP ふふっ…前にも……。
+EN Hehe... Before, too......
+
+@ 107.125
+# 社 長
+JP んっ？
+EN Hm?
+
+@ 107.136
+# ミネルヴァ石川
+JP 前にもこういうこと…ありましたね。
+EN This happened... once before, didn't it?
+
+@ 107.139
+# 社 長
+JP そうだったな。
+EN It sure did.
+
+@ 107.141
+# 社 長
+JP また…みんなの世話やいてたのか？
+EN Were you... looking after everyone again?
+
+@ 107.152
+# ミネルヴァ石川
+JP えへへ…。
+JP 頼まれると…つい……。
+EN Hehehe... When people ask me... I just can't say no......
+
+@ 107.155
+# 社 長
+JP そうか…。
+JP いつもごくろうさま。
+EN I see... Thanks for always working so hard.
+
+@ 107.157
+# 社 長
+JP じゃ、今日は俺が
+JP 石川の面倒を見てやるか。
+EN Well then, today I'll be the one looking after you.
+
+@ 107.168
+# ミネルヴァ石川
+JP 本当ですか…？
+EN Really...?
+
+@ 107.171
+# 社 長
+JP あぁ。
+JP 迷惑か？
+EN Yeah. Would that be a bother?
+
+@ 107.175
+# ミネルヴァ石川
+JP あは…いえ…。
+JP 嬉しいです～…。
+EN Aha... No... I'm so happy...
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# ミネルヴァ石川
+JP 飛ばしすぎないで
+JP の～んびりいきましょうね～。
+EN Let's not push too hard. Nice and easy does it!
+
+@ 109.16
+# scene 113 練習開始
+# ミネルヴァ石川
+JP 今日のメニューは…あれとこれと…。
+EN Today's menu is... this, and that...
+
+@ 110.16
+# scene 114 練習開始 好意
+# ミネルヴァ石川
+JP あは、社長～！
+JP ちゃんと見ていてくださいね～。
+EN Aha, Boss! Make sure you're watching me!
+
+@ 111.16
+# scene 115 特訓開始
+# ミネルヴァ石川
+JP ちゃんとできるといいんですけど～。
+EN I hope I can do this right...
+
+@ 112.20
+# scene 116 特訓成功
+# ミネルヴァ石川
+JP 予想以上に上手くいったと
+JP 思いますよ～。
+EN I think that went better than I expected!
+
+@ 113.20
+# scene 117 特訓失敗
+# ミネルヴァ石川
+JP すみませ～ん。
+JP せっかくやらせてもらったのに…。
+EN I'm so sorry. You went to all the trouble of setting
+EN this up for me...
+
+@ 114.16
+# scene 118 休養
+# ミネルヴァ石川
+JP ちょうど部屋の掃除を
+JP したかったんです～。
+EN I was just wanting to clean my room!
+
+@ 115.16
+# scene 119 入場1
+# ミネルヴァ石川
+JP お姉さんに投げ飛ばれたい人は
+JP だーれ～？
+EN Who wants to get tossed around by Big Sis?
+
+@ 116.16
+# scene 119 入場2
+# ミネルヴァ石川
+JP 大一番ですね～。
+JP 胸がドキドキしちゃいます～。
+EN This is a big one! My heart's pounding!
+
+@ 117.17
+# scene 120 タッグマッチ ベスト
+# ミネルヴァ石川
+JP それじゃ、行きましょう。
+JP 無理しちゃダメだからね、龍子？
+EN Okay, let's go. Don't overdo it, Ryuko, all right?
+
+@ 118.16
+# scene 125 必殺技１
+# ミネルヴァ石川
+JP お姉さんパワー、受けてみなさいっ！
+EN Take this, Big Sis Power!
+
+@ 119.16
+# scene 125 必殺技２
+# ミネルヴァ石川
+JP この試合、絶対に勝ってみせますっ！
+EN I'm going to win this match, no matter what!
+
+@ 120.16
+# scene 125 必殺技３
+# ミネルヴァ石川
+JP ここが勝負どころですね。
+JP いきますよ～！
+EN This is the moment of truth. Here I come!
+
+@ 121.12
+# scene 126 勝利1
+# ミネルヴァ石川
+JP お姉さんの勝ちですね。
+EN Looks like Big Sis wins.
+
+@ 122.12
+# scene 126 勝利2
+# ミネルヴァ石川
+JP ちょっと危なかったですけど
+JP 勝ちは勝ちですね。
+EN That was a little close, but a win's a win.
+
+@ 123.12
+# scene 126 勝利3
+# ミネルヴァ石川
+JP 試合は焦った方が負けなんですよ～！
+EN Whoever panics first loses the match, you know!
+
+@ 124.15
+# scene 133 表彰1
+# ミネルヴァ石川
+JP あは、お姉さん
+JP がんばっちゃいました～。
+EN Aha, Big Sis really outdid herself!
+
+@ 125.15
+# scene 133 表彰2
+# ミネルヴァ石川
+JP 私がもらっていいんですか～？
+JP うわ～、感激です～！
+EN I can really have this? Wow, I'm so touched!
+
+@ 126.12
+# scene 134 優勝1
+# ミネルヴァ石川
+JP 気づいたら、優勝してました～。
+EN Before I knew it, I'd won the whole thing!
+
+@ 127.12
+# scene 134 優勝２
+# ミネルヴァ石川
+JP 優勝できるなんて夢みたいです～。
+EN Winning the tournament... it's like a dream!
+
+@ 128.24
+# scene 135 エンディング 通常
+# ミネルヴァ石川
+JP よかったですねえ、社長。
+JP 私もがんばった甲斐がありました～。
+EN Isn't this wonderful, Boss? All my hard work paid off!
+
+@ 129.24
+# scene 136 エンディング 好意
+# ミネルヴァ石川
+JP 社長…。
+JP 私からの心ばかりのプレゼントです。
+JP …（チュッ）…。
+EN Boss... Here's a little present from me. ...(smooch)...

@@ -1,0 +1,2500 @@
+# /SCR/035.BIN - 辻香澄
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 035` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 辻 香澄
+JP よろしくお願いしますっ！
+EN Nice to meet you!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 辻 香澄
+JP やったぁー！
+JP ボク、がんばります！
+EN Yaaay! I'll give it everything I've got!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 辻 香澄
+JP くぅ…。
+JP ダメだったかぁ。
+EN Ugh... I didn't make it, huh.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりに
+JP 磨けば光りそうな少女がいると
+JP 聞いたが…。
+EN I heard there's a girl around here who could really
+EN shine with a little polish...
+
+@ 3.25
+# 社 長
+JP …おっ、写真と同じ…。
+JP あの娘だな。
+EN ...Oh, she looks just like the photo. That must be her.
+
+@ 3.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.37
+# 辻 香澄
+JP はい、なんですか？
+EN Yes? What is it?
+
+@ 3.40
+# 社 長
+JP 突然ですみません。
+JP 私、プロレス団体を
+JP 経営している者なんですが…。
+EN Sorry to bother you out of the blue. I run a
+EN pro-wrestling promotion...
+
+@ 3.47
+# 辻 香澄
+JP プロレス団体の社長さん？
+JP えっとプロレスっていうと
+JP あのプロレス？
+EN You're the president of a wrestling promotion? Um,
+EN wrestling as in... that wrestling?
+
+@ 3.50
+# 社 長
+JP たぶん、そのプロレスです。
+EN Probably that wrestling, yes.
+
+@ 3.53
+# 社 長
+JP 実はあなたをスカウトに来たのですが
+JP どうでしょう。
+EN The truth is, I came to scout you. What do you say?
+
+@ 3.60
+# 辻 香澄
+JP …えっ！？
+JP ボ、ボクを！？
+EN ...Huh?! M-me?!
+
+@ 3.63
+# 社 長
+JP はい、どうでしょう。
+EN Yes. What do you say?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 辻 香澄
+JP うーん…わかった。
+JP やる、やります！
+JP やらせてください！
+EN Hmm... okay. I'll do it! I'll do it! Let me give it a shot!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 4.29
+# 辻 香澄
+JP へへっ！
+JP 男は度胸、女も度胸って言うもんね。
+JP やってやれだ！
+EN Heh! They say a man needs guts, and so does a
+EN woman! Just go for it!
+
+@ 4.32
+# 社 長
+JP （あえてツッこむのは
+JP 　やめておこう）
+EN (I'll resist the urge to point out that's not how the
+EN saying goes.)
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 辻 香澄
+JP うーん…すみません。
+JP やっぱり今回はお断りしておきます。
+EN Hmm... sorry. I think I'll pass this time.
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 辻 香澄
+JP あっ、こないだの社長さん。
+JP お久しぶりです。
+EN Oh, it's the president from the other day! Long time
+EN no see.
+
+@ 6.36
+# 社 長
+JP お久しぶり。
+JP 実はうちの団体に入って欲しくて
+JP 探してたんです。
+EN Long time no see. The truth is, I've been looking for
+EN you because I want you in my promotion.
+
+@ 6.43
+# 辻 香澄
+JP …えっ？
+JP そんなにボクを？
+EN ...Huh? You want me that much?
+
+@ 6.46
+# 社 長
+JP ええ、どうしても。
+EN Yes, I really do.
+
+@ 6.48
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 辻 香澄
+JP うーん…わかった。
+JP やる、やります！
+JP やらせてください！
+EN Hmm... okay. I'll do it! I'll do it! Let me give it a shot!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 7.29
+# 辻 香澄
+JP へへっ！
+JP 男は度胸、女も度胸って言うもんね。
+JP やってやれだ！
+EN Heh! They say a man needs guts, and so does a
+EN woman! Just go for it!
+
+@ 7.32
+# 社 長
+JP （あえてツッこむのは
+JP 　やめておこう）
+EN (I'll resist the urge to point out that's not how the
+EN saying goes.)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 辻 香澄
+JP うーん…すみません。
+JP やっぱり今回はお断りしておきます。
+EN Hmm... sorry. I think I'll pass this time.
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は香澄選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kasumi.
+
+@ 9.25
+# 社 長
+JP 小柄ながらも元気なファイトは
+JP 見るものにすがすがしさを
+JP 与えてくれる。
+EN She may be small, but her spirited fighting style is a
+EN breath of fresh air for anyone watching.
+
+@ 9.27
+# 社 長
+JP たしかこのあたりに
+JP よくいるらしいが…。
+EN I heard she's often around here...
+
+@ 9.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# 辻 香澄
+JP はい、なんですか？
+EN Yes? What is it?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.51
+# 辻 香澄
+JP ボクを…引き抜きに来たの？
+EN You came to... poach me?
+
+@ 9.54
+# 社 長
+JP 単刀直入に言えば、そうなります。
+EN To put it bluntly, yes.
+
+@ 9.61
+# 辻 香澄
+JP うわ…うわ…どうしよう…。
+JP ボクなんかに引き抜きが来るなんて
+JP 思わなかった。
+EN Whoa... whoa... what do I do? I never thought anyone
+EN would try to poach someone like me.
+
+@ 9.64
+# 社 長
+JP すみません、急な話で。
+JP それで条件の方ですが…。
+EN Sorry for springing this on you. Now, about the
+EN terms...
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 辻 香澄
+JP よし…わかりました！
+JP ここが勝負どころってやつですね。
+JP その話、お受けします！
+EN Right... okay, I'm in! This is one of those
+EN make-or-break moments, huh? I accept your offer!
+
+@ 10.22
+# 社 長
+JP 本当ですか！
+EN Really?!
+
+@ 10.29
+# 辻 香澄
+JP こういうのは勢いでいかないと…。
+JP よろしくお願いします！
+EN With stuff like this, you've gotta ride the momentum...
+EN I'm in your hands!
+
+@ 10.32
+# 社 長
+JP こちらこそ。
+EN Likewise.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 辻 香澄
+JP すみません…。
+JP 今回はその…まだ団体で
+JP やり残したこともあるし…。
+EN Sorry... It's just, um... there's still stuff I haven't
+EN finished at my promotion...
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念だな…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 香澄選手が必要だ。
+EN My promotion really does need Kasumi.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 辻 香澄
+JP あっ、こないだの…。
+EN Oh, you're the guy from the other day...
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.47
+# 辻 香澄
+JP …えっ？
+JP そんなにボクを？
+EN ...Huh? You want me that much?
+
+@ 12.50
+# 社 長
+JP そういうことです。
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN That's right. Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my terms once again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 辻 香澄
+JP よし…わかりました！
+JP ここが勝負どころってやつですね。
+JP その話、お受けします！
+EN Right... okay, I'm in! This is one of those
+EN make-or-break moments, huh? I accept your offer!
+
+@ 13.22
+# 社 長
+JP 本当ですか！
+EN Really?!
+
+@ 13.29
+# 辻 香澄
+JP こういうのは勢いでいかないと…。
+JP よろしくお願いします！
+EN With stuff like this, you've gotta ride the momentum...
+EN I'm in your hands!
+
+@ 13.32
+# 社 長
+JP こちらこそ。
+EN Likewise.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 辻 香澄
+JP すみません…。
+JP 今回はその…まだ団体で
+JP やり残したこともあるし…。
+EN Sorry... It's just, um... there's still stuff I haven't
+EN finished at my promotion...
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念だな…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は香澄選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kasumi.
+
+@ 15.25
+# 社 長
+JP 小柄ながらも元気なファイトは
+JP 見るものにすがすがしさを
+JP 与えてくれる。
+EN She may be small, but her spirited fighting style is a
+EN breath of fresh air for anyone watching.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりに
+JP よくいるらしいが…。
+EN I heard she's often around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 辻 香澄
+JP はい、なんですか？
+EN Yes? What is it?
+
+@ 15.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 15.51
+# 辻 香澄
+JP …えっ！？
+JP ボクを社長さんの団体に？
+EN ...Huh?! You want me in your promotion?
+
+@ 15.54
+# 社 長
+JP そうです。
+JP どうでしょう？
+EN That's right. What do you say?
+
+@ 15.61
+# 辻 香澄
+JP な…悩むなぁ…。
+EN Th-this is a tough one...
+
+@ 15.64
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 辻 香澄
+JP わかりました。
+JP 社長さんを信じて入団します！
+EN Okay. I'll trust you and sign with you, President!
+
+@ 16.22
+# 社 長
+JP 本当ですか！
+JP ありがとう。
+EN Really? Thank you.
+
+@ 16.29
+# 辻 香澄
+JP ボク、よく人を見る目がないって
+JP 言われてるけど！
+EN People do always tell me I'm a terrible judge of
+EN character, though!
+
+@ 16.32
+# 社 長
+JP いや、それってダメなんじゃ…。
+EN Wait, isn't that a problem...?
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 辻 香澄
+JP すみません。
+JP ちょっとまだ…フリーがいいかな。
+EN Sorry. I think I'd still rather stay freelance for now.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念だな…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 香澄選手が必要だ。
+EN My promotion really does need Kasumi.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 辻 香澄
+JP あっ、こないだの社長さん。
+JP お久しぶりです。
+EN Oh, it's the president from the other day! Long time
+EN no see.
+
+@ 18.40
+# 社 長
+JP 久しぶりです。
+JP こないだと同じ用件なんだけど…。
+EN Long time no see. I'm here about the same thing as
+EN last time...
+
+@ 18.47
+# 辻 香澄
+JP うわぁ！
+JP そんなにボクが必要なんですか？
+EN Whoa! You need me that badly?
+
+@ 18.50
+# 社 長
+JP 必要なんです。
+EN I do.
+
+@ 18.52
+# 社 長
+JP どうでしょう。
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN What do you say? Won't you trust me and join us?
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 辻 香澄
+JP わかりました。
+JP 社長さんを信じて入団します！
+EN Okay. I'll trust you and sign with you, President!
+
+@ 19.22
+# 社 長
+JP 本当ですか！
+JP ありがとう。
+EN Really? Thank you.
+
+@ 19.29
+# 辻 香澄
+JP ボク、よく人を見る目がないって
+JP 言われるけど！
+EN People do always tell me I'm a terrible judge of
+EN character, though!
+
+@ 19.32
+# 社 長
+JP いや、それってダメなんじゃ…。
+EN Wait, isn't that a problem...?
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 辻 香澄
+JP すみません。
+JP ちょっとまだ…フリーがいいかな。
+EN Sorry. I think I'd still rather stay freelance for now.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念だな…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は香澄を訪ねることにした。
+EN I decided to pay Kasumi a visit.
+
+@ 21.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler my promotion really needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 香澄っ！
+EN Kasumi!
+
+@ 21.41
+# 辻 香澄
+JP あれ、社長…。
+JP どうしたの？
+EN Huh, Boss... What's up?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.46
+# 社 長
+JP 実はその…戻ってきて欲しくて
+JP 探していたんだ。
+EN The thing is... I've been looking for you because I
+EN want you to come back.
+
+@ 21.53
+# 辻 香澄
+JP えー、今さら？
+EN Whaaat? Now, of all times?
+
+@ 21.56
+# 社 長
+JP すまん。
+JP 悪かったと思ってる。
+JP このとおり。
+EN I'm sorry. I know I was wrong. Please.
+
+@ 21.63
+# 辻 香澄
+JP うーん…。
+JP 社長って、それぐらい図太くないと
+JP やってられないんだろうけど。
+EN Hmm... I guess you've gotta have a thick skin like
+EN that to be a boss.
+
+@ 21.66
+# 社 長
+JP いや、本当に悪かった…。
+EN No, I really am sorry...
+
+@ 21.68
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 辻 香澄
+JP ふう。
+JP わかりました。
+JP 今回は水に流すよ。
+EN Phew. Okay. I'll let bygones be bygones this time.
+
+@ 22.18
+# 社 長
+JP それじゃ…。
+EN Then...
+
+@ 22.29
+# 辻 香澄
+JP うん、戻ってあげる。
+JP でも二度目はないからね！
+EN Yeah, I'll come back for you. But there won't be a
+EN second time!
+
+@ 22.32
+# 社 長
+JP わかった。
+JP 心しておくよ。
+EN Got it. I'll keep that in mind.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 辻 香澄
+JP うーん…。
+JP やっぱりダメ。
+JP 許せない。
+EN Hmm... Nope, I can't. I can't forgive you.
+
+@ 23.22
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 23.29
+# 辻 香澄
+JP あー、自分でもショックだ。
+JP ボクってこんなに執念深かったんだ。
+EN Aah, even I'm shocked. I never knew I could hold a
+EN grudge like this.
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び香澄を訪ねることにした。
+EN I decided to visit Kasumi again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler my promotion really needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I was told she'd be around here...
+
+@ 24.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 24.31
+# 社 長
+JP 香澄っ！
+EN Kasumi!
+
+@ 24.41
+# 辻 香澄
+JP あっ、社長…。
+JP もしかして…また…？
+EN Oh, Boss... Don't tell me... again...?
+
+@ 24.44
+# 社 長
+JP ああ、そのとおりだ。
+EN Yeah, that's right.
+
+@ 24.46
+# 社 長
+JP なんとか戻ってきてくれないか？
+EN Won't you please come back?
+
+@ 24.48
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 辻 香澄
+JP ふう。
+JP わかりました。
+JP 今回は水に流すよ。
+EN Phew. Okay. I'll let bygones be bygones this time.
+
+@ 25.18
+# 社 長
+JP それじゃ…。
+EN Then...
+
+@ 25.29
+# 辻 香澄
+JP うん、戻ってあげる。
+JP でも二度目はないからね！
+EN Yeah, I'll come back for you. But there won't be a
+EN second time!
+
+@ 25.32
+# 社 長
+JP わかった。
+JP 心しておくよ。
+EN Got it. I'll keep that in mind.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 辻 香澄
+JP うーん…。
+JP やっぱりダメ。
+JP 許せない。
+EN Hmm... Nope, I can't. I can't forgive you.
+
+@ 26.22
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 26.29
+# 辻 香澄
+JP あー、自分でもショックだ。
+JP ボクってこんなに執念深かったんだ。
+EN Aah, even I'm shocked. I never knew I could hold a
+EN grudge like this.
+
+@ 27.16
+# scene 028 ケガ小
+# 辻 香澄
+JP 大丈夫、まだやれるよ！
+EN I'm fine, I can still go!
+
+@ 28.16
+# scene 029 ケガ大
+# 辻 香澄
+JP くぅ…。
+JP どうにか動けるけど…くそぉ…。
+EN Ngh... I can still move, but... dammit...
+
+@ 29.16
+# scene 030 入院
+# 辻 香澄
+JP …えっ、入院…。
+JP うぅ…病院食は嫌だよぉ。
+EN ...Huh, the hospital... Ugh... I hate hospital food!
+
+@ 30.16
+# scene 031 退院
+# 辻 香澄
+JP やった。
+JP これでまたおいしいものが
+JP 食べられる！
+EN Yay! Now I can eat good stuff again!
+
+@ 31.16
+# scene 032 ケガ完治
+# 辻 香澄
+JP うん…。
+JP もう大丈夫！
+EN Yep... I'm all better!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 辻 香澄
+JP そう…。
+JP うん、そうだね。
+JP ちょうどいいのかも。
+EN I see... Yeah, you're right. Maybe now's a good time.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 辻 香澄
+JP ボクはまだやれるよ。
+JP やれるんだ！
+EN I can still go. I can still go!
+
+@ 34.16
+# scene 035 コーチ就任
+# 辻 香澄
+JP よっし、いい？
+JP 一番大切なのは元気だからね！
+EN All right, listen up! The most important thing is
+EN energy!
+
+@ 35.16
+# scene 036 ケガ引退
+# 辻 香澄
+JP ちぇっ…まさかこんなことで
+JP 引退することになるとは
+JP 思わなかったよ。
+EN Tch... Never thought I'd end up retiring over
+EN something like this.
+
+@ 36.16
+# scene 037 年齢引退
+# 辻 香澄
+JP ごめん…。
+JP ボク…ここまでみたい…。
+EN Sorry... Looks like... this is as far as I go...
+
+@ 37.16
+# scene 038 退団
+# 辻 香澄
+JP さよならっ！
+JP 今までお世話になりました！
+EN Bye-bye! Thanks for everything up to now!
+
+@ 38.16
+# scene 039 スランプ
+# 辻 香澄
+JP なんか元気が出ないなぁ…。
+EN I just can't seem to get my energy up...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 辻 香澄
+JP ふぁ…ふぁんくらぶ？
+JP ボクの？
+EN A f-fan club? For me?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Don't let their cheering outdo you. Work hard.
+
+@ 39.26
+# 辻 香澄
+JP りょ…了解っ！
+JP ボク、がんばります！
+EN R-roger! I'll give it everything I've got!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 辻 香澄
+JP うわぁ。
+JP 増えたんだ…。
+EN Whoa. It's gotten bigger...
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their expectations.
+
+@ 40.26
+# 辻 香澄
+JP 了解！
+JP なんだか…このプレッシャーが
+JP かえっていい感じ！
+EN Roger! Somehow... this pressure actually feels kinda
+EN great!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 辻 香澄
+JP か…解散しちゃったんだ…。
+EN I-it's been disbanded...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard and win
+EN them back.
+
+@ 41.26
+# 辻 香澄
+JP そうだね。
+JP あっ…でも
+JP ちょっと本気でヘコむかも…。
+EN Yeah, you're right. Oh... but I might be seriously
+EN bummed out for a bit...
+
+@ 42.16
+# scene 043 映画出演
+# 辻 香澄
+JP まさか子役とかじゃないよね？
+EN It's not some child role, is it?
+
+@ 43.16
+# scene 044 一日署長
+# 辻 香澄
+JP ボク、昔から署長になりたいって
+JP 思ってたんだ。
+JP うわぁ、夢が１つかなっちゃった。
+EN I've always wanted to be a police chief! Wow, one of
+EN my dreams just came true!
+
+@ 44.16
+# scene 045 写真集発売
+# 辻 香澄
+JP 本当にボクでいいの？
+JP 騙してない？
+EN You really want me for this? You're not pulling my
+EN leg?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 辻 香澄
+JP ＣＭかぁ…。
+JP 叩き売りなら得意なんだけどなぁ。
+EN A commercial, huh... If it were a street-stall sales
+EN pitch, I'd be great at it.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 辻 香澄
+JP 歌かぁ…。
+JP ボク、最近の歌とか
+JP 全然知らないけどいいの？
+EN Singing, huh... I don't know any recent songs at all. Is
+EN that okay?
+
+@ 47.16
+# scene 048 始球式
+# 辻 香澄
+JP うわっ！
+JP それって結構大役だよね。
+JP うーん、ドキドキだ。
+EN Whoa! That's a pretty big deal, right? Hmm, my
+EN heart's pounding!
+
+@ 48.16
+# scene 049 学園祭
+# 辻 香澄
+JP 祭り？
+JP 祭りなら任せといてよ！
+EN A festival? Leave festivals to me!
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.38
+# 辻 香澄
+JP うわ…。
+JP ありがとう、社長。
+EN Wow... Thanks, Boss.
+
+@ 49.41
+# 社 長
+JP これでおまえも成人だな。
+EN This makes you an adult now.
+
+@ 49.48
+# 辻 香澄
+JP へへ、これで名実ともにオトナだよ！
+JP もう子供みたいだなんて
+JP 呼ばせないから。
+EN Heh, now I'm a grown-up in name and in fact! Nobody
+EN gets to say I'm like a kid anymore.
+
+@ 49.51
+# 社 長
+JP （そういうところが…。
+JP 　いや、考えるまい）
+EN (That's exactly the kind of thing that... No, I won't go
+EN there.)
+
+@ 50.32
+# scene 051 バレンタインデー
+# 辻 香澄
+JP 社長。
+JP はい、バレンタインのおせんべい！
+EN Boss! Here, Valentine's rice crackers!
+
+@ 50.35
+# 社 長
+JP お、おせんべい？
+EN R-rice crackers?
+
+@ 50.42
+# 辻 香澄
+JP どうせ社長は
+JP いっぱいチョコもらってるんでしょ？
+JP だから口直しにしょっぱいヤツ。
+EN You're probably getting tons of chocolate anyway,
+EN right? So here's something salty to cleanse your
+EN palate.
+
+@ 50.45
+# 社 長
+JP ありがとう。
+JP 心遣い、嬉しいよ。
+EN Thank you. I appreciate the thought.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.32
+# 社 長
+JP 香澄もいっぱいお返しを
+JP もらってるだろうからな。
+JP 甘くないものにしておいた。
+EN I figured you'd be getting plenty of gifts back too,
+EN Kasumi, so I picked something that isn't sweet.
+
+@ 51.39
+# 辻 香澄
+JP …えっ？
+JP ボク、家族以外は
+JP 社長にしかあげてないよ。
+EN ...Huh? Outside my family, you're the only one I gave
+EN anything to, Boss.
+
+@ 51.42
+# 社 長
+JP …えっ！？
+JP そうだったのか。
+JP すまん、てっきり…。
+EN ...What?! Is that so? Sorry, I just assumed...
+
+@ 51.50
+# 辻 香澄
+JP でもいいや！
+JP 社長は気を遣ってくれたんだもんね。
+JP ありがと！
+EN But that's okay! You were being considerate, right,
+EN Boss? Thanks!
+
+@ 52.31
+# scene 053 サイン会
+# 辻 香澄
+JP ありがとー！
+JP これからもよろしく！
+EN Thank youuu! Keep cheering for me!
+
+@ 53.31
+# scene 054 コンサート
+# 辻 香澄
+JP うぅー。
+JP こういうのはガラじゃないから
+JP 緊張するなぁ。
+EN Ugh... This kind of thing isn't really my style, so I'm
+EN nervous.
+
+@ 54.28
+# scene 055 練習拒否
+# 辻 香澄
+JP ごめん…。
+JP ちょっと無理。
+JP ごめん…。
+EN Sorry... I just can't today. Sorry...
+
+@ 55.28
+# scene 056 失踪
+# 辻 香澄
+JP ごめんなさい。
+JP ちょっと疲れました…。
+EN I'm sorry. I'm just a little tired...
+
+@ 56.16
+# scene 057 選手解雇
+# 辻 香澄
+JP くっ…そ、そうですか…。
+JP これまで…ありがとうございました。
+EN Ngh... I-I see... Thank you... for everything up to now.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 辻 香澄
+JP 行ってきます！
+JP お土産期待しててね！
+EN I'm off! Look forward to souvenirs!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 辻 香澄
+JP よぉーし、日本でまたがんばるぞ！
+EN All riiight, time to give it my all in Japan again!
+
+@ 59.28
+# scene 060 移籍思案
+# 辻 香澄
+JP ううっ、悩むなあ！
+EN Ugh, this is a tough one!
+
+@ 60.16
+# scene 061 革命軍結成
+# 辻 香澄
+JP ナリを見てバカにしてると
+JP 痛い目見るよ！
+EN Make fun of me for my size and you'll regret it!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 辻 香澄
+JP もう後にはひけない。
+JP やってやる！
+EN There's no turning back now. I'll show them!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 辻 香澄
+JP ケリをつけようよ！
+EN Let's settle this!
+
+@ 63.16
+# scene 065 遺恨発生
+# 辻 香澄
+JP ムカっときた！
+EN That really ticks me off!
+
+@ 64.16
+# scene 065 殴り込み
+# 辻 香澄
+JP ボク？
+JP ＯＫ、まかせて！
+EN Me? Okay, leave it to me!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 辻 香澄
+JP ボクが相手してあげるよ！
+EN I'll take you on!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 辻 香澄
+JP さあ、一暴れするよ！
+EN All right, time to cause a ruckus!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 辻 香澄
+JP 任せて！
+JP 最後の祭り、盛大に暴れてくるよ！
+EN Leave it to me! It's the last festival, so I'm gonna go
+EN wild!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 辻 香澄
+JP よっしゃあ――！
+JP いやったぁ―――！
+EN Yeaaah! I diiid iiit!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 辻 香澄
+JP ごめんなさい…。
+JP ボク、負けちゃった…。
+EN I'm sorry... I lost...
+
+@ 70.13
+# scene 071 引退式
+# 辻 香澄
+JP これからは後輩たちの試合に
+JP 期待してください！
+JP 今までありがとうございました！
+EN From now on, look forward to my juniors' matches!
+EN Thank you for everything!
+
+@ 71.16
+# 辻 香澄
+JP …んっ？
+JP なに？
+EN ...Hm? What is it?
+
+@ 71.35
+# 辻 香澄
+JP な、なにかな？
+EN Wh-what is it?
+
+@ 71.45
+# 辻 香澄
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.64
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.88
+# 辻 香澄
+JP 任せてよ。
+JP この調子でがんばっちゃうからね！
+EN Leave it to me. I'm gonna keep this going!
+
+@ 71.109
+# 辻 香澄
+JP そうかな？
+JP どっちかっていうと
+JP 調子はイマイチなんだけど…。
+EN You think? If anything, I feel kinda off lately...
+
+@ 71.130
+# 辻 香澄
+JP 社長は褒めるのうまいね。
+JP ボク、その気になってきたよ！
+EN You sure know how to flatter, Boss. Now I'm all fired
+EN up!
+
+@ 71.151
+# 辻 香澄
+JP や、やだなぁもう。
+JP そんな調子よくないってば～。
+EN Oh, c-cut it out. I'm not doing that great!
+
+@ 71.164
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.188
+# 辻 香澄
+JP …ごめん。
+JP 反省します。
+EN ...Sorry. I'll reflect on it.
+
+@ 71.209
+# 辻 香澄
+JP どこ見てるのさー。
+JP がんばってるじゃない。
+EN Where are you looking? I'm working hard!
+
+@ 71.230
+# 辻 香澄
+JP 社長ってば
+JP そこまで気にしてくれてるの？
+JP えへへ…反省しまーす。
+EN Boss, you were watching me that closely? Ehehe... I'll
+EN reflect on it!
+
+@ 71.251
+# 辻 香澄
+JP あっ、そんなことより、社長。
+JP さっき霧子さんがものすごい勢いで
+JP 探してたよ。
+EN Oh, more importantly, Boss, Kiriko was tearing
+EN around looking for you just now.
+
+@ 71.264
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.288
+# 辻 香澄
+JP そ、そうかな？
+JP じゃあ、もっとがんばらないとね。
+EN Y-you think so? Then I'd better work even harder.
+
+@ 71.309
+# 辻 香澄
+JP まぁまぁ。
+JP 少しくらい大目に見てよ、ね？
+EN Now, now. Cut me a little slack, okay?
+
+@ 71.330
+# 辻 香澄
+JP も～、社長にはかなわないな～。
+JP じゃあ、ちょっとがんばってみるかな！
+EN Geez, I can never win against you, Boss. Guess I'll try
+EN a little harder, then!
+
+@ 71.351
+# 辻 香澄
+JP そんなことないってばー。
+JP ボク、これでもがんばってるよ？
+EN I'm fine, really! I'm working hard, believe it or not!
+
+@ 71.365
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.381
+# 辻 香澄
+JP はい、だいたいは…。
+EN Yes, more or less...
+
+@ 71.398
+# 辻 香澄
+JP 何かありましたっけ？
+EN Did something happen?
+
+@ 71.408
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.430
+# 辻 香澄
+JP わかりました…。
+JP 仲直りしてきます！
+EN Understood... I'll go make up with her!
+
+@ 71.452
+# 辻 香澄
+JP ボクが悪いんじゃありません！
+EN It's not my fault!
+
+@ 71.473
+# 辻 香澄
+JP えっと…。
+JP 元から仲はいいですけど？
+EN Um... we already get along fine, though?
+
+@ 71.486
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.503
+# 辻 香澄
+JP うん。
+JP だいたいは…。
+EN Yeah. More or less...
+
+@ 71.520
+# 辻 香澄
+JP …えっ？
+JP なんだろう？
+JP いいこと？
+EN ...Huh? What is it? Something good?
+
+@ 71.533
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.555
+# 辻 香澄
+JP うーん…わかった。
+JP 社長がそう言うなら…。
+EN Hmm... okay. If you say so, Boss...
+
+@ 71.576
+# 辻 香澄
+JP やだ。
+JP だってボクが悪いんじゃないもん！
+EN No way. It's not my fault!
+
+@ 71.597
+# 辻 香澄
+JP えっと…。
+JP ボクたち、元から仲悪くないよ？
+EN Um... we don't get along badly in the first place, you
+EN know?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 辻 香澄
+JP な、なにかな？
+EN Wh-what is it?
+
+@ 72.16
+# 辻 香澄
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 辻 香澄
+JP 任せてよ。
+JP この調子でがんばっちゃうからね！
+EN Leave it to me. I'm gonna keep this going!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 辻 香澄
+JP そうかな？
+JP どっちかっていうと、
+JP 調子はイマイチなんだけど…。
+EN You think? If anything, I feel kinda off lately...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 辻 香澄
+JP 社長は褒めるのうまいね。
+JP ボク、その気になってきたよ！
+EN You sure know how to flatter, Boss. Now I'm all fired
+EN up!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 辻 香澄
+JP や、やだなぁもう。
+JP そんな調子よくないってば～。
+EN Oh, c-cut it out. I'm not doing that great!
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 辻 香澄
+JP …ごめん。
+JP 反省します。
+EN ...Sorry. I'll reflect on it.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 辻 香澄
+JP どこ見てるのさー。
+JP がんばってるじゃない。
+EN Where are you looking? I'm working hard!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 辻 香澄
+JP 社長ってば、
+JP そこまで気にしてくれてるの？
+JP えへへ…反省しまーす。
+EN Boss, you were watching me that closely? Ehehe... I'll
+EN reflect on it!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 辻 香澄
+JP あ、そんなことより、社長。
+JP さっき霧子さんがものすごい勢いで
+JP 探してたよ。
+EN Oh, more importantly, Boss, Kiriko was tearing
+EN around looking for you just now.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 辻 香澄
+JP そ、そうかな？
+JP じゃあ、もっとがんばらないとね。
+EN Y-you think so? Then I'd better work even harder.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 辻 香澄
+JP まぁまぁ。
+JP 少しくらい大目に見てよ…ね？
+EN Now, now. Cut me a little slack, okay?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 辻 香澄
+JP も～、社長にはかなわないな～。
+JP じゃあ、ちょっとがんばって
+JP みるかな！
+EN Geez, I can never win against you, Boss. Guess I'll try
+EN a little harder, then!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 辻 香澄
+JP そんなことないってばー。
+JP ボク、これでもがんばってるよ？
+EN I'm fine, really! I'm working hard, believe it or not!
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 辻 香澄
+JP はい、だいたいは…。
+EN Yes, more or less...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 辻 香澄
+JP 何かありましたっけ？
+EN Did something happen?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 辻 香澄
+JP わかりました…。
+JP 仲直りしてきます！
+EN Understood... I'll go make up with her!
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 辻 香澄
+JP ボクが悪いんじゃありません！
+EN It's not my fault!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 辻 香澄
+JP えっと…。
+JP 元から仲はいいですけど？
+EN Um... we already get along fine, though?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 辻 香澄
+JP うん。
+JP だいたいは…。
+EN Yeah. More or less...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 辻 香澄
+JP え？　なんだろう？
+JP いいこと？
+EN ...Huh? What is it? Something good?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 辻 香澄
+JP うーん。
+JP わかった、社長がそう言うなら…。
+EN Hmm... okay. If you say so, Boss...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 辻 香澄
+JP やだ。
+JP だってボクが悪いんじゃないもん！
+EN No way. It's not my fault!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 辻 香澄
+JP えっと…。
+JP ボクたち、元から仲悪くないよ？
+EN Um... we don't get along badly in the first place, you
+EN know?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 辻 香澄
+JP うん、妥当な金額です…。
+JP なんちゃって。
+JP プロッぽいなぁ、もう！
+EN Yes, this is a fair amount... Just kidding. That
+EN sounded so pro!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 辻 香澄
+JP …えっ？
+JP こんなにいいの？
+JP 誰か他の人と間違ってない？
+EN ...Huh? This much? Are you sure you're not mixing me
+EN up with someone else?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 辻 香澄
+JP うーん…。
+JP これが現実かあ。
+EN Hmm... So this is reality, huh.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so, we arrived on a tropical island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this is the tropics all right. The sun is
+EN scorching.)
+
+@ 105.36
+# 社 長
+JP よーし、まずは
+JP ホテルへチェックインだ。
+JP その後、着替えて集合な。
+EN All right, first we check in at the hotel. Then get
+EN changed and meet back here.
+
+@ 105.38
+# 一 同
+JP は――――い。
+EN Okaaay!
+
+@ 105.48
+# 辻 香澄
+JP …………はぁ……。
+EN .........Sigh...
+
+@ 105.51
+# 社 長
+JP どうした？
+JP お祭り娘ともあろう者が
+JP ため息なんかついて。
+EN What's wrong? Our festival girl, sighing like that?
+
+@ 105.55
+# 辻 香澄
+JP そ…それが……。
+EN W-well... it's just...
+
+@ 105.59
+# 辻 香澄
+JP 水着を…。
+EN My swimsuit...
+
+@ 105.62
+# 社 長
+JP 忘れたのか？
+EN You forgot it?
+
+@ 105.69
+# 辻 香澄
+JP 違うよ。
+JP 持っては来たんだけど…。
+EN No. I brought one, but...
+
+@ 105.72
+# 社 長
+JP 来たんだけど？
+EN But?
+
+@ 105.79
+# 辻 香澄
+JP 間違えて…昔のを持って来ちゃった。
+EN I brought my old one by mistake...
+
+@ 105.82
+# 社 長
+JP 持ってきているなら
+JP いいじゃないか。
+EN Well, you brought one, so that's fine, isn't it?
+
+@ 105.89
+# 辻 香澄
+JP で、でも…今回のために
+JP せっかく新しい水着を買ったのに！
+EN B-but... I went and bought a brand-new swimsuit just
+EN for this trip!
+
+@ 105.96
+# 辻 香澄
+JP …こんな昔の。
+EN ...And instead I've got this old thing.
+
+@ 105.99
+# 社 長
+JP （かなりしょげているな）
+EN (She's really down in the dumps.)
+
+@ 105.101
+# 社 長
+JP ま、まあ忘れてくるよりは
+JP いいじゃないか。
+EN W-well, it's better than forgetting it altogether,
+EN right?
+
+@ 105.103
+# 社 長
+JP な、気持ちを切り替えて
+JP 楽しく行こう。
+EN Come on, cheer up and let's have some fun.
+
+@ 105.107
+# 辻 香澄
+JP う～～…。
+JP 古い水着を見て笑わない？
+EN Uuugh... You promise you won't laugh at my old
+EN swimsuit?
+
+@ 105.110
+# 社 長
+JP 笑わない、笑わない。
+EN I won't laugh, I won't laugh.
+
+@ 105.117
+# 辻 香澄
+JP 笑ったら怒るよ？
+EN I'll get mad if you laugh, okay?
+
+@ 105.120
+# 社 長
+JP 神に誓って笑わない！
+EN I swear to God I won't laugh!
+
+@ 105.127
+# 辻 香澄
+JP う～…。
+JP 覚悟を決めるか。
+EN Uuugh... Guess I'll just have to brace myself.
+
+@ 105.148
+# 社 長
+JP （そして、十数分後…）
+EN (And then, ten-some minutes later...)
+
+@ 105.150
+# 社 長
+JP （俺は誓ったとおり
+JP 　吹き出したりはしなかった）
+EN (Just as I swore, I didn't burst out laughing.)
+
+@ 105.152
+# 社 長
+JP （というか、
+JP 　吹き出せるはずもなかった）
+EN (Or rather, there was no way I could.)
+
+@ 105.165
+# 社 長
+JP それ、スクール水着じゃ？
+EN Isn't that a school swimsuit?
+
+@ 105.169
+# 辻 香澄
+JP だから…昔のだって
+JP 言ったじゃないかぁ。
+EN I told you... it was my old one!
+
+@ 105.172
+# 社 長
+JP （なるほど。
+JP 　たしかに「昔の水着」だ）
+EN (I see. It's an "old swimsuit," all right.)
+
+@ 105.174
+# 社 長
+JP （ゼッケンが縫いつけられている
+JP 　あたりが特に…）
+EN (Especially the name tag sewn onto it...)
+
+@ 105.176
+# 社 長
+JP クラスと名前書いてあるし…。
+JP 最近だと逆に珍しくないか？
+EN It's even got your class and name on it... Isn't that
+EN kind of rare these days?
+
+@ 105.180
+# 辻 香澄
+JP じ、じろじろ見ないで！
+EN D-don't stare at me!
+
+@ 105.183
+# 社 長
+JP いや、すまん。
+EN Ah, sorry.
+
+@ 105.185
+# 社 長
+JP （とはいえ、視線が外せない）
+EN (Even so, I couldn't look away.)
+
+@ 105.187
+# 社 長
+JP いや、それにしても…。
+EN Still, I have to say...
+
+@ 105.191
+# 辻 香澄
+JP それにしても…なに？
+EN You have to say... what?
+
+@ 105.194
+# 社 長
+JP 似合ってるな。
+EN It suits you.
+
+@ 105.204
+# 辻 香澄
+JP うわぁぁぁん！
+JP 似合っているとか言わないでよー！
+EN Waaah! Don't tell me it suits me!
+
+@ 105.207
+# 社 長
+JP やれやれ…。
+EN Oh, boy...
+
+@ 105.209
+# 社 長
+JP （ホント…。
+JP 　似合いすぎてて笑えない）
+EN (Honestly... it suits her too well to laugh at.)
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP （それは、ある日のこと）
+EN (It happened one day.)
+
+@ 106.35
+# 社 長
+JP （無人のはずの部屋から
+JP 　人の気配がした）
+EN (I sensed someone in a room that should have been
+EN empty.)
+
+@ 106.37
+# 社 長
+JP （防犯のために部屋の中を
+JP 　確認してみると…）
+EN (To be safe, I checked inside...)
+
+@ 106.60
+# 辻 香澄
+JP ん…とっ……。
+EN Nngh... hup...
+
+@ 106.63
+# 社 長
+JP （そこに見えたのは香澄の姿）
+EN (There I saw Kasumi.)
+
+@ 106.89
+# 社 長
+JP （あいつは何をしているんだ？）
+EN (What is she doing?)
+
+@ 106.92
+# 社 長
+JP （…って、いかんいかん）
+EN (...No, no, this won't do.)
+
+@ 106.94
+# 社 長
+JP （これじゃまるで覗きだ）
+EN (I'm practically a peeping tom.)
+
+@ 106.106
+# 社 長
+JP （そう思って
+JP 　退散しようとしたが…）
+EN (With that thought, I tried to slip away, but...)
+
+@ 106.113
+# 社 長
+JP （何かに躓いて
+JP 　物音をたててしまった）
+EN (I tripped over something and made a noise.)
+
+@ 106.120
+# 辻 香澄
+JP …えっ！？
+JP だ、誰！？
+EN ...Huh?! Wh-who's there?!
+
+@ 106.140
+# 辻 香澄
+JP うわっ、しゃっ…社長っ！
+JP いつからそこにっ！？
+EN Whoa, B-Boss! How long have you been there?!
+
+@ 106.143
+# 社 長
+JP す…すまん、
+JP 見るつもりはなかったんだ！
+EN S-sorry, I didn't mean to look!
+
+@ 106.145
+# 社 長
+JP （俺は慌てて弁明した）
+EN (I hurried to explain myself.)
+
+@ 106.155
+# 辻 香澄
+JP 見てたんだ！？
+EN So you WERE looking?!
+
+@ 106.158
+# 社 長
+JP す、すまん！
+EN S-sorry!
+
+@ 106.162
+# 辻 香澄
+JP う～～…。
+EN Uuugh...
+
+@ 106.165
+# 社 長
+JP （何か文句を
+JP 　言おうとしたみたいだが…）
+EN (She seemed about to complain, but...)
+
+@ 106.169
+# 辻 香澄
+JP ……もう…。
+EN ...Geez...
+
+@ 106.172
+# 社 長
+JP （ふくれて押し黙ってしまった）
+EN (She just pouted and went silent.)
+
+@ 106.174
+# 社 長
+JP 本当に悪かった。
+EN I'm really sorry.
+
+@ 106.178
+# 辻 香澄
+JP まあ、社長ならいいけど…。
+EN Well, I guess it's okay since it's you, Boss...
+
+@ 106.181
+# 社 長
+JP すまないついでに
+JP こんなところで何をしていたんだ？
+EN While I'm apologizing... what were you doing in here?
+
+@ 106.183
+# 社 長
+JP ここは無人のはず…。
+EN This room's supposed to be empty...
+
+@ 106.193
+# 辻 香澄
+JP ……むっ。
+EN ...Hmph.
+
+@ 106.196
+# 社 長
+JP （うおっ、何か睨まれた）
+EN (Whoa, she's glaring at me.)
+
+@ 106.206
+# 辻 香澄
+JP 気づかない？
+EN Don't you notice?
+
+@ 106.209
+# 社 長
+JP 何が？
+EN Notice what?
+
+@ 106.213
+# 辻 香澄
+JP ほら、気づかない？
+EN Come on, don't you notice?
+
+@ 106.216
+# 社 長
+JP （意味不明のことを言い始めた）
+EN (She's started saying things that make no sense.)
+
+@ 106.218
+# 社 長
+JP だから何が…？
+EN Notice what...?
+
+@ 106.228
+# 辻 香澄
+JP その…ムネとか……。
+EN Um... my chest and stuff...
+
+@ 106.231
+# 社 長
+JP よくわからないが…。
+JP 見ないようにしてる。
+EN I'm not sure what you mean... I'm trying not to look.
+
+@ 106.235
+# 辻 香澄
+JP …あのね。
+JP ほら、ボク…小さいから。
+EN ...Look. I'm... small, you know.
+
+@ 106.238
+# 社 長
+JP ああ…。
+JP たしかにないな。
+EN Ah... Yeah, there's not much there.
+
+@ 106.260
+# 辻 香澄
+JP ないとか言うな――！
+EN Don't say there's not much there!
+
+@ 106.263
+# 社 長
+JP すまん！
+EN Sorry!
+
+@ 106.265
+# 社 長
+JP （言ったのおまえじゃないのか
+JP 　とは空気を読んで言わない）
+EN (I read the room and didn't point out that she
+EN brought it up first.)
+
+@ 106.275
+# 辻 香澄
+JP ほら。
+JP ボク、控えめだから…。
+JP そういう運動を、ね。
+EN See, I'm on the modest side... So I was doing
+EN exercises for that.
+
+@ 106.278
+# 社 長
+JP ああ、なるほど。
+EN Ah, I see.
+
+@ 106.282
+# 辻 香澄
+JP うん。
+JP 気付いた？
+EN Yeah. So did you notice?
+
+@ 106.285
+# 社 長
+JP 何に？
+EN Notice what?
+
+@ 106.295
+# 辻 香澄
+JP 気づいてよっ！
+JP ５ミリも大きくなったんだから！
+EN Notice already! It got a whole five millimeters bigger!
+
+@ 106.298
+# 社 長
+JP す、すまん。
+JP 悪かった。
+EN S-sorry. My mistake.
+
+@ 106.300
+# 社 長
+JP （俺は必死に謝った）
+EN (I apologized desperately.)
+
+@ 106.314
+# 社 長
+JP ………………。
+EN ......
+
+@ 106.316
+# 社 長
+JP （でも、それに気付けってのは
+JP 　無茶な注文だよ）
+EN (But expecting me to notice that is asking way too
+EN much.)
+
+@ 107.20
+# scene 108 日常イベント２
+# 社 長
+JP （それはある日のこと…）
+EN (It happened one day...)
+
+@ 107.34
+# 社 長
+JP （無人のはずの部屋から
+JP 　人の気配がした）
+EN (I sensed someone in a room that should have been
+EN empty.)
+
+@ 107.36
+# 社 長
+JP （防犯のために部屋の中を
+JP 　見てみると…）
+EN (To be safe, I took a look inside...)
+
+@ 107.59
+# 辻 香澄
+JP ん…とっ……。
+EN Nngh... hup...
+
+@ 107.62
+# 社 長
+JP （そこに見えたのは香澄の姿）
+EN (There I saw Kasumi.)
+
+@ 107.64
+# 社 長
+JP （また、こいつか）
+EN (Her again.)
+
+@ 107.66
+# 社 長
+JP おい…。
+EN Hey...
+
+@ 107.86
+# 辻 香澄
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 107.89
+# 社 長
+JP また、あれか？
+JP ああいう運動をしてたのか？
+EN That again? Were you doing those exercises?
+
+@ 107.99
+# 辻 香澄
+JP うん…。
+JP それもあるけど全体的にね。
+EN Yeah... That too, but this time it's for my whole
+EN figure.
+
+@ 107.102
+# 社 長
+JP 全体的…？
+EN Your whole figure...?
+
+@ 107.112
+# 辻 香澄
+JP こ、これでも年頃の女なんだからね。
+JP 色々と気になるの！
+EN I-I'm a girl of a certain age too, you know! I worry
+EN about all kinds of things!
+
+@ 107.115
+# 社 長
+JP そうなのか。
+EN Is that so.
+
+@ 107.119
+# 辻 香澄
+JP うん。
+EN Yeah.
+
+@ 107.122
+# 社 長
+JP ………………。
+EN ......
+
+@ 107.132
+# 辻 香澄
+JP で、どう？
+EN So, how is it?
+
+@ 107.135
+# 社 長
+JP どう…とは？
+EN How is... what?
+
+@ 107.145
+# 辻 香澄
+JP ほら、わかるでしょ？
+EN Come on, you can tell, right?
+
+@ 107.148
+# 社 長
+JP うーん…。
+EN Hmm...
+
+@ 107.150
+# 社 長
+JP （俺は胸元をじっと見た）
+EN (I stared hard at her chest.)
+
+@ 107.160
+# 辻 香澄
+JP そ、そんなに
+JP ムネをじっと見ないでよっ！
+EN D-don't stare at my chest like that!
+
+@ 107.163
+# 社 長
+JP …えっ？
+JP でも前のときは…。
+EN ...Huh? But last time...
+
+@ 107.173
+# 辻 香澄
+JP だから、今回は全体的なんだってば。
+EN Like I said, this time it's my whole figure!
+
+@ 107.183
+# 辻 香澄
+JP ほら、ウェストが１センチ絞れたんだよ！
+EN Look, I took a whole centimeter off my waist!
+
+@ 107.186
+# 社 長
+JP うーん…。
+JP なるほどなぁ。
+EN Hmm... I see.
+
+@ 107.190
+# 辻 香澄
+JP えへへへへ～。
+EN Ehehehehe!
+
+@ 107.193
+# 社 長
+JP （あまりに嬉しそうに笑うので
+JP 　俺はそれ以上言葉を続けられなかった）
+EN (She was grinning so happily that I couldn't bring
+EN myself to say anything more.)
+
+@ 107.207
+# 社 長
+JP ………………。
+EN ......
+
+@ 107.209
+# 社 長
+JP （でもな…。
+JP 　わかんないよ、１センチなんて）
+EN (But come on... Who could tell one centimeter?)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 辻 香澄
+JP 練習だからって
+JP 手を抜かないようにね～。
+EN Don't go easy on me just because it's practice!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# 辻 香澄
+JP いくよ、さおさお。
+EN Here I come, Sao-Sao!
+
+@ 110.16
+# scene 113 練習開始
+# 辻 香澄
+JP さっ、はじめよっか！
+EN All right, let's get started!
+
+@ 111.16
+# scene 114 練習開始 好意
+# 辻 香澄
+JP よし…。
+JP 今日も気合い入れよっ！
+EN Okay... Let's get fired up today too!
+
+@ 112.16
+# scene 115 特訓開始
+# 辻 香澄
+JP どうせなら盛り上がっていこうか！
+EN If we're doing this, let's make it lively!
+
+@ 113.20
+# scene 116 特訓成功
+# 辻 香澄
+JP よっしゃ――！
+EN All riiight!
+
+@ 114.20
+# scene 117 特訓失敗
+# 辻 香澄
+JP あー…。
+JP ノリだけじゃダメか…。
+EN Aah... Guess enthusiasm alone isn't enough...
+
+@ 115.16
+# scene 118 休養
+# 辻 香澄
+JP どっかでお祭りとか
+JP やってないかなぁ…。
+EN I wonder if there's a festival going on somewhere...
+
+@ 116.16
+# scene 119 入場1
+# 辻 香澄
+JP ボクは負けないよ！
+EN I won't lose!
+
+@ 117.16
+# scene 119 入場2
+# 辻 香澄
+JP さあ、楽しいお祭りの
+JP 始まりだよ――っ！
+EN All right, let the fun festival begiiin!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# 辻 香澄
+JP 余計なこと言ってると
+JP おいてくからね。
+EN Keep talking nonsense and I'll leave you behind!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# 辻 香澄
+JP ミニマムレイザース、出陣！
+EN Minimum Razors, move out!
+
+@ 120.16
+# scene 125 必殺技１
+# 辻 香澄
+JP ここが盛り上がりどころっ！
+EN Here's where it gets exciting!
+
+@ 121.16
+# scene 125 必殺技２
+# 辻 香澄
+JP これがボクのとっておきだよ！
+EN This is my ace in the hole!
+
+@ 122.16
+# scene 125 必殺技３
+# 辻 香澄
+JP ボクの意地を…見せてあげる！
+EN I'll show you my pride!
+
+@ 123.12
+# scene 126 勝利1
+# 辻 香澄
+JP やった。
+JP ボクの勝ちぃ――！
+EN Yay! I wiiin!
+
+@ 124.12
+# scene 126 勝利2
+# 辻 香澄
+JP また勝負しようね！
+EN Let's fight again sometime!
+
+@ 125.12
+# scene 126 勝利3
+# 辻 香澄
+JP 今日はお祭りだぁ――！
+EN Today's a festival!
+
+@ 126.15
+# scene 133 表彰1
+# 辻 香澄
+JP ボクなんかでいいのかな…。
+JP いいや、もらっちゃおう！
+EN Do I really deserve this...? Eh, I'll take it!
+
+@ 127.15
+# scene 133 表彰2
+# 辻 香澄
+JP やったよ、社長！
+JP 見て見て！、すごいでしょ！
+EN I did it, Boss! Look, look! Isn't it amazing?
+
+@ 128.12
+# scene 134 優勝1
+# 辻 香澄
+JP 夢じゃ…ないよね……。
+JP やったああぁっっっ！
+EN This isn't... a dream, right...? I did iiit!
+
+@ 129.12
+# scene 134 優勝２
+# 辻 香澄
+JP このボクが…優勝。
+JP やった…やったぁ！
+EN Me... the winner. I did it... I did it!
+
+@ 130.24
+# scene 135 エンディング 通常
+# 辻 香澄
+JP おめでとう！
+JP へへ…。
+JP ボクも鼻が高いよ！
+EN Congratulations! Heh... I'm so proud!
+
+@ 131.24
+# scene 136 エンディング 好意
+# 辻 香澄
+JP おめでとう、社長。
+JP ど、どさくさにまぎれて言うけど
+JP 好きだよ…え…えへへ…。
+EN Congratulations, Boss. I-I'll just say it while things
+EN are crazy... I love you... e-ehehe...

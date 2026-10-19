@@ -1,0 +1,559 @@
+{
+ "english": "Promotion | Rating | Home Base | HQ Building | Founded | = | Dorm | Wrestlers | Coaches | Gym | TV Deal | Tour Bus | Contract Left | Merch Shops | TV Rights | Restaurants | Skill 1 | Skill 2 | Lv | Lv | Lv | Lv | yr | = | = | mo | AP/mo | shops | shops",
+ "boxes": [
+  [
+   27,
+   76,
+   68,
+   24
+  ],
+  [
+   27,
+   108,
+   68,
+   24
+  ],
+  [
+   183,
+   108,
+   68,
+   24
+  ],
+  [
+   411,
+   108,
+   68,
+   24
+  ],
+  [
+   27,
+   140,
+   68,
+   24
+  ],
+  [
+   183,
+   140,
+   68,
+   24
+  ],
+  [
+   411,
+   140,
+   68,
+   24
+  ],
+  [
+   27,
+   172,
+   68,
+   24
+  ],
+  [
+   183,
+   172,
+   68,
+   24
+  ],
+  [
+   411,
+   172,
+   68,
+   24
+  ],
+  [
+   27,
+   204,
+   68,
+   24
+  ],
+  [
+   411,
+   204,
+   68,
+   24
+  ],
+  [
+   27,
+   236,
+   94,
+   24
+  ],
+  [
+   411,
+   236,
+   104,
+   24
+  ],
+  [
+   27,
+   268,
+   94,
+   24
+  ],
+  [
+   411,
+   268,
+   104,
+   24
+  ],
+  [
+   27,
+   300,
+   68,
+   24
+  ],
+  [
+   255,
+   300,
+   68,
+   24
+  ],
+  [
+   483,
+   108,
+   64,
+   24
+  ],
+  [
+   483,
+   140,
+   64,
+   24
+  ],
+  [
+   483,
+   172,
+   64,
+   24
+  ],
+  [
+   483,
+   204,
+   64,
+   24
+  ],
+  [
+   127,
+   140,
+   39,
+   24
+  ],
+  [
+   143,
+   172,
+   23,
+   24
+  ],
+  [
+   300,
+   172,
+   24,
+   24
+  ],
+  [
+   256,
+   236,
+   45,
+   24
+  ],
+  [
+   254,
+   268,
+   85,
+   24
+  ],
+  [
+   560,
+   236,
+   43,
+   24
+  ],
+  [
+   560,
+   268,
+   43,
+   24
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "status.draw",
+ "same_size": true,
+ "groups": [
+  {
+   "fill": [
+    239
+   ],
+   "ground": "interpolate",
+   "reach": 2.5,
+   "cap": 13,
+   "labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "patches": [
+    [
+     27,
+     76,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     27,
+     108,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     183,
+     108,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     411,
+     108,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     27,
+     140,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     411,
+     140,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     27,
+     172,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     183,
+     172,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     411,
+     172,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     27,
+     204,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     411,
+     204,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     27,
+     236,
+     94,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     411,
+     236,
+     104,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     27,
+     268,
+     94,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     411,
+     268,
+     104,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     27,
+     300,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     255,
+     300,
+     68,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ]
+   ]
+  },
+  {
+   "fill": [
+    239
+   ],
+   "ground": "interpolate",
+   "reach": 2.5,
+   "cap": 13,
+   "labels": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "patches": [
+    [
+     483,
+     108,
+     64,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     483,
+     140,
+     64,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     483,
+     172,
+     64,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     483,
+     204,
+     64,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ]
+   ],
+   "align": "left"
+  },
+  {
+   "fill": [
+    239
+   ],
+   "ground": "interpolate",
+   "reach": 2.5,
+   "cap": 13,
+   "labels": [
+    22,
+    25,
+    26,
+    27,
+    28,
+    23,
+    24
+   ],
+   "patches": [
+    [
+     127,
+     140,
+     39,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     256,
+     236,
+     45,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     254,
+     268,
+     85,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     560,
+     236,
+     43,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     560,
+     268,
+     43,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     143,
+     172,
+     23,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ],
+    [
+     300,
+     172,
+     24,
+     24,
+     "inpaint",
+     {
+      "expr": "max(r,g,b)-min(r,g,b) >= 16 and 60 <= r+g+b <= 420",
+      "grow": 1
+     }
+    ]
+   ],
+   "align": "right"
+  }
+ ],
+ "notes": "promotion status (status batch): facility names from exe.csv (HQ building, dorm, gym equipment, tour bus, merch shop, restaurant); units レベル Lv, 年目 yr, ヶ月 mo, AP／月 AP/mo, 店舗 shops, 名 erased; ＡＰ label and AP unit left as is"
+}

@@ -1,0 +1,2257 @@
+# /SCR/066.BIN - 永沢舞
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 066` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 永沢 舞
+JP 永沢です！
+JP よろしくお願いします！
+EN I'm Nagasawa! Nice to meet you!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 永沢 舞
+JP ありがとうございます！
+JP 感謝、カンシャ！
+EN Thank you so much! Thanks, thanks!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 永沢 舞
+JP …ニャンコちゃんに
+JP 慰めてもらおうっと…。
+EN ...I'll go get the kitties to cheer me up...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP スカウトの話だと
+JP ここに有望な選手がいるって
+JP ことだけど…。
+EN According to the scout, there's a promising athlete
+EN around here...
+
+@ 3.25
+# 社 長
+JP あっ、あそこで
+JP ネコと遊んでいる彼女がそうかな？
+EN Ah, could that be her over there, playing with the
+EN cat?
+
+@ 3.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.37
+# 永沢 舞
+JP はい？
+JP なんでしょう？
+EN Yes? What is it?
+
+@ 3.40
+# 社 長
+JP 私、プロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 3.47
+# 永沢 舞
+JP …えっ、社長さんなんですか！？
+JP 私に何か用事ですか？
+EN ...Huh, you're a company president!? What do you
+EN want with me?
+
+@ 3.50
+# 社 長
+JP 実は今、うちの団体に所属する選手を
+JP 探していまして…。
+EN Actually, I'm looking for wrestlers to join our
+EN promotion...
+
+@ 3.52
+# 社 長
+JP あなたに目をつけたという訳です。
+EN And I've got my eye on you.
+
+@ 3.59
+# 永沢 舞
+JP プロレス？
+JP 私がですか…？
+JP ふーん。
+EN Pro wrestling? Me...? Hmm.
+
+@ 3.62
+# 社 長
+JP あなたの身体能力は調査済みです。
+JP お願いできないでしょうか？
+EN I've already looked into your athletic ability. Would
+EN you consider it?
+
+@ 3.64
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 永沢 舞
+JP わかりました！
+JP ニャンコちゃんともども
+JP よろしくお願いします！
+EN Okay! Me and the kitties are in your hands!
+
+@ 4.22
+# 社 長
+JP あっ、寮はペット禁止なんですが…。
+EN Ah, the dorm doesn't allow pets, actually...
+
+@ 4.29
+# 永沢 舞
+JP えーーっ！
+JP それなら辞める、ヤメル！
+EN Whaaat! Then I quit, I quit!
+
+@ 4.32
+# 社 長
+JP （…やれやれ。
+JP 　振り回されそうな予感がするなあ）
+EN (...Good grief. I have a feeling she's going to run me
+EN ragged.)
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 永沢 舞
+JP やめておきます。
+JP 今はプロレスより
+JP ニャンコちゃんですから！
+EN I'll pass. Right now, kitties matter more to me than
+EN pro wrestling!
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です。
+EN I see... That's a shame.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （彼女の素質は本物だ。
+JP 　どうにかうちに入って
+JP 　もらえないだろうか…）
+EN (Her talent is the real deal. Isn't there some way to
+EN get her to join us...?)
+
+@ 6.25
+# 社 長
+JP （あっ、あそこでネコと
+JP 　遊んでいるぞ）
+EN (Ah, there she is, playing with a cat.)
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# 永沢 舞
+JP ええと…。
+JP あっ、この間の社長さん！
+EN Let's see... Oh, the president from the other day!
+
+@ 6.40
+# 社 長
+JP はい。
+JP またスカウトに来ました。
+EN Yes. I came to scout you again.
+
+@ 6.47
+# 永沢 舞
+JP あきらめてなかったんですね～。
+EN You didn't give up, huh?
+
+@ 6.50
+# 社 長
+JP それだけ本気だと
+JP 思っていただければ。
+EN I hope that shows you how serious I am.
+
+@ 6.52
+# 社 長
+JP どうか私を信じて
+JP 入団してもらえないでしょうか？
+EN Please, won't you trust me and join us?
+
+@ 6.54
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 永沢 舞
+JP わかりました！
+JP ニャンコちゃんともども
+JP よろしくお願いします！
+EN Okay! Me and the kitties are in your hands!
+
+@ 7.22
+# 社 長
+JP …あっ、寮はペット禁止なんですが……。
+EN ...Ah, the dorm doesn't allow pets, actually...
+
+@ 7.29
+# 永沢 舞
+JP えーーっ！
+JP それなら辞める、ヤメル！
+EN Whaaat! Then I quit, I quit!
+
+@ 7.32
+# 社 長
+JP （…やれやれ。
+JP 　振り回されそうな予感がするなあ）
+EN (...Good grief. I have a feeling she's going to run me
+EN ragged.)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 永沢 舞
+JP やめておきます。
+JP 今はプロレスより
+JP ニャンコちゃんですから！
+EN I'll pass. Right now, kitties matter more to me than
+EN pro wrestling!
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です。
+EN I see... That's a shame.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （永沢選手…。
+JP 　潜在能力と投げ技は特筆に値する。
+JP 　うちに欲しい逸材だ）
+EN (Nagasawa... Her potential and her throws are
+EN remarkable. Just the talent we want.)
+
+@ 9.25
+# 社 長
+JP （たしか、このあたりに
+JP 　いるはずなんだが…）
+EN (She should be somewhere around here...)
+
+@ 9.27
+# 社 長
+JP （あっ、いた！
+JP 　あそこで犬と遊んでいるのが
+JP 　彼女だ！）
+EN (Ah, there she is! That's her, playing with the dog
+EN over there!)
+
+@ 9.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.39
+# 永沢 舞
+JP えっと…。
+JP どちら様ですか？
+EN Um... Who are you?
+
+@ 9.42
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 9.46
+# 永沢 舞
+JP はあ、社長さんなんですか…。
+JP あの、私に何か用ですか？
+EN Huh, so you're a company president... Um, what do
+EN you want with me?
+
+@ 9.49
+# 社 長
+JP 是非うちの団体に
+JP 入っていただけないかと…。
+EN I'd love for you to join our promotion...
+
+@ 9.56
+# 永沢 舞
+JP えっ…引き抜き？
+JP うーん…。
+JP ワンちゃんはどう思う？
+EN Huh... You're poaching me? Hmm... What do you think,
+EN doggy?
+
+@ 9.59
+# 社 長
+JP どうかお願いできないでしょうか？
+EN Would you please consider it?
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 永沢 舞
+JP わかりました。
+JP よろしくお願いします！
+EN Okay. I'm in your hands!
+
+@ 10.22
+# 社 長
+JP 本当ですか？
+EN Really?
+
+@ 10.29
+# 永沢 舞
+JP はい。
+JP ワンちゃんがアナタに
+JP 懐いたみたいですから。
+EN Yep. Looks like the doggy has taken a liking to you.
+
+@ 10.32
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. Glad to have you!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 永沢 舞
+JP 無理かなぁ…。
+JP ワンちゃんが懐かない人って
+JP 信用できなくて…。
+EN I don't think so... I just can't trust people the doggy
+EN doesn't like...
+
+@ 11.22
+# 社 長
+JP （残念…失敗か…）
+EN (Too bad... no luck...)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (Our promotion really needs her. I decided to
+EN negotiate once more.)
+
+@ 12.25
+# 社 長
+JP （たしか、このあたりに
+JP 　いるはずなんだが…）
+EN (She should be somewhere around here...)
+
+@ 12.27
+# 社 長
+JP （あっ、いた！
+JP 　あそこで犬と遊んでいるのが
+JP 　彼女だ！）
+EN (Ah, there she is! That's her, playing with the dog
+EN over there!)
+
+@ 12.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.39
+# 永沢 舞
+JP …あっ、社長さん。
+JP またスカウトですか？
+EN ...Oh, the president. Scouting me again?
+
+@ 12.42
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しいんです。
+EN Yes. I really want you to join our promotion.
+
+@ 12.49
+# 永沢 舞
+JP ワンちゃんの反応はどうかなぁ…。
+EN I wonder what the doggy thinks...
+
+@ 12.52
+# 社 長
+JP （そう言うと思って
+JP 　犬の大好物を持ってきている！
+JP 　思う存分懐いてくれ！）
+EN (I knew she'd say that, so I brought the dog's
+EN favorite treat! Go ahead, love me all you want!)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 永沢 舞
+JP わかりました。
+JP よろしくお願いします！
+EN Okay. I'm in your hands!
+
+@ 13.22
+# 社 長
+JP 本当ですか？
+EN Really?
+
+@ 13.29
+# 永沢 舞
+JP はい。
+JP ワンちゃんがアナタに
+JP 懐いたみたいですから。
+EN Yep. Looks like the doggy has taken a liking to you.
+
+@ 13.32
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. Glad to have you!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 永沢 舞
+JP 無理かなぁ…。
+JP ワンちゃんが懐かない人って
+JP 信用できなくて…。
+EN I don't think so... I just can't trust people the doggy
+EN doesn't like...
+
+@ 14.22
+# 社 長
+JP （残念…失敗か…）
+EN (Too bad... no luck...)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （永沢選手…。
+JP 　潜在能力と投げ技は特筆に値する。
+JP 　うちに欲しい逸材だ）
+EN (Nagasawa... Her potential and her throws are
+EN remarkable. Just the talent we want.)
+
+@ 15.25
+# 社 長
+JP （たしか、このあたりに
+JP 　いるはずなんだが…）
+EN (She should be somewhere around here...)
+
+@ 15.27
+# 社 長
+JP （あっ、いた！
+JP 　あそこでウサギと遊んでいるのが
+JP 　彼女だ！）
+EN (Ah, there she is! That's her, playing with the rabbit
+EN over there!)
+
+@ 15.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.39
+# 永沢 舞
+JP はい？
+JP どなたですか？
+EN Yes? Who are you?
+
+@ 15.42
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 15.49
+# 永沢 舞
+JP 社長さん…？
+JP 私になんでしょうか？
+EN A company president...? What do you want with me?
+
+@ 15.52
+# 社 長
+JP 是非うちの団体に入団して
+JP いただけないかと思いまして…。
+EN I was hoping you'd be willing to join our promotion...
+
+@ 15.59
+# 永沢 舞
+JP ねぇ、ウサちゃんはどう思う？
+EN Hey, Bunny, what do you think?
+
+@ 15.62
+# 社 長
+JP （…えっ？
+JP 　ウサギに聞くのか！？）
+EN (...Huh? She's asking the rabbit!?)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# 永沢 舞
+JP うん…。
+JP うん…。
+JP わかった。
+EN Uh-huh... Uh-huh... Got it.
+
+@ 16.18
+# 社 長
+JP …どうでしょう？
+EN ...What do you say?
+
+@ 16.29
+# 永沢 舞
+JP ＯＫです！
+JP 動物に好かれる人に悪い人はいません！
+JP よろしくお願いします！
+EN It's a yes! Anyone animals like can't be a bad person!
+EN I'm in your hands!
+
+@ 16.32
+# 社 長
+JP そうですか！
+JP ありがとうございます！
+JP あっ、ウサちゃんもありがとう！
+EN Really! Thank you so much! Oh, and thank you too,
+EN Bunny!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 永沢 舞
+JP …ウサちゃんがダメだって…。
+JP 他をあたってください。
+EN ...Bunny says no... Please try somewhere else.
+
+@ 17.28
+# 社 長
+JP …えっ！？
+JP ちょっと！？
+JP そんなぁ！？
+EN ...What!? Wait!? You can't be serious!?
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (Our promotion really needs her. I decided to
+EN negotiate once more.)
+
+@ 18.25
+# 社 長
+JP （たしか、このあたりに
+JP 　いるはずなんだが…）
+EN (She should be somewhere around here...)
+
+@ 18.27
+# 社 長
+JP （いた！
+JP 　今日もウサギと
+JP 　遊んでいるみたいだな……）
+EN (There she is! Looks like she's playing with the
+EN rabbit again today...)
+
+@ 18.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.39
+# 永沢 舞
+JP …あっ…社長さん。
+JP また来たんですか？
+EN ...Oh... the president. You came back?
+
+@ 18.42
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 18.49
+# 永沢 舞
+JP でもウサちゃんがダメだって…。
+EN But Bunny said no...
+
+@ 18.52
+# 社 長
+JP そこを曲げて、お願いします！
+EN Please, I'm begging you to reconsider!
+
+@ 18.59
+# 永沢 舞
+JP それじゃ、ウサちゃんに
+JP もう一度聞いてみましょう。
+EN Okay then, let's ask Bunny one more time.
+
+@ 18.62
+# 社 長
+JP （ウサちゃんもよろしく…）
+EN (Please, Bunny...)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# 永沢 舞
+JP うん…。
+JP うん…。
+JP わかった。
+EN Uh-huh... Uh-huh... Got it.
+
+@ 19.18
+# 社 長
+JP …どうでしょう？
+EN ...What do you say?
+
+@ 19.29
+# 永沢 舞
+JP ＯＫです！
+JP 動物に好かれる人に悪い人はいません！
+JP よろしくお願いします！
+EN It's a yes! Anyone animals like can't be a bad person!
+EN I'm in your hands!
+
+@ 19.32
+# 社 長
+JP そうですか！
+JP ありがとうございます！
+JP あっ、ウサちゃんもありがとう！
+EN Really! Thank you so much! Oh, and thank you too,
+EN Bunny!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 永沢 舞
+JP …ウサちゃんがダメだって…。
+JP 他をあたってください。
+EN ...Bunny says no... Please try somewhere else.
+
+@ 20.28
+# 社 長
+JP …えっ！？
+JP ちょっと！？
+JP そんなぁ！？
+EN ...What!? Wait!? You can't be serious!?
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は永沢のもとを訪ねていた。
+JP 　やはり彼女はうちに必要な選手だ）
+EN (I'd come to see Nagasawa. She's a wrestler our
+EN promotion needs, after all.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…あっ、永沢！
+EN She should be around here... Ah, Nagasawa!
+
+@ 21.35
+# 永沢 舞
+JP …あっ、社長…！？
+JP どうして…？
+EN ...Oh, Boss...!? What are you doing here...?
+
+@ 21.38
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.42
+# 永沢 舞
+JP あっ、はい…。
+JP あの、どうされたんですか？
+EN Oh, yes... Um, what's going on?
+
+@ 21.45
+# 社 長
+JP 実は戻って欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you. I want you to
+EN come back.
+
+@ 21.52
+# 永沢 舞
+JP そんな…。
+JP 急に言われても…。
+EN But... This is so sudden...
+
+@ 21.55
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないかもしれないが…。
+EN I know I may be in no position to ask this of you, but...
+
+@ 21.57
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 永沢 舞
+JP …なるほど、ナルホド。
+EN ...I see, I see.
+
+@ 22.18
+# 社 長
+JP 君の力を貸して欲しいんだ。
+EN I need your strength.
+
+@ 22.29
+# 永沢 舞
+JP わかりました。
+JP 改めてお願いします。
+EN Okay. I'm in your hands once again.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 永沢 舞
+JP うーん…。
+EN Hmm...
+
+@ 23.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.26
+# 永沢 舞
+JP 寮、ペットダメだし…。
+EN The dorm doesn't allow pets...
+
+@ 23.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び永沢のもとを訪ねていた。
+JP 　やはり彼女はうちに必要な選手だ）
+EN (I'd come to see Nagasawa again. She's a wrestler
+EN our promotion needs, after all.)
+
+@ 24.25
+# 社 長
+JP 永沢、また頼みに来たよ。
+EN Nagasawa, I've come to ask again.
+
+@ 24.35
+# 永沢 舞
+JP …社長。
+EN ...Boss.
+
+@ 24.38
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 永沢 舞
+JP …なるほど、ナルホド。
+EN ...I see, I see.
+
+@ 25.18
+# 社 長
+JP 君の力を貸して欲しいんだ。
+EN I need your strength.
+
+@ 25.29
+# 永沢 舞
+JP わかりました。
+JP 改めてお願いします。
+EN Okay. I'm in your hands once again.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 永沢 舞
+JP うーん…。
+EN Hmm...
+
+@ 26.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.26
+# 永沢 舞
+JP 寮、ペットダメだし…。
+EN The dorm doesn't allow pets...
+
+@ 26.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 永沢 舞
+JP この程度なら
+JP 大丈夫、ダイジョブ！
+EN This much is nothing! I'm fine, I'm fine!
+
+@ 28.16
+# scene 029 ケガ大
+# 永沢 舞
+JP あは…。
+JP これはダメかも…。
+EN Ahaha... This might be bad...
+
+@ 29.16
+# scene 030 入院
+# 永沢 舞
+JP 動物たちと会えなくなるのが
+JP 寂しいよー！
+EN I'm gonna miss seeing the animals!
+
+@ 30.16
+# scene 031 退院
+# 永沢 舞
+JP ただいまー！
+JP ニャンコちゃんたちに
+JP 会いに行こーっと！
+EN I'm back! Time to go see the kitties!
+
+@ 31.16
+# scene 032 ケガ完治
+# 永沢 舞
+JP 治りました！
+JP 完璧、カンペキ！
+EN All healed! Perfect, perfect!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 永沢 舞
+JP ニャンコちゃんたちと
+JP 一緒に暮らすのもいいかな…。
+EN Maybe living with my kitties wouldn't be so bad...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 永沢 舞
+JP あは…。
+JP もうニャンコちゃんたちしか
+JP 信じられないかも…。
+EN Ahaha... Maybe the kitties are the only ones I can
+EN trust anymore...
+
+@ 34.16
+# scene 035 コーチ就任
+# 永沢 舞
+JP これからはコーチとして
+JP よろしく、ヨロシク！
+EN I'm a coach from now on! Nice to meet you, nice to
+EN meet you!
+
+@ 35.16
+# scene 036 ケガ引退
+# 永沢 舞
+JP かんばりすぎちゃったかも…。
+JP 失敗、シッパイ…。
+EN Maybe I pushed too hard... Oops, oops...
+
+@ 36.16
+# scene 037 年齢引退
+# 永沢 舞
+JP 残念だけど…。
+JP ここまでみたいです…。
+EN It's a shame... but this looks like the end of the
+EN road...
+
+@ 37.16
+# scene 038 退団
+# 永沢 舞
+JP ウサちゃんたちとの
+JP 触れあいの時間が
+JP つくれないし…。
+EN I just don't have time to spend with my bunnies...
+
+@ 38.16
+# scene 039 スランプ
+# 永沢 舞
+JP 動物たちが懐いてくれない…。
+JP なんで…？
+EN The animals won't come near me... Why...?
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 永沢 舞
+JP ファンクラブ！
+JP すごい、スゴイ！
+EN A fan club! Amazing, amazing!
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# 永沢 舞
+JP この喜びをニャンコちゃんたちにも
+JP 伝えて来なきゃ！
+EN I've gotta go share the good news with the kitties!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 永沢 舞
+JP 新しいファンクラブ！
+JP 感激、カンゲキ！
+EN A new fan club! I'm so moved, so moved!
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their expectations.
+
+@ 40.26
+# 永沢 舞
+JP この喜びをワンちゃんたちにも
+JP 伝えて来なきゃ！
+EN I've gotta go share the good news with the doggies!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 永沢 舞
+JP …なくなっちゃった。
+EN ...It's gone.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just try again.
+
+@ 41.23
+# 永沢 舞
+JP この悲しみをウサちゃんたちに
+JP 聞いてもらおっと…。
+EN I'll go tell my bunnies how sad I am...
+
+@ 42.16
+# scene 043 映画出演
+# 永沢 舞
+JP 動物は出ますか！？
+JP だったら大歓迎で出演、シュツエン！
+EN Are there animals in it!? Then I'd love to be in it, love
+EN to!
+
+@ 43.16
+# scene 044 一日署長
+# 永沢 舞
+JP ワンちゃんたちと一緒に
+JP 犬のお巡りさんもいいですね！
+JP ワンワン！
+EN A police dog officer with my doggies sounds fun!
+EN Woof woof!
+
+@ 44.16
+# scene 045 写真集発売
+# 永沢 舞
+JP あは…。
+JP ワンちゃん抱いていていいですか？
+JP 一人だとちょっと恥ずかしいし…。
+EN Ahaha... Can I hold a doggy? It's kinda embarrassing
+EN all by myself...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 永沢 舞
+JP 緊張するよー。
+JP …あっ、ウサちゃんたちと
+JP 一緒じゃダメ？
+EN I'm so nervous... Oh, can't I do it with my bunnies?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 永沢 舞
+JP 楽しそう！
+JP さっそくカラオケに練習に
+JP 行ってきます！
+EN Sounds fun! I'm off to practice at karaoke right
+EN now!
+
+@ 47.16
+# scene 048 始球式
+# 永沢 舞
+JP ヤキュウかあ。
+JP あんまり知らないんで…。
+JP 始球式ってなに、ナニ？
+EN Baseball, huh? I don't know much about it... What's a
+EN ceremonial first pitch, what?
+
+@ 48.16
+# scene 049 学園祭
+# 永沢 舞
+JP 動物ショーとか見せれば
+JP いいのかなー？
+EN Maybe I could put on an animal show?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a birthday present.
+
+@ 49.36
+# 永沢 舞
+JP わわっ！
+JP あ、ありがとうございます！
+EN Whoa! Th-thank you so much!
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.46
+# 永沢 舞
+JP は、はい！
+JP がんばります！
+EN Y-yes! I'll do my best!
+
+@ 50.30
+# scene 051 バレンタインデー
+# 永沢 舞
+JP 社長、バレンタインのチョコを
+JP 持ってきました！
+EN Boss, I brought you Valentine's chocolate!
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Ah, thank you.
+
+@ 50.40
+# 永沢 舞
+JP 動物型なんですよ。
+JP かわいいから食べちゃダメですよ。
+EN They're shaped like animals. They're too cute, so no
+EN eating them!
+
+@ 51.29
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, as thanks for last month?
+
+@ 51.36
+# 永沢 舞
+JP ありがとうございます！
+JP ニャンコちゃんと分けて食べますね！
+EN Thank you! I'll share it with my kitties!
+
+@ 51.39
+# 社 長
+JP それはいいが…。
+JP 寮の中ではやめてくれよ。
+EN That's fine, but... Not in the dorm, please.
+
+@ 52.31
+# scene 053 サイン会
+# 永沢 舞
+JP 応援ありがとう！
+JP ワンちゃんたちも
+JP お礼を言ってます！
+EN Thanks for your support! The doggies say thank
+EN you too!
+
+@ 53.31
+# scene 054 コンサート
+# 永沢 舞
+JP ニャンコちゃんたちと一緒に
+JP 楽しんで帰ってね！
+EN Have fun with me and the kitties, everyone!
+
+@ 54.26
+# scene 055 練習拒否
+# 永沢 舞
+JP 疲れた心をウサちゃんたちに
+JP 癒してもらってきます。
+EN I'm off to have the bunnies soothe my tired heart.
+
+@ 55.26
+# scene 056 失踪
+# 永沢 舞
+JP しばらく帰らないかも…。
+EN I might not come back for a while...
+
+@ 56.16
+# scene 057 選手解雇
+# 永沢 舞
+JP そんなー！
+JP ウサちゃんたちのエサ代がー！
+EN Nooo! How will I pay for the bunnies' food!?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 永沢 舞
+JP いってきまーす！！
+JP ウサちゃんたちのエサ、よろしくー！
+EN I'm off! Take care of feeding the bunnies for me!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 永沢 舞
+JP ただいまー！
+JP 海の向こうのニャンコちゃんたちを
+JP 連れて帰りたかったなー！
+EN I'm back! I wish I could've brought home the kitties
+EN from overseas!
+
+@ 59.26
+# scene 060 移籍思案
+# 永沢 舞
+JP ニャンコちゃん…。
+JP 私、どうしたらいい…？
+EN Kitty... What should I do...?
+
+@ 60.16
+# scene 061 革命軍結成
+# 永沢 舞
+JP よーし、やるぞ！
+JP 革命、カクメイ！
+EN All right, let's do this! Revolution, revolution!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 永沢 舞
+JP 負けないぞ～！
+JP 反乱、ハンラン！
+EN We won't lose! Rebellion, rebellion!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 永沢 舞
+JP これで決着です！
+JP 決戦、ケッセン！
+EN This settles it! Showdown, showdown!
+
+@ 63.16
+# scene 065 遺恨発生
+# 永沢 舞
+JP もう許せない！
+JP 激怒、ゲキド！
+EN That's it, I can't forgive this! I'm furious, furious!
+
+@ 64.16
+# scene 065 殴り込み
+# 永沢 舞
+JP 先手必勝！
+JP 一番手は私が行きます！
+EN The first strike wins! I'll go in first!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 永沢 舞
+JP 返り討ちにしてあげます！
+EN I'll send them packing!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 永沢 舞
+JP みんなまとめて
+JP 投げ飛ばしてあげます！
+EN I'll throw every last one of you!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 永沢 舞
+JP 力がみなぎってきます！
+JP 勢いをつけてゴー、ゴー！
+EN I'm overflowing with power! Full speed ahead, go, go!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 永沢 舞
+JP 優勝できました！
+JP みんな、応援ありがとー！
+EN I won! Thanks for cheering for me, everyone!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 永沢 舞
+JP 修行しなおしです。
+JP 残念、ザンネン…。
+EN Back to training for me. Too bad, too bad...
+
+@ 70.13
+# scene 071 引退式
+# 永沢 舞
+JP みんなありがとー！
+JP これからもニャンコちゃんたちを
+JP 愛する気持ちを忘れないでねー！
+EN Thank you, everyone! Never forget to love your
+EN kitties!
+
+@ 71.18
+# 永沢 舞
+JP 社長、なんでしょうか？
+EN Boss, what is it?
+
+@ 71.37
+# 永沢 舞
+JP なんですか、社長？
+EN What is it, Boss?
+
+@ 71.47
+# 永沢 舞
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been doing well lately! Keep it up!
+
+@ 71.90
+# 永沢 舞
+JP ウサちゃんたちの
+JP パワーのおかげですよ～。
+EN It's all thanks to my bunnies' power!
+
+@ 71.111
+# 永沢 舞
+JP あっ…。
+JP 今、ニャンコちゃんが横切った…。
+EN Oh... A kitty just walked by...
+
+@ 71.132
+# 永沢 舞
+JP 社長の言葉って
+JP ニャンコちゃんよりも
+JP 力をくれる気がします…。
+EN Your words give me even more strength than the
+EN kitties do, Boss...
+
+@ 71.153
+# 永沢 舞
+JP そろそろいっぱい、イッパイです…。
+EN I'm getting kinda full, full...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# 永沢 舞
+JP う～ん…。
+JP そういえばそうかも。
+JP 気合い、キアイ！
+EN Hmm... Now that you mention it, maybe. Fighting spirit,
+EN fighting spirit!
+
+@ 71.211
+# 永沢 舞
+JP ワンちゃん、どこー？
+EN Doggy, where are you?
+
+@ 71.232
+# 永沢 舞
+JP よーし！
+JP 練習量を増やします。
+JP ガンガンいきます！
+EN All right! I'll train more. Full throttle!
+
+@ 71.253
+# 永沢 舞
+JP そんなことないですって
+JP 平気、ヘイキ！
+EN No way, not me! I'm fine, I'm fine!
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# 永沢 舞
+JP ニャンコちゃんと遊べば
+JP 完全復活ですから！
+EN A little playtime with the kitties and I'll be back to full
+EN power!
+
+@ 71.311
+# 永沢 舞
+JP 早くニャンコちゃんと遊びたい…。
+EN I wanna go play with the kitties...
+
+@ 71.332
+# 永沢 舞
+JP ワンちゃんと遊べばＯＫです。
+JP 社長も一緒にどうですか？
+EN Playing with the doggies will fix me right up. Wanna
+EN come too, Boss?
+
+@ 71.353
+# 永沢 舞
+JP ワンちゃんとのんびり遊べれば…。
+EN If only I could laze around playing with the doggies...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 永沢 舞
+JP あの…その…でもあれは…。
+EN Um... well... but that was...
+
+@ 71.400
+# 永沢 舞
+JP なんでしょうか？
+EN What is it?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 永沢 舞
+JP そうですね。
+JP ケンカはダメですよね。
+JP 仲良し、ナカヨシ！
+EN You're right. Fighting is bad, isn't it? Friends,
+EN friends!
+
+@ 71.454
+# 永沢 舞
+JP でも、ニャンコちゃんを
+JP 侮辱したんです。
+JP 許せません！
+EN But she insulted my kitties. I can't forgive that!
+
+@ 71.475
+# 永沢 舞
+JP あの、社長…。
+JP それって人違いです～。
+EN Um, Boss... You've got the wrong person.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 永沢 舞
+JP …なんとなくは…。
+EN ...Kind of...
+
+@ 71.522
+# 永沢 舞
+JP なんですか？
+EN What is it?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 永沢 舞
+JP わかりました。
+JP 社長の言葉に従います。
+EN Okay. I'll do as you say, Boss.
+
+@ 71.578
+# 永沢 舞
+JP だって、ワンちゃんを
+JP 侮辱したんですよ。
+JP 許せません！
+EN But she insulted my doggies! I can't forgive that!
+
+@ 71.599
+# 永沢 舞
+JP あの…。
+JP 誰かと間違えてませんか？
+JP あは…。
+EN Um... Aren't you mixing me up with someone? Ahaha...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 永沢 舞
+JP なんですか、社長？
+EN What is it, Boss?
+
+@ 72.16
+# 永沢 舞
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been doing well lately! Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 永沢 舞
+JP ウサちゃんたちの
+JP パワーのおかげですよ～。
+EN It's all thanks to my bunnies' power!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 永沢 舞
+JP あ、今、ニャンコちゃんが
+JP 横切った…。
+EN Oh... A kitty just walked by...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 永沢 舞
+JP 社長の言葉って
+JP ニャンコちゃんよりも
+JP 力をくれる気がします…。
+EN Your words give me even more strength than the
+EN kitties do, Boss...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 永沢 舞
+JP そろそろいっぱい、イッパイです…。
+EN I'm getting kinda full, full...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 永沢 舞
+JP う～ん…。
+JP そういえばそうかも。
+JP 気合い、キアイ！
+EN Hmm... Now that you mention it, maybe. Fighting spirit,
+EN fighting spirit!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 永沢 舞
+JP ワンちゃん、どこー？
+EN Doggy, where are you?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 永沢 舞
+JP よーし！
+JP 練習量を増やします。
+JP ガンガンいきます！
+EN All right! I'll train more. Full throttle!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 永沢 舞
+JP そんなことないですって、
+JP 平気、ヘイキ！
+EN No way, not me! I'm fine, I'm fine!
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 永沢 舞
+JP ニャンコちゃんと遊べば
+JP 完全復活ですから！
+EN A little playtime with the kitties and I'll be back to full
+EN power!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 永沢 舞
+JP 早くニャンコちゃんと遊びたい…。
+EN I wanna go play with the kitties...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 永沢 舞
+JP ワンちゃんと遊べばＯＫです。
+JP 社長も一緒にどうですか？
+EN Playing with the doggies will fix me right up. Wanna
+EN come too, Boss?
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 永沢 舞
+JP ワンちゃんとのんびり遊べれば…。
+EN If only I could laze around playing with the doggies...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 永沢 舞
+JP あの、その、でもあれは…。
+EN Um... well... but that was...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 永沢 舞
+JP なんでしょうか？
+EN What is it?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 永沢 舞
+JP そうですね。
+JP ケンカはダメですよね。
+JP 仲良し、ナカヨシ！
+EN You're right. Fighting is bad, isn't it? Friends,
+EN friends!
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 永沢 舞
+JP でも、ニャンコちゃんを
+JP 侮辱したんです。
+JP 許せません！
+EN But she insulted my kitties. I can't forgive that!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 永沢 舞
+JP あの、社長…。
+JP それって人違いです～。
+EN Um, Boss... You've got the wrong person.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 永沢 舞
+JP …なんとなくは…。
+EN ...Kind of...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 永沢 舞
+JP なんですか？
+EN What is it?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 永沢 舞
+JP わかりました。
+JP 社長の言葉に従います。
+EN Okay. I'll do as you say, Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 永沢 舞
+JP だって、ワンちゃんを
+JP 侮辱したんですよ、
+JP 許せません！
+EN But she insulted my doggies! I can't forgive that!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 永沢 舞
+JP あの…。
+JP 誰かと間違えてませんか？
+JP あは…。
+EN Um... Aren't you mixing me up with someone? Ahaha...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 永沢 舞
+JP 契約成立。
+JP ＯＫ、オッケー。
+EN Deal. Okay, okay.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 永沢 舞
+JP 契約成立。
+JP 感激、カンゲキ！
+EN Deal! I'm so moved, so moved!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 永沢 舞
+JP あは…。
+JP 契約成立…。
+EN Ahaha... Deal...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, it's the tropics, all right. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.37
+# 永沢 舞
+JP 社長、シャチョー！
+EN Boss, Boooss!
+
+@ 105.40
+# 社 長
+JP 永沢か。
+JP どうした？
+EN Nagasawa. What's up?
+
+@ 105.57
+# 永沢 舞
+JP 見て見て、社長♪
+EN Look, look, Boss!
+
+@ 105.60
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.62
+# 社 長
+JP ネコだな。
+EN That's a cat.
+
+@ 105.66
+# 永沢 舞
+JP そうそう、ニャンコちゃん。
+JP かわいいでしょ！
+EN Yep, yep, a kitty. Isn't she cute!
+
+@ 105.69
+# 社 長
+JP そうだな。
+JP …で、どうしたんだ？
+EN Sure is. ...So, what about it?
+
+@ 105.73
+# 永沢 舞
+JP 懐かれちゃった。
+JP 日本に連れて帰っていい？
+EN She's taken a liking to me. Can I take her home to
+EN Japan?
+
+@ 105.76
+# 社 長
+JP …いや、それは無理だろ。
+EN ...No, that's not gonna happen.
+
+@ 105.78
+# 社 長
+JP 外国から動物を連れ帰っても
+JP 税関で取り上げられるぞ。
+EN If you bring an animal back from abroad, customs will
+EN just take it away.
+
+@ 105.88
+# 永沢 舞
+JP えー！
+EN Awww!
+
+@ 105.91
+# 社 長
+JP えー、と言われてもな。
+EN "Awww" all you want, but still.
+
+@ 105.101
+# 永沢 舞
+JP 荷物に隠して帰れば
+JP 大丈夫、ダイジョブ！
+EN If I hide her in my luggage, it'll be fine, fine!
+
+@ 105.104
+# 社 長
+JP 無理だってば。
+EN I told you, no.
+
+@ 105.114
+# 永沢 舞
+JP えー！
+EN Awww!
+
+@ 105.117
+# 社 長
+JP だから、えー、と言われてもな。
+EN Like I said, "awww" all you want, but still.
+
+@ 105.127
+# 永沢 舞
+JP 手荷物に入れて
+JP 連れて歩けば大丈夫！？
+EN What if I carry her around in my hand luggage!?
+
+@ 105.130
+# 社 長
+JP それも無理だから。
+EN That's a no, too.
+
+@ 105.140
+# 永沢 舞
+JP だったら、私がここに残りますー！
+EN Then I'll stay here!
+
+@ 105.143
+# 社 長
+JP それは俺が困る！
+EN That's a problem for me!
+
+@ 105.147
+# 永沢 舞
+JP こんなにかわいいのに～！
+EN But she's so cute!
+
+@ 105.150
+# 社 長
+JP それは関係ないだろ…。
+EN That has nothing to do with it...
+
+@ 105.152
+# 社 長
+JP 日本に帰ったらネコのぬいぐるみ
+JP 買ってやるから諦めてくれよ…。
+EN I'll buy you a stuffed cat when we get back to Japan,
+EN so please give up...
+
+@ 105.162
+# 永沢 舞
+JP 本当ですか、社長！？
+JP 約束、ヤクソク！
+EN Really, Boss!? Promise, promise!
+
+@ 105.165
+# 社 長
+JP わかった、わかった。
+JP 約束するよ。
+EN Okay, okay. I promise.
+
+@ 105.167
+# 社 長
+JP （やれやれ…）
+EN (Good grief...)
+
+@ 105.177
+# 永沢 舞
+JP でも、この子と別れるのも寂しいな…。
+EN But I'll be so lonely without this little one...
+
+@ 105.180
+# 社 長
+JP （…えっ…まだ続くの…？）
+EN (...Huh... She's still going...?)
+
+@ 105.197
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.199
+# 社 長
+JP （その後、俺は１時間以上かけて
+JP 　ようやく説得に成功した）
+EN (After that, it took me over an hour to finally talk
+EN her out of it.)
+
+@ 105.201
+# 社 長
+JP （やれやれ…）
+EN (Good grief...)
+
+@ 106.28
+# scene 107 日常イベント１
+# 社 長
+JP あー、とうとう降ってきたか。
+EN Ah, so it's finally raining.
+
+@ 106.30
+# 社 長
+JP ロードワーク中の選手も
+JP いるみたいだし…。
+EN Looks like some of the wrestlers are out on
+EN roadwork...
+
+@ 106.32
+# 社 長
+JP タオル持って待機していた方が
+JP よさそうだな。
+EN I'd better wait here with some towels.
+
+@ 106.45
+# 社 長
+JP おっ、帰ってきた。
+EN Oh, here they come.
+
+@ 106.55
+# 永沢 舞
+JP うー、びしょびしょー！
+JP 濡れちゃいました～。
+EN Ugh, I'm soaked! I got drenched!
+
+@ 106.58
+# 社 長
+JP お疲れさん。
+JP はい、タオル。
+EN Good work. Here, a towel.
+
+@ 106.65
+# 永沢 舞
+JP あっ、社長！？
+EN Oh, Boss!?
+
+@ 106.68
+# 社 長
+JP 風邪引かないように
+JP 早く着替えろよ。
+EN Hurry and change so you don't catch a cold.
+
+@ 106.75
+# 永沢 舞
+JP はい、わかりま…ああーっ！
+EN Okay, I'll go... Oh nooo!
+
+@ 106.78
+# 社 長
+JP ど、どうした！？
+EN Wh-what's wrong!?
+
+@ 106.85
+# 永沢 舞
+JP 着替え全部、洗濯機の中！
+EN All my spare clothes are in the washing machine!
+
+@ 106.88
+# 社 長
+JP なんだって！？
+EN What!?
+
+@ 106.92
+# 永沢 舞
+JP どうしよう、ドウシヨー！
+EN What do I do, what do I do!
+
+@ 106.95
+# 社 長
+JP まったく仕方がないな。
+JP ちょっと待ってろ。
+EN Honestly, you're hopeless. Wait here a sec.
+
+@ 106.113
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.130
+# 社 長
+JP ほれ。
+JP 乾くまでこれでも着てろ。
+EN Here. Wear this until your clothes dry.
+
+@ 106.134
+# 永沢 舞
+JP んっ……？
+EN Hm......?
+
+@ 106.154
+# 永沢 舞
+JP うわー、社長のワイシャツー。
+EN Wow, it's your dress shirt, Boss!
+
+@ 106.157
+# 社 長
+JP 乾くまでだぞ？
+EN Only until your clothes dry, okay?
+
+@ 106.167
+# 永沢 舞
+JP あは…。
+JP 社長の匂いがします～。
+EN Ahaha... It smells like you, Boss.
+
+@ 106.170
+# 社 長
+JP 当たり前だ。
+EN Of course it does.
+
+@ 106.174
+# 永沢 舞
+JP 社長の匂い…。
+JP いい匂い…。
+EN Your scent, Boss... It smells nice...
+
+@ 106.177
+# 社 長
+JP やれやれ…。
+EN Good grief...
+
+@ 107.28
+# scene 108 日常イベント２
+# 社 長
+JP 大降りになってきたな。
+EN It's really coming down now.
+
+@ 107.30
+# 社 長
+JP ロードワーク中の選手も
+JP いるみたいだし…。
+EN Looks like some of the wrestlers are out on
+EN roadwork...
+
+@ 107.32
+# 社 長
+JP タオルを用意して待っていてやるか。
+EN Guess I'll get some towels ready and wait for them.
+
+@ 107.45
+# 社 長
+JP おっ、帰ってきた。
+EN Oh, here they come.
+
+@ 107.55
+# 永沢 舞
+JP あは…。
+JP びしょびしょー…。
+JP 濡れちゃいました～。
+EN Ahaha... I'm soaked... I got drenched!
+
+@ 107.58
+# 社 長
+JP お疲れさん。
+JP はい、タオル。
+EN Good work. Here, a towel.
+
+@ 107.65
+# 永沢 舞
+JP あっ、社長！？
+EN Oh, Boss!?
+
+@ 107.68
+# 社 長
+JP 風邪引かないように
+JP 早く着替えろよ。
+EN Hurry and change so you don't catch a cold.
+
+@ 107.75
+# 永沢 舞
+JP はい、わかりま…ああーっ！
+EN Okay, I'll go... Oh nooo!
+
+@ 107.78
+# 社 長
+JP どうした！？
+JP まさか！？
+EN What's wrong!? Don't tell me...!?
+
+@ 107.85
+# 永沢 舞
+JP 着替え全部、洗濯機の中！
+EN All my spare clothes are in the washing machine!
+
+@ 107.88
+# 社 長
+JP またか！
+EN Again!?
+
+@ 107.90
+# 社 長
+JP 頼むから学習してくれ！
+EN Please, learn your lesson!
+
+@ 107.94
+# 永沢 舞
+JP どうしよう、ドウシヨー！
+EN What do I do, what do I do!
+
+@ 107.97
+# 社 長
+JP ああもう。
+JP ちょっと待ってろ。
+EN Oh, for crying out loud. Wait here a sec.
+
+@ 107.115
+# 社 長
+JP ……………
+EN ...............
+
+@ 107.131
+# 永沢 舞
+JP やったー！
+JP また社長のワイシャツー！
+EN Yaaay! Your dress shirt again, Boss!
+
+@ 107.134
+# 社 長
+JP いいな。
+JP 乾くまでだぞ？
+EN Listen. Only until your clothes dry, okay?
+
+@ 107.144
+# 永沢 舞
+JP すり～。
+JP すりすり～。
+EN Nuzzle... Nuzzle nuzzle...
+
+@ 107.147
+# 社 長
+JP …で、おまえはなんで
+JP 俺のワイシャツに頬ずり
+JP してるんだ？
+EN ...So why are you rubbing your cheek on my shirt?
+
+@ 107.157
+# 永沢 舞
+JP ニャンコちゃんたちは
+JP 気に入ったものに
+JP 自分の匂いをつけるんですよ。
+EN Kitties rub their scent on things they like, you know.
+
+@ 107.160
+# 社 長
+JP …気に入ってるのか？
+EN ...You like it?
+
+@ 107.170
+# 永沢 舞
+JP はい、とっても♪
+EN Yep, lots!
+
+@ 107.173
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 107.177
+# 永沢 舞
+JP すりすり～。
+JP すりすり～～。
+EN Nuzzle nuzzle... Nuzzle nuzzle...
+
+@ 107.180
+# 社 長
+JP （…やれやれ）
+EN (...Good grief.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 永沢 舞
+JP どっちが強いか勝負、ショーブ！
+EN Let's see who's stronger! Match, match!
+
+@ 109.16
+# scene 113 練習開始
+# 永沢 舞
+JP さあ、練習、レンシュー！
+EN Okay, training, training!
+
+@ 110.16
+# scene 114 練習開始 好意
+# 永沢 舞
+JP 今日もがんばります！
+JP 気合い、キアイ！
+EN I'll do my best today too! Fighting spirit, fighting
+EN spirit!
+
+@ 111.16
+# scene 115 特訓開始
+# 永沢 舞
+JP 特訓です。
+JP ファイト、ファイト！
+EN Special training. Fight, fight!
+
+@ 112.20
+# scene 116 特訓成功
+# 永沢 舞
+JP やったー！
+JP 成功、セイコウ！
+EN Yaaay! Success, success!
+
+@ 113.20
+# scene 117 特訓失敗
+# 永沢 舞
+JP あは…。
+JP ダメでしたー…。
+EN Ahaha... No good...
+
+@ 114.16
+# scene 118 休養
+# 永沢 舞
+JP 動物園巡り行ってきまーす！
+JP 楽しみ、タノシミ！
+EN I'm off on a zoo tour! Can't wait, can't wait!
+
+@ 115.16
+# scene 119 入場1
+# 永沢 舞
+JP 目指すはひとつ！
+JP 勝利、ショーリ！
+EN There's only one goal! Victory, victory!
+
+@ 116.16
+# scene 119 入場2
+# 永沢 舞
+JP 全国のニャンコちゃんや
+JP ワンちゃんのためにも
+JP がんばります！
+EN I'll do my best for all the kitties and doggies across
+EN the country!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# 永沢 舞
+JP がんばろうね！
+JP ファイト、ファイト！
+EN Let's do our best! Fight, fight!
+
+@ 118.16
+# scene 125 必殺技１
+# 永沢 舞
+JP みんな、お待たせー！
+JP 必殺技だよ、必殺技！
+EN Sorry to keep you waiting, everyone! Here's my
+EN finisher, my finisher!
+
+@ 119.16
+# scene 125 必殺技２
+# 永沢 舞
+JP 今日もバッチリ決めちゃうよ！
+EN I'm gonna nail it again today!
+
+@ 120.16
+# scene 125 必殺技３
+# 永沢 舞
+JP いっきまーす！
+JP 必殺、ヒッサツ！
+EN Here I gooo! Finisher, finisher!
+
+@ 121.12
+# scene 126 勝利1
+# 永沢 舞
+JP バッチリ勝利！
+JP 応援ありがとー！
+EN A solid win! Thanks for cheering!
+
+@ 122.12
+# scene 126 勝利2
+# 永沢 舞
+JP この勝利をニャンコちゃんに
+JP 捧げます！
+EN I dedicate this victory to my kitties!
+
+@ 123.12
+# scene 126 勝利3
+# 永沢 舞
+JP 完璧、カンペキ！
+JP 快勝だよ～！
+EN Perfect, perfect! What a win!
+
+@ 124.15
+# scene 133 表彰1
+# 永沢 舞
+JP 最高、サイコー！
+JP みんなに感謝、カンシャです！
+EN The best, the best! Thank you all, thank you!
+
+@ 125.15
+# scene 133 表彰2
+# 永沢 舞
+JP この喜びをウサちゃんたちに
+JP 伝えたいです！
+EN I wanna share this joy with my bunnies!
+
+@ 126.12
+# scene 134 優勝1
+# 永沢 舞
+JP 優勝、ユーショー！
+JP すっごく嬉しいですっ！
+EN Champion, champion! I'm sooo happy!
+
+@ 127.12
+# scene 134 優勝２
+# 永沢 舞
+JP ありがとう！
+JP これで動物好きの人が強いって
+JP 証明されましたね！
+EN Thank you! This proves animal lovers are strong!
+
+@ 128.24
+# scene 135 エンディング 通常
+# 永沢 舞
+JP 社長、お疲れ様でした。
+JP ニャンコちゃんともども
+JP これからもよろしく、ヨロシク！
+EN Thanks for all your hard work, Boss. Me and the
+EN kitties are counting on you, counting on you!
+
+@ 129.24
+# scene 136 エンディング 好意
+# 永沢 舞
+JP 社長は私の理想のご主人様！
+JP だから、いっ～ぱい甘えちゃって
+JP いいですか…？
+EN Boss, you're my ideal master! So... can I snuggle up
+EN to you lots and lots...?

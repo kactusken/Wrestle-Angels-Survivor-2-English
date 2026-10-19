@@ -1,0 +1,2220 @@
+# /SCR/052.BIN - ドルフィン早瀬
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 052` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ドルフィン早瀬
+JP あの、このテストに
+JP 落ちると大変なので…。
+JP お願いします！
+EN Um, it'd be really bad if I failed this tryout... Please!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ドルフィン早瀬
+JP よ、よかったぁ～。
+JP あの…ちょっと実家に
+JP 電話してきます。
+EN Ph-phew, what a relief! Um... I'm just going to call
+EN home real quick.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ドルフィン早瀬
+JP 明日からのご飯どうしよう…。
+EN What am I going to eat starting tomorrow...?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （たしかこのあたりに
+JP 　琉球空手をやってる娘がいるって
+JP 　話だったが……）
+EN (I heard there was a girl around here who does
+EN Ryukyu karate...)
+
+@ 3.25
+# 社 長
+JP （ん…焼けたサザエの匂い？
+JP 　なんでこんなところに屋台が？）
+EN (Hm... Is that grilled turban shell I smell? Why is there
+EN a food stall here?)
+
+@ 3.27
+# 社 長
+JP （……まあ、いいか。
+JP 　バイトの子もいるようだし
+JP 　あそこで聞いてみよう）
+EN (...Oh well. There's a part-timer working there. I'll
+EN ask her.)
+
+@ 3.29
+# 社 長
+JP あのー、すみませーん。
+EN Um, excuse me!
+
+@ 3.39
+# ？？？
+JP いらっしゃいませー。
+EN Welcome!
+
+@ 3.42
+# 社 長
+JP すみません。
+EN Excuse me.
+
+@ 3.44
+# 社 長
+JP （かくかくしかじか）
+EN (I explained the situation.)
+
+@ 3.46
+# 社 長
+JP …という女の子を
+JP 捜しているんですが…。
+EN ...So I'm looking for a girl like that...
+
+@ 3.53
+# ドルフィン早瀬
+JP えっ…あの、それって
+JP 私のことだと思いますけど…？
+EN Oh... um, I think that might be me...?
+
+@ 3.56
+# 社 長
+JP えっ、君が？
+EN Huh, you?
+
+@ 3.58
+# 社 長
+JP （ここでアルバイトしていたのか。
+JP 　あやうく見過ごすところだった…）
+EN (So she works part-time here. I almost walked right
+EN past her...)
+
+@ 3.64
+# 社 長
+JP 実はうちの団体に
+JP 入っていただけないかと
+JP 思いまして。
+EN Actually, I was hoping you might join my promotion.
+
+@ 3.66
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 3.73
+# ドルフィン早瀬
+JP うーん…。
+JP 琉球空手はやってたけど
+JP プロレスなんてできるかなあ…。
+EN Hmm... I did do Ryukyu karate, but I wonder if I could
+EN handle pro wrestling...
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# ドルフィン早瀬
+JP あっ、でもその方が
+JP 実入りはいいかな…。
+JP このバイト、儲け少ないし…。
+EN Oh, but it might pay better... This job doesn't make
+EN much...
+
+@ 4.18
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 4.29
+# ドルフィン早瀬
+JP ちょっと不安は残るけど
+JP がんばってみます。
+EN I'm still a little nervous, but I'll give it my best.
+
+@ 4.32
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. Glad to have you aboard!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ドルフィン早瀬
+JP すみません…。
+JP このバイトの元手
+JP まだ回収してないんで…。
+EN I'm sorry... I still haven't earned back what I put into
+EN this stall...
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （彼女はまだ、あの屋台で
+JP 　アルバイトしているのかな？）
+EN (I wonder if she's still working at that stall?)
+
+@ 6.25
+# 社 長
+JP （サザエの焼ける
+JP 　香ばしい匂いが漂ってくる。
+JP 　いるようだ）
+EN (I can smell turban shells grilling. Looks like she's
+EN here.)
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# ドルフィン早瀬
+JP いらっしゃいませ！
+JP あっ、社長さん！？
+JP もしかしてまた…。
+EN Welcome! Oh, it's you, President! Don't tell me you're
+EN here again...
+
+@ 6.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.47
+# ドルフィン早瀬
+JP えーと…。
+JP そこまで期待してもらえるのは
+JP 嬉しいんですけど…。
+EN Um... I'm happy you think so highly of me, but...
+
+@ 6.50
+# 社 長
+JP なんとか考え直してくれませんか。
+EN Won't you please reconsider?
+
+@ 6.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# ドルフィン早瀬
+JP あっ、でもその方が
+JP 実入りはいいかな…。
+JP このバイト、儲け少ないし…。
+EN Oh, but it might pay better... This job doesn't make
+EN much...
+
+@ 7.18
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 7.29
+# ドルフィン早瀬
+JP ちょっと不安は残るけど
+JP がんばってみます。
+EN I'm still a little nervous, but I'll give it my best.
+
+@ 7.32
+# 社 長
+JP ありがとう。
+JP これからよろしく！
+EN Thank you. Glad to have you aboard!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ドルフィン早瀬
+JP すみません…。
+JP このバイトの元手
+JP まだ回収してないんで…。
+EN I'm sorry... I still haven't earned back what I put into
+EN this stall...
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （早瀬選手…。
+JP 　なんと言っても琉球空手を
+JP 　取り入れた技には華がある）
+EN (Hayase... Her moves built on Ryukyu karate really
+EN have flair.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりに
+JP 　いるはずなんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# ドルフィン早瀬
+JP はい？
+JP あの…私に何か用ですか？
+EN Yes? Um... can I help you?
+
+@ 9.40
+# 社 長
+JP 私、プロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 9.47
+# ドルフィン早瀬
+JP あ、どうも…。
+JP 他の団体の社長さんですか…？
+EN Oh, hello... You're the president of another
+EN promotion...?
+
+@ 9.50
+# 社 長
+JP 実は、うちの団体に
+JP 移籍していただけないか
+JP ご相談にきました。
+EN Actually, I came to talk to you about transferring to
+EN my promotion.
+
+@ 9.57
+# ドルフィン早瀬
+JP …えっ？
+JP あっ、あの、もしかして…。
+JP 引き抜きってやつですか？
+EN ...Huh? Oh, um, could this be... what they call
+EN poaching?
+
+@ 9.60
+# 社 長
+JP はい。
+JP 是非お願いします。
+EN Yes. I'd very much like you to join us.
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# ドルフィン早瀬
+JP 今のところ待遇があれだし…。
+JP わかりました。
+JP 移籍します。
+EN The pay where I am now isn't great... All right. I'll
+EN transfer.
+
+@ 10.22
+# 社 長
+JP わかりました。
+JP …では、よろしくお願いします。
+EN Wonderful. ...Then I look forward to working with you.
+
+@ 10.29
+# ドルフィン早瀬
+JP それじゃ、このことを家族に
+JP 連絡してきますね。
+EN Okay, I'll go let my family know!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ドルフィン早瀬
+JP 生活のことを考えると
+JP リスクのあることはできません…。
+JP すみません…。
+EN When I think about making a living, I can't take any
+EN risks... I'm sorry...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　早瀬選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (My promotion really needs Hayase. I decided to
+EN negotiate with her once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# ドルフィン早瀬
+JP あっ、社長さんじゃないですか。
+JP また移籍の話ですか？
+EN Oh, it's you, President. Is this about transferring
+EN again?
+
+@ 12.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.45
+# ドルフィン早瀬
+JP う～ん…。
+JP 新しい団体かあ…。
+EN Hmm... A new promotion, huh...
+
+@ 12.48
+# 社 長
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# ドルフィン早瀬
+JP 今のところ待遇があれだし…。
+JP わかりました。
+JP 移籍します。
+EN The pay where I am now isn't great... All right. I'll
+EN transfer.
+
+@ 13.22
+# 社 長
+JP わかりました。
+JP …では、よろしくお願いします。
+EN Wonderful. ...Then I look forward to working with you.
+
+@ 13.29
+# ドルフィン早瀬
+JP それじゃ、このことを家族に
+JP 連絡してきますね。
+EN Okay, I'll go let my family know!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ドルフィン早瀬
+JP 生活のことを考えると
+JP リスクのあることはできません…。
+JP すみません…。
+EN When I think about making a living, I can't take any
+EN risks... I'm sorry...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （早瀬選手…。
+JP 　琉球空手をベースにした打撃技を
+JP 　是非うちのリングでも…）
+EN (Hayase... I'd love to have her Ryukyu karate strikes
+EN in my ring...)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりに
+JP 　いるはずなんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# ドルフィン早瀬
+JP はい、どちら様ですか？
+EN Yes, who might you be?
+
+@ 15.40
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.47
+# ドルフィン早瀬
+JP つまり社長さんの団体に
+JP 入れってことですか？
+EN So you're asking me to join your promotion?
+
+@ 15.50
+# 社 長
+JP どうでしょう？
+EN What do you think?
+
+@ 15.57
+# ドルフィン早瀬
+JP う～ん…。
+JP どうしようかな…。
+EN Hmm... What should I do...
+
+@ 15.60
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 15.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# ドルフィン早瀬
+JP うーん…。
+JP 団体に所属している方が
+JP 収入は安定するかな…。
+EN Hmm... I guess being with a promotion would mean a
+EN steadier income...
+
+@ 16.18
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 16.29
+# ドルフィン早瀬
+JP わかりました。
+JP それではお世話になります。
+EN All right. I'll be in your care, then.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ドルフィン早瀬
+JP 団体に入ると家族と過ごせる時間が
+JP 減ってしまいそうなので…。
+EN I think joining a promotion would mean less time with
+EN my family...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　早瀬選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (My promotion really needs Hayase. I decided to
+EN negotiate with her once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# ドルフィン早瀬
+JP あっ、社長さん。
+JP またスカウトですか？
+EN Oh, President. Scouting me again?
+
+@ 18.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.45
+# ドルフィン早瀬
+JP う～ん…。
+JP どうしようかな…。
+EN Hmm... What should I do...
+
+@ 18.48
+# 社 長
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# ドルフィン早瀬
+JP うーん…。
+JP 団体に所属している方が
+JP 収入は安定するかな…。
+EN Hmm... I guess being with a promotion would mean a
+EN steadier income...
+
+@ 19.18
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 19.29
+# ドルフィン早瀬
+JP わかりました。
+JP それではお世話になります。
+EN All right. I'll be in your care, then.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ドルフィン早瀬
+JP 団体に入ると家族と過ごせる時間が
+JP 減ってしまいそうなので…。
+EN I think joining a promotion would mean less time with
+EN my family...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…あっ、早瀬っ！
+EN She should be around here... Ah, Hayase!
+
+@ 21.33
+# ドルフィン早瀬
+JP 社長！？
+EN Boss?!
+
+@ 21.36
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.43
+# ドルフィン早瀬
+JP はい…。
+JP 今日はどうかされたんですか…？
+EN Yes... Is something the matter today...?
+
+@ 21.46
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you because I want
+EN you to come back...
+
+@ 21.50
+# ドルフィン早瀬
+JP そんなこと…今さら言われても…。
+EN Saying that now, after all this time...
+
+@ 21.53
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask something like this...
+
+@ 21.55
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ドルフィン早瀬
+JP …私なんかでいいんですか？
+EN ...Are you sure you want someone like me?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yes. I need your help.
+
+@ 22.29
+# ドルフィン早瀬
+JP …わかりました。
+JP あの…でも、年俸の方
+JP 少しだけでも…。
+EN ...All right. Um... but about my salary, if it could be
+EN even a little more...
+
+@ 22.32
+# 社 長
+JP わかってる。
+JP 相談に応じるよ。
+EN I understand. We can talk about it.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ドルフィン早瀬
+JP すみません。
+JP 私、もう別の人生を歩んで
+JP いますから…。
+EN I'm sorry. I've already moved on with my life...
+
+@ 23.22
+# 社 長
+JP どうしてもダメなのか？
+EN There's really no way?
+
+@ 23.26
+# ドルフィン早瀬
+JP すみません…。
+EN I'm sorry...
+
+@ 23.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... Understood...
+
+@ 23.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 早瀬っ！
+EN Hayase!
+
+@ 24.33
+# ドルフィン早瀬
+JP …社長！
+JP なんで、また…。
+EN ...Boss! Why are you here again...
+
+@ 24.36
+# 社 長
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN I came to ask again. I really want you back in the
+EN promotion.
+
+@ 24.38
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ドルフィン早瀬
+JP …私なんかでいいんですか？
+EN ...Are you sure you want someone like me?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yes. I need your help.
+
+@ 25.29
+# ドルフィン早瀬
+JP …わかりました。
+JP あの…でも、年俸の方
+JP 少しだけでも…。
+EN ...All right. Um... but about my salary, if it could be
+EN even a little more...
+
+@ 25.32
+# 社 長
+JP わかってる。
+JP 相談に応じるよ。
+EN I understand. We can talk about it.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ドルフィン早瀬
+JP すみません。
+JP 私、もう別の人生を歩んで
+JP いますから…。
+EN I'm sorry. I've already moved on with my life...
+
+@ 26.22
+# 社 長
+JP どうしてもダメなのか？
+EN There's really no way?
+
+@ 26.26
+# ドルフィン早瀬
+JP すみません…。
+EN I'm sorry...
+
+@ 26.29
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... Understood...
+
+@ 26.31
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ドルフィン早瀬
+JP まだやれますから！
+JP 試合、出させてください。
+EN I can still fight! Please let me wrestle!
+
+@ 28.16
+# scene 029 ケガ大
+# ドルフィン早瀬
+JP これは無理かなぁ…。
+EN I don't think I can do this one...
+
+@ 29.16
+# scene 030 入院
+# ドルフィン早瀬
+JP 入院費って
+JP 自己負担なんでしょうか…？
+EN Um, do I have to pay the hospital bills myself...?
+
+@ 30.16
+# scene 031 退院
+# ドルフィン早瀬
+JP もう平気です。
+EN I'm all better now.
+
+@ 31.16
+# scene 032 ケガ完治
+# ドルフィン早瀬
+JP 治ったみたいです。
+JP よかったぁ～。
+JP もう生活費ギリギリだったんで…。
+EN Looks like I'm healed. Thank goodness! My living
+EN expenses were almost gone...
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ドルフィン早瀬
+JP わかりました…。
+JP 家族に説明してきます…。
+EN All right... I'll go explain it to my family...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ドルフィン早瀬
+JP そんな…。
+JP 今辞めたら仕送りが…。
+EN No... If I quit now, I can't send money home...
+
+@ 34.16
+# scene 035 コーチ就任
+# ドルフィン早瀬
+JP こういう勤め方もいいですね！
+JP 誠心誠意努力します！
+EN This is a nice way to work too! I'll do my very best!
+
+@ 35.16
+# scene 036 ケガ引退
+# ドルフィン早瀬
+JP 明日からどうやって食べていこう…？
+EN How am I going to put food on the table from now
+EN on...?
+
+@ 36.16
+# scene 037 年齢引退
+# ドルフィン早瀬
+JP 家族の生活のメドも立ったし
+JP そろそろ休もうかなって…。
+EN My family's on their feet now, so I think it's time I
+EN took a rest...
+
+@ 37.16
+# scene 038 退団
+# ドルフィン早瀬
+JP ここにいたら家族を養えないんで…。
+EN I can't support my family if I stay here...
+
+@ 38.16
+# scene 039 スランプ
+# ドルフィン早瀬
+JP ちーちゃん…。
+JP お姉ちゃん、ダメになっちゃった…。
+EN Chii... Your big sister's not doing so well...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ドルフィン早瀬
+JP ファンクラブですか！？
+JP やったぁ！
+EN A fan club?! Yay!
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# ドルフィン早瀬
+JP はい！
+JP がんばれるのも、ファンのみなさんの
+JP おかげですから。
+EN Yes! It's all thanks to the fans that I can keep going.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ドルフィン早瀬
+JP ええっ！
+JP またファンクラブが
+JP できたんですか！？
+EN Whaat! Another fan club?!
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# ドルフィン早瀬
+JP はい、これからもっともっと
+JP がんばりますよ。
+EN Yes, I'll work even harder from now on!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ドルフィン早瀬
+JP そんな…。
+JP なくなっちゃったんですか
+JP ファンクラブ。
+EN No... My fan club is gone?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.26
+# ドルフィン早瀬
+JP 人気が下がったら
+JP 試合に出させてもらえなく
+JP なるんでしょうか…？
+EN If I get less popular, will I stop getting put in
+EN matches...?
+
+@ 42.16
+# scene 043 映画出演
+# ドルフィン早瀬
+JP あの…。
+JP 家族に招待券を送っても
+JP いいでしょうか？
+EN Um... would it be okay to send my family free tickets?
+
+@ 43.16
+# scene 044 一日署長
+# ドルフィン早瀬
+JP ギャラなんて関係ない
+JP 大切な仕事ですね。
+EN This is an important job. The pay doesn't matter at
+EN all.
+
+@ 44.16
+# scene 045 写真集発売
+# ドルフィン早瀬
+JP ギャラ出るんですよね？
+JP ちょっと恥ずかしいですけど
+JP がんばります。
+EN It pays, right? It's a little embarrassing, but I'll do my
+EN best.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ドルフィン早瀬
+JP スポンサーはどこですか？
+JP 試供品とかもらえないですかね？
+EN Who's the sponsor? Do you think they'll give me free
+EN samples?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ドルフィン早瀬
+JP あの…。
+JP これ、印税ってもらえるんですか？
+EN Um... do I get royalties for this?
+
+@ 47.16
+# scene 048 始球式
+# ドルフィン早瀬
+JP わぁ、始球式ですか。
+JP 家族を招待しても構いませんか？
+EN Wow, a first pitch! Would it be okay to invite my
+EN family?
+
+@ 48.16
+# scene 049 学園祭
+# ドルフィン早瀬
+JP お土産をいっぱい買って帰りますね！
+EN I'll buy lots of souvenirs to take home!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# ドルフィン早瀬
+JP …えっ、こんな高価なもの
+JP 受け取れません！
+EN ...Huh? I can't accept something so expensive!
+
+@ 49.39
+# 社 長
+JP 気にするな。
+JP これからもよろしくな。
+EN Don't worry about it. Here's to the future.
+
+@ 49.46
+# ドルフィン早瀬
+JP あ、あの…。
+JP ありがとうございます。
+JP 宝物にします…。
+EN U-um... Thank you so much. I'll treasure it...
+
+@ 50.30
+# scene 051 バレンタインデー
+# ドルフィン早瀬
+JP あっ、社長。
+JP これ、バレンタインのチョコです。
+EN Oh, Boss. Here, Valentine's chocolate.
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thank you.
+
+@ 50.40
+# ドルフィン早瀬
+JP 材料費を極限まで節約した
+JP 自信作なんです。
+JP ぜひ感想を聞かせてくださいね。
+EN I cut the ingredient costs to the absolute limit, and
+EN I'm really proud of it. Tell me what you think!
+
+@ 50.43
+# 社 長
+JP （…材料に何を使ったんだろう？）
+EN (...What did she use for ingredients?)
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# ドルフィン早瀬
+JP あ、ありがとうございます。
+JP さっそく実家に送らせて
+JP もらいますね！
+EN Th-thank you very much! I'll send it straight home to
+EN my family!
+
+@ 51.39
+# 社 長
+JP （……えっ？）
+EN (......Huh?)
+
+@ 52.31
+# scene 053 サイン会
+# ドルフィン早瀬
+JP 一生懸命やりますから
+JP これからも応援お願いします。
+EN I'll give it everything I've got, so please keep
+EN cheering for me.
+
+@ 53.31
+# scene 054 コンサート
+# ドルフィン早瀬
+JP 今日はありがとうございます！
+JP これからもお願いします！
+EN Thank you so much for today! Please keep
+EN supporting me!
+
+@ 54.28
+# scene 055 練習拒否
+# ドルフィン早瀬
+JP あの…。
+JP 実家に用事があって…。
+EN Um... I have some family business back home...
+
+@ 55.28
+# scene 056 失踪
+# ドルフィン早瀬
+JP 家族の笑顔が見たくなりました…。
+EN I wanted to see my family smile...
+
+@ 56.16
+# scene 057 選手解雇
+# ドルフィン早瀬
+JP クッ、クビ！？
+JP そんな…。
+JP どうか取り消してください！
+EN F-fired?! No... Please take it back!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ドルフィン早瀬
+JP 外国なんて…。
+JP うわ～、ドキドキしてきた。
+EN Going abroad... Wow, my heart's pounding.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ドルフィン早瀬
+JP 次は家族を連れて行けるように
+JP がんばります。
+EN Next time, I'll work hard so I can take my family with
+EN me.
+
+@ 59.28
+# scene 060 移籍思案
+# ドルフィン早瀬
+JP う～っ…。
+JP 義理とお金が天秤に……。
+EN Ugh... Loyalty on one side, money on the other...
+
+@ 60.16
+# scene 061 革命軍結成
+# ドルフィン早瀬
+JP たとえ貧しくても
+JP 失ってはいけないものが
+JP あるんです！
+EN Even if you're poor, there are some things you must
+EN never lose!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ドルフィン早瀬
+JP これはギャラの問題じゃないんです！
+EN This isn't about the money!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ドルフィン早瀬
+JP そろそろ、いがみ合いは
+JP 止めにしましょう！
+EN It's time we put an end to all this fighting!
+
+@ 63.16
+# scene 064 遺恨発生
+# ドルフィン早瀬
+JP あれはやっぱり許されないのでは…。
+EN I really don't think what happened can be forgiven...
+
+@ 64.16
+# scene 065 殴り込み
+# ドルフィン早瀬
+JP お姉ちゃん、がんばるよ！
+EN Your big sister's going to give it her all!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ドルフィン早瀬
+JP 私の職場は荒らさせません！
+EN I won't let you wreck my workplace!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ドルフィン早瀬
+JP 特別手当のために
+JP 倒させてもらいますっ！
+EN For the special bonus, I'm taking you down!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ドルフィン早瀬
+JP ここが気合の見せどころですっ！
+EN This is where I show my fighting spirit!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ドルフィン早瀬
+JP やりましたー！
+JP 優勝賞金って出ますか…？
+EN I did it! Um, is there prize money for winning...?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ドルフィン早瀬
+JP もっとがんばらないとダメですね…。
+EN I need to work even harder...
+
+@ 70.13
+# scene 071 引退式
+# ドルフィン早瀬
+JP 今までありがとうございました！
+JP 家族を代表してみなさんに感謝します！
+EN Thank you for everything! On behalf of my family, I
+EN thank you all!
+
+@ 71.17
+# ドルフィン早瀬
+JP 早瀬、参りましたっ！
+EN Hayase, reporting in!
+
+@ 71.36
+# ドルフィン早瀬
+JP 社長。
+JP なんでしょう？
+EN Boss. What is it?
+
+@ 71.46
+# ドルフィン早瀬
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.89
+# ドルフィン早瀬
+JP ありがとうございます！
+JP もっともっとがんばります！
+EN Thank you! I'll work even harder!
+
+@ 71.110
+# ドルフィン早瀬
+JP はい…。
+JP まあ、家族のためですから…。
+EN Yes... Well, it's for my family...
+
+@ 71.131
+# ドルフィン早瀬
+JP 社長に見守ってもらえて
+JP 私、幸せです…。
+EN Having you watch over me makes me so happy, Boss...
+
+@ 71.152
+# ドルフィン早瀬
+JP 誉めてくれて
+JP すごく嬉しいんですけど…。
+EN I'm really happy you're praising me, but...
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# ドルフィン早瀬
+JP すみません…。
+JP 気をつけます…。
+EN I'm sorry... I'll be careful...
+
+@ 71.210
+# ドルフィン早瀬
+JP がんばってますよ。
+JP なんの問題もありませんよ。
+EN I'm working hard. There's no problem at all.
+
+@ 71.231
+# ドルフィン早瀬
+JP もっとがんばりますから
+JP 見捨てないでください！
+EN I'll work harder, so please don't give up on me!
+
+@ 71.252
+# ドルフィン早瀬
+JP 社長の期待に応えられなくて
+JP すみません…。
+EN I'm sorry I couldn't live up to your expectations,
+EN Boss...
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.289
+# ドルフィン早瀬
+JP ちょっとアルバイトが…。
+JP でも、もう大丈夫ですから。
+EN It's just my part-time job... But I'm fine now.
+
+@ 71.310
+# ドルフィン早瀬
+JP 家族のことが少し心配で…。
+EN I'm just a little worried about my family...
+
+@ 71.331
+# ドルフィン早瀬
+JP 社長の声を聞くと
+JP 元気になれるんですよね…。
+EN Hearing your voice always cheers me up, Boss...
+
+@ 71.352
+# ドルフィン早瀬
+JP ちーちゃん…。
+JP お姉ちゃん、もうダメかも……。
+EN Chii... I think your big sister's at her limit......
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# ドルフィン早瀬
+JP 見当はついてますけど…。
+EN I have a pretty good idea...
+
+@ 71.399
+# ドルフィン早瀬
+JP なんの話ですか？
+EN What's this about?
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# ドルフィン早瀬
+JP わかりました…。
+JP 雇い主の意向には従わないと…。
+EN All right... I have to follow my employer's wishes...
+
+@ 71.453
+# ドルフィン早瀬
+JP 私は悪くないと思います！
+EN I don't think I did anything wrong!
+
+@ 71.474
+# ドルフィン早瀬
+JP あの…。
+JP 話がよく見えないんですけど…。
+EN Um... I'm not really sure what you mean...
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# ドルフィン早瀬
+JP …はい。
+EN ...Yes.
+
+@ 71.521
+# ドルフィン早瀬
+JP …なんでしょう？
+EN ...What is it?
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# ドルフィン早瀬
+JP そうですね…。
+JP ちょっと大人げなかったかも
+JP しれません…。
+EN You're right... Maybe I was being a little childish...
+
+@ 71.577
+# ドルフィン早瀬
+JP そんな…。
+JP 社長はわかってくれてると
+JP 思ってたのに…。
+EN No... I thought you of all people would understand,
+EN Boss...
+
+@ 71.598
+# ドルフィン早瀬
+JP あの…。
+JP なんの話ですか？
+EN Um... What's this about?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ドルフィン早瀬
+JP 社長。
+JP なんでしょう？
+EN Boss. What is it?
+
+@ 72.16
+# ドルフィン早瀬
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ドルフィン早瀬
+JP ありがとうございます！
+JP もっともっとがんばります！
+EN Thank you! I'll work even harder!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ドルフィン早瀬
+JP はい…。
+JP まあ、家族のためですから…。
+EN Yes... Well, it's for my family...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ドルフィン早瀬
+JP 社長に見守ってもらえて、
+JP 私、幸せです…。
+EN Having you watch over me makes me so happy, Boss...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ドルフィン早瀬
+JP 誉めてくれて、
+JP すごく嬉しいんですけど…。
+EN I'm really happy you're praising me, but...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ドルフィン早瀬
+JP すみません…。
+JP 気をつけます…。
+EN I'm sorry... I'll be careful...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ドルフィン早瀬
+JP がんばってますよ。
+JP なんの問題もありませんよ。
+EN I'm working hard. There's no problem at all.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ドルフィン早瀬
+JP もっとがんばりますから、
+JP 見捨てないでください！
+EN I'll work harder, so please don't give up on me!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ドルフィン早瀬
+JP 社長の期待に応えられなくて、
+JP すみません…。
+EN I'm sorry I couldn't live up to your expectations,
+EN Boss...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ドルフィン早瀬
+JP ちょっとアルバイトが…。
+JP でも、もう大丈夫ですから。
+EN It's just my part-time job... But I'm fine now.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ドルフィン早瀬
+JP 家族のことが少し心配で…。
+EN I'm just a little worried about my family...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ドルフィン早瀬
+JP 社長の声を聞くと、
+JP 元気になれるんですよね…。
+EN Hearing your voice always cheers me up, Boss...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ドルフィン早瀬
+JP ちーちゃん…。
+JP お姉ちゃん、もうダメかも……。
+EN Chii... I think your big sister's at her limit......
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ドルフィン早瀬
+JP 見当はついてますけど…。
+EN I have a pretty good idea...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ドルフィン早瀬
+JP なんの話ですか？
+EN What's this about?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ドルフィン早瀬
+JP わかりました…。
+JP 雇い主の意向には従わないと…。
+EN All right... I have to follow my employer's wishes...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ドルフィン早瀬
+JP 私は悪くないと思います！
+EN I don't think I did anything wrong!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ドルフィン早瀬
+JP あの…。
+JP 話がよく見えないんですけど…。
+EN Um... I'm not really sure what you mean...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ドルフィン早瀬
+JP …はい。
+EN ...Yes.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ドルフィン早瀬
+JP …なんでしょう？
+EN ...What is it?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ドルフィン早瀬
+JP そうですね…。
+JP ちょっと大人げなかったかも
+JP しれません…。
+EN You're right... Maybe I was being a little childish...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ドルフィン早瀬
+JP そんな…。
+JP 社長はわかってくれてると
+JP 思ってたのに…。
+EN No... I thought you of all people would understand,
+EN Boss...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ドルフィン早瀬
+JP あの…。
+JP なんの話ですか？
+EN Um... What's this about?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ドルフィン早瀬
+JP ありがとうございます。
+JP もっともっとがんばりますね。
+EN Thank you. I'll work even harder!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ドルフィン早瀬
+JP えっ、こんなにもらって
+JP いいんですか！？
+JP あ、私、がんばりますっ！
+EN Huh, I can really have this much?! I-I'll do my best!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ドルフィン早瀬
+JP ちーちゃんの学費…どうしようかな…。
+EN Chii's school fees... What am I going to do...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this really is the tropics. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （…んっ？
+JP 　誰かが波打ち際で
+JP 　屈み込んでいるぞ）
+EN (...Hm? Someone's crouching at the water's edge.)
+
+@ 105.38
+# 社 長
+JP （あれは…早瀬か？）
+EN (Is that... Hayase?)
+
+@ 105.40
+# 社 長
+JP おーい、早瀬。
+JP 何しているんだー？
+EN Hey, Hayase! What are you doing?
+
+@ 105.57
+# ドルフィン早瀬
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 105.60
+# 社 長
+JP 何やってるんだ？
+JP 潮干狩りか？
+EN What are you up to? Digging for clams?
+
+@ 105.70
+# ドルフィン早瀬
+JP いえ、家族へのお土産を
+JP 探しているんです。
+EN No, I'm looking for souvenirs for my family.
+
+@ 105.73
+# 社 長
+JP お土産…って、貝？
+EN Souvenirs... you mean seashells?
+
+@ 105.83
+# ドルフィン早瀬
+JP はい。
+JP 綺麗な貝がいっぱいあるんですよ。
+EN Yes. There are lots of pretty shells here.
+
+@ 105.86
+# 社 長
+JP へぇ。
+EN Huh.
+
+@ 105.88
+# 社 長
+JP でもお土産にできるような貝は
+JP 探すのに時間がかかるだろう？
+EN But finding shells nice enough for souvenirs would
+EN take a while, wouldn't it?
+
+@ 105.90
+# 社 長
+JP ホテルに土産物屋もあったし
+JP 別のものにしたらどうだ？
+EN The hotel has a gift shop. Why not get something
+EN else?
+
+@ 105.100
+# ドルフィン早瀬
+JP あの…でも…。
+JP あんまりお金ないですし…。
+EN Um... but... I don't have much money...
+
+@ 105.103
+# 社 長
+JP （しまった…。
+JP 　あまりよくない話題だったか）
+EN (Oops... Maybe that wasn't the best thing to bring
+EN up.)
+
+@ 105.105
+# 社 長
+JP えー、だったら、そうだな。
+JP あれだ。
+EN Uh, well then, let's see. I know.
+
+@ 105.107
+# 社 長
+JP 俺がお土産を買ってやるよ。
+EN I'll buy your souvenirs for you.
+
+@ 105.117
+# ドルフィン早瀬
+JP そんな、悪いですよ。
+JP 気にしないでください。
+EN Oh no, I couldn't. Please don't worry about it.
+
+@ 105.120
+# 社 長
+JP いいよ、いいよ。
+JP そっちこそ遠慮するな。
+EN It's fine, it's fine. Don't hold back.
+
+@ 105.122
+# 社 長
+JP 早瀬にはいつも土産代以上に
+JP 働いてもらってるんだからさ。
+EN You always work way harder than a few souvenirs
+EN are worth.
+
+@ 105.132
+# ドルフィン早瀬
+JP それじゃ…。
+JP ご好意に甘えちゃっていいですか？
+EN Then... is it okay if I take you up on that?
+
+@ 105.135
+# 社 長
+JP いいぞ。
+JP たっぷり甘えてくれ。
+EN Sure. Take me up on it all you want.
+
+@ 105.137
+# 社 長
+JP よし。
+JP そうと決まったら
+JP 今から一緒に買いに行くか。
+EN Alright. In that case, let's go shopping together
+EN right now.
+
+@ 105.141
+# ドルフィン早瀬
+JP はい。
+JP ありがとうございます。
+EN Okay. Thank you so much.
+
+@ 105.145
+# ドルフィン早瀬
+JP ちーちゃんに何買って
+JP あげようかな…。
+EN What should I get for Chii...
+
+@ 105.159
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.161
+# 社 長
+JP （その後、俺たちはホテルに
+JP 　お土産を買いに戻ったのだった）
+EN (After that, we headed back to the hotel to buy
+EN souvenirs.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、残業終了！）
+EN (Alright, overtime's done!)
+
+@ 106.26
+# 社 長
+JP （さあ、帰るか…）
+EN (Time to go home...)
+
+@ 106.28
+# 社 長
+JP （ジムに明かりがついている？）
+EN (The lights are on in the gym?)
+
+@ 106.30
+# 社 長
+JP （まだ誰かいるのか？）
+EN (Is someone still here?)
+
+@ 106.42
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.44
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがないな）
+EN (Someone forgot to turn off the lights... Oh well.)
+
+@ 106.68
+# ドルフィン早瀬
+JP ホワチャー！
+EN Hwaaacha!
+
+@ 106.85
+# 社 長
+JP うおっ！？
+EN Whoa?!
+
+@ 106.87
+# 社 長
+JP は、早瀬…！？
+EN H-Hayase...?!
+
+@ 106.97
+# ドルフィン早瀬
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 106.100
+# 社 長
+JP …何やってるんだ？
+EN ...What are you doing?
+
+@ 106.104
+# ドルフィン早瀬
+JP はい！
+JP 新しい技を研究しているんです！
+EN I'm working on a new move!
+
+@ 106.107
+# 社 長
+JP 新しい技？
+EN A new move?
+
+@ 106.111
+# ドルフィン早瀬
+JP はい！
+JP 琉球空手を取り入れた
+JP 私だけの技を考えようかと思って。
+EN Yes! I want to come up with a move all my own, based
+EN on Ryukyu karate.
+
+@ 106.114
+# 社 長
+JP そうなのか。
+EN I see.
+
+@ 106.118
+# ドルフィン早瀬
+JP 私、あまり才能ないですし
+JP 努力しないと強くなれませんから！
+EN I'm not very talented, so I have to work hard to get
+EN stronger!
+
+@ 106.121
+# 社 長
+JP そうか…。
+JP それで新しい技はできそうなのか？
+EN I see... So, is the new move coming along?
+
+@ 106.125
+# ドルフィン早瀬
+JP あはは…。
+JP まだちょっと難しそうです…。
+EN Ahaha... It still looks a little tough...
+
+@ 106.128
+# 社 長
+JP そんなに簡単に
+JP できるものでもないしな。
+EN It's not something you can pull off that easily.
+
+@ 106.132
+# ドルフィン早瀬
+JP はい…。
+EN Right...
+
+@ 106.135
+# 社 長
+JP でも努力が裏切ることはないから
+JP 無理をせずにがんばれよ。
+EN But hard work never betrays you. Keep at it, just
+EN don't overdo it.
+
+@ 106.145
+# ドルフィン早瀬
+JP はい！
+JP ありがとうございます！
+EN Okay! Thank you!
+
+@ 106.170
+# ドルフィン早瀬
+JP ホワチャー！
+EN Hwaaacha!
+
+@ 106.173
+# 社 長
+JP うおっ！？
+EN Whoa?!
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （今日の仕事はこれでお終いだ）
+EN (That's it for today's work.)
+
+@ 107.26
+# 社 長
+JP （よし、帰るか）
+EN (Alright, time to go home.)
+
+@ 107.28
+# 社 長
+JP （ジムに明かりがついている？）
+EN (The lights are on in the gym?)
+
+@ 107.30
+# 社 長
+JP （まだ誰かいるのか？）
+EN (Is someone still here?)
+
+@ 107.42
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.44
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがないな）
+EN (Someone forgot to turn off the lights... Oh well.)
+
+@ 107.46
+# 社 長
+JP （んっ…。
+JP 　なんだかこのシチュエーションに
+JP 　覚えがあるぞ…）
+EN (Hm... This situation seems awfully familiar...)
+
+@ 107.74
+# ドルフィン早瀬
+JP ホワチャー！
+EN Hwaaacha!
+
+@ 107.77
+# 社 長
+JP （やっぱり…）
+EN (Thought so...)
+
+@ 107.79
+# 社 長
+JP また早瀬か…。
+EN Hayase again...
+
+@ 107.89
+# ドルフィン早瀬
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 107.92
+# 社 長
+JP また新技の研究か？
+EN Working on a new move again?
+
+@ 107.96
+# ドルフィン早瀬
+JP はい。
+JP 今の強さでは試合で
+JP 全然勝てないので…。
+EN Yes. I can't win any matches as strong as I am now...
+
+@ 107.100
+# ドルフィン早瀬
+JP だから、もっと努力して
+JP 強くなりたいんです！
+EN So I want to work harder and get stronger!
+
+@ 107.103
+# 社 長
+JP （そうか…。
+JP 　真剣に考えているんだな…）
+EN (I see... She's really serious about this...)
+
+@ 107.105
+# 社 長
+JP よし、俺も練習に付き合うぞ！
+EN Alright, I'll train with you!
+
+@ 107.109
+# ドルフィン早瀬
+JP ……えっ！？
+JP そんな…。
+EN ......Huh?! Oh, no...
+
+@ 107.113
+# ドルフィン早瀬
+JP 私の練習に社長を
+JP 付き合わせる訳には…。
+EN I can't make you train with me, Boss...
+
+@ 107.116
+# 社 長
+JP いや、気にするな。
+JP 俺が勝手に付き合うだけだ。
+EN No, don't worry about it. I'm just tagging along on my
+EN own.
+
+@ 107.118
+# 社 長
+JP ポーズはこうか？
+JP うりゃっ！
+EN Is the stance like this? Hyah!
+
+@ 107.128
+# ドルフィン早瀬
+JP …えっ？
+JP あっ、はい！
+EN ...Huh? Oh, yes!
+
+@ 107.138
+# ドルフィン早瀬
+JP 社長…。
+JP ありがとうございます！
+EN Boss... Thank you so much!
+
+@ 107.141
+# 社 長
+JP よし、いくぞ！
+EN Alright, here we go!
+
+@ 107.151
+# ドルフィン早瀬
+JP はいっ！
+EN Yes!
+
+@ 107.170
+# ドルフィン早瀬
+JP ホワチャー！
+EN Hwaaacha!
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# ドルフィン早瀬
+JP 正々堂々、いい試合をしましょう！
+EN Let's have a fair, clean, good match!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# ドルフィン早瀬
+JP よろしくね！
+EN Let's have a good one!
+
+@ 110.16
+# scene 113 練習開始
+# ドルフィン早瀬
+JP 少しでも勝てるように
+JP がんばらないと…。
+EN I have to work hard so I can win at least a little
+EN more...
+
+@ 111.16
+# scene 114 練習開始 好意
+# ドルフィン早瀬
+JP 団体のお荷物には
+JP なりたくないですから…。
+EN I don't want to be dead weight for the promotion...
+
+@ 112.16
+# scene 115 特訓開始
+# ドルフィン早瀬
+JP はい！
+JP 貴重な機会を与えてくださって
+JP ありがとうございます！
+EN Yes! Thank you for giving me this precious
+EN opportunity!
+
+@ 113.20
+# scene 116 特訓成功
+# ドルフィン早瀬
+JP これで次の試合こそは…！
+EN Now, next match for sure...!
+
+@ 114.20
+# scene 117 特訓失敗
+# ドルフィン早瀬
+JP 琉球空手をやっていた頃の
+JP トラウマが…。
+EN My trauma from my Ryukyu karate days...
+
+@ 115.16
+# scene 118 休養
+# ドルフィン早瀬
+JP 家族に手紙を書く時間が
+JP 欲しかったんです！
+JP …あっ、でも、切手代…。
+EN I wanted time to write letters to my family! ...Oh, but
+EN the stamps cost money...
+
+@ 116.16
+# scene 119 入場1
+# ドルフィン早瀬
+JP 家族のためにも、私は負けられない！
+EN For my family's sake, I can't lose!
+
+@ 117.16
+# scene 119 入場2
+# ドルフィン早瀬
+JP この試合に勝って
+JP いっぱい仕送りするんです！
+EN I'll win this match and send lots of money home!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# ドルフィン早瀬
+JP 清く正しく、そして貧しく！
+JP 私たちは負けません！
+EN Pure, honest, and poor! We won't lose!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# ドルフィン早瀬
+JP 一生懸命やるから！
+EN I'll give it my all!
+
+@ 120.16
+# scene 125 必殺技１
+# ドルフィン早瀬
+JP 琉球空手の真価を
+JP 見せてやるんだから！
+EN I'll show you what Ryukyu karate can really do!
+
+@ 121.16
+# scene 125 必殺技２
+# ドルフィン早瀬
+JP 私だって、やればできる！
+EN I can do it too if I try!
+
+@ 122.16
+# scene 125 必殺技３
+# ドルフィン早瀬
+JP 家族のためにも負けられません！
+EN For my family's sake, I can't lose!
+
+@ 123.12
+# scene 126 勝利1
+# ドルフィン早瀬
+JP やったぁ～！
+JP なんとか勝てたぁ！
+EN Yaaay! I somehow managed to win!
+
+@ 124.12
+# scene 126 勝利2
+# ドルフィン早瀬
+JP うわー、きわどかった。
+JP やっぱり私、弱いのかなあ…。
+EN Whoa, that was close. Maybe I really am weak...
+
+@ 125.12
+# scene 126 勝利3
+# ドルフィン早瀬
+JP やったー！
+JP これでまた仕送りができます！
+EN Yay! Now I can send money home again!
+
+@ 126.15
+# scene 133 表彰1
+# ドルフィン早瀬
+JP ありがとうございます！
+JP さっそく家族に報告しようと
+JP 思います！
+EN Thank you so much! I'm going to tell my family right
+EN away!
+
+@ 127.15
+# scene 133 表彰2
+# ドルフィン早瀬
+JP まさか、私がもらえるなんて…。
+JP 天変地異の前触れとかじゃ
+JP ないですよね？
+EN I can't believe I'm getting this... This isn't a sign of
+EN the apocalypse, is it?
+
+@ 128.12
+# scene 134 優勝1
+# ドルフィン早瀬
+JP 私が勝つなんて
+JP 予想もしてなかったでしょ。
+JP 実は私もです！
+EN You never expected me to win, did you? Honestly,
+EN neither did I!
+
+@ 129.12
+# scene 134 優勝２
+# ドルフィン早瀬
+JP いつの間にか
+JP 私も強くなったんですね！
+EN I guess I got stronger without even noticing!
+
+@ 130.24
+# scene 135 エンディング 通常
+# ドルフィン早瀬
+JP 社長、おめでとうございます！
+JP 私、ギャラの分
+JP ちゃんと働きましたよね？
+EN Congratulations, Boss! I earned my pay, didn't I?
+
+@ 131.24
+# scene 136 エンディング 好意
+# ドルフィン早瀬
+JP 今までは家族が第一だったけど
+JP これからは社長が…。
+JP ずっと側にいていいですか？
+EN Until now, my family came first, but from now on, you...
+EN Can I stay by your side forever?

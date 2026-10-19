@@ -1,0 +1,10 @@
+{
+ "english": "CPU BUSINESS | MOVE ART | TRAINING FX | Page | Change",
+ "boxes": [[28, 86, 168, 28], [50, 126, 124, 28], [38, 166, 147, 28], [435, 52, 44, 19], [530, 52, 69, 19]],
+ "groups": [
+  {"labels": [0, 1, 2], "fill": "bright", "ground": "interpolate", "reach": 3, "font": "BarlowSemiCondensed-Bold.ttf", "cap": 16},
+  {"labels": [3, 4], "fill": "bright", "ground": "interpolate", "reach": 2, "font": "BarlowSemiCondensed-Bold.ttf", "cap": 10}
+ ],
+ "catalogue": {"source": "/SYS/OPTION.BIN", "width": 640, "height": 352, "bpp": 8, "category": "screen", "japanese": "COM団体の営業 技絵の表示 練習時の演出 / ページ 設定変更"},
+ "notes": "options screen page 2 (picture 2 of SYS/OPTION.BIN, not a .GSL: needs gfx.py support for .BIN containers); labels in capitals like page 1's own English labels"
+}

@@ -1,0 +1,2648 @@
+# /SCR/045.BIN - ディアナ・ライアル
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 045` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ディアナ・ライアル
+JP えぇと…よろしくお願いしまス！
+EN Um... please take care of me!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ディアナ・ライアル
+JP ありがとうございまス！
+JP 一生懸命、がんばります！
+EN Thank you so much! I will try my very best!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ディアナ・ライアル
+JP アハ、残念…。
+JP ありがとうございました！
+EN Aha, too bad... Thank you anyway!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP たしか、このあたりかな。
+EN It should be around here somewhere.
+
+@ 3.25
+# 社 長
+JP ブラジルから、レスラーになるために
+JP 日本に来ている少女がいるという。
+EN I heard there's a girl who came all the way from
+EN Brazil to Japan to become a wrestler.
+
+@ 3.27
+# 社 長
+JP 今は先輩レスラーの元で
+JP 世話になっているらしいが
+JP かなりの素質の持ち主だとか…。
+EN She's being looked after by a veteran wrestler for
+EN now, but they say she has real talent...
+
+@ 3.29
+# 社 長
+JP そういう少女がいるなら
+JP 他の団体に先を越される前に
+JP スカウトしたい。
+EN If a girl like that is out there, I want to scout her
+EN before another promotion beats me to it.
+
+@ 3.31
+# 社 長
+JP ん…。
+JP 商店街で買い物をしている
+JP あの娘かな。
+EN Hm... Could it be that girl doing her shopping on the
+EN market street?
+
+@ 3.33
+# 社 長
+JP ずいぶんサービスしてもらってる…。
+JP かなり日本に馴染んでいるようだな。
+EN The shopkeepers are giving her all kinds of extras...
+EN She seems right at home in Japan.
+
+@ 3.35
+# 社 長
+JP あの、すみません。
+JP ディアナさんですか？
+EN Um, excuse me. Are you Diana?
+
+@ 3.45
+# ディアナ・ライアル
+JP ハイ、そうでス。
+JP どなたでスか？
+EN Yes, that is me. Who are you?
+
+@ 3.48
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.55
+# ディアナ・ライアル
+JP プロレス団体の社長さん！
+EN The president of a wrestling promotion!
+
+@ 3.58
+# 社 長
+JP ええ、どうでしょう？
+JP デビュー先を探していると
+JP いうことですが…。
+EN Yes. What do you say? I heard you're looking for a
+EN place to debut...
+
+@ 3.65
+# ディアナ・ライアル
+JP えっ…。
+JP ス、スカウトですカ？
+JP 私を！？
+EN Eh...? Y-you are scouting? Me!?
+
+@ 3.68
+# 社 長
+JP そのとおりです。
+EN That's right.
+
+@ 3.70
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ディアナ・ライアル
+JP えっと…私でよければ……。
+JP ぜ、ぜひ、よろしくお願いしまス！
+EN Um... if you really want me... Y-yes, please! I would
+EN love to!
+
+@ 4.22
+# 社 長
+JP こちらこそ。
+EN The pleasure's mine.
+
+@ 4.29
+# ディアナ・ライアル
+JP ミカさんに
+JP 「もう、リングにあがっていいよ」って
+JP 言われたばかりなんですヨ。
+EN Mika just told me, "You're ready to step into the ring
+EN now!"
+
+@ 4.32
+# 社 長
+JP （ちょうどいい
+JP 　タイミングだったようだ）
+EN (Looks like my timing was perfect.)
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# ディアナ・ライアル
+JP でも、ごめんなさい。
+JP ミカさんに「まだ実戦はダメ」って
+JP 言われてるんでス。
+EN But I'm sorry. Mika says, "No real matches yet."
+
+@ 5.22
+# 社 長
+JP そうか。
+JP 残念だな。
+JP じゃあ、出直すとするよ。
+EN I see. That's a shame. I'll come back another time,
+EN then.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あのー、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# ディアナ・ライアル
+JP あっ、こないだの社長さん！
+EN Ah, the president from the other day!
+
+@ 6.36
+# 社 長
+JP うん。
+JP そろそろ体は治ったのかなって思って。
+EN Yes. I thought your body might be healed by now.
+
+@ 6.43
+# ディアナ・ライアル
+JP それでわざわざ来てくれたんですカ。
+JP ありがとうございます。
+JP 嬉しいでス！
+EN You came all this way for that? Thank you. I am so
+EN happy!
+
+@ 6.46
+# 社 長
+JP それで…どうかな？
+EN So... what do you say?
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ディアナ・ライアル
+JP えっと…私でよければ……。
+JP ぜひ、よろしくお願いしまス！
+EN Um... if you really want me... Yes, please! I would love
+EN to!
+
+@ 7.22
+# 社 長
+JP こちらこそ。
+EN The pleasure's mine.
+
+@ 7.29
+# ディアナ・ライアル
+JP ミカさんに
+JP 「もう、リングにあがっていいよ」って
+JP 言われたばかりなんですヨ。
+EN Mika just told me, "You're ready to step into the ring
+EN now!"
+
+@ 7.32
+# 社 長
+JP （ちょうどいい
+JP 　タイミングだったようだ）
+EN (Looks like my timing was perfect.)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ディアナ・ライアル
+JP でも、ごめんなさい。
+JP ミカさんに「まだ実戦はダメ」って
+JP 言われてるんでス。
+EN But I'm sorry. Mika says, "No real matches yet."
+
+@ 8.22
+# 社 長
+JP そうか。
+JP 残念だな。
+JP じゃあ、出直すとするよ。
+EN I see. That's a shame. I'll come back another time,
+EN then.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺はディアナ選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Diana.
+
+@ 9.25
+# 社 長
+JP ディアナ選手は弟妹達を養うために
+JP 子供の頃からリングに上がっている
+JP レスラーだ。
+EN Diana has been stepping into the ring since she was
+EN a child, to support her little brothers and sisters.
+
+@ 9.27
+# 社 長
+JP ただ、稼ぐために無理がたたり
+JP 体を壊したところを…
+JP 日本のレスラーに救われたのだという。
+EN But she pushed herself too hard to earn money and
+EN wrecked her body... and a Japanese wrestler saved
+EN her.
+
+@ 9.29
+# 社 長
+JP それ以来、日本を主戦場にしている。
+EN Ever since, Japan has been her home ring.
+
+@ 9.31
+# 社 長
+JP 苦労人だが、それをまったく
+JP 感じさせない明るいファイトは
+JP 心に響くものがある。
+EN She's had a hard life, but you'd never know it from
+EN her bright, cheerful fighting. It really touches
+EN people.
+
+@ 9.33
+# 社 長
+JP たしかこのあたりにいるはず
+JP だけど…。
+EN She should be somewhere around here...
+
+@ 9.35
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.37
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.47
+# ディアナ・ライアル
+JP ハイ。
+JP なんでスか？
+EN Yes? What is it?
+
+@ 9.50
+# 社 長
+JP 私、こういう者ですが…。
+EN Here's my card...
+
+@ 9.52
+# 社 長
+JP （俺は身分を明かして
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 9.59
+# ディアナ・ライアル
+JP スカウトですか？
+JP 私を？
+EN You are scouting? Me?
+
+@ 9.62
+# 社 長
+JP ええ、そうなんです。
+JP どうでしょうか？
+EN Yes, that's right. What do you say?
+
+@ 9.69
+# ディアナ・ライアル
+JP ち…ちょっと、待ってくださいね。
+EN J-just a moment, please.
+
+@ 9.72
+# 社 長
+JP はあ…。
+EN Uh, sure...
+
+@ 9.74
+# 社 長
+JP （そして、彼女は携帯電話を取り出し
+JP 　誰かと話をしはじめた）
+EN (She took out her cell phone and started talking to
+EN someone.)
+
+@ 10.14
+# scene 011 移籍交渉 他団体所属 成功
+# 社 長
+JP （しばらく話をした後
+JP 　電話を切った彼女が頷く）
+EN (After talking a while, she hung up and nodded.)
+
+@ 10.21
+# ディアナ・ライアル
+JP ミカさんが
+JP 「チャンスだから行ってみなさい」って
+JP 言ってくれましタ。
+EN Mika said, "It's a chance, so go for it!"
+
+@ 10.24
+# 社 長
+JP （ああ、お世話になっている人に
+JP 　相談してたのか）
+EN (Ah, she was asking the person who looks after her.)
+
+@ 10.26
+# 社 長
+JP と、いうことは…。
+EN So that means...
+
+@ 10.37
+# ディアナ・ライアル
+JP はい。
+JP よろしくお願いしまス！
+EN Yes. Please take care of me!
+
+@ 10.40
+# 社 長
+JP よかった。
+JP こちらこそ。
+EN Great. The pleasure's mine.
+
+@ 11.14
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 社 長
+JP （しばらく話をした後
+JP 　電話を切った彼女は
+JP 　申し訳なさそうに首を振った）
+EN (After talking a while, she hung up and shook her
+EN head apologetically.)
+
+@ 11.25
+# ディアナ・ライアル
+JP ごめんなさい。
+JP 家族と相談したんですけど
+JP 今のところでがんばんなきゃって。
+EN I'm sorry. I talked with my family, and they say I must
+EN keep working hard where I am.
+
+@ 11.28
+# 社 長
+JP （ああ、地球の裏側にいる家族と
+JP 　相談したのか）
+EN (Ah, she was asking her family on the other side of
+EN the world.)
+
+@ 11.30
+# 社 長
+JP 残念だけど、それなら仕方ないな…。
+EN That's a shame, but if that's how it is, it can't be
+EN helped...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP ディアナ選手が必要だ。
+EN My promotion really needs Diana.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ディアナ・ライアル
+JP あ、こないだの社長さん…。
+JP ひょっとして…。
+EN Ah, the president from the other day... Could it be...?
+
+@ 12.40
+# 社 長
+JP ええ、同じお願いをしに来ました。
+EN Yes, I've come to ask the same favor.
+
+@ 12.47
+# ディアナ・ライアル
+JP すみません…。
+JP また、相談していいですカ？
+EN I'm sorry... May I ask for advice again?
+
+@ 12.50
+# 社 長
+JP ええ、どうぞ。
+EN Sure, go ahead.
+
+@ 12.52
+# 社 長
+JP （そして、彼女は携帯電話を取り出し
+JP 　誰かと話をしはじめた）
+EN (She took out her cell phone and started talking to
+EN someone.)
+
+@ 13.14
+# scene 014 移籍交渉 他団体所属２ 成功
+# 社 長
+JP （しばらく話をした後
+JP 　電話を切った彼女が頷く）
+EN (After talking a while, she hung up and nodded.)
+
+@ 13.21
+# ディアナ・ライアル
+JP ミカさんが
+JP 「チャンスだから行ってみなさい」って
+JP 言ってくれましタ。
+EN Mika said, "It's a chance, so go for it!"
+
+@ 13.24
+# 社 長
+JP （ああ、お世話になっている人に
+JP 　相談してたのか）
+EN (Ah, she was asking the person who looks after her.)
+
+@ 13.26
+# 社 長
+JP と、いうことは…。
+EN So that means...
+
+@ 13.37
+# ディアナ・ライアル
+JP はい。
+JP よろしくお願いしまス！
+EN Yes. Please take care of me!
+
+@ 13.40
+# 社 長
+JP よかった。
+JP こちらこそ。
+EN Great. The pleasure's mine.
+
+@ 14.14
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 社 長
+JP （しばらく話をした後
+JP 　電話を切った彼女は
+JP 　申し訳なさそうに首を振った）
+EN (After talking a while, she hung up and shook her
+EN head apologetically.)
+
+@ 14.25
+# ディアナ・ライアル
+JP ごめんなさい。
+JP 家族と相談したんですけど
+JP 今のところでがんばんなきゃって。
+EN I'm sorry. I talked with my family, and they say I must
+EN keep working hard where I am.
+
+@ 14.28
+# 社 長
+JP 残念だけど、それなら仕方ないな…。
+EN That's a shame, but if that's how it is, it can't be
+EN helped...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺はディアナ選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Diana.
+
+@ 15.25
+# 社 長
+JP ディアナ選手は弟妹達を養うために
+JP 子供の頃からリングに上がっている
+JP レスラーだ。
+EN Diana has been stepping into the ring since she was
+EN a child, to support her little brothers and sisters.
+
+@ 15.27
+# 社 長
+JP 苦労人だが、それをまったく
+JP 感じさせない明るいファイトは
+JP 心に響くものがある。
+EN She's had a hard life, but you'd never know it from
+EN her bright, cheerful fighting. It really touches
+EN people.
+
+@ 15.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# ディアナ・ライアル
+JP はい。
+JP どちら様ですカ？
+EN Yes. Who are you, please?
+
+@ 15.44
+# 社 長
+JP えーと…。
+JP 私、こういう者ですが…。
+EN Uh... Here's my card...
+
+@ 15.46
+# 社 長
+JP （俺は身分を明かして
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 15.53
+# ディアナ・ライアル
+JP 入団ですカ？
+EN Join your promotion?
+
+@ 15.56
+# 社 長
+JP ええ、そうなんです。
+JP どうでしょうか？
+EN Yes, that's right. What do you say?
+
+@ 15.63
+# ディアナ・ライアル
+JP ち…ちょっと、待ってくださいね。
+EN J-just a moment, please.
+
+@ 15.66
+# 社 長
+JP はあ…。
+EN Uh, sure...
+
+@ 15.68
+# 社 長
+JP （そして、彼女は携帯電話を取り出し
+JP 　誰かと話をしはじめた）
+EN (She took out her cell phone and started talking to
+EN someone.)
+
+@ 16.14
+# scene 017 移籍交渉 フリー１ 成功
+# 社 長
+JP （しばらく話をした後
+JP 　電話を切った彼女が頷く）
+EN (After talking a while, she hung up and nodded.)
+
+@ 16.21
+# ディアナ・ライアル
+JP ミカさんが
+JP 「団体に所属するのも１つの道」って
+JP 勧めてくれましタ。
+EN Mika told me, "Joining a promotion is one good path
+EN too."
+
+@ 16.24
+# 社 長
+JP （ああ、お世話になっている人に
+JP 　相談してたのか）
+EN (Ah, she was asking the person who looks after her.)
+
+@ 16.26
+# 社 長
+JP と、いうことは…。
+EN So that means...
+
+@ 16.37
+# ディアナ・ライアル
+JP はい。
+JP よろしくお願いしまス！
+EN Yes. Please take care of me!
+
+@ 16.40
+# 社 長
+JP よかった。
+JP こちらこそ。
+EN Great. The pleasure's mine.
+
+@ 17.15
+# scene 018 移籍交渉 フリー 失敗
+# 社 長
+JP （しばらく話をした後
+JP 　電話を切った彼女は
+JP 　申し訳なさそうに首を振った）
+EN (After talking a while, she hung up and shook her
+EN head apologetically.)
+
+@ 17.26
+# ディアナ・ライアル
+JP ごめんなさい。
+JP 家族と相談したんですけど
+JP まだフリーでがんばんなきゃって。
+EN I'm sorry. I talked with my family, and they say I must
+EN keep working hard as a freelancer.
+
+@ 17.29
+# 社 長
+JP （ああ、地球の裏側にいる家族と
+JP 　相談したのか）
+EN (Ah, she was asking her family on the other side of
+EN the world.)
+
+@ 17.31
+# 社 長
+JP 残念だけど、それなら仕方ないな…。
+EN That's a shame, but if that's how it is, it can't be
+EN helped...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP ディアナ選手が必要だ。
+EN My promotion really needs Diana.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP ディアナ選手と交渉することにした。
+EN I decided to negotiate with Diana one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ディアナ・ライアル
+JP あ、こないだの社長さん…。
+JP ひょっとして…。
+EN Ah, the president from the other day... Could it be...?
+
+@ 18.40
+# 社 長
+JP ええ、同じお願いをしに来ました。
+EN Yes, I've come to ask the same favor.
+
+@ 18.47
+# ディアナ・ライアル
+JP すみません…。
+JP また、相談していいですカ？
+EN I'm sorry... May I ask for advice again?
+
+@ 18.50
+# 社 長
+JP ええ、どうぞ。
+EN Sure, go ahead.
+
+@ 18.52
+# 社 長
+JP （そして、彼女は携帯電話を取り出し
+JP 　誰かと話をしはじめた）
+EN (She took out her cell phone and started talking to
+EN someone.)
+
+@ 19.14
+# scene 020 移籍交渉 フリー２ 成功
+# 社 長
+JP （しばらく話をした後
+JP 　電話を切った彼女が頷く）
+EN (After talking a while, she hung up and nodded.)
+
+@ 19.21
+# ディアナ・ライアル
+JP ミカさんが
+JP 「団体に所属するのも１つの道」って
+JP 勧めてくれましタ。
+EN Mika told me, "Joining a promotion is one good path
+EN too."
+
+@ 19.24
+# 社 長
+JP （ああ、お世話になっている人に
+JP 　相談してたのか）
+EN (Ah, she was asking the person who looks after her.)
+
+@ 19.26
+# 社 長
+JP と、いうことは…。
+EN So that means...
+
+@ 19.37
+# ディアナ・ライアル
+JP はい。
+JP よろしくお願いしまス！
+EN Yes. Please take care of me!
+
+@ 19.40
+# 社 長
+JP よかった。
+JP こちらこそ。
+EN Great. The pleasure's mine.
+
+@ 20.14
+# scene 021 移籍交渉 フリー２ 失敗
+# 社 長
+JP （しばらく話をした後
+JP 　電話を切った彼女は
+JP 　申し訳なさそうに首を振った）
+EN (After talking a while, she hung up and shook her
+EN head apologetically.)
+
+@ 20.25
+# ディアナ・ライアル
+JP ごめんなさい。
+JP 家族と相談したんですけど
+JP まだフリーでがんばんなきゃって。
+EN I'm sorry. I talked with my family, and they say I must
+EN keep working hard as a freelancer.
+
+@ 20.28
+# 社 長
+JP 残念だけど、それなら仕方ないな…。
+EN That's a shame, but if that's how it is, it can't be
+EN helped...
+
+@ 20.30
+# 社 長
+JP （彼女にとって
+JP 　家族はそれだけ大事って
+JP 　ことだもんな）
+EN (Her family means that much to her, after all.)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺はディアナを訪ねることにした。
+EN I decided to go and see Diana.
+
+@ 21.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP ただ…彼女の場合は事情が事情だから
+JP さすがに会うのが少し気まずい。
+EN But given what happened between us, meeting her
+EN again is a little awkward.
+
+@ 21.29
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be somewhere around here...
+
+@ 21.31
+# 社 長
+JP あ、いた。
+EN Ah, there she is.
+
+@ 21.33
+# 社 長
+JP ディアナ……。
+EN Diana...
+
+@ 21.43
+# ディアナ・ライアル
+JP …………あ……。
+EN .......Ah...
+
+@ 21.46
+# 社 長
+JP ひ、久しぶりだな。
+JP 今、どうしてる？
+EN L-long time no see. How are you doing these days?
+
+@ 21.53
+# ディアナ・ライアル
+JP …ミカさんのお世話になってまス。
+JP あと、フリーで働いて
+JP なんとか弟妹達に仕送りを…。
+EN ...Mika is looking after me. And I work freelance, so I
+EN can somehow send money to my brothers and
+EN sisters...
+
+@ 21.56
+# 社 長
+JP そ、そうか…。
+EN I-I see...
+
+@ 21.58
+# 社 長
+JP 実は戻ってきて欲しくて探していた
+JP …とか言ったら、怒るか？
+EN Would you be angry if I said... I've been looking for
+EN you because I want you back?
+
+@ 21.65
+# ディアナ・ライアル
+JP 戻って欲しい……ですカ？
+EN You want me... back?
+
+@ 21.68
+# 社 長
+JP ああ、すまん。
+JP 本当に反省している。
+EN Yes. I'm sorry. I truly regret what I did.
+
+@ 21.70
+# 社 長
+JP （俺は彼女に団体に戻ってくれるように
+JP 　頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ディアナ・ライアル
+JP 頭を上げてください。
+JP お仕事ですもの…仕方ないでス。
+EN Please raise your head. It was business... it could not
+EN be helped.
+
+@ 22.18
+# 社 長
+JP なら…。
+EN Then...
+
+@ 22.29
+# ディアナ・ライアル
+JP ええ。
+JP もう一度お世話になりますネ。
+JP でも、もう捨てちゃいやですヨ？
+EN Yes. I will be in your care once more. But don't throw
+EN me away again, okay?
+
+@ 22.32
+# 社 長
+JP ああ、もちろんだ。
+EN Of course I won't.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# ディアナ・ライアル
+JP 頭を上げてください。
+JP お仕事ですもの…。
+JP 社長だけが悪い訳ではないでス。
+EN Please raise your head. It was business... It is not
+EN only your fault, Boss.
+
+@ 23.18
+# 社 長
+JP なら…。
+EN Then...
+
+@ 23.29
+# ディアナ・ライアル
+JP でもゴメンナサイ。
+JP 弟や妹の生活を考えると…。
+JP 信用のないところへは戻れませン。
+EN But I'm sorry. I must think of my brothers' and
+EN sisters' lives... I cannot go back to a place I can't
+EN trust.
+
+@ 23.32
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 23.34
+# 社 長
+JP （……これも、身から出たサビか）
+EN (...I suppose I brought this on myself.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再びディアナを
+JP 訪ねることにした。
+EN I decided to go and see Diana again.
+
+@ 24.25
+# 社 長
+JP やはり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be somewhere around here...
+
+@ 24.29
+# 社 長
+JP いた…。
+EN There she is...
+
+@ 24.31
+# 社 長
+JP ディアナ。
+EN Diana.
+
+@ 24.41
+# ディアナ・ライアル
+JP あ……。
+JP もしかして…またですカ？
+EN Ah... Could it be... again?
+
+@ 24.44
+# 社 長
+JP 本当にすまん。
+JP でも、おまえを諦めきれなくてね。
+EN I'm truly sorry. But I just can't give up on you.
+
+@ 24.46
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.48
+# 社 長
+JP （俺は彼女に団体に戻ってくれるように
+JP 　頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ディアナ・ライアル
+JP 頭を上げてください。
+JP お仕事ですもの…仕方ないでス。
+EN Please raise your head. It was business... it could not
+EN be helped.
+
+@ 25.18
+# 社 長
+JP なら…。
+EN Then...
+
+@ 25.29
+# ディアナ・ライアル
+JP ええ。
+JP もう一度お世話になりますネ。
+JP でも、もう捨てちゃいやですヨ？
+EN Yes. I will be in your care once more. But don't throw
+EN me away again, okay?
+
+@ 25.32
+# 社 長
+JP ああ、もちろんだ。
+EN Of course I won't.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ディアナ・ライアル
+JP 頭を上げてください。
+JP お仕事ですもの…。
+JP 社長だけが悪い訳ではないでス。
+EN Please raise your head. It was business... It is not
+EN only your fault, Boss.
+
+@ 26.18
+# 社 長
+JP なら…。
+EN Then...
+
+@ 26.29
+# ディアナ・ライアル
+JP でもゴメンナサイ。
+JP 弟や妹の生活を考えると…。
+JP 信用のないところへは戻れませン。
+EN But I'm sorry. I must think of my brothers' and
+EN sisters' lives... I cannot go back to a place I can't
+EN trust.
+
+@ 26.32
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 26.34
+# 社 長
+JP （……これも、身から出たサビか）
+EN (...I suppose I brought this on myself.)
+
+@ 27.16
+# scene 028 ケガ小
+# ディアナ・ライアル
+JP …もっと、気をつけなきゃ。
+EN ...I must be more careful.
+
+@ 28.16
+# scene 029 ケガ大
+# ディアナ・ライアル
+JP …私一人の体じゃないのニ……。
+EN ...My body is not only mine to break...
+
+@ 29.16
+# scene 030 入院
+# ディアナ・ライアル
+JP ごめんなさい…。
+JP しっかり、治してきまス。
+EN I'm sorry... I will heal up properly.
+
+@ 30.16
+# scene 031 退院
+# ディアナ・ライアル
+JP さあ、また稼がなきゃ！
+EN Okay, time to earn money again!
+
+@ 31.16
+# scene 032 ケガ完治
+# ディアナ・ライアル
+JP もう、ケガなんてしないように
+JP 気をつけなくちゃ！
+EN I must be careful not to get hurt ever again!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ディアナ・ライアル
+JP そうですね…。
+JP もう、弟妹たちも安心できる歳だし…。
+EN You are right... My brothers and sisters are old
+EN enough now that they will be okay...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ディアナ・ライアル
+JP ごめんなさい。
+JP もう少し…がんばらせてくだサイ。
+EN I'm sorry. Please... let me keep trying a little longer.
+
+@ 34.16
+# scene 035 コーチ就任
+# ディアナ・ライアル
+JP はいっ、がんばりまス！
+EN Yes! I will do my best!
+
+@ 35.16
+# scene 036 ケガ引退
+# ディアナ・ライアル
+JP ごめんね、みんな…。
+JP お姉ちゃん、限界みたい……。
+EN I'm sorry, everyone... Big Sis has reached her limit...
+
+@ 36.16
+# scene 037 年齢引退
+# ディアナ・ライアル
+JP …お姉ちゃん
+JP 最後は自分のために戦うね。
+EN ...For my last fight, Big Sis will fight for herself.
+
+@ 37.16
+# scene 038 退団
+# ディアナ・ライアル
+JP ごめんなさい…。
+JP ここでは…もう……。
+EN I'm sorry... I can't... stay here anymore...
+
+@ 38.16
+# scene 039 スランプ
+# ディアナ・ライアル
+JP …どうしよう……。
+EN ...What do I do...?
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ディアナ・ライアル
+JP ファンクラブですか…？
+JP 私に！？
+EN A fan club...? For me!?
+
+@ 39.19
+# 社 長
+JP よかったな。
+JP 期待に応えるようにな。
+EN Good for you. Live up to their hopes.
+
+@ 39.26
+# ディアナ・ライアル
+JP は、はいっ！
+JP がんばりまス！！
+EN Y-yes! I will do my best!!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ディアナ・ライアル
+JP またファンクラブができたんですカ？
+EN Another fan club is made?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP ますますがんばらないとな。
+EN Yes. You'll have to work even harder now.
+
+@ 40.26
+# ディアナ・ライアル
+JP は、はいっ！
+JP うぅ…気合い、入れまス！！
+EN Y-yes! Uuu... I'll fire myself up!!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ディアナ・ライアル
+JP 解散ですカ。
+EN It is breaking up?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.26
+# ディアナ・ライアル
+JP アハ…。
+JP 仕方ないでス。
+EN Aha... It can't be helped.
+
+@ 42.16
+# scene 043 映画出演
+# ディアナ・ライアル
+JP ブ…ブラジルでも上映するのかナ？
+EN W-will they show it in Brazil too?
+
+@ 43.16
+# scene 044 一日署長
+# ディアナ・ライアル
+JP アノ…いいんでしょうか？
+JP 私なんかが…。
+EN Um... is it really okay? Someone like me...?
+
+@ 44.16
+# scene 045 写真集発売
+# ディアナ・ライアル
+JP は…恥ずかしいでス……。
+EN S-so embarrassing...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ディアナ・ライアル
+JP わ、わかりましタ。
+JP たくさん売れるように
+JP がんばりまス！
+EN O-okay. I will do my best so it sells a lot!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ディアナ・ライアル
+JP 歌…ですか。
+JP ダンスの方が自信あるんですケド…。
+EN Singing...? I'm more confident in my dancing...
+
+@ 47.16
+# scene 048 始球式
+# ディアナ・ライアル
+JP 野球場って、広いですよネ。
+JP おもいっきり、投げてきまス！
+EN A baseball stadium is so big, yes? I will throw with all
+EN my might!
+
+@ 48.16
+# scene 049 学園祭
+# ディアナ・ライアル
+JP 学校…。
+JP 日本の学校って
+JP どんなところか楽しみでス。
+EN A school... I can't wait to see what Japanese schools
+EN are like.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.38
+# ディアナ・ライアル
+JP わあ、ありがとうございまス！
+EN Wow, thank you so much!
+
+@ 49.41
+# 社 長
+JP ああ、これからもよろしく。
+EN Sure. Here's to the year ahead.
+
+@ 49.48
+# ディアナ・ライアル
+JP 大事にしますネ！
+JP さっそく、みんなに報告しなきゃ♪
+EN I will treasure it! I must tell everyone right away♪
+
+@ 50.32
+# scene 051 バレンタインデー
+# ディアナ・ライアル
+JP あ、あの社長…。
+JP これ、チョコでス。
+JP 日本ではチョコを贈るんですよネ。
+EN U-um, Boss... This is chocolate. In Japan you give
+EN chocolate, yes?
+
+@ 50.35
+# 社 長
+JP うん…。
+JP ありがとう。
+EN Yeah... Thank you.
+
+@ 50.42
+# ディアナ・ライアル
+JP あと一緒に
+JP …キスも贈るんですよネ……。
+JP （チュッ）
+EN And together with it... you give a kiss too, yes...?
+EN (Smooch)
+
+@ 50.45
+# 社 長
+JP うお。
+EN Whoa.
+
+@ 50.47
+# 社 長
+JP （誰だ、ディアナに
+JP 　嘘を吹き込んだのは…）
+EN (Who's been feeding Diana these lies...?)
+
+@ 50.49
+# 社 長
+JP （しかし、された後では言いづらいな…。
+JP 　黙っていよう）
+EN (But it's hard to say anything after the fact... I'll
+EN keep quiet.)
+
+@ 51.31
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, as thanks for last month?
+
+@ 51.38
+# ディアナ・ライアル
+JP わあ、ありがとうございまス！
+JP 社長、大好き！！
+EN Wow, thank you so much! I love you, Boss!!
+
+@ 51.41
+# 社 長
+JP 喜んでもらえて嬉しいよ。
+EN I'm glad you like it.
+
+@ 52.31
+# scene 053 サイン会
+# ディアナ・ライアル
+JP 応援ありがとうございまス！
+JP サインは日本語とポルトガル語の
+JP どっちがいいですカ？
+EN Thank you for cheering! Do you want my autograph
+EN in Japanese or in Portuguese?
+
+@ 53.31
+# scene 054 コンサート
+# ディアナ・ライアル
+JP き…緊張しまス！
+EN I-I'm so nervous!
+
+@ 54.28
+# scene 055 練習拒否
+# ディアナ・ライアル
+JP ごめんなさい…。
+JP ちょっとだけ、休ませてください。
+EN I'm sorry... Please let me rest, just a little.
+
+@ 55.28
+# scene 056 失踪
+# ディアナ・ライアル
+JP ごめんなさい……。
+JP ごめんなさい……。
+EN I'm sorry... I'm sorry...
+
+@ 56.16
+# scene 057 選手解雇
+# ディアナ・ライアル
+JP そんな……仕送り…どうしよう……。
+EN No... What about the money for home... What do I do...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ディアナ・ライアル
+JP わかりました！
+JP ディアナ、行ってきまス！
+EN Okay! Diana is on her way!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ディアナ・ライアル
+JP ただいまでス！
+EN I'm hooome!
+
+@ 59.28
+# scene 060 移籍思案
+# ディアナ・ライアル
+JP ミカさん……。
+JP 私、どうしたら……。
+EN Mika... What should I do...?
+
+@ 60.16
+# scene 061 革命軍結成
+# ディアナ・ライアル
+JP これが…私の恩返しでス。
+EN This is... how I repay what I owe.
+
+@ 61.16
+# scene 062 反乱軍結成
+# ディアナ・ライアル
+JP これが正しいって…私は信じてまス！
+EN I believe... that this is right!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ディアナ・ライアル
+JP 決着、つけましょう！
+EN Let's settle this!
+
+@ 63.16
+# scene 065 遺恨発生
+# ディアナ・ライアル
+JP ………………。
+EN .........
+
+@ 64.16
+# scene 065 殴り込み
+# ディアナ・ライアル
+JP わかりましタ！
+JP 任せてください！！
+EN Okay! Leave it to me!!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ディアナ・ライアル
+JP 私が相手でス！
+EN I will be your opponent!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ディアナ・ライアル
+JP 勝負でス！
+EN Let's fight!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ディアナ・ライアル
+JP わかりました…。
+JP がんばりまス！
+EN Okay... I will do my best!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ディアナ・ライアル
+JP アハ！
+JP やった、やりましたあっ！
+JP ヤ――――――――ッ！
+EN Aha! I did it, I diiid it! Yaaaaaaaay!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ディアナ・ライアル
+JP ごめんなさイ…。
+JP 私では、ダメでした。
+EN I'm sorry... I was not good enough.
+
+@ 70.13
+# scene 071 引退式
+# ディアナ・ライアル
+JP 今まで、ありがとうございましタ。
+JP 私、この国が…みんなが大好きでス！
+JP これからも、大好きでス！！
+EN Thank you for everything until now. I love this
+EN country... and all of you! I always will!!
+
+@ 71.17
+# ディアナ・ライアル
+JP はい、なんですカ？
+EN Yes, what is it?
+
+@ 71.36
+# ディアナ・ライアル
+JP はい、なんですカ？
+EN Yes, what is it?
+
+@ 71.46
+# ディアナ・ライアル
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing well lately. Keep it up.
+
+@ 71.89
+# ディアナ・ライアル
+JP もちろんでス。
+JP 家族のためにもがんばらなくちゃ！
+EN Of course. I must work hard for my family!
+
+@ 71.110
+# ディアナ・ライアル
+JP 少しニュアンスわかりませんでしタ。
+JP ごめんなさい。
+JP 日本語もっと勉強しまス。
+EN I did not quite get the nuance. I'm sorry. I will study
+EN Japanese more.
+
+@ 71.131
+# ディアナ・ライアル
+JP アハッ、ありがとうございまス。
+JP もちろんがんばりまス。
+JP  家族のためと…社長のために。
+EN Aha, thank you so much! Of course I will work hard.
+EN For my family... and for you, Boss.
+
+@ 71.152
+# ディアナ・ライアル
+JP ありがとうございます。
+JP でも…ちょっと最近家族のことが
+JP 気になったりもしてるんでス。
+EN Thank you. But... lately I have been a little worried
+EN about my family.
+
+@ 71.165
+# 社 長
+JP ディアナに言って
+JP おきたいことがある。
+JP ここのところ、おまえは…。
+EN There's something I need to tell you, Diana. Lately,
+EN you've been...
+
+@ 71.189
+# ディアナ・ライアル
+JP ………………ごめんなさい。
+EN ..............I'm sorry.
+
+@ 71.210
+# ディアナ・ライアル
+JP は…はい。
+JP なんのことかわからないですけド…。
+JP ごめんなさい。
+EN Y-yes. I don't know what you mean, but... I'm sorry.
+
+@ 71.231
+# ディアナ・ライアル
+JP ごめんなさい……。
+JP 社長は…私がいらないですカ？ 
+JP 捨てちゃいますカ？
+EN I'm sorry... Boss... you don't need me anymore? You
+EN will throw me away?
+
+@ 71.252
+# ディアナ・ライアル
+JP ごめんなさい……。
+JP でも、なぜか社長の前だと
+JP 怒られても顔が…ごめんなさい……。
+EN I'm sorry... But somehow, in front of you, even when
+EN you scold me, my face goes... I'm sorry...
+
+@ 71.265
+# 社 長
+JP どうした？
+JP 最近はおまえらしくないじゃないか。
+EN What's wrong? You haven't been yourself lately.
+
+@ 71.289
+# ディアナ・ライアル
+JP 私が元気じゃないと
+JP 家族にも心配かけちゃう…。
+JP キアイ、入れ直しますネ！
+EN If I'm not cheerful, my family will worry too... I will fire
+EN up my spirit again!
+
+@ 71.310
+# ディアナ・ライアル
+JP すみません…。
+JP 実は昨日、妹の具合が悪いって
+JP メールが来て、心配で…。
+EN I'm sorry... Yesterday I got an email that my little
+EN sister is sick, and I'm worried...
+
+@ 71.331
+# ディアナ・ライアル
+JP ソレ…社長のせいですヨ？
+JP でも大丈夫。
+JP テンションはその分、高めでス！
+EN That is... your fault, Boss, you know? But it's okay.
+EN My energy is extra high because of it!
+
+@ 71.352
+# ディアナ・ライアル
+JP だって…最近、社長……。
+JP あ、やっぱりなんでもないでス。
+EN Because... lately, Boss... Ah, never mind. It's nothing.
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# ディアナ・ライアル
+JP ハイ…たぶん。
+EN Yes... I think so.
+
+@ 71.399
+# ディアナ・ライアル
+JP イエ……。
+EN No...
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# ディアナ・ライアル
+JP わかりました。
+JP そうですよね。
+JP みんなと仲良くしなくちゃ…。
+EN Okay. You are right. I must get along with everyone...
+
+@ 71.453
+# ディアナ・ライアル
+JP 私にだって…。
+JP 譲れないコトがあるんでス…。
+EN Even I... have things I can't give up...
+
+@ 71.474
+# ディアナ・ライアル
+JP えっと…。
+JP 何を言ってるのかわかりませン。
+JP ごめんなさい…。
+EN Um... I don't understand what you are saying. I'm
+EN sorry...
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# ディアナ・ライアル
+JP ハイ…。
+JP たぶん、ですけど。
+EN Yes... I think so, anyway.
+
+@ 71.521
+# ディアナ・ライアル
+JP 今晩のおかずについてですカ？
+EN Is it about what's for dinner tonight?
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# ディアナ・ライアル
+JP わかりました。
+JP そうですよね。
+JP みんなと仲良くしなくちゃ…。
+EN Okay. You are right. I must get along with everyone...
+
+@ 71.577
+# ディアナ・ライアル
+JP 社長のいうコトだから
+JP 聞いてあげたいですけド…。
+EN It's you asking, Boss, so I want to listen, but...
+
+@ 71.598
+# ディアナ・ライアル
+JP …ごめんなさい。
+JP まだ、私には日本語
+JP むつかしいのかも…。
+EN ...I'm sorry. Maybe Japanese is still too hard for me...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ディアナ・ライアル
+JP はい、なんですカ？
+EN Yes, what is it?
+
+@ 72.16
+# ディアナ・ライアル
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing well lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ディアナ・ライアル
+JP もちろんでス。
+JP 家族のためにもがんばらなくちゃ！
+EN Of course. I must work hard for my family!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ディアナ・ライアル
+JP 少しニュアンスわかりませんでしタ。
+JP ごめんなさい、
+JP 日本語もっと勉強しまス。
+EN I did not quite get the nuance. I'm sorry. I will study
+EN Japanese more.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ディアナ・ライアル
+JP アハ！　ありがとうございまス。
+JP もちろんがんばりまス。
+JP  家族のためと…社長のために。
+EN Aha, thank you so much! Of course I will work hard.
+EN For my family... and for you, Boss.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ディアナ・ライアル
+JP ありがとうございます。でも…
+JP ちょっと最近家族のことが
+JP 気になったりもしてるんでス。
+EN Thank you. But... lately I have been a little worried
+EN about my family.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP ディアナに言って
+JP おきたいことがある。
+JP ここのところ、おまえは…。
+EN There's something I need to tell you, Diana. Lately,
+EN you've been...
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ディアナ・ライアル
+JP ………………ごめんなさい。
+EN ..............I'm sorry.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ディアナ・ライアル
+JP は…はい。
+JP なんのことかわからないですけド…。
+JP ごめんなさい。
+EN Y-yes. I don't know what you mean, but... I'm sorry.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ディアナ・ライアル
+JP ごめんなさい……。
+JP 社長は…私がいらないですカ？ 
+JP 捨てちゃいますカ？
+EN I'm sorry... Boss... you don't need me anymore? You
+EN will throw me away?
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ディアナ・ライアル
+JP ごめんなさい……。でも、
+JP なぜか社長の前だと怒られても顔が…
+JP ごめんなさい……。
+EN I'm sorry... But somehow, in front of you, even when
+EN you scold me, my face goes... I'm sorry...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP どうした？
+JP 最近はおまえらしくないじゃないか。
+EN What's wrong? You haven't been yourself lately.
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ディアナ・ライアル
+JP 私が元気じゃないと、
+JP 家族にも心配かけちゃう…。
+JP キアイ、入れ直しますネ！
+EN If I'm not cheerful, my family will worry too... I will fire
+EN up my spirit again!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ディアナ・ライアル
+JP すみません…。実は昨日、
+JP 妹の具合が悪いってメールが来て、
+JP 心配で…。
+EN I'm sorry... Yesterday I got an email that my little
+EN sister is sick, and I'm worried...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ディアナ・ライアル
+JP ソレ…社長のせいですヨ？
+JP でも大丈夫。
+JP テンションはその分、高めでス！
+EN That is... your fault, Boss, you know? But it's okay.
+EN My energy is extra high because of it!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ディアナ・ライアル
+JP だって…最近、社長……。
+JP あ、やっぱりなんでもないでス。
+EN Because... lately, Boss... Ah, never mind. It's nothing.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ディアナ・ライアル
+JP ハイ…多分。
+EN Yes... I think so.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ディアナ・ライアル
+JP イエ……。
+EN No...
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ディアナ・ライアル
+JP わかりました。
+JP そうですよね、
+JP みんなと仲良くしなくちゃ…。
+EN Okay. You are right. I must get along with everyone...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ディアナ・ライアル
+JP 私にだって…
+JP 譲れないコトがあるんでス…。
+EN Even I... have things I can't give up...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ディアナ・ライアル
+JP えっと…。
+JP 何を言ってるのかわかりませン。
+JP ごめんなさい…。
+EN Um... I don't understand what you are saying. I'm
+EN sorry...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ディアナ・ライアル
+JP ハイ…。
+JP 多分、ですけど。
+EN Yes... I think so, anyway.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ディアナ・ライアル
+JP 今晩のおかずについてですカ？
+EN Is it about what's for dinner tonight?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ディアナ・ライアル
+JP わかりました。
+JP そうですよね、
+JP みんなと仲良くしなくちゃ…。
+EN Okay. You are right. I must get along with everyone...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ディアナ・ライアル
+JP 社長のいうコトだから、
+JP 聞いてあげたいですけド…。
+EN It's you asking, Boss, so I want to listen, but...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ディアナ・ライアル
+JP …ごめんなさい。まだ、
+JP 私には日本語むつかしいのかも…。
+EN ...I'm sorry. Maybe Japanese is still too hard for me...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ディアナ・ライアル
+JP ハイ！
+JP これでお願いしまス！
+EN Yes! This is good, please!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ディアナ・ライアル
+JP こんなに…嬉しいでス！
+JP ありがとうございまス！
+EN So much...! I'm so happy! Thank you so much!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ディアナ・ライアル
+JP えっと…。
+JP ハイ！
+JP これでお願いしまス！
+EN Um... Yes! This is good, please!
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達はディアナの故郷へと
+JP 　やって来た）
+EN (And so we came to Diana's hometown.)
+
+@ 105.26
+# 社 長
+JP （今回、みんなとは別行動だ）
+EN (This time we split off from the others.)
+
+@ 105.28
+# 社 長
+JP （今頃は、それぞれ好き勝手に
+JP 　遊び回っていることだろう）
+EN (By now they're probably all off having fun however
+EN they like.)
+
+@ 105.38
+# ディアナ・ライアル
+JP あ、あそこでス！
+EN Ah, there it is!
+
+@ 105.41
+# 社 長
+JP へぇ、あそこがディアナの家か…。
+EN Huh, so that's your house, Diana...
+
+@ 105.48
+# ディアナ・ライアル
+JP 恥ずかしいでス。
+JP お世辞にも立派な家とは
+JP いえませんかラ。
+EN It's embarrassing. Even to be nice, nobody could call
+EN it a fine house.
+
+@ 105.51
+# 社 長
+JP でも、好きなんだろ？
+EN But you love it, don't you?
+
+@ 105.53
+# 社 長
+JP （俺の質問に…）
+EN (At my question...)
+
+@ 105.60
+# ディアナ・ライアル
+JP もちろんでス。
+EN Of course.
+
+@ 105.63
+# 社 長
+JP （ディアナは、迷いなく頷いた）
+EN (Diana nodded without a moment's hesitation.)
+
+@ 105.71
+# 長男・マルス
+JP あ、お姉ちゃんだ！
+EN Ah, it's Big Sis!
+
+@ 105.73
+# 次女・エリス
+JP ディアナお姉ちゃんが
+JP 帰ってきたんだなっ！
+EN Big Sis Diana is home, yup!
+
+@ 105.77
+# ディアナ・ライアル
+JP みんな、ただいま――――！
+EN Everyone, I'm hoooome!
+
+@ 105.80
+# 弟妹たち
+JP おかえり――――！
+EN Welcome hoooome!
+
+@ 105.82
+# 社 長
+JP （そして……）
+EN (And then...)
+
+@ 105.98
+# ディアナ・ライアル
+JP あの…あなたたち、これは？
+EN Um... you guys, what is this?
+
+@ 105.101
+# 次男・マルセロ
+JP ボクらからのプレゼント！
+EN A present from us!
+
+@ 105.103
+# 三女・ルイズ
+JP お姉ちゃん、カーニバルの衣装
+JP もってなかったでしょ。
+EN Big Sis, you never had a carnival costume, right?
+
+@ 105.105
+# 次女・エリス
+JP 働いて買ったんだなっ！
+EN We worked and bought it, yup!
+
+@ 105.109
+# ディアナ・ライアル
+JP あなたたち…。
+EN You guys...
+
+@ 105.113
+# ディアナ・ライアル
+JP …………ありがとう。
+EN .........Thank you.
+
+@ 105.116
+# 四女・セレナ
+JP 次のカーニバルでは
+JP これ着て踊ってよ。
+EN At the next carnival, wear this and dance, okay?
+
+@ 105.120
+# ディアナ・ライアル
+JP うん。
+EN Mm.
+
+@ 105.124
+# ディアナ・ライアル
+JP あ…ごめんなさイ、社長。
+JP ほったらかしにして。
+EN Ah... I'm sorry, Boss. I left you all alone.
+
+@ 105.127
+# 社 長
+JP いや。
+EN Not at all.
+
+@ 105.129
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.133
+# ディアナ・ライアル
+JP な、なんでス？
+JP そんなに見つめて…。
+EN Wh-what is it? Staring at me like that...
+
+@ 105.136
+# 社 長
+JP その…似合ってるよ。
+EN Well... it looks good on you.
+
+@ 105.140
+# ディアナ・ライアル
+JP え、えーと……。
+EN Eh, um...
+
+@ 105.143
+# 長男・マルス
+JP でしょ、でしょ！
+EN Right? Right?
+
+@ 105.145
+# 次女・エリス
+JP お姉ちゃんきれいなんだなっ。
+EN Big Sis is pretty, yup.
+
+@ 105.147
+# 四女・セレナ
+JP ねー。
+JP 社長もそう思うよねー。
+EN Riiight? You think so too, don't you, Boss?
+
+@ 105.149
+# 社 長
+JP うん、似合ってる。
+EN Yeah, it looks great.
+
+@ 105.151
+# 次男・マルセロ
+JP だろー。
+EN Told ya!
+
+@ 105.153
+# 三女・ルイズ
+JP もっと見てあげてー。
+EN Look at her more!
+
+@ 105.157
+# ディアナ・ライアル
+JP あ、あなたたち何言ってるノ！？
+EN Wh-what are you guys saying!?
+
+@ 105.160
+# 次女・エリス
+JP だってお姉ちゃん…。
+JP 最近、メールで社長のことばかり
+JP なんだなっ。
+EN 'Cause Big Sis... lately her emails are all about the
+EN Boss, yup.
+
+@ 105.164
+# ディアナ・ライアル
+JP なっ！
+EN Wha-!
+
+@ 105.167
+# 三女・ルイズ
+JP お姉ちゃんわかりやすいもんねー。
+JP こないだのメールなんか……。
+EN Big Sis is so easy to read. Like that email the other
+EN day...
+
+@ 105.171
+# ディアナ・ライアル
+JP だ、だめっ！
+JP 言わないデっ！
+EN N-no! Don't say it!
+
+@ 105.174
+# 四女・セレナ
+JP お姉ちゃんのことお願いね。
+JP しゃちょー。
+EN Take good care of Big Sis, okay, Bossy?
+
+@ 105.176
+# 次女・エリス
+JP お願いなんだなっ。
+JP おにいちゃん。
+EN Please do, yup. Big Brother.
+
+@ 105.180
+# ディアナ・ライアル
+JP あぅ……はぅ……。
+EN Auu... hauu...
+
+@ 105.183
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.185
+# 社 長
+JP （賑やかでいいなあ）
+EN (What a lively bunch.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある朝）
+EN (One morning...)
+
+@ 106.26
+# 社 長
+JP （俺は優しく揺さぶられて
+JP 　目が覚めた）
+EN (I woke up to someone gently shaking me.)
+
+@ 106.30
+# ？？？
+JP 社長…社長、朝ですよ～。
+EN Boss... Boss, it's morning!
+
+@ 106.33
+# 社 長
+JP （ここちよい揺さぶられ方。
+JP 　起こされているというのに
+JP 　ちっとも不快ではない）
+EN (It was a pleasant way to be shaken. Even though I
+EN was being woken up, I didn't mind one bit.)
+
+@ 106.35
+# 社 長
+JP う…う～ん。
+EN Mm... mmmh.
+
+@ 106.50
+# 社 長
+JP （目覚めると…ディアナの顔が
+JP 　すぐそばにあった）
+EN (When I opened my eyes... Diana's face was right next
+EN to mine.)
+
+@ 106.54
+# ディアナ・ライアル
+JP 社長、お寝坊さんだから
+JP 起こしに来ちゃいましタ。
+EN You are a sleepyhead, Boss, so I came to wake you
+EN up.
+
+@ 106.57
+# 社 長
+JP あ、ああ…ありがとう……って！
+EN Oh, uh... thanks... wait!
+
+@ 106.59
+# 社 長
+JP （なぜ、ディアナが
+JP 　俺の部屋にいる？）
+EN (Why is Diana in my room?)
+
+@ 106.61
+# 社 長
+JP （思考がマトモになっていくにつれて
+JP 　かえって状況がわからなくなる）
+EN (The clearer my head got, the less I understood what
+EN was going on.)
+
+@ 106.63
+# 社 長
+JP （テーブルの上には
+JP 　ご飯に味噌汁、納豆、おひたし
+JP 　目玉焼き…）
+EN (On the table: rice, miso soup, natto, boiled greens,
+EN fried eggs...)
+
+@ 106.65
+# 社 長
+JP （たいへんに由緒正しい
+JP 　伝統的日本の朝食が並んでいる）
+EN (A most proper, traditional Japanese breakfast.)
+
+@ 106.67
+# 社 長
+JP （…のは、まだいい。
+JP 　だれが作ったのかは明白だ）
+EN (...That part is fine. It's obvious who made it.)
+
+@ 106.69
+# 社 長
+JP （問題はディアナがなぜここにいて…。
+JP 　なぜ、そんな格好をしているかと
+JP 　いうことで……）
+EN (The problem is why Diana is here... and why she's
+EN dressed like that...)
+
+@ 106.71
+# 社 長
+JP ディアナ…。
+JP なぜ、ここに？
+EN Diana... Why are you here?
+
+@ 106.75
+# ディアナ・ライアル
+JP 霧子さんが、起こしに行くならと
+JP 鍵をくれましタ。
+EN Kiriko gave me the key, since I was coming to wake
+EN you.
+
+@ 106.78
+# 社 長
+JP （霧子くん…いつのまに合い鍵を）
+EN (Kiriko... when did she get a spare key?)
+
+@ 106.80
+# 社 長
+JP （まあいい。
+JP 　後でじっくり話し合うとして
+JP 　疑問の１つは解消された）
+EN (Oh well. I'll have a long talk with her later. At least
+EN one mystery is solved.)
+
+@ 106.82
+# 社 長
+JP （もう１つの疑問は…）
+EN (The other mystery...)
+
+@ 106.84
+# 社 長
+JP そ…その格好は…？
+EN Wh-what are you wearing...?
+
+@ 106.93
+# ディアナ・ライアル
+JP ああ、日本ではその
+JP …好きな人の…食事を作るときは
+JP この格好が一番だと聞きましタ。
+EN Ah, I heard that in Japan, when you cook for... the
+EN one you love... this outfit is the best.
+
+@ 106.96
+# 社 長
+JP （そんな事を吹き込んだのは誰だ…）
+EN (Who told her that...)
+
+@ 106.100
+# ディアナ・ライアル
+JP あ、あの…この格好…ダメですカ？
+JP 不快ですカ？
+EN U-um... this outfit... it is bad? You don't like it?
+
+@ 106.103
+# 社 長
+JP い、いや…。
+JP 不快ではないが。
+EN N-no... I don't dislike it.
+
+@ 106.105
+# 社 長
+JP （まったく不快ではないが
+JP 　別の問題が…）
+EN (I don't dislike it at all, but there's another
+EN problem...)
+
+@ 106.107
+# 社 長
+JP （しかし、問題を指摘するのより
+JP 　早く）
+EN (But before I could point the problem out...)
+
+@ 106.116
+# ディアナ・ライアル
+JP よかっタ！
+EN I'm so glad!
+
+@ 106.119
+# 社 長
+JP （ディアナが嬉しそうな
+JP 　安堵の表情を見せたので）
+EN (Diana looked so happy and relieved...)
+
+@ 106.121
+# 社 長
+JP （それ以上、何も言えなくなって
+JP 　しまった）
+EN (...that I couldn't say another word.)
+
+@ 106.125
+# ディアナ・ライアル
+JP さ、食べてください。
+JP お口にあうかどうかわかりませんけド。
+EN Now, please eat. I don't know if it suits your taste,
+EN though.
+
+@ 106.128
+# 社 長
+JP あ、ああ…。
+EN O-okay...
+
+@ 106.145
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.147
+# 社 長
+JP （ちなみに
+JP 　ディアナの作った朝食は）
+EN (For the record, the breakfast Diana made...)
+
+@ 106.149
+# 社 長
+JP （滅茶苦茶、うまかった）
+EN (...was ridiculously good.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある朝）
+EN (One morning...)
+
+@ 107.26
+# 社 長
+JP （俺は優しく揺さぶられて
+JP 　目が覚めた）
+EN (I woke up to someone gently shaking me.)
+
+@ 107.30
+# ？？？
+JP 社長。
+JP 朝ですよ～。
+EN Boss. It's morning!
+
+@ 107.33
+# 社 長
+JP （ここちよい揺さぶられ方。
+JP 　眠りから覚めようとしているのに
+JP 　ちっとも不快ではない）
+EN (It was a pleasant way to be shaken. Even as I
+EN surfaced from sleep, I didn't mind one bit.)
+
+@ 107.35
+# 社 長
+JP （こんな起こし方ができるのは、
+JP 　俺の知る限り一人しかいない）
+EN (As far as I know, only one person can wake me up
+EN like this.)
+
+@ 107.37
+# 社 長
+JP う…う～ん。
+EN Mm... mmmh.
+
+@ 107.53
+# ディアナ・ライアル
+JP うふふ…。
+JP おはようございまス。
+EN Ufufu... Good morning.
+
+@ 107.56
+# 社 長
+JP （目覚めると…案の定
+JP 　ディアナの顔がすぐそばにあった）
+EN (When I opened my eyes... sure enough, Diana's face
+EN was right next to mine.)
+
+@ 107.58
+# 社 長
+JP あぁ…もう朝か…。
+EN Ah... morning already...?
+
+@ 107.60
+# 社 長
+JP （あれ以来、ディアナは
+JP 　ちょくちょく起こしに来てくれる）
+EN (Ever since that day, Diana comes over to wake me
+EN up every so often.)
+
+@ 107.69
+# ディアナ・ライアル
+JP 顔洗って、着替えて来てくださいネ。
+EN Please wash your face and get dressed, okay?
+
+@ 107.73
+# ディアナ・ライアル
+JP その間にご飯よそっておきますかラ。
+EN Meanwhile I will serve the rice.
+
+@ 107.76
+# 社 長
+JP ああ、ありがとう。
+EN Okay, thanks.
+
+@ 107.78
+# 社 長
+JP （この光景も、もうなれたものだ）
+EN (I'm used to this scene by now.)
+
+@ 107.80
+# 社 長
+JP （というか、あの格好について
+JP 　言いだすタイミングを
+JP 　完全に逃してしまった）
+EN (Or rather, I completely missed my chance to say
+EN anything about that outfit.)
+
+@ 107.82
+# 社 長
+JP （さすがに今さらは言い出せない）
+EN (I can't exactly bring it up now.)
+
+@ 107.84
+# 社 長
+JP （当分…日本文化と言うことに
+JP 　しておこう）
+EN (For the time being... I'll let it pass as Japanese
+EN culture.)
+
+@ 107.88
+# ディアナ・ライアル
+JP はい、社長。
+EN Here, Boss.
+
+@ 107.91
+# 社 長
+JP ああ、ありがとう。
+EN Thanks.
+
+@ 107.93
+# 社 長
+JP （朝食を食べる俺を
+JP 　嬉しそうに見つめるディアナ）
+EN (Diana watches me eat breakfast, looking happy.)
+
+@ 107.95
+# 社 長
+JP （むずがゆくも、心地よい雰囲気）
+EN (A ticklish, but cozy feeling.)
+
+@ 107.104
+# ディアナ・ライアル
+JP ふふ、社長…。
+EN Fufu, Boss...
+
+@ 107.107
+# 社 長
+JP なんだ？
+EN What is it?
+
+@ 107.111
+# ディアナ・ライアル
+JP 私、幸せでス♪
+EN I am so happy♪
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# ディアナ・ライアル
+JP やりましょ、ミカさん♪
+EN Let's do it, Mika♪
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# ディアナ・ライアル
+JP 遠慮はしませンよ～。
+EN I won't hold back!
+
+@ 110.17
+# scene 111 練習試合 ベター２
+# ディアナ・ライアル
+JP うふふ。
+JP がんばりましょ～。
+EN Ufufu. Let's do our best!
+
+@ 111.16
+# scene 113 練習開始
+# ディアナ・ライアル
+JP 今日もがんばりまス！
+EN I will do my best today too!
+
+@ 112.16
+# scene 114 練習開始 好意
+# ディアナ・ライアル
+JP アハ！
+JP がんばりますネ！
+EN Aha! I will do my best!
+
+@ 113.16
+# scene 115 特訓開始
+# ディアナ・ライアル
+JP ドンとこい…でス！
+EN Bring it on... yes!
+
+@ 114.20
+# scene 116 特訓成功
+# ディアナ・ライアル
+JP やりましタ！
+EN I did it!
+
+@ 115.20
+# scene 117 特訓失敗
+# ディアナ・ライアル
+JP 失敗…。
+JP ごめんなさイ…。
+EN I failed... I'm sorry...
+
+@ 116.16
+# scene 118 休養
+# ディアナ・ライアル
+JP ちょっと里帰りしてきますネ♪
+EN I'm going home for a little visit♪
+
+@ 117.16
+# scene 119 入場1
+# ディアナ・ライアル
+JP ディアナ、行きま――ス！
+EN Diana, here I gooo!
+
+@ 118.16
+# scene 119 入場2
+# ディアナ・ライアル
+JP 楽しい試合になるといいですネ。
+EN I hope it will be a fun match!
+
+@ 119.17
+# scene 120 タッグマッチ ベスト
+# ディアナ・ライアル
+JP ミカさんとなら…やれまス！
+EN With Mika... I can do it!
+
+@ 120.17
+# scene 121 タッグマッチ ベター１
+# ディアナ・ライアル
+JP 今日の試合は
+JP 強いリズムで、ですネ♪
+EN Today's match has a strong rhythm, yes♪
+
+@ 121.17
+# scene 122 タッグマッチ ベター２
+# ディアナ・ライアル
+JP いざ、リングへ！
+EN To the ring!
+
+@ 122.16
+# scene 125 必殺技１
+# ディアナ・ライアル
+JP いきまス！
+EN Here I go!
+
+@ 123.16
+# scene 125 必殺技２
+# ディアナ・ライアル
+JP 全力でいきまスよ…。
+JP 受け止められますカ！？
+EN I'm going all out... Can you take it!?
+
+@ 124.16
+# scene 125 必殺技３
+# ディアナ・ライアル
+JP みんな…お姉ちゃん、いくよ！
+EN Everyone... Big Sis is going for it!
+
+@ 125.12
+# scene 126 勝利1
+# ディアナ・ライアル
+JP ＹＡ！
+JP 勝ちました！
+EN YA! I won!
+
+@ 126.12
+# scene 126 勝利2
+# ディアナ・ライアル
+JP みんな、ありがと――――――！
+EN Thank you, everyoooone!
+
+@ 127.12
+# scene 126 勝利3
+# ディアナ・ライアル
+JP 背負っているものがあるから
+JP がんばれましタ！
+EN I could fight hard because I carry something on my
+EN back!
+
+@ 128.15
+# scene 133 表彰1
+# ディアナ・ライアル
+JP ありがとうございまス！
+JP すごく、嬉しいでス！
+EN Thank you so much! I'm so, so happy!
+
+@ 129.15
+# scene 133 表彰2
+# ディアナ・ライアル
+JP お世話になったみんなのおかげでス。
+JP ありがとうございましタ！
+EN It is thanks to everyone who helped me. Thank you
+EN very much!
+
+@ 130.12
+# scene 134 優勝1
+# ディアナ・ライアル
+JP やりました！
+JP 応援…ありがとうございまス！
+EN I did it! Thank you... for cheering!
+
+@ 131.12
+# scene 134 優勝２
+# ディアナ・ライアル
+JP みんな…。
+JP お姉ちゃん、やったよ…。
+EN Everyone... Big Sis did it...
+
+@ 132.24
+# scene 135 エンディング 通常
+# ディアナ・ライアル
+JP 社長、おめでとうございまス。
+JP 私…役に立つことができましたカ？
+EN Congratulations, Boss. Was I... any help to you?
+
+@ 133.24
+# scene 136 エンディング 好意
+# ディアナ・ライアル
+JP 社長、私、社長が好きです。
+JP たとえ…その気持ちが
+JP 私にむいていなくても…。
+EN Boss, I love you. Even if... your feelings are not for
+EN me...

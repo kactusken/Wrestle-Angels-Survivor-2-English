@@ -1,0 +1,92 @@
+# /SCR/212.BIN - ロザンヌ・チャン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 212` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ロザンヌ・チャン
+JP これで私も一流レスラーの
+JP 仲間入りだね！
+EN Now I'm one of the top-class wrestlers too!
+
+@ 1.16
+# scene 119 入場1
+# ロザンヌ・チャン
+JP よーし、がんばるよー！
+EN Okay, let's do our best!
+
+@ 2.16
+# scene 119 入場2
+# ロザンヌ・チャン
+JP 今日も勝利、もらっちゃうよ！
+EN I'm taking the win again today!
+
+@ 3.16
+# scene 125 必殺技１
+# ロザンヌ・チャン
+JP ちょー必殺技いっくよーッ！
+EN Super-duper finisher, here it comes!
+
+@ 4.16
+# scene 125 必殺技２
+# ロザンヌ・チャン
+JP 大チャンスとーらい！
+EN Big chance comin' in!
+
+@ 5.16
+# scene 125 必殺技３
+# ロザンヌ・チャン
+JP よーし！　盛り上がってきたよー！
+EN All right! Now we're having fun!
+
+@ 6.12
+# scene 126 勝利1
+# ロザンヌ・チャン
+JP 勝利の笑顔で、ぴーーす！
+EN Victory smile, and peace!
+
+@ 7.12
+# scene 126 勝利2
+# ロザンヌ・チャン
+JP やったねーッ！
+JP 私の勝ちー！
+EN Yaaay! I win!
+
+@ 8.12
+# scene 126 勝利3
+# ロザンヌ・チャン
+JP 今日はとってもラッキーだったね！
+EN I got super lucky today, huh!
+
+@ 9.15
+# scene 133 表彰1
+# ロザンヌ・チャン
+JP ありがとうございまーす。
+JP これからもがんばります。
+EN Thank you so much! I'll keep doing my best.
+
+@ 10.15
+# scene 133 表彰2
+# ロザンヌ・チャン
+JP やっぱり魅せる試合は大事だよね！
+EN Putting on a show really matters, right?
+
+@ 11.12
+# scene 134 優勝1
+# ロザンヌ・チャン
+JP 運も実力の内！
+JP なんちゃって！
+EN Luck is a kind of skill too! Just kidding!
+
+@ 12.12
+# scene 134 優勝２
+# ロザンヌ・チャン
+JP フゥ～。
+JP しんどかったー！
+EN Phew! That was rough!

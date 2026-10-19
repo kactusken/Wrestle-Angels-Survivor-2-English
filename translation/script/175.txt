@@ -1,0 +1,2568 @@
+# /SCR/175.BIN - ドラウジー獅子堂
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 175` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ドラウジー獅子堂
+JP 獅子堂ですぅ。
+JP よろしくお願いしまーす。
+EN I'm Shishidooo. Nice to meet youuu.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ドラウジー獅子堂
+JP お父さん、お母さん。
+JP 私、がんばるよぉ…。
+EN Mom, Dad... I'm gonna do my best...
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ドラウジー獅子堂
+JP …あれっ？
+JP 私、落ちちゃったの…？
+EN ...Huh? I didn't pass...?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP 今日の選手は
+JP すごく期待できそうだぞ。
+EN Today's prospect looks really promising.
+
+@ 3.25
+# 社 長
+JP 資料には、世界唯一の流派を修得し
+JP 「眠れる獅子」と呼ばれていると
+JP 記してある。
+EN The report says she's mastered the only style of its
+EN kind in the world, and they call her "the Sleeping
+EN Lion."
+
+@ 3.27
+# 社 長
+JP 「フィンランド人との混血」とも
+JP あるな。
+EN It also says she's half Finnish.
+
+@ 3.29
+# 社 長
+JP …でと、たしかこのへんにいるはず
+JP なんだが…。
+EN ...Now, she should be around here somewhere...
+
+@ 3.31
+# 社 長
+JP あの人に聞いてみるか。
+JP すみませーん。
+EN Let me ask that person. Excuse meee.
+
+@ 3.47
+# ？？？
+JP ふわ…ふわあ…ふへ…？
+EN Fwa... fwaaah... huh...?
+
+@ 3.50
+# 社 長
+JP （あれ、寝てたのか。
+JP 　でも、今、立っていたけど…）
+EN (Huh, was she asleep? But she was standing up just
+EN now...)
+
+@ 3.52
+# 社 長
+JP （…器用な子だな。
+JP 　まあ、それはいいや）
+EN (...Talented girl. Well, whatever.)
+
+@ 3.54
+# 社 長
+JP あの、このあたりに
+JP 「眠れる獅子」という拳法の達人が
+JP いると聞いたんですが…。
+EN Um, I heard there's a martial arts master around
+EN here called "the Sleeping Lion"...
+
+@ 3.61
+# ？？？
+JP はあ。
+EN Uh-huh.
+
+@ 3.64
+# 社 長
+JP どこにいるか知りませんか。
+JP できたら案内をお願いします。
+EN Do you know where she is? I'd appreciate it if you
+EN could take me to her.
+
+@ 3.71
+# ドラウジー獅子堂
+JP 案内って…。
+JP ここにいるよぉ…。
+EN Take you...? I'm right heeere...
+
+@ 3.74
+# 社 長
+JP （ここって、俺とこの子しかいないぞ
+JP 　…ええっっ！
+JP 　ちょっと待てよ！）
+EN (Right here? It's just me and this girl... Whaaat!? Hold
+EN on a second!)
+
+@ 3.80
+# 社 長
+JP あ、あの…あなたが「眠れる獅子」
+JP なんですか！？
+EN U-um... You're "the Sleeping Lion"!?
+
+@ 3.87
+# ドラウジー獅子堂
+JP …すー…すー……。
+EN ......Zzz... zzz......
+
+@ 3.90
+# 社 長
+JP （…寝てる？）
+EN (...She's asleep?)
+
+@ 3.92
+# 社 長
+JP あ、あの！
+JP すみません！
+JP 寝ないでください！
+EN H-hey! Excuse me! Please don't fall asleep!
+
+@ 3.99
+# ドラウジー獅子堂
+JP …寝てないもん。
+EN ...I wasn't sleeping.
+
+@ 3.102
+# 社 長
+JP （いや、今のはどう見ても…）
+EN (Uh, that sure looked like sleeping to me...)
+
+@ 3.108
+# 社 長
+JP （なんだか思っていたのと
+JP 　印象が違うぞ…）
+EN (She's not what I pictured at all...)
+
+@ 3.110
+# 社 長
+JP （これじゃ眠れる獅子というよりも
+JP 　寝っぱなしの獅子じゃないか…）
+EN (She's less a sleeping lion than a lion that never
+EN wakes up...)
+
+@ 3.112
+# 社 長
+JP （これじゃ、試合どころか
+JP 　練習にもなりはしない）
+EN (At this rate she couldn't handle training, never mind
+EN a match.)
+
+@ 3.114
+# 社 長
+JP （参ったなあ。
+JP 　資料には実力も高いと
+JP 　書かれているけど…）
+EN (This is a problem. The report says she's really
+EN skilled, but...)
+
+@ 3.121
+# ドラウジー獅子堂
+JP …くー…くー……。
+EN ...Zzz... zzz......
+
+@ 3.124
+# 社 長
+JP （うわあ、なんなんだよ。
+JP 　ともかくこのまま手ぶらで
+JP 　帰るのもな…）
+EN (Ugh, what is going on? Still, I can't go home
+EN empty-handed...)
+
+@ 3.126
+# 社 長
+JP すみません。
+JP 実は私、プロレス団体を
+JP 経営している者でして…。
+EN Excuse me. Actually, I run a pro-wrestling
+EN promotion...
+
+@ 3.128
+# 社 長
+JP うちの団体に入ってもらえないかと
+JP 思って…って、聞いてますか！？
+EN And I was hoping you'd join us... Hey, are you
+EN listening!?
+
+@ 3.135
+# ドラウジー獅子堂
+JP うん。
+JP …へーきだよぉ……。
+JP へーき、へーき…。
+EN Yeah. ...I'm fiiine... Fine, fine...
+
+@ 3.138
+# 社 長
+JP （ふ、不安だ…）
+EN (Th-this worries me...)
+
+@ 3.145
+# ドラウジー獅子堂
+JP あの～。
+EN Ummm.
+
+@ 3.148
+# 社 長
+JP はい？
+EN Yes?
+
+@ 3.152
+# ドラウジー獅子堂
+JP 今、お母さんに聞いてみますから
+JP 待っててくれますかぁ。
+EN I'll ask my mom right now, so could you wait a bit?
+
+@ 3.155
+# 社 長
+JP （そういうと彼女は
+JP 　自宅に電話をかけ始めた）
+EN (With that, she started calling home.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ドラウジー獅子堂
+JP …うん…うん…わかった。
+JP …あのオッケーだそうです。
+EN ...Yeah... yeah... got it. ...Um, she says it's okay.
+
+@ 4.22
+# 社 長
+JP それは入ってくれるという
+JP 意味ですよね？
+EN That means you'll join us, right?
+
+@ 4.29
+# ドラウジー獅子堂
+JP は～い、有名になって
+JP 弟子をいっぱい集めろって
+JP 言われました。
+EN Yeees. She told me to get famous and gather lots of
+EN disciples.
+
+@ 4.32
+# 社 長
+JP （うーん…まあいいか。
+JP 　資料を信じよう…）
+EN (Hmm... Well, fine. I'll trust the report...)
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ドラウジー獅子堂
+JP うん…わかった。
+JP …入るならもっと有名なとこに
+JP しろって…。
+EN Yeah... got it. ...She says if I join something, it should
+EN be somewhere more famous...
+
+@ 5.22
+# 社 長
+JP そ、そうですか…。
+JP わかりました。
+JP 出直します。
+EN I-I see... Understood. I'll come back another time.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （やはり獅子堂選手は
+JP 　うちの団体に必要だ）
+EN (Our promotion really needs Shishido.)
+
+@ 6.25
+# 社 長
+JP （とにかくもう一度
+JP 　説得してみよう）
+EN (Anyway, let's try to persuade her once more.)
+
+@ 6.34
+# 社 長
+JP …あっ、もしもし…。
+JP ちょっと起きてもらえませんか？
+JP もしもし！
+EN ...Ah, hello... Could you wake up for a moment? Hello!
+
+@ 6.41
+# ドラウジー獅子堂
+JP ふえ…。
+JP あー、この間の社長さん。
+EN Fweh... Ah, it's the president from the other day.
+
+@ 6.44
+# 社 長
+JP もう一度チャンスを
+JP いただけませんか？
+EN Could you give me another chance?
+
+@ 6.51
+# ドラウジー獅子堂
+JP じゃあ、またお母さんに
+JP 聞いてみますぅ…。
+EN Then I'll ask my mom agaaain...
+
+@ 6.54
+# 社 長
+JP 今回はこれも伝えてください。
+EN Please pass this along this time, too.
+
+@ 6.56
+# 社 長
+JP （俺はうちの団体の資料を渡して
+JP 　母親に伝えてもらった）
+EN (I gave her our promotion's materials to pass on to
+EN her mother.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ドラウジー獅子堂
+JP …うん…うん…わかった。
+JP …あのオッケーだそうです。
+EN ...Yeah... yeah... got it. ...Um, she says it's okay.
+
+@ 7.22
+# 社 長
+JP それは入ってくれるという
+JP 意味ですよね？
+EN That means you'll join us, right?
+
+@ 7.29
+# ドラウジー獅子堂
+JP は～い、有名になって
+JP 弟子をいっぱい集めろって
+JP 言われました。
+EN Yeees. She told me to get famous and gather lots of
+EN disciples.
+
+@ 7.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ドラウジー獅子堂
+JP うん…わかった。
+JP …入るならもっと有名なとこに
+JP しろって…。
+EN Yeah... got it. ...She says if I join something, it should
+EN be somewhere more famous...
+
+@ 8.22
+# 社 長
+JP そ、そうですか…。
+JP わかりました。
+JP 出直します。
+EN I-I see... Understood. I'll come back another time.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （眠れる獅子拳という流派が
+JP 　あるらしい）
+EN (Apparently there's a martial art called the Sleeping
+EN Lion Fist.)
+
+@ 9.25
+# 社 長
+JP （普段は寝ているような生活で
+JP 　新陳代謝を最低限に抑え…）
+EN (You live as if half asleep, keeping your metabolism
+EN to the bare minimum...)
+
+@ 9.27
+# 社 長
+JP （試合のときに爆発させる
+JP 　必殺拳の一種らしい）
+EN (...and then unleash it all at once in a fight. Some kind
+EN of killer technique.)
+
+@ 9.29
+# 社 長
+JP （世界の唯一無二の拳法らしいが
+JP 　その継承者が獅子堂選手だ）
+EN (They say it's one of a kind in the world, and Shishido
+EN is its heir.)
+
+@ 9.31
+# 社 長
+JP （どこまで噂が本当か知らないが
+JP 　是非うちの団体に欲しい個性だ）
+EN (No idea how much of the rumor is true, but I
+EN definitely want that kind of personality here.)
+
+@ 9.33
+# 社 長
+JP （たしかこのあたりでトレーニングを
+JP 　しているはず…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 9.35
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 9.45
+# ドラウジー獅子堂
+JP すー…すー…。
+JP むにゃ…すー……。
+EN Zzz... zzz... Mmnya... zzz......
+
+@ 9.48
+# 社 長
+JP （た、立ったまま寝てる…！？）
+EN (Sh-she's sleeping standing up...!?)
+
+@ 9.50
+# 社 長
+JP （これも修行のうちなのか…？）
+EN (Is this part of her training too...?)
+
+@ 9.52
+# 社 長
+JP しかし、起きてもらわないと
+JP 話ができないな。
+EN But I can't talk to her unless she wakes up.
+
+@ 9.59
+# ドラウジー獅子堂
+JP 寝てないもん…。
+EN I wasn't sleeping...
+
+@ 9.62
+# 社 長
+JP え、ええっ！？
+JP そ、それは失礼しました！
+EN Wh-whaaat!? S-sorry about that!
+
+@ 9.64
+# 社 長
+JP （という訳で、俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (And so I got straight to the point and tried to
+EN recruit her.)
+
+@ 9.71
+# ドラウジー獅子堂
+JP 私には流派を有名にするって
+JP 使命がありまして～。
+EN I have a mission to make my style famous, you seeee.
+
+@ 9.74
+# 社 長
+JP それは任せてください。
+JP 責任をもって宣伝します！
+EN Leave that to me. I'll take responsibility for
+EN promoting it!
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# ドラウジー獅子堂
+JP 道場破り、いっぱい来ますか？
+EN Will lots of dojo challengers come?
+
+@ 10.18
+# 社 長
+JP そ、そうですね。
+JP たぶん来ると思います。
+EN W-well... I think they probably will.
+
+@ 10.29
+# ドラウジー獅子堂
+JP じゃあ、いいよぉ…。
+EN Then okaaay...
+
+@ 10.32
+# 社 長
+JP ありがとうございます。
+JP よろしくお願いします。
+EN Thank you very much. I look forward to working with
+EN you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ドラウジー獅子堂
+JP なんか無理っぽい…。
+JP ごめんなさい。
+JP 他あたってくださーい…。
+EN Seems kinda impossible... Sorry. Try someone elseee...
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　獅子堂選手が必要だ）
+EN (Our promotion really needs Shishido.)
+
+@ 12.25
+# 社 長
+JP （俺はもう一度
+JP 　交渉を試みることにした）
+EN (I decided to try negotiating once more.)
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ドラウジー獅子堂
+JP …あ、社長さん。
+EN ...Ah, Mr. President.
+
+@ 12.40
+# 社 長
+JP 移籍の話、もう一度
+JP 考えてくれませんか。
+EN Would you consider transferring to us once more?
+
+@ 12.47
+# ドラウジー獅子堂
+JP 流派を有名にできないと
+JP お母さんが悲しむので…。
+EN If I can't make my style famous, my mom will be sad,
+EN so...
+
+@ 12.50
+# 社 長
+JP 任せてください。
+JP 必ずその名を広めて見せます！
+EN Leave it to me. I'll make sure its name gets out
+EN there!
+
+@ 12.52
+# 社 長
+JP （俺は再び説得を試みた）
+EN (I tried to persuade her again.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# ドラウジー獅子堂
+JP 道場破り、いっぱい来ますか？
+EN Will lots of dojo challengers come?
+
+@ 13.18
+# 社 長
+JP そ、そうですね。
+JP たぶん来ると思います。
+EN W-well... I think they probably will.
+
+@ 13.29
+# ドラウジー獅子堂
+JP じゃあ、いいよぉ…。
+EN Then okaaay...
+
+@ 13.32
+# 社 長
+JP ありがとうございます。
+JP よろしくお願いします。
+EN Thank you very much. I look forward to working with
+EN you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ドラウジー獅子堂
+JP なんか無理っぽい…。
+JP ごめんなさい。
+JP 他あたってくださーい…。
+EN Seems kinda impossible... Sorry. Try someone elseee...
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （眠れる獅子拳という
+JP 　インドから伝わった拳法が
+JP 　あるらしい）
+EN (Apparently there's a martial art handed down from
+EN India called the Sleeping Lion Fist.)
+
+@ 15.25
+# 社 長
+JP （普段は寝ているような生活で
+JP 　新陳代謝を最低限に抑え…）
+EN (You live as if half asleep, keeping your metabolism
+EN to the bare minimum...)
+
+@ 15.27
+# 社 長
+JP （試合のときに爆発させる
+JP 　必殺拳の一種だそうだ）
+EN (...and then unleash it all at once in a fight. Some kind
+EN of killer technique, they say.)
+
+@ 15.29
+# 社 長
+JP （世界の唯一無二の拳法らしいが
+JP 　その継承者が獅子堂選手だ）
+EN (They say it's one of a kind in the world, and Shishido
+EN is its heir.)
+
+@ 15.31
+# 社 長
+JP （是非うちの団体に欲しい個性だ）
+EN (I definitely want that kind of personality in our
+EN promotion.)
+
+@ 15.33
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 15.35
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 15.45
+# ドラウジー獅子堂
+JP …すやすや……。
+EN ...Zzz......
+
+@ 15.48
+# 社 長
+JP （た、立ったまま寝てる…！？）
+EN (Sh-she's sleeping standing up...!?)
+
+@ 15.50
+# 社 長
+JP （そうか。
+JP 　これも修行のひとつなのか…）
+EN (I see. This must be part of her training too...)
+
+@ 15.52
+# 社 長
+JP しかし、起きてもらわないと
+JP 話はできないよな。
+EN But I can't talk to her unless she wakes up.
+
+@ 15.59
+# ドラウジー獅子堂
+JP …寝てないもん。
+EN ...I wasn't sleeping.
+
+@ 15.62
+# 社 長
+JP え、ええっ！？
+JP そ、それは失礼しました！
+EN Wh-whaaat!? S-sorry about that!
+
+@ 15.64
+# 社 長
+JP （という訳で、俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (And so I got straight to the point and tried to
+EN recruit her.)
+
+@ 15.71
+# ドラウジー獅子堂
+JP 私には流派を有名にするって
+JP 使命があるんですけど…。
+EN I have a mission to make my style famous, though...
+
+@ 15.74
+# 社 長
+JP それは任せてください。
+JP 責任をもってプロデュースします！
+EN Leave that to me. I'll take responsibility for
+EN promoting it!
+
+@ 15.76
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out my terms.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# ドラウジー獅子堂
+JP 「眠れる獅子拳」ですよ？
+JP 「眠れる虎拳」じゃないですよ？
+EN It's the "Sleeping Lion Fist," okay? Not the "Sleeping
+EN Tiger Fist," okay?
+
+@ 16.18
+# 社 長
+JP は、はあ…。
+JP 大丈夫です。
+JP 間違えたりしませんから…。
+EN R-right... Don't worry. I won't get it wrong...
+
+@ 16.29
+# ドラウジー獅子堂
+JP じゃあ、ＯＫですぅ。
+EN Then it's a deeeal.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ドラウジー獅子堂
+JP ふ、ふはあ…。
+JP くー…くー……。
+EN Fwa, fwaaah... Zzz... zzz......
+
+@ 17.22
+# 社 長
+JP …えっ！？
+JP あっ、ちょっと寝ないで！
+EN ...Huh!? Ah, hey, don't fall asleep!
+
+@ 17.24
+# 社 長
+JP （ダメだ…。
+JP 　何をやっても起きない…）
+EN (It's no use... Nothing will wake her up...)
+
+@ 17.26
+# 社 長
+JP （あきらめるしかないな…）
+EN (I'll have to give up...)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには
+JP 　獅子堂選手が必要だ）
+EN (We really need Shishido.)
+
+@ 18.25
+# 社 長
+JP （俺はもう一度
+JP 　獅子堂選手と交渉することにした）
+EN (I decided to negotiate with Shishido once more.)
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ドラウジー獅子堂
+JP …あ、社長さん。
+JP こんにちわ～。
+EN ...Ah, Mr. President. Hellooo.
+
+@ 18.40
+# 社 長
+JP 先日の話、もう一度
+JP 考えてもらえませんか。
+EN Would you reconsider what we talked about the
+EN other day?
+
+@ 18.47
+# ドラウジー獅子堂
+JP 社長さんについて行けば
+JP 流派は有名になれるんでしょうかぁ？
+EN If I go with you, Mr. President, will my style get
+EN famous?
+
+@ 18.50
+# 社 長
+JP 努力します！
+JP ですから、どうかお願いします。
+EN I'll do my best! So please, I'm asking you.
+
+@ 18.52
+# 社 長
+JP （俺は再び説得を試みた）
+EN (I tried to persuade her again.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# ドラウジー獅子堂
+JP 「眠れる獅子拳」ですよ？
+JP 「眠れる虎拳」じゃないですよ？
+EN It's the "Sleeping Lion Fist," okay? Not the "Sleeping
+EN Tiger Fist," okay?
+
+@ 19.18
+# 社 長
+JP は、はあ…。
+JP 大丈夫です。
+JP 間違えたりしませんから…。
+EN R-right... Don't worry. I won't get it wrong...
+
+@ 19.29
+# ドラウジー獅子堂
+JP じゃあ、ＯＫですぅ。
+EN Then it's a deeeal.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ドラウジー獅子堂
+JP ふ、ふはあ…。
+JP くー…くー…くー……。
+EN Fwa, fwaaah... Zzz... zzz... zzz......
+
+@ 20.22
+# 社 長
+JP …えっ！？
+JP あっ、ちょっと寝ないで！
+EN ...Huh!? Ah, hey, don't fall asleep!
+
+@ 20.24
+# 社 長
+JP （ダメだ…。
+JP 　何をやっても起きない…）
+EN (It's no use... Nothing will wake her up...)
+
+@ 20.26
+# 社 長
+JP （あきらめるしかないな…）
+EN (I'll have to give up...)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…。
+EN She should be around here...
+
+@ 21.25
+# 社 長
+JP あっ、獅子堂っ！
+EN Ah, Shishido!
+
+@ 21.35
+# ドラウジー獅子堂
+JP …あ、社長。
+EN ...Ah, Boss.
+
+@ 21.38
+# 社 長
+JP 久しぶりだな。
+JP 今日は…獅子堂に戻って欲しくて
+JP 来たんだ。
+EN Long time no see. Today... I came because I want you
+EN to come back.
+
+@ 21.45
+# ドラウジー獅子堂
+JP また社長のところに戻るんですか？
+EN Back to your promotion again?
+
+@ 21.48
+# 社 長
+JP ああ。
+JP ムシのいい話だとは思うが
+JP なんとかお願いできないか？
+EN Yeah. I know it's a selfish thing to ask, but could you
+EN please?
+
+@ 21.55
+# ドラウジー獅子堂
+JP でも…社長のところだと
+JP 流派が潰れるってお母さんが…。
+EN But... my mom says your place will be the ruin of our
+EN style...
+
+@ 21.58
+# 社 長
+JP そこを頼む。
+JP もう一度俺を助けてくれないか？
+EN I'm begging you. Won't you help me out one more
+EN time?
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# ドラウジー獅子堂
+JP わかりました。
+JP …じゃあ、家族を説得してみます。
+EN Okay. ...Then I'll try to convince my family.
+
+@ 22.22
+# 社 長
+JP 本当か！？
+JP ありがとう！
+EN Really!? Thank you!
+
+@ 22.29
+# ドラウジー獅子堂
+JP 今度こそ期待してますよー。
+EN I'm counting on you this time, okaaay?
+
+@ 22.32
+# 社 長
+JP ああ、任せてくれ。
+EN Yeah, leave it to me.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ドラウジー獅子堂
+JP でも、お母さんが
+JP 他の団体と話を進めていて…。
+EN But my mom's already in talks with another
+EN promotion...
+
+@ 23.22
+# 社 長
+JP う、うーむ…。
+EN Hmm...
+
+@ 23.29
+# ドラウジー獅子堂
+JP 今さら断れないと思いますからぁ…。
+EN I don't think we can turn them down now...
+
+@ 23.32
+# 社 長
+JP わかった。
+JP それじゃ仕方ないな。
+EN All right. Then it can't be helped.
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　獅子堂の力が必要だ）
+EN (Our promotion really needs Shishido's strength.)
+
+@ 24.25
+# 社 長
+JP （なんとか説得できないかな）
+EN (I wonder if I can talk her into it.)
+
+@ 24.27
+# 社 長
+JP …あっ、獅子堂っ！
+EN ...Ah, Shishido!
+
+@ 24.37
+# ドラウジー獅子堂
+JP …あ、社長。
+EN ...Ah, Boss.
+
+@ 24.40
+# 社 長
+JP 獅子堂。
+JP もう一度頼む。
+JP 戻ってくれないか？
+EN Shishido. I'm asking you again. Won't you come back?
+
+@ 24.47
+# ドラウジー獅子堂
+JP うーん…。
+JP ちょっと困った…かなぁ…。
+JP …ぐー……。
+EN Hmmm... That's kind of a tough one... maybe... ...Zzz......
+
+@ 24.50
+# 社 長
+JP お、おい、寝るなって！
+JP 頼むよ、獅子堂。
+EN H-hey, don't fall asleep! Please, Shishido.
+
+@ 24.56
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼んでみた）
+EN (I asked her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ドラウジー獅子堂
+JP わかりました。
+JP …じゃあ、家族を説得してみます。
+EN Okay. ...Then I'll try to convince my family.
+
+@ 25.22
+# 社 長
+JP 本当か！？
+JP ありがとう！
+EN Really!? Thank you!
+
+@ 25.29
+# ドラウジー獅子堂
+JP 今度こそ期待してますよー。
+EN I'm counting on you this time, okaaay?
+
+@ 25.32
+# 社 長
+JP ああ、任せてくれ。
+EN Yeah, leave it to me.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ドラウジー獅子堂
+JP でも、お母さんが
+JP 他の団体と話を進めていて…。
+EN But my mom's already in talks with another
+EN promotion...
+
+@ 26.22
+# 社 長
+JP う、うーむ…。
+EN Hmm...
+
+@ 26.29
+# ドラウジー獅子堂
+JP 今さら断れないと思いますからぁ…。
+EN I don't think we can turn them down now...
+
+@ 26.32
+# 社 長
+JP わかった。
+JP それじゃ仕方ないな。
+EN All right. Then it can't be helped.
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ドラウジー獅子堂
+JP あ…。
+JP 怪我してました。
+EN Oh... I got hurt.
+
+@ 28.16
+# scene 029 ケガ大
+# ドラウジー獅子堂
+JP …あ。
+JP これ、痛いかも。
+EN ...Oh. This might hurt.
+
+@ 29.16
+# scene 030 入院
+# ドラウジー獅子堂
+JP ゆっくり眠ってきまーす。
+EN I'm off to get a good long sleeeep.
+
+@ 30.16
+# scene 031 退院
+# ドラウジー獅子堂
+JP ただいま戻りましたぁ。
+JP …ふわぁ、まだ眠いかも…。
+EN I'm baaack. ...Fwaaah, I think I'm still sleepy...
+
+@ 31.16
+# scene 032 ケガ完治
+# ドラウジー獅子堂
+JP あれ…。
+JP いつの間にか治ってる。
+EN Huh... It healed before I knew it.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ドラウジー獅子堂
+JP そうですねぇ…。
+JP 眠れる獅子拳も広まったみたいだし
+JP もういいかなぁ？
+EN Let's seee... The Sleeping Lion Fist seems to have
+EN spread, so maybe that's enough?
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ドラウジー獅子堂
+JP 今帰ると、お母さんに
+JP 怒られちゃいそうなので…。
+EN If I go home now, I think my mom will get mad at me...
+
+@ 34.16
+# scene 035 コーチ就任
+# ドラウジー獅子堂
+JP では、今日から
+JP 眠れる獅子拳の伝授を…。
+JP …あ、ダメですか。
+EN Well then, starting today I'll teach the Sleeping Lion
+EN Fist... ...Oh, I can't?
+
+@ 35.16
+# scene 036 ケガ引退
+# ドラウジー獅子堂
+JP 眠れる獅子拳は
+JP 誰かが引き継いでくれると
+JP 信じますぅ。
+EN I believe someone will carry on the Sleeping Lion
+EN Fist...
+
+@ 36.16
+# scene 037 年齢引退
+# ドラウジー獅子堂
+JP もう限界かも…。
+EN Maybe this is my limit...
+
+@ 37.16
+# scene 038 退団
+# ドラウジー獅子堂
+JP 地道に弟子を集めることに
+JP しようかと…。
+EN I think I'll just gather disciples, slow and steady...
+
+@ 38.16
+# scene 039 スランプ
+# ドラウジー獅子堂
+JP …眠れないんですぅ。
+EN ...I can't sleeeep.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ドラウジー獅子堂
+JP ファン…クラブ…？
+EN A fan... club...?
+
+@ 39.19
+# 社 長
+JP 応援に負けないよう
+JP がんばれよ。
+EN Don't let their cheering down. Do your best.
+
+@ 39.26
+# ドラウジー獅子堂
+JP 弟子になってくれないかなぁ…？
+EN Maybe they'll become my disciples...?
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ドラウジー獅子堂
+JP 弟子が増えましたぁ…。
+EN My disciples have increaaased...
+
+@ 40.19
+# 社 長
+JP いや、ファンクラブの人は
+JP 弟子じゃないだろ。
+EN Hey, the people in your fan club aren't disciples.
+
+@ 40.26
+# ドラウジー獅子堂
+JP うー…。
+JP 弟子、弟子。
+JP 弟子欲しい…。
+EN Mmm... Disciples, disciples. I want disciples...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ドラウジー獅子堂
+JP 弟子候補がいなくなりましたぁ…。
+EN My disciple candidates are goooone...
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. You'll just have to try again.
+
+@ 41.26
+# ドラウジー獅子堂
+JP もう…。
+JP ふて寝するぅ。
+EN Hmph... I'm gonna go sulk in bed.
+
+@ 42.16
+# scene 043 映画出演
+# ドラウジー獅子堂
+JP 眠れる獅子拳を
+JP 広めるチャンスですぅ。
+EN It's a chance to spread the Sleeping Lion Fist.
+
+@ 43.16
+# scene 044 一日署長
+# ドラウジー獅子堂
+JP 悪い人を捕まえたら
+JP 有名になれますか？
+EN If I catch a bad guy, will I get famous?
+
+@ 44.16
+# scene 045 写真集発売
+# ドラウジー獅子堂
+JP 寝ているうちに
+JP 撮ってくれないでしょうかぁ。
+EN Could they take the pictures while I'm sleeping?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ドラウジー獅子堂
+JP 眠れる獅子拳の宣伝しちゃ
+JP ダメでしょうかぁ。
+EN Would it be bad if I advertised the Sleeping Lion Fist?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ドラウジー獅子堂
+JP 眠れる獅子拳の
+JP イメージソングにしませんか？
+EN How about making it the Sleeping Lion Fist's theme
+EN song?
+
+@ 47.16
+# scene 048 始球式
+# ドラウジー獅子堂
+JP あれはぁ…。
+JP 本気でぶつけていいんですかぁ？
+EN That ball... Can I hit him with it for real?
+
+@ 48.16
+# scene 049 学園祭
+# ドラウジー獅子堂
+JP 弟子を集めるチャンスかも…です。
+EN This might be a chance to gather disciples.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.37
+# ドラウジー獅子堂
+JP …ふえええ！？
+EN ...Fweeeh!?
+
+@ 49.40
+# 社 長
+JP なんでそんなに驚くんだ？
+EN Why are you so surprised?
+
+@ 49.48
+# ドラウジー獅子堂
+JP な、慣れないことは体に悪いです…。
+JP でも、ありがとうございますぅ。
+EN Th-things I'm not used to are bad for my health... But
+EN thank youuu.
+
+@ 50.32
+# scene 051 バレンタインデー
+# ドラウジー獅子堂
+JP 社長、チョコですぅ。
+EN Boss, chocolate for youuu.
+
+@ 50.35
+# 社 長
+JP あぁ、バレンタインのチョコか。
+JP ありがとう。
+EN Ah, Valentine's chocolate? Thanks.
+
+@ 50.42
+# ドラウジー獅子堂
+JP お父さん以外にあげたの
+JP 初めてですぅ。
+EN This is the first time I've given any to someone
+EN besides my dad.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 獅子堂。
+JP 先月のお礼、受け取ってくれるか？
+EN Shishido. Will you take this, as thanks for last
+EN month?
+
+@ 51.38
+# ドラウジー獅子堂
+JP わー、ありがとうございますぅ。
+EN Wow, thank youuu.
+
+@ 51.41
+# 社 長
+JP 練習の合間に食べてくれ。
+EN Have some between training sessions.
+
+@ 51.48
+# ドラウジー獅子堂
+JP お返しをもらったの、初めてですぅ。
+EN This is the first time I've gotten something back.
+
+@ 52.31
+# scene 053 サイン会
+# ドラウジー獅子堂
+JP 眠れる獅子拳を
+JP よろしくお願いしますぅ。
+EN Please support the Sleeping Lion Fist.
+
+@ 53.31
+# scene 054 コンサート
+# ドラウジー獅子堂
+JP と、途中で寝てしまったら
+JP ごめんなさいです…。
+EN S-sorry if I fall asleep in the middle...
+
+@ 54.28
+# scene 055 練習拒否
+# ドラウジー獅子堂
+JP あと５分だけ寝かせてくださ～い。
+EN Let me sleep just five more minuuutes.
+
+@ 55.28
+# scene 056 失踪
+# ドラウジー獅子堂
+JP ちょっと実家の道場を
+JP 覗いてきますぅ。
+EN I'm gonna go check on my family's dojo for a bit.
+
+@ 56.16
+# scene 057 選手解雇
+# ドラウジー獅子堂
+JP ふえ…。
+JP もしかして、だまされたのですか？
+EN Fweh... Was I tricked?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ドラウジー獅子堂
+JP ショコクホーローの旅ですねぇ。
+JP やってみたかったですぅ。
+EN A journey through many lands, huh? I always wanted
+EN to do that.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ドラウジー獅子堂
+JP 戻りましたぁ。
+JP 眠れる獅子拳は
+JP 時差ぼけに強いですぅ。
+EN I'm baaack. The Sleeping Lion Fist is great against
+EN jet lag.
+
+@ 59.28
+# scene 060 移籍思案
+# ドラウジー獅子堂
+JP あっちの方が条件いいかも…？
+EN Maybe their offer is better...?
+
+@ 60.16
+# scene 061 革命軍結成
+# ドラウジー獅子堂
+JP なんとなく腹が立つというか…。
+JP そんな感じですぅ。
+EN It kinda makes me mad, I guess... Something like that.
+
+@ 61.16
+# scene 062 反乱軍結成
+# ドラウジー獅子堂
+JP どうにも頭に来るというか
+JP そんな感じですぅ。
+EN It really ticks me off, I guess... Something like that.
+
+@ 62.16
+# scene 063 最終決戦要求
+# ドラウジー獅子堂
+JP さあ、行くぞぉ。
+EN Okay, here we gooo.
+
+@ 63.16
+# scene 064 遺恨発生
+# ドラウジー獅子堂
+JP なんか、イラつきますぅ…。
+EN Something about her just bugs meee...
+
+@ 64.16
+# scene 065 殴り込み
+# ドラウジー獅子堂
+JP 眠れる獅子拳の力を
+JP 見せてやりますぅ。
+EN I'll show them the power of the Sleeping Lion Fist.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ドラウジー獅子堂
+JP 眠れる獅子拳の怖さを
+JP 教えてやりますぅ。
+EN I'll teach them to fear the Sleeping Lion Fist.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ドラウジー獅子堂
+JP 眠れる獅子拳
+JP 受けてみろーですぅ。
+EN Take this, the Sleeping Lion Fiiist.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ドラウジー獅子堂
+JP 溜めた力…。
+JP 今こそ、解放すべきとき！
+EN The power I've stored up... Now is the time to unleash
+EN it!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ドラウジー獅子堂
+JP 眠れる獅子拳の威力を
+JP 思い知るがいい！
+EN Behold the might of the Sleeping Lion Fist!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ドラウジー獅子堂
+JP お父さん、お母さん…。
+JP ごめんなさーい…。
+EN Mom, Dad... I'm sorryyy...
+
+@ 70.13
+# scene 071 引退式
+# ドラウジー獅子堂
+JP ありがとうございましたぁ。
+JP 夢の中にいるような毎日でしたぁ。
+EN Thank you so much. Every day felt like a dream.
+
+@ 71.16
+# ドラウジー獅子堂
+JP なんでしょうかぁ？
+EN What is iiit?
+
+@ 71.35
+# ドラウジー獅子堂
+JP 社長～、来ましたよぉ。
+EN Boss, I'm heeere.
+
+@ 71.45
+# ドラウジー獅子堂
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.64
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be on a roll lately. Keep it up!
+
+@ 71.88
+# ドラウジー獅子堂
+JP はーい。
+JP がんばりまーす。
+EN Okaaay. I'll do my beeest.
+
+@ 71.109
+# ドラウジー獅子堂
+JP …え、なんか言いましたぁ？
+EN ...Huh, did you say something?
+
+@ 71.130
+# ドラウジー獅子堂
+JP 褒められた。
+JP えへへ…。
+EN I got praised. Ehehe...
+
+@ 71.151
+# ドラウジー獅子堂
+JP 結果が出せなきゃ
+JP 意味ないと思いますぅ。
+EN I don't think it means anything if I don't get results.
+
+@ 71.164
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.188
+# ドラウジー獅子堂
+JP むぅ…。
+JP なんとなく、そんな気もしますぅ。
+EN Mmm... I kinda feel that way too.
+
+@ 71.209
+# ドラウジー獅子堂
+JP 社長って意外に
+JP 見る目なかったりしませんかぁ…。
+EN Boss, maybe you're not as good a judge as I
+EN thought...
+
+@ 71.230
+# ドラウジー獅子堂
+JP うん。
+JP ちょっとサボってたかも…。
+EN Yeah. Maybe I was slacking off a little...
+
+@ 71.251
+# ドラウジー獅子堂
+JP お父さんにもそんなこと
+JP 言われたことないのにぃ…。
+EN Not even my dad has ever said that to me...
+
+@ 71.264
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.288
+# ドラウジー獅子堂
+JP 大丈夫です…。
+JP こういう技なんですぅ。
+EN I'm fine... It's part of my technique.
+
+@ 71.309
+# ドラウジー獅子堂
+JP 元気出してたら、眠れる獅子拳じゃ
+JP なくなっちゃいますぅ…。
+EN If I perked up, it wouldn't be the Sleeping Lion Fist
+EN anymore...
+
+@ 71.330
+# ドラウジー獅子堂
+JP 社長、お父さんみたいです…。
+EN Boss, you're like my dad...
+
+@ 71.351
+# ドラウジー獅子堂
+JP いつもと変わって
+JP いないんですけどぉ…？
+EN I'm the same as always, though...?
+
+@ 71.365
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.381
+# ドラウジー獅子堂
+JP あ～、なんか怒られそうな予感が…。
+EN Ahh, I have a feeling I'm gonna get scolded...
+
+@ 71.398
+# ドラウジー獅子堂
+JP くー…くー…くー……。
+EN Zzz... zzz... zzz......
+
+@ 71.409
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.431
+# ドラウジー獅子堂
+JP はあ。
+JP ではぁ、謝ってきまーす。
+EN Okay. Then I'll go apologiiize.
+
+@ 71.452
+# ドラウジー獅子堂
+JP こう見えても怒ってるんですぅ。
+EN I may not look it, but I'm really mad.
+
+@ 71.473
+# ドラウジー獅子堂
+JP …くぅ…くぅ……。
+EN ...Zzz... zzz......
+
+@ 71.486
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.503
+# ドラウジー獅子堂
+JP 悪いのはあっちですよぉ。
+EN She's the one in the wrong, you know.
+
+@ 71.520
+# ドラウジー獅子堂
+JP 今日の社長はシブイですぅ。
+EN You're looking cool today, Boss.
+
+@ 71.533
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.555
+# ドラウジー獅子堂
+JP 社長がそう言うなら…。
+JP 仕方ないかも…。
+EN If you say so, Boss... I guess it can't be helped...
+
+@ 71.576
+# ドラウジー獅子堂
+JP 社長に告げ口するなんて
+JP ますます許せないですよぉ。
+EN Tattling to the Boss? Now I really can't forgive her.
+
+@ 71.597
+# ドラウジー獅子堂
+JP もともと仲良しですよぉ？
+EN But we already get along fine?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ドラウジー獅子堂
+JP 社長～、来ましたよぉ。
+EN Boss, I'm heeere.
+
+@ 72.16
+# ドラウジー獅子堂
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be on a roll lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ドラウジー獅子堂
+JP はーい。
+JP がんばりまーす。
+EN Okaaay. I'll do my beeest.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ドラウジー獅子堂
+JP ……え、なんか言いましたぁ？
+EN ......Huh, did you say something?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ドラウジー獅子堂
+JP 褒められた。えへへ…。
+EN I got praised. Ehehe...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ドラウジー獅子堂
+JP 結果が出せなきゃ意味ないと
+JP 思いますぅ。
+EN I don't think it means anything if I don't get results.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ドラウジー獅子堂
+JP むぅ…。
+JP なんとなく、そんな気もしますぅ。
+EN Mmm... I kinda feel that way too.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ドラウジー獅子堂
+JP 社長って意外に見る目なかったり
+JP しませんかぁ…。
+EN Boss, maybe you're not as good a judge as I
+EN thought...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ドラウジー獅子堂
+JP うん。ちょっとサボってたかも…。
+EN Yeah. Maybe I was slacking off a little...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ドラウジー獅子堂
+JP お父さんにもそんなこと
+JP 言われたことないのにぃ…。
+EN Not even my dad has ever said that to me...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ドラウジー獅子堂
+JP 大丈夫です…。
+JP こういう技なんですぅ。
+EN I'm fine... It's part of my technique.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ドラウジー獅子堂
+JP 元気出してたら、眠れる獅子拳じゃ
+JP なくなっちゃいますぅ…。
+EN If I perked up, it wouldn't be the Sleeping Lion Fist
+EN anymore...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ドラウジー獅子堂
+JP 社長、お父さんみたいです…。
+EN Boss, you're like my dad...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ドラウジー獅子堂
+JP いつもと変わっていないんです
+JP けどぉ…？
+EN I'm the same as always, though...?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ドラウジー獅子堂
+JP あ～、
+JP なんか怒られそうな予感が……。
+EN Ahh, I have a feeling I'm gonna get scolded...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ドラウジー獅子堂
+JP くー……くー……くー……。
+EN Zzz...... zzz...... zzz......
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ドラウジー獅子堂
+JP はあ。
+JP ではぁ、謝ってきまーす。
+EN Okay. Then I'll go apologiiize.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ドラウジー獅子堂
+JP こう見えても怒ってるんですぅ。
+EN I may not look it, but I'm really mad.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ドラウジー獅子堂
+JP ……くぅ……くぅ……。
+EN ......Zzz...... zzz......
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ドラウジー獅子堂
+JP 悪いのはあっちですよぉ。
+EN She's the one in the wrong, you know.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ドラウジー獅子堂
+JP 今日の社長はシブイですぅ。
+EN You're looking cool today, Boss.
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ドラウジー獅子堂
+JP 社長がそう言うなら…。
+JP 仕方ないかも…。
+EN If you say so, Boss... I guess it can't be helped...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ドラウジー獅子堂
+JP 社長に告げ口するなんて、
+JP ますます許せないですよぉ。
+EN Tattling to the Boss? Now I really can't forgive her.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ドラウジー獅子堂
+JP もともと仲良しですよぉ？
+EN But we already get along fine?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ドラウジー獅子堂
+JP また来年もよろしくですぅ…。
+EN Please take care of me next year toooo...
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ドラウジー獅子堂
+JP お父さん、お母さんも
+JP 喜んでくれるですぅ。
+EN My mom and dad will be happy toooo.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ドラウジー獅子堂
+JP うう…。
+JP お母さんに怒られそうですぅ…。
+EN Ugh... My mom's gonna be mad at me...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （たまにはプールもいいもんだな）
+EN (A pool's nice once in a while.)
+
+@ 105.26
+# 社 長
+JP （今日は人も少ないし
+JP 　ゆったり泳ぐにはもってこいだ）
+EN (There aren't many people today, too. Perfect for a
+EN relaxing swim.)
+
+@ 105.28
+# 社 長
+JP （さて…のんびり泳ぐか）
+EN (Now... time for a leisurely swim.)
+
+@ 105.40
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.44
+# ？？？
+JP 社長ー！
+EN Boooss!
+
+@ 105.47
+# 社 長
+JP この声は…獅子堂…？
+EN That voice... Shishido...?
+
+@ 105.49
+# 社 長
+JP おまえも泳ぎに来たのか？
+EN You came for a swim too?
+
+@ 105.51
+# 社 長
+JP （あれ…？
+JP 　どこだ…？）
+EN (Huh...? Where is she...?)
+
+@ 105.55
+# ドラウジー獅子堂
+JP 逃げてー！
+EN Get awaaay!
+
+@ 105.58
+# 社 長
+JP （…えっ、上？）
+EN (...Huh, from above?)
+
+@ 105.68
+# ドラウジー獅子堂
+JP どいてー！
+EN Move iiit!
+
+@ 105.71
+# 社 長
+JP な、なんだぁっ！？
+EN Wh-whaaat!?
+
+@ 105.75
+# ドラウジー獅子堂
+JP いぃやあぁぁぁぁっっ！！
+EN Kyaaaaaaaah!!
+
+@ 105.78
+# 社 長
+JP うわあぁぁぁっっっ！
+EN Waaaaaaah!
+
+@ 105.112
+# 社 長
+JP おまえを呼び出した理由は
+JP わかってるな？
+EN You know why I called you here, right?
+
+@ 105.116
+# ドラウジー獅子堂
+JP だって…下に人がいるとは
+JP 思わなかったんだもん。
+EN But... I didn't think anyone was down there.
+
+@ 105.119
+# 社 長
+JP それでも飛び込む前には確認しろよ。
+EN Even so, look before you dive.
+
+@ 105.121
+# 社 長
+JP とにかく罰として一週間
+JP トイレ掃除だからな！
+EN Anyway, as punishment, you're on toilet duty for a
+EN week!
+
+@ 105.128
+# ドラウジー獅子堂
+JP そんなあ～。
+EN Nooo waaay.
+
+@ 105.131
+# 社 長
+JP あのな…。
+JP あれがもし、他の客だったら
+JP どうするつもりだ。
+EN Look... What if that had been some other guest?
+
+@ 105.138
+# ドラウジー獅子堂
+JP …うぅ。
+EN ...Ugh.
+
+@ 105.141
+# 社 長
+JP 運良く横に逸れたから
+JP 良かったようなものの…。
+EN You got lucky and veered off to the side, but...
+
+@ 105.143
+# 社 長
+JP ぶつかってたら大変なことに
+JP なってたんだぞ。
+EN If you'd hit someone, it could've been really serious.
+
+@ 105.147
+# ドラウジー獅子堂
+JP …う。
+EN ...Ugh.
+
+@ 105.150
+# 社 長
+JP トイレ掃除なんて軽いぐらいだ。
+EN Toilet duty is getting off light.
+
+@ 105.154
+# ドラウジー獅子堂
+JP うぅ…。
+EN Ugh...
+
+@ 105.157
+# 社 長
+JP …聞いてるのか？
+EN ...Are you listening?
+
+@ 105.164
+# ドラウジー獅子堂
+JP …くぅ。
+EN ...Zzz.
+
+@ 105.167
+# 社 長
+JP …おい？
+EN ...Hey?
+
+@ 105.171
+# ドラウジー獅子堂
+JP くぅ…すぴー…。
+EN Zzz... snore...
+
+@ 105.174
+# 社 長
+JP こら！
+JP 都合のいいときだけ
+JP 寝るんじゃない！
+EN Hey! Don't fall asleep just when it suits you!
+
+@ 105.178
+# ドラウジー獅子堂
+JP くぅ…すぴー…。
+EN Zzz... snore...
+
+@ 105.196
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.198
+# 社 長
+JP （やれやれ…）
+EN (Good grief...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP もうこんな時間か…。
+EN Is it this late already...?
+
+@ 106.26
+# 社 長
+JP 今夜は仕事で帰れないかな。
+EN Guess I won't make it home tonight with all this work.
+
+@ 106.28
+# 社 長
+JP （ちょっと休憩するか）
+EN (Let's take a short break.)
+
+@ 106.40
+# 社 長
+JP （…んっ？
+JP 　誰だろう？）
+EN (...Hm? Who could that be?)
+
+@ 106.42
+# 社 長
+JP どうぞ。
+EN Come in.
+
+@ 106.55
+# 社 長
+JP ああ、獅子堂か。
+JP こんな時間にどうした？
+EN Oh, Shishido. What's wrong, at this hour?
+
+@ 106.62
+# ドラウジー獅子堂
+JP 社長…。
+JP 私、死んじゃうかも…。
+EN Boss... I might die...
+
+@ 106.65
+# 社 長
+JP おいおい。
+JP 急にどうしたんだ？
+EN Whoa, whoa. What's this all of a sudden?
+
+@ 106.72
+# ドラウジー獅子堂
+JP 眠れない…。
+EN I can't sleep...
+
+@ 106.75
+# 社 長
+JP …はっ？
+EN ...Huh?
+
+@ 106.79
+# ドラウジー獅子堂
+JP だから眠れなくなったの…。
+EN I said I can't sleep anymore...
+
+@ 106.82
+# 社 長
+JP 誰でもそんなときくらいあるだろ。
+EN Everyone has nights like that.
+
+@ 106.89
+# ドラウジー獅子堂
+JP うぅ…。
+JP 私はそんなことなかった…。
+EN Ugh... I never did...
+
+@ 106.92
+# 社 長
+JP わ、わかったから泣くな。
+EN O-okay, I get it, don't cry.
+
+@ 106.99
+# ドラウジー獅子堂
+JP 私はこのまま眠れなくなって
+JP 死んじゃうんだー！
+EN I'm never gonna be able to sleep again and I'm gonna
+EN die!
+
+@ 106.102
+# 社 長
+JP そんなことないから。
+JP まぁ落ち着け。
+EN That's not going to happen. Just calm down.
+
+@ 106.109
+# ドラウジー獅子堂
+JP うぅ…。
+EN Ugh...
+
+@ 106.113
+# ドラウジー獅子堂
+JP 社長…。
+JP 腕枕して…。
+EN Boss... Let me use your arm as a pillow...
+
+@ 106.116
+# 社 長
+JP …はっ？
+EN ...Huh?
+
+@ 106.123
+# ドラウジー獅子堂
+JP う・で・ま・く・ら…。
+EN Your. Arm. As. A. Pil. Low...
+
+@ 106.126
+# 社 長
+JP どうしてだ？
+EN Why?
+
+@ 106.130
+# ドラウジー獅子堂
+JP 子供のとき一度だけ眠れなかった時は
+JP おじいちゃんが腕枕してくれたら
+JP 眠れた…。
+EN The one time I couldn't sleep as a kid, Grandpa let me
+EN use his arm as a pillow, and I fell asleep...
+
+@ 106.133
+# 社 長
+JP （前に同じようなこと
+JP 　あったんじゃないか…）
+EN (So it's happened before...)
+
+@ 106.140
+# ドラウジー獅子堂
+JP うぅ…。
+EN Ugh...
+
+@ 106.143
+# 社 長
+JP わかった、わかった。
+JP 腕枕でもなんでもするから泣くな。
+EN All right, all right. I'll be your pillow or whatever, just
+EN don't cry.
+
+@ 106.162
+# 社 長
+JP これでいいのか。
+EN Is this okay?
+
+@ 106.166
+# ドラウジー獅子堂
+JP うん…。
+EN Yeah...
+
+@ 106.169
+# 社 長
+JP 寝れそうか？
+EN Think you can sleep?
+
+@ 106.173
+# ドラウジー獅子堂
+JP まだ…。
+EN Not yet...
+
+@ 106.177
+# ドラウジー獅子堂
+JP 社長、私が眠るまで腕枕していてね？
+EN Boss, keep being my pillow until I fall asleep, okay?
+
+@ 106.180
+# 社 長
+JP わかった、わかった。
+EN All right, all right.
+
+@ 106.192
+# 社 長
+JP （俺も仕事があるんだがなぁ…）
+EN (I've got work to do, though...)
+
+@ 106.194
+# 社 長
+JP 獅子堂、おまえ寝れなくなったのに
+JP 心当たりあるのか？
+EN Shishido, do you have any idea why you can't sleep?
+
+@ 106.198
+# ドラウジー獅子堂
+JP ………………。
+EN ..................
+
+@ 106.201
+# 社 長
+JP 獅子堂？
+EN Shishido?
+
+@ 106.205
+# ドラウジー獅子堂
+JP くぅ…すぴー…。
+EN Zzz... snore...
+
+@ 106.208
+# 社 長
+JP は、はやっ！
+JP もう寝たのか！？
+EN Th-that was fast! She's already asleep!?
+
+@ 106.210
+# 社 長
+JP （じゃ、俺も腕を抜いて…）
+EN (Well then, I'll just slip my arm out...)
+
+@ 106.212
+# 社 長
+JP （あれ？
+JP 　抜けない…）
+EN (Huh? It won't come out...)
+
+@ 106.214
+# 社 長
+JP （おいおい、朝までこの状態かよ…）
+EN (Come on, am I stuck like this till morning?)
+
+@ 106.228
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.230
+# 社 長
+JP （やれやれ…）
+EN (Good grief...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP もうこんな時間か…。
+EN Is it this late already...?
+
+@ 107.26
+# 社 長
+JP 今夜は仕事で帰れないかな。
+EN Guess I won't make it home tonight with all this work.
+
+@ 107.28
+# 社 長
+JP （ちょっと休憩するか）
+EN (Let's take a short break.)
+
+@ 107.40
+# 社 長
+JP （…んっ？
+JP 　誰だろう？）
+EN (...Hm? Who could that be?)
+
+@ 107.42
+# 社 長
+JP どうぞ。
+EN Come in.
+
+@ 107.55
+# 社 長
+JP 獅子堂…。
+JP もしかしてまたか…？
+EN Shishido... Don't tell me, again...?
+
+@ 107.62
+# ドラウジー獅子堂
+JP 社長…。
+JP 私、死んじゃうかも…。
+EN Boss... I might die...
+
+@ 107.65
+# 社 長
+JP また眠れないのか？
+EN You can't sleep again?
+
+@ 107.69
+# ドラウジー獅子堂
+JP うぅ…。
+JP うん…。
+EN Ugh... Yeah...
+
+@ 107.72
+# 社 長
+JP （昼間寝すぎてるからじゃ
+JP 　ないのか…）
+EN (Isn't it because she sleeps too much during the
+EN day...?)
+
+@ 107.79
+# ドラウジー獅子堂
+JP 社長…。
+JP また腕枕して…。
+EN Boss... Let me use your arm as a pillow again...
+
+@ 107.82
+# 社 長
+JP またそうなるのか…。
+EN It's that again, huh...
+
+@ 107.89
+# ドラウジー獅子堂
+JP うぅ…。
+EN Ugh...
+
+@ 107.92
+# 社 長
+JP わかった、わかった。
+JP 腕枕してやるから泣くな。
+EN All right, all right. I'll be your pillow, just don't cry.
+
+@ 107.111
+# 社 長
+JP これでいいのか。
+EN Is this okay?
+
+@ 107.121
+# ドラウジー獅子堂
+JP うん…。
+EN Yeah...
+
+@ 107.124
+# 社 長
+JP 寝れそうか？
+EN Think you can sleep?
+
+@ 107.134
+# ドラウジー獅子堂
+JP まだ…。
+EN Not yet...
+
+@ 107.138
+# ドラウジー獅子堂
+JP 社長、私が眠るまで腕枕していてね？
+EN Boss, keep being my pillow until I fall asleep, okay?
+
+@ 107.141
+# 社 長
+JP わかった、わかった。
+EN All right, all right.
+
+@ 107.145
+# ドラウジー獅子堂
+JP …社長？
+EN ...Boss?
+
+@ 107.148
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 107.158
+# ドラウジー獅子堂
+JP 社長の腕、大きくてあったかいよ…。
+EN Your arm is so big and warm, Boss...
+
+@ 107.161
+# 社 長
+JP そうか。
+EN Is that so?
+
+@ 107.164
+# 社 長
+JP じゃ、その大きくて暖かい腕枕で
+JP 安心して寝ろ。
+EN Then sleep tight on this big, warm pillow.
+
+@ 107.174
+# ドラウジー獅子堂
+JP くぅ…すぴー…。
+EN Zzz... snore...
+
+@ 107.177
+# 社 長
+JP は、はやっ！
+JP もう寝たのか！？
+EN Th-that was fast! She's already asleep!?
+
+@ 107.179
+# 社 長
+JP （じゃ、俺も腕を抜いて…）
+EN (Well then, I'll just slip my arm out...)
+
+@ 107.181
+# 社 長
+JP （あれ？
+JP 　抜けない…）
+EN (Huh? It won't come out...)
+
+@ 107.183
+# 社 長
+JP （結局こうなるのか…）
+EN (So it ends up like this again...)
+
+@ 107.185
+# 社 長
+JP やれやれ…。
+JP 明日は霧子くんに
+JP 説教されそうだな…。
+EN Good grief... Kiriko's going to give me a lecture
+EN tomorrow...
+
+@ 107.189
+# ドラウジー獅子堂
+JP …社長……。
+JP ムニャムニャ…。
+EN ...Boss...... Mmnya mmnya...
+
+@ 107.203
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.205
+# 社 長
+JP （やれやれ…）
+EN (Good grief...)
+
+@ 108.16
+# scene 113 練習開始
+# ドラウジー獅子堂
+JP そろそろ～、目を覚まさないと…。
+EN Time to wake uuup...
+
+@ 109.16
+# scene 114 練習開始 好意
+# ドラウジー獅子堂
+JP 社長、応援してて欲しいですぅ。
+EN Boss, I want you to cheer for meee.
+
+@ 110.16
+# scene 115 特訓開始
+# ドラウジー獅子堂
+JP 実家を思い出しますぅ。
+EN This reminds me of home.
+
+@ 111.20
+# scene 116 特訓成功
+# ドラウジー獅子堂
+JP お父さんみたいになれたかなぁ。
+EN I wonder if I'm getting to be like my dad.
+
+@ 112.20
+# scene 117 特訓失敗
+# ドラウジー獅子堂
+JP …くぅ…くぅ……。
+EN ...Zzz... zzz......
+
+@ 113.16
+# scene 118 休養
+# ドラウジー獅子堂
+JP 久々にゆっくり眠れますぅ～。
+EN I can finally get a good long sleeeep.
+
+@ 114.16
+# scene 119 入場1
+# ドラウジー獅子堂
+JP 今こそ雌雄を決するとき！
+JP 蓄えた力を叩きつけてやる！
+EN Now is the time to settle this! I'll smash you with all
+EN the power I've stored!
+
+@ 115.16
+# scene 119 入場2
+# ドラウジー獅子堂
+JP 獅子の咆吼！
+JP おまえの脳裏に刻み込め！
+EN The lion's roar! Burn it into your memory!
+
+@ 116.16
+# scene 125 必殺技１
+# ドラウジー獅子堂
+JP 一撃必殺！
+EN One strike, one kill!
+
+@ 117.16
+# scene 125 必殺技２
+# ドラウジー獅子堂
+JP これが私の本当の姿！
+EN This is my true form!
+
+@ 118.16
+# scene 125 必殺技３
+# ドラウジー獅子堂
+JP お父さん、お母さん、見ててっ！
+EN Mom, Dad, watch me!
+
+@ 119.12
+# scene 126 勝利1
+# ドラウジー獅子堂
+JP 眠れる獅子の実力、思い知ったか！
+EN Now you know the power of the Sleeping Lion!
+
+@ 120.12
+# scene 126 勝利2
+# ドラウジー獅子堂
+JP まだまだこんなものじゃない！
+EN That was nothing yet!
+
+@ 121.12
+# scene 126 勝利3
+# ドラウジー獅子堂
+JP これが眠れる獅子拳の力です！
+EN This is the power of the Sleeping Lion Fist!
+
+@ 122.15
+# scene 133 表彰1
+# ドラウジー獅子堂
+JP お父さん、お母さん、見てるぅ！
+EN Mom, Dad, are you watching!?
+
+@ 123.15
+# scene 133 表彰2
+# ドラウジー獅子堂
+JP ありがとうございます。
+JP 眠れる獅子拳、門下生募集中です。
+EN Thank you. The Sleeping Lion Fist is now accepting
+EN new students.
+
+@ 124.12
+# scene 134 優勝1
+# ドラウジー獅子堂
+JP やりましたぁ。
+JP 眠れる獅子拳、最強っ！
+EN I did iiit. The Sleeping Lion Fist is the strongest!
+
+@ 125.12
+# scene 134 優勝２
+# ドラウジー獅子堂
+JP さぁ、あなたも
+JP 眠れる獅子拳に入門しませんか！
+JP 待ってますよぉ～！
+EN Come on, won't you join the Sleeping Lion Fist too? I'll
+EN be waiting for youuu!
+
+@ 126.24
+# scene 135 エンディング 通常
+# ドラウジー獅子堂
+JP おめでとうございます…。
+JP これからも眠れる獅子拳を
+JP よろしくお願いします…。
+EN Congratulations... Please keep supporting the
+EN Sleeping Lion Fist...
+
+@ 127.24
+# scene 136 エンディング 好意
+# ドラウジー獅子堂
+JP おめでとうございます…。
+JP あのぅ、社長を家族に紹介したいん
+JP ですけど…いいでしょうかぁ？
+EN Congratulations... Um, I'd like to introduce you to my
+EN family, Boss... Would that be okay?

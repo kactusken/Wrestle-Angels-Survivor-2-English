@@ -1,0 +1,2224 @@
+# /SCR/037.BIN - フレイア鏡
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 037` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# フレイア鏡
+JP 鏡です。
+JP 当然合格ですわね？
+EN I'm Kagami. Naturally, I've passed, haven't I?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# フレイア鏡
+JP ご期待に応えないといけませんわね。
+EN Well then, I mustn't disappoint you.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# フレイア鏡
+JP ……フゥ…。
+JP まったく話になりませんわ。
+EN ...Hmph... This is simply out of the question.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりでショッピングしている
+JP モデル風の女の子と…。
+EN A model-type girl who shops around here, they said...
+
+@ 3.25
+# 社 長
+JP ホントにそんな子いるのか…。
+EN Is there really a girl like that...?
+
+@ 3.27
+# 社 長
+JP …あれ？
+JP もしかしてあの娘のことかな…。
+EN ...Huh? Could that be her...?
+
+@ 3.29
+# 社 長
+JP とりあえず話してみるか？
+EN Well, let's try talking to her.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# フレイア鏡
+JP 何かしら？
+EN Yes, what is it?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.51
+# フレイア鏡
+JP …プロレスねぇ。
+JP 急に言われましても…。
+EN ...Pro wrestling, hm? That's rather sudden...
+
+@ 3.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.61
+# フレイア鏡
+JP どうしようかしら…？
+EN Now, what shall I do...?
+
+@ 3.64
+# 社 長
+JP うちの団体に
+JP 入ってもらえないでしょうか？
+EN Would you join our promotion?
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# フレイア鏡
+JP わかりましたわ。
+JP お引き受けいたしますわ。
+EN Very well. I accept your offer.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# フレイア鏡
+JP ウフフッ…。
+JP これからが楽しみですわ。
+EN Ufufu... I'm looking forward to what comes next.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# フレイア鏡
+JP 今回はお断りいたしますわ。
+EN I must decline this time.
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# フレイア鏡
+JP …あら？
+JP この前の社長さん？
+EN ...Oh my? The president from the other day?
+
+@ 6.36
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて、また来ました。
+EN I really want you in our promotion, so I came back.
+
+@ 6.43
+# フレイア鏡
+JP そのひたむきさは
+JP 嬉しいんですけど…。
+EN Your devotion is flattering, but...
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# フレイア鏡
+JP わかりましたわ。
+JP お引き受けいたしますわ。
+EN Very well. I accept your offer.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# フレイア鏡
+JP ウフフッ…。
+JP これからが楽しみですわ。
+EN Ufufu... I'm looking forward to what comes next.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# フレイア鏡
+JP 今回はお断りいたしますわ。
+EN I must decline this time.
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は鏡選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kagami.
+
+@ 9.25
+# 社 長
+JP あれだけのビジュアルと
+JP 実力を兼ね備えた選手は
+JP そういない。
+EN There aren't many wrestlers with both her looks and
+EN her skill.
+
+@ 9.27
+# 社 長
+JP うちの団体でも
+JP きっと活躍できるはずだ。
+EN She'd be sure to shine in our promotion too.
+
+@ 9.29
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN They said she'd be around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# フレイア鏡
+JP …どなたかしら？
+EN ...And who might you be?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.53
+# フレイア鏡
+JP ヘッドハンティング
+JP ということかしら？
+EN Headhunting, is that it?
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.63
+# フレイア鏡
+JP そうですわねぇ…。
+EN Let me see...
+
+@ 9.66
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Would you lend us your strength?
+
+@ 9.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# フレイア鏡
+JP お引き受けしようかしら。
+EN Perhaps I'll accept.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# フレイア鏡
+JP ウフフッ…。
+JP そんなに焦ってはダメですわ。
+EN Ufufu... You mustn't be so impatient.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# フレイア鏡
+JP せっかくのお誘いですが
+JP 気が進みませんわ。
+EN It's a kind invitation, but I'm not inclined.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 鏡選手が必要だ。
+EN Our promotion really needs Kagami.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 鏡選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# フレイア鏡
+JP この前の社長さん？
+JP ウフフッ、またスカウトですの？
+EN The president from the other day? Ufufu, scouting
+EN me again?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you in our promotion...
+
+@ 12.47
+# フレイア鏡
+JP そのお気持ちは
+JP ありがたいのですが…。
+EN I do appreciate the sentiment, but...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# フレイア鏡
+JP お引き受けしようかしら。
+EN Perhaps I'll accept.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# フレイア鏡
+JP ウフフッ…。
+JP そんなに焦ってはダメですわ。
+EN Ufufu... You mustn't be so impatient.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# フレイア鏡
+JP せっかくのお誘いですが
+JP 気が進みませんわ。
+EN It's a kind invitation, but I'm not inclined.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は鏡選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kagami.
+
+@ 15.25
+# 社 長
+JP あの美貌はマスコミにも
+JP 注目されるに違いない。
+EN The media are bound to take notice of beauty like
+EN hers.
+
+@ 15.27
+# 社 長
+JP このあたりにいるはずだけど…。
+EN She should be around here somewhere...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# フレイア鏡
+JP …あら？
+JP どなたかしら？
+EN ...Oh my? And who might you be?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.48
+# フレイア鏡
+JP あなたの団体に入団ですか…？
+EN Join your promotion, you say...?
+
+@ 15.51
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.58
+# フレイア鏡
+JP ウフフッ…。
+JP どうしようかしら？
+EN Ufufu... Now, what shall I do?
+
+@ 15.61
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Would you lend us your strength?
+
+@ 15.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# フレイア鏡
+JP 団体に所属するのも
+JP いいかもしれませんわね。
+EN Belonging to a promotion might not be so bad.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# フレイア鏡
+JP そんなに焦らないで…。
+JP まずは交渉成立に乾杯しませんこと？
+EN Don't be so hasty... Shall we first toast to our deal?
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# フレイア鏡
+JP 今回はどうも気が乗りませんわ。
+EN I'm just not in the mood this time.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 鏡選手が必要だ。
+EN Our promotion really needs Kagami.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 鏡選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# フレイア鏡
+JP あら、社長さん？
+JP またいらしたの？
+EN Oh my, Mr. President? You've come again?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you in our promotion...
+
+@ 18.47
+# フレイア鏡
+JP ウフフッ…。
+JP そんなこと言われたら
+JP 嬉しくなってしまいますわ。
+EN Ufufu... Say things like that and you'll make me
+EN happy.
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# フレイア鏡
+JP 団体に所属するのも
+JP いいかもしれませんわね。
+EN Belonging to a promotion might not be so bad.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# フレイア鏡
+JP そんなに焦らないで…。
+JP まずは交渉成立に乾杯しませんこと？
+EN Don't be so hasty... Shall we first toast to our deal?
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# フレイア鏡
+JP 今回はどうも気が乗りませんわ。
+EN I'm just not in the mood this time.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は鏡を訪ねることにした。
+EN I decided to visit Kagami.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 鏡っ！
+EN Kagami!
+
+@ 21.41
+# フレイア鏡
+JP …あっ…！
+EN ...Oh...!
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# フレイア鏡
+JP ……フンッ……。
+EN ...Hmph...
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you. I want you
+EN back...
+
+@ 21.61
+# フレイア鏡
+JP ……フゥ～……。
+EN ...Haaah...
+
+@ 21.64
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# フレイア鏡
+JP …一度は私を捨てたくせに…。
+EN ...After you cast me aside once...
+
+@ 22.18
+# 社 長
+JP それは謝るよ。
+JP 悪かったって思ってる。
+EN I'm sorry about that. I know I was wrong.
+
+@ 22.29
+# フレイア鏡
+JP わかりました。
+JP 今回は戻ってあげますわ。
+JP でも次はありませんからね。
+EN Very well. I'll come back to you this time. But there
+EN won't be a next time.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# フレイア鏡
+JP …一度は私を捨てたくせに…。
+EN ...After you cast me aside once...
+
+@ 23.18
+# 社 長
+JP それは謝るよ。
+JP 悪かったって思ってる。
+EN I'm sorry about that. I know I was wrong.
+
+@ 23.29
+# フレイア鏡
+JP ダメですわね。
+JP 気持ちの整理がつきませんわ。
+EN No, I'm afraid not. I haven't sorted out my feelings.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び鏡を訪ねることにした。
+EN I decided to visit Kagami again.
+
+@ 24.26
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.28
+# 社 長
+JP 鏡っ！
+EN Kagami!
+
+@ 24.38
+# フレイア鏡
+JP あいかわらずしつこいですわね。
+EN Persistent as ever, I see.
+
+@ 24.41
+# 社 長
+JP ああ。
+JP 諦めきれなくてね。
+EN Yeah. I just can't give up.
+
+@ 24.43
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back.
+
+@ 24.45
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# フレイア鏡
+JP …一度は私を捨てたくせに…。
+EN ...After you cast me aside once...
+
+@ 25.18
+# 社 長
+JP それは謝るよ。
+JP 悪かったって思ってる。
+EN I'm sorry about that. I know I was wrong.
+
+@ 25.29
+# フレイア鏡
+JP わかりました。
+JP 今回は戻ってあげますわ。
+JP でも次はありませんからね。
+EN Very well. I'll come back to you this time. But there
+EN won't be a next time.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# フレイア鏡
+JP …一度は私を捨てたくせに…。
+EN ...After you cast me aside once...
+
+@ 26.18
+# 社 長
+JP それは謝るよ。
+JP 悪かったって思ってる。
+EN I'm sorry about that. I know I was wrong.
+
+@ 26.29
+# フレイア鏡
+JP ダメですわね。
+JP 気持ちの整理がつきませんわ。
+EN No, I'm afraid not. I haven't sorted out my feelings.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# フレイア鏡
+JP ご心配なく…。
+JP かすり傷ですわ。
+EN No need to worry... It's only a scratch.
+
+@ 28.16
+# scene 029 ケガ大
+# フレイア鏡
+JP 社長に看病していただこうかしら？
+EN Perhaps I'll have you nurse me, Boss?
+
+@ 29.16
+# scene 030 入院
+# フレイア鏡
+JP 仕方ありませんわね。
+EN It can't be helped.
+
+@ 30.16
+# scene 031 退院
+# フレイア鏡
+JP ようやく戻れましたわ。
+EN At last, I'm back.
+
+@ 31.16
+# scene 032 ケガ完治
+# フレイア鏡
+JP これでいつでも戦えますわ。
+EN Now I can fight anytime.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# フレイア鏡
+JP …そろそろ潮時かも
+JP しれませんわね。
+EN ...Perhaps it's time I bowed out.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# フレイア鏡
+JP 私はまだ戦えますわ。
+EN I can still fight.
+
+@ 34.16
+# scene 035 コーチ就任
+# フレイア鏡
+JP コーチになってしごくのも
+JP いいかもしれませんわね。
+EN Becoming a coach and putting them through their
+EN paces might be fun.
+
+@ 35.16
+# scene 036 ケガ引退
+# フレイア鏡
+JP これ以上
+JP 傷は増やしたくありませんわ。
+EN I'd rather not add any more scars.
+
+@ 36.16
+# scene 037 年齢引退
+# フレイア鏡
+JP 引き際というものを
+JP 大切にしないといけませんわ。
+EN One must treasure the art of knowing when to leave.
+
+@ 37.16
+# scene 038 退団
+# フレイア鏡
+JP もうこの団体に用はありませんわ。
+EN I have no further use for this promotion.
+
+@ 38.16
+# scene 039 スランプ
+# フレイア鏡
+JP 今は何をしてもムダですわね。
+EN Nothing I do seems to matter right now.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# フレイア鏡
+JP まぁ、光栄ですわ。
+EN My, how flattering.
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard, so you live up to their cheers.
+
+@ 39.26
+# フレイア鏡
+JP ええ。
+JP 私の魅力を堪能していただきますわ。
+EN Yes. I'll let them savor my charms to the fullest.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# フレイア鏡
+JP …あら？
+JP またですの？
+EN ...Oh my? Another one?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# フレイア鏡
+JP ウフフッ…。
+JP もっとサービスしないと
+JP いけませんわね。
+EN Ufufu... Then I'll have to give them even better
+EN service.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# フレイア鏡
+JP …フゥ～…。
+JP 残念ですわ…。
+EN ...Haaah... What a pity...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. You'll just try again.
+
+@ 41.26
+# フレイア鏡
+JP そうですわね。
+JP 殿方のお気持ちはうつろいやすい
+JP ですから…。
+EN Indeed. A gentleman's heart is so very fickle, after
+EN all...
+
+@ 42.16
+# scene 043 映画出演
+# フレイア鏡
+JP 男を騙す悪女役なんて
+JP いかがかしら？
+EN How about the role of a femme fatale who deceives
+EN men?
+
+@ 43.16
+# scene 044 一日署長
+# フレイア鏡
+JP 制服を着ているところを見られたら
+JP 体が火照ってしまいそうですわ。
+EN If they see me in uniform, I might just get all hot and
+EN flushed.
+
+@ 44.16
+# scene 045 写真集発売
+# フレイア鏡
+JP ウフフッ…。
+JP 本当は社長だけに
+JP お見せしたいんですけど…。
+EN Ufufu... Truth be told, I'd rather show it only to you,
+EN Boss...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# フレイア鏡
+JP 私の魅力を存分に
+JP アピールしてきますわ。
+EN I'll go show off my charms to the fullest.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# フレイア鏡
+JP ウフフッ…。
+JP こう見えて歌もいけますの。
+EN Ufufu... I may not look it, but I can sing too.
+
+@ 47.16
+# scene 048 始球式
+# フレイア鏡
+JP 新聞の見出しは
+JP 「マウンドに女神光臨」ですわね。
+EN The headline will be "Goddess Descends on the
+EN Mound," I'm sure.
+
+@ 48.16
+# scene 049 学園祭
+# フレイア鏡
+JP 私の魅力で
+JP パニックにならないと
+JP いいのですが…。
+EN I do hope my charms don't cause a panic...
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# フレイア鏡
+JP …社長。
+JP 覚えていてくださいましたの？
+EN ...Boss. You remembered?
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.43
+# フレイア鏡
+JP 社長にこの身を捧げたい気分ですわ。
+EN I feel like offering myself to you, Boss.
+
+@ 50.32
+# scene 051 バレンタインデー
+# フレイア鏡
+JP …社長。
+JP 差し上げますわ。
+EN ...Boss. This is for you.
+
+@ 50.35
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Oh, chocolate. Thank you.
+
+@ 50.42
+# フレイア鏡
+JP ウフフッ…。
+JP 私に惚れる媚薬入りですわ。
+EN Ufufu... It's laced with a love potion to make you fall
+EN for me.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, for last month?
+
+@ 51.36
+# フレイア鏡
+JP ウフッ…。
+JP 早速媚薬が効いたみたいですわね。
+EN Ufu... It seems the love potion is already working.
+
+@ 51.39
+# 社 長
+JP そうなのか？
+JP まぁ練習の合間にでも食べてくれ。
+EN Is it? Well, have it between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# フレイア鏡
+JP 今日はたっぷり
+JP サービスいたしますわ。
+EN Today I'll give them plenty of service.
+
+@ 53.31
+# scene 054 コンサート
+# フレイア鏡
+JP ウフフッ…。
+JP 今日は楽しんでいってくださいね。
+EN Ufufu... Do enjoy yourselves today.
+
+@ 54.28
+# scene 055 練習拒否
+# フレイア鏡
+JP 今日は気が乗りませんわ。
+EN I'm not in the mood today.
+
+@ 55.28
+# scene 056 失踪
+# フレイア鏡
+JP ちょっと一人旅に出てきますわ。
+EN I'm going on a little trip by myself.
+
+@ 56.16
+# scene 057 選手解雇
+# フレイア鏡
+JP 女の恨みは怖いですわよ…。
+EN A woman's grudge is a frightening thing, you know...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# フレイア鏡
+JP 世界というものを
+JP 肌で体験してきますわ。
+EN I'll go experience the world firsthand.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# フレイア鏡
+JP なかなかいい経験になりましたわ。
+EN That was quite a good experience.
+
+@ 59.28
+# scene 060 移籍思案
+# フレイア鏡
+JP 私がいなくなったら
+JP 社長は悲しんでくれるかしら…？
+EN If I were gone, would you be sad, Boss...?
+
+@ 60.16
+# scene 061 革命軍結成
+# フレイア鏡
+JP 革命…。
+JP 甘美な響きですわ。
+EN Revolution... What a sweet sound.
+
+@ 61.16
+# scene 062 反乱軍結成
+# フレイア鏡
+JP 美しき反乱というものを
+JP お見せしますわ。
+EN I'll show you what a beautiful rebellion looks like.
+
+@ 62.16
+# scene 063 最終決戦要求
+# フレイア鏡
+JP まとめてお仕置きして
+JP 差し上げますわ。
+EN I'll punish you all at once.
+
+@ 63.16
+# scene 065 遺恨発生
+# フレイア鏡
+JP お仕置きが必要ですわね。
+EN Someone needs to be punished.
+
+@ 64.16
+# scene 065 殴り込み
+# フレイア鏡
+JP たっぷりかわいがって
+JP きて上げますわ。
+EN I'll go give them plenty of loving attention.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# フレイア鏡
+JP 身の程知らずという言葉を
+JP 教えてあげますわ。
+EN I'll teach them the meaning of "knowing your place."
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# フレイア鏡
+JP 私に壊されたい人は
+JP 出ていらっしゃい。
+EN Whoever wants me to break them, come on out.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# フレイア鏡
+JP 私に任せていただけるなんて
+JP 嬉しいですわ。
+EN I'm delighted you'd entrust this to me.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# フレイア鏡
+JP 強さと美貌…。
+JP 天は二物を与えてしまいましたわ。
+EN Strength and beauty... Heaven has blessed me with
+EN both.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# フレイア鏡
+JP 心に油断がありましたわ…。
+EN I let my guard down...
+
+@ 70.13
+# scene 071 引退式
+# フレイア鏡
+JP たとえ引退しようとも
+JP 私という存在はみなさんの記憶の中で
+JP 生き続けますわ。
+EN Even if I retire, I will live on in all of your memories.
+
+@ 71.18
+# フレイア鏡
+JP …なにかしら？
+EN ...What is it?
+
+@ 71.37
+# フレイア鏡
+JP …どうなさったの？
+EN ...What's the matter?
+
+@ 71.47
+# フレイア鏡
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# フレイア鏡
+JP そうですわね。
+JP がんばりますわ。
+EN Indeed. I'll do my best.
+
+@ 71.111
+# フレイア鏡
+JP オーバーワークは
+JP ケガの元ですわ。
+EN Overwork is how injuries happen, you know.
+
+@ 71.132
+# フレイア鏡
+JP 社長のために
+JP 精一杯がんばりますわ。
+EN For you, Boss, I'll give it everything I have.
+
+@ 71.153
+# フレイア鏡
+JP …お約束できるか少し不安ですわ。
+EN ...I'm a little unsure I can promise that.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# フレイア鏡
+JP 私としたことが…。
+JP 気をつけますわ。
+EN How unlike me... I'll be careful.
+
+@ 71.211
+# フレイア鏡
+JP 社長の勘違いですわ。
+EN You're mistaken, Boss.
+
+@ 71.232
+# フレイア鏡
+JP 社長…。
+JP 私のためを思っての
+JP 愛のムチですわね。
+EN Boss... This is tough love, for my own sake, isn't it?
+
+@ 71.253
+# フレイア鏡
+JP 社長は女心が
+JP わかっていませんわ…。
+EN You don't understand a woman's heart at all, Boss...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# フレイア鏡
+JP ええ…。
+JP 大丈夫ですわ。
+EN Yes... I'm fine.
+
+@ 71.311
+# フレイア鏡
+JP 社長には関係ありませんわ。
+EN That's none of your concern, Boss.
+
+@ 71.332
+# フレイア鏡
+JP 社長にご心配をかけるなんて…。
+JP いけませんわね。
+EN Making you worry about me, Boss... That won't do.
+
+@ 71.353
+# フレイア鏡
+JP …私にもそんなときはありますわ。
+EN ...Even I have days like that.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# フレイア鏡
+JP なにかしら？
+EN What might it be?
+
+@ 71.400
+# フレイア鏡
+JP ……さぁ？
+EN ...Who knows?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# フレイア鏡
+JP 仕方ないですわね。
+EN Very well, if I must.
+
+@ 71.454
+# フレイア鏡
+JP 社長には関係ありませんわ。
+EN That's none of your concern, Boss.
+
+@ 71.475
+# フレイア鏡
+JP …社長、何をおっしゃってるの？
+EN ...Boss, whatever are you talking about?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# フレイア鏡
+JP ウフフッ…。
+JP なにかしら？
+EN Ufufu... What might it be?
+
+@ 71.522
+# フレイア鏡
+JP ……さぁ？
+JP 二人っきりのお話ですか？
+EN ...Who knows? A private talk, just the two of us?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# フレイア鏡
+JP 仕方ないですわね。
+JP 社長、これで貸しがひとつですわ。
+EN Very well, if I must. But that's one you owe me, Boss.
+
+@ 71.578
+# フレイア鏡
+JP …考えておきますわ。
+EN ...I'll think about it.
+
+@ 71.599
+# フレイア鏡
+JP ウフフッ…。
+JP 本当は二人だけで
+JP お話したかったんでしょう。
+EN Ufufu... You really just wanted to talk with me alone,
+EN didn't you?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# フレイア鏡
+JP …どうなさったの？
+EN ...What's the matter?
+
+@ 72.16
+# フレイア鏡
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# フレイア鏡
+JP そうですわね。
+JP がんばりますわ。
+EN Indeed. I'll do my best.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# フレイア鏡
+JP オーバーワークは
+JP ケガの元ですわ。
+EN Overwork is how injuries happen, you know.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# フレイア鏡
+JP 社長のために
+JP 精一杯がんばりますわ。
+EN For you, Boss, I'll give it everything I have.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# フレイア鏡
+JP …お約束できるか少し不安ですわ。
+EN ...I'm a little unsure I can promise that.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# フレイア鏡
+JP 私としたことが…。
+JP 気をつけますわ。
+EN How unlike me... I'll be careful.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# フレイア鏡
+JP 社長の勘違いですわ。
+EN You're mistaken, Boss.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# フレイア鏡
+JP 社長…。
+JP 私のためを思っての
+JP 愛のムチですわね。
+EN Boss... This is tough love, for my own sake, isn't it?
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# フレイア鏡
+JP 社長は女心が
+JP わかっていませんわ…。
+EN You don't understand a woman's heart at all, Boss...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# フレイア鏡
+JP ええ…。
+JP 大丈夫ですわ。
+EN Yes... I'm fine.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# フレイア鏡
+JP 社長には関係ありませんわ。
+EN That's none of your concern, Boss.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# フレイア鏡
+JP 社長にご心配をかけるなんて…。
+JP いけませんわね。
+EN Making you worry about me, Boss... That won't do.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# フレイア鏡
+JP …私にもそんなときはありますわ。
+EN ...Even I have days like that.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# フレイア鏡
+JP なにかしら？
+EN What might it be?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# フレイア鏡
+JP ……さぁ？
+EN ...Who knows?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# フレイア鏡
+JP 仕方ないですわね。
+EN Very well, if I must.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# フレイア鏡
+JP 社長には関係ありませんわ。
+EN That's none of your concern, Boss.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# フレイア鏡
+JP …社長、何をおっしゃってるの？
+EN ...Boss, whatever are you talking about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# フレイア鏡
+JP ウフフ…。
+JP なにかしら？
+EN Ufufu... What might it be?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# フレイア鏡
+JP ……さぁ？
+JP 二人っきりのお話ですか？
+EN ...Who knows? A private talk, just the two of us?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# フレイア鏡
+JP 仕方ないですわね。
+JP 社長、これで貸しがひとつですわ。
+EN Very well, if I must. But that's one you owe me, Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# フレイア鏡
+JP …考えておきますわ。
+EN ...I'll think about it.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# フレイア鏡
+JP ウフフフ…。
+JP 本当は二人だけで
+JP お話したかったんでしょう。
+EN Ufufu... You really just wanted to talk with me alone,
+EN didn't you?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# フレイア鏡
+JP これ以上、無理は言えませんわね。
+EN I suppose I can't ask for more than this.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# フレイア鏡
+JP あぁ…社長…。
+JP 社長の愛を感じますわ。
+EN Ahh... Boss... I can feel your love.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# フレイア鏡
+JP これが社長にとっての
+JP 私の価値ということですわね。
+EN So this is what I'm worth to you, Boss.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺たちは南の島へと
+JP 　やってきた）
+EN (And so we arrived at a southern island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Mmm, the tropics. The sun's really blazing.)
+
+@ 105.32
+# 社 長
+JP （みんなもそれぞれ、
+JP 　楽しんでいるみたいだ）
+EN (Everyone seems to be enjoying themselves in their
+EN own way.)
+
+@ 105.38
+# 社 長
+JP （…のは、いいのだが…）
+EN (...Which is all well and good, but...)
+
+@ 105.40
+# 社 長
+JP （さっきからすごいプレッシャーを
+JP 　感じる…）
+EN (I've been feeling some serious pressure for a while
+EN now...)
+
+@ 105.42
+# 社 長
+JP （その理由は言うまでもない…）
+EN (And the reason goes without saying...)
+
+@ 105.58
+# 社 長
+JP （鏡だ）
+EN (Kagami.)
+
+@ 105.60
+# 社 長
+JP （なぜか彼女は
+JP 　ピッタリと俺にくっついて
+JP 　離れようとしない）
+EN (For some reason, she's glued to my side and won't
+EN leave.)
+
+@ 105.64
+# フレイア鏡
+JP ねぇ、ご主人様。
+EN Say, Master.
+
+@ 105.67
+# 社 長
+JP なんだ、ご主人様って。
+EN What's with "Master"?
+
+@ 105.71
+# フレイア鏡
+JP あら…？
+JP あなたは私の雇い主ですもの。
+JP だから、ご主人様。
+EN Oh my...? You're my employer, aren't you? So, Master.
+
+@ 105.74
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.78
+# フレイア鏡
+JP せっかくのバカンス。
+JP 細かいことは気になさらないで。
+EN We're on vacation. Don't fret over the little things.
+
+@ 105.81
+# 社 長
+JP そういうものか。
+EN If you say so.
+
+@ 105.85
+# フレイア鏡
+JP そういうものですわ。
+EN I do say so.
+
+@ 105.88
+# 社 長
+JP （しかし、なんで鏡は
+JP 　こんな態度を…）
+EN (But why is Kagami acting like this...?)
+
+@ 105.90
+# 社 長
+JP （嫌われてるとは思ってないが…）
+EN (I don't think she dislikes me...)
+
+@ 105.92
+# 社 長
+# (no \b: the original line has no end-of-message code)
+JP （ここまでされる心当たりもない）
+EN (But I can't think of anything I did to deserve this
+EN much.)
+
+@ 105.94
+# 社 長
+JP （こんなに積極的に迫ってくるのも
+JP 　いつもの鏡と違うような気がする）
+EN (And coming on to me this boldly doesn't seem like
+EN the usual Kagami.)
+
+@ 105.98
+# フレイア鏡
+JP ねぇ、ご主人様。
+EN Say, Master.
+
+@ 105.101
+# 社 長
+JP …んっ？
+EN ...Hm?
+
+@ 105.105
+# フレイア鏡
+JP 陽射しも強いですし
+JP サンオイルを塗って差し上げますわ。
+EN The sun is so strong. Let me put some suntan oil on
+EN you.
+
+@ 105.108
+# 社 長
+JP い、いいよ…。
+JP そんなことしなくても…。
+EN N-no, that's fine... You don't have to do that...
+
+@ 105.112
+# フレイア鏡
+JP 遠慮なさらずとも良いのですわ。
+JP ほら、こうして…。
+EN There's no need to be shy. See, like this...
+
+@ 105.131
+# 社 長
+JP （自分の体にオイルを塗って
+JP 　体をすり寄せてくる鏡）
+EN (Kagami rubbed oil on her own body and pressed
+EN herself against me.)
+
+@ 105.133
+# 社 長
+JP お、おいっ！
+JP そういう塗り方をするもんじゃ
+JP ないだろう。
+EN H-hey! That's not how you're supposed to apply it!
+
+@ 105.137
+# フレイア鏡
+JP あんっ、せっかくバカンスに
+JP 連れてきていただいたんですもの。
+JP サービスさせていただきますわ。
+EN Ahn, you were kind enough to bring me on vacation.
+EN Let me give you some service.
+
+@ 105.140
+# 社 長
+JP だ、だからいいって！
+JP 人が見てるだろ！！
+EN L-like I said, I'm fine! People are watching!!
+
+@ 105.144
+# フレイア鏡
+JP 見たい人には
+JP 見せつけてやればいいですわ。
+EN If they want to watch, let them have a good look.
+
+@ 105.147
+# 社 長
+JP いや、だから…。
+EN No, I mean...
+
+@ 105.149
+# 社 長
+JP （い、今わかった）
+EN (N-now I get it.)
+
+@ 105.151
+# 社 長
+JP （鏡は俺と周りの人間の反応を
+JP 　楽しんでいるらしい…）
+EN (Kagami is enjoying the reactions from me and
+EN everyone around us...)
+
+@ 105.155
+# フレイア鏡
+JP ウフフッ…。
+JP あん、もう…。
+JP 恥ずかしがり屋さんですわね♪
+EN Ufufu... Ahn, really... You're such a shy one♪
+
+@ 105.158
+# 社 長
+JP （普段と違うなんて気のせいだった。
+JP 　これはまさしく鏡そのものだ）
+EN (It wasn't unlike her at all. This is Kagami through
+EN and through.)
+
+@ 105.162
+# フレイア鏡
+JP ささ、遠慮なさらず…。
+EN Now, now, don't be shy...
+
+@ 105.165
+# 社 長
+JP うわっ…。
+EN Whoa...
+
+@ 105.182
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.184
+# 社 長
+JP （そして、俺は鏡に
+JP 　まさにマウントポジションを
+JP 　取られて…）
+EN (And then Kagami got me in a full mount position...)
+
+@ 105.186
+# 社 長
+JP （たくさんの観光客が見ている前で
+JP 　いいように遊ばれた…）
+EN (...and toyed with me as she pleased, in front of a
+EN crowd of tourists.)
+
+@ 105.188
+# 社 長
+JP （あのビーチには
+JP 　二度といけないかもしれない…）
+EN (I may never be able to go back to that beach...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある日、オフィスで仕事を
+JP 　していると…）
+EN (One day, as I was working in the office...)
+
+@ 106.33
+# 社 長
+JP （何の前触れもなく
+JP 　鏡がやってきた）
+EN (Kagami came in without warning.)
+
+@ 106.40
+# フレイア鏡
+JP ウフフッ…。
+JP 社長に少々用事がありまして…。
+EN Ufufu... I have a little business with you, Boss...
+
+@ 106.43
+# 社 長
+JP 俺に？
+EN With me?
+
+@ 106.47
+# フレイア鏡
+JP ええ。
+EN Yes.
+
+@ 106.51
+# フレイア鏡
+JP とても大事な用ですの。
+EN Very important business.
+
+@ 106.54
+# 社 長
+JP （そう言うと鏡は）
+EN (With that, Kagami...)
+
+@ 106.56
+# 社 長
+JP （ぐっと俺に身を寄せてきた）
+EN (...leaned in close to me.)
+
+@ 106.75
+# 社 長
+JP …か、鏡？
+EN ...K-Kagami?
+
+@ 106.79
+# フレイア鏡
+JP ウフフッ…。
+EN Ufufu...
+
+@ 106.82
+# 社 長
+JP よ、用ってなんだ？
+EN Wh-what's this business?
+
+@ 106.86
+# フレイア鏡
+JP あなたに魔法をかけてみたい…。
+EN I'd like to cast a spell on you...
+
+@ 106.89
+# 社 長
+JP …魔法？
+EN ...A spell?
+
+@ 106.93
+# フレイア鏡
+JP ええ…。
+JP 魅了の魔法…。
+EN Yes... A spell of enchantment...
+
+@ 106.96
+# 社 長
+JP （なんだ？）
+EN (What...?)
+
+@ 106.98
+# 社 長
+JP （鏡から目が離せない）
+EN (I can't take my eyes off her.)
+
+@ 106.108
+# 社 長
+JP （さ、催眠術か！）
+EN (H-hypnosis!)
+
+@ 106.112
+# フレイア鏡
+JP さあ、私をじっと見て…。
+EN Now, look at me closely...
+
+@ 106.123
+# フレイア鏡
+JP じっと…私を見つめてくださいな…。
+EN Closely... Gaze into my eyes...
+
+@ 106.135
+# フレイア鏡
+JP そして、私にすべてを委ねて…。
+EN And leave everything to me...
+
+@ 106.150
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.152
+# 社 長
+JP （その後、果たして俺は
+JP 　どうなったのだろうか）
+EN (What became of me after that, I wonder?)
+
+@ 106.154
+# 社 長
+JP （記憶が途切れて
+JP 　思い出すことができない）
+EN (My memory cuts out and I can't recall a thing.)
+
+@ 106.156
+# 社 長
+JP （なんだったのだろう…。
+JP 　あれは…）
+EN (What on earth was that...?)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある日、オフィスで仕事を
+JP 　していると…）
+EN (One day, as I was working in the office...)
+
+@ 107.33
+# 社 長
+JP （何の前触れもなく
+JP 　鏡がやってきた）
+EN (Kagami came in without warning.)
+
+@ 107.35
+# 社 長
+JP ああ、鏡か…。
+JP 何か用か？
+EN Oh, Kagami... Need something?
+
+@ 107.42
+# フレイア鏡
+JP ウフフッ…。
+JP 社長に少々用事がありまして…。
+EN Ufufu... I have a little business with you, Boss...
+
+@ 107.45
+# 社 長
+JP 俺に？
+EN With me?
+
+@ 107.49
+# フレイア鏡
+JP ええ…。
+EN Yes...
+
+@ 107.53
+# フレイア鏡
+JP とても大事な用ですの。
+EN Very important business.
+
+@ 107.56
+# 社 長
+JP （そう言うと鏡は）
+EN (With that, Kagami...)
+
+@ 107.58
+# 社 長
+JP （ぐっと俺に身を寄せてきた）
+EN (...leaned in close to me.)
+
+@ 107.60
+# 社 長
+JP …か、鏡？
+EN ...K-Kagami?
+
+@ 107.79
+# 社 長
+JP （こんなこと前にもあったような）
+EN (Hasn't this happened before?)
+
+@ 107.81
+# 社 長
+JP （なんだ？）
+EN (What...?)
+
+@ 107.83
+# 社 長
+JP （鏡から目が離せない）
+EN (I can't take my eyes off her.)
+
+@ 107.91
+# フレイア鏡
+JP さあ、私をじっと見て…。
+EN Now, look at me closely...
+
+@ 107.98
+# 社 長
+JP （ああ、そうだ）
+EN (Oh, that's right.)
+
+@ 107.100
+# 社 長
+JP （前にも鏡が
+JP 　こうやって迫ってきて…）
+EN (Kagami came on to me like this once before...)
+
+@ 107.114
+# 社 長
+JP （それから…）
+EN (And then...)
+
+@ 107.126
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.130
+# フレイア鏡
+JP ああ…。
+JP ダメですわ…。
+EN Ahh... This won't do...
+
+@ 107.139
+# 社 長
+JP （半分眠っているような
+JP 　意識の中で…）
+EN (Half asleep, in a haze...)
+
+@ 107.141
+# 社 長
+JP （鏡が抱きついてきたのを感じた）
+EN (I felt Kagami wrap her arms around me.)
+
+@ 107.153
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.157
+# フレイア鏡
+JP あなたを魅了するはずですのに…。
+EN I was supposed to enchant you...
+
+@ 107.161
+# フレイア鏡
+JP 逆に私が魅了されて
+JP しまいましたわ…。
+EN But instead, you've enchanted me...
+
+@ 107.167
+# 社 長
+JP （耳元での鏡の声…）
+EN (Kagami's voice in my ear...)
+
+@ 107.169
+# 社 長
+JP （そして、鏡のぬくもり…）
+EN (And her warmth...)
+
+@ 107.171
+# 社 長
+JP （その声と感覚を
+JP 　俺は忘れることができなかった）
+EN (That voice and that feeling, I could never forget.)
+
+@ 107.173
+# 社 長
+JP （………………）
+EN (.........)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# フレイア鏡
+JP 楽しい、楽しい
+JP 練習の始まりですわ。
+EN Now begins the fun, fun training.
+
+@ 109.16
+# scene 113 練習開始
+# フレイア鏡
+JP 今日はなんの練習ですの？
+EN What are we training today?
+
+@ 110.16
+# scene 114 練習開始 好意
+# フレイア鏡
+JP 今日も体が熱くなるくらい
+JP 練習しますわ。
+EN Today I'll train until my body is burning up again.
+
+@ 111.16
+# scene 115 特訓開始
+# フレイア鏡
+JP あまり精神論は
+JP 好きではないのですが…。
+EN I'm not terribly fond of mind-over-matter talk, but...
+
+@ 112.20
+# scene 116 特訓成功
+# フレイア鏡
+JP たまにはいいものですわね。
+EN It's nice once in a while.
+
+@ 113.20
+# scene 117 特訓失敗
+# フレイア鏡
+JP やはり私には
+JP 合いませんでしたわ。
+EN As I thought, it just doesn't suit me.
+
+@ 114.16
+# scene 118 休養
+# フレイア鏡
+JP 海外リゾートにでも
+JP 行ってきますわ。
+EN I think I'll go off to some resort abroad.
+
+@ 115.16
+# scene 119 入場1
+# フレイア鏡
+JP 今宵、リングに女神が
+JP 降臨しますわ！
+EN Tonight, a goddess descends upon the ring!
+
+@ 116.16
+# scene 119 入場2
+# フレイア鏡
+JP さあ、悦楽のときが始まりますわ。
+EN Now, the hour of pleasure begins.
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# フレイア鏡
+JP さあ、楽しい悲鳴を
+JP あげさせに行きましょう。
+EN Now, let's go make them scream with delight.
+
+@ 118.16
+# scene 125 必殺技１
+# フレイア鏡
+JP 壊れてしまいなさい。
+EN Break for me.
+
+@ 119.16
+# scene 125 必殺技２
+# フレイア鏡
+JP さあ、見せなさい！　
+JP あなたが壊れ、果てる姿を！
+EN Come, show me! Show me how you break and fall!
+
+@ 120.16
+# scene 125 必殺技３
+# フレイア鏡
+JP あなたの悲鳴
+JP 聞かせてもらいますわ！
+EN Let me hear you scream!
+
+@ 121.12
+# scene 126 勝利1
+# フレイア鏡
+JP 勝利の美酒を
+JP 味わいたいですわ。
+EN I'd like to savor the sweet wine of victory.
+
+@ 122.12
+# scene 126 勝利2
+# フレイア鏡
+JP 私の相手をするのは
+JP 早すぎたようですわね。
+EN It seems you were far too early to face me.
+
+@ 123.12
+# scene 126 勝利3
+# フレイア鏡
+JP あら？
+JP もう終わりですのね。
+JP 残念ですわ。
+EN Oh my? Over already? What a pity.
+
+@ 124.15
+# scene 133 表彰1
+# フレイア鏡
+JP 私が受賞することで
+JP この賞にも箔が付きますわ。
+EN By winning it, I bring this award some prestige.
+
+@ 125.15
+# scene 133 表彰2
+# フレイア鏡
+JP やはり主役は
+JP 私ということですわね。
+EN The star of the show is me, after all.
+
+@ 126.12
+# scene 134 優勝1
+# フレイア鏡
+JP ウフフッ…。
+JP 当然の結果ですわ。
+EN Ufufu... A natural result.
+
+@ 127.12
+# scene 134 優勝２
+# フレイア鏡
+JP 何度戦っても、同じ結果ですわ。
+EN No matter how often we fight, it ends the same.
+
+@ 128.24
+# scene 135 エンディング 通常
+# フレイア鏡
+JP ウフフッ…。
+JP 私は社長のための
+JP 勝利の女神になれましたわ。
+EN Ufufu... I've become your goddess of victory, Boss.
+
+@ 129.24
+# scene 136 エンディング 好意
+# フレイア鏡
+JP ウフフッ…。
+JP これも社長と私の愛の力が
+JP なせる技、愛の結晶ですわ。
+EN Ufufu... This is the power of our love, Boss. The fruit
+EN of our love.

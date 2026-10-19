@@ -1,0 +1,54 @@
+{
+ "english": "Save | Load | Options | Change Years | Watch CPU | Quit Game",
+ "boxes": [
+  [
+   25,
+   0,
+   72,
+   24
+  ],
+  [
+   26,
+   24,
+   69,
+   24
+  ],
+  [
+   3,
+   48,
+   114,
+   24
+  ],
+  [
+   14,
+   72,
+   93,
+   24
+  ],
+  [
+   5,
+   96,
+   113,
+   24
+  ],
+  [
+   3,
+   120,
+   114,
+   25
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   0,
+   0,
+   256,
+   145
+  ]
+ ]
+}

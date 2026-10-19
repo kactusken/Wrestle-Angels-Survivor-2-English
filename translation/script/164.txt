@@ -1,0 +1,2032 @@
+# /SCR/164.BIN - REKI
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 164` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# REKI
+JP …………頼む……。
+EN ......I ask of you......
+
+@ 1.16
+# scene 002 新人テスト 成功
+# REKI
+JP …………そうか……。
+EN ......I see......
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# REKI
+JP …………くっ……。
+EN ......Tch......
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりに有望な選手がいるって
+JP ことだけど…。
+EN I was told there's a promising wrestler around here...
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「甲陽流忍軍の末裔」とあるが
+JP これって忍者のことだよな。
+EN The scouting file says "descendant of the Koyo-ryu
+EN ninja corps." That means ninja, right?
+
+@ 3.27
+# 社 長
+JP たしか武田家に仕えていた
+JP 忍者のはずだが…。
+JP でも、本当なのか？
+EN Ninja who served the Takeda clan, if I remember
+EN right... But is it really true?
+
+@ 3.37
+# REKI
+JP ………………。
+EN ......
+
+@ 3.40
+# 社 長
+JP あっ…。
+EN Ah...
+
+@ 3.42
+# 社 長
+JP （この子は…）
+EN (This girl is...)
+
+@ 3.44
+# 社 長
+JP （まさか資料にあったのは
+JP 　この子のことか）
+EN (Don't tell me she's the one in the file.)
+
+@ 3.46
+# 社 長
+JP あの…。
+EN Um...
+
+@ 3.53
+# REKI
+JP ………………。
+EN ......
+
+@ 3.56
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 3.60
+# REKI
+JP ………………。
+EN ......
+
+@ 3.63
+# 社 長
+JP 是非うちの団体に入って
+JP いただけないかと思いまして…。
+EN I was hoping you might consider joining our
+EN promotion...
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# REKI
+JP …………わかった……。
+EN ......Understood......
+
+@ 4.22
+# 社 長
+JP えっ！？
+JP 本当ですか？
+JP ありがとう！
+EN Huh?! Really? Thank you!
+
+@ 4.29
+# REKI
+JP ………………。
+EN ......
+
+@ 5.19
+# scene 064 新人スカウト１ 失敗
+# REKI
+JP …………無理だ……。
+EN ......Impossible......
+
+@ 5.28
+# 社 長
+JP あれっ、もういなくなった！？
+EN What? She's already gone?!
+
+@ 5.30
+# 社 長
+JP 仕方ない。
+JP 出直すか…。
+EN Oh well. I'll try again another time...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP なんとか入団して
+JP もらえないだろうか…。
+EN I wonder if there's any way to get her to join...
+
+@ 6.25
+# 社 長
+JP この間はたしか
+JP このあたりで見かけて…。
+JP あっ、いたいた！
+EN Last time I saw her right around here... Ah, there she
+EN is!
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# REKI
+JP ………………。
+EN ......
+
+@ 6.40
+# 社 長
+JP またお話を聞いていただきたくて
+JP 来たんですが。
+EN I came hoping you'd hear me out again...
+
+@ 6.47
+# REKI
+JP ………………。
+EN ......
+
+@ 6.50
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 6.53
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Will you trust me and join us?
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# REKI
+JP …………わかった……。
+EN ......Understood......
+
+@ 7.22
+# 社 長
+JP えっ！？
+JP 本当ですか？
+JP ありがとう！
+EN Huh?! Really? Thank you!
+
+@ 7.29
+# REKI
+JP ………………。
+EN ......
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# REKI
+JP …………無理だ……。
+EN ......Impossible......
+
+@ 8.28
+# 社 長
+JP あれっ、もういなくなった！？
+EN What? She's already gone?!
+
+@ 8.30
+# 社 長
+JP 仕方ない。
+JP 出直すか…。
+EN Oh well. I'll try again another time...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （忍者の末裔…。
+JP 　是非ともうちの団体に
+JP 　欲しい個性だ）
+EN (A descendant of ninja... That's exactly the kind of
+EN character I want in our promotion.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be somewhere around here... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# REKI
+JP ………………。
+EN ......
+
+@ 9.40
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to recruit her.)
+
+@ 9.44
+# REKI
+JP ………………。
+EN ......
+
+@ 9.47
+# 社 長
+JP どうでしょう？
+JP 考えてもらえませんか？
+EN What do you say? Will you consider it?
+
+@ 9.54
+# REKI
+JP …………む……。
+EN ......Hm......
+
+@ 9.57
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# REKI
+JP …………よかろう……。
+EN ......Very well......
+
+@ 10.22
+# 社 長
+JP えっ！？
+JP 本当ですか？
+JP ありがとう！
+EN Huh?! Really? Thank you!
+
+@ 10.29
+# REKI
+JP …………いや……。
+EN ......No need......
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# REKI
+JP …………ご免……。
+EN ......Forgive me......
+
+@ 11.28
+# 社 長
+JP あれ、もういなくなった！？
+EN What? She's already gone?!
+
+@ 11.30
+# 社 長
+JP …仕方ない。
+JP 出直すか。
+EN ...Oh well. I'll try again another time.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはり彼女はうちの団体に
+JP 必要な選手だ。
+EN I knew it: she's a wrestler our promotion needs.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度交渉することにした。
+EN I decided to negotiate once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# REKI
+JP ………………。
+EN ......
+
+@ 12.40
+# 社 長
+JP もう一度話を聞いてください。
+EN Please hear me out one more time.
+
+@ 12.47
+# REKI
+JP ………………。
+EN ......
+
+@ 12.50
+# 社 長
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN Will you trust me and join us?
+
+@ 12.53
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# REKI
+JP …………よかろう……。
+EN ......Very well......
+
+@ 13.22
+# 社 長
+JP えっ！？
+JP 本当ですか？
+JP ありがとう！
+EN Huh?! Really? Thank you!
+
+@ 13.29
+# REKI
+JP …………いや……。
+EN ......No need......
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# REKI
+JP …………ご免……。
+EN ......Forgive me......
+
+@ 14.28
+# 社 長
+JP あれ、もういなくなった！？
+EN What? She's already gone?!
+
+@ 14.30
+# 社 長
+JP …仕方ない。
+JP 出直すか。
+EN ...Oh well. I'll try again another time.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （忍者の末裔…。
+JP 　是非ともうちの団体に欲しい
+JP 　個性だ）
+EN (A descendant of ninja... That's exactly the kind of
+EN character I want in our promotion.)
+
+@ 15.25
+# 社 長
+JP （このあたりでトレーニングを
+JP 　しているはず…あっ、いた！）
+EN (She should be training somewhere around here... Ah,
+EN there she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# REKI
+JP ………………。
+EN ......
+
+@ 15.40
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.47
+# REKI
+JP ………………。
+EN ......
+
+@ 15.50
+# 社 長
+JP どうでしょう。
+JP うちの団体に来てもらえませんか？
+EN What do you say? Will you come to our promotion?
+
+@ 15.54
+# REKI
+JP ………………。
+EN ......
+
+@ 15.57
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# REKI
+JP …………よし……。
+EN ......Good......
+
+@ 16.18
+# 社 長
+JP それはＯＫという意味でしょうか。
+EN Does that mean yes?
+
+@ 16.29
+# REKI
+JP …………しかり……。
+EN ......It does......
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# REKI
+JP …………否……。
+EN ......Nay......
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 17.24
+# 社 長
+JP …仕方ない。
+JP 出直すか。
+EN ...Oh well. I'll try again another time.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはり彼女はうちの団体に
+JP 　必要な選手だ）
+EN (I knew it: she's a wrestler our promotion needs.)
+
+@ 18.25
+# 社 長
+JP （俺はもう一度
+JP 　交渉を試みることにした）
+EN (I decided to try negotiating once more.)
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# REKI
+JP ………………。
+EN ......
+
+@ 18.40
+# 社 長
+JP もう一度話を聞いてください。
+EN Please hear me out one more time.
+
+@ 18.47
+# REKI
+JP ………………。
+EN ......
+
+@ 18.50
+# 社 長
+JP 私を信じて入団して
+JP もらえないでしょうか？
+EN Will you trust me and join us?
+
+@ 18.53
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# REKI
+JP …………よし……。
+EN ......Good......
+
+@ 19.18
+# 社 長
+JP それはＯＫという意味でしょうか。
+EN Does that mean yes?
+
+@ 19.29
+# REKI
+JP …………しかり……。
+EN ......It does......
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# REKI
+JP …………否……。
+EN ......Nay......
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 20.24
+# 社 長
+JP …仕方ない。
+JP 出直すか。
+EN ...Oh well. I'll try again another time.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （いなくなってわかったが
+JP 　やはり彼女はうちの団体に
+JP 　必要な選手だ…）
+EN (Now that she's gone, I see it: she really is a
+EN wrestler our promotion needs...)
+
+@ 21.25
+# 社 長
+JP おーい！
+JP いるんだろーっ！？
+EN Hey! I know you're here!
+
+@ 21.35
+# REKI
+JP ………………！？
+EN ......!?
+
+@ 21.38
+# 社 長
+JP そこか…。
+JP 久しぶりだな。
+JP 元気か？
+EN There you are... It's been a while. How have you
+EN been?
+
+@ 21.45
+# REKI
+JP ………………？
+EN ......?
+
+@ 21.48
+# 社 長
+JP あぁ…。
+JP 実は戻って欲しいんだ。
+JP また一緒にやらないか？
+EN Yeah... The truth is, I want you back. Will you work
+EN with us again?
+
+@ 21.55
+# REKI
+JP …………ッ……！？
+EN ......!?
+
+@ 21.58
+# 社 長
+JP わかってる！
+JP たしかにこんなこと頼めた
+JP 義理じゃないが…。
+EN I know! I'm in no position to ask you something like
+EN this, but...
+
+@ 21.64
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# REKI
+JP …………本気か……？
+EN ......You are serious......?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yes. I need your help.
+
+@ 22.29
+# REKI
+JP …………わかった……。
+EN ......Understood......
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしく頼むよ。
+EN Thank you. Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# REKI
+JP …………おぬしの仕打ち
+JP 忘れん……。
+EN ......I will not forget what you did......
+
+@ 23.22
+# 社 長
+JP あのときは悪かった。
+JP 許してもらえないか？
+EN I'm sorry about what happened. Can you forgive me?
+
+@ 23.29
+# REKI
+JP …………消えろ……。
+EN ......Begone......
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び彼女を訪ねることにした。
+EN I decided to go see her again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN I knew it: she's a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP あっ…。
+JP おーい！
+EN Ah... Hey!
+
+@ 24.37
+# REKI
+JP ………………。
+EN ......
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN I came to ask again. I really want you to come back
+EN to the promotion.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.14
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# REKI
+JP …………本気か……？
+EN ......You are serious......?
+
+@ 25.17
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yes. I need your help.
+
+@ 25.28
+# REKI
+JP …………わかった……。
+EN ......Understood......
+
+@ 25.31
+# 社 長
+JP ありがとう。
+JP またよろしく頼むよ。
+EN Thank you. Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# REKI
+JP …………おぬしの仕打ち
+JP 忘れん……。
+EN ......I will not forget what you did......
+
+@ 26.22
+# 社 長
+JP あのときは悪かった。
+JP 許してもらえないか？
+EN I'm sorry about what happened. Can you forgive me?
+
+@ 26.29
+# REKI
+JP …………消えろ……。
+EN ......Begone......
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# REKI
+JP …………案ずるな……。
+EN ......Do not worry......
+
+@ 28.16
+# scene 029 ケガ大
+# REKI
+JP …………チィッ……！
+EN ......Tch......!
+
+@ 29.16
+# scene 030 入院
+# REKI
+JP …………しくじったか……。
+EN ......I erred......
+
+@ 30.16
+# scene 031 退院
+# REKI
+JP …………戻った……。
+EN ......I have returned......
+
+@ 31.16
+# scene 032 ケガ完治
+# REKI
+JP …………よし……。
+EN ......Good......
+
+@ 32.20
+# scene 033 引退勧告 成功
+# REKI
+JP …………そうか……。
+EN ......I see......
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# REKI
+JP …………ふん……！
+EN ......Hmph......!
+
+@ 34.16
+# scene 035 コーチ就任
+# REKI
+JP …………始める……。
+EN ......We begin......
+
+@ 35.16
+# scene 036 ケガ引退
+# REKI
+JP …………クゥッ……！
+EN ......Ngh......!
+
+@ 36.16
+# scene 037 年齢引退
+# REKI
+JP …………では……。
+EN ......Then, farewell......
+
+@ 37.16
+# scene 038 退団
+# REKI
+JP …………さらば……。
+EN ......Farewell......
+
+@ 38.16
+# scene 039 スランプ
+# REKI
+JP …………なぜだ……。
+EN ......Why......
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# REKI
+JP …………なっ……。
+EN ......Wha......
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# REKI
+JP …………ううむ……。
+EN ......Hmmm......
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# REKI
+JP …………うっ……。
+EN ......Ugh......
+
+@ 40.19
+# 社 長
+JP ファンの期待に応えてくれよ。
+EN Live up to your fans' expectations.
+
+@ 40.23
+# REKI
+JP …………わかった……。
+EN ......Understood......
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# REKI
+JP ………………。
+EN ......
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.26
+# REKI
+JP …………無念……。
+EN ......Regrettable......
+
+@ 42.16
+# scene 043 映画出演
+# REKI
+JP …………何を……？
+EN ......Do what......?
+
+@ 43.16
+# scene 044 一日署長
+# REKI
+JP …………至難……。
+EN ......A daunting task......
+
+@ 44.16
+# scene 045 写真集発売
+# REKI
+JP …………なんと……？
+EN ......What......?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# REKI
+JP …………うん……？
+EN ......Hm......?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# REKI
+JP …………歌えと……？
+EN ......You want me to sing......?
+
+@ 47.16
+# scene 048 始球式
+# REKI
+JP …………ほう……。
+EN ......Oh......
+
+@ 48.16
+# scene 049 学園祭
+# REKI
+JP …………なぜ……。
+EN ......Why......
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here. This is for your birthday.
+
+@ 49.36
+# REKI
+JP …………む……。
+EN ......Hm......
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN I'm counting on you from here on, too.
+
+@ 49.46
+# REKI
+JP …………うむ……。
+EN ......Mm......
+
+@ 50.23
+# scene 051 バレンタインデー
+# 社 長
+JP （あれ、机の上にチョコが。
+JP 　誰からだろう？）
+EN (Huh, there's chocolate on my desk. Who's it from?)
+
+@ 50.32
+# REKI
+JP ………………。
+EN ......
+
+@ 50.35
+# 社 長
+JP あっ、このチョコなんだけど
+JP 誰が置いてくれたか知ってるか？
+EN Oh, about this chocolate... do you know who left it
+EN here?
+
+@ 50.43
+# REKI
+JP ………………。
+EN ......
+
+@ 50.52
+# 社 長
+JP あっ…行っちゃった。
+JP …えっ！？
+JP これ、まさか…。
+EN Ah... she left. ...Huh?! Don't tell me this is...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept a thank-you for last month?
+
+@ 51.36
+# REKI
+JP …………すまぬ……。
+EN ......My thanks......
+
+@ 51.42
+# 社 長
+JP （やっぱりか…）
+EN (I knew it...)
+
+@ 52.29
+# scene 053 サイン会
+# REKI
+JP …………受け取れ……。
+EN ......Take it......
+
+@ 53.31
+# scene 054 コンサート
+# REKI
+JP …………ゆくぞ……。
+EN ......Here I go......
+
+@ 54.26
+# scene 055 練習拒否
+# REKI
+JP …………怨……。
+EN ......Grudge......
+
+@ 55.28
+# scene 056 失踪
+# REKI
+JP ………………。
+EN ......
+
+@ 56.16
+# scene 057 選手解雇
+# REKI
+JP …………くっ……。
+EN ......Tch......
+
+@ 57.16
+# scene 058 海外遠征 出発
+# REKI
+JP …………うむ……。
+EN ......Mm......
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# REKI
+JP …………うむ……。
+EN ......Mm......
+
+@ 59.26
+# scene 060 移籍思案
+# REKI
+JP …………迷いが……。
+EN ......I waver......
+
+@ 60.16
+# scene 061 革命軍結成
+# REKI
+JP …………捨て置けぬ……。
+EN ......I cannot let this stand......
+
+@ 61.16
+# scene 062 反乱軍結成
+# REKI
+JP …………滅せよ……。
+EN ......Perish......
+
+@ 62.16
+# scene 063 最終決戦要求
+# REKI
+JP …………覚悟っ……！
+EN ......Prepare yourselves......!
+
+@ 63.16
+# scene 064 遺恨発生
+# REKI
+JP …………許さぬ……。
+EN ......Unforgivable......
+
+@ 64.16
+# scene 065 殴り込み
+# REKI
+JP …………勝負……！
+EN ......Have at you......!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# REKI
+JP …………任せろ……。
+EN ......Leave it to me......
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# REKI
+JP …………散れ……。
+EN ......Scatter......
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# REKI
+JP …………参る……。
+EN ......I go......
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# REKI
+JP …………うむ……！
+EN ......Mm......!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# REKI
+JP …………抜かった……。
+EN ......I was careless......
+
+@ 70.13
+# scene 071 引退式
+# REKI
+JP …………さらば……。
+EN ......Farewell......
+
+@ 71.18
+# REKI
+JP ………………。
+EN ......
+
+@ 71.37
+# REKI
+JP ………………！？
+EN ......!?
+
+@ 71.47
+# REKI
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ。
+EN You've been doing well lately. Keep it up.
+
+@ 71.90
+# REKI
+JP ………………。
+EN ......
+
+@ 71.111
+# REKI
+JP …………むっ……。
+EN ......Hm......
+
+@ 71.132
+# REKI
+JP ………………。
+EN ......
+
+@ 71.153
+# REKI
+JP …………ぬう……。
+EN ......Nngh......
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# REKI
+JP ………………。
+EN ......
+
+@ 71.211
+# REKI
+JP …………クッ……。
+EN ......Tch......
+
+@ 71.232
+# REKI
+JP …………すまぬ……。
+EN ......Forgive me......
+
+@ 71.253
+# REKI
+JP …………なぜ……。
+EN ......Why......
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# REKI
+JP ………………。
+EN ......
+
+@ 71.311
+# REKI
+JP …………クッ……。
+EN ......Tch......
+
+@ 71.332
+# REKI
+JP …………礼を言う……。
+EN ......My thanks......
+
+@ 71.353
+# REKI
+JP …………フゥ……。
+EN ......Sigh......
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# REKI
+JP …………うむ……。
+EN ......Mm......
+
+@ 71.400
+# REKI
+JP …………否……。
+EN ......Nay......
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# REKI
+JP …………やむなし……。
+EN ......It cannot be helped......
+
+@ 71.454
+# REKI
+JP …………否……。
+EN ......Nay......
+
+@ 71.475
+# REKI
+JP ………………？
+EN ......?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# REKI
+JP …………む……。
+EN ......Hm......
+
+@ 71.522
+# REKI
+JP …………いや……。
+EN ......No......
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# REKI
+JP …………諾……。
+EN ......Agreed......
+
+@ 71.578
+# REKI
+JP …………できぬ……。
+EN ......I cannot......
+
+@ 71.599
+# REKI
+JP ………………？
+EN ......?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# REKI
+JP ………………！？
+EN ......!?
+
+@ 72.16
+# REKI
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ。
+EN You've been doing well lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# REKI
+JP ………………。
+EN ......
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# REKI
+JP …………むっ……。
+EN ......Hm......
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# REKI
+JP ………………。
+EN ......
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# REKI
+JP …………ぬう……。
+EN ......Nngh......
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# REKI
+JP ………………。
+EN ......
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# REKI
+JP …………クッ……。
+EN ......Tch......
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# REKI
+JP …………すまぬ……。
+EN ......Forgive me......
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# REKI
+JP …………なぜ……。
+EN ......Why......
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# REKI
+JP ………………。
+EN ......
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# REKI
+JP …………クッ……。
+EN ......Tch......
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# REKI
+JP …………礼を言う……。
+EN ......My thanks......
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# REKI
+JP …………フゥ……。
+EN ......Sigh......
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# REKI
+JP …………うむ……。
+EN ......Mm......
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# REKI
+JP …………否……。
+EN ......Nay......
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# REKI
+JP …………やむなし……。
+EN ......It cannot be helped......
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# REKI
+JP …………否……。
+EN ......Nay......
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# REKI
+JP ………………？
+EN ......?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# REKI
+JP …………む……。
+EN ......Hm......
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# REKI
+JP …………いや……。
+EN ......No......
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# REKI
+JP …………諾……。
+EN ......Agreed......
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# REKI
+JP …………できぬ……。
+EN ......I cannot......
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# REKI
+JP ………………？
+EN ......?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# REKI
+JP ………………。
+EN ......
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# REKI
+JP …………ふむ……。
+EN ......Hmm......
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# REKI
+JP …………フゥ～……。
+EN ......Sigh......
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this really is the tropics. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's enjoying themselves.)
+
+@ 105.36
+# 社 長
+JP ………………。
+EN ......
+
+@ 105.38
+# 社 長
+JP えっと…。
+EN Um...
+
+@ 105.40
+# 社 長
+JP （…あれは何をしているんだ？）
+EN (...What is she doing over there?)
+
+@ 105.57
+# REKI
+JP ………………。
+EN ......
+
+@ 105.60
+# 社 長
+JP （水蜘蛛の術の練習…か？）
+EN (Is she practicing the water-spider technique...?)
+
+@ 105.70
+# REKI
+JP …………くっ……。
+EN ......Ngh......
+
+@ 105.73
+# 社 長
+JP （大丈夫か？
+JP 　ひっくり返りそうだぞ？）
+EN (Is she okay? Looks like she's about to tip over.)
+
+@ 105.77
+# REKI
+JP …………ふっ……！
+EN ......Hff......!
+
+@ 105.86
+# 社 長
+JP （あっ、耐えた）
+EN (Oh, she held on.)
+
+@ 105.95
+# 社 長
+JP （今度こそ危ないんじゃ…）
+EN (This time she's really going over...)
+
+@ 105.99
+# REKI
+JP …………むっ……！
+EN ......Hmph......!
+
+@ 105.108
+# 社 長
+JP （ふぅ…ハラハラするな）
+EN (Phew... This is nerve-racking.)
+
+@ 105.117
+# 社 長
+JP （あっ…また…）
+EN (Ah... again...)
+
+@ 105.127
+# REKI
+JP …………はっ……！
+EN ......Hah......!
+
+@ 105.137
+# REKI
+JP …………ふっ……！
+EN ......Hff......!
+
+@ 105.147
+# REKI
+JP …………はっ……！
+EN ......Hah......!
+
+@ 105.157
+# REKI
+JP …………ふんっ……！
+EN ......Hngh......!
+
+@ 105.180
+# 社 長
+JP ………………。
+EN ......
+
+@ 105.182
+# 社 長
+JP まぁ、本人には何か期するものが
+JP あるんだろう…。
+EN Well, I'm sure she has something she's aiming for...
+
+@ 105.184
+# 社 長
+JP ………………。
+EN ......
+
+@ 106.28
+# scene 107 日常イベント１
+# 社 長
+JP （興行先に温泉があったってのは
+JP 　ラッキーだったなぁ）
+EN (What luck that there was a hot spring where we
+EN were touring.)
+
+@ 106.30
+# 社 長
+JP （選手たちも疲れが取れるだろうし…）
+EN (It should help the wrestlers recover, too...)
+
+@ 106.41
+# 社 長
+JP （ん…湯音？
+JP 　他にも誰か入ってたのか？）
+EN (Hm... a splash? Was someone else in here?)
+
+@ 106.43
+# 社 長
+JP （全然、気付かなかったぞ？）
+EN (I didn't notice at all.)
+
+@ 106.60
+# REKI
+JP ………………。
+EN ......
+
+@ 106.63
+# 社 長
+JP （…えっ！
+JP 　ここって混浴か！？）
+EN (...What?! Is this a mixed bath?!)
+
+@ 106.67
+# REKI
+JP …………社長か……？
+EN ......Boss......?
+
+@ 106.70
+# 社 長
+JP （うお、見つかった！？）
+EN (Whoa, she spotted me?!)
+
+@ 106.72
+# 社 長
+JP （気配の消し方といい
+JP 　相手を発見する能力といい
+JP 　さすが忍者だ！）
+EN (Hiding her presence, spotting others... She really is
+EN a ninja!)
+
+@ 106.74
+# 社 長
+JP （…なんて考えている
+JP 　場合じゃない！）
+EN (...This is no time to be thinking that!)
+
+@ 106.76
+# 社 長
+JP すまん。
+JP 気付かなかったんだ。
+JP すぐに出ていく！
+EN Sorry. I didn't notice you. I'll get out right away!
+
+@ 106.80
+# REKI
+JP …………待て……。
+EN ......Wait......
+
+@ 106.87
+# 社 長
+JP （待て、と言われても）
+EN (Wait? Easy for her to say.)
+
+@ 106.89
+# 社 長
+JP 謝るから勘弁してくれ。
+EN I'm sorry, so please let it go.
+
+@ 106.93
+# REKI
+JP …………違う……。
+EN ......That is not it......
+
+@ 106.96
+# 社 長
+JP …へっ？
+EN ...Huh?
+
+@ 106.100
+# REKI
+JP …………戻ってこい……。
+EN ......Come back......
+
+@ 106.104
+# REKI
+JP いつも世話になっている礼だ。
+JP 背中を流してやる。
+EN As thanks for all you do for me, I will wash your back.
+
+@ 106.111
+# 社 長
+JP …えっ？
+JP ……えっ！？
+EN ...What? ......What?!
+
+@ 106.113
+# 社 長
+JP ええええぇぇぇっ！？
+EN Whaaaaaat?!
+
+@ 106.117
+# REKI
+JP …………嫌か……？
+EN ......You do not wish it......?
+
+@ 106.120
+# 社 長
+JP 嫌じゃないが…。
+EN It's not that I don't, but...
+
+@ 106.124
+# REKI
+JP …………ならば来い……。
+EN ......Then come......
+
+@ 106.127
+# 社 長
+JP じゃ、お言葉に甘えて…。
+EN Well, if you insist...
+
+@ 106.131
+# REKI
+JP …………うむ……。
+EN ......Mm......
+
+@ 106.149
+# 社 長
+JP ………………。
+EN ......
+
+@ 106.151
+# 社 長
+JP （その後、俺は言葉に甘えて
+JP 　背中を流してもらった）
+EN (After that, I took her up on her offer and let her
+EN wash my back.)
+
+@ 107.28
+# scene 108 日常イベント２
+# 社 長
+JP （ふぅ…またこの温泉に
+JP 　来てしまった）
+EN (Phew... I came back to this hot spring again.)
+
+@ 107.30
+# 社 長
+JP （気持ちいいのは
+JP 　クセになるよなぁ…）
+EN (Feeling this good gets habit-forming...)
+
+@ 107.41
+# 社 長
+JP （んっ…湯音？）
+EN (Hm... a splash?)
+
+@ 107.43
+# 社 長
+JP ………………。
+EN ......
+
+@ 107.45
+# 社 長
+JP （こんなシチュエーション
+JP 　前にもなかったか？）
+EN (Haven't I been in this situation before?)
+
+@ 107.62
+# REKI
+JP ………………。
+EN ......
+
+@ 107.65
+# 社 長
+JP （やっぱりか！？）
+EN (I knew it?!)
+
+@ 107.69
+# REKI
+JP …………来たか……。
+EN ......So you came......
+
+@ 107.76
+# 社 長
+JP （…ここの温泉
+JP 　混浴しかないのかよ）
+EN (...Is every bath here mixed?)
+
+@ 107.78
+# 社 長
+JP すまん、気付かなかった。
+JP すぐに出ていくよ。
+EN Sorry, I didn't notice you. I'll get out right away.
+
+@ 107.82
+# REKI
+JP …………問題ない……。
+EN ......It is no matter......
+
+@ 107.85
+# 社 長
+JP （問題ない、と言われてもな）
+EN (No matter? Easy for her to say.)
+
+@ 107.89
+# REKI
+JP …………いつもの礼だ……。
+EN ......Thanks, as always......
+
+@ 107.93
+# REKI
+JP …………背中を流してやる……。
+EN ......I will wash your back......
+
+@ 107.100
+# 社 長
+JP （またか）
+EN (Again?)
+
+@ 107.104
+# REKI
+JP …………嫌か……？
+EN ......You do not wish it......?
+
+@ 107.107
+# 社 長
+JP そんなことはないが…。
+EN It's not that, but...
+
+@ 107.109
+# 社 長
+JP （…あっ、そうだ）
+EN (...Oh, I know.)
+
+@ 107.111
+# 社 長
+JP 今回は逆におまえの背中を
+JP 流させてくれないか？
+EN This time, how about I wash your back instead?
+
+@ 107.121
+# REKI
+JP …………なっ、何を……！
+EN ......Wh-what are you......!
+
+@ 107.128
+# 社 長
+JP いつもの労をねぎらって…。
+EN To thank you for all your hard work...
+
+@ 107.132
+# REKI
+JP …………バ、バカな……！
+EN ......Th-that is absurd......!
+
+@ 107.135
+# 社 長
+JP そんなに嫌がらなくても…。
+EN You don't have to hate the idea that much...
+
+@ 107.139
+# REKI
+JP …………さ、さらば……！
+EN ......F-farewell......!
+
+@ 107.164
+# 社 長
+JP うぉっ！
+EN Whoa!
+
+@ 107.166
+# 社 長
+JP （急に温泉から
+JP 　大量の水しぶきが上がると…）
+EN (A huge spray of water suddenly shot up from the
+EN hot spring...)
+
+@ 107.168
+# 社 長
+JP （そこには誰もいなくなっていた）
+EN (...and when it cleared, no one was there.)
+
+@ 107.171
+# 社 長
+JP ………………。
+EN ......
+
+@ 107.173
+# 社 長
+JP さすが忍者…。
+EN A true ninja...
+
+@ 107.175
+# 社 長
+JP だけど…。
+EN But still...
+
+@ 107.177
+# 社 長
+JP そんなに嫌だったのか…。
+EN Did she really hate the idea that much...?
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# REKI
+JP …………手合わせ……。
+EN ......A sparring bout......
+
+@ 109.16
+# scene 113 練習開始
+# REKI
+JP …………では……。
+EN ......Let us begin......
+
+@ 110.16
+# scene 114 練習開始 好意
+# REKI
+JP …………了……。
+EN ......Understood......
+
+@ 111.16
+# scene 115 特訓開始
+# REKI
+JP …………はっ……！
+EN ......Hah......!
+
+@ 112.20
+# scene 116 特訓成功
+# REKI
+JP ………………。
+EN ......
+
+@ 113.20
+# scene 117 特訓失敗
+# REKI
+JP …………ぐっ……。
+EN ......Ngh......
+
+@ 114.16
+# scene 118 休養
+# REKI
+JP …………休み……。
+EN ......Rest......
+
+@ 115.16
+# scene 119 入場1
+# REKI
+JP 甲陽流の秘術、ここに示さん！
+EN Behold, the secret arts of the Koyo-ryu!
+
+@ 116.16
+# scene 119 入場2
+# REKI
+JP …………よしなに……。
+EN ......At your service......
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# REKI
+JP …………いざ……。
+EN ......Now......
+
+@ 118.16
+# scene 125 必殺技１
+# REKI
+JP …………もらった……！
+EN ......You are mine......!
+
+@ 119.16
+# scene 125 必殺技２
+# REKI
+JP …………一撃必殺……！
+EN ......One strike, one kill......!
+
+@ 120.16
+# scene 125 必殺技３
+# REKI
+JP …………隙あり……！
+EN ......An opening......!
+
+@ 121.12
+# scene 126 勝利1
+# REKI
+JP …………敵ではないな……。
+EN ......No match for me......
+
+@ 122.12
+# scene 126 勝利2
+# REKI
+JP ……敵ながら恐るべし……。
+EN ......A fearsome foe......
+
+@ 123.12
+# scene 126 勝利3
+# REKI
+JP …………また相間みえようか……。
+EN ......Shall we meet again......
+
+@ 124.15
+# scene 133 表彰1
+# REKI
+JP …………そうか……。
+EN ......I see......
+
+@ 125.15
+# scene 133 表彰2
+# REKI
+JP …………忍に名誉はいらぬ……。
+EN ......A ninja needs no honors......
+
+@ 126.12
+# scene 134 優勝1
+# REKI
+JP …………我が前に敵なし……。
+EN ......None can stand before me......
+
+@ 127.12
+# scene 134 優勝２
+# REKI
+JP …………日々精進あるのみ……。
+EN ......Only daily devotion to training......
+
+@ 128.24
+# scene 135 エンディング 通常
+# REKI
+JP …………見事……。
+EN ......Splendid......
+
+@ 129.24
+# scene 136 エンディング 好意
+# REKI
+JP もはや闇には生きられぬ…。
+JP お主という光を知ってしまった
+JP からには……。
+EN I can no longer live in the darkness... not now that I
+EN have come to know the light that is you...

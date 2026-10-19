@@ -1,0 +1,2330 @@
+# /SCR/125.BIN - スターライト相羽
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 125` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト・挨拶
+# スターライト相羽
+JP 相羽です！
+JP プロレスラーになるのが夢でした！
+JP よろしくお願いします！
+EN I'm Aiba! Becoming a pro wrestler has always been my
+EN dream! I'm looking forward to working with you!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# スターライト相羽
+JP 死ぬ気でがんばります！
+EN I'll give it everything I've got, even if it kills me!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# スターライト相羽
+JP ありがとうございました！
+JP また受けてもいいですか？
+EN Thank you very much! Can I try out again sometime?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりにスカウトが
+JP リストアップした娘がいるはず
+JP なんだけど…。
+EN The girl our scout listed should be somewhere
+EN around here...
+
+@ 3.25
+# 社 長
+JP あそこでトレーニングしてる子かな？
+EN Is it that girl training over there?
+
+@ 3.27
+# 社 長
+JP そんなに身体能力に
+JP 優れてるとは思えないけど…。
+JP しばらく見てみるか。
+EN She doesn't look all that athletic, though... I'll watch
+EN her for a while.
+
+@ 3.41
+# 社 長
+JP ………………。
+EN ..................
+
+@ 3.55
+# 社 長
+JP もう１時間以上ぶっ続けだぞ。
+JP 根性あるなぁ。
+JP ちょっと話してみるか。
+EN She's been at it nonstop for over an hour. That's
+EN real guts. Maybe I'll have a word with her.
+
+@ 3.57
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.67
+# スターライト相羽
+JP はっ、はい！
+JP なんでしょう？
+EN Wh-yes! What is it?
+
+@ 3.70
+# 社 長
+JP （俺は自分のことを話して、
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.77
+# スターライト相羽
+JP プッ、プロレスですか！
+EN P-pro wrestling?!
+
+@ 3.80
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.87
+# スターライト相羽
+JP う～ん…。
+JP ボクやっていけるでしょうか？
+EN Hmmm... Do you think I could make it?
+
+@ 3.90
+# 社 長
+JP 君くらいの根性があれば
+JP 大丈夫だと思うよ。
+EN With guts like yours, I think you'll be fine.
+
+@ 3.92
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# スターライト相羽
+JP わかりました！
+JP 子供の頃からの夢だったので
+JP 挑戦してみます！
+EN Okay! It's been my dream since I was a kid, so I'll give
+EN it a shot!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# スターライト相羽
+JP これからよろしくお願いします！
+EN I'm looking forward to working with you!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# スターライト相羽
+JP すいません…。
+JP やっぱりボクには無理です…。
+EN I'm sorry... I just don't think I can do it...
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# スターライト相羽
+JP あっ、この前の社長さん！？
+JP またスカウトですか？
+EN Oh, you're that President from before?! Scouting me
+EN again?
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 6.43
+# スターライト相羽
+JP う～ん…。
+JP そんなこと言われたら
+JP 悩んじゃいます…。
+EN Hmmm... When you put it like that, I can't make up my
+EN mind...
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# スターライト相羽
+JP わかりました！
+JP 子供の頃からの夢だったので
+JP 挑戦してみます！
+EN Okay! It's been my dream since I was a kid, so I'll give
+EN it a shot!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# スターライト相羽
+JP これからよろしくお願いします！
+EN I'm looking forward to working with you!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# スターライト相羽
+JP すいません…。
+JP やっぱりボクには無理です…。
+EN I'm sorry... I just don't think I can do it...
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は相羽選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Aiba.
+
+@ 9.25
+# 社 長
+JP 彼女のプロレスに取り組む姿勢や
+JP 持ち前の根性には
+JP 目を見張るものがある。
+EN Her attitude toward wrestling and her natural grit
+EN are truly remarkable.
+
+@ 9.27
+# 社 長
+JP たしかこのあたりで
+JP 自主トレをやっているって
+JP 聞いたんだが…。
+EN I heard she does her own training somewhere around
+EN here...
+
+@ 9.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# スターライト相羽
+JP はい！
+JP なんでしょう？
+EN Yes! What is it?
+
+@ 9.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.51
+# スターライト相羽
+JP えっ！？
+JP 移籍ですか？
+EN Huh?! Transfer?
+
+@ 9.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.61
+# スターライト相羽
+JP う～ん…。
+JP ボク、今の団体に育ててもらった
+JP 恩もあるんです…。
+EN Hmmm... I owe a lot to my current promotion for
+EN raising me...
+
+@ 9.64
+# 社 長
+JP それはわかりますが
+JP 力を貸してもらえないでしょうか？
+EN I understand that, but won't you lend us your
+EN strength?
+
+@ 9.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# スターライト相羽
+JP わかりました！
+JP 社長さんを信じて移籍します！
+EN Okay! I'll trust you and make the move, President!
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# スターライト相羽
+JP はい！
+JP 新しい環境で
+JP またチャレンジしてみます！
+EN Yes! I'll take on a new challenge in a new place!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# スターライト相羽
+JP すいません…。
+JP やっぱり今の団体を裏切れません…。
+EN I'm sorry... I just can't betray my promotion...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 相羽選手が必要だ。
+EN Our promotion really does need Aiba.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度相羽選手と
+JP 交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# スターライト相羽
+JP あっ、この前の社長さん！？
+JP またですか？
+EN Oh, you're that President from before?! Again?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.47
+# スターライト相羽
+JP う～ん…。
+JP すごく悩んじゃいます…。
+EN Hmmm... This is really tough to decide...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my offer.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# スターライト相羽
+JP わかりました！
+JP 社長さんを信じて移籍します！
+EN Okay! I'll trust you and make the move, President!
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# スターライト相羽
+JP はい！
+JP 新しい環境で
+JP またチャレンジしてみます！
+EN Yes! I'll take on a new challenge in a new place!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# スターライト相羽
+JP すいません…。
+JP やっぱり今の団体を裏切れません…。
+EN I'm sorry... I just can't betray my promotion...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は相羽選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Aiba.
+
+@ 15.25
+# 社 長
+JP 彼女のプロレスに取り組む姿勢や
+JP 持ち前の根性には
+JP 目を見張るものがある。
+EN Her attitude toward wrestling and her natural grit
+EN are truly remarkable.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりで１人で
+JP 練習してるって聞いたんだが…。
+EN I heard she trains by herself somewhere around
+EN here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# スターライト相羽
+JP はい！
+JP なんでしょう？
+EN Yes! What is it?
+
+@ 15.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 15.51
+# スターライト相羽
+JP …えっ！？
+JP 社長さんの団体に所属ですか？
+EN ...Huh?! Sign with your promotion?
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# スターライト相羽
+JP う～ん…。
+JP フリーで力を試したいと
+JP 思ってるんです…。
+EN Hmmm... I want to test myself as a freelancer...
+
+@ 15.64
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Is there any way you could lend us your strength?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# スターライト相羽
+JP わかりました！
+JP 社長さんの団体に
+JP 入団させてもらいます！
+EN Okay! I'd be glad to join your promotion!
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# スターライト相羽
+JP 気合いを入れてがんばります！
+JP よろしくお願いします！
+EN I'll give it all my fighting spirit! I'm looking forward to
+EN working with you!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# スターライト相羽
+JP すいません…。
+JP もう少しフリーでボクの力を
+JP 試してみたいです…。
+EN I'm sorry... I want to test myself as a freelancer a
+EN little longer...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 相羽選手が必要だ。
+EN Our promotion really does need Aiba.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度相羽選手と
+JP 交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# スターライト相羽
+JP あっ、この前の社長さん！？
+JP またですか？
+EN Oh, you're that President from before?! Again?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 18.47
+# スターライト相羽
+JP う～ん…。
+JP 悩んじゃいます…。
+EN Hmmm... I can't make up my mind...
+
+@ 18.50
+# 社 長
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my offer.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# スターライト相羽
+JP わかりました！
+JP 社長さんの団体に
+JP 入団させてもらいます！
+EN Okay! I'd be glad to join your promotion!
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# スターライト相羽
+JP 気合いを入れてがんばります！
+JP よろしくお願いします！
+EN I'll give it all my fighting spirit! I'm looking forward to
+EN working with you!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# スターライト相羽
+JP すいません…。
+JP もう少しフリーでボクの力を
+JP 試してみたいです…。
+EN I'm sorry... I want to test myself as a freelancer a
+EN little longer...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は相羽を訪ねることにした。
+EN I decided to pay Aiba a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.29
+# 社 長
+JP あっ、相羽っ！
+EN Hey, Aiba!
+
+@ 21.39
+# スターライト相羽
+JP あー！？
+EN Aaah?!
+
+@ 21.42
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.49
+# スターライト相羽
+JP うぅ～…。
+JP 今さらなんの用ですか？
+EN Grrr... What do you want from me now?
+
+@ 21.52
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you because I
+EN want you to come back...
+
+@ 21.56
+# スターライト相羽
+JP そんなこと信じられません！
+EN I can't believe that!
+
+@ 21.59
+# 社 長
+JP たしかにこんなこと
+JP 頼めた義理じゃないんだけど…。
+EN I know I'm in no position to ask this, but...
+
+@ 21.61
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# スターライト相羽
+JP そんなに頼まれたら
+JP ボク…困ります…。
+EN If you beg me like that, I... I don't know what to do...
+
+@ 22.18
+# 社 長
+JP やっぱりダメかな？
+EN Still no good?
+
+@ 22.29
+# スターライト相羽
+JP わかりました…。
+JP 今回だけは許してあげます。
+JP 今回だけですよ！
+EN Fine... I'll forgive you, just this once. Only this once,
+EN okay?!
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# スターライト相羽
+JP そんなに頼まれたら
+JP ボク…困ります…。
+EN If you beg me like that, I... I don't know what to do...
+
+@ 23.18
+# 社 長
+JP やっぱりダメかな？
+EN Still no good?
+
+@ 23.29
+# スターライト相羽
+JP やっぱりダメです。
+JP ボク、社長が信じられません！
+EN No, it's no good. I can't trust you, Boss!
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び相羽を訪ねることにした。
+EN I decided to visit Aiba again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP あっ、相羽！
+EN Hey, Aiba!
+
+@ 24.37
+# スターライト相羽
+JP 社長！？
+JP またですか？
+EN Boss?! You again?
+
+@ 24.40
+# 社 長
+JP ああ、また頼みに来たよ。
+EN Yeah, I've come to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# スターライト相羽
+JP そんなに頼まれたら
+JP ボク…困ります…。
+EN If you beg me like that, I... I don't know what to do...
+
+@ 25.18
+# 社 長
+JP どうしてもダメかな？
+EN Is there no way?
+
+@ 25.29
+# スターライト相羽
+JP わかりました…。
+JP 今回だけは許してあげます。
+JP 今回だけですよ！
+EN Fine... I'll forgive you, just this once. Only this once,
+EN okay?!
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# スターライト相羽
+JP そんなに頼まれたら
+JP ボク…困ります…。
+EN If you beg me like that, I... I don't know what to do...
+
+@ 26.18
+# 社 長
+JP やっぱりダメかな？
+EN Still no good?
+
+@ 26.29
+# スターライト相羽
+JP やっぱりダメです。
+JP ボク、社長が信じられません！
+EN No, it's no good. I can't trust you, Boss!
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# スターライト相羽
+JP こんなケガ
+JP 気合いで治してみせます！
+EN An injury like this? I'll heal it with sheer fighting
+EN spirit!
+
+@ 28.16
+# scene 029 ケガ大
+# スターライト相羽
+JP すいません…。
+JP やっちゃいました…。
+EN I'm sorry... I messed up...
+
+@ 29.16
+# scene 030 入院
+# スターライト相羽
+JP 入院しないとダメみたいです…。
+EN Looks like I have to go to the hospital...
+
+@ 30.16
+# scene 031 退院
+# スターライト相羽
+JP 相羽、戻ってきましたー！
+EN Aiba is back in action!
+
+@ 31.16
+# scene 032 ケガ完治
+# スターライト相羽
+JP ケガで遅れた分は
+JP 気合で取り返します！
+EN I'll make up for the time I lost to injury with sheer
+EN fighting spirit!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# スターライト相羽
+JP そうですね…。
+JP 気合いだけじゃ
+JP 続けられないですよね…。
+EN You're right... Fighting spirit alone won't keep me
+EN going...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# スターライト相羽
+JP たとえ社長の言うことでも
+JP 従えません！
+EN Even if it's you saying it, Boss, I can't go along with
+EN that!
+
+@ 34.16
+# scene 035 コーチ就任
+# スターライト相羽
+JP 今日からコーチとしてがんばります！
+EN Starting today, I'll do my best as a coach!
+
+@ 35.16
+# scene 036 ケガ引退
+# スターライト相羽
+JP こんなことで引退するなんて…。
+JP 悔しいです…。
+EN Retiring over something like this... It's so
+EN frustrating...
+
+@ 36.16
+# scene 037 年齢引退
+# スターライト相羽
+JP もう限界みたいです…。
+EN Looks like I've hit my limit...
+
+@ 37.16
+# scene 038 退団
+# スターライト相羽
+JP もうこの団体ではやっていけません！
+EN I can't go on in this promotion anymore!
+
+@ 38.16
+# scene 039 スランプ
+# スターライト相羽
+JP 気合が空回りしてるみたいです…。
+EN My fighting spirit seems to be spinning its wheels...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# スターライト相羽
+JP ボ、ボクのファンクラブですか！？
+EN M-my own fan club?!
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# スターライト相羽
+JP はいっ！
+JP がんばります！
+EN Yes, sir! I'll do my best!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# スターライト相羽
+JP …えッ！？
+JP またファンクラブができたんですか？
+EN ...Huh?! I got another fan club?
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Make sure you live up to their expectations.
+
+@ 40.26
+# スターライト相羽
+JP ボク、もっと気合い入れていきます！
+EN I'm gonna fire up my fighting spirit even more!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# スターライト相羽
+JP …ファンクラブが…解散…。
+EN ...My fan club... disbanded...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.23
+# スターライト相羽
+JP うぅ…。
+JP ファンに見捨てられないように
+JP 気合入れ直します…。
+EN Ugh... I'll fire myself up again so the fans don't give
+EN up on me...
+
+@ 42.16
+# scene 043 映画出演
+# スターライト相羽
+JP セリフ全部、気合いで暗記します！
+EN I'll memorize all my lines with sheer fighting spirit!
+
+@ 43.16
+# scene 044 一日署長
+# スターライト相羽
+JP 犯人は全員ＫＯしてきます！
+EN I'll KO every last criminal!
+
+@ 44.16
+# scene 045 写真集発売
+# スターライト相羽
+JP ボクの写真集なんて
+JP 買ってくれる人いるんでしょうか…？
+EN Would anyone really buy a photo book of me...?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# スターライト相羽
+JP 団体の宣伝にもなるように
+JP がんばってきます！
+EN I'll do my best so it promotes our company too!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# スターライト相羽
+JP ボクのＣＤかぁ…。
+JP 売れるといいなぁ…。
+EN My own CD, huh... I hope it sells...
+
+@ 47.16
+# scene 048 始球式
+# スターライト相羽
+JP 気合いで１６０キロ出してきます！
+EN I'll throw a 100 mph pitch with sheer fighting spirit!
+
+@ 48.16
+# scene 049 学園祭
+# スターライト相羽
+JP 気合いで学園祭盛り上げてきます！
+EN I'll fire up the school festival with sheer fighting
+EN spirit!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.35
+# スターライト相羽
+JP …社長っ！？
+EN ...Boss?!
+
+@ 49.38
+# 社 長
+JP これからもよろしくな。
+EN Thanks for everything, and keep it up.
+
+@ 49.45
+# スターライト相羽
+JP 社長！
+JP ボク、感動しました！
+JP 一生大事にします！
+EN Boss! I'm so moved! I'll treasure it forever!
+
+@ 50.29
+# scene 051 バレンタインデー
+# スターライト相羽
+JP しゃ、社長…！
+JP これバレンタインの
+JP …チョ…チョコです！
+EN B-Boss...! This is... ch-chocolate... for Valentine's!
+
+@ 50.32
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thank you.
+
+@ 50.39
+# スターライト相羽
+JP ぎ、義理ですから…。
+JP …でもちょっと義理じゃないかも…。
+EN I-it's just obligation chocolate... ...But maybe it's not
+EN totally obligation...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# スターライト相羽
+JP 社長っ！
+JP ボク、感動しました！
+JP 一生社長について行きます！
+EN Boss! I'm so moved! I'll follow you for the rest of my
+EN life!
+
+@ 51.41
+# 社 長
+JP いや、そこまで言われても
+JP 困るんだが…。
+EN Well, that's a bit much...
+
+@ 52.31
+# scene 053 サイン会
+# スターライト相羽
+JP バンバン
+JP サインしちゃいますよー！
+EN I'm gonna sign autographs like crazy!
+
+@ 53.31
+# scene 054 コンサート
+# スターライト相羽
+JP 一世一代の舞台がんばります！
+EN I'll give the performance of a lifetime!
+
+@ 54.28
+# scene 055 練習拒否
+# スターライト相羽
+JP ボク…今日は練習したく
+JP ありません…。
+EN I... don't want to train today...
+
+@ 55.28
+# scene 056 失踪
+# スターライト相羽
+JP 探さないでください…。
+EN Please don't look for me...
+
+@ 56.16
+# scene 057 選手解雇
+# スターライト相羽
+JP 社長…酷いです…。
+EN Boss... That's so cruel...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# スターライト相羽
+JP 海外で武者修行してきます！
+EN I'm heading overseas to train like a wandering
+EN warrior!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# スターライト相羽
+JP 相羽、戻ってきましたー！
+EN Aiba is back in action!
+
+@ 59.28
+# scene 060 移籍思案
+# スターライト相羽
+JP 環境を変えるのも…ありなのかな…。
+EN Maybe a change of scenery... wouldn't be so bad...
+
+@ 60.16
+# scene 061 革命軍結成
+# スターライト相羽
+JP ボク、本気で革命を起こします！
+EN I'm dead serious about starting a revolution!
+
+@ 61.16
+# scene 062 反乱軍結成
+# スターライト相羽
+JP ボクはホントに本気ですよ！
+EN I'm seriously, totally serious!
+
+@ 62.16
+# scene 063 最終決戦要求
+# スターライト相羽
+JP 次の最終決戦でボクたちと勝負です！
+EN You'll face us in the final showdown!
+
+@ 63.16
+# scene 064 遺恨発生
+# スターライト相羽
+JP もうっ！
+JP ボク、怒りました！
+EN Grrr! Now I'm mad!
+
+@ 64.16
+# scene 065 殴り込み
+# スターライト相羽
+JP 相羽、出撃します！
+EN Aiba, moving out!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# スターライト相羽
+JP ボクが返り討ちにしてやります！
+EN I'll send you packing!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# スターライト相羽
+JP ホントの強さ教えてあげます！
+EN I'll show you what real strength is!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# スターライト相羽
+JP 気合い全開でがんばってきます！
+EN I'll go all out with full fighting spirit!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# スターライト相羽
+JP やりましたー！
+JP 最高に幸せです！
+EN I did it! I'm the happiest girl in the world!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# スターライト相羽
+JP すいません…。
+JP 力不足でした…。
+EN I'm sorry... I wasn't strong enough...
+
+@ 70.13
+# scene 071 引退式
+# スターライト相羽
+JP グスッ…。
+JP ボクは普通の女の子に戻ります。
+JP 応援ありがとう…ございましたー…！
+EN *sniff*... I'm going back to being a normal girl. Thank
+EN you... for all your support!
+
+@ 71.18
+# スターライト相羽
+JP 社長、なんでしょうか？
+EN Boss, what is it?
+
+@ 71.37
+# スターライト相羽
+JP 社長、なんですか？
+EN Boss, what's up?
+
+@ 71.47
+# スターライト相羽
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been on a roll lately. Keep it up!
+
+@ 71.90
+# スターライト相羽
+JP ハイ！
+JP この調子でがんばります！
+EN Yes! I'll keep it up!
+
+@ 71.111
+# スターライト相羽
+JP 社長…。
+JP ホントにボクのこと見てますか…？
+EN Boss... Are you really watching me...?
+
+@ 71.132
+# スターライト相羽
+JP 社長に褒められちゃった…！
+JP ボク、がんばります。
+EN The Boss praised me...! I'll do my best.
+
+@ 71.153
+# スターライト相羽
+JP 社長、そんなこと言われても…。
+EN Boss, even if you say that...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# スターライト相羽
+JP すいません！
+JP 気合い入れ直します！
+EN I'm sorry! I'll fire up my fighting spirit again!
+
+@ 71.211
+# スターライト相羽
+JP すいません…。
+JP もうダメかもしれないです…。
+EN I'm sorry... Maybe I'm just no good anymore...
+
+@ 71.232
+# スターライト相羽
+JP ボク、社長の一言で目が覚めました！
+EN That one word from you woke me up, Boss!
+
+@ 71.253
+# スターライト相羽
+JP 社長…。
+JP ボクどうしたら
+JP いいでしょうか…？
+EN Boss... What should I do...?
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# スターライト相羽
+JP 社長、ありがとうございます！
+JP 社長に励まされるなんて
+JP ダメですよね！
+EN Thank you, Boss! I can't have you cheering me up,
+EN though, can I?
+
+@ 71.311
+# スターライト相羽
+JP …社長？
+JP ボクはいつもどおりですよ。
+EN ...Boss? I'm the same as always.
+
+@ 71.332
+# スターライト相羽
+JP 社長に励ましてもらえるなんて…！
+JP ボク、がんばります！
+EN You're cheering me on...! I'll do my best!
+
+@ 71.353
+# スターライト相羽
+JP 社長、心配してもらってすいません。
+JP ボクは大丈夫です。
+EN Sorry to make you worry, Boss. I'm fine.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# スターライト相羽
+JP なんとなく…わかります…。
+EN I kind of... know...
+
+@ 71.400
+# スターライト相羽
+JP ボク、なんで呼ばれたんですか？
+EN Why did you call me in?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# スターライト相羽
+JP 社長、すいませんでした。
+JP ボク、謝ってきます！
+EN I'm sorry, Boss. I'll go apologize!
+
+@ 71.454
+# スターライト相羽
+JP 社長、ボクは悪くありません！
+EN Boss, it's not my fault!
+
+@ 71.475
+# スターライト相羽
+JP ボク、社長が何を言いたいのか
+JP わかりません…。
+EN I don't understand what you're trying to say, Boss...
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# スターライト相羽
+JP えーと…。
+JP なんとなく…。
+EN Um... Kind of...
+
+@ 71.522
+# スターライト相羽
+JP ボクに…なんの話ですか…？
+EN What did... you want to talk to me about...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# スターライト相羽
+JP 社長にそう言われたら…。
+JP ボク、謝ってきます。
+EN If you put it that way, Boss... I'll go apologize.
+
+@ 71.578
+# スターライト相羽
+JP 社長はボクより
+JP あの娘の方が大切なんですね…。
+EN So she's more important to you than I am, Boss...
+
+@ 71.599
+# スターライト相羽
+JP 社長とボクは心が通じてると
+JP 思ってたんですけど…。
+EN I thought you and I understood each other, Boss...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# スターライト相羽
+JP 社長、何ですか？
+EN Boss, what is it?
+
+@ 72.16
+# スターライト相羽
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been on a roll lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# スターライト相羽
+JP ハイ！　この調子でがんばります！
+EN Yes! I'll keep it up!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# スターライト相羽
+JP 社長…。
+JP ホントにボクのこと見てますか…？
+EN Boss... Are you really watching me...?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# スターライト相羽
+JP 社長に褒められちゃった…！
+JP ボク、がんばります。
+EN The Boss praised me...! I'll do my best.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# スターライト相羽
+JP 社長、そんなこと言われても…。
+EN Boss, even if you say that...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# スターライト相羽
+JP すみません！
+JP 気合い入れ直します！
+EN I'm sorry! I'll fire up my fighting spirit again!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# スターライト相羽
+JP すみません…。
+JP もうダメかもしれないです…。
+EN I'm sorry... Maybe I'm just no good anymore...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# スターライト相羽
+JP ボク、社長の一言で目が覚めました！
+EN That one word from you woke me up, Boss!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# スターライト相羽
+JP 社長…。
+JP ボクどうしたら
+JP いいでしょうか…？
+EN Boss... What should I do...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# スターライト相羽
+JP 社長、ありがとうございます！
+JP 社長に励まされるなんて
+JP ダメですよね！
+EN Thank you, Boss! I can't have you cheering me up,
+EN though, can I?
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# スターライト相羽
+JP …社長？
+JP ボクはいつもどおりですよ。
+EN ...Boss? I'm the same as always.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# スターライト相羽
+JP 社長に励ましてもらえるなんて…！
+JP ボク、がんばります！
+EN You're cheering me on...! I'll do my best!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# スターライト相羽
+JP 社長、心配してもらって
+JP すみません。
+JP ボクは大丈夫です。
+EN Sorry to make you worry, Boss. I'm fine.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# スターライト相羽
+JP なんとなく…わかります…。
+EN I kind of... know...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# スターライト相羽
+JP ボク、なんで呼ばれたんですか？
+EN Why did you call me in?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# スターライト相羽
+JP 社長、すみませんでした。
+JP ボク謝ってきます！
+EN I'm sorry, Boss. I'll go apologize!
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# スターライト相羽
+JP 社長、ボクは悪くありません！
+EN Boss, it's not my fault!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# スターライト相羽
+JP ボク、社長が何を言いたいのか
+JP わかりません…。
+EN I don't understand what you're trying to say, Boss...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# スターライト相羽
+JP えーと…。
+JP なんとなく…。
+EN Um... Kind of...
+
+@ 97.10
+# scene 098 会話 仲裁する 好意 遺恨なし
+# スターライト相羽
+JP ボクに…なんの話ですか…？
+EN What did... you want to talk to me about...?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# スターライト相羽
+JP 社長にそう言われたら…。
+JP ボク謝ってきます。
+EN If you put it that way, Boss... I'll go apologize.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# スターライト相羽
+JP 社長はボクより
+JP あの娘の方が大切なんですね…。
+EN So she's more important to you than I am, Boss...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# スターライト相羽
+JP 社長とボクは心が
+JP 通じてると思ってたんですけど…。
+EN I thought you and I understood each other, Boss...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# スターライト相羽
+JP 社長、ありがとうございます。
+JP 来年もがんばります！
+EN Thank you, Boss. I'll do my best next year too!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# スターライト相羽
+JP うわ～！
+JP こんなにもらえるんですか！
+JP 社長、ありがとうございます。
+EN Wowww! I get this much?! Thank you, Boss.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# スターライト相羽
+JP 社長…。
+JP ボクの評価ってこんなもの
+JP だったんですね…。
+EN Boss... So this is all I'm worth to you...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived at a tropical island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN scorching.)
+
+@ 105.32
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.38
+# 社 長
+JP （そして、あそこにも
+JP 　元気に楽しんでいるのが一人…）
+EN (And over there, one girl is having a particularly
+EN lively time...)
+
+@ 105.42
+# ？？？
+JP しゃちょ――――――！
+EN Boooooooss!
+
+@ 105.61
+# 社 長
+JP （ご機嫌だなあ）
+EN (She's in a great mood.)
+
+@ 105.63
+# 社 長
+JP おー、元気いいなー！
+EN Hey, you're full of energy!
+
+@ 105.67
+# スターライト相羽
+JP おかげさまでー！
+JP あはははは！
+EN Thanks to you! Ahahahaha!
+
+@ 105.70
+# 社 長
+JP （……んっ？）
+EN (...Hm?)
+
+@ 105.72
+# 社 長
+JP （なんだか…変な泳ぎ方だな）
+EN (That's... a strange way to swim.)
+
+@ 105.76
+# スターライト相羽
+JP うわー、結構早ーい！
+EN Whoa, this is pretty fast!
+
+@ 105.79
+# 社 長
+JP （自分で泳いでいるんじゃ…ないな。
+JP 　なんだ、あれは？）
+EN (She's not swimming on her own... What is that?)
+
+@ 105.83
+# スターライト相羽
+JP あははははっ！
+EN Ahahahaha!
+
+@ 105.86
+# 社 長
+JP （でかい海亀か！）
+EN (A giant sea turtle!)
+
+@ 105.90
+# スターライト相羽
+JP うひゃっ…。
+JP 速い、速い！
+EN Whoa...! Fast, fast!
+
+@ 105.93
+# 社 長
+JP （たしかに速い）
+EN (It really is fast.)
+
+@ 105.95
+# 社 長
+JP 亀って、あんな速さで泳ぐんだなぁ。
+EN I didn't know turtles could swim that fast.
+
+@ 105.99
+# スターライト相羽
+JP あははははっ！
+JP ゴー、ゴー！
+EN Ahahahaha! Go, go!
+
+@ 105.102
+# 社 長
+JP （相羽はすごいテンションだ）
+EN (Aiba is wildly excited.)
+
+@ 105.104
+# 社 長
+JP （何か、そのまま竜宮城にでも
+JP 　連れて行かれそうなほどに）
+EN (So much so that it looks like she might get carried
+EN off to the Dragon Palace under the sea.)
+
+@ 105.108
+# スターライト相羽
+JP あはははははは…がぼっ！
+EN Ahahahahaha... glub!
+
+@ 105.129
+# 社 長
+JP …あっ、海に潜った。
+EN ...Oh, it dove under.
+
+@ 105.133
+# スターライト相羽
+JP ぶくぶく……。
+EN *blub blub*...
+
+@ 105.139
+# 社 長
+JP （浮かんでこない）
+EN (She's not coming up.)
+
+@ 105.141
+# 社 長
+JP （まさか、本当に竜宮城に
+JP 　連れて行かれたんじゃ
+JP 　ないだろうな）
+EN (Don't tell me she really got carried off to the
+EN Dragon Palace...)
+
+@ 106.24
+# scene 107 日常イベント・１回目
+# 社 長
+JP すっかり遅くなってしまったな…。
+JP そろそろ帰るか。
+EN It's gotten really late... Time to head home.
+
+@ 106.26
+# 社 長
+JP （俺は仕事を終えて
+JP 　帰り支度を始めた）
+EN (I finished work and started getting ready to leave.)
+
+@ 106.28
+# 社 長
+JP （会社に残っているのも
+JP 　もう俺一人だろう）
+EN (I'm probably the only one left in the building by now.)
+
+@ 106.40
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.42
+# 社 長
+JP （ジムもオフィスも異常なし）
+EN (Gym and office, all clear.)
+
+@ 106.44
+# 社 長
+JP （よし、帰ろう）
+EN (All right, let's go home.)
+
+@ 106.46
+# 社 長
+JP （…と思ったそのとき…）
+EN (...Or so I thought, when...)
+
+@ 106.53
+# ？？？
+JP こいつめ――っ！
+EN Take thiiis!
+
+@ 106.56
+# 社 長
+JP うわっ！
+EN Whoa!
+
+@ 106.58
+# 社 長
+JP （突然、誰かに襲いかかられた）
+EN (Someone suddenly attacked me.)
+
+@ 106.60
+# 社 長
+JP （くそっ、強盗か！？）
+EN (Dammit, a burglar?!)
+
+@ 106.64
+# ？？？
+JP このっ、おとなしくしろ！
+EN Hold still, you!
+
+@ 106.67
+# 社 長
+JP おまえこそ！
+EN You hold still!
+
+@ 106.69
+# 社 長
+JP （くっ…。
+JP 　こいつ…強いぞ！？）
+EN (Ngh... This guy... is strong!?)
+
+@ 106.71
+# 社 長
+JP （もみあったまま
+JP 　俺と襲撃者は壁に激突し）
+EN (Grappling, the attacker and I slammed into the wall...)
+
+@ 106.75
+# ？？？
+JP うわっ！
+EN Whoa!
+
+@ 106.82
+# 社 長
+JP …くっ！
+EN ...Ngh!
+
+@ 106.84
+# 社 長
+JP （もつれあって倒れた）
+EN (...and went down in a tangle.)
+
+@ 106.86
+# 社 長
+JP （壁にぶつかったときに
+JP 　照明のスイッチが入ったらしく）
+EN (When we hit the wall, we must have flipped the light
+EN switch...)
+
+@ 106.117
+# 社 長
+JP （お互いに相手の正体を知った）
+EN (...and we both saw who the other was.)
+
+@ 106.121
+# スターライト相羽
+JP あ…あれ…社長？
+EN H-huh... Boss?
+
+@ 106.124
+# 社 長
+JP 相羽…？
+EN Aiba...?
+
+@ 106.126
+# 社 長
+JP （襲いかかってきた
+JP 　相手の正体は…相羽だった）
+EN (My attacker turned out to be... Aiba.)
+
+@ 106.128
+# 社 長
+JP …いったいこれは…なんだ？
+EN ...What on earth is going on?
+
+@ 106.130
+# 社 長
+JP （俺は落ち着きを取り戻して
+JP 　尋ねた）
+EN (I asked, having regained my composure.)
+
+@ 106.134
+# スターライト相羽
+JP あっ、いや…。
+JP これはですね…。
+EN Oh, um... Well, you see...
+
+@ 106.137
+# 社 長
+JP （逆に相羽はパニックを起こして
+JP 　しどろもどろだ）
+EN (Aiba, on the other hand, was panicking and fumbling
+EN for words.)
+
+@ 106.141
+# スターライト相羽
+JP だ、だってもう
+JP 会社の明かりが消えていて
+JP 誰もいないと思って…！
+EN W-well, the lights in the building were already out, so
+EN I thought nobody was here...!
+
+@ 106.145
+# スターライト相羽
+JP だからボクもシャワーを浴びて
+JP 帰ろうと思ったんですけど…。
+EN So I was gonna take a shower and go home, but...
+
+@ 106.149
+# スターライト相羽
+JP 窓から暗い会社の中を歩く
+JP 人影が見えたから怪しいと思って
+JP こっちも電気を消して…。
+EN Through the window I saw someone walking around
+EN the dark building, so I got suspicious and turned off
+EN my light too...
+
+@ 106.153
+# スターライト相羽
+JP その…！
+EN And, um...!
+
+@ 106.156
+# 社 長
+JP （ああ、最後に見回りをしたからな）
+EN (Right, I did one last round.)
+
+@ 106.158
+# 社 長
+JP …で、泥棒だと思ったと…？
+EN ...So you thought I was a thief?
+
+@ 106.162
+# スターライト相羽
+JP う…うん…。
+JP 下着泥棒かと…。
+JP だから急いで服を着て…。
+EN Y-yeah... I thought you were an underwear thief... So
+EN I hurried and threw my clothes on...
+
+@ 106.165
+# 社 長
+JP よりによって下着泥棒かよ。
+EN An underwear thief, of all things?
+
+@ 106.167
+# 社 長
+JP （それはさておき）
+EN (Anyway...)
+
+@ 106.169
+# 社 長
+JP 相羽…。
+EN Aiba...
+
+@ 106.173
+# スターライト相羽
+JP はっ、はいっ！
+EN Y-yes?!
+
+@ 106.176
+# 社 長
+JP さっきから雫が
+JP ポタポタと垂れているんだが…。
+EN You've been dripping water all over the place this
+EN whole time...
+
+@ 106.180
+# スターライト相羽
+JP あっ、ご…ごめんなさいっ！
+EN Oh, I-I'm so sorry!
+
+@ 106.194
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.196
+# 社 長
+JP （相羽はその後も恐縮仕切りだった）
+EN (Aiba kept apologizing over and over after that.)
+
+@ 106.198
+# 社 長
+JP （まぁ本当に泥棒じゃなくて
+JP 　よかったとしよう）
+EN (Well, at least it wasn't a real thief. Let's call it a
+EN win.)
+
+@ 107.24
+# scene 108 日常イベント・２回目
+# 社 長
+JP すっかり遅くなってしまったな…。
+JP そろそろ帰るか。
+EN It's gotten really late... Time to head home.
+
+@ 107.26
+# 社 長
+JP （俺は仕事を終えて
+JP 　帰り支度を始めた）
+EN (I finished work and started getting ready to leave.)
+
+@ 107.28
+# 社 長
+JP （会社に残っているのも
+JP 　もう俺一人だろう）
+EN (I'm probably the only one left in the building by now.)
+
+@ 107.30
+# 社 長
+JP とりあえず一回りして帰るか。
+EN I'll do one round and then head out.
+
+@ 107.42
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.44
+# 社 長
+JP （ジムもオフィスも異常なし）
+EN (Gym and office, all clear.)
+
+@ 107.46
+# 社 長
+JP （よし、帰ろう）
+EN (All right, let's go home.)
+
+@ 107.48
+# 社 長
+JP （…と思ったそのとき…）
+EN (...Or so I thought, when...)
+
+@ 107.55
+# ？？？
+JP こいつめ――っ！
+EN Take thiiis!
+
+@ 107.58
+# 社 長
+JP うわっ！
+EN Whoa!
+
+@ 107.60
+# 社 長
+JP （突然、誰かに襲いかかられた）
+EN (Someone suddenly attacked me.)
+
+@ 107.68
+# ？？？
+JP このっ、おとなしくしろ！
+EN Hold still, you!
+
+@ 107.71
+# 社 長
+JP …前にもあったな、このパターン。
+EN ...I've been through this before.
+
+@ 107.73
+# 社 長
+JP （声も聞き慣れたものだ）
+EN (I know that voice well, too.)
+
+@ 107.75
+# 社 長
+JP 落ち着け、相羽、俺だ！
+EN Calm down, Aiba, it's me!
+
+@ 107.79
+# スターライト相羽
+JP …俺？
+JP さてはオレオレ詐欺だなっ！
+EN ..."It's me"? I bet this is one of those "it's me" phone
+EN scams!
+
+@ 107.82
+# 社 長
+JP おまえは本気でバカかーっ！
+EN Are you seriously an idiot?!
+
+@ 107.86
+# スターライト相羽
+JP 何をー！
+JP 気にしていることをーっ！
+EN What?! That's a sore spot!
+
+@ 107.89
+# 社 長
+JP （気にしていたのか…。
+JP 　いや、今はそれどころじゃない）
+EN (So it bothers her... No, that's not the issue right
+EN now.)
+
+@ 107.91
+# 社 長
+JP （とりあえず
+JP 　投げ飛ばされないように注意して
+JP 　照明のスイッチに手を伸ばし…）
+EN (Careful not to get thrown, I reached for the light
+EN switch...)
+
+@ 107.98
+# 社 長
+JP （スイッチを入れると同時に
+JP 　相羽に組み伏せられた）
+EN (The moment I flipped it on, Aiba pinned me to the
+EN floor.)
+
+@ 107.125
+# 社 長
+JP …あのなあ……。
+EN ...Look, you...
+
+@ 107.129
+# スターライト相羽
+JP あ…あれ、社長…！？
+EN H-huh, Boss...?!
+
+@ 107.132
+# 社 長
+JP （電気がついて目に入ったのは
+JP 　やはり相羽の顔だ）
+EN (The face I saw when the light came on was Aiba's, of
+EN course.)
+
+@ 107.136
+# スターライト相羽
+JP そんな…。
+EN No way...
+
+@ 107.140
+# スターライト相羽
+JP や、やっぱり社長が泥棒…！？
+EN S-so you ARE the thief, Boss...?!
+
+@ 107.143
+# 社 長
+JP どうして、そういう結論になる！
+EN How do you come to that conclusion?!
+
+@ 107.147
+# スターライト相羽
+JP だ、だって暗闇でごそごそ
+JP してるなんて怪しすぎです！
+JP 今度こそ強盗かと！
+EN W-well, sneaking around in the dark is way too
+EN suspicious! I thought it was a burglar for sure this
+EN time!
+
+@ 107.150
+# 社 長
+JP 強盗か…。
+EN A burglar, huh...
+
+@ 107.152
+# 社 長
+JP まあ、とにかく誤解だから…。
+JP どいてくれないか？
+EN Anyway, it's a misunderstanding... Could you get off
+EN me?
+
+@ 107.156
+# スターライト相羽
+JP あ、あの…社長……。
+EN Um... Boss...
+
+@ 107.159
+# 社 長
+JP なんだ？
+EN What?
+
+@ 107.163
+# スターライト相羽
+JP 安心したら
+JP 腰が抜けちゃったみたい…。
+EN I was so relieved, I think my legs gave out...
+
+@ 107.166
+# 社 長
+JP （そう言うと）
+EN (With that...)
+
+@ 107.168
+# 社 長
+JP （相羽はそのままへにゃっと崩れた）
+EN (Aiba crumpled into a limp heap right there.)
+
+@ 107.185
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.187
+# 社 長
+JP （まぁ今回も強盗じゃなくて
+JP 　よかったとしよう…）
+EN (Well, at least it wasn't a burglar this time either.
+EN Let's call it a win...)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# スターライト相羽
+JP 本気でいくからよろしくね！
+EN I'm going all out, so get ready!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# スターライト相羽
+JP 手加減はなしだよ！
+EN No holding back!
+
+@ 110.16
+# scene 113 練習開始
+# スターライト相羽
+JP 今日もよろしくお願いします！
+EN Let's have another good session today!
+
+@ 111.16
+# scene 114 練習開始 好意
+# スターライト相羽
+JP ボク、がんばりますから！
+EN I'm gonna give it my all!
+
+@ 112.16
+# scene 115 特訓開始
+# スターライト相羽
+JP ガンガン鍛えてください！
+EN Train me hard, no mercy!
+
+@ 113.20
+# scene 116 特訓成功
+# スターライト相羽
+JP 気合いと根性で乗り越えましたー！
+EN I made it through on guts and fighting spirit!
+
+@ 114.20
+# scene 117 特訓失敗
+# スターライト相羽
+JP ちょっと無理しすぎました…。
+EN I pushed myself a little too hard...
+
+@ 115.16
+# scene 118 休養
+# スターライト相羽
+JP 休暇中もしっかり
+JP 自主トレしておきます！
+EN I'll keep training on my own during the break!
+
+@ 116.16
+# scene 119 入場1
+# スターライト相羽
+JP 気合いと根性でがんばります！
+EN I'll give it my all with guts and fighting spirit!
+
+@ 117.16
+# scene 119 入場2
+# スターライト相羽
+JP 希望の星をこの胸に！
+JP 相羽、いきます！
+EN A star of hope in my heart! Aiba, here I go!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# スターライト相羽
+JP 今日はボーっとしてちゃダメだよ！
+EN No spacing out today, got it?
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# スターライト相羽
+JP ガンガンいくからね！
+EN We're going full throttle!
+
+@ 120.16
+# scene 125 必殺技１
+# スターライト相羽
+JP ボクの必殺技受けてみろ！
+EN Take my finisher!
+
+@ 121.16
+# scene 125 必殺技２
+# スターライト相羽
+JP ボクはこの技で輝いてみせる！
+EN I'll shine with this move!
+
+@ 122.16
+# scene 125 必殺技３
+# スターライト相羽
+JP みんなの声援を力に変えますっ！
+EN I'll turn everyone's cheers into power!
+
+@ 123.12
+# scene 126 勝利1
+# スターライト相羽
+JP よしっ！
+JP ボク、今日も勝ちました！
+EN All right! I won again today!
+
+@ 124.12
+# scene 126 勝利2
+# スターライト相羽
+JP 今日は会心の勝利です！
+EN That was the perfect win today!
+
+@ 125.12
+# scene 126 勝利3
+# スターライト相羽
+JP ボクはまだまだ戦えるよ！
+EN I can still keep fighting!
+
+@ 126.15
+# scene 133 表彰1
+# スターライト相羽
+JP ボクでもここまで
+JP やることができました！
+JP ありがとうございました！
+EN Even someone like me made it this far! Thank you so
+EN much!
+
+@ 127.15
+# scene 133 表彰2
+# スターライト相羽
+JP 気合いがあれば
+JP なんでもできます！
+EN With fighting spirit, you can do anything!
+
+@ 128.12
+# scene 134 優勝1
+# スターライト相羽
+JP ボクでも、やればできるんですね！
+EN So even I can do it if I try!
+
+@ 129.12
+# scene 134 優勝２
+# スターライト相羽
+JP ボクのやってきたことは
+JP 間違っていませんでした！
+EN Everything I've worked for wasn't a mistake!
+
+@ 130.24
+# scene 135 エンディング 通常
+# スターライト相羽
+JP 社長、おめでとうございます。
+JP 社長とならどこまでも行ける気がします！
+EN Congratulations, Boss. With you, I feel like I can go
+EN anywhere!
+
+@ 131.24
+# scene 136 エンディング 好意
+# スターライト相羽
+JP 社長…。
+JP ボク、これからも
+JP 社長と一緒にいていいですか？
+EN Boss... Can I stay with you from now on, too?

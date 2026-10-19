@@ -1,0 +1,2291 @@
+# /SCR/134.BIN - フェニックス遥
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 134` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# フェニックス遥
+JP ……私、テスト受けてもよかった……？
+EN ...Was it okay... for me to try out...?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# フェニックス遥
+JP ……い、一生懸命がんばります……。
+EN ...I-I'll do my very best...
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# フェニックス遥
+JP ……やっぱりダメ……。
+EN ...I knew it... I'm no good...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP えーと、この辺でオロオロしてるって
+JP ことだったけど…。
+EN Let's see, I heard she'd be around here, looking all
+EN flustered...
+
+@ 3.25
+# 社 長
+JP オロオロしてるって
+JP どういうことだろう…。
+EN What does "looking all flustered" even mean...
+
+@ 3.27
+# 社 長
+JP あれ…？
+JP 何かホントにオロオロしてる娘がいるぞ。
+EN Huh...? There really is a girl over there who looks all
+EN flustered.
+
+@ 3.29
+# 社 長
+JP あの娘かな？
+EN Is that her?
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# フェニックス遥
+JP ……な、何か用ですか……？
+EN ...C-can I help you...?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 3.51
+# フェニックス遥
+JP ……私をスカウト……？
+EN ...You're scouting... me...?
+
+@ 3.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.61
+# フェニックス遥
+JP ……ホントに……？
+JP ……へ、変な勧誘じゃない……？
+EN ...Really...? ...Th-this isn't some weird sales pitch...?
+
+@ 3.64
+# 社 長
+JP いや、ホントにスカウトだよ。
+EN No, it really is a scouting offer.
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# フェニックス遥
+JP ……わかりました……。
+JP ……やってみます……。
+EN ...Okay... ...I'll give it a try...
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# フェニックス遥
+JP ……よ、よろしくお願いします……。
+EN ...N-nice to meet you...
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# フェニックス遥
+JP ……ご、ごめんなさい……。
+EN ...I-I'm sorry...
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# フェニックス遥
+JP ……あっ、この前の……。
+EN ...Oh, you're the one from before...
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.43
+# フェニックス遥
+JP ……そんな…私、困る……。
+EN ...But... that puts me on the spot...
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Would you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# フェニックス遥
+JP ……わかりました……。
+JP ……や、やってみます……。
+EN ...Okay... ...I-I'll give it a try...
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# フェニックス遥
+JP ……よ、よろしくお願いします……。
+EN ...N-nice to meet you...
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# フェニックス遥
+JP ……ご、ごめんなさい……。
+EN ...I-I'm sorry...
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は遥選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Haruka.
+
+@ 9.25
+# 社 長
+JP かなり内気らしいが
+JP 試合での強さは本物だ。
+EN She's supposedly very shy, but her strength in the
+EN ring is the real deal.
+
+@ 9.27
+# 社 長
+JP うちの団体でも
+JP エースクラスになれるはずだ。
+EN She could become ace material in our promotion, too.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She should be training somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# フェニックス遥
+JP ……だ、誰ですか……？
+EN ...Wh-who are you...?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.53
+# フェニックス遥
+JP ……私が移籍……？
+EN ...Me... transfer...?
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.63
+# フェニックス遥
+JP ……知らない人ばっかりだと……
+JP ……怖い……。
+EN ...If it's all people I don't know... ...that's scary...
+
+@ 9.66
+# 社 長
+JP 俺とは知り合いになったってことで
+JP 力を貸してもらえないでしょうか？
+EN Well, now you know me. Would you lend your strength
+EN to our promotion?
+
+@ 9.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# フェニックス遥
+JP ……わ、わかりました……。
+EN ...O-okay...
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# フェニックス遥
+JP ……その代わりメアド教えて……。
+EN ...But in return... give me your email address...
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# フェニックス遥
+JP ……ごめんなさい……。
+JP ……やっぱり怖い……。
+EN ...I'm sorry... ...It's still scary...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 遥選手が必要だ。
+EN Our promotion really does need Haruka.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# フェニックス遥
+JP ……あ、また……。
+EN ...Oh, you again...
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.47
+# フェニックス遥
+JP ……ああ、うぅ……。
+EN ...Ah, uuu...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Would you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# フェニックス遥
+JP ……わ、わかりました……。
+EN ...O-okay...
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# フェニックス遥
+JP ……その代わりメアド教えて……。
+EN ...But in return... give me your email address...
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# フェニックス遥
+JP ……ごめんなさい……。
+JP ……やっぱり怖い……。
+EN ...I'm sorry... ...It's still scary...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は遥選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Haruka.
+
+@ 15.25
+# 社 長
+JP あの強力な打撃技は魅力的だ。
+EN Those powerful strikes of hers are very appealing.
+
+@ 15.27
+# 社 長
+JP このあたりにいるはずだけど…。
+EN She should be around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# フェニックス遥
+JP ……だ、誰……？
+EN ...Wh-who...?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.51
+# フェニックス遥
+JP ……私が入団……？
+EN ...Me... join...?
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# フェニックス遥
+JP ……怖い人いない……？
+EN ...Are there any scary people...?
+
+@ 15.64
+# 社 長
+JP いないと思うけど…。
+JP 力を貸してもらえないでしょうか？
+EN I don't think so... Would you lend us your strength?
+
+@ 15.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# フェニックス遥
+JP ……わ、わかりました……。
+JP ……お受けします……。
+EN ...O-okay... ...I accept...
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# フェニックス遥
+JP ……よ、よろしくお願いします……。
+EN ...N-nice to meet you...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# フェニックス遥
+JP ……やっぱりダメ……。
+JP ……怖い人がいそう……。
+EN ...I can't... ...There might be scary people...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 遥選手が必要だ。
+EN Our promotion really does need Haruka.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# フェニックス遥
+JP ……あ、また……。
+EN ...Oh, you again...
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.47
+# フェニックス遥
+JP ……そんなこと言われても困る……。
+EN ...Saying that just puts me on the spot...
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Would you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer again.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# フェニックス遥
+JP ……わ、わかりました……。
+JP ……お受けします……。
+EN ...O-okay... ...I accept...
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# フェニックス遥
+JP ……よ、よろしくお願いします……。
+EN ...N-nice to meet you...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# フェニックス遥
+JP ……やっぱりダメ……。
+JP ……怖い人がいそう……。
+EN ...I can't... ...There might be scary people...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は遥を訪ねることにした。
+EN I decided to go see Haruka.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 遥っ！
+EN Haruka!
+
+@ 21.41
+# フェニックス遥
+JP ……あ、あぅ……。
+EN ...Ah, auu...
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# フェニックス遥
+JP ………………。
+EN ..................
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you. I want you to
+EN come back...
+
+@ 21.61
+# フェニックス遥
+JP ……そんなのウソ……。
+EN ...That's a lie...
+
+@ 21.64
+# 社 長
+JP ウソじゃないよ。
+JP こんなこと頼めた
+JP 義理じゃないんだけど…。
+EN It's not a lie. I know I'm in no position to ask this,
+EN but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# フェニックス遥
+JP ……ほ、本気……？
+EN ...Y-you mean it...?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 22.29
+# フェニックス遥
+JP ……わかった……。
+JP ……もう１回だけ信じる……。
+EN ...Okay... ...I'll trust you... just one more time...
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# フェニックス遥
+JP ……ほ、本気……？
+EN ...Y-you mean it...?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 23.29
+# フェニックス遥
+JP ……ダメ……。
+JP ……もう信じられない……。
+EN ...No... ...I can't trust you anymore...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び遥を訪ねることにした。
+EN I decided to go see Haruka again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 遥っ！
+EN Haruka!
+
+@ 24.37
+# フェニックス遥
+JP ……あっ、社長、また……。
+EN ...Oh, Boss... again...
+
+@ 24.40
+# 社 長
+JP ああ。
+JP また頼みに来たよ。
+EN Yeah. I came to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# フェニックス遥
+JP ……ほ、本気……？
+EN ...Y-you mean it...?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 25.29
+# フェニックス遥
+JP ……わかった……。
+JP ……もう１回だけ信じる……。
+EN ...Okay... ...I'll trust you... just one more time...
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# フェニックス遥
+JP ……ほ、本気……？
+EN ...Y-you mean it...?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 26.29
+# フェニックス遥
+JP ……ダメ……。
+JP ……もう信じられない……。
+EN ...No... ...I can't trust you anymore...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# フェニックス遥
+JP ……ケガ…しちゃった……。
+JP ……ごめんなさい……。
+EN ...I got... hurt... ...I'm sorry...
+
+@ 28.16
+# scene 029 ケガ大
+# フェニックス遥
+JP ……こんなケガ…しちゃった……。
+EN ...I got hurt... this bad...
+
+@ 29.16
+# scene 030 入院
+# フェニックス遥
+JP ……入院しないと…ダメ……？
+EN ...Do I have to... go to the hospital...?
+
+@ 30.16
+# scene 031 退院
+# フェニックス遥
+JP ……やっと戻って来られた……。
+EN ...I finally made it back...
+
+@ 31.16
+# scene 032 ケガ完治
+# フェニックス遥
+JP ……もう大丈夫……。
+EN ...I'm okay now...
+
+@ 32.20
+# scene 033 引退勧告 成功
+# フェニックス遥
+JP ……社長がそう言うなら……。
+EN ...If you say so, Boss...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# フェニックス遥
+JP ……まだやりたい……。
+EN ...I still want to keep going...
+
+@ 34.16
+# scene 035 コーチ就任
+# フェニックス遥
+JP ……教える方…がんばってみる……。
+EN ...I'll try my best... at teaching...
+
+@ 35.16
+# scene 036 ケガ引退
+# フェニックス遥
+JP ……もっとやりたかった……。
+EN ...I wanted to keep going...
+
+@ 36.16
+# scene 037 年齢引退
+# フェニックス遥
+JP ……体がもう動かない……。
+EN ...My body won't move anymore...
+
+@ 37.16
+# scene 038 退団
+# フェニックス遥
+JP ……もう…ダメ……。
+EN ...I can't... take it anymore...
+
+@ 38.16
+# scene 039 スランプ
+# フェニックス遥
+JP ……何やっても…ダメ……。
+EN ...Nothing I do... works...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# フェニックス遥
+JP ……私のファンクラブができたの……？
+EN ...I have a fan club now...?
+
+@ 39.19
+# 社 長
+JP ファンの期待に応えるようにな。
+EN Make sure you live up to your fans' expectations.
+
+@ 39.26
+# フェニックス遥
+JP ……うん……。
+JP ……がっかりさせないように
+JP しないと……。
+EN ...Mm... ...I can't let them down...
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# フェニックス遥
+JP ……またファンクラブが
+JP できたの……？
+EN ...Another fan club... got started...?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# フェニックス遥
+JP ……うん……。
+JP ……みんなとメアド交換して
+JP いい……？
+EN ...Mm... ...Is it okay if I trade email addresses with
+EN everyone...?
+
+@ 40.29
+# 社 長
+JP あ、ああ…。
+EN Uh, s-sure...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# フェニックス遥
+JP ……解散…しちゃった……？
+EN ...It got... disbanded...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard again.
+
+@ 41.26
+# フェニックス遥
+JP ……うん……。
+JP ……グスッ……。
+EN ...Mm... ...*sniff*...
+
+@ 42.16
+# scene 043 映画出演
+# フェニックス遥
+JP ……私…演技なんてムリ……。
+EN ...Me... acting... no way...
+
+@ 43.16
+# scene 044 一日署長
+# フェニックス遥
+JP ……犯人…怖くない……？
+EN ...Won't the criminals... be scary...?
+
+@ 44.16
+# scene 045 写真集発売
+# フェニックス遥
+JP ……ヌードは…ダメ……！
+EN ...No... nude photos...!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# フェニックス遥
+JP ……うまく…笑えないから……。
+EN ...I can't... smile very well...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# フェニックス遥
+JP ……絶対…ムリ……。
+EN ...No way... absolutely not...
+
+@ 47.16
+# scene 048 始球式
+# フェニックス遥
+JP ……バッター…にらまない……？
+EN ...The batter... won't glare at me...?
+
+@ 48.16
+# scene 049 学園祭
+# フェニックス遥
+JP ……人ごみ…苦手……。
+EN ...I'm not good... with crowds...
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.38
+# フェニックス遥
+JP ……私に……？
+EN ...For me...?
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.48
+# フェニックス遥
+JP ……ありがとう……。
+JP ……嬉しい……。
+EN ...Thank you... ...I'm so happy...
+
+@ 50.32
+# scene 051 バレンタインデー
+# フェニックス遥
+JP ……しゃ、社長……。
+JP ……こ、これ……。
+EN ...B-Boss... ...Th-this...
+
+@ 50.35
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Oh, chocolate? Thanks.
+
+@ 50.42
+# フェニックス遥
+JP ……おいしくなかったら
+JP ごめんなさい……。
+EN ...Sorry if it... doesn't taste good...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, to thank you for last month?
+
+@ 51.38
+# フェニックス遥
+JP ……ホワイトチョコ…私に……？
+EN ...White chocolate... for me...?
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.29
+# scene 053 サイン会
+# フェニックス遥
+JP ……これからも…応援よろしく……。
+EN ...Please keep... cheering for me...
+
+@ 53.29
+# scene 054 コンサート
+# フェニックス遥
+JP ……歌うなんて…ムリ……。
+EN ...Me, sing... no way...
+
+@ 54.26
+# scene 055 練習拒否
+# フェニックス遥
+JP ……めまいが…する……。
+EN ...I feel... dizzy...
+
+@ 55.26
+# scene 056 失踪
+# フェニックス遥
+JP ……ご、ごめんなさい……。
+EN ...I-I'm sorry...
+
+@ 56.16
+# scene 057 選手解雇
+# フェニックス遥
+JP ……あぅ……。
+JP ……そんな……。
+EN ...Auu... ...No...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# フェニックス遥
+JP ……一人で行かなきゃ…ダメ……？
+EN ...Do I have to... go alone...?
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# フェニックス遥
+JP ……やっぱりここがいい……。
+EN ...I like it here better after all...
+
+@ 59.28
+# scene 060 移籍思案
+# フェニックス遥
+JP ……どうしよう……？
+EN ...What should I do...?
+
+@ 60.16
+# scene 061 革命軍結成
+# フェニックス遥
+JP ……革命しても…いい……？
+EN ...Is it okay... if I start a revolution...?
+
+@ 61.16
+# scene 062 反乱軍結成
+# フェニックス遥
+JP ……反乱しても…いい……？
+EN ...Is it okay... if I rebel...?
+
+@ 62.16
+# scene 063 最終決戦要求
+# フェニックス遥
+JP ……け、決着つけないと……！
+EN ...W-we have to settle this...!
+
+@ 63.16
+# scene 064 遺恨発生
+# フェニックス遥
+JP ……こんなことまで……。
+EN ...She went this far...
+
+@ 64.16
+# scene 065 殴り込み
+# フェニックス遥
+JP ……私…がんばる……。
+EN ...I'll... do my best...
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# フェニックス遥
+JP ……私が守る……！
+EN ...I'll protect us...!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# フェニックス遥
+JP ……私の相手は誰……？
+EN ...Who's my opponent...?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# フェニックス遥
+JP ……全力を尽くしてくる……。
+EN ...I'll give it everything I've got...
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# フェニックス遥
+JP ……期待に応えられてよかった……。
+EN ...I'm glad I lived up to everyone's expectations...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# フェニックス遥
+JP ……全然ダメ……。
+JP ……ごめんなさい……。
+EN ...I was no good at all... ...I'm sorry...
+
+@ 70.13
+# scene 071 引退式
+# フェニックス遥
+JP ……ここまでやれたのも……。
+JP ……みんなのおかげ……。
+JP ……あ、ありがとう……。
+EN ...I made it this far... ...thanks to all of you...
+EN ...Th-thank you...
+
+@ 71.18
+# フェニックス遥
+JP ……呼びました……？
+EN ...Did you call me...?
+
+@ 71.37
+# フェニックス遥
+JP ……呼んだ……？
+EN ...You called...?
+
+@ 71.47
+# フェニックス遥
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# フェニックス遥
+JP ……うん……。
+JP ……がんばってみる……。
+EN ...Mm... ...I'll try my best...
+
+@ 71.111
+# フェニックス遥
+JP ……そう言われても……。
+EN ...Even if you say that...
+
+@ 71.132
+# フェニックス遥
+JP ……がんばってみる……。
+JP ……見ていてくれて…ありがとう……。
+EN ...I'll try my best... ...Thank you... for watching over
+EN me...
+
+@ 71.153
+# フェニックス遥
+JP ……これ以上がんばったら
+JP 壊れちゃう……。
+EN ...If I try any harder... I'll break...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# フェニックス遥
+JP ……ご、ごめんなさい……。
+EN ...I-I'm sorry...
+
+@ 71.211
+# フェニックス遥
+JP ……ハァ～……。
+EN ...*Sigh*...
+
+@ 71.232
+# フェニックス遥
+JP ……ご、ごめんなさい……。
+JP ……き、嫌いになった……？
+EN ...I-I'm sorry... ...D-do you hate me now...?
+
+@ 71.253
+# フェニックス遥
+JP ……そんなときも…ある……。
+EN ...Sometimes... it happens...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# フェニックス遥
+JP ……大丈夫……。
+JP ……心配ない……。
+EN ...I'm okay... ...Don't worry...
+
+@ 71.311
+# フェニックス遥
+JP ……もともとこんな感じ……。
+EN ...I've always been like this...
+
+@ 71.332
+# フェニックス遥
+JP ……うん……。
+JP ……心配してくれてありがとう……。
+EN ...Mm... ...Thank you for worrying about me...
+
+@ 71.353
+# フェニックス遥
+JP ……社長、心配しすぎ……。
+EN ...Boss, you worry too much...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# フェニックス遥
+JP ……なんとなく……。
+EN ...Sort of...
+
+@ 71.400
+# フェニックス遥
+JP ……全然……。
+EN ...No idea...
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# フェニックス遥
+JP ……ごめんなさい……。
+JP ……謝ってくる……。
+EN ...I'm sorry... ...I'll go apologize...
+
+@ 71.454
+# フェニックス遥
+JP ……それは…ムリ……。
+EN ...That's... impossible...
+
+@ 71.475
+# フェニックス遥
+JP ……よ、よくわからない……。
+EN ...I-I don't really get it...
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# フェニックス遥
+JP ……社長は…なんでも
+JP お見通しなの……？
+EN ...Can you see right through... everything, Boss...?
+
+@ 71.522
+# フェニックス遥
+JP ……どうして……？
+EN ...Why...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# フェニックス遥
+JP ……社長が言うなら
+JP 仲直り…する……。
+EN ...If you say so, Boss... I'll... make up with her...
+
+@ 71.578
+# フェニックス遥
+JP ……言うこと聞かないと
+JP ダメ……？
+EN ...Do I have to... do what you say...?
+
+@ 71.599
+# フェニックス遥
+JP ……社長……。
+JP ……か、勘違い……。
+EN ...Boss... ...Y-you've got it wrong...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# フェニックス遥
+JP ……呼んだ……？
+EN ...You called...?
+
+@ 72.16
+# フェニックス遥
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# フェニックス遥
+JP ……うん……。
+JP ……がんばってみる……。
+EN ...Mm... ...I'll try my best...
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# フェニックス遥
+JP ……そう言われても……。
+EN ...Even if you say that...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# フェニックス遥
+JP ……がんばってみる……。
+JP ……見ていてくれて…
+JP ありがとう……。
+EN ...I'll try my best... ...Thank you... for watching over
+EN me...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# フェニックス遥
+JP ……これ以上がんばったら
+JP …壊れちゃう……。
+EN ...If I try any harder... I'll break...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# フェニックス遥
+JP ……ご、ごめんなさい……。
+EN ...I-I'm sorry...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# フェニックス遥
+JP ……ハァ～……。
+EN ...*Sigh*...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# フェニックス遥
+JP ……ご、ごめんなさい……。
+JP ……き、嫌いになった……？
+EN ...I-I'm sorry... ...D-do you hate me now...?
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# フェニックス遥
+JP ……そんなときも…ある……。
+EN ...Sometimes... it happens...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# フェニックス遥
+JP ……大丈夫……。
+JP ……心配ない……。
+EN ...I'm okay... ...Don't worry...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# フェニックス遥
+JP ……もともとこんな感じ……。
+EN ...I've always been like this...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# フェニックス遥
+JP ……うん……。
+JP ……心配してくれてありがとう……。
+EN ...Mm... ...Thank you for worrying about me...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# フェニックス遥
+JP ……社長、心配しすぎ……。
+EN ...Boss, you worry too much...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# フェニックス遥
+JP ……なんとなく……。
+EN ...Sort of...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# フェニックス遥
+JP ……全然……。
+EN ...No idea...
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# フェニックス遥
+JP ……ごめんなさい……。
+JP ……謝ってくる……。
+EN ...I'm sorry... ...I'll go apologize...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# フェニックス遥
+JP ……それは…ムリ……。
+EN ...That's... impossible...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# フェニックス遥
+JP ……よ、よくわからない……。
+EN ...I-I don't really get it...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# フェニックス遥
+JP ……社長は…なんでも
+JP お見通しなの……？
+EN ...Can you see right through... everything, Boss...?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# フェニックス遥
+JP ……どうして……？
+EN ...Why...?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# フェニックス遥
+JP ……社長が言うなら…
+JP 仲直り…する……。
+EN ...If you say so, Boss... I'll... make up with her...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# フェニックス遥
+JP ……言うこと聞かないと…
+JP ダメ……？
+EN ...Do I have to... do what you say...?
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# フェニックス遥
+JP ……社長……。……か、勘違い……。
+EN ...Boss... ...Y-you've got it wrong...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# フェニックス遥
+JP ……これからも…
+JP よろしくお願いします……。
+EN ...I look forward... to working with you...
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# フェニックス遥
+JP ……こんなにもらって…いい……？
+EN ...Is it okay... to get this much...?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# フェニックス遥
+JP ……私なんて…こんなもの……。
+EN ...Someone like me... is only worth this much...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺たちは南の島へと
+JP 　やってきた）
+EN (And so we arrived at a southern island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN scorching.)
+
+@ 105.32
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's enjoying themselves.)
+
+@ 105.38
+# 社 長
+JP ……んっ？
+EN ...Hm?
+
+@ 105.40
+# 社 長
+JP （ナンパ目的っぽい２人連れが
+JP 　遥に声をかけている）
+EN (A pair of guys who looked like they were trying to
+EN pick her up were talking to Haruka.)
+
+@ 105.42
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.44
+# 社 長
+JP （どうやら遥は
+JP 　断っているようだが…）
+EN (Haruka seemed to be turning them down, but...)
+
+@ 105.46
+# 社 長
+JP （男たちは結構しつこいみたいだ）
+EN (...the guys were pretty persistent.)
+
+@ 105.48
+# 社 長
+JP （遥が強い態度に出ないので
+JP 　押せばなんとかなると
+JP 　踏んだのだろう）
+EN (Since Haruka wasn't being forceful, they probably
+EN figured they could wear her down.)
+
+@ 105.50
+# 社 長
+JP やれやれ…。
+EN Good grief...
+
+@ 105.62
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.64
+# 社 長
+JP （俺は助け船を出すべく
+JP 　遥の元へと向かった）
+EN (I headed over to Haruka to bail her out.)
+
+@ 105.66
+# 社 長
+JP （遥に感謝しろよ
+JP 　ナンパ男ども）
+EN (You guys should thank Haruka, you creeps.)
+
+@ 105.68
+# 社 長
+JP （そいつはおまえらを
+JP 　いつでも瞬殺できるんだからな）
+EN (She could take you out in an instant, any time she
+EN wanted.)
+
+@ 105.81
+# フェニックス遥
+JP ……その…困る……。
+EN ...Um... I'd rather not...
+
+@ 105.84
+# ナンパ男Ａ
+JP いいじゃんか。
+EN Aw, come on.
+
+@ 105.86
+# ナンパ男Ｂ
+JP なっ、メシ食うだけ。
+JP 奢るからさ。
+EN C'mon, it's just dinner. Our treat.
+
+@ 105.90
+# フェニックス遥
+JP ……お断り…します……。
+EN ...No... thank you...
+
+@ 105.93
+# ナンパ男Ｂ
+JP そう言わずにさー。
+EN Don't be like that.
+
+@ 105.95
+# 社 長
+JP （しつこい奴らだなあ）
+EN (These guys don't give up.)
+
+@ 105.97
+# 社 長
+JP おーい、どうした？
+EN Hey, what's going on?
+
+@ 105.99
+# 社 長
+JP （ちょっとムカつきながらも
+JP 　なんともないフリをして
+JP 　声をかける）
+EN (A little annoyed, I called out as if nothing was
+EN wrong.)
+
+@ 105.103
+# フェニックス遥
+JP ……あっ……。
+EN ...Oh...
+
+@ 105.106
+# 社 長
+JP （俺を見た遥は
+JP 　俺の元に駆け寄ってきて…）
+EN (When Haruka saw me, she ran over to me and...)
+
+@ 105.123
+# フェニックス遥
+JP ……ダメ……。
+JP ……こ、恋人と来てるから……！
+EN ...No... ...I-I'm here with my boyfriend...!
+
+@ 105.126
+# 社 長
+JP ……えっ？
+EN ...Huh?
+
+@ 105.128
+# 社 長
+JP （爆弾発言をかました）
+EN (...dropped a bombshell.)
+
+@ 105.131
+# ナンパ男Ａ
+JP えー！
+EN Whaaat!
+
+@ 105.133
+# ナンパ男Ｂ
+JP 男連れかよ！
+EN She's got a guy with her!
+
+@ 105.135
+# 社 長
+JP まあ、そういうことだ。
+EN Well, that's how it is.
+
+@ 105.137
+# 社 長
+JP （遥の意図がわかったので
+JP 　俺も話を合わせる）
+EN (I caught on to what Haruka was doing and played
+EN along.)
+
+@ 105.139
+# 社 長
+JP 俺の彼女に何か用か？
+EN You got some business with my girlfriend?
+
+@ 105.141
+# ナンパ男Ａ
+JP ………………。
+EN ..................
+
+@ 105.143
+# ナンパ男Ｂ
+JP ………………。
+EN ..................
+
+@ 105.145
+# 社 長
+JP （俺の言葉にナンパ男達は押し黙り）
+EN (At my words, the guys fell silent...)
+
+@ 105.147
+# ナンパ男Ａ
+JP ちぇー。
+EN Tch.
+
+@ 105.149
+# ナンパ男Ｂ
+JP いこいこ。
+JP 別の探すべ。
+EN Let's go. We'll find someone else.
+
+@ 105.151
+# 社 長
+JP （そのまま背を向けて去っていった）
+EN (...turned their backs, and walked off.)
+
+@ 105.155
+# フェニックス遥
+JP ……はぁぁぁ……。
+EN ...Phewww...
+
+@ 105.158
+# 社 長
+JP （緊張していたのだろう。
+JP 　遥の全身から力が抜けていくのが
+JP 　わかった）
+EN (She must have been tense. I could see all the
+EN strength drain out of her body.)
+
+@ 105.160
+# 社 長
+JP 大丈夫だったか？
+EN Are you okay?
+
+@ 105.170
+# フェニックス遥
+JP ……うん……。
+EN ...Mm...
+
+@ 105.182
+# フェニックス遥
+JP ……あ…あの……。
+JP ……社長…さ、さっきのは……。
+EN ...U-um... ...Boss... wh-what I said just now...
+
+@ 105.185
+# 社 長
+JP いいよ。
+JP わかってる。
+EN It's fine. I understand.
+
+@ 105.187
+# 社 長
+JP それにしても恋人とはなぁ。
+JP 普通、友達とか言わないか？
+EN Still, "boyfriend"? Wouldn't most people just say
+EN "friend"?
+
+@ 105.197
+# フェニックス遥
+JP ……ごめんなさい……。
+EN ...I'm sorry...
+
+@ 105.200
+# 社 長
+JP まぁいいよ。
+EN Well, it's fine.
+
+@ 105.204
+# フェニックス遥
+JP ……は…話を合わせてくれて……。
+JP ……ありがとう……。
+EN ...Th-thank you... for playing along...
+
+@ 105.207
+# 社 長
+JP いやいや。
+EN Don't mention it.
+
+@ 105.211
+# フェニックス遥
+JP ……あと……。
+EN ...And also...
+
+@ 105.214
+# 社 長
+JP ……んっ？
+EN ...Hm?
+
+@ 105.218
+# フェニックス遥
+JP ……彼女って言ってくれて……。
+JP ……すごく嬉しかった……。
+EN ...When you called me your girlfriend... ...it made me
+EN really happy...
+
+@ 105.221
+# 社 長
+JP あ～…いや…。
+EN Ah... well...
+
+@ 105.229
+# 社 長
+JP （気恥ずかしくなって
+JP 　遥から視線をそらすと…）
+EN (Feeling embarrassed, I looked away from Haruka,
+EN and...)
+
+@ 105.246
+# ナンパ男たち
+JP ぎゃー！
+EN Gyaaah!
+
+@ 105.249
+# 社 長
+JP （遠くで瞬殺されている
+JP 　ナンパ男たちの姿が見えた）
+EN (In the distance, I saw those guys getting taken out
+EN in an instant.)
+
+@ 105.251
+# 社 長
+JP まあ…。
+JP 困ったことがあったら
+JP いつでも頼ってくれ。
+EN Well... If you're ever in trouble, you can always count
+EN on me.
+
+@ 105.261
+# フェニックス遥
+JP ……うん……。
+EN ...Mm...
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある朝）
+EN (One morning...)
+
+@ 106.26
+# 社 長
+JP （俺は遠慮がちに揺さぶられて
+JP 　目が覚めた）
+EN (I was woken by someone timidly shaking me.)
+
+@ 106.30
+# ？？？
+JP ……しゃ…社長……。
+EN ...B-Boss...
+
+@ 106.33
+# 社 長
+JP （遠慮がちな声。
+JP 　起こすのが悪いとでも
+JP 　思っている感じだ）
+EN (A hesitant voice. Like she felt bad about waking me.)
+
+@ 106.36
+# 社 長
+JP う…う～ん。
+EN Mm... nnn...
+
+@ 106.52
+# 社 長
+JP （目覚めると…
+JP 　遥の顔がすぐそばにあった）
+EN (When I opened my eyes... Haruka's face was right
+EN next to mine.)
+
+@ 106.56
+# フェニックス遥
+JP ……お…おはよう……。
+EN ...G-good morning...
+
+@ 106.59
+# 社 長
+JP おはよう。
+EN Morning.
+
+@ 106.61
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.63
+# 社 長
+JP （いや、ちょっと待て…）
+EN (No, wait a second...)
+
+@ 106.65
+# 社 長
+JP なんで遥が俺の部屋に？
+EN Why are you in my room, Haruka?
+
+@ 106.75
+# フェニックス遥
+JP ……あの……。
+JP ……私、人と話すのが苦手だから……。
+EN ...Um... ...I'm not good at talking to people...
+
+@ 106.78
+# 社 長
+JP うん、知ってる。
+EN Yeah, I know.
+
+@ 106.82
+# フェニックス遥
+JP ……だから……。
+JP ……慣れなきゃと思って……。
+EN ...So... ...I thought I should get used to it...
+
+@ 106.85
+# 社 長
+JP うんうん。
+EN Uh-huh.
+
+@ 106.95
+# フェニックス遥
+JP ……社長なら話しやすいかなって……。
+EN ...And I thought you'd be easy to talk to, Boss...
+
+@ 106.98
+# 社 長
+JP なるほど。
+EN I see.
+
+@ 106.102
+# フェニックス遥
+JP ……だから、まずは……。
+JP ……朝ご飯の用意から……。
+EN ...So, first... ...I started by making breakfast...
+
+@ 106.105
+# 社 長
+JP いや、そこの飛躍がわからない。
+EN No, I don't follow that leap.
+
+@ 106.115
+# フェニックス遥
+JP ……迷惑…だった……？
+EN ...Was it... a bother...?
+
+@ 106.118
+# 社 長
+JP あっ、いや…。
+JP 迷惑じゃないけど…。
+JP むしろありがたいというか。
+EN Oh, no... It's not a bother... If anything, I'm grateful.
+
+@ 106.120
+# 社 長
+JP （テーブルの上には
+JP 　トーストに牛乳、目玉焼きという
+JP 　いかにもな朝食が並んでいる）
+EN (On the table was a classic breakfast: toast, milk,
+EN and fried eggs.)
+
+@ 106.130
+# フェニックス遥
+JP ……そう……。
+JP ……よかった……。
+EN ...Oh... ...Good...
+
+@ 106.134
+# フェニックス遥
+JP ……冷めないうちに…どうぞ……。
+EN ...Please eat... before it gets cold...
+
+@ 106.137
+# 社 長
+JP あ、ああ…。
+EN O-okay...
+
+@ 106.139
+# 社 長
+JP （促されるままに
+JP 　俺は朝食をいただくことにした）
+EN (At her urging, I sat down to breakfast.)
+
+@ 106.149
+# フェニックス遥
+JP ……おいしい……？
+EN ...Is it good...?
+
+@ 106.152
+# 社 長
+JP ああ…。
+JP うまいよ。
+EN Yeah... It's delicious.
+
+@ 106.161
+# 社 長
+JP （しかし、人と話すのに慣れるために
+JP 　いきなり部屋に入り込んで
+JP 　朝食とは…）
+EN (Still, sneaking into my room to make breakfast, just
+EN to get used to talking to people...)
+
+@ 106.163
+# 社 長
+JP （実はすごい行動力なのか？）
+EN (Is she actually incredibly bold?)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある朝）
+EN (One morning...)
+
+@ 107.26
+# 社 長
+JP （俺は遠慮がちに揺さぶられて
+JP 　目が覚めた）
+EN (I was woken by someone timidly shaking me.)
+
+@ 107.30
+# ？？？
+JP ……社長…起きて……。
+EN ...Boss... wake up...
+
+@ 107.33
+# 社 長
+JP う…う～ん。
+EN Mm... nnn...
+
+@ 107.49
+# 社 長
+JP ……遥…か…。
+EN ...Haruka... huh...
+
+@ 107.51
+# 社 長
+JP （目覚めると
+JP 　すでに見慣れつつある遥の姿が
+JP 　すぐそばにあった）
+EN (When I opened my eyes, there was Haruka right
+EN beside me, a sight I was getting used to.)
+
+@ 107.55
+# フェニックス遥
+JP ……お…おはよう……。
+EN ...G-good morning...
+
+@ 107.58
+# 社 長
+JP ああ、おはよう。
+EN Yeah, morning.
+
+@ 107.60
+# 社 長
+JP （テーブルの上にはいつもの朝食）
+EN (On the table was the usual breakfast.)
+
+@ 107.62
+# 社 長
+JP 今日のも、うまそうだな。
+EN Today's looks good too.
+
+@ 107.72
+# フェニックス遥
+JP ……あ…ありがとう……。
+EN ...Th-thank you...
+
+@ 107.76
+# フェニックス遥
+JP ……冷めないうちに…食べて……。
+EN ...Eat it... before it gets cold...
+
+@ 107.79
+# 社 長
+JP ああ。
+EN Sure.
+
+@ 107.81
+# 社 長
+JP （朝食をいただきながら
+JP 　朝の会話をする）
+EN (We chatted over breakfast.)
+
+@ 107.83
+# 社 長
+JP どうだ、最近の調子は？
+JP みんなと話せてるか？
+EN So how have things been lately? Are you talking with
+EN everyone?
+
+@ 107.93
+# フェニックス遥
+JP ……う…うん……。
+JP ……昨日公園でね……。
+JP ……初めてあった子と…話した……。
+EN ...Y-yeah... ...Yesterday, at the park... ...I talked with
+EN someone I'd just met...
+
+@ 107.96
+# 社 長
+JP へぇ、随分な進歩じゃないか。
+JP どんな子だったんだ？
+EN Hey, that's real progress. What was she like?
+
+@ 107.106
+# フェニックス遥
+JP ……えぇとね…小さくて……。
+EN ...Um... she was small...
+
+@ 107.109
+# 社 長
+JP うん。
+EN Uh-huh.
+
+@ 107.113
+# フェニックス遥
+JP ……目が綺麗な青色で……。
+EN ...With pretty blue eyes...
+
+@ 107.116
+# 社 長
+JP 外国の人か？
+EN A foreigner?
+
+@ 107.126
+# フェニックス遥
+JP ……ううん……。
+JP ……白くてふわふわなの……。
+EN ...No... ...She was white and fluffy...
+
+@ 107.129
+# 社 長
+JP （白くてふわふわ…？）
+EN (White and fluffy...?)
+
+@ 107.131
+# 社 長
+JP それ、人間か？
+EN Is that... a person?
+
+@ 107.141
+# フェニックス遥
+JP ……ううん……。
+JP ……猫……。
+EN ...No... ...A cat...
+
+@ 107.144
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.148
+# フェニックス遥
+JP ……何か変なこと…言った……？
+EN ...Did I say... something weird...?
+
+@ 107.151
+# 社 長
+JP いや…。
+EN No...
+
+@ 107.153
+# 社 長
+JP （公園で猫と会話を続ける遥…）
+EN (Haruka, chatting away with a cat in the park...)
+
+@ 107.155
+# 社 長
+JP （この朝食特訓
+JP 　役に立っていないんじゃ…）
+EN (I don't think this breakfast training is doing any
+EN good...)
+
+@ 108.17
+# scene 111 練習試合 ベター１
+# フェニックス遥
+JP ……や、やろう……。
+EN ...L-let's do this...
+
+@ 109.16
+# scene 113 練習開始
+# フェニックス遥
+JP ……練習しないと……。
+EN ...I have to train...
+
+@ 110.16
+# scene 114 練習開始 好意
+# フェニックス遥
+JP ……が、がんばる……。
+EN ...I-I'll do my best...
+
+@ 111.16
+# scene 115 特訓開始
+# フェニックス遥
+JP ……特訓、大丈夫かな……？
+EN ...Will special training... be okay...?
+
+@ 112.20
+# scene 116 特訓成功
+# フェニックス遥
+JP ……特訓…成功……？
+EN ...The special training... worked...?
+
+@ 113.20
+# scene 117 特訓失敗
+# フェニックス遥
+JP ……特訓…失敗しちゃった……。
+EN ...The special training... didn't work...
+
+@ 114.16
+# scene 118 休養
+# フェニックス遥
+JP ……どうしよう…かな……。
+EN ...What should I... do...
+
+@ 115.16
+# scene 119 入場1
+# フェニックス遥
+JP ベストを尽くして
+JP 勝利をつかみ取ります！
+EN I'll do my best and seize victory!
+
+@ 116.16
+# scene 119 入場2
+# フェニックス遥
+JP ……リングは好き……。
+JP ……言葉が…いらないから……。
+EN ...I like the ring... ...Because I don't need... words
+EN there...
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# フェニックス遥
+JP いくよ！
+EN Here we go!
+
+@ 118.16
+# scene 125 必殺技１
+# フェニックス遥
+JP このチャンス見逃さない。
+EN I won't let this chance slip by.
+
+@ 119.16
+# scene 125 必殺技２
+# フェニックス遥
+JP この一撃にすべてを込めます。
+EN I'm putting everything into this one blow.
+
+@ 120.16
+# scene 125 必殺技３
+# フェニックス遥
+JP ……ごめんなさい……。
+JP でも手は抜けない…！
+EN ...I'm sorry... But I can't hold back...!
+
+@ 121.12
+# scene 126 勝利1
+# フェニックス遥
+JP ……もっと強くならないと……。
+EN ...I have to get stronger...
+
+@ 122.12
+# scene 126 勝利2
+# フェニックス遥
+JP ……今日は私の勝ち……。
+EN ...Today, I win...
+
+@ 123.12
+# scene 126 勝利3
+# フェニックス遥
+JP ……また戦いましょう……。
+EN ...Let's fight again...
+
+@ 124.15
+# scene 133 表彰1
+# フェニックス遥
+JP ……あの…えっと……。
+JP ……ありがとうございます……！
+EN ...Um... well... ...Thank you very much...!
+
+@ 125.15
+# scene 133 表彰2
+# フェニックス遥
+JP ……こんな賞もらって……。
+JP ……ご、ごめんなさい……。
+EN ...Getting an award like this... ...I-I'm sorry...
+
+@ 126.12
+# scene 134 優勝1
+# フェニックス遥
+JP ……日々の練習の成果が
+JP 出せて…よかった……。
+EN ...I'm glad... my daily training paid off...
+
+@ 127.12
+# scene 134 優勝２
+# フェニックス遥
+JP ……優勝できてよかった……。
+EN ...I'm glad I won...
+
+@ 128.24
+# scene 135 エンディング 通常
+# フェニックス遥
+JP ……社長、おめでとう……。
+JP ……私も…役にたった……？
+EN ...Congratulations, Boss... ...Was I... any help...?
+
+@ 129.24
+# scene 136 エンディング 好意
+# フェニックス遥
+JP ……私…社長と……。
+JP ……いつまでもずっと一緒にいたい…！
+EN ...I want to... be with you, Boss... ...forever and ever...!

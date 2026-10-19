@@ -1,0 +1,2312 @@
+# /SCR/124.BIN - ジュリア渡辺
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 124` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ジュリア渡辺
+JP 渡辺です！
+JP 特技はダンス！
+JP あっ、今ここで踊ろっか？
+EN I'm Watanabe! My specialty is dancing! Oh, want me to
+EN dance for you right here?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ジュリア渡辺
+JP やったー！
+JP それじゃ、適当によろしくね！
+EN Yaaay! Well then, let's take it easy together!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ジュリア渡辺
+JP ちゃんと見てから
+JP 判断して欲しかったなぁ…。
+EN I wish you'd actually watched me properly before
+EN deciding...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （スカウトの情報だと
+JP 　ここで有望な娘がダンスの練習を
+JP 　してるっていう話だけど…）
+EN (According to my scouting info, a promising girl
+EN practices her dancing here...)
+
+@ 3.25
+# 社 長
+JP ええと、ダンス、ダンス…。
+JP 踊りの得意そうな娘は
+JP …あの娘かな？
+EN Let's see, dancing, dancing... A girl who looks like a
+EN good dancer... maybe that one?
+
+@ 3.27
+# 社 長
+JP あれ…こっちにも踊っている娘が
+JP いるぞ…？
+EN Huh... there's another girl dancing over here...?
+
+@ 3.29
+# 社 長
+JP えっ、向こうにも！？
+JP あっちにも！？
+EN What, over there too?! And there?!
+
+@ 3.31
+# 社 長
+JP あ、あれ？
+JP なんだここ！？
+JP ダンサーだらけだぞ！？
+EN W-wait, what? What is this place?! It's full of
+EN dancers!
+
+@ 3.33
+# 社 長
+JP ここってもしかして
+JP 路上ダンサーの練習場所なのか！？
+EN Could this be where street dancers come to
+EN practice?!
+
+@ 3.43
+# ？？？
+JP あなた、見ない顔だけど新入りさん？
+JP 一人で大丈夫？
+EN Haven't seen your face before. You new here? You
+EN okay on your own?
+
+@ 3.46
+# 社 長
+JP あの、すみません。
+JP 私は練習に来たのではなくて…。
+EN Um, excuse me. I'm not here to practice...
+
+@ 3.48
+# 社 長
+JP 渡辺っていう娘を
+JP 探しているんですけど
+JP 知りませんか？
+EN I'm looking for a girl named Watanabe. Do you know
+EN her?
+
+@ 3.55
+# ジュリア渡辺
+JP …えっ、私？
+JP 私を探しに来たの？
+EN ...Huh, me? You came looking for me?
+
+@ 3.58
+# 社 長
+JP …えっ？
+JP あなたが渡辺さんですか？
+EN ...What? You're Watanabe?
+
+@ 3.60
+# 社 長
+JP 失礼しました。
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN Pardon me. I run a pro-wrestling promotion...
+
+@ 3.62
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 3.69
+# ジュリア渡辺
+JP 私が…プロレスかぁ…。
+EN Me... in pro wrestling, huh...
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ジュリア渡辺
+JP そうね。
+JP リングで踊るってのも
+JP 楽しそうかも！
+EN Sure. Dancing in the ring might actually be fun!
+
+@ 4.22
+# 社 長
+JP ありがとうございます！
+JP これからよろしく！
+EN Thank you! I look forward to working with you!
+
+@ 4.29
+# ジュリア渡辺
+JP よろしく、社長さん！
+JP よーし、いっぱい目立つぞー！
+EN Nice to meet you, President! Okay, I'm gonna steal
+EN the spotlight!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ジュリア渡辺
+JP 悪いけどパスかな。
+JP 今はダンスに専念したいし。
+EN Sorry, but I'll pass. I want to focus on dancing right
+EN now.
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （なんとしてもあの娘が欲しい。
+JP 　俺は再びダンサーたちの練習場で
+JP 　彼女を待つことにした）
+EN (I had to have that girl. I decided to wait for her at
+EN the dancers' practice spot again.)
+
+@ 6.25
+# 社 長
+JP さて…今日こそ会えると
+JP いいんだが…。
+EN Well... I hope I get to see her today...
+
+@ 6.35
+# ジュリア渡辺
+JP …あれっ？
+JP あなた、こないだの社長さん？
+EN ...Huh? Aren't you that president from the other
+EN day?
+
+@ 6.38
+# 社 長
+JP あっ、君は！？
+JP よかった、ようやく会えた！
+EN Ah, it's you?! Thank goodness, I finally found you!
+
+@ 6.45
+# ジュリア渡辺
+JP 今日はどうしたの？
+JP もしかして踊りに来たとか？
+EN What's up today? Did you come to dance, maybe?
+
+@ 6.48
+# 社 長
+JP いえ、またスカウトの話です。
+JP どうかうちの団体に入って
+JP もらえないでしょうか？
+EN No, it's about scouting again. Would you please join
+EN my promotion?
+
+@ 6.50
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ジュリア渡辺
+JP そうね。
+JP リングで踊るってのも
+JP 楽しそうかも！
+EN Sure. Dancing in the ring might actually be fun!
+
+@ 7.22
+# 社 長
+JP ありがとうございます！
+JP これからよろしく！
+EN Thank you! I look forward to working with you!
+
+@ 7.29
+# ジュリア渡辺
+JP よろしく、社長さん！
+JP よーし、いっぱい目立つぞー！
+EN Nice to meet you, President! Okay, I'm gonna steal
+EN the spotlight!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ジュリア渡辺
+JP 悪いけどパスかな。
+JP 今はダンスに専念したいし。
+EN Sorry, but I'll pass. I want to focus on dancing right
+EN now.
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （渡辺選手…。
+JP 　陽気な性格の彼女がいれば
+JP 　うちの興行も盛り上がるはずだ）
+EN (Watanabe... With a cheerful girl like her, our shows
+EN would really liven up.)
+
+@ 9.25
+# 社 長
+JP （たしか、このあたりで
+JP 　トレーニングしてると聞いたけど…。
+JP 　…あっ、いた！）
+EN (I heard she trains around here... Ah, there she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 9.37
+# ジュリア渡辺
+JP はい、どちら様ですか？
+EN Yes, who are you?
+
+@ 9.40
+# 社 長
+JP 私、プロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 9.47
+# ジュリア渡辺
+JP …えっ、社長さん？
+JP 何か私に用なの？
+EN ...Huh, a president? What do you want with me?
+
+@ 9.50
+# 社 長
+JP はい。
+JP 今日はお願いにうかがいました。
+EN Yes. I've come to ask you a favor.
+
+@ 9.52
+# 社 長
+JP うちの団体に移籍して
+JP いただけないでしょうか？
+EN Would you consider transferring to my promotion?
+
+@ 9.59
+# ジュリア渡辺
+JP なんだかすごくストレートな勧誘ね。
+JP これでも私、団体所属よ？
+EN Wow, that's a really direct pitch. I'm signed with a
+EN promotion, you know?
+
+@ 9.62
+# 社 長
+JP それは承知しています。
+JP そこを曲げてお願いできないでしょうか。
+EN I'm aware of that. But I'm asking you to make an
+EN exception.
+
+@ 9.64
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out my offer.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# ジュリア渡辺
+JP そうね…。
+JP いっぱい目立てるなら
+JP 移ってもいいかな…。
+EN Well... if I get to stand out a lot, maybe I could switch...
+
+@ 10.18
+# 社 長
+JP それはＯＫという回答だと思って
+JP いいんでしょうか？
+EN Can I take that as a yes?
+
+@ 10.29
+# ジュリア渡辺
+JP うん、それでいいよ。
+JP これからよろしくね、社長！
+EN Yep, you can. Nice to be working with you, Boss!
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ジュリア渡辺
+JP いくらなんでも
+JP この時期に辞めたら
+JP 適当過ぎるでしょ。
+EN Quitting at a time like this would be way too
+EN irresponsible, even for me.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには渡辺選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (My promotion really needs Watanabe. I decided to
+EN negotiate once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 12.35
+# ジュリア渡辺
+JP あっ、こないだの社長さん！？
+JP もしかしてまた…。
+EN Oh, the president from the other day?! Don't tell me,
+EN again...
+
+@ 12.38
+# 社 長
+JP はい。
+JP 移籍のお願いに来ました。
+EN Yes. I've come to ask you to transfer.
+
+@ 12.45
+# ジュリア渡辺
+JP それはもう断ったはずだけど…。
+EN I'm pretty sure I already said no...
+
+@ 12.48
+# 社 長
+JP 今すぐは無理ということでしたから
+JP 改めてうかがってみました。
+EN You said it wasn't possible right away, so I thought
+EN I'd ask again.
+
+@ 12.50
+# 社 長
+JP 今回はどうでしょう？
+JP 条件面についても目を通して
+JP くれませんか？
+EN How about this time? Would you at least look over the
+EN terms?
+
+@ 12.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept trying to persuade her.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# ジュリア渡辺
+JP そうね…。
+JP いっぱい目立てるなら
+JP 移ってもいいかな…。
+EN Well... if I get to stand out a lot, maybe I could switch...
+
+@ 13.18
+# 社 長
+JP それはＯＫという回答だと思って
+JP いいんでしょうか？
+EN Can I take that as a yes?
+
+@ 13.29
+# ジュリア渡辺
+JP うん、それでいいよ。
+JP これからよろしくね、社長！
+EN Yep, you can. Nice to be working with you, Boss!
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ジュリア渡辺
+JP いくらなんでも
+JP この時期に辞めたら
+JP 適当過ぎるでしょ。
+EN Quitting at a time like this would be way too
+EN irresponsible, even for me.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （渡辺選手…。
+JP 　陽気な性格の彼女がいれば
+JP 　うちの興行も盛り上がるはずだ）
+EN (Watanabe... With a cheerful girl like her, our shows
+EN would really liven up.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 15.37
+# ジュリア渡辺
+JP ええと…誰だっけ？
+EN Umm... who are you again?
+
+@ 15.40
+# 社 長
+JP はい。
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN Yes. I run a pro-wrestling promotion...
+
+@ 15.47
+# ジュリア渡辺
+JP えっ…？
+JP 社長さん？
+JP 私に何か用なの？
+EN Huh...? A president? What do you want with me?
+
+@ 15.50
+# 社 長
+JP うちの団体に入団して
+JP いただけないかと思って
+JP スカウトに来ました。
+EN I came to scout you, hoping you might join my
+EN promotion.
+
+@ 15.52
+# 社 長
+JP 入団を考えて
+JP いただけないでしょうか？
+EN Would you consider joining us?
+
+@ 15.59
+# ジュリア渡辺
+JP そうね…。
+JP じゃあ、私より上手に
+JP ダンスを踊れたら…。
+EN Hmm... Okay, if you can dance better than me...
+
+@ 16.11
+# scene 017 移籍交渉 フリー１ 成功
+# 社 長
+JP やります！
+JP 踊りましょう！
+EN I'll do it! Let's dance!
+
+@ 16.18
+# ジュリア渡辺
+JP へっ…！？
+JP ちょっと、ちょっと！
+JP さすがに今のは冗談だから！
+EN Huh...?! Whoa, whoa! I was totally joking just now!
+
+@ 16.21
+# 社 長
+JP あっ、そうなんですか…。
+EN Oh, you were...
+
+@ 16.32
+# ジュリア渡辺
+JP もう…。
+JP わかったわ。
+JP 社長さんのお世話になります。
+EN Geez... Fine. I'll be in your care, President.
+
+@ 16.35
+# 社 長
+JP よかった。
+JP ありがとうございます！
+JP これからよろしく！
+EN Great. Thank you! I look forward to working with
+EN you!
+
+@ 17.11
+# scene 018 移籍交渉 フリー 失敗
+# 社 長
+JP いやぁ…。
+JP さすがにそれは……。
+EN Well... That's a bit much...
+
+@ 17.22
+# ジュリア渡辺
+JP だったら私もパス。
+JP またの機会に出直してきて。
+EN Then I'll pass too. Try again some other time.
+
+@ 17.25
+# 社 長
+JP （仕方ないか…）
+EN (Can't be helped...)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには渡辺選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (My promotion really needs Watanabe. I decided to
+EN negotiate once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 18.35
+# ジュリア渡辺
+JP あっ、この前の社長さん。
+JP もしかして…スカウト？
+EN Oh, the president from before. Don't tell me...
+EN scouting?
+
+@ 18.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.45
+# ジュリア渡辺
+JP ふぅん。
+JP つまり、私とダンス勝負
+JP してくれるのね？
+EN Hmm. So you'll have a dance-off with me?
+
+@ 19.11
+# scene 020 移籍交渉 フリー２ 成功
+# 社 長
+JP やります！
+JP 踊りましょう！
+EN I'll do it! Let's dance!
+
+@ 19.18
+# ジュリア渡辺
+JP へっ…！？
+JP ちょっと、ちょっと！
+JP さすがに今のは冗談だから！
+EN Huh...?! Whoa, whoa! I was totally joking just now!
+
+@ 19.21
+# 社 長
+JP あっ、そうなんですか…。
+EN Oh, you were...
+
+@ 19.32
+# ジュリア渡辺
+JP もう…。
+JP わかったわ。
+JP 社長さんのお世話になります。
+EN Geez... Fine. I'll be in your care, President.
+
+@ 19.35
+# 社 長
+JP よかった。
+JP ありがとうございます！
+JP これからよろしく！
+EN Great. Thank you! I look forward to working with
+EN you!
+
+@ 20.11
+# scene 021 移籍交渉 フリー２ 失敗
+# 社 長
+JP いやぁ…。
+JP さすがにそれは……。
+EN Well... That's a bit much...
+
+@ 20.22
+# ジュリア渡辺
+JP だったら私もパス。
+JP またの機会に出直してきて。
+EN Then I'll pass too. Try again some other time.
+
+@ 20.25
+# 社 長
+JP （仕方ないか…）
+EN (Can't be helped...)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は渡辺を訪ねることにした。
+JP 　やっぱり彼女は、うちに必要な選手だ）
+EN (I decided to go see Watanabe. She really is a
+EN wrestler we need.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、渡辺！
+EN She should be around here... Ah, Watanabe!
+
+@ 21.35
+# ジュリア渡辺
+JP あっ、社長…！？
+EN Oh, Boss...?!
+
+@ 21.38
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.45
+# ジュリア渡辺
+JP ええと…。
+JP どうしたのよ…？
+EN Umm... What's going on...?
+
+@ 21.48
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you. I want you to
+EN come back...
+
+@ 21.55
+# ジュリア渡辺
+JP …私を！？
+EN ...Me?!
+
+@ 21.58
+# 社 長
+JP ああ。
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN Yeah. I know I'm in no position to ask this...
+
+@ 21.60
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ジュリア渡辺
+JP んー…。
+JP いくらなんでも一方的よね…。
+EN Hmm... That's pretty one-sided of you...
+
+@ 22.18
+# 社 長
+JP わかってる。
+JP だが、それでも頼む。
+JP 力を貸して欲しいんだ。
+EN I know. But I'm asking anyway. I need your help.
+
+@ 22.29
+# ジュリア渡辺
+JP しょうがないなぁ。
+JP 昔のよしみだし…。
+JP 手伝ってあげる。
+EN Oh, all right. For old times' sake... I'll help you out.
+
+@ 22.32
+# 社 長
+JP そうか…。
+JP ありがとう。
+JP またよろしく頼むよ。
+EN I see... Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# ジュリア渡辺
+JP 今さらじゃない？
+JP それに手伝えること
+JP あるとは思えないけど？
+EN Isn't it a little late for that? Besides, I don't see how
+EN I could help.
+
+@ 23.18
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.29
+# ジュリア渡辺
+JP 正直に言えば、そうかな…。
+EN Honestly? Yeah, I guess not...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び渡辺を訪ねることにした。
+JP 　彼女を諦めきることはできない）
+EN (I decided to visit Watanabe again. I just can't give
+EN up on her.)
+
+@ 24.25
+# 社 長
+JP 渡辺っ！
+EN Watanabe!
+
+@ 24.35
+# ジュリア渡辺
+JP …社長？
+EN ...Boss?
+
+@ 24.38
+# 社 長
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN I came to ask again. I really want you back in the
+EN promotion.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ジュリア渡辺
+JP んー…。
+JP いくらなんでも一方的よね…。
+EN Hmm... That's pretty one-sided of you...
+
+@ 25.18
+# 社 長
+JP わかってる。
+JP だが、それでも頼む。
+JP 力を貸して欲しいんだ。
+EN I know. But I'm asking anyway. I need your help.
+
+@ 25.29
+# ジュリア渡辺
+JP しょうがないなぁ。
+JP 昔のよしみだし…。
+JP 手伝ってあげる。
+EN Oh, all right. For old times' sake... I'll help you out.
+
+@ 25.32
+# 社 長
+JP そうか…。
+JP ありがとう。
+JP またよろしく頼むよ。
+EN I see... Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ジュリア渡辺
+JP 今さらじゃない？
+JP それに手伝えること
+JP あるとは思えないけど？
+EN Isn't it a little late for that? Besides, I don't see how
+EN I could help.
+
+@ 26.18
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.29
+# ジュリア渡辺
+JP 正直に言えば、そうかな…。
+EN Honestly? Yeah, I guess not...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ジュリア渡辺
+JP 激しい踊りはできないかな…。
+EN Guess I can't do any wild dancing...
+
+@ 28.16
+# scene 029 ケガ大
+# ジュリア渡辺
+JP ダンス…控えるしかないか…。
+EN Dancing... I'll just have to hold off...
+
+@ 29.16
+# scene 030 入院
+# ジュリア渡辺
+JP 病院で踊ると怒られるのよね～。
+EN They get mad at you for dancing in the hospital,
+EN y'know.
+
+@ 30.16
+# scene 031 退院
+# ジュリア渡辺
+JP ただいま！
+JP 私のステージ！
+EN I'm back! My stage!
+
+@ 31.16
+# scene 032 ケガ完治
+# ジュリア渡辺
+JP よーっし！
+JP 久しぶりに踊ってこよっと！
+EN All riiight! Time to go dance for the first time in ages!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ジュリア渡辺
+JP …引き際って大事だもんね。
+JP よーし、ラストステージは
+JP バッチリ決めるわよぉ！
+EN ...Knowing when to bow out matters, huh. Okay, I'm
+EN gonna nail my last stage!
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ジュリア渡辺
+JP 私はまだまだ踊れるわよっ！
+EN I can still dance plenty!
+
+@ 34.16
+# scene 035 コーチ就任
+# ジュリア渡辺
+JP ダンスのコーチってことじゃダメ？
+EN Can't I just be a dance coach?
+
+@ 35.16
+# scene 036 ケガ引退
+# ジュリア渡辺
+JP …悔しいなぁ、やっぱり…。
+JP もっとリングで踊りたかったのに…。
+EN ...It really stings... I wanted to dance in the ring so
+EN much more...
+
+@ 36.16
+# scene 037 年齢引退
+# ジュリア渡辺
+JP ほら…最近はちょっと踊ると
+JP 息があがっちゃうから…。
+EN See... lately I get out of breath after just a little
+EN dancing...
+
+@ 37.16
+# scene 038 退団
+# ジュリア渡辺
+JP 辞めるね！
+JP ここにいると全然
+JP 遊べないんだもん！
+EN I'm quitting! I can't have any fun at all here!
+
+@ 38.16
+# scene 039 スランプ
+# ジュリア渡辺
+JP がーん…！
+JP ステップが合わなくなっちゃった…。
+EN Nooo...! My steps are all out of sync...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ジュリア渡辺
+JP ファンクラブ…？
+JP 私の…？
+EN A fan club...? For me...?
+
+@ 39.19
+# 社 長
+JP そうだ。
+JP 応援に負けないようにがんばれよ。
+EN That's right. Work hard and live up to their support.
+
+@ 39.26
+# ジュリア渡辺
+JP そっかぁ…。
+JP ファンからダンス仲間
+JP 募ってみようかな…。
+EN I see... Maybe I'll recruit some dance buddies from my
+EN fans...
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ジュリア渡辺
+JP 新しいファンクラブ？
+JP ホントに！？
+EN A new fan club? Really?!
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# ジュリア渡辺
+JP それだけ数がいるなら
+JP 大規模な路上パフォーマンスも
+JP できそうだね。
+EN With that many people, we could put on a huge street
+EN performance.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ジュリア渡辺
+JP ちょっと悪ノリしちゃったかな…？
+EN Maybe I got a little carried away...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. You'll just work hard
+EN again.
+
+@ 41.26
+# ジュリア渡辺
+JP うん！
+JP またがんばって目立とうっと！
+EN Yep! I'll work hard and stand out all over again!
+
+@ 42.16
+# scene 043 映画出演
+# ジュリア渡辺
+JP 私が出るからには
+JP ダンスシーンは必須よね。
+EN If I'm in it, there's gotta be a dance scene.
+
+@ 43.16
+# scene 044 一日署長
+# ジュリア渡辺
+JP 踊れて戦える署長って
+JP 珍しくない？
+EN A police chief who can dance and fight? Pretty rare,
+EN right?
+
+@ 44.16
+# scene 045 写真集発売
+# ジュリア渡辺
+JP ＯＫ、ＯＫ！
+JP なんでもやっちゃうよー！
+EN Okay, okay! I'll do anything!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ジュリア渡辺
+JP 商品よりも目立っちゃおうかな！
+EN Maybe I'll outshine the product!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ジュリア渡辺
+JP よーっし！
+JP これからＣＤの営業に出発よー！
+EN All riiight! Off I go to promote my CD!
+
+@ 47.16
+# scene 048 始球式
+# ジュリア渡辺
+JP デッドボールになったら
+JP 目立つかな？
+EN If I bean the batter, do you think I'd stand out?
+
+@ 48.16
+# scene 049 学園祭
+# ジュリア渡辺
+JP ダンスコンテストとか
+JP あるんだったら、任せてね！
+EN If there's a dance contest or something, leave it to
+EN me!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# ジュリア渡辺
+JP 本当にもらえるの！？
+JP うれしー！
+JP これ欲しかったんだ！
+EN I really get to have this?! Yay! I wanted this!
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.46
+# ジュリア渡辺
+JP 私、もっとがんばっちゃう！
+EN I'm gonna work even harder!
+
+@ 50.30
+# scene 051 バレンタインデー
+# ジュリア渡辺
+JP あっ、今日、バレンタインだ！？
+EN Oh, today's Valentine's Day?!
+
+@ 50.33
+# 社 長
+JP …ああ、そういえばそうだったな。
+JP でも別に気にしなくていいぞ。
+EN ...Ah, now that you mention it, it is. Don't worry about
+EN it, though.
+
+@ 50.40
+# ジュリア渡辺
+JP 社長、これ食べかけの
+JP チョコだけどあげるね。
+EN Boss, here, you can have this chocolate. I already
+EN took a bite, though.
+
+@ 50.43
+# 社 長
+JP ……ありがとう…。
+EN ......Thanks...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, for last month?
+
+@ 51.36
+# ジュリア渡辺
+JP 社長ってまめだよねー。
+JP ありがとう！
+EN You're so thoughtful, Boss. Thanks!
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# ジュリア渡辺
+JP ありがとう！
+JP もうここで踊っちゃおうかな！
+EN Thank you! Maybe I'll just dance right here!
+
+@ 53.31
+# scene 054 コンサート
+# ジュリア渡辺
+JP 私のためにあるようなステージね！
+JP 一緒に完全燃焼しよっ！
+EN This stage was practically made for me! Let's all
+EN burn it up together!
+
+@ 54.26
+# scene 055 練習拒否
+# ジュリア渡辺
+JP 私、ダンスの練習してるから…。
+EN I'm practicing my dancing, so...
+
+@ 55.26
+# scene 056 失踪
+# ジュリア渡辺
+JP 誰か代返しといて！
+EN Somebody answer roll call for me!
+
+@ 56.16
+# scene 057 選手解雇
+# ジュリア渡辺
+JP ちょっと待ってよ…！
+JP まだ披露してないダンスが…。
+EN Hold on a sec...! I still have dances I haven't shown
+EN off...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ジュリア渡辺
+JP 本場のダンス、学んでくるわね！
+EN I'm off to learn dancing where it was born!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ジュリア渡辺
+JP ただいまー！
+JP 私の新しいダンスを披露させてーっ！
+EN I'm baaack! Let me show off my new dance!
+
+@ 59.28
+# scene 060 移籍思案
+# ジュリア渡辺
+JP うーん…。
+JP 悩むなんて私らしくないなぁ…。
+EN Hmm... Agonizing over stuff isn't like me...
+
+@ 60.16
+# scene 061 革命軍結成
+# ジュリア渡辺
+JP 革命軍って目立つわね！
+EN A revolution sure stands out!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ジュリア渡辺
+JP 反乱軍のリーダーとして
+JP 目立つんだから！
+EN As leader of the rebels, I'm gonna stand out!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ジュリア渡辺
+JP さあさあ！
+JP 勝負といきましょう！
+EN Come on, come on! Let's settle this!
+
+@ 63.16
+# scene 064 遺恨発生
+# ジュリア渡辺
+JP ちょっとカチンと来たなぁ…。
+EN Okay, that kinda ticked me off...
+
+@ 64.16
+# scene 065 殴り込み
+# ジュリア渡辺
+JP 相手のリングで踊ってくるわね！
+EN I'm gonna go dance in their ring!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ジュリア渡辺
+JP 私のステージは、私が守る！
+EN I'll protect my own stage!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ジュリア渡辺
+JP 踊らせてもらうわ！
+EN I'm gonna dance all over you!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ジュリア渡辺
+JP ラストダンスの始まりね！
+JP 完全燃焼するから！
+EN Time for the last dance! I'm gonna burn it all up!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ジュリア渡辺
+JP 燃えたぁ…。
+JP すっごく楽しかったぁ…。
+EN I'm all burned up... That was sooo much fun...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ジュリア渡辺
+JP えーっ！
+JP 不完全燃焼だよーっ！
+EN Nooo! I didn't get to burn it all up!
+
+@ 70.13
+# scene 071 引退式
+# ジュリア渡辺
+JP レスラーとしてのダンスは
+JP これでおしまい…。
+JP でも…私はまだ踊り続けるから！
+EN My dancing as a wrestler ends here... But I'm going
+EN to keep on dancing!
+
+@ 71.18
+# ジュリア渡辺
+JP 何か用？
+EN Need something?
+
+@ 71.37
+# ジュリア渡辺
+JP なーに？
+EN Whaaat?
+
+@ 71.47
+# ジュリア渡辺
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# ジュリア渡辺
+JP も～。
+JP しょうがないから
+JP おだてられてあげるわよ～。
+EN Geez. Fine, I'll let you flatter me.
+
+@ 71.111
+# ジュリア渡辺
+JP 残念。
+JP そんな褒め言葉で
+JP 私をおだてるつもりだったの？
+EN Too bad. You thought a compliment like that would
+EN butter me up?
+
+@ 71.132
+# ジュリア渡辺
+JP な、なに…。
+JP なんか…照れちゃう…。
+EN Wh-what... That's... kinda embarrassing...
+
+@ 71.153
+# ジュリア渡辺
+JP 今でもかなり無理してるんだけど…。
+EN I'm already pushing myself pretty hard, you know...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# ジュリア渡辺
+JP そうだね。
+JP そろそろ名誉挽回しないとね！
+EN Yeah. Guess it's time I redeemed myself!
+
+@ 71.211
+# ジュリア渡辺
+JP 最初から期待しなきゃいいのに…。
+EN Then don't expect anything in the first place...
+
+@ 71.232
+# ジュリア渡辺
+JP うん…。
+JP 目立つことだけ考えてちゃ
+JP いけないのかもね…。
+EN Yeah... Maybe I shouldn't only think about standing
+EN out...
+
+@ 71.253
+# ジュリア渡辺
+JP あちゃー…。
+JP 社長には気付かれてたかぁ～。
+EN Oops... So you noticed, Boss.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# ジュリア渡辺
+JP 睡眠不足は自分のせいだし…。
+JP 気合い入れていくわ！
+EN It's my own fault I'm short on sleep... I'll pull myself
+EN together!
+
+@ 71.311
+# ジュリア渡辺
+JP ふぁ…。
+JP そんなこと言われても
+JP 眠いものは眠いし…。
+EN *yawn*... Even if you say that, sleepy is sleepy...
+
+@ 71.332
+# ジュリア渡辺
+JP 社長のおかげで元気回復！
+JP 朝まで踊れそうよ！
+EN Thanks to you, I'm all recharged! I could dance till
+EN morning!
+
+@ 71.353
+# ジュリア渡辺
+JP 大丈夫じゃないから
+JP 適当にやるわね。
+EN I'm not okay, so I'll just take it easy.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# ジュリア渡辺
+JP それは…あっちが…。
+EN That's... because she...
+
+@ 71.400
+# ジュリア渡辺
+JP …えっ？
+JP なーに？
+EN ...Huh? Whaaat?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# ジュリア渡辺
+JP わかったわよ。
+JP でも、向こうにもちゃんと
+JP 謝らせてよね。
+EN Fine. But make sure she apologizes properly too.
+
+@ 71.454
+# ジュリア渡辺
+JP 向こうが謝ったら考えてあげる！
+EN I'll think about it if she apologizes first!
+
+@ 71.475
+# ジュリア渡辺
+JP はーい、そうしまーす。
+JP …で、何が？
+EN Okaaay, will do. ...So, about what?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# ジュリア渡辺
+JP あっ、社長の耳にも入ってるんだ…？
+EN Oh, so it reached your ears too, Boss...?
+
+@ 71.522
+# ジュリア渡辺
+JP もしかして、ダンスのお誘い？
+EN Are you asking me to dance, maybe?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# ジュリア渡辺
+JP 社長に迷惑かけちゃいけないしね。
+JP 仲直りするわ。
+EN I don't want to cause you trouble, Boss. I'll make up
+EN with her.
+
+@ 71.578
+# ジュリア渡辺
+JP それは…イヤ…。
+EN That's... no...
+
+@ 71.599
+# ジュリア渡辺
+JP その子と踊るの？
+EN Am I supposed to dance with her?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ジュリア渡辺
+JP なーに？
+EN Whaaat?
+
+@ 72.16
+# ジュリア渡辺
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ジュリア渡辺
+JP も～。しょうがないから、
+JP おだてられてあげるわよ～。
+EN Geez. Fine, I'll let you flatter me.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ジュリア渡辺
+JP 残念。
+JP そんな褒め言葉で私を
+JP おだてるつもりだったの？
+EN Too bad. You thought a compliment like that would
+EN butter me up?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ジュリア渡辺
+JP な、なに…。
+JP なんか…照れちゃう…。
+EN Wh-what... That's... kinda embarrassing...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ジュリア渡辺
+JP 今でもかなり無理してるんだけど…。
+EN I'm already pushing myself pretty hard, you know...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ジュリア渡辺
+JP そうだね。
+JP そろそろ名誉挽回しないとね！
+EN Yeah. Guess it's time I redeemed myself!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ジュリア渡辺
+JP 最初から期待しなきゃいいのに…。
+EN Then don't expect anything in the first place...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ジュリア渡辺
+JP うん…。
+JP 目立つことだけ考えてちゃ
+JP いけないのかもね…。
+EN Yeah... Maybe I shouldn't only think about standing
+EN out...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ジュリア渡辺
+JP あちゃー…。
+JP 社長には気付かれてたかぁ～。
+EN Oops... So you noticed, Boss.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ジュリア渡辺
+JP 睡眠不足は自分のせいだし…。
+JP 気合い入れていくわ！
+EN It's my own fault I'm short on sleep... I'll pull myself
+EN together!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ジュリア渡辺
+JP ふぁ…。
+JP そんなこと言われても
+JP 眠いものは眠いし…。
+EN *yawn*... Even if you say that, sleepy is sleepy...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ジュリア渡辺
+JP 社長のおかげで元気回復！
+JP 朝まで踊れそうよ！
+EN Thanks to you, I'm all recharged! I could dance till
+EN morning!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ジュリア渡辺
+JP 大丈夫じゃないから、
+JP 適当にやるわね。
+EN I'm not okay, so I'll just take it easy.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ジュリア渡辺
+JP それは…あっちが…。
+EN That's... because she...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ジュリア渡辺
+JP えっ…？
+JP なーに？
+EN Huh...? Whaaat?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ジュリア渡辺
+JP わかったわよ。
+JP でも、向こうにもちゃんと
+JP 謝らせてよね。
+EN Fine. But make sure she apologizes properly too.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ジュリア渡辺
+JP 向こうが謝ったら考えてあげる！
+EN I'll think about it if she apologizes first!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ジュリア渡辺
+JP はーい、そうしまーす。
+JP …で、何が？
+EN Okaaay, will do. ...So, about what?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ジュリア渡辺
+JP あ、社長の耳にも入ってるんだ…？
+EN Oh, so it reached your ears too, Boss...?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ジュリア渡辺
+JP もしかして、ダンスのお誘い？
+EN Are you asking me to dance, maybe?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ジュリア渡辺
+JP 社長に迷惑かけちゃいけないしね。
+JP 仲直りするわ。
+EN I don't want to cause you trouble, Boss. I'll make up
+EN with her.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ジュリア渡辺
+JP それは……イヤ。
+EN That's...... no.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ジュリア渡辺
+JP その子と踊るの？
+EN Am I supposed to dance with her?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ジュリア渡辺
+JP こんなところじゃないかな。
+JP ダンスするには充分よ。
+EN I guess this is about right. It's plenty to keep
+EN dancing on.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ジュリア渡辺
+JP 私のダンス
+JP 期待されてるみたいね！
+EN Looks like you've got big hopes for my dancing!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ジュリア渡辺
+JP これじゃ踊る気にもなれないわよ…。
+EN This doesn't even make me feel like dancing...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived on a southern island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Mmm, the tropics, all right. The sun is scorching.)
+
+@ 105.32
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.34
+# 社 長
+JP （…んっ？
+JP 　あれは…渡辺か？）
+EN (...Hm? Is that... Watanabe?)
+
+@ 105.53
+# 社 長
+JP （体を焼こうとして
+JP 　そのまま寝てしまったのか？）
+EN (Did she fall asleep while sunbathing?)
+
+@ 105.55
+# 社 長
+JP （しかし、なんて格好してるんだ…）
+EN (But what kind of outfit is that...)
+
+@ 105.57
+# 社 長
+JP （いくらなんでも
+JP 　無防備すぎるだろ…）
+EN (That's way too defenseless...)
+
+@ 105.59
+# 社 長
+JP （変なヤツに覗かれたりしたら
+JP 　どうするんだ）
+EN (What if some creep comes along and ogles her?)
+
+@ 105.61
+# 社 長
+JP （本当にいつもいつも
+JP 　緊張感のない…）
+EN (Honestly, she's always so carefree...)
+
+@ 105.63
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.73
+# ジュリア渡辺
+JP ……見た？
+EN ......Did you look?
+
+@ 105.76
+# 社 長
+JP うわっ！
+JP お、起きてたのか！？
+EN Whoa! Y-you were awake?!
+
+@ 105.80
+# ジュリア渡辺
+JP 薄目。
+JP 寝てなかったのよ～。
+EN Eyes half open. I wasn't asleep.
+
+@ 105.83
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.87
+# ジュリア渡辺
+JP それより社長は
+JP さっきから何をじ～っと
+JP 見てたのかな～？
+EN More importantly, Boss, what were you staring at so
+EN hard just now?
+
+@ 105.90
+# 社 長
+JP いや…。
+JP 変なヤツに見られたら
+JP 困るだろうと思って…。
+EN Well... I was worried some creep might see you...
+
+@ 105.94
+# ジュリア渡辺
+JP 変なヤツ～？
+JP それって社長のことじゃないの～。
+EN Some creep? Don't you mean you, Boss?
+
+@ 105.97
+# 社 長
+JP おいおい…。
+EN Hey, now...
+
+@ 105.101
+# ジュリア渡辺
+JP いやらしい目で見てたもんね～。
+EN You were totally giving me the eye.
+
+@ 105.104
+# 社 長
+JP いやいや、それはあれだ。
+EN No, no, that was... you know.
+
+@ 105.107
+# 社 長
+JP すごく綺麗だから
+JP つい見入ってしまったんだって。
+EN You're so beautiful that I just couldn't help staring,
+EN that's all.
+
+@ 105.117
+# ジュリア渡辺
+JP えぇ～！
+JP そうなの～！？
+EN Whaaat! Really?!
+
+@ 105.120
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.124
+# ジュリア渡辺
+JP もう社長ってば
+JP ホントのことなんて
+JP 言っちゃって～。
+EN Oh, Boss, you're just telling the truth!
+
+@ 105.127
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.131
+# ジュリア渡辺
+JP そういうことなら
+JP もうちょっと見せてあげようかな～。
+EN If that's the case, maybe I'll show you a little more.
+
+@ 105.134
+# 社 長
+JP いや…ははは…。
+EN Uh... hahaha...
+
+@ 105.136
+# 社 長
+JP じゃあ、俺はこれで…。
+EN Well, I'll be going now...
+
+@ 105.146
+# ジュリア渡辺
+JP あっ、社長。
+JP どこ行くの？
+JP 待ってよ～！
+EN Ah, Boss. Where are you going? Wait up!
+
+@ 105.150
+# ジュリア渡辺
+JP ホントにサービスしてあげるから～！
+EN I'll really give you some fan service!
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、残業終了！）
+EN (All right, overtime's done!)
+
+@ 106.26
+# 社 長
+JP （さあ、帰るか…）
+EN (Time to head home...)
+
+@ 106.28
+# 社 長
+JP （…んっ？
+JP 　ジムに明かり？）
+EN (...Hm? A light on in the gym?)
+
+@ 106.30
+# 社 長
+JP ちょっと…見に行ってみるか。
+EN Maybe I'll go take a look.
+
+@ 106.45
+# 社 長
+JP （やっぱり明かりが点いている？）
+EN (The light really is on?)
+
+@ 106.47
+# 社 長
+JP （誰かいるのか？）
+EN (Is someone there?)
+
+@ 106.75
+# ジュリア渡辺
+JP 生きるべきか死ぬべきか
+JP それだけが問題なのよ！
+EN To be or not to be, that is the only question!
+
+@ 106.78
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.82
+# ジュリア渡辺
+JP 今だけの限定品！
+JP いよいよ発売！
+EN A limited-time offer! On sale now!
+
+@ 106.85
+# 社 長
+JP …渡辺？
+EN ...Watanabe?
+
+@ 106.96
+# ジュリア渡辺
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 106.99
+# 社 長
+JP 何やってるんだ、
+JP こんなところで…？
+EN What are you doing here...?
+
+@ 106.103
+# ジュリア渡辺
+JP そんなの決まってるじゃない。
+EN Isn't it obvious?
+
+@ 106.107
+# ジュリア渡辺
+JP 映画とかＣＭ出演とかの依頼が
+JP 来たときの予行練習よ。
+EN I'm rehearsing for when I get offers for movies and
+EN commercials.
+
+@ 106.110
+# 社 長
+JP …通常の練習じゃないのか？
+EN ...Not regular training?
+
+@ 106.120
+# ジュリア渡辺
+JP がんばってるでしょ？
+EN I'm working hard, right?
+
+@ 106.123
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.125
+# 社 長
+JP なあ、渡辺…。
+EN Listen, Watanabe...
+
+@ 106.127
+# 社 長
+JP そもそも本業で活躍しないと
+JP 依頼なんて来ないんだぞ。
+EN You won't get any offers unless you shine in your
+EN actual job first.
+
+@ 106.131
+# ジュリア渡辺
+JP あははは。
+JP 何言ってるのよ、社長～。
+EN Ahahaha. What are you talking about, Boss?
+
+@ 106.141
+# ジュリア渡辺
+JP 私のルックスなら大丈夫♪
+EN With my looks, I'll be fine♪
+
+@ 106.144
+# 社 長
+JP （どこからくるんだ、この自信…）
+EN (Where does this confidence come from...)
+
+@ 106.148
+# ジュリア渡辺
+JP じゃあ、私はまだ練習があるから。
+EN Well, I've still got practicing to do.
+
+@ 106.151
+# 社 長
+JP ……ああ。
+JP あまり遅くならないようにな。
+EN ......Right. Don't stay too late.
+
+@ 106.162
+# ジュリア渡辺
+JP ああ、社長！
+JP あなたはどうして社長なの！
+EN O Boss, Boss! Wherefore art thou the Boss!
+
+@ 106.165
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （よし、残業終了！）
+EN (All right, overtime's done!)
+
+@ 107.26
+# 社 長
+JP （さあ、帰るか…）
+EN (Time to head home...)
+
+@ 107.28
+# 社 長
+JP （…んっ？
+JP 　ジムに明かり？）
+EN (...Hm? A light on in the gym?)
+
+@ 107.43
+# 社 長
+JP （…何か前にもこんなことが
+JP 　あったような？）
+EN (...Haven't I been through this before?)
+
+@ 107.71
+# ジュリア渡辺
+JP この時期だけの限定商品
+JP 好評発売中！
+EN A seasonal limited-edition product, selling fast!
+
+@ 107.74
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.76
+# 社 長
+JP やっぱり、渡辺か。
+EN Watanabe, I knew it.
+
+@ 107.87
+# ジュリア渡辺
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 107.90
+# 社 長
+JP また予行演習か？
+EN Rehearsing again?
+
+@ 107.94
+# ジュリア渡辺
+JP もちろん、そうよ。
+EN Of course.
+
+@ 107.97
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.107
+# ジュリア渡辺
+JP がんばってるでしょ？
+EN I'm working hard, right?
+
+@ 107.110
+# 社 長
+JP たしかに上手くなってたが…。
+JP 本業も少しはだな…。
+EN You've definitely gotten better, but... your actual
+EN job could use some...
+
+@ 107.120
+# ジュリア渡辺
+JP そんなこと言われても
+JP 自分の実力は自分が一番
+JP わかってるしね～。
+EN Even if you say that, I know my own ability better
+EN than anyone.
+
+@ 107.123
+# 社 長
+JP （そんなあっけらかんと…）
+EN (She says it so casually...)
+
+@ 107.134
+# ジュリア渡辺
+JP エースになんてなれるか
+JP わからないし…。
+EN I don't know if I could ever become the ace...
+
+@ 107.137
+# 社 長
+JP おいおい…。
+EN Hey, now...
+
+@ 107.147
+# ジュリア渡辺
+JP だから私は映画とかＣＭとかで
+JP 知名度アップを引き受けるの。
+EN So I'll take charge of raising our profile with movies
+EN and commercials.
+
+@ 107.151
+# ジュリア渡辺
+JP 私なりに団体の役に立ちたいしね！
+EN I want to help the promotion in my own way!
+
+@ 107.154
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.156
+# 社 長
+JP （こいつそんなこと考えていたのか）
+EN (So that's what she was thinking.)
+
+@ 107.158
+# 社 長
+JP ……そうか。
+EN ......I see.
+
+@ 107.160
+# 社 長
+JP よし、俺も練習に付き合うよ。
+EN All right, I'll practice with you.
+
+@ 107.170
+# ジュリア渡辺
+JP …いいの？
+EN ...Really?
+
+@ 107.173
+# 社 長
+JP もちろん。
+EN Of course.
+
+@ 107.183
+# ジュリア渡辺
+JP じゃあ、一緒にがんばろっ！
+EN Then let's do our best together!
+
+@ 107.186
+# 社 長
+JP よし、やるか！
+JP それで、なんの練習をするんだ？
+EN All right, let's do it! So, what are we practicing?
+
+@ 107.190
+# ジュリア渡辺
+JP えーとね、キスシーン！
+EN Umm, a kiss scene!
+
+@ 107.193
+# 社 長
+JP ……へっ？
+EN ......Huh?
+
+@ 107.203
+# ジュリア渡辺
+JP キスシーンは一人じゃ
+JP 練習できないしね。
+EN You can't practice a kiss scene by yourself, after
+EN all.
+
+@ 107.206
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.216
+# ジュリア渡辺
+JP 早く、早く～。
+EN Hurry, hurry!
+
+@ 107.219
+# 社 長
+JP ……あっ！
+JP 悪い、用事思い出した！
+EN ......Ah! Sorry, I just remembered something I have to
+EN do!
+
+@ 107.229
+# ジュリア渡辺
+JP ……えっ？
+EN ......What?
+
+@ 107.232
+# 社 長
+JP 悪い、悪い。
+JP 練習に付き合うのはまた今度な。
+EN Sorry, sorry. I'll practice with you some other time.
+
+@ 107.242
+# ジュリア渡辺
+JP …えっ？
+JP 社長、ちょっと待ってよ～！
+EN ...What? Boss, wait a minute!
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# ジュリア渡辺
+JP 気楽にやろ～。
+EN Let's take it easy.
+
+@ 109.16
+# scene 113 練習開始
+# ジュリア渡辺
+JP はいはい、練習ね。
+JP はいはい、やりますとも…。
+EN Yeah, yeah, training. Yeah, yeah, I'm doing it...
+
+@ 110.16
+# scene 114 練習開始 好意
+# ジュリア渡辺
+JP ちょっとだけ
+JP がんばっちゃおっかな～。
+EN Maybe I'll try a little bit hard today.
+
+@ 111.16
+# scene 115 特訓開始
+# ジュリア渡辺
+JP ダンスの特訓なら
+JP がんばれるんだけど…。
+EN If it were dance training, I could give it my all, but...
+
+@ 112.20
+# scene 116 特訓成功
+# ジュリア渡辺
+JP 要領はダンスと同じよね！
+JP 楽しかったー！
+EN It's just like dancing! That was fun!
+
+@ 113.20
+# scene 117 特訓失敗
+# ジュリア渡辺
+JP 疲れた…眠い…帰りたい…。
+EN Tired... sleepy... wanna go home...
+
+@ 114.16
+# scene 118 休養
+# ジュリア渡辺
+JP 踊り明かすわよー！
+EN I'm gonna dance all night long!
+
+@ 115.16
+# scene 119 入場1
+# ジュリア渡辺
+JP 私のステージでなら
+JP 私の勝ちは決まりでしょ。
+EN On my stage, my win's a sure thing.
+
+@ 116.16
+# scene 119 入場2
+# ジュリア渡辺
+JP 今日は私のオンステージだよ！
+EN Today, I'm the star of the show!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# ジュリア渡辺
+JP 楽しく踊っちゃおっかな～。
+EN Maybe I'll just have some fun dancing.
+
+@ 118.16
+# scene 125 必殺技１
+# ジュリア渡辺
+JP そろそろ私のステージから降りてね！
+EN Time for you to get off my stage!
+
+@ 119.16
+# scene 125 必殺技２
+# ジュリア渡辺
+JP 気持ち良くトリップさせてあげる！
+EN I'll send you on a nice little trip!
+
+@ 120.16
+# scene 125 必殺技３
+# ジュリア渡辺
+JP さぁ、ショータイムはこれからよ～！
+EN Come on, the showtime's just getting started!
+
+@ 121.12
+# scene 126 勝利1
+# ジュリア渡辺
+JP 幸運の女神は
+JP 私と踊りたかったみたいね！
+EN Looks like Lady Luck wanted to dance with me!
+
+@ 122.12
+# scene 126 勝利2
+# ジュリア渡辺
+JP 私の実力なら勝って当然ね！
+JP …なんちゃって！
+EN With my skills, winning's only natural! ...Just kidding!
+
+@ 123.12
+# scene 126 勝利3
+# ジュリア渡辺
+JP 私、もしかして目立っちゃった？
+EN Did I stand out, maybe?
+
+@ 124.15
+# scene 133 表彰1
+# ジュリア渡辺
+JP もしかして…。
+JP 私、すごく目立ってる！？
+EN Could it be... I'm really standing out?!
+
+@ 125.15
+# scene 133 表彰2
+# ジュリア渡辺
+JP 応援してくれたみんな、ありがとー！
+JP ここは最高のステージね！
+EN Thanks to everyone who cheered for me! This is the
+EN best stage ever!
+
+@ 126.12
+# scene 134 優勝1
+# ジュリア渡辺
+JP 最高の気分！
+JP 朝までだって踊れそう！
+EN I feel amazing! I could dance till morning!
+
+@ 127.12
+# scene 134 優勝２
+# ジュリア渡辺
+JP 最強の格闘技はダンスに決まりね！
+EN The strongest martial art is dancing, no question!
+
+@ 128.24
+# scene 135 エンディング 通常
+# ジュリア渡辺
+JP おめでとう、社長！
+JP 今日だけは社長のために
+JP 踊ってあげる！
+EN Congrats, Boss! Just for today, I'll dance for you!
+
+@ 129.24
+# scene 136 エンディング 好意
+# ジュリア渡辺
+JP 社長を見てると徹夜で踊った後
+JP みたいに胸がドキドキするの…。
+JP 止めてくれる…？
+EN When I look at you, Boss, my heart pounds like after
+EN dancing all night... Will you make it stop...?

@@ -1,0 +1,2345 @@
+# /SCR/158.BIN - フェアリー保科
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 158` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# フェアリー保科
+JP 保科と申します。
+JP 合気道やっていました～。
+EN My name is Hoshina. I used to practice aikido.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# フェアリー保科
+JP これで私も晴れて
+JP プロレスラーですわね～。
+EN So now I'm officially a pro wrestler, am I?
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# フェアリー保科
+JP あらあら～。
+JP これは予想外の展開ですね～。
+EN Oh my, oh my. What an unexpected turn of events.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP スカウトの話だと
+JP 今日の合気道の試合に有望な選手が
+JP 出場しているって話だけど…。
+EN According to my scout, a promising girl is competing
+EN in today's aikido tournament...
+
+@ 3.25
+# 社 長
+JP あっ、優勝選手が出てきたみたいだ。
+EN Ah, looks like the winner is coming out.
+
+@ 3.34
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# フェアリー保科
+JP あのぅ…。
+JP 初めてお会いした方のように
+JP お見受けするんですけど～？
+EN Um... I don't believe we've met before, have we?
+
+@ 3.44
+# 社 長
+JP 失礼しました。
+JP 私はプロレス団体を
+JP 経営している者でして…。
+EN Pardon me. I run a pro-wrestling promotion...
+
+@ 3.46
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to recruit her.)
+
+@ 3.53
+# フェアリー保科
+JP 嗜み程度の合気道しか
+JP できないのですが
+JP よろしいのでしょうか～？
+EN I only dabble in aikido as a hobby, you see. Would that
+EN really be all right?
+
+@ 3.56
+# 社 長
+JP 充分です。
+JP 是非お願いします。
+EN That's more than enough. I'd really like you to join.
+
+@ 3.63
+# フェアリー保科
+JP そうですねぇ～。
+JP 悩んでしまいますねぇ～。
+EN Let me see now... What a difficult decision...
+
+@ 4.14
+# scene 005 新人スカウト１ 成功
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 4.21
+# フェアリー保科
+JP 家の者が許してくれるなら
+JP お受けしても構わないのですが～。
+EN If my family gives their permission, I wouldn't mind
+EN accepting...
+
+@ 4.24
+# 社 長
+JP もちろん説得には
+JP 付き添わせていただきます。
+EN Of course, I'll come along to help persuade them.
+
+@ 4.35
+# フェアリー保科
+JP わかりました。
+JP それでしたら、これから
+JP よろしくお願いします～。
+EN I see. In that case, I look forward to working with
+EN you.
+
+@ 5.14
+# scene 065 新人スカウト１ 失敗
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 5.22
+# フェアリー保科
+JP …申し訳ありませんが
+JP やはり家の者も納得しない
+JP でしょうし～。
+EN ...I'm terribly sorry, but I don't think my family would
+EN agree to it.
+
+@ 5.25
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （保科選手か…。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Hoshina... She's exactly the kind of talent I want in
+EN our promotion.)
+
+@ 6.25
+# 社 長
+JP 今月もここで合気道の試合があるって
+JP 聞いてきたけど…。
+EN I heard there was another aikido tournament here
+EN this month...
+
+@ 6.27
+# 社 長
+JP あっ、保科さん！？
+EN Ah, Ms. Hoshina!?
+
+@ 6.37
+# フェアリー保科
+JP まあ、社長さん。
+JP またお会いしましたね～。
+EN Oh my, it's the president. We meet again.
+
+@ 6.40
+# 社 長
+JP はい、どうしても
+JP うちの団体に入って欲しくて
+JP 性懲りもなくやって来ました。
+EN Yes. I just had to have you in our promotion, so I
+EN came back for another try.
+
+@ 6.47
+# フェアリー保科
+JP はあ…。
+JP 入団のお話ですか～。
+JP 困りましたねぇ。
+EN Oh dear... This is about joining again? What should I
+EN do...
+
+@ 6.50
+# 社 長
+JP どうか俺を信じてもらえませんか？
+EN Won't you please put your trust in me?
+
+@ 6.53
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 7.14
+# scene 008 新人スカウト ２回目以降・成功
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 7.21
+# フェアリー保科
+JP 家の者が許してくれるなら
+JP お受けしても構わないのですが～。
+EN If my family gives their permission, I wouldn't mind
+EN accepting...
+
+@ 7.24
+# 社 長
+JP もちろん説得には
+JP 付き添いわせていただきます。
+EN Of course, I'll come along to help persuade them.
+
+@ 7.35
+# フェアリー保科
+JP わかりました。
+JP それでしたら、これから
+JP よろしくお願いします～。
+EN I see. In that case, I look forward to working with
+EN you.
+
+@ 8.14
+# scene 009 新人スカウト ２回目以降  失敗
+# 社 長
+JP いかがでしょうか？
+EN What do you say?
+
+@ 8.22
+# フェアリー保科
+JP …申し訳ありませんが
+JP やはり家の者も納得しない
+JP でしょうし～。
+EN ...I'm terribly sorry, but I don't think my family would
+EN agree to it.
+
+@ 8.25
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （保科選手…。
+JP 　合気道を取り入れた関節技には
+JP 　他にない魅力がある）
+EN (Hoshina... Her aikido-based joint locks have an
+EN appeal no one else has.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# フェアリー保科
+JP はい、ええと…。
+JP 初めてお会いしますでしょうか～？
+EN Yes? Um... Have we met before?
+
+@ 9.40
+# 社 長
+JP 突然すみません。
+JP 私はプロレス団体を
+JP 経営している者で…。
+EN Sorry to bother you out of the blue. I run a
+EN pro-wrestling promotion...
+
+@ 9.47
+# フェアリー保科
+JP 社長さんでしたか～。
+JP どういったご用件ですか？
+EN Oh, you're a company president? What can I do for
+EN you?
+
+@ 9.50
+# 社 長
+JP あなたをうちの団体に
+JP スカウトに来ました。
+JP 考えていただけませんか？
+EN I came to scout you for our promotion. Would you
+EN consider it?
+
+@ 9.57
+# フェアリー保科
+JP まあ、そうですの～。
+JP でも、いきなりそんなことを
+JP 言われても悩みますわねぇ～。
+EN Oh my, is that so? But being asked something like
+EN that so suddenly... I'm not sure.
+
+@ 9.60
+# 社 長
+JP そう思って資料を持ってきました。
+JP 見ていただけますか？
+EN I thought so, so I brought some materials. Would you
+EN take a look?
+
+@ 9.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# フェアリー保科
+JP そうですね～。
+JP では詳しい話を聞かせて
+JP いただけますか～？
+EN Well then... Could you tell me more of the details?
+
+@ 10.18
+# 社 長
+JP ということは…。
+JP ＯＫということですか？
+EN So that means... it's a yes?
+
+@ 10.29
+# フェアリー保科
+JP はい。
+JP よろしくお願いします～。
+EN Yes. I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# フェアリー保科
+JP …申し訳ありません～。
+JP こんなところでするお話でも
+JP ないと思いますし～。
+EN ...I'm terribly sorry. I don't think this is the place for
+EN such a conversation.
+
+@ 11.22
+# 社 長
+JP …あっ、そうですね。
+JP すみません…。
+JP 後日、改めて出直します。
+EN ...Oh, you're right. I'm sorry... I'll come back another
+EN day.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (We really need her. I decided to negotiate one more
+EN time.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# フェアリー保科
+JP はい、ええと…。
+JP ああ、あのときの社長さんでは
+JP ないですか～。
+EN Yes? Um... Oh, aren't you the president from before?
+
+@ 12.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.45
+# フェアリー保科
+JP うーん…。
+JP 困りましたね～。
+EN Hmm... What should I do...
+
+@ 12.48
+# 社 長
+JP どうか私を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you please trust me and join us?
+
+@ 12.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# フェアリー保科
+JP そうですね～。
+JP では詳しい話を聞かせて
+JP いただけますか～？
+EN Well then... Could you tell me more of the details?
+
+@ 13.18
+# 社 長
+JP ということは…。
+JP ＯＫということですか？
+EN So that means... it's a yes?
+
+@ 13.29
+# フェアリー保科
+JP はい。
+JP よろしくお願いします～。
+EN Yes. I look forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# フェアリー保科
+JP …申し訳ありません～。
+JP こんなところでするお話でも
+JP ないと思いますし～。
+EN ...I'm terribly sorry. I don't think this is the place for
+EN such a conversation.
+
+@ 14.22
+# 社 長
+JP …あっ、そうですね。
+JP すみません…。
+JP 後日、改めて出直します。
+EN ...Oh, you're right. I'm sorry... I'll come back another
+EN day.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （保科選手…。
+JP 　合気道を取り入れた関節技には
+JP 　他にない魅力がある）
+EN (Hoshina... Her aikido-based joint locks have an
+EN appeal no one else has.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# フェアリー保科
+JP はい…？
+JP ええと……？
+EN Yes...? Um......?
+
+@ 15.40
+# 社 長
+JP 突然すみません。
+JP 私はプロレス団体を
+JP 経営している者で…。
+EN Sorry to bother you out of the blue. I run a
+EN pro-wrestling promotion...
+
+@ 15.42
+# 社 長
+JP あなたをスカウトするために
+JP うかがいました。
+EN I came here to scout you.
+
+@ 15.49
+# フェアリー保科
+JP まあ～。
+JP 私をですか～？
+EN Oh my. Me?
+
+@ 15.52
+# 社 長
+JP はい、どうでしょう？
+JP うちの団体で戦ってみませんか？
+EN Yes. What do you say? Would you like to wrestle for
+EN our promotion?
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# フェアリー保科
+JP ところで団体の最寄りの駅は
+JP どちらになるのでしょうか～？
+EN By the way, which station is nearest to your
+EN promotion?
+
+@ 16.18
+# 社 長
+JP ええと、資料にある通りですが…。
+EN Um, it's in the materials there...
+
+@ 16.25
+# フェアリー保科
+JP あら、これは…。
+JP 色々な路線が乗り入れていて
+JP いい場所ですね～。
+EN Oh my, look at this... So many train lines run through
+EN here. What a lovely location.
+
+@ 16.28
+# 社 長
+JP あ、あのＯＫってことで
+JP よろしいでしょうか…？
+EN Um, s-so does that mean it's a yes...?
+
+@ 16.36
+# フェアリー保科
+JP もちろんです～。
+JP よろしくお願いします～。
+EN Of course. I look forward to working with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# フェアリー保科
+JP あまり地元から離れたくないので～。
+EN I'd rather not go too far from home, you see.
+
+@ 17.22
+# 社 長
+JP そ、そうなんですか…。
+JP 残念です。
+EN O-oh, is that so... That's a shame.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (We really need her. I decided to negotiate one more
+EN time.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# フェアリー保科
+JP あら、社長さん～。
+JP ご苦労様です～。
+EN Oh my, it's the president. Thank you for coming all
+EN this way.
+
+@ 18.38
+# 社 長
+JP あの…。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Um... I really want you to join our promotion...
+
+@ 18.45
+# フェアリー保科
+JP どうしたものでしょう～。
+EN Whatever shall I do...
+
+@ 18.48
+# 社 長
+JP どうか私を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you please trust me and join us?
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# フェアリー保科
+JP ところで団体の最寄りの駅は
+JP どちらになるのでしょうか～？
+EN By the way, which station is nearest to your
+EN promotion?
+
+@ 19.18
+# 社 長
+JP ええと、資料にある通りですが…。
+EN Um, it's in the materials there...
+
+@ 19.25
+# フェアリー保科
+JP あら、これは…。
+JP 色々な路線が乗り入れていて
+JP いい場所ですね～。
+EN Oh my, look at this... So many train lines run through
+EN here. What a lovely location.
+
+@ 19.28
+# 社 長
+JP あ、あのＯＫってことで
+JP よろしいでしょうか…？
+EN Um, s-so does that mean it's a yes...?
+
+@ 19.36
+# フェアリー保科
+JP もちろんです～。
+JP よろしくお願いします～。
+EN Of course. I look forward to working with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# フェアリー保科
+JP あまり地元から離れたくないので～。
+EN I'd rather not go too far from home, you see.
+
+@ 20.22
+# 社 長
+JP そ、そうなんですか…。
+JP 残念です。
+EN O-oh, is that so... That's a shame.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は保科のもとを訪ねていた。
+JP 　やはり彼女はうちに必要な選手だ）
+EN (I'd come to see Hoshina. She really is a wrestler we
+EN need.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…あっ、保科！
+EN She should be around here... Ah, Hoshina!
+
+@ 21.35
+# フェアリー保科
+JP あら、社長…。
+JP お久しぶりです～。
+EN Oh my, Boss... It's been a while.
+
+@ 21.38
+# 社 長
+JP 元気そうだな…。
+EN You look well...
+
+@ 21.42
+# フェアリー保科
+JP はい。
+JP おかげさまで～。
+EN Yes. I'm doing fine, thank you.
+
+@ 21.45
+# 社 長
+JP 実は…戻って欲しくて
+JP 探していたんだ。
+EN The truth is... I've been looking for you because I
+EN want you back.
+
+@ 21.52
+# フェアリー保科
+JP まぁ…。
+JP そうだったんですか…。
+EN Oh my... So that's why...
+
+@ 21.55
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだが…。
+JP 戻ってくれないか？
+EN I know I'm in no position to ask this, but... Will you
+EN come back?
+
+@ 21.57
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# フェアリー保科
+JP 私で力になれるのでしょうか～？
+EN Do you think I can really be of help?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need you to lend me your strength.
+
+@ 22.29
+# フェアリー保科
+JP わかりました。
+JP では、改めてよろしく
+JP お願いいたします～。
+EN Very well. Then, once again, I look forward to working
+EN with you.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# フェアリー保科
+JP 困りましたねぇ…。
+EN Oh dear, what should I do...
+
+@ 23.18
+# 社 長
+JP どうしてもダメなのか？
+EN Is there really no way?
+
+@ 23.29
+# フェアリー保科
+JP 私では力になれない気がします～。
+EN I don't feel I'd be of any help to you.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this one on myself too...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は保科と交渉することにした。
+JP 　彼女を諦めることはできない）
+EN (I decided to negotiate with Hoshina. I can't give up
+EN on her.)
+
+@ 24.25
+# 社 長
+JP 保科っ！
+EN Hoshina!
+
+@ 24.35
+# フェアリー保科
+JP まぁ、社長…。
+JP ご無沙汰してます。
+EN Oh my, Boss... It's been quite some time.
+
+@ 24.38
+# 社 長
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN I've come to ask again. I really want you back with
+EN the promotion.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# フェアリー保科
+JP 私で力になれるのでしょうか～？
+EN Do you think I can really be of help?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need you to lend me your strength.
+
+@ 25.29
+# フェアリー保科
+JP わかりました。
+JP では、改めてよろしく
+JP お願いいたします～。
+EN Very well. Then, once again, I look forward to working
+EN with you.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# フェアリー保科
+JP 困りましたねぇ…。
+EN Oh dear, what should I do...
+
+@ 26.18
+# 社 長
+JP どうしてもダメなのか？
+EN Is there really no way?
+
+@ 26.29
+# フェアリー保科
+JP 私では力になれない気がします～。
+EN I don't feel I'd be of any help to you.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this one on myself too...)
+
+@ 27.16
+# scene 028 ケガ小
+# フェアリー保科
+JP ケガには慣れてるんですよ～。
+EN I'm quite used to injuries, you know.
+
+@ 28.16
+# scene 029 ケガ大
+# フェアリー保科
+JP これは休養が必要なケガですね～。
+EN This looks like the kind of injury that needs some
+EN rest.
+
+@ 29.16
+# scene 030 入院
+# フェアリー保科
+JP あらあら～。
+JP なんか大事になっちゃってますね～。
+EN Oh my, oh my. This seems to have turned into quite a
+EN big deal.
+
+@ 30.16
+# scene 031 退院
+# フェアリー保科
+JP ケガをすると健康のありがたみが
+JP 身に染みます～。
+EN Getting hurt really makes you appreciate good
+EN health.
+
+@ 31.16
+# scene 032 ケガ完治
+# フェアリー保科
+JP もうすっかり完治しました～。
+EN I've made a complete recovery now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# フェアリー保科
+JP それを社長がお望みでしたら
+JP 従います～。
+EN If that is what you wish, Boss, I'll do as you say.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# フェアリー保科
+JP おっしゃる意味が
+JP よくわからないのですけれど…？
+EN I'm afraid I don't quite understand what you mean...?
+
+@ 34.16
+# scene 035 コーチ就任
+# フェアリー保科
+JP 今後も精一杯
+JP 務めさせていただきます～。
+EN I'll continue to serve to the very best of my ability.
+
+@ 35.16
+# scene 036 ケガ引退
+# フェアリー保科
+JP まさかケガに泣くことに
+JP なるなんて…。
+JP 残念です～。
+EN I never imagined an injury would be what brought me
+EN to tears... What a pity.
+
+@ 36.16
+# scene 037 年齢引退
+# フェアリー保科
+JP 残念ですが、ここまでのようです～。
+EN It's a pity, but it seems this is as far as I go.
+
+@ 37.16
+# scene 038 退団
+# フェアリー保科
+JP あの～…。
+JP 辞表はこちらで
+JP よろしいのでしょうか～？
+EN Um... Is this where I hand in my resignation letter?
+
+@ 38.16
+# scene 039 スランプ
+# フェアリー保科
+JP うまくいかないです～…。
+EN Things just aren't going well...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# フェアリー保科
+JP ファンクラブ…。
+JP まあまあ～、ありがたいことです～。
+EN A fan club... Oh my, how very kind of them.
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you can live up to all that support.
+
+@ 39.23
+# フェアリー保科
+JP ええ。
+JP がんばらせていただきますね～。
+EN Yes. I'll do my very best.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# フェアリー保科
+JP 新しいファンクラブですか～。
+JP 感激です～。
+EN A new fan club? I'm so touched.
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yep. Make sure you live up to their expectations.
+
+@ 40.26
+# フェアリー保科
+JP 鉄道についても
+JP 語り合いたいですね～。
+EN I'd love to chat with them about trains, too.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# フェアリー保科
+JP 解散することもあるんですねぇ？
+EN So fan clubs can disband too, can they?
+
+@ 41.19
+# 社 長
+JP 気にするな。
+JP またがんばればいいさ。
+EN Don't worry about it. Just keep working hard.
+
+@ 41.26
+# フェアリー保科
+JP はい。
+JP 勉強になりました～。
+EN Yes. It was a learning experience.
+
+@ 42.16
+# scene 043 映画出演
+# フェアリー保科
+JP あ～この原作、知ってます～。
+JP 列車の中で殺人事件が
+JP 起こるんですよ～。
+EN Oh, I know the original story. There's a murder on a
+EN train, you see.
+
+@ 43.16
+# scene 044 一日署長
+# フェアリー保科
+JP 私のようなものでも
+JP 務まるのでしょうか～？
+EN Could someone like me really manage it?
+
+@ 44.16
+# scene 045 写真集発売
+# フェアリー保科
+JP 鉄道車両の中で撮影するというのは
+JP ダメでしょうか～。
+EN Would it be all right to do the shoot inside a train
+EN car?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# フェアリー保科
+JP スポンサーさんの会社の社長
+JP 父の友人ですね～。
+JP 奇遇ですわね～。
+EN The sponsor company's president is a friend of my
+EN father's. What a coincidence.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# フェアリー保科
+JP テンポのゆっくりな曲でしたら
+JP 良いのですけど～。
+EN If it's a song with a slow tempo, that would be nice.
+
+@ 47.16
+# scene 048 始球式
+# フェアリー保科
+JP 初めての経験です～。
+JP なんだかドキドキしてしまいます～。
+EN It's my first time. My heart's pounding a little.
+
+@ 48.16
+# scene 049 学園祭
+# フェアリー保科
+JP イベントが終わったら
+JP 鉄道同好会に遊びに行っても
+JP よろしいでしょうか～？
+EN After the event, might I go visit the railway club?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.35
+# フェアリー保科
+JP あらあら。
+JP お気遣いありがとうございます～。
+EN Oh my. Thank you for being so thoughtful.
+
+@ 49.38
+# 社 長
+JP 気にしないでくれ。
+JP これからもよろしく。
+EN Don't mention it. Keep up the good work.
+
+@ 49.42
+# フェアリー保科
+JP はい～。
+JP 誠心誠意、がんばらせて
+JP いただきます～。
+EN Yes. I'll give it my whole heart.
+
+@ 50.30
+# scene 051 バレンタインデー
+# フェアリー保科
+JP 社長～。
+JP 母が皆さんで
+JP 召し上がってくださいと～。
+EN Boss. My mother asked that everyone please enjoy
+EN these.
+
+@ 50.33
+# 社 長
+JP バレンタインのチョコ？
+JP ありがとう。
+JP 今度お返しさせてもらうよ。
+EN Valentine's chocolates? Thanks. I'll return the favor
+EN sometime.
+
+@ 50.40
+# フェアリー保科
+JP いえいえ、お気遣いなく～。
+EN Oh no, please don't trouble yourself.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# フェアリー保科
+JP あらあら～。
+JP お気遣い恐縮です～。
+EN Oh my. You're too kind, really.
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.29
+# scene 053 サイン会
+# フェアリー保科
+JP わざわざ遠いところから…。
+JP ありがとうございます～。
+EN You came all this way... Thank you so much.
+
+@ 53.31
+# scene 054 コンサート
+# フェアリー保科
+JP どうもありがとうございます～。
+JP 後ろの席の方
+JP 声は届いていますでしょうか～？
+EN Thank you very much. Everyone in the back seats,
+EN can you hear me all right?
+
+@ 54.28
+# scene 055 練習拒否
+# フェアリー保科
+JP これでは
+JP 体を壊してしまうだけかと…。
+EN I think this would only wear my body down...
+
+@ 55.28
+# scene 056 失踪
+# フェアリー保科
+JP ちょっと小旅行に
+JP 行ってまいります～。
+EN I'm off on a little trip.
+
+@ 56.16
+# scene 057 選手解雇
+# フェアリー保科
+JP 私に何か落ち度でも
+JP あったのでしょうか～？
+EN Did I do something wrong?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# フェアリー保科
+JP いってきます～。
+EN I'm off.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# フェアリー保科
+JP 戻りました～。
+JP やっぱり日本は落ち着きます～。
+EN I'm back. Japan really is so relaxing.
+
+@ 59.28
+# scene 060 移籍思案
+# フェアリー保科
+JP あちらを立てれば
+JP こちらが立たずですか～。
+JP 困りました～。
+EN Pleasing one side means letting down the other...
+EN What a dilemma.
+
+@ 60.16
+# scene 061 革命軍結成
+# フェアリー保科
+JP あらあら…。
+JP いつの間にこんなことに～。
+EN Oh my, oh my... When did things turn out like this?
+
+@ 61.16
+# scene 062 反乱軍結成
+# フェアリー保科
+JP 知らないうちに
+JP こんなことになってますね～。
+EN Things have turned out like this before I knew it.
+
+@ 62.16
+# scene 063 最終決戦要求
+# フェアリー保科
+JP そろそろ決着ということで
+JP よろしいでしょうか～？
+EN Shall we say it's about time to settle this?
+
+@ 63.16
+# scene 065 遺恨発生
+# フェアリー保科
+JP ちょっと怒りました～！
+EN I'm a little angry now!
+
+@ 64.16
+# scene 065 殴り込み
+# フェアリー保科
+JP 勝たせていただきます～。
+EN I'll be taking the win, if you don't mind.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# フェアリー保科
+JP 受けて立ちます～！
+EN I accept your challenge!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# フェアリー保科
+JP 胸をお借りしますね～。
+EN I'll be in your care. Please go easy on me.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# フェアリー保科
+JP 精一杯やらせていただきます～。
+EN I'll do my very best.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# フェアリー保科
+JP 優勝ということで
+JP よろしいのでしょうか？
+JP ああ、感無量です～。
+EN Does this mean I won? Oh, I'm overcome with emotion.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# フェアリー保科
+JP 力不足でした～。
+JP 出直してきます～。
+EN I wasn't good enough. I'll come back stronger.
+
+@ 70.13
+# scene 071 引退式
+# フェアリー保科
+JP みなさん、大変お世話になりました～！
+JP 今後とも私たちの団体を
+JP 応援してくださいね～。
+EN Everyone, thank you so much for everything! Please
+EN keep supporting our promotion.
+
+@ 71.17
+# フェアリー保科
+JP ご用でしょうか～？
+EN Did you need something?
+
+@ 71.36
+# フェアリー保科
+JP 社長、私にご用ですか～？
+EN Boss, did you need me for something?
+
+@ 71.46
+# フェアリー保科
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.89
+# フェアリー保科
+JP はい、ありがとうございます～。
+EN Yes, thank you very much.
+
+@ 71.110
+# フェアリー保科
+JP すみません…。
+JP 聞いてませんでした～。
+EN I'm sorry... I wasn't listening.
+
+@ 71.131
+# フェアリー保科
+JP ありがとうございます～。
+JP 今後の励みにしますね～。
+EN Thank you very much. I'll take that as
+EN encouragement.
+
+@ 71.152
+# フェアリー保科
+JP 自分ではもう少しやれると
+JP 思っているんですが～。
+EN I think I could be doing a little better myself...
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# フェアリー保科
+JP すみません…。
+JP もっとがんばります～。
+EN I'm sorry... I'll try harder.
+
+@ 71.210
+# フェアリー保科
+JP そんなぁ…。
+JP 酷いです～。
+EN Oh no... How cruel.
+
+@ 71.231
+# フェアリー保科
+JP 社長のおっしゃる通りかも
+JP しれません…。
+JP 努力します～。
+EN You may be right, Boss... I'll work at it.
+
+@ 71.252
+# フェアリー保科
+JP そんなふうに言われたら
+JP ショックです～。
+EN It's a shock to hear you say that.
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.289
+# フェアリー保科
+JP ええ。
+JP 元気になってきました～。
+EN Yes. I'm feeling better now.
+
+@ 71.310
+# フェアリー保科
+JP ええ…。
+JP ありがとうございます…。
+EN Yes... Thank you...
+
+@ 71.331
+# フェアリー保科
+JP ありがとうございます～。
+JP 元気が出てきました～。
+EN Thank you very much. I'm feeling more cheerful
+EN already.
+
+@ 71.352
+# フェアリー保科
+JP お心遣い感謝します…。
+EN I appreciate your concern...
+
+@ 71.366
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# フェアリー保科
+JP はあ～…。
+EN Well...
+
+@ 71.399
+# フェアリー保科
+JP なんですか～？
+EN What is it?
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.432
+# フェアリー保科
+JP それでは仲直りの席を作ります～。
+EN Then I'll arrange a little get-together so we can
+EN make up.
+
+@ 71.453
+# フェアリー保科
+JP そう言われましても…。
+JP あちらがなんと言うか～。
+EN Even if you say so... I wonder what she'll say.
+
+@ 71.474
+# フェアリー保科
+JP あの…。
+JP おっしゃっている意味が
+JP よくわかりませんが…？
+EN Um... I'm afraid I don't quite understand what you
+EN mean...?
+
+@ 71.487
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# フェアリー保科
+JP なんとなくですが～。
+EN I have a vague idea.
+
+@ 71.521
+# フェアリー保科
+JP さぁ…。
+JP よくわかりません。
+EN Hmm... I'm not really sure.
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.556
+# フェアリー保科
+JP わかりました。
+JP 私の方から謝ってきます～。
+EN Very well. I'll go and apologize first.
+
+@ 71.577
+# フェアリー保科
+JP 社長は私を信じては
+JP くれないのですね～。
+EN So you don't believe in me, Boss.
+
+@ 71.598
+# フェアリー保科
+JP あの…。
+JP どなたかと間違えて
+JP いないでしょうか～？
+EN Um... Aren't you mistaking me for someone else?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# フェアリー保科
+JP 社長、私にご用ですか～？
+EN Boss, did you need me for something?
+
+@ 72.16
+# フェアリー保科
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# フェアリー保科
+JP はい、ありがとうございます～。
+EN Yes, thank you very much.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# フェアリー保科
+JP すみません…。
+JP 聞いてませんでした～。
+EN I'm sorry... I wasn't listening.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# フェアリー保科
+JP ありがとうございます～。
+JP 今後の励みにしますね～。
+EN Thank you very much. I'll take that as
+EN encouragement.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# フェアリー保科
+JP 自分ではもう少しやれると
+JP 思っているんですが～。
+EN I think I could be doing a little better myself...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# フェアリー保科
+JP すみません…。
+JP もっとがんばります～。
+EN I'm sorry... I'll try harder.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# フェアリー保科
+JP そんなぁ…。
+JP 酷いです～。
+EN Oh no... How cruel.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# フェアリー保科
+JP 社長のおっしゃる通りかも
+JP しれません…。
+JP 努力します～。
+EN You may be right, Boss... I'll work at it.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# フェアリー保科
+JP そんなふうに言われたら
+JP ショックです～。
+EN It's a shock to hear you say that.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# フェアリー保科
+JP ええ。
+JP 元気になってきました～。
+EN Yes. I'm feeling better now.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# フェアリー保科
+JP ええ…。
+JP ありがとうございます…。
+EN Yes... Thank you...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# フェアリー保科
+JP ありがとうございます～。
+JP 元気が出てきました～。
+EN Thank you very much. I'm feeling more cheerful
+EN already.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# フェアリー保科
+JP お心遣い感謝します…。
+EN I appreciate your concern...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# フェアリー保科
+JP はあ～…。
+EN Well...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# フェアリー保科
+JP なんですか～？
+EN What is it?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# フェアリー保科
+JP それでは仲直りの席を作ります～。
+EN Then I'll arrange a little get-together so we can
+EN make up.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# フェアリー保科
+JP そう言われましても…。
+JP あちらがなんと言うか～。
+EN Even if you say so... I wonder what she'll say.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# フェアリー保科
+JP あの…。
+JP おっしゃっている意味が
+JP よくわかりませんが…？
+EN Um... I'm afraid I don't quite understand what you
+EN mean...?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# フェアリー保科
+JP なんとなくですが～。
+EN I have a vague idea.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# フェアリー保科
+JP さぁ…。
+JP よくわかりません。
+EN Hmm... I'm not really sure.
+
+@ 98.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# フェアリー保科
+JP わかりました。
+JP 私の方から謝ってきます～。
+EN Very well. I'll go and apologize first.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# フェアリー保科
+JP 社長は私を信じては
+JP くれないのですね～。
+EN So you don't believe in me, Boss.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# フェアリー保科
+JP あの…。
+JP どなたかと間違えて
+JP いないでしょうか～？
+EN Um... Aren't you mistaking me for someone else?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# フェアリー保科
+JP これなら母にも報告できます～。
+EN Now I can report this to my mother.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# フェアリー保科
+JP これなら家族全員
+JP 納得してくれると思います～。
+EN I think my whole family will be satisfied with this.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# フェアリー保科
+JP あらあら…。
+JP これでは家の者に言えませんね～。
+JP 困りました～。
+EN Oh my, oh my... I can't tell my family about this. What a
+EN predicament.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Mmm, the tropics really are something. The sun is
+EN blazing.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.35
+# 社 長
+JP ふあぁあぁぁ…。
+EN Haaaaah...
+
+@ 105.37
+# 社 長
+JP （波の音って眠くなるよな…）
+EN (The sound of the waves really makes you sleepy...)
+
+@ 105.39
+# 社 長
+JP （俺はのんびり寝ているか…）
+EN (Guess I'll just take a nice nap...)
+
+@ 105.64
+# 社 長
+JP ぐおっ！
+EN Oof!
+
+@ 105.66
+# 社 長
+JP なんだ、なんだ！？
+EN What the, what the!?
+
+@ 105.80
+# フェアリー保科
+JP ひゃあっ！？
+EN Eek!?
+
+@ 105.84
+# フェアリー保科
+JP ど、どこのどなたか存じませんが
+JP 申し訳ありません～。
+EN I-I don't know who you are, but I'm terribly sorry!
+
+@ 105.87
+# 社 長
+JP …保科？
+EN ...Hoshina?
+
+@ 105.89
+# 社 長
+JP 落ち着け。
+JP 俺だよ、俺。
+EN Calm down. It's me, me.
+
+@ 105.93
+# フェアリー保科
+JP ……えッ？
+EN ......Huh?
+
+@ 105.97
+# フェアリー保科
+JP その声はもしかして社長ですか～？
+EN That voice... Could it be you, Boss?
+
+@ 105.100
+# 社 長
+JP いったいどうしたんだ？
+EN What on earth happened?
+
+@ 105.104
+# フェアリー保科
+JP すみません～。
+JP 眼鏡をホテルに
+JP 忘れてしまいまして～。
+EN I'm sorry. I left my glasses at the hotel.
+
+@ 105.107
+# 社 長
+JP なるほど。
+JP そういうことか。
+EN I see. So that's what happened.
+
+@ 105.109
+# 社 長
+JP 気をつけろよ。
+EN Be careful.
+
+@ 105.113
+# フェアリー保科
+JP はい～。
+JP 申し訳ありません～。
+EN Yes. I'm terribly sorry.
+
+@ 105.116
+# 社 長
+JP （しかし…）
+EN (But still...)
+
+@ 105.118
+# 社 長
+JP （これはこれで
+JP 　刺激的な光景だなぁ…）
+EN (This is quite a stimulating sight in its own way...)
+
+@ 105.120
+# 社 長
+JP （思わず視線が…）
+EN (My eyes keep wandering...)
+
+@ 105.124
+# フェアリー保科
+JP 社長～、どこを見てるんですか～。
+EN Boss, where are you looking?
+
+@ 105.127
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 105.131
+# フェアリー保科
+JP そんな風に見られたら
+JP 私、お嫁にいけません…。
+EN If you look at me like that, I'll never be able to
+EN marry...
+
+@ 105.134
+# 社 長
+JP そんな大げさな…。
+EN Aren't you exaggerating a bit...
+
+@ 105.144
+# フェアリー保科
+JP そうしたら
+JP 社長に責任取ってもらいます…。
+EN Then I'll have to make you take responsibility, Boss...
+
+@ 105.147
+# 社 長
+JP …あ、いや、そんな…。
+EN ...Ah, no, I mean...
+
+@ 105.151
+# フェアリー保科
+JP 冗談です～。
+EN I'm only joking.
+
+@ 105.154
+# 社 長
+JP あ、あははは…。
+EN A-ahahaha...
+
+@ 105.158
+# フェアリー保科
+JP ウフフフ～。
+EN Ufufufu.
+
+@ 105.161
+# 社 長
+JP （冗談に聞こえなかったのは
+JP 　気のせいか…）
+EN (Is it just me, or did that not sound like a joke...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、これで一段落だ）
+EN (All right, that's one thing done.)
+
+@ 106.26
+# 社 長
+JP （ちょっと休憩するか）
+EN (Time for a little break.)
+
+@ 106.39
+# 社 長
+JP （…んっ、誰だろう？）
+EN (...Hm? Who could that be?)
+
+@ 106.41
+# 社 長
+JP どうぞー。
+EN Come in.
+
+@ 106.54
+# 社 長
+JP なんだ、保科か？
+EN Oh, Hoshina?
+
+@ 106.61
+# フェアリー保科
+JP あの～、社長～。
+EN Um, Boss.
+
+@ 106.64
+# 社 長
+JP どうした？
+EN What's up?
+
+@ 106.68
+# フェアリー保科
+JP 相談したいことがあるんですけれど
+JP よろしいでしょうか～。
+EN There's something I'd like to ask your advice about.
+EN Would that be all right?
+
+@ 106.71
+# 社 長
+JP ああ、いいぞ。
+JP なんだ？
+EN Sure. What is it?
+
+@ 106.78
+# フェアリー保科
+JP あの…えっと…そのぉ～。
+EN Um... well... you see...
+
+@ 106.81
+# 社 長
+JP 遠慮しなくていいぞ。
+EN Don't be shy.
+
+@ 106.85
+# フェアリー保科
+JP はい。
+JP あの～…実は……。
+EN Yes. Um... the truth is......
+
+@ 106.92
+# フェアリー保科
+JP 今、お見合いを
+JP 勧められていまして～。
+EN I'm being pushed into an arranged marriage meeting.
+
+@ 106.95
+# 社 長
+JP 見合い！？
+JP 結婚するのか！？
+EN An arranged marriage!? You're getting married!?
+
+@ 106.99
+# フェアリー保科
+JP いえ～、断っても断っても
+JP 両親が次々と紹介してくるんです～。
+EN Oh no. But no matter how many times I say no, my
+EN parents keep introducing one man after another.
+
+@ 106.102
+# 社 長
+JP ああ、それで困っている訳か。
+EN Ah, so that's what's troubling you.
+
+@ 106.104
+# 社 長
+JP （そういえば保科は
+JP 　いい家のお嬢様なんだよな…）
+EN (Come to think of it, Hoshina is a young lady from a
+EN good family...)
+
+@ 106.111
+# フェアリー保科
+JP どのようにお断りしたら
+JP 諦めていただけるのか…。
+EN How should I turn them down so they'll give up...?
+
+@ 106.118
+# フェアリー保科
+JP 社長のご意見を
+JP うかがいたいのですけれど～。
+EN I'd like to hear your opinion, Boss.
+
+@ 106.121
+# 社 長
+JP うーむ。
+JP そうだな…。
+EN Hmm. Let's see...
+
+@ 106.123
+# 社 長
+JP （こんなときの定番は…）
+EN (The classic answer in times like this...)
+
+@ 106.126
+# 社 長
+JP 好きな人がいるからと
+JP 言っておけばどうだ？
+EN How about telling them there's someone you like?
+
+@ 106.133
+# フェアリー保科
+JP ええっ！
+JP そんなことをして
+JP よろしいのでしょうか～？
+EN Oh my! Would it really be all right to do that?
+
+@ 106.137
+# フェアリー保科
+JP 勝手にそんなこと言われては
+JP その方に悪いと思うのですけれど～。
+EN I think it'd be unfair to that person, saying such a
+EN thing without asking...
+
+@ 106.140
+# 社 長
+JP それくらい問題ないさ。
+JP 好きだと言われて
+JP 喜ばないヤツなんていない。
+EN That's no big deal. Nobody would mind hearing that
+EN someone likes them.
+
+@ 106.154
+# フェアリー保科
+JP 本当によろしいのですか？
+EN Is it really all right?
+
+@ 106.157
+# 社 長
+JP 構わないよ。
+EN Sure, go ahead.
+
+@ 106.161
+# フェアリー保科
+JP 本当に良いのでしたら
+JP 指切りしてもらえますか～？
+EN If it's really all right, will you make a pinky promise
+EN with me?
+
+@ 106.164
+# 社 長
+JP …指切り？
+JP まあ…いいけど？
+EN ...A pinky promise? Well... sure, I guess?
+
+@ 106.175
+# フェアリー保科
+JP 指切りげんまん…。
+EN Pinky promise...
+
+@ 106.195
+# 社 長
+JP これでいいのか？
+EN Is that all?
+
+@ 106.199
+# フェアリー保科
+JP はい。
+JP ありがとうございます～。
+EN Yes. Thank you very much.
+
+@ 106.215
+# 社 長
+JP …なんだったんだろう？
+EN ...What was that all about?
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （はー、今日も働いたなー）
+EN (Whew, another hard day's work.)
+
+@ 107.26
+# 社 長
+JP （ちょっと休憩しよう）
+EN (Let me take a little break.)
+
+@ 107.38
+# 社 長
+JP （…んっ、誰だろう？）
+EN (...Hm? Who could that be?)
+
+@ 107.40
+# 社 長
+JP どうぞー。
+EN Come in.
+
+@ 107.60
+# 社 長
+JP なんだ、保科か。
+EN Oh, it's Hoshina.
+
+@ 107.64
+# フェアリー保科
+JP あの～…社長～。
+EN Um... Boss.
+
+@ 107.67
+# 社 長
+JP どうした？
+EN What's up?
+
+@ 107.71
+# フェアリー保科
+JP 実はまたお見合いの話を
+JP 勧められていまして～。
+EN The truth is, they're pushing another arranged
+EN marriage meeting on me.
+
+@ 107.74
+# 社 長
+JP あっ、そうなのか。
+EN Oh, is that so.
+
+@ 107.78
+# フェアリー保科
+JP そうなんです～。
+EN Yes, it is.
+
+@ 107.81
+# 社 長
+JP （なんだか嬉しそうだな。
+JP 　今度の見合い相手は
+JP 　気に入ったのか？）
+EN (She looks kind of happy. Does she like this one?)
+
+@ 107.85
+# フェアリー保科
+JP どうしたらよろしいでしょうか～？
+EN What should I do?
+
+@ 107.88
+# 社 長
+JP 行って来ればいいんじゃないか？
+EN Why not go and meet him?
+
+@ 107.90
+# 社 長
+JP 当日の休みについては、
+JP うまく伝えておくよ。
+JP 安心しろ。
+EN I'll take care of getting you the day off. Don't
+EN worry.
+
+@ 107.100
+# フェアリー保科
+JP ………グスッ…。
+EN .........*sniff*...
+
+@ 107.104
+# フェアリー保科
+JP ひどいです～。
+JP あんまりです～。
+EN That's cruel. That's just too much.
+
+@ 107.108
+# フェアリー保科
+JP 社長がそんなことを言うなんて…。
+EN For you of all people to say something like that...
+
+@ 107.112
+# フェアリー保科
+JP あれは嘘だったんですか～。
+EN So that was a lie?
+
+@ 107.115
+# 社 長
+JP （…えっ、俺が悪いのか？
+JP 　嘘って何のことだ？
+JP 　それに「あれ」ってなんだ…？）
+EN (...Huh? Is this my fault? A lie about what? And what's
+EN "that"...?)
+
+@ 107.119
+# フェアリー保科
+JP 私の気持ちは弄ばれたんですか～。
+EN Were you just toying with my feelings?
+
+@ 107.122
+# 社 長
+JP （…な、なんだかわからないが
+JP 　俺が責められてるのか？）
+EN (...I-I have no idea what's going on, but am I being
+EN blamed here?)
+
+@ 107.124
+# 社 長
+JP いや、その…なんだ。
+JP 保科、嘘じゃない。
+JP 「あれ」は決して嘘じゃないぞ。
+EN No, uh... what I mean is... Hoshina, it wasn't a lie. "That"
+EN was absolutely not a lie.
+
+@ 107.126
+# 社 長
+JP （「あれ」というのが
+JP 　なんのことなのかは
+JP 　さっぱりわからないけど…）
+EN (Not that I have the faintest idea what "that" is...)
+
+@ 107.128
+# 社 長
+JP そうだよ！
+JP 見合いなんてしなくても
+JP いいじゃないか！
+EN That's right! You don't need to go to any arranged
+EN marriage meeting!
+
+@ 107.138
+# フェアリー保科
+JP 本当ですか～？
+EN Really?
+
+@ 107.141
+# 社 長
+JP 本当だとも！
+EN Really, truly!
+
+@ 107.151
+# フェアリー保科
+JP 安心しました～。
+EN What a relief.
+
+@ 107.154
+# 社 長
+JP （よ、よかった。
+JP 　落ち着いてくれた…）
+EN (Ph-phew. She's calmed down...)
+
+@ 107.158
+# フェアリー保科
+JP では社長～。
+JP 今回の分の指切りを
+JP してもいいですか～？
+EN Then, Boss. May we make a pinky promise for this
+EN time too?
+
+@ 107.161
+# 社 長
+JP （…へっ？
+JP 　また指切り？
+JP 　今度はなんの？）
+EN (...Huh? Another pinky promise? What's this one for?)
+
+@ 107.165
+# フェアリー保科
+JP …社長？
+EN ...Boss?
+
+@ 107.168
+# 社 長
+JP ああ、もちろん構わないよ。
+JP さあ、指切りしよう。
+EN Oh, of course, no problem. Come on, let's make a
+EN pinky promise.
+
+@ 107.179
+# フェアリー保科
+JP 指切りげんまん、嘘ついたら…。
+EN Pinky promise, pinky swear, if you lie to me...
+
+@ 107.182
+# 社 長
+JP （…どうなるんだろうなぁ）
+EN (...I wonder what happens then.)
+
+@ 107.205
+# 社 長
+JP これでいいのか？
+EN Is that all?
+
+@ 107.209
+# フェアリー保科
+JP はい。
+JP ありがとうございます～。
+EN Yes. Thank you very much.
+
+@ 107.225
+# 社 長
+JP …うーん。
+JP これでよかったのか…？
+EN ...Hmm. Was that really okay...?
+
+@ 108.16
+# scene 113 練習開始
+# フェアリー保科
+JP では始めさせていただきますね～。
+EN Well then, let's get started.
+
+@ 109.16
+# scene 114 練習開始 好意
+# フェアリー保科
+JP がんばらせていただきます～！
+EN I'll do my very best!
+
+@ 110.16
+# scene 115 特訓開始
+# フェアリー保科
+JP 慣れていないので
+JP ご迷惑をおかけするかも
+JP しれませんが…。
+EN I'm not used to this, so I may cause you some trouble,
+EN but...
+
+@ 111.20
+# scene 116 特訓成功
+# フェアリー保科
+JP これが特訓ですか～。
+JP 素敵ですね～。
+EN So this is special training? How wonderful.
+
+@ 112.20
+# scene 117 特訓失敗
+# フェアリー保科
+JP やはりご迷惑では
+JP なかったでしょうか～？
+EN I wasn't a bother to you, was I?
+
+@ 113.16
+# scene 118 休養
+# フェアリー保科
+JP 久しぶりに電車で旅行に
+JP 行ってみようと思います～。
+EN I think I'll take a trip by train for the first time in a
+EN while.
+
+@ 114.16
+# scene 119 入場1
+# フェアリー保科
+JP 恥ずかしくない試合を
+JP いたしましょう。
+EN Let's have a match we can be proud of.
+
+@ 115.16
+# scene 119 入場2
+# フェアリー保科
+JP え～と…。
+JP リングはこっちでいいんですよね？
+EN Um... The ring is this way, right?
+
+@ 116.16
+# scene 125 必殺技１
+# フェアリー保科
+JP 三番線にチャンス到来ですね～！
+EN Your chance is now arriving on track three!
+
+@ 117.16
+# scene 125 必殺技２
+# フェアリー保科
+JP これで終わりにいたしましょう～。
+EN Let's bring this to an end, shall we?
+
+@ 118.16
+# scene 125 必殺技３
+# フェアリー保科
+JP もう止められませんよ～。
+EN There's no stopping me now.
+
+@ 119.12
+# scene 126 勝利1
+# フェアリー保科
+JP ありがとうございます。
+JP 良い試合をさせていただきました～。
+EN Thank you very much. That was a lovely match.
+
+@ 120.12
+# scene 126 勝利2
+# フェアリー保科
+JP 私の勝ち、ということで
+JP よろしいのでしょうか？
+JP ありがとうございます～。
+EN Shall we say I won, then? Thank you very much.
+
+@ 121.12
+# scene 126 勝利3
+# フェアリー保科
+JP こうしてフラッシュを浴びるのも
+JP いいものですね～。
+EN Basking in the camera flashes like this isn't bad at
+EN all.
+
+@ 122.15
+# scene 133 表彰1
+# フェアリー保科
+JP 応援ありがとうございます。
+JP いただいた賞に相応しい実力を
+JP 身につけたいと思います～。
+EN Thank you for your support. I hope to become
+EN strong enough to deserve this award.
+
+@ 123.15
+# scene 133 表彰2
+# フェアリー保科
+JP この栄光を汚さぬよう
+JP 日々精進していきたいと思います～。
+EN I'll keep working hard every day so as not to tarnish
+EN this honor.
+
+@ 124.12
+# scene 134 優勝1
+# フェアリー保科
+JP あらあら、優勝ですか？
+JP みなさん、応援ありがとう
+JP ございました～。
+EN Oh my, I won the tournament? Everyone, thank you so
+EN much for your support.
+
+@ 125.12
+# scene 134 優勝２
+# フェアリー保科
+JP 勝ちました～。
+JP 奇跡が起こったみたいですね～。
+EN I won. It seems a miracle has happened.
+
+@ 126.24
+# scene 135 エンディング 通常
+# フェアリー保科
+JP 社長、おめでとうございます～。
+JP これからも末永くよろしく
+JP お願いいたしますね～。
+EN Congratulations, Boss. I hope we'll be together for a
+EN long, long time.
+
+@ 127.24
+# scene 136 エンディング 好意
+# フェアリー保科
+JP 社長、お祝いに今度一緒に
+JP 電車を見に行きましょう。
+JP 一応、デートのお誘いです～。
+EN Boss, to celebrate, let's go watch trains together
+EN sometime. This is a date invitation, by the way.

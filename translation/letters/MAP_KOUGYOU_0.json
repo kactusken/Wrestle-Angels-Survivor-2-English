@@ -1,0 +1,12 @@
+{
+ "english": "Months Between Shows",
+ "boxes": [[0, 14, 320, 28]],
+ "fill": "bright",
+ "ground": "interpolate",
+ "font": "BarlowCondensed-BoldItalic.ttf",
+ "cap": 16,
+ "shear": 0.12,
+ "draw": "banners.draw",
+ "mode": "map",
+ "notes": "map title banner; the game joins x 0-63 of rows 64-127 to the strip's right end, so the box is in joined coordinates (x 256-319 = rows 64-127) (tools/letter_ext/banners.py)"
+}

@@ -1,0 +1,94 @@
+# /SCR/213.BIN - アニー・ビーチ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 213` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# アニー・ビーチ
+JP みんなの応援があれば
+JP 私は無敵でーす！
+EN With everyone cheering, I'm invincible!
+
+@ 1.16
+# scene 119 入場1
+# アニー・ビーチ
+JP このビートいいよーッ！
+JP 燃えてきたーッ！
+EN This beat is so good! I'm getting fired up!
+
+@ 2.16
+# scene 119 入場2
+# アニー・ビーチ
+JP みんなー！
+JP 今日も応援ヨロシク～！
+EN Hi, everybody! Cheer for me again today!
+
+@ 3.16
+# scene 125 必殺技１
+# アニー・ビーチ
+JP イッツ・ショウ・タ～イム！
+EN It's showtime!
+
+@ 4.16
+# scene 125 必殺技２
+# アニー・ビーチ
+JP これがクライマックス、
+JP 見逃しちゃダ・メ・ヨ！
+EN This is the climax, so don't you dare miss it!
+
+@ 5.16
+# scene 125 必殺技３
+# アニー・ビーチ
+JP リングの海で溺れてみる？
+EN Wanna drown in the sea of the ring?
+
+@ 6.12
+# scene 126 勝利1
+# アニー・ビーチ
+JP あなたとはいいライバルに
+JP なれそうね！
+EN I think you and I could be good rivals!
+
+@ 7.12
+# scene 126 勝利2
+# アニー・ビーチ
+JP 今回は私の勝ちみたいね！
+EN Looks like I win this time!
+
+@ 8.12
+# scene 126 勝利3
+# アニー・ビーチ
+JP かわいいだけじゃ勝てないの♪
+EN Being cute isn't enough to win, you know♪
+
+@ 9.15
+# scene 133 表彰1
+# アニー・ビーチ
+JP ありがとうございます！
+JP カンシャ、カンシャです！
+EN Thank you! Thank you, thank you so much!
+
+@ 10.15
+# scene 133 表彰2
+# アニー・ビーチ
+JP 私がもらっちゃっていいの～？
+EN Are you sure I can have this?
+
+@ 11.12
+# scene 134 優勝1
+# アニー・ビーチ
+JP 応援してくれたみんなに
+JP カンシャしまーす！
+EN Thanks so much to everyone who cheered for me!
+
+@ 12.12
+# scene 134 優勝２
+# アニー・ビーチ
+JP 私だってやればできるんだねッ！
+EN Guess I can do it too if I really try!

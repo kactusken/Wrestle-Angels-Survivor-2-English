@@ -1,0 +1,2171 @@
+# /SCR/014.BIN - パンサー理沙子
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 014` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# パンサー理沙子
+JP 理沙子です。
+JP 精一杯がんばりますので
+JP よろしくお願いします。
+EN I'm Risako. I'll do my very best, so I look forward to
+EN working with you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# パンサー理沙子
+JP ありがとうございます。
+JP まずは基礎から叩き込んでください。
+EN Thank you very much. Please start by drilling the
+EN basics into me.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# パンサー理沙子
+JP テストを受けさせていただき
+JP ありがとうございました。
+EN Thank you for letting me take the tryout.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （資料によれば、このあたりに…。
+JP 　あぁ、あの娘だ、間違いない）
+EN (According to my notes, she should be around here...
+EN Ah, that's her. No doubt about it.)
+
+@ 3.25
+# 社 長
+JP あの、すみません。
+JP 理沙子さんですか？
+EN Um, excuse me. Are you Risako?
+
+@ 3.35
+# パンサー理沙子
+JP えぇ…。
+JP 何かご用でしょうか？
+EN Yes... Can I help you?
+
+@ 3.38
+# 社 長
+JP 突然ですみません。
+JP 私、プロレス団体を
+JP 経営している者なんですが…。
+EN Sorry to approach you out of the blue. I run a
+EN pro-wrestling promotion...
+
+@ 3.45
+# パンサー理沙子
+JP 社長さんですか…。
+JP もしかして私のことを？
+EN A company president... Could it be you're here about
+EN me?
+
+@ 3.48
+# 社 長
+JP はい。
+JP あなたの噂を聞きつけて
+JP スカウトに来ました。
+EN Yes. I heard about you and came to scout you.
+
+@ 3.50
+# 社 長
+JP どうでしょう。
+JP プロのリングで自分を試して
+JP みませんか？
+EN What do you say? Would you like to test yourself in a
+EN professional ring?
+
+@ 3.52
+# 社 長
+JP （俺は熱心に彼女を説得してみた）
+EN (I tried my best to persuade her.)
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# パンサー理沙子
+JP そうですね…。
+JP いずれ挑戦してみたいと
+JP 思っていましたから…。
+EN Well... I was thinking I'd like to give it a try someday...
+
+@ 4.18
+# 社 長
+JP 本当ですか！？
+EN Really?!
+
+@ 4.29
+# パンサー理沙子
+JP はい。
+JP まだ未熟者ですが
+JP よろしくお願いします。
+EN Yes. I still have a lot to learn, but I'm in your hands.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# パンサー理沙子
+JP ごめんなさい。
+JP 今はまだ力がたりませんから…。
+EN I'm sorry. I'm not strong enough yet...
+
+@ 5.22
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP よーし、今度こそ…。
+JP あの、すみません。
+EN All right, this time for sure... Um, excuse me.
+
+@ 6.33
+# パンサー理沙子
+JP ああ、社長さん…。
+JP またいらっしゃったんですか？
+EN Oh, it's you, sir... You came back again?
+
+@ 6.36
+# 社 長
+JP はい。
+JP どうしてもうちの団体に
+JP 入って欲しいんです。
+EN Yes. I really want you to join my promotion.
+
+@ 6.43
+# パンサー理沙子
+JP そんな…。
+JP 私みたいな年下に頭を下げるなんて…。
+EN Oh, please... Bowing your head to someone younger
+EN like me...
+
+@ 6.46
+# 社 長
+JP あなたに入団してもらうためには
+JP このくらい…。
+EN If it gets you to join, it's the least I can do...
+
+@ 6.53
+# パンサー理沙子
+JP そこまでされたら
+JP お断りしにくいですね…。
+EN When you go that far, it's hard to say no...
+
+@ 6.56
+# 社 長
+JP …えっ？
+JP うちで戦ってもらえるんですか？
+EN ...Huh? You mean you'll wrestle for us?
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# パンサー理沙子
+JP そうですね…。
+JP いずれ挑戦してみたいと
+JP 思っていましたから…。
+EN Well... I was thinking I'd like to give it a try someday...
+
+@ 7.18
+# 社 長
+JP 本当ですか！？
+EN Really?!
+
+@ 7.29
+# パンサー理沙子
+JP はい。
+JP まだ未熟者ですが
+JP よろしくお願いします。
+EN Yes. I still have a lot to learn, but I'm in your hands.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# パンサー理沙子
+JP ごめんなさい。
+JP 今はまだ力がたりませんから…。
+EN I'm sorry. I'm not strong enough yet...
+
+@ 8.22
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （理沙子選手…。
+JP 　彼女のような華のある選手
+JP 　是非うちに欲しいところだ）
+EN (Risako... I'd love to have a wrestler with her star
+EN quality in my promotion.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+JP 私、プロレス団体を
+JP 経営している者なんですが…。
+EN Um, excuse me. I run a pro-wrestling promotion...
+
+@ 9.37
+# パンサー理沙子
+JP あっ、はい。
+JP いつもお世話になってます。
+JP 私は…。
+EN Oh, yes. Thank you for all your support. I'm...
+
+@ 9.40
+# 社 長
+JP 理沙子さん、ですよね。
+JP プロレスラーの。
+EN Risako, right? The pro wrestler.
+
+@ 9.42
+# 社 長
+JP 単刀直入に言いますが
+JP あなたを引き抜きに来ました。
+EN I'll get straight to the point. I'm here to lure you
+EN away.
+
+@ 9.49
+# パンサー理沙子
+JP 私を…ですか…？
+EN Me...?
+
+@ 9.52
+# 社 長
+JP 考えていただけませんか？
+EN Would you consider it?
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# パンサー理沙子
+JP そうですね。
+JP そちらに移った方がプロレス界が
+JP 盛り上がるかもしれませんね…。
+EN Well... Perhaps the wrestling world would get more
+EN exciting if I moved to your side...
+
+@ 10.18
+# 社 長
+JP えぇ、それを狙ってのことです。
+JP どうでしょう？
+EN Yes, that's exactly what I'm aiming for. What do you
+EN say?
+
+@ 10.29
+# パンサー理沙子
+JP わかりました。
+JP そういうことでしたら
+JP このお話、お受けします。
+EN Very well. If that's the case, I accept your offer.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# パンサー理沙子
+JP ごめんなさい…。
+JP 今の団体を裏切ることはできません。
+EN I'm sorry... I can't betray my current promotion.
+
+@ 11.22
+# 社 長
+JP そこをなんとか
+JP 考え直していただけませんか？
+EN Couldn't you reconsider, somehow?
+
+@ 11.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには理沙子選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (My promotion really needs Risako. I decided to
+EN negotiate once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# パンサー理沙子
+JP ああ、この前の…。
+JP 今日も例の話ですか？
+EN Oh, you're the one from before... Here about that
+EN again today?
+
+@ 12.38
+# 社 長
+JP えぇ。
+JP どうしてもうちの団体に
+JP 移籍して欲しいんです。
+EN Yes. I really want you to transfer to my promotion.
+
+@ 12.45
+# パンサー理沙子
+JP すみません…。
+JP 何度も来ていただいて…。
+EN I'm sorry... for making you come all this way so many
+EN times...
+
+@ 12.48
+# 社 長
+JP いえ、これも仕事のうちです。
+JP それより考え直していただけませんか？
+EN No, it's all part of the job. More importantly, would
+EN you reconsider?
+
+@ 12.50
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my terms again and earnestly tried to
+EN persuade her.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# パンサー理沙子
+JP そうですね。
+JP そちらに移った方がプロレス界が
+JP 盛り上がるかもしれませんね…。
+EN Well... Perhaps the wrestling world would get more
+EN exciting if I moved to your side...
+
+@ 13.18
+# 社 長
+JP えぇ、それを狙ってのことです。
+JP どうでしょう？
+EN Yes, that's exactly what I'm aiming for. What do you
+EN say?
+
+@ 13.29
+# パンサー理沙子
+JP わかりました。
+JP そういうことでしたら
+JP このお話、お受けします。
+EN Very well. If that's the case, I accept your offer.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# パンサー理沙子
+JP ごめんなさい…。
+JP 今の団体を裏切ることはできません。
+EN I'm sorry... I can't betray my current promotion.
+
+@ 14.22
+# 社 長
+JP そこをなんとか
+JP 考え直していただけませんか？
+EN Couldn't you reconsider, somehow?
+
+@ 14.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （理沙子選手…。
+JP 　彼女のような華のある選手
+JP 　是非うちの団体に欲しいところだ）
+EN (Risako... I'd love to have a wrestler with her star
+EN quality in my promotion.)
+
+@ 15.25
+# 社 長
+JP （いつもこのあたりにいるって
+JP 　話だけど…あぁ、いたいた）
+EN (I heard she's always around here... Ah, there she is.)
+
+@ 15.27
+# 社 長
+JP あっ、理沙子さん。
+JP 突然すみません。
+JP 私、こういう者なんですが…。
+EN Ah, Risako. Sorry to bother you out of nowhere.
+EN Here's my card...
+
+@ 15.37
+# パンサー理沙子
+JP あら…。
+JP 社長さんにしては、お若いんですね。
+EN My... You're quite young for a company president.
+
+@ 15.40
+# 社 長
+JP いやぁ、それを言ったら
+JP あなたこそレスラーに
+JP 見えないくらい綺麗ですよ。
+EN Well, if you're going to say that, you're so lovely you
+EN hardly look like a wrestler.
+
+@ 15.47
+# パンサー理沙子
+JP ウフフ…。
+JP お世辞を言うために
+JP いらしたんですか？
+EN Ufufu... Did you come all this way just to flatter me?
+
+@ 15.50
+# 社 長
+JP あなたなら、もうお気づきに
+JP なってるんじゃないですか？
+EN I think you've probably figured it out already.
+
+@ 15.57
+# パンサー理沙子
+JP そうですね…。
+JP 社長さんの団体に入らないか？
+JP そういうお話ですよね？
+EN Let me see... You want me to join your promotion.
+EN That's what this is about, isn't it?
+
+@ 15.60
+# 社 長
+JP はい、その通りです。
+JP 考えていただけませんか？
+EN Yes, exactly. Would you consider it?
+
+@ 15.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# パンサー理沙子
+JP そうですね。
+JP いつまでもフリーでいられる訳が
+JP ありませんものね。
+EN Well... I suppose I can't stay freelance forever.
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# パンサー理沙子
+JP はい、お世話になります。
+JP よろしくお願いします。
+EN Yes, I'm in your care. I look forward to working with
+EN you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# パンサー理沙子
+JP すみません…。
+JP もう少しフリーで自分の力を
+JP 試そうと思っていますから…。
+EN I'm sorry... I want to test myself as a freelancer a
+EN little longer...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには理沙子選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (My promotion really needs Risako. I decided to
+EN negotiate once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# パンサー理沙子
+JP …あら、こんにちは。
+JP また例のお誘いですか？
+EN ...Oh, hello. Here with that invitation again?
+
+@ 18.38
+# 社 長
+JP はい、どうでしょうか。
+JP 考え直していただけませんか？
+EN Yes. What do you say? Would you reconsider?
+
+@ 18.40
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my terms again and earnestly tried to
+EN persuade her.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# パンサー理沙子
+JP そうですね。
+JP いつまでもフリーでいられる訳が
+JP ありませんものね。
+EN Well... I suppose I can't stay freelance forever.
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# パンサー理沙子
+JP はい、お世話になります。
+JP よろしくお願いします。
+EN Yes, I'm in your care. I look forward to working with
+EN you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# パンサー理沙子
+JP すみません…。
+JP もう少しフリーで自分の力を
+JP 試そうと思っていますから…。
+EN I'm sorry... I want to test myself as a freelancer a
+EN little longer...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は理沙子を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to visit Risako. My promotion really does
+EN need her.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、いたいた。
+JP 理沙子！
+EN She should be around here... Ah, there she is. Risako!
+
+@ 21.35
+# パンサー理沙子
+JP 社長…。
+JP お元気そうですね…。
+JP 今日はどうされたんですか…？
+EN Boss... You look well... What brings you here today...?
+
+@ 21.38
+# 社 長
+JP その…なんだ。
+JP 言えた義理じゃないことは
+JP わかってるんだが…。
+EN Well... you see. I know I'm in no position to ask, but...
+
+@ 21.45
+# パンサー理沙子
+JP もしかして、また私を…？
+EN Could it be... you want me back?
+
+@ 21.48
+# 社 長
+JP すまなかった…。
+JP やっぱりうちには君が必要なんだ。
+JP 頼む、戻ってくれないか？
+EN I'm sorry... My promotion really does need you.
+EN Please, would you come back?
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# パンサー理沙子
+JP 社長がそこまでおっしゃるなら…。
+EN If you feel that strongly, Boss...
+
+@ 22.18
+# 社 長
+JP 戻ってきてくれるのか！？
+EN You'll come back?!
+
+@ 22.29
+# パンサー理沙子
+JP えぇ、またお世話になります。
+EN Yes. I'll be in your care again.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# パンサー理沙子
+JP すみません…。
+JP しばらくは一人でいたいんです。
+EN I'm sorry... I want to be on my own for a while.
+
+@ 23.22
+# 社 長
+JP （その後も理沙子は俺の話を
+JP 　まったく聞こうとしなかった）
+EN (After that, Risako wouldn't listen to a word I said.)
+
+@ 23.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I've only got myself to blame...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び理沙子を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to visit Risako again. My promotion really
+EN does need her.)
+
+@ 24.25
+# 社 長
+JP ええっと…理沙子。
+JP ちょっといいか？
+EN Um... Risako, got a minute?
+
+@ 24.35
+# パンサー理沙子
+JP …何度来られても
+JP 結果は同じですよ？
+EN ...No matter how many times you come, the answer will
+EN be the same, you know.
+
+@ 24.38
+# 社 長
+JP 頼む。
+JP どうしても団体に
+JP 戻って欲しいんだ。
+EN Please. I really want you back in the promotion.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# パンサー理沙子
+JP 社長がそこまでおっしゃるなら…。
+EN If you feel that strongly, Boss...
+
+@ 25.18
+# 社 長
+JP 戻ってきてくれるのか！？
+EN You'll come back?!
+
+@ 25.29
+# パンサー理沙子
+JP えぇ、またお世話になります。
+EN Yes. I'll be in your care again.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# パンサー理沙子
+JP すみません…。
+JP しばらくは一人でいたいんです。
+EN I'm sorry... I want to be on my own for a while.
+
+@ 26.22
+# 社 長
+JP （その後も理沙子は俺の話を
+JP 　まったく聞こうとしなかった）
+EN (After that, Risako wouldn't listen to a word I said.)
+
+@ 26.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I've only got myself to blame...)
+
+@ 27.16
+# scene 028 ケガ小
+# パンサー理沙子
+JP 無理をしなければ大丈夫です。
+EN I'll be fine as long as I don't push myself.
+
+@ 28.16
+# scene 029 ケガ大
+# パンサー理沙子
+JP すみません…。
+JP こんな大事なときに…。
+EN I'm sorry... At such an important time, too...
+
+@ 29.16
+# scene 030 入院
+# パンサー理沙子
+JP なるべく早く完治させてきますね。
+EN I'll make sure to heal up as quickly as I can.
+
+@ 30.16
+# scene 031 退院
+# パンサー理沙子
+JP ただいま戻りました。
+JP ご心配をおかけしました。
+EN I'm back. I'm sorry to have worried you.
+
+@ 31.16
+# scene 032 ケガ完治
+# パンサー理沙子
+JP これでまた思う存分
+JP 試合ができます。
+EN Now I can wrestle to my heart's content again.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# パンサー理沙子
+JP 社長は私のことを思って
+JP 言ってくださっているんですものね…。
+EN You're only saying this because you care about me,
+EN Boss...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# パンサー理沙子
+JP すみません…。
+JP まだやり残したことがありますので…。
+EN I'm sorry... There are still things I haven't done yet...
+
+@ 34.16
+# scene 035 コーチ就任
+# パンサー理沙子
+JP 技術指導は任せてください。
+EN Leave the technical coaching to me.
+
+@ 35.16
+# scene 036 ケガ引退
+# パンサー理沙子
+JP 社長、すみません…。
+JP 私は…ここまでみたいです…。
+EN Boss, I'm sorry... It looks like... this is as far as I go...
+
+@ 36.16
+# scene 037 年齢引退
+# パンサー理沙子
+JP レスラーとしては
+JP ここが潮時みたいです。
+EN As a wrestler, it seems it's time for me to step away.
+
+@ 37.16
+# scene 038 退団
+# パンサー理沙子
+JP 社長…残念ですけど
+JP 社長とお別れしないといけません…。
+EN Boss... I'm sorry, but I have to say goodbye to you...
+
+@ 38.16
+# scene 039 スランプ
+# パンサー理沙子
+JP どうして…。
+EN Why...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# パンサー理沙子
+JP ファンの心を掴むことが
+JP できたのでしょうか？
+EN Do you think I've managed to win the fans' hearts?
+
+@ 39.19
+# 社 長
+JP あぁ。
+JP 応援に負けないよう
+JP がんばらないとな。
+EN Yeah. We'll have to work hard to live up to their
+EN support.
+
+@ 39.26
+# パンサー理沙子
+JP そうですね。
+JP もっと多くのファンの心を
+JP 掴まないといけませんね。
+EN That's right. I'll need to win over even more fans.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# パンサー理沙子
+JP ファンが増えてくれるのは
+JP 嬉しいですね。
+EN It's nice to have more fans.
+
+@ 40.19
+# 社 長
+JP これからもっとがんばらないとな。
+EN We'll have to work even harder from here on.
+
+@ 40.26
+# パンサー理沙子
+JP 他の人たちにも
+JP 負けられませんからね。
+EN I can't let the others outdo me, after all.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# パンサー理沙子
+JP 解散ですか…。
+JP 残念ですね……。
+EN It broke up... What a shame...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep at it.
+
+@ 41.26
+# パンサー理沙子
+JP そうですね…。
+JP 気持ちを入れ替えてがんばります。
+EN You're right... I'll pull myself together and do my
+EN best.
+
+@ 42.16
+# scene 043 映画出演
+# パンサー理沙子
+JP 私が女優なんて…。
+JP 少し不思議な感じがしますね。
+EN Me, an actress... It feels a little strange.
+
+@ 43.16
+# scene 044 一日署長
+# パンサー理沙子
+JP アイドル扱いされてるみたいで
+JP ちょっと恥ずかしいですね。
+EN It's a bit embarrassing, being treated like an idol.
+
+@ 44.16
+# scene 045 写真集発売
+# パンサー理沙子
+JP 社長はどんなポーズがお好みですか？
+JP ウフッ…市場調査です、市場調査。
+EN What kind of poses do you like, Boss? Ufu... It's
+EN market research. Market research.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# パンサー理沙子
+JP 自分が映っているＣＭを見るのは
+JP どんな気分なんでしょうね？
+EN I wonder what it feels like to watch a commercial
+EN you're in?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# パンサー理沙子
+JP 私に歌手なんてできるのかしら…？
+EN I wonder if I can really be a singer...?
+
+@ 47.16
+# scene 048 始球式
+# パンサー理沙子
+JP 私が始球式なんて…。
+JP 光栄なことですね。
+EN Me, throwing out the first pitch... What an honor.
+
+@ 48.16
+# scene 049 学園祭
+# パンサー理沙子
+JP 新しいファンが開拓できるかも
+JP しれませんね。
+EN I might be able to win over some new fans.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# パンサー理沙子
+JP まあ、ありがとうございます。
+JP そういえば社長の誕生日は…？
+EN Oh my, thank you. By the way, when is your birthday,
+EN Boss...?
+
+@ 49.39
+# 社 長
+JP 俺か？
+JP いや、俺はいいって。
+EN Mine? No, don't worry about me.
+
+@ 49.43
+# パンサー理沙子
+JP そうはいきません。
+JP 贈り物は贈る方も嬉しいんですよ？
+EN I can't let that go. Giving a gift makes the giver
+EN happy too, you know?
+
+@ 50.30
+# scene 051 バレンタインデー
+# パンサー理沙子
+JP 社長、バレンタインデーの
+JP チョコレートです。
+JP お口に合うかどうか…。
+EN Boss, here's some Valentine's chocolate. I hope it
+EN suits your taste...
+
+@ 50.33
+# 社 長
+JP おっ、ありがとう。
+JP 理沙子のチョコなら口の方を
+JP 合わせるよ。
+EN Oh, thanks. If it's your chocolate, Risako, I'll make my
+EN taste suit it.
+
+@ 50.40
+# パンサー理沙子
+JP ウフッ…。
+JP 社長も口が上手になりましたね。
+EN Ufu... You've gotten quite smooth with words, Boss.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP あぁ、理沙子。
+JP 先月のお礼だ。
+EN Ah, Risako. This is for last month.
+
+@ 51.36
+# パンサー理沙子
+JP ありがとうございます。
+JP 私も口の方を合わせますね。
+JP ウフフッ…。
+EN Thank you very much. I'll make my taste suit it, too.
+EN Ufufu...
+
+@ 51.39
+# 社 長
+JP まぁ練習の合間にでも食べてくれ。
+EN Well, have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# パンサー理沙子
+JP はい、これからもよろしくね。
+EN Here you go. Thanks for your continued support.
+
+@ 53.31
+# scene 054 コンサート
+# パンサー理沙子
+JP みなさん、今日は最後まで
+JP 楽しんでいってくださいね。
+EN Everyone, please enjoy yourselves right to the end
+EN today.
+
+@ 54.28
+# scene 055 練習拒否
+# パンサー理沙子
+JP 今日は失礼します…。
+EN I'll be taking today off...
+
+@ 55.23
+# scene 056 失踪
+# パンサー理沙子
+JP 「社長へ
+JP 　自分を見つめ直します。
+JP 　探さないでください。　―　理沙子」
+EN "To the Boss: I need to take a hard look at myself.
+EN Please don't look for me. - Risako"
+
+@ 56.16
+# scene 057 選手解雇
+# パンサー理沙子
+JP 残念ですけど…。
+JP 社長、お世話になりました…。
+EN It's a shame, but... Boss, thank you for everything...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# パンサー理沙子
+JP 世界を肌で感じて
+JP 勉強してきますね。
+EN I'll go experience the world firsthand and learn all I
+EN can.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# パンサー理沙子
+JP ただいま戻りました。
+JP 世界の広さが実感できた気がします。
+EN I'm back. I feel like I've really seen how big the world
+EN is.
+
+@ 59.28
+# scene 060 移籍思案
+# パンサー理沙子
+JP 私が移籍したら…この団体は…。
+EN If I transferred... what would happen to this
+EN promotion...
+
+@ 60.16
+# scene 061 革命軍結成
+# パンサー理沙子
+JP 私がこの団体を変えてみせます！
+EN I'll change this promotion myself!
+
+@ 61.16
+# scene 062 反乱軍結成
+# パンサー理沙子
+JP ウフフッ。
+JP 意外だったかもしれませんね。
+EN Ufufu. I suppose this might come as a surprise.
+
+@ 62.16
+# scene 063 最終決戦要求
+# パンサー理沙子
+JP 誰が女王か、はっきりさせましょう。
+EN Let's settle who the queen is, once and for all.
+
+@ 63.16
+# scene 064 遺恨発生
+# パンサー理沙子
+JP 私もまだまだってことですね…。
+EN I guess I still have a long way to go...
+
+@ 64.16
+# scene 065 殴り込み
+# パンサー理沙子
+JP 私たちの強さ
+JP 思い知らせてきますね。
+EN I'll go show them just how strong we are.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# パンサー理沙子
+JP ウフッ…。
+JP 威勢だけは良さそうね。
+EN Ufu... Well, you've certainly got spirit, at least.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# パンサー理沙子
+JP 戦いというものを教えてあげるわ。
+EN I'll teach you what a real fight is.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# パンサー理沙子
+JP 今の私の力をすべて出してきます！
+EN I'll give it everything I have right now!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# パンサー理沙子
+JP ベストな結果を出すことが
+JP できましたね。
+EN I managed to get the best possible result.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# パンサー理沙子
+JP さすがに…悔しいですね…。
+EN Even I have to admit... that stings...
+
+@ 70.13
+# scene 071 引退式
+# パンサー理沙子
+JP 私の魂は、うちの娘たちに
+JP 引き継がれています。
+JP 今後もご声援よろしくお願いします！
+EN My spirit lives on in the girls of this promotion.
+EN Please keep cheering for them!
+
+@ 71.16
+# パンサー理沙子
+JP はい、なんでしょう。
+EN Yes, what is it?
+
+@ 71.33
+# パンサー理沙子
+JP あ、社長。
+JP なんですか？
+EN Oh, Boss. What is it?
+
+@ 71.43
+# パンサー理沙子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.62
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been doing well lately. Keep it up.
+
+@ 71.86
+# パンサー理沙子
+JP ウフフッ。
+JP 調子に乗らない程度にがんばります。
+EN Ufufu. I'll do my best without getting carried away.
+
+@ 71.107
+# パンサー理沙子
+JP え、えぇ…努力します。
+EN Y-yes... I'll try.
+
+@ 71.128
+# パンサー理沙子
+JP あ、はい…。
+JP その…私より他の娘たちを
+JP 褒めてあげてください。
+EN Oh, um... Well... Please praise the other girls instead
+EN of me.
+
+@ 71.149
+# パンサー理沙子
+JP ウフフッ。
+JP 社長の意図、見え見えですよ？
+EN Ufufu. I can see right through you, Boss.
+
+@ 71.162
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.186
+# パンサー理沙子
+JP あ、はい。
+JP すみません…。
+JP 今後は注意します。
+EN Oh, yes. I'm sorry... I'll be more careful from now on.
+
+@ 71.207
+# パンサー理沙子
+JP そうでしょうか…？
+EN Do you think so...?
+
+@ 71.228
+# パンサー理沙子
+JP あ、はい…。
+JP 社長の言葉、肝に銘じておきます。
+EN Oh, yes... I'll take your words to heart, Boss.
+
+@ 71.249
+# パンサー理沙子
+JP …私も一人の人間なんです。
+EN ...I'm only human, too.
+
+@ 71.262
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 71.286
+# パンサー理沙子
+JP …はい、大丈夫です。
+JP ご心配おかけして申し訳ありません。
+EN ...Yes, I'm fine. I'm sorry to have worried you.
+
+@ 71.307
+# パンサー理沙子
+JP すみません…。
+JP 練習がありますので…。
+EN I'm sorry... I have training...
+
+@ 71.328
+# パンサー理沙子
+JP ご相談したいことがあるのですが
+JP よろしいですか…？
+EN There's something I'd like to talk to you about. Do
+EN you have a moment...?
+
+@ 71.349
+# パンサー理沙子
+JP えぇ…大丈夫です……。
+EN Yes... I'm fine...
+
+@ 71.363
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.379
+# パンサー理沙子
+JP …はい。
+EN ...Yes.
+
+@ 71.396
+# パンサー理沙子
+JP いえ、なんでしょう…。
+EN No, what is it...?
+
+@ 71.407
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.429
+# パンサー理沙子
+JP わかりました。
+JP そうしますね。
+EN Understood. I'll do that.
+
+@ 71.450
+# パンサー理沙子
+JP すみません…。
+JP まだ心の整理がついていなくて…。
+EN I'm sorry... I haven't sorted out my feelings yet...
+
+@ 71.471
+# パンサー理沙子
+JP えぇ、仲良くやっていますけど…。
+EN Well, we're getting along fine, though...
+
+@ 71.484
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.501
+# パンサー理沙子
+JP …えぇ。
+JP なんとなくは…。
+EN ...Yes. I have an idea...
+
+@ 71.518
+# パンサー理沙子
+JP いえ…。
+JP 何かありました？
+EN No... Did something happen?
+
+@ 71.531
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.553
+# パンサー理沙子
+JP 私も大人げなかったと
+JP 反省しています。
+JP 二人で話してみます。
+EN I know I was being childish too, and I regret it. We'll
+EN talk it over, just the two of us.
+
+@ 71.574
+# パンサー理沙子
+JP すみません…。
+JP 少し時間をいただけないでしょうか…。
+EN I'm sorry... Could you give me a little time...?
+
+@ 71.595
+# パンサー理沙子
+JP 社長…？
+JP 何か勘違いされていませんか？
+EN Boss...? Aren't you misunderstanding something?
+
+@ 72.10
+# scene 073 会話 一言目 好意
+# パンサー理沙子
+JP あ、社長。
+JP なんですか？
+EN Oh, Boss. What is it?
+
+@ 72.12
+# パンサー理沙子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been doing well lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# パンサー理沙子
+JP ウフフッ。
+JP 調子に乗らない程度にがんばります。
+EN Ufufu. I'll do my best without getting carried away.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# パンサー理沙子
+JP …え…えぇ、努力します。
+EN Y-yes... I'll try.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# パンサー理沙子
+JP あ、はい…。
+JP その、私より他の娘たちを褒めて
+JP あげてください。
+EN Oh, um... Well... Please praise the other girls instead
+EN of me.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# パンサー理沙子
+JP ウフフッ。
+JP 社長の意図、見え見えですよ？
+EN Ufufu. I can see right through you, Boss.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# パンサー理沙子
+JP あ、はい。
+JP すみません…。
+JP 今後は注意します。
+EN Oh, yes. I'm sorry... I'll be more careful from now on.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# パンサー理沙子
+JP そうでしょうか…？
+EN Do you think so...?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# パンサー理沙子
+JP あ、はい…。
+JP 社長の言葉、肝に銘じておきます。
+EN Oh, yes... I'll take your words to heart, Boss.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# パンサー理沙子
+JP …私も、ひとりの人間なんです。
+EN ...I'm only human, too.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# パンサー理沙子
+JP …はい、大丈夫です。
+JP ご心配おかけして申し訳ありません。
+EN ...Yes, I'm fine. I'm sorry to have worried you.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# パンサー理沙子
+JP すみません…。
+JP 練習がありますので…。
+EN I'm sorry... I have training...
+
+@ 86.14
+# scene 087 会話 はげます 好意 成功
+# パンサー理沙子
+JP ご相談したいことがあるのですが
+JP よろしいですか…？
+EN There's something I'd like to talk to you about. Do
+EN you have a moment...?
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# パンサー理沙子
+JP …えぇ、大丈夫です……。
+EN Yes... I'm fine...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# パンサー理沙子
+JP ……はい。
+EN ...Yes.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# パンサー理沙子
+JP いえ、なんでしょう…。
+EN No, what is it...?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# パンサー理沙子
+JP わかりました。
+JP そうしますね。
+EN Understood. I'll do that.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# パンサー理沙子
+JP すみません…。
+JP まだ、心の整理がついていなくて…。
+EN I'm sorry... I haven't sorted out my feelings yet...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# パンサー理沙子
+JP えぇ、仲良くやっていますけど…。
+EN Well, we're getting along fine, though...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# パンサー理沙子
+JP …えぇ。
+JP なんとなくは…。
+EN ...Yes. I have an idea...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# パンサー理沙子
+JP いえ…。
+JP 何かありました？
+EN No... Did something happen?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# パンサー理沙子
+JP 私も大人げなかったと
+JP 反省しています。
+JP ふたりで話してみます。
+EN I know I was being childish too, and I regret it. We'll
+EN talk it over, just the two of us.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# パンサー理沙子
+JP すみません…。
+JP 少し時間を
+JP いただけないでしょうか…。
+EN I'm sorry... Could you give me a little time...?
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# パンサー理沙子
+JP 社長…？
+JP 何か勘違いされていませんか？
+EN Boss...? Aren't you misunderstanding something?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# パンサー理沙子
+JP ありがとうございます。
+JP これからもよろしくお願いします。
+EN Thank you very much. I look forward to another year
+EN with you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# パンサー理沙子
+JP ウフッ…。
+JP こんなに評価していただいて
+JP ありがとうございます。
+EN Ufu... Thank you for valuing me so highly.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# パンサー理沙子
+JP これが社長の評価なら…。
+JP 仕方ないですね…。
+EN If that's how you rate me, Boss... I suppose it can't
+EN be helped...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Ah, the tropics. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （さて俺はのんびり寝てるか…）
+EN (Now, I'll just lie back and relax...)
+
+@ 105.53
+# 社 長
+JP …………。
+EN .........
+
+@ 105.57
+# パンサー理沙子
+JP ねえ…社長…？
+EN Hey... Boss...?
+
+@ 105.60
+# 社 長
+JP （…えっ？）
+EN (...Huh?)
+
+@ 105.79
+# 社 長
+JP （うおっ！？）
+EN (Whoa?!)
+
+@ 105.81
+# 社 長
+JP り、理沙子！？
+EN R-Risako?!
+
+@ 105.85
+# パンサー理沙子
+JP ウフフッ…。
+JP サンオイルを塗っていただきたい
+JP のですけどよろしいですか？
+EN Ufufu... Would you mind putting some suntan oil on
+EN me?
+
+@ 105.88
+# 社 長
+JP えっ…いや…。
+JP それより…いつの間に隣に…？
+EN Huh... Well, um... More importantly... when did you get
+EN next to me...?
+
+@ 105.90
+# 社 長
+JP それに…その格好…。
+EN And... that outfit...
+
+@ 105.94
+# パンサー理沙子
+JP そんなの…。
+JP どうでもいいじゃないですか…。
+EN Oh, who cares about that...
+
+@ 105.98
+# パンサー理沙子
+JP それより、社長。
+JP サンオイルを塗ってくださいませんか？
+EN More importantly, Boss. Won't you put some suntan
+EN oil on me?
+
+@ 105.101
+# 社 長
+JP い、いや…。
+JP でも…なぁ……。
+EN W-well... I mean... you know...
+
+@ 105.105
+# パンサー理沙子
+JP ね、社長…。
+JP …塗ってください…。
+EN Come on, Boss... Please... put it on me...
+
+@ 105.108
+# 社 長
+JP （な、な、何が起こってるんだ…）
+EN (Wh-wh-what is happening here...)
+
+@ 105.110
+# 社 長
+JP （こ、こういうときは…ええと…）
+EN (I-in a situation like this... um...)
+
+@ 105.128
+# パンサー理沙子
+JP 社長…。
+JP 社長…！
+EN Boss... Boss...!
+
+@ 105.131
+# 社 長
+JP よ、よし！
+JP 背中だけだぞ、背中だけ！
+EN O-okay! Just your back, though! Only your back!
+
+@ 105.135
+# パンサー理沙子
+JP 社長。
+JP そろそろ起きてください。
+EN Boss. It's time to wake up.
+
+@ 105.154
+# 社 長
+JP ……へっ…？
+EN ......Huh...?
+
+@ 105.164
+# パンサー理沙子
+JP もう夕方ですし
+JP そろそろホテルに戻りませんか？
+EN It's already evening. Shall we head back to the
+EN hotel?
+
+@ 105.174
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.176
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.178
+# 社 長
+JP ホテル……？
+EN The hotel......?
+
+@ 105.180
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.183
+# 社 長
+JP …って、ことは…。
+EN ...So that means...
+
+@ 105.185
+# 社 長
+JP さっきのは夢！？
+EN That was a dream?!
+
+@ 105.192
+# パンサー理沙子
+JP ウフフッ…。
+JP なんの夢を見ていたんですか？
+EN Ufufu... What were you dreaming about?
+
+@ 105.195
+# 社 長
+JP いや、その…。
+JP 理沙子くんが出てくる夢
+JP だったんだけど…。
+EN Well, uh... You were in it, Risako...
+
+@ 105.199
+# パンサー理沙子
+JP あら、それは光栄ですね。
+EN My, I'm flattered.
+
+@ 105.203
+# パンサー理沙子
+JP どんな夢だったのか
+JP 聞かせていただいても
+JP よろしいですか？
+EN Would you mind telling me what kind of dream it was?
+
+@ 105.206
+# 社 長
+JP い、いや…。
+JP 話せるような大それたものじゃ…！
+EN N-no... It's nothing worth talking about...!
+
+@ 105.213
+# パンサー理沙子
+JP そうですか。
+JP 無理に聞くのも良くないですね。
+EN I see. It wouldn't be nice to pry.
+
+@ 105.216
+# 社 長
+JP あ、あぁ…。
+EN R-right...
+
+@ 105.218
+# 社 長
+JP …フゥ～……。
+EN ...Phew......
+
+@ 105.225
+# パンサー理沙子
+JP ところで社長。
+JP 明日はビーチでサンオイル
+JP 塗ってもらっていいですか？
+EN By the way, Boss. Could you put suntan oil on me at
+EN the beach tomorrow?
+
+@ 105.228
+# 社 長
+JP …えっ！？
+EN ...What?!
+
+@ 105.235
+# パンサー理沙子
+JP ウフフッ…。
+EN Ufufu...
+
+@ 105.244
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （寮の見回りはこれでいいとして…）
+EN (That's the dorm rounds done...)
+
+@ 106.26
+# 社 長
+JP （なんだか雨が降り出しそうな
+JP 　天気だなぁ）
+EN (Looks like it might start raining...)
+
+@ 106.33
+# 社 長
+JP （…って思っているうちに
+JP 　降ってきたか）
+EN (...And just as I thought that, here it comes.)
+
+@ 106.43
+# 社 長
+JP （あっ、誰か帰ってきた）
+EN (Oh, someone's back.)
+
+@ 106.61
+# 社 長
+JP やられたみたいだな。
+EN Looks like it got you.
+
+@ 106.65
+# パンサー理沙子
+JP ええ、いきなり降り出して…。
+EN Yes, it started pouring all of a sudden...
+
+@ 106.69
+# パンサー理沙子
+JP 本当にひどい雨。
+JP 体中ビショ濡れに…。
+EN Such awful rain. I'm soaked from head to toe...
+
+@ 106.72
+# 社 長
+JP みたいだな。
+EN So I see.
+
+@ 106.74
+# 社 長
+JP 体を冷やさなかったか…？
+EN You didn't get chilled, did you...?
+
+@ 106.76
+# 社 長
+JP …………。
+EN .........
+
+@ 106.78
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.87
+# 社 長
+JP （よく見ると雨でＴシャツが
+JP 　透けて…）
+EN (Looking closer, the rain's made her T-shirt
+EN see-through...)
+
+@ 106.91
+# パンサー理沙子
+JP 社長…。
+JP どこを見ているんですか？
+EN Boss... Where are you looking?
+
+@ 106.94
+# 社 長
+JP えっ！？
+JP い、いや、別に…。
+EN Huh?! N-nowhere, really...
+
+@ 106.104
+# パンサー理沙子
+JP ウフッ…。
+JP 社長は今、何を考えていたんですか？
+EN Ufu... What were you thinking just now, Boss?
+
+@ 106.107
+# 社 長
+JP いや、別に何も…。
+EN Nothing, nothing at all...
+
+@ 106.111
+# パンサー理沙子
+JP ウフ、ウフフッ。
+EN Ufu, ufufu.
+
+@ 106.114
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.116
+# 社 長
+JP （まいったな…）
+EN (This is awkward...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （寮の見回りはこれでいいとして…）
+EN (That's the dorm rounds done...)
+
+@ 107.26
+# 社 長
+JP （なんだか雨が降り出しそうな
+JP 　天気だなぁ）
+EN (Looks like it might start raining...)
+
+@ 107.33
+# 社 長
+JP （…って思っているうちに
+JP 　降ってきたか）
+EN (...And just as I thought that, here it comes.)
+
+@ 107.43
+# 社 長
+JP （あっ、誰か帰ってきた）
+EN (Oh, someone's back.)
+
+@ 107.62
+# パンサー理沙子
+JP ふう…。
+JP またやられちゃいました。
+EN Phew... It got me again.
+
+@ 107.65
+# 社 長
+JP みたいだな。
+EN So I see.
+
+@ 107.69
+# パンサー理沙子
+JP 本当にひどい雨。
+JP 体中ビショ濡れ…。
+EN Such awful rain. I'm soaked from head to toe...
+
+@ 107.72
+# 社 長
+JP 体を冷やさなかったか？
+EN You didn't get chilled, did you?
+
+@ 107.76
+# パンサー理沙子
+JP ええ、それは大丈夫です。
+EN No, I'm fine on that front.
+
+@ 107.79
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.81
+# 社 長
+JP （またＴシャツが透けて…）
+EN (Her T-shirt's see-through again...)
+
+@ 107.91
+# パンサー理沙子
+JP …社長。
+JP どこ見ているんですか？
+EN ...Boss. Where are you looking?
+
+@ 107.94
+# 社 長
+JP ……あ、いや…。
+EN ......Ah, well...
+
+@ 107.98
+# パンサー理沙子
+JP まったく男の人はどうして…。
+EN Honestly, why are men always...
+
+@ 107.101
+# 社 長
+JP い、いや！
+JP 別にそういうつもりじゃ…！
+EN N-no! I didn't mean anything like that...!
+
+@ 107.111
+# パンサー理沙子
+JP …見たいですか？
+EN ...Do you want to see?
+
+@ 107.114
+# 社 長
+JP …えッ！？
+EN ...What?!
+
+@ 107.118
+# パンサー理沙子
+JP 社長になら…見せてもいいですよ？
+EN For you, Boss... I wouldn't mind showing you.
+
+@ 107.121
+# 社 長
+JP あ…えっと……。
+EN Ah... um......
+
+@ 107.131
+# パンサー理沙子
+JP ウフ、ウフフッ。
+EN Ufu, ufufu.
+
+@ 107.134
+# 社 長
+JP ……えっ！？
+EN ......Huh?!
+
+@ 107.138
+# パンサー理沙子
+JP 社長、冗談です。
+EN Boss, I'm joking.
+
+@ 107.141
+# 社 長
+JP あ、あははは…。
+JP そうだよな。
+EN Ah, ahahaha... Right, of course.
+
+@ 107.145
+# パンサー理沙子
+JP ウフフ…。
+JP 社長、本気にしたんですか？
+EN Ufufu... Boss, did you take me seriously?
+
+@ 107.148
+# 社 長
+JP いや、そんなことは…。
+EN No, not at all...
+
+@ 107.152
+# パンサー理沙子
+JP ウフフ、ウフフフッ。
+EN Ufufu, ufufufu.
+
+@ 107.155
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.157
+# 社 長
+JP （やれやれ…まいったな…）
+EN (Good grief... This is awkward...)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# パンサー理沙子
+JP あんまり本気にならないでね？
+JP あなた、すぐムキになるんだから。
+EN Don't get too serious, okay? You always get so
+EN worked up.
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# パンサー理沙子
+JP どこまであなたを本気にさせられるか…。
+JP 腕の見せどころね。
+EN How seriously can I make you fight... Time to show
+EN what I can do.
+
+@ 110.16
+# scene 113 練習開始
+# パンサー理沙子
+JP 今日のトレーニングは何かしら？
+EN I wonder what today's training will be?
+
+@ 111.16
+# scene 114 練習開始 好意
+# パンサー理沙子
+JP 今日はいい練習ができそうな
+JP 気がしますね。
+EN I have a feeling today's going to be a good practice.
+
+@ 112.16
+# scene 115 特訓開始
+# パンサー理沙子
+JP 試練は乗り越えないといけませんね。
+EN Trials are meant to be overcome.
+
+@ 113.20
+# scene 116 特訓成功
+# パンサー理沙子
+JP フゥ～。
+JP なんとかクリアできたみたいですね。
+EN Phew. Looks like I managed to clear it somehow.
+
+@ 114.20
+# scene 117 特訓失敗
+# パンサー理沙子
+JP すみません…。
+JP 時間をムダにさせたみたいで…。
+EN I'm sorry... It seems I made you waste your time...
+
+@ 115.16
+# scene 118 休養
+# パンサー理沙子
+JP ゆっくり体を休めてきますね…。
+EN I'll go get some proper rest...
+
+@ 116.16
+# scene 119 入場1
+# パンサー理沙子
+JP ウフフッ。
+JP 最高のシチュエーションね。
+EN Ufufu. What a perfect setting.
+
+@ 117.16
+# scene 119 入場2
+# パンサー理沙子
+JP 誇りある戦いを見せてあげるわ。
+EN I'll show you a fight with pride.
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# パンサー理沙子
+JP あなたとなら心配はいらないわね。
+EN With you as my partner, there's nothing to worry
+EN about.
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# パンサー理沙子
+JP 今日はあなたも目立ってよ？
+EN You stand out today too, okay?
+
+@ 120.16
+# scene 125 必殺技１
+# パンサー理沙子
+JP そろそろ終わりにしましょう！
+EN Let's end this!
+
+@ 121.16
+# scene 125 必殺技２
+# パンサー理沙子
+JP ここがリングじゃなければ…。
+JP 許してね！
+EN If only this weren't the ring... Forgive me!
+
+@ 122.16
+# scene 125 必殺技３
+# パンサー理沙子
+JP 私を本気にさせたことは
+JP 褒めてあげます！
+EN I'll give you credit for making me get serious!
+
+@ 123.12
+# scene 126 勝利1
+# パンサー理沙子
+JP いい試合だったわ。
+JP 機会があれば、またやりましょう。
+EN That was a good match. Let's do it again sometime.
+
+@ 124.12
+# scene 126 勝利2
+# パンサー理沙子
+JP 強い者が勝つ。
+JP ただそれだけよ。
+EN The strong win. That's all there is to it.
+
+@ 125.12
+# scene 126 勝利3
+# パンサー理沙子
+JP がんばったわね。
+JP でも今回はあなたの負けよ。
+EN You did well. But this time, you lose.
+
+@ 126.15
+# scene 133 表彰1
+# パンサー理沙子
+JP 私の試合を見て、一人でも多くの人が
+JP プロレスに興味を持ってくれれば
+JP 嬉しい限りです。
+EN If my matches get even one more person interested
+EN in pro wrestling, I couldn't be happier.
+
+@ 127.15
+# scene 133 表彰2
+# パンサー理沙子
+JP 来年も私たちの団体にご期待ください。
+JP 本当にありがとうございました。
+EN Please look forward to our promotion next year too.
+EN Thank you all so much.
+
+@ 128.12
+# scene 134 優勝1
+# パンサー理沙子
+JP プライドをかけた戦いを
+JP することができました。
+JP ありがとうございました。
+EN I was able to fight a battle with my pride on the line.
+EN Thank you very much.
+
+@ 129.12
+# scene 134 優勝２
+# パンサー理沙子
+JP 誰が勝ってもおかしく
+JP ありませんでした。
+JP 今回は運が良かったみたいです。
+EN Anyone could have won. I guess luck was on my side
+EN this time.
+
+@ 130.24
+# scene 135 エンディング 通常
+# パンサー理沙子
+JP 社長、おめでとうございます。
+JP 社長と一緒に歩んできて幸せでした。
+EN Congratulations, Boss. I've been happy walking this
+EN road with you.
+
+@ 131.24
+# scene 136 エンディング 好意
+# パンサー理沙子
+JP 社長…。
+JP 今だけ…少しだけ…抱きしめて
+JP もらっていいですか？
+EN Boss... Just for now... could you hold me, just a little?

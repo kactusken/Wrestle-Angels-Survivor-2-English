@@ -1,0 +1,2348 @@
+# /SCR/103.BIN - フローラ小川
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 103` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# フローラ小川
+JP プロレスは…私の夢です。
+JP 夢をかなえるためテストを受けました。
+JP よろしくお願いします。
+EN Pro wrestling... is my dream. I took this tryout to
+EN make that dream come true. I'll do my best.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# フローラ小川
+JP あ、ありがとうございます。
+JP がんばります。
+EN Th-thank you very much. I'll work hard.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# フローラ小川
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （資料によれば、いつもこのあたりに…。
+JP 　あぁ、あの娘だ、間違いない）
+EN (According to my notes, she's usually around here...
+EN Ah, that's her. No doubt about it.)
+
+@ 3.25
+# 社 長
+JP あの、すみません。
+JP 小川さんですか？
+EN Um, excuse me. Are you Miss Ogawa?
+
+@ 3.35
+# フローラ小川
+JP あ、はい…そうですが…。
+JP なんでしょうか？
+EN Oh, yes... I am... Can I help you?
+
+@ 3.38
+# 社 長
+JP 突然ですみません。
+JP 私、プロレス団体を経営している者
+JP なんですが…。
+EN Sorry to bother you out of the blue. I run a
+EN pro-wrestling promotion...
+
+@ 3.45
+# フローラ小川
+JP プロレス団体！？
+JP あ、あの…社長さん、なんですか？
+EN A pro-wrestling promotion!? Um... you mean you're
+EN the president?
+
+@ 3.48
+# 社 長
+JP えぇ。
+JP あなたの噂を聞きつけて
+JP スカウトに来ました。
+EN That's right. I heard good things about you, so I
+EN came to scout you.
+
+@ 3.50
+# 社 長
+JP どうでしょう。
+JP うちの団体でプロレスを
+JP やってみませんか？
+EN What do you say? Would you like to try pro wrestling
+EN with us?
+
+@ 3.57
+# フローラ小川
+JP …えっ？
+JP 私が…プロレスを…？
+EN ...What? Me... pro wrestling...?
+
+@ 3.60
+# 社 長
+JP この書類に待遇などをまとめてあります。
+JP どうか一読なさってください。
+EN This document lays out the terms we're offering.
+EN Please, give it a read.
+
+@ 3.67
+# フローラ小川
+JP ………………。
+EN ..................
+
+@ 3.70
+# 社 長
+JP （おっ、熟読してる…。
+JP 　興味がない訳じゃないってことか）
+EN (Oh, she's reading it carefully... So she's not
+EN uninterested.)
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# フローラ小川
+JP お父さん、お母さん…。
+JP いいよね、少しくらい……。
+EN Mom, Dad... It's okay, isn't it? Just for a little while...
+
+@ 4.18
+# 社 長
+JP （…んっ？
+JP 　たしかこの子のご両親は…）
+EN (...Hm? Now that I think about it, her parents are...)
+
+@ 4.29
+# フローラ小川
+JP 社長さん。
+JP 私、やります。
+EN President. I'll do it.
+
+@ 4.32
+# 社 長
+JP えっ、本当ですか！？
+EN Huh? Really!?
+
+@ 4.39
+# フローラ小川
+JP …はい。
+JP ご迷惑ばかりかけると思いますけど…。
+JP よろしくお願いします。
+EN ...Yes. I'm sure I'll cause you nothing but trouble...
+EN but I'll do my best.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# フローラ小川
+JP …ごめんなさい。
+JP 今は夢を追いかけている余裕がなくて…。
+EN ...I'm sorry. Right now I can't afford to chase my
+EN dreams...
+
+@ 5.22
+# 社 長
+JP いえ、選手を続けながらでも…。
+EN But you could keep your job while you wrestle...
+
+@ 5.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP よーし、今度こそ…。
+JP あの、すみません。
+EN All right, this time for sure... Um, excuse me.
+
+@ 6.33
+# フローラ小川
+JP はい？
+JP あ、この前の…。
+JP また…入団のお話でしょうか？
+EN Yes? Oh, you're the man from before... Is this about
+EN joining again?
+
+@ 6.36
+# 社 長
+JP はい。
+JP どうしてもうちの団体に入って
+JP 欲しいんです。
+EN Yes. I really want you in our promotion.
+
+@ 6.43
+# フローラ小川
+JP ………………。
+EN ..................
+
+@ 6.46
+# 社 長
+JP お願いします。
+JP どうか、うちで戦ってもらえませんか？
+EN Please. Won't you come fight for us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out the terms again and pleaded with her
+EN earnestly.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# フローラ小川
+JP お父さん、お母さん…。
+JP いいよね、少しくらい…。
+EN Mom, Dad... It's okay, isn't it? Just for a little while...
+
+@ 7.18
+# 社 長
+JP （…んっ？
+JP 　たしかこの子のご両親は…）
+EN (...Hm? Now that I think about it, her parents are...)
+
+@ 7.29
+# フローラ小川
+JP 社長さん。
+JP 私、やります。
+EN President. I'll do it.
+
+@ 7.32
+# 社 長
+JP えっ、本当ですか！？
+EN Huh? Really!?
+
+@ 7.39
+# フローラ小川
+JP …はい。
+JP ご迷惑ばかりかけると思いますけど…。
+JP よろしくお願いします。
+EN ...Yes. I'm sure I'll cause you nothing but trouble...
+EN but I'll do my best.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# フローラ小川
+JP …ごめんなさい。
+JP 今は夢を追いかけている余裕がなくて…。
+EN ...I'm sorry. Right now I can't afford to chase my
+EN dreams...
+
+@ 8.22
+# 社 長
+JP いえ、選手を続けながらでも…。
+EN But you could keep your job while you wrestle...
+
+@ 8.25
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （小川選手…。
+JP 　彼女のようなバイプレイヤーがいれば
+JP 　うちの選手層はさらに厚くなる）
+EN (Ogawa... A versatile supporting player like her would
+EN give our roster real depth.)
+
+@ 9.25
+# 社 長
+JP （このあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+JP 私、プロレス団体を経営している
+JP 者なんですが…。
+EN Um, excuse me. I run a pro-wrestling promotion...
+
+@ 9.37
+# フローラ小川
+JP あっ、はい。
+JP 団体の者なら、あそこのビルの…。
+EN Oh, yes. If you want someone from the promotion, the
+EN office is in that building over...
+
+@ 9.40
+# 社 長
+JP いえ、あなたにお話が…。
+JP 単刀直入に言うと
+JP あなたを引き抜きに来たんです。
+EN No, it's you I want to talk to. To put it bluntly, I've
+EN come to poach you.
+
+@ 9.47
+# フローラ小川
+JP えっ？
+JP 私を…ですか？
+EN What? Me...?
+
+@ 9.50
+# 社 長
+JP はい。
+JP どうしても、あなたが欲しいんです。
+JP 考えていただけませんか？
+EN Yes. I really want you on my team. Won't you think it
+EN over?
+
+@ 9.52
+# 社 長
+JP （俺は粘り強く説得を続けてみた。
+JP 　その結果は…）
+EN (I kept at it, patiently trying to persuade her. And
+EN the result...)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# フローラ小川
+JP …待遇について
+JP 詳しくお聞かせいただけませんか？
+EN ...Could you tell me more about the terms?
+
+@ 10.18
+# 社 長
+JP それじゃあ…。
+EN Well then...
+
+@ 10.29
+# フローラ小川
+JP はい。
+JP このお話、お受けします。
+EN Yes. I accept your offer.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# フローラ小川
+JP 申し訳ありません。
+JP 今の団体には、拾っていただいた恩も
+JP ありますから…。
+EN I'm very sorry. I owe my current promotion for
+EN taking me in...
+
+@ 11.22
+# 社 長
+JP そこをなんとか
+JP 考え直していただけませんか？
+EN Couldn't you reconsider somehow?
+
+@ 11.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには小川選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really do need Ogawa. I decided to try
+EN negotiating once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# フローラ小川
+JP あ、この前の…。
+EN Oh, you're the man from before...
+
+@ 12.38
+# 社 長
+JP 前置きは省きます。
+JP どうしても、うちの団体に移籍して
+JP 欲しいんです。
+EN I'll skip the preamble. I really want you to transfer to
+EN our promotion.
+
+@ 12.45
+# フローラ小川
+JP そう言われても…なぜ私なんです？
+JP 私以上のレスラーなんて大勢いるのに…。
+EN Even if you say that... why me? There are plenty of
+EN wrestlers better than me...
+
+@ 12.48
+# 社 長
+JP 強さだけがレスラーのすべてじゃ
+JP ないんです。
+EN Strength isn't everything a wrestler has to offer.
+
+@ 12.50
+# 社 長
+JP （俺は自分のプロレス論を熱く語った。
+JP 　今はそうするのが一番だと
+JP 　思ったからだ）
+EN (I passionately laid out my whole philosophy of pro
+EN wrestling. It seemed like the best thing to do right
+EN then.)
+
+@ 12.52
+# 社 長
+JP （その結果は…）
+EN (And the result...)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# フローラ小川
+JP …待遇について
+JP 詳しくお聞かせいただけませんか？
+EN ...Could you tell me more about the terms?
+
+@ 13.18
+# 社 長
+JP それじゃあ…。
+EN Well then...
+
+@ 13.29
+# フローラ小川
+JP はい。
+JP このお話、お受けします。
+EN Yes. I accept your offer.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# フローラ小川
+JP 申し訳ありません。
+JP 今の団体には、拾っていただいた恩も
+JP ありますから…。
+EN I'm very sorry. I owe my current promotion for
+EN taking me in...
+
+@ 14.22
+# 社 長
+JP そこをなんとか
+JP 考え直していただけませんか？
+EN Couldn't you reconsider somehow?
+
+@ 14.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （小川選手…。
+JP 　彼女のような器用な選手は
+JP 　選手層の充実に必要不可欠だ）
+EN (Ogawa... A skillful all-rounder like her is essential to
+EN a solid roster.)
+
+@ 15.25
+# 社 長
+JP （このあたりにいるって
+JP 　話だけど…あぁ、いたいた）
+EN (I heard she's around here... Ah, there she is.)
+
+@ 15.34
+# 社 長
+JP あっ、小川さん。
+JP 突然すみません。
+JP 私、こういう者なんですが…。
+EN Ah, Miss Ogawa. Sorry to bother you out of the blue.
+EN Here's my card.
+
+@ 15.41
+# フローラ小川
+JP プロレス団体の…？
+JP あの、私、プロを名乗ってますけど
+JP 今は形だけで…。
+EN From a wrestling promotion...? Um, I call myself a pro,
+EN but these days it's in name only...
+
+@ 15.44
+# 社 長
+JP 小川さん。
+JP うちの団体に入りませんか？
+EN Miss Ogawa. Would you join our promotion?
+
+@ 15.51
+# フローラ小川
+JP えっ…？
+EN What...?
+
+@ 15.54
+# 社 長
+JP それ相応の待遇は保証します。
+JP お願いします。
+JP 入っていただけませんか？
+EN I guarantee you'll be treated accordingly. Please.
+EN Won't you join us?
+
+@ 15.56
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out the terms and kept at it, patiently trying
+EN to persuade her.)
+
+@ 15.58
+# 社 長
+JP （その結果は…）
+EN (And the result...)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# フローラ小川
+JP …待遇について
+JP 詳しくお聞かせいただけませんか？
+EN ...Could you tell me more about the terms?
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Well then...
+
+@ 16.29
+# フローラ小川
+JP …はい。
+JP 未熟者ですが、よろしくお願いします。
+EN ...Yes. I'm still inexperienced, but I'll do my best.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# フローラ小川
+JP 申し訳ありません。
+JP もうプロレスの方は諦めているので…。
+EN I'm very sorry. I've already given up on pro
+EN wrestling...
+
+@ 17.22
+# 社 長
+JP そんなもったいないことを…。
+JP 考え直していただけませんか？
+EN But that would be such a waste... Won't you
+EN reconsider?
+
+@ 17.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには小川選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really do need Ogawa. I decided to try
+EN negotiating once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# フローラ小川
+JP あ、この前の…。
+JP すみません、何度もご足労いただいて…。
+EN Oh, you're the man from before... I'm sorry you keep
+EN going to all this trouble...
+
+@ 18.38
+# 社 長
+JP あなたを手に入れるまでは
+JP 何度でも足を運びますよ。
+EN I'll come as many times as it takes, until you're on my
+EN team.
+
+@ 18.45
+# フローラ小川
+JP ………………。
+EN ..................
+
+@ 18.48
+# 社 長
+JP お願いです。
+JP 考え直していただけませんか？
+EN Please. Won't you reconsider?
+
+@ 18.50
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out the terms again and pleaded with her
+EN earnestly.)
+
+@ 18.52
+# 社 長
+JP （その結果は…）
+EN (And the result...)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# フローラ小川
+JP …待遇について
+JP 詳しくお聞かせいただけませんか？
+EN ...Could you tell me more about the terms?
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Well then...
+
+@ 19.29
+# フローラ小川
+JP はい。
+JP 未熟者ですが、よろしくお願いします。
+EN Yes. I'm still inexperienced, but I'll do my best.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# フローラ小川
+JP 申し訳ありません。
+JP もうプロレスの方は諦めているので…。
+EN I'm very sorry. I've already given up on pro
+EN wrestling...
+
+@ 20.22
+# 社 長
+JP そんなもったいないことを…。
+JP 考え直していただけませんか？
+EN But that would be such a waste... Won't you
+EN reconsider?
+
+@ 20.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は小川を訪ねることにした。
+JP 　やっぱり彼女は、うちに必要な選手だ）
+EN (I decided to go see Ogawa. She really is a wrestler
+EN we need.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、いたいた。
+JP おーい、小川！
+EN She should be around here... Ah, there she is. Hey,
+EN Ogawa!
+
+@ 21.35
+# フローラ小川
+JP 社長…！？
+JP …お久しぶりです。
+EN Boss...!? ...It's been a while.
+
+@ 21.38
+# 社 長
+JP うん、久しぶり。
+JP 元気そうで何よりだ。
+EN Yeah, it has. Good to see you looking well.
+
+@ 21.45
+# フローラ小川
+JP 社長もお元気そうで…。
+JP それで今日はこのあたりに用事でも？
+EN You look well too, Boss... So, do you have business
+EN around here today?
+
+@ 21.48
+# 社 長
+JP …すまなかった、謝る。
+JP 土下座しろと言われれば、そうする。
+EN ...I'm sorry. I apologize. If you want me on my knees,
+EN I'll do it.
+
+@ 21.55
+# フローラ小川
+JP …あの……。
+EN ...Um...
+
+@ 21.58
+# 社 長
+JP こんなこと言えた
+JP 義理じゃないことはわかってる…。
+JP だが…戻ってきてくれないか？
+EN I know I have no right to ask this... But... won't you
+EN come back?
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# フローラ小川
+JP また…夢を見てもいいんですか？
+EN Am I really... allowed to dream again?
+
+@ 22.18
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 22.29
+# フローラ小川
+JP わかりました。
+JP もう一度やらせていただきます。
+EN All right. Please let me try one more time.
+
+@ 22.32
+# 社 長
+JP 小川…。
+JP ありがとう。
+EN Ogawa... Thank you.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# フローラ小川
+JP すみません。
+JP 今はプロレスに集中することが
+JP できそうにありません。
+EN I'm sorry. Right now I don't think I could focus on pro
+EN wrestling.
+
+@ 23.22
+# 社 長
+JP （その後も小川は、俺の話を
+JP 　まったく聞こうとしなかった）
+EN (After that, Ogawa wouldn't hear a word I said.)
+
+@ 23.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び小川を訪ねることにした。
+JP 　やっぱり彼女は、うちに必要な選手だ）
+EN (I decided to go see Ogawa again. She really is a
+EN wrestler we need.)
+
+@ 24.25
+# 社 長
+JP ええっと…。
+JP 小川、ちょっといいか？
+EN Um... Ogawa, got a minute?
+
+@ 24.35
+# フローラ小川
+JP 社長…。
+JP 私はもう、プロレスとは関係ない
+JP 人間なんですよ？
+EN Boss... I have nothing to do with pro wrestling
+EN anymore, you know?
+
+@ 24.38
+# 社 長
+JP 頼む。
+JP どうしても団体に戻って欲しいんだ。
+EN Please. I really want you back in the promotion.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれるように
+JP 　頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# フローラ小川
+JP また…夢を見てもいいんですか？
+EN Am I really... allowed to dream again?
+
+@ 25.18
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 25.29
+# フローラ小川
+JP わかりました。
+JP もう一度やらせていただきます。
+EN All right. Please let me try one more time.
+
+@ 25.32
+# 社 長
+JP 小川…。
+JP ありがとう。
+EN Ogawa... Thank you.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# フローラ小川
+JP すみません。
+JP 今はプロレスに集中することが
+JP できそうにありません。
+EN I'm sorry. Right now I don't think I could focus on pro
+EN wrestling.
+
+@ 26.22
+# 社 長
+JP （その後も小川は、俺の話を
+JP 　まったく聞こうとしなかった）
+EN (After that, Ogawa wouldn't hear a word I said.)
+
+@ 26.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# フローラ小川
+JP これくらいなら、試合に出られます。
+EN I can still wrestle with an injury like this.
+
+@ 28.16
+# scene 029 ケガ大
+# フローラ小川
+JP すみません…。
+JP もっと気を付けていれば……。
+EN I'm sorry... If only I'd been more careful...
+
+@ 29.16
+# scene 030 入院
+# フローラ小川
+JP すみません。
+JP こんな大事なときに入院なんて…。
+EN I'm sorry. Getting hospitalized at such an important
+EN time...
+
+@ 30.16
+# scene 031 退院
+# フローラ小川
+JP ご迷惑おかけしました。
+JP もう大丈夫です。
+EN Sorry for all the trouble. I'm fine now.
+
+@ 31.16
+# scene 032 ケガ完治
+# フローラ小川
+JP これで、全力で試合に臨めます。
+EN Now I can give every match my all.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# フローラ小川
+JP はい…。
+JP いい思い出ができました。
+JP 今までありがとうございます。
+EN Yes... I made some wonderful memories. Thank you for
+EN everything.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# フローラ小川
+JP すみません…。
+JP もう少しだけ…夢を見ていたいんです…。
+EN I'm sorry... I want to keep dreaming... just a little
+EN longer...
+
+@ 34.16
+# scene 035 コーチ就任
+# フローラ小川
+JP 夢みたいです…。
+JP 引退してもプロレスに関わる
+JP 仕事ができるなんて…。
+EN It's like a dream... Even after retiring, I get to work
+EN in pro wrestling...
+
+@ 35.16
+# scene 036 ケガ引退
+# フローラ小川
+JP もう少し…レスラーでいたかったけど
+JP このケガでは仕方ありません。
+EN I wanted to be a wrestler... a little longer. But with
+EN this injury, it can't be helped.
+
+@ 36.16
+# scene 037 年齢引退
+# フローラ小川
+JP …社長。
+JP もう、潮時みたいです…。
+JP 今まで本当にありがとうございました。
+EN ...Boss. I think it's time for me to go... Thank you so
+EN much for everything.
+
+@ 37.16
+# scene 038 退団
+# フローラ小川
+JP 最後の我侭、どうか許してください。
+JP 今日まで本当にありがとうございました。
+EN Please forgive this one last selfish request. Thank
+EN you so much for everything up to today.
+
+@ 38.16
+# scene 039 スランプ
+# フローラ小川
+JP すみません…。
+JP 体がうまく動かなくて……。
+EN I'm sorry... My body just won't move right...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# フローラ小川
+JP 本当に私のファンクラブですか？
+EN Is it really a fan club for me?
+
+@ 39.19
+# 社 長
+JP そうだ…。
+JP こういうときくらい
+JP 素直に喜んだらどうだ？
+EN It is... At a time like this, why not just be happy about
+EN it?
+
+@ 39.26
+# フローラ小川
+JP はい…。
+JP そうですね。
+EN Yes... You're right.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# フローラ小川
+JP またできたんですか？
+EN Another one formed?
+
+@ 40.19
+# 社 長
+JP そうなんだが…。
+JP なんで会員名簿に「資格数」なんて
+JP 項目があるんだ？
+EN It did, but... why does the member list have a field for
+EN "number of certifications"?
+
+@ 40.26
+# フローラ小川
+JP ウフッ…。
+JP 色々な意味で励みになりそうです。
+EN Hehe... That should motivate me in all sorts of ways.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# フローラ小川
+JP 残念ですけど…仕方ありませんね…。
+EN It's a shame... but it can't be helped...
+
+@ 41.19
+# 社 長
+JP これからもっとがんばればいいさ。
+JP そうだろ？
+EN You just need to work even harder from here on.
+EN Right?
+
+@ 41.26
+# フローラ小川
+JP …はい、社長。
+JP もっともっと、がんばってみます。
+EN ...Yes, Boss. I'll work harder and harder.
+
+@ 42.16
+# scene 043 映画出演
+# フローラ小川
+JP これで、おばあちゃんになっても
+JP 自慢できる話がひとつ増えました。
+EN Now I'll have one more story to brag about when I'm a
+EN grandma.
+
+@ 43.16
+# scene 044 一日署長
+# フローラ小川
+JP あの、社長…。
+JP 当日の写真、個人的にいただけますか？
+EN Um, Boss... Could I get a copy of the photos from that
+EN day, for myself?
+
+@ 44.16
+# scene 045 写真集発売
+# フローラ小川
+JP 私の写真集なんて
+JP 買ってくれる人いるのかな…。
+EN I wonder if anyone will actually buy a photo book of
+EN me...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# フローラ小川
+JP …あの…社長…。
+JP 本当に私に来た仕事なんですか？
+EN ...Um... Boss... Is this job really meant for me?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# フローラ小川
+JP カラオケに入ったら
+JP 一緒に歌ってくれますか？
+EN If it shows up at karaoke, will you sing it with me?
+
+@ 47.16
+# scene 048 始球式
+# フローラ小川
+JP こういう仕事も楽しそうですね。
+EN This kind of work looks like fun.
+
+@ 48.16
+# scene 049 学園祭
+# フローラ小川
+JP ウフッ…。
+JP お客様気分で楽しんできます。
+EN Hehe... I'll go enjoy it like one of the guests.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.37
+# フローラ小川
+JP …えっ……？
+EN ...Huh......?
+
+@ 49.40
+# 社 長
+JP …んっ？
+JP 気に入らなかったか？
+EN ...Hm? You don't like it?
+
+@ 49.48
+# フローラ小川
+JP いえ、そんな！
+JP 私、こういうの初めてで…。
+JP 本当にありがとうございます。
+EN No, not at all! It's just... it's my first time getting
+EN something like this... Thank you so much.
+
+@ 50.29
+# scene 051 バレンタインデー
+# フローラ小川
+JP 社長、バレンタインデーの
+JP チョコレートです。
+JP 受け取っていただけませんか？
+EN Boss, here's some Valentine's chocolate. Would you
+EN please accept it?
+
+@ 50.32
+# 社 長
+JP あぁ、ありがとう…。
+JP …んっ、これ、手作りか？
+EN Ah, thank you... Hm, is this homemade?
+
+@ 50.39
+# フローラ小川
+JP はい…。
+JP レシピ通りですけど
+JP うまくできましたから…。
+EN Yes... I followed the recipe exactly, so it came out
+EN well...
+
+@ 50.42
+# 社 長
+JP 小川がそう言うなら間違いないな。
+JP ありがたく受け取らせてもらうよ。
+EN If you say so, Ogawa, then I'm sure it did. I'll
+EN gratefully accept it.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP あぁ、小川。
+JP 先月のお礼だ。
+EN Ah, Ogawa. This is to thank you for last month.
+
+@ 51.35
+# フローラ小川
+JP ありがとうございます…。
+JP あっ、このクッキー…。
+JP もしかして手作りですか？
+EN Thank you very much... Oh, these cookies... Did you
+EN make them yourself?
+
+@ 51.38
+# 社 長
+JP 最近は男でも簡単に作れる
+JP 手作りセットがあるんだよ。
+JP でも味は保証しないぞ？
+EN These days there are kits so easy even a guy can
+EN make them. No promises on the taste, though.
+
+@ 51.45
+# フローラ小川
+JP おいしいに決まってます。
+JP 食べるのがもったいないくらい
+JP 絶対おいしいです…。
+EN They're sure to be delicious. So delicious it'd be a
+EN shame to eat them...
+
+@ 52.31
+# scene 053 サイン会
+# フローラ小川
+JP ありがとうございます。
+JP これからも応援よろしくお願いします。
+EN Thank you so much. Please keep cheering me on.
+
+@ 53.31
+# scene 054 コンサート
+# フローラ小川
+JP 私…ボーカルの資格は持ってませんけど
+JP がんばります。
+EN I don't... have any singing certificates, but I'll do my
+EN best.
+
+@ 54.28
+# scene 055 練習拒否
+# フローラ小川
+JP すみません。
+JP 今日は休ませてください…。
+EN I'm sorry. Please let me rest today...
+
+@ 55.28
+# scene 056 失踪
+# フローラ小川
+JP ごめんなさい…。
+JP ごめんなさい…。
+JP ごめんなさい……。
+EN I'm sorry... I'm sorry... I'm so sorry......
+
+@ 56.16
+# scene 057 選手解雇
+# フローラ小川
+JP そうですか…。
+JP 今までお世話になりました。
+JP ありがとうございました。
+EN I see... Thank you for looking after me all this time.
+EN Thank you very much.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# フローラ小川
+JP 遠征メンバーに選ばれた以上
+JP ご期待に沿えるようがんばります。
+EN Since I've been chosen for the tour, I'll work hard to
+EN live up to your expectations.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# フローラ小川
+JP ただいま戻りました。
+JP これが海外のプロレス関係の
+JP レポートです。
+EN I'm back. Here's my report on the pro-wrestling
+EN scene overseas.
+
+@ 59.28
+# scene 060 移籍思案
+# フローラ小川
+JP どうしよう…。
+JP 社長を裏切るなんて……。
+EN What should I do... Betraying the Boss......
+
+@ 60.16
+# scene 061 革命軍結成
+# フローラ小川
+JP 玉砕は覚悟の上です。
+JP やれるだけのことはやります！
+EN I'm ready to go down fighting. I'll do everything I can!
+
+@ 61.16
+# scene 062 反乱軍結成
+# フローラ小川
+JP 夢追い人でも
+JP 許せないことぐらいあります！
+EN Even a dreamer has things she can't forgive!
+
+@ 62.16
+# scene 063 最終決戦要求
+# フローラ小川
+JP これで最後です！
+JP 決着をつけましょう！！
+EN This is the last time! Let's settle this!!
+
+@ 63.16
+# scene 064 遺恨発生
+# フローラ小川
+JP 我慢しなきゃ…。
+JP でも……。
+EN I have to hold it in... But......
+
+@ 64.16
+# scene 065 殴り込み
+# フローラ小川
+JP うちの看板に恥じない試合を
+JP してきます。
+EN I'll go put on a match worthy of our promotion's
+EN name.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# フローラ小川
+JP うちに殴り込みをかけるなんて
+JP 無謀ですね。
+EN Invading our promotion? How reckless.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# フローラ小川
+JP まさかエースを温存するなんて
+JP そんな恥知らずなことしませんよね？
+EN Surely you wouldn't do something as shameless as
+EN holding back your ace, would you?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# フローラ小川
+JP 必ず社長のご期待に応えてみませます！
+EN I'll live up to your expectations, Boss. I promise!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# フローラ小川
+JP この勝利は私だけの勝利ではありません。
+JP 社長やみんながいたからこその勝利です…。
+EN This victory isn't mine alone. I won it because of you,
+EN Boss, and everyone else...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# フローラ小川
+JP すみません…。
+JP ご期待に応えることができませんでした…。
+EN I'm sorry... I couldn't live up to your expectations...
+
+@ 70.13
+# scene 071 引退式
+# フローラ小川
+JP 夢を…見ていました…。
+JP でも、夢はいつか…ぐすっ…。
+JP 今日までありがとうございました…！
+EN I was... dreaming... But dreams someday... *sniff*...
+EN Thank you for everything until today...!
+
+@ 71.18
+# フローラ小川
+JP はい、お呼びですか？
+EN Yes, you called for me?
+
+@ 71.37
+# フローラ小川
+JP はい、なんでしょう？
+EN Yes, what is it?
+
+@ 71.47
+# フローラ小川
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been doing well lately. Keep it up.
+
+@ 71.90
+# フローラ小川
+JP はい、これからも精一杯がんばります。
+EN Yes, I'll keep giving it everything I've got.
+
+@ 71.111
+# フローラ小川
+JP …はい、ありがとうございます。
+EN ...Yes, thank you.
+
+@ 71.132
+# フローラ小川
+JP はい！
+JP ご期待にそえるように
+JP もっとがんばります！
+EN Yes! I'll work even harder to live up to your
+EN expectations!
+
+@ 71.153
+# フローラ小川
+JP すみません…。
+JP 試合でも結果を出せれば
+JP いいんですけど…。
+EN I'm sorry... If only I could get results in my matches
+EN too...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# フローラ小川
+JP あ、すみません…。
+JP つい、浮き足だったままで……。
+EN Oh, I'm sorry... I guess I got a little carried away......
+
+@ 71.211
+# フローラ小川
+JP …はい、社長のおっしゃる通りです。
+EN ...Yes, you're absolutely right, Boss.
+
+@ 71.232
+# フローラ小川
+JP あっ…はい、すみません。
+JP 初心に戻って、いちから出直します。
+EN Ah... yes, I'm sorry. I'll go back to basics and start
+EN over from scratch.
+
+@ 71.253
+# フローラ小川
+JP …すみません。
+JP 資格の勉強、自粛します…。
+EN ...I'm sorry. I'll cut back on studying for
+EN certifications...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a bit down lately. Are you okay?
+
+@ 71.290
+# フローラ小川
+JP 少し疲れがたまっただけです。
+JP ご心配おかけしてすみません。
+EN I'm just a little worn out. Sorry to worry you.
+
+@ 71.311
+# フローラ小川
+JP あ、はい…。
+JP 体調管理をもっと気を付けます。
+EN Oh, yes... I'll take better care of my health.
+
+@ 71.332
+# フローラ小川
+JP 大丈夫です。
+JP 社長に心配をかけるなんて
+JP ダメですね、私って。
+EN I'm fine. Making the Boss worry about me... I'm
+EN hopeless, aren't I?
+
+@ 71.353
+# フローラ小川
+JP …はい、大丈夫です。
+JP なんでもありませんから…。
+EN ...Yes, I'm fine. It's nothing, really...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# フローラ小川
+JP …すみません、
+JP 社長にご面倒をおかけして…。
+EN ...I'm sorry for causing you trouble, Boss...
+
+@ 71.400
+# フローラ小川
+JP ……はい。
+EN ......Yes.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.433
+# フローラ小川
+JP …はい、今すぐ謝ってきます。
+JP 本当にすみませんでした。
+EN ...Yes, I'll go apologize right now. I'm truly sorry.
+
+@ 71.454
+# フローラ小川
+JP すみません…。
+JP あの…どうしようもないんです…。
+JP この気持ちだけは……。
+EN I'm sorry... Um... there's nothing I can do... about
+EN these feelings......
+
+@ 71.475
+# フローラ小川
+JP …えっ？
+JP あの…資格の話では…ないのですか？
+EN ...Huh? Um... this isn't about my certifications?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# フローラ小川
+JP …はい。
+JP 社長の耳にも入っていたのですね…。
+EN ...Yes. So word reached you too, Boss...
+
+@ 71.522
+# フローラ小川
+JP いえ…。
+JP あの私、何かしました？
+EN No... Um, did I do something?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.557
+# フローラ小川
+JP はい…。
+JP 全部、私が未熟なせいです。
+JP 本当に申し訳ありませんでした。
+EN Yes... It's all because I'm still so immature. I'm truly
+EN sorry.
+
+@ 71.578
+# フローラ小川
+JP その…私だけでは…解決できない
+JP 問題なんです…。
+EN It's... a problem I can't... solve on my own...
+
+@ 71.599
+# フローラ小川
+JP …えっ？
+JP あ、はい…でも私たち別に
+JP ケンカなんてしていませんよ。
+EN ...Huh? Oh, yes... But we're not fighting or anything.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# フローラ小川
+JP はい、なんでしょう。
+EN Yes, what is it?
+
+@ 72.16
+# フローラ小川
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been doing well lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# フローラ小川
+JP はい、これからも
+JP 精一杯がんばります。
+EN Yes, I'll keep giving it everything I've got.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# フローラ小川
+JP …はい、ありがとうございます。
+EN ...Yes, thank you.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# フローラ小川
+JP はい！　ご期待にそえるように、
+JP もっとがんばります！
+EN Yes! I'll work even harder to live up to your
+EN expectations!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# フローラ小川
+JP すみません…。試合でも結果を
+JP 出せればいいんですけど…。
+EN I'm sorry... If only I could get results in my matches
+EN too...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# フローラ小川
+JP あ、すみません…。
+JP つい、浮き足だったままで……。
+EN Oh, I'm sorry... I guess I got a little carried away......
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# フローラ小川
+JP …はい、
+JP 社長のおっしゃる通りです。
+EN ...Yes, you're absolutely right, Boss.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# フローラ小川
+JP あっ…はい、すみません。
+JP 初心に戻って、いちから出直します。
+EN Ah... yes, I'm sorry. I'll go back to basics and start
+EN over from scratch.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# フローラ小川
+JP …すみません。
+JP 資格の勉強、自粛します……。
+EN ...I'm sorry. I'll cut back on studying for
+EN certifications...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a bit down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# フローラ小川
+JP 少し疲れがたまっただけです。
+JP ご心配おかけしてすみません。
+EN I'm just a little worn out. Sorry to worry you.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# フローラ小川
+JP あ、はい…。
+JP 体調管理をもっと気を付けます。
+EN Oh, yes... I'll take better care of my health.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# フローラ小川
+JP 大丈夫です。
+JP 社長に心配をかけるなんて
+JP ダメですね、私って。
+EN I'm fine. Making the Boss worry about me... I'm
+EN hopeless, aren't I?
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# フローラ小川
+JP …はい、大丈夫です。
+JP なんでもありませんから…。
+EN ...Yes, I'm fine. It's nothing, really...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# フローラ小川
+JP …すみません、
+JP 社長にご面倒をおかけして……。
+EN ...I'm sorry for causing you trouble, Boss...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# フローラ小川
+JP ……はい。
+EN ......Yes.
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# フローラ小川
+JP …はい。今すぐ謝ってきます。
+JP 本当にすみませんでした。
+EN ...Yes, I'll go apologize right now. I'm truly sorry.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# フローラ小川
+JP すみません…。
+JP あの…どうしようもないんです…。
+JP この気持ちだけは……。
+EN I'm sorry... Um... there's nothing I can do... about
+EN these feelings......
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# フローラ小川
+JP えっ？　あの…資格の話では…
+JP ないのですか？
+EN ...Huh? Um... this isn't about my certifications?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# フローラ小川
+JP ……はい。社長の耳にも
+JP 入っていたのですね。
+EN ......Yes. So word reached you too, Boss...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# フローラ小川
+JP いえ…。あの私、何かしました？
+EN No... Um, did I do something?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# フローラ小川
+JP はい…。
+JP 全部、私が未熟なせいです。
+JP 本当に申し訳ありませんでした。
+EN Yes... It's all because I'm still so immature. I'm truly
+EN sorry.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# フローラ小川
+JP その…。
+JP 私だけでは、解決できない
+JP 問題なんです……。
+EN It's... a problem I can't... solve on my own......
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# フローラ小川
+JP えっ？　あ、はい…。
+JP でも私たち別に、
+JP ケンカなんてしていませんよ。
+EN ...Huh? Oh, yes... But we're not fighting or anything.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# フローラ小川
+JP 来年もよろしくお願いします。
+EN I look forward to another year with you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# フローラ小川
+JP ご期待に応えられるよう
+JP 来年もがんばります。
+EN I'll work hard again next year to live up to your
+EN expectations.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# フローラ小川
+JP 来年は資格の勉強が
+JP あまりできませんね…。
+EN I guess I won't have much time to study for
+EN certifications next year...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this is the tropics all right. The sun is
+EN scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP それにしても…ん～～っ！
+JP はぁ……。
+EN Still... Nnnngh! Haah......
+
+@ 105.45
+# フローラ小川
+JP あっ、社長。
+JP どうなされたんですか？
+JP 少しお疲れのようですけど…？
+EN Oh, Boss. What's the matter? You look a little tired...?
+
+@ 105.48
+# 社 長
+JP …んっ？
+JP あぁ…最近、忙しくてなぁ。
+JP 首というか肩というか…。
+EN ...Hm? Ah... I've been busy lately. My neck, or my
+EN shoulders, or...
+
+@ 105.55
+# フローラ小川
+JP お揉みしましょうか？
+EN Shall I give you a massage?
+
+@ 105.58
+# 社 長
+JP いやいや、いいよ。
+JP そっちこそ遊んできたらどうだ？
+EN No, no, that's fine. Why don't you go have some fun?
+
+@ 105.65
+# フローラ小川
+JP 遠慮しないでください。
+JP これでも得意なんですよ。
+JP マッサージ。
+EN Please don't be shy. I'm actually pretty good at it.
+EN Massages, I mean.
+
+@ 105.68
+# 社 長
+JP ん～っ…。
+JP まぁ、そこまで言うなら
+JP お願いしてもいいか？
+EN Hmm... Well, if you insist, I guess I'll take you up on it.
+
+@ 105.72
+# フローラ小川
+JP はい。
+JP 任せてください。
+EN Okay. Leave it to me.
+
+@ 105.87
+# 社 長
+JP ん、くぅ……。
+EN Mm, nngh......
+
+@ 105.91
+# フローラ小川
+JP どうですか？
+EN How's that?
+
+@ 105.94
+# 社 長
+JP もう少し強くても…。
+JP あぁ、それそれ、そんな感じ。
+EN A little harder would be... Ahh, right there, just like
+EN that.
+
+@ 105.97
+# 社 長
+JP くぉ…きくぅ…。
+JP ホントにマッサージが…。
+EN Ooh... that hits the spot... You really are good at...
+
+@ 105.113
+# フローラ小川
+JP あ、強すぎましたか？
+EN Oh, was that too hard?
+
+@ 105.116
+# 社 長
+JP い、いやいやいや！
+EN N-no, no, no!
+
+@ 105.118
+# 社 長
+JP （で、でも、なぜ水着に！？
+JP 　暑いからか、そうなのか？）
+EN (B-but why is she in a swimsuit!? Because it's hot? Is
+EN that it?)
+
+@ 105.122
+# フローラ小川
+JP これくらいですか？
+EN Is this about right?
+
+@ 105.125
+# 社 長
+JP あ、あぁ、うん。
+JP しかし、ホントにうまいな？
+EN Y-yeah, uh-huh. You really are good at this, huh?
+
+@ 105.129
+# フローラ小川
+JP …あっ、はい。
+JP つい最近、整体師の資格を
+JP 取ったんです。
+EN ...Oh, yes. I just got my chiropractic certification
+EN recently.
+
+@ 105.133
+# フローラ小川
+JP でも…。
+JP マッサージをするのは…
+JP 社長だけですけど…。
+EN But... the only one I give massages to... is you, Boss...
+
+@ 105.136
+# 社 長
+JP （ええっと…今、何かあぶない言葉を
+JP 　聞いたような…？）
+EN (Um... did I just hear something kind of dangerous...?)
+
+@ 105.140
+# フローラ小川
+JP ………………。
+EN ..................
+
+@ 105.143
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.147
+# フローラ小川
+JP あ…あの、社長。
+JP 背中…もう、いいですよね？
+EN U-um, Boss. Your back... should be fine now, right?
+
+@ 105.150
+# 社 長
+JP あ、あぁ！
+JP ありがとうな。
+JP 随分と楽に…。
+EN Y-yeah! Thanks. I feel a lot looser...
+
+@ 105.154
+# フローラ小川
+JP じゃあ、仰向けになってください。
+EN Then please turn over onto your back.
+
+@ 105.157
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 105.161
+# フローラ小川
+JP このままゴロンって。
+EN Just roll right over.
+
+@ 105.164
+# 社 長
+JP （いや、このまま仰向けってことは…。
+JP 　さ、さすがにまずいだろぉ！）
+EN (Wait, turning over like this means... Th-that would be
+EN way too dangerous!)
+
+@ 106.24
+# scene 107 日常イベント・１回目
+# 社 長
+JP ふわぁあああ…んっ……。
+EN Fwaaaaah... mm......
+
+@ 106.26
+# 社 長
+JP （久しぶりの休みと言っても
+JP 　やることもないし…）
+EN (My first day off in ages, and I've got nothing to
+EN do...)
+
+@ 106.30
+# フローラ小川
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 106.46
+# 社 長
+JP んっ？
+JP 小川じゃないか。
+EN Hm? Ogawa, is that you?
+
+@ 106.50
+# フローラ小川
+JP ウフッ…。
+JP こんなところで会うなんて
+JP 珍しいですね。
+EN Hehe... Fancy running into you here.
+
+@ 106.53
+# 社 長
+JP まったくだ。
+JP 寮から遠いだろ、このあたりだと
+JP …んっ？
+EN You said it. This is pretty far from the dorm... Hm?
+
+@ 106.55
+# 社 長
+JP その書類は？
+EN What are those papers?
+
+@ 106.59
+# フローラ小川
+JP あっ、これですか？
+JP 色々と資料をもらってきたんです。
+EN Oh, these? I picked up some information packets.
+
+@ 106.62
+# 社 長
+JP 資料？
+JP なんの資料だ？
+EN Information? On what?
+
+@ 106.66
+# フローラ小川
+JP 調理師免許の資料です。
+EN On getting a cook's license.
+
+@ 106.69
+# 社 長
+JP 調理師？
+JP なんでまたそんなものを…。
+EN A cook? What do you want one of those for?
+
+@ 106.73
+# フローラ小川
+JP あっ…。
+JP 社長にお話したことありません
+JP でしたか？
+EN Oh... Haven't I ever told you, Boss?
+
+@ 106.83
+# フローラ小川
+JP 私、色々と資格を取るのが
+JP 趣味なんです。
+EN Collecting certifications is a hobby of mine.
+
+@ 106.86
+# 社 長
+JP 趣味って…。
+EN A hobby...
+
+@ 106.96
+# フローラ小川
+JP もちろん、実益も兼ねてます。
+EN They're practical too, of course.
+
+@ 106.100
+# フローラ小川
+JP まだ先の話ですけど
+JP 私もいずれは引退しますし…。
+JP その後のことも考えておかないと…。
+EN It's still a ways off, but I'll retire someday too... I
+EN have to think about what comes after.
+
+@ 106.103
+# 社 長
+JP そうか…。
+JP 誰かさんに爪の垢でも煎じて
+JP 飲ませたい言葉だな。
+EN I see... Certain people I know could stand to learn a
+EN thing or two from you.
+
+@ 106.107
+# フローラ小川
+JP ウフッ…。
+JP それって誰のことですか？
+EN Hehe... And who might that be?
+
+@ 106.110
+# 社 長
+JP あんまり突っ込むな。
+EN Don't push it.
+
+@ 106.112
+# 社 長
+JP でもまぁ、そういうことなら
+JP 会社としても応援できるところは
+JP 応援するぞ。
+EN Well, if that's the case, the company will support you
+EN however it can.
+
+@ 106.116
+# フローラ小川
+JP 資格手当でも
+JP 出していただけるんですか？
+EN Does that mean you'll pay me a certification bonus?
+
+@ 106.119
+# 社 長
+JP それは…うーん…。
+JP 試験日の練習を休んでもいいとかで
+JP 許してくれ。
+EN That's... um... How about letting you skip training on
+EN exam days instead?
+
+@ 106.123
+# フローラ小川
+JP それで充分です。
+JP それじゃ、失礼します。
+EN That's more than enough. Well, I'll be going.
+
+@ 106.126
+# 社 長
+JP あぁ、がんばれよ。
+JP 個人的にも応援してるからな。
+EN All right, good luck. I'm rooting for you personally,
+EN too.
+
+@ 106.136
+# フローラ小川
+JP はい！
+JP ありがとうございます。
+EN Okay! Thank you so much.
+
+@ 107.24
+# scene 108 日常イベント・２回目
+# 社 長
+JP ふわぁあああ…んっ…。
+JP やれやれ……。
+EN Fwaaaaah... mm... Oh, brother......
+
+@ 107.26
+# 社 長
+JP （せっかくの休みなのに出社とはなぁ…）
+EN (Going into the office on my day off...)
+
+@ 107.30
+# フローラ小川
+JP あっ、社長。
+EN Oh, Boss.
+
+@ 107.46
+# 社 長
+JP おぉ、小川。
+JP その様子だとまた資格の資料か？
+EN Oh, Ogawa. From the looks of it, more certification
+EN info?
+
+@ 107.56
+# フローラ小川
+JP はい。
+JP 今度は栄養士です。
+EN Yes. This time it's for dietitian.
+
+@ 107.59
+# 社 長
+JP そうか。
+JP 偉いなぁ、小川は。
+EN I see. You're really something, Ogawa.
+
+@ 107.69
+# フローラ小川
+JP 社長はどうされたんですか？
+EN What about you, Boss?
+
+@ 107.72
+# 社 長
+JP 仕事だよ。
+JP 帳簿の整理が遅れてるんだ。
+EN Work. I've fallen behind on the books.
+
+@ 107.76
+# フローラ小川
+JP あっ、これから事務所に…？
+EN Oh, so you're headed to the office now...?
+
+@ 107.79
+# 社 長
+JP そういうこと。
+JP いやぁ、慣れてないから大変でな…。
+EN That's right. Boy, I'm not used to it, so it's rough...
+
+@ 107.89
+# フローラ小川
+JP あの…。
+JP 私、簿記の資格なら
+JP 持ってるんですけど…。
+EN Um... I actually have a bookkeeping certification...
+
+@ 107.99
+# フローラ小川
+JP 手伝えること何かありますか？
+EN Is there anything I can help with?
+
+@ 107.102
+# 社 長
+JP 簿記ってことは…。
+JP 帳簿のつけ方わかるのか？
+EN Bookkeeping... So you know how to keep the books?
+
+@ 107.112
+# フローラ小川
+JP はい。
+JP 一応、基本的なことなら…。
+EN Yes. The basics, at least...
+
+@ 107.115
+# 社 長
+JP 助かる！
+JP いや、本当に助かる！
+EN That's a lifesaver! Seriously, a lifesaver!
+
+@ 107.117
+# 社 長
+JP バイト代も出すから
+JP 手伝ってくれるか！？
+EN I'll pay you for your time, so will you help me out!?
+
+@ 107.127
+# フローラ小川
+JP は、はいっ！
+EN Y-yes!
+
+@ 107.130
+# 社 長
+JP いや、本当に助かる！
+JP ありがとう、小川！！
+EN Seriously, you're a lifesaver! Thanks, Ogawa!!
+
+@ 107.132
+# 社 長
+JP 霧子くんが明日まで出張なんだよ。
+EN Kiriko's away on a business trip until tomorrow.
+
+@ 107.134
+# 社 長
+JP このままだと、俺１人で領収書と
+JP 格闘しなきゃならなかったんだ。
+EN I was going to have to wrestle with all these receipts
+EN by myself.
+
+@ 107.136
+# 社 長
+JP いやぁ、本当に助かった。
+JP やっぱり持つべきモノは
+JP しっかり者の身内だな。
+EN Boy, you really saved me. A dependable member of
+EN the family is the best thing to have.
+
+@ 107.146
+# フローラ小川
+JP …えっ。
+JP もしかして…社長と二人きり…？
+JP どうしよう…。
+EN ...Huh. Wait... just me and the Boss, alone together...?
+EN What do I do...
+
+@ 107.149
+# 社 長
+JP …んっ？
+JP どうした？
+EN ...Hm? What's wrong?
+
+@ 107.159
+# フローラ小川
+JP い、いえ、なんでもありません。
+JP 社長、早く事務所に…。
+EN N-no, it's nothing. Boss, let's hurry to the office...
+
+@ 107.162
+# 社 長
+JP うぉ！？
+JP なんだ、小川。
+JP そんな急がなくても…。
+EN Whoa!? What's gotten into you, Ogawa? There's no
+EN need to rush...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# フローラ小川
+JP …よろしくお願いしますっ！
+EN ...Let's have a good match!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# フローラ小川
+JP …よろしくお願いしますっ！
+EN ...Let's have a good match!
+
+@ 110.16
+# scene 113 練習開始
+# フローラ小川
+JP よろしくお願いしますっ！
+EN Let's get to it!
+
+@ 111.16
+# scene 114 練習開始 好意
+# フローラ小川
+JP あっ、社長。
+JP あの…何かアドバイスを
+JP いただけませんか？
+EN Oh, Boss. Um... could you give me some advice?
+
+@ 112.16
+# scene 115 特訓開始
+# フローラ小川
+JP …はいっ！
+JP 最後までやりとげます！
+EN ...Yes! I'll see it through to the end!
+
+@ 113.20
+# scene 116 特訓成功
+# フローラ小川
+JP すごい…。
+JP 私は…まだ強くなれるんだ…。
+EN Amazing... I... can still get stronger...
+
+@ 114.20
+# scene 117 特訓失敗
+# フローラ小川
+JP はぁ、はぁ…。
+JP これだけ…やったのに……。
+EN Haah, haah... After all... that work......
+
+@ 115.16
+# scene 118 休養
+# フローラ小川
+JP ありがとうございます。
+JP 今のうちに資格の試験受けてきますね。
+EN Thank you very much. I'll go take a certification
+EN exam while I have the chance.
+
+@ 116.16
+# scene 119 入場1
+# フローラ小川
+JP 古人いわく…戦の勝敗は
+JP 始まる前に決している。
+JP この意味、わかりますか？
+EN The ancients said a battle is won or lost before it
+EN begins. Do you understand what that means?
+
+@ 117.16
+# scene 119 入場2
+# フローラ小川
+JP 冷静に…。
+JP 練習を思い出して…。
+EN Stay calm... Remember your training...
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# フローラ小川
+JP 石川さんの代わりには
+JP なれませんが…。
+JP がんばります！
+EN I can't take Ishikawa's place... but I'll do my best!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# フローラ小川
+JP 教わったこと、すべて出しますっ！
+EN I'll show everything I've been taught!
+
+@ 120.16
+# scene 125 必殺技１
+# フローラ小川
+JP 私の策にかかったようですね。
+EN Looks like you fell right into my trap.
+
+@ 121.16
+# scene 125 必殺技２
+# フローラ小川
+JP 関節の悲鳴を聞かせてもらいます！
+EN Let me hear your joints scream!
+
+@ 122.16
+# scene 125 必殺技３
+# フローラ小川
+JP ようやく私の間合いへ
+JP 入って来てくれましたね！
+EN You've finally stepped into my range!
+
+@ 123.12
+# scene 126 勝利1
+# フローラ小川
+JP 今回は私の勝ちみたいですね。
+EN Looks like I win this time.
+
+@ 124.12
+# scene 126 勝利2
+# フローラ小川
+JP リングにかける想いは
+JP 誰にも負けません。
+EN No one cares about the ring more than I do.
+
+@ 125.12
+# scene 126 勝利3
+# フローラ小川
+JP 浮かれてはいられません。
+JP スキルを磨き、更なる
+JP ステップアップをめざします。
+EN I can't get carried away. I'll keep polishing my skills
+EN and aim to step up even further.
+
+@ 126.15
+# scene 133 表彰1
+# フローラ小川
+JP こんな賞をいただけるなんて…。
+JP みなさん、本当にありがとうございます！
+EN I can't believe I'm getting an award like this... Thank
+EN you all so much!
+
+@ 127.15
+# scene 133 表彰2
+# フローラ小川
+JP 社長…。
+JP これ夢じゃないんですよね？
+EN Boss... This isn't a dream, is it?
+
+@ 128.12
+# scene 134 優勝1
+# フローラ小川
+JP 自分でも信じられません…。
+JP 私が優勝できるなんて…。
+EN I can't believe it myself... That I could win the
+EN tournament...
+
+@ 129.12
+# scene 134 優勝２
+# フローラ小川
+JP ここまで来れたのは
+JP みなさんのおかげです。
+JP ありがとうございました。
+EN I made it this far thanks to all of you. Thank you so
+EN much.
+
+@ 130.24
+# scene 135 エンディング 通常
+# フローラ小川
+JP おめでとうございます！
+JP 社長は何か成し遂げる人だって
+JP 信じてました！
+EN Congratulations! I always believed you were someone
+EN who'd achieve great things, Boss!
+
+@ 131.24
+# scene 136 エンディング 好意
+# フローラ小川
+JP 社長…これ、夢じゃないんですよね？
+JP あの…少しだけ…抱きついても
+JP いいですか？
+EN Boss... this isn't a dream, is it? Um... could I hug you...
+EN just for a moment?

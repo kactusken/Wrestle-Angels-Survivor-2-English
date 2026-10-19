@@ -1,0 +1,11 @@
+{
+ "english": "Page",
+ "boxes": [[276, 27, 43, 16]],
+ "fill": "bright",
+ "ground": "interpolate",
+ "reach": 2,
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "cap": 10,
+ "catalogue": {"source": "/SYS/ST.GSL", "width": 640, "height": 352, "bpp": 8, "category": "screen", "japanese": "L1 R1 ページ"},
+ "notes": "status screen frame: page hint, as SYS_OPTION_1/2"
+}

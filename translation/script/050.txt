@@ -1,0 +1,2609 @@
+# /SCR/050.BIN - メロディ小鳩
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 050` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# メロディ小鳩
+JP いひ♪
+JP 小鳩よ。
+JP よろしくお願いね。
+EN Ihi♪ I'm Kobato. Pleased to meet you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# メロディ小鳩
+JP ありがと♪
+JP がんばるわ。
+EN Thank you♪ I'll do my best.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# メロディ小鳩
+JP まあ…悲しいわ。
+EN Oh my... How sad.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （この町か…）
+EN (So this is the town...)
+
+@ 3.25
+# 社 長
+JP （海外で活躍していた伝説の
+JP 　日本人レスラー、ギルティ美鷹の
+JP 　一人娘…か）
+EN (The only daughter of Guilty Mitaka, the legendary
+EN Japanese wrestler who made her name abroad...)
+
+@ 3.27
+# 社 長
+JP （スカウトは随分と推していたが…。
+JP 　実際、どうなんだろうな）
+EN (Our scout pushed her pretty hard... I wonder what
+EN she's really like.)
+
+@ 3.29
+# 社 長
+JP （いた、彼女だ…）
+EN (There she is...)
+
+@ 3.31
+# 社 長
+JP すみません。
+JP 小鳩さんですね。
+EN Excuse me. You're Kobato, right?
+
+@ 3.41
+# メロディ小鳩
+JP ええ、小鳩よ。
+JP あなたは、だあれ？
+EN Yes, I'm Kobato. And who are you?
+
+@ 3.44
+# 社 長
+JP 実は私、プロレスの団体を
+JP 経営している者なんですが。
+EN Actually, I run a pro-wrestling promotion.
+
+@ 3.51
+# メロディ小鳩
+JP まあ、困ったわ。
+JP ママはもう引退したのよ。
+JP 今はね、お花屋さんをやってるの。
+EN Oh dear. Mama retired a long time ago. She runs a
+EN flower shop now, you know.
+
+@ 3.54
+# 社 長
+JP あ、いえ違います。
+JP 用事があるのはあなたの方で…。
+EN Ah, no, that's not it. It's you I came to see...
+
+@ 3.56
+# 社 長
+JP （俺は、彼女をスカウトした）
+EN (I tried to scout her.)
+
+@ 3.60
+# メロディ小鳩
+JP まあ。
+JP 私があなたの団体に？
+EN Oh my. Me, in your promotion?
+
+@ 3.63
+# 社 長
+JP ええ、どうでしょう？
+EN Yes. What do you think?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# メロディ小鳩
+JP いいわ♪
+JP あなたの団体に入ってあげる。
+EN All right♪ I'll join your promotion.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+JP これから、よろしく。
+EN Thank you. I look forward to working with you.
+
+@ 4.29
+# メロディ小鳩
+JP こちらこそ♪
+JP ママみたいにできるかは
+JP わからないけれど…がんばるわ。
+EN Likewise♪ I don't know if I can do it like Mama did...
+EN but I'll do my best.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# メロディ小鳩
+JP ごめんなさい。
+JP 小鳩ね、普通の女の子として
+JP 暮らしていかないといけないの。
+EN I'm sorry. Kobato has to live her life as an ordinary
+EN girl, you see.
+
+@ 5.22
+# 社 長
+JP 普通の？
+EN Ordinary?
+
+@ 5.29
+# メロディ小鳩
+JP えぇ…。
+JP 普通の……。
+EN Yes... Ordinary......
+
+@ 5.32
+# 社 長
+JP （なんだ…。
+JP 　この、ゾッとくる雰囲気は？）
+EN (What... What is this chilling aura?)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （俺は再び小鳩を訪ねた）
+EN (I went to see Kobato again.)
+
+@ 6.25
+# 社 長
+JP （実際に会ってわかった。
+JP 　たしかに、彼女には何かがあると
+JP 　認めざるを得ない）
+EN (Meeting her in person, I had to admit it. There really
+EN is something about her.)
+
+@ 6.27
+# 社 長
+JP すみません。
+EN Excuse me.
+
+@ 6.37
+# メロディ小鳩
+JP あら、社長さん。
+JP お花を買いに来てくれたの？
+EN Oh, Mr. President. Did you come to buy some flowers?
+
+@ 6.40
+# 社 長
+JP いえ…。
+JP 実は、こないだの件を
+JP 考え直していただけないかと。
+EN No... Actually, I was hoping you'd reconsider what we
+EN talked about the other day.
+
+@ 6.47
+# メロディ小鳩
+JP あら。
+JP スカウト？
+EN Oh my. The scouting?
+
+@ 6.50
+# 社 長
+JP ええ。
+JP 俺を信じて入団して
+JP もらえないでしょうか。
+EN Yes. Won't you trust me and join us?
+
+@ 6.52
+# 社 長
+JP （それからしばらく
+JP 　俺は熱心に彼女を説得した）
+EN (For a while after that, I earnestly tried to persuade
+EN her.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# メロディ小鳩
+JP いいわ♪
+JP あなたの団体に入ってあげる。
+EN All right♪ I'll join your promotion.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+JP これから、よろしく。
+EN Thank you. I look forward to working with you.
+
+@ 7.29
+# メロディ小鳩
+JP こちらこそ♪
+JP ママみたいにできるかは
+JP わからないけれど…がんばるわ。
+EN Likewise♪ I don't know if I can do it like Mama did...
+EN but I'll do my best.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# メロディ小鳩
+JP ごめんなさい。
+JP 小鳩ね、普通の女の子として
+JP 暮らしていかないといけないの。
+EN I'm sorry. Kobato has to live her life as an ordinary
+EN girl, you see.
+
+@ 8.22
+# 社 長
+JP 普通の？
+EN Ordinary?
+
+@ 8.29
+# メロディ小鳩
+JP えぇ…。
+JP 普通の……。
+EN Yes... Ordinary......
+
+@ 8.32
+# 社 長
+JP （……やっぱり……何だ？
+JP 　この背筋を走る怖気は）
+EN (......There it is again... What is this shiver running
+EN down my spine?)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は小鳩選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kobato.
+
+@ 9.25
+# 社 長
+JP 明るく華やかな彼女を見ていると
+JP なんとも幸せな気持ちになれる。
+EN Just watching her, so bright and dazzling, puts me in
+EN a happy mood.
+
+@ 9.27
+# 社 長
+JP それに…それだけではない何かを
+JP 彼女には感じる。
+EN And yet... I sense something more to her than that.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be around here somewhere...
+
+@ 9.31
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+JP 小鳩選手ですね。
+EN Um, excuse me. You're Kobato, right?
+
+@ 9.43
+# メロディ小鳩
+JP そうよ♪
+JP 何かご用かしら？
+EN That's right♪ Can I help you with something?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.53
+# メロディ小鳩
+JP まあ、引き抜きなの。
+JP 悪い社長さんね♪
+EN Oh my, you're poaching me? What a naughty
+EN president♪
+
+@ 9.56
+# 社 長
+JP それが仕事ですから。
+EN It's my job.
+
+@ 9.58
+# 社 長
+JP どうでしょう。
+JP 悪いようにはしませんが…。
+EN What do you think? I'll treat you well...
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# メロディ小鳩
+JP わかったわ♪
+JP あなたの団体に入ってあげる。
+EN All right♪ I'll join your promotion.
+
+@ 10.22
+# 社 長
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 10.29
+# メロディ小鳩
+JP でも、小鳩は旅人よ。
+JP 退屈になったら
+JP すぐ旅に出ちゃうから♪
+EN But Kobato is a traveler. If I get bored, I'll be off on
+EN a journey just like that♪
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# メロディ小鳩
+JP ごめんなさい。
+JP 小鳩ね、今の団体でやることが
+JP 残ってるの。
+EN I'm sorry. Kobato still has things to do at her
+EN current promotion.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 小鳩選手が必要だ。
+EN My promotion really does need Kobato.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# メロディ小鳩
+JP まあ、こないだの悪い社長さん。
+JP ご用は何かしら？
+EN Oh my, the naughty president from the other day.
+EN What can I do for you?
+
+@ 12.40
+# 社 長
+JP 悪い…って。
+EN "Naughty"...?
+
+@ 12.42
+# 社 長
+JP こないだと同じです。
+JP どうしても、あなたに
+JP 入って欲しくて。
+EN Same as last time. I really want you to join us.
+
+@ 12.49
+# メロディ小鳩
+JP まあ、諦めてなかったのね。
+JP 小鳩、そういうしぶとい人、好きよ♪
+EN Oh my, you didn't give up. Kobato likes stubborn
+EN people like that♪
+
+@ 12.52
+# 社 長
+JP ありがとうございます。
+EN Thank you.
+
+@ 12.54
+# 社 長
+JP それで、どうでしょう？
+EN So, what do you think?
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# メロディ小鳩
+JP わかったわ♪
+JP あなたの団体に入ってあげる。
+EN All right♪ I'll join your promotion.
+
+@ 13.22
+# 社 長
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 13.29
+# メロディ小鳩
+JP でも、小鳩は旅人よ。
+JP 退屈になったら
+JP すぐ旅に出ちゃうから♪
+EN But Kobato is a traveler. If I get bored, I'll be off on
+EN a journey just like that♪
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# メロディ小鳩
+JP ごめんなさい。
+JP 小鳩ね、今の団体でやることが
+JP 残ってるの。
+EN I'm sorry. Kobato still has things to do at her
+EN current promotion.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は小鳩選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kobato.
+
+@ 15.25
+# 社 長
+JP 明るく華やかな彼女を見ていると
+JP なんとも幸せな気持ちになれる。
+EN Just watching her, so bright and dazzling, puts me in
+EN a happy mood.
+
+@ 15.27
+# 社 長
+JP それに…それだけではない何かを
+JP 彼女には感じる。
+EN And yet... I sense something more to her than that.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be around here somewhere...
+
+@ 15.31
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+JP 小鳩選手ですね。
+EN Um, excuse me. You're Kobato, right?
+
+@ 15.43
+# メロディ小鳩
+JP そうよ♪
+JP 何かご用かしら？
+EN That's right♪ Can I help you with something?
+
+@ 15.46
+# 社 長
+JP （俺は自己紹介をして
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.53
+# メロディ小鳩
+JP まあ、あなたの団体に？
+EN Oh my, into your promotion?
+
+@ 15.56
+# 社 長
+JP ええ、どうでしょう？
+EN Yes. What do you think?
+
+@ 15.63
+# メロディ小鳩
+JP う～ん…。
+JP 小鳩、旅人だから身軽なのが
+JP いいんだけどナ。
+EN Hmmm... Kobato's a traveler, so I like traveling light,
+EN you know?
+
+@ 15.66
+# 社 長
+JP そこをなんとか。
+EN Please, I'm asking you.
+
+@ 15.68
+# 社 長
+JP （俺は、彼女に頼み込んた）
+EN (I pleaded with her.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# メロディ小鳩
+JP わかったわ。
+JP どこかに所属するっていうのも
+JP それはそれで楽しいかも。
+EN All right. Belonging somewhere might be fun in its own
+EN way.
+
+@ 16.22
+# 社 長
+JP ありがとう…。
+JP これから、よろしく。
+EN Thank you... I look forward to working with you.
+
+@ 16.26
+# メロディ小鳩
+JP でも、つまらなかったら
+JP すぐに出て行くわ♪
+JP 覚悟していてね。
+EN But if it gets boring, I'll leave right away♪ Be ready
+EN for that.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# メロディ小鳩
+JP ごめんなさい。
+JP 小鳩ね、やっぱり自由がいいの。
+EN I'm sorry. Kobato likes being free after all.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 小鳩選手が必要だ。
+EN My promotion really does need Kobato.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 彼女と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# メロディ小鳩
+JP あら、こないだの社長さん。
+JP もしかして、また小鳩をスカウトに？
+EN Oh, the president from the other day. Could it be
+EN you've come to scout Kobato again?
+
+@ 18.40
+# 社 長
+JP ええ、やはり諦めきれなくて。
+EN Yes. I just can't give up on you.
+
+@ 18.47
+# メロディ小鳩
+JP まあ、しつこいのね。
+JP 小鳩、そういうめげない人、好きよ♪
+EN My, how persistent. Kobato likes people who don't
+EN give up like that♪
+
+@ 18.50
+# 社 長
+JP ははは…。
+JP で、どうでしょうか？
+EN Hahaha... So, what do you think?
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# メロディ小鳩
+JP わかったわ。
+JP どこかに所属するっていうのも
+JP それはそれで楽しいかも。
+EN All right. Belonging somewhere might be fun in its own
+EN way.
+
+@ 19.22
+# 社 長
+JP ありがとう…。
+JP これから、よろしく。
+EN Thank you... I look forward to working with you.
+
+@ 19.29
+# メロディ小鳩
+JP でも、つまらなかったら
+JP すぐに出て行くわ♪
+JP 覚悟していてね。
+EN But if it gets boring, I'll leave right away♪ Be ready
+EN for that.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# メロディ小鳩
+JP ごめんなさい。
+JP 小鳩ね、やっぱり自由がいいの。
+EN I'm sorry. Kobato likes being free after all.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は小鳩を訪ねることにした）
+EN (I decided to pay Kobato a visit.)
+
+@ 21.25
+# 社 長
+JP （やっぱり彼女は
+JP 　うちの団体に必要な選手だ）
+EN (She's a wrestler my promotion needs, after all.)
+
+@ 21.27
+# 社 長
+JP （たしかこのあたりにいるって
+JP 　話だったけど）
+EN (I was told she'd be around here...)
+
+@ 21.29
+# 社 長
+JP あ、いた。
+EN Ah, there she is.
+
+@ 21.31
+# 社 長
+JP 小鳩。
+EN Kobato.
+
+@ 21.41
+# メロディ小鳩
+JP あら、社長さん。
+JP 元気だった？
+EN Oh, Boss. Have you been well?
+
+@ 21.44
+# 社 長
+JP ああ、そっちも、あちこち
+JP 旅していたみたいだな。
+JP 捜すのが大変だった。
+EN Yeah. Looks like you've been traveling all over. You
+EN were hard to track down.
+
+@ 21.51
+# メロディ小鳩
+JP 当然よ。
+JP だって、小鳩は旅人だもの♪
+EN Of course. Kobato is a traveler, after all♪
+
+@ 21.54
+# 社 長
+JP そうだったな。
+JP それで、おまえを捜していたのは
+JP 他でもない。
+EN That's right. Anyway, the reason I was looking for
+EN you is simple.
+
+@ 21.56
+# 社 長
+JP 戻ってきて欲しくてな。
+EN I want you to come back.
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# メロディ小鳩
+JP いいわよ♪
+EN Sure♪
+
+@ 22.22
+# 社 長
+JP 本当か。
+EN Really?
+
+@ 22.29
+# メロディ小鳩
+JP うん。
+JP しばらく、あちこち旅してたから。
+JP ちょっと満足したわ♪
+EN Mm-hm. I've been traveling all over for a while, so I'm
+EN a little satisfied now♪
+
+@ 22.36
+# メロディ小鳩
+JP だから、次に旅したくなるまで…。
+JP ただいま、社長♪
+EN So, until I feel like traveling again... I'm home, Boss♪
+
+@ 22.39
+# 社 長
+JP ああ、おかえり。
+EN Yeah. Welcome back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# メロディ小鳩
+JP ごめんなさい。
+JP 小鳩、まだ旅をしたりないの…。
+EN I'm sorry. Kobato hasn't traveled enough yet...
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP 残念だ。
+EN I see... That's a shame.
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び小鳩を訪ねることにした）
+EN (I decided to visit Kobato again.)
+
+@ 24.25
+# 社 長
+JP （やはり彼女はうちの団体に
+JP 　必要な選手だ）
+EN (She's a wrestler my promotion needs, after all.)
+
+@ 24.27
+# 社 長
+JP （しかし、彼女は捜し出すのが
+JP 　大変だ）
+EN (But she's awfully hard to track down.)
+
+@ 24.29
+# 社 長
+JP たしか…今なら実家に
+JP 戻っているって…。
+EN I heard... she's back at her family home right now...
+
+@ 24.31
+# 社 長
+JP あ、いたっ。
+EN Ah, there she is.
+
+@ 24.33
+# 社 長
+JP 小鳩！
+EN Kobato!
+
+@ 24.43
+# メロディ小鳩
+JP あら、社長。
+JP ひさしぶりね。
+EN Oh, Boss. It's been a while.
+
+@ 24.46
+# 社 長
+JP ああ、久しぶり。
+EN Yeah, it has.
+
+@ 24.48
+# 社 長
+JP それで…こないだと同じ用件で
+JP 捜していたんだが。
+EN So... I came looking for you about the same thing as
+EN last time.
+
+@ 24.50
+# 社 長
+JP どうだろう？
+JP そろそろ戻ってきてはくれないか？
+EN What do you say? Isn't it about time you came back?
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# メロディ小鳩
+JP いいわよ♪
+EN Sure♪
+
+@ 25.22
+# 社 長
+JP 本当か。
+EN Really?
+
+@ 25.29
+# メロディ小鳩
+JP うん。
+JP しばらく、あちこち旅してたから。
+JP ちょっと満足したわ♪
+EN Mm-hm. I've been traveling all over for a while, so I'm
+EN a little satisfied now♪
+
+@ 25.36
+# メロディ小鳩
+JP だから、次に旅したくなるまで…。
+JP ただいま、社長♪
+EN So, until I feel like traveling again... I'm home, Boss♪
+
+@ 25.39
+# 社 長
+JP ああ、おかえり。
+EN Yeah. Welcome back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# メロディ小鳩
+JP ごめんなさい。
+JP 小鳩、まだ旅をしたりないの…。
+EN I'm sorry. Kobato hasn't traveled enough yet...
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP 残念だ。
+EN I see... That's a shame.
+
+@ 27.16
+# scene 028 ケガ小
+# メロディ小鳩
+JP 困ったわ。
+JP 小鳩、怪我しちゃった。
+EN Oh dear. Kobato got hurt.
+
+@ 28.16
+# scene 029 ケガ大
+# メロディ小鳩
+JP 困ったわ。
+JP 小鳩、大怪我しちゃった。
+EN Oh dear. Kobato got badly hurt.
+
+@ 29.16
+# scene 030 入院
+# メロディ小鳩
+JP 病院はつまらないわ。
+JP だって、ずっとお部屋の中なんだもの。
+EN Hospitals are boring. You're stuck in your room the
+EN whole time.
+
+@ 30.16
+# scene 031 退院
+# メロディ小鳩
+JP やっと退院できたわ。
+JP このまま旅に出たい気分♪
+EN I'm finally out of the hospital. I feel like going
+EN straight off on a journey♪
+
+@ 31.16
+# scene 032 ケガ完治
+# メロディ小鳩
+JP いひ♪
+JP もう、大丈夫よ。
+EN Ihi♪ I'm all better now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# メロディ小鳩
+JP そうね…。
+JP 引退したら
+JP たくさん旅ができるかも…。
+EN I see... Once I retire, maybe I can travel a lot...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# メロディ小鳩
+JP いひ♪
+JP まだ、かな？
+JP もうちょっと続けるわ。
+EN Ihi♪ Not yet, I think? I'll keep going a little longer.
+
+@ 34.16
+# scene 035 コーチ就任
+# メロディ小鳩
+JP じゃ、みんなで
+JP 武者修行の旅に出ましょ♪
+EN Then let's all go on a warrior's training journey♪
+
+@ 35.16
+# scene 036 ケガ引退
+# メロディ小鳩
+JP まあ…これじゃ、もう無理ね。
+EN Oh my... I guess this is the end.
+
+@ 36.16
+# scene 037 年齢引退
+# メロディ小鳩
+JP 小鳩も、そろそろ
+JP 寿引退しないとダメだわ。
+EN It's about time Kobato retired to get married, too.
+
+@ 37.16
+# scene 038 退団
+# メロディ小鳩
+JP それじゃ、旅に行ってくるわ♪
+EN Well then, I'm off on a journey♪
+
+@ 38.16
+# scene 039 スランプ
+# メロディ小鳩
+JP 旅に出ようかしら。
+EN Maybe I'll go on a journey.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# メロディ小鳩
+JP ファンクラブ？
+EN A fan club?
+
+@ 39.19
+# 社 長
+JP ああ。
+JP 応援に負けないようがんばれよ。
+EN Yeah. Work hard so you're worthy of their support.
+
+@ 39.26
+# メロディ小鳩
+JP どんなクラブなのかしら？
+JP 正装じゃないと入れない？
+EN What kind of club is it? Do you need formal wear to
+EN get in?
+
+@ 39.29
+# 社 長
+JP ……たぶん、おまえは激しく
+JP 勘違いをしている。
+EN ......I think you've got the wrong idea entirely.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# メロディ小鳩
+JP またファンクラブができたのね♪
+EN Another fan club got started♪
+
+@ 40.19
+# 社 長
+JP ああ、ますますがんばらないとな。
+EN Yeah. We'll have to work even harder.
+
+@ 40.26
+# メロディ小鳩
+JP でも困ったわ…。
+JP そんなに期待されると
+JP 旅に行きづらいかも…。
+EN But oh dear... With so many people expecting things,
+EN it might be hard to go traveling...
+
+@ 40.29
+# 社 長
+JP ファンクラブが
+JP 増えてくれてよかったのは
+JP 会社の方かもしれんな。
+EN Maybe it's the company that's really glad we got
+EN more fan clubs.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# メロディ小鳩
+JP なくなっちゃったんだ？
+EN It's gone?
+
+@ 41.19
+# 社 長
+JP ああ、残念だが。
+EN Yeah, unfortunately.
+
+@ 41.26
+# メロディ小鳩
+JP そうね♪　残念だわ。
+JP あ、そうそう…。
+JP １ヶ月くらい、傷心旅行に…。
+EN I know♪ It's a shame. Oh, that's right... I'll take a
+EN month-long trip to heal my broken heart...
+
+@ 41.29
+# 社 長
+JP 行くな！
+EN Don't you dare!
+
+@ 42.16
+# scene 043 映画出演
+# メロディ小鳩
+JP いひ♪
+JP これでも小鳩、演技って
+JP 得意なのよ。
+EN Ihi♪ Believe it or not, Kobato is quite good at
+EN acting.
+
+@ 43.16
+# scene 044 一日署長
+# メロディ小鳩
+JP 悪い人を「めっ！」すればいいのね♪
+EN So I just have to give the bad guys a "No, no!"♪
+
+@ 44.16
+# scene 045 写真集発売
+# メロディ小鳩
+JP いひ♪
+JP これでも小鳩ね
+JP 脱ぐとすごいすごいなのよ。
+EN Ihi♪ Believe it or not, Kobato is super-duper
+EN amazing with her clothes off.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# メロディ小鳩
+JP これを売ればいいのね？
+EN So I just have to sell this?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# メロディ小鳩
+JP 小鳩ね、お歌よりも
+JP 楽器が得意なのよ。
+EN You know, Kobato is better at instruments than
+EN singing.
+
+@ 47.16
+# scene 048 始球式
+# メロディ小鳩
+JP 野球って…ベースボールのこと？
+EN Yakyu... You mean baseball?
+
+@ 48.16
+# scene 049 学園祭
+# メロディ小鳩
+JP お祭り？
+JP 小鳩、お祭り大好きよ。
+JP 楽しみだわ。
+EN A festival? Kobato loves festivals. I can't wait.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.36
+# メロディ小鳩
+JP まあ、嬉しいわ♪
+EN Oh my, how lovely♪
+
+@ 49.39
+# 社 長
+JP これからも、よろしくな。
+EN Here's to many more years together.
+
+@ 49.46
+# メロディ小鳩
+JP いひ♪
+JP こちらこそ。
+EN Ihi♪ Likewise.
+
+@ 50.30
+# scene 051 バレンタインデー
+# メロディ小鳩
+JP 社長。
+JP はい、これ…。
+JP 日本では、チョコレートなのよね？
+EN Boss. Here, this is for you... In Japan, it's chocolate,
+EN right?
+
+@ 50.33
+# 社 長
+JP ああ…。
+JP バレンタインか。
+JP ありがとう。
+EN Ah... Valentine's Day. Thank you.
+
+@ 50.40
+# メロディ小鳩
+JP あのね、社長。
+JP 日本以外では男の人からも
+JP 贈り物をするのよ？
+EN You know, Boss. Outside Japan, men give presents
+EN too.
+
+@ 50.43
+# 社 長
+JP ………………。
+EN ..................
+
+@ 50.45
+# 社 長
+JP わかった、わかった。
+JP 一緒に夕食なんてどうだ？
+EN All right, all right. How about dinner together?
+
+@ 50.52
+# メロディ小鳩
+JP いひ♪
+JP 喜んでご一緒するわ。
+EN Ihi♪ I'd be delighted to join you.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.35
+# メロディ小鳩
+JP あら、悪いわ。
+JP だって、お礼はその日に
+JP 受け取ったもの。
+EN Oh, I couldn't. I already got my thanks on the day
+EN itself.
+
+@ 51.38
+# 社 長
+JP まあ、気分の問題だから。
+EN Well, it's the thought that counts.
+
+@ 51.46
+# メロディ小鳩
+JP ふうん…。
+JP なら、今晩は小鳩がご馳走するわ。
+JP う～んと、腕によりをかけて♪
+EN Hmm... Then tonight, Kobato will treat you to dinner.
+EN I'll put my whole heart into it♪
+
+@ 51.49
+# 社 長
+JP …喜んで、ご馳走されよう。
+EN ...I'd be delighted to be treated.
+
+@ 52.31
+# scene 053 サイン会
+# メロディ小鳩
+JP みんな、ありがとう。
+JP これからもよろしくね♪
+EN Thank you, everyone. Please keep supporting me♪
+
+@ 53.31
+# scene 054 コンサート
+# メロディ小鳩
+JP いひ♪
+JP みんなみんな、幸せな気持ちに
+JP なぁ～～れ！
+EN Ihi♪ Everyone, everyone, feel happyyy!
+
+@ 54.28
+# scene 055 練習拒否
+# メロディ小鳩
+JP ちょっと出歩いてくるわ。
+EN I'm going out for a little stroll.
+
+@ 55.28
+# scene 056 失踪
+# メロディ小鳩
+JP すぐに戻るわ。
+EN I'll be right back.
+
+@ 56.16
+# scene 057 選手解雇
+# メロディ小鳩
+JP それじゃ、旅に行ってくるわね♪
+EN Well then, I'm off on a journey♪
+
+@ 57.16
+# scene 058 海外遠征 出発
+# メロディ小鳩
+JP ちょっと行ってくるわ。
+EN I'll be off for a bit.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# メロディ小鳩
+JP ただいま～♪
+EN I'm hooome♪
+
+@ 59.28
+# scene 060 移籍思案
+# メロディ小鳩
+JP フリーならともかく…。
+JP 組織から組織って…悩むわ。
+EN Free agency is one thing... But moving from one
+EN organization to another... I'm torn.
+
+@ 60.16
+# scene 061 革命軍結成
+# メロディ小鳩
+JP いひ♪
+JP こういう役回りも面白いわ。
+EN Ihi♪ This kind of role is fun too.
+
+@ 61.16
+# scene 062 反乱軍結成
+# メロディ小鳩
+JP どう？
+JP 小鳩の反乱、潰すことができる？
+EN Well? Can you crush Kobato's rebellion?
+
+@ 62.16
+# scene 063 最終決戦要求
+# メロディ小鳩
+JP そろそろエンディング。
+JP ね♪
+EN It's almost time for the ending. Right♪
+
+@ 63.16
+# scene 064 遺恨発生
+# メロディ小鳩
+JP 小鳩、ちっとも怒ってないわ♪
+EN Kobato isn't angry at all♪
+
+@ 64.16
+# scene 065 殴り込み
+# メロディ小鳩
+JP 任務は？
+JP ……あ、普通の殴り込みなのね♪
+JP いってくるわ。
+EN The mission? ......Oh, it's just a normal invasion♪ I'm
+EN off.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# メロディ小鳩
+JP 社長。
+JP 普通に迎撃すればいいのかしら？
+JP ……それとも、やる？
+EN Boss. Should I just repel them normally? ......Or shall I
+EN do it for real?
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# メロディ小鳩
+JP いひ♪
+JP お邪魔しま～す♪
+EN Ihi♪ Pardon the intrusiooon♪
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# メロディ小鳩
+JP 小鳩でいいの？
+JP そうなの…。
+JP なら、応えなきゃ、ね。
+EN Kobato's the one? I see... Then I have to live up to it,
+EN don't I.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# メロディ小鳩
+JP いひ♪
+JP 社長、やったわ。
+EN Ihi♪ Boss, I did it.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# メロディ小鳩
+JP …………私も、まだまだ、ね。
+EN ............I still have a long way to go, too.
+
+@ 70.13
+# scene 071 引退式
+# メロディ小鳩
+JP いひ♪
+JP みんな、今までありがとう。
+JP 小鳩を笑って送り出してねっ♪
+EN Ihi♪ Thank you for everything, everyone. Send
+EN Kobato off with a smile♪
+
+@ 71.17
+# メロディ小鳩
+JP なぁに？
+EN Whaaat is it?
+
+@ 71.36
+# メロディ小鳩
+JP なぁに？
+EN Whaaat is it?
+
+@ 71.46
+# メロディ小鳩
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing great lately. Keep it up.
+
+@ 71.89
+# メロディ小鳩
+JP わかってるわ。
+JP まかせておいて♪
+JP 小鳩、がんばる。
+EN I know. Leave it to me♪ Kobato will do her best.
+
+@ 71.110
+# メロディ小鳩
+JP いひ♪
+JP ありがとう。
+JP じゃ、ちょっとがんばってくるわ。
+EN Ihi♪ Thank you. Well then, I'll go do my best for a bit.
+
+@ 71.113
+# 社 長
+JP ああ。
+EN Sure.
+
+@ 71.119
+# 社 長
+JP （そして小鳩は部屋を出て行き）
+EN (And so Kobato left the room...)
+
+@ 71.121
+# 社 長
+JP （そのまま３日ほど帰ってこなかった）
+EN (and didn't come back for about three days.)
+
+@ 71.142
+# メロディ小鳩
+JP うん、がんばるわ♪
+JP だから社長も、あんまりたくさんの
+JP 女の子に気をもたせたらダメよ？
+EN Mm-hm, I'll do my best♪ So, Boss, don't go leading on
+EN too many girls, OK?
+
+@ 71.145
+# 社 長
+JP ああ…って、まて。
+JP なんでそんな流れになる。
+EN Sure... Wait, hold on. How did we get onto that?
+
+@ 71.149
+# メロディ小鳩
+JP 小鳩は２番目でも３番目でもいいわ♪
+EN Kobato doesn't mind being number two or three♪
+
+@ 71.152
+# 社 長
+JP いや、だから…。
+EN No, I'm saying...
+
+@ 71.173
+# メロディ小鳩
+JP ええ、次はもっと大きな
+JP ケーキに挑戦するわ♪
+JP できたら社長も食べてね♪
+EN Yes, next time I'll try an even bigger cake♪ Have
+EN some too when it's done, Boss♪
+
+@ 71.176
+# 社 長
+JP いや、がんばるのは
+JP そっちの方面じゃない。
+EN No, that's not what I meant by doing your best.
+
+@ 71.189
+# 社 長
+JP ひとつ言っておきたいことがある。
+JP ここのところ、おまえは…。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 71.213
+# メロディ小鳩
+JP いいわ、社長。
+JP 叱るべきときは
+JP ちゃんと叱らないとだめよね♪
+EN It's fine, Boss. When a scolding is needed, you should
+EN scold properly♪
+
+@ 71.234
+# メロディ小鳩
+JP わかったわ。
+JP 小鳩、ちょっと反省してくるわね。
+EN All right. Kobato will go reflect for a bit.
+
+@ 71.240
+# 社 長
+JP （そして小鳩は部屋を出て行き）
+EN (And so Kobato left the room...)
+
+@ 71.242
+# 社 長
+JP （そのまま数日戻ってこなかった）
+EN (and didn't come back for several days.)
+
+@ 71.263
+# メロディ小鳩
+JP 好きな人に言われると
+JP しゅーんとなるわ。
+EN When the person I love says that, I feel all droopy.
+
+@ 71.270
+# メロディ小鳩
+JP でも、同時に
+JP ゾクゾクもしちゃうの…。
+JP これが、愛なのね。
+EN But at the same time, it gives me shivers... So this is
+EN love.
+
+@ 71.291
+# メロディ小鳩
+JP 小鳩、いじめられるの
+JP 嫌いじゃないわ♪
+EN Kobato doesn't mind being picked on♪
+
+@ 71.294
+# 社 長
+JP いや、いじめている訳じゃ…。
+EN No, I'm not picking on you...
+
+@ 71.301
+# メロディ小鳩
+JP 小鳩って、ヘンな子？
+EN Is Kobato a weird girl?
+
+@ 71.304
+# 社 長
+JP ………………。
+EN ..................
+
+@ 71.317
+# 社 長
+JP 最近はおまえらしくないじゃないか。
+JP おまえの実力はそんなものじゃ
+JP ないはずだ。
+EN This isn't like you lately. I know you're better than
+EN this.
+
+@ 71.341
+# メロディ小鳩
+JP 社長はよく見ているのね…。
+JP いいことよ、その調子で
+JP みんなのことも見てあげてね♪
+EN You really pay attention, Boss... That's good. Keep
+EN watching over everyone like that, too♪
+
+@ 71.344
+# 社 長
+JP あ、ああ…。
+EN Y-yeah...
+
+@ 71.365
+# メロディ小鳩
+JP わかった。
+JP 小鳩、ちょっと自分らしさを
+JP 取り戻してくるわ。
+EN All right. Kobato will go get her old self back for a
+EN bit.
+
+@ 71.371
+# 社 長
+JP （そして小鳩は部屋を出て行き）
+EN (And so Kobato left the room...)
+
+@ 71.373
+# 社 長
+JP （そのまま数日戻ってこなかった）
+EN (and didn't come back for several days.)
+
+@ 71.394
+# メロディ小鳩
+JP 困ったわ…。
+JP 社長に励まされてると
+JP なんだかとってもいい気持ちになるの。
+EN Oh dear... When you encourage me, Boss, I get this
+EN really nice feeling.
+
+@ 71.415
+# メロディ小鳩
+JP そうね、小鳩らしくなかったかも。
+JP やっぱり、お台所は毎日お掃除
+JP しなくちゃ…。
+EN You're right, that wasn't like me. I really should clean
+EN the kitchen every day...
+
+@ 71.418
+# 社 長
+JP いや、そっちの話じゃない…。
+EN No, that's not what I'm talking about...
+
+@ 71.432
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.448
+# メロディ小鳩
+JP 社長、まわりくどく
+JP 言う必要はないわ♪
+EN Boss, there's no need to beat around the bush♪
+
+@ 71.465
+# メロディ小鳩
+JP なんとなく、社長が
+JP 勘違いしていることがわかるわ。
+EN I get the feeling you've got the wrong idea about
+EN something, Boss.
+
+@ 71.476
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.498
+# メロディ小鳩
+JP いいわ。
+JP そろそろ和解の頃だと思っていたの。
+EN All right. I was thinking it was about time we made up.
+
+@ 71.519
+# メロディ小鳩
+JP まだよ。
+JP まだ、遺恨を解消するのは
+JP もったいないわ♪
+EN Not yet. It'd be a waste to settle our feud already♪
+
+@ 71.522
+# 社 長
+JP もったいないって…。
+EN A waste...?
+
+@ 71.543
+# メロディ小鳩
+JP 予想通り、社長は色々と
+JP 勘違いしているわ。
+JP もっと現状を把握しないとダメよ？
+EN Just as I thought, you've got all sorts of wrong
+EN ideas, Boss. You need a better grasp of things, OK?
+
+@ 71.556
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.573
+# メロディ小鳩
+JP わかるわ。
+JP 小鳩と社長の仲だもの♪
+EN I know. It's Kobato and you, after all♪
+
+@ 71.590
+# メロディ小鳩
+JP わかるわ。
+JP 小鳩、社長のことを
+JP よく知っているもの♪
+EN I know. Kobato knows you very well, Boss♪
+
+@ 71.603
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.625
+# メロディ小鳩
+JP もちろんよ。
+JP 社長の頼みなら
+JP 小鳩なんだって聞いちゃう♪
+EN Of course. If you're the one asking, Boss, Kobato will
+EN do anything♪
+
+@ 71.646
+# メロディ小鳩
+JP いひ♪
+JP まだよ、せっかくの緊張感
+JP ここで解消する手はないわ。
+EN Ihi♪ Not yet. No way I'm letting all this lovely tension
+EN go now.
+
+@ 71.667
+# メロディ小鳩
+JP ああ、何か勘違いしている社長って
+JP とってもかわいいわ。
+JP うっとりしちゃう♪
+EN Ahh, you're so cute when you've got the wrong idea,
+EN Boss. It makes me swoon♪
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# メロディ小鳩
+JP なぁに？
+EN Whaaat is it?
+
+@ 72.16
+# メロディ小鳩
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing great lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# メロディ小鳩
+JP わかってるわ。
+JP まかせておいて♪
+JP 小鳩、がんばる。
+EN I know. Leave it to me♪ Kobato will do her best.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# メロディ小鳩
+JP いひ♪
+JP ありがとう。
+JP じゃ、ちょっとがんばってくるわ。
+EN Ihi♪ Thank you. Well then, I'll go do my best for a bit.
+
+@ 75.19
+# 社 長
+JP ああ。
+EN Sure.
+
+@ 75.25
+# 社 長
+JP （そして小鳩は部屋を出て行き）
+EN (And so Kobato left the room...)
+
+@ 75.27
+# 社 長
+JP （そのまま３日ほど帰ってこなかった）
+EN (and didn't come back for about three days.)
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# メロディ小鳩
+JP うん、がんばるわ♪
+JP だから社長も、あんまりたくさんの
+JP 女の子に気をもたせたらダメよ？
+EN Mm-hm, I'll do my best♪ So, Boss, don't go leading on
+EN too many girls, OK?
+
+@ 76.19
+# 社 長
+JP ああ…って、まて。
+JP なんでそんな流れになる。
+EN Sure... Wait, hold on. How did we get onto that?
+
+@ 76.23
+# メロディ小鳩
+JP 小鳩は２番目でも３番目でもいいわ♪
+EN Kobato doesn't mind being number two or three♪
+
+@ 76.26
+# 社 長
+JP いや、だから…。
+EN No, I'm saying...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# メロディ小鳩
+JP ええ、次はもっと大きなケーキに
+JP 挑戦するわ♪
+JP できたら社長も食べてね♪
+EN Yes, next time I'll try an even bigger cake♪ Have
+EN some too when it's done, Boss♪
+
+@ 77.19
+# 社 長
+JP いや、がんばるのは
+JP そっちの方面じゃない。
+EN No, that's not what I meant by doing your best.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP ひとつ言っておきたいことがある。
+JP ここのところ、おまえは…。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# メロディ小鳩
+JP いいわ、社長。
+JP 叱るべきときは、
+JP ちゃんと叱らないとだめよね♪
+EN It's fine, Boss. When a scolding is needed, you should
+EN scold properly♪
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# メロディ小鳩
+JP わかったわ。
+JP 小鳩、ちょっと反省してくるわね。
+EN All right. Kobato will go reflect for a bit.
+
+@ 80.22
+# 社 長
+JP （そして小鳩は部屋を出て行き）
+EN (And so Kobato left the room...)
+
+@ 80.24
+# 社 長
+JP （そのまま数日戻ってこなかった）
+EN (and didn't come back for several days.)
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# メロディ小鳩
+JP 好きな人に言われると、
+JP しゅーんとなるわ。
+EN When the person I love says that, I feel all droopy.
+
+@ 81.23
+# メロディ小鳩
+JP でも、同時に
+JP ゾクゾクもしちゃうの…。
+JP これが、愛なのね。
+EN But at the same time, it gives me shivers... So this is
+EN love.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# メロディ小鳩
+JP 小鳩、いじめられるの
+JP 嫌いじゃないわ♪
+EN Kobato doesn't mind being picked on♪
+
+@ 82.19
+# 社 長
+JP いや、いじめている訳じゃ…。
+EN No, I'm not picking on you...
+
+@ 82.26
+# メロディ小鳩
+JP 小鳩って、ヘンな子？
+EN Is Kobato a weird girl?
+
+@ 82.29
+# 社 長
+JP ………………。
+EN ..................
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP どうした？　最近はおまえらしくない
+JP じゃないか。お前の実力は
+JP そんなものじゃないはずだ。
+EN What's wrong? This isn't like you lately. I know
+EN you're better than this.
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# メロディ小鳩
+JP 社長はよく見ているのね…。
+JP いいことよ。その調子で、
+JP みんなのことも見てあげてね♪
+EN You really pay attention, Boss... That's good. Keep
+EN watching over everyone like that, too♪
+
+@ 84.19
+# 社 長
+JP あ、ああ…。
+EN Y-yeah...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# メロディ小鳩
+JP わかった。
+JP 小鳩、ちょっと自分らしさを
+JP 取り戻してくるわ。
+EN All right. Kobato will go get her old self back for a
+EN bit.
+
+@ 85.22
+# 社 長
+JP （そして小鳩は部屋を出て行き）
+EN (And so Kobato left the room...)
+
+@ 85.24
+# 社 長
+JP （そのまま数日戻ってこなかった）
+EN (and didn't come back for several days.)
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# メロディ小鳩
+JP 困ったわ…。社長に励まされてると、
+JP なんだかとってもいい気持ちに
+JP なるの。
+EN Oh dear... When you encourage me, Boss, I get this
+EN really nice feeling.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# メロディ小鳩
+JP そうね、小鳩らしくなかったかも。
+JP やっぱり、お台所は毎日
+JP お掃除しなくちゃ…。
+EN You're right, that wasn't like me. I really should clean
+EN the kitchen every day...
+
+@ 87.19
+# 社 長
+JP いや、そっちの話じゃない…。
+EN No, that's not what I'm talking about...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# メロディ小鳩
+JP 社長、
+JP まわりくどく言う必要はないわ♪
+EN Boss, there's no need to beat around the bush♪
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# メロディ小鳩
+JP なんとなく、社長が勘違いして
+JP いることがわかるわ。
+EN I get the feeling you've got the wrong idea about
+EN something, Boss.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# メロディ小鳩
+JP いいわ。
+JP そろそろ和解の頃だと思っていたの。
+EN All right. I was thinking it was about time we made up.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# メロディ小鳩
+JP まだよ。
+JP まだ、遺恨を解消するのは
+JP もったいないわ♪
+EN Not yet. It'd be a waste to settle our feud already♪
+
+@ 93.19
+# 社 長
+JP もったいないって…。
+EN A waste...?
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# メロディ小鳩
+JP 予想通り、社長は色々と勘違いして
+JP いるわ。もっと現状を把握しないと
+JP ダメよ？
+EN Just as I thought, you've got all sorts of wrong
+EN ideas, Boss. You need a better grasp of things, OK?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# メロディ小鳩
+JP わかるわ。
+JP 小鳩と社長の仲だもの♪
+EN I know. It's Kobato and you, after all♪
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# メロディ小鳩
+JP わかるわ。小鳩、
+JP 社長のことをよく知っているもの♪
+EN I know. Kobato knows you very well, Boss♪
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# メロディ小鳩
+JP もちろんよ。
+JP 社長の頼みなら、
+JP 小鳩なんだって聞いちゃう♪
+EN Of course. If you're the one asking, Boss, Kobato will
+EN do anything♪
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# メロディ小鳩
+JP いひ♪　まだよ。
+JP せっかくの緊張感、
+JP ここで解消する手はないわ。
+EN Ihi♪ Not yet. No way I'm letting all this lovely tension
+EN go now.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# メロディ小鳩
+JP ああ、何か勘違いしている社長って、
+JP とってもかわいいわ。
+JP うっとりしちゃう♪
+EN Ahh, you're so cute when you've got the wrong idea,
+EN Boss. It makes me swoon♪
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# メロディ小鳩
+JP いいわよ。
+JP ママの口座に振り込んでおいてね。
+EN Sure. Please transfer it to Mama's account.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# メロディ小鳩
+JP すごぉい。
+JP ママも喜ぶわ♪
+EN Wooow. Mama will be so happy♪
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# メロディ小鳩
+JP 小鳩はこれでもいいわ…。
+JP でも、ママになんて言い訳したら
+JP いいのかしら…。
+EN Kobato's fine with this... But what excuse am I going
+EN to give Mama...?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は南の島へと
+JP 　やってきた）
+EN (And so we arrived on a tropical island.)
+
+@ 105.34
+# 社 長
+JP （はしゃぐ一同。
+JP 　みんな、思い思いのスタイルで
+JP 　海を満喫している）
+EN (Everyone was having a blast, each enjoying the sea
+EN in their own way.)
+
+@ 105.36
+# 社 長
+JP （小鳩も、異国の空気を
+JP 　全身に浴びて嬉しそうだ）
+EN (Kobato looked happy too, soaking up the foreign
+EN air with her whole body.)
+
+@ 105.40
+# メロディ小鳩
+JP わあ…綺麗な貝さんもいっぱい♪
+EN Wow... So many pretty seashells♪
+
+@ 105.43
+# 社 長
+JP （はしゃぎながら
+JP 　色々な貝を拾い集める小鳩）
+EN (Kobato excitedly gathered up all kinds of shells.)
+
+@ 105.45
+# 社 長
+JP （やがて、小鳩は貝同士をぶつけて
+JP 　しばらく遊んだ後……）
+EN (Eventually, after tapping the shells together and
+EN playing with them for a while...)
+
+@ 105.49
+# メロディ小鳩
+JP できたわ♪
+EN Done♪
+
+@ 105.52
+# 社 長
+JP （その片方を口に運んだ）
+EN (She raised one of them to her lips.)
+
+@ 105.54
+# 社 長
+JP （すると）
+EN (And then...)
+
+@ 105.75
+# 社 長
+JP ――♪
+EN --♪
+
+@ 105.77
+# 社 長
+JP ―――――♪――――♪♪――――♪
+JP ――♪――――――♪―――♪――
+EN -----♪----♪♪----♪
+EN --♪------♪---♪--
+
+@ 105.79
+# 社 長
+JP （素朴で、でもどこか胸に染みいる
+JP 　音楽が奏でられた）
+EN (A simple melody rang out, yet one that somehow
+EN touched my heart.)
+
+@ 105.81
+# 社 長
+JP ――♪♪――♪―――――♪――――
+JP ♪♪――――――♪――――――♪―
+JP ――♪♪♪――――
+EN --♪♪--♪-----♪----
+EN ♪♪------♪------♪-
+EN --♪♪♪----
+
+@ 105.83
+# 社 長
+JP （貝をぶつけ合ってたのは
+JP 　笛を作っていたのか）
+EN (So that's why she was knocking shells together.
+EN She was making a flute.)
+
+@ 105.85
+# 社 長
+JP ――――♪――♪♪――♪―――――
+JP ♪――――♪♪――――――♪―――
+JP ―――♪―――♪♪♪―――
+EN ----♪--♪♪--♪-----
+EN ♪----♪♪------♪---
+EN ---♪---♪♪♪---
+
+@ 105.87
+# 社 長
+JP （やがて…１人、２人と
+JP 　聴衆が集まってきて）
+EN (Before long... one, then two listeners gathered
+EN around...)
+
+@ 105.89
+# 社 長
+JP ――♪―――――♪――――♪♪――
+JP ――――♪――――♪――…………
+EN --♪-----♪----♪♪--
+EN ----♪----♪--......
+
+@ 105.114
+# メロディ小鳩
+JP お粗末さま♪
+EN Thank you for listening♪
+
+@ 105.117
+# 社 長
+JP （小鳩が頭を下げるのと同時に
+JP 　割れんばかりの拍手が
+JP 　南国のビーチを包んだ）
+EN (As Kobato bowed, thunderous applause filled the
+EN tropical beach.)
+
+@ 105.119
+# 社 長
+JP すごいな。
+JP びっくりした。
+EN That was amazing. You surprised me.
+
+@ 105.123
+# メロディ小鳩
+JP だって、旅費は自分で稼ぐものだわ♪
+EN Well, you're supposed to earn your own travel
+EN money♪
+
+@ 105.126
+# 社 長
+JP え？
+EN Huh?
+
+@ 105.128
+# 社 長
+JP （いつのまにか、小鳩の前には
+JP 　帽子が置かれていて）
+EN (At some point, a hat had been set down in front of
+EN Kobato...)
+
+@ 105.130
+# 社 長
+JP （聴衆は賛辞とともに
+JP 　小銭を帽子の中に投げ込んでいた）
+EN (and the listeners were tossing coins into it along
+EN with their praise.)
+
+@ 105.132
+# 社 長
+JP 本当に…たいしたもんだ。
+EN Really... She's something else.
+
+@ 105.136
+# メロディ小鳩
+JP いひ♪
+EN Ihi♪
+
+@ 106.25
+# scene 107 日常イベント１
+# 社 長
+JP （ふう……今日も疲れたな）
+EN (Phew... Another tiring day.)
+
+@ 106.27
+# 社 長
+JP （俺は、会社備え付けの
+JP 　風呂に入った）
+EN (I got into the company's bath.)
+
+@ 106.29
+# 社 長
+JP （こういうとき、体を動かすための
+JP 　設備が整った会社はありがたい）
+EN (At times like this, I'm grateful our company has
+EN proper facilities for working out.)
+
+@ 106.31
+# 社 長
+JP （しかし、疲れた後のフロは…）
+EN (Still, a bath after a hard day...)
+
+@ 106.33
+# 社 長
+JP 気持ちいいものだな…。
+EN Sure feels good...
+
+@ 106.35
+# 社 長
+JP （つい、声が出てしまう）
+EN (The words just slipped out.)
+
+@ 106.39
+# ？？？
+JP 本当に～。
+EN It really does~
+
+@ 106.43
+# ？？？
+JP お風呂って、最高だわ。
+EN Baths are the best.
+
+@ 106.46
+# 社 長
+JP だろう。
+EN Aren't they?
+
+@ 106.56
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.58
+# 社 長
+JP （え？）
+EN (Huh?)
+
+@ 106.60
+# 社 長
+JP （ちょっと待て。
+JP 　なんで俺以外の声がする）
+EN (Hold on. Why is there a voice besides mine?)
+
+@ 106.62
+# 社 長
+JP （しかも…この声は…）
+EN (And that voice is...)
+
+@ 106.76
+# メロディ小鳩
+JP ふぅー。
+JP 気持ちいい～♪
+EN Phew. So nice~♪
+
+@ 106.79
+# 社 長
+JP おい…小鳩？
+EN Hey... Kobato?
+
+@ 106.83
+# メロディ小鳩
+JP なぁに？
+EN Whaaat?
+
+@ 106.86
+# 社 長
+JP なぜ、おまえがいる？
+EN Why are you in here?
+
+@ 106.90
+# メロディ小鳩
+JP 何か変かしら？
+EN Is something strange?
+
+@ 106.93
+# 社 長
+JP ここは男風呂なんだが？
+EN This is the men's bath, you know?
+
+@ 106.97
+# メロディ小鳩
+JP あのね。
+JP 女風呂は混んでるの。
+EN Well, you see, the women's bath is crowded.
+
+@ 106.100
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.102
+# 社 長
+JP はい？
+EN Come again?
+
+@ 106.106
+# メロディ小鳩
+JP だからね。
+JP 女湯が混んでるのよ。
+EN Like I said, the women's bath is crowded.
+
+@ 106.109
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.111
+# 社 長
+JP 女湯が混んでいたから
+JP 男湯に来たっていうのか？
+EN You came to the men's bath because the women's
+EN bath was crowded?
+
+@ 106.115
+# メロディ小鳩
+JP そうよ♪
+EN That's right♪
+
+@ 106.118
+# 社 長
+JP （なんだ、その超論理）
+EN (What kind of super-logic is that?)
+
+@ 106.120
+# 社 長
+JP いや、マズいだろうそれは。
+EN No, that's definitely not OK.
+
+@ 106.124
+# メロディ小鳩
+JP なんで？
+EN Why not?
+
+@ 106.127
+# 社 長
+JP なんでって…。
+JP やっぱり、男湯だし。
+EN Why not...? Because it's the men's bath.
+
+@ 106.131
+# メロディ小鳩
+JP 大丈夫よ。
+JP だって、もう残ってる男の人は
+JP 社長しかいないわ。
+EN It's fine. The only man left here is you, Boss.
+
+@ 106.134
+# 社 長
+JP 俺ならいいのかよ。
+EN So it's fine if it's me?
+
+@ 106.138
+# メロディ小鳩
+JP うん。
+JP 小鳩は社長ならいいのよ。
+EN Mm-hm. Kobato's fine with it if it's you, Boss.
+
+@ 106.141
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.145
+# メロディ小鳩
+JP あ～気持ちいいわ～♪
+EN Ahh, this feels so nice~♪
+
+@ 106.148
+# 社 長
+JP （もはや、言葉も出ない）
+EN (I was past the point of words.)
+
+@ 107.25
+# scene 108 日常イベント２
+# 社 長
+JP （ふう…。今日も疲れたな）
+EN (Phew... Another tiring day.)
+
+@ 107.27
+# 社 長
+JP （俺は、会社備え付けの
+JP 　風呂に入った）
+EN (I got into the company's bath.)
+
+@ 107.29
+# 社 長
+JP （まったくもって
+JP 　疲れた後のフロは……）
+EN (There's really nothing like a bath after a hard
+EN day...)
+
+@ 107.31
+# 社 長
+JP 気持ちがいい…。
+EN Feels good...
+
+@ 107.33
+# 社 長
+JP （つい、声が出てしまう）
+EN (The words just slipped out.)
+
+@ 107.37
+# ？？？
+JP 本当ね～。
+EN It sure does~
+
+@ 107.40
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.42
+# 社 長
+JP （この声は…）
+EN (That voice...)
+
+@ 107.58
+# 社 長
+JP （入るときは
+JP 　たしかにいなかったのに）
+EN (She definitely wasn't here when I got in.)
+
+@ 107.60
+# 社 長
+JP また…男湯に入っているのか。
+EN You're in the men's bath... again?
+
+@ 107.64
+# メロディ小鳩
+JP だって、女風呂は
+JP いつも混んでるんだもの。
+EN Well, the women's bath is always crowded.
+
+@ 107.67
+# 社 長
+JP （こいつは、俺がフロに入ると
+JP 　かなりの確率で現れる）
+EN (There's a good chance she'll show up whenever I
+EN take a bath.)
+
+@ 107.69
+# 社 長
+JP （なんというか…。
+JP 　もう、慣れた）
+EN (How should I put it... I'm used to it by now.)
+
+@ 107.71
+# 社 長
+JP とはいえ…。
+EN Even so...
+
+@ 107.73
+# 社 長
+JP やっぱり、男湯に
+JP 入り込んでくるのは
+JP どうかと思うぞ。
+EN I really don't think you should be sneaking into the
+EN men's bath.
+
+@ 107.77
+# メロディ小鳩
+JP しかたないわ。
+JP 男女比が偏っているんですもの。
+EN It can't be helped. The gender ratio is so lopsided.
+
+@ 107.80
+# 社 長
+JP （世界各地をまわっていたせいか
+JP 　こいつは、そのあたりの感覚が
+JP 　普通の日本人と随分違う）
+EN (Maybe from traveling all over the world, her sense
+EN of these things is very different from a typical
+EN Japanese person's.)
+
+@ 107.82
+# 社 長
+JP （なら…俺が意識しなければ
+JP 　いいだけか）
+EN (Then... I just have to not think about it.)
+
+@ 107.86
+# メロディ小鳩
+JP あ～…。
+JP お風呂って気持ちいい…。
+EN Ahh... Baths feel so nice...
+
+@ 107.89
+# 社 長
+JP そうか…。
+JP よかったな。
+EN I see... Good for you.
+
+@ 107.93
+# メロディ小鳩
+JP こうして二人でお風呂に入っていると
+JP 夫婦みたいね♪
+EN Taking a bath together like this, we're just like a
+EN married couple♪
+
+@ 107.97
+# メロディ小鳩
+JP いひ♪
+EN Ihi♪
+
+@ 108.16
+# scene 109 練習試合 ベスト
+# メロディ小鳩
+JP 来て、零ちゃん。
+EN Come, Zero.
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# メロディ小鳩
+JP 冷静に、ね♪
+EN Stay calm, OK♪
+
+@ 110.16
+# scene 113 練習開始
+# メロディ小鳩
+JP はじめるわね♪
+EN Let's get started♪
+
+@ 111.16
+# scene 114 練習開始 好意
+# メロディ小鳩
+JP さあ、はじめるわ♪
+EN Come on, let's get started♪
+
+@ 112.16
+# scene 115 特訓開始
+# メロディ小鳩
+JP 小鳩、がんばるわ♪
+EN Kobato will do her best♪
+
+@ 113.20
+# scene 116 特訓成功
+# メロディ小鳩
+JP いひ♪
+JP 大成功～。
+EN Ihi♪ A huge success!
+
+@ 114.20
+# scene 117 特訓失敗
+# メロディ小鳩
+JP しょぼん…。
+JP 小鳩も、まだまだ未熟ね。
+EN *droop*... Kobato still has a lot to learn.
+
+@ 115.16
+# scene 118 休養
+# メロディ小鳩
+JP じゃ、旅に行ってくるわ♪
+JP 誰か、一緒に行かないかしら。
+EN Well then, I'm off on a journey♪ Anyone want to
+EN come with me?
+
+@ 116.16
+# scene 119 入場1
+# メロディ小鳩
+JP 楽しいショーの始まりね♪
+EN Time for a fun show to begin♪
+
+@ 117.16
+# scene 119 入場2
+# メロディ小鳩
+JP 今日はどんなドラマが
+JP 生まれるのかしら♪
+EN I wonder what drama will unfold today♪
+
+@ 118.17
+# scene 120 タッグマッチ ベスト
+# メロディ小鳩
+JP 零ちゃんとなら
+JP なんだってできるわ。
+EN With Zero, I can do anything.
+
+@ 119.17
+# scene 121 タッグマッチ ベター１
+# メロディ小鳩
+JP あまり理性をなくしちゃダメよ？
+EN Don't lose your head too much, OK?
+
+@ 120.16
+# scene 125 必殺技１
+# メロディ小鳩
+JP ……いひ♪
+EN ......Ihi♪
+
+@ 121.16
+# scene 125 必殺技２
+# メロディ小鳩
+JP 気持ちいいこと、してあげる♪
+EN I'll make you feel goood♪
+
+@ 122.16
+# scene 125 必殺技３
+# メロディ小鳩
+JP 今度は小鳩の番よ♪
+EN Now it's Kobato's turn♪
+
+@ 123.12
+# scene 126 勝利1
+# メロディ小鳩
+JP もうちょっと面白い勝ち方できたら
+JP よかったかしら？
+EN Maybe I should've found a more interesting way to
+EN win?
+
+@ 124.12
+# scene 126 勝利2
+# メロディ小鳩
+JP 今日のお仕事は、お終いね♪
+EN That's it for today's work♪
+
+@ 125.12
+# scene 126 勝利3
+# メロディ小鳩
+JP もうちょっと楽しみたかったかナ？
+EN I wanted to have a little more fun, I think?
+
+@ 126.15
+# scene 133 表彰1
+# メロディ小鳩
+JP やったわ、みんな、ありがと～…。
+JP あまり目立つと
+JP 色々やりづらくなるけど。
+EN I did it! Thank you, everyone... Though standing out
+EN too much makes things a bit awkward.
+
+@ 127.15
+# scene 133 表彰2
+# メロディ小鳩
+JP 社長、やったわ～。
+JP ご褒美に旅に出ていいかしら？
+EN Boss, I did it! Can I go on a journey as my reward?
+
+@ 128.12
+# scene 134 優勝1
+# メロディ小鳩
+JP いひ♪
+JP 優勝したわ。
+EN Ihi♪ I won the title.
+
+@ 129.12
+# scene 134 優勝２
+# メロディ小鳩
+JP 優勝しちゃった。
+JP こんなに目立っちゃっていいのかしら？
+EN I won. Is it really OK for me to stand out this much?
+
+@ 130.24
+# scene 135 エンディング 通常
+# メロディ小鳩
+JP 社長、おめでとう♪
+JP よくがんばったわね。
+JP えらいわ。
+EN Congratulations, Boss♪ You worked really hard.
+EN Good job.
+
+@ 131.24
+# scene 136 エンディング 好意
+# メロディ小鳩
+JP いひ♪
+JP 社長……これからも
+JP 貴方のためならなんでもするわ。
+EN Ihi♪ Boss... From now on, I'll do anything for you.

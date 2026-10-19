@@ -1,0 +1,98 @@
+# /SCR/334.BIN - ホリー・シエラ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 334` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ホリー・シエラ
+JP 優勝なんて信じられないですね。
+EN I can hardly believe I won.
+
+@ 1.16
+# scene 119 入場1
+# ホリー・シエラ
+JP 今日も思いっきりいきますよー！
+EN I'm going all out again today!
+
+@ 2.16
+# scene 119 入場2
+# ホリー・シエラ
+JP ウフフ。
+JP ようやく私の出番ですね。
+EN Ufufu. My turn at last.
+
+@ 3.17
+# scene 122 タッグマッチ ベター２
+# ホリー・シエラ
+JP いきましょう、カオス！
+EN Let's go, Chaos!
+
+@ 4.16
+# scene 125 必殺技１
+# ホリー・シエラ
+JP 覚悟してください！
+EN Prepare yourself!
+
+@ 5.16
+# scene 125 必殺技２
+# ホリー・シエラ
+JP これで沈んでください！
+EN Please go down with this!
+
+@ 6.16
+# scene 125 必殺技３
+# ホリー・シエラ
+JP 耐えられますか？
+JP この技に！
+EN Can you withstand this move?
+
+@ 7.12
+# scene 126 勝利1
+# ホリー・シエラ
+JP 今回は私の勝ちですね！
+EN Looks like I win this time!
+
+@ 8.12
+# scene 126 勝利2
+# ホリー・シエラ
+JP ナイスファイトでした！
+EN Nice fight!
+
+@ 9.12
+# scene 126 勝利3
+# ホリー・シエラ
+JP 今日の勝利は紙一重の差でした。
+EN Today's win came down to a hair's breadth.
+
+@ 10.15
+# scene 133 表彰1
+# ホリー・シエラ
+JP ありがとうございます。
+JP とっても嬉しいです！
+EN Thank you very much. I'm so happy!
+
+@ 11.15
+# scene 133 表彰2
+# ホリー・シエラ
+JP これを励みにまたがんばりますね！
+EN This will push me to work even harder!
+
+@ 12.12
+# scene 134 優勝1
+# ホリー・シエラ
+JP これからは追われる立場ですね。
+JP がんばります！
+EN Now I'm the one being chased. I'll do my best!
+
+@ 13.12
+# scene 134 優勝２
+# ホリー・シエラ
+JP 私が優勝ですか？
+JP お祝いしないといけませんね！
+EN I won? Then we have to celebrate!

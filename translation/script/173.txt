@@ -1,0 +1,2332 @@
+# /SCR/173.BIN - カラミティ十六夜
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 173` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# カラミティ十六夜
+JP 団体に災厄を招き入れるかも
+JP しれないわよ。
+EN I might bring calamity into your promotion.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# カラミティ十六夜
+JP フフッ…。
+JP 後悔しても知らないわよ。
+EN Fufu... Don't come crying to me if you regret it.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# カラミティ十六夜
+JP 賢明な判断かもね。
+EN Perhaps that was the wise choice.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりの専門施設に
+JP 通ってるって話だったけど…。
+EN They said she goes to a specialized facility around
+EN here...
+
+@ 3.33
+# ？？？
+JP 私に何か用？
+EN Do you want something with me?
+
+@ 3.36
+# 社 長
+JP うおっ！
+EN Whoa!
+
+@ 3.38
+# 社 長
+JP あれ、この子は…？
+EN Huh, this girl is...?
+
+@ 3.40
+# 社 長
+JP 資料と同じだ。
+JP 今回スカウトしに来た子だ…！
+EN She matches the file. She's the one I came to scout...!
+
+@ 3.42
+# 社 長
+JP （どうして俺が用事があるって
+JP 　わかったんだろう…？）
+EN (How did she know I had business with her...?)
+
+@ 3.44
+# 社 長
+JP （…まぁいいか）
+EN (...Oh well.)
+
+@ 3.46
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and made her an offer.)
+
+@ 3.53
+# カラミティ十六夜
+JP …プロレス…。
+EN ...Pro wrestling...
+
+@ 3.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.63
+# カラミティ十六夜
+JP あなたの団体は
+JP 私の災厄を受けきれるかしら？
+EN I wonder... Can your promotion withstand my calamity?
+
+@ 3.66
+# 社 長
+JP ………………？
+EN ..................?
+
+@ 3.68
+# 社 長
+JP （言っている意味が
+JP 　よくわからなかったが
+JP 　俺は条件を提示してみた）
+EN (I didn't quite follow what she meant, but I laid out my
+EN terms anyway.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# カラミティ十六夜
+JP その度胸を買うわ。
+JP あなたの団体に入団してあげる。
+EN I admire your nerve. I'll join your promotion.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# カラミティ十六夜
+JP 災厄を招き入れたことを
+JP 後悔しないでね。
+EN Just don't regret inviting calamity in.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# カラミティ十六夜
+JP …あなたでは
+JP 私の災厄は受けきれないわ。
+JP さようなら…。
+EN ...You couldn't withstand my calamity. Goodbye...
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 6.33
+# カラミティ十六夜
+JP …また来たの？
+EN ...You came again?
+
+@ 6.36
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 6.43
+# カラミティ十六夜
+JP 私のもたらす災厄は
+JP 計りしれないわよ？
+EN The calamity I bring is beyond measure, you know?
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my terms.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# カラミティ十六夜
+JP その度胸を買うわ。
+JP あなたの団体に入団してあげる。
+EN I admire your nerve. I'll join your promotion.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# カラミティ十六夜
+JP 災厄を招き入れたことを
+JP 後悔しないでね。
+EN Just don't regret inviting calamity in.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# カラミティ十六夜
+JP …あなたでは
+JP 私の災厄は受けきれないわ。
+JP さようなら…。
+EN ...You couldn't withstand my calamity. Goodbye...
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は十六夜選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Izayoi.
+
+@ 9.25
+# 社 長
+JP あの絶対的な
+JP ヒールとしての強さは魅力的だ。
+EN Her overwhelming strength as a heel is very
+EN appealing.
+
+@ 9.27
+# 社 長
+JP このあたりで一人で
+JP トレーニングしてるって
+JP 話だったけど…。
+EN I heard she trains alone around here...
+
+@ 9.31
+# ？？？
+JP 私に何か用？
+EN Do you want something with me?
+
+@ 9.34
+# 社 長
+JP うおっ！
+EN Whoa!
+
+@ 9.43
+# 社 長
+JP あれ？
+JP もしかして十六夜選手！？
+EN Huh? Are you Izayoi?!
+
+@ 9.45
+# 社 長
+JP （どうして俺が用事があるって
+JP 　わかったんだろう…？）
+EN (How did she know I had business with her...?)
+
+@ 9.47
+# 社 長
+JP （…まぁいいか）
+EN (...Oh well.)
+
+@ 9.49
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.56
+# カラミティ十六夜
+JP 自ら災厄を招き入れるつもり？
+EN You intend to invite calamity in yourself?
+
+@ 9.59
+# 社 長
+JP ……………………？
+EN ........................?
+
+@ 9.66
+# カラミティ十六夜
+JP 今度はあなたの団体に
+JP 災厄が降り注ぐかもしれないのよ？
+EN Next time, calamity might rain down on your
+EN promotion, you know?
+
+@ 9.69
+# 社 長
+JP …えーと……。
+EN ...Uh, well......
+
+@ 9.71
+# 社 長
+JP うちに力を貸して
+JP もらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 9.73
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# カラミティ十六夜
+JP あなたの好きにしたらいいわ。
+EN Do as you like.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 10.26
+# カラミティ十六夜
+JP 後悔しても知らないわよ。
+EN Don't come crying to me if you regret it.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# カラミティ十六夜
+JP あなたを不幸にしたくはないわ…。
+EN I don't want to bring you misfortune...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 十六夜選手が必要だ。
+EN Our promotion really needs Izayoi.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 十六夜選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 12.37
+# カラミティ十六夜
+JP …また……？
+EN ...Again......?
+
+@ 12.40
+# 社 長
+JP どうしても
+JP うちの団体に入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 12.47
+# カラミティ十六夜
+JP フゥ～…。
+JP 懲りないのね…。
+EN Haaah... You never learn, do you...
+
+@ 12.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my terms.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# カラミティ十六夜
+JP あなたの好きにしたらいいわ。
+EN Do as you like.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 13.26
+# カラミティ十六夜
+JP 後悔しても知らないわよ。
+EN Don't come crying to me if you regret it.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# カラミティ十六夜
+JP あなたを不幸にしたくないわ…。
+EN I don't want to bring you misfortune...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は十六夜選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Izayoi.
+
+@ 15.25
+# 社 長
+JP あのリングでの
+JP 圧倒的な存在感には魅力がある。
+EN Her overwhelming presence in the ring is very
+EN appealing.
+
+@ 15.27
+# 社 長
+JP このあたりにいるはずだけど…。
+EN She should be around here...
+
+@ 15.31
+# ？？？
+JP …私を探してるの？
+EN ...Are you looking for me?
+
+@ 15.34
+# 社 長
+JP うおっ！
+EN Whoa!
+
+@ 15.43
+# 社 長
+JP あれ？
+JP 十六夜選手！？
+EN Huh? Izayoi?!
+
+@ 15.45
+# 社 長
+JP （どうして俺が探してるって
+JP 　わかったんだろう…？）
+EN (How did she know I was looking for her...?)
+
+@ 15.47
+# 社 長
+JP （…まぁいいか）
+EN (...Oh well.)
+
+@ 15.49
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 15.56
+# カラミティ十六夜
+JP あなたの団体に入団…？
+EN Join your promotion...?
+
+@ 15.59
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.66
+# カラミティ十六夜
+JP 私は人と接点を持たない方が
+JP いい女よ…。
+EN I'm a woman better left out of other people's lives...
+
+@ 15.69
+# 社 長
+JP …えーと……。
+EN ...Uh, well......
+
+@ 15.71
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Won't you lend us your strength somehow?
+
+@ 15.73
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my terms.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# カラミティ十六夜
+JP あなたが私の災厄より強い男か
+JP 見てみたくなったわ。
+JP 好きにするといいわ。
+EN Now I want to see if you're a man stronger than my
+EN calamity. Do as you like.
+
+@ 16.22
+# 社 長
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 16.26
+# カラミティ十六夜
+JP 喜ぶのはまだ早いわ…。
+EN It's too early to celebrate...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# カラミティ十六夜
+JP あなたでは私の災厄に
+JP 耐えきれないわ…。
+JP さようなら。
+EN You couldn't endure my calamity... Goodbye.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 十六夜選手が必要だ。
+EN Our promotion really needs Izayoi.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 十六夜選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Excuse me.
+
+@ 18.37
+# カラミティ十六夜
+JP …また来たの……？
+EN ...You came again......?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 18.47
+# カラミティ十六夜
+JP もの好きな男ね…。
+EN What a strange man you are...
+
+@ 18.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (Once again, I laid out my terms.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# カラミティ十六夜
+JP あなたが私の災厄より強い男か
+JP 見てみたくなったわ。
+JP 好きにするといいわ。
+EN Now I want to see if you're a man stronger than my
+EN calamity. Do as you like.
+
+@ 19.22
+# 社 長
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 19.26
+# カラミティ十六夜
+JP 喜ぶのはまだ早いわ…。
+EN It's too early to celebrate...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# カラミティ十六夜
+JP あなたでは私の災厄に
+JP 耐えきれないわ…。
+JP さようなら。
+EN You couldn't endure my calamity... Goodbye.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は十六夜を訪ねることにした。
+EN I decided to pay Izayoi a visit.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler our promotion needs, after all.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.37
+# カラミティ十六夜
+JP …社長……。
+EN ...Boss......
+
+@ 21.40
+# 社 長
+JP あっ、十六夜！
+EN Ah, Izayoi!
+
+@ 21.42
+# 社 長
+JP えーと…久しぶりだな。
+EN Uh... It's been a while.
+
+@ 21.49
+# カラミティ十六夜
+JP ………………。
+EN ..................
+
+@ 21.52
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN Actually, I've been looking for you. I want you to
+EN come back...
+
+@ 21.56
+# カラミティ十六夜
+JP あなたでは
+JP 私の災厄には耐えきれない…。
+EN You couldn't endure my calamity...
+
+@ 21.59
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask, but...
+
+@ 21.61
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# カラミティ十六夜
+JP また災厄を抱え込むつもり…？
+EN You mean to take on calamity again...?
+
+@ 22.18
+# 社 長
+JP どうしても、もう一度
+JP 力を貸して欲しいんだ。
+EN I really need your strength, one more time.
+
+@ 22.29
+# カラミティ十六夜
+JP あなたも変な男ね…。
+JP 好きにするといいわ。
+EN You're a strange man too... Do as you like.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# カラミティ十六夜
+JP また災厄を抱え込むと…？
+EN You'd take on calamity again...?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you to come back.
+
+@ 23.29
+# カラミティ十六夜
+JP あなたをこれ以上
+JP 不幸にしたくはないわ…。
+EN I don't want to bring you any more misfortune...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I made my own bed this time, too...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び十六夜を訪ねることにした。
+EN I decided to visit Izayoi again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler our promotion needs, after all.
+
+@ 24.27
+# 社 長
+JP 十六夜っ！
+EN Izayoi!
+
+@ 24.37
+# カラミティ十六夜
+JP …社長……。
+JP また来たの？
+EN ...Boss...... You came again?
+
+@ 24.40
+# 社 長
+JP もう一度話をさせてくれ。
+EN Let me talk to you one more time.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# カラミティ十六夜
+JP また災厄を抱え込むつもり…？
+EN You mean to take on calamity again...?
+
+@ 25.18
+# 社 長
+JP どうしても、もう一度
+JP 力を貸して欲しいんだ。
+EN I really need your strength, one more time.
+
+@ 25.29
+# カラミティ十六夜
+JP あなたも変な男ね…。
+JP 好きにするといいわ。
+EN You're a strange man too... Do as you like.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# カラミティ十六夜
+JP また災厄を抱え込むと…？
+EN You'd take on calamity again...?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you to come back.
+
+@ 26.29
+# カラミティ十六夜
+JP あなたをこれ以上
+JP 不幸にしたくはないわ…。
+EN I don't want to bring you any more misfortune...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I made my own bed this time, too...)
+
+@ 27.16
+# scene 028 ケガ小
+# カラミティ十六夜
+JP この程度の災厄で済んだようね。
+EN Looks like the calamity was only this much.
+
+@ 28.16
+# scene 029 ケガ大
+# カラミティ十六夜
+JP 今回は私の身に
+JP 災厄が降り注いだようね。
+EN It seems calamity rained down on me this time.
+
+@ 29.16
+# scene 030 入院
+# カラミティ十六夜
+JP 災厄に勝てる力を
+JP 持たないとダメね。
+EN I need the strength to beat calamity.
+
+@ 30.16
+# scene 031 退院
+# カラミティ十六夜
+JP もう大丈夫よ。
+EN I'm fine now.
+
+@ 31.16
+# scene 032 ケガ完治
+# カラミティ十六夜
+JP これで全力で戦えるわ。
+EN Now I can fight at full strength.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# カラミティ十六夜
+JP これでこの団体も平和になるわ。
+EN Now this promotion will finally know peace.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# カラミティ十六夜
+JP 私が引退したら
+JP 災厄が暴走するかもしれないわよ。
+EN If I retire, the calamity might run wild, you know.
+
+@ 34.16
+# scene 035 コーチ就任
+# カラミティ十六夜
+JP 私がコーチになるなんて…。
+JP 笑い話ね。
+EN Me, a coach... What a joke.
+
+@ 35.16
+# scene 036 ケガ引退
+# カラミティ十六夜
+JP 災厄に勝てなかったようね。
+EN It seems I couldn't beat the calamity.
+
+@ 36.16
+# scene 037 年齢引退
+# カラミティ十六夜
+JP 体の悲鳴が聞こえてきたわ。
+EN I can hear my body screaming.
+
+@ 37.16
+# scene 038 退団
+# カラミティ十六夜
+JP これでこの団体にも
+JP 幸運が訪れるわ。
+EN Now good fortune will come to this promotion.
+
+@ 38.16
+# scene 039 スランプ
+# カラミティ十六夜
+JP これも災厄の影響かもね…。
+EN Maybe this is the calamity at work, too...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# カラミティ十六夜
+JP 私にかかわるなんて…。
+JP 災厄を招き入れるようなもの…。
+EN Getting involved with me... It's like inviting calamity
+EN in...
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Give it your all, so you live up to their cheering.
+
+@ 39.26
+# カラミティ十六夜
+JP ファンは災厄から
+JP 守ってあげないとね。
+EN I'll have to protect my fans from calamity.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# カラミティ十六夜
+JP 世の中には不幸になりたい人が
+JP 多いようね。
+EN It seems the world is full of people who want
+EN misfortune.
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Make sure you live up to their expectations.
+
+@ 40.26
+# カラミティ十六夜
+JP 本当に不幸にする訳には
+JP いかないわね。
+EN I can't let them actually fall into misfortune.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# カラミティ十六夜
+JP これも災厄の影響ね…。
+EN This is the calamity at work too...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just give it your best
+EN again.
+
+@ 41.23
+# カラミティ十六夜
+JP かわいそうなことをしたわ。
+EN I feel sorry for them.
+
+@ 42.16
+# scene 043 映画出演
+# カラミティ十六夜
+JP セットが崩れたりしないと
+JP いいけど…。
+EN I hope the set doesn't collapse...
+
+@ 43.16
+# scene 044 一日署長
+# カラミティ十六夜
+JP 犯罪者に災厄を降り注いでくるわ。
+EN I'll go rain calamity down on the criminals.
+
+@ 44.16
+# scene 045 写真集発売
+# カラミティ十六夜
+JP 写真集を買った人が
+JP 不幸にならないといいけど…。
+EN I hope the people who buy it don't meet with
+EN misfortune...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# カラミティ十六夜
+JP 私を選ぶなんて…。
+JP もの好きなスポンサーね。
+EN Choosing me... What an odd sponsor.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# カラミティ十六夜
+JP レコーディングが
+JP 無事に済まないかもね。
+EN The recording might not go smoothly.
+
+@ 47.16
+# scene 048 始球式
+# カラミティ十六夜
+JP バッターに当てないように
+JP 気をつけるわ。
+EN I'll be careful not to hit the batter.
+
+@ 48.16
+# scene 049 学園祭
+# カラミティ十六夜
+JP 学園祭が無事に終わればいいけど…。
+EN I hope the school festival ends without incident...
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.38
+# カラミティ十六夜
+JP …そう。
+EN ...I see.
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.48
+# カラミティ十六夜
+JP あまり私にかかわらない方がいいわ。
+EN You'd better not get too involved with me.
+
+@ 50.32
+# scene 051 バレンタインデー
+# カラミティ十六夜
+JP 社長、あげるわ。
+EN Boss, this is for you.
+
+@ 50.35
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Ah, chocolate. Thank you.
+
+@ 50.42
+# カラミティ十六夜
+JP 食べてどうなっても
+JP 知らないわよ。
+EN Whatever happens after you eat it, don't blame me.
+
+@ 50.45
+# 社 長
+JP おいおい…。
+EN Hey, now...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# カラミティ十六夜
+JP 自分から私にかかわるなんて
+JP あいかわらず不思議な男ね。
+EN Getting involved with me of your own accord... You're
+EN as strange a man as ever.
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# カラミティ十六夜
+JP フフッ…。
+JP もらってから後悔しても
+JP 知らないわよ。
+EN Fufu... Don't come crying to me if you regret getting
+EN this.
+
+@ 53.31
+# scene 054 コンサート
+# カラミティ十六夜
+JP 今日は無事に終わらないかも
+JP しれないわよ。
+EN Today might not end without incident, you know.
+
+@ 54.28
+# scene 055 練習拒否
+# カラミティ十六夜
+JP 今日はやめておくわ。
+EN I'll pass today.
+
+@ 55.28
+# scene 056 失踪
+# カラミティ十六夜
+JP 悪い予感がするわ。
+EN I have a bad feeling about this.
+
+@ 56.16
+# scene 057 選手解雇
+# カラミティ十六夜
+JP 賢明な判断ね…。
+EN A wise decision...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# カラミティ十六夜
+JP 強制送還にならないように
+JP 気をつけるわ。
+EN I'll be careful not to get deported.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# カラミティ十六夜
+JP ごめんなさい。
+JP 戻ってきたわ。
+EN Sorry. I'm back.
+
+@ 59.28
+# scene 060 移籍思案
+# カラミティ十六夜
+JP 移籍…か……。
+EN A transfer, huh......
+
+@ 60.16
+# scene 061 革命軍結成
+# カラミティ十六夜
+JP 災厄の力を革命の糧にするわ。
+EN I'll make the power of calamity fuel the revolution.
+
+@ 61.16
+# scene 062 反乱軍結成
+# カラミティ十六夜
+JP 災厄の恐ろしさを味わってもらうわ。
+EN I'll make you taste the terror of calamity.
+
+@ 62.16
+# scene 063 最終決戦要求
+# カラミティ十六夜
+JP これで終わりにしましょう。
+EN Let's end this.
+
+@ 63.16
+# scene 064 遺恨発生
+# カラミティ十六夜
+JP 私の恨みを買うとは
+JP かわいそうに…。
+EN Earning my grudge... How pitiful...
+
+@ 64.16
+# scene 065 殴り込み
+# カラミティ十六夜
+JP 災厄の恐ろしさを見舞ってくるわ。
+EN I'll go visit the terror of calamity upon them.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# カラミティ十六夜
+JP この団体に挑んだことを
+JP 後悔させてあげるわ。
+EN I'll make them regret challenging this promotion.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# カラミティ十六夜
+JP 災厄の恐ろしさを味わうがいい。
+EN Taste the terror of calamity.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# カラミティ十六夜
+JP もう災厄なんて関係ないのかもね。
+EN Maybe calamity doesn't matter anymore.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# カラミティ十六夜
+JP また災厄をパワーに変えたのか…。
+JP それとも災厄を吹き飛ばしたのか…。
+EN Did I turn calamity into power again...? Or did I blow it
+EN away...?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# カラミティ十六夜
+JP こんな形で災厄が訪れるなんてね…。
+EN To think calamity would come in this form...
+
+@ 70.13
+# scene 071 引退式
+# カラミティ十六夜
+JP 私という災厄を受け入れてくれた
+JP 団体とファンに感謝します…。
+EN Thank you to the promotion and the fans who
+EN accepted the calamity that is me...
+
+@ 71.18
+# カラミティ十六夜
+JP 来たわ。
+EN I'm here.
+
+@ 71.37
+# カラミティ十六夜
+JP …来たわ。
+EN ...I'm here.
+
+@ 71.47
+# カラミティ十六夜
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# カラミティ十六夜
+JP …そうね。
+JP 災厄が私に力を貸してくれて
+JP いるのかもね。
+EN ...Perhaps. Maybe the calamity is lending me its
+EN strength.
+
+@ 71.111
+# カラミティ十六夜
+JP 私にかかわらない方が身のためよ。
+EN For your own sake, don't get involved with me.
+
+@ 71.132
+# カラミティ十六夜
+JP 誰かさんが私を災厄から
+JP 守ってくれているのかもね。
+EN Perhaps someone is protecting me from calamity.
+
+@ 71.153
+# カラミティ十六夜
+JP 災厄が集まるほど力を発揮できる…。
+JP 悲しい性ね…。
+EN The more calamity gathers, the stronger I become...
+EN What a sad nature...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# カラミティ十六夜
+JP そうね。
+JP 悪かったわ…。
+EN You're right. I'm sorry...
+
+@ 71.211
+# カラミティ十六夜
+JP あなたに私のことはわからないわ！
+EN You don't understand me at all!
+
+@ 71.232
+# カラミティ十六夜
+JP あなたはどうしても
+JP 私にかかわろうとするのね。
+EN You just insist on getting involved with me, don't
+EN you.
+
+@ 71.253
+# カラミティ十六夜
+JP 災厄が体を蝕んでいるのかもね。
+EN Perhaps the calamity is eating away at my body.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# カラミティ十六夜
+JP 私の心配するなんて時間のムダね。
+EN Worrying about me is a waste of time.
+
+@ 71.311
+# カラミティ十六夜
+JP これがいつもの私よ。
+EN This is how I always am.
+
+@ 71.332
+# カラミティ十六夜
+JP 私が心配されるなんて…。
+JP でも大丈夫よ。
+EN Someone worrying about me... But I'm fine.
+
+@ 71.353
+# カラミティ十六夜
+JP 私のことはわかってるでしょう。
+JP 気にしないで…。
+EN You know how I am. Don't mind me...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# カラミティ十六夜
+JP …なに？
+EN ...What?
+
+@ 71.400
+# カラミティ十六夜
+JP なに？
+EN What?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# カラミティ十六夜
+JP もう少しで
+JP 災厄を撒き散らすところだったわ。
+EN I was this close to unleashing calamity.
+
+@ 71.454
+# カラミティ十六夜
+JP もうムリね。
+JP あの娘には災厄の恐ろしさを
+JP たっぶり味わってもらうわ。
+EN It's too late. That girl will get a full taste of the
+EN terror of calamity.
+
+@ 71.475
+# カラミティ十六夜
+JP 私の災厄が幻でも見せたのね…。
+EN My calamity must have shown you an illusion...
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# カラミティ十六夜
+JP …な、なに？
+EN ...Wh-what?
+
+@ 71.522
+# カラミティ十六夜
+JP な、なに？
+EN Wh-what?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# カラミティ十六夜
+JP そうね。
+JP 社長の頼みなら
+JP 今回は大目にみることにするわ。
+EN Fine. If you're asking, Boss, I'll let it slide this time.
+
+@ 71.578
+# カラミティ十六夜
+JP あの娘には痛みを知ってもらうわ。
+EN That girl is going to learn what pain is.
+
+@ 71.599
+# カラミティ十六夜
+JP フフッ…。
+JP 社長、私の災厄にあてられた？
+EN Fufu... Boss, has my calamity gotten to you?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# カラミティ十六夜
+JP …来たわ。
+EN ...I'm here.
+
+@ 72.16
+# カラミティ十六夜
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# カラミティ十六夜
+JP …そうね。
+JP 災厄が私に力を貸してくれて
+JP いるのかもね。
+EN ...Perhaps. Maybe the calamity is lending me its
+EN strength.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# カラミティ十六夜
+JP 私にかかわらない方が身のためよ。
+EN For your own sake, don't get involved with me.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# カラミティ十六夜
+JP 誰かさんが私を災厄から守って
+JP くれているのかもね。
+EN Perhaps someone is protecting me from calamity.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# カラミティ十六夜
+JP 災厄が集まるほど力を発揮できる…。
+JP 悲しい性ね…。
+EN The more calamity gathers, the stronger I become...
+EN What a sad nature...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# カラミティ十六夜
+JP そうね。悪かったわ…。
+EN You're right. I'm sorry...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# カラミティ十六夜
+JP あなたに私のことはわからないわ！
+EN You don't understand me at all!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# カラミティ十六夜
+JP あなたはどうしても私にかかわろうと
+JP するのね。
+EN You just insist on getting involved with me, don't
+EN you.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# カラミティ十六夜
+JP 災厄が体を蝕んでいるのかもね。
+EN Perhaps the calamity is eating away at my body.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# カラミティ十六夜
+JP 私の心配するなんて時間のムダね。
+EN Worrying about me is a waste of time.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# カラミティ十六夜
+JP これがいつもの私よ。
+EN This is how I always am.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# カラミティ十六夜
+JP 私が心配されるなんて…。
+JP でも大丈夫よ。
+EN Someone worrying about me... But I'm fine.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# カラミティ十六夜
+JP 私のことはわかってるでしょう。
+JP 気にしないで…。
+EN You know how I am. Don't mind me...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# カラミティ十六夜
+JP …なに？
+EN ...What?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# カラミティ十六夜
+JP なに？
+EN What?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# カラミティ十六夜
+JP もう少しで災厄を撒き散らす
+JP ところだったわ。
+EN I was this close to unleashing calamity.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# カラミティ十六夜
+JP もうムリね。
+JP あの娘には災厄の恐ろしさを
+JP たっぶり味わってもらうわ。
+EN It's too late. That girl will get a full taste of the
+EN terror of calamity.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# カラミティ十六夜
+JP 私の災厄が幻でも見せたのね…。
+EN My calamity must have shown you an illusion...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# カラミティ十六夜
+JP …な、なに？
+EN ...Wh-what?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# カラミティ十六夜
+JP な、なに？
+EN Wh-what?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# カラミティ十六夜
+JP そうね。社長の頼みなら
+JP 今回は大目にみることにするわ。
+EN Fine. If you're asking, Boss, I'll let it slide this time.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# カラミティ十六夜
+JP あの娘には痛みを知ってもらうわ。
+EN That girl is going to learn what pain is.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# カラミティ十六夜
+JP フフ…。
+JP 社長、私の災厄にあてられた？
+EN Fufu... Boss, has my calamity gotten to you?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# カラミティ十六夜
+JP 災厄をまた抱え込むなんて
+JP 物好きね。
+EN Taking on calamity again... How eccentric of you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# カラミティ十六夜
+JP もっと有意義なお金の使い方を
+JP した方がいいかもよ。
+EN You might want to spend your money on something
+EN more worthwhile.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# カラミティ十六夜
+JP フフッ…。
+JP まぁこんなものでしょうね。
+EN Fufu... Well, I suppose this is about right.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this is the tropics for you. The sun is
+EN scorching.)
+
+@ 105.30
+# 社 長
+JP （俺もゆっくり休ませてもらうか…）
+EN (Guess I'll take it easy and relax, too...)
+
+@ 105.32
+# 社 長
+JP （………………）
+EN (..................)
+
+@ 105.39
+# ？？？
+JP …社長。
+EN ...Boss.
+
+@ 105.42
+# 社 長
+JP …んっ……。
+EN ...Mm......
+
+@ 105.44
+# 社 長
+JP その声は…？
+EN That voice is...?
+
+@ 105.60
+# 社 長
+JP うおっ！？
+JP 十六夜、その格好どうしたんだ！？
+EN Whoa?! Izayoi, what happened to your clothes?!
+
+@ 105.62
+# 社 長
+JP もしかして誰かに
+JP 襲われたんじゃないだろうな？
+EN Don't tell me somebody attacked you?
+
+@ 105.66
+# カラミティ十六夜
+JP …社長、誤解するな。
+EN ...Boss, don't get the wrong idea.
+
+@ 105.69
+# 社 長
+JP それじゃ、どうしたんだ？
+EN Then what's going on?
+
+@ 105.79
+# カラミティ十六夜
+JP …っ！
+JP 災厄が体の中で暴れている…。
+EN ...Ngh! The calamity is raging inside my body...
+
+@ 105.82
+# 社 長
+JP 災厄…？
+EN Calamity...?
+
+@ 105.84
+# 社 長
+JP （そういえば、災厄を集める体質とか
+JP 　言ってたな…）
+EN (Now that I think of it, she did say her body attracts
+EN calamity...)
+
+@ 105.86
+# 社 長
+JP それで、大丈夫なのか？
+EN So, are you okay?
+
+@ 105.90
+# カラミティ十六夜
+JP 私は大丈夫…。
+JP でも…。
+EN I'm fine... But...
+
+@ 105.93
+# 社 長
+JP でも…？
+EN But...?
+
+@ 105.103
+# カラミティ十六夜
+JP バカンスの間の災厄を抑えるためにも
+JP 薬効を塗って欲しい…。
+EN To hold back the calamity during the vacation, I need
+EN you to rub on the salve...
+
+@ 105.106
+# 社 長
+JP 薬効…？
+JP その壷に入ってるやつか？
+EN Salve...? The stuff in that jar?
+
+@ 105.116
+# カラミティ十六夜
+JP そう…。
+JP この薬効を体に塗ってもらわないと
+JP いけない…。
+EN Yes... This salve has to be rubbed onto my body...
+
+@ 105.119
+# 社 長
+JP （それでその格好なのか…）
+EN (So that's why she's dressed like that...)
+
+@ 105.121
+# 社 長
+JP それは俺じゃなきゃダメなのか？
+EN Does it have to be me?
+
+@ 105.125
+# カラミティ十六夜
+JP 社長がこの団体で
+JP 一番災厄に強い耐性を持っている…。
+EN You have the strongest resistance to calamity of
+EN anyone in this promotion...
+
+@ 105.128
+# 社 長
+JP そうなのか…。
+JP あまり嬉しくはないが…。
+EN Is that so... Not sure I'm happy to hear it...
+
+@ 105.138
+# カラミティ十六夜
+JP 社長、早く…。
+EN Boss, hurry...
+
+@ 105.141
+# 社 長
+JP えーと、ちなみに塗らなかったら
+JP どうなるんだ？
+EN Uh, just out of curiosity, what happens if I don't?
+
+@ 105.145
+# カラミティ十六夜
+JP この暴れ方は尋常じゃない…。
+JP 飛行機が堕ちる…。
+EN It's raging like never before... The plane will go
+EN down...
+
+@ 105.148
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 105.152
+# カラミティ十六夜
+JP 帰りの飛行機が確実に墜落する…。
+EN Our flight home will crash, without a doubt...
+
+@ 105.155
+# 社 長
+JP そうなのか…。
+EN Is that so...
+
+@ 105.165
+# カラミティ十六夜
+JP だから早く…。
+EN So hurry...
+
+@ 105.168
+# 社 長
+JP わかった、わかった。
+JP とりあえずうつ伏せになってくれ。
+EN All right, all right. Just lie face down for now.
+
+@ 105.172
+# カラミティ十六夜
+JP 社長、ありがとう…。
+EN Thank you, Boss...
+
+@ 105.175
+# 社 長
+JP 役得といえば役得なんだが…。
+EN I guess you could call it a perk of the job...
+
+@ 105.192
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.194
+# 社 長
+JP （その後、俺は無事帰国するために
+JP 　薬効を塗ってやることにした）
+EN (After that, for the sake of getting home safely, I
+EN rubbed the salve on her.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP フゥ～。
+JP これで片付けもほぼ完了か。
+EN Phew. That about wraps up the cleaning.
+
+@ 106.26
+# 社 長
+JP 散らかしておくと
+JP 霧子くんがうるさいからな。
+EN If I leave things a mess, Kiriko gets on my case.
+
+@ 106.28
+# 社 長
+JP あとはこのダンボールを
+JP 棚の上に上げるだけだけど…。
+EN All that's left is putting this cardboard box up on
+EN the shelf, but...
+
+@ 106.30
+# 社 長
+JP ちょっと一人だとつらいな…。
+EN It's a bit tough on my own...
+
+@ 106.43
+# カラミティ十六夜
+JP 失礼します。
+EN Excuse me.
+
+@ 106.46
+# 社 長
+JP おっ、十六夜か。
+JP ちょうどいいところに…。
+EN Oh, Izayoi. Perfect timing...
+
+@ 106.53
+# カラミティ十六夜
+JP 何か…？
+EN Yes...?
+
+@ 106.56
+# 社 長
+JP ダンボールを棚に上げるのを
+JP 手伝ってくれないか？
+EN Could you help me put this box up on the shelf?
+
+@ 106.63
+# カラミティ十六夜
+JP 私はかまいませんが
+JP 私と作業すると…。
+EN I don't mind, but if you work with me...
+
+@ 106.66
+# 社 長
+JP そんなにタイミングよく
+JP 災厄が降りかかることもないだろ。
+EN Calamity won't strike at exactly the right moment
+EN like that.
+
+@ 106.70
+# カラミティ十六夜
+JP そうですか…。
+EN If you say so...
+
+@ 106.73
+# 社 長
+JP 悪いが、そっち側を持ってくれるか？
+EN Sorry, could you hold that side?
+
+@ 106.80
+# カラミティ十六夜
+JP はい。
+EN Yes.
+
+@ 106.83
+# 社 長
+JP イスに上がるから
+JP ちょっと我慢してくれ。
+EN I'm going to climb onto the chair, so bear with me a
+EN second.
+
+@ 106.87
+# カラミティ十六夜
+JP はい、大丈夫です。
+EN Yes, I've got it.
+
+@ 106.90
+# 社 長
+JP よいしょっと…。
+EN Hup...
+
+@ 106.92
+# 社 長
+JP あ、あれ…。
+EN Wh-whoa...
+
+@ 106.94
+# 社 長
+JP （俺はダンボールを持ったまま
+JP 　イスの上でバランスを崩した…）
+EN (Still holding the box, I lost my balance on the chair...)
+
+@ 106.101
+# カラミティ十六夜
+JP …あっ！？
+EN ...Ah?!
+
+@ 106.130
+# 社 長
+JP 悪い、大丈夫か？
+EN Sorry, are you okay?
+
+@ 106.140
+# カラミティ十六夜
+JP だ、大丈夫です…。
+JP それより手を…。
+EN I-I'm fine... More importantly, your hand...
+
+@ 106.143
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 106.152
+# 社 長
+JP （倒れたはずみで俺の手が
+JP 　十六夜の胸の上にあった）
+EN (When we fell, my hand had landed on Izayoi's chest.)
+
+@ 106.162
+# 社 長
+JP す、すまん！
+EN S-sorry!
+
+@ 106.181
+# カラミティ十六夜
+JP いえ…大丈夫です。
+JP それより私の災厄のせいで
+JP すみません…。
+EN No... I'm fine. Rather, I'm sorry. This is my calamity's
+EN fault...
+
+@ 106.184
+# 社 長
+JP これも災厄なのか…？
+EN This is calamity too...?
+
+@ 106.188
+# カラミティ十六夜
+JP おそらく…。
+EN Most likely...
+
+@ 106.195
+# カラミティ十六夜
+JP 社長、手は洗っておいてください。
+EN Boss, please wash your hand.
+
+@ 106.198
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 106.202
+# カラミティ十六夜
+JP 次にどんな災厄があるかわからないので
+JP 私に触れた手を洗っておいてください。
+EN There's no telling what calamity will come next, so
+EN please wash the hand that touched me.
+
+@ 106.205
+# 社 長
+JP そうなのか？
+EN Really?
+
+@ 106.209
+# カラミティ十六夜
+JP ええ…。
+EN Yes...
+
+@ 106.212
+# 社 長
+JP うーむ…。
+JP 俺にとっては災厄ということでも
+JP ないんだが…。
+EN Hmm... Not sure I'd call that a calamity, personally...
+
+@ 106.216
+# カラミティ十六夜
+JP 何か言いましたか？
+EN Did you say something?
+
+@ 106.219
+# 社 長
+JP いや、別に…。
+EN No, nothing...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP フゥ～。
+JP これで片付けもほぼ完了か。
+EN Phew. That about wraps up the cleaning.
+
+@ 107.26
+# 社 長
+JP 散らかしておくと
+JP 霧子くんがうるさいからな。
+EN If I leave things a mess, Kiriko gets on my case.
+
+@ 107.28
+# 社 長
+JP あとはこのダンボールを
+JP 棚の上に上げるだけだけど…。
+EN All that's left is putting this cardboard box up on
+EN the shelf, but...
+
+@ 107.30
+# 社 長
+JP ちょっと一人だとつらいな…。
+EN It's a bit tough on my own...
+
+@ 107.44
+# カラミティ十六夜
+JP 失礼します。
+EN Excuse me.
+
+@ 107.47
+# 社 長
+JP おっ、十六夜か。
+JP ちょうどいいところに…。
+EN Oh, Izayoi. Perfect timing...
+
+@ 107.54
+# カラミティ十六夜
+JP なんでしょう…？
+EN What is it...?
+
+@ 107.57
+# 社 長
+JP ダンボールを棚に上げるのを
+JP 手伝ってくれないか？
+EN Could you help me put this box up on the shelf?
+
+@ 107.64
+# カラミティ十六夜
+JP 私はかまいませんが
+JP また前みたいなことが…。
+EN I don't mind, but what happened last time might...
+
+@ 107.67
+# 社 長
+JP そんなに何度も
+JP 災厄が降りかかることもないだろ。
+EN Calamity won't strike that many times.
+
+@ 107.71
+# カラミティ十六夜
+JP そうですか…。
+EN If you say so...
+
+@ 107.74
+# 社 長
+JP 悪いが、そっち側を持ってくれるか？
+EN Sorry, could you hold that side?
+
+@ 107.81
+# カラミティ十六夜
+JP はい。
+EN Yes.
+
+@ 107.84
+# 社 長
+JP 机に上がるから
+JP ちょっと我慢してくれ。
+EN I'm going to climb onto the desk, so bear with me a
+EN second.
+
+@ 107.88
+# カラミティ十六夜
+JP はい、大丈夫です。
+EN Yes, I've got it.
+
+@ 107.91
+# 社 長
+JP よいしょっと…。
+EN Hup...
+
+@ 107.93
+# 社 長
+JP あ、あれ…。
+EN Wh-whoa...
+
+@ 107.95
+# 社 長
+JP （俺はダンボールを持ったまま
+JP 　机の上でバランスを崩した…）
+EN (Still holding the box, I lost my balance on the desk...)
+
+@ 107.97
+# 社 長
+JP （デジャブを感じながら
+JP 　俺は十六夜の上に倒れる…）
+EN (With a strong sense of deja vu, I fell on top of
+EN Izayoi...)
+
+@ 107.104
+# カラミティ十六夜
+JP …あっ！？
+EN ...Ah?!
+
+@ 107.134
+# 社 長
+JP 悪い、大丈夫か？
+EN Sorry, are you okay?
+
+@ 107.144
+# カラミティ十六夜
+JP だ、大丈夫です…。
+JP それより今…。
+EN I-I'm fine... More importantly, just now...
+
+@ 107.147
+# 社 長
+JP （倒れたはずみで俺の唇が
+JP 　柔らかいものに触れた…）
+EN (When we fell, my lips had touched something soft...)
+
+@ 107.149
+# 社 長
+JP （十六夜の表情から察するに…）
+EN (Judging by the look on Izayoi's face...)
+
+@ 107.151
+# 社 長
+JP もしかして俺の唇に触れたのは
+JP おまえの唇…か…？
+EN Don't tell me... What touched my lips was...your lips...?
+
+@ 107.155
+# カラミティ十六夜
+JP …え…ええ……。
+EN ...Y...yes......
+
+@ 107.158
+# 社 長
+JP す、すまん！
+EN S-sorry!
+
+@ 107.177
+# カラミティ十六夜
+JP いえ…。
+JP 大丈夫です。
+JP また私の災厄のせいで…。
+EN No... I'm fine. It's my calamity's fault again...
+
+@ 107.180
+# 社 長
+JP これも災厄なのか…？
+EN This is calamity too...?
+
+@ 107.184
+# カラミティ十六夜
+JP そうですね…。
+EN I suppose so...
+
+@ 107.187
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.194
+# カラミティ十六夜
+JP 社長、唇…。
+EN Boss, your lips...
+
+@ 107.197
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 107.204
+# カラミティ十六夜
+JP こんなことがあって
+JP どんな影響が出るか想像もつかないので
+JP 唇は消毒しておいてください。
+EN After something like this, there's no telling what
+EN might happen, so please disinfect your lips.
+
+@ 107.207
+# 社 長
+JP そうなのか？
+EN Really?
+
+@ 107.211
+# カラミティ十六夜
+JP ええ…。
+EN Yes...
+
+@ 107.214
+# 社 長
+JP うーむ…。
+JP 降りかかるのは本当に災厄なのか…？
+EN Hmm... Is what's befalling me really a calamity...?
+
+@ 108.17
+# scene 112 練習試合 バッド
+# カラミティ十六夜
+JP あなたの破邪の力と私の災厄の力
+JP どっちが上でしょうね？
+EN Your power to crush evil, or my power of calamity...
+EN Which do you think is stronger?
+
+@ 109.16
+# scene 113 練習開始
+# カラミティ十六夜
+JP 今日もやりましょうか？
+EN Shall we train today?
+
+@ 110.16
+# scene 114 練習開始 好意
+# カラミティ十六夜
+JP 今日もよろしく…。
+EN I'm in your hands today...
+
+@ 111.16
+# scene 115 特訓開始
+# カラミティ十六夜
+JP 災厄に打ち勝てる体を
+JP 作らないとね。
+EN I need to build a body that can overcome calamity.
+
+@ 112.20
+# scene 116 特訓成功
+# カラミティ十六夜
+JP これならどうにかなりそうね。
+EN This should do somehow.
+
+@ 113.20
+# scene 117 特訓失敗
+# カラミティ十六夜
+JP フフッ…。
+JP 自分が情けなくなるわね。
+EN Fufu... I'm ashamed of myself.
+
+@ 114.16
+# scene 118 休養
+# カラミティ十六夜
+JP 気遣いなんてしなくてもいいのに…。
+EN You didn't have to worry about me...
+
+@ 115.16
+# scene 119 入場1
+# カラミティ十六夜
+JP 今日は災厄の力を
+JP 借りることにするわ。
+EN Today I'll borrow the power of calamity.
+
+@ 116.16
+# scene 119 入場2
+# カラミティ十六夜
+JP カラミティ・クィーンの力を
+JP お見せするわ。
+EN I'll show you the power of the Calamity Queen.
+
+@ 117.17
+# scene 123 タッグマッチ バッド
+# カラミティ十六夜
+JP まさかあなたと組むなんてね。
+EN Who'd have thought I'd team with you.
+
+@ 118.16
+# scene 125 必殺技１
+# カラミティ十六夜
+JP 災厄の恐ろしさ味わいなさい！
+EN Taste the terror of calamity!
+
+@ 119.16
+# scene 125 必殺技２
+# カラミティ十六夜
+JP これが災厄の女神と呼ばれる所以よ。
+EN This is why they call me the Goddess of Calamity.
+
+@ 120.16
+# scene 125 必殺技３
+# カラミティ十六夜
+JP 殺しはしないわ…。
+JP 少し痛いだけ…。
+EN I won't kill you... It will only hurt a little...
+
+@ 121.12
+# scene 126 勝利1
+# カラミティ十六夜
+JP これが災厄の女神の力よ。
+EN This is the power of the Goddess of Calamity.
+
+@ 122.12
+# scene 126 勝利2
+# カラミティ十六夜
+JP 私の相手をするのは
+JP 荷が重かったようね。
+EN It seems facing me was too much for you.
+
+@ 123.12
+# scene 126 勝利3
+# カラミティ十六夜
+JP 戦いの場に身をおいたこと。
+JP 決して後悔しないわ。
+EN Choosing to live on the battlefield... I'll never regret
+EN it.
+
+@ 124.15
+# scene 133 表彰1
+# カラミティ十六夜
+JP フフッ…。
+JP 災厄の女神が表彰されるなんてね…。
+EN Fufu... The Goddess of Calamity, receiving an award...
+
+@ 125.15
+# scene 133 表彰2
+# カラミティ十六夜
+JP 私を表彰するなんて…。
+JP 次はないかもしれないわね。
+EN Giving me an award... There might not be a next time.
+
+@ 126.12
+# scene 134 優勝1
+# カラミティ十六夜
+JP 立ちはだかる者は
+JP すべて災いを受けることが
+JP わかったでしょう？
+EN Now you know that all who stand in my way meet with
+EN disaster, don't you?
+
+@ 127.12
+# scene 134 優勝２
+# カラミティ十六夜
+JP 誰も私の災厄を受けきることは
+JP できなかったわね。
+EN No one could withstand my calamity.
+
+@ 128.24
+# scene 135 エンディング 通常
+# カラミティ十六夜
+JP 社長、おめでとう。
+JP 私の災厄はどちらに
+JP 作用したのかしら？
+EN Congratulations, Boss. I wonder which way my
+EN calamity worked for you?
+
+@ 129.24
+# scene 136 エンディング 好意
+# カラミティ十六夜
+JP 社長…。
+JP あなたは私の災厄を受け止めた
+JP ただ一人の男…。
+EN Boss... You're the only man who has ever taken on my
+EN calamity...

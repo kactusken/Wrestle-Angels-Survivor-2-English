@@ -1,0 +1,2342 @@
+# /SCR/170.BIN - 内田 希
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 170` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 内田 希
+JP 内田です。
+JP 世界王座目指してがんばります。
+EN I'm Uchida. I'm aiming for a world title, and I'll give it
+EN my all.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 内田 希
+JP よかったです。
+JP ご期待には応えてみせます。
+EN I'm glad. I'll live up to your expectations.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 内田 希
+JP わかりました。
+JP 鍛え直してきます。
+EN I understand. I'll go back and train harder.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP スカウトの話だと
+JP ここらに有望な選手がいるって
+JP ことだけど…。
+EN The scouting report says there's a promising
+EN wrestler around here...
+
+@ 3.25
+# 社 長
+JP 資料の写真によると…。
+JP あっ、どうもあの娘がそうらしいな。
+EN Going by the photo in the file... Ah, that looks like
+EN her.
+
+@ 3.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.37
+# 内田 希
+JP 私に何かご用ですか？
+EN Can I help you with something?
+
+@ 3.40
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 3.47
+# 内田 希
+JP …えっ、プロレス？
+EN ...Huh? Pro wrestling?
+
+@ 3.50
+# 社 長
+JP ええ。
+JP 実はあなたをスカウトに来たんです。
+EN Yes. I actually came to scout you.
+
+@ 3.57
+# 内田 希
+JP そ、そうなんですか！
+JP 私、レスラーに憧れていたんですが…。
+EN R-really? I've always admired wrestlers...
+
+@ 3.60
+# 社 長
+JP それなら、是非入団して
+JP もらえないでしょうか。
+EN Then I'd love for you to join us.
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# 内田 希
+JP でも…。
+JP 私でお役に立てるかどうか…。
+EN But... I don't know if I'd be any use to you...
+
+@ 4.18
+# 社 長
+JP きちんとサポートします。
+JP 是非お願いします。
+EN We'll give you proper support. Please, join us.
+
+@ 4.29
+# 内田 希
+JP わかりました。
+JP がんばってみます。
+JP よろしくお願いします。
+EN All right. I'll give it a try. I look forward to working
+EN with you.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 内田 希
+JP まだ本気でやるかは…。
+JP もう少し考えさせてください。
+EN I'm not sure yet if I'm serious about it... Please give
+EN me a little more time to think.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （なんとしてもあの娘に
+JP 　入団してもらいたい）
+EN (I have to get that girl to join, no matter what.)
+
+@ 6.25
+# 社 長
+JP （俺はもう一度トレーニング中の
+JP 　彼女に会いに行くことにした）
+EN (I decided to go see her again while she was
+EN training.)
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# 内田 希
+JP …あっ、この間はどうも…。
+EN ...Oh, thank you for the other day...
+
+@ 6.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you in our promotion...
+
+@ 6.47
+# 内田 希
+JP やってみたいという気持ちは
+JP あるんですが…。
+EN I do have the feeling that I want to try it...
+
+@ 6.50
+# 社 長
+JP どうか俺を信じて
+JP 入団してもらえないでしょうか？
+EN Please trust me and join us.
+
+@ 6.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# 内田 希
+JP でも…。
+JP 私でお役に立てるかどうか…。
+EN But... I don't know if I'd be any use to you...
+
+@ 7.18
+# 社 長
+JP きちんとサポートします。
+JP 是非お願いします。
+EN We'll give you proper support. Please, join us.
+
+@ 7.29
+# 内田 希
+JP わかりました。
+JP がんばってみます。
+JP よろしくお願いします。
+EN All right. I'll give it a try. I look forward to working
+EN with you.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 内田 希
+JP まだ本気でやるかは…。
+JP もう少し考えさせてください。
+EN I'm not sure yet if I'm serious about it... Please give
+EN me a little more time to think.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は内田選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Uchida.
+
+@ 9.25
+# 社 長
+JP 彼女はうちの団体の
+JP エースになれる逸材だ。
+EN She has what it takes to be our promotion's ace.
+
+@ 9.27
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She should be training somewhere around here...
+
+@ 9.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.41
+# 内田 希
+JP すみません。
+JP 今、トレーニング中なんですが…。
+EN I'm sorry. I'm in the middle of training right now...
+
+@ 9.44
+# 社 長
+JP 申し訳ありません。
+JP ただ重要なお話がありまして…。
+EN My apologies. It's just that I have something
+EN important to discuss...
+
+@ 9.46
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 9.53
+# 内田 希
+JP 移籍ですか？
+JP でも、なぜ私のような者を？
+EN A transfer? But why someone like me?
+
+@ 9.56
+# 社 長
+JP うちのエースに
+JP なってもらいたいからです。
+JP いかがでしょう？
+EN Because I want you to be our ace. What do you say?
+
+@ 9.60
+# 内田 希
+JP それは大変ありがたい
+JP お話ですが…。
+EN That's a very generous offer, but...
+
+@ 9.63
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 9.65
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out my terms.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 内田 希
+JP わかりました。
+JP やはりやる以上、世界を視野に
+JP 入れておきますね。
+EN All right. If I'm doing this, I'll be keeping the world
+EN stage in my sights.
+
+@ 10.22
+# 社 長
+JP 当然ですね。
+JP では、ＯＫですか？
+EN Naturally. So, is that a yes?
+
+@ 10.29
+# 内田 希
+JP はい、よろしくお願いします。
+EN Yes. I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 内田 希
+JP 今、環境を変える気に
+JP なれないんです。
+JP 練習計画にも支障が出ますし…。
+EN I'm not ready to change my environment right now. It
+EN would disrupt my training plan, too...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 内田選手が必要だ。
+EN Our promotion really needs Uchida.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 内田選手と交渉することにした。
+EN I decided to negotiate with Uchida one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 内田 希
+JP …あっ、この間の社長さん…。
+EN ...Oh, the president from the other day...
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you in our promotion...
+
+@ 12.47
+# 内田 希
+JP そこまで言っていただけるのは
+JP 嬉しいのですが…。
+EN I'm happy you think that highly of me, but...
+
+@ 12.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 内田 希
+JP わかりました。
+JP やはりやる以上、世界を視野に
+JP 入れておきますね。
+EN All right. If I'm doing this, I'll be keeping the world
+EN stage in my sights.
+
+@ 13.22
+# 社 長
+JP 当然ですね。
+JP では、ＯＫですか？
+EN Naturally. So, is that a yes?
+
+@ 13.29
+# 内田 希
+JP はい、よろしくお願いします。
+EN Yes. I look forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 内田 希
+JP 今、環境を変える気に
+JP なれないんです。
+JP 練習計画にも支障が出ますし…。
+EN I'm not ready to change my environment right now. It
+EN would disrupt my training plan, too...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は内田選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Uchida.
+
+@ 15.25
+# 社 長
+JP あの見事な関節技で
+JP うちの団体のファンを魅了して欲しい。
+EN I want her to wow our fans with those brilliant
+EN submission holds.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be somewhere around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 内田 希
+JP なんでしょうか？
+EN Yes, what is it?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.48
+# 内田 希
+JP 団体への所属ですか…。
+JP たしかに魅力的なお話ですが…。
+EN Joining a promotion... It's certainly an attractive
+EN offer, but...
+
+@ 15.51
+# 社 長
+JP どうでしょう。
+JP うちへ来てもらえませんか？
+EN What do you say? Would you come join us?
+
+@ 15.58
+# 内田 希
+JP これまでフリーだったので
+JP 団体になじめるか不安なんですが…。
+EN I've been freelance until now, so I'm worried whether
+EN I'd fit in with a promotion...
+
+@ 15.61
+# 社 長
+JP もちろんサポートします。
+JP どうですか？
+EN We'll support you, of course. How about it?
+
+@ 15.63
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out my terms.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 内田 希
+JP …わかりました。
+JP ご迷惑をかけるかもしれませんが
+JP お世話になります。
+EN ...All right. I may cause you some trouble, but I'm in
+EN your hands.
+
+@ 16.22
+# 社 長
+JP それはよかった。
+EN That's great.
+
+@ 16.29
+# 内田 希
+JP 私の目標は世界です。
+JP どうぞ、よろしくお願いします。
+EN My goal is the world stage. I look forward to working
+EN with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 内田 希
+JP まだ決心がつきません。
+JP すみません…。
+JP せっかく来ていただいたのに…。
+EN I still can't make up my mind. I'm sorry... after you
+EN came all this way...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 内田選手が必要だ。
+EN Our promotion really needs Uchida.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度内田選手と
+JP 交渉することにした。
+EN I decided to negotiate with Uchida one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 内田 希
+JP …あっ、社長さん。
+JP ご無沙汰しています。
+EN ...Oh, President. It's been a while.
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you in our promotion...
+
+@ 18.47
+# 内田 希
+JP 入団することのメリット
+JP デメリットについては
+JP あれこれ考えてみたのですが…。
+EN I've thought a lot about the pros and cons of
+EN joining, but...
+
+@ 18.50
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 18.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 内田 希
+JP …わかりました。
+JP ご迷惑をかけるかもしれませんが
+JP お世話になります。
+EN ...All right. I may cause you some trouble, but I'm in
+EN your hands.
+
+@ 19.22
+# 社 長
+JP それはよかった。
+EN That's great.
+
+@ 19.29
+# 内田 希
+JP 私の目標は世界です。
+JP どうぞ、よろしくお願いします。
+EN My goal is the world stage. I look forward to working
+EN with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 内田 希
+JP まだ決心がつきません。
+JP すみません…。
+JP せっかく来ていただいたのに…。
+EN I still can't make up my mind. I'm sorry... after you
+EN came all this way...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は内田を訪ねることにした。
+EN I decided to visit Uchida.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she was somewhere around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 内田っ！
+EN Uchida!
+
+@ 21.41
+# 内田 希
+JP 社長…。
+JP お久しぶりです…。
+EN Boss... It's been a while...
+
+@ 21.44
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you because I
+EN want you to come back.
+
+@ 21.51
+# 内田 希
+JP それは…。
+JP あまり賢明なご判断とは
+JP 思えませんが…？
+EN That... doesn't strike me as a very wise decision...?
+
+@ 21.54
+# 社 長
+JP あのときのことは悪かった。
+JP 許してくれないか。
+EN I'm sorry about what happened back then. Can you
+EN forgive me?
+
+@ 21.56
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 内田 希
+JP 一度決めたことを覆すのは
+JP 良くないのでは？
+EN Isn't it a bad idea to overturn a decision once it's
+EN been made?
+
+@ 22.18
+# 社 長
+JP そこを曲げて頼む！
+JP 力を貸してくれ！
+EN I'm asking you to bend on this! Lend me your
+EN strength!
+
+@ 22.29
+# 内田 希
+JP そこまで言われるなら…。
+JP わかりました、戻ります。
+EN If you put it that way... All right, I'll come back.
+
+@ 22.32
+# 社 長
+JP ありがとう！
+EN Thank you!
+
+@ 22.39
+# 内田 希
+JP いえ…。
+JP 今度こそ、お互いうまくいくことを
+JP 願っています。
+EN No... I hope that this time, things work out for both
+EN of us.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 内田 希
+JP 同じ選手が出たり入ったり…。
+JP そういうのは他の選手にも
+JP 悪影響が出ますよ。
+EN The same wrestler leaving and coming back... That
+EN has a bad effect on the other wrestlers too.
+
+@ 23.22
+# 社 長
+JP みんなは俺が説得する。
+JP どうしても戻ってきて欲しいんだ！
+EN I'll convince everyone myself. I really need you back!
+
+@ 23.29
+# 内田 希
+JP 社長…。
+JP 私の気持ちを察して
+JP くださいませんか…？
+EN Boss... Can't you understand how I feel...?
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+JP すまなかった。
+EN I see... All right... I'm sorry.
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び内田を訪ねることにした。
+EN I decided to visit Uchida again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 内田っ！
+EN Uchida!
+
+@ 24.37
+# 内田 希
+JP …社長。
+JP どうしてですか？
+EN ...Boss. Why?
+
+@ 24.40
+# 社 長
+JP 悪い。
+JP だが、どうしても戻って欲しいんだ。
+EN Sorry. But I really want you to come back.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 内田 希
+JP 一度決めたことを覆すのは
+JP 良くないのでは？
+EN Isn't it a bad idea to overturn a decision once it's
+EN been made?
+
+@ 25.18
+# 社 長
+JP そこを曲げて頼む！
+JP 力を貸してくれ！
+EN I'm asking you to bend on this! Lend me your
+EN strength!
+
+@ 25.29
+# 内田 希
+JP そこまで言われるなら…。
+JP わかりました、戻ります。
+EN If you put it that way... All right, I'll come back.
+
+@ 25.32
+# 社 長
+JP ありがとう！
+EN Thank you!
+
+@ 25.39
+# 内田 希
+JP いえ…。
+JP 今度こそ、お互いうまくいくことを
+JP 願っています。
+EN No... I hope that this time, things work out for both
+EN of us.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 内田 希
+JP 同じ選手が出たり入ったり…。
+JP そういうのは他の選手にも
+JP 悪影響が出ますよ。
+EN The same wrestler leaving and coming back... That
+EN has a bad effect on the other wrestlers too.
+
+@ 26.22
+# 社 長
+JP みんなは俺が説得する。
+JP どうしても戻ってきて欲しいんだ！
+EN I'll convince everyone myself. I really need you back!
+
+@ 26.29
+# 内田 希
+JP 社長…。
+JP 私の気持ちを察して
+JP くださいませんか…？
+EN Boss... Can't you understand how I feel...?
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+JP すまなかった。
+EN I see... All right... I'm sorry.
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 内田 希
+JP これくらい特に問題ありません。
+EN This much is no real problem.
+
+@ 28.16
+# scene 029 ケガ大
+# 内田 希
+JP 予想以上にダメージが
+JP 蓄積していたみたいです。
+EN It seems the damage built up more than I expected.
+
+@ 29.16
+# scene 030 入院
+# 内田 希
+JP 仕方ありません。
+JP きっちり治してきます。
+EN It can't be helped. I'll make sure I heal properly.
+
+@ 30.16
+# scene 031 退院
+# 内田 希
+JP 退院しました。
+JP 今日から復帰します。
+EN I've been discharged. I'm back starting today.
+
+@ 31.16
+# scene 032 ケガ完治
+# 内田 希
+JP もう大丈夫みたいです。
+EN I think I'm all better now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 内田 希
+JP そうですね…。
+JP それが適切な判断なのでしょうね…。
+EN I see... That's probably the right decision...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 内田 希
+JP 失礼ですが
+JP 社長の判断は間違っていると
+JP 思います。
+EN With all due respect, I think your judgment is wrong,
+EN Boss.
+
+@ 34.16
+# scene 035 コーチ就任
+# 内田 希
+JP まずは柔軟体操。
+JP それから基本動作の反復練習！
+JP 正確にやること！
+EN Stretching first. Then drill the basic movements! Do
+EN them precisely!
+
+@ 35.16
+# scene 036 ケガ引退
+# 内田 希
+JP いつかこんな日が
+JP 来るかもしれない…と
+JP 思っていました。
+EN I always thought a day like this might come someday...
+
+@ 36.16
+# scene 037 年齢引退
+# 内田 希
+JP 体が思うように動かなくなって…。
+JP 限界のようです…。
+EN My body won't move the way I want anymore... It
+EN seems I've reached my limit...
+
+@ 37.16
+# scene 038 退団
+# 内田 希
+JP 勝手ですが、これ以上
+JP ここに留まるべきではないと
+JP 思うんです。
+EN This is selfish of me, but I don't think I should stay
+EN here any longer.
+
+@ 38.16
+# scene 039 スランプ
+# 内田 希
+JP どうして…。
+EN Why...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 内田 希
+JP ファンクラブですか？
+JP 社長の営業の成果ですね。
+EN A fan club? That's the result of your sales work,
+EN Boss.
+
+@ 39.19
+# 社 長
+JP いや、おまえの実力だよ。
+JP ファンは試合を見たいんだから。
+EN No, it's your ability. The fans want to see you
+EN wrestle.
+
+@ 39.26
+# 内田 希
+JP …わかりました。
+JP 声援に応えるべく努力します。
+EN ...All right. I'll work hard to live up to their cheers.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 内田 希
+JP またですか。
+JP ちょっと驚きですね。
+EN Another one? That's a bit of a surprise.
+
+@ 40.19
+# 社 長
+JP 言ったろう。
+JP おまえのファンは多いんだよ。
+EN I told you. You've got a lot of fans.
+
+@ 40.26
+# 内田 希
+JP …嬉しいです。
+JP 技をいっそう磨き
+JP より高度な試合をお見せします。
+EN ...I'm happy. I'll polish my technique even more and
+EN show them an even better match.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 内田 希
+JP …なくなってしまったんですか。
+EN ...So it's gone.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just try again.
+
+@ 41.26
+# 内田 希
+JP やはりファンアピールが
+JP たりないのでしょうか…？
+EN Maybe I just don't appeal to the fans enough...?
+
+@ 42.16
+# scene 043 映画出演
+# 内田 希
+JP 通行人Ａとか
+JP そういう役ならいいんですが…。
+EN If it's something like "Passerby A," that's fine, but...
+
+@ 43.16
+# scene 044 一日署長
+# 内田 希
+JP あまりガラではないのですが…。
+JP でも仕事ですからね。
+EN It's not really my style... But it's work, after all.
+
+@ 44.16
+# scene 045 写真集発売
+# 内田 希
+JP 本当にやるんですか…？
+JP 自信ないんですけど…。
+EN Are we really doing this...? I'm not very confident...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 内田 希
+JP 私、笑顔とか作るの苦手なんですが…。
+JP いいんですか？
+EN I'm not good at smiling on cue... Is that okay?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 内田 希
+JP 歌…ですか。
+JP 大丈夫かなぁ…。
+EN Singing...? I wonder if I'll be okay...
+
+@ 47.16
+# scene 048 始球式
+# 内田 希
+JP 練習して
+JP ちゃんとストライク
+JP 投げてみせます。
+EN I'll practice and throw a proper strike.
+
+@ 48.16
+# scene 049 学園祭
+# 内田 希
+JP 何をすればいいんでしょうか？
+JP 騒ぐのはあまり得意では
+JP ないのですが…。
+EN What should I do? I'm not very good at being loud and
+EN lively...
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# 内田 希
+JP …えっ。
+JP 私にですか？
+EN ...Huh? For me?
+
+@ 49.39
+# 社 長
+JP もちろん。
+JP これからもよろしくな。
+EN Of course. I'm counting on you from here on.
+
+@ 49.46
+# 内田 希
+JP …は、はい。
+JP 社長の行動は予想しにくくて
+JP 困ります…。
+EN ...Y-yes. You're so hard to predict, Boss. It's
+EN troublesome...
+
+@ 50.30
+# scene 051 バレンタインデー
+# 内田 希
+JP バレンタインチョコを用意しました。
+JP スタッフ分、全員あります。
+JP どうぞ。
+EN I prepared Valentine's chocolates. There's one for
+EN every staff member. Here you are.
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Ah, thank you.
+
+@ 50.40
+# 内田 希
+JP あの、社長のだけは特別の…。
+JP …あっ、その…義理ですから…。
+EN Um, only yours is a special... ...Ah, I mean... it's
+EN obligation chocolate...
+
+@ 50.43
+# 社 長
+JP （有名店の高級チョコじゃないか。
+JP 　いいのかな、こんなのもらって）
+EN (Isn't this luxury chocolate from a famous shop? Is it
+EN okay for me to take this?)
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# 内田 希
+JP はい、喜んで！
+JP よかったぁ…。
+JP これで練習に集中できる。
+EN Yes, gladly! Phew... Now I can focus on training.
+
+@ 51.39
+# 社 長
+JP （…もしかして
+JP 　少し期待されてたのか…？）
+EN (...Was she maybe hoping for this a little...?)
+
+@ 52.31
+# scene 053 サイン会
+# 内田 希
+JP 世界で活躍できる選手になれるよう
+JP がんばります。
+JP 応援よろしくお願いします。
+EN I'll work hard to become a wrestler who can shine on
+EN the world stage. Please cheer me on.
+
+@ 53.29
+# scene 054 コンサート
+# 内田 希
+JP あーあー、声、聞こえますか。
+JP じゃ、いきます。
+JP 聴いてください！
+EN Testing, testing, can you hear me? Okay, here I go.
+EN Please listen!
+
+@ 54.28
+# scene 055 練習拒否
+# 内田 希
+JP 私が本当にしたいことは…。
+EN What I really want to do is...
+
+@ 55.28
+# scene 056 失踪
+# 内田 希
+JP 考えをまとめる時間が欲しいです…。
+EN I need some time to sort out my thoughts...
+
+@ 56.16
+# scene 057 選手解雇
+# 内田 希
+JP 残念です。
+JP 寂しいですが、決定には従います。
+EN That's unfortunate. I'll miss it here, but I'll accept
+EN the decision.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 内田 希
+JP 世界のレベルをじっくり見てきます。
+EN I'm going to take a good, long look at the world's
+EN level.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 内田 希
+JP まだまだ自分には
+JP たりないものが多いと
+JP わかりました。
+EN I learned I'm still lacking in a lot of ways.
+
+@ 59.26
+# scene 060 移籍思案
+# 内田 希
+JP どこに所属するかで
+JP なぜ、こんなにも悩むのか…。
+EN Why am I agonizing so much over where to sign...
+
+@ 60.16
+# scene 061 革命軍結成
+# 内田 希
+JP 過ちはやはり過ちです。
+JP 私はそれを正してみせます！
+EN A wrong is still a wrong. I'll set it right!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 内田 希
+JP 結果よりも行動が大切なときだって
+JP あるんです！
+EN There are times when action matters more than
+EN results!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 内田 希
+JP くだらないいがみ合いは
+JP もうたくさんです。
+JP 今日で終わりにしましょう！
+EN I've had enough of these pointless feuds. Let's end
+EN it today!
+
+@ 63.16
+# scene 064 遺恨発生
+# 内田 希
+JP あんなことするなんて…。
+EN How could she do something like that...
+
+@ 64.16
+# scene 065 殴り込み
+# 内田 希
+JP 私が先陣を務めます。
+JP 無様な試合はできませんからね！
+EN I'll lead the charge. We can't afford a shameful
+EN match!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 内田 希
+JP 身の程知らずですね。
+JP 返り討ちにしてやります。
+EN You don't know your place. I'll send you packing.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 内田 希
+JP 私と戦う者は名乗り出なさい。
+EN Whoever will face me, step forward.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 内田 希
+JP この戦いで夢を掴んでみせる！
+EN I'll seize my dream in this fight!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 内田 希
+JP これまでがんばってきた
+JP 苦労が報われました。
+EN All my hard work up to now has paid off.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 内田 希
+JP あのとき…冷静さを失わなければ…。
+EN If only I hadn't lost my composure back then...
+
+@ 70.13
+# scene 071 引退式
+# 内田 希
+JP ここまで来られたのは
+JP みなさんのおかげです。
+JP ありがとうございました！
+EN I owe getting this far to all of you. Thank you so
+EN much!
+
+@ 71.18
+# 内田 希
+JP 何かありましたか？
+EN Did something happen?
+
+@ 71.37
+# 内田 希
+JP どうされました？
+EN What is it?
+
+@ 71.47
+# 内田 希
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# 内田 希
+JP はい。
+JP この調子を維持していきたいです。
+EN Yes. I want to keep up this pace.
+
+@ 71.111
+# 内田 希
+JP そう見えるだけです…。
+EN It only looks that way...
+
+@ 71.132
+# 内田 希
+JP もっと誉めてください…。
+JP なんていうのはわがまま
+JP でしょうか…？
+EN Praise me more... Is that a selfish thing to ask...?
+
+@ 71.153
+# 内田 希
+JP 社長だって
+JP 本当は調子が落ちているのが
+JP わかっているのでしょう？
+EN You know my form has slipped too, don't you, Boss?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 内田 希
+JP …かもしれません。
+JP ダメですね…。
+JP こんなんじゃ…。
+EN ...Maybe so. This won't do... Not like this...
+
+@ 71.211
+# 内田 希
+JP わかってはいるんですが…。
+EN I do know that, but...
+
+@ 71.232
+# 内田 希
+JP すみません。
+JP だらけたところを
+JP お見せしてしまって…。
+EN I'm sorry. You had to see me slacking off...
+
+@ 71.253
+# 内田 希
+JP なんとかしないと、と
+JP 気ばかり焦って…。
+EN I know I have to do something, but I just get
+EN flustered...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# 内田 希
+JP ご心配をおかけするほどでは…。
+JP でも、ありがとうございます。
+EN It's nothing worth worrying about... But thank you.
+
+@ 71.311
+# 内田 希
+JP 試合勘が狂ってしまって…。
+JP 何がいけないんでしょうか。
+EN I've lost my feel for matches... What am I doing
+EN wrong?
+
+@ 71.332
+# 内田 希
+JP 嬉しいです。
+JP そう言っていただけるだけで…。
+EN I'm happy. Just hearing you say that...
+
+@ 71.353
+# 内田 希
+JP あまり気を使わないでください。
+JP プレッシャーになってしまうんです。
+EN Please don't fuss over me so much. It turns into
+EN pressure.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 内田 希
+JP …おそらく、あの件かと。
+EN ...I assume it's about that matter.
+
+@ 71.400
+# 内田 希
+JP いえ？
+JP どんなご用でしょう？
+EN No? What can I do for you?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.433
+# 内田 希
+JP …仕方ありません。
+JP 謝ってきます。
+EN ...It can't be helped. I'll go apologize.
+
+@ 71.454
+# 内田 希
+JP 事実を知れば
+JP 社長だってそんなこと
+JP 言わないと思います。
+EN If you knew the facts, Boss, I don't think you'd be
+EN saying that.
+
+@ 71.475
+# 内田 希
+JP どこからそんな間違った情報が
+JP 出たのでしょうか？
+EN Where did such wrong information come from?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 内田 希
+JP …予想はついています。
+EN ...I have an idea.
+
+@ 71.522
+# 内田 希
+JP …いえ…。
+JP どうかされましたか？
+EN ...No... Is something the matter?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.557
+# 内田 希
+JP やはりその件ですか…。
+JP わかりました。
+JP 私が退きます。
+EN So it is about that... All right. I'll back down.
+
+@ 71.578
+# 内田 希
+JP 申し訳ないのですが
+JP 社長の言葉でもそれは無理です。
+EN I'm sorry, but even if you ask, Boss, that's
+EN impossible.
+
+@ 71.599
+# 内田 希
+JP 社長…。
+JP おっしゃる言葉の意味が…。
+EN Boss... I don't understand what you mean...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 内田 希
+JP どうされました？
+EN What is it?
+
+@ 72.16
+# 内田 希
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 内田 希
+JP はい、
+JP この調子を維持していきたいです。
+EN Yes. I want to keep up this pace.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 内田 希
+JP そう見えるだけです…。
+EN It only looks that way...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 内田 希
+JP もっと誉めてください…。
+JP なんていうのはわがまま
+JP でしょうか…？
+EN Praise me more... Is that a selfish thing to ask...?
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 内田 希
+JP 社長だって、
+JP 本当は調子が落ちているのが
+JP わかっているのでしょう？
+EN You know my form has slipped too, don't you, Boss?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 内田 希
+JP …かもしれません。
+JP ダメですね、
+JP こんなんじゃ…。
+EN ...Maybe so. This won't do... Not like this...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 内田 希
+JP わかってはいるんですが…。
+EN I do know that, but...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 内田 希
+JP すみません。
+JP だらけたところを
+JP お見せしてしまって…。
+EN I'm sorry. You had to see me slacking off...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 内田 希
+JP なんとかしないと、と
+JP 気ばかり焦って…。
+EN I know I have to do something, but I just get
+EN flustered...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 内田 希
+JP ご心配をおかけするほどでは…。
+JP でも、ありがとうございます。
+EN It's nothing worth worrying about... But thank you.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 内田 希
+JP 試合勘が狂ってしまって…。
+JP 何がいけないんでしょうか。
+EN I've lost my feel for matches... What am I doing
+EN wrong?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 内田 希
+JP 嬉しいです。
+JP そう言っていただけるだけで…。
+EN I'm happy. Just hearing you say that...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 内田 希
+JP あまり気を使わないでください。
+JP プレッシャーになってしまうんです。
+EN Please don't fuss over me so much. It turns into
+EN pressure.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 内田 希
+JP …おそらく、あの件かと。
+EN ...I assume it's about that matter.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 内田 希
+JP いえ？
+JP どんなご用でしょう？
+EN No? What can I do for you?
+
+@ 91.2
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 内田 希
+JP ……仕方ありません。
+JP 謝ってきます。
+EN ...It can't be helped. I'll go apologize.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 内田 希
+JP 事実を知れば、社長だって
+JP そんなこと言わないと思います。
+EN If you knew the facts, Boss, I don't think you'd be
+EN saying that.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 内田 希
+JP どこからそんな間違った情報が
+JP 出たのでしょうか？
+EN Where did such wrong information come from?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 内田 希
+JP …予想はついています。
+EN ...I have an idea.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 内田 希
+JP …いえ…。
+JP どうかされましたか？
+EN ...No... Is something the matter?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 内田 希
+JP やはりその件ですか…。
+JP わかりました。
+JP 私が退きます。
+EN So it is about that... All right. I'll back down.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 内田 希
+JP 申し訳ないのですが、
+JP 社長の言葉でもそれは無理です。
+EN I'm sorry, but even if you ask, Boss, that's
+EN impossible.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 内田 希
+JP 社長…。
+JP おっしゃる言葉の意味が…。
+EN Boss... I don't understand what you mean...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 内田 希
+JP ありがとうございます。
+JP 期待に応えられるよう
+JP いっそう努力します。
+EN Thank you. I'll work even harder to live up to your
+EN expectations.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 内田 希
+JP ありがとうございます。
+JP でも、こんなにもらって
+JP いいんでしょうか？
+EN Thank you. But is it really okay for me to get this
+EN much?
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 内田 希
+JP もっと努力しろ
+JP ということでしょうか。
+JP 社長は厳しいですね…。
+EN Does this mean I need to try harder? You're strict,
+EN Boss...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun's
+EN blazing.)
+
+@ 105.26
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.33
+# ？？？
+JP きゃ―――っ！
+EN Kyaaaaah!
+
+@ 105.36
+# 社 長
+JP （悲鳴！？）
+EN (A scream!?)
+
+@ 105.38
+# 社 長
+JP （今の内田か！？）
+EN (Was that Uchida!?)
+
+@ 105.40
+# 社 長
+JP どうした、内田！？
+EN What's wrong, Uchida!?
+
+@ 105.44
+# 内田 希
+JP …あっ、社長！
+JP 助けてくださいっ！
+EN ...Ah, Boss! Please help me!
+
+@ 105.64
+# 社 長
+JP どわああっ！？
+EN Whoaaa!?
+
+@ 105.67
+# 社 長
+JP ちょっと内田！？
+JP どうしたんだ！？
+EN H-hey, Uchida!? What's the matter!?
+
+@ 105.71
+# 内田 希
+JP ク…クラゲが…。
+EN J-jellyfish...
+
+@ 105.74
+# 社 長
+JP …へっ？
+JP クラゲ？
+EN ...Huh? Jellyfish?
+
+@ 105.85
+# 内田 希
+JP で、出ましたっ！
+EN Th-there it is!
+
+@ 105.94
+# 社 長
+JP ぐへぇ！
+JP く…苦しい…！
+EN Gwah! C-can't... breathe...!
+
+@ 105.103
+# 社 長
+JP もういない…。
+JP もういないから…。
+EN It's gone... It's gone already...
+
+@ 105.113
+# 内田 希
+JP 本当ですか？
+EN Really?
+
+@ 105.116
+# 社 長
+JP ああ。
+JP ほら、いないだろ？
+EN Yeah. See, nothing there, right?
+
+@ 105.120
+# 内田 希
+JP 見えなくても
+JP 海の中にはまだいるかも
+JP しれません…。
+EN Even if we can't see them, they might still be in the
+EN water...
+
+@ 105.122
+# 社 長
+JP それはそうかもしれないけど…。
+JP そんなに苦手なのか？
+EN Well, that may be true, but... You're really that
+EN scared of them?
+
+@ 105.132
+# 内田 希
+JP うぅ…。
+JP すみません。
+JP クラゲはどうしても苦手で…。
+EN Ugh... I'm sorry. I just can't deal with jellyfish...
+
+@ 105.136
+# 内田 希
+JP どうしていいか
+JP わからなくなってしまって…。
+EN I didn't know what to do...
+
+@ 105.139
+# 社 長
+JP （クールな内田にも
+JP 　苦手なものがあるんだな…）
+EN (So even cool-headed Uchida has something she
+EN can't handle...)
+
+@ 105.149
+# 内田 希
+JP 社長！
+JP 浮き上がってきました！
+EN Boss! One just floated up!
+
+@ 105.152
+# 社 長
+JP ぐええ…。
+JP 苦…しい…！
+EN Gweh... Can't... breathe...!
+
+@ 105.161
+# 社 長
+JP とにかく…海から出よう…。
+EN Anyway... let's get out of the water...
+
+@ 105.171
+# 内田 希
+JP …えっ？
+JP でも、海に入るのはちょっと…。
+EN ...Huh? But going into the water is a little...
+
+@ 105.174
+# 社 長
+JP いつまでもこのままの格好って
+JP 訳にはいかないだろ？
+EN We can't stay like this forever, can we?
+
+@ 105.184
+# 内田 希
+JP す、すみません…！
+JP すぐに離れますので…。
+EN I-I'm sorry...! I'll let go right away...
+
+@ 105.194
+# 内田 希
+JP きゃ―――っ！
+EN Kyaaaaah!
+
+@ 105.197
+# 社 長
+JP うぐぐ…。
+JP 息が…！
+EN Ugh... Air...!
+
+@ 105.207
+# 内田 希
+JP あの…社長、迷惑だとは思いますが
+JP このまま…浜辺まで
+JP 連れて行ってもらえませんか？
+EN Um... Boss, I know this is a bother, but... could you
+EN carry me like this all the way to the beach?
+
+@ 105.210
+# 社 長
+JP （抱いたまま！？）
+EN (Carry her!?)
+
+@ 105.212
+# 社 長
+JP （しかしこの場に居残っていたら
+JP 　俺の命が心配だ…）
+EN (But if I stay here any longer, I'm worried for my
+EN life...)
+
+@ 105.214
+# 社 長
+JP よし、わかった。
+JP ゆっくり移動するぞ。
+EN Okay, got it. We'll move slowly.
+
+@ 105.224
+# 内田 希
+JP はい。
+JP お願いします…。
+EN Okay. Please...
+
+@ 105.227
+# 社 長
+JP （こうして俺は内田を抱えて
+JP 　必死に浜辺に戻ったのだった）
+EN (And so I carried Uchida, struggling desperately
+EN back to the beach.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし。仕事も終わったし帰るか）
+EN (All right, work's done. Time to head home.)
+
+@ 106.26
+# 社 長
+JP （ジムに明かりがついてる？）
+EN (The gym lights are on?)
+
+@ 106.28
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがないな）
+EN (Someone forgot to turn them off... Oh well.)
+
+@ 106.40
+# 社 長
+JP （誰も消して帰らなかったのか。
+JP 　困ったもんだ…）
+EN (Nobody turned them off on the way out? Honestly...)
+
+@ 106.42
+# 社 長
+JP （一応、中の様子だけ
+JP 　確認して帰るか）
+EN (I'll just check inside before I go.)
+
+@ 106.70
+# 内田 希
+JP …きゃっ！
+EN ...Eek!
+
+@ 106.73
+# 社 長
+JP うおっ！？
+EN Whoa!?
+
+@ 106.75
+# 社 長
+JP す、すまん！
+JP まさか人が残っているとは
+JP 思わなかったんだ！
+EN S-sorry! I had no idea anyone was still here!
+
+@ 106.85
+# 内田 希
+JP 私は気にしていませんから
+JP 大丈夫です。
+EN I don't mind, so it's all right.
+
+@ 106.88
+# 社 長
+JP 悪い。
+JP すぐに出ていくから！
+EN Sorry. I'll leave right away!
+
+@ 106.92
+# 内田 希
+JP …あっ、社長。
+JP それよりもお願いがあるのですが…。
+EN ...Ah, Boss. Actually, I have a favor to ask...
+
+@ 106.95
+# 社 長
+JP …お願い？
+EN ...A favor?
+
+@ 106.99
+# 内田 希
+JP この水着の感想を
+JP 聞かせてもらっていいですか…？
+EN Could you tell me what you think of this swimsuit...?
+
+@ 106.102
+# 社 長
+JP 水着の…？
+EN The swimsuit...?
+
+@ 106.106
+# 内田 希
+JP ええ…。
+JP 今度みんなでバカンスに行くと
+JP 聞いたのですが…。
+EN Yes... I heard we're all going on vacation soon...
+
+@ 106.110
+# 内田 希
+JP 昔の水着が着られるかどうか
+JP 心配だったので試着していたんです。
+EN I was worried whether my old swimsuit would still fit,
+EN so I was trying it on.
+
+@ 106.113
+# 社 長
+JP なるほど。
+JP それで水着なのか…。
+EN I see. So that's why the swimsuit...
+
+@ 106.122
+# 社 長
+JP うん、似合ってるし
+JP 特に問題はないぞ。
+EN Yeah, it looks good on you. No problem at all.
+
+@ 106.132
+# 内田 希
+JP そ、そうですか。
+JP よかったです。
+EN R-really? I'm glad.
+
+@ 106.141
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.145
+# 内田 希
+JP あ、あの…。
+EN U-um...
+
+@ 106.148
+# 社 長
+JP どうした？
+EN What's wrong?
+
+@ 106.152
+# 内田 希
+JP そろそろ着替えたいので
+JP 出ていって欲しいのですが…。
+EN I'd like to change now, so could you please step out...
+
+@ 106.155
+# 社 長
+JP ハッ！
+JP す、すまんっ！
+EN Ah! S-sorry!
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （よし、仕事も終わったし帰るか）
+EN (All right, work's done. Time to head home.)
+
+@ 107.26
+# 社 長
+JP （ジムに明かりがついてる？）
+EN (The gym lights are on?)
+
+@ 107.28
+# 社 長
+JP （やれやれ、消しに行くか）
+EN (Good grief. I'd better go turn them off.)
+
+@ 107.40
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.42
+# 社 長
+JP （誰も消して帰らなかったのか。
+JP 　困ったもんだ…）
+EN (Nobody turned them off on the way out? Honestly...)
+
+@ 107.44
+# 社 長
+JP （一応、中の様子だけ
+JP 　確認して帰るか）
+EN (I'll just check inside before I go.)
+
+@ 107.71
+# 内田 希
+JP …きゃっ！
+EN ...Eek!
+
+@ 107.74
+# 社 長
+JP うおっと、すまん！
+EN Whoa, sorry!
+
+@ 107.84
+# 内田 希
+JP いえ…大丈夫です。
+JP 着替えは終わっていますし…。
+EN No... it's all right. I'm done changing...
+
+@ 107.87
+# 社 長
+JP しかし、こんな時間まで
+JP 何をしてたんだ？
+EN But what were you doing here so late?
+
+@ 107.91
+# 内田 希
+JP あの…。
+JP 実は最近、体に筋肉が付いた
+JP ような気がして…。
+EN Um... Actually, I feel like I've been putting on muscle
+EN lately...
+
+@ 107.95
+# 内田 希
+JP 今度のバカンスで
+JP 以前の水着が着られるかどうか
+JP 試していたんです。
+EN So I was checking if my old swimsuit would still fit for
+EN the upcoming vacation.
+
+@ 107.98
+# 社 長
+JP そういうことか。
+EN So that's it.
+
+@ 107.100
+# 社 長
+JP それで、大丈夫だったのか？
+EN So, did it fit?
+
+@ 107.110
+# 内田 希
+JP いえ…。
+JP ちょっときついかも…。
+EN No... It might be a little tight...
+
+@ 107.113
+# 社 長
+JP でもまぁ、筋肉がつくのは
+JP プロレスラーとしては
+JP いいことじゃないか。
+EN Well, putting on muscle is a good thing for a pro
+EN wrestler, isn't it?
+
+@ 107.123
+# 内田 希
+JP そうかもしれませんが…。
+JP 私だってリングを降りたら
+JP 普通の女の子ですし…。
+EN Maybe so, but... once I step out of the ring, I'm just a
+EN normal girl too...
+
+@ 107.127
+# 内田 希
+JP それに男の人は
+JP スタイルのいい女性が
+JP 好きなんじゃないんですか？
+EN Besides, don't men like women with nice figures?
+
+@ 107.130
+# 社 長
+JP それは人それぞれだからなぁ。
+JP 気にすることないさ。
+EN That depends on the person. Don't worry about it.
+
+@ 107.140
+# 内田 希
+JP それじゃ、社長はどうなんですか？
+EN Then what about you, Boss?
+
+@ 107.143
+# 社 長
+JP 俺か？
+JP 俺は健康的な女性がいいな。
+EN Me? I like healthy women.
+
+@ 107.147
+# 内田 希
+JP そうですか。
+EN I see.
+
+@ 107.150
+# 社 長
+JP もちろん内田も十分魅力的だよ。
+EN Of course, you're plenty attractive too, Uchida.
+
+@ 107.160
+# 内田 希
+JP …えっ！？
+EN ...Huh!?
+
+@ 107.164
+# 内田 希
+JP あ、ありがとうございます…。
+EN Th-thank you...
+
+@ 107.167
+# 社 長
+JP じゃあ、俺は行くぞ。
+JP 明日も練習だし、早く帰れよ。
+EN Well, I'm off. You've got training tomorrow, so don't
+EN stay too late.
+
+@ 107.171
+# 内田 希
+JP …あっ。
+JP は、はい…。
+EN ...Ah. Y-yes...
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 内田 希
+JP 互いをぶつけ合ってみましょうか。
+JP 残っているのはどっちかしら？
+EN Shall we test ourselves against each other? I
+EN wonder which of us will be left standing.
+
+@ 109.16
+# scene 113 練習開始
+# 内田 希
+JP 今日のメニューは
+JP どうしましょうか？
+EN What should today's training menu be?
+
+@ 110.16
+# scene 114 練習開始 好意
+# 内田 希
+JP 今日もがんばりますね。
+EN I'll do my best today too.
+
+@ 111.16
+# scene 115 特訓開始
+# 内田 希
+JP いいですよ。
+JP 望むところです。
+EN All right. Bring it on.
+
+@ 112.20
+# scene 116 特訓成功
+# 内田 希
+JP いい汗を流せました。
+JP 結果には満足しています。
+EN That was a good sweat. I'm satisfied with the results.
+
+@ 113.20
+# scene 117 特訓失敗
+# 内田 希
+JP 自分が情けないです…。
+EN I'm disappointed in myself...
+
+@ 114.16
+# scene 118 休養
+# 内田 希
+JP ゆっくり体を休めて
+JP 次の練習に備えます。
+EN I'll rest up properly and get ready for the next
+EN training session.
+
+@ 115.16
+# scene 119 入場1
+# 内田 希
+JP このたぎる想い…。
+JP 勝利以外に抑える方法はない！
+EN This burning feeling... Only victory can quell it!
+
+@ 116.16
+# scene 119 入場2
+# 内田 希
+JP 力まず、気負わず。
+JP 上々のコンディションです。
+EN No strain, no pressure. I'm in excellent condition.
+
+@ 117.17
+# scene 121 タッグマッチ ベスト
+# 内田 希
+JP 上戸！
+JP 私の作戦に従うのよ、いい？
+EN Ueto! You'll follow my strategy, understood?
+
+@ 118.16
+# scene 125 必殺技１
+# 内田 希
+JP 戦いの帰趨はこの一撃で決まる！
+EN This one blow will decide the outcome!
+
+@ 119.16
+# scene 125 必殺技２
+# 内田 希
+JP あなたのアドバンテージ、
+JP これで帳消しね！
+EN That cancels out your advantage!
+
+@ 120.16
+# scene 125 必殺技３
+# 内田 希
+JP ラッキーキャプチャーッ！
+EN Lucky Capture!
+
+@ 121.12
+# scene 126 勝利1
+# 内田 希
+JP 勝利に対して貪欲じゃない…。
+JP そんな人に負ける訳にはいかないわ。
+EN You're not hungry for victory... I can't lose to
+EN someone like that.
+
+@ 122.12
+# scene 126 勝利2
+# 内田 希
+JP いい試合だったと思うわ。
+JP 次の対戦を楽しみにしているわ。
+EN I think that was a good match. I'm looking forward to
+EN our next one.
+
+@ 123.12
+# scene 126 勝利3
+# 内田 希
+JP どうやら私の作戦勝ちみたいですね。
+EN It seems my strategy won the day.
+
+@ 124.15
+# scene 133 表彰1
+# 内田 希
+JP この賞を励みに
+JP さらに自分に磨きをかけていきます。
+EN This award will spur me on to polish myself even
+EN further.
+
+@ 125.15
+# scene 133 表彰2
+# 内田 希
+JP これで少しは世界に通じる力が
+JP 付いたと言えそうです。
+EN Now I think I can say I've gained strength that'll hold
+EN up on the world stage.
+
+@ 126.12
+# scene 134 優勝1
+# 内田 希
+JP さすがに優勝への道は険しいですね。
+JP でも、登り詰めることができました！
+EN The road to the top really is steep. But I made it all
+EN the way up!
+
+@ 127.12
+# scene 134 優勝２
+# 内田 希
+JP 今回の勝利は幸運だっただけ…。
+JP もっと圧倒的な実力を付けないと…。
+EN This win was just luck... I need to become
+EN overwhelmingly stronger...
+
+@ 128.24
+# scene 135 エンディング 通常
+# 内田 希
+JP 社長、おめでとうございます。
+JP 私もお役に立っていれば
+JP いいんですが…。
+EN Congratulations, Boss. I hope I was of some help...
+
+@ 129.24
+# scene 136 エンディング 好意
+# 内田 希
+JP 社長…。
+JP 私は冷静さが武器のはずなのに…。
+JP この気持ち、どうしたらいいですか？
+EN Boss... Composure is supposed to be my weapon...
+EN What should I do with these feelings?

@@ -1,0 +1,2205 @@
+# /SCR/069.BIN - マッキー上戸
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 069` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# マッキー上戸
+JP 雇って後悔はさせねーぜ！
+EN Hire me and you won't regret it!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# マッキー上戸
+JP 思い切り暴れ回ってやるぜ！
+EN I'm gonna go wild out there!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# マッキー上戸
+JP なんだよ、そりゃ。
+JP ここで大暴れしたくなってくるぜ！
+EN What's that supposed to mean? Now I really feel like
+EN tearing this place apart!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ここに有望な選手がいるって
+JP ことだけど…。
+JP あそこにいる彼女がそうかな？
+EN I heard there's a promising wrestler around here... Is
+EN that her over there?
+
+@ 3.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.35
+# マッキー上戸
+JP なんだよ？
+EN Whaddaya want?
+
+@ 3.38
+# 社 長
+JP 私はプロレスの団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 3.45
+# マッキー上戸
+JP プロレス？
+JP へー、社長さん直々になんの用だい？
+EN Pro wrestling? Huh. And what's a president want with
+EN me personally?
+
+@ 3.48
+# 社 長
+JP あなたをレスラーに
+JP スカウトしようかと…？
+EN I'd like to scout you as a wrestler...?
+
+@ 3.55
+# マッキー上戸
+JP ええっ、マジ！？
+JP 思いきり暴れてもＯＫなのか？
+EN Whoa, for real!? I can go wild as much as I want?
+
+@ 3.58
+# 社 長
+JP えぇ。
+JP 思う存分暴れてください。
+JP どうですか？
+EN Yes. Go as wild as you like. What do you say?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# マッキー上戸
+JP そりゃ、もう断る理由なんてナシ！
+JP やってやるって！
+EN Then there's no reason to say no! I'm in!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.26
+# マッキー上戸
+JP よーし、さっさと始めようぜ。
+JP ジムはどこだ？
+JP 準備してすぐ駆けつけるからよ！
+EN All right, let's get started already. Where's the gym?
+EN I'll get ready and be right there!
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# マッキー上戸
+JP でも、色々ルールとかあんだよな。
+JP うわー、面倒くさそうだからパス！
+EN But there's all kinds of rules and stuff, right? Ugh,
+EN sounds like a pain. Pass!
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （なんとしてもあの娘に
+JP 　入団してもらいたい）
+EN (I have to get that girl to join, no matter what.)
+
+@ 6.25
+# 社 長
+JP （俺はロードワーク中の彼女を
+JP 　待ち伏せすることにした）
+EN (I decided to wait for her along her running route.)
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# マッキー上戸
+JP あれー、また来たんだ。
+JP そんなに私が欲しいのかい？
+EN Huh, you again? You want me that bad?
+
+@ 6.40
+# 社 長
+JP はい。
+JP どうかうちの団体に
+JP 入ってもらえないでしょうか。
+EN Yes. Please, won't you join our promotion?
+
+@ 6.47
+# マッキー上戸
+JP そこまで言われるとな…。
+JP それにやっぱひと暴れしたいしな。
+EN Well, when you put it like that... And I do wanna go wild
+EN a bit.
+
+@ 6.50
+# 社 長
+JP 暴れてくれるのは望むところです。
+JP 是非お願いします。
+EN Going wild is exactly what we want. Please, join us.
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# マッキー上戸
+JP そりゃ、もう断る理由なんてナシ！
+JP やってやるって！
+EN Then there's no reason to say no! I'm in!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.26
+# マッキー上戸
+JP よーし、さっさと始めようぜ。
+JP ジムはどこだ？
+JP 準備してすぐ駆けつけるからよ！
+EN All right, let's get started already. Where's the gym?
+EN I'll get ready and be right there!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# マッキー上戸
+JP でも、色々ルールとかあんだよな。
+JP うわー、面倒くさそうだからパス！
+EN But there's all kinds of rules and stuff, right? Ugh,
+EN sounds like a pain. Pass!
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は上戸選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Ueto.
+
+@ 9.25
+# 社 長
+JP 彼女の、パワーを活かした
+JP 投げ技はすばらしい。
+EN Her power throws are amazing.
+
+@ 9.27
+# 社 長
+JP うちの団体のエースになれる逸材だ。
+EN She has what it takes to be our promotion's ace.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She should be training somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# マッキー上戸
+JP トレーニングの最中なんだぜ…。
+JP なんの用だよ、もう。
+EN I'm in the middle of training here... What do you want,
+EN geez?
+
+@ 9.46
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 9.53
+# マッキー上戸
+JP …てことは…。
+JP 社長自ら引き抜きに来たってことか？
+EN ...So, wait... The president himself came to poach me?
+
+@ 9.56
+# 社 長
+JP はい。
+JP うちの団体に移籍して
+JP いただけないでしょうか？
+EN Yes. Would you consider transferring to our
+EN promotion?
+
+@ 9.63
+# マッキー上戸
+JP 別に今のところに
+JP 不満はないんだけどなー。
+EN I don't really have any complaints where I am now,
+EN though.
+
+@ 9.66
+# 社 長
+JP 是非お願いします。
+EN Please, I'm asking you.
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# マッキー上戸
+JP 気分転換すんのもいいか。
+JP わかった、移籍するよ。
+EN Could be nice to shake things up. Okay, I'll make the
+EN move.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# マッキー上戸
+JP ああ。
+JP 社長さん、いいヤツみたいだしな。
+EN Yeah. You seem like a decent guy, Boss.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# マッキー上戸
+JP まー、私はどうでもいいんだけど
+JP やっぱ不義理なヤツとは
+JP 思われたくないしな。
+EN Well, I don't care much either way, but I don't wanna
+EN look like someone who ditches her people.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 上戸選手が必要だ。
+EN Our promotion really needs Ueto.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 上戸選手と交渉することにした。
+EN I decided to negotiate with Ueto one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# マッキー上戸
+JP あれ、たしか前会ったよな？
+JP あっ、そうだ、ヘッドハンターの
+JP 社長さんだっけ。
+EN Huh, we've met before, right? Oh yeah, you're that
+EN headhunter president.
+
+@ 12.40
+# 社 長
+JP （どうやら覚えていてくれた
+JP 　みたいだ）
+EN (Looks like she remembered me.)
+
+@ 12.42
+# 社 長
+JP 実はどうしても
+JP うちの団体に入って欲しくて…。
+EN The truth is, I really want you in our promotion...
+
+@ 12.49
+# マッキー上戸
+JP うわー、熱心だねぇ。
+EN Whoa, you're really into this, huh?
+
+@ 12.52
+# 社 長
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 12.54
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# マッキー上戸
+JP 気分転換すんのもいいか。
+JP わかった、移籍するよ。
+EN Could be nice to shake things up. Okay, I'll make the
+EN move.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# マッキー上戸
+JP ああ。
+JP 社長さん、いいヤツみたいだしな。
+EN Yeah. You seem like a decent guy, Boss.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# マッキー上戸
+JP まー、私はどうでもいいんだけど
+JP やっぱ不義理なヤツとは
+JP 思われたくないしな。
+EN Well, I don't care much either way, but I don't wanna
+EN look like someone who ditches her people.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は上戸選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Ueto.
+
+@ 15.25
+# 社 長
+JP 力強い投げ技で
+JP うちの団体のファンを
+JP 魅了して欲しい。
+EN I want her to wow our fans with those powerful
+EN throws.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be somewhere around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# マッキー上戸
+JP 誰だっけ？
+JP 会ったことあった？
+EN Who're you? Have we met?
+
+@ 15.44
+# 社 長
+JP 実は私はプロレスの団体を
+JP 経営している者なんですが…。
+EN Actually, I run a pro-wrestling promotion...
+
+@ 15.51
+# マッキー上戸
+JP ふーん…。
+JP 社長自ら来てくれたんだ。
+JP さすが私だね。
+EN Huh... The president came all the way out here
+EN himself. Guess that's me for ya.
+
+@ 15.54
+# 社 長
+JP どうでしょう。
+JP うちの団体に来てもらえませんか？
+EN What do you say? Would you come join our promotion?
+
+@ 15.61
+# マッキー上戸
+JP うーん…。
+JP やっぱりそうくるか。
+JP でも今までフリーだったからなー。
+EN Hmm... Figured that's where this was going. But I've
+EN been freelance this whole time...
+
+@ 15.64
+# 社 長
+JP そう言わずに
+JP 考え直してくれませんか。
+EN Don't say that. Won't you reconsider?
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# マッキー上戸
+JP わかった。
+JP わざわざ来てくれたんだ。
+JP むげにはできないしな。
+EN Okay. You came all the way out here. I can't just blow
+EN you off.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# マッキー上戸
+JP でも覚悟しとけよ。
+JP 暴れまくるからな！
+JP 途中でヤメってのはナシだぜ！
+EN But brace yourself. I'm gonna go totally wild! And no
+EN quitting halfway through!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# マッキー上戸
+JP どうも団体行動ってのが
+JP 性に合わなくてさ…。
+EN I just don't do the whole team-player thing...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 上戸選手が必要だ。
+EN Our promotion really needs Ueto.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 上戸選手と交渉することにした。
+EN I decided to negotiate with Ueto one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# マッキー上戸
+JP おや、また来たのか。
+JP 社長さんも粘り強いねー。
+EN Oh, you're back? You sure are persistent, Boss.
+
+@ 18.40
+# 社 長
+JP どうしても
+JP うちの団体に入って欲しくて…。
+EN I really want you in our promotion...
+
+@ 18.47
+# マッキー上戸
+JP どーすっかなー。
+JP あんたはいい人みたいだけどさー。
+EN What to do, what to do... You seem like a good guy
+EN and all...
+
+@ 18.50
+# 社 長
+JP うちに力を貸して
+JP もらえないでしょうか？
+EN Won't you lend us your strength?
+
+@ 18.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# マッキー上戸
+JP わかった。
+JP わざわざ来てくれたんだ。
+JP むげにはできないしな。
+EN Okay. You came all the way out here. I can't just blow
+EN you off.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# マッキー上戸
+JP でも覚悟しとけよ。
+JP 暴れまくるからな！
+JP 途中でヤメってのはナシだぜ！
+EN But brace yourself. I'm gonna go totally wild! And no
+EN quitting halfway through!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# マッキー上戸
+JP どうも団体行動ってのが
+JP 性に合わなくてさ…。
+EN I just don't do the whole team-player thing...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP やはりうちの団体には
+JP 上戸が必要だ。
+EN Our promotion really needs Ueto.
+
+@ 21.25
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she was somewhere around here...
+
+@ 21.27
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.29
+# 社 長
+JP 上戸っ！
+EN Ueto!
+
+@ 21.39
+# マッキー上戸
+JP うおっ、社長か！？
+EN Whoa, Boss!?
+
+@ 21.42
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.49
+# マッキー上戸
+JP なんだよ…。
+JP 今さらよ…。
+EN What do you want... after all this time...
+
+@ 21.52
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you because I
+EN want you to come back.
+
+@ 21.59
+# マッキー上戸
+JP …はっ！？
+JP それ、ちょっと
+JP 都合よすぎやしねぇか？
+EN ...Huh!? Isn't that a little too convenient?
+
+@ 21.62
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this of you...
+
+@ 21.64
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# マッキー上戸
+JP 結構、勝手なこと
+JP 言ってるって思うんだけど。
+EN I gotta say, you're being pretty selfish here.
+
+@ 22.18
+# 社 長
+JP ああ…。
+JP すまん。
+EN Yeah... I'm sorry.
+
+@ 22.29
+# マッキー上戸
+JP でも、こうやって
+JP 素直に謝ってくれっからなー。
+JP …わかった、戻るよ。
+EN But you apologize straight up like this, so... ...Fine, I'll
+EN come back.
+
+@ 22.32
+# 社 長
+JP 本当か！？
+JP ありがとう。
+JP またよろしく頼む！
+EN Really!? Thank you. Glad to have you back!
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# マッキー上戸
+JP いやもう、無理だろ。
+EN Nah, there's no way now.
+
+@ 23.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.29
+# マッキー上戸
+JP あんたがもう少し前に
+JP そのへん考えてくれてれば
+JP よかったんだけどな。
+EN If only you'd thought about that stuff a little
+EN sooner...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び上戸を訪ねることにした。
+EN I decided to visit Ueto again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she was somewhere around here...
+
+@ 24.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 24.31
+# 社 長
+JP 上戸っ！
+EN Ueto!
+
+@ 24.41
+# マッキー上戸
+JP うわ、また来た。
+JP いい加減にしてくんねえかなー。
+EN Ugh, you again. Can you give it a rest already?
+
+@ 24.44
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.46
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# マッキー上戸
+JP 結構、勝手なこと
+JP 言ってるって思うんだけど。
+EN I gotta say, you're being pretty selfish here.
+
+@ 25.18
+# 社 長
+JP ああ…。
+JP すまん。
+EN Yeah... I'm sorry.
+
+@ 25.29
+# マッキー上戸
+JP でも、こうやって
+JP 素直に謝ってくれっからなー。
+JP …わかった、戻るよ。
+EN But you apologize straight up like this, so... ...Fine, I'll
+EN come back.
+
+@ 25.32
+# 社 長
+JP 本当か！？
+JP ありがとう。
+JP またよろしく頼む！
+EN Really!? Thank you. Glad to have you back!
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# マッキー上戸
+JP いやもう、無理だろ。
+EN Nah, there's no way now.
+
+@ 26.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.29
+# マッキー上戸
+JP あんたがもう少し前に
+JP そのへん考えてくれてれば
+JP よかったんだけどな。
+EN If only you'd thought about that stuff a little
+EN sooner...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# マッキー上戸
+JP 痛くも痒くもねぇって！
+EN Didn't hurt one bit!
+
+@ 28.16
+# scene 029 ケガ大
+# マッキー上戸
+JP こりゃ、マジにやっちまったか？
+EN Uh-oh, did I really mess myself up this time?
+
+@ 29.16
+# scene 030 入院
+# マッキー上戸
+JP 病院のメシってまずいからなー。
+EN Hospital food sucks, man.
+
+@ 30.16
+# scene 031 退院
+# マッキー上戸
+JP よーし、今日からは好きなモン
+JP がんがん食えるぜ！
+EN All right, starting today I can eat all the stuff I want!
+
+@ 31.16
+# scene 032 ケガ完治
+# マッキー上戸
+JP もう大丈夫だぜ。
+EN I'm good to go now!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# マッキー上戸
+JP たしかに最近
+JP 暴れんのも飽きてきたしなー。
+EN Yeah, I guess I've been getting tired of going wild
+EN lately.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# マッキー上戸
+JP こんな中途半端なところで
+JP 終われるかよ！
+EN No way I'm ending it halfway like this!
+
+@ 34.16
+# scene 035 コーチ就任
+# マッキー上戸
+JP まっ、テキトーにやってもらうさ。
+JP 選手の自主性って大切だからな。
+EN Eh, I'll let 'em do their own thing. Gotta respect a
+EN wrestler's independence, right?
+
+@ 35.16
+# scene 036 ケガ引退
+# マッキー上戸
+JP なんでこんなことに
+JP なっちまったんだ…。
+EN How did it come to this...
+
+@ 36.16
+# scene 037 年齢引退
+# マッキー上戸
+JP そろそろ若い連中に出番を譲るよ。
+EN Time to step aside and let the young ones have their
+EN shot.
+
+@ 37.16
+# scene 038 退団
+# マッキー上戸
+JP …あばよ！
+EN ...See ya!
+
+@ 38.16
+# scene 039 スランプ
+# マッキー上戸
+JP あー、むしゃくしゃするー！
+EN Argh, this is driving me nuts!
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# マッキー上戸
+JP へー、ファンクラブできたんだ。
+JP 社長、ちゃんと営業やってんだねー。
+EN Huh, I got a fan club? Guess you're actually doing
+EN your sales job, Boss.
+
+@ 39.19
+# 社 長
+JP 当然だろ。
+JP それともいらないのか？
+EN Of course I am. Or don't you want one?
+
+@ 39.26
+# マッキー上戸
+JP んなワケねーだろ。
+JP まっ、任せときな。
+JP ファンの期待は裏切らねーから。
+EN As if! Leave it to me. I won't let my fans down.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# マッキー上戸
+JP 私もすっかり人気者だな！
+JP ヘヘッ！
+EN I'm a total star now! Heheh!
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their expectations.
+
+@ 40.23
+# マッキー上戸
+JP 当然だろ！
+JP うっしゃー、燃えてきた！
+JP ちょっと走ってくるぜ！
+EN You bet! Whoo, I'm fired up! I'm gonna go for a run!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# マッキー上戸
+JP ちくしょう！
+JP これだからにわかファンはよ！
+EN Dammit! This is why I can't stand fair-weather fans!
+
+@ 41.19
+# 社 長
+JP 腹が立つのはわかるが
+JP ファンを責めるのはやめろ。
+EN I know you're angry, but don't blame the fans.
+
+@ 41.26
+# マッキー上戸
+JP うーん…。
+JP 何がまずかったのかなあ。
+EN Hmm... Where'd I go wrong?
+
+@ 42.16
+# scene 043 映画出演
+# マッキー上戸
+JP 私がスクリーンいっぱいに映るのか。
+JP 楽しみだな。
+EN I'm gonna fill up the whole movie screen? Can't wait.
+
+@ 43.16
+# scene 044 一日署長
+# マッキー上戸
+JP 署長やんなら
+JP 誰か捕まえてみてーな。
+EN If I'm police chief for a day, I wanna arrest somebody.
+
+@ 44.16
+# scene 045 写真集発売
+# マッキー上戸
+JP 社長、これマジでやんのか？
+EN Boss, are we seriously doing this?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# マッキー上戸
+JP スポンサーどこだ？
+JP 食い物屋だったら
+JP サンプルもらえねーかな？
+EN Who's the sponsor? If it's a restaurant, think they'll
+EN gimme free samples?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# マッキー上戸
+JP マイクがぶっ壊れるくらい
+JP 大声で叫んでやるよ。
+EN I'm gonna yell so loud the mic breaks.
+
+@ 47.16
+# scene 048 始球式
+# マッキー上戸
+JP 打つ方もやらせてくれよ！
+JP かっ飛ばしてやっからさ！
+EN Let me bat too! I'll knock it outta the park!
+
+@ 48.16
+# scene 049 学園祭
+# マッキー上戸
+JP 学生たちと親善試合なんてどうだ？
+JP 張り切ってやんだけどなー。
+EN How about an exhibition match with the students? I'd
+EN really go all out!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# マッキー上戸
+JP うおー、さすが社長！
+JP 気がきくなぁ！
+EN Whoa, that's my Boss! So thoughtful!
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN I'm counting on you from here on.
+
+@ 49.46
+# マッキー上戸
+JP まかせとけって！
+JP …ところでこれなんだ？
+JP 食えるモン？
+EN Leave it to me! ...So what is this, anyway? Can I eat it?
+
+@ 50.30
+# scene 051 バレンタインデー
+# マッキー上戸
+JP しゃ～ちょ～。
+JP ほーら、チョコやるぜー。
+EN Bo~ss. Here, have some chocolate.
+
+@ 50.33
+# 社 長
+JP 何か企んでいそうな顔だな。
+EN You look like you're up to something.
+
+@ 50.40
+# マッキー上戸
+JP …うっ！
+JP いや、ちょっと休暇欲しいかなぁ
+JP …なんて。
+EN ...Urk! Well, I was kinda hoping for a little time off... or
+EN something.
+
+@ 50.43
+# 社 長
+JP （まったく…）
+EN (Honestly...)
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.35
+# マッキー上戸
+JP あれ、あんなチョコなのに
+JP お返しくれんのか。
+EN Huh, you're giving me something back for that
+EN chocolate?
+
+@ 51.38
+# 社 長
+JP もちろんだ。
+JP あっ、でも休暇は別だからな。
+EN Of course. Oh, but the time off is a separate matter.
+
+@ 52.29
+# scene 053 サイン会
+# マッキー上戸
+JP このサインペン、持ちにくいな～。
+JP もっと太いのないか？
+EN This marker's hard to hold. Got a thicker one?
+
+@ 53.31
+# scene 054 コンサート
+# マッキー上戸
+JP さあ、盛り上がっていこうぜ！
+EN All right, let's get this party going!
+
+@ 54.26
+# scene 055 練習拒否
+# マッキー上戸
+JP あー、やめだ。
+JP やーめ！
+EN Ugh, I'm done. Done!
+
+@ 55.26
+# scene 056 失踪
+# マッキー上戸
+JP なんか、つまんねーなぁ…。
+EN This is so boring...
+
+@ 56.16
+# scene 057 選手解雇
+# マッキー上戸
+JP それどういうことだよ！
+JP 私が何やったってんだ？
+EN What's that supposed to mean!? What the hell did I
+EN do?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# マッキー上戸
+JP いってくるぜ。
+JP 会話はボディランゲージで十分。
+EN I'm off. Body language is all the talking I need.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# マッキー上戸
+JP もどったぜ。
+JP なんかケンカばっかだぜ。
+JP ボディランゲージって難しいなあ。
+EN I'm back. I kept getting into fights. Body language is
+EN tough, man.
+
+@ 59.28
+# scene 060 移籍思案
+# マッキー上戸
+JP どうすっかな…。
+EN What should I do...
+
+@ 60.16
+# scene 061 革命軍結成
+# マッキー上戸
+JP おまえら！
+JP やりたい放題やりやがって！
+EN You guys! You've been doing whatever the hell you
+EN want!
+
+@ 61.16
+# scene 062 反乱軍結成
+# マッキー上戸
+JP 全部が気に入らねーんだよ！
+EN I can't stand any of this!
+
+@ 62.16
+# scene 063 最終決戦要求
+# マッキー上戸
+JP すべての決着を付けよーぜ！
+JP このリングの上でよー！
+EN Let's settle everything! Right here in this ring!
+
+@ 63.16
+# scene 065 遺恨発生
+# マッキー上戸
+JP …なんなんだよ、あの態度。
+JP ムカツクー！
+EN ...What's with that attitude? She ticks me off!
+
+@ 64.16
+# scene 065 殴り込み
+# マッキー上戸
+JP 切り込み隊長か？
+JP いいねえ、望むところってヤツだ！
+EN I'm leading the charge? Sweet, bring it on!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# マッキー上戸
+JP 私のいる団体に
+JP 殴り込んでくるなんて
+JP いい度胸してるぜ！
+EN You've got some nerve, raiding a promotion I'm in!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# マッキー上戸
+JP オラオラァ！
+JP 隅に寄ってねーと
+JP 踏み潰しちまうぞ！
+EN Ora ora! Get outta the way or I'll stomp you flat!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# マッキー上戸
+JP 誰が相手だろうと
+JP 吹き飛ばしてやる！
+EN I don't care who I'm up against, I'll blow 'em away!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# マッキー上戸
+JP 私が本気を出せば
+JP ラクショーだって！
+EN When I get serious, it's a cakewalk!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# マッキー上戸
+JP ち、ちっくしょー…！
+EN D-dammit...!
+
+@ 70.13
+# scene 071 引退式
+# マッキー上戸
+JP これからは普通の女の子に戻るよ…。
+JP あー、誰だ、今笑ったヤツ！？
+EN From now on I'm going back to being a normal girl...
+EN Hey, who just laughed!?
+
+@ 71.18
+# マッキー上戸
+JP 呼んだかー？
+EN You called?
+
+@ 71.37
+# マッキー上戸
+JP へへっ。
+JP なんだ、社長？
+EN Heheh. What's up, Boss?
+
+@ 71.47
+# マッキー上戸
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# マッキー上戸
+JP とーぜん、とーぜん！
+JP 任せときなって！
+EN Naturally, naturally! Leave it to me!
+
+@ 71.111
+# マッキー上戸
+JP そうかあ…？
+JP なあ、社長。
+JP どこ見てそんなこと言ってんだ？
+EN Ya think...? Hey, Boss. What are you even looking at
+EN when you say that?
+
+@ 71.132
+# マッキー上戸
+JP そういうこと
+JP あんまりマジで言うなって…。
+JP なんか、照れんだよ。
+EN Don't say stuff like that so seriously... It's kinda
+EN embarrassing.
+
+@ 71.153
+# マッキー上戸
+JP 単なる機嫌取りやってねーか？
+EN You're not just buttering me up, are ya?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# マッキー上戸
+JP そんなことない
+JP …とは言えねーなー。
+JP 反省、反省。
+EN I can't exactly say I haven't... My bad, my bad.
+
+@ 71.211
+# マッキー上戸
+JP はいはい。
+JP がんばりゃいーんだろ？
+EN Yeah, yeah. I just gotta try harder, right?
+
+@ 71.232
+# マッキー上戸
+JP あれ、今日は厳しいじゃんか？
+JP でも、ちょっと渋くてイイ感じだぜ。
+EN Huh, you're being tough on me today? Kinda cool and
+EN gruff, though. I like it.
+
+@ 71.253
+# マッキー上戸
+JP ひでぇ…。
+JP わざと怒らせようとしてんのか？
+EN Harsh... Are you trying to make me mad on purpose?
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# マッキー上戸
+JP ヘヘッ。
+JP 励ましてもらうってのも悪くねーな。
+JP 元気出たぜ！
+EN Heheh. Getting a pep talk ain't so bad. I feel better
+EN already!
+
+@ 71.311
+# マッキー上戸
+JP ダメかもなー。
+JP そろそろ引退すっか？
+EN Maybe I'm done for. Should I just retire?
+
+@ 71.332
+# マッキー上戸
+JP ワリィ！
+JP ちょっと弱気になってたみたいだ！
+JP もう大丈夫だぜ！
+EN Sorry! Guess I was getting a little down on myself! I'm
+EN fine now!
+
+@ 71.353
+# マッキー上戸
+JP だから、そういう鈍感なところが…。
+JP 気づかねーかなあ、もう。
+EN See, that's the kind of clueless thing... Can't you tell
+EN already, geez?
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# マッキー上戸
+JP アレだろ、きっと。
+EN It's about that thing, right?
+
+@ 71.400
+# マッキー上戸
+JP メシでもおごってくれんのか？
+EN You gonna treat me to a meal or something?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.433
+# マッキー上戸
+JP でもなー。
+JP いや、ここは社長の頼みだもんな。
+JP わかったよ。
+EN But still... No, you're asking me, Boss. Okay, fine.
+
+@ 71.454
+# マッキー上戸
+JP 頭を下げるなら
+JP 絶対向こうだって。
+JP こればっかりは譲れねーよ！
+EN If anybody's bowing their head, it's gotta be her. I'm
+EN not budging on this one!
+
+@ 71.475
+# マッキー上戸
+JP なんだ、それ？
+JP 社長、大丈夫か？
+EN What're you talking about? You okay, Boss?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# マッキー上戸
+JP あー、まー…。
+JP わかってるつもりだけど…。
+EN Uh, well... I think I've got an idea...
+
+@ 71.522
+# マッキー上戸
+JP いや、全然？
+JP ボーナスでもくれんのか？
+EN Nope, not a clue. You gonna give me a bonus?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.557
+# マッキー上戸
+JP わかった。
+JP でも、あいつに謝んじゃねーぞ。
+JP 社長に頭下げるんだからな。
+EN Fine. But I'm not apologizing to her, got it? I'm bowing
+EN my head to you, Boss.
+
+@ 71.578
+# マッキー上戸
+JP 社長に裏切られるとは
+JP 思わなかったぜ…。
+JP 少しショックだな…。
+EN Never thought you'd turn on me, Boss... That stings
+EN a little...
+
+@ 71.599
+# マッキー上戸
+JP あいつとケンカなんかしてたっけ？
+JP 覚えてないんだけど？
+EN Was I fighting with her? I don't remember that.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# マッキー上戸
+JP へへっ、
+JP なんだ、社長？
+EN Heheh. What's up, Boss?
+
+@ 72.16
+# マッキー上戸
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# マッキー上戸
+JP とーぜん、とーぜん！
+JP 任せときなって！
+EN Naturally, naturally! Leave it to me!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# マッキー上戸
+JP そうかあ…？
+JP なあ、社長。
+JP どこ見てそんなこと言ってんだ？
+EN Ya think...? Hey, Boss. What are you even looking at
+EN when you say that?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# マッキー上戸
+JP そういうこと、
+JP あんまりマジで言うなって。
+JP なんか、照れんだよ。
+EN Don't say stuff like that so seriously... It's kinda
+EN embarrassing.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# マッキー上戸
+JP 単なる機嫌取りやってねーか？
+EN You're not just buttering me up, are ya?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# マッキー上戸
+JP そんなことない
+JP …とは言えねーなー。
+JP 反省、反省。
+EN I can't exactly say I haven't... My bad, my bad.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# マッキー上戸
+JP はいはい。
+JP がんばりゃいーんだろ？
+EN Yeah, yeah. I just gotta try harder, right?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# マッキー上戸
+JP あれ、今日は厳しいじゃんか？
+JP でも、ちょっと渋くてイイ感じだぜ。
+EN Huh, you're being tough on me today? Kinda cool and
+EN gruff, though. I like it.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# マッキー上戸
+JP ひでぇ…。
+JP わざと怒らせようとしてんのか？
+EN Harsh... Are you trying to make me mad on purpose?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# マッキー上戸
+JP ヘヘッ。
+JP 励ましてもらうってのも悪くねーな。
+JP 元気出たぜ！
+EN Heheh. Getting a pep talk ain't so bad. I feel better
+EN already!
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# マッキー上戸
+JP ダメかもなー。
+JP そろそろ引退すっか？
+EN Maybe I'm done for. Should I just retire?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# マッキー上戸
+JP ワリィ！
+JP ちょっと弱気になってたみたいだ！
+JP もう大丈夫だぜ！
+EN Sorry! Guess I was getting a little down on myself! I'm
+EN fine now!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# マッキー上戸
+JP だから、そういう鈍感なところが…。
+JP 気づかねーかなあ、もう。
+EN See, that's the kind of clueless thing... Can't you tell
+EN already, geez?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# マッキー上戸
+JP アレだろ、きっと。
+EN It's about that thing, right?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# マッキー上戸
+JP メシでもおごってくれんのか？
+EN You gonna treat me to a meal or something?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# マッキー上戸
+JP でもなー。
+JP いや、ここは社長の頼みだもんな。
+JP わかったよ。
+EN But still... No, you're asking me, Boss. Okay, fine.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# マッキー上戸
+JP 頭を下げるなら、
+JP 絶対向こうだって。
+JP こればっかりは譲れねーよ！
+EN If anybody's bowing their head, it's gotta be her. I'm
+EN not budging on this one!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# マッキー上戸
+JP なんだ、それ？
+JP 社長、大丈夫か？
+EN What're you talking about? You okay, Boss?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# マッキー上戸
+JP あー、まー…。
+JP わかってるつもりだけど…。
+EN Uh, well... I think I've got an idea...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# マッキー上戸
+JP いや、全然？
+JP ボーナスでもくれんのか？
+EN Nope, not a clue. You gonna give me a bonus?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# マッキー上戸
+JP わかった。
+JP でも、あいつに謝んじゃねーぞ。
+JP 社長に頭下げるんだからな。
+EN Fine. But I'm not apologizing to her, got it? I'm bowing
+EN my head to you, Boss.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# マッキー上戸
+JP 社長に裏切られるとは
+JP 思わなかったぜ…。
+JP 少しショックだな…。
+EN Never thought you'd turn on me, Boss... That stings
+EN a little...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# マッキー上戸
+JP あいつとケンカなんかしてたっけ？
+JP 覚えてないんだけど？
+EN Was I fighting with her? I don't remember that.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# マッキー上戸
+JP まあ、こんなとこだよな。
+EN Yeah, that's about right.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# マッキー上戸
+JP おいおい。
+JP 後で間違いだって言っても
+JP 通用しねぇからな。
+EN Whoa, whoa. Don't come telling me later it was a
+EN mistake, 'cause that won't fly.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# マッキー上戸
+JP 納得できねーな。
+JP これっぽっちってアリかよ。
+EN I'm not buying it. This measly amount? Seriously?
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （ふぅ…ようやくホテルだ）
+EN (Phew... Finally at the hotel.)
+
+@ 105.26
+# 社 長
+JP （全員分のチェックインも
+JP 　済ませたし…）
+EN (And I've checked everyone in...)
+
+@ 105.28
+# 社 長
+JP （…食事までは自由時間か。
+JP 　どうするかな…）
+EN (...Free time until dinner. What should I do...)
+
+@ 105.38
+# マッキー上戸
+JP おう、社長。
+JP 暇そうだな。
+EN Yo, Boss. You look bored.
+
+@ 105.41
+# 社 長
+JP 上戸か。
+EN Ueto.
+
+@ 105.43
+# 社 長
+JP まあ、暇と言えば暇だな。
+EN Well, I guess you could say I'm free.
+
+@ 105.50
+# マッキー上戸
+JP だったら、これから一緒に出ねぇ？
+EN Then wanna head out with me?
+
+@ 105.54
+# マッキー上戸
+JP ホテルの周りの散策に
+JP 行くつもりなんだけどさ。
+EN I was gonna go explore around the hotel.
+
+@ 105.57
+# 社 長
+JP …まあ、やることもないしな。
+EN ...Well, I've got nothing else to do.
+
+@ 105.64
+# マッキー上戸
+JP よっしゃ！
+JP それじゃ決まりだな！
+EN All right! It's settled, then!
+
+@ 105.82
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.84
+# 社 長
+JP （そんな訳で俺たちはホテルを出た）
+EN (And so we left the hotel.)
+
+@ 105.104
+# 社 長
+JP ここはどこだ！？
+EN Where are we!?
+
+@ 105.108
+# マッキー上戸
+JP おっかしいなあ。
+JP どこで間違えたんだろうなぁ？
+EN That's weird. Where'd we take a wrong turn?
+
+@ 105.111
+# 社 長
+JP こんな密林があるなんて
+JP ガイドブックに書いてなかったぞ！？
+EN The guidebook didn't say anything about a jungle
+EN like this!
+
+@ 105.115
+# マッキー上戸
+JP まいったなぁ…。
+EN Well, this sucks...
+
+@ 105.118
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.128
+# マッキー上戸
+JP まっ、なっちまったもんは
+JP 仕方ねぇよな。
+EN Eh, what's done is done.
+
+@ 105.132
+# マッキー上戸
+JP 地続きなんだし
+JP 歩いてりゃそのうち帰れるさ。
+EN It's all connected by land, so if we keep walking we'll
+EN get back eventually.
+
+@ 105.135
+# 社 長
+JP （そんないい加減な…）
+EN (That's awfully careless...)
+
+@ 105.139
+# マッキー上戸
+JP 私の勘だとこっちが近道だな。
+JP よし、行くぜ。
+EN My gut says this way's a shortcut. Okay, let's go.
+
+@ 105.142
+# 社 長
+JP ちょ、ちょっと待ってくれー。
+EN H-hey, wait for me!
+
+@ 105.156
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.158
+# 社 長
+JP 結局…。
+EN In the end...
+
+@ 105.173
+# 社 長
+JP 俺たちがホテルに帰ってきたのは
+JP それから８時間後のことだった。
+EN It was eight hours later when we finally made it back
+EN to the hotel.
+
+@ 105.175
+# 社 長
+JP 命があっただけよしとしよう…。
+EN I'll just be glad we made it out alive...
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ふぅ…ようやく外回りも終わりだ）
+EN (Phew... Finally done with my rounds.)
+
+@ 106.26
+# 社 長
+JP さて、さっさとオフィスに帰るか。
+EN Well, time to head back to the office.
+
+@ 106.30
+# ？？？
+JP ウラア！
+JP オリャア！
+JP こんの野郎っ！
+EN Urraa! Orryaa! You little...!
+
+@ 106.33
+# 社 長
+JP （この聞き覚えのある声は！？）
+EN (I know that voice!?)
+
+@ 106.49
+# マッキー上戸
+JP セイッ！
+JP オラァッ！
+JP いい加減、くたばりやがれぇっ！
+EN Hah! Oraaa! Just go down already, dammit!
+
+@ 106.52
+# 社 長
+JP 上戸？
+EN Ueto?
+
+@ 106.62
+# マッキー上戸
+JP おっ、社長じゃねぇか。
+EN Oh, hey, it's Boss.
+
+@ 106.65
+# 社 長
+JP こんなところで何してるんだ？
+EN What are you doing here?
+
+@ 106.69
+# マッキー上戸
+JP この腕相撲マシーン
+JP 強くってよぉ。
+EN This arm-wrestling machine is tough, man.
+
+@ 106.72
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.76
+# マッキー上戸
+JP 大関までは倒せたんだけど
+JP 横綱に勝てなくてさ。
+EN I beat the Ozeki level, but I can't beat the Yokozuna.
+
+@ 106.79
+# 社 長
+JP なるほどな…。
+EN I see...
+
+@ 106.81
+# 社 長
+JP まだまだ練習が必要ってことだな。
+EN Sounds like you still need more practice.
+
+@ 106.85
+# マッキー上戸
+JP チェ…。
+JP 結局はそういうことかよ。
+EN Tch... So that's what it comes down to.
+
+@ 106.88
+# 社 長
+JP 横綱レベルに勝てるようになったら
+JP 一流レスラーの仲間入りかもな。
+EN Once you can beat the Yokozuna level, maybe you'll
+EN be a first-class wrestler.
+
+@ 106.92
+# マッキー上戸
+JP ホントか？
+EN Really?
+
+@ 106.95
+# 社 長
+JP まぁな。
+EN Pretty much.
+
+@ 106.105
+# マッキー上戸
+JP 待ってろよ。
+JP 次は勝ってやるからな！
+EN Just you wait. I'll win next time!
+
+@ 106.108
+# 社 長
+JP がんばれよ。
+EN Good luck.
+
+@ 106.112
+# マッキー上戸
+JP 任せときなって。
+EN Leave it to me.
+
+@ 106.131
+# マッキー上戸
+JP よしっ！
+JP まずは手始めにジムまで
+JP ダッシュで帰るぜ！
+EN All right! For starters, I'm sprinting all the way back
+EN to the gym!
+
+@ 106.144
+# 社 長
+JP （そう言って上戸はジムに帰った）
+EN (With that, Ueto headed back to the gym.)
+
+@ 106.146
+# 社 長
+JP よし、俺も帰るか。
+EN Okay, I'd better head back too.
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ふぅ…ようやく外回りも終わりだ）
+EN (Phew... Finally done with my rounds.)
+
+@ 107.26
+# 社 長
+JP さて、さっさとオフィスに戻るか。
+EN Well, time to get back to the office.
+
+@ 107.30
+# ？？？
+JP ウラア！
+JP オリャア！
+JP オラオラァッ！
+EN Urraa! Orryaa! Ora ora ora!
+
+@ 107.33
+# 社 長
+JP （…あっ、この声は…？）
+EN (...Huh, that voice...?)
+
+@ 107.50
+# マッキー上戸
+JP へっへっへ…。
+JP なかなやるじゃねぇか…。
+EN Heh heh heh... Not bad, huh...
+
+@ 107.53
+# 社 長
+JP （やっぱり上戸か…）
+EN (Ueto, just as I thought...)
+
+@ 107.63
+# マッキー上戸
+JP ウリャアアアアアッ！
+EN Uryaaaaaaaah!
+
+@ 107.73
+# マッキー上戸
+JP よっしゃあっ！
+JP 私の勝ちだーーッ！
+EN Yeah! I win!
+
+@ 107.76
+# 社 長
+JP （…おっ、勝った）
+EN (...Oh, she won.)
+
+@ 107.78
+# 社 長
+JP よぉ、上戸。
+JP またやってるのか？
+EN Hey, Ueto. At it again?
+
+@ 107.88
+# マッキー上戸
+JP …おっ、社長じゃねぇか。
+EN ...Oh, hey, it's Boss.
+
+@ 107.92
+# マッキー上戸
+JP 腕相撲マシーンで横綱レベルに
+JP 勝てるようになったぜ！
+EN I finally beat the Yokozuna level on the
+EN arm-wrestling machine!
+
+@ 107.96
+# マッキー上戸
+JP これで私も一流レスラーの
+JP 仲間入りだな！
+EN Now I'm a first-class wrestler too!
+
+@ 107.99
+# 社 長
+JP そうだな。
+EN That's right.
+
+@ 107.118
+# マッキー上戸
+JP へっへっへ！
+JP このパワーがあれば
+JP もっと強くなれるよな！
+EN Heh heh heh! With power like this, I can get even
+EN stronger, right?
+
+@ 107.121
+# 社 長
+JP ああ、きっと強くなれる。
+EN Yeah, I'm sure you can.
+
+@ 107.125
+# マッキー上戸
+JP よっしゃ。
+JP それじゃ、ジムに帰ろうぜ。
+EN All right. Let's head back to the gym, then.
+
+@ 107.128
+# 社 長
+JP （やる気になってるみたいだな）
+EN (Looks like she's all fired up.)
+
+@ 107.132
+# マッキー上戸
+JP ほら、社長。
+JP 行くぜ！
+EN C'mon, Boss. Let's go!
+
+@ 107.135
+# 社 長
+JP ああ。
+EN Right.
+
+@ 107.139
+# マッキー上戸
+JP この勢いでベルトも総取りだー。
+EN At this rate I'll grab every belt there is!
+
+@ 107.154
+# 社 長
+JP （そうして俺と上戸は
+JP 　一緒にジムに帰った）
+EN (And so Ueto and I went back to the gym together.)
+
+@ 108.17
+# scene 110 練習試合 ベスト
+# マッキー上戸
+JP なんかウマが合うんだよな。
+JP おまえとはさ。
+EN We just click, you and me. Y'know?
+
+@ 109.16
+# scene 113 練習開始
+# マッキー上戸
+JP さあ、今日も豪快に
+JP 投げまくるぜー！
+EN All right, I'm gonna throw people around big-time
+EN today too!
+
+@ 110.16
+# scene 114 練習開始 好意
+# マッキー上戸
+JP ヘヘヘ…。
+JP いいとこ見せねーとな！
+EN Heh heh... Gotta show off a little!
+
+@ 111.16
+# scene 115 特訓開始
+# マッキー上戸
+JP なんでも来やがれ！
+EN Bring it on!
+
+@ 112.20
+# scene 116 特訓成功
+# マッキー上戸
+JP へっへー！
+JP いい練習になったぜ！
+EN Heh heh! That was some good practice!
+
+@ 113.20
+# scene 117 特訓失敗
+# マッキー上戸
+JP ありゃりゃ…。
+JP 空回りしちまった…。
+EN Whoops... Spun my wheels there...
+
+@ 114.16
+# scene 118 休養
+# マッキー上戸
+JP なんか上手いモンでも
+JP 食いに行くか。
+EN Let's go grab something tasty to eat.
+
+@ 115.16
+# scene 119 入場1
+# マッキー上戸
+JP 今日も絶好調だ！
+JP いくぜ！
+EN I'm in top shape today! Let's go!
+
+@ 116.16
+# scene 119 入場2
+# マッキー上戸
+JP 今日こそ超えてみせるぜ！
+JP 私自身をっ！
+EN Today I'm gonna surpass it for sure! Myself!
+
+@ 117.17
+# scene 121 タッグマッチ ベスト
+# マッキー上戸
+JP おまえのハートにも
+JP 真っ赤な火を灯してやるぜ！
+EN I'll light a blazing fire in your heart too!
+
+@ 118.16
+# scene 125 必殺技１
+# マッキー上戸
+JP いい試合だったけど、
+JP そろそろフィニッシュだ！
+EN Good match, but it's time for the finish!
+
+@ 119.16
+# scene 125 必殺技２
+# マッキー上戸
+JP よーし、本気でいくぜーっ！
+EN All right, I'm going all out!
+
+@ 120.16
+# scene 125 必殺技３
+# マッキー上戸
+JP ヘラクレスの底力、
+JP 受け止めてみろーッ！
+EN Take the full power of Hercules, if you can!
+
+@ 121.12
+# scene 126 勝利1
+# マッキー上戸
+JP おいおい。
+JP もっと真面目に練習してこいよ！
+EN C'mon now. Go train more seriously next time!
+
+@ 122.12
+# scene 126 勝利2
+# マッキー上戸
+JP よっしゃーー！
+JP 私の完全勝利だ！！
+EN Yeah! Total victory for me!!
+
+@ 123.12
+# scene 126 勝利3
+# マッキー上戸
+JP 見えてきた、見えてきたぁー！
+JP てっぺんが見えてきたぁー！
+EN I can see it, I can see it! I can see the top!
+
+@ 124.15
+# scene 133 表彰1
+# マッキー上戸
+JP よっしゃあ！
+JP やっぱ一番ってのは気分がいいぜ！
+EN Yeah! Being number one sure feels great!
+
+@ 125.15
+# scene 133 表彰2
+# マッキー上戸
+JP 私はまだまだ
+JP こんなモンじゃねーからな！
+EN I'm nowhere near done yet!
+
+@ 126.12
+# scene 134 優勝1
+# マッキー上戸
+JP 暴れたりねー！
+JP 誰か相手してくれねーか！
+EN I haven't gone wild enough! Somebody fight me!
+
+@ 127.12
+# scene 134 優勝２
+# マッキー上戸
+JP なんかあっさり勝っちまったな。
+JP 私、強すぎんのか？
+EN Huh, that was way too easy. Am I just too strong?
+
+@ 128.24
+# scene 135 エンディング 通常
+# マッキー上戸
+JP おめでと！
+JP まあ、この私がいるんだ。
+JP 勝つのは当然ってか？
+EN Congrats! Well, you had me on your side. Winning was
+EN a given, right?
+
+@ 129.24
+# scene 136 エンディング 好意
+# マッキー上戸
+JP あーもー、何て言えばいいんだ。
+JP …わからねー…！
+JP …とにかく…あんたが気になんだよ！
+EN Argh, how do I even say this... ...I dunno...! ...Anyway... I
+EN can't stop thinking about you!

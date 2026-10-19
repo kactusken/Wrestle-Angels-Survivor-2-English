@@ -1,0 +1,41 @@
+{
+ "english": "CG Mode",
+ "boxes": [
+  [
+   24,
+   6,
+   175,
+   52
+  ]
+ ],
+ "fill": [
+  251,
+  252,
+  253,
+  254,
+  255
+ ],
+ "ground": "inpaint",
+ "reach": 0,
+ "font": "MPLUSRounded1c-ExtraBold.ttf",
+ "cap": 27,
+ "catalogue": {
+  "source": "/SYS/OMA_BG00.GSL",
+  "width": 640,
+  "height": 480,
+  "bpp": 8,
+  "category": "title",
+  "japanese": "CGモード (title on the gallery background)"
+ },
+ "notes": "gallery (CG mode) background: the hand-drawn title redrawn as \"CG Mode\" in M PLUS Rounded 1c (OFL)",
+ "draw": "audit.draw",
+ "fill_index": 255,
+ "shadow": {
+  "offset": [
+   2,
+   2
+  ],
+  "index": 26
+ },
+ "inpaint_grow": 5
+}

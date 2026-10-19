@@ -1,0 +1,11 @@
+{
+ "english": "FINAL SERIES",
+ "boxes": [[0, 0, 336, 37]],
+ "fill": "bright",
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "banners.draw",
+ "mode": "subtitle",
+ "set": "wide",
+ "notes": "title letters reused from the English PAR_SUBTIT titles (tools/letter_ext/banners.py)"
+}

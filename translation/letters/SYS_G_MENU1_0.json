@@ -1,0 +1,36 @@
+{
+ "english": "Reassign Coach | Unassign Coach | Coach Info",
+ "boxes": [
+  [
+   2,
+   0,
+   140,
+   24
+  ],
+  [
+   2,
+   24,
+   140,
+   24
+  ],
+  [
+   16,
+   48,
+   114,
+   24
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   0,
+   0,
+   144,
+   72
+  ]
+ ]
+}

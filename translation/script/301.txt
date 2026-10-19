@@ -1,0 +1,96 @@
+# /SCR/301.BIN - アナベラ・スミス
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 301` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# アナベラ・スミス
+JP 今日は最高のダンスが
+JP 踊れそうでーす！
+EN I feel like I can dance the best dance ever today!
+
+@ 1.16
+# scene 119 入場1
+# アナベラ・スミス
+JP 最高のダンスバトルを
+JP 見せてあげるわ！
+EN I'll show you the greatest dance battle ever!
+
+@ 2.16
+# scene 119 入場2
+# アナベラ・スミス
+JP ブラボ～！
+JP 今日も戦いのダンスを
+JP 踊ってくるわよ～！
+EN Bravo! I'm off to dance the dance of battle again
+EN today!
+
+@ 3.16
+# scene 125 必殺技１
+# アナベラ・スミス
+JP アフロの真髄、
+JP 見せてあげまーす！
+EN Behold the true soul of the Afro!
+
+@ 4.16
+# scene 125 必殺技２
+# アナベラ・スミス
+JP あなたとの遊びは
+JP これでジ・エンドねッ！
+EN Playtime with you is over. The end!
+
+@ 5.16
+# scene 125 必殺技３
+# アナベラ・スミス
+JP これでフィニッシュネ！
+EN And this is the finish!
+
+@ 6.12
+# scene 126 勝利1
+# アナベラ・スミス
+JP 勝利のダンスお見せしまーす！
+EN Time for my victory dance!
+
+@ 7.12
+# scene 126 勝利2
+# アナベラ・スミス
+JP もっとリズムを磨いてきなさ～い。
+EN Go work on your rhythm some more, darling!
+
+@ 8.12
+# scene 126 勝利3
+# アナベラ・スミス
+JP まだまだ甘いネ～！
+EN Still too green, honey!
+
+@ 9.15
+# scene 133 表彰1
+# アナベラ・スミス
+JP みなさんに感謝のダンスでも
+JP しようかしら？
+EN Shall I do a thank-you dance for everyone?
+
+@ 10.15
+# scene 133 表彰2
+# アナベラ・スミス
+JP アフロで目立てたおかげでーす！
+EN It's all thanks to the Afro making me stand out!
+
+@ 11.12
+# scene 134 優勝1
+# アナベラ・スミス
+JP 喜びのダンスでも
+JP しようかしら？
+EN Shall I do a little dance of joy?
+
+@ 12.12
+# scene 134 優勝２
+# アナベラ・スミス
+JP 今日は朝までダンスでーす！
+EN Tonight I'm dancing till dawn!

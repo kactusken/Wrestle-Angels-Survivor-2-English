@@ -1,0 +1,94 @@
+# /SCR/327.BIN - ジュディ・コーディ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 327` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ジュディ・コーディ
+JP 私に対抗できる者などいはしない！
+EN No one can stand against me!
+
+@ 1.16
+# scene 119 入場1
+# ジュディ・コーディ
+JP パワーこそすべて！
+JP ねじ伏せてやる！
+EN Power is everything! I'll force you down!
+
+@ 2.16
+# scene 119 入場2
+# ジュディ・コーディ
+JP 私のハードタックルの
+JP 餌食にしてやろう！
+EN You'll fall prey to my hard tackle!
+
+@ 3.16
+# scene 125 必殺技１
+# ジュディ・コーディ
+JP そろそろお休みの時間だーッ！
+EN It's past your bedtime!
+
+@ 4.16
+# scene 125 必殺技２
+# ジュディ・コーディ
+JP これでリングに沈めーッ！
+EN Now sink into the ring!
+
+@ 5.16
+# scene 125 必殺技３
+# ジュディ・コーディ
+JP レディー・セット…。
+JP ゴーッ！
+EN Ready, set... Go!
+
+@ 6.12
+# scene 126 勝利1
+# ジュディ・コーディ
+JP まるで期待ハズレだったな。
+EN What a letdown.
+
+@ 7.12
+# scene 126 勝利2
+# ジュディ・コーディ
+JP 最後はパワーの差が出たようだな。
+EN In the end, the difference in power showed.
+
+@ 8.12
+# scene 126 勝利3
+# ジュディ・コーディ
+JP もう終わりか？
+JP 話にならないな。
+EN Finished already? Pathetic.
+
+@ 9.15
+# scene 133 表彰1
+# ジュディ・コーディ
+JP フフフフ…。
+JP これからは私の時代だ！
+EN Hehehehe... From now on, this is my era!
+
+@ 10.15
+# scene 133 表彰2
+# ジュディ・コーディ
+JP まぁ当然の結果だな。
+EN Well, that was the natural result.
+
+@ 11.12
+# scene 134 優勝1
+# ジュディ・コーディ
+JP パワーを制するものが
+JP リングを制す！
+EN Whoever controls power controls the ring!
+
+@ 12.12
+# scene 134 優勝２
+# ジュディ・コーディ
+JP 次は誰が私のボムを
+JP 喰らいたいんだ？
+EN So who wants a taste of my bomb next?

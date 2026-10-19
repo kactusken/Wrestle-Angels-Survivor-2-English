@@ -1,0 +1,2139 @@
+# /SCR/028.BIN - カンナ神威
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 028` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# カンナ神威
+JP よろしくお願いします。
+EN I look forward to working with you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# カンナ神威
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# カンナ神威
+JP そうですか。
+EN I see.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here.
+
+@ 3.25
+# 社 長
+JP 資料によると「江戸時代から伝わる
+JP 古武術・神威流の正統後継者」。
+EN According to the file, she's "the rightful heir to
+EN Kamui-ryu, an ancient martial art handed down since
+EN the Edo period."
+
+@ 3.27
+# 社 長
+JP 神威流か。
+JP 知らない流派だな。
+JP ええと…。
+EN Kamui-ryu, huh. Never heard of that school. Let's
+EN see...
+
+@ 3.29
+# 社 長
+JP 「将軍警護のため、大奥の女官が
+JP 学んだ門外不出の流派」か…。
+JP なるほど…。
+EN "A secret school, learned by the ladies of the
+EN shogun's inner palace to guard him"... I see...
+
+@ 3.31
+# 社 長
+JP 「最近、北海道ではその後継者を
+JP 名乗る少女が暴れ回っている」とも
+JP あるな…。
+EN It also says, "Lately, a girl claiming to be its heir has
+EN been running wild in Hokkaido"...
+
+@ 3.33
+# 社 長
+JP まさか、今日会うのが
+JP その娘なんじゃないだろうな。
+EN Surely the girl I'm meeting today isn't that one.
+
+@ 3.35
+# 社 長
+JP ええと、目印は「独特の仮面」と
+JP あるが…あっ、あれは？
+EN Let's see, it says to look for "a distinctive mask"...
+EN Oh, is that her?
+
+@ 3.45
+# カンナ神威
+JP なんですか？
+EN Yes?
+
+@ 3.48
+# 社 長
+JP あの、ちょっと
+JP お訊ねしたいんですが…。
+EN Um, I'd like to ask you something...
+
+@ 3.50
+# 社 長
+JP （俺は彼女に神威流のことについて
+JP 　聞いてみた）
+EN (I asked her about Kamui-ryu.)
+
+@ 3.57
+# カンナ神威
+JP たしかに私が神威です。
+EN Yes, I am Kamui.
+
+@ 3.60
+# 社 長
+JP そうですか。
+JP それはよかった。
+JP 探していたんです。
+EN Is that so? That's great. I've been looking for you.
+
+@ 3.67
+# カンナ神威
+JP …私を？
+EN ...For me?
+
+@ 3.70
+# 社 長
+JP ええ。
+JP 実は私はプロレス団体を
+JP 経営している者なんですが…。
+EN Yes. You see, I run a pro wrestling promotion...
+
+@ 3.77
+# カンナ神威
+JP …プロレス？
+JP 私、そういうものには
+JP 関心がないんですが…。
+EN ...Pro wrestling? I have no interest in such things...
+
+@ 3.80
+# 社 長
+JP そうですか。
+EN I see.
+
+@ 3.82
+# 社 長
+JP （とても暴れ者には見えないな。
+JP 　噂は間違っていたのかな？）
+EN (She doesn't look like a troublemaker at all. Were the
+EN rumors wrong?)
+
+@ 3.89
+# カンナ神威
+JP 第一、神威流は門外不出のはず。
+JP それをなぜ知っているのです？
+EN Besides, Kamui-ryu is supposed to be secret. How do
+EN you know of it?
+
+@ 3.92
+# 社 長
+JP 実はうちのスカウトがですね…。
+EN Well, actually, one of our scouts...
+
+@ 3.94
+# 社 長
+JP （俺は北海道各地で暴れ回っている
+JP 　女の子のことを話した）
+EN (I told her about the girl running wild all over
+EN Hokkaido.)
+
+@ 3.101
+# カンナ神威
+JP …なるほど。
+JP …しかし、それは私ではありません。
+EN ...I see. ...However, that is not me.
+
+@ 3.104
+# 社 長
+JP そうみたいですね。
+JP あなたは、そんな人には見えません。
+EN So it seems. You don't look like that kind of person.
+
+@ 3.106
+# 社 長
+JP （ただ、この雰囲気は
+JP 　只者じゃない気がするんだが…）
+EN (Still, there's something about her that's out of the
+EN ordinary...)
+
+@ 3.108
+# 社 長
+JP あの、勘違いはお詫びします。
+EN Um, I apologize for the misunderstanding.
+
+@ 3.110
+# 社 長
+JP ですが、あなたもかなりの実力を
+JP お持ちとお見受けします。
+EN But you strike me as someone with considerable
+EN ability as well.
+
+@ 3.112
+# 社 長
+JP どうでしょうか？
+JP うちの団体に入ってもらえませんか？
+EN What do you say? Would you join my promotion?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# カンナ神威
+JP そうですね。
+JP …わかりました。
+EN Well... ...Very well.
+
+@ 4.22
+# 社 長
+JP えっ、本当ですか？
+EN Huh, really?
+
+@ 4.29
+# カンナ神威
+JP はい。
+JP ちょっと関心が出てきました。
+EN Yes. I've become a little interested.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# カンナ神威
+JP …関心ありません。
+EN ...I have no interest.
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP たしかこのあたりだった
+JP はずだが…。
+EN It should be around here somewhere...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# カンナ神威
+JP あなたは…たしか…。
+EN You are... if I recall...
+
+@ 6.38
+# 社 長
+JP 実はどうしても
+JP うちに入ってもらいたくて…。
+EN The truth is, I really want you to join us...
+
+@ 6.45
+# カンナ神威
+JP 関心がないと言ったはずですが…。
+EN I believe I told you I have no interest...
+
+@ 6.48
+# 社 長
+JP そこをなんとかお願いします！
+EN Please, I'm begging you!
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# カンナ神威
+JP そうですね。
+JP …わかりました。
+EN Well... ...Very well.
+
+@ 7.22
+# 社 長
+JP えっ、本当ですか？
+EN Huh, really?
+
+@ 7.29
+# カンナ神威
+JP はい。
+JP ちょっと関心が出てきました。
+EN Yes. I've become a little interested.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# カンナ神威
+JP …関心ありません。
+EN ...I have no interest.
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は神威選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kamui.
+
+@ 9.25
+# 社 長
+JP 冷静沈着な試合運びには定評があるし
+JP 関節技の完成度も抜群だ。
+EN She's known for her cool, composed ring work, and
+EN her submission holds are second to none.
+
+@ 9.27
+# 社 長
+JP 団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined us, our shows would be even more
+EN exciting, no doubt about it.
+
+@ 9.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 9.31
+# 社 長
+JP ああ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# カンナ神威
+JP …はい。
+EN ...Yes.
+
+@ 9.46
+# 社 長
+JP 実はですね…。
+EN Well, you see...
+
+@ 9.48
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.55
+# カンナ神威
+JP …移籍ですか。
+EN ...A transfer?
+
+@ 9.58
+# 社 長
+JP はい、どうでしょうか？
+EN Yes. What do you say?
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# カンナ神威
+JP …わかりました。
+EN ...Very well.
+
+@ 10.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 10.26
+# カンナ神威
+JP …はい。
+EN ...Yes.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# カンナ神威
+JP …私を選んだ意図がわかりません。
+EN ...I fail to see why you chose me.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 神威選手が必要だ。
+EN My promotion really needs Kamui.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 神威選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# カンナ神威
+JP …はい。
+EN ...Yes.
+
+@ 12.40
+# 社 長
+JP どうしても
+JP うちの団体に入って欲しくて…。
+EN I really want you to join my promotion...
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# カンナ神威
+JP …わかりました。
+EN ...Very well.
+
+@ 13.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 13.26
+# カンナ神威
+JP …はい。
+EN ...Yes.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# カンナ神威
+JP …私を選んだ意図がわかりません。
+EN ...I fail to see why you chose me.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は神威選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kamui.
+
+@ 15.25
+# 社 長
+JP 古武術を活かした
+JP 高度なテクニックを持つ一級の人材だ。
+EN She's first-rate talent, with advanced technique
+EN built on an ancient martial art.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined us, our shows would be even more
+EN exciting, no doubt about it.
+
+@ 15.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# カンナ神威
+JP …なんですか？
+EN ...What is it?
+
+@ 15.46
+# 社 長
+JP あの、実はですね…。
+EN Um, well, you see...
+
+@ 15.48
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.55
+# カンナ神威
+JP 入団しろと言うのですか…。
+EN You're asking me to join you...
+
+@ 15.58
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# カンナ神威
+JP …わかりました。
+EN ...Very well.
+
+@ 16.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 16.26
+# カンナ神威
+JP …はい。
+EN ...Yes.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# カンナ神威
+JP すみませんが
+JP 興味ありませんので…。
+EN I'm sorry, but I'm not interested...
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 神威選手が必要だ。
+EN My promotion really needs Kamui.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 神威選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# カンナ神威
+JP またですか？
+EN You again?
+
+@ 18.40
+# 社 長
+JP どうしても
+JP うちに入ってもらいたくて…。
+EN I really want you to join us...
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# カンナ神威
+JP …わかりました。
+EN ...Very well.
+
+@ 19.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 19.26
+# カンナ神威
+JP …はい。
+EN ...Yes.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# カンナ神威
+JP すみませんが
+JP 興味ありませんので…。
+EN I'm sorry, but I'm not interested...
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は神威を訪ねることにした。
+EN I decided to go see Kamui.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 神威っ！
+EN Kamui!
+
+@ 21.41
+# カンナ神威
+JP …社長……？
+EN ...Boss...?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# カンナ神威
+JP …何か？
+EN ...What is it?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you. I want you to
+EN come back.
+
+@ 21.61
+# カンナ神威
+JP …今さらですか…？
+EN ...After all this time...?
+
+@ 21.64
+# 社 長
+JP たしかにこんなことを頼めた
+JP 義理じゃないのはわかっているが…。
+EN I know I have no right to ask this, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# カンナ神威
+JP …わかりました。
+EN ...Very well.
+
+@ 22.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 22.29
+# カンナ神威
+JP …すべては強くなるため…。
+EN ...All for the sake of growing stronger...
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# カンナ神威
+JP …お断りします。
+EN ...I must decline.
+
+@ 23.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that, please. Come back to us.
+
+@ 23.26
+# カンナ神威
+JP …失礼します……。
+EN ...Excuse me...
+
+@ 23.35
+# 社 長
+JP （ダメか…。
+JP 　身から出たサビだな）
+EN (No good... I brought this on myself.)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び神威を訪ねることにした。
+EN I decided to visit Kamui once again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP 神威っ！
+EN Kamui!
+
+@ 24.37
+# カンナ神威
+JP …また…ですか…？
+EN ...You... again...?
+
+@ 24.40
+# 社 長
+JP すまない。
+JP もう一度話を聞いてくれ。
+EN Sorry. Please hear me out one more time.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# カンナ神威
+JP …わかりました。
+EN ...Very well.
+
+@ 25.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 25.29
+# カンナ神威
+JP …すべては強くなるため…。
+EN ...All for the sake of growing stronger...
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# カンナ神威
+JP …お断りします。
+EN ...I must decline.
+
+@ 26.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that, please. Come back to us.
+
+@ 26.26
+# カンナ神威
+JP …失礼します……。
+EN ...Excuse me...
+
+@ 26.35
+# 社 長
+JP （ダメか…。
+JP 　身から出たサビだな）
+EN (No good... I brought this on myself.)
+
+@ 27.16
+# scene 028 ケガ小
+# カンナ神威
+JP たいしたことありません…。
+EN It is nothing serious...
+
+@ 28.16
+# scene 029 ケガ大
+# カンナ神威
+JP …くっ…。
+EN ...Ngh...
+
+@ 29.16
+# scene 030 入院
+# カンナ神威
+JP …情けないな。
+EN ...How pathetic.
+
+@ 30.16
+# scene 031 退院
+# カンナ神威
+JP 遅れはすぐに取り戻します。
+EN I will make up for lost time quickly.
+
+@ 31.16
+# scene 032 ケガ完治
+# カンナ神威
+JP もう、なんともないようです。
+EN It seems I am completely fine now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# カンナ神威
+JP …たしかにもう限界ですね。
+EN ...Yes, I have reached my limit.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# カンナ神威
+JP まだ辞められません。
+JP 亡き師のためにも…。
+EN I cannot quit yet. For my late master's sake...
+
+@ 34.16
+# scene 035 コーチ就任
+# カンナ神威
+JP 亡き師に代わり
+JP 神威流の手ほどきを
+JP させてもらいます！
+EN In place of my late master, I shall teach you the ways
+EN of Kamui-ryu!
+
+@ 35.16
+# scene 036 ケガ引退
+# カンナ神威
+JP …不甲斐ないですね…。
+EN ...How disgraceful...
+
+@ 36.16
+# scene 037 年齢引退
+# カンナ神威
+JP ここまでのようです…。
+EN It seems this is as far as I go...
+
+@ 37.16
+# scene 038 退団
+# カンナ神威
+JP もっと上を目指さねば…。
+EN I must aim higher...
+
+@ 38.16
+# scene 039 スランプ
+# カンナ神威
+JP …未熟な…。
+EN ...Still so unrefined...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# カンナ神威
+JP ファンクラブ…？
+EN A fan club...?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# カンナ神威
+JP 私を選んだ意図が不明確ですが…。
+JP 期待には応えます。
+EN I fail to see why they chose me... but I will live up to
+EN their expectations.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# カンナ神威
+JP ファンクラブ…？
+JP またですか？
+EN A fan club...? Again?
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Live up to their expectations.
+
+@ 40.26
+# カンナ神威
+JP ますます意図が不明確ですね…。
+EN I understand their reasons even less...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# カンナ神威
+JP そうですか…。
+EN I see...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+EN Well, these things happen.
+
+@ 41.26
+# カンナ神威
+JP 気にしてはいません…。
+EN It does not bother me...
+
+@ 42.16
+# scene 043 映画出演
+# カンナ神威
+JP 演技などやったこと
+JP ありませんが…。
+EN I have never done any acting...
+
+@ 43.16
+# scene 044 一日署長
+# カンナ神威
+JP なぜ私に？
+JP 意図がわかりませんが…。
+EN Why me? I fail to see the reason...
+
+@ 44.16
+# scene 045 写真集発売
+# カンナ神威
+JP マスクはどうすればいいんですか？
+EN What am I to do about my mask?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# カンナ神威
+JP 適役とは思えませんが…。
+EN I hardly think I am right for the part...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# カンナ神威
+JP なぜ私が選ばれたのでしょうか…？
+EN Why would they choose me...?
+
+@ 47.16
+# scene 048 始球式
+# カンナ神威
+JP しっかりやり遂げてきます。
+EN I will see it through properly.
+
+@ 48.16
+# scene 049 学園祭
+# カンナ神威
+JP …祭？
+JP 昔、故郷で熊を祀ったことなら
+JP ありますが…。
+EN ...A festival? Long ago, back home, I once took part
+EN in a bear festival...
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a birthday present for you.
+
+@ 49.38
+# カンナ神威
+JP …あっ…。
+EN ...Oh...
+
+@ 49.41
+# 社 長
+JP ど、どうした？
+EN Wh-what's wrong?
+
+@ 49.45
+# カンナ神威
+JP どう反応していいのか…。
+EN I don't know how to react...
+
+@ 49.48
+# 社 長
+JP あまり深く考えないでくれ。
+EN Don't think too hard about it.
+
+@ 49.55
+# カンナ神威
+JP …そうですね…。
+JP 素直に受け取っておきます。
+JP ありがとうございます。
+EN ...You're right... I will simply accept it. Thank you very
+EN much.
+
+@ 50.32
+# scene 051 バレンタインデー
+# カンナ神威
+JP 社長、これをどうぞ。
+EN Boss, please take this.
+
+@ 50.35
+# 社 長
+JP …えっ？
+JP ああ、ありがとう。
+EN ...Huh? Oh, thanks.
+
+@ 50.42
+# カンナ神威
+JP …いえ。
+JP それでは練習に戻ります。
+EN ...Not at all. I will return to training now.
+
+@ 50.51
+# 社 長
+JP （バレンタインのチョコだよな…。
+JP 　これ…？）
+EN (This is Valentine's chocolate... right?)
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼だ。
+JP 受け取ってくれ。
+EN A thank-you for last month. Please take it.
+
+@ 51.38
+# カンナ神威
+JP あっ…はい…。
+EN Oh... yes...
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between workouts.
+
+@ 52.31
+# scene 053 サイン会
+# カンナ神威
+JP …ありがとう…。
+EN ...Thank you...
+
+@ 53.31
+# scene 054 コンサート
+# カンナ神威
+JP では…。
+JP 始めます。
+EN Well then... I will begin.
+
+@ 54.28
+# scene 055 練習拒否
+# カンナ神威
+JP …フゥ～……。
+EN ...Haaah...
+
+@ 55.28
+# scene 056 失踪
+# カンナ神威
+JP …自分を見つめ直してきます…。
+EN ...I must go and reflect on myself...
+
+@ 56.16
+# scene 057 選手解雇
+# カンナ神威
+JP …わかりました。
+EN ...I understand.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# カンナ神威
+JP 己を鍛えてきます。
+EN I will go and train myself.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# カンナ神威
+JP 充実した日々でした。
+EN Those were fulfilling days.
+
+@ 59.28
+# scene 060 移籍思案
+# カンナ神威
+JP より強くなるために…。
+EN To grow stronger...
+
+@ 60.16
+# scene 061 革命軍結成
+# カンナ神威
+JP 歪みを正そうと思います。
+EN I intend to set the distortions right.
+
+@ 61.16
+# scene 062 反乱軍結成
+# カンナ神威
+JP 過ちを正そうと思います。
+EN I intend to correct what is wrong.
+
+@ 62.16
+# scene 063 最終決戦要求
+# カンナ神威
+JP すべてをここで決する！
+EN Everything will be decided here!
+
+@ 63.16
+# scene 065 遺恨発生
+# カンナ神威
+JP …屈辱…。
+EN ...Humiliating...
+
+@ 64.16
+# scene 065 殴り込み
+# カンナ神威
+JP 神威流の真価を見せましょう。
+EN I will show them the true worth of Kamui-ryu.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# カンナ神威
+JP ここは私に任せてください。
+EN Leave this to me.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# カンナ神威
+JP 神威流の真髄を見せてやろう！
+EN Behold the very essence of Kamui-ryu!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# カンナ神威
+JP すべては神威流の名のために！
+EN All for the name of Kamui-ryu!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# カンナ神威
+JP …やりました。
+JP …師匠……。
+EN ...I did it. ...Master...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# カンナ神威
+JP …申し訳ありません。
+JP …師匠……。
+EN ...I am sorry. ...Master...
+
+@ 70.13
+# scene 071 引退式
+# カンナ神威
+JP 私のような者を
+JP 応援してくれたことに感謝します…。
+JP ありがとう…。
+EN I am grateful for the support you gave someone like
+EN me... Thank you...
+
+@ 71.18
+# カンナ神威
+JP 何か？
+EN What is it?
+
+@ 71.37
+# カンナ神威
+JP 呼びましたか？
+EN You called?
+
+@ 71.47
+# カンナ神威
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in great shape lately. Keep it
+EN up!
+
+@ 71.90
+# カンナ神威
+JP …はい、より上を目指します。
+EN ...Yes. I will aim even higher.
+
+@ 71.111
+# カンナ神威
+JP …どうも。
+EN ...Thanks.
+
+@ 71.132
+# カンナ神威
+JP …ありがとうございます。
+EN ...Thank you very much.
+
+@ 71.153
+# カンナ神威
+JP …そうですね。
+EN ...I suppose.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# カンナ神威
+JP たしかに心に隙があったようです。
+EN It seems there was indeed an opening in my mind.
+
+@ 71.211
+# カンナ神威
+JP …そうは思いませんが…。
+EN ...I do not think so...
+
+@ 71.232
+# カンナ神威
+JP …仰るとおりです。
+JP すみません…。
+EN ...You are quite right. I'm sorry...
+
+@ 71.253
+# カンナ神威
+JP …そう見られてるとは
+JP 思ってもいませんでした。
+EN ...I never imagined I was seen that way.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# カンナ神威
+JP 少し技の切れが…。
+JP ですが、心配無用です。
+JP 持ち直してみせます。
+EN My technique has lost a little of its edge... But there
+EN is no need to worry. I will recover.
+
+@ 71.311
+# カンナ神威
+JP 気を遣わなくても大丈夫です。
+EN There is no need to concern yourself.
+
+@ 71.332
+# カンナ神威
+JP …ありがとうございます…。
+EN ...Thank you very much...
+
+@ 71.353
+# カンナ神威
+JP …ご心配には及びません。
+EN ...There is no need for worry.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# カンナ神威
+JP はい。
+EN Yes.
+
+@ 71.400
+# カンナ神威
+JP …何か？
+EN ...What is it?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Couldn't you try to get along with %chr?
+
+@ 71.433
+# カンナ神威
+JP …わかりました。
+EN ...Very well.
+
+@ 71.454
+# カンナ神威
+JP 問題は向こうにあります。
+EN The problem lies with her.
+
+@ 71.475
+# カンナ神威
+JP 話の意図が見えないのですが…？
+EN I fail to see what you are getting at...?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# カンナ神威
+JP …わかります。
+EN ...I know.
+
+@ 71.522
+# カンナ神威
+JP なんの話でしょうか？
+EN What is this about?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Couldn't you try to get along with %chr?
+
+@ 71.557
+# カンナ神威
+JP 仕方ありませんね。
+EN It can't be helped.
+
+@ 71.578
+# カンナ神威
+JP 謝るのは私なのでしょうか？
+EN Am I the one who should apologize?
+
+@ 71.599
+# カンナ神威
+JP やはり…話の意図が見えません。
+EN I still fail to see what you are getting at.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# カンナ神威
+JP 呼びましたか？
+EN You called?
+
+@ 72.16
+# カンナ神威
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in great shape lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# カンナ神威
+JP …はい、より上を目指します。
+EN ...Yes. I will aim even higher.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# カンナ神威
+JP …どうも。
+EN ...Thanks.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# カンナ神威
+JP …ありがとうございます。
+EN ...Thank you very much.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# カンナ神威
+JP …そうですね。
+EN ...I suppose.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# カンナ神威
+JP たしかに心に隙があったようです。
+EN It seems there was indeed an opening in my mind.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# カンナ神威
+JP …そうは思いませんが…。
+EN ...I do not think so...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# カンナ神威
+JP …仰るとおりです。
+JP すみません…。
+EN ...You are quite right. I'm sorry...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# カンナ神威
+JP …そう見られてるとは思っても
+JP いませんでした。
+EN ...I never imagined I was seen that way.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# カンナ神威
+JP 少し技の切れが…。
+JP ですが心配無用です。
+JP 持ち直してみせます。
+EN My technique has lost a little of its edge... But there
+EN is no need to worry. I will recover.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# カンナ神威
+JP 気を遣わなくても大丈夫です。
+EN There is no need to concern yourself.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# カンナ神威
+JP ………ありがとうございます…。
+EN ......Thank you very much...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# カンナ神威
+JP …ご心配には及びません。
+EN ...There is no need for worry.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# カンナ神威
+JP はい。
+EN Yes.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# カンナ神威
+JP …何か？
+EN ...What is it?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Couldn't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# カンナ神威
+JP …わかりました。
+EN ...Very well.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# カンナ神威
+JP 問題は向こうにあります。
+EN The problem lies with her.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# カンナ神威
+JP 話の意図が見えないのですが？
+EN I fail to see what you are getting at...?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# カンナ神威
+JP …わかります。
+EN ...I know.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# カンナ神威
+JP なんの話でしょうか？
+EN What is this about?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Couldn't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# カンナ神威
+JP 仕方ありませんね。
+EN It can't be helped.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# カンナ神威
+JP 謝るのは私なのでしょうか？
+EN Am I the one who should apologize?
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# カンナ神威
+JP やはり、話の意図が見えません。
+EN I still fail to see what you are getting at.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# カンナ神威
+JP …問題ありません。
+EN ...No problem.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# カンナ神威
+JP 高い評価に感謝します。
+EN I am grateful for your high regard.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# カンナ神威
+JP そうですか…。
+EN I see...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.32
+# 社 長
+JP （…んっ、あれは…？）
+EN (...Hm? Who's that...?)
+
+@ 105.50
+# ？？？
+JP ………………。
+EN ..................
+
+@ 105.53
+# 社 長
+JP （…すごくきれいな人だな）
+EN (...What a beautiful woman.)
+
+@ 105.55
+# 社 長
+JP （…視線が吸い寄せられる）
+EN (...My eyes are drawn to her.)
+
+@ 105.57
+# 社 長
+JP （…目が離せないぞ）
+EN (...I can't look away.)
+
+@ 105.59
+# 社 長
+JP （あっ、こっちを見た！？）
+EN (Oh, she looked this way!?)
+
+@ 105.63
+# ？？？
+JP …どうも。
+EN ...Hello.
+
+@ 105.66
+# 社 長
+JP こ、こんにちは！
+EN H-hello there!
+
+@ 105.80
+# 社 長
+JP …………。
+EN ............
+
+@ 105.82
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.84
+# 社 長
+JP …えっと。
+EN ...Um.
+
+@ 105.86
+# 社 長
+JP …誰だっけ？
+EN ...Who was that?
+
+@ 105.112
+# 社 長
+JP （いやぁ、やっぱり太陽が熱いぜ）
+EN (Man, the sun really is scorching.)
+
+@ 105.114
+# 社 長
+JP （さて、ひと泳ぎしてくるか）
+EN (Well, guess I'll go for a swim.)
+
+@ 105.126
+# 社 長
+JP おっ、神威。
+JP おまえもこのあたりで
+JP 楽しんでるのか？
+EN Oh, Kamui. Enjoying yourself around here too?
+
+@ 105.133
+# カンナ神威
+JP ………………？
+EN ..................?
+
+@ 105.136
+# 社 長
+JP どうした？
+EN What's wrong?
+
+@ 105.143
+# カンナ神威
+JP …いえ。
+JP 先程も会ったのに、また挨拶される
+JP 意図がわからないので…。
+EN ...Nothing. We met just a moment ago, so I fail to see
+EN why you are greeting me again...
+
+@ 105.146
+# 社 長
+JP ………………？
+EN ..................?
+
+@ 105.148
+# 社 長
+JP どこかで会ったか？
+EN Have we met somewhere?
+
+@ 105.155
+# カンナ神威
+JP はい。
+EN Yes.
+
+@ 105.158
+# 社 長
+JP ？？？？？？
+EN ??????
+
+@ 105.160
+# 社 長
+JP ………………！！
+EN ..................!!
+
+@ 105.162
+# 社 長
+JP もしかして
+JP さっきのはおまえか！？
+EN Wait, was that you just now!?
+
+@ 105.166
+# カンナ神威
+JP ………えぇ…。
+EN ......Yes...
+
+@ 105.169
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.176
+# カンナ神威
+JP ……何を今さら…。
+EN ......You only noticed now...
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （久々に練習に顔を出して
+JP 　みたけど…）
+EN (I dropped in on practice for the first time in a
+EN while...)
+
+@ 106.26
+# 社 長
+JP （みんながんばっているみたいだな）
+EN (Looks like everyone's working hard.)
+
+@ 106.28
+# 社 長
+JP （あっ、誰か倒れてるぞ！？）
+EN (Whoa, someone's collapsed!?)
+
+@ 106.30
+# 社 長
+JP （あれは…神威か…？）
+EN (Is that... Kamui...?)
+
+@ 106.32
+# 社 長
+JP おい、どうした！？
+JP 大丈夫か！？
+EN Hey, what happened!? Are you okay!?
+
+@ 106.49
+# カンナ神威
+JP すみません…。
+JP 大丈夫です。
+EN I'm sorry... I am fine.
+
+@ 106.52
+# 社 長
+JP 大丈夫って…。
+JP どうしたんだ？
+EN Fine...? What happened?
+
+@ 106.56
+# カンナ神威
+JP 関節技の練習をしていて
+JP 股関節を痛めただけです。
+EN I was practicing submission holds and merely hurt my
+EN hip joint.
+
+@ 106.59
+# 社 長
+JP だけです…って…。
+JP 倒れるくらいなんだから
+JP よっぽど痛いんじゃないのか？
+EN "Merely"...? If it knocked you down, it must hurt a lot,
+EN doesn't it?
+
+@ 106.63
+# カンナ神威
+JP …大丈夫ですから…。
+EN ...I said I am fine...
+
+@ 106.66
+# 社 長
+JP 念のため、医者に行った方が
+JP いいんじゃないか？
+EN Shouldn't you see a doctor, just to be safe?
+
+@ 106.76
+# カンナ神威
+JP いえ…。
+JP 練習メニューが途中なので…。
+EN No... I am in the middle of my training regimen...
+
+@ 106.79
+# 社 長
+JP おいおい。
+JP 練習熱心なのはいいが
+JP 無茶はダメだぞ。
+EN Come on. It's good that you're dedicated, but don't
+EN overdo it.
+
+@ 106.89
+# カンナ神威
+JP ……フフッ…。
+EN ......Heh...
+
+@ 106.92
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 106.96
+# カンナ神威
+JP いえ…。
+JP 昔、同じことを言われたことが
+JP あったので…。
+EN Nothing... It's just that someone told me the same
+EN thing long ago...
+
+@ 106.99
+# 社 長
+JP …昔？
+JP 昔っていつのことだ？
+EN ...Long ago? When was that?
+
+@ 106.109
+# カンナ神威
+JP ここへ来る前
+JP 北海道で武芸を習っていた頃です。
+EN Before I came here, when I was learning martial arts
+EN in Hokkaido.
+
+@ 106.112
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.122
+# カンナ神威
+JP そのときの師匠にも
+JP やり過ぎはよくないと言われたことを
+JP 思い出して…。
+EN I remembered how my master back then also told me
+EN that overdoing it is no good...
+
+@ 106.125
+# 社 長
+JP たしか…神威流って
+JP 流派だったよな？
+EN That school was called... Kamui-ryu, right?
+
+@ 106.135
+# カンナ神威
+JP ええ…。
+EN Yes...
+
+@ 106.138
+# 社 長
+JP そのときに何かあったのか…？
+EN Did something happen back then...?
+
+@ 106.142
+# カンナ神威
+JP ………………。
+EN ..................
+
+@ 106.145
+# 社 長
+JP （昔のことは
+JP 　あまり話したくないのかな？）
+EN (Maybe she doesn't like talking about the past?)
+
+@ 106.147
+# 社 長
+JP とにかく今は病院が先だ。
+JP 一緒に行くぞ。
+EN Anyway, the hospital comes first. I'm going with you.
+
+@ 106.157
+# カンナ神威
+JP わかりました。
+EN Very well.
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （今日もみんながんばってるな）
+EN (Everyone's working hard again today.)
+
+@ 107.26
+# 社 長
+JP （熱心な選手ばかりで頼もしいよ）
+EN (They're all so dedicated. I can count on them.)
+
+@ 107.28
+# 社 長
+JP （あっ、誰か倒れてるぞ！？）
+EN (Whoa, someone's collapsed!?)
+
+@ 107.30
+# 社 長
+JP （あれは…神威…！？）
+EN (Is that... Kamui...!?)
+
+@ 107.32
+# 社 長
+JP おい、どうした！？
+JP 大丈夫か！？
+EN Hey, what happened!? Are you okay!?
+
+@ 107.49
+# カンナ神威
+JP すみません。
+JP 大丈夫です…。
+EN I'm sorry. I am fine...
+
+@ 107.53
+# カンナ神威
+JP 股関節を痛めただけですので…。
+EN I merely hurt my hip joint...
+
+@ 107.56
+# 社 長
+JP 相変わらず無茶してるな。
+EN Overdoing it as usual, I see.
+
+@ 107.66
+# カンナ神威
+JP 昔の師匠の期待に
+JP どうしても応えたくて…。
+EN I just want so badly to live up to my old master's
+EN expectations...
+
+@ 107.69
+# 社 長
+JP （神威流の師匠のことか…？）
+EN (Her master from Kamui-ryu...?)
+
+@ 107.73
+# カンナ神威
+JP 私は…孤児でした…。
+EN I was... an orphan...
+
+@ 107.77
+# カンナ神威
+JP けれど…師匠に拾ってもらい
+JP ここまで育ててもらいました。
+EN But... my master took me in and raised me to who I am.
+
+@ 107.81
+# カンナ神威
+JP 師匠はもう亡くなって
+JP しまいましたが…。
+EN My master has since passed away, but...
+
+@ 107.85
+# カンナ神威
+JP その恩に報いるためにも
+JP 神威流の後継者として恥ずかしくない
+JP 実力を持ちたいのです。
+EN To repay that debt, I want strength worthy of an
+EN heir of Kamui-ryu.
+
+@ 107.88
+# 社 長
+JP （そうだったのか…）
+EN (So that's how it was...)
+
+@ 107.90
+# 社 長
+JP （それでいつもあんなに練習を…）
+EN (That's why she always trains so hard...)
+
+@ 107.92
+# 社 長
+JP （だけど…）
+EN (But...)
+
+@ 107.94
+# 社 長
+JP だったらなおのこと
+JP 体のことを考えて練習しないと
+JP いけないんじゃないのか？
+EN Then all the more reason to look after your body
+EN when you train, isn't it?
+
+@ 107.104
+# カンナ神威
+JP ……………ッ！
+EN ...............!
+
+@ 107.114
+# カンナ神威
+JP ………………。
+EN ..................
+
+@ 107.118
+# カンナ神威
+JP …わかりました。
+EN ...I understand.
+
+@ 107.128
+# カンナ神威
+JP 社長は自分の第二の師匠です。
+JP 師匠の命に従います。
+EN Boss, you are my second master. I will obey my
+EN master's orders.
+
+@ 107.137
+# 社 長
+JP じゃあ、まずは病院だぞ。
+EN Then first, the hospital.
+
+@ 107.141
+# カンナ神威
+JP はい…。
+EN Yes...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# カンナ神威
+JP 伝統の技、ともに磨かん！
+EN Let us hone our traditional techniques together!
+
+@ 109.17
+# scene 112 練習試合・バッド
+# カンナ神威
+JP まさか、こんなところで
+JP 相まみえるとは…。
+EN To think we would cross swords in a place like this...
+
+@ 110.16
+# scene 113 練習開始
+# カンナ神威
+JP では、始めましょう。
+EN Well then, let us begin.
+
+@ 111.16
+# scene 114 練習開始 好意
+# カンナ神威
+JP 今日は良い練習ができそうです。
+EN I think I can have a good practice today.
+
+@ 112.16
+# scene 115 特訓開始
+# カンナ神威
+JP これで強くなれるなら…！
+EN If this will make me stronger...!
+
+@ 113.20
+# scene 116 特訓成功
+# カンナ神威
+JP うまくいったようですね。
+EN It seems to have gone well.
+
+@ 114.20
+# scene 117 特訓失敗
+# カンナ神威
+JP 甘かったか…。
+EN I was too naive...
+
+@ 115.16
+# scene 118 休養
+# カンナ神威
+JP 師匠の墓参りをしてきます。
+EN I will go visit my master's grave.
+
+@ 116.16
+# scene 119 入場1
+# カンナ神威
+JP 神威流の名にかけて
+JP 必ず勝つ！
+EN In the name of Kamui-ryu, I will win!
+
+@ 117.16
+# scene 119 入場2
+# カンナ神威
+JP 神威流の技
+JP 見せてあげましょう！
+EN Allow me to show you the techniques of Kamui-ryu!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# カンナ神威
+JP 古武術の奥義を
+JP 存分に見せてやろう！
+EN Behold the secret arts of the ancient martial way!
+
+@ 119.17
+# scene 123 タッグマッチ・バッド
+# カンナ神威
+JP …神威流の名を汚せし者と
+JP 組むとは…。
+EN ...To team up with one who has sullied the name of
+EN Kamui-ryu...
+
+@ 120.16
+# scene 125 必殺技１
+# カンナ神威
+JP 神威流の技を受けてみよ！
+EN Taste the technique of Kamui-ryu!
+
+@ 121.16
+# scene 125 必殺技２
+# カンナ神威
+JP この技に耐えられるか？
+EN Can you withstand this technique?
+
+@ 122.16
+# scene 125 必殺技３
+# カンナ神威
+JP さぁ、遊びはここまでだ！
+EN Now, playtime is over!
+
+@ 123.12
+# scene 126 勝利1
+# カンナ神威
+JP いい試合ができたな…。
+EN That was a good match...
+
+@ 124.12
+# scene 126 勝利2
+# カンナ神威
+JP 我が師よ…。
+JP …見ていてくださいましたか？
+EN My master... ...Were you watching?
+
+@ 125.12
+# scene 126 勝利3
+# カンナ神威
+JP これが神威流です…。
+EN This is Kamui-ryu...
+
+@ 126.15
+# scene 133 表彰1
+# カンナ神威
+JP これくらいで満足はできません…。
+EN I cannot be satisfied with this much...
+
+@ 127.15
+# scene 133 表彰2
+# カンナ神威
+JP 神威流の名
+JP もっと知らしめていきます。
+EN I will make the name of Kamui-ryu even better known.
+
+@ 128.12
+# scene 134 優勝1
+# カンナ神威
+JP 頂点を目指す戦いに
+JP 終わりはありません。
+EN The battle to reach the top never ends.
+
+@ 129.12
+# scene 134 優勝２
+# カンナ神威
+JP 納得のいく試合ができました…。
+EN It was a match I can be proud of...
+
+@ 130.24
+# scene 135 エンディング 通常
+# カンナ神威
+JP 社長、おめでとうございます。
+JP 神威流の技も少しは
+JP 役に立ったでしょうか？
+EN Congratulations, Boss. I hope the techniques of
+EN Kamui-ryu were of some use?
+
+@ 131.24
+# scene 136 エンディング 好意
+# カンナ神威
+JP 社長…。
+JP このマスクに隠した私の気持ちを
+JP 受け止めてもらえますか…？
+EN Boss... Will you accept the feelings I have hidden
+EN behind this mask...?

@@ -1,0 +1,2170 @@
+# /SCR/002.BIN - 越後 しのぶ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 002` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 越後 しのぶ
+JP 越後です！
+JP 忍耐力には自信があります！
+JP よろしくお願いします！
+EN I'm Echigo! Endurance is my strong point! Pleased to
+EN meet you!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 越後 しのぶ
+JP ありがとうございます！
+JP よろしくお願いしますっ！
+EN Thank you very much! I look forward to working with
+EN you!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 越後 しのぶ
+JP …わかりました。
+JP でも、諦めません、絶対にっ！
+EN ...Understood. But I won't give up. Never!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええっと…。
+JP このあたりに有望な娘がいるはず
+JP なんだけど…。
+EN Let's see... There's supposed to be a promising girl
+EN around here...
+
+@ 3.27
+# ？？？
+JP たぁ！　やっ！　ていっ！　はっ！
+EN Hah! Yah! Tei! Hup!
+
+@ 3.30
+# 社 長
+JP （んっ…？
+JP 　あそこで素振りしているのは…。
+JP 　あ、もしかして）
+EN (Hm...? The one practicing her swings over there...
+EN Oh, could that be her?)
+
+@ 3.32
+# 社 長
+JP すみません。
+JP 越後さんですか？
+EN Excuse me. Are you Ms. Echigo?
+
+@ 3.42
+# 越後 しのぶ
+JP …えぇ、そうですが。
+EN ...Yes, that's me.
+
+@ 3.45
+# 社 長
+JP 突然すみません。
+JP 実は私、プロレス団体を
+JP 経営している者で…。
+EN Sorry to bother you out of the blue. Actually, I run a
+EN pro wrestling promotion...
+
+@ 3.47
+# 社 長
+JP （俺は自分のことを説明して
+JP 　単刀直入に彼女をスカウトしてみた）
+EN (I introduced myself and got straight to the point.)
+
+@ 3.49
+# 社 長
+JP どうでしょう。
+JP うちの団体で自分を試してみませんか？
+EN What do you say? Why not test yourself in my
+EN promotion?
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# 越後 しのぶ
+JP …そうですね…。
+JP よし、どこまで通じるか
+JP 試させてください。
+EN ...Let me think... All right. Let me see how far I can go.
+
+@ 4.18
+# 社 長
+JP じゃあ、うちの団体に…？
+EN Then you'll join my promotion...?
+
+@ 4.29
+# 越後 しのぶ
+JP はい。
+JP 未熟者ですが、お世話になります。
+EN Yes. I still have a lot to learn, but I'm in your hands.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 越後 しのぶ
+JP …いえ、やめておきます。
+JP 私はまだまだ未熟ですから…。
+EN ...No, I'll pass. I still have far too much to learn...
+
+@ 5.22
+# 社 長
+JP そう言わずに…。
+EN Don't say that...
+
+@ 5.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she wouldn't
+EN change her mind...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP よーし、今度こそ…。
+JP …あっ、いたいた。
+EN All right, this time for sure... Ah, there she is.
+
+@ 6.27
+# 越後 しのぶ
+JP たぁ！　やっ！　ていっ！　はっ！
+EN Hah! Yah! Tei! Hup!
+
+@ 6.30
+# 社 長
+JP 越後さん！
+JP 懲りずにまたスカウトに来ました。
+EN Ms. Echigo! I'm back to scout you again, as stubborn
+EN as ever.
+
+@ 6.39
+# 越後 しのぶ
+JP ふぅ…。
+JP その話はお断りしたはずですが…。
+EN Phew... I believe I already turned you down...
+
+@ 6.42
+# 社 長
+JP ええ…。
+JP ですが、どうしても
+JP うちの団体に入って欲しくて…。
+EN Yes... But I really want you to join my promotion...
+
+@ 6.46
+# 越後 しのぶ
+JP ………………。
+EN ..........
+
+@ 6.49
+# 社 長
+JP 是非お願いします。
+EN Please, I'm asking you.
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# 越後 しのぶ
+JP …そうですね…。
+JP よし、どこまで通じるか
+JP 試させてください。
+EN ...Let me think... All right. Let me see how far I can go.
+
+@ 7.18
+# 社 長
+JP じゃあ、うちの団体に…？
+EN Then you'll join my promotion...?
+
+@ 7.29
+# 越後 しのぶ
+JP はい。
+JP 未熟者ですが、お世話になります。
+EN Yes. I still have a lot to learn, but I'm in your hands.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 越後 しのぶ
+JP …いえ、やめておきます。
+JP 私はまだまだ未熟ですから…。
+EN ...No, I'll pass. I still have far too much to learn...
+
+@ 8.22
+# 社 長
+JP そう言わずに…。
+EN Don't say that...
+
+@ 8.24
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I kept trying to persuade her, but she wouldn't
+EN change her mind...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （越後選手…。
+JP 　あの打たれ強さと反骨心。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Echigo... That toughness, that defiant streak. She's
+EN exactly the talent I want.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (I'm sure she trains around here... Ah, there she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 9.37
+# 越後 しのぶ
+JP …呼びました？
+EN ...You called?
+
+@ 9.40
+# 社 長
+JP （俺は単刀直入に移籍を持ちかけてみた）
+EN (I got straight to the point and offered her a
+EN transfer.)
+
+@ 9.47
+# 越後 しのぶ
+JP 移籍…ですか…。
+JP つまりこの私に今いる所を裏切れと？
+EN A transfer...? So you're asking me to betray the
+EN people I'm with now?
+
+@ 9.50
+# 社 長
+JP そうですね…。
+JP 結果的にそうなるかもしれません。
+EN Well... I suppose that's how it would turn out.
+
+@ 9.54
+# 越後 しのぶ
+JP だったらこのお話はなかったことに…。
+EN Then let's pretend this conversation never
+EN happened...
+
+@ 9.57
+# 社 長
+JP いえ、お願いします。
+JP 選手の活発な移動はプロレス界を
+JP 盛り上げるんです。
+EN No, please. Wrestlers moving around is what keeps
+EN the wrestling world exciting.
+
+@ 9.59
+# 社 長
+JP 女子プロレス界を
+JP もっと盛り上げていきたいんです。
+JP どうか、お願いします。
+EN I want to make women's wrestling even bigger.
+EN Please, I'm asking you.
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# 越後 しのぶ
+JP …ふぅ、でしたら、このまま
+JP うちの団体の事務所に来てください。
+JP 義理は通さないと…。
+EN ...Phew. In that case, come with me to my promotion's
+EN office right now. I have to do this the honorable
+EN way...
+
+@ 10.18
+# 社 長
+JP えっ、それじゃあ…。
+EN Huh? Then...
+
+@ 10.29
+# 越後 しのぶ
+JP 社長さんの熱意に負けました。
+JP 移籍の話、お受けします。
+EN Your passion wins, President. I accept your offer to
+EN transfer.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 越後 しのぶ
+JP 問題外です。
+JP お帰りください。
+EN Out of the question. Please leave.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには越後選手が必要だ。
+JP 　俺はもう一度交渉を試みることにした）
+EN (My promotion really does need Echigo. I decided to
+EN try negotiating once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# 越後 しのぶ
+JP …またあなたですか。
+EN ...You again?
+
+@ 12.38
+# 社 長
+JP はい…。
+JP どうしてもうちの団体に
+JP 移籍して欲しいんです。
+EN Yes... I really want you to transfer to my promotion.
+
+@ 12.42
+# 越後 しのぶ
+JP お断りしたはずです。
+EN I believe I already said no.
+
+@ 12.45
+# 社 長
+JP そこをなんとか。
+EN Please, reconsider.
+
+@ 12.47
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my offer again and pleaded my case with all
+EN I had.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# 越後 しのぶ
+JP …ふぅ、でしたら、このまま
+JP うちの団体の事務所に来てください。
+JP 義理は通さないと…。
+EN ...Phew. In that case, come with me to my promotion's
+EN office right now. I have to do this the honorable
+EN way...
+
+@ 13.18
+# 社 長
+JP えっ、それじゃあ…。
+EN Huh? Then...
+
+@ 13.29
+# 越後 しのぶ
+JP 社長さんの熱意に負けました。
+JP 移籍の話、お受けします。
+EN Your passion wins, President. I accept your offer to
+EN transfer.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 越後 しのぶ
+JP 問題外です。
+JP お帰りください。
+EN Out of the question. Please leave.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （越後選手…。
+JP 　あの打たれ強さと反骨心。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Echigo... That toughness, that defiant streak. She's
+EN exactly the talent I want.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (I'm sure she trains around here... Ah, there she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 15.36
+# 越後 しのぶ
+JP …呼びました？
+EN ...You called?
+
+@ 15.39
+# 社 長
+JP （俺は単刀直入に入団を持ちかけてみた）
+EN (I got straight to the point and asked her to join us.)
+
+@ 15.46
+# 越後 しのぶ
+JP つまり…そちらの団体に入れと…？
+EN So... you want me to join your promotion...?
+
+@ 15.49
+# 社 長
+JP どうでしょう。
+JP うちのリングで戦ってもらえませんか？
+EN What do you say? Will you fight in our ring?
+
+@ 15.56
+# 越後 しのぶ
+JP 悪くない話ですが…。
+EN It's not a bad offer, but...
+
+@ 15.59
+# 社 長
+JP お願いします。
+JP 越後さんの力を貸していただけませんか？
+EN Please. Won't you lend us your strength, Ms. Echigo?
+
+@ 15.61
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently persuading
+EN her.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 越後 しのぶ
+JP …わかりました。
+JP そこまで言うなら、お受けしましょう。
+EN ...All right. If you insist, I'll accept.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# 越後 しのぶ
+JP ただし、イヤになったら
+JP すぐ出て行きます。
+JP そのつもりで…。
+EN But if I get sick of it, I'm leaving right away. Keep
+EN that in mind...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 越後 しのぶ
+JP すみません…。
+JP まだ一人で試したいことがあるので
+JP お断りします。
+EN I'm sorry... There are still things I want to try on my
+EN own, so I have to decline.
+
+@ 17.22
+# 社 長
+JP そう…ですか…。
+JP 残念です…。
+EN I... see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには越後選手が必要だ。
+JP 　俺はもう一度交渉を試みることにした）
+EN (My promotion really does need Echigo. I decided to
+EN try negotiating once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# 越後 しのぶ
+JP …またあなたですか。
+EN ...You again?
+
+@ 18.38
+# 社 長
+JP はい。
+JP どうしてもうちの団体に
+JP 移籍して欲しいんです。
+EN Yes. I really want you to join my promotion.
+
+@ 18.45
+# 越後 しのぶ
+JP お断りしたはずです。
+EN I believe I already said no.
+
+@ 18.48
+# 社 長
+JP そこをなんとか…。
+EN Please, reconsider...
+
+@ 18.50
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my offer again and pleaded my case with all
+EN I had.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 越後 しのぶ
+JP …わかりました。
+JP そこまで言うなら、お受けしましょう。
+EN ...All right. If you insist, I'll accept.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# 越後 しのぶ
+JP ただし、イヤになったら
+JP すぐ出て行きます。
+JP そのつもりで…。
+EN But if I get sick of it, I'm leaving right away. Keep
+EN that in mind...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 越後 しのぶ
+JP すみません…。
+JP まだ一人で試したいことがあるので
+JP お断りします。
+EN I'm sorry... There are still things I want to try on my
+EN own, so I have to decline.
+
+@ 20.22
+# 社 長
+JP そう…ですか…。
+JP 残念です…。
+EN I... see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、おーい、越後！
+EN She should be around here... Ah, hey, Echigo!
+
+@ 21.33
+# 越後 しのぶ
+JP 社長！？
+JP なんですか！
+JP 私はもう部外者のはずです！！
+EN Boss!? What do you want! I'm supposed to be an
+EN outsider now!!
+
+@ 21.36
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you because I want
+EN you to come back.
+
+@ 21.43
+# 越後 しのぶ
+JP そんな簡単に戻れると思って
+JP いるんですか！
+JP 私の立場だってあるんです。
+EN You think I can just waltz back in like that!? I have
+EN my pride too, you know.
+
+@ 21.46
+# 社 長
+JP うちの団体には、おまえが必要なんだ。
+EN My promotion needs you.
+
+@ 21.48
+# 社 長
+JP 越後、俺が悪かった。
+JP 許してくれ。
+EN Echigo, I was wrong. Forgive me.
+
+@ 21.55
+# 越後 しのぶ
+JP ………………。
+EN ..........
+
+@ 21.58
+# 社 長
+JP 頼む、この通りだ。
+JP 言えた義理じゃないが
+JP 戻ってきてくれないか…？
+EN Please, I'm begging you. I know I have no right to ask,
+EN but won't you come back...?
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 越後 しのぶ
+JP そこまで言うなら…。
+JP 仕方ありません…。
+EN If you insist... I suppose there's no choice...
+
+@ 22.22
+# 社 長
+JP 戻ってきてくれるのか？
+EN You'll come back?
+
+@ 22.29
+# 越後 しのぶ
+JP 言っておきますけど
+JP 許した訳じゃありませんから！
+EN Just so you know, that doesn't mean I've forgiven
+EN you!
+
+@ 22.32
+# 社 長
+JP わかってる。
+JP ありがとう、越後。
+JP また…よろしくな。
+EN I know. Thank you, Echigo. Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 越後 しのぶ
+JP 無理です。
+JP 戻ることはできません…。
+EN I can't. There's no going back...
+
+@ 23.22
+# 社 長
+JP そうか…そうだな。
+JP 邪魔して悪かった。
+JP 今日は…帰るよ。
+EN I see... I guess not. Sorry to bother you. I'll... head
+EN home for today.
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 越後っ！
+EN Echigo!
+
+@ 24.33
+# 越後 しのぶ
+JP 社長！？
+JP 今日はなんの用なんですか？
+EN Boss!? What do you want today?
+
+@ 24.36
+# 社 長
+JP 何度も悪い。
+JP ただ…もう一度だけ俺を信じて
+JP うちに戻ってくれないか？
+EN Sorry to keep at this. But... won't you trust me one
+EN more time and come back?
+
+@ 24.38
+# 社 長
+JP （俺は団体に戻ってくれるように
+JP 　頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 越後 しのぶ
+JP そこまで言うなら…。
+JP 仕方ありません…。
+EN If you insist... I suppose there's no choice...
+
+@ 25.22
+# 社 長
+JP 戻ってきてくれるのか？
+EN You'll come back?
+
+@ 25.29
+# 越後 しのぶ
+JP 言っておきますけど
+JP 許した訳じゃありませんから！
+EN Just so you know, that doesn't mean I've forgiven
+EN you!
+
+@ 25.32
+# 社 長
+JP わかってる。
+JP ありがとう、越後。
+JP また…よろしくな。
+EN I know. Thank you, Echigo. Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 越後 しのぶ
+JP 無理です。
+JP 戻ることはできません…。
+EN I can't. There's no going back...
+
+@ 26.22
+# 社 長
+JP そうか…そうだな。
+JP 邪魔して悪かった。
+JP 今日は…帰るよ。
+EN I see... I guess not. Sorry to bother you. I'll... head
+EN home for today.
+
+@ 27.16
+# scene 028 ケガ小
+# 越後 しのぶ
+JP こんなのケガのうちに入りません。
+EN This doesn't even count as an injury.
+
+@ 28.16
+# scene 029 ケガ大
+# 越後 しのぶ
+JP くっ…。
+JP この私が受け損なうなんて……。
+EN Ngh... I can't believe I botched taking that move...
+
+@ 29.16
+# scene 030 入院
+# 越後 しのぶ
+JP ぜ、絶対に見舞いには来ないでください！
+JP 絶対ですよ！！
+EN D-don't you dare come visit me in the hospital! I mean
+EN it!!
+
+@ 30.16
+# scene 031 退院
+# 越後 しのぶ
+JP 戻りました。
+JP いつでもいけます！
+EN I'm back. Ready to go anytime!
+
+@ 31.16
+# scene 032 ケガ完治
+# 越後 しのぶ
+JP これで不安材料はなくなりました。
+EN That's one less thing to worry about.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 越後 しのぶ
+JP で、でも！
+JP …いえ、わかってます…。
+JP 私だって自分のことぐらい…。
+EN B-but...! ...No, I understand... I know my own body...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 越後 しのぶ
+JP 自分の引き際ぐらい、自分で決めます！
+EN I'll decide when it's time to step down myself!
+
+@ 34.16
+# scene 035 コーチ就任
+# 越後 しのぶ
+JP おーしっ、みんな整列っ！
+JP ビシビシいくぞ！
+EN All right, everyone, line up! I'm not going easy on
+EN you!
+
+@ 35.16
+# scene 036 ケガ引退
+# 越後 しのぶ
+JP すみません…。
+JP 丈夫なことが取り柄だったのに…。
+EN I'm sorry... Being tough was the one thing I had going
+EN for me...
+
+@ 36.16
+# scene 037 年齢引退
+# 越後 しのぶ
+JP 後進に道を譲るのは先達の責務…。
+JP その番が私に回ってきたみたいです。
+EN It's the duty of those who came before to make way
+EN for the next generation... Looks like my turn has
+EN come.
+
+@ 37.16
+# scene 038 退団
+# 越後 しのぶ
+JP もう辞めます。
+JP 理由は胸に手を当てて
+JP よーく考えてください！
+EN I quit. If you want to know why, put your hand on
+EN your heart and think long and hard!
+
+@ 38.16
+# scene 039 スランプ
+# 越後 しのぶ
+JP くっ…。
+JP どうしてうまくいかないんだ…。
+EN Ngh... Why isn't anything going right...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 越後 しのぶ
+JP ファンクラブ…？
+JP 私の…？
+EN A fan club...? For me...?
+
+@ 39.19
+# 社 長
+JP あぁ。
+JP 応援に負けないようがんばれよ。
+EN Yeah. Work hard so you're worthy of their support.
+
+@ 39.26
+# 越後 しのぶ
+JP い、言われなくてもそうします！
+EN Y-you don't have to tell me that!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 越後 しのぶ
+JP またファンクラブ…ですか？
+EN Another fan club...?
+
+@ 40.19
+# 社 長
+JP あぁ。
+JP やっぱり嬉しいもんだろ？
+EN Yeah. It makes you happy, doesn't it?
+
+@ 40.26
+# 越後 しのぶ
+JP はい…あ、いえ！
+JP べ、別に嬉しくなんて…。
+JP な、なんで笑うんですか！？
+EN Yes... I mean, no! I-it's not like I'm happy or
+EN anything... Wh-why are you laughing!?
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 越後 しのぶ
+JP 解散って…。
+JP 私のファンクラブが…？
+EN Disbanded...? My fan club...?
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. Just work hard and win them
+EN back.
+
+@ 41.26
+# 越後 しのぶ
+JP はい…。
+JP がんばります……。
+EN Yes... I'll work hard......
+
+@ 42.16
+# scene 043 映画出演
+# 越後 しのぶ
+JP だ、団体の恥にならないよう
+JP 精一杯やってきます！
+EN I-I'll give it everything I've got, so I don't bring
+EN shame on the promotion!
+
+@ 43.16
+# scene 044 一日署長
+# 越後 しのぶ
+JP 綱紀粛正…！
+JP …いい言葉です！！
+EN Enforcing discipline...! ...What a wonderful phrase!!
+
+@ 44.16
+# scene 045 写真集発売
+# 越後 しのぶ
+JP ぬ、脱がなくていいんですよね…？
+EN I-I don't have to take anything off, right...?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 越後 しのぶ
+JP 真面目な会社のＣＭでしたら
+JP お受けします。
+EN If it's a commercial for a respectable company, I'll do
+EN it.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 越後 しのぶ
+JP 社長！！
+JP 絶対に聞かないでください！
+JP 約束ですよ！？
+EN Boss!! Don't you ever listen to it! Promise me!?
+
+@ 47.16
+# scene 048 始球式
+# 越後 しのぶ
+JP 打つのは得意なんですが…。
+EN Hitting is more my thing, but...
+
+@ 48.16
+# scene 049 学園祭
+# 越後 しのぶ
+JP 私が呼ばれたということは
+JP 学内の風紀を取り締まれという
+JP ことですよね？
+EN If they called me, it must mean they want me to crack
+EN down on discipline at the school, right?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP あぁ、いたいた。
+JP 越後、つまらないものだけど
+JP ２０歳の誕生祝いだ。
+EN Ah, there you are. Echigo, it's nothing much, but
+EN happy 20th birthday.
+
+@ 49.35
+# 越後 しのぶ
+JP えっ…！？
+JP あ、は、はい…。
+JP ありがとう…ございます…。
+EN Huh...!? Oh, y-yes... Thank... you...
+
+@ 49.38
+# 社 長
+JP おめでとう。
+JP 今日から大人だな。
+EN Congratulations. You're an adult as of today.
+
+@ 49.45
+# 越後 しのぶ
+JP い、いえ、そんな！
+JP 私はまだ子供で…。
+JP あ、あの…ありがとうございます…。
+EN N-no, not at all! I'm still just a kid... U-um... thank
+EN you...
+
+@ 50.32
+# scene 051 バレンタインデー
+# 越後 しのぶ
+JP あ、あ、あ…あのっ！
+EN U-u-u... um!
+
+@ 50.35
+# 社 長
+JP おっ、どうした、越後。
+EN Oh, what's up, Echigo?
+
+@ 50.42
+# 越後 しのぶ
+JP こ、こ、こ、こ…
+JP こんなものが落ちてましたっ！
+JP 失礼しますっ！
+EN I-I-I-I... I found this lying around! Excuse me!
+
+@ 50.48
+# 社 長
+JP お、おい、越後！
+EN H-hey, Echigo!
+
+@ 50.50
+# 社 長
+JP …バレンタインのチョコぐらい
+JP 普通に渡せばいいだろ。
+JP やれやれ…。
+EN ...You could just hand over Valentine's chocolate like
+EN a normal person. Good grief...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 越後、先月のお礼を
+JP 受け取ってくれるか？
+EN Echigo, will you accept this, to thank you for last
+EN month?
+
+@ 51.38
+# 越後 しのぶ
+JP …えっ！？
+JP あ、いえ、な、なんのことですか！？
+EN ...Huh!? Oh, n-no, wh-what are you talking about!?
+
+@ 51.41
+# 社 長
+JP みんなには内緒だぞ。
+JP 練習の合間にでも食べてくれ。
+EN Keep it a secret from everyone else. Have it during
+EN a training break or something.
+
+@ 51.48
+# 越後 しのぶ
+JP は、はい…。
+JP ありがとう…ございます…。
+EN Y-yes... Thank... you...
+
+@ 52.31
+# scene 053 サイン会
+# 越後 しのぶ
+JP お、応援、ありがとう…。
+JP うん、ありがとう……。
+EN Th-thanks for your support... Yeah, thank you......
+
+@ 53.31
+# scene 054 コンサート
+# 越後 しのぶ
+JP まだ歌ってない！
+JP そ、そこぉ、笑うなぁ！！
+EN I haven't even started singing! Y-you there, stop
+EN laughing!!
+
+@ 54.28
+# scene 055 練習拒否
+# 越後 しのぶ
+JP これでは体が持ちません！
+EN My body can't keep up with this!
+
+@ 55.28
+# scene 056 失踪
+# 越後 しのぶ
+JP …しばらく一人で考えてみます。
+JP 探さないでください。
+EN ...I'm going to think things over alone for a while.
+EN Don't look for me.
+
+@ 56.16
+# scene 057 選手解雇
+# 越後 しのぶ
+JP もぅいいです！
+JP 失礼します！！
+EN Fine, that's enough! Goodbye!!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 越後 しのぶ
+JP ひと回り大きくなって帰ってきます。
+JP 絶対です。
+EN I'll come back a bigger and better wrestler. Count on
+EN it.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 越後 しのぶ
+JP 社長！
+JP ただいま戻りました！
+EN Boss! I'm back!
+
+@ 59.28
+# scene 060 移籍思案
+# 越後 しのぶ
+JP 新しい団体に行けば…。
+JP でも…裏切る訳には……。
+EN If I went to a new promotion... But... I can't betray
+EN them......
+
+@ 60.16
+# scene 061 革命軍結成
+# 越後 しのぶ
+JP 生ぬるい連中は
+JP 私が全員叩き潰してやるっ！
+EN I'll crush every last one of these soft slackers
+EN myself!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 越後 しのぶ
+JP 勝てないレスラーはただの女！
+JP 文句があるならかかってこい！
+EN A wrestler who can't win is just a woman! Got a
+EN problem with that? Then come at me!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 越後 しのぶ
+JP 今こそ雌雄を決するとき…。
+JP いざ、勝負っ！
+EN Now is the time to settle this once and for all... Have
+EN at you!
+
+@ 63.16
+# scene 064 遺恨発生
+# 越後 しのぶ
+JP あぁあああ、もぉおおお！
+JP なんなんだ、あいつは！！
+EN Aaargh, ugh, seriously! What is her problem!!
+
+@ 64.16
+# scene 065 殴り込み
+# 越後 しのぶ
+JP 暴れまわってきますから
+JP 楽しみにしてください！
+EN I'm going to go wreak some havoc, so look forward
+EN to it!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 越後 しのぶ
+JP 上等だ！
+JP おまえの技などすべて受けきってやる！
+EN Bring it on! I'll take every move you've got and still
+EN be standing!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 越後 しのぶ
+JP 覚悟はいいか？
+EN Are you ready?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 越後 しのぶ
+JP 心頭滅却すれば刃も弾く…。
+JP 越後、行きますっ！
+EN Clear your mind, and even a blade will bounce off...
+EN Echigo, heading out!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 越後 しのぶ
+JP 社長、みんな…！
+JP ありがとう！
+EN Boss, everyone...! Thank you!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 越後 しのぶ
+JP くっ…。
+JP どうして私はこんな肝心なときに…。
+EN Ngh... Why do I always fail when it counts the most...
+
+@ 70.13
+# scene 071 引退式
+# 越後 しのぶ
+JP 今の気持ちをどう言葉にすればいいのか…。
+JP 感謝の言葉しか…。
+JP 本当にありがとうございました！
+EN I don't know how to put what I'm feeling into words...
+EN All I can say is thank you... Thank you, truly!
+
+@ 71.16
+# 越後 しのぶ
+JP はい、なんですか。
+EN Yes, what is it?
+
+@ 71.34
+# 越後 しのぶ
+JP あ、はい！
+JP お呼びですか？
+EN Oh, yes! You called for me?
+
+@ 71.44
+# 越後 しのぶ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.63
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.87
+# 越後 しのぶ
+JP えっ、あ…。
+JP わ、私はいつもがんばってます！
+EN Huh, oh... I-I always work hard!
+
+@ 71.108
+# 越後 しのぶ
+JP …最初からそのつもりです。
+EN ...That was my plan from the start.
+
+@ 71.129
+# 越後 しのぶ
+JP べ、別に社長に言われなくても…！
+JP その…がんばります…。
+EN I-I'd do it even if you didn't tell me...! Um... I'll do my
+EN best...
+
+@ 71.150
+# 越後 しのぶ
+JP …社長。何か企んでませんか？
+EN ...Boss. Are you up to something?
+
+@ 71.163
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.187
+# 越後 しのぶ
+JP しゃ、社長の気のせいです！
+JP 私は全然たるんでなんかいません！
+EN Y-you're imagining things, Boss! I'm not slacking off
+EN at all!
+
+@ 71.208
+# 越後 しのぶ
+JP そんなことありません。
+JP 私のどこを見てるんですか？
+EN That's not true. What exactly have you been
+EN watching?
+
+@ 71.229
+# 越後 しのぶ
+JP ぜ、全然たるんでません！
+JP ほ、本当です！
+JP だから…その…すみません。
+EN I-I'm not slacking at all! R-really! So... um... I'm sorry.
+
+@ 71.250
+# 越後 しのぶ
+JP …社長にはそう見えるんですね。
+JP わかりました。
+JP 以後、気を付けます。
+EN ...So that's how I look to you, Boss. Understood. I'll be
+EN careful from now on.
+
+@ 71.263
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 71.287
+# 越後 しのぶ
+JP …平気です。
+JP ご心配おかけしました。
+EN ...I'm fine. Sorry to have worried you.
+
+@ 71.308
+# 越後 しのぶ
+JP そんなこと…ありません。
+JP 平気です…。
+EN That's... not true. I'm fine...
+
+@ 71.329
+# 越後 しのぶ
+JP は、はい、平気です…。
+JP あの…あ…いえ、なんでもありません。
+JP ほんと、なんでもないんです！
+EN Y-yes, I'm fine... Um... ah... no, it's nothing. Really, it's
+EN nothing!
+
+@ 71.350
+# 越後 しのぶ
+JP …少し調子が悪いだけです。
+JP すぐ治ります。
+EN ...I'm just a little off. I'll be better soon.
+
+@ 71.364
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.380
+# 越後 しのぶ
+JP はい、単刀直入にお願いします。
+EN Yes. Please get straight to the point.
+
+@ 71.397
+# 越後 しのぶ
+JP …いえ、なんのことですか？
+EN ...No, what's this about?
+
+@ 71.408
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.430
+# 越後 しのぶ
+JP …わかりました。
+JP 社長の命令なら従います。
+EN ...Understood. If it's your order, Boss, I'll obey.
+
+@ 71.451
+# 越後 しのぶ
+JP お断りします。
+EN I refuse.
+
+@ 71.472
+# 越後 しのぶ
+JP そう言われても…。
+JP 私はこういう人間ですから。
+EN Even if you say that... This is just the kind of person
+EN I am.
+
+@ 71.485
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.502
+# 越後 しのぶ
+JP …はい。
+JP うっすらとですが
+JP 想像することなら…。
+EN ...Yes. I have a vague idea, at least...
+
+@ 71.519
+# 越後 しのぶ
+JP いえ、なんのことか…。
+EN No, I don't know what this is about...
+
+@ 71.532
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.554
+# 越後 しのぶ
+JP 私は悪くありません！
+JP でも…社長命令だから
+JP …仲良く…します。
+EN I didn't do anything wrong! But... since it's your
+EN order... I'll... get along with her.
+
+@ 71.574
+# 越後 しのぶ
+JP すみません…。
+JP 私にも意地があります。
+JP こればっかりは…。
+EN I'm sorry... I have my pride too. This one thing, I
+EN can't...
+
+@ 71.595
+# 越後 しのぶ
+JP 仲良く…ですか？
+JP その…普段どおりということで
+JP よろしいですね。
+EN Get along...? Um... I take it you mean just as usual,
+EN then.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 越後 しのぶ
+JP あ、はい！
+JP お呼びですか？
+EN Oh, yes! You called for me?
+
+@ 72.16
+# 越後 しのぶ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 越後 しのぶ
+JP えっ、あ…。
+JP わ、私はいつもがんばってます！
+EN Huh, oh... I-I always work hard!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 越後 しのぶ
+JP …最初からそのつもりです。
+EN ...That was my plan from the start.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 越後 しのぶ
+JP べ、別に社長に言われなくても…！
+JP その…がんばります…。
+EN I-I'd do it even if you didn't tell me...! Um... I'll do my
+EN best...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 越後 しのぶ
+JP …社長。
+JP 何か企んでませんか？
+EN ...Boss. Are you up to something?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 越後 しのぶ
+JP しゃ、社長の気のせいです！
+JP 私は全然たるんでなんかいません！
+EN Y-you're imagining things, Boss! I'm not slacking off
+EN at all!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 越後 しのぶ
+JP そんなことありません。
+JP 私のどこを見てるんですか？
+EN That's not true. What exactly have you been
+EN watching?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 越後 しのぶ
+JP ぜ、全然たるんでません！
+JP ほ、本当です！
+JP だから…その…すみません。
+EN I-I'm not slacking at all! R-really! So... um... I'm sorry.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 越後 しのぶ
+JP …社長にはそう見えるんですね。
+JP わかりました…。
+JP 以後、気を付けます。
+EN ...So that's how I look to you, Boss. Understood... I'll
+EN be careful from now on.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 越後 しのぶ
+JP …平気です。
+JP ご心配おかけしました。
+EN ...I'm fine. Sorry to have worried you.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 越後 しのぶ
+JP そんなこと…ありません。
+JP 平気です…。
+EN That's... not true. I'm fine...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 越後 しのぶ
+JP は、はい、平気です…。
+JP あの…あ…いえ、なんでもありません。
+JP ほんと、なんでもないんです！
+EN Y-yes, I'm fine... Um... ah... no, it's nothing. Really, it's
+EN nothing!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 越後 しのぶ
+JP …少し調子が悪いだけです。
+JP すぐ治ります。
+EN ...I'm just a little off. I'll be better soon.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 越後 しのぶ
+JP はい、単刀直入にお願いします。
+EN Yes. Please get straight to the point.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 越後 しのぶ
+JP …いえ、なんのことですか。
+EN ...No, what's this about?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 越後 しのぶ
+JP …わかりました。
+JP 社長の命令なら従います。
+EN ...Understood. If it's your order, Boss, I'll obey.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 越後 しのぶ
+JP お断りします。
+EN I refuse.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 越後 しのぶ
+JP そう言われても…。
+JP 私はこういう人間ですから…。
+EN Even if you say that... This is just the kind of person
+EN I am...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 越後 しのぶ
+JP …はい。
+JP うっすらとですが
+JP 想像することなら…。
+EN ...Yes. I have a vague idea, at least...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 越後 しのぶ
+JP いえ、なんのことか…。
+EN No, I don't know what this is about...
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 越後 しのぶ
+JP 私は悪くありません！
+JP でも…社長命令だから…仲良くします。
+EN I didn't do anything wrong! But... since it's your
+EN order... I'll get along with her.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 越後 しのぶ
+JP すみません…。
+JP 私にも意地があります。
+JP こればっかりは…。
+EN I'm sorry... I have my pride too. This one thing, I
+EN can't...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 越後 しのぶ
+JP 仲良く…ですか？
+JP その…普段どおりということで
+JP よろしいですね。
+EN Get along...? Um... I take it you mean just as usual,
+EN then.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 越後 しのぶ
+JP 異存ありません。
+JP 来年もよろしくお願いします。
+EN No objections. I look forward to another year with
+EN you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 越後 しのぶ
+JP …えっ、こんなに…。
+JP …ありがとうございます。
+EN ...Huh, this much... ...Thank you very much.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 越後 しのぶ
+JP 社長は私をこの程度のレスラーと
+JP 見ている訳ですね…。
+EN So this is all you think I'm worth as a wrestler, Boss...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP ん～っ…はぁあああ…。
+JP マスコミもいないし、ゆっくりできるな…。
+EN Mmmh... Haaah... No press around, so I can finally
+EN relax...
+
+@ 105.31
+# 越後 しのぶ
+JP たるみすぎだぁああ！
+EN You're all way too slack!
+
+@ 105.48
+# 社 長
+JP ぬわっ！？
+JP な、なんだ！？
+EN Whoa!? Wh-what was that!?
+
+@ 105.69
+# 越後 しのぶ
+JP そんなんで怪我したら
+JP どうするんだ！？
+EN What are you going to do if you get hurt goofing off
+EN like that!?
+
+@ 105.72
+# 社 長
+JP なんだ、なんだ？
+JP 何があった？
+EN What's going on? What happened?
+
+@ 105.76
+# 越後 しのぶ
+JP あっ、社長！
+JP 社長からも言ってください！！
+EN Oh, Boss! Say something to them too!!
+
+@ 105.79
+# 社 長
+JP 待て待て！
+JP 越後、何してるんだ！？
+EN Wait, wait! Echigo, what are you doing!?
+
+@ 105.83
+# 越後 しのぶ
+JP 点呼です！
+EN Roll call!
+
+@ 105.86
+# 社 長
+JP ……はっ？
+EN ......Huh?
+
+@ 105.90
+# 越後 しのぶ
+JP バカンスといっても
+JP たるみ過ぎてはダメです！
+EN Vacation or not, we can't get this slack!
+
+@ 105.94
+# 越後 しのぶ
+JP 注意一秒、怪我一生！
+JP ですから、点呼ですっ！
+EN A second of carelessness, a lifetime of injury! So,
+EN roll call!
+
+@ 105.97
+# 社 長
+JP あぁ、待て待て。
+JP なんだかよくわからんが…。
+JP バカンスのときくらいいいだろ。
+EN Okay, hold on. I don't really get it, but... it's vacation,
+EN so let them be.
+
+@ 105.99
+# 社 長
+JP 羽根のひとつも伸ばさないと
+JP なんのためのバカンスか
+JP わからんだろ？
+EN If you can't let your hair down a little, what's the
+EN point of a vacation?
+
+@ 105.103
+# 越後 しのぶ
+JP その油断が問題を起こすんです！！
+EN That kind of carelessness is exactly what causes
+EN trouble!!
+
+@ 105.106
+# 社 長
+JP いや、だから、おまえもせっかく
+JP 水着なんだから…。
+EN No, I mean, you're in a swimsuit too, so...
+
+@ 105.108
+# 社 長
+JP （あっ、そうだ！）
+EN (Oh, I know!)
+
+@ 105.110
+# 社 長
+JP 越後！
+EN Echigo!
+
+@ 105.114
+# 越後 しのぶ
+JP えっ…。
+JP あ、はい……？
+EN Huh... Oh, yes......?
+
+@ 105.117
+# 社 長
+JP 俺と泳ごう！
+EN Come swim with me!
+
+@ 105.128
+# 越後 しのぶ
+JP えっ！？
+JP い、いえ！
+JP え、遠慮しますっ！
+EN What!? N-no! I-I'll pass!
+
+@ 105.131
+# 社 長
+JP いいから、いいから。
+EN Come on, come on.
+
+@ 105.135
+# 越後 しのぶ
+JP や、やめてください、社長！
+EN S-stop it, Boss!
+
+@ 105.138
+# 社 長
+JP まぁまぁ。
+EN Now, now.
+
+@ 105.153
+# 社 長
+JP ほーら、海だぞ、海。
+JP パーッと泳ぐぞぉ。
+EN Look, there's the ocean. Let's have a good swim!
+
+@ 105.157
+# 越後 しのぶ
+JP あ、い、いや…。
+JP だ、だめっ！
+JP 私、お、泳ぎは、だから…。
+EN Ah, n-no... D-don't! I-I can't, um, swim, so...
+
+@ 105.160
+# 社 長
+JP そーらっ。
+EN Here we go!
+
+@ 105.164
+# 越後 しのぶ
+JP きゃぁああああああ！
+EN Kyaaaaaaaah!
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP （よし…これで次の興業も大丈夫かな）
+EN (Okay... the next show should be in good shape now.)
+
+@ 106.22
+# 社 長
+JP （どれ、ジムにも顔を出さないと…）
+EN (Guess I should drop by the gym too...)
+
+@ 106.37
+# 社 長
+JP お疲れぇ…。
+JP えっ…？
+EN Good wor... Huh...?
+
+@ 106.52
+# 越後 しのぶ
+JP …あっ、お疲れ様です。
+EN ...Oh, good work today.
+
+@ 106.55
+# 社 長
+JP ……ええっと…。
+JP おまえ、何してるんだ？
+EN ......Um... What are you doing?
+
+@ 106.59
+# 越後 しのぶ
+JP 少し気合いを入れようと思って…。
+JP 表で素振りを…。
+EN I wanted to fire myself up a bit... so I was doing
+EN swings out front...
+
+@ 106.62
+# 社 長
+JP それはわからないでもないが…。
+JP なんでサラシ姿なんだ？
+EN I can sort of understand that... but why are you
+EN wearing a chest wrap?
+
+@ 106.72
+# 越後 しのぶ
+JP あ、はい…。
+JP これを着ると
+JP 気持ちが引き締まるので…。
+EN Oh, yes... Wearing this helps me focus...
+
+@ 106.110
+# 越後 しのぶ
+JP 変…ですか…？
+EN Is it... strange...?
+
+@ 106.113
+# 社 長
+JP いや、別に変じゃないぞ。
+JP それに色っぽいじゃないか。
+EN No, it's not strange at all. It's kind of sexy, actually.
+
+@ 106.123
+# 越後 しのぶ
+JP ……ッ！？
+EN ......!?
+
+@ 106.167
+# 越後 しのぶ
+JP しゃ、社長！
+EN B-Boss!
+
+@ 106.170
+# 社 長
+JP …んっ？
+EN ...Hm?
+
+@ 106.174
+# 越後 しのぶ
+JP い、いつまで見てる…じゃなくて
+JP いつから見てたんですか！？
+EN H-how long are you going to stare... I mean, how long
+EN have you been watching!?
+
+@ 106.177
+# 社 長
+JP いつって…。
+JP さっきから、だろ？
+EN How long...? For a while now, I guess?
+
+@ 106.181
+# 越後 しのぶ
+JP セ……セ……セ……。
+EN S... S... S...
+
+@ 106.193
+# 越後 しのぶ
+JP セクハラです！！
+EN Sexual harassment!!
+
+@ 106.217
+# 社 長
+JP お、おーい…。
+JP 行っちゃったよ。
+JP あのまんまで…。
+EN H-hey... She ran off. Dressed like that...
+
+@ 106.219
+# 社 長
+JP ………………。
+EN ..........
+
+@ 106.221
+# 社 長
+JP でもなぁ…。
+JP ジムでサラシを巻いていて
+JP そう言われても…。
+EN But come on... She wears a chest wrap in the gym and
+EN then says that...
+
+@ 106.235
+# 社 長
+JP （それから３日間、越後は俺を見ると
+JP 　キッと睨みつけてきた…）
+EN (For the next three days, Echigo glared daggers at
+EN me whenever she saw me...)
+
+@ 107.20
+# 社 長
+JP ん～っ……。
+JP はぁ…。
+EN Mmmh...... Phew...
+
+@ 107.22
+# 社 長
+JP あとは霧子くんが
+JP 戻ってきてからでいいか…。
+EN The rest can wait until Kiriko gets back...
+
+@ 107.24
+# 社 長
+JP （でも時間あるな…。
+JP 　よしっ、ジムに行ってみるか…）
+EN (Still, I've got time... All right, let's check on the
+EN gym...)
+
+@ 107.39
+# 社 長
+JP おつか…うぉっと！
+EN Good wo... Whoa!
+
+@ 107.53
+# 社 長
+JP （今の…越後か…？）
+EN (Was that... Echigo...?)
+
+@ 107.55
+# 社 長
+JP （また素振りだな…。
+JP 　怒鳴られる前に退散しないと…）
+EN (Doing swings again... I'd better clear out before she
+EN yells at me...)
+
+@ 107.76
+# 越後 しのぶ
+JP あっ…。
+EN Oh...
+
+@ 107.79
+# 社 長
+JP （やばっ…）
+EN (Uh-oh...)
+
+@ 107.89
+# 越後 しのぶ
+JP 社長！
+JP あ、あのっ！
+EN Boss! U-um!
+
+@ 107.92
+# 社 長
+JP お、お疲れ！
+JP ええっと…。
+JP たまたま通りかかっただけで…。
+EN G-good work! Uh... I was just passing by...
+
+@ 107.96
+# 越後 しのぶ
+JP あの、社長…。
+JP 最近の私、たるんでいるように
+JP 見えませんか？
+EN Um, Boss... Don't I look like I've been slacking off
+EN lately?
+
+@ 107.99
+# 社 長
+JP …えっ？
+JP いや、たるんでるところなんて…。
+EN ...Huh? No, I don't see any slacking...
+
+@ 107.109
+# 越後 しのぶ
+JP やっぱり…。
+EN I knew it...
+
+@ 107.112
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 107.122
+# 越後 しのぶ
+JP ハッキリ言ってください！
+JP 自分でも…わかるんです。
+JP 最近の私…。
+EN Please be honest with me! I can tell, myself... Lately,
+EN I've been...
+
+@ 107.125
+# 社 長
+JP ま、待て待て待て！
+EN W-wait, wait, wait!
+
+@ 107.127
+# 社 長
+JP そういう話はちゃんと
+JP 着換えてからにしないか！？
+EN Can we have this talk after you've changed
+EN properly!?
+
+@ 107.137
+# 越後 しのぶ
+JP ………えっ？
+EN .........Huh?
+
+@ 107.147
+# 越後 しのぶ
+JP そ、そうですね…。
+JP すみません…。
+JP すぐ着替えます。
+EN Y-you're right... I'm sorry... I'll go change right away.
+
+@ 107.150
+# 社 長
+JP ……おっ？
+JP 今日は怒らないんだな。
+EN ......Oh? You're not angry today.
+
+@ 107.160
+# 越後 しのぶ
+JP そ、それは社長が色っぽいと…。
+EN W-well, that's because you said it was sexy...
+
+@ 107.163
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 107.176
+# 越後 しのぶ
+JP な、何を言わせるんですか！？
+EN Wh-what are you making me say!?
+
+@ 107.197
+# 社 長
+JP いや、だから…。
+JP そんなこと言われても…。
+EN No, I mean... You can't blame that on me...
+
+@ 108.17
+# scene 111 練習試合 ベター２
+# 越後 しのぶ
+JP いいな、やる気を出すんだぞ！
+EN Listen up, show some fighting spirit!
+
+@ 109.16
+# scene 113 練習開始
+# 越後 しのぶ
+JP 時間です！
+JP これより今日の練習を始めます！！
+EN It's time! Today's training begins now!!
+
+@ 110.16
+# scene 114 練習開始 好意
+# 越後 しのぶ
+JP 社長は出ていってください…！
+JP 見られると集中できないんです！
+EN Boss, please leave...! I can't focus with you watching!
+
+@ 111.16
+# scene 115 特訓開始
+# 越後 しのぶ
+JP 特別扱いは…。
+JP いえ、なんでもありません。
+EN Special treatment is... No, never mind.
+
+@ 112.20
+# scene 116 特訓成功
+# 越後 しのぶ
+JP ふぅ…。
+JP 意外と悪くないかも…。
+EN Phew... That actually wasn't half bad...
+
+@ 113.20
+# scene 117 特訓失敗
+# 越後 しのぶ
+JP はぁ、はぁ、はぁ…。
+JP もうダメです…。
+EN Huff, huff, huff... I can't go on...
+
+@ 114.16
+# scene 118 休養
+# 越後 しのぶ
+JP 急に休みと言われても…。
+EN Being told to rest all of a sudden...
+
+@ 115.16
+# scene 119 入場1
+# 越後 しのぶ
+JP この鋼鉄の守り
+JP 破れるものなら破ってみろ！
+EN Break through this wall of steel, if you can!
+
+@ 116.16
+# scene 119 入場2
+# 越後 しのぶ
+JP やってやろうじゃないの！
+EN Bring it on!
+
+@ 117.17
+# scene 122 タッグマッチ ベター２
+# 越後 しのぶ
+JP お前の技術は買っている。
+JP だから…がんばれ！
+EN I have faith in your skills. So... give it your all!
+
+@ 118.16
+# scene 125 必殺技１
+# 越後 しのぶ
+JP その根性、叩き直してやる！
+EN I'll beat that attitude out of you!
+
+@ 119.16
+# scene 125 必殺技２
+# 越後 しのぶ
+JP これまで受けた技…。
+JP 百倍にして返してやる！
+EN All the moves I've taken... I'll pay them back a
+EN hundredfold!
+
+@ 120.16
+# scene 125 必殺技３
+# 越後 しのぶ
+JP 乾坤一擲の一撃、受けてみろ！
+EN Take this, everything on one blow!
+
+@ 121.12
+# scene 126 勝利1
+# 越後 しのぶ
+JP すべてを受け、最後に勝つ…。
+JP それがプロレスだ！
+EN Take everything, and win in the end... That's pro
+EN wrestling!
+
+@ 122.12
+# scene 126 勝利2
+# 越後 しのぶ
+JP もっと受け身の技術を
+JP 磨いておくべきだったな。
+EN You should have worked harder on your breakfalls.
+
+@ 123.12
+# scene 126 勝利3
+# 越後 しのぶ
+JP 鋼の魂は誰にも砕けはしない！
+EN No one can shatter a soul of steel!
+
+@ 124.15
+# scene 133 表彰1
+# 越後 しのぶ
+JP ありがとうございます。
+JP 賞に恥じぬよう、今後もがんばります。
+EN Thank you very much. I'll keep working hard to be
+EN worthy of this award.
+
+@ 125.15
+# scene 133 表彰2
+# 越後 しのぶ
+JP 私が間違っていないことが
+JP これで証明されたと信じています！
+EN I believe this proves I wasn't wrong!
+
+@ 126.12
+# scene 134 優勝1
+# 越後 しのぶ
+JP 次も優勝します！
+JP 必ず！！
+EN I'll win the next one too! Count on it!!
+
+@ 127.12
+# scene 134 優勝２
+# 越後 しのぶ
+JP 別に社長のためにじゃありません！
+JP 団体のためです、団体の！
+EN I-it's not like I did it for you, Boss! It was for the
+EN promotion, the promotion!
+
+@ 128.24
+# scene 135 エンディング 通常
+# 越後 しのぶ
+JP がんばったのは社長ではなく
+JP みんなですから…。
+JP 社長も少しはがんばりましたけど…。
+EN It was everyone who worked hard, not you, Boss...
+EN Well, you worked a little hard too...
+
+@ 129.24
+# scene 136 エンディング 好意
+# 越後 しのぶ
+JP い、一応、社長もがんばった訳だし…。
+JP お、お祝いしてあげてもいいですよ…。
+EN W-well, you did put in some effort too, Boss... S-so I
+EN suppose I could celebrate with you...

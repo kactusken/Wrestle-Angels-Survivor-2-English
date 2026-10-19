@@ -1,0 +1,95 @@
+# /SCR/219.BIN - ジョディ・ビートン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 219` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ジョディ・ビートン
+JP これできっと夢が実現できるわ！
+EN Now I can surely make my dream come true!
+
+@ 1.16
+# scene 119 入場1
+# ジョディ・ビートン
+JP 夢のために今日も勝つ！
+EN For my dream, I win again today!
+
+@ 2.16
+# scene 119 入場2
+# ジョディ・ビートン
+JP みんな…。
+JP どうか私の戦いを見守っていて！
+EN Everyone... Please watch over me as I fight!
+
+@ 3.16
+# scene 125 必殺技１
+# ジョディ・ビートン
+JP 揺るげ、マット！　揺るげ、観客！
+EN Shake, mat! Shake, crowd!
+
+@ 4.16
+# scene 125 必殺技２
+# ジョディ・ビートン
+JP 夢のためには負けられないの！
+EN I can't lose, not with my dream on the line!
+
+@ 5.16
+# scene 125 必殺技３
+# ジョディ・ビートン
+JP 家族が一つになるためにも、
+JP ここで決めないと！
+EN For my family to be together again, I have to finish it
+EN here!
+
+@ 6.12
+# scene 126 勝利1
+# ジョディ・ビートン
+JP あなたはスピリッツが
+JP たりないみたいね。
+EN Looks like you're short on spirit.
+
+@ 7.12
+# scene 126 勝利2
+# ジョディ・ビートン
+JP 私に勝つには
+JP もう少し練習が必要かな。
+EN You'll need a little more practice to beat me.
+
+@ 8.12
+# scene 126 勝利3
+# ジョディ・ビートン
+JP パパ、ママ！
+JP 見ていてくれた？
+JP 私、勝ったよ！
+EN Mom, Dad! Were you watching? I won!
+
+@ 9.15
+# scene 133 表彰1
+# ジョディ・ビートン
+JP これで私も有名レスラーの
+JP 仲間入りね！
+EN Now I'm one of the famous wrestlers too!
+
+@ 10.15
+# scene 133 表彰2
+# ジョディ・ビートン
+JP また一歩夢の実現に近づいたわ！
+EN One step closer to making my dream come true!
+
+@ 11.12
+# scene 134 優勝1
+# ジョディ・ビートン
+JP アメリカンドリームを掴んだわ！
+EN I've grabbed the American Dream!
+
+@ 12.12
+# scene 134 優勝２
+# ジョディ・ビートン
+JP もうすぐ夢が実現できるわね！
+EN My dream is almost within reach!

@@ -1,0 +1,2125 @@
+# /SCR/078.BIN - 楠木悠里
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 078` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 楠木 悠里
+JP えっと…。
+JP よろしくお願いしまーす。
+EN Um... Nice to meet you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 楠木 悠里
+JP よかった…！
+JP これからよろしくお願いします。
+EN Thank goodness...! I look forward to working with
+EN you.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 楠木 悠里
+JP そうですか…。
+JP うーん…困ったなぁ…。
+EN I see... Hmm... What do I do now...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええっと…。
+JP このあたりに有望な選手がいるって
+JP 聞いて来たけど…。
+EN Um... I heard there was a promising wrestler around
+EN here...
+
+@ 3.25
+# 社 長
+JP （資料によると
+JP 　「目標・ダークスターカオス」を
+JP 　掲げているとか…）
+EN (According to the report, her goal is "Darkstar
+EN Chaos"...)
+
+@ 3.27
+# 社 長
+JP （ずいぶん大きな目標だな。
+JP 　でも、こういう態度には
+JP 　好感が持てる）
+EN (That's quite a goal. But I like that attitude.)
+
+@ 3.29
+# 社 長
+JP （それはそうと…。
+JP 　肝心の選手はどこにいるのかな）
+EN (Anyway... Where's the wrestler herself?)
+
+@ 3.31
+# 社 長
+JP あの人に聞いてみるか。
+EN Maybe I'll ask that person.
+
+@ 3.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.43
+# ？？？
+JP …あ…。
+JP はい…。
+EN ...Ah... Yes...?
+
+@ 3.46
+# 社 長
+JP あの、このあたりに
+JP プロレスラー志望の女性がいると
+JP 聞いたんですが…？
+EN Um, I heard there's a woman around here who wants
+EN to be a pro wrestler...?
+
+@ 3.53
+# 楠木 悠里
+JP その人かは知りませんが…。
+JP ボクもそうですが…。
+EN I don't know if it's who you mean... but I want to be
+EN one.
+
+@ 3.56
+# 社 長
+JP えっ？
+JP じゃあ、ひょっとすると
+JP あなたは…。
+EN Huh? Then could it be that you're...
+
+@ 3.58
+# 社 長
+JP （幸運なことに彼女が
+JP 　今回探しに来た本人だった）
+EN (Luckily, she was the very person I'd come looking
+EN for.)
+
+@ 3.60
+# 社 長
+JP あなたの目標に
+JP 協力させてくれませんか？
+EN Would you let me help you reach your goal?
+
+@ 3.67
+# 楠木 悠里
+JP カ、カオス様と戦えるんですか…！
+EN Y-you mean I could fight Lady Chaos...!?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 楠木 悠里
+JP …よ、よろしくお願いしますっ！
+EN ...I-I'm in your hands!
+
+@ 4.22
+# 社 長
+JP （うお、いきなり握手された！）
+EN (Whoa, she grabbed my hand and shook it!)
+
+@ 4.24
+# 社 長
+JP （体がデカイから
+JP 　威圧感があるなぁ…）
+EN (She's so big, it's a little intimidating...)
+
+@ 4.31
+# 楠木 悠里
+JP 懸命にがんばります。
+JP どうか、よろしくお願いします。
+EN I'll work as hard as I can. Please take care of me.
+
+@ 4.34
+# 社 長
+JP そうですか。
+JP ありがとう。
+JP これからよろしく。
+EN Great. Thank you. I look forward to working with you.
+
+@ 5.11
+# scene 006 新人スカウト１ 失敗
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 5.22
+# 楠木 悠里
+JP …お話はありがたいんですけど。
+JP ボクはまだ未熟だから…。
+EN ...I appreciate the offer, but I'm still not good
+EN enough...
+
+@ 5.25
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （楠木選手には
+JP 　是非うちに入ってもらいたい）
+EN (I really want Kusunoki to join us.)
+
+@ 6.25
+# 社 長
+JP （なんとか説得できないだろうか）
+EN (Is there some way I can convince her?)
+
+@ 6.35
+# 楠木 悠里
+JP あ…。
+JP 社長さん。
+JP また来たんですか。
+EN Ah... Mister President. You came again?
+
+@ 6.38
+# 社 長
+JP ええ。
+JP どうですか？
+JP 一緒にあなたの夢を実現しませんか。
+EN Yes. How about it? Won't you make your dream come
+EN true with us?
+
+@ 6.45
+# 楠木 悠里
+JP うわ…。
+JP どうしようかな…。
+EN Wow... What should I do...
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 楠木 悠里
+JP …よ、よろしくお願いしますっ！
+EN ...I-I'm in your hands!
+
+@ 7.22
+# 社 長
+JP （うお、いきなり握手された！）
+EN (Whoa, she grabbed my hand and shook it!)
+
+@ 7.24
+# 社 長
+JP （体がデカイから
+JP 　威圧感があるなぁ…）
+EN (She's so big, it's a little intimidating...)
+
+@ 7.31
+# 楠木 悠里
+JP 懸命にがんばります。
+JP どうか、よろしくお願いします。
+EN I'll work as hard as I can. Please take care of me.
+
+@ 7.34
+# 社 長
+JP そうですか。
+JP ありがとう。
+JP これからよろしく。
+EN Great. Thank you. I look forward to working with you.
+
+@ 8.11
+# scene 009 新人スカウト ２回目以降  失敗
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 8.22
+# 楠木 悠里
+JP …お話はありがたいんですけど。
+JP ボクはまだ未熟だから…。
+EN ...I appreciate the offer, but I'm still not good
+EN enough...
+
+@ 8.25
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （楠木選手のパワフルさは
+JP 　うちの団体にとって魅力的だ）
+EN (Kusunoki's raw power would be a great asset to my
+EN promotion.)
+
+@ 9.25
+# 社 長
+JP （ダークスターカオスを
+JP 　目指しているらしいから
+JP 　是非応援したいしな）
+EN (And she's apparently aiming for Darkstar Chaos, so
+EN I'd love to back her.)
+
+@ 9.27
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 9.29
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 9.39
+# 楠木 悠里
+JP あ、ええと…？
+EN Ah, um...?
+
+@ 9.42
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.49
+# 楠木 悠里
+JP …つまり、引き抜きってこと？
+EN ...So you're trying to poach me?
+
+@ 9.52
+# 社 長
+JP そうです。
+JP どうでしょうか！？
+EN That's right. What do you say!?
+
+@ 9.59
+# 楠木 悠里
+JP なんか今の団体に悪いみたいで…。
+EN It feels kind of unfair to my current promotion...
+
+@ 9.62
+# 社 長
+JP お願いします。
+JP 是非うちの団体に力を貸してください。
+EN Please. I'd really like you to lend your strength to my
+EN promotion.
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# 楠木 悠里
+JP …そうだなあ。
+JP たしかに今の団体じゃ
+JP 伸び悩んでるし…。
+EN ...Well, it's true I've kind of stalled where I am now...
+
+@ 10.18
+# 社 長
+JP …えっ！？
+JP では…。
+EN ...Huh!? Then...
+
+@ 10.29
+# 楠木 悠里
+JP 社長さんのところに移ります。
+JP よろしくお願いします。
+EN I'll move to your promotion, Mister President. Please
+EN take care of me.
+
+@ 10.32
+# 社 長
+JP それはよかった。
+JP こちらこそ、よろしく。
+EN Great. I look forward to working with you too.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 楠木 悠里
+JP やっぱり今の団体には
+JP 恩があるから…。
+EN I still owe my current promotion a lot...
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　楠木選手が必要だ）
+EN (My promotion really does need Kusunoki.)
+
+@ 12.25
+# 社 長
+JP （俺はもう一度
+JP 　交渉を試みることにした）
+EN (I decided to try negotiating once more.)
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 楠木 悠里
+JP ああ、社長さん。
+JP また、移籍の話？
+EN Oh, Mister President. Another transfer talk?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちに入って欲しくて…。
+EN Yes. I just really want you to join us...
+
+@ 12.47
+# 楠木 悠里
+JP うわ…困ったな…。
+EN Wow... What do I do...
+
+@ 12.50
+# 社 長
+JP 是非考え直してもらえませんか。
+EN Won't you please reconsider?
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# 楠木 悠里
+JP …そうだなあ。
+JP たしかに今の団体じゃ
+JP 伸び悩んでるし…。
+EN ...Well, it's true I've kind of stalled where I am now...
+
+@ 13.18
+# 社 長
+JP …えっ！？
+JP では…。
+EN ...Huh!? Then...
+
+@ 13.29
+# 楠木 悠里
+JP 社長さんのところに移ります。
+JP よろしくお願いします。
+EN I'll move to your promotion, Mister President. Please
+EN take care of me.
+
+@ 13.32
+# 社 長
+JP それはよかった。
+JP こちらこそ、よろしく。
+EN Great. I look forward to working with you too.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 楠木 悠里
+JP やっぱり今の団体には
+JP 恩があるから…。
+EN I still owe my current promotion a lot...
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （楠木選手…。
+JP 　ダークスターカオスを目標に
+JP 　デビューしたパワー型の選手だ）
+EN (Kusunoki... A power wrestler who debuted with
+EN Darkstar Chaos as her goal.)
+
+@ 15.25
+# 社 長
+JP （この個性とパワーを
+JP 　是非うちの団体に加えたい）
+EN (I'd love to add that personality and power to my
+EN promotion.)
+
+@ 15.27
+# 社 長
+JP （たしかこのあたりで
+JP 　トレーニングを…あっ、いた！）
+EN (She should be training around here... Ah, there she
+EN is!)
+
+@ 15.29
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 15.39
+# 楠木 悠里
+JP …ええと…。
+JP 誰でしたっけ？
+EN ...Um... Who were you again?
+
+@ 15.42
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.49
+# 楠木 悠里
+JP 社長さんの団体に
+JP 入れってことですか？
+EN You mean you want me to join your promotion?
+
+@ 15.52
+# 社 長
+JP はい。
+JP どうでしょう？
+EN Yes. What do you think?
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# 楠木 悠里
+JP うん…。
+JP たしかに一人でやるよりも
+JP 近道かもしれない…。
+EN Hmm... I guess it could be a shortcut compared to
+EN going it alone...
+
+@ 16.18
+# 社 長
+JP …では？
+EN ...So?
+
+@ 16.29
+# 楠木 悠里
+JP これからお世話になります。
+JP よろしくお願いします。
+EN I'll be in your care from now on. Please take care of
+EN me.
+
+@ 16.32
+# 社 長
+JP それはよかった。
+JP こちらこそ、よろしく。
+EN Great. I look forward to working with you too.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 楠木 悠里
+JP 自分は一人の方が
+JP 性に合っているから…。
+JP ごめんなさい。
+EN Being on my own suits me better... Sorry.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには楠木選手が必要だ）
+EN (My promotion really does need Kusunoki.)
+
+@ 18.25
+# 社 長
+JP （俺はもう一度
+JP 　楠木選手と交渉することにした）
+EN (I decided to negotiate with her once more.)
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 楠木 悠里
+JP あ、社長さん。
+EN Ah, Mister President.
+
+@ 18.40
+# 社 長
+JP 以前のお話
+JP もう一度お願いにあがりました。
+EN I've come to ask you once more about what we
+EN discussed before.
+
+@ 18.47
+# 楠木 悠里
+JP 入団の話？
+JP うわぁ、どうしようかな…。
+EN About joining? Wow, what should I do...
+
+@ 18.50
+# 社 長
+JP 大きな目標を果たすために
+JP 一緒にがんばっていきませんか。
+EN Why not work together with us to reach that big
+EN goal of yours?
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# 楠木 悠里
+JP うん…。
+JP たしかに一人でやるよりも
+JP 近道かもしれない…。
+EN Hmm... I guess it could be a shortcut compared to
+EN going it alone...
+
+@ 19.18
+# 社 長
+JP …では？
+EN ...So?
+
+@ 19.29
+# 楠木 悠里
+JP これからお世話になります。
+JP よろしくお願いします。
+EN I'll be in your care from now on. Please take care of
+EN me.
+
+@ 19.32
+# 社 長
+JP それはよかった。
+JP こちらこそ、よろしく。
+EN Great. I look forward to working with you too.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 楠木 悠里
+JP 自分は一人の方が
+JP 性に合っているから…。
+JP ごめんなさい。
+EN Being on my own suits me better... Sorry.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP たしかこのあたりに…あっ、楠木っ！
+EN She should be around here... Ah, Kusunoki!
+
+@ 21.33
+# 楠木 悠里
+JP ああ、社長…。
+EN Oh, Boss...
+
+@ 21.36
+# 社 長
+JP 実は…楠木に戻って欲しくて
+JP ここまで来たんだ。
+EN The truth is... I came all this way because I want you
+EN back, Kusunoki.
+
+@ 21.43
+# 楠木 悠里
+JP …えっ、そうなの！？
+JP でも、この間は…。
+EN ...Huh, really!? But last time...
+
+@ 21.46
+# 社 長
+JP あのときはすまなかった。
+JP もう一度力を貸してくれないか？
+EN I'm sorry about that. Won't you lend us your
+EN strength once more?
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 楠木 悠里
+JP いいよ。
+JP 一度結ばれた絆だからね。
+JP 大切にしたい。
+EN Okay. Once a bond is made, I want to treasure it.
+
+@ 22.22
+# 社 長
+JP そうか。
+JP ありがとう。
+EN I see. Thank you.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 楠木 悠里
+JP 悪いけど、別の仕事を始めたんだ。
+EN Sorry, but I've started another job.
+
+@ 23.22
+# 社 長
+JP そうなのか？
+EN Is that so?
+
+@ 23.29
+# 楠木 悠里
+JP カオス様とは戦いたいけど
+JP 自分にも生活があるからね。
+EN I still want to fight Lady Chaos, but I've got a living
+EN to make too.
+
+@ 23.32
+# 社 長
+JP …そうか。
+JP 仕方ないな。
+EN ...I see. It can't be helped.
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだ。
+JP 　今日のところは引き上げよう…）
+EN (I brought this on myself. I'll call it a day for now...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 楠木っ！
+EN Kusunoki!
+
+@ 24.33
+# 楠木 悠里
+JP ああ、社長。
+JP また来てくれたんだ。
+EN Oh, Boss. You came again.
+
+@ 24.36
+# 社 長
+JP 改めて頼むが、戻ってくれないか？
+EN I'm asking you again. Won't you come back?
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 楠木 悠里
+JP いいよ。
+JP 一度結ばれた絆だからね。
+JP 大切にしたい。
+EN Okay. Once a bond is made, I want to treasure it.
+
+@ 25.22
+# 社 長
+JP そうか。
+JP ありがとう。
+EN I see. Thank you.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 楠木 悠里
+JP 悪いけど、別の仕事を始めたんだ。
+EN Sorry, but I've started another job.
+
+@ 26.22
+# 社 長
+JP そうなのか？
+EN Is that so?
+
+@ 26.29
+# 楠木 悠里
+JP カオス様とは戦いたいけど
+JP 自分にも生活があるからね。
+EN I still want to fight Lady Chaos, but I've got a living
+EN to make too.
+
+@ 26.32
+# 社 長
+JP …そうか。
+JP 仕方ないな。
+EN ...I see. It can't be helped.
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだ。
+JP 　今日のところは引き上げよう…）
+EN (I brought this on myself. I'll call it a day for now...)
+
+@ 27.16
+# scene 028 ケガ小
+# 楠木 悠里
+JP …こんなのケガとは呼べないよ。
+EN ...You can't even call this an injury.
+
+@ 28.16
+# scene 029 ケガ大
+# 楠木 悠里
+JP これは…少し休むしかないなぁ…。
+EN This... I guess I'll just have to rest for a bit...
+
+@ 29.16
+# scene 030 入院
+# 楠木 悠里
+JP 仕方ない。
+JP しっかり治してくるよ。
+EN Can't be helped. I'll make sure I heal up properly.
+
+@ 30.16
+# scene 031 退院
+# 楠木 悠里
+JP ただいま。
+JP ちゃんと治してきたよ。
+EN I'm back. I'm all healed up.
+
+@ 31.16
+# scene 032 ケガ完治
+# 楠木 悠里
+JP なんとか治ったみたいだね。
+JP ほっとしたよ。
+EN Looks like I've healed somehow. What a relief.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 楠木 悠里
+JP うん…。
+JP たしかにそうすべき時期だよね。
+EN Yeah... It really is about time, isn't it.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 楠木 悠里
+JP まだやるべきことが
+JP 残っている気がする…。
+EN I feel like there's still something I need to do...
+
+@ 34.16
+# scene 035 コーチ就任
+# 楠木 悠里
+JP みんな、仲良くやろう。
+EN Everyone, let's all get along.
+
+@ 35.16
+# scene 036 ケガ引退
+# 楠木 悠里
+JP 残念だけど、もうダメみたいだね。
+EN It's a shame, but it looks like I'm done.
+
+@ 36.16
+# scene 037 年齢引退
+# 楠木 悠里
+JP 精一杯やれたと思う。
+JP 後悔はしてないよ。
+EN I think I gave it everything I had. No regrets.
+
+@ 37.16
+# scene 038 退団
+# 楠木 悠里
+JP これまでありがとう。
+JP 楽しかったよ。
+EN Thanks for everything. It was fun.
+
+@ 38.16
+# scene 039 スランプ
+# 楠木 悠里
+JP いったい何が足りないんだ…？
+EN What on earth am I missing...?
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 楠木 悠里
+JP ファンクラブ…？
+EN A fan club...?
+
+@ 39.19
+# 社 長
+JP 応援に負けないよう
+JP がんばれよ。
+EN Work hard so you're worthy of their support.
+
+@ 39.26
+# 楠木 悠里
+JP うん。
+JP じゃあ、早速挨拶してくるよ。
+EN Okay. I'll go say hello to them right away.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 楠木 悠里
+JP ファンクラブ？
+JP またできたの？
+EN A fan club? Another one?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# 楠木 悠里
+JP 多くの人に喜んでもらえるなんて
+JP 本当に嬉しいね。
+EN Making so many people happy... That really makes me
+EN glad.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 楠木 悠里
+JP ファンクラブ…解散しちゃったの…？
+EN The fan club... disbanded...?
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. Just keep working hard.
+
+@ 41.26
+# 楠木 悠里
+JP カオス様なら
+JP こんな無様なことはしないよね…。
+EN Lady Chaos would never do something so pathetic...
+
+@ 42.16
+# scene 043 映画出演
+# 楠木 悠里
+JP 台詞、ちゃんと覚えられるかなぁ。
+EN I wonder if I can remember all my lines.
+
+@ 43.16
+# scene 044 一日署長
+# 楠木 悠里
+JP いいイベントだと思うよ。
+JP がんばってくる。
+EN I think it's a good event. I'll do my best.
+
+@ 44.16
+# scene 045 写真集発売
+# 楠木 悠里
+JP 大自然の息吹を
+JP 思い切り感じてきたいな。
+EN I want to feel the breath of nature to my heart's
+EN content.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 楠木 悠里
+JP あっ、このスポンサー
+JP エコに熱心なんだよね。
+JP 是非やらせて。
+EN Oh, this sponsor is really big on eco stuff. Please let
+EN me do it.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 楠木 悠里
+JP 歌は好きなんだ。
+JP 楽しみだね。
+EN I love singing. I'm looking forward to it.
+
+@ 47.16
+# scene 048 始球式
+# 楠木 悠里
+JP わかった。
+JP 練習しておくよ。
+EN Got it. I'll practice.
+
+@ 48.16
+# scene 049 学園祭
+# 楠木 悠里
+JP 何をすればいいの？
+JP 立ってるだけじゃダメだよね？
+EN What should I do there? Just standing around won't
+EN cut it, right?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here's a birthday present.
+
+@ 49.38
+# 楠木 悠里
+JP あ、ありがとう！
+JP 感謝するよ。
+EN Th-thank you! I really appreciate it.
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 50.32
+# scene 051 バレンタインデー
+# 楠木 悠里
+JP 社長。
+JP チョコあげるよ。
+EN Boss. Here's some chocolate.
+
+@ 50.35
+# 社 長
+JP えっ？
+JP あぁ、バレンタインのチョコか。
+EN Huh? Oh, Valentine's chocolate.
+
+@ 50.42
+# 楠木 悠里
+JP カカオ１００パーセントなんだよ。
+EN It's 100 percent cacao.
+
+@ 50.45
+# 社 長
+JP ああ、おまえらしいな。
+EN Ha, that's just like you.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼、受け取ってくれるか？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# 楠木 悠里
+JP …えっ？
+JP …あ、ありがとう。
+EN ...Huh? ...Th-thank you.
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between practices.
+
+@ 52.31
+# scene 053 サイン会
+# 楠木 悠里
+JP ありがとう。
+JP もっとがんばるよ。
+EN Thank you. I'll work even harder.
+
+@ 53.31
+# scene 054 コンサート
+# 楠木 悠里
+JP これは自然のすばらしさについて
+JP 唱った歌なんだ。
+EN This is a song about the wonders of nature.
+
+@ 54.28
+# scene 055 練習拒否
+# 楠木 悠里
+JP フゥ～……。
+EN Phewww......
+
+@ 55.28
+# scene 056 失踪
+# 楠木 悠里
+JP 森の息吹に触れてくるよ…。
+EN I'm going to go feel the breath of the forest...
+
+@ 56.16
+# scene 057 選手解雇
+# 楠木 悠里
+JP …わかった。
+JP 社長の判断なら仕方ないよね。
+EN ...Okay. If that's your decision, Boss, I guess it can't
+EN be helped.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 楠木 悠里
+JP カオス様に会えるかな…。
+EN I wonder if I'll get to meet Lady Chaos...
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 楠木 悠里
+JP 世界は広いね～。
+JP いい勉強になったよ。
+EN The world sure is big. I learned a lot.
+
+@ 59.28
+# scene 060 移籍思案
+# 楠木 悠里
+JP う～ん…。
+JP 困ったな…。
+EN Hmmm... What do I do...
+
+@ 60.16
+# scene 061 革命軍結成
+# 楠木 悠里
+JP カオス様だって、必ずこうするさ！
+EN Lady Chaos would surely do the same!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 楠木 悠里
+JP カオス様なら、絶対にこうするさ！
+EN Lady Chaos would definitely do this!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 楠木 悠里
+JP 争いを長引かせてはダメだ。
+JP 決着をつけよう。
+EN We can't let this fight drag on. Let's settle it.
+
+@ 63.16
+# scene 064 遺恨発生
+# 楠木 悠里
+JP ケンカなんてしたくない。
+JP …したくないけど…。
+EN I don't want to fight. ...I don't want to, but...
+
+@ 64.16
+# scene 065 殴り込み
+# 楠木 悠里
+JP カオス様に届くくらい
+JP アピールしてくるよ！
+EN I'll make an impression big enough to reach Lady
+EN Chaos!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 楠木 悠里
+JP カオス様に比べたら
+JP あんな連中怖くないよ！
+EN Compared to Lady Chaos, that bunch doesn't scare
+EN me!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 楠木 悠里
+JP さあ、正々堂々と戦おう！
+EN Come on, let's have a fair and square fight!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 楠木 悠里
+JP この戦いにボクのすべてを捧げる。
+EN I'll give everything I have to this fight.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 楠木 悠里
+JP みんなのおかげで勝てました。
+JP ありがとう。
+EN I won thanks to all of you. Thank you.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 楠木 悠里
+JP 努力が足りなかったよ。
+JP みんな、ごめん…。
+EN I didn't work hard enough. Sorry, everyone...
+
+@ 70.13
+# scene 071 引退式
+# 楠木 悠里
+JP ボクが引退した後も
+JP この団体を愛し続けて欲しい。
+JP お願いだよ。
+EN Even after I retire, I hope you'll keep loving this
+EN promotion. Please.
+
+@ 71.18
+# 楠木 悠里
+JP はい、なんでしょうか？
+EN Yes, what is it?
+
+@ 71.37
+# 楠木 悠里
+JP …なに？
+EN ...What is it?
+
+@ 71.47
+# 楠木 悠里
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 71.90
+# 楠木 悠里
+JP うん。
+JP これも社長のおかげだね。
+EN Yeah. It's all thanks to you, Boss.
+
+@ 71.111
+# 楠木 悠里
+JP まだまだだよ。
+JP こんなんじゃ、カオス様には…。
+EN I've got a long way to go. At this rate, Lady Chaos
+EN is...
+
+@ 71.132
+# 楠木 悠里
+JP …う、嬉しいけど
+JP ちょっと照れちゃうな。
+EN ...I-I'm happy, but it's a little embarrassing.
+
+@ 71.153
+# 楠木 悠里
+JP 慰めないで。
+JP 自分の状態ぐらいわかってるから。
+EN Don't try to cheer me up. I know what shape I'm in.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Aren't you slacking off a little lately?
+
+@ 71.190
+# 楠木 悠里
+JP そうかもね。
+JP ダメだね、こんなんじゃ。
+EN Maybe so. This is no good.
+
+@ 71.211
+# 楠木 悠里
+JP うーん…。
+JP そんなつもりなかったんだけど…。
+EN Hmm... I didn't mean to, though...
+
+@ 71.232
+# 楠木 悠里
+JP たしかに！
+JP 嬉しいな、今の言葉。
+EN You're right! I'm glad you said that.
+
+@ 71.253
+# 楠木 悠里
+JP もう少し待ってくれない？
+JP 必ず結果を出すから…。
+EN Could you wait a little longer? I'll get results, I
+EN promise...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very energetic lately. Are you
+EN all right?
+
+@ 71.290
+# 楠木 悠里
+JP 大丈夫。
+JP まだまだ元気だよ。
+EN I'm fine. I've still got plenty of energy.
+
+@ 71.311
+# 楠木 悠里
+JP 実はちょっと…ね。
+JP 色々あって…。
+EN Actually, it's just... you know. A lot's been going on...
+
+@ 71.332
+# 楠木 悠里
+JP 気を遣わせちゃったかな。
+JP でも、嬉しいな。
+EN Did I make you worry? Still, I'm glad.
+
+@ 71.353
+# 楠木 悠里
+JP ごめん、心配かけて…。
+JP こんなんじゃ…お荷物だよね…。
+EN Sorry for worrying you... At this rate... I'm just dead
+EN weight...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 楠木 悠里
+JP …うん。ごめん。
+EN ...Yeah. Sorry.
+
+@ 71.400
+# 楠木 悠里
+JP わからないんだけど。
+JP なに？
+EN I don't know. What is it?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 楠木 悠里
+JP わかった。
+JP ちゃんと話し合ってみるよ。
+EN Got it. I'll try talking it out properly.
+
+@ 71.454
+# 楠木 悠里
+JP 今すぐは…。
+JP 争うのは嫌いだけど…。
+EN Not right now... I hate fighting, but...
+
+@ 71.475
+# 楠木 悠里
+JP 今日の社長、なんだか変だよ？
+EN You're acting kind of weird today, Boss.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 楠木 悠里
+JP …うん。
+EN ...Yeah.
+
+@ 71.522
+# 楠木 悠里
+JP な、何か特別な用事…？
+EN I-is it something special...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 楠木 悠里
+JP ごめん。
+JP ボクが悪かった。
+JP ちゃんと仲直りするから…。
+EN Sorry. It was my fault. I'll make up with her properly...
+
+@ 71.578
+# 楠木 悠里
+JP ボクもケンカは嫌いだけど…。
+JP でも、今回のことは…。
+EN I hate fighting too, but... this time...
+
+@ 71.599
+# 楠木 悠里
+JP 当たり前じゃない。
+JP 用事って、そんなことなの？
+EN Of course I do. Is that what you called me for?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 楠木 悠里
+JP …なに？
+EN ...What is it?
+
+@ 72.16
+# 楠木 悠里
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 楠木 悠里
+JP うん。これも社長のおかげだね。
+EN Yeah. It's all thanks to you, Boss.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 楠木 悠里
+JP まだまだだよ。
+JP こんなんじゃ、カオス様には…。
+EN I've got a long way to go. At this rate, Lady Chaos
+EN is...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 楠木 悠里
+JP …う、嬉しいけど、
+JP ちょっと照れちゃうな。
+EN ...I-I'm happy, but it's a little embarrassing.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 楠木 悠里
+JP 慰めないで。
+JP 自分の状態ぐらいわかってるから。
+EN Don't try to cheer me up. I know what shape I'm in.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Aren't you slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 楠木 悠里
+JP そうかもね。
+JP ダメだね、こんなんじゃ。
+EN Maybe so. This is no good.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 楠木 悠里
+JP うーん…。
+JP そんなつもりなかったんだけど…。
+EN Hmm... I didn't mean to, though...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 楠木 悠里
+JP たしかに！
+JP 嬉しいな、今の言葉。
+EN You're right! I'm glad you said that.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 楠木 悠里
+JP もう少し待ってくれない？
+JP 必ず結果を出すから…。
+EN Could you wait a little longer? I'll get results, I
+EN promise...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You haven't seemed very energetic lately. Are you
+EN all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 楠木 悠里
+JP 大丈夫。
+JP まだまだ元気だよ。
+EN I'm fine. I've still got plenty of energy.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 楠木 悠里
+JP 実はちょっと…ね。
+JP 色々あって…。
+EN Actually, it's just... you know. A lot's been going on...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 楠木 悠里
+JP 気を遣わせちゃったかな。
+JP でも、嬉しいな。
+EN Did I make you worry? Still, I'm glad.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 楠木 悠里
+JP ごめん、心配かけて…。
+JP こんなんじゃ…お荷物だよね…。
+EN Sorry for worrying you... At this rate... I'm just dead
+EN weight...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 楠木 悠里
+JP …うん。ごめん。
+EN ...Yeah. Sorry.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 楠木 悠里
+JP わからないんだけど。
+JP なに？
+EN I don't know. What is it?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 楠木 悠里
+JP わかった。
+JP ちゃんと話し合ってみるよ。
+EN Got it. I'll try talking it out properly.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 楠木 悠里
+JP 今すぐは…。
+JP 争うのは嫌いだけど……。
+EN Not right now... I hate fighting, but...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 楠木 悠里
+JP 今日の社長、なんだかヘンだよ？
+EN You're acting kind of weird today, Boss.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 楠木 悠里
+JP …うん。
+EN ...Yeah.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 楠木 悠里
+JP な、何か特別な用事…？
+EN I-is it something special...?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 楠木 悠里
+JP ごめん。
+JP ボクが悪かった。
+JP ちゃんと仲直りするから…。
+EN Sorry. It was my fault. I'll make up with her properly...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 楠木 悠里
+JP ボクもケンカは嫌いだけど…。
+JP でも、今回のことは……。
+EN I hate fighting too, but... this time...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 楠木 悠里
+JP 当たり前じゃない。
+JP 用事って、そんなことなの？
+EN Of course I do. Is that what you called me for?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 楠木 悠里
+JP ありがとう。
+JP がんばるよ。
+EN Thank you. I'll do my best.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 楠木 悠里
+JP 嬉しいな。
+JP このお金、自然のために
+JP 使わせてもらうね。
+EN I'm so glad. I'll use this money to help nature.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 楠木 悠里
+JP お金は第一じゃないけど…。
+JP 厳しいなあ…。
+EN Money isn't everything, but... this is tough...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Everyone seems to be having fun.)
+
+@ 105.32
+# 社 長
+JP （さて…俺はのんびりしているか）
+EN (Now then... I think I'll just relax.)
+
+@ 105.47
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.51
+# ？？？
+JP フッ…フッ……！
+EN Hff... Hff......!
+
+@ 105.54
+# 社 長
+JP （…なんだ、この声？）
+EN (...What's that sound?)
+
+@ 105.63
+# 社 長
+JP …楠木か？
+JP 何やってるんだ？
+EN ...Kusunoki? What are you doing?
+
+@ 105.67
+# 楠木 悠里
+JP あっ、社長。
+JP もしかして起こしちゃった？
+EN Ah, Boss. Did I wake you?
+
+@ 105.70
+# 社 長
+JP それはいいんだが…。
+JP 何してるんだ？
+EN That's fine, but... What are you doing?
+
+@ 105.80
+# 楠木 悠里
+JP 見ての通り、トレーニングだよ。
+EN Training, as you can see.
+
+@ 105.83
+# 社 長
+JP …せっかくのバカンスなんだし
+JP ゆっくりしたらどうなんだ？
+EN ...We're on vacation. Why not take it easy?
+
+@ 105.93
+# 楠木 悠里
+JP うーん。
+JP カオス様との戦いのことを考えたら
+JP 休んでいられなくて…。
+EN Hmm. When I think about fighting Lady Chaos, I just
+EN can't sit still...
+
+@ 105.96
+# 社 長
+JP （…やれやれ）
+EN (...Good grief.)
+
+@ 105.98
+# 社 長
+JP そういえばそのダンベル
+JP どうしたんだ？
+EN By the way, where'd you get those dumbbells?
+
+@ 105.108
+# 楠木 悠里
+JP ああ、これ？
+JP 免税店で売っていたから
+JP 買ってきちゃった。
+EN Oh, these? They were selling them at the duty-free
+EN shop, so I bought them.
+
+@ 105.111
+# 社 長
+JP （免税店でダンベルを
+JP 　売ってるのか…）
+EN (The duty-free shop sells dumbbells...?)
+
+@ 105.115
+# 楠木 悠里
+JP 一目で気に入ったんだ。
+EN I fell in love with them at first sight.
+
+@ 105.119
+# 楠木 悠里
+JP 手触りのしっくりした感触や
+JP 負荷がたまらないんだ。
+JP これはいい品物だよ。
+EN The way they feel in my hands, the weight... They're
+EN just perfect. These are quality goods.
+
+@ 105.122
+# 社 長
+JP そうか…。
+JP よっぽど気に入ったんだな。
+EN I see... You must really like them.
+
+@ 105.124
+# 社 長
+JP …って。待てよ？
+EN ...Wait a second.
+
+@ 105.126
+# 社 長
+JP だけど持って帰れないかも
+JP しれないぞ？
+EN You might not be able to take them home, though.
+
+@ 105.136
+# 楠木 悠里
+JP どうして？
+EN Why not?
+
+@ 105.139
+# 社 長
+JP だってほら、金属センサーで
+JP ひっかかるかもしれないしさ。
+EN Well, you know, they might set off the metal detector.
+
+@ 105.143
+# 楠木 悠里
+JP 社長、どうにかならない！？
+EN Boss, can't you do something!?
+
+@ 105.146
+# 社 長
+JP どうにかと言われてもな…。
+EN Even if you ask me to do something...
+
+@ 105.156
+# 楠木 悠里
+JP そんな…。
+JP せっかくのお気に入りだったのに…。
+EN No way... And they were my favorites...
+
+@ 105.159
+# 社 長
+JP （…やれやれ。
+JP 　弱ったな…）
+EN (...Good grief. What a fix...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （さて、見回りもここで最後か）
+EN (Well, this is the last stop on my rounds.)
+
+@ 106.26
+# 社 長
+JP （さっさと終わらせて帰ろう）
+EN (Let's wrap this up and head home.)
+
+@ 106.28
+# 社 長
+JP （…んっ…明かり？）
+EN (...Hm... A light?)
+
+@ 106.30
+# 社 長
+JP （キッチンの方か？
+JP 　誰かいるのか？）
+EN (From the kitchen? Is someone there?)
+
+@ 106.32
+# 社 長
+JP よ、よし、入るぞ…。
+EN O-okay, here I go...
+
+@ 106.57
+# 社 長
+JP ……楠木！？
+EN ......Kusunoki!?
+
+@ 106.61
+# 楠木 悠里
+JP ……あっ。
+EN ......Ah.
+
+@ 106.64
+# 社 長
+JP …おまえは何をしているんだ？
+EN ...What are you doing?
+
+@ 106.68
+# 楠木 悠里
+JP えっと…お腹が空いて…。
+EN Um... I got hungry...
+
+@ 106.71
+# 社 長
+JP それで盗み食いか。
+JP しょうがないヤツだな。
+EN So you're sneaking food. You're hopeless.
+
+@ 106.73
+# 社 長
+JP ちゃんと夕飯を食わなかったのか？
+EN Didn't you eat dinner?
+
+@ 106.77
+# 楠木 悠里
+JP それはもちろん食べたよ。
+EN Of course I did.
+
+@ 106.80
+# 社 長
+JP （そんな自慢げに言われてもな）
+EN (No need to sound so proud of it.)
+
+@ 106.90
+# 楠木 悠里
+JP 体が大きいと
+JP 燃費が悪くて困っちゃうよね。
+EN Being big means bad fuel economy. It's such a pain.
+
+@ 106.94
+# 楠木 悠里
+JP あははははは…。
+EN Ahahahaha...
+
+@ 106.97
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.99
+# 社 長
+JP （笑うところか？）
+EN (Is that supposed to be funny?)
+
+@ 106.109
+# 楠木 悠里
+JP それに社長だって
+JP 「食べるのも仕事の内」って
+JP 言ってたよね。
+EN Besides, Boss, you said "eating is part of the job,"
+EN right?
+
+@ 106.112
+# 社 長
+JP そんなことを
+JP 言った気もするな。
+EN I suppose I might have said that.
+
+@ 106.116
+# 楠木 悠里
+JP 今はそれを実践してたんだよ！
+EN I was just putting it into practice!
+
+@ 106.119
+# 社 長
+JP それで盗み食いか？
+EN By sneaking food?
+
+@ 106.129
+# 楠木 悠里
+JP あははは…。
+EN Ahahaha...
+
+@ 106.132
+# 社 長
+JP ばれたら寮長に怒られるぞ。
+EN If you get caught, the dorm mother will be furious.
+
+@ 106.142
+# 楠木 悠里
+JP …えっ！
+JP それは困るよ。
+EN ...Huh! That'd be bad.
+
+@ 106.146
+# 楠木 悠里
+JP お願い！
+JP 社長、内緒にして？
+EN Please! Boss, keep it a secret?
+
+@ 106.149
+# 社 長
+JP まったく…。
+JP 仕方ないな。
+JP ちゃんと片付けておけよ。
+EN Honestly... Fine. Just make sure you clean up.
+
+@ 106.159
+# 楠木 悠里
+JP アリガト、社長。
+JP ばれないように片付けておくから。
+EN Thanks, Boss. I'll clean up so no one finds out.
+
+@ 106.176
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.178
+# 社 長
+JP やれやれ…。
+EN Good grief...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （さて、見回りもここで最後か）
+EN (Well, this is the last stop on my rounds.)
+
+@ 107.26
+# 社 長
+JP （…んっ…明かり？）
+EN (...Hm... A light?)
+
+@ 107.28
+# 社 長
+JP （この時間は
+JP 　みんな寝てるはずだよな？）
+EN (Everyone should be asleep at this hour, right?)
+
+@ 107.30
+# 社 長
+JP （キッチンの方か？
+JP 　…まさか）
+EN (From the kitchen? ...Don't tell me.)
+
+@ 107.55
+# 社 長
+JP ……またおまえか。
+EN ......You again?
+
+@ 107.59
+# 楠木 悠里
+JP …あっ、社長。
+JP 今日もご苦労様。
+EN ...Ah, Boss. Thanks for all your hard work today.
+
+@ 107.62
+# 社 長
+JP いや、そんなことより
+JP また盗み食いなのか？
+EN Never mind that. Are you sneaking food again?
+
+@ 107.66
+# 楠木 悠里
+JP それは誤解だよ。
+EN That's a misunderstanding.
+
+@ 107.69
+# 社 長
+JP じゃあ、なんだ？
+EN Then what is it?
+
+@ 107.73
+# 楠木 悠里
+JP 社長が遅くまで
+JP 仕事しているようだったから…。
+EN You looked like you were working late, Boss...
+
+@ 107.77
+# 楠木 悠里
+JP 夜食でも持って行こうと
+JP 思ったんだ。
+EN So I thought I'd bring you a late-night snack.
+
+@ 107.80
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.82
+# 社 長
+JP そうだったのか。
+JP ありがとう。
+EN Oh, I see. Thank you.
+
+@ 107.92
+# 楠木 悠里
+JP そんな。
+JP 気にしないでよ。
+EN Oh, it's nothing. Don't mention it.
+
+@ 107.95
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.97
+# 社 長
+JP まあ、それはいいんだが…。
+EN Well, that's all fine, but...
+
+@ 107.100
+# 社 長
+JP その頬に残っている
+JP 食べかすについては
+JP どんな説明が聞けるんだ？
+EN How do you explain the crumbs still on your cheek?
+
+@ 107.110
+# 楠木 悠里
+JP ああ。
+JP ええと…これはつまり……。
+EN Ah. Um... This is, you know......
+
+@ 107.120
+# 楠木 悠里
+JP 「もののついで」という
+JP やつじゃないかな？
+EN What you'd call "while I was at it," maybe?
+
+@ 107.124
+# 楠木 悠里
+JP あははははは…。
+EN Ahahahaha...
+
+@ 107.141
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.143
+# 社 長
+JP ……やれやれ。
+EN ......Good grief.
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 楠木 悠里
+JP ああ！
+JP 今日はなんて幸せな日なんだろう！
+EN Ah! What a happy day this is!
+
+@ 109.16
+# scene 113 練習開始
+# 楠木 悠里
+JP さあ、練習だ。
+JP がんばろう。
+EN All right, time to practice. Let's do our best.
+
+@ 110.16
+# scene 114 練習開始 好意
+# 楠木 悠里
+JP 社長、見ててもらっていいかな？
+EN Boss, would you mind watching me?
+
+@ 111.16
+# scene 115 特訓開始
+# 楠木 悠里
+JP カオス様に近づくために！
+EN To get closer to Lady Chaos!
+
+@ 112.20
+# scene 116 特訓成功
+# 楠木 悠里
+JP いい時間を過ごせたと思うよ。
+EN I think that was time well spent.
+
+@ 113.20
+# scene 117 特訓失敗
+# 楠木 悠里
+JP ボクはなんでこんなに
+JP 未熟なんだろ…。
+EN Why am I still so green...
+
+@ 114.16
+# scene 118 休養
+# 楠木 悠里
+JP 久しぶりに大自然の声を
+JP 聞きに行ってこよう。
+EN It's been a while. I'll go listen to the voice of nature.
+
+@ 115.16
+# scene 119 入場1
+# 楠木 悠里
+JP 真の勇者となるために！
+EN To become a true hero!
+
+@ 116.16
+# scene 119 入場2
+# 楠木 悠里
+JP カオス様…。
+JP ボクは全身全霊を賭けて
+JP 戦います！
+EN Lady Chaos... I'll fight with all my heart and soul!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# 楠木 悠里
+JP これって夢？
+JP だったら醒めないで…。
+EN Is this a dream? If it is, don't let me wake up...
+
+@ 118.16
+# scene 125 必殺技１
+# 楠木 悠里
+JP 力が沸いてくるみたいだ！
+EN I can feel the power welling up!
+
+@ 119.16
+# scene 125 必殺技２
+# 楠木 悠里
+JP これで眠らせてあげるよ！
+EN This'll put you to sleep!
+
+@ 120.16
+# scene 125 必殺技３
+# 楠木 悠里
+JP 争いの時間は終わりだ！
+EN The time for fighting is over!
+
+@ 121.12
+# scene 126 勝利1
+# 楠木 悠里
+JP 今日の感動をボクは忘れないよ。
+EN I'll never forget how moving today was.
+
+@ 122.12
+# scene 126 勝利2
+# 楠木 悠里
+JP 最高だった。
+JP また、今日のような日に
+JP 会えるといいね。
+EN That was the best. I hope we get another day like
+EN this.
+
+@ 123.12
+# scene 126 勝利3
+# 楠木 悠里
+JP すべてを出し切れた。
+JP 満足しているよ。
+EN I gave it everything. I'm satisfied.
+
+@ 124.15
+# scene 133 表彰1
+# 楠木 悠里
+JP カオス様もどこかで
+JP 見ていてくれるのかな。
+EN I wonder if Lady Chaos is watching somewhere.
+
+@ 125.15
+# scene 133 表彰2
+# 楠木 悠里
+JP ここまで来られたのは
+JP 社長のおかげだよ。
+EN I made it this far thanks to you, Boss.
+
+@ 126.12
+# scene 134 優勝1
+# 楠木 悠里
+JP 優勝したんだ…。
+JP 信じられない、このボクが…。
+EN I won... I can't believe it, me of all people...
+
+@ 127.12
+# scene 134 優勝２
+# 楠木 悠里
+JP この勝利を応援してくれた
+JP すべての人に捧げるよ。
+JP …ありがとう。
+EN I dedicate this victory to everyone who cheered me
+EN on. ...Thank you.
+
+@ 128.24
+# scene 135 エンディング 通常
+# 楠木 悠里
+JP 社長、ボクは役に立てた？
+JP そうだったら嬉しいな。
+EN Boss, was I any help? I'd be happy if I was.
+
+@ 129.24
+# scene 136 エンディング 好意
+# 楠木 悠里
+JP おめでとう。
+JP 社長のこと、ちょっと
+JP 好きになっちゃったかも…。
+EN Congratulations. Boss, I think I might have fallen for
+EN you a little...

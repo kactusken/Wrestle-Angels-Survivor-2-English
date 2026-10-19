@@ -1,0 +1,72 @@
+{
+ "english": "Partnership | End Partnership | Expand Facilities | Sell Facilities | Create Belt | Campaigns | Events | Invade | Vacation",
+ "boxes": [
+  [
+   25,
+   0,
+   93,
+   24
+  ],
+  [
+   3,
+   24,
+   137,
+   24
+  ],
+  [
+   18,
+   48,
+   100,
+   24
+  ],
+  [
+   25,
+   72,
+   93,
+   24
+  ],
+  [
+   13,
+   96,
+   116,
+   24
+  ],
+  [
+   25,
+   120,
+   93,
+   24
+  ],
+  [
+   26,
+   144,
+   91,
+   24
+  ],
+  [
+   25,
+   168,
+   94,
+   24
+  ],
+  [
+   24,
+   192,
+   94,
+   25
+  ]
+ ],
+ "fill": [
+  15
+ ],
+ "ground": "transparent",
+ "font": "BarlowCondensed-Bold.ttf",
+ "clear": [
+  [
+   0,
+   0,
+   256,
+   217
+  ]
+ ]
+}

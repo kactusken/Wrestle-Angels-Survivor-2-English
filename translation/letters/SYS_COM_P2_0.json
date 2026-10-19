@@ -1,0 +1,139 @@
+{
+ "english": "Off | Sp | Sty | Bas | Atk | Def | Thr | Hld | Pow | Stk | Air | Mv | Fin | Wk | Str | Dex | Sta | Rec | Spd",
+ "boxes": [
+  [
+   0,
+   0,
+   48,
+   24
+  ],
+  [
+   48,
+   0,
+   48,
+   24
+  ],
+  [
+   96,
+   0,
+   48,
+   24
+  ],
+  [
+   144,
+   0,
+   48,
+   24
+  ],
+  [
+   192,
+   0,
+   48,
+   24
+  ],
+  [
+   0,
+   24,
+   48,
+   24
+  ],
+  [
+   48,
+   24,
+   48,
+   24
+  ],
+  [
+   96,
+   24,
+   48,
+   24
+  ],
+  [
+   144,
+   24,
+   48,
+   24
+  ],
+  [
+   192,
+   24,
+   48,
+   24
+  ],
+  [
+   0,
+   48,
+   48,
+   24
+  ],
+  [
+   48,
+   48,
+   48,
+   24
+  ],
+  [
+   96,
+   48,
+   48,
+   24
+  ],
+  [
+   144,
+   48,
+   48,
+   24
+  ],
+  [
+   192,
+   48,
+   48,
+   24
+  ],
+  [
+   96,
+   72,
+   48,
+   24
+  ],
+  [
+   144,
+   72,
+   48,
+   24
+  ],
+  [
+   192,
+   72,
+   48,
+   24
+  ],
+  [
+   96,
+   96,
+   48,
+   24
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "status.draw_icons",
+ "cap": 12,
+ "notes": "stat icons (status batch): 休 Off, 特 Sp, 個 Sty, 基 Bas, 攻 Atk, 防 Def, 投 Thr, 極 Hld, パ Pow, 打 Stk, 飛 Air, 技 Mv, 必 Fin, 弱 Wk, 筋 Str, 器 Dex, 体 Sta, 回 Rec, 速 Spd; bandage, crown and the イ-like mark left as they are",
+ "overrides": {
+  "Off": {
+   "bg": 15,
+   "fill": 5,
+   "ring": 10
+  },
+  "Sp": {
+   "bg": 15,
+   "fill": 3,
+   "ring": 10
+  },
+  "Pow": {
+   "fill": 15,
+   "ring": 3
+  }
+ }
+}

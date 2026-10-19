@@ -1,0 +1,2523 @@
+# /SCR/015.BIN - ビューティ市ヶ谷
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 015` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ビューティ市ヶ谷
+JP テストを受けてあげただけでも
+JP ありがたく思いなさい！
+EN You should be grateful I even agreed to take your
+EN tryout!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP さぁ、デビュー戦は派手に
+JP いきますわよ！
+EN Oh-ho-ho-ho-ho! Now then, let's make my debut a
+EN grand one!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ビューティ市ヶ谷
+JP わ、私を誰だと思ってますの！？
+JP キーッ、覚えてらっしゃい！
+EN D-do you have any idea who I am!? Hmph! You'll
+EN regret this!
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええっと…噂によれば
+JP このあたりのはずなんだが…。
+JP でも、本当なのか？
+EN Let's see... According to the rumors, she should be
+EN around here... But can it really be true?
+
+@ 3.25
+# 社 長
+JP あの財閥令嬢でもある柔道界の女王が
+JP プロレスに興味を持ってるなんて…。
+EN That the queen of judo, heiress to a business
+EN empire, is interested in pro wrestling...?
+
+@ 3.27
+# 社 長
+JP あれ…？
+JP あのゴミ袋を捨ててる女の人が
+JP それっぽいけど…。
+EN Huh...? That woman taking out the garbage bags
+EN looks like her...
+
+@ 3.29
+# 社 長
+JP 財閥令嬢のはずじゃ…。
+EN But she's supposed to be a rich heiress...
+
+@ 3.31
+# 社 長
+JP とりあえず聞いてみるか。
+EN Well, I might as well ask.
+
+@ 3.33
+# 社 長
+JP あの、すみません。
+JP 市ヶ谷さんですか？
+EN Um, excuse me. Are you Ms. Ichigaya?
+
+@ 3.43
+# ビューティ市ヶ谷
+JP な、なんですの？
+JP あなたは？
+EN Wh-what is it? Who are you?
+
+@ 3.46
+# 社 長
+JP 突然すみません。
+JP 実は私、プロレスの団体を経営
+JP している者なんですが…。
+EN Sorry to bother you out of nowhere. I actually run a
+EN pro wrestling promotion...
+
+@ 3.53
+# ビューティ市ヶ谷
+JP い、いつから見てましたの？
+EN H-how long have you been watching?
+
+@ 3.56
+# 社 長
+JP …えっ？
+JP いや、さっきゴミ袋を捨てる
+JP ところからですけど…。
+EN ...Huh? Well, since you were taking out the garbage
+EN bags just now...
+
+@ 3.63
+# ビューティ市ヶ谷
+JP …あなたは何も見なかった！
+JP そうですわね？
+EN ...You saw nothing! Isn't that right?
+
+@ 3.66
+# 社 長
+JP え、あ、いや…そうですね。
+EN Uh, ah, well... Right, nothing at all.
+
+@ 3.73
+# ビューティ市ヶ谷
+JP それで結構！
+JP それで、この私をスカウトに
+JP いらしたのね？
+EN Very good! And so, you've come to scout me, have
+EN you?
+
+@ 3.76
+# 社 長
+JP え、えぇ…。
+JP まさにその通りです。
+EN Y-yes... That's exactly right.
+
+@ 3.83
+# ビューティ市ヶ谷
+JP あぁ、困りましたわ…。
+JP 黙っていても溢れ出る
+JP 私の女王としてのオーラ…。
+EN Oh, how troublesome... My queenly aura simply
+EN overflows, even when I say nothing at all...
+
+@ 3.86
+# 社 長
+JP ええっと…どうでしょう？
+JP 柔道だけでなく、プロレスでも
+JP 女王を目指してみませんか？
+EN So, um... what do you say? Why not aim to be queen of
+EN pro wrestling, too, not just judo?
+
+@ 3.88
+# 社 長
+JP （俺は必死になって
+JP 　彼女を説得し続けた）
+EN (I kept trying desperately to persuade her.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP そこまで言われては
+JP 仕方ありませんわね！
+EN Oh-ho-ho-ho-ho! Well, if you insist that much, I
+EN suppose I have no choice!
+
+@ 4.22
+# 社 長
+JP ホントですか！？
+EN Really!?
+
+@ 4.29
+# ビューティ市ヶ谷
+JP さぁ、私のプロレスデビュー
+JP 大々的にやっていただきますわよ！
+EN Now then, I expect my pro wrestling debut to be a
+EN lavish affair!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# ビューティ市ヶ谷
+JP フンッ、だめですわ！
+JP 弱小団体では私の魅力は
+JP 引き出せませんわ！
+EN Hmph, absolutely not! A puny little promotion could
+EN never bring out my charms!
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたり
+JP だったはずだが…。
+EN Let's see, I'm pretty sure it was around here...
+
+@ 6.25
+# 社 長
+JP あっ…。
+JP またゴミ出ししてる…。
+JP まぁいいか。
+EN Ah... She's taking out the garbage again... Oh well.
+
+@ 6.27
+# 社 長
+JP …あの、すみません。
+EN ...Um, excuse me.
+
+@ 6.37
+# ビューティ市ヶ谷
+JP あ、あなたは…またこんなときに…！
+JP き、今日はメイドが休みなだけですわ！
+EN Y-you...! At a time like this again...! I-it's only that
+EN the maid has the day off!
+
+@ 6.40
+# 社 長
+JP はぁ…。
+JP そうですか。
+EN Uh... I see.
+
+@ 6.47
+# ビューティ市ヶ谷
+JP そ、それはそうと…。
+JP 性懲りもなく、また私をスカウトに
+JP 来たんですの？
+EN B-be that as it may... Have you come to scout me
+EN again, without learning your lesson?
+
+@ 6.50
+# 社 長
+JP はい。
+JP もう一度考え直して
+JP もらえないでしょうか？
+EN Yes. Would you please reconsider?
+
+@ 6.52
+# 社 長
+JP （俺は必死になって
+JP 　彼女を説得し続けた）
+EN (I kept trying desperately to persuade her.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP そこまで言われては
+JP 仕方ありませんわね！
+EN Oh-ho-ho-ho-ho! Well, if you insist that much, I
+EN suppose I have no choice!
+
+@ 7.22
+# 社 長
+JP ホントですか！？
+EN Really!?
+
+@ 7.29
+# ビューティ市ヶ谷
+JP さぁ、私のプロレスデビュー
+JP 大々的にやっていただきますわよ！
+EN Now then, I expect my pro wrestling debut to be a
+EN lavish affair!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ビューティ市ヶ谷
+JP フンッ、だめですわ！
+JP 弱小団体では私の魅力は
+JP 引き出せませんわ！
+EN Hmph, absolutely not! A puny little promotion could
+EN never bring out my charms!
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は市ヶ谷選手と交渉してみる
+JP ことにした。
+EN I decided to try negotiating with Ichigaya.
+
+@ 9.25
+# 社 長
+JP 抜群のスタイルに秘められた
+JP 国内屈指のパワー。
+JP なにより、あの唯我独尊な性格。
+EN Some of the greatest power in the country, hidden in
+EN a stunning figure. And above all, that supremely
+EN self-centered personality.
+
+@ 9.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP これ以上の幸運はないだろう。
+EN If she'd join our promotion, I couldn't ask for better
+EN luck.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりでトレーニング
+JP しているはずだけど…。
+EN She's supposed to train somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# ビューティ市ヶ谷
+JP ふぅ～…。
+JP あら、何かしら？
+EN Phew... Oh my, what is it?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.53
+# ビューティ市ヶ谷
+JP …あら？
+JP ヘッドハンティングですの？
+EN ...Oh my? Is this headhunting?
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+JP 新しいリングで戦ってみませんか？
+EN What do you say? Why not try fighting in a new ring?
+
+@ 9.58
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# ビューティ市ヶ谷
+JP そうですわね。
+JP 移籍も悪くないですわね。
+EN Let me see. A transfer doesn't sound half bad.
+
+@ 10.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 10.29
+# ビューティ市ヶ谷
+JP よろしくってよ。
+JP ただし最高級の待遇を用意して
+JP いただきますわよ！
+EN Very well. But I shall expect only the finest
+EN treatment!
+
+@ 11.15
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ビューティ市ヶ谷
+JP 社長さん。
+JP 今の私が、あなたに何を言うべきか
+JP おわかりになりまして？
+EN Mr. President. Do you know what I'm about to say to
+EN you?
+
+@ 11.18
+# 社 長
+JP いえ…。
+JP なんでしょうか？
+EN No... What is it?
+
+@ 11.29
+# ビューティ市ヶ谷
+JP 一昨日きやがれ、ですわ！
+JP オーッホッホッホッホ！
+EN Come back when pigs fly, darling! Oh-ho-ho-ho-ho!
+
+@ 11.32
+# 社 長
+JP （その後も説得を続けたが
+JP 　彼女には通じなかった…）
+EN (I kept trying to persuade her, but I couldn't get
+EN through to her...)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 市ヶ谷選手が必要だ。
+EN Our promotion really does need Ichigaya.
+
+@ 12.26
+# 社 長
+JP 俺はもう一度市ヶ谷選手と
+JP 交渉することにした。
+EN I decided to negotiate with Ichigaya once more.
+
+@ 12.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.39
+# ビューティ市ヶ谷
+JP あら、あなたはこの前の…。
+JP またいらしたの？
+EN Oh my, you're the one from before... You've come
+EN again?
+
+@ 12.42
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.44
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# ビューティ市ヶ谷
+JP そうですわね。
+JP 移籍も悪くないですわね。
+EN Let me see. A transfer doesn't sound half bad.
+
+@ 13.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 13.29
+# ビューティ市ヶ谷
+JP よろしくってよ。
+JP ただし最高級の待遇を用意して
+JP いただきますわよ！
+EN Very well. But I shall expect only the finest
+EN treatment!
+
+@ 14.15
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ビューティ市ヶ谷
+JP 社長さん。
+JP 今の私が、あなたに何を言うべきか
+JP おわかりになりまして？
+EN Mr. President. Do you know what I'm about to say to
+EN you?
+
+@ 14.18
+# 社 長
+JP いえ…。
+JP なんでしょうか？
+EN No... What is it?
+
+@ 14.29
+# ビューティ市ヶ谷
+JP 一昨日きやがれ、ですわ！
+JP オーッホッホッホッホ！
+EN Come back when pigs fly, darling! Oh-ho-ho-ho-ho!
+
+@ 14.32
+# 社 長
+JP （その後も説得を続けたが
+JP 　彼女には通じなかった…）
+EN (I kept trying to persuade her, but I couldn't get
+EN through to her...)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は市ヶ谷選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Ichigaya.
+
+@ 15.25
+# 社 長
+JP 抜群のスタイルに秘められた
+JP 国内屈指のパワー。
+JP なにより、あの唯我独尊な性格。
+EN Some of the greatest power in the country, hidden in
+EN a stunning figure. And above all, that supremely
+EN self-centered personality.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP これ以上の幸運はないだろう。
+EN If she'd join our promotion, I couldn't ask for better
+EN luck.
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# ビューティ市ヶ谷
+JP あら、私に何かご用かしら？
+EN Oh my, is there something you need from me?
+
+@ 15.44
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 15.51
+# ビューティ市ヶ谷
+JP あなたの団体に？
+JP そうねぇ…。
+EN Your promotion? Well, let me see...
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.56
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# ビューティ市ヶ谷
+JP そうですわね。
+JP 入団も悪くないですわね。
+EN Let me see. Joining doesn't sound half bad.
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# ビューティ市ヶ谷
+JP よろしくってよ。
+JP もちろん、団体のエースは
+JP 私ですわよね？
+EN Very well. Naturally, I shall be the promotion's ace,
+EN shan't I?
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP あなたの団体と私では
+JP 釣り合いが取れませんわ！
+EN Oh-ho-ho-ho-ho! Your promotion is hardly in my
+EN league!
+
+@ 17.22
+# 社 長
+JP そう言わずにどうか…。
+EN Please, don't say that...
+
+@ 17.24
+# 社 長
+JP （その後も説得を続けたが
+JP 　彼女には通じなかった…）
+EN (I kept trying to persuade her, but I couldn't get
+EN through to her...)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 市ヶ谷選手が必要だ。
+EN Our promotion really does need Ichigaya.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度市ヶ谷選手と
+JP 交渉することにした。
+EN I decided to negotiate with Ichigaya once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ビューティ市ヶ谷
+JP まあ、あなたはこの前の…。
+JP またいらしたの？
+EN My, you're the one from before... You've come again?
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 18.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I watched for her reaction.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# ビューティ市ヶ谷
+JP そうですわね。
+JP 入団も悪くないですわね。
+EN Let me see. Joining doesn't sound half bad.
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# ビューティ市ヶ谷
+JP よろしくってよ。
+JP もちろん、団体のエースは
+JP 私ですわよね？
+EN Very well. Naturally, I shall be the promotion's ace,
+EN shan't I?
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP あなたの団体と私では
+JP 釣り合いが取れませんわ！
+EN Oh-ho-ho-ho-ho! Your promotion is hardly in my
+EN league!
+
+@ 20.22
+# 社 長
+JP そう言わずにどうか…。
+EN Please, don't say that...
+
+@ 20.24
+# 社 長
+JP （その後も説得を続けたが
+JP 　彼女には通じなかった…）
+EN (I kept trying to persuade her, but I couldn't get
+EN through to her...)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は市ヶ谷を訪ねることにした。
+EN I decided to go see Ichigaya.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be somewhere around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 市ヶ谷っ！
+EN Ichigaya!
+
+@ 21.41
+# ビューティ市ヶ谷
+JP 社長…！？
+EN Boss...!?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# ビューティ市ヶ谷
+JP 今さらなんのご用？
+EN What could you possibly want now?
+
+@ 21.54
+# 社 長
+JP あぁ…。
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Well... The truth is, I've been looking for you because
+EN I want you to come back.
+
+@ 21.61
+# ビューティ市ヶ谷
+JP ………ッ！？
+EN .........!?
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだが…。
+EN I know I'm in no position to ask this of you...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ビューティ市ヶ谷
+JP でしたら、条件がありますわ！
+JP それを飲めるなら考えてあげても
+JP よろしくってよ！
+EN Then I have conditions! If you can accept them, I
+EN might consider it!
+
+@ 22.18
+# 社 長
+JP 本当か！？
+EN Really!?
+
+@ 22.25
+# ビューティ市ヶ谷
+JP たくさんありますわよ！
+JP それでもいいなら考えますわ！
+EN There are a great many of them! If that's fine with
+EN you, I'll think about it!
+
+@ 22.28
+# 社 長
+JP わかった。
+JP できる限りのことはする。
+JP 約束だ
+EN All right. I'll do everything I can. I promise.
+
+@ 22.39
+# ビューティ市ヶ谷
+JP …仕方ありませんわ。
+JP そこまで言うなら
+JP 戻って差し上げますわ！
+EN ...It can't be helped. If you insist that much, I shall
+EN graciously return!
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# ビューティ市ヶ谷
+JP …お断りしますわ。
+EN ...I must decline.
+
+@ 23.22
+# 社 長
+JP 頼む、市ヶ谷。
+JP この通りだ。
+EN Please, Ichigaya. I'm begging you.
+
+@ 23.26
+# ビューティ市ヶ谷
+JP ダメなものはダメですわ！
+JP ごめんあそばせっ！
+EN No means no! Good day to you!
+
+@ 23.35
+# 社 長
+JP 市ヶ谷！
+JP はぁ…やっぱりダメか…。
+EN Ichigaya! Sigh... I knew it was no use...
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び市ヶ谷を訪ねることにした。
+EN I decided to go see Ichigaya again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 市ヶ谷っ！
+EN Ichigaya!
+
+@ 24.37
+# ビューティ市ヶ谷
+JP 社長…。
+EN Boss...
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+EN I've come to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ビューティ市ヶ谷
+JP でしたら、条件がありますわ！
+JP それを飲めるなら考えてあげても
+JP よろしくってよ！
+EN Then I have conditions! If you can accept them, I
+EN might consider it!
+
+@ 25.18
+# 社 長
+JP 本当か！？
+EN Really!?
+
+@ 25.25
+# ビューティ市ヶ谷
+JP たくさんありますわよ！
+JP それでもいいなら考えますわ！
+EN There are a great many of them! If that's fine with
+EN you, I'll think about it!
+
+@ 25.28
+# 社 長
+JP わかった。
+JP できる限りのことはする。
+JP 約束だ
+EN All right. I'll do everything I can. I promise.
+
+@ 25.39
+# ビューティ市ヶ谷
+JP …仕方ありませんわ。
+JP そこまで言うなら
+JP 戻って差し上げますわ！
+EN ...It can't be helped. If you insist that much, I shall
+EN graciously return!
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ビューティ市ヶ谷
+JP …お断りしますわ。
+EN ...I must decline.
+
+@ 26.22
+# 社 長
+JP 頼む、市ヶ谷。
+JP この通りだ。
+EN Please, Ichigaya. I'm begging you.
+
+@ 26.26
+# ビューティ市ヶ谷
+JP ダメなものはダメですわ！
+JP ごめんあそばせっ！
+EN No means no! Good day to you!
+
+@ 26.35
+# 社 長
+JP 市ヶ谷！
+JP はぁ…やっぱりダメか…。
+EN Ichigaya! Sigh... I knew it was no use...
+
+@ 27.16
+# scene 028 ケガ小
+# ビューティ市ヶ谷
+JP こんなもの
+JP ケガのうちに入りませんわ。
+EN This hardly counts as an injury.
+
+@ 28.16
+# scene 029 ケガ大
+# ビューティ市ヶ谷
+JP 不覚をとりましたわ…。
+EN I let my guard down...
+
+@ 29.16
+# scene 030 入院
+# ビューティ市ヶ谷
+JP すぐに戻りますわ…。
+EN I shall be back in no time...
+
+@ 30.16
+# scene 031 退院
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 退院祝いはよろしくってよ！！
+EN Oh-ho-ho-ho-ho! I'll accept a get-well gift, you
+EN know!!
+
+@ 31.16
+# scene 032 ケガ完治
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 完全復活ですわ！！
+EN Oh-ho-ho-ho-ho! I am fully restored!!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ビューティ市ヶ谷
+JP そうですわね…。
+JP そろそろ財閥を継がないと
+JP いけませんから…。
+EN I suppose so... It's about time I took over the family
+EN business empire...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！！
+JP 寝言は寝てから言うものですわ！
+EN Oh-ho-ho-ho-ho!! Save your nonsense for when
+EN you're asleep!
+
+@ 34.16
+# scene 035 コーチ就任
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！！
+JP 今日から私を市ヶ谷コーチと
+JP お呼びなさい！！
+EN Oh-ho-ho-ho-ho!! From today on, you shall address
+EN me as Coach Ichigaya!!
+
+@ 35.16
+# scene 036 ケガ引退
+# ビューティ市ヶ谷
+JP こんなことで引退なんて
+JP 悔しいですわ…。
+EN To retire over something like this... How
+EN frustrating...
+
+@ 36.16
+# scene 037 年齢引退
+# ビューティ市ヶ谷
+JP プロレスはここまで。
+JP 新しい舞台が私を待っていますの。
+JP オーッホッホッホッホ！
+EN My wrestling days end here. A new stage awaits me.
+EN Oh-ho-ho-ho-ho!
+
+@ 37.16
+# scene 038 退団
+# ビューティ市ヶ谷
+JP もう、うんざりですわ！
+EN I've had quite enough of this!
+
+@ 38.16
+# scene 039 スランプ
+# ビューティ市ヶ谷
+JP なんだかバカバカしくなって
+JP きましたわ…。
+EN This is all starting to feel rather ridiculous...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ビューティ市ヶ谷
+JP 社長！
+JP 猛烈に抗議いたしますわ！
+EN Boss! I wish to lodge a most vigorous protest!
+
+@ 39.19
+# 社 長
+JP …えっ？
+JP あ、ど、どうした？
+EN ...Huh? Wh-what's wrong?
+
+@ 39.23
+# ビューティ市ヶ谷
+JP どうして今日に至るまで
+JP この私のファンクラブが
+JP ありませんでしたの！？
+EN Why, until this very day, has there been no fan club
+EN for me!?
+
+@ 39.27
+# ビューティ市ヶ谷
+JP 最初からあってしかるべきですわ！
+JP えぇ、そうね…。
+JP 財閥を使って世界中に…。
+EN There should have been one from the start! Yes,
+EN indeed... I'll use the family fortune to spread it
+EN across the world...
+
+@ 39.30
+# 社 長
+JP ま、待て待て待て！
+JP とりあえず、落ち着け。
+EN W-wait, wait, wait! Just calm down for now.
+
+@ 39.32
+# 社 長
+JP （市ヶ谷が落ち着いたのは
+JP 　それからたっぷり２時間以上
+JP 　喚き散らした後のことだった…）
+EN (Ichigaya only calmed down after ranting and raving
+EN for a good two hours or more...)
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ビューティ市ヶ谷
+JP あら、またファンクラブですの？
+EN Oh my, another fan club?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their expectations.
+
+@ 40.26
+# ビューティ市ヶ谷
+JP 当然ですわ！
+JP まだまだ増やしますわよ！
+JP オーッホッホッホッホ！
+EN Naturally! And there will be many more yet!
+EN Oh-ho-ho-ho-ho!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ビューティ市ヶ谷
+JP 屈辱ですわ！
+JP 私のファンであることを
+JP 辞める者がいるなんて…！
+EN How humiliating! To think someone would stop being
+EN my fan...!
+
+@ 41.19
+# 社 長
+JP いや、こんなこともあるさ。
+JP またがんばればいいんだ。
+JP そうだろ？
+EN Hey, these things happen. You just have to work
+EN hard again. Right?
+
+@ 41.23
+# ビューティ市ヶ谷
+JP 当然ですわ！
+JP すぐに挽回しますわっ！
+EN Naturally! I shall win them back in no time!
+
+@ 42.16
+# scene 043 映画出演
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP カンヌが私を呼んでいますわ！
+EN Oh-ho-ho-ho-ho! Cannes is calling my name!
+
+@ 43.16
+# scene 044 一日署長
+# ビューティ市ヶ谷
+JP 署長の制服は
+JP もちろんブランド物ですわよね？
+EN The police chief's uniform will be designer, of
+EN course?
+
+@ 44.16
+# scene 045 写真集発売
+# ビューティ市ヶ谷
+JP 最低でも１００万部は売れますわよ。
+JP オーッホッホッホッホ！
+EN It will sell at least a million copies. Oh-ho-ho-ho-ho!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP ＣＭ女王の座もいただきですわ！
+EN Oh-ho-ho-ho-ho! The title of commercial queen is
+EN mine as well!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ビューティ市ヶ谷
+JP ミリオンヒット、間違いなしですわ！
+EN A million-seller, without a doubt!
+
+@ 47.16
+# scene 048 始球式
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP メジャーからのオファーは
+JP ありませんの！？
+EN Oh-ho-ho-ho-ho! Have the major leagues not made
+EN me an offer yet!?
+
+@ 48.16
+# scene 049 学園祭
+# ビューティ市ヶ谷
+JP 人気者はたいへんですわ。
+JP オーッホッホッホッホ！
+EN Being so popular is such a burden. Oh-ho-ho-ho-ho!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# ビューティ市ヶ谷
+JP まあ、社長。
+JP 安物のようですが
+JP ありがたくいただきますわ。
+EN My, Boss. It looks rather cheap, but I shall accept it
+EN graciously.
+
+@ 49.39
+# 社 長
+JP ………………。
+EN ..................
+
+@ 49.46
+# ビューティ市ヶ谷
+JP 社長の収入では仕方ありませんわ。
+EN It can't be helped, on your income.
+
+@ 49.49
+# 社 長
+JP こ、これからもよろしくな…。
+EN W-well, I'm counting on you from here on...
+
+@ 50.29
+# scene 051 バレンタインデー
+# ビューティ市ヶ谷
+JP 社長にも差し上げますわ。
+JP ベルギーから取り寄せた
+JP 最高級のチョコですわよ！
+EN I have one for you as well, Boss. The finest
+EN chocolate, imported from Belgium!
+
+@ 50.32
+# 社 長
+JP おぉ、ありがとう。
+JP でもホワイトデーは期待するなよ？
+EN Oh, thanks. But don't expect much on White Day,
+EN okay?
+
+@ 50.39
+# ビューティ市ヶ谷
+JP ウフフッ…。
+JP 逆の意味で楽しみですわ。
+JP どのように期待を外してくれますの？
+EN Ufufu... I'm looking forward to it, in reverse. Just how
+EN will you disappoint me?
+
+@ 50.42
+# 社 長
+JP ん～っ…。
+JP 考えておくよ。
+JP とにかく、ありがとう。
+EN Hmm... I'll think about it. Anyway, thanks.
+
+@ 51.32
+# scene 052 ホワイトデー
+# ビューティ市ヶ谷
+JP さぁ、社長、ホワイトデーですわ！
+JP どんな期待外れを
+JP 用意してくださいましたの！？
+EN Now then, Boss, it's White Day! What sort of
+EN disappointment have you prepared for me!?
+
+@ 51.35
+# 社 長
+JP 覚えてたのか…。
+JP 色々と悩んだんだが…。
+JP これで勘弁してくれ。
+EN You remembered, huh... I agonized over it a lot...
+EN Please accept this.
+
+@ 51.42
+# ビューティ市ヶ谷
+JP まあ…バラですの…？
+EN My... Roses...?
+
+@ 51.45
+# 社 長
+JP こんなの、もらい飽きてるかも
+JP しれないが…。
+EN You're probably sick of getting these, but...
+
+@ 51.52
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 当然ですわ！
+JP 予想通りの期待外れでしたわ！
+EN Oh-ho-ho-ho-ho! Naturally! A disappointment,
+EN exactly as I predicted!
+
+@ 51.58
+# 社 長
+JP （そう言いつつ、市ヶ谷は
+JP 　みんなにバラの花束を自慢していた。
+JP 　意外と喜んでもらえたらしい…）
+EN (Even as she said that, Ichigaya went around
+EN showing everyone her bouquet of roses. It seems
+EN she was happier than she let on...)
+
+@ 52.31
+# scene 053 サイン会
+# ビューティ市ヶ谷
+JP さぁ、この私を褒め称えること
+JP 許して差し上げますわ！
+JP オーッホッホッホッホ！
+EN Now then, I shall permit you to sing my praises!
+EN Oh-ho-ho-ho-ho!
+
+@ 53.31
+# scene 054 コンサート
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 私の歌声に酔いしれること
+JP 許して差し上げますわ！！
+EN Oh-ho-ho-ho-ho! I shall permit you to be
+EN enraptured by my singing voice!!
+
+@ 54.28
+# scene 055 練習拒否
+# ビューティ市ヶ谷
+JP 今日は帰りますわ！
+EN I'm going home for today!
+
+@ 55.28
+# scene 056 失踪
+# ビューティ市ヶ谷
+JP ……ふんっ！
+EN ......Hmph!
+
+@ 56.16
+# scene 057 選手解雇
+# ビューティ市ヶ谷
+JP こっちこそ、こんな貧乏団体
+JP 願い下げですわ！
+EN As if I'd want to stay in such a penniless promotion
+EN anyway!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ビューティ市ヶ谷
+JP 宿泊先は、もちろん
+JP 一流ホテルですわよね？
+EN We'll be staying at a first-class hotel, of course?
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ビューティ市ヶ谷
+JP はーい、プレジデント！
+JP スーパースターのご帰還ですわよ。
+EN Hello, President! The superstar has returned!
+
+@ 59.28
+# scene 060 移籍思案
+# ビューティ市ヶ谷
+JP 人気者はこれだから困りますわ…。
+EN This is the trouble with being so popular...
+
+@ 60.16
+# scene 061 革命軍結成
+# ビューティ市ヶ谷
+JP これぞレボリューションですわ！
+JP オーッホッホッホッホ！
+EN Behold, a revolution! Oh-ho-ho-ho-ho!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ビューティ市ヶ谷
+JP 私には悪のカリスマも似合いますわ。
+JP オーッホッホッホッホ！
+EN The charisma of evil suits me as well.
+EN Oh-ho-ho-ho-ho!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 誰がナンバーワンか
+JP はっきりさせますわ！
+EN Oh-ho-ho-ho-ho! I shall make it clear who is number
+EN one!
+
+@ 63.16
+# scene 064 遺恨発生
+# ビューティ市ヶ谷
+JP お、覚えてらっしゃい！
+JP いつか必ず目にもの見せて
+JP 差し上げますわ！！
+EN Y-you'll regret this! Someday I shall make you pay,
+EN mark my words!!
+
+@ 64.16
+# scene 065 殴り込み
+# ビューティ市ヶ谷
+JP 私の力で団体ごと潰してきますわ！
+JP オーッホッホッホッホ！
+EN I'll crush their entire promotion with my own power!
+EN Oh-ho-ho-ho-ho!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP ザコは何人集まろうとザコですわ！！
+EN Oh-ho-ho-ho-ho! No matter how many small fry
+EN gather, they're still small fry!!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 潰されたくなかったら
+JP エースを温存してもよろしくてよ！
+EN Oh-ho-ho-ho-ho! If you don't want to be crushed,
+EN you may keep your ace on the bench!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 私のために用意された舞台ですわ！
+EN Oh-ho-ho-ho-ho! This stage was prepared just for
+EN me!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 当然の結果ですわ！
+EN Oh-ho-ho-ho-ho! A natural result!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ビューティ市ヶ谷
+JP こ、この私が…。
+JP 何かの謀略に決まってますわ！
+EN I-I lost...? It must be some sort of conspiracy!
+
+@ 70.13
+# scene 071 引退式
+# ビューティ市ヶ谷
+JP これで本当に終わったと
+JP 思わないことね！
+JP オーッホッホッホッホ！
+EN Don't think this is truly the end! Oh-ho-ho-ho-ho!
+
+@ 71.18
+# ビューティ市ヶ谷
+JP なんですの？
+EN What is it?
+
+@ 71.37
+# ビューティ市ヶ谷
+JP あら、社長。
+JP なんですの？
+EN Oh my, Boss. What is it?
+
+@ 71.47
+# ビューティ市ヶ谷
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been doing great lately. Keep it up.
+
+@ 71.90
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 私はいつでも絶好調ですわ！
+EN Oh-ho-ho-ho-ho! I'm always in top form!
+
+@ 71.111
+# ビューティ市ヶ谷
+JP お世辞は結構ですわ。
+EN Spare me the flattery.
+
+@ 71.132
+# ビューティ市ヶ谷
+JP まあ、社長ったら…。
+JP でも悪い気はしませんわね。
+JP ご期待に応えてみせますわ！
+EN My, Boss... But I can't say I mind. I'll live up to your
+EN expectations!
+
+@ 71.153
+# ビューティ市ヶ谷
+JP …えぇ、がんばりますわ。
+EN ...Yes, I'll do my best.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# ビューティ市ヶ谷
+JP うっ…。
+JP ちょ、調子が悪かっただけですわ！
+EN Ugh... I-I was just a little off my game!
+
+@ 71.211
+# ビューティ市ヶ谷
+JP 社長…！
+JP どこがどうたるんでいるのか
+JP 具体的にご指導いただけませんこと？
+EN Boss...! Would you kindly instruct me on exactly
+EN where and how I've been slacking?
+
+@ 71.232
+# ビューティ市ヶ谷
+JP そんなこと…
+JP ないとは言い切れませんわね…。
+EN I can't say for certain... that it isn't true...
+
+@ 71.253
+# ビューティ市ヶ谷
+JP …フゥ～……。
+EN ...Sigh......
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# ビューティ市ヶ谷
+JP …えぇ、大丈夫ですわ。
+JP 少し疲れが溜まってただけですもの…。
+EN ...Yes, I'm fine. I was just a little worn out, that's all...
+
+@ 71.311
+# ビューティ市ヶ谷
+JP 言わなくとも察するのが
+JP 貴方の仕事ではありませんの？
+EN Isn't it your job to sense these things without being
+EN told?
+
+@ 71.332
+# ビューティ市ヶ谷
+JP 少し疲れが溜まっているみたいですの。
+JP でも…もう平気ですわ。
+EN It seems I've been a little worn out. But... I'm fine now.
+
+@ 71.353
+# ビューティ市ヶ谷
+JP …気のせいですわ。
+EN ...You're imagining things.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# ビューティ市ヶ谷
+JP 私は悪くありませんわ。
+EN I've done nothing wrong.
+
+@ 71.400
+# ビューティ市ヶ谷
+JP なんですの？
+EN What is it?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# ビューティ市ヶ谷
+JP はぁ…。
+JP 仕方ありませんわね…。
+EN Sigh... I suppose it can't be helped...
+
+@ 71.454
+# ビューティ市ヶ谷
+JP ですから、私は悪くありませんわ！
+EN As I said, I've done nothing wrong!
+
+@ 71.475
+# ビューティ市ヶ谷
+JP あら、どういうことですの？
+JP 私にはなんのことかサッパリですわ。
+EN Oh my, whatever do you mean? I haven't the faintest
+EN idea what you're talking about.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# ビューティ市ヶ谷
+JP …えぇ。
+EN ...Yes.
+
+@ 71.522
+# ビューティ市ヶ谷
+JP いえ…。
+JP なんですの？
+EN No... What is it?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# ビューティ市ヶ谷
+JP …社長がそうおっしゃるなら
+JP 和解しますわ。
+EN ...If you say so, Boss, I'll make peace.
+
+@ 71.578
+# ビューティ市ヶ谷
+JP お断りしますわ。
+JP 私にも譲れないものがありますもの。
+EN I must decline. There are things I won't give up,
+EN either.
+
+@ 71.599
+# ビューティ市ヶ谷
+JP 社長、あれは演出ですわ。
+EN Boss, that was just for show.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ビューティ市ヶ谷
+JP あら、社長。
+JP なんですの？
+EN Oh my, Boss. What is it?
+
+@ 72.16
+# ビューティ市ヶ谷
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been doing great lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 私はいつでも絶好調ですわ！
+EN Oh-ho-ho-ho-ho! I'm always in top form!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ビューティ市ヶ谷
+JP お世辞は結構ですわ。
+EN Spare me the flattery.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ビューティ市ヶ谷
+JP まあ、社長ったら…。
+JP でも、悪い気はしませんわね。
+JP ご期待に応えてみせますわ！
+EN My, Boss... But I can't say I mind. I'll live up to your
+EN expectations!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ビューティ市ヶ谷
+JP …えぇ、がんばりますわ。
+EN ...Yes, I'll do my best.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ビューティ市ヶ谷
+JP うっ…。
+JP ちょ、調子が悪かっただけですわ！
+EN Ugh... I-I was just a little off my game!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ビューティ市ヶ谷
+JP 社長。
+JP どこがどうたるんでいるのか、
+JP 具体的にご指導いただけませんこと？
+EN Boss. Would you kindly instruct me on exactly where
+EN and how I've been slacking?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ビューティ市ヶ谷
+JP そんなこと…ないとは、
+JP 言い切れませんわね……。
+EN I can't say for certain... that it isn't true...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ビューティ市ヶ谷
+JP ……フゥ～……。
+EN ......Sigh......
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ビューティ市ヶ谷
+JP …えぇ、大丈夫ですわ。
+JP 少し疲れが溜まってただけですもの。
+EN ...Yes, I'm fine. I was just a little worn out, that's all.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ビューティ市ヶ谷
+JP 言わなくとも察するのが、
+JP 貴方の仕事ではありませんの？
+EN Isn't it your job to sense these things without being
+EN told?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ビューティ市ヶ谷
+JP 少し疲れが溜まっている
+JP みたいですの。でも…
+JP もう平気ですわ。
+EN It seems I've been a little worn out. But... I'm fine now.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ビューティ市ヶ谷
+JP …気のせいですわ。
+EN ...You're imagining things.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ビューティ市ヶ谷
+JP 私は悪くありませんわ。
+EN I've done nothing wrong.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ビューティ市ヶ谷
+JP なんですの？
+EN What is it?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ビューティ市ヶ谷
+JP はぁ…。
+JP 仕方ありませんわね……。
+EN Sigh... I suppose it can't be helped...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ビューティ市ヶ谷
+JP ですから、私は悪くありませんわ！
+EN As I said, I've done nothing wrong!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ビューティ市ヶ谷
+JP あら、どういうことですの？
+JP 私にはなんのことか、
+JP サッパリですわ。
+EN Oh my, whatever do you mean? I haven't the faintest
+EN idea what you're talking about.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ビューティ市ヶ谷
+JP ……えぇ。
+EN ......Yes.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ビューティ市ヶ谷
+JP いえ…。
+JP なんですの？
+EN No... What is it?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ビューティ市ヶ谷
+JP …社長がそうおっしゃるなら、
+JP 和解しますわ。
+EN ...If you say so, Boss, I'll make peace.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ビューティ市ヶ谷
+JP お断りしますわ。
+JP 私にも、譲れないものが
+JP ありますもの。
+EN I must decline. There are things I won't give up,
+EN either.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ビューティ市ヶ谷
+JP 社長、あれは演出ですわ。
+EN Boss, that was just for show.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ビューティ市ヶ谷
+JP 小学生時代のお小遣いと
+JP 同程度ですわね。
+JP オーッホッホッホッホ！
+EN About the same as my allowance back in grade
+EN school. Oh-ho-ho-ho-ho!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP さすが社長ですわ。
+JP 私の価値、よくご存知ですわね！
+EN Oh-ho-ho-ho-ho! As expected of you, Boss. You
+EN know my worth very well!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ビューティ市ヶ谷
+JP キーーッ！
+JP 私を誰だと思っていますの！？
+EN Grrrr! Who do you think I am!?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, this really is the tropics. The sun is scorching.)
+
+@ 105.34
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （さーて、俺も少しだけのんびり
+JP 　させてもらうか…）
+EN (Okay, guess I'll take it easy for a bit, too...)
+
+@ 105.52
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+EN Oh-ho-ho-ho-ho!
+
+@ 105.55
+# 社 長
+JP ……はい？
+EN ......Huh?
+
+@ 105.78
+# 社 長
+JP （…どうやら、のんびりできない
+JP 　運命らしい）
+EN (...Looks like I'm not destined to relax.)
+
+@ 105.82
+# ビューティ市ヶ谷
+JP まぁ、社長。
+JP いかがなさいましたの？
+EN My, Boss. Whatever is the matter?
+
+@ 105.85
+# 社 長
+JP ええっと…市ヶ谷…だよな？
+EN Um... You're Ichigaya... right?
+
+@ 105.95
+# ビューティ市ヶ谷
+JP もちろんですわ！
+EN Of course!
+
+@ 105.99
+# ビューティ市ヶ谷
+JP これほど華麗でゴージャスな美女が
+JP 他にいると思いまして！？
+EN Do you think there's any other beauty this splendid
+EN and gorgeous!?
+
+@ 105.102
+# 社 長
+JP いや、まぁ…うん。
+JP そうだな、うん。
+EN Well, uh... yeah. I guess not, yeah.
+
+@ 105.112
+# ビューティ市ヶ谷
+JP 当然ですわ！
+JP オーッホッホッホッホ！
+EN Naturally! Oh-ho-ho-ho-ho!
+
+@ 105.115
+# 社 長
+JP それで…だな、市ヶ谷。
+JP いったい…なんなんだ？
+EN So... um, Ichigaya. What exactly... is going on?
+
+@ 105.125
+# ビューティ市ヶ谷
+JP 社長っ！
+EN Boss!
+
+@ 105.128
+# 社 長
+JP な、なんだ？
+EN Wh-what?
+
+@ 105.132
+# ビューティ市ヶ谷
+JP ひれ伏しなさいっ！
+EN Bow down before me!
+
+@ 105.135
+# 社 長
+JP ……はい？
+EN ......Huh?
+
+@ 105.139
+# ビューティ市ヶ谷
+JP その頭の横についている耳は
+JP ただの飾りですの！？
+EN Are those ears on the sides of your head just for
+EN decoration!?
+
+@ 105.143
+# ビューティ市ヶ谷
+JP さぁ、ひれ伏しなさい！
+EN Now, bow down!
+
+@ 105.146
+# 社 長
+JP （こ、これは…。
+JP 　下手に逆らうと面倒なことに
+JP 　なりそうだな…）
+EN (Th-this is... If I resist, it'll just turn into a hassle...)
+
+@ 105.150
+# ビューティ市ヶ谷
+JP 社長っ！
+EN Boss!
+
+@ 105.153
+# 社 長
+JP は、ははぁああ！
+EN Y-yes, Your Majesty!
+
+@ 105.163
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP やっぱりそうですわね！！
+EN Oh-ho-ho-ho-ho! Just as I thought!!
+
+@ 105.167
+# ビューティ市ヶ谷
+JP 私の美に勝てる者なんていませんわ！
+EN No one can surpass my beauty!
+
+@ 105.171
+# ビューティ市ヶ谷
+JP あの貧乳娘には逆立ちしても
+JP 無理ですもの！！
+EN That flat-chested girl couldn't match me even if she
+EN stood on her head!!
+
+@ 105.175
+# ビューティ市ヶ谷
+JP さぁ、次に参りますわよ！
+JP オーッホッホッホッホ！
+EN Now then, on to the next! Oh-ho-ho-ho-ho!
+
+@ 105.199
+# 社 長
+JP …………。
+EN ...........
+
+@ 105.201
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.203
+# 社 長
+JP ええっと…。
+JP 今のはなんだったんだ…？
+EN Um... What was that just now...?
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、残業終わり！）
+EN (All right, overtime's done!)
+
+@ 106.26
+# 社 長
+JP （これでようやく帰れるな…）
+EN (I can finally go home...)
+
+@ 106.33
+# ビューティ市ヶ谷
+JP あら、社長。
+JP まだ残っていらしたの？
+EN Oh my, Boss. You're still here?
+
+@ 106.36
+# 社 長
+JP おっ、市ヶ谷か。
+JP まだ帰って…。
+EN Oh, Ichigaya. You haven't gone home ye...
+
+@ 106.48
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.63
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.65
+# 社 長
+JP （待て待て、落ち着け。
+JP 　疲れてるんだ、うん。
+JP 　俺はきっと疲れてるんだ）
+EN (Wait, wait, calm down. I'm tired, that's all. I must be
+EN really tired.)
+
+@ 106.68
+# 社 長
+JP （こうして心を落ち着かせた上で
+JP 　目を開ければ…）
+EN (If I calm myself down like this and then open my
+EN eyes...)
+
+@ 106.82
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.86
+# ビューティ市ヶ谷
+JP あら、どうかなさいましたの？
+EN Oh my, is something the matter?
+
+@ 106.89
+# 社 長
+JP どうかしているのは
+JP おまえの方だ！
+EN The only thing the matter here is you!
+
+@ 106.93
+# ビューティ市ヶ谷
+JP そうですわ。
+JP 社長、今夜の食事つき合っても
+JP よろしくてよ。
+EN Oh, that's right. Boss, I'll allow you to join me for
+EN dinner tonight.
+
+@ 106.96
+# 社 長
+JP 人の話を聞けぇえええ！
+EN Listen to what people are saying!
+
+@ 106.106
+# ビューティ市ヶ谷
+JP 私に誘わせておいて
+JP まさか断るおつもりですの！？
+EN You'd make me invite you and then refuse!?
+
+@ 106.109
+# 社 長
+JP そういう問題じゃない！
+JP ふ、服を…！
+EN That's not the point! Your c-clothes...!
+
+@ 106.119
+# ビューティ市ヶ谷
+JP あら、タキシードなら
+JP リムジンにありますわよ。
+EN Oh, if it's a tuxedo you need, there's one in the
+EN limousine.
+
+@ 106.123
+# ビューティ市ヶ谷
+JP こんなこともあろうかと
+JP 前々から社長用のものを
+JP 作らせてありましたわ。
+EN I had one tailored for you long ago, in case
+EN something like this came up.
+
+@ 106.126
+# 社 長
+JP だから…。
+JP そういう問題じゃなくて…。
+EN Like I said... That's not the point...
+
+@ 106.130
+# ビューティ市ヶ谷
+JP フィッティングなら
+JP リムジンの中でもできましてよ。
+JP さぁ…。
+EN You can have your fitting inside the limousine. Now
+EN then...
+
+@ 106.139
+# 社 長
+JP …なんだ、この手。
+EN ...What's with this hand?
+
+@ 106.143
+# ビューティ市ヶ谷
+JP この私をエスコートしても
+JP よろしくてよ。
+EN I shall allow you to escort me.
+
+@ 106.146
+# 社 長
+JP ええっと…。
+JP 頼むから俺の話を聞いてくれ。
+EN Um... Please, I'm begging you, listen to me.
+
+@ 106.156
+# ビューティ市ヶ谷
+JP リムジンが待っていますわ。
+JP さぁ、急ぎなさい！
+EN The limousine is waiting. Now, hurry up!
+
+@ 106.170
+# 社 長
+JP いや、ま、待て！
+JP 手を引っ張るな！
+JP 市ヶ谷、市ヶ谷ぁあああ！
+EN No, w-wait! Don't pull my hand! Ichigaya, Ichigayaaaa!
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （よし、残業終わり！）
+EN (All right, overtime's done!)
+
+@ 107.26
+# 社 長
+JP （これでようやく帰れるな…）
+EN (I can finally go home...)
+
+@ 107.30
+# ビューティ市ヶ谷
+JP あら、社長。
+JP まだ残っていらしたの？
+EN Oh my, Boss. You're still here?
+
+@ 107.33
+# 社 長
+JP （……まさか）
+EN (......Oh no, not again.)
+
+@ 107.56
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.58
+# 社 長
+JP （やっぱり…）
+EN (I knew it...)
+
+@ 107.68
+# ビューティ市ヶ谷
+JP ちょうどいいですわ。
+JP 社長、今夜の食事つき合っても
+JP よろしくてよ。
+EN How convenient. Boss, I'll allow you to join me for
+EN dinner tonight.
+
+@ 107.71
+# 社 長
+JP 待て！
+JP その前にそんな格好で
+JP こんなところを歩くな！
+EN Wait! Before that, don't walk around a place like this
+EN dressed like that!
+
+@ 107.81
+# ビューティ市ヶ谷
+JP こんなところ？
+JP 会社の中ですわよ？
+EN A place like this? We're inside the office, you know?
+
+@ 107.84
+# 社 長
+JP それでもバスローブは
+JP 自重してくれ…。
+EN Even so, please refrain from wearing a bathrobe...
+
+@ 107.88
+# ビューティ市ヶ谷
+JP でしたらシャワーの後は
+JP 何を着ればよろしいのかしら？
+EN Then what am I supposed to wear after a shower?
+
+@ 107.91
+# 社 長
+JP シャワーの後は更衣室から
+JP 出歩かないのが普通だろ…。
+EN Normally you don't wander out of the changing room
+EN after a shower...
+
+@ 107.95
+# ビューティ市ヶ谷
+JP ………………。
+EN ..................
+
+@ 107.98
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.108
+# ビューティ市ヶ谷
+JP それより社長。
+JP ここのシャワー室は貧相すぎますわ。
+EN More importantly, Boss, the showers here are far
+EN too shabby.
+
+@ 107.111
+# 社 長
+JP （こいつ俺の言うこと
+JP 　何も聞いてないな…）
+EN (She isn't listening to a word I say...)
+
+@ 107.121
+# ビューティ市ヶ谷
+JP 私専用の個室を
+JP 用意することにしましたわ。
+EN I've decided to have a private room built just for me.
+
+@ 107.124
+# 社 長
+JP おまえ、何を勝手なことを！？
+EN What do you think you're doing, deciding that on
+EN your own!?
+
+@ 107.128
+# ビューティ市ヶ谷
+JP 業者は手配しておきましたから
+JP 後はお願いしますわ。
+EN I've already arranged for the contractors, so I'll
+EN leave the rest to you.
+
+@ 107.131
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.141
+# ビューティ市ヶ谷
+JP 私がこんな団体にいる
+JP 条件と考えれば安いものですわ。
+JP オーッホッホッホッホ！
+EN Consider it a small price to pay for having me in a
+EN promotion like this. Oh-ho-ho-ho-ho!
+
+@ 107.144
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.146
+# 社 長
+JP （所持ＡＰが５００減った…）
+EN (My AP just dropped by 500...)
+
+@ 107.148
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.150
+# 社 長
+JP （気がした…）
+EN (Or so it felt...)
+
+@ 107.160
+# ビューティ市ヶ谷
+JP そんなことより今日は表に
+JP リムジンを待たせてますわ。
+EN More importantly, I have a limousine waiting out front
+EN today.
+
+@ 107.163
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 107.173
+# ビューティ市ヶ谷
+JP まさか私の誘いを
+JP 断るおつもりですの？
+EN You're not thinking of turning down my invitation,
+EN are you?
+
+@ 107.176
+# 社 長
+JP いや、断るも何も…。
+EN Well, it's not a question of turning it down...
+
+@ 107.180
+# ビューティ市ヶ谷
+JP 私に口答えするなんて
+JP １００万年早いですわ！
+EN You're a million years too early to talk back to me!
+
+@ 107.184
+# ビューティ市ヶ谷
+JP えぇ、そうですわ。
+JP ただでは帰しませんわ！
+JP とことん付き合っていただきますわよ！
+EN Yes, that's right. I won't let you go home so easily!
+EN You'll keep me company all night long!
+
+@ 107.187
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.189
+# 社 長
+JP （明日は早いんだが…。
+JP 　その前に俺、無事に帰って
+JP 　こられるのかな…）
+EN (I have an early start tomorrow... Before that, will I
+EN even make it home in one piece...?)
+
+@ 107.199
+# ビューティ市ヶ谷
+JP さぁ、行きますわよ！
+JP オーッホッホッホッホ！
+EN Now, let's go! Oh-ho-ho-ho-ho!
+
+@ 107.213
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.215
+# 社 長
+JP （はぁ～…）
+EN (Sigh...)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# ビューティ市ヶ谷
+JP さぁ、軽くいきますわよ。
+EN Now then, let's take it easy.
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 今日も揉んであげますわ！
+EN Oh-ho-ho-ho-ho! I'll show you how it's done again
+EN today!
+
+@ 110.17
+# scene 111 練習試合 ベター２
+# ビューティ市ヶ谷
+JP 怖がることはないわ。
+JP いらっしゃい。
+EN There's nothing to be afraid of. Come at me.
+
+@ 111.17
+# scene 112 練習試合 バッド１
+# ビューティ市ヶ谷
+JP あなたのパワーなんて
+JP 私の足下にも及びませんわ！！
+EN Your power doesn't even come close to mine!!
+
+@ 112.17
+# scene 112 練習試合 バッド２
+# ビューティ市ヶ谷
+JP 寸胴娘！
+JP 今日こそ決着をつけてあげますわ！
+EN You stumpy little thing! Today I'll settle things once
+EN and for all!
+
+@ 113.16
+# scene 113 練習開始
+# ビューティ市ヶ谷
+JP さぁ、練習を始めますわよ！
+EN Now then, let's begin training!
+
+@ 114.16
+# scene 114 練習開始 好意
+# ビューティ市ヶ谷
+JP 今日は調子がいいみたいですわ！
+EN I seem to be in fine form today!
+
+@ 115.16
+# scene 115 特訓開始
+# ビューティ市ヶ谷
+JP 私には必要なさそうですけど…。
+EN Though I hardly think I need it...
+
+@ 116.20
+# scene 116 特訓成功
+# ビューティ市ヶ谷
+JP なかなか悪くありませんでしたわ。
+EN That wasn't half bad.
+
+@ 117.20
+# scene 117 特訓失敗
+# ビューティ市ヶ谷
+JP やはり…私には
+JP 必要ありませんでしたわ！
+EN Just as I thought... I didn't need it at all!
+
+@ 118.16
+# scene 118 休養
+# ビューティ市ヶ谷
+JP 別荘でゆっくりしてきますわ。
+EN I shall go relax at my villa.
+
+@ 119.16
+# scene 119 入場1
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 今日の引き立て役は誰なのかしら？
+EN Oh-ho-ho-ho-ho! Who will be my foil today, I wonder?
+
+@ 120.16
+# scene 119 入場2
+# ビューティ市ヶ谷
+JP 準備運動にはもってこいですわね！
+EN This will make a perfect warm-up!
+
+@ 121.17
+# scene 120 タッグマッチ ベスト
+# ビューティ市ヶ谷
+JP 私たちに勝てると思ってますの？
+EN Do you really think you can beat us?
+
+@ 122.17
+# scene 121 タッグマッチ ベター１
+# ビューティ市ヶ谷
+JP さぁ、露払いをさせて上げますわ！
+EN Now, I'll let you clear the way for me!
+
+@ 123.17
+# scene 122 タッグマッチ ベター２
+# ビューティ市ヶ谷
+JP 私が仕返ししますわ。
+JP おもいっきりおやりなさい。
+EN I'll get them back for you. Go all out.
+
+@ 124.17
+# scene 123 タッグマッチ バッド１
+# ビューティ市ヶ谷
+JP 私一人だけで充分ですわ！
+EN I'm more than enough on my own!
+
+@ 125.17
+# scene 123 タッグマッチ バッド２
+# ビューティ市ヶ谷
+JP キーーッ！
+JP あんたは引っ込んでなさい！！
+EN Grrrr! You stay out of this!!
+
+@ 126.16
+# scene 125 必殺技１
+# ビューティ市ヶ谷
+JP 私にひざまづきなさい！
+EN Kneel before me!
+
+@ 127.16
+# scene 125 必殺技２
+# ビューティ市ヶ谷
+JP この技でマットに沈めることを
+JP 光栄に思いなさい！
+EN Be honored that I sink you to the mat with this move!
+
+@ 128.16
+# scene 125 必殺技３
+# ビューティ市ヶ谷
+JP 圧倒的なパワーの前には、
+JP テクニックもスピードも
+JP 無意味なものと知りなさい！
+EN Know that before overwhelming power, technique
+EN and speed are meaningless!
+
+@ 129.12
+# scene 126 勝利1
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 常勝街道まっしぐらですわ！
+EN Oh-ho-ho-ho-ho! I'm on the road to an unbeaten
+EN streak!
+
+@ 130.12
+# scene 126 勝利2
+# ビューティ市ヶ谷
+JP 負け犬はそうやって
+JP マットに這いつくばっているのが
+JP お似合いですわ！
+EN Groveling on the mat like that suits a loser like you
+EN perfectly!
+
+@ 131.12
+# scene 126 勝利3
+# ビューティ市ヶ谷
+JP さあ、跪いて許しを乞いなさい！
+JP それが敗者の義務ですわ！
+JP オーッホッホッホッホ！
+EN Now, kneel and beg for forgiveness! That is the
+EN loser's duty! Oh-ho-ho-ho-ho!
+
+@ 132.15
+# scene 133 表彰1
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 当然の結果ですわ！
+EN Oh-ho-ho-ho-ho! A natural result!
+
+@ 133.15
+# scene 133 表彰2
+# ビューティ市ヶ谷
+JP トロフィーが増えすぎて
+JP 困ってしまいますわ。
+JP オーッホッホッホッホ！
+EN I have so many trophies, I hardly know what to do
+EN with them. Oh-ho-ho-ho-ho!
+
+@ 134.12
+# scene 134 優勝1
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 結果はやる前から
+JP わかりきっていましたわ！
+EN Oh-ho-ho-ho-ho! The result was obvious before we
+EN even started!
+
+@ 135.12
+# scene 134 優勝２
+# ビューティ市ヶ谷
+JP オーッホッホッホッホ！
+JP 誰の挑戦でも
+JP 受けてさしあげますわ！
+EN Oh-ho-ho-ho-ho! I'll take on any challenger!
+
+@ 136.24
+# scene 135 エンディング 通常
+# ビューティ市ヶ谷
+JP 私がいるのですから
+JP 当然の結果ですわ。
+JP オーッホッホッホッホ！
+EN With me here, this was the natural result.
+EN Oh-ho-ho-ho-ho!
+
+@ 137.24
+# scene 136 エンディング 好意
+# ビューティ市ヶ谷
+JP お見事ですわ、社長。
+JP これなら財閥の経営も…。
+JP …あっ、いえ、こちらの話ですわ。
+EN Splendid work, Boss. With this, running the family
+EN empire... Oh, no, never mind. Just talking to myself.

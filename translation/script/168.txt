@@ -1,0 +1,2080 @@
+# /SCR/168.BIN - フォルトゥナ紫月
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 168` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# フォルトゥナ紫月
+JP 運命に導かれるままに……。
+JP ここへ……。
+EN Guided by fate... I came here...
+
+@ 1.16
+# scene 002 新人テスト 成功
+# フォルトゥナ紫月
+JP すべては運命のままに……。
+EN All is as fate wills...
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# フォルトゥナ紫月
+JP 運命の導きに誤りがあった……？
+EN Did fate's guidance... lead me astray...?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ここに有望な選手がいるって
+JP 聞いてきたけど…。
+EN I heard there was a promising wrestler here...
+
+@ 3.25
+# 社 長
+JP 人が多すぎて、誰がそうなのか
+JP わからないな。
+EN There are too many people. I can't tell which one she
+EN is.
+
+@ 3.27
+# 社 長
+JP 手近な人に尋ねてみるしかないか…。
+EN I guess I'll just have to ask someone nearby...
+
+@ 3.29
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.39
+# ？？？
+JP …誰……？
+EN ...Who...?
+
+@ 3.42
+# 社 長
+JP （俺は自分の身分を話して
+JP 　尋ね人について説明した）
+EN (I told her who I was and explained who I was looking
+EN for.)
+
+@ 3.46
+# ？？？
+JP 運命があなたと私を結びつけた……。
+EN Fate has brought you and me together...
+
+@ 3.49
+# 社 長
+JP …えっ？
+JP ではあなたが…？
+EN ...Huh? Then you're...?
+
+@ 3.51
+# 社 長
+JP （俺は改めて
+JP 　彼女をスカウトしてみた）
+EN (I started over and tried to recruit her.)
+
+@ 3.58
+# フォルトゥナ紫月
+JP 私の運命は……。
+JP プロレス……？
+EN My fate is... pro wrestling...?
+
+@ 3.61
+# 社 長
+JP 入団してもらえないでしょうか。
+EN Would you consider joining us?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# フォルトゥナ紫月
+JP 運命のままに……。
+EN As fate wills...
+
+@ 4.22
+# 社 長
+JP 入ってくれるんですか。
+JP ありがとう。
+EN You'll join us? Thank you.
+
+@ 4.29
+# フォルトゥナ紫月
+JP 止まらぬ歯車……。
+JP それが運命……。
+EN The gears cannot be stopped... That is fate...
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# フォルトゥナ紫月
+JP 運命が違うと言っている……。
+EN Fate says... it is not to be...
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, I'm pretty sure it was around here...
+
+@ 6.33
+# フォルトゥナ紫月
+JP …あっ……。
+EN ...Oh...
+
+@ 6.36
+# 社 長
+JP あぁ、会えてよかった。
+EN Ah, I'm glad I found you.
+
+@ 6.43
+# フォルトゥナ紫月
+JP また出会った……？
+JP なぜ……？
+EN We met again...? Why...?
+
+@ 6.46
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join my promotion...
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once again.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# フォルトゥナ紫月
+JP 運命のままに……。
+EN As fate wills...
+
+@ 7.22
+# 社 長
+JP 入ってくれるんですか。
+JP ありがとう。
+EN You'll join us? Thank you.
+
+@ 7.29
+# フォルトゥナ紫月
+JP 止まらぬ歯車……。
+JP それが運命……。
+EN The gears cannot be stopped... That is fate...
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# フォルトゥナ紫月
+JP 運命が違うと言っている……。
+EN Fate says... it is not to be...
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は紫月選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Shizuku.
+
+@ 9.25
+# 社 長
+JP 相手の意表をついた関節技は
+JP 見る者を魅了する。
+EN Her surprise submission holds captivate everyone
+EN who sees them.
+
+@ 9.27
+# 社 長
+JP うちの団体でも
+JP 十分エースになれる逸材だ。
+EN She has the talent to become the ace of my
+EN promotion.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She should be training somewhere around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Oh, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# フォルトゥナ紫月
+JP …あなたは誰……？
+EN ...Who are you...?
+
+@ 9.46
+# 社 長
+JP 私はプロレス団体を
+JP 経営していまして…。
+EN I run a pro-wrestling promotion...
+
+@ 9.48
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.55
+# フォルトゥナ紫月
+JP これは…引き抜き……？
+EN Is this... poaching...?
+
+@ 9.58
+# 社 長
+JP どうでしょうか？
+EN What do you say?
+
+@ 9.65
+# フォルトゥナ紫月
+JP 運命はここで曲がっているの……？
+EN Does fate bend here...?
+
+@ 9.68
+# 社 長
+JP 是非、力を貸して
+JP もらえないでしょうか？
+EN Would you please lend us your strength?
+
+@ 9.70
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# フォルトゥナ紫月
+JP 運命は曲がっている……。
+JP だからそれに従う……。
+EN Fate has bent... So I will follow it...
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# フォルトゥナ紫月
+JP 運命の示すままに……。
+JP すべては流れのままに……。
+EN As fate shows... All flows as it will...
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# フォルトゥナ紫月
+JP 運命は曲がっていない……。
+JP だから…ダメ……。
+EN Fate has not bent... So... no...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 紫月選手が必要だ。
+EN My promotion really needs Shizuku.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 紫月選手と交渉することにした。
+EN I decided to negotiate with Shizuku once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# フォルトゥナ紫月
+JP あっ…また会った……。
+EN Oh... We met again...
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join my promotion...
+
+@ 12.47
+# フォルトゥナ紫月
+JP なぜ…こんなに繰り返されるの……？
+JP 運命は曲がっているの……？
+EN Why... does this keep repeating...? Has fate bent...?
+
+@ 12.50
+# 社 長
+JP 私を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# フォルトゥナ紫月
+JP 運命は曲がっている……。
+JP だからそれに従う……。
+EN Fate has bent... So I will follow it...
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# フォルトゥナ紫月
+JP 運命の示すままに……。
+JP すべては流れのままに……。
+EN As fate shows... All flows as it will...
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# フォルトゥナ紫月
+JP 運命は曲がっていない……。
+JP だから…ダメ……。
+EN Fate has not bent... So... no...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は紫月選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Shizuku.
+
+@ 15.25
+# 社 長
+JP 巧みな関節技で
+JP うちの団体のファンを
+JP 魅了して欲しい。
+EN I want her skillful submission holds to captivate our
+EN fans.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be somewhere around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Oh, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# フォルトゥナ紫月
+JP あなたから…何かを感じる……。
+EN I sense... something from you...
+
+@ 15.44
+# 社 長
+JP 私はプロレス団体を
+JP 経営していまして…。
+EN I run a pro-wrestling promotion...
+
+@ 15.47
+# 社 長
+JP （俺は自分のことを説明して、
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.54
+# フォルトゥナ紫月
+JP あなたの団体……？
+EN Your promotion...?
+
+@ 15.57
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.64
+# フォルトゥナ紫月
+JP これが新たな出会い……？
+EN Is this a new encounter...?
+
+@ 15.67
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Is there any way you could lend us your strength?
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# フォルトゥナ紫月
+JP あなたはきっと運命の人……。
+JP だから…いい……。
+EN You must be the one fate chose... So... yes...
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# フォルトゥナ紫月
+JP 偶然はない……。
+JP すべては運命の導きのまま……。
+EN There are no coincidences... All is as fate guides...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# フォルトゥナ紫月
+JP あなたは運命の人じゃない……。
+JP だから…ダメ……。
+EN You are not the one fate chose... So... no...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 紫月選手が必要だ。
+EN My promotion really needs Shizuku.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 紫月選手と交渉することにした。
+EN I decided to negotiate with Shizuku once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# フォルトゥナ紫月
+JP あっ……。
+JP なぜ…こんなによく会うの……。
+EN Oh... Why... do we keep meeting...
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join my promotion...
+
+@ 18.47
+# フォルトゥナ紫月
+JP 運命はどっちを向いているの……。
+EN Which way is fate facing...
+
+@ 18.50
+# 社 長
+JP なんとかお願いします。
+EN Please, I'm begging you.
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# フォルトゥナ紫月
+JP あなたはきっと運命の人……。
+JP だから…いい……。
+EN You must be the one fate chose... So... yes...
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# フォルトゥナ紫月
+JP 偶然はない……。
+JP すべては運命の導きのまま……。
+EN There are no coincidences... All is as fate guides...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# フォルトゥナ紫月
+JP あなたは運命の人じゃない……。
+JP だから…ダメ……。
+EN You are not the one fate chose... So... no...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 紫月っ！
+EN Shizuku!
+
+@ 21.33
+# フォルトゥナ紫月
+JP どうしてここへ……？
+EN Why are you here...?
+
+@ 21.36
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.43
+# フォルトゥナ紫月
+JP うん……。
+JP 懐かしい……。
+EN Mm... It's been a while...
+
+@ 21.46
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you. I want you to
+EN come back.
+
+@ 21.53
+# フォルトゥナ紫月
+JP 運命は変わった……。
+JP もう元に戻せない……。
+EN Fate has changed... It can't be undone...
+
+@ 21.56
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this...
+
+@ 21.58
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# フォルトゥナ紫月
+JP なぜかまだ鼓動を感じる……。
+JP 運命は死んでないの……？
+EN Somehow I still feel a heartbeat... Is fate not dead...?
+
+@ 22.18
+# 社 長
+JP 頼む。
+JP 力を貸して欲しいんだ。
+EN Please. I need your help.
+
+@ 22.29
+# フォルトゥナ紫月
+JP あなたを信じる……。
+JP きっとこれが本当の運命だから……。
+EN I'll trust you... Because this must be my true fate...
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# フォルトゥナ紫月
+JP 運命は動かない……。
+JP 車輪は錆び付いて止まっている……。
+EN Fate will not move... The wheel has rusted and
+EN stopped...
+
+@ 23.18
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.29
+# フォルトゥナ紫月
+JP 運命の糸は断ち切られた……。
+EN The thread of fate has been cut...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I've only got myself to blame...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び紫月を訪ねることにした。
+EN I decided to go see Shizuku again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN My promotion really needs her.
+
+@ 24.27
+# 社 長
+JP 紫月っ！
+EN Shizuku!
+
+@ 24.37
+# フォルトゥナ紫月
+JP あ……。
+JP また会った……。
+EN Ah... We met again...
+
+@ 24.40
+# 社 長
+JP 頼む。
+JP どうしても団体に戻って欲しいんだ。
+EN Please. I really want you to come back to the
+EN promotion.
+
+@ 24.43
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# フォルトゥナ紫月
+JP なぜかまだ鼓動を感じる……。
+JP 運命は死んでないの……？
+EN Somehow I still feel a heartbeat... Is fate not dead...?
+
+@ 25.18
+# 社 長
+JP 頼む。
+JP 力を貸して欲しいんだ。
+EN Please. I need your help.
+
+@ 25.29
+# フォルトゥナ紫月
+JP あなたを信じる……。
+JP きっとこれが本当の運命だから……。
+EN I'll trust you... Because this must be my true fate...
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# フォルトゥナ紫月
+JP 運命は動かない……。
+JP 車輪は錆び付いて止まっている……。
+EN Fate will not move... The wheel has rusted and
+EN stopped...
+
+@ 26.18
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.29
+# フォルトゥナ紫月
+JP 運命の糸は断ち切られた……。
+EN The thread of fate has been cut...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I've only got myself to blame...)
+
+@ 27.16
+# scene 028 ケガ小
+# フォルトゥナ紫月
+JP 大丈夫……。
+JP 痛くないから……。
+EN I'm okay... It doesn't hurt...
+
+@ 28.16
+# scene 029 ケガ大
+# フォルトゥナ紫月
+JP ちょっと痛い……。
+EN It hurts a little...
+
+@ 29.16
+# scene 030 入院
+# フォルトゥナ紫月
+JP 運命が錯綜している……。
+JP 行きたくない……。
+EN Fate is tangled... I don't want to go...
+
+@ 30.16
+# scene 031 退院
+# フォルトゥナ紫月
+JP 帰れた……。
+JP あそこは…イヤ……。
+EN I'm back... I don't like... that place...
+
+@ 31.16
+# scene 032 ケガ完治
+# フォルトゥナ紫月
+JP 治った……。
+JP もう痛くない……。
+EN Healed... It doesn't hurt anymore...
+
+@ 32.20
+# scene 033 引退勧告 成功
+# フォルトゥナ紫月
+JP わかった……。
+JP これも運命……。
+EN I understand... This is fate too...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# フォルトゥナ紫月
+JP まだ運命は尽きていない……。
+EN My fate has not run out yet...
+
+@ 34.16
+# scene 035 コーチ就任
+# フォルトゥナ紫月
+JP 新たな運命が紡がれていく……。
+EN A new fate is being woven...
+
+@ 35.16
+# scene 036 ケガ引退
+# フォルトゥナ紫月
+JP 体が壊れた……。
+JP もう動けない……。
+EN My body is broken... I can't move anymore...
+
+@ 36.16
+# scene 037 年齢引退
+# フォルトゥナ紫月
+JP これが運命の終端……。
+JP もうこの先には何もない……。
+EN This is where fate ends... There is nothing beyond...
+
+@ 37.16
+# scene 038 退団
+# フォルトゥナ紫月
+JP 運命の糸が切れた……。
+EN The thread of fate has snapped...
+
+@ 38.16
+# scene 039 スランプ
+# フォルトゥナ紫月
+JP 運命が見えない……。
+EN I can't see fate...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# フォルトゥナ紫月
+JP ファンクラブができたの……？
+EN I have a fan club...?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard and live up to their support.
+
+@ 39.26
+# フォルトゥナ紫月
+JP やってみる……。
+EN I'll try...
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# フォルトゥナ紫月
+JP ファンクラブ……？
+JP また……？
+EN A fan club...? Another one...?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# フォルトゥナ紫月
+JP うん……。
+EN Mm...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# フォルトゥナ紫月
+JP ファンクラブがなくなった……？
+EN My fan club is gone...?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard and try
+EN again.
+
+@ 41.26
+# フォルトゥナ紫月
+JP 悲しい……。
+JP 運命は残酷……。
+EN It's sad... Fate is cruel...
+
+@ 42.16
+# scene 043 映画出演
+# フォルトゥナ紫月
+JP 演技…できるかな……？
+EN Can I... act...?
+
+@ 43.16
+# scene 044 一日署長
+# フォルトゥナ紫月
+JP 署長……。
+JP がんばる……。
+EN Police chief... I'll do my best...
+
+@ 44.16
+# scene 045 写真集発売
+# フォルトゥナ紫月
+JP 恥ずかしい……。
+JP やらないとダメ……？
+EN It's embarrassing... Do I have to...?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# フォルトゥナ紫月
+JP テレビ……。
+JP 不思議……。
+EN Television... How strange...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# フォルトゥナ紫月
+JP 社長も…歌って……。
+EN Boss... sing too...
+
+@ 47.16
+# scene 048 始球式
+# フォルトゥナ紫月
+JP 練習する……。
+EN I'll practice...
+
+@ 48.16
+# scene 049 学園祭
+# フォルトゥナ紫月
+JP お祭り…楽しみ……。
+EN A festival... I can't wait...
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.35
+# フォルトゥナ紫月
+JP 私に……？
+EN For me...?
+
+@ 49.38
+# 社 長
+JP そうだよ。
+JP 今日、誕生日だろ？
+EN That's right. It's your birthday today, isn't it?
+
+@ 49.42
+# フォルトゥナ紫月
+JP 忘れてた……。
+JP でも、すごく嬉しい……。
+EN I forgot... But I'm really happy...
+
+@ 50.25
+# scene 051 バレンタインデー
+# 社 長
+JP （あれ、机の上にチョコが。
+JP 　誰からだろう？）
+EN (Huh, there's chocolate on my desk. Who's it from?)
+
+@ 50.35
+# フォルトゥナ紫月
+JP チョコ…食べた……？
+EN Did you... eat the chocolate...?
+
+@ 50.38
+# 社 長
+JP ああ、ありがとう。
+EN Yeah, thank you.
+
+@ 50.46
+# フォルトゥナ紫月
+JP 一生懸命…がんばった……。
+EN I tried... really hard...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Would you accept this as thanks for last month?
+
+@ 51.36
+# フォルトゥナ紫月
+JP もらえるなんて思わなかった……。
+EN I never thought I'd get something...
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have it between training sessions.
+
+@ 52.29
+# scene 053 サイン会
+# フォルトゥナ紫月
+JP 運命のままに……。
+JP あなたにも幸運が
+JP 訪れますように……。
+EN As fate wills... May good fortune come to you as well...
+
+@ 53.31
+# scene 054 コンサート
+# フォルトゥナ紫月
+JP がんばって歌うから……。
+JP 最後まで聞いて……。
+EN I'll sing my best... Please listen till the end...
+
+@ 54.26
+# scene 055 練習拒否
+# フォルトゥナ紫月
+JP もうイヤ……。
+EN I've had enough...
+
+@ 55.26
+# scene 056 失踪
+# フォルトゥナ紫月
+JP どこからか…声が聞こえる……。
+EN I hear... a voice from somewhere...
+
+@ 56.16
+# scene 057 選手解雇
+# フォルトゥナ紫月
+JP これも運命……？
+EN Is this fate too...?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# フォルトゥナ紫月
+JP 飛行機…落ちないといいな……。
+EN I hope... the plane doesn't crash...
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# フォルトゥナ紫月
+JP 飛行機…落ちなかった……。
+JP よかった……。
+EN The plane... didn't crash... Thank goodness...
+
+@ 59.26
+# scene 060 移籍思案
+# フォルトゥナ紫月
+JP 正しい運命は…どれ……？
+EN Which... is the right fate...?
+
+@ 60.16
+# scene 061 革命軍結成
+# フォルトゥナ紫月
+JP 立ち上がれと
+JP 運命が言っている……。
+EN Fate tells me to rise up...
+
+@ 61.16
+# scene 062 反乱軍結成
+# フォルトゥナ紫月
+JP 打ち壊せと
+JP 運命が言っている……。
+EN Fate tells me to tear it all down...
+
+@ 62.16
+# scene 063 最終決戦要求
+# フォルトゥナ紫月
+JP 戦えと運命が言っている……。
+EN Fate tells me to fight...
+
+@ 63.16
+# scene 065 遺恨発生
+# フォルトゥナ紫月
+JP 頭にきた……。
+EN I'm angry...
+
+@ 64.16
+# scene 065 殴り込み
+# フォルトゥナ紫月
+JP 実力を見せてくる……。
+EN I'll go show them what I can do...
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# フォルトゥナ紫月
+JP 私がやっつける……。
+EN I'll take them down...
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# フォルトゥナ紫月
+JP 運命がここに導いた……。
+EN Fate has led me here...
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# フォルトゥナ紫月
+JP 胸が高鳴る……。
+JP 止まらない……。
+EN My heart is racing... It won't stop...
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# フォルトゥナ紫月
+JP 優勝……。
+JP すごく嬉しい……。
+JP がんばってよかった……。
+EN I won... I'm so happy... I'm glad I worked hard...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# フォルトゥナ紫月
+JP 負けた……。
+JP すごく悔しい……。
+JP こんな運命…イヤ……。
+EN I lost... It's so frustrating... I hate this fate...
+
+@ 70.13
+# scene 071 引退式
+# フォルトゥナ紫月
+JP 運命の歯車が止まるときが来た……。
+JP ありがとう……。
+EN The time has come for the gears of fate to stop...
+EN Thank you...
+
+@ 71.18
+# フォルトゥナ紫月
+JP 呼んだ……？
+EN You called...?
+
+@ 71.37
+# フォルトゥナ紫月
+JP 会いたかった……。
+EN I wanted to see you...
+
+@ 71.47
+# フォルトゥナ紫月
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# フォルトゥナ紫月
+JP うん……。
+JP いけると思う……。
+EN Mm... I think I can do it...
+
+@ 71.111
+# フォルトゥナ紫月
+JP 言葉に真実を感じない……。
+EN I feel no truth in your words...
+
+@ 71.132
+# フォルトゥナ紫月
+JP もっとがんばる……。
+JP そうしたらまた誉めてくれる……？
+EN I'll work harder... Then will you praise me again...?
+
+@ 71.153
+# フォルトゥナ紫月
+JP 誉められても
+JP これ以上は無理……。
+EN Even if you praise me... I can't do more than this...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# フォルトゥナ紫月
+JP 怒られた……。
+JP 悪いのは私……。
+EN I got scolded... It's my fault...
+
+@ 71.211
+# フォルトゥナ紫月
+JP 怒られた……。
+JP どうして……？
+EN I got scolded... Why...?
+
+@ 71.232
+# フォルトゥナ紫月
+JP 怒られたのに…温かい……。
+JP どうして……？
+EN I got scolded, but... it feels warm... Why...?
+
+@ 71.253
+# フォルトゥナ紫月
+JP 嫌われたの……？
+EN Do you hate me now...?
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 71.290
+# フォルトゥナ紫月
+JP そうかも……。
+JP でも…もう大丈夫……。
+EN Maybe... But... I'm okay now...
+
+@ 71.311
+# フォルトゥナ紫月
+JP 大丈夫じゃない……。
+JP 辛い……。
+EN I'm not okay... It's hard...
+
+@ 71.332
+# フォルトゥナ紫月
+JP 優しい……。
+JP だから…好き……。
+EN You're kind... That's why... I like you...
+
+@ 71.353
+# フォルトゥナ紫月
+JP 社長はわかってると思ってた……。
+EN I thought you understood, Boss...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# フォルトゥナ紫月
+JP たぶん…あのこと……？
+EN Maybe... about that thing...?
+
+@ 71.400
+# フォルトゥナ紫月
+JP 知らない……。
+EN I don't know...
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# フォルトゥナ紫月
+JP うん……。
+JP わかった……。
+EN Mm... All right...
+
+@ 71.454
+# フォルトゥナ紫月
+JP これは…逃れられない運命……。
+EN This is... a fate I can't escape...
+
+@ 71.475
+# フォルトゥナ紫月
+JP 話がわからない……。
+JP おかしいのはどっち……？
+EN I don't understand... Which of us is the strange
+EN one...?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# フォルトゥナ紫月
+JP ごめんなさい……。
+EN I'm sorry...
+
+@ 71.522
+# フォルトゥナ紫月
+JP 私の気持ちが届いたから……？
+EN Because my feelings reached you...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# フォルトゥナ紫月
+JP わかった……。
+JP 謝ってくる……。
+EN All right... I'll go apologize...
+
+@ 71.578
+# フォルトゥナ紫月
+JP どうして向こうの肩を持つの……？
+EN Why are you taking her side...?
+
+@ 71.599
+# フォルトゥナ紫月
+JP 私に会いたかった訳じゃないの……？
+EN So you didn't want to see me...?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# フォルトゥナ紫月
+JP 会いたかった……。
+EN I wanted to see you...
+
+@ 72.16
+# フォルトゥナ紫月
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# フォルトゥナ紫月
+JP うん……。
+JP いけると思う……。
+EN Mm... I think I can do it...
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# フォルトゥナ紫月
+JP 言葉に真実を感じない……。
+EN I feel no truth in your words...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# フォルトゥナ紫月
+JP もっとがんばる……。
+JP そうしたらまた誉めてくれる……？
+EN I'll work harder... Then will you praise me again...?
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# フォルトゥナ紫月
+JP 誉められても…
+JP これ以上は無理……。
+EN Even if you praise me... I can't do more than this...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# フォルトゥナ紫月
+JP 怒られた……。
+JP 悪いのは私……。
+EN I got scolded... It's my fault...
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# フォルトゥナ紫月
+JP 怒られた……。
+JP どうして……？
+EN I got scolded... Why...?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# フォルトゥナ紫月
+JP 怒られたのに…温かい……。
+JP どうして……？
+EN I got scolded, but... it feels warm... Why...?
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# フォルトゥナ紫月
+JP 嫌われたの……？
+EN Do you hate me now...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# フォルトゥナ紫月
+JP そうかも……。
+JP でも…もう大丈夫……。
+EN Maybe... But... I'm okay now...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# フォルトゥナ紫月
+JP 大丈夫じゃない……。
+JP 辛い……。
+EN I'm not okay... It's hard...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# フォルトゥナ紫月
+JP 優しい……。
+JP だから…好き……。
+EN You're kind... That's why... I like you...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# フォルトゥナ紫月
+JP 社長はわかってると思ってた……。
+EN I thought you understood, Boss...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# フォルトゥナ紫月
+JP たぶん…あのこと……？
+EN Maybe... about that thing...?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# フォルトゥナ紫月
+JP 知らない……。
+EN I don't know...
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# フォルトゥナ紫月
+JP うん……。
+JP わかった……。
+EN Mm... All right...
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# フォルトゥナ紫月
+JP これは…逃れられない運命……。
+EN This is... a fate I can't escape...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# フォルトゥナ紫月
+JP 話がわからない……。
+JP おかしいのはどっち……？
+EN I don't understand... Which of us is the strange
+EN one...?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# フォルトゥナ紫月
+JP ごめんなさい……。
+EN I'm sorry...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# フォルトゥナ紫月
+JP 私の気持ちが届いたから……？
+EN Because my feelings reached you...?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# フォルトゥナ紫月
+JP わかった……。
+JP 謝ってくる……。
+EN All right... I'll go apologize...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# フォルトゥナ紫月
+JP どうして向こうの肩を持つの……？
+EN Why are you taking her side...?
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# フォルトゥナ紫月
+JP 私に会いたかった訳じゃないの……？
+EN So you didn't want to see me...?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# フォルトゥナ紫月
+JP これでいい……。
+EN This is fine...
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# フォルトゥナ紫月
+JP これからもっとがんばる……。
+EN I'll work even harder from now on...
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# フォルトゥナ紫月
+JP これが運命なら従う……。
+EN If this is fate, I'll accept it...
+
+@ 105.23
+# scene 106 バカンスイベント
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.25
+# 社 長
+JP （……眠れん）
+EN (...I can't sleep.)
+
+@ 105.27
+# 社 長
+JP （気分転換したら眠れるかと
+JP 　思ったけどダメだったか）
+EN (I thought a change of scenery would help me sleep,
+EN but no luck.)
+
+@ 105.29
+# 社 長
+JP （仕方ない。
+JP 　眠くなるまで外を歩くか）
+EN (Oh well. I'll walk around outside until I get sleepy.)
+
+@ 105.48
+# 社 長
+JP （ふう…。
+JP 　空気が澄んでいて
+JP 　気持ちいいな）
+EN (Phew... The air is so clear. This feels nice.)
+
+@ 105.50
+# 社 長
+JP （星も綺麗だし
+JP 　夜の散歩も悪くないもんだ）
+EN (The stars are beautiful too. A night walk isn't half
+EN bad.)
+
+@ 105.56
+# 社 長
+JP （んっ…？）
+EN (Hm...?)
+
+@ 105.58
+# 社 長
+JP （あそこ…。
+JP 　星の光が集まっている？）
+EN (Over there... Is starlight gathering?)
+
+@ 105.60
+# 社 長
+JP （なんだろう、あれ…？）
+EN (What is that...?)
+
+@ 105.62
+# 社 長
+JP …人っ！？
+JP 光の中に人がいるのか…？
+EN ...A person?! Is someone standing in the light...?
+
+@ 105.64
+# 社 長
+JP これって…なんだ…？
+EN What... is this...?
+
+@ 105.88
+# フォルトゥナ紫月
+JP ………………。
+EN ..................
+
+@ 105.98
+# フォルトゥナ紫月
+JP ………………。
+EN ..................
+
+@ 105.101
+# 社 長
+JP （あれは……）
+EN (That's...)
+
+@ 105.103
+# 社 長
+JP …紫月か…？
+EN ...Shizuku...?
+
+@ 105.107
+# フォルトゥナ紫月
+JP 社長……。
+EN Boss...
+
+@ 105.110
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.114
+# フォルトゥナ紫月
+JP ここにいれば会えると思った……。
+EN I thought I'd see you if I stayed here...
+
+@ 105.117
+# 社 長
+JP そうなのか…。
+EN Is that so...
+
+@ 105.121
+# フォルトゥナ紫月
+JP うん……。
+EN Mm...
+
+@ 105.124
+# 社 長
+JP そんな格好で
+JP ここで何をしているんだ？
+EN What are you doing out here, dressed like that?
+
+@ 105.134
+# フォルトゥナ紫月
+JP お話……。
+EN Talking...
+
+@ 105.137
+# 社 長
+JP …話？
+EN ...Talking?
+
+@ 105.141
+# フォルトゥナ紫月
+JP うん……。
+EN Mm...
+
+@ 105.144
+# 社 長
+JP （俺は周りを見回したが
+JP 　誰もいなかった）
+EN (I looked around, but there was no one else.)
+
+@ 105.146
+# 社 長
+JP えーと…。
+JP 誰と話してたんだ？
+EN Um... Who were you talking to?
+
+@ 105.150
+# フォルトゥナ紫月
+JP お星さま……。
+EN The stars...
+
+@ 105.153
+# 社 長
+JP そ、そうなのか…。
+EN I-is that so...
+
+@ 105.163
+# フォルトゥナ紫月
+JP お星さまも社長に会えて喜んでる…。
+EN The stars are happy to meet you too, Boss...
+
+@ 105.166
+# 社 長
+JP そ、そうか。
+EN R-right.
+
+@ 105.168
+# 社 長
+JP （あいかわらず
+JP 　ついていけない部分があるな…）
+EN (There's still a part of her I just can't keep up
+EN with...)
+
+@ 105.178
+# フォルトゥナ紫月
+JP ここはいつもは会えない
+JP お星さまにも会える……。
+EN Here, I can meet stars I usually can't see...
+
+@ 105.181
+# 社 長
+JP そうだな。
+JP 地上の余計な光がないからな。
+EN That's true. There's no extra light from the city
+EN here.
+
+@ 105.185
+# フォルトゥナ紫月
+JP 社長、またここに
+JP 連れてきてくれる……？
+EN Boss, will you bring me here again...?
+
+@ 105.188
+# 社 長
+JP ああ。
+JP そんなに気に入ったならな。
+EN Sure. If you like it that much.
+
+@ 105.198
+# フォルトゥナ紫月
+JP 社長、ありがとう……。
+JP 大好き……。
+EN Thank you, Boss... I love you...
+
+@ 105.201
+# 社 長
+JP あ、ああ…。
+EN Oh, uh, right...
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （なんでわざわざ荷物を
+JP 　届けに来なけりゃいけないんだ）
+EN (Why do I have to come all the way here to deliver a
+EN package?)
+
+@ 106.26
+# 社 長
+JP （私用の荷物は自分で寮に
+JP 　持って帰ってほしいよなぁ）
+EN (I wish they'd carry their personal packages back
+EN to the dorm themselves.)
+
+@ 106.29
+# 社 長
+JP さて…オフィスに戻るか。
+EN Well... back to the office.
+
+@ 106.39
+# フォルトゥナ紫月
+JP あっ……。
+EN Oh...
+
+@ 106.42
+# 社 長
+JP おう、紫月か。
+EN Hey, Shizuku.
+
+@ 106.49
+# フォルトゥナ紫月
+JP ……………。
+EN ...............
+
+@ 106.52
+# 社 長
+JP それ、何持ってるんだ？
+EN What's that you're holding?
+
+@ 106.59
+# フォルトゥナ紫月
+JP 占い道具……。
+EN Fortune-telling tools...
+
+@ 106.62
+# 社 長
+JP へぇ。
+JP 占いなんかするんだな？
+EN Huh. So you tell fortunes?
+
+@ 106.66
+# フォルトゥナ紫月
+JP ………………。
+EN ..................
+
+@ 106.69
+# 社 長
+JP これタロットカードっていうんだろ？
+EN These are called tarot cards, right?
+
+@ 106.71
+# 社 長
+JP 今度、占ってくれよな。
+EN Read my fortune sometime.
+
+@ 106.100
+# 社 長
+JP （えっ…今やるのか？）
+EN (Huh... She's doing it now?)
+
+@ 106.104
+# フォルトゥナ紫月
+JP ………………。
+EN ..................
+
+@ 106.107
+# 社 長
+JP （…話しかけづらい雰囲気だな）
+EN (...It's hard to talk to her right now.)
+
+@ 106.109
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.119
+# フォルトゥナ紫月
+JP …………ッ……！
+EN ............Ah...!
+
+@ 106.122
+# 社 長
+JP どうした？
+JP 何か出たのか？
+EN What is it? Did something come up?
+
+@ 106.132
+# フォルトゥナ紫月
+JP ………………。
+EN ..................
+
+@ 106.135
+# 社 長
+JP （…えっ、なに？
+JP 　どういう意味？）
+EN (...Huh? What? What does that mean?)
+
+@ 106.145
+# フォルトゥナ紫月
+JP これも運命……。
+EN This is fate too...
+
+@ 106.148
+# 社 長
+JP ……えっ？
+EN ...Huh?
+
+@ 106.164
+# 社 長
+JP 何がわかったんだ？
+EN What did you find out?
+
+@ 106.168
+# フォルトゥナ紫月
+JP 社長はまだ知らなくていいこと……。
+EN Something you don't need to know yet, Boss...
+
+@ 106.177
+# 社 長
+JP （…なんなんだ？）
+EN (...What was that about?)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （最近、荷物の誤配が多いよなぁ）
+EN (There've been a lot of misdelivered packages
+EN lately.)
+
+@ 107.26
+# 社 長
+JP （やれやれ、ようやく着いた）
+EN (Sheesh, finally made it.)
+
+@ 107.28
+# 社 長
+JP さて…オフィスに戻るか。
+EN Well... back to the office.
+
+@ 107.38
+# フォルトゥナ紫月
+JP 社長……。
+EN Boss...
+
+@ 107.41
+# 社 長
+JP おう、紫月。
+EN Hey, Shizuku.
+
+@ 107.43
+# 社 長
+JP （あっ、またタロットカード
+JP 　持ってるんだな）
+EN (Oh, she's got her tarot cards again.)
+
+@ 107.47
+# フォルトゥナ紫月
+JP 少し、待っていて……。
+EN Wait... a moment...
+
+@ 107.50
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 107.80
+# フォルトゥナ紫月
+JP ………………。
+EN ..................
+
+@ 107.83
+# 社 長
+JP （…なんだかすごく張りつめた
+JP 　雰囲気だな）
+EN (...The air feels incredibly tense.)
+
+@ 107.85
+# 社 長
+JP （何を占っているんだろう…？）
+EN (What is she reading...?)
+
+@ 107.87
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.97
+# フォルトゥナ紫月
+JP ……あっ……！
+EN ...Ah...!
+
+@ 107.101
+# フォルトゥナ紫月
+JP やっぱり……。
+EN I knew it...
+
+@ 107.104
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 107.114
+# フォルトゥナ紫月
+JP 運命の糸が結びついている……。
+EN The threads of fate are tied together...
+
+@ 107.117
+# 社 長
+JP …なんの話だ？
+EN ...What are you talking about?
+
+@ 107.127
+# フォルトゥナ紫月
+JP 社長と私……。
+EN You and me, Boss...
+
+@ 107.130
+# 社 長
+JP …はっ？
+EN ...Huh?
+
+@ 107.134
+# フォルトゥナ紫月
+JP 私と社長の宿命……。
+EN Your destiny and mine...
+
+@ 107.137
+# 社 長
+JP …えっ？
+JP ……えっ？
+EN ...Huh? ...Huh?
+
+@ 107.147
+# フォルトゥナ紫月
+JP 私はそれでいい……。
+JP 拒まない……。
+EN I'm fine with that... I won't refuse...
+
+@ 107.150
+# 社 長
+JP …えっ？
+JP ……えっ？
+EN ...Huh? ...Huh?
+
+@ 107.164
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.166
+# 社 長
+JP （その後、俺は占いの結果を聞いたが
+JP 　紫月は答えてくれなかった…）
+EN (Afterward, I asked her about the reading, but
+EN Shizuku wouldn't tell me...)
+
+@ 108.16
+# scene 113 練習開始
+# フォルトゥナ紫月
+JP 練習……。
+EN Training...
+
+@ 109.16
+# scene 114 練習開始 好意
+# フォルトゥナ紫月
+JP うん……。
+JP がんばる……。
+EN Mm... I'll do my best...
+
+@ 110.16
+# scene 115 特訓開始
+# フォルトゥナ紫月
+JP 特訓する……。
+EN Special training...
+
+@ 111.20
+# scene 116 特訓成功
+# フォルトゥナ紫月
+JP よかった……。
+EN Good...
+
+@ 112.20
+# scene 117 特訓失敗
+# フォルトゥナ紫月
+JP ダメ……。
+EN No good...
+
+@ 113.16
+# scene 118 休養
+# フォルトゥナ紫月
+JP お休み……。
+JP 運命の歯車もお休み……。
+EN A break... The gears of fate take a break too...
+
+@ 114.16
+# scene 119 入場1
+# フォルトゥナ紫月
+JP 勝利は運命で決まっている……。
+EN Victory is decided by fate...
+
+@ 115.16
+# scene 119 入場2
+# フォルトゥナ紫月
+JP 運命の鼓動を感じる……。
+EN I feel the heartbeat of fate...
+
+@ 116.16
+# scene 125 必殺技１
+# フォルトゥナ紫月
+JP 私が勝つことが運命……！
+EN It is fate that I win...!
+
+@ 117.16
+# scene 125 必殺技２
+# フォルトゥナ紫月
+JP これで終わり……！
+JP それは変えられない運命……！
+EN This ends it...! A fate that cannot be changed...!
+
+@ 118.16
+# scene 125 必殺技３
+# フォルトゥナ紫月
+JP あなたの運命が決まった……！
+EN Your fate is sealed...!
+
+@ 119.12
+# scene 126 勝利1
+# フォルトゥナ紫月
+JP 運命が正しいことが証明された…。
+EN Fate has been proven right...
+
+@ 120.12
+# scene 126 勝利2
+# フォルトゥナ紫月
+JP あなたでは運命を変えられない……。
+EN You cannot change fate...
+
+@ 121.12
+# scene 126 勝利3
+# フォルトゥナ紫月
+JP それがあなたの運命……。
+EN That is your fate...
+
+@ 122.15
+# scene 133 表彰1
+# フォルトゥナ紫月
+JP 受賞するのも運命……。
+EN Winning an award is fate too...
+
+@ 123.15
+# scene 133 表彰2
+# フォルトゥナ紫月
+JP 運命が味方してくれた……。
+EN Fate was on my side...
+
+@ 124.12
+# scene 134 優勝1
+# フォルトゥナ紫月
+JP あきらめなくてよかった……。
+EN I'm glad I didn't give up...
+
+@ 125.12
+# scene 134 優勝２
+# フォルトゥナ紫月
+JP 優勝するのも運命……。
+EN Winning is fate too...
+
+@ 126.24
+# scene 135 エンディング 通常
+# フォルトゥナ紫月
+JP おめでとう……。
+JP この運命はあなたが
+JP 切り開いたもの……。
+EN Congratulations... This fate is one you carved out
+EN yourself...
+
+@ 127.24
+# scene 136 エンディング 好意
+# フォルトゥナ紫月
+JP 二人は運命の糸で結ばれている……。
+JP …だから…いつまでも一緒……。
+EN We are bound by the thread of fate... So... we'll be
+EN together forever...

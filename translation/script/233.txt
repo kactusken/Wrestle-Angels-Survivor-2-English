@@ -1,0 +1,103 @@
+# /SCR/233.BIN - ソフィア・リチャーズ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 233` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ソフィア・リチャーズ
+JP また勝っちゃった。
+JP 天才はつらいわね。
+EN I won again. Being a genius is so tough.
+
+@ 1.16
+# scene 119 入場1
+# ソフィア・リチャーズ
+JP 私が勝つに決まってるでしょ！
+EN Obviously I'm going to win!
+
+@ 2.16
+# scene 119 入場2
+# ソフィア・リチャーズ
+JP フンッ！
+JP 相手が誰だろうと
+JP 私が勝つに決まってるわ！
+EN Hmph! I don't care who it is, obviously I'm going to
+EN win!
+
+@ 3.17
+# scene 121 タッグマッチ ベター１
+# ソフィア・リチャーズ
+JP いーい？
+JP 足ひっぱんじゃないわよ！！
+EN Listen up! Don't you dare drag me down!!
+
+@ 4.16
+# scene 125 必殺技１
+# ソフィア・リチャーズ
+JP あんたに必殺技なんて
+JP 必要ないんだけどね！
+EN Not that I need a finisher for the likes of you!
+
+@ 5.16
+# scene 125 必殺技２
+# ソフィア・リチャーズ
+JP これで懲らしめてあげるわ！
+EN This'll teach you a lesson!
+
+@ 6.16
+# scene 125 必殺技３
+# ソフィア・リチャーズ
+JP この技からは逃げられないわ！
+JP さっさと負けを認めなさいよ！
+EN There's no escaping this move! Just admit defeat
+EN already!
+
+@ 7.12
+# scene 126 勝利1
+# ソフィア・リチャーズ
+JP 私の相手しようなんて
+JP １００年早いのよ！
+EN You're a hundred years too early to take me on!
+
+@ 8.12
+# scene 126 勝利2
+# ソフィア・リチャーズ
+JP まぁ、余裕の勝利ってやつね！
+EN Well, that's what you call an easy win!
+
+@ 9.12
+# scene 126 勝利3
+# ソフィア・リチャーズ
+JP あんたなんて相手にならないの！
+JP わかった？
+EN You're no match for me! Got it?
+
+@ 10.15
+# scene 133 表彰1
+# ソフィア・リチャーズ
+JP くれるものはもらっておくわ。
+EN If they're giving it out, I'll take it.
+
+@ 11.15
+# scene 133 表彰2
+# ソフィア・リチャーズ
+JP 爺、これしまっておいて。
+EN Jeeves, put this away for me.
+
+@ 12.12
+# scene 134 優勝1
+# ソフィア・リチャーズ
+JP 私以外に誰が勝つっていうの？
+EN Who else but me could possibly win?
+
+@ 13.12
+# scene 134 優勝２
+# ソフィア・リチャーズ
+JP またムダな汗かいちゃったわね。
+EN Wasted sweat again, honestly.

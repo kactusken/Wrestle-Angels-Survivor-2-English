@@ -1,0 +1,2235 @@
+# /SCR/012.BIN - 富沢 レイ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 012` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 富沢 レイ
+JP 富沢です。
+JP コスプレアイドルレスラーを
+JP 目指しています、よろしくぅ！
+EN I'm Tomizawa. I'm aiming to be a cosplay idol wrestler.
+EN Nice to meet youuu!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 富沢 レイ
+JP さっそく試合用のコスチュームを
+JP 選ばないとね。
+EN I'd better pick out my ring costume right away.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 富沢 レイ
+JP 今までの衣装代
+JP どこに回したらいいのよぉ？
+EN So what am I supposed to do with everything I spent
+EN on costumes?
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええっと…このあたりに
+JP アイドルレスラーに適任な娘が
+JP いるはずなんだが…。
+EN Let's see... there should be a girl around here who'd
+EN make a perfect idol wrestler...
+
+@ 3.25
+# 社 長
+JP （それにしても、さっきの
+JP 　コスプレした子、すごかったな…。
+JP 　…んっ、あれは…？）
+EN (Still, that cosplay girl earlier was something else...
+EN Hm, is that...?)
+
+@ 3.35
+# ？？？
+JP ん～んっ！
+JP さーてと…軽く走って
+JP 今日はおしまいっ。
+EN Mmm-hmm! Okay... a quick jog and I'm done for today.
+
+@ 3.38
+# 社 長
+JP あの、すみません。
+JP 富沢さんですか？
+EN Um, excuse me. Are you Ms. Tomizawa?
+
+@ 3.45
+# 富沢 レイ
+JP はい、そうですけど？
+JP あなた、なに？
+EN Yes, that's me. And who are you?
+
+@ 3.48
+# 社 長
+JP 突然すみません。
+JP 実は私、プロレス団体を
+JP 経営している者で…。
+EN Sorry to bother you out of the blue. Actually, I run a
+EN pro wrestling promotion...
+
+@ 3.50
+# 社 長
+JP （俺は自分のことを説明して
+JP 　単刀直入に彼女をスカウトしてみた）
+EN (I introduced myself and asked her straight out to
+EN join us.)
+
+@ 3.57
+# 富沢 レイ
+JP プロレスかぁ…。
+JP 興味がない訳じゃないんだけど…。
+EN Pro wrestling, huh... It's not like I'm not interested...
+
+@ 3.60
+# 社 長
+JP では、どうでしょう。
+JP うちの団体で自分を試して
+JP みませんか？
+EN Then how about it? Why not test yourself in my
+EN promotion?
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# 富沢 レイ
+JP あっ…そうか。
+JP レスラーなら、いろんな
+JP コスチュームを着れるものね。
+EN Oh... right. As a wrestler, I'd get to wear all kinds of
+EN costumes.
+
+@ 4.18
+# 社 長
+JP はい。
+JP リングコスチュームはレスラーと
+JP 相談しながら作りますから。
+EN Yes. We design ring costumes together with each
+EN wrestler.
+
+@ 4.26
+# 富沢 レイ
+JP だったら入ってあげるっ！
+JP 当然、路線はコスプレアイドルよ♪
+EN Then I'll do you the favor and join! And of course, I'm
+EN going the cosplay idol route!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 富沢 レイ
+JP …あっ、コスプレイベントの
+JP 衣装準備しないと！
+JP ごめん、またね！
+EN ...Oh, I've gotta get my outfit ready for a cosplay
+EN event! Sorry, see ya!
+
+@ 5.32
+# 社 長
+JP あっ、ちょっと…。
+EN Ah, wait...
+
+@ 5.34
+# 社 長
+JP （そう言って、彼女は俺の前から
+JP 　走り去っていった）
+EN (And with that, she ran off.)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （なんとか彼女に入団してもらう
+JP 　方法はないだろうか…）
+EN (Isn't there some way to get her to join...?)
+
+@ 6.25
+# 社 長
+JP よーし、今度こそ…。
+JP あっ、いたいた。
+EN All right, this time for sure... Ah, there she is.
+
+@ 6.35
+# 富沢 レイ
+JP ええっと…ここでターンしながら
+JP 腕をこうして…。
+EN Let's see... turn here, and the arms go like this...
+
+@ 6.38
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.45
+# 富沢 レイ
+JP あれ、社長さん。
+EN Huh, it's the President.
+
+@ 6.48
+# 社 長
+JP ええ。
+JP またお願いにうかがいました。
+EN Yes. I've come to ask you again.
+
+@ 6.55
+# 富沢 レイ
+JP もう…本当にしつこいなぁ。
+EN Geez... you really don't give up, do you?
+
+@ 6.58
+# 社 長
+JP どうでしょう？
+JP お互いの利害は一致していると
+JP 思うのですが…。
+EN What do you say? I think this works out for both of
+EN us...
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# 富沢 レイ
+JP あっ…そうか。
+JP レスラーなら、いろんな
+JP コスチュームを着れるものね。
+EN Oh... right. As a wrestler, I'd get to wear all kinds of
+EN costumes.
+
+@ 7.18
+# 社 長
+JP はい。
+JP リングコスチュームはレスラーと
+JP 相談しながら作りますから。
+EN Yes. We design ring costumes together with each
+EN wrestler.
+
+@ 7.26
+# 富沢 レイ
+JP だったら入ってあげるっ！
+JP 当然、路線はコスプレアイドルよ♪
+EN Then I'll do you the favor and join! And of course, I'm
+EN going the cosplay idol route!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 富沢 レイ
+JP …あっ、コスプレイベントの
+JP 衣装準備しないと！
+JP ごめん、またね！
+EN ...Oh, I've gotta get my outfit ready for a cosplay
+EN event! Sorry, see ya!
+
+@ 8.32
+# 社 長
+JP あっ、ちょっと…。
+EN Ah, wait...
+
+@ 8.34
+# 社 長
+JP （そう言って、彼女は俺の前から
+JP 　走り去っていった）
+EN (And with that, she ran off.)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （富沢選手…。
+JP 　彼女のようなアイドルレスラーを
+JP 　是非うちの団体に迎え入れたい）
+EN (Tomizawa... I'd love to bring an idol wrestler like her
+EN into my promotion.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません！
+EN Um, excuse me!
+
+@ 9.37
+# 富沢 レイ
+JP …あっ！
+JP 勝手に写真撮らないでくれます？
+EN ...Hey! Do you mind not taking pictures without
+EN asking?
+
+@ 9.40
+# 社 長
+JP いえ、私はそういう目的で
+JP 来たのでは…。
+EN No, that's not why I'm here...
+
+@ 9.42
+# 社 長
+JP （俺は簡単に自己紹介をすませると
+JP 　単刀直入に移籍を持ちかけてみた）
+EN (I quickly introduced myself and came straight out
+EN with the offer.)
+
+@ 9.49
+# 富沢 レイ
+JP ふーん…。
+JP つまり社長さんの団体への
+JP 引き抜きなのね？
+EN Hmm... So you're trying to poach me for your
+EN promotion?
+
+@ 9.52
+# 社 長
+JP はい。
+JP どうでしょうか？
+JP 考えていただけないでしょうか？
+EN Yes. What do you say? Would you consider it?
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 富沢 レイ
+JP そうね。
+JP 条件次第かな。
+EN Well... depends on the terms.
+
+@ 10.22
+# 社 長
+JP えっ、本当ですか！？
+JP 言ってみてください！
+EN Huh, really!? Name them!
+
+@ 10.29
+# 富沢 レイ
+JP まずはプライベートに
+JP 口を出さないこと。
+EN First, no butting into my private life.
+
+@ 10.32
+# 社 長
+JP 常識の範囲内なら。
+EN Within reason.
+
+@ 10.39
+# 富沢 レイ
+JP 毎年、夏と冬には一回ずつ
+JP 連休をいれること。
+EN I get one long break every summer and one every
+EN winter.
+
+@ 10.42
+# 社 長
+JP …えっ？
+JP でも冬は…。
+EN ...Huh? But winter is...
+
+@ 10.46
+# 富沢 レイ
+JP アニメと特撮の専用チャンネルを
+JP 寮で見られるようにすること。
+JP それから……。
+EN The dorm gets the anime and tokusatsu channels.
+EN And then...
+
+@ 10.49
+# 社 長
+JP （こうして、彼女の言う条件は―）
+EN (And so her list of demands...)
+
+@ 10.51
+# 社 長
+JP （内容がすでに俺の耳に
+JP 　届いていないとわかるまで
+JP 　延々と垂れ流されたのだった）
+EN (...went on and on, long after she could tell none of it
+EN was reaching my ears anymore.)
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 富沢 レイ
+JP 悪いけど、パスッ！
+JP 今のところ、けっこう気に入ってるの。
+EN Sorry, but pass! I kinda like where I am now.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには富沢選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really need Tomizawa. I decided to try
+EN negotiating once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# 富沢 レイ
+JP …あっ…社長さん。
+JP また来たの？
+EN ...Oh... the President. You again?
+
+@ 12.38
+# 社 長
+JP はい。
+JP どうしてもうちの団体に
+JP 移籍して欲しいんです。
+EN Yes. I really want you to transfer to my promotion.
+
+@ 12.45
+# 富沢 レイ
+JP ホント、しつこいわねぇ。
+EN You really are persistent, huh?
+
+@ 12.48
+# 社 長
+JP はい。
+JP なんとかお願いできませんか？
+EN Yes. Won't you please consider it?
+
+@ 12.50
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my offer again and pleaded with her
+EN earnestly.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 富沢 レイ
+JP そうね。
+JP 条件次第かな。
+EN Well... depends on the terms.
+
+@ 13.22
+# 社 長
+JP えっ、本当ですか！？
+JP 言ってみてください！
+EN Huh, really!? Name them!
+
+@ 13.29
+# 富沢 レイ
+JP まずはプライベートに
+JP 口を出さないこと。
+EN First, no butting into my private life.
+
+@ 13.32
+# 社 長
+JP 常識の範囲内なら。
+EN Within reason.
+
+@ 13.39
+# 富沢 レイ
+JP 毎年、夏と冬には一回ずつ
+JP 連休をいれること。
+EN I get one long break every summer and one every
+EN winter.
+
+@ 13.42
+# 社 長
+JP …えっ？
+JP でも冬は…。
+EN ...Huh? But winter is...
+
+@ 13.46
+# 富沢 レイ
+JP アニメと特撮の専用チャンネルを
+JP 寮で見られるようにすること。
+JP それから……。
+EN The dorm gets the anime and tokusatsu channels.
+EN And then...
+
+@ 13.49
+# 社 長
+JP （こうして、彼女の言う条件は―）
+EN (And so her list of demands...)
+
+@ 13.51
+# 社 長
+JP （内容がすでに俺の耳に
+JP 　届いていないとわかるまで
+JP 　延々と垂れ流されたのだった）
+EN (...went on and on, long after she could tell none of it
+EN was reaching my ears anymore.)
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 富沢 レイ
+JP 悪いけど、パスッ！
+JP 今のところ、けっこう気に入ってるの。
+EN Sorry, but pass! I kinda like where I am now.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （富沢選手…。
+JP 　アイドルレスラーとしてのあの個性。
+JP 　是非うちの団体に欲しい逸材だ）
+EN (Tomizawa... That personality of hers as an idol
+EN wrestler. She's exactly the talent I want.)
+
+@ 15.25
+# 社 長
+JP （いつもこのあたりにいるって
+JP 　話だけど…あぁ、いたいた）
+EN (I heard she's always around here... Ah, there she is.)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# 富沢 レイ
+JP はい、どちら様？
+EN Yes? Who are you?
+
+@ 15.40
+# 社 長
+JP すみません。
+JP 私、プロレスの団体を
+JP 経営している者なんですが。
+EN Sorry. I run a pro wrestling promotion.
+
+@ 15.44
+# 富沢 レイ
+JP あぁ、社長さんなんだ？
+JP …で、その社長さんが私に何か用？
+EN Oh, you're a president? ...So what does a president
+EN want with me?
+
+@ 15.47
+# 社 長
+JP はい。
+JP 突然ですが、うちに入団して
+JP いただけませんか？
+EN Well, this is sudden, but would you join my promotion?
+
+@ 15.54
+# 富沢 レイ
+JP …ええっ！？
+JP 普通、初対面でそんなこと言う？
+EN ...Whaaat!? Who says that the first time they meet
+EN someone?
+
+@ 15.57
+# 社 長
+JP 熱意をくみ取っていただければ！
+JP お願いします。
+EN I hope you'll see how serious I am! Please.
+
+@ 15.59
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 富沢 レイ
+JP そうね。
+JP 入ってあげてもいいわよ。
+EN Well... I guess I could do you the favor and join.
+
+@ 16.22
+# 社 長
+JP 本当ですか！？
+JP ありがとうございます！
+EN Really!? Thank you so much!
+
+@ 16.29
+# 富沢 レイ
+JP その代わり
+JP プライベートへの干渉はお断りよ。
+EN In return, no meddling in my private life.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 富沢 レイ
+JP そう言われても困るわよ…。
+JP 実際フリーの方が気楽だしね。
+EN You can't just put me on the spot like that...
+EN Honestly, freelancing is easier.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには富沢選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (We really need Tomizawa. I decided to try
+EN negotiating once more.)
+
+@ 18.33
+# 富沢 レイ
+JP …あぁ、社長さん。
+JP また来たの？
+EN ...Oh, the President. You again?
+
+@ 18.36
+# 社 長
+JP はい。
+JP どうしてもお会いしたくて…。
+EN Yes. I just had to see you...
+
+@ 18.38
+# 社 長
+JP どうか、うちに入団して
+JP いただけないでしょうか？
+EN Won't you please join my promotion?
+
+@ 18.45
+# 富沢 レイ
+JP ホント、適当ねぇ。
+EN You're such a smooth talker, huh.
+
+@ 18.48
+# 社 長
+JP 熱意をくみ取っていただければ！
+JP お願いします。
+EN I hope you'll see how serious I am! Please.
+
+@ 18.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 富沢 レイ
+JP そうね。
+JP 入ってあげてもいいわよ。
+EN Well... I guess I could do you the favor and join.
+
+@ 19.22
+# 社 長
+JP 本当ですか！？
+JP ありがとうございます！
+EN Really!? Thank you so much!
+
+@ 19.29
+# 富沢 レイ
+JP その代わり
+JP プライベートへの干渉はお断りよ。
+EN In return, no meddling in my private life.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 富沢 レイ
+JP そう言われても困るわよ…。
+JP 実際フリーの方が気楽だしね。
+EN You can't just put me on the spot like that...
+EN Honestly, freelancing is easier.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は富沢を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to visit Tomizawa. She's a wrestler we
+EN really need.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、いたいた。
+JP おーい、富沢ぁ！
+EN She should be around here... Ah, there she is. Hey,
+EN Tomizawa!
+
+@ 21.35
+# 富沢 レイ
+JP あっ…社長！
+JP 今さら何か用なの？
+EN Oh... Boss! What do you want, after all this time?
+
+@ 21.38
+# 社 長
+JP あぁ、その…なんだ…。
+EN Well, um... you see...
+
+@ 21.42
+# 富沢 レイ
+JP まさか戻ってきて欲しいとか？
+EN Don't tell me you want me back?
+
+@ 21.45
+# 社 長
+JP 言えた義理じゃないことは承知してる。
+JP だが…戻ってきてくれないか？
+EN I know I'm in no position to ask. But... will you come
+EN back?
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 富沢 レイ
+JP リングコスチューム
+JP 会社持ちで最低１０着作ること。
+EN The company pays for at least ten ring costumes.
+
+@ 22.22
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 22.29
+# 富沢 レイ
+JP もちろん、デザインは私がするわよ。
+JP それでいいなら戻ってあげる。
+EN And I design them, of course. If that's okay, I'll come
+EN back.
+
+@ 22.32
+# 社 長
+JP ホントか！？
+JP うん、わかった。
+JP ありがとう、富沢…。
+EN Really!? Okay, deal. Thank you, Tomizawa...
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 富沢 レイ
+JP お・こ・と・わ・り！
+EN No. Way. Ever!
+
+@ 23.22
+# 社 長
+JP …そう言わずに。
+EN ...Don't be like that.
+
+@ 23.29
+# 富沢 レイ
+JP まだ社長のこと許せそうにないの！
+EN I'm not ready to forgive you yet, Boss!
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び富沢を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to visit Tomizawa again. She's a wrestler
+EN we really need.)
+
+@ 24.25
+# 社 長
+JP ええっと…富沢。
+JP ちょっといいか？
+EN Um... Tomizawa. Got a minute?
+
+@ 24.35
+# 富沢 レイ
+JP あっ、社長…。
+JP 三顧の礼とか言い出さないわよね。
+EN Oh, Boss... You're not gonna pull a "third time's the
+EN charm" on me, are you?
+
+@ 24.38
+# 社 長
+JP 頼む。
+JP どうしても団体に戻って
+JP 欲しいんだ。
+EN Please. I really want you back with us.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 富沢 レイ
+JP リングコスチューム
+JP 会社持ちで最低１０着作ること。
+EN The company pays for at least ten ring costumes.
+
+@ 25.22
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 25.29
+# 富沢 レイ
+JP もちろん、デザインは私がするわよ。
+JP それでいいなら戻ってあげる。
+EN And I design them, of course. If that's okay, I'll come
+EN back.
+
+@ 25.32
+# 社 長
+JP ホントか！？
+JP うん、わかった。
+JP ありがとう、富沢…。
+EN Really!? Okay, deal. Thank you, Tomizawa...
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 富沢 レイ
+JP お・こ・と・わ・り！
+EN No. Way. Ever!
+
+@ 26.22
+# 社 長
+JP …そう言わずに。
+EN ...Don't be like that.
+
+@ 26.29
+# 富沢 レイ
+JP まだ社長のこと許せそうにないの！
+EN I'm not ready to forgive you yet, Boss!
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 富沢 レイ
+JP 包帯コスなんて
+JP 今じゃ珍しくもないわよねぇ…。
+EN A bandage costume isn't exactly rare these days...
+
+@ 28.16
+# scene 029 ケガ大
+# 富沢 レイ
+JP 松葉杖は…コスプレじゃないわよね…。
+EN Crutches... don't count as cosplay, huh...
+
+@ 29.16
+# scene 030 入院
+# 富沢 レイ
+JP 社長…。
+JP 入院中のアニメの録画
+JP お願いしてもいい？
+EN Boss... could you record my anime while I'm in the
+EN hospital?
+
+@ 30.16
+# scene 031 退院
+# 富沢 レイ
+JP 溜まったアニメ
+JP まとめて見ないとね！
+EN Time to binge all the anime I missed!
+
+@ 31.16
+# scene 032 ケガ完治
+# 富沢 レイ
+JP 大丈夫みたいね。
+EN Looks like I'm all right.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 富沢 レイ
+JP う～ん…。
+JP さすがにもうセーラー服とか
+JP きついもんねぇ…。
+EN Hmm... I guess sailor uniforms are getting to be a bit
+EN much for me...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 富沢 レイ
+JP あははは、何言ってんの。
+JP まだまだいけるって。
+EN Ahaha, what are you talking about? I've still got
+EN plenty left in me.
+
+@ 34.16
+# scene 035 コーチ就任
+# 富沢 レイ
+JP まずは名作アニメの
+JP ２４時間耐久視聴からよ！
+EN First up: a 24-hour marathon of classic anime!
+
+@ 35.16
+# scene 036 ケガ引退
+# 富沢 レイ
+JP まだ着てみたいコスチューム
+JP あったんだけど…。
+EN There were still costumes I wanted to try on...
+
+@ 36.16
+# scene 037 年齢引退
+# 富沢 レイ
+JP さーて、そろそろタレント活動に
+JP 専念しますか。
+EN Well then, time to focus on my showbiz career.
+
+@ 37.16
+# scene 038 退団
+# 富沢 レイ
+JP これからは自由に
+JP やらせてもらうから！
+EN From now on, I'm doing things my way!
+
+@ 38.16
+# scene 039 スランプ
+# 富沢 レイ
+JP うーん…。
+JP なんか…今ひとつなのよねぇ。
+EN Hmm... Something's just... not quite clicking.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 富沢 レイ
+JP ようやく世間が
+JP 私に追いついてきたって感じね。
+EN Feels like the world's finally caught up with me.
+
+@ 39.19
+# 社 長
+JP ファンの期待を裏切らないようにな。
+EN Don't let your fans down.
+
+@ 39.26
+# 富沢 レイ
+JP そのあたりは抜かりないわよ。
+JP まかせといて。
+EN Don't worry, I've got that covered. Leave it to me.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 富沢 レイ
+JP うんうん。
+JP 私の人気もうなぎ上りね♪
+EN Mm-hmm. My popularity's going through the roof!
+
+@ 40.19
+# 社 長
+JP ファンの期待に応えるようにな。
+EN Live up to your fans' expectations.
+
+@ 40.26
+# 富沢 レイ
+JP まっかせなさい！
+EN Leave it to meee!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 富沢 レイ
+JP えーっ！？
+JP 解散しちゃったのぉ？
+EN Whaaat!? They broke up?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just keep working hard.
+
+@ 41.26
+# 富沢 レイ
+JP まだまだこれからよね。
+EN I'm only getting started anyway.
+
+@ 42.16
+# scene 043 映画出演
+# 富沢 レイ
+JP 映画の衣装
+JP もらってもいいんだよね！？
+EN I get to keep the movie costumes, right!?
+
+@ 43.16
+# scene 044 一日署長
+# 富沢 レイ
+JP さすがにミニスカ婦警で行ったら
+JP 怒られるわよね…？
+EN Showing up as a miniskirt policewoman would get me
+EN in trouble, huh...?
+
+@ 44.16
+# scene 045 写真集発売
+# 富沢 レイ
+JP 当然、コスプレ写真集よね？
+JP な～に着よっかな～♪
+EN It's a cosplay photo book, obviously, right? What
+EN should I wear?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 富沢 レイ
+JP 衣装は私が選んでもいいの？
+EN Can I pick my own outfit?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 富沢 レイ
+JP アニメの主題歌だよね？
+JP 違うの…？
+EN It's an anime theme song, right? No...?
+
+@ 47.16
+# scene 048 始球式
+# 富沢 レイ
+JP どんなコスチュームだと
+JP 目立つかなぁ…。
+EN What costume would stand out the most...?
+
+@ 48.16
+# scene 049 学園祭
+# 富沢 レイ
+JP まかせてよ。
+JP ばっちり盛り上げてみせるから！
+EN Leave it to me. I'll get the whole crowd fired up!
+
+@ 49.28
+# scene 050 誕生日
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.35
+# 富沢 レイ
+JP へぇ…社長もこういうことするんだ…。
+JP ちょっとショックかも…。
+EN Huh... so you do this kind of thing too, Boss... That's
+EN kind of a shock...
+
+@ 49.38
+# 社 長
+JP おいおい、それはないだろ。
+EN Hey now, that's uncalled for.
+
+@ 49.46
+# 富沢 レイ
+JP えへへ…冗談よ。
+JP アリガト、大切にするね！
+EN Ehehe... just kidding. Thanks, I'll treasure it!
+
+@ 50.30
+# scene 051 バレンタインデー
+# 富沢 レイ
+JP はい、社長。
+JP 今日、バレンタインデーだし。
+EN Here, Boss. It's Valentine's Day, after all.
+
+@ 50.33
+# 社 長
+JP おぉ、ありがとう…。
+JP …んっ、なんだ、このＤＶＤは。
+EN Oh, thank you... Hm? What's this DVD?
+
+@ 50.40
+# 富沢 レイ
+JP 私がお薦めする名作アニメ。
+JP コスチュームの資料に使ってよ。
+EN A classic anime I recommend. Use it as costume
+EN reference.
+
+@ 50.43
+# 社 長
+JP ええっと…
+JP あ、ありがとう…。
+EN Um... Th-thanks...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# 富沢 レイ
+JP クッキーより新しいコスチューム
+JP 買ってくれればいいのに。
+EN You could've just bought me a new costume instead
+EN of cookies.
+
+@ 51.39
+# 社 長
+JP まったく、おまえってやつは…。
+EN Honestly, you...
+
+@ 52.31
+# scene 053 サイン会
+# 富沢 レイ
+JP 応援に集まってくれてありがとう！
+JP これからもよろしくー！
+EN Thanks for coming out to support me! Keep it up,
+EN everyone!
+
+@ 53.29
+# scene 054 コンサート
+# 富沢 レイ
+JP 決めた！
+JP ついでにコスプレパーティーもやろ！
+EN Decided! While we're at it, let's throw a cosplay party
+EN too!
+
+@ 54.28
+# scene 055 練習拒否
+# 富沢 レイ
+JP …今は練習する気分じゃないの。
+EN ...I'm not in the mood to train right now.
+
+@ 55.26
+# scene 056 失踪
+# 富沢 レイ
+JP 今日はコスプレイベントがあるから…。
+JP じゃね！
+EN There's a cosplay event today, so... See ya!
+
+@ 56.16
+# scene 057 選手解雇
+# 富沢 レイ
+JP 社長のバカー！
+JP 絶対後悔させてやるから！！
+EN Boss, you idiot! I'll make you regret this, I swear!!
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 富沢 レイ
+JP 海外にもコスプレイベントあるかな…。
+EN I wonder if they have cosplay events overseas...
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 富沢 レイ
+JP たっだいまー！
+JP コスプレはもう世界の文化ね！
+EN I'm baaack! Cosplay is a worldwide culture now!
+
+@ 59.28
+# scene 060 移籍思案
+# 富沢 レイ
+JP どうしよーかなー…。
+EN What should I dooo...
+
+@ 60.16
+# scene 061 革命軍結成
+# 富沢 レイ
+JP 下克上よ！
+JP その場所、私に譲りなさい！
+EN It's an uprising! Hand that spot over to me!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 富沢 レイ
+JP これくらいやらないと
+JP 盛り上がらないでしょ？
+EN If we don't go this far, nobody'll get excited, right?
+
+@ 62.16
+# scene 063 最終決戦要求
+# 富沢 レイ
+JP このあたりで決着つけましょ！
+EN Let's settle this once and for all!
+
+@ 63.16
+# scene 064 遺恨発生
+# 富沢 レイ
+JP うぅ…。
+JP もうなんなのよー！
+EN Ugh... What is your problem!?
+
+@ 64.16
+# scene 065 殴り込み
+# 富沢 レイ
+JP じゃ、ちょっとしめて来るわね！
+EN Well, I'm off to teach them a lesson!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 富沢 レイ
+JP 私より目立とうなんて
+JP いい度胸じゃない？
+EN You've got some nerve trying to outshine me!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 富沢 レイ
+JP ただのコスプレレスラーだと思ったら
+JP 痛い目見るわよ！
+EN Think I'm just a cosplay wrestler and you'll get hurt!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 富沢 レイ
+JP 衣装にも気合い入れていくわよ！
+EN I'm putting my all into my costume too!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 富沢 レイ
+JP やっぱり最後は、私が決めなきゃね！
+EN Of course I had to be the one to finish it!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 富沢 レイ
+JP あははは…。
+JP やっぱりダメだった…。
+EN Ahaha... I just couldn't do it after all...
+
+@ 70.13
+# scene 071 引退式
+# 富沢 レイ
+JP レスラーとしての私はこれで引退。
+JP だけど…それでも辞められないのが
+JP 趣味の世界なのよねー。
+EN This is where I retire as a wrestler. But... a hobby is
+EN something you never retire from!
+
+@ 71.18
+# 富沢 レイ
+JP …んっ、なに？
+EN ...Hm, what?
+
+@ 71.37
+# 富沢 レイ
+JP あっ、社長。
+JP なーに？
+EN Oh, Boss. Whaaat?
+
+@ 71.47
+# 富沢 レイ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been doing well lately. Keep it up.
+
+@ 71.90
+# 富沢 レイ
+JP もっちろん！
+JP 任せてよ！
+EN Of course! Leave it to me!
+
+@ 71.111
+# 富沢 レイ
+JP 褒めるなら
+JP もうちょっと具体的に
+JP 褒めてくれないかなぁ。
+EN If you're gonna praise me, could you be a little more
+EN specific?
+
+@ 71.132
+# 富沢 レイ
+JP コスプレも試合も
+JP ちゃんと見てくれる人がいるってのは
+JP いいよね。
+EN It's nice having someone who really watches both my
+EN cosplay and my matches.
+
+@ 71.153
+# 富沢 レイ
+JP 社長ぉ…。
+JP お世辞はもう少しオブラートに
+JP 包んでよね。
+EN Boss... At least sugarcoat the flattery a little
+EN better.
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 富沢 レイ
+JP あははは。
+JP 今後は気を付けまーす。
+EN Ahaha. I'll be more careful from now on.
+
+@ 71.211
+# 富沢 レイ
+JP これでも
+JP がんばってるんだけどなぁ…。
+EN I'm trying hard, you know...
+
+@ 71.232
+# 富沢 レイ
+JP うっ…ごめん…。
+JP 気を付けるから許してね？
+EN Ugh... Sorry... I'll be careful, so forgive me?
+
+@ 71.253
+# 富沢 レイ
+JP ど、どこがたるんでるの？
+JP 衣装、それとも…？
+EN Wh-what do you mean slacking? My costume, or...?
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# 富沢 レイ
+JP ううん、平気、平気。
+JP 任せてよっ。
+EN Nope, I'm fine, I'm fine. Leave it to me.
+
+@ 71.311
+# 富沢 レイ
+JP 最近、深夜アニメが増えたから…。
+JP あふっ…。
+EN There've been more late-night anime lately, so...
+EN *yawn*...
+
+@ 71.332
+# 富沢 レイ
+JP もう平気。
+JP 心配してくれてアリガト、社長。
+EN I'm fine now. Thanks for worrying about me, Boss.
+
+@ 71.353
+# 富沢 レイ
+JP だって…最近の社長
+JP 私のこと全然見てくれないし…。
+EN Well... lately you haven't been paying any attention
+EN to me, Boss...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 富沢 レイ
+JP うっ…。
+EN Ugh...
+
+@ 71.400
+# 富沢 レイ
+JP 私でいいのよね…？
+EN You mean me, right...?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.433
+# 富沢 レイ
+JP …そうね。
+JP 今回だけは許してあげるわ。
+EN ...Fine. I'll let it go, just this once.
+
+@ 71.454
+# 富沢 レイ
+JP 社長には関係ないでしょ？
+EN That's none of your business, is it?
+
+@ 71.475
+# 富沢 レイ
+JP やだなぁ、
+JP 全然仲良しだって。
+EN Come on, we get along just fine.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 富沢 レイ
+JP だいたいね…。
+EN More or less...
+
+@ 71.522
+# 富沢 レイ
+JP …えっ？
+JP なんのこと？
+EN ...Huh? What about?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 71.557
+# 富沢 レイ
+JP …社長に言われたなら
+JP しょうがないよね。
+JP 仲直りするわよ。
+EN ...Well, if you're the one asking, Boss, I guess I have
+EN to. I'll make up with her.
+
+@ 71.578
+# 富沢 レイ
+JP へぇ…。
+JP 社長は向こうの肩持つんだ…。
+EN Huh... So you're taking her side, Boss...
+
+@ 71.599
+# 富沢 レイ
+JP 社長、勘違いだって。
+JP 全然仲良しだよ、私たち。
+EN You've got it wrong, Boss. We get along just fine.
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 富沢 レイ
+JP あ、社長。
+JP なーに？
+EN Oh, Boss. Whaaat?
+
+@ 72.16
+# 富沢 レイ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ。
+EN You've been doing well lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 富沢 レイ
+JP もっちろん！
+JP 任せてよ！
+EN Of course! Leave it to me!
+
+@ 75.14
+# scene 076 会話 ほめる 失敗
+# 富沢 レイ
+JP 褒めるなら、
+JP もうちょっと具体的に
+JP 褒めてくれないかなぁ。
+EN If you're gonna praise me, could you be a little more
+EN specific?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 富沢 レイ
+JP コスプレも試合も、
+JP ちゃんと見てくれる人がいる
+JP ってのはいいよね。
+EN It's nice having someone who really watches both my
+EN cosplay and my matches.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 富沢 レイ
+JP 社長ぉ…。
+JP お世辞はもう少し、オブラートに
+JP 包んでよね。
+EN Boss... At least sugarcoat the flattery a little
+EN better.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 富沢 レイ
+JP あははは。
+JP 今後は気を付けまーす。
+EN Ahaha. I'll be more careful from now on.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 富沢 レイ
+JP これでもがんばってる
+JP んだけどなぁ…。
+EN I'm trying hard, you know...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 富沢 レイ
+JP うっ…。
+JP ごめん。
+JP 気を付けるから許してね？
+EN Ugh... Sorry... I'll be careful, so forgive me?
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 富沢 レイ
+JP ど、どこがたるんでるの？
+JP 衣装？　それとも…？
+EN Wh-what do you mean slacking? My costume, or...?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 富沢 レイ
+JP ううん、平気、平気。
+JP 任せてよっ。
+EN Nope, I'm fine, I'm fine. Leave it to me.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 富沢 レイ
+JP 最近、深夜アニメが増えたから…。
+JP あふっ…。
+EN There've been more late-night anime lately, so...
+EN *yawn*...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 富沢 レイ
+JP もう平気。
+JP 心配してくれて、アリガト、社長。
+EN I'm fine now. Thanks for worrying about me, Boss.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 富沢 レイ
+JP だって…。
+JP 最近の社長、私のこと
+JP 全然見てくれないし…。
+EN Well... lately you haven't been paying any attention
+EN to me, Boss...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 富沢 レイ
+JP うっ…。
+EN Ugh...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 富沢 レイ
+JP 私でいいのよね…？
+EN You mean me, right...?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 富沢 レイ
+JP ……そうね。
+JP 今回だけは許してあげるわ。
+EN ...Fine. I'll let it go, just this once.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 富沢 レイ
+JP 社長には関係ないでしょ？
+EN That's none of your business, is it?
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 富沢 レイ
+JP やだなぁ、
+JP 全然仲良しだって。
+EN Come on, we get along just fine.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 富沢 レイ
+JP だいたいね…。
+EN More or less...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 富沢 レイ
+JP えっ？
+JP なんのこと？
+EN Huh? What about?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Can't you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 富沢 レイ
+JP …社長に言われたなら、
+JP しょうがないよね。
+JP 仲直りするわよ。
+EN ...Well, if you're the one asking, Boss, I guess I have
+EN to. I'll make up with her.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 富沢 レイ
+JP へぇ…。
+JP 社長は向こうの肩持つんだ…。
+EN Huh... So you're taking her side, Boss...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 富沢 レイ
+JP 社長、勘違いだって。
+JP 全然仲良しだよ、私たち。
+EN You've got it wrong, Boss. We get along just fine.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 富沢 レイ
+JP 来年もよろしく♪
+JP あっ、夏と年末には絶対に休み
+JP 入れてよね。
+EN Looking forward to next year! Oh, and I absolutely
+EN get time off in summer and at year's end.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 富沢 レイ
+JP これならイベントの衣装作り放題ね。
+JP アリガト、社長。
+EN Now I can make all the event costumes I want.
+EN Thanks, Boss.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 富沢 レイ
+JP ん～っ…。
+JP これじゃイベントの衣装
+JP 作れないって…。
+EN Hmmm... I can't make event costumes on this...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, the tropics really are something. The sun is
+EN scorching.)
+
+@ 105.34
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （俺はのんびり寝ているか…）
+EN (Guess I'll just relax and take a nap...)
+
+@ 105.40
+# 富沢 レイ
+JP あー、疲れたー！
+EN Ahh, I'm beat!
+
+@ 105.56
+# 社 長
+JP …なんだ。
+JP 富沢か。
+EN ...Oh. It's you, Tomizawa.
+
+@ 105.60
+# 富沢 レイ
+JP なんだってことはないじゃない？
+EN What do you mean, "Oh"?
+
+@ 105.63
+# 社 長
+JP まあ、そうだが…。
+JP もう泳がないのか？
+EN Well, fair enough... You're done swimming already?
+
+@ 105.65
+# 社 長
+JP バカンスでこういうことを
+JP 言うのもなんだが、ちょっと
+JP スタミナ不足じゃないか？
+EN I hate to say this on vacation, but aren't you a little
+EN short on stamina?
+
+@ 105.75
+# 富沢 レイ
+JP …ハァ～……。
+EN ...Haaah...
+
+@ 105.79
+# 富沢 レイ
+JP 泳いでたら足が痙攣しちゃったのよ。
+EN My leg cramped up while I was swimming.
+
+@ 105.82
+# 社 長
+JP ……本当か？
+EN ......Really?
+
+@ 105.92
+# 富沢 レイ
+JP 本当よ。
+JP ちょっとハシャギ過ぎちゃって。
+EN Really. I got a little too carried away.
+
+@ 105.95
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 105.97
+# 社 長
+JP それならマッサージしておいた方が
+JP いいな。
+EN Then you'd better get a massage.
+
+@ 105.99
+# 社 長
+JP 痛みが残ったら今後の試合にも
+JP 支障が出るだろう。
+EN If the pain lingers, it could affect your upcoming
+EN matches.
+
+@ 105.109
+# 富沢 レイ
+JP …えっ！？
+JP あの…そんなに大げさなものじゃ…。
+EN ...Huh!? Um... it's really not that big a deal...
+
+@ 105.112
+# 社 長
+JP 遠慮するな。
+JP …で、どこが痛むんだ？
+EN Don't be shy. ...So where does it hurt?
+
+@ 105.116
+# 富沢 レイ
+JP えーと…。
+JP ふ、太もものあたり…かな～…？
+EN Um... s-somewhere around my thigh... I guess...?
+
+@ 105.119
+# 社 長
+JP よし、このあたりだな。
+EN Okay, right around here.
+
+@ 105.129
+# 富沢 レイ
+JP へっ…？
+JP あっ、えええっ！？
+EN Wha...? Ah, whaaat!?
+
+@ 105.133
+# 富沢 レイ
+JP しゃ、社長っ！？
+JP 本当にそんなたいしたものじゃ…。
+EN B-Boss!? It's really not that serious...
+
+@ 105.136
+# 社 長
+JP 任せておけって。
+EN Leave it to me.
+
+@ 105.138
+# 社 長
+JP 選手のコンディションを整えるのも
+JP フロントの大切な仕事だからな。
+EN Keeping my wrestlers in shape is an important part
+EN of the front office's job.
+
+@ 105.142
+# 富沢 レイ
+JP いや、あの…ひゃあああっ！？
+EN No, wait, um... Hyaaah!?
+
+@ 105.159
+# 社 長
+JP （こうして俺はマッサージを続けた）
+EN (And so I kept up the massage.)
+
+@ 105.161
+# 社 長
+JP （そのマッサージの後…）
+EN (Afterward...)
+
+@ 105.163
+# 社 長
+JP （富沢はなぜかヘロヘロに
+JP 　なっていた…）
+EN (For some reason, Tomizawa was completely limp...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ふぅ…ようやく外回りも終わりだ）
+EN (Phew... finally done with my rounds.)
+
+@ 106.26
+# 社 長
+JP （さあ、後は帰るだけだな）
+EN (Now I just have to head home.)
+
+@ 106.30
+# ？？？
+JP あっ、社長ーっ！
+EN Oh, Boss!
+
+@ 106.33
+# 社 長
+JP （…んっ…あのＤＶＤショップの
+JP 　前にいるのは…？）
+EN (...Hm... who's that in front of the DVD shop...?)
+
+@ 106.56
+# 社 長
+JP …と、富沢っ！？
+JP こんなところで何をやってるんだ？
+EN ...T-Tomizawa!? What are you doing here?
+
+@ 106.60
+# 富沢 レイ
+JP 今日は一般参加のコスプレ大会なの。
+EN There's an open cosplay contest today.
+
+@ 106.64
+# 富沢 レイ
+JP 参加するとアニメのＤＶＤボックスが
+JP 無料で手に入るのよ。
+EN If you enter, you get an anime DVD box set for free.
+
+@ 106.67
+# 社 長
+JP …そうか。
+EN ...I see.
+
+@ 106.69
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.71
+# 社 長
+JP それにしても…すごい衣装だな。
+EN Still... that's quite a costume.
+
+@ 106.75
+# 富沢 レイ
+JP これくらい最近のアニメや
+JP 特撮じゃ普通よ。
+EN This is normal for anime and tokusatsu these days.
+
+@ 106.78
+# 社 長
+JP そ、そうなのか…。
+JP 最近のアニメは大胆なんだな。
+EN I-is that so... Anime sure is daring these days.
+
+@ 106.85
+# 富沢 レイ
+JP 大胆て…？
+JP え、えぇ…！
+EN Daring...? Huh, wha...!
+
+@ 106.99
+# 富沢 レイ
+JP えええええええっ！！
+EN Whaaaaaaaat!!
+
+@ 106.103
+# 富沢 レイ
+JP これ、衣装の胸の部分
+JP 破れてるじゃない！
+EN The chest of my costume is torn!
+
+@ 106.106
+# 社 長
+JP …あっ、そういう衣装じゃ
+JP なかったのか……。
+EN ...Oh, so it wasn't meant to be like that...
+
+@ 106.110
+# 富沢 レイ
+JP 当たり前でしょ！
+EN Of course not!
+
+@ 106.114
+# 富沢 レイ
+JP 社長！
+JP 上着貸して、上着！
+EN Boss! Lend me your jacket, your jacket!
+
+@ 106.117
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.121
+# 富沢 レイ
+JP もう最悪ーっ！
+EN This is the worst!
+
+@ 106.124
+# 社 長
+JP （はあ…まったく…）
+EN (Sigh... honestly...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ふぅ…ようやく外回りも終わりだ）
+EN (Phew... finally done with my rounds.)
+
+@ 107.26
+# 社 長
+JP （さあ、後は帰るだけだな）
+EN (Now I just have to head home.)
+
+@ 107.30
+# ？？？
+JP あっ、社長ーっ！
+EN Oh, Boss!
+
+@ 107.33
+# 社 長
+JP （…んっ…あのＤＶＤショップの
+JP 　前にいるのは…？）
+EN (...Hm... who's that in front of the DVD shop...?)
+
+@ 107.35
+# 社 長
+JP 富沢だな…。
+JP 間違いない。
+EN It's Tomizawa... No doubt about it.
+
+@ 107.58
+# 社 長
+JP だいたいは予想できるが…。
+JP 今日はなんだ？
+EN I can pretty much guess... but what is it today?
+
+@ 107.62
+# 富沢 レイ
+JP 今日はアニメのＤＶＤボックスの
+JP 発売日なのよ。
+EN Today's the release day for an anime DVD box set.
+
+@ 107.66
+# 富沢 レイ
+JP コスプレして写真撮影に応じれば
+JP ただでもらえるの。
+EN If you cosplay and pose for photos, you get it for
+EN free.
+
+@ 107.69
+# 社 長
+JP …プライベートの時間に
+JP 何をしても干渉はしないけどな…。
+EN ...I don't meddle in what you do on your own time, but...
+
+@ 107.73
+# 富沢 レイ
+JP あ～…。
+JP そういうこと言う～？
+EN Ahh... You're gonna say that?
+
+@ 107.77
+# 富沢 レイ
+JP ＤＶＤボックスって
+JP ものすごく高いのよ。
+EN DVD box sets are super expensive, you know.
+
+@ 107.81
+# 富沢 レイ
+JP これでも会社を助けるための
+JP 節約のつもりでやってるんだから。
+EN I'm doing this to save money and help the company
+EN out.
+
+@ 107.84
+# 社 長
+JP …そうか。
+EN ...I see.
+
+@ 107.88
+# 富沢 レイ
+JP そういうこと。
+JP 感謝して欲しいわね。
+EN Exactly. You should be grateful.
+
+@ 107.91
+# 社 長
+JP まあ、それはわかったんだが…。
+EN Well, I get that, but...
+
+@ 107.94
+# 社 長
+JP コスプレといっても
+JP お尻が丸見えなのは
+JP やり過ぎなんじゃないのか？
+EN Cosplay or not, isn't having your rear end hanging
+EN out going a bit far?
+
+@ 107.101
+# 富沢 レイ
+JP ……お尻…？
+EN ...My rear end...?
+
+@ 107.115
+# 富沢 レイ
+JP …うそっ！？
+JP なんでこれ、お尻破れてるの！？
+EN ...No way!? Why is the butt of this thing torn!?
+
+@ 107.118
+# 社 長
+JP …あっ、やっぱり
+JP そういう衣装じゃなかったのか…。
+EN ...Ah, so it wasn't meant to be like that after all...
+
+@ 107.122
+# 富沢 レイ
+JP 社長、ズボン貸して！
+EN Boss, lend me your pants!
+
+@ 107.125
+# 社 長
+JP 無茶言うな…。
+EN Don't be ridiculous...
+
+@ 107.129
+# 富沢 レイ
+JP やー、もう最悪ーっ！
+EN Ugh, this is the worst!
+
+@ 107.132
+# 社 長
+JP （はあ…まったく…）
+EN (Sigh... honestly...)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 富沢 レイ
+JP お互い手加減なしだからね？
+EN No holding back on either side, okay?
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# 富沢 レイ
+JP ジャーマン禁止っ！
+JP わかった！
+EN No German suplexes! Got it!
+
+@ 110.16
+# scene 113 練習開始
+# 富沢 レイ
+JP やっぱり練習しないとダメ…？
+EN Do I really have to train...?
+
+@ 111.16
+# scene 114 練習開始 好意
+# 富沢 レイ
+JP 今日はがんばっちゃおうかな♪
+EN Maybe I'll really go for it today!
+
+@ 112.16
+# scene 115 特訓開始
+# 富沢 レイ
+JP 漫画みたいな特訓じゃないわよね…。
+EN This isn't gonna be some manga-style training, is
+EN it...?
+
+@ 113.20
+# scene 116 特訓成功
+# 富沢 レイ
+JP へぇー…。
+JP 漫画みたいなことってあるのね。
+EN Huh... So manga-style stuff really does happen.
+
+@ 114.20
+# scene 117 特訓失敗
+# 富沢 レイ
+JP 現実はかくも厳しい…と。
+EN Reality is cruel, I see...
+
+@ 115.16
+# scene 118 休養
+# 富沢 レイ
+JP イベント三昧、聖地巡礼？
+JP それともこの機会に創作活動？
+JP うう～ん、悩ましいわね～。
+EN Event hopping? A pilgrimage to anime landmarks? Or
+EN making my own stuff? Ugh, so hard to choose!
+
+@ 116.16
+# scene 119 入場1
+# 富沢 レイ
+JP ベルトもコスチュームの一部として
+JP 私が預からせてもらうわね！
+EN I'll be holding on to that belt as part of my costume!
+
+@ 117.16
+# scene 119 入場2
+# 富沢 レイ
+JP この後イベントがあるんだから
+JP さっさと終わらすわよ！
+EN I've got an event after this, so let's wrap this up
+EN quick!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# 富沢 レイ
+JP お願いだから
+JP 試合中に泣きださないでよ？
+EN Please don't start crying in the middle of the match,
+EN okay?
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# 富沢 レイ
+JP あんたのジャーマン
+JP 少しはあてにしてるわよ！
+EN I'm counting on your German suplex, at least a little!
+
+@ 120.16
+# scene 125 必殺技１
+# 富沢 レイ
+JP さぁ、いいとこ見せちゃうわよー！
+EN Okay, time to show off my best stuff!
+
+@ 121.16
+# scene 125 必殺技２
+# 富沢 レイ
+JP これが今日のとっておきよ！
+EN This is today's special!
+
+@ 122.16
+# scene 125 必殺技３
+# 富沢 レイ
+JP ありがたくこの技くらって
+JP おきなさーい！
+EN Be grateful and take this move!
+
+@ 123.12
+# scene 126 勝利1
+# 富沢 レイ
+JP 見かけで判断すると
+JP 痛い目に合うってわかった？
+EN Learned your lesson about judging by
+EN appearances?
+
+@ 124.12
+# scene 126 勝利2
+# 富沢 レイ
+JP これなら撮影会の時間にも
+JP 間に合いそうね。
+EN At this rate I'll make it to the photo shoot in time.
+
+@ 125.12
+# scene 126 勝利3
+# 富沢 レイ
+JP さーてっと！
+JP 帰って録画しているアニメでも
+JP 見よっかな！
+EN Okay then! Guess I'll head home and watch the anime I
+EN recorded!
+
+@ 126.15
+# scene 133 表彰1
+# 富沢 レイ
+JP こういうスポットライトを
+JP 待ってたの、アリガト！
+EN I've been waiting for a spotlight like this. Thanks!
+
+@ 127.15
+# scene 133 表彰2
+# 富沢 レイ
+JP 応援アリガト！
+JP 次の衣装も楽しみにしててね！
+EN Thanks for the support! Look forward to my next
+EN costume!
+
+@ 128.12
+# scene 134 優勝1
+# 富沢 レイ
+JP これが私のホントの実力よ！
+JP これからも勝ち続けるんだから！
+EN This is what I can really do! And I'm gonna keep
+EN winning!
+
+@ 129.12
+# scene 134 優勝２
+# 富沢 レイ
+JP みんな！
+JP これからはコスプレだけじゃなく
+JP 私の強さにも注目よ！
+EN Everyone! From now on, pay attention to my
+EN strength, not just my cosplay!
+
+@ 130.24
+# scene 135 エンディング 通常
+# 富沢 レイ
+JP 社長、お疲れ様。
+JP 祝賀会に着ていくコスプレ衣装は
+JP 何がいい？
+EN Good work, Boss. What cosplay should I wear to the
+EN victory party?
+
+@ 131.24
+# scene 136 エンディング 好意
+# 富沢 レイ
+JP 社長…！
+JP ウェディングドレスのコスプレだけは
+JP 社長のために取っておくからね！
+EN Boss...! The wedding dress cosplay is one I'm saving
+EN just for you!

@@ -1,0 +1,2159 @@
+# /SCR/131.BIN - サイクロン近藤
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 131` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# サイクロン近藤
+JP 近藤です。
+JP キックボクシングから
+JP 転向してきました。
+EN I'm Kondo. I'm switching over from kickboxing.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# サイクロン近藤
+JP 世界に通じる選手になれるよう
+JP 全力でやります！
+EN I'll give it everything I've got, so I can become a
+EN wrestler who's a match for the world!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# サイクロン近藤
+JP …そうですか。
+JP 残念ですが仕方ありません。
+EN ...I see. It's a shame, but it can't be helped.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP この資料の通りなら
+JP ここに将来有望なキックボクサーが
+JP いるらしいが…。
+EN If this file is right, there's a promising young
+EN kickboxer around here...
+
+@ 3.33
+# ？？？
+JP おじさん、ちょっとどいてくれない。
+EN Hey, mister, mind moving out of the way?
+
+@ 3.36
+# 社 長
+JP …えっ？　あ、あぁ、失礼…。
+EN ...Huh? Oh, uh, sorry...
+
+@ 3.39
+# 社 長
+JP （なんだ？
+JP 　別に何もないのに？）
+EN (What's that about? There's nothing here...)
+
+@ 3.43
+# ？？？
+JP すぅ…はぁ…。
+JP …んっ！
+EN Hoo... haa... ...Hn!
+
+@ 3.49
+# 社 長
+JP （坂道でショートダッシュか…。
+JP 　…んっ、もしかしてこの娘は…）
+EN (Short sprints up the slope... Hm, could this girl be...?)
+
+@ 3.51
+# 社 長
+JP （いや、邪魔をしたらマズイな。
+JP 　終わるまで待つか…）
+EN (No, I shouldn't get in her way. I'll wait until she's
+EN done...)
+
+@ 3.70
+# サイクロン近藤
+JP はぁ、はぁ、はぁ、はぁ…。
+EN Haa, haa, haa, haa...
+
+@ 3.73
+# 社 長
+JP お疲れ様。
+JP やっぱり体の軸がしっかりしてるね。
+EN Good work. Your core really is rock solid.
+
+@ 3.80
+# サイクロン近藤
+JP はぁ、はぁ、はぁ…。
+JP あんた、誰？
+EN Haa, haa, haa... Who are you?
+
+@ 3.83
+# 社 長
+JP 失礼。
+JP 私、こういうもので…。
+EN Pardon me. Here's my card...
+
+@ 3.90
+# サイクロン近藤
+JP …プロレス団体の…社長さん？
+EN ...President of... a wrestling promotion?
+
+@ 3.93
+# 社 長
+JP 実はあなたをスカウトしようかと
+JP 思いまして…。
+JP 話を聞いてくれませんか？
+EN Actually, I came here hoping to scout you... Would you
+EN hear me out?
+
+@ 3.95
+# 社 長
+JP （俺は彼女を説得しながら
+JP 　相手の反応をうかがってみた）
+EN (I made my pitch, watching to see how she'd react.)
+
+@ 4.15
+# scene 005 新人スカウト１ 成功
+# サイクロン近藤
+JP …たしかに一人だけじゃ
+JP どこまで行けるかわからないかな…。
+EN ...True, on my own, who knows how far I could get...
+
+@ 4.18
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 4.29
+# サイクロン近藤
+JP いえ、こっちの話です。
+JP 社長さん、この話お受けします。
+EN No, just talking to myself. President, I accept your
+EN offer.
+
+@ 4.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# サイクロン近藤
+JP 悪いけど
+JP 私には私の目標があるんで…。
+EN Sorry, but I've got goals of my own...
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしか
+JP このあたりだったはずだが…。
+EN Let's see, I'm pretty sure it was around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# サイクロン近藤
+JP ああ、この前の社長さん…。
+JP また来たんですね。
+EN Oh, the president from before... You came back.
+
+@ 6.38
+# 社 長
+JP えぇ。
+JP もう一度考え直して
+JP もらえないでしょうか？
+EN Yes. Would you please reconsider?
+
+@ 7.15
+# scene 008 新人スカウト ２回目以降・成功
+# サイクロン近藤
+JP …たしかに一人だけじゃ
+JP どこまで行けるかわからないかな…。
+EN ...True, on my own, who knows how far I could get...
+
+@ 7.18
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 7.29
+# サイクロン近藤
+JP いえ、こっちの話です。
+JP 社長さん、この話お受けします。
+EN No, just talking to myself. President, I accept your
+EN offer.
+
+@ 7.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# サイクロン近藤
+JP 悪いけど
+JP 私には私の目標があるんで…。
+EN Sorry, but I've got goals of my own...
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は近藤選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Kondo.
+
+@ 9.25
+# 社 長
+JP キックボクシングをベースとした
+JP 必殺のラッシュは見応え充分。
+EN Her deadly kickboxing-based rush is something to
+EN see.
+
+@ 9.27
+# 社 長
+JP 立ち技格闘技のファンに
+JP アピールするためにも
+JP 彼女はうちの団体に必要だ。
+EN To win over fans of striking arts, our promotion
+EN needs her.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She's supposed to train somewhere around here...
+
+@ 9.33
+# ？？？
+JP ハイッ！　セイッ！　ヤッ！！
+EN Hah! Sei! Yah!!
+
+@ 9.36
+# 社 長
+JP （あそこでシャドーやってるのは…。
+JP 　うん、間違いない）
+EN (That girl shadowboxing over there... Yep, that's
+EN her.)
+
+@ 9.38
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.48
+# サイクロン近藤
+JP はぁ、はぁ、はぁ…。
+JP すー、はぁ…。
+JP はい、なんですか？
+EN Haa, haa, haa... Hoo, haa... Yes, what is it?
+
+@ 9.51
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.58
+# サイクロン近藤
+JP …引き抜きですか。
+EN ...You want to poach me?
+
+@ 9.61
+# 社 長
+JP はい。
+JP うちの団体で
+JP 戦っていただけませんか？
+EN Yes. Would you come fight for our promotion?
+
+@ 9.63
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 10.15
+# scene 011 移籍交渉 他団体所属 成功
+# サイクロン近藤
+JP …たしかにこのままでは……。
+EN ...It's true that at this rate...
+
+@ 10.18
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 10.29
+# サイクロン近藤
+JP いえ、なんでもありません。
+JP わかりました。
+JP その話、お受けします。
+EN No, it's nothing. All right. I accept your offer.
+
+@ 10.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# サイクロン近藤
+JP すみません。
+JP お話は嬉しいんですが
+JP お断りします。
+EN I'm sorry. I appreciate the offer, but I have to
+EN decline.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 近藤選手が必要だ。
+EN Our promotion really needs Kondo.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 近藤選手と交渉することにした。
+EN I decided to negotiate with Kondo once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# サイクロン近藤
+JP ああ、社長さん…。
+JP またですか？
+EN Oh, the president... Again?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 13.15
+# scene 014 移籍交渉 他団体所属２ 成功
+# サイクロン近藤
+JP …たしかにこのままでは……。
+EN ...It's true that at this rate...
+
+@ 13.18
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 13.29
+# サイクロン近藤
+JP いえ、なんでもありません。
+JP わかりました。
+JP その話、お受けします。
+EN No, it's nothing. All right. I accept your offer.
+
+@ 13.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# サイクロン近藤
+JP すみません。
+JP お話は嬉しいんですが
+JP お断りします。
+EN I'm sorry. I appreciate the offer, but I have to
+EN decline.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は近藤選手と
+JP 交渉してみることにした。
+EN I decided to negotiate with Kondo.
+
+@ 15.25
+# 社 長
+JP キックボクシングをベースとした
+JP 必殺のラッシュは見応え充分。
+EN Her deadly kickboxing-based rush is something to
+EN see.
+
+@ 15.27
+# 社 長
+JP 立ち技格闘技のファンに
+JP アピールするためにも
+JP 彼女はうちの団体に必要だ。
+EN To win over fans of striking arts, our promotion
+EN needs her.
+
+@ 15.29
+# 社 長
+JP たしかこのあたりで
+JP トレーニングしているはずだけど…。
+EN She's supposed to train somewhere around here...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# サイクロン近藤
+JP はい、なんですか？
+EN Yes, what is it?
+
+@ 15.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 15.53
+# サイクロン近藤
+JP なるほど…。
+EN I see...
+
+@ 15.56
+# 社 長
+JP どうでしょう？
+JP うちの団体で
+JP 戦っていただけませんか？
+EN What do you say? Would you come fight for our
+EN promotion?
+
+@ 15.58
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# サイクロン近藤
+JP フリーでいることに
+JP 限界を感じているのも事実です。
+EN It's true I've been feeling the limits of going
+EN freelance.
+
+@ 16.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 16.29
+# サイクロン近藤
+JP はい、お世話になります。
+EN Yes. I'm in your hands.
+
+@ 16.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# サイクロン近藤
+JP すみません…。
+JP 今は…フリーでやりたいことが
+JP あるんで…。
+EN I'm sorry... Right now there's... something I want to do
+EN as a freelancer...
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 近藤選手が必要だ。
+EN Our promotion really needs Kondo.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 近藤選手と交渉することにした。
+EN I decided to negotiate with Kondo once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# サイクロン近藤
+JP ああ、社長さん…。
+JP また来たんですか？
+EN Oh, the president... You came back again?
+
+@ 18.40
+# 社 長
+JP どうしても
+JP うちの団体に入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 18.42
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd react.)
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# サイクロン近藤
+JP フリーでいることに
+JP 限界を感じているのも事実です。
+EN It's true I've been feeling the limits of going
+EN freelance.
+
+@ 19.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 19.29
+# サイクロン近藤
+JP はい、お世話になります。
+EN Yes. I'm in your hands.
+
+@ 19.32
+# 社 長
+JP ありがとう。
+JP これからよろしく。
+EN Thank you. I look forward to working with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# サイクロン近藤
+JP すみません…。
+JP 今は…フリーでやりたいことが
+JP あるんで…。
+EN I'm sorry... Right now there's... something I want to do
+EN as a freelancer...
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は近藤を訪ねることにした。
+EN I decided to go see Kondo.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 近藤っ！
+EN Kondo!
+
+@ 21.41
+# サイクロン近藤
+JP 社長…！？
+JP なんでこんなところに…。
+EN Boss...!? What are you doing here...?
+
+@ 21.44
+# 社 長
+JP ああ。
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Yeah. Truth is, I've been looking for you. I want you
+EN to come back.
+
+@ 21.48
+# サイクロン近藤
+JP …本気ですか？
+EN ...Are you serious?
+
+@ 21.51
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないことはわかってる。
+JP ただ…。
+EN I know I'm in no position to ask this of you. But...
+
+@ 21.53
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# サイクロン近藤
+JP うーん…。
+JP わかりました。
+EN Hmm... All right.
+
+@ 22.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 22.29
+# サイクロン近藤
+JP 今回だけは
+JP 社長の顔を立てて戻ります。
+EN Just this once, I'll come back for your sake, Boss.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# サイクロン近藤
+JP 終わった話です。
+JP 帰ってください。
+EN That's over and done with. Please go home.
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び近藤を訪ねることにした。
+EN I decided to go see Kondo again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 近藤っ！
+EN Kondo!
+
+@ 24.37
+# サイクロン近藤
+JP …社長っ！？
+JP …まだ諦めてないんですね。
+EN ...Boss!? ...You still haven't given up, huh?
+
+@ 24.40
+# 社 長
+JP あぁ。
+JP また頼みに来たよ。
+JP どうしても団体に戻って欲しいんだ。
+EN Yeah. I came to ask again. I really want you back with
+EN us.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# サイクロン近藤
+JP うーん…。
+JP わかりました。
+EN Hmm... All right.
+
+@ 25.18
+# 社 長
+JP それじゃあ…。
+EN Then...
+
+@ 25.29
+# サイクロン近藤
+JP 今回だけは
+JP 社長の顔を立てて戻ります。
+EN Just this once, I'll come back for your sake, Boss.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# サイクロン近藤
+JP 終わった話です。
+JP 帰ってください。
+EN That's over and done with. Please go home.
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# サイクロン近藤
+JP 気にするほどの
+JP ケガじゃありません。
+EN It's not an injury worth worrying about.
+
+@ 28.16
+# scene 029 ケガ大
+# サイクロン近藤
+JP これは…ちょっと…。
+JP 無理できそうにありません。
+EN This is... kind of... I don't think I can push through it.
+
+@ 29.16
+# scene 030 入院
+# サイクロン近藤
+JP 入院なんて…情けないです…。
+EN The hospital... How pathetic...
+
+@ 30.16
+# scene 031 退院
+# サイクロン近藤
+JP ご迷惑をおかけしました。
+JP もう大丈夫です。
+EN Sorry for all the trouble. I'm fine now.
+
+@ 31.16
+# scene 032 ケガ完治
+# サイクロン近藤
+JP もう大丈夫です。
+JP これから巻き返します！
+EN I'm fine now. Time to make up for lost ground!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# サイクロン近藤
+JP 限界か…。
+JP 色々あったけど
+JP あっという間だったな…。
+EN So this is my limit... A lot happened, but it went by in a
+EN flash...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# サイクロン近藤
+JP 終わりぐらい、自分で決めます。
+EN I'll decide when I'm finished, at least.
+
+@ 34.16
+# scene 035 コーチ就任
+# サイクロン近藤
+JP 人に教えるのは苦手なんですが…。
+EN I'm not great at teaching people, but...
+
+@ 35.16
+# scene 036 ケガ引退
+# サイクロン近藤
+JP こんな形で終わるなんて…。
+EN To end like this...
+
+@ 36.16
+# scene 037 年齢引退
+# サイクロン近藤
+JP 気持ちはまだまだですが
+JP 肉体が限界のようです…。
+EN My spirit's still willing, but my body has hit its limit...
+
+@ 37.16
+# scene 038 退団
+# サイクロン近藤
+JP 思うところあって
+JP 辞めさせていただきます。
+JP お世話になりました。
+EN I have my reasons, so I'd like to resign. Thank you
+EN for everything.
+
+@ 38.16
+# scene 039 スランプ
+# サイクロン近藤
+JP ちっ…。
+JP もっと練習しないと…。
+EN Tch... I have to train harder...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# サイクロン近藤
+JP ファンクラブですか？
+JP あまりガラではないですが…。
+EN A fan club? It's not really my style, but...
+
+@ 39.19
+# 社 長
+JP 応援に負けないよう
+JP がんばれよ。
+EN Don't let your fans down. Give it your all.
+
+@ 39.26
+# サイクロン近藤
+JP もちろんです。
+JP ファンを失望させるような
+JP 試合はできません。
+EN Of course. I can't put on a match that would
+EN disappoint the fans.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# サイクロン近藤
+JP こういうのも少し慣れてきました。
+EN I'm starting to get used to this kind of thing.
+
+@ 40.19
+# 社 長
+JP これからもっとがんばってくれよ。
+EN Keep working even harder from here on.
+
+@ 40.23
+# サイクロン近藤
+JP えぇ。
+JP まだまだこんなものでは
+JP 終われませんから。
+EN Yes. I'm not stopping at this level.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# サイクロン近藤
+JP ガラではないと
+JP 思っていたのですが…。
+JP 悔しいですね。
+EN I didn't think it was my style, but... It still stings.
+
+@ 41.19
+# 社 長
+JP こんなこともあるさ。
+JP またがんばればいい。
+EN These things happen. Just work hard again.
+
+@ 41.26
+# サイクロン近藤
+JP …すみません。
+JP 必ず巻き返してみせます。
+EN ...I'm sorry. I'll make a comeback, I promise.
+
+@ 42.16
+# scene 043 映画出演
+# サイクロン近藤
+JP できれば他の選手に…。
+EN If possible, give it to someone else...
+
+@ 43.16
+# scene 044 一日署長
+# サイクロン近藤
+JP 団体の名誉に傷が付かないよう
+JP しっかりやってきます。
+EN I'll do a good job, so the promotion's name doesn't
+EN get tarnished.
+
+@ 44.16
+# scene 045 写真集発売
+# サイクロン近藤
+JP いやっ！
+JP これは無理ですから…！
+EN No way! This one's impossible...!
+
+@ 45.16
+# scene 046 ＣＭ出演
+# サイクロン近藤
+JP 芸能活動はなるべく
+JP 控えめにしたいのですが…。
+EN I'd rather keep the showbiz stuff to a minimum, but...
+
+@ 46.16
+# scene 047 ＣＤ発売
+# サイクロン近藤
+JP 一応やってみますが
+JP 期待しないでくださいよ！
+EN I'll give it a try, but don't expect much!
+
+@ 47.16
+# scene 048 始球式
+# サイクロン近藤
+JP そういう体を動かす仕事なら
+JP 大歓迎です。
+EN If it's work where I get to move my body, I'm all for it.
+
+@ 48.16
+# scene 049 学園祭
+# サイクロン近藤
+JP 私が尻を蹴ると
+JP 喜ぶんですよ、男の学生が…。
+JP 変ですよね…。
+EN When I kick their butts, the male students love it...
+EN Weird, right...?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.38
+# サイクロン近藤
+JP …えっ。
+JP あ、はい…。
+JP ありがとうございます。
+EN ...Huh? Oh, um... Thank you very much.
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.48
+# サイクロン近藤
+JP こちらこそ。
+JP あっ…社長の誕生日には
+JP ベルトをプレゼントします。
+EN Likewise. Oh... On your birthday, Boss, I'll give you a
+EN belt.
+
+@ 50.32
+# scene 051 バレンタインデー
+# サイクロン近藤
+JP 社長。
+JP 今日はバレンタインなんで
+JP 一応…これを…。
+EN Boss. It's Valentine's today, so... just in case... here.
+
+@ 50.35
+# 社 長
+JP ああ、ありがとう。
+JP おまえからもらえるとは
+JP 思ってなかったよ。
+EN Oh, thanks. I didn't expect to get one from you.
+
+@ 50.39
+# サイクロン近藤
+JP キックのジムでも配ってましたよ。
+JP あっ…義理ですからね、これ。
+EN We handed them out at the kickboxing gym too. Oh...
+EN and this is obligation chocolate, okay?
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, for last month?
+
+@ 51.38
+# サイクロン近藤
+JP …えっ？
+JP …あぁ、ホワイトデーの…！
+JP ありがとうございます。
+EN ...Huh? ...Oh, for White Day...! Thank you very much.
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have them between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# サイクロン近藤
+JP この拳で世界に名を
+JP 轟かせてみせます。
+JP 期待していてください！
+EN I'll make the world hear my name with these fists.
+EN Look forward to it!
+
+@ 53.31
+# scene 054 コンサート
+# サイクロン近藤
+JP えーと…一生懸命やりますが…。
+JP 上手くないんで
+JP 怒らないでください。
+EN Um... I'll do my best, but... I'm not any good, so please
+EN don't get mad.
+
+@ 54.28
+# scene 055 練習拒否
+# サイクロン近藤
+JP こんなメニューじゃ強くなれません！
+EN I can't get stronger with a regimen like this!
+
+@ 55.28
+# scene 056 失踪
+# サイクロン近藤
+JP なんだか
+JP どうでもよくなりました…。
+EN Somehow... I just don't care anymore...
+
+@ 56.16
+# scene 057 選手解雇
+# サイクロン近藤
+JP 納得できません！
+JP どうしてですかっ！
+EN I can't accept this! Why!?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# サイクロン近藤
+JP 世界のレベルを
+JP 自分の目で見てきます！
+EN I'll go see the world's level with my own eyes!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# サイクロン近藤
+JP 勉強になりました。
+JP これまで以上にやる気が
+JP 出てきました！
+EN I learned a lot. I'm more fired up than ever!
+
+@ 59.28
+# scene 060 移籍思案
+# サイクロン近藤
+JP どっちで戦うのが
+JP 私にとっていいのか…。
+EN Which side is better for me to fight on...?
+
+@ 60.16
+# scene 061 革命軍結成
+# サイクロン近藤
+JP 歪みを見逃すわけにはいかないっ！
+EN I can't turn a blind eye to what's wrong here!
+
+@ 61.16
+# scene 062 反乱軍結成
+# サイクロン近藤
+JP この拳で何もかも
+JP 叩き潰してやるっ！
+EN I'll smash everything with these fists!
+
+@ 62.16
+# scene 063 最終決戦要求
+# サイクロン近藤
+JP この戦いにすべてをかけます！
+EN I'm staking everything on this fight!
+
+@ 63.16
+# scene 065 遺恨発生
+# サイクロン近藤
+JP …許さない…！
+EN ...I won't forgive her...!
+
+@ 64.16
+# scene 065 殴り込み
+# サイクロン近藤
+JP 軽く蹴り飛ばしてきます。
+EN I'll go kick them around a little.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# サイクロン近藤
+JP 無事に帰れると思うなよ！
+EN Don't think you're getting home in one piece!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# サイクロン近藤
+JP 私の拳でＫＯされたいヤツは誰？
+EN Who wants to get KO'd by my fist?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# サイクロン近藤
+JP 私を選んでくれたこと…。
+JP 後悔させませんっ！
+EN For choosing me... You won't regret it!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# サイクロン近藤
+JP この拳で頂上に立つという夢が
+JP かないました！
+EN My dream of standing at the top with these fists has
+EN come true!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# サイクロン近藤
+JP 私も…まだまだですね……。
+EN I've still... got a long way to go...
+
+@ 70.13
+# scene 071 引退式
+# サイクロン近藤
+JP この拳を信じて走り続けてきました。
+JP 悔いはありません。
+JP ありがとうございましたっ！
+EN I kept running, believing in these fists. I have no
+EN regrets. Thank you so much!
+
+@ 71.18
+# サイクロン近藤
+JP 呼びましたか、社長？
+EN You called, Boss?
+
+@ 71.37
+# サイクロン近藤
+JP はい、なんでしょうか？
+EN Yes, what is it?
+
+@ 71.47
+# サイクロン近藤
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems you're in good form lately. Keep it up!
+
+@ 71.90
+# サイクロン近藤
+JP はい、任せてくださいっ！
+EN Yes, leave it to me!
+
+@ 71.111
+# サイクロン近藤
+JP そうですね…。
+JP がんばります…。
+EN I guess so... I'll do my best...
+
+@ 71.132
+# サイクロン近藤
+JP い、いや、そんなこと…。
+JP 面と向かって言われると困ります…。
+EN N-no, it's not... It's awkward when you say it to my
+EN face...
+
+@ 71.153
+# サイクロン近藤
+JP 励ましてくれるのは
+JP 嬉しいんですけど…。
+EN I'm glad you're encouraging me, but...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking a little lately?
+
+@ 71.190
+# サイクロン近藤
+JP そうかもしれません…。
+JP 気合いっ、入れ直します！
+EN Maybe so... I'll get my head back in the game!
+
+@ 71.211
+# サイクロン近藤
+JP そんなことはないと思いますが…。
+EN I don't think that's true, but...
+
+@ 71.232
+# サイクロン近藤
+JP 心が浮わついてしまって…。
+JP 情けないです。
+EN My mind's been drifting... It's pathetic.
+
+@ 71.253
+# サイクロン近藤
+JP そんなことないです。
+JP 普段通りですよ。
+EN That's not true. I'm the same as always.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 71.290
+# サイクロン近藤
+JP …すみません。
+JP 余計な気遣いをさせてしまって…。
+EN ...I'm sorry. I didn't mean to make you worry...
+
+@ 71.311
+# サイクロン近藤
+JP …平気です。
+JP まだ自分でなんとか
+JP できますから…。
+EN ...I'm fine. I can still handle it on my own...
+
+@ 71.332
+# サイクロン近藤
+JP ちょっと疲れがたまって…。
+JP でも、もう平気です！
+EN I've just been worn out... But I'm fine now!
+
+@ 71.353
+# サイクロン近藤
+JP すみません…。
+JP 一人にしてくれますか…。
+EN I'm sorry... Could you leave me alone...?
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# サイクロン近藤
+JP なんとなく予想はついていますが…。
+EN I have a rough idea, but...
+
+@ 71.400
+# サイクロン近藤
+JP いえ、特に思い当たることは…。
+EN No, nothing in particular comes to mind...
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# サイクロン近藤
+JP …わかりました。
+JP 社長がそう言うなら従います。
+EN ...All right. If you say so, Boss, I'll do it.
+
+@ 71.454
+# サイクロン近藤
+JP 悪いのは向こうです。
+JP 納得できません！
+EN She's the one in the wrong. I can't accept that!
+
+@ 71.475
+# サイクロン近藤
+JP あの…。
+JP なんの話なのか…さっぱり…。
+EN Um... I have no idea... what this is about...
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# サイクロン近藤
+JP …はい。
+EN ...Yes.
+
+@ 71.522
+# サイクロン近藤
+JP な、何か話があるんでしょうか？
+EN Wh-what did you want to talk about?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# サイクロン近藤
+JP …わかりました。
+JP 握手…してきます。
+EN ...All right. I'll go... shake hands with her.
+
+@ 71.578
+# サイクロン近藤
+JP これは個人の問題ですから
+JP 社長は介入しないでください。
+EN This is a personal matter, so please don't interfere,
+EN Boss.
+
+@ 71.599
+# サイクロン近藤
+JP …えっ？
+JP なんだ…思い詰めて損した…。
+EN ...Huh? Geez... I worried myself sick for nothing...
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# サイクロン近藤
+JP はい、なんでしょうか？
+EN Yes, what is it?
+
+@ 72.16
+# サイクロン近藤
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Seems you're in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# サイクロン近藤
+JP はい、任せてくださいっ！
+EN Yes, leave it to me!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# サイクロン近藤
+JP そうですね…。
+JP がんばります……。
+EN I guess so... I'll do my best...
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# サイクロン近藤
+JP い、いや、そんなこと…。
+JP 面と向かって言われると困ります…。
+EN N-no, it's not... It's awkward when you say it to my
+EN face...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# サイクロン近藤
+JP 励ましてくれるのは
+JP 嬉しいんですけど…。
+EN I'm glad you're encouraging me, but...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# サイクロン近藤
+JP そうかもしれません。
+JP …気合いっ！
+JP 入れ直しますっ！
+EN Maybe so. ...Okay! I'll get my head back in the game!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# サイクロン近藤
+JP そんなことはないと思いますが…。
+EN I don't think that's true, but...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# サイクロン近藤
+JP 心が浮わついてしまって…。
+JP 情けないです。
+EN My mind's been drifting... It's pathetic.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# サイクロン近藤
+JP そんなことないです。
+JP 普段通りですよ。
+EN That's not true. I'm the same as always.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# サイクロン近藤
+JP …すみません。
+JP 余計な気遣いをさせてしまって…。
+EN ...I'm sorry. I didn't mean to make you worry...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# サイクロン近藤
+JP …平気です。
+JP まだ、自分でなんとか
+JP できますから…。
+EN ...I'm fine. I can still handle it on my own...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# サイクロン近藤
+JP ちょっと疲れがたまって…。
+JP でも、もう平気です！
+EN I've just been worn out... But I'm fine now!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# サイクロン近藤
+JP すみません、
+JP ひとりにしてくれますか…。
+EN I'm sorry... Could you leave me alone...?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# サイクロン近藤
+JP なんとなく予想はついていますが…。
+EN I have a rough idea, but...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# サイクロン近藤
+JP いえ、特に思い当たることは……。
+EN No, nothing in particular comes to mind...
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# サイクロン近藤
+JP …わかりました。
+JP 社長がそう言うなら従います。
+EN ...All right. If you say so, Boss, I'll do it.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# サイクロン近藤
+JP 悪いのは向こうです。
+JP 納得できません！
+EN She's the one in the wrong. I can't accept that!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# サイクロン近藤
+JP あの…。
+JP なんの話なのか…さっぱり…。
+EN Um... I have no idea... what this is about...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# サイクロン近藤
+JP …はい。
+EN ...Yes.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# サイクロン近藤
+JP な、何か話があるんでしょうか？
+EN Wh-what did you want to talk about?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# サイクロン近藤
+JP …わかりました。
+JP 握手…してきます。
+EN ...All right. I'll go... shake hands with her.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# サイクロン近藤
+JP これは個人の問題ですから、
+JP 社長は介入しないでください。
+EN This is a personal matter, so please don't interfere,
+EN Boss.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# サイクロン近藤
+JP えっ…？
+JP …なんだ…思い詰めて損した…。
+EN Huh...? ...Geez... I worried myself sick for nothing...
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# サイクロン近藤
+JP 問題ありません。
+EN No problem.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# サイクロン近藤
+JP これまで以上にがんばります。
+EN I'll work even harder than before.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# サイクロン近藤
+JP もっと努力しろってことですか…？
+EN Are you telling me to try harder...?
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん…。
+JP 　温泉スパがあるなんて
+JP 　さすがリゾート地だな）
+EN (Hmm... A hot spring spa. Just what you'd expect from
+EN a resort.)
+
+@ 105.26
+# 社 長
+JP （みんなも楽しんでいるみたいだし
+JP 　来てよかった）
+EN (Everyone seems to be having fun. I'm glad we came.)
+
+@ 105.28
+# 社 長
+JP （あっ、そういえばここ
+JP 　マッサージもしてくれるんだよな）
+EN (Oh, that's right, they do massages here too.)
+
+@ 105.30
+# 社 長
+JP （マッサージルームは…あそこか。
+JP 　よし、行ってみるか）
+EN (The massage room is... over there. All right, let's
+EN give it a try.)
+
+@ 105.46
+# 社 長
+JP （うわっ！？
+JP 　先客がいたのか！？）
+EN (Whoa!? Someone's already here!?)
+
+@ 105.48
+# 社 長
+JP （しかも近藤じゃないか）
+EN (And it's Kondo, of all people.)
+
+@ 105.52
+# サイクロン近藤
+JP ………スゥ…スゥ…。
+EN .........Zzz... Zzz...
+
+@ 105.55
+# 社 長
+JP （ま、まあ、寝てるみたいだし
+JP 　…引き返すのも不自然だよな）
+EN (W-well, she seems to be asleep... It'd be weird to
+EN turn back now.)
+
+@ 105.57
+# 社 長
+JP （それにしても…）
+EN (Still...)
+
+@ 105.59
+# 社 長
+JP （なんて無防備な格好だ…）
+EN (She's so completely defenseless...)
+
+@ 105.63
+# サイクロン近藤
+JP …んっ…。
+JP …うん……？
+EN ...Mm... ...Hm...?
+
+@ 105.66
+# 社 長
+JP （お、起きる？）
+EN (Is she waking up?)
+
+@ 105.76
+# サイクロン近藤
+JP …あっ…社長……。
+EN ...Oh... Boss...
+
+@ 105.79
+# 社 長
+JP お、おう。
+JP 近藤、おまえもマッサージか？
+EN H-hey. You here for a massage too, Kondo?
+
+@ 105.83
+# サイクロン近藤
+JP えぇ…。
+JP ここのマッサージは最高ですよ…。
+EN Yeah... The massages here are the best...
+
+@ 105.87
+# サイクロン近藤
+JP ものすごくリラックスできますし
+JP 眠くなって…。
+EN It's so relaxing, I got sleepy...
+
+@ 105.91
+# サイクロン近藤
+JP あっ、社長もどうですか。
+JP 今、どきますから…。
+EN Oh, you should try it too, Boss. I'll get up now...
+
+@ 105.94
+# 社 長
+JP ま、待て！
+JP 起きあがるなら
+JP まず水着をつけ直せ！
+EN W-wait! If you're getting up, put your swimsuit back
+EN on first!
+
+@ 105.98
+# サイクロン近藤
+JP 水着…？
+EN My swimsuit...?
+
+@ 105.108
+# サイクロン近藤
+JP うわあっ！？
+EN Waaah!?
+
+@ 105.112
+# サイクロン近藤
+JP 社長！
+JP いったん出ていってください！
+EN Boss! Get out for a minute!
+
+@ 105.115
+# 社 長
+JP わ、わかった！
+EN R-right!
+
+@ 105.127
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.131
+# サイクロン近藤
+JP …油断したぁ。
+JP なんで水着脱いで…！？
+EN ...I let my guard down. Why'd I take my swimsuit off...!?
+
+@ 105.134
+# 社 長
+JP （…気付いてなかったのか）
+EN (...She hadn't even noticed?)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （後はここの見回りで終わりだな）
+EN (Just this last check and I'm done for the night.)
+
+@ 106.26
+# 社 長
+JP （んっ…電気が……？）
+EN (Hm... The lights are...?)
+
+@ 106.28
+# 社 長
+JP （誰も消して帰らなかったのか。
+JP 　まったく困ったものだな…）
+EN (Nobody turned them off before leaving? Honestly...)
+
+@ 106.30
+# 社 長
+JP （一応、中の様子だけ
+JP 　確認して帰るか）
+EN (I'll just take a look inside before I go.)
+
+@ 106.46
+# 社 長
+JP あれ、近藤？
+EN Huh, Kondo?
+
+@ 106.56
+# サイクロン近藤
+JP …あっ、社長。
+EN ...Oh, Boss.
+
+@ 106.60
+# サイクロン近藤
+JP 戸締まりですか？
+JP もうすぐ終わりますから
+JP ちょっと待ってください。
+EN Locking up? I'm almost done, so wait a sec.
+
+@ 106.63
+# 社 長
+JP それ、ペディキュアってやつか？
+JP なんだか意外だな。
+EN Is that a pedicure? Didn't expect that from you.
+
+@ 106.73
+# サイクロン近藤
+JP 爪が割れないようにしている
+JP だけですって…。
+EN I'm just keeping my toenails from cracking...
+
+@ 106.76
+# 社 長
+JP そうなのか。
+EN Is that right?
+
+@ 106.80
+# サイクロン近藤
+JP 足は拳に次ぐ私の武器ですから。
+EN My feet are my second weapon, after my fists.
+
+@ 106.83
+# 社 長
+JP まあ、自分の体を大切に扱うのは
+JP いいことだな。
+EN Well, taking care of your body is a good thing.
+
+@ 106.87
+# サイクロン近藤
+JP えぇ。
+JP 爪が割れただけでも
+JP 技の切れに影響が出ますからね。
+EN Yeah. Even one cracked nail can take the edge off
+EN my techniques.
+
+@ 106.90
+# 社 長
+JP そういうものか。
+EN Is that how it works?
+
+@ 106.100
+# サイクロン近藤
+JP もちろんです。
+EN Of course.
+
+@ 106.104
+# サイクロン近藤
+JP だから日頃からの手入れが
+JP 大切なんです。
+EN That's why daily care is so important.
+
+@ 106.107
+# 社 長
+JP なるほど…。
+JP 意外と几帳面なんだな。
+EN I see... You're surprisingly meticulous.
+
+@ 106.117
+# サイクロン近藤
+JP 意外と…は余計です！
+EN You can skip the "surprisingly"!
+
+@ 106.120
+# 社 長
+JP あぁ。
+JP 悪い、悪い。
+EN Yeah. Sorry, sorry.
+
+@ 106.130
+# サイクロン近藤
+JP まったく…もう…。
+EN Honestly... Geez...
+
+@ 106.134
+# サイクロン近藤
+JP あっ、しまった…。
+JP もうなくなりそうだ…。
+EN Oh, shoot... I'm almost out...
+
+@ 106.137
+# 社 長
+JP よし、さっきのお詫びに
+JP 新しいやつ買ってやるぞ。
+EN Okay, to make up for that, I'll buy you a new one.
+
+@ 106.147
+# サイクロン近藤
+JP …えっ、いいんですか？
+EN ...Huh, really?
+
+@ 106.150
+# 社 長
+JP ああ。
+EN Yeah.
+
+@ 106.154
+# サイクロン近藤
+JP ありがとうございます！
+EN Thank you so much!
+
+@ 106.168
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.170
+# 社 長
+JP （数日後、俺は近藤と一緒に
+JP 　ペティキュアを買いに行った）
+EN (A few days later, Kondo and I went shopping for
+EN pedicure supplies.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （後はここの見回りで終わりだな）
+EN (Just this last check and I'm done for the night.)
+
+@ 107.26
+# 社 長
+JP （んっ…電気が点いてる…？）
+EN (Hm... The lights are on...?)
+
+@ 107.42
+# 社 長
+JP あれ、近藤？
+EN Huh, Kondo?
+
+@ 107.52
+# サイクロン近藤
+JP …あっ、社長。
+EN ...Oh, Boss.
+
+@ 107.56
+# サイクロン近藤
+JP すいません。
+JP もう戸締まりですか？
+EN Sorry. Locking up already?
+
+@ 107.59
+# 社 長
+JP ああ、それはそうだけど…。
+EN Yeah, that's right, but...
+
+@ 107.61
+# 社 長
+JP 今度のは足の爪の保護って
+JP 訳じゃなさそうだな。
+EN This time it doesn't look like it's just to protect
+EN your toenails.
+
+@ 107.65
+# サイクロン近藤
+JP いいえ、爪の保護です。
+EN No, it's to protect my nails.
+
+@ 107.68
+# 社 長
+JP でも、今日のは綺麗な色が
+JP 付いてるぞ。
+EN But today it's got a pretty color on it.
+
+@ 107.78
+# サイクロン近藤
+JP …ま、前に社長に買ってもらった
+JP やつですよ…。
+EN ...I-it's the one you bought me before, Boss...
+
+@ 107.81
+# 社 長
+JP あのときのやつか…。
+EN Oh, that one...
+
+@ 107.83
+# 社 長
+JP 意外とかわいい色のやつを
+JP 買ったんだな。
+EN Didn't think you'd pick such a cute color.
+
+@ 107.93
+# サイクロン近藤
+JP また「意外」って…。
+EN "Didn't think" again...
+
+@ 107.96
+# 社 長
+JP …あっ……。
+EN ...Oops...
+
+@ 107.106
+# サイクロン近藤
+JP す、少しぐらいいいじゃないですか。
+JP これでも…女なんですから。
+EN S-so what if I do a little!? I'm... a woman too, you
+EN know.
+
+@ 107.109
+# 社 長
+JP 悪い、悪い。
+EN Sorry, sorry.
+
+@ 107.119
+# サイクロン近藤
+JP まったく…。
+EN Honestly...
+
+@ 107.123
+# サイクロン近藤
+JP 社長の頭の中の
+JP 私のイメージを見てみたいです。
+EN I'd love to see what kind of image of me is in your
+EN head, Boss.
+
+@ 107.126
+# 社 長
+JP あははは…。
+EN Ahahaha...
+
+@ 107.129
+# 社 長
+JP じゃ、今日はお詫びに
+JP その足が武器に変わる前に
+JP 飯にでもつれてってやるよ。
+EN Well then, to make up for it, I'll take you out to eat
+EN before those feet turn into weapons.
+
+@ 107.139
+# サイクロン近藤
+JP 本当ですか？
+EN Really?
+
+@ 107.142
+# 社 長
+JP ああ。
+JP 今日は近藤の女らしいところも
+JP 見られたしな。
+EN Yeah. I got to see your feminine side today, Kondo.
+
+@ 107.152
+# サイクロン近藤
+JP また、そんなこと言って…。
+EN There you go again...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# サイクロン近藤
+JP さぁ、いくよっ！
+EN All right, here I come!
+
+@ 109.16
+# scene 113 練習開始
+# サイクロン近藤
+JP 確実にメニューをこなしてみせます！
+EN I'll get through the whole regimen, no problem!
+
+@ 110.16
+# scene 114 練習開始 好意
+# サイクロン近藤
+JP 今日は成果が
+JP 上がりそうな気がします！
+EN I've got a feeling today's going to pay off!
+
+@ 111.16
+# scene 115 特訓開始
+# サイクロン近藤
+JP 望むところです。
+JP さぁ、始めましょう！
+EN Bring it on. Let's get started!
+
+@ 112.20
+# scene 116 特訓成功
+# サイクロン近藤
+JP 特訓…気持ちいいです！
+EN Special training... feels great!
+
+@ 113.20
+# scene 117 特訓失敗
+# サイクロン近藤
+JP 何がまずかったんだろう…？
+EN What went wrong...?
+
+@ 114.16
+# scene 118 休養
+# サイクロン近藤
+JP 休むのも練習メニューの
+JP ひとつですよね。
+EN Rest is part of the training regimen too, right?
+
+@ 115.16
+# scene 119 入場1
+# サイクロン近藤
+JP この拳で勝利を勝ち取ってみせる！
+EN I'll win this with these fists!
+
+@ 116.16
+# scene 119 入場2
+# サイクロン近藤
+JP 勝利への道は
+JP この拳で切り開いてみせる！
+EN I'll carve out the path to victory with these fists!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# サイクロン近藤
+JP さぁ、いくよ！
+EN All right, here I come!
+
+@ 118.16
+# scene 125 必殺技１
+# サイクロン近藤
+JP 日々の鍛錬は、この一撃のために！
+EN All my daily training was for this one strike!
+
+@ 119.16
+# scene 125 必殺技２
+# サイクロン近藤
+JP このときのために
+JP 磨き上げてきたんだ！
+EN This is what I've been honing it for!
+
+@ 120.16
+# scene 125 必殺技３
+# サイクロン近藤
+JP 真実を掴み取るため、
+JP 今この一撃を叩き込むっ！
+EN To seize the truth, I'll drive home this blow!
+
+@ 121.12
+# scene 126 勝利1
+# サイクロン近藤
+JP 私にだってできる。
+JP 強さは決まったものなんかじゃない。
+EN I can do it too. Strength isn't something you're born
+EN with.
+
+@ 122.12
+# scene 126 勝利2
+# サイクロン近藤
+JP 私の拳に
+JP 打ち抜けないものなんてない！
+EN There's nothing my fists can't punch through!
+
+@ 123.12
+# scene 126 勝利3
+# サイクロン近藤
+JP この拳で勝利を掴む！
+JP 頂点めざして振り返らない！
+EN I'll seize victory with these fists! Aiming for the top,
+EN never looking back!
+
+@ 124.15
+# scene 133 表彰1
+# サイクロン近藤
+JP ありがとうございます。
+JP この拳でさらなる高みを目指します！
+EN Thank you very much. With these fists, I'll aim even
+EN higher!
+
+@ 125.15
+# scene 133 表彰2
+# サイクロン近藤
+JP 来年もここに立てるよう努力します。
+JP ありがとうございました！
+EN I'll work hard so I can stand here again next year.
+EN Thank you!
+
+@ 126.12
+# scene 134 優勝1
+# サイクロン近藤
+JP 今日の喜びは決して忘れません。
+JP でも、まだまだこの拳は止まりません！
+EN I'll never forget the joy of today. But these fists
+EN aren't stopping yet!
+
+@ 127.12
+# scene 134 優勝２
+# サイクロン近藤
+JP これはまだ世界の頂点への通過点。
+JP 気を緩めることはできません！
+EN This is just one step on the way to the top of the
+EN world. I can't let up!
+
+@ 128.24
+# scene 135 エンディング 通常
+# サイクロン近藤
+JP こんな強い団体にいられたことを
+JP 感謝します。
+JP お疲れ様でした！
+EN I'm grateful I got to be in such a strong promotion.
+EN Thank you for everything!
+
+@ 129.24
+# scene 136 エンディング 好意
+# サイクロン近藤
+JP すみません。
+JP 私、社長のことを
+JP す、好きになってしまいましたっ！
+EN I'm sorry. Boss, I've... I've f-fallen for you!

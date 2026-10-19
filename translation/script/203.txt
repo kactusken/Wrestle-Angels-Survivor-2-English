@@ -1,0 +1,99 @@
+# /SCR/203.BIN - 
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 203` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# カレン・ニールセン
+JP ニールセン一族の
+JP 名誉を守れましたー。
+EN I've upheld the honor of the Nielsen clan!
+
+@ 1.16
+# scene 119 入場1
+# カレン・ニールセン
+JP 燃えてきましたー！
+EN Now I'm getting fired up!
+
+@ 2.16
+# scene 119 入場2
+# カレン・ニールセン
+JP さあ、始めましょうか。
+EN Well then, shall we begin?
+
+@ 3.16
+# scene 120 タッグマッチ ベスト
+# カレン・ニールセン
+JP ベストタッグの力、見せるわよ！
+EN Watch the power of the best tag team!
+
+@ 4.16
+# scene 125 必殺技１
+# カレン・ニールセン
+JP この勝負いただききましたッ！
+EN This match is mine!
+
+@ 5.16
+# scene 125 必殺技２
+# カレン・ニールセン
+JP 派手に決めてあげるわー！
+EN Let's finish this with a bang!
+
+@ 6.16
+# scene 125 必殺技３
+# カレン・ニールセン
+JP お楽しみはこれからよ！
+EN The fun is just getting started!
+
+@ 7.12
+# scene 126 勝利1
+# カレン・ニールセン
+JP あなた、まだまだひよっこね。
+EN You're still just a little chick.
+
+@ 8.12
+# scene 126 勝利2
+# カレン・ニールセン
+JP ニールセン一族の強さ
+JP わかってもらえた？
+EN Do you see now how strong the Nielsen clan is?
+
+@ 9.12
+# scene 126 勝利3
+# カレン・ニールセン
+JP 格闘一家の遺伝子は
+JP ダテじゃないの！
+EN These fighting-family genes aren't just for show!
+
+@ 10.15
+# scene 133 表彰1
+# カレン・ニールセン
+JP ニールセン一族は最強でーす！
+EN The Nielsen clan is the strongest!
+
+@ 11.15
+# scene 133 表彰2
+# カレン・ニールセン
+JP サンキュー。
+JP ありがとうございまーす。
+EN Thank you! Thank you very much!
+
+@ 12.12
+# scene 134 優勝1
+# カレン・ニールセン
+JP ニールセン一族の強さを
+JP 証明できました！
+EN I've proven the strength of the Nielsen clan!
+
+@ 13.12
+# scene 134 優勝２
+# カレン・ニールセン
+JP 誰の挑戦でも
+JP お待ちしてまーす！
+EN I'll be waiting for any challenger at all!

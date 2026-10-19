@@ -1,0 +1,87 @@
+# Character voices
+
+Notes from the translators, so each wrestler's other persona (1NN) and later edits stay consistent.
+
+- 009/109 Akiko Saito / Combat Saito: serious, earnest, very polite karateka; formal speech; stoic about pain; flustered and stammering at anything feminine or attention-getting. 押忍 = "Osu!" (stammered "O-osu"). 破邪顕正 = "Crush evil, reveal the truth!"
+- 010/110 Thunder Ryuko / Ryuko Yoshida: tough, terse, blunt lone wolf; casual ("Tch", "Geez", "gonna"); plays it cool, brushes off praise, soft underneath. 雷龍 = "Thunder Dragon".
+- 007/107 Cutie Kanai / Mika Kanai: crybaby idol from a Hokkaido dairy farm; childish, cheerful, sulky; "Waaah!", "*sniff*", stretched words ("Yaaay!", "Boooss"), "right? Right?"; milk running joke; "mister" before joining, "Boss" after. 道産子 = "Hokkaido girl", コゴロー = "Kogoro".
+- 008/108 Satomi Kojima / Scarlet Kojima: bright, polite waitress (father owns a family-restaurant chain); restaurant lingo ("Welcome!", "today's special", "final order"); gently teasing.
+- 017/117 Blade Uehara / Kyoko Uehara: reserved, polite, earnest, quietly romantic, flustered by gifts; from an Okinawan island; curt and cocky in the ring/heel scenes. エース = "ace".
+- 018/118 Bomber Kishima / Eri Kishima: brash tomboy muscle-head; dropped g's, "ain't", "gonna", "-'kay" for っす; cheerful, dense, easily embarrassed. "All riiight" (おっしゃー), "Kishima-senpai".
+- 001/101 Suzumi Ishikawa / Minerva Ishikawa: laid-back, gentle, polite, a bit of an airhead, warmly flirtatious with the Boss; calls herself "Big Sis" ("Big Sis Power").
+- 002/102 Shinobu Echigo / Justice Echigo: stiff, earnest, disciplined, samurai-like honor; stammers when flustered; blunt and rough when heated ("Have at you!"); tsundere toward the Boss. サラシ = "chest wrap".
+- 005/105 Sachiko Kanda / Hurricane Kanda: cool, terse, stoic ex-amateur boxer aiming at "the world (stage)"; clipped, blunt when muttering ("Tch..."); emotion slips out through embarrassment.
+- 006/106 Riyu Kikuchi / Aerial Kikuchi: hyper, cheerful, casual, small but gutsy; "Ahaha", "Just kidding!", "Boss, Boss!", stretched words. 神風ファイター = "Kamikaze Fighter". Mighty Yukiko is her mentor.
+- 011/111 Teddy Cat Hori / Sakie Hori: playful cat girl, "nya" endings, Mew/Mrrow/Nyau; everything comes back to cats. パパ = "Daddy".
+- 012/112 Rei Tomizawa / Reiko Tomizawa: sassy cosplay-idol otaku; "I'll do you the favor" (入ってあげる); teasing; anime, costumes, DVD boxes; "Leave it to me!", "Whaaat?".
+- 015/115 Beauty Ichigaya / Reika Ichigaya: haughty heiress, judo queen; grand formal English ("I shall graciously..."); "Oh-ho-ho-ho-ho!", "Grrrr!" (キーッ); "Mr. President" at first, then "Boss".
+- 016/116 Hitomi Fujishima / Honeybee Fujishima: cheerful, flirty, self-assured idol obsessed with costumes; "Ufufu", "Ehehe", occasional ♪.
+- 019/119 Mighty Yukiko / Yukiko Shinzaki: cheerful energetic tomboy, big eater, curry-obsessed, teases the Boss; "I'm in, I'm in!", "Ab-so-lutely!", "Okey-dokey!", "Ehehehe...".
+- 020/120 Toshimi Minami / Hybrid Minami: cool, terse submission specialist (karate background); "...Naturally."; tsundere with the Boss ("Idiot..."). 南十字星 = "The Southern Cross".
+
+Shared: the conversation-choice prompt 会話内容を選んでください = "Choose a topic."; 義理チョコ = "obligation chocolate", 本命 = "the real one".
+- 003/103 Hikaru Ogawa / Flora Ogawa: polite, modest, quiet dreamer, apologizes a lot; collects certifications (資格); "Hehe..." (ウフッ); shy crush on the Boss; "dream" motif.
+- 004/104 Reiko Kanamori / Venus Reiko: bubbly, vain, airheaded ex-beauty-queen who wants celebrity; "Yaaay!", "Whaaat?", "*sniff*" (グスン). ミス・スイーツ = "Miss Sweets".
+- 013/113 Chizuru Nagahara / Jeanne Nagahara: bubbly casual tomboy obsessed with the German suplex (always "German suplex"); "Ehehe", "Hauu", "Okaaay". 人間橋 = "human bridge".
+- 014/114 Panther Risako / Risako Sakuma: mature, poised, polite, knowing "Ufufu"; calm and queenly in matches; "sir" at first, then "Boss".
+- 021/121 Mimi Yoshihara / Izumi Yoshihara: polite, gentle, earnest ex-karate champion who sealed away her karate to be a pure wrestler; soft-spoken, playful, fond of the Boss; "Hehe..." (ウフッ).
+- 022/122 Megumi Muto / Genius Muto: terse, aloof, low-energy genius, tsundere; short lines trailing off "..."; "Idiot!" when flustered; fierce and ambitious in matches.
+- 025/125 Kazuki Aiba / Starlight Aiba: earnest, hard-working, energetic tomboy (ボク); 気合い = "fighting spirit", 根性 = "guts"; entrance "A star of hope in my heart! Aiba, here I go!"
+- 026/126 Aya Enomoto / Raspberry Enomoto: childish, sweet scaredy-cat; cute frilly costumes and candy (お菓子 = "candy"); "Ehehe", "Waaah!", "Yaaay!", ♪.
+- 029/129 Mikoto Kusanagi / Suiren Kusanagi: gentle, formal, humble shrine maiden of a family martial art ("I humbly ask for your guidance"); naive, flustered ("Hawa... hawawawa"); breaks every machine; stern and grand in matches. 草薙流 = "the Kusanagi style", 神威流 = "the Kamui style".
+- 030/130 Shiho Kobayakawa / Gaia Kobayakawa: small, feisty, casual ("gonna", "Thaaanks", "Nope"); huge eater, sleepy, free-spirited ("Zzz", "Funyaa"); "mister" before joining; "Daddy" to wheedle treats. "our pint-sized matadora".
+- 031/131 Makoto Kondo / Cyclone Kondo: stoic earnest ex-kickboxer; polite but clipped; "these fists", "the top"; curt with strangers; tsundere about anything feminine; "Honestly...", "Geez...". 立ち技格闘技 = "striking arts".
+- 032/132 Miyuki Sanada / Burning Sanada: hot-blooded guts girl; 気合と根性 = "spirit and guts"; punchy exclamations ("Roger that!", "Yeaaah!"); timid about romance and ghosts. 真田六文銭 = "Sanada Six Coins".
+- 037/137 Freya Kagami / Asuka Kagami: seductive, elegant older-sister type; upper-class register ("Oh my?", "My, how flattering"); "Ufufu..."; sadist in the ring; "Mr. President" then "Boss". ご主人様 = "Master".
+- 038/138 Michelle Taki / Shoko Taki: theatrical actress playing the dashing male lead; grand formal speech, few contractions ("I shall...", "Alas..."); phoenix, thorny path, stage, destiny; "Heh..."; fans = "my bambini".
+- 023/123 Chigusa Yuki / Valkyrie Chigusa: earnest, polite, timid, self-deprecating ("someone like me") but gutsy; clumsy, loves baseball; "Um...", "Hauu...", "Auu...", "*sniff*".
+- 024/124 Tomomi Watanabe / Julia Watanabe: carefree, lazy, cheeky street dancer who wants the spotlight; "gonna", "Whaaat?", "Okaaay"; 目立つ = "stand out", 完全燃焼 = "burn it all up".
+- 027/127 Ogre Asahina / Yuka Asahina: rough brash tomboy ("ain't", "gonna", "ya", dropped g's); "Tch!", "Ora!"; tsundere ("Y-you idiot!"); machine geek, PCs, motorbike.
+- 028/128 Kanna Kamui / Shining Kamui: quiet, terse, very formal masked heir to an ancient art; no contractions; devoted to her late Master; grand in matches. 神威流 = "Kamui-ryu"; "I fail to see why you chose me".
+  (Note: 029's agent used "the Kamui style" for 神威流 - make these consistent in review.)
+- 033/133 Mitsuki Sugiura / Gimlet Mitsuki: cool, polite analyst; data talk ("analysis", "equation of victory", "wasn't in my projections"); hot-spring fanatic; 詰み = "Checkmate".
+- 034/134 Haruka Date / Phoenix Haruka: extremely shy, whispery, "..." everywhere, "Mm..."; short and firm in the ring.
+- 035/135 Kasumi Tsuji / Mitos Kasumi: cheerful energetic tomboy (ボク), festivals and food, touchy about being small; "Roger!", "Ehehe". さおさお = "Sao-Sao"; team "Minimum Razors".
+- 036/136 Noel Shiraishi / Nagisa Shiraishi: spacey, dreamy, nearly silent; every line opens "......"; childlike ("Moving house...?"); balloons; "Mm-hm...", "Bye-bye...".
+- 039/139 Witch Misa / Misa Amagami: self-proclaimed witch, speaks of herself as "Misa"; stiff theatrical register, few contractions ("Misa thanks you", "is it not"); "the magic says..."; vain, flirty; childish curses ("Be cursed!"). Angels are her enemies.
+- 040/140 Migiri Ozora / Giant Migiri: 190 cm gentle giant, spacey, forgetful; soft polite "Oh my", "Ufufufu", "...okay?"; casually menacing; loves head pats.
+- 041/141 Garm Takanashi / Cerberus Takanashi: gruff, laid-back big woman from a mountain logging family; rough casual ("ain't", "y'know", "Yo"); おいおい = "Hey now"; dry, self-mocking, warm; hell/feast imagery in matches. 地獄の番犬 = "Hellhound".
+- 042/142 Zero Kotobuki / Arms Zero: shy, halting heiress; odd commas ("take care of, me"); apologizes; "Mm."; literal-minded; お姉様 = "Big Sister"; 寿財閥 = "the Kotobuki Group".
+- 049/149 Maiden Sakurazaki / Misaki Sakurazaki: two-faced maid; in character prim and overly polite ("Master", "My deepest apologies"), underneath blunt and casual ("Byeee, idiot"); "Hee hee hee..." (くすくす); ご奉仕 = "service".
+- 050/150 Melody Kobato / Kobato Sawashiro: airy, gentle, whimsical with an eerie undercurrent; calls herself "Kobato"; ♪; "Ihi♪"; "a traveler"; "Mr. President" then "Boss". Mother ギルティ美鷹 = "Guilty Mitaka".
+- 043/143 Saori Saoyama / Eagle Saori: small scrappy Muay Thai tomboy; rough casual ("gonna", "ain't", "Hell yeah!"); touchy about her height; bashful around the Boss. ちゅっす = "'Sup!". Partner: Kasumi Tsuji.
+- 044/144 Sonic Cat / Sonic Knight (Mika Yuki): childlike, spacey tokusatsu heroine, always in character; "Ukyu", "Ukyukyukyu"; なのさね = "y'see"; ♪; TV terms (plot twist, final episode, class change). 音速ヒロイン = "Supersonic Heroine"; たいちょー = "Captain".
+- 047/147 Chiyoru Hoshino / Banshee Chiyoru: timid, gloomy, self-deprecating, "..."; creepy "Fufufu"; clingy, a bit yandere ("I'll curse you"); dark wit. リビングストンさん = "Mr. Livingston".
+- 048/148 Hazuki Musumi / Prison Musumi: laid-back folksy big-sister type, nocturnal drinker; "Sheesh", "Well, well", "Kuhahaha!", "Thanks a bunch"; "Life works itself out".
+- 051/151 Succubus Manabe / Tsukasa Manabe: cheeky flirty little devil; "Nihihihi", "nya~", "Sowwy", "Nyeh!!"; "darling"; spells words out with hyphens. 美沙ちー = "Misachi".
+- 052/152 Dolphin Hayase / Aoi Hayase: polite, earnest, broke; sends money home; modest, hardworking; "Hwaaacha!"; sibling "Chii"; 琉球空手 = "Ryukyu karate".
+- 053/153 Azumi Nakamori / Aegis Nakamori: polite formal consummate professional; everything is "a job" ("I accept the job"); "Everything for the fans!"; いぶし銀の仕事人 = "a seasoned pro".
+- 054/154 Yui Naruse / Claridge Naruse: Kansai ex-circus performer, casual folksy ("ya", "ain't", "'kay?"); money-minded; "Thanks a bunch!" (おおきに); "Let's get this party started!".
+- 059/159 Chiaki Murakami / Mermaid Chiaki: sly, lazy, manipulative heel; smug "Oho", "Well, well", "Kukuku..."; "What a pain". Twin of 060; they call each other "Sis"; 金ヅル = "cash cow".
+- 060/160 Chiharu Murakami / Siren Chiharu: rougher twin, hot-tempered greedy street thug; dropped g's, "ain't", "Whaddaya want?"; lonely underneath; "Kukuku..." too.
+- 045/145 Diana Rial / Diana Mial: cheerful polite Brazilian, sends money to her siblings; careful slightly non-native English (few contractions, "..., yes?"); "Big Sis" to siblings; ♪. Siblings Mars, Eris (", yup!"), Marcelo, Louise, Serena ("Bossy").
+- 046/146 Saki Hikawa / SA-KI(-RA): gentle, humble, formal church sister raising orphans; "the Lord's guidance"; as SA-KI a sadistic heel ("pigs", "Hah!", stressed "ME"). Children Ryota, Kokoro, Mao, Kenta.
+- 055/155 Tsubasa Nomura / Apricot Tsubasa: tiny, touchy, childish but wants to seem grown-up; blurts casual then corrects to stiff polite ("...I mean, ..."); "Don't treat me like a kid!".
+- 056/156 Foxy Maho / Maho Nakamura: wild mountain girl, third person "Maho"; blunt simple exclamations; everything is food ("grub", "tasty"); calls him "President" (a word she learned).
+- 057/157 Kazumi Fujiwara / Pegasus Fujiwara: cheerful earnest would-be tokusatsu heroine of justice; polite, energetic; third person; "Guts, guts!"; calls the President "Captain".
+- 058/158 Yuki Hoshina / Fairy Hoshina: gentle slow very polite rich young lady, aikido, train fan; "Oh my, oh my", "Ufufufu"; quietly scheming about the Boss; station-announcement jokes.
+- 061/161 Mifuyu Yagyu / Raijin Mifuyu: stern archaic samurai of the Yagyu clan; formal, no contractions ("I shall...", "Forgive me"); loyal, stoic; "you" for そなた; 武士に二言はない = "A samurai does not go back on her word".
+- 062/162 Shizuka Yajima / Admiral Yajima: tough ex-leader of a biker girl gang, big-sister type; casual folksy, dropped g's; スジ = "my code"; 夜露死苦 = "Ride or die!"; 舎弟 = "my old gang".
+- 063/163 Raira Kamui / Nightmare Kamui: gleeful bloodthirsty heel; rough ("ain't", "ya", dropped g's); "Hyaaa-hahahaha!"; テメェ = "you bastard"; blood imagery; resents her late master. 神威流 = "Kamui-ryu" (settled for all scripts; 草薙流 = "Kusanagi-ryu").
+- 064/164 RIKKA / REKI: nearly silent ninja; "......Understood......"; stiff archaic, no contractions ("Nay", "Begone", "My thanks"); 甲陽流忍軍 = "Koyo-ryu ninja corps".
+- 065/165 Royal Hojo / Saki Hojo: polite, proud, formal perfectionist, fencing background; "perfect" everywhere; grand in the ring ("Checkmate!"); "Ngh..." (クッ); secret soft spot for the Boss. ビクトリーロード = "Victory Road".
+- 066/166 Mai Nagasawa / Fancy Nagasawa: cheerful, scatterbrained animal lover; echoes words ("Thanks, thanks!", "Fight, fight!"); "Ahaha..."; "kitty", "doggy", "Bunny".
+- 067/167 Natsuki Makabe / Grace Makabe: small proud karate fighter, touchy about height, tsundere; haughty ("Who do you think I am?"); "Cool & Elegant"; covers glee with "...Ahem.".
+- 068/168 Shizuku Himuro / Fortuna Shizuku: quiet spacey mystic; fate in everything (gears, thread, wheel of fate); "...", "Mm..."; tarot, stars; openly affectionate; firm in the ring ("Your fate is sealed...!").
+- 069/169 Macky Ueto / Maki Ueto: brash rowdy tomboy who wants to "go wild"; casual ("gonna", "ya", "dammit", "Heheh"); food; "Ora ora!". Partner of Lucky Uchida.
+- 070/170 Lucky Uchida / Nozomi Uchida: cool, analytical, polite technician aiming at the world stage; curt and commanding in the ring; flustered by praise of her looks. "Lucky Capture!".
+- 201-242 / 301-342 foreign wrestlers (in-ring lines only): 206 Cindy Won opens with an idiom-motto ("Peerless in the land!"); 207/208 Phantom Rose No. 1 / No. 2 devoted maids ("my lady"); 211 Rose Hewitt narcissistic rose imagery; 204/205 Fenrirs beast/hunt "Awooooo!"; 220 Darkstar Chaos ominous "Heh heh heh..."; 228 Kansai dialect as a Southern drawl ("Thank ya kindly!"); 231 Gina Durham timid; 233 Sophia Richards bratty rich girl, butler "Jeeves"; 236 Maria Crawford scientist-sadist; 232 Joker Lady gambler; 235 Tanya Carlos bubbly glutton.
+- 077/177 AGEHA / MARIPOSA: cheerful polite masked monster-hunter and secret agent; foreign words (Oui/Non, Da/Nyet, Merci); stretched vowels ("Goodbyeee"); "Mister President", "Darling"; "Mission", "the Organization". ＵＭＡ = "UMA".
+- 078/178 Yuri Kusunoki / Chaotic Kusunoki: big gentle soft-spoken nature lover (ボク); "Ahahaha..."; always hungry; worships "Lady Chaos" (Darkstar Chaos).
+- 079/179 Arisa Morishima / Pirates Morishima: tall, terse, cold pirate's descendant; short "..." phrases; menacing when threatened; terrified of cockroaches. 海賊の掟 = "pirate code", おじいちゃん = "Grandpa".
+- 071/171 Grizzly Yamamoto / Kumi Yamamoto: off-stage very shy, polite, stammering, cooks for the Boss; in the ring a rough brawler ("ya", "gonna", "Ora, ora!").
+- 072/172 Chisato Sakurai / Sirius Sakurai: stoic formal fighter who only wants to get stronger; "Very well", "Understood", "Kuh..."; flustered by romance; lonely underneath.
+- 073/173 Hibiki Izayoi / Calamity Izayoi: aloof, ominous, "calamity" everywhere; cool short lines, "Fufu..."; 災厄の女神 = "Goddess of Calamity".
+- 074/174 Ami Kurihama / Esseld Kurihama: gothic black-magic girl, the Boss is her past-life "Master", she his "familiar"; "Ufufu..."; others are "fakes"; アレイスター様 = "Lord Aleister".
+- 075/175 Rena Shishido / Drowsy Shishido: sleepy drawling heir to a martial art ("Okaaay", "Zzz... snore...", "Fweh"); fierce in matches; 眠れる獅子拳 = "Sleeping Lion Fist".
+- 076/176 Shion Kagura / Bloody Kagura: lazy, sultry, cynical, money-grubbing; "Ufufu", "Yeah, yeah"; everything is a hassle; teasing seduction schemes.

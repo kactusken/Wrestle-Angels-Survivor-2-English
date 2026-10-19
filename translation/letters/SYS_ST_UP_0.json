@@ -1,0 +1,222 @@
+{
+ "english": "Throws | Holds | Power | Strikes | Aerials | Other | Move | Difficulty",
+ "boxes": [
+  [
+   4,
+   6,
+   60,
+   21
+  ],
+  [
+   72,
+   6,
+   60,
+   21
+  ],
+  [
+   140,
+   6,
+   60,
+   21
+  ],
+  [
+   4,
+   38,
+   60,
+   21
+  ],
+  [
+   72,
+   38,
+   60,
+   21
+  ],
+  [
+   140,
+   38,
+   60,
+   21
+  ],
+  [
+   2,
+   137,
+   61,
+   22
+  ],
+  [
+   74,
+   137,
+   61,
+   22
+  ]
+ ],
+ "font": "BarlowCondensed-Bold.ttf",
+ "draw": "status.draw",
+ "groups": [
+  {
+   "labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fill": [
+    127,
+    125,
+    123,
+    120,
+    118
+   ],
+   "ground": "interpolate",
+   "reach": 2.5,
+   "cap": 12,
+   "patches": [
+    [
+     4,
+     6,
+     60,
+     21,
+     "inpaint",
+     {
+      "expr": "(b <= 56 and g >= 136) or r <= 200", "grow": 1
+     }
+    ],
+    [
+     72,
+     6,
+     60,
+     21,
+     "inpaint",
+     {
+      "expr": "(b <= 56 and g >= 136) or r <= 200", "grow": 1
+     }
+    ],
+    [
+     140,
+     6,
+     60,
+     21,
+     "inpaint",
+     {
+      "expr": "(b <= 56 and g >= 136) or r <= 200", "grow": 1
+     }
+    ],
+    [
+     4,
+     38,
+     60,
+     21,
+     "inpaint",
+     {
+      "expr": "(b <= 56 and g >= 136) or r <= 200", "grow": 1
+     }
+    ],
+    [
+     72,
+     38,
+     60,
+     21,
+     "inpaint",
+     {
+      "expr": "(b <= 56 and g >= 136) or r <= 200", "grow": 1
+     }
+    ],
+    [
+     140,
+     38,
+     60,
+     21,
+     "inpaint",
+     {
+      "expr": "(b <= 56 and g >= 136) or r <= 200", "grow": 1
+     }
+    ]
+   ]
+  },
+  {
+   "labels": [
+    6,
+    7
+   ],
+   "fill": [
+    159,
+    158,
+    157
+   ],
+   "ground": "interpolate",
+   "reach": 2,
+   "cap": 12,
+   "patches": [
+    [
+     1,
+     138,
+     63,
+     20,
+     "fill",
+     [
+      4,
+      145
+     ]
+    ],
+    [
+     2,
+     137,
+     61,
+     1,
+     "fill",
+     [
+      4,
+      145
+     ]
+    ],
+    [
+     2,
+     158,
+     61,
+     1,
+     "fill",
+     [
+      4,
+      145
+     ]
+    ],
+    [
+     73,
+     138,
+     63,
+     20,
+     "fill",
+     [
+      4,
+      145
+     ]
+    ],
+    [
+     74,
+     137,
+     61,
+     1,
+     "fill",
+     [
+      4,
+      145
+     ]
+    ],
+    [
+     74,
+     158,
+     61,
+     1,
+     "fill",
+     [
+      4,
+      145
+     ]
+    ]
+   ]
+  }
+ ],
+ "notes": "move category tabs, highlighted (status batch): same English as the SYS_ST_06_0 tabs; 技名 Move, 難易度 Difficulty; digits left as is"
+}

@@ -1,0 +1,680 @@
+{
+ "english": "Income | Mo | Show | Attendance / Capacity | Ticket Sales | Venue Costs | Venue 1 | Venue 2 | Venue 3 | Venue 4 | Venue 5 | Venue 6 | Venue 7 | Venue 8 | Shop Sales | TV Rights | Total Income",
+ "boxes": [
+  [
+   38,
+   17,
+   205,
+   36
+  ],
+  [
+   295,
+   27,
+   24,
+   22
+  ],
+  [
+   97,
+   57,
+   57,
+   15
+  ],
+  [
+   180,
+   57,
+   136,
+   15
+  ],
+  [
+   360,
+   57,
+   82,
+   15
+  ],
+  [
+   463,
+   57,
+   82,
+   15
+  ],
+  [
+   80,
+   78,
+   158,
+   18
+  ],
+  [
+   80,
+   101,
+   158,
+   18
+  ],
+  [
+   80,
+   124,
+   158,
+   18
+  ],
+  [
+   80,
+   147,
+   158,
+   18
+  ],
+  [
+   80,
+   170,
+   158,
+   18
+  ],
+  [
+   80,
+   193,
+   158,
+   18
+  ],
+  [
+   80,
+   216,
+   158,
+   18
+  ],
+  [
+   80,
+   239,
+   158,
+   18
+  ],
+  [
+   80,
+   262,
+   250,
+   18
+  ],
+  [
+   80,
+   285,
+   250,
+   18
+  ],
+  [
+   88,
+   310,
+   250,
+   19
+  ]
+ ],
+ "draw": "system.draw",
+ "font": "BarlowCondensed-BoldItalic.ttf",
+ "ground": "keep",
+ "fill": [
+  255,
+  255,
+  255
+ ],
+ "groups": [
+  {
+   "labels": [
+    0
+   ],
+   "font": "BarlowCondensed-ExtraBoldItalic.ttf",
+   "cap": 26,
+   "margin": 3,
+   "align": "left",
+   "ground": "keep",
+   "fill": {
+    "grad": [
+     [
+      0,
+      [
+       248,
+       240,
+       170
+      ]
+     ],
+     [
+      0.3,
+      [
+       248,
+       216,
+       120
+      ]
+     ],
+     [
+      0.65,
+      [
+       248,
+       176,
+       56
+      ]
+     ],
+     [
+      1.0,
+      [
+       248,
+       208,
+       104
+      ]
+     ]
+    ]
+   },
+   "rings": [
+    {
+     "w": 4,
+     "rgb": [
+      112,
+      104,
+      32
+     ],
+     "a": 160
+    },
+    {
+     "w": 3,
+     "rgb": [
+      24,
+      16,
+      0
+     ]
+    },
+    {
+     "w": 1,
+     "rgb": [
+      232,
+      232,
+      192
+     ]
+    }
+   ],
+   "inpaint": [
+    {
+     "rect": [
+      30,
+      10,
+      216,
+      44
+     ],
+     "mode": "rowlerp",
+     "seed": [
+      [
+       248,
+       240,
+       160
+      ],
+      [
+       248,
+       240,
+       184
+      ],
+      [
+       248,
+       232,
+       144
+      ],
+      [
+       248,
+       224,
+       128
+      ],
+      [
+       248,
+       216,
+       120
+      ],
+      [
+       248,
+       208,
+       104
+      ],
+      [
+       248,
+       192,
+       88
+      ],
+      [
+       248,
+       184,
+       80
+      ],
+      [
+       248,
+       176,
+       64
+      ],
+      [
+       248,
+       176,
+       56
+      ],
+      [
+       248,
+       160,
+       40
+      ],
+      [
+       232,
+       232,
+       192
+      ],
+      [
+       224,
+       208,
+       168
+      ],
+      [
+       216,
+       192,
+       120
+      ],
+      [
+       184,
+       168,
+       120
+      ],
+      [
+       176,
+       160,
+       80
+      ],
+      [
+       168,
+       144,
+       64
+      ],
+      [
+       144,
+       128,
+       40
+      ],
+      [
+       112,
+       104,
+       32
+      ],
+      [
+       128,
+       112,
+       8
+      ],
+      [
+       152,
+       128,
+       24
+      ],
+      [
+       136,
+       112,
+       8
+      ],
+      [
+       176,
+       152,
+       72
+      ],
+      [
+       104,
+       96,
+       24
+      ],
+      [
+       80,
+       80,
+       32
+      ],
+      [
+       192,
+       176,
+       128
+      ],
+      [
+       176,
+       160,
+       104
+      ]
+     ],
+     "tol": 30,
+     "near": 3,
+     "tile": {
+      "cols": [
+       282,
+       316
+      ],
+      "rows": [
+       31,
+       46
+      ],
+      "dy": 216,
+      "all": true,
+      "mirror": true,
+      "image": "SYS_REPORTS_1"
+     }
+    }
+   ]
+  },
+  {
+   "font": "BarlowCondensed-Bold.ttf",
+   "cap": 12,
+   "margin": 1,
+   "ground": "interpolate",
+   "fill": [
+    184,
+    216,
+    248
+   ],
+   "outline": {
+    "w": 1.5,
+    "rgb": [
+     80,
+     80,
+     80
+    ]
+   },
+   "labels": [
+    1
+   ]
+  },
+  {
+   "labels": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "font": "BarlowCondensed-Bold.ttf",
+   "cap": 10,
+   "margin": 1,
+   "ground": "keep",
+   "fill": [
+    216,
+    216,
+    216
+   ],
+   "outline": {
+    "w": 1.5,
+    "rgb": [
+     32,
+     32,
+     32
+    ]
+   },
+   "repaint": [
+    {
+     "rect": [
+      97,
+      57,
+      57,
+      15
+     ],
+     "index": 224
+    },
+    {
+     "rect": [
+      179,
+      57,
+      139,
+      15
+     ],
+     "index": 224
+    },
+    {
+     "rect": [
+      359,
+      57,
+      84,
+      15
+     ],
+     "index": 224
+    },
+    {
+     "rect": [
+      463,
+      57,
+      83,
+      15
+     ],
+     "index": 224
+    }
+   ]
+  },
+  {
+   "labels": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "font": "BarlowCondensed-BoldItalic.ttf",
+   "cap": 11,
+   "margin": 1,
+   "align": "left",
+   "ground": "keep",
+   "fill": [
+    0,
+    248,
+    248
+   ],
+   "inpaint": [
+    {
+     "rect": [
+      80,
+      77,
+      158,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    },
+    {
+     "rect": [
+      80,
+      100,
+      158,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    },
+    {
+     "rect": [
+      80,
+      123,
+      158,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    },
+    {
+     "rect": [
+      80,
+      146,
+      158,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    },
+    {
+     "rect": [
+      80,
+      169,
+      158,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    },
+    {
+     "rect": [
+      80,
+      192,
+      158,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    },
+    {
+     "rect": [
+      80,
+      215,
+      158,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    },
+    {
+     "rect": [
+      80,
+      238,
+      158,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    }
+   ],
+   "rings": [
+    {
+     "w": 2.5,
+     "rgb": [
+      8,
+      40,
+      120
+     ],
+     "a": 140,
+     "blur": 1
+    },
+    {
+     "w": 1.5,
+     "rgb": [
+      8,
+      32,
+      136
+     ]
+    }
+   ]
+  },
+  {
+   "labels": [
+    14,
+    15
+   ],
+   "font": "BarlowCondensed-BoldItalic.ttf",
+   "cap": 11,
+   "margin": 1,
+   "align": "left",
+   "ground": "keep",
+   "fill": [
+    0,
+    248,
+    128
+   ],
+   "inpaint": [
+    {
+     "rect": [
+      80,
+      261,
+      262,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    },
+    {
+     "rect": [
+      80,
+      284,
+      262,
+      19
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    }
+   ],
+   "rings": [
+    {
+     "w": 2.5,
+     "rgb": [
+      8,
+      40,
+      120
+     ],
+     "a": 140,
+     "blur": 1
+    },
+    {
+     "w": 1.5,
+     "rgb": [
+      8,
+      32,
+      136
+     ]
+    }
+   ]
+  },
+  {
+   "labels": [
+    16
+   ],
+   "font": "BarlowCondensed-BoldItalic.ttf",
+   "cap": 11,
+   "margin": 1,
+   "align": "left",
+   "ground": "keep",
+   "fill": [
+    248,
+    240,
+    184
+   ],
+   "inpaint": [
+    {
+     "rect": [
+      82,
+      309,
+      258,
+      21
+     ],
+     "mode": "rowlerp",
+     "all": true,
+     "side": "right"
+    }
+   ],
+   "rings": [
+    {
+     "w": 2.5,
+     "rgb": [
+      8,
+      40,
+      120
+     ],
+     "a": 140,
+     "blur": 1
+    },
+    {
+     "w": 1.5,
+     "rgb": [
+      8,
+      32,
+      136
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": "monthly report, income page: title, month label, column headers, row labels (venues 1-8, shop sales, TV rights, total); bars rebuilt under the row labels (inpaint), tools/letter_ext/system.py"
+}

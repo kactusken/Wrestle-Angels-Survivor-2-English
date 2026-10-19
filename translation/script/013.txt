@@ -1,0 +1,2306 @@
+# /SCR/013.BIN - 永原 ちづる
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 013` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 永原 ちづる
+JP 永原です！
+JP ジャーマンの名手を目指してます！
+EN I'm Nagahara! I'm aiming to be a master of the German
+EN suplex!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 永原 ちづる
+JP やったぁ！
+JP これからよろしくね、社長！
+EN Yay! Looking forward to working with you, Boss!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 永原 ちづる
+JP ひっどーい！
+JP 後悔しても知らないからね。
+EN That's so mean! Don't come crying to me when you
+EN regret it.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええっと…このあたりに面白い
+JP レスラー志望の娘がいるはずなんだが…。
+EN Let's see... There's supposed to be an interesting
+EN girl who wants to be a wrestler around here...
+
+@ 3.25
+# 社 長
+JP （あそこでブリッジワーク中の娘か…。
+JP 　あぁ、間違いない）
+EN (The girl doing bridge work over there... Yeah, that's
+EN her.)
+
+@ 3.27
+# 社 長
+JP すみません。
+JP 永原さんですか？
+EN Excuse me. Are you Nagahara?
+
+@ 3.37
+# 永原 ちづる
+JP …んっ？
+JP なーに、私？
+EN ...Hm? What, me?
+
+@ 3.40
+# 社 長
+JP 私はプロレス団体を
+JP 経営している者なんですが
+JP 少しお話がありまして…。
+EN I run a pro-wrestling promotion, and I was hoping we
+EN could talk for a moment...
+
+@ 3.47
+# 永原 ちづる
+JP もしかして…スカウトですか？
+EN Wait... are you scouting me?
+
+@ 3.50
+# 社 長
+JP はい、その通りです。
+JP 是非うちの団体に入って
+JP いただけないかと思いまして…。
+EN Yes, exactly. I'd love for you to join my promotion...
+
+@ 3.57
+# 永原 ちづる
+JP ど、どうしよう！
+JP あっ、でも、興味はあるっていうか…！
+EN Wh-what do I do?! Oh, but, I mean, I am interested...!
+
+@ 3.60
+# 社 長
+JP えぇ、よく知っています。
+JP それではＯＫということで
+JP よろしいですか？
+EN Yes, I know that very well. So can I take that as a
+EN yes?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 永原 ちづる
+JP うん、ここは勢い重視！
+JP プロになります！
+JP よろしくお願いします！
+EN Okay, I'm going with the momentum! I'll turn pro!
+EN Please take care of me!
+
+@ 4.22
+# 社 長
+JP え、えぇ…こちらこそ。
+JP 改めてよろしく。
+EN Oh, uh... likewise. Glad to have you aboard.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 永原 ちづる
+JP あ、でも…えっと…やっぱ無理っ！
+JP 無理です、無理、無理っ！
+EN Oh, but... um... no, I can't! I can't, I can't, I can't!
+
+@ 5.22
+# 社 長
+JP …えっ？
+JP いえ、ですが…。
+EN ...Huh? But...
+
+@ 5.29
+# 永原 ちづる
+JP まだプロのレスラーは無理っ！
+JP ごめんなさい！
+EN I'm not ready to be a pro wrestler yet! I'm sorry!
+
+@ 5.38
+# 社 長
+JP そ、そんなことは…。
+JP …あっ、待ってください！
+JP 永原さんっ！？
+EN B-but that's not... Ah, wait! Nagahara?!
+
+@ 5.40
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （永原選手か。
+JP 　彼女のような人材にこそ
+JP 　うちに入団してもらいたい）
+EN (Nagahara... Talent like hers is exactly what I want in
+EN my promotion.)
+
+@ 6.25
+# 社 長
+JP よーし今度こそ…。
+JP あの、すみません。
+EN All right, this time for sure... Um, excuse me.
+
+@ 6.35
+# 永原 ちづる
+JP …あっ、この前の！
+JP もしかして…。
+EN ...Oh, you're the guy from before! Don't tell me...
+
+@ 6.38
+# 社 長
+JP ええ、そうです。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes, that's right. I really want you to join my
+EN promotion...
+
+@ 6.45
+# 永原 ちづる
+JP うーん…。
+JP そりゃ、いずれプロになりたいと
+JP 思ってるけど…。
+EN Hmm... I mean, sure, I want to go pro someday, but...
+
+@ 6.48
+# 社 長
+JP それが今です。
+JP お願いします、是非うちの団体に。
+EN Someday is now. Please, join my promotion.
+
+@ 6.55
+# 永原 ちづる
+JP …うん、そうだよね。
+EN ...Yeah, you're right.
+
+@ 6.58
+# 社 長
+JP では…。
+EN Then...
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 永原 ちづる
+JP うん、ここは勢い重視！
+JP プロになります！
+JP よろしくお願いします！
+EN Okay, I'm going with the momentum! I'll turn pro!
+EN Please take care of me!
+
+@ 7.22
+# 社 長
+JP え、えぇ…こちらこそ。
+JP 改めてよろしく。
+EN Oh, uh... likewise. Glad to have you aboard.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 永原 ちづる
+JP あ、でも…えっと…やっぱ無理っ！
+JP 無理です、無理、無理っ！
+EN Oh, but... um... no, I can't! I can't, I can't, I can't!
+
+@ 8.22
+# 社 長
+JP …えっ？
+JP いえ、ですが…。
+EN ...Huh? But...
+
+@ 8.29
+# 永原 ちづる
+JP まだプロのレスラーは無理っ！
+JP ごめんなさい！
+EN I'm not ready to be a pro wrestler yet! I'm sorry!
+
+@ 8.38
+# 社 長
+JP そ、そんなことは…。
+JP …あっ、待ってください！
+JP 永原さんっ！？
+EN B-but that's not... Ah, wait! Nagahara?!
+
+@ 8.40
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she didn't
+EN change her mind...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （永原選手…。
+JP 　彼女のような華のある選手
+JP 　是非ともうちに欲しい）
+EN (Nagahara... I'd love to have a wrestler with her star
+EN quality in my promotion.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be around here somewhere... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+JP 私、プロレス団体を経営している者
+JP なんですが…。
+EN Um, excuse me. I run a pro-wrestling promotion...
+
+@ 9.37
+# 永原 ちづる
+JP …えっ？
+JP 社長さんなんですか？
+EN ...Huh? You're a company president?
+
+@ 9.40
+# 社 長
+JP （俺は単刀直入に
+JP 　移籍を持ちかけてみた）
+EN (I got straight to the point and offered her a
+EN transfer.)
+
+@ 9.47
+# 永原 ちづる
+JP そ、そんな！
+JP 急にそんなこと言われても…！
+JP ごめんなさい！
+EN Wh-what?! You can't just spring that on me...! I'm
+EN sorry!
+
+@ 9.56
+# 社 長
+JP 待って！
+JP 逃げないで聞いてください！
+EN Wait! Don't run, just hear me out!
+
+@ 9.58
+# 社 長
+JP 謙遜することはありません！
+JP あなたには充分な実力と華が…うおっ！
+EN There's no need to be modest! You have plenty of
+EN skill and star quality... Whoa!
+
+@ 9.76
+# 社 長
+JP （今の…ジャーマン…か…？）
+EN (Was that... a German suplex...?)
+
+@ 9.78
+# 社 長
+JP （さすが…見込んだだけのことは
+JP 　…ガク…）
+EN (I knew it... she's everything I hoped... *thud*...)
+
+@ 9.93
+# 社 長
+JP …………。
+EN ......
+
+@ 9.95
+# 社 長
+JP ………………。
+EN .........
+
+@ 10.27
+# scene 011 移籍交渉 他団体所属 成功
+# 永原 ちづる
+JP あ、あの…大丈夫ですか！？
+EN Um... are you okay?!
+
+@ 10.30
+# 社 長
+JP （あれ…気絶してたのか…）
+EN (Huh... did I black out...?)
+
+@ 10.41
+# 永原 ちづる
+JP すみません！
+JP 移籍の件は受けますから、許して！
+EN I'm so sorry! I'll accept the transfer, so please
+EN forgive me!
+
+@ 10.44
+# 社 長
+JP （これって結果オーライ…？）
+EN (I guess all's well that ends well...?)
+
+@ 11.20
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 社 長
+JP ……………………。
+EN ............
+
+@ 11.30
+# 永原 ちづる
+JP よかった、目をあけてくれて…！
+JP 今、病院に連絡するから！
+EN Thank goodness, you opened your eyes...! I'm calling
+EN the hospital right now!
+
+@ 11.45
+# 社 長
+JP ……………………。
+EN ............
+
+@ 11.52
+# 社 長
+JP （あれ…？）
+EN (Huh...?)
+
+@ 11.54
+# 社 長
+JP （どうして俺、気絶してたんだ？）
+EN (Why was I unconscious?)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （永原選手…。
+JP 　彼女のような華のある選手
+JP 　是非ともうちに欲しい）
+EN (Nagahara... I'd love to have a wrestler with her star
+EN quality in my promotion.)
+
+@ 12.25
+# 社 長
+JP （俺は永原選手と交渉するため
+JP 　彼女の所属する団体に向かった）
+EN (I headed to her promotion to negotiate with her.)
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 永原 ちづる
+JP …あっ！？
+JP この前の社長さん！？
+JP そ、その節はっ…！
+EN ...Oh?! You're that company president from before?!
+EN A-about that time...!
+
+@ 12.40
+# 社 長
+JP （…あれ？
+JP 　前に会ったことがあったかな？）
+EN (...Huh? Have we met before?)
+
+@ 12.42
+# 社 長
+JP （…思い出そうとすると
+JP 　頭が痛くなるのはなぜだろう？）
+EN (...Why does my head hurt whenever I try to
+EN remember?)
+
+@ 12.44
+# 社 長
+JP （ともあれ俺は単刀直入に
+JP 　移籍を持ちかけてみた）
+EN (Anyway, I got straight to the point and offered her
+EN a transfer.)
+
+@ 12.51
+# 永原 ちづる
+JP ええっ！？
+JP またその話ですか！？
+EN What?! This again?!
+
+@ 12.54
+# 社 長
+JP また…って何ですか？
+JP とりあえず逃げずに聞いて
+JP もらえ…うおっ！
+EN What do you mean, "again"? Anyway, please don't run,
+EN just hear me o... Whoa!
+
+@ 12.75
+# 社 長
+JP （今の…ジャーマン…か…？）
+EN (Was that... a German suplex...?)
+
+@ 12.77
+# 社 長
+JP （さすが…見込んだだけのことは
+JP 　…ガク…）
+EN (I knew it... she's everything I hoped... *thud*...)
+
+@ 12.91
+# 社 長
+JP …………。
+EN ......
+
+@ 12.93
+# 社 長
+JP ………………。
+EN .........
+
+@ 13.27
+# scene 014 移籍交渉 他団体所属２ 成功
+# 永原 ちづる
+JP あ、あの…大丈夫ですか！？
+EN Um... are you okay?!
+
+@ 13.30
+# 社 長
+JP （あれ…気絶してたのか…）
+EN (Huh... did I black out...?)
+
+@ 13.41
+# 永原 ちづる
+JP すみません！
+JP 移籍の件は受けますから、許して！
+EN I'm so sorry! I'll accept the transfer, so please
+EN forgive me!
+
+@ 13.44
+# 社 長
+JP （これって結果オーライ…？）
+EN (I guess all's well that ends well...?)
+
+@ 14.20
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 社 長
+JP ……………………。
+EN ............
+
+@ 14.30
+# 永原 ちづる
+JP よかった、目をあけてくれて…！
+JP 今、病院に連絡するから！
+EN Thank goodness, you opened your eyes...! I'm calling
+EN the hospital right now!
+
+@ 14.45
+# 社 長
+JP ……………………。
+EN ............
+
+@ 14.52
+# 社 長
+JP （あれ…？）
+EN (Huh...?)
+
+@ 14.54
+# 社 長
+JP （どうして俺、気絶してたんだ？）
+EN (Why was I unconscious?)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （永原選手…。
+JP 　彼女のような華のある選手
+JP 　是非ともうちに欲しい）
+EN (Nagahara... I'd love to have a wrestler with her star
+EN quality in my promotion.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるって
+JP 　話だけど…あぁ、いたいた）
+EN (I heard she'd be around here... Ah, there she is.)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# 永原 ちづる
+JP あっ、すみません。
+JP 今、練習中ですから…。
+EN Oh, sorry. I'm in the middle of training right now...
+
+@ 15.40
+# 社 長
+JP すいません。
+JP 私、プロレスの団体を
+JP 経営している者なんですが…。
+EN Sorry to bother you. I run a pro-wrestling
+EN promotion...
+
+@ 15.47
+# 永原 ちづる
+JP …えっ、社長さん？
+JP 私に何か用ですか？
+EN ...Oh, a company president? What do you want with
+EN me?
+
+@ 15.50
+# 社 長
+JP はい。
+JP 突然ですが、うちに入団して
+JP いただけないかと思いまして…。
+EN Well, this is sudden, but I was hoping you'd join my
+EN promotion...
+
+@ 15.57
+# 永原 ちづる
+JP 入団ですか…？
+JP どうしようかな…？
+EN Join your promotion...? Hmm, what should I do...?
+
+@ 15.60
+# 社 長
+JP お願いします。
+JP どうかうちの団体に…。
+EN Please. I'd really like you in my promotion...
+
+@ 15.62
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept patiently trying to
+EN persuade her.)
+
+@ 16.15
+# scene 017 移籍交渉 フリー１ 成功
+# 永原 ちづる
+JP うん、これも何かの縁だと思うし…。
+EN Yeah, maybe this is fate or something...
+
+@ 16.18
+# 社 長
+JP じゃあ…。
+EN Then...
+
+@ 16.29
+# 永原 ちづる
+JP はい、お世話になります！
+JP よろしくーっ！
+EN Yep, I'm in your hands! Nice to meet you!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 永原 ちづる
+JP もう少しだけ時間をもらえないかな…？
+EN Could you give me just a little more time...?
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP いい返事を期待しています。
+EN I see... I'll be hoping for good news.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには永原選手が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (My promotion really needs Nagahara. I decided to
+EN negotiate once more.)
+
+@ 18.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.35
+# 永原 ちづる
+JP …あっ、この前の社長さん。
+EN ...Oh, it's the company president from before.
+
+@ 18.38
+# 社 長
+JP はい。
+JP 先日お話ししたスカウトの件
+JP いかがでしょうか？
+EN Yes. Have you thought about the offer I made the
+EN other day?
+
+@ 18.45
+# 永原 ちづる
+JP 色々と考えてみたんだけど…。
+EN I've been thinking about it a lot, but...
+
+@ 18.48
+# 社 長
+JP 答えは出ましたか？
+EN Have you reached an answer?
+
+@ 19.15
+# scene 020 移籍交渉 フリー２ 成功
+# 永原 ちづる
+JP うん、これも何かの縁だと思うし…。
+EN Yeah, maybe this is fate or something...
+
+@ 19.18
+# 社 長
+JP じゃあ…。
+EN Then...
+
+@ 19.29
+# 永原 ちづる
+JP はい、お世話になります！
+JP よろしくーっ！
+EN Yep, I'm in your hands! Nice to meet you!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 永原 ちづる
+JP もう少しだけ時間をもらえないかな…？
+EN Could you give me just a little more time...?
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP いい返事を期待しています。
+EN I see... I'll be hoping for good news.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は永原を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to visit Nagahara. My promotion really
+EN does need her.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、いたいた。
+JP おーい、永原！
+EN She should be around here... Ah, there she is. Hey,
+EN Nagahara!
+
+@ 21.35
+# 永原 ちづる
+JP あっ、社長…なーに？
+JP まさか復帰の要請じゃないよね？
+EN Oh, Boss... What's up? You're not asking me to come
+EN back, are you?
+
+@ 21.38
+# 社 長
+JP まぁ、その通りなんだが…。
+EN Well, actually, that's exactly it...
+
+@ 21.42
+# 永原 ちづる
+JP …えっ！？
+JP うそ、ホントに！？
+EN ...What?! No way, really?!
+
+@ 21.45
+# 社 長
+JP 言えた義理じゃないことは承知してる。
+JP だが…戻ってきてくれないか？
+EN I know I'm in no position to ask. But... would you come
+EN back?
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 永原 ちづる
+JP えっと…あははは…。
+JP なんか困っちゃうなぁ。
+EN Um... ahahaha... You're kind of putting me on the spot.
+
+@ 22.18
+# 社 長
+JP 頼む。
+JP この通りだ。
+EN Please. I'm begging you.
+
+@ 22.29
+# 永原 ちづる
+JP もぉ、わかったってば。
+JP そこまで言われちゃったらねぇ。
+EN Geez, okay, okay. When you put it like that...
+
+@ 22.32
+# 社 長
+JP ホントか！？
+JP ありがとう、永原…。
+EN Really?! Thank you, Nagahara...
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 永原 ちづる
+JP うーん…やっぱり…ねぇ。
+JP 悪いけど今は戻る気になれないよ…。
+EN Hmm... I don't know... Sorry, but I don't feel like
+EN coming back right now...
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... I understand...
+
+@ 23.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I've only got myself to blame...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び永原を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to visit Nagahara again. My promotion
+EN really does need her.)
+
+@ 24.25
+# 社 長
+JP ええっと…。
+JP 永原、ちょっといいか？
+EN Um... Nagahara, got a minute?
+
+@ 24.35
+# 永原 ちづる
+JP …あっ、社長…。
+JP もしかして、また復帰の
+JP 要請ってやつ？
+EN ...Oh, Boss... Is this another one of those "please
+EN come back" things?
+
+@ 24.38
+# 社 長
+JP 頼む。
+JP どうしても団体に戻って欲しいんだ。
+EN Please. I really want you back in the promotion.
+
+@ 24.40
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 永原 ちづる
+JP ええっと…あははは…。
+JP なんか困っちゃうなぁ。
+EN Um... ahahaha... You're kind of putting me on the spot.
+
+@ 25.18
+# 社 長
+JP 頼む。
+JP この通りだ。
+EN Please. I'm begging you.
+
+@ 25.29
+# 永原 ちづる
+JP もぉ、わかったってば。
+JP そこまで言われちゃったらねぇ。
+EN Geez, okay, okay. When you put it like that...
+
+@ 25.32
+# 社 長
+JP ホントか！？
+JP ありがとう、永原…。
+EN Really?! Thank you, Nagahara...
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 永原 ちづる
+JP うーん…やっぱり…ねぇ。
+JP 悪いけど今は戻る気になれないよ…。
+EN Hmm... I don't know... Sorry, but I don't feel like
+EN coming back right now...
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... I understand...
+
+@ 26.24
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I've only got myself to blame...)
+
+@ 27.16
+# scene 028 ケガ小
+# 永原 ちづる
+JP 大丈夫！
+JP カスリ傷だって！
+EN I'm fine! It's just a scratch!
+
+@ 28.16
+# scene 029 ケガ大
+# 永原 ちづる
+JP イタタタッ…。
+JP このケガ、癖にならなきゃいいけど…。
+EN Ow ow ow... I hope this injury doesn't become a
+EN chronic thing...
+
+@ 29.16
+# scene 030 入院
+# 永原 ちづる
+JP ハァ～…入院かぁ…。
+JP ちょっとユーウツ…。
+EN Haaah... the hospital, huh... What a downer...
+
+@ 30.16
+# scene 031 退院
+# 永原 ちづる
+JP 早速ジャーマンの練習
+JP いってみよー！
+EN Time to get right back to German suplex practice!
+
+@ 31.16
+# scene 032 ケガ完治
+# 永原 ちづる
+JP よーし、ケガも治ったことだし
+JP まずはジャーマンの練習だよね！
+EN All right, now that my injury's healed, first up is
+EN German suplex practice!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 永原 ちづる
+JP そっか…。
+JP 私ってここまでなんだ…。
+EN I see... So this is as far as I go...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 永原 ちづる
+JP 社長、何言ってんのよ。
+JP まだまだできるって。
+EN Boss, what are you talking about? I've got plenty
+EN left in me.
+
+@ 34.16
+# scene 035 コーチ就任
+# 永原 ちづる
+JP キレイなジャーマンはブリッジから！
+EN A beautiful German suplex starts with the bridge!
+
+@ 35.16
+# scene 036 ケガ引退
+# 永原 ちづる
+JP どうにも首がね…。
+JP こればっかりは仕方ないよ。
+EN My neck just won't cooperate... There's nothing I
+EN can do about it.
+
+@ 36.16
+# scene 037 年齢引退
+# 永原 ちづる
+JP ブリッジの度に体が悲鳴を上げるの…。
+JP ちょっと寂しいけど
+JP もう限界かなって…。
+EN My body screams every time I bridge... It's a little
+EN sad, but I think I've hit my limit...
+
+@ 37.16
+# scene 038 退団
+# 永原 ちづる
+JP ジャーマンができないなら
+JP もういいや。
+EN If I can't do German suplexes, I'm done.
+
+@ 38.16
+# scene 039 スランプ
+# 永原 ちづる
+JP 首の調子がちょっと…。
+EN My neck's been acting up a bit...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 永原 ちづる
+JP これってジャーマンの
+JP ファンクラブだよね？
+EN This is a German suplex fan club, right?
+
+@ 39.19
+# 社 長
+JP それは本気か、冗談か？
+JP どっちだ？
+EN Are you serious or joking? Which is it?
+
+@ 39.26
+# 永原 ちづる
+JP あはははっ！
+JP 冗談よ、冗談！
+EN Ahahaha! Joking, I'm joking!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 永原 ちづる
+JP なるほどぉ。
+JP やっぱりジャーマン好きって
+JP 多いんだねぇ。
+EN I see! So there really are lots of people who love the
+EN German suplex!
+
+@ 40.23
+# 永原 ちづる
+JP よーし、これからもジャーマンの
+JP 普及に燃えるぞぉ！
+EN All right! I'm all fired up to keep spreading the
+EN German suplex!
+
+@ 40.26
+# 社 長
+JP …だから、それとこれとは別だろ。
+EN ...Like I said, that's a whole separate thing.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 永原 ちづる
+JP うっそー、なんでなんで！？
+JP 私のジャーマン
+JP そんなにキレイじゃないの？
+EN No way, why, why?! Is my German suplex not pretty
+EN enough?
+
+@ 41.19
+# 社 長
+JP いや、ファンクラブが解散しただけで
+JP ジャーマンとは無関係だぞ？
+EN No, the fan club just broke up. It has nothing to do
+EN with your German suplex.
+
+@ 41.26
+# 永原 ちづる
+JP もっと練習しないとダメなんだ。
+JP じゃ、社長。
+JP 練習いってきまーす！
+EN I need to practice more, that's what it is. Okay, Boss,
+EN I'm off to train!
+
+@ 42.16
+# scene 043 映画出演
+# 永原 ちづる
+JP 社長、台本に「ジャーマン禁止」って
+JP 書かれてあるけど、なんで？
+EN Boss, the script says "No German suplexes." Why?
+
+@ 43.16
+# scene 044 一日署長
+# 永原 ちづる
+JP 悪い子には路上でジャーマン
+JP かましちゃうぞ～っ！
+EN Naughty kids are getting a German suplex right on
+EN the pavement!
+
+@ 44.16
+# scene 045 写真集発売
+# 永原 ちづる
+JP やっぱり水着だよね…？
+JP ちょっと恥ずかしいなぁ…。
+EN It's gonna be swimsuits, right...? That's kind of
+EN embarrassing...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 永原 ちづる
+JP ジャーマン、ジャーマン、
+JP ジャーマン♪
+JP みんなのジャーマンポテトッ♪
+EN German, German, German♪ Everybody loves German
+EN potatoes♪
+
+@ 45.19
+# 社 長
+JP …このＣＭにポテトは関係ないぞ。
+EN ...This commercial has nothing to do with potatoes.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 永原 ちづる
+JP 私のＣＤが出るなんて…。
+JP ちょっと変な感じがするよね。
+EN I can't believe I've got my own CD... It feels kind of
+EN weird, doesn't it?
+
+@ 47.16
+# scene 048 始球式
+# 永原 ちづる
+JP よーしっ！
+JP バシッと決めてくるからねっ！
+EN All right! I'm gonna throw a perfect strike!
+
+@ 48.16
+# scene 049 学園祭
+# 永原 ちづる
+JP 学祭っていったら
+JP やっぱり焼きそばだよね
+JP 焼きそば！
+EN When it comes to school festivals, it's gotta be
+EN yakisoba! Yakisoba!
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.36
+# 永原 ちづる
+JP …えっ！？
+JP これ…私に…？
+EN ...What?! This is... for me...?
+
+@ 49.39
+# 社 長
+JP これまでがんばってきたご褒美だ。
+JP みんなには内緒だぞ？
+EN It's a reward for all your hard work. Don't tell the
+EN others, okay?
+
+@ 49.43
+# 永原 ちづる
+JP う、うん…。
+JP ありがとう、社長…。
+JP 大切に…するね…。
+EN O-okay... Thank you, Boss... I'll... treasure it...
+
+@ 50.30
+# scene 051 バレンタインデー
+# 永原 ちづる
+JP はい、社長にもバレンタインのチョコ。
+JP 手作りじゃないけどいいよね？
+EN Here, Boss, Valentine's chocolate for you too. It's
+EN not homemade, but that's okay, right?
+
+@ 50.33
+# 社 長
+JP 俺にもってことは…。
+JP なんだ、本命でもいるのか？
+EN "For me too," huh... So, is there someone special?
+
+@ 50.40
+# 永原 ちづる
+JP まさかー！
+JP うちのパパ、チョコあげないと
+JP 拗ねるんだよ、いい歳して。
+EN As if! My dad sulks if I don't give him chocolate. At
+EN his age, too.
+
+@ 50.43
+# 社 長
+JP そ、そうなのか…。
+EN I-is that so...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP えーと、永原、先月のお礼だ。
+EN Um, Nagahara, this is for last month.
+
+@ 51.35
+# 永原 ちづる
+JP ありがたく、いただかせて
+JP いただきます…って
+JP クッキーだけ？
+EN I humbly accept your gift... wait, just cookies?
+
+@ 51.38
+# 社 長
+JP こら、欲張るな。
+JP ところで親父さんのお返しは
+JP なんだった？
+EN Hey, don't be greedy. By the way, what did your dad
+EN give you back?
+
+@ 51.45
+# 永原 ちづる
+JP エヘヘ…。
+JP それは親子の秘密♪
+EN Hehe... That's a father-daughter secret♪
+
+@ 52.31
+# scene 053 サイン会
+# 永原 ちづる
+JP ジャーマンをよろしくお願いします。
+JP ジャーマンをよろしくお願いしまーす。
+EN Please support the German suplex. Please support
+EN the German suplex!
+
+@ 53.29
+# scene 054 コンサート
+# 永原 ちづる
+JP みんなぁ！
+JP のってるかーいっ！
+EN Hey, everybody! Are you ready to rock?!
+
+@ 54.28
+# scene 055 練習拒否
+# 永原 ちづる
+JP 最近、反復練習ばっかり
+JP なんだもん…。
+EN All we do lately is the same drills over and over...
+
+@ 55.26
+# scene 056 失踪
+# 永原 ちづる
+JP どこに行こうかな…。
+EN Where should I go...
+
+@ 56.16
+# scene 057 選手解雇
+# 永原 ちづる
+JP 社長、ジャーマン嫌いになったの…？
+EN Boss, did you start hating German suplexes...?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 永原 ちづる
+JP 向こうでもビシバシ
+JP ジャーマン決めてくるね！
+EN I'll be landing German suplexes left and right over
+EN there too!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 永原 ちづる
+JP ジャーマン最高って
+JP 向こうの人たちにも
+JP 刷り込んできたよ。
+EN I made sure the people over there learned German
+EN suplexes are the best.
+
+@ 59.26
+# scene 060 移籍思案
+# 永原 ちづる
+JP 移籍かぁ…。
+JP ビビッとくるものがあるかどうか
+JP だよねぇ。
+EN A transfer, huh... It all comes down to whether
+EN something clicks for me.
+
+@ 60.16
+# scene 061 革命軍結成
+# 永原 ちづる
+JP これって強くなるための
+JP 通過儀礼だよね！
+EN This is a rite of passage for getting stronger,
+EN right?
+
+@ 61.16
+# scene 062 反乱軍結成
+# 永原 ちづる
+JP こういうのも団体のスパイスに
+JP なるよね。
+EN Something like this adds a little spice to a promotion,
+EN doesn't it?
+
+@ 62.16
+# scene 063 最終決戦要求
+# 永原 ちづる
+JP いつでもかかってきていいよ！
+EN Come at me anytime you like!
+
+@ 63.16
+# scene 064 遺恨発生
+# 永原 ちづる
+JP こんなの許せない！
+EN I won't stand for this!
+
+@ 64.16
+# scene 065 殴り込み
+# 永原 ちづる
+JP ジャーマンお見舞いしてくるからね！
+EN I'm gonna go hit them with a German suplex!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 永原 ちづる
+JP 私のジャーマンで
+JP 返り討ちにしてやるから！
+EN I'll send them packing with my German suplex!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 永原 ちづる
+JP 本物のジャーマン見せてあげる！
+EN I'll show you what a real German suplex looks like!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 永原 ちづる
+JP 私の戦いぶり、見ていてね！
+EN Watch how I fight, okay?
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 永原 ちづる
+JP やっぱりジャーマンは最強だって
+JP ことだよね！
+EN This just proves the German suplex is the
+EN strongest, right?
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 永原 ちづる
+JP ごめん、社長…。
+JP しくじっちゃった…。
+EN Sorry, Boss... I blew it...
+
+@ 70.13
+# scene 071 引退式
+# 永原 ちづる
+JP 引退記念のジャーマンを全員に
+JP プレゼントしてからリングを去ろうと
+JP 思います！　みんな、バイバーイ！
+EN Before I leave the ring, I'm giving everyone a
+EN farewell German suplex as a present! Bye-bye,
+EN everybody!
+
+@ 71.18
+# 永原 ちづる
+JP はーい。
+JP どうかした？
+EN Yes? What's up?
+
+@ 71.35
+# 永原 ちづる
+JP はーい！
+JP なになに？
+EN Yes! What is it, what is it?
+
+@ 71.45
+# 永原 ちづる
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.64
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ。
+EN You've been doing well lately. Keep it up.
+
+@ 71.88
+# 永原 ちづる
+JP はーいっ！
+JP 今日もジャーマン
+JP いっちゃいまーすっ！
+EN Okay! Today I'm going for German suplexes again!
+
+@ 71.109
+# 永原 ちづる
+JP …んっ？
+JP えっと…うん…がんばるけど…？
+EN ...Hm? Um... yeah... I'll do my best, but...?
+
+@ 71.130
+# 永原 ちづる
+JP もちろんっ！
+JP ジャーマンのことなら
+JP 任せておいて！
+EN Of course! When it comes to German suplexes, leave
+EN it to me!
+
+@ 71.151
+# 永原 ちづる
+JP ダメじゃない、社長。
+JP 見え見えのヨイショなんか
+JP 逆効果だって。
+EN Nice try, Boss. Obvious flattery like that just
+EN backfires.
+
+@ 71.164
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.188
+# 永原 ちづる
+JP つまりジャーマンにも
+JP 浪漫が必要ってことね！
+EN So what you're saying is, even German suplexes
+EN need romance!
+
+@ 71.209
+# 永原 ちづる
+JP はうっ…。
+JP が、がんばります…。
+EN Hauu... I-I'll do my best...
+
+@ 71.230
+# 永原 ちづる
+JP はうっ…。
+JP 気合いだよね、気合い。
+JP よーしっ、いくぞぉ！
+EN Hauu... It's all about fighting spirit, right? Okay, here
+EN I go!
+
+@ 71.251
+# 永原 ちづる
+JP 社長には私の気持ちなんて
+JP わからないよね…。
+EN You'd never understand how I feel, Boss...
+
+@ 71.264
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 71.288
+# 永原 ちづる
+JP う、うん…。
+JP ごめんね…心配させちゃって…。
+EN Y-yeah... Sorry for making you worry...
+
+@ 71.309
+# 永原 ちづる
+JP …うん、平気。
+JP じゃ、練習あるから。
+EN ...Yeah, I'm fine. Well, I've got training.
+
+@ 71.330
+# 永原 ちづる
+JP あの…さ。
+JP 少しだけ話…聞いてくれるかな？
+JP それだけでいいから…。
+EN Um... hey. Would you listen to me talk for a bit? That's
+EN all I need...
+
+@ 71.351
+# 永原 ちづる
+JP うん…。
+EN Okay...
+
+@ 71.365
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.381
+# 永原 ちづる
+JP あれかな…？
+EN Is it about that...?
+
+@ 71.398
+# 永原 ちづる
+JP ううん。
+JP なに？
+EN Nope. What is it?
+
+@ 71.409
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.431
+# 永原 ちづる
+JP わかりましたぁ。
+JP 謝ってきまーす。
+EN Okaaay. I'll go apologize!
+
+@ 71.452
+# 永原 ちづる
+JP ここで妥協してはいけないと
+JP 思います。
+EN I don't think I should compromise on this.
+
+@ 71.473
+# 永原 ちづる
+JP …えっ？
+JP なんのこと？
+EN ...Huh? What are you talking about?
+
+@ 71.486
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.503
+# 永原 ちづる
+JP やっぱり…あのこと？
+EN I knew it... It's about that, isn't it?
+
+@ 71.520
+# 永原 ちづる
+JP うーん…。
+JP もしかしてジャーマン関係？
+EN Hmm... Is it something German suplex related?
+
+@ 71.533
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.555
+# 永原 ちづる
+JP 私も大人げなかったかな。
+JP 謝ってくるよ。
+EN I guess I was being kind of childish. I'll go apologize.
+
+@ 71.576
+# 永原 ちづる
+JP ちょっと…複雑なんで…。
+JP あっ、練習があるんで失礼します！
+EN It's... kind of complicated... Oh, I've got training, so I'll
+EN get going!
+
+@ 71.597
+# 永原 ちづる
+JP なんだ…そういうことか…。
+JP 社長、それって勘違いだってば。
+EN Oh... so that's what this is about... Boss, you've got it
+EN all wrong.
+
+@ 72.10
+# scene 073 会話 一言目 好意
+# 永原 ちづる
+JP はーい、
+JP なになに？
+EN Yes! What is it, what is it?
+
+@ 72.12
+# 永原 ちづる
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ。
+EN You've been doing well lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 永原 ちづる
+JP はーいっ！
+JP 今日もジャーマン
+JP いっちゃいまーすっ！
+EN Okay! Today I'm going for German suplexes again!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 永原 ちづる
+JP ん？
+JP えっと…うん、
+JP がんばるけど……？
+EN ...Hm? Um... yeah... I'll do my best, but...?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 永原 ちづる
+JP もちろんっ！
+JP ジャーマンのことなら
+JP 任せておいて！
+EN Of course! When it comes to German suplexes, leave
+EN it to me!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 永原 ちづる
+JP ダメじゃない、社長。
+JP 見え見えのヨイショなんか、
+JP 逆効果だって。
+EN Nice try, Boss. Obvious flattery like that just
+EN backfires.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 永原 ちづる
+JP つまりジャーマンにも浪漫が
+JP 必要ってことね！
+EN So what you're saying is, even German suplexes
+EN need romance!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 永原 ちづる
+JP はうっ…。
+JP が、がんばります……。
+EN Hauu... I-I'll do my best...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 永原 ちづる
+JP はうっ…。
+JP 気合いだよね、気合い。
+JP よーしっ、いくぞぉ！
+EN Hauu... It's all about fighting spirit, right? Okay, here
+EN I go!
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 永原 ちづる
+JP 社長には私の気持ちなんて、
+JP わからないよね…。
+EN You'd never understand how I feel, Boss...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 永原 ちづる
+JP う、うん…。
+JP ごめんね、
+JP 心配させちゃって。
+EN Y-yeah... Sorry for making you worry...
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 永原 ちづる
+JP …うん、平気。
+JP じゃ、練習あるから。
+EN ...Yeah, I'm fine. Well, I've got training.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 永原 ちづる
+JP あの…さ。
+JP 少しだけ話…聞いてくれるかな？
+JP それだけでいいから。
+EN Um... hey. Would you listen to me talk for a bit? That's
+EN all I need...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 永原 ちづる
+JP うん……。
+EN Okay...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 永原 ちづる
+JP あれかな…？
+EN Is it about that...?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 永原 ちづる
+JP ううん。
+JP なに？
+EN Nope. What is it?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 永原 ちづる
+JP わかりましたぁ。
+JP 謝ってきまーす。
+EN Okaaay. I'll go apologize!
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 永原 ちづる
+JP ここで妥協してはいけないと
+JP 思います。
+EN I don't think I should compromise on this.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 永原 ちづる
+JP えっ？
+JP なんのこと？
+EN ...Huh? What are you talking about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 永原 ちづる
+JP やっぱり…あのこと？
+EN I knew it... It's about that, isn't it?
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 永原 ちづる
+JP うーん…。
+JP もしかして、ジャーマン関係？
+EN Hmm... Is it something German suplex related?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 永原 ちづる
+JP 私も大人げなかったかな。
+JP 謝ってくるよ。
+EN I guess I was being kind of childish. I'll go apologize.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 永原 ちづる
+JP ちょっと…複雑なんで…。
+JP あ、練習があるんで、失礼します！
+EN It's... kind of complicated... Oh, I've got training, so I'll
+EN get going!
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 永原 ちづる
+JP なんだ、そういうことか…。
+JP 社長、それって勘違いだってば。
+EN Oh... so that's what this is about... Boss, you've got it
+EN all wrong.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 永原 ちづる
+JP よーし！
+JP 来年もビューティホーなジャーマン
+JP 決めるからねっ！
+EN All right! Next year I'll land more beautiful German
+EN suplexes!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 永原 ちづる
+JP ジャーマン一筋！
+JP 気合い入れてがんばりまーす！
+EN German suplexes all the way! I'm gonna give it
+EN everything I've got!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 永原 ちづる
+JP やっぱりジャーマンのブリッジ
+JP 今イチだったのかな…。
+EN I guess the bridge on my German suplex was still
+EN lacking...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Ah, the tropics. The sun is scorching.)
+
+@ 105.34
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （俺はのんびり寝ているか…）
+EN (Guess I'll just lie back and relax...)
+
+@ 105.40
+# ？？？
+JP 社長――っ！
+EN Boooss!
+
+@ 105.43
+# 社 長
+JP （…んっ…今の声は永原か？）
+EN (...Hm... was that Nagahara's voice?)
+
+@ 105.47
+# 永原 ちづる
+JP そこでちょっと待ってて！
+EN Wait right there!
+
+@ 105.50
+# 社 長
+JP （なんだ？
+JP 　両手にジュースみたいなのを
+JP 　持っているみたいだけど…）
+EN (What's she doing? Looks like she's carrying drinks
+EN in both hands...)
+
+@ 105.52
+# 社 長
+JP おいおい。
+JP 転ばないように気をつけろよ。
+EN Hey, hey. Be careful not to trip.
+
+@ 105.56
+# 永原 ちづる
+JP きゃ―――！
+EN Kyaaaah!
+
+@ 105.73
+# 社 長
+JP （……転んだか）
+EN (...She tripped.)
+
+@ 105.88
+# 社 長
+JP 大丈夫か、永原。
+EN You okay, Nagahara?
+
+@ 105.92
+# 永原 ちづる
+JP やー、もう！
+JP これベトベトする～！
+EN Ugh, come on! I'm all sticky!
+
+@ 105.96
+# 永原 ちづる
+JP もー…。
+JP 社長と一緒に飲もうと
+JP 思ったのに！
+EN Geez... I wanted to drink these with you, Boss!
+
+@ 105.99
+# 社 長
+JP …ハァ～……。
+EN ...Haaah...
+
+@ 105.103
+# 永原 ちづる
+JP うぅ…。
+JP 私と社長の
+JP 特製ココナッツミルクぅ…。
+EN Waah... Our special coconut milk, mine and Boss's...
+
+@ 105.106
+# 社 長
+JP やれやれ。
+JP だから気をつけろって言ったのに。
+EN Good grief. That's why I told you to be careful.
+
+@ 105.110
+# 永原 ちづる
+JP これでも気をつけてたんだよ。
+EN I WAS being careful.
+
+@ 105.113
+# 社 長
+JP しかし、ひどい格好になったな。
+EN Still, you're a real mess now.
+
+@ 105.117
+# 永原 ちづる
+JP うぅ…。
+JP 社長の意地悪ぅ～…。
+EN Waah... Boss, you meanie...
+
+@ 105.120
+# 社 長
+JP 俺がもう一度買って来るから
+JP シャワーでも浴びて体を洗っておけ。
+EN I'll go buy some more, so go take a shower and wash
+EN off.
+
+@ 105.124
+# 永原 ちづる
+JP …はーい。
+EN ...Okaaay.
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （久々にジムに顔を出したけど…）
+EN (It's been a while since I dropped by the gym...)
+
+@ 106.26
+# 社 長
+JP （みんなちゃんとやってるみたいだな）
+EN (Looks like everyone's working hard.)
+
+@ 106.28
+# 社 長
+JP （…んっ、あれは…）
+EN (...Hm? Is that...)
+
+@ 106.37
+# 社 長
+JP 元気ないな。
+JP どうしたんだ、永原。
+EN You look down. What's wrong, Nagahara?
+
+@ 106.41
+# 永原 ちづる
+JP あぁ、社長…。
+EN Oh, Boss...
+
+@ 106.45
+# 永原 ちづる
+JP うーん…。
+JP ジャーマンの練習してたんだけど…。
+EN Hmm... I was practicing my German suplex, but...
+
+@ 106.49
+# 永原 ちづる
+JP …体が重くて
+JP 技がうまく決まらなくって…。
+EN ...my body feels heavy, and I can't land it right...
+
+@ 106.52
+# 社 長
+JP （結局ジャーマンの悩みか…）
+EN (So it's German suplex trouble after all...)
+
+@ 106.54
+# 社 長
+JP （永原らしいと言えば
+JP 　らしい悩みだな…）
+EN (Very Nagahara of her, I suppose...)
+
+@ 106.56
+# 社 長
+JP よし、わかった。
+JP 少し体の状態を見てやるよ。
+EN All right, I get it. Let me check how your body's
+EN doing.
+
+@ 106.63
+# 永原 ちづる
+JP 本当！？
+JP ありがとう！
+EN Really?! Thank you!
+
+@ 106.85
+# 社 長
+JP ここは痛くないか？
+EN Does this hurt?
+
+@ 106.89
+# 永原 ちづる
+JP あはははっ！
+JP 社長、そこ、くすぐったい～！
+EN Ahahaha! Boss, that tickles!
+
+@ 106.92
+# 社 長
+JP …腕はどうだ？
+EN ...How about your arm?
+
+@ 106.96
+# 永原 ちづる
+JP ひゃうっ！
+JP そこはダメ～！
+EN Hyaah! Not there!
+
+@ 106.99
+# 社 長
+JP …たとえば腰に負担をかけて
+JP いるとか。
+EN ...Maybe you're putting strain on your lower back,
+EN for example.
+
+@ 106.103
+# 永原 ちづる
+JP やんっ！
+JP 社長のエッチ～！
+EN Eek! Boss, you pervert!
+
+@ 106.106
+# 社 長
+JP 背中も…。
+EN Your back too...
+
+@ 106.110
+# 永原 ちづる
+JP あははははははっ！
+EN Ahahahahahaha!
+
+@ 106.113
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.130
+# 永原 ちづる
+JP …ハァハァハァハァ～…。
+EN ...Haah, haah, haah...
+
+@ 106.133
+# 社 長
+JP 騒ぎすぎだぞ。
+EN You're making way too much noise.
+
+@ 106.143
+# 永原 ちづる
+JP えへへっ。
+JP ごめんね～。
+EN Ehehe. Sorry!
+
+@ 106.146
+# 社 長
+JP とりあえずケガはないようだが
+JP マッサージはしっかりやっておけよ。
+EN You don't seem to be injured, but make sure you get
+EN your massages.
+
+@ 106.148
+# 社 長
+JP さもないとジャーマンが
+JP できなくなるぞ。
+EN Otherwise you won't be able to do your German
+EN suplex.
+
+@ 106.158
+# 永原 ちづる
+JP それは大変！
+JP 真面目にやる！
+EN That'd be terrible! I'll take it seriously!
+
+@ 106.161
+# 社 長
+JP （まったく…。
+JP 　本当にジャーマンが
+JP 　好きなんだなぁ）
+EN (Honestly... She really does love the German suplex.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （久々にジムに顔を出したけど…）
+EN (It's been a while since I dropped by the gym...)
+
+@ 107.26
+# 社 長
+JP （みんながんばってるみたいだな）
+EN (Looks like everyone's giving it their all.)
+
+@ 107.28
+# 社 長
+JP （…んっ、あれは…）
+EN (...Hm? Is that...)
+
+@ 107.37
+# 社 長
+JP 元気ないな。
+JP どうしたんだ、永原。
+EN You look down. What's wrong, Nagahara?
+
+@ 107.41
+# 永原 ちづる
+JP あぁ、社長…。
+EN Oh, Boss...
+
+@ 107.45
+# 永原 ちづる
+JP うーん…。
+JP またジャーマンの練習
+JP してたんだけど…。
+EN Hmm... I was practicing my German suplex again, but...
+
+@ 107.49
+# 永原 ちづる
+JP …やっぱり体が重くて
+JP うまく技が決まらないの…。
+EN ...my body still feels heavy, and I just can't land it
+EN right...
+
+@ 107.52
+# 社 長
+JP （またジャーマンの悩みか…）
+EN (German suplex trouble again...)
+
+@ 107.54
+# 社 長
+JP よし、わかった。
+JP また体の状態見てやるよ。
+EN All right, I get it. I'll check how your body's doing
+EN again.
+
+@ 107.61
+# 永原 ちづる
+JP 本当！？
+JP ありがとう！
+EN Really?! Thank you!
+
+@ 107.83
+# 社 長
+JP ここは痛くないか？
+EN Does this hurt?
+
+@ 107.87
+# 永原 ちづる
+JP 足は…大丈夫。
+EN My legs are... fine.
+
+@ 107.90
+# 社 長
+JP …腕はどうだ？
+EN ...How about your arm?
+
+@ 107.94
+# 永原 ちづる
+JP うん。
+JP 問題なさそう。
+EN Yeah. Seems okay.
+
+@ 107.97
+# 社 長
+JP 例えば腰に負担をかけてるとか…。
+EN Maybe you're putting strain on your lower back, for
+EN example...
+
+@ 107.101
+# 永原 ちづる
+JP うーん…。
+JP たぶん…大丈夫…。
+EN Hmm... Probably... fine...
+
+@ 107.104
+# 社 長
+JP 背中は…。
+EN Your back...
+
+@ 107.108
+# 永原 ちづる
+JP …あっ…ちょっと痛いかも…。
+EN ...Ah... that might hurt a little...
+
+@ 107.111
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.128
+# 永原 ちづる
+JP …はあ…。
+JP 心配しすぎだったのかな。
+EN ...Phew... Maybe I was worrying too much.
+
+@ 107.131
+# 社 長
+JP それにしても
+JP 今回は騒がなかったな。
+EN Still, you didn't make a fuss this time.
+
+@ 107.135
+# 永原 ちづる
+JP 社長に触ってもらっていると
+JP とっても気持ちいいから。
+EN Because it feels really good when you touch me,
+EN Boss.
+
+@ 107.138
+# 社 長
+JP そうか…。
+JP 役に立てて嬉しいよ。
+EN I see... Glad I could help.
+
+@ 107.148
+# 永原 ちづる
+JP また気持ち良くしてね♪
+EN Make me feel good again sometime♪
+
+@ 107.151
+# 社 長
+JP ああ、いつでもやってやるよ。
+EN Sure, anytime.
+
+@ 107.153
+# 社 長
+JP …って、誤解を招くようなことを
+JP 言うな！
+EN ...Hey, don't say things that sound so misleading!
+
+@ 107.157
+# 永原 ちづる
+JP あはははっ！
+EN Ahahaha!
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 永原 ちづる
+JP 受け身だけは気を付けてね。
+EN Just watch your breakfalls, okay?
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# 永原 ちづる
+JP ジャーマンで決めるからね！
+EN I'm finishing this with a German suplex!
+
+@ 110.16
+# scene 113 練習開始
+# 永原 ちづる
+JP 今日もブリッジの練習から
+JP 始めよっと！
+EN Today I'll start with bridge practice again!
+
+@ 111.16
+# scene 114 練習開始 好意
+# 永原 ちづる
+JP ジャーマンの練習やっていい？
+JP ね、いいよね！
+EN Can I practice my German suplex? Please, can I?
+
+@ 112.16
+# scene 115 特訓開始
+# 永原 ちづる
+JP 特訓っていいかも！
+JP ジャーマンが鍛えられるよね？
+EN Special training sounds great! It'll sharpen my
+EN German suplex, right?
+
+@ 113.20
+# scene 116 特訓成功
+# 永原 ちづる
+JP これならもっとすごい
+JP ジャーマンが決められそう！
+EN With this, I think I can land an even more amazing
+EN German suplex!
+
+@ 114.20
+# scene 117 特訓失敗
+# 永原 ちづる
+JP …ジャーマンの特訓には
+JP ならなかったかも…。
+EN ...That might not have counted as German suplex
+EN training...
+
+@ 115.16
+# scene 118 休養
+# 永原 ちづる
+JP 寮でおとなしく寝てようかな。
+EN Maybe I'll just stay in the dorm and sleep.
+
+@ 116.16
+# scene 119 入場1
+# 永原 ちづる
+JP みんなー！
+JP 今日もジャーマン決めちゃうよー！
+EN Hey, everybody! I'm landing German suplexes again
+EN today!
+
+@ 117.16
+# scene 119 入場2
+# 永原 ちづる
+JP 人間橋にかける情熱は
+JP 誰にも負けないんだから！
+EN Nobody beats my passion for the human bridge!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# 永原 ちづる
+JP よーし、今日は勝ちにいくよっ！
+EN All right, today we're going for the win!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# 永原 ちづる
+JP 今日もフォローよろしくね！
+EN Back me up again today, okay?
+
+@ 120.16
+# scene 125 必殺技１
+# 永原 ちづる
+JP 私には、これがあるんだからーッ！
+EN I've still got THIS!
+
+@ 121.16
+# scene 125 必殺技２
+# 永原 ちづる
+JP 私の切り札、受けてみろ！
+EN Take my trump card!
+
+@ 122.16
+# scene 125 必殺技３
+# 永原 ちづる
+JP 見せてあげる、私のオンリーワン！
+EN Here it is, my one and only!
+
+@ 123.12
+# scene 126 勝利1
+# 永原 ちづる
+JP 今日も余裕の勝利でしょー！
+JP エヘッ！
+EN Another easy win today, right? Ehe!
+
+@ 124.12
+# scene 126 勝利2
+# 永原 ちづる
+JP いい試合だったね！
+JP またやろうね！
+EN That was a great match! Let's do it again!
+
+@ 125.12
+# scene 126 勝利3
+# 永原 ちづる
+JP これぞ勝利の架け橋っ！
+EN This is my bridge to victory!
+
+@ 126.15
+# scene 133 表彰1
+# 永原 ちづる
+JP ありがとうございます！
+JP 来年もジャーマン一本で勝負したいと
+JP 思います！
+EN Thank you very much! Next year, I want to fight with
+EN the German suplex and nothing else!
+
+@ 127.15
+# scene 133 表彰2
+# 永原 ちづる
+JP これからも世界一の
+JP ジャーマンを出せるよう
+JP がんばります！
+EN I'll keep working hard to deliver the best German
+EN suplex in the world!
+
+@ 128.12
+# scene 134 優勝1
+# 永原 ちづる
+JP ジャーマンは
+JP 人と勝利を結びつける橋だよね！
+EN The German suplex is a bridge that connects people
+EN to victory!
+
+@ 129.12
+# scene 134 優勝２
+# 永原 ちづる
+JP 信念を貫いてきてよかったです！
+JP みんな、応援ありがとう！
+EN I'm so glad I stuck to my beliefs! Thanks for
+EN cheering, everybody!
+
+@ 130.24
+# scene 135 エンディング 通常
+# 永原 ちづる
+JP 社長、おめでとう！
+JP 私のジャーマンが勝利への架け橋
+JP だったよね？
+EN Congratulations, Boss! My German suplex was the
+EN bridge to victory, right?
+
+@ 131.24
+# scene 136 エンディング 好意
+# 永原 ちづる
+JP 社長…後ろから…ぎゅってしていい？
+JP なっ、投げない！
+JP ホント、絶対に投げないから！
+EN Boss... Can I hug you from behind? I-I won't throw
+EN you! Really, I promise I won't!

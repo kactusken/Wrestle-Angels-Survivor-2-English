@@ -1,0 +1,2318 @@
+# /SCR/138.BIN - 滝 翔子
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 138` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 滝 翔子
+JP 私という素材を見出したのは
+JP 幸運でしたね。
+EN How fortunate that you discovered a talent like me.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 滝 翔子
+JP さすがに人を見る目は抜群ですね。
+EN You truly have a superb eye for people.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 滝 翔子
+JP ああ…。
+JP あなたはたった今
+JP 最高の宝物を失った…。
+EN Alas... You have just lost the greatest of
+EN treasures...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP このあたりで発声練習してるとか
+JP 言ってたけど…。
+EN They said she does voice exercises around here...
+
+@ 3.25
+# 社 長
+JP 何か人だかりができてるな。
+EN There's some kind of crowd gathered.
+
+@ 3.27
+# 社 長
+JP もしかして、あの中にいる子かな。
+EN Maybe she's the girl in the middle of it.
+
+@ 3.29
+# 社 長
+JP ちょうど周りの人がいなくなった。
+JP ちょっと話してみるか。
+EN The crowd just cleared out. Let's try talking to her.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# 滝 翔子
+JP なんでしょう？
+EN Yes? What is it?
+
+@ 3.44
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.51
+# 滝 翔子
+JP …プロレスですか？
+JP しかし、私はアクトレス…。
+EN ...Pro wrestling? But I am an actress...
+
+@ 3.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.61
+# 滝 翔子
+JP リングと舞台…。
+JP どちらが私の進むべき道か…。
+EN The ring or the stage... Which is the path I am meant
+EN to walk?
+
+@ 3.64
+# 社 長
+JP うちの団体に
+JP 入ってもらえないでしょうか？
+EN Would you join our promotion?
+
+@ 3.66
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 滝 翔子
+JP わかりました。
+JP その話お受けしましょう！
+EN Very well. I accept your offer!
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# 滝 翔子
+JP 私は戦いという荊の道を
+JP 歩いていきましょう。
+EN I shall walk the thorny path of battle.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# 滝 翔子
+JP やはり私はアクトレス！
+JP 公演の時間が迫ってきていますので
+JP 失礼！
+EN I am an actress after all! My curtain call draws near,
+EN so farewell!
+
+@ 5.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.33
+# 滝 翔子
+JP あなたはたしかプロレス団体の…？
+EN You are from that wrestling promotion, are you
+EN not...?
+
+@ 6.36
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて、また来ました。
+EN I really want you in our promotion, so I came back.
+
+@ 6.43
+# 滝 翔子
+JP あぁ…。
+JP そんなに私に期待を
+JP されているとは…！
+EN Ah... To think you hold such hopes for me...!
+
+@ 6.46
+# 社 長
+JP 俺を信じて
+JP 入団してもらえないでしょうか？
+EN Won't you trust me and join us?
+
+@ 6.48
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 滝 翔子
+JP わかりました。
+JP その話お受けしましょう！
+EN Very well. I accept your offer!
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# 滝 翔子
+JP 私は戦いという荊の道を
+JP 歩いていきましょう。
+EN I shall walk the thorny path of battle.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 滝 翔子
+JP やはり私はアクトレス！
+JP 公演の時間が迫ってきていますので
+JP 失礼！
+EN I am an actress after all! My curtain call draws near,
+EN so farewell!
+
+@ 8.22
+# 社 長
+JP そうか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は滝選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Taki.
+
+@ 9.25
+# 社 長
+JP あれだけ魅せるプロレスをできる
+JP 選手はそういない。
+EN There aren't many wrestlers who put on a show like
+EN she does.
+
+@ 9.27
+# 社 長
+JP うちの団体の
+JP 花形選手になれるはずだ。
+EN She could be the star attraction of our promotion.
+
+@ 9.29
+# 社 長
+JP このあたりにいるって
+JP 話だったけど…。
+EN They said she'd be around here...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 滝 翔子
+JP 何かご用ですか？
+EN May I help you?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to scout her.)
+
+@ 9.53
+# 滝 翔子
+JP 私を引き抜きたいと…！
+EN You wish to lure me away...!
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.63
+# 滝 翔子
+JP 私に今の団体を裏切れと…？
+EN You would have me betray my current promotion...?
+
+@ 9.66
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Would you lend us your strength?
+
+@ 9.68
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 滝 翔子
+JP わかりました。
+JP たとえ裏切り者と呼ばれても
+JP 荊の道を歩みましょう。
+EN Very well. Even if they call me a traitor, I shall walk
+EN the thorny path.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# 滝 翔子
+JP ええ。
+JP きっとこれも私の宿命。
+EN Yes. Surely this too is my destiny.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 滝 翔子
+JP すみません。
+JP 私には仲間を裏切る勇気が
+JP もてない…。
+EN Forgive me. I cannot find the courage to betray my
+EN comrades...
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 滝選手が必要だ。
+EN Our promotion really needs Taki.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度滝選手と
+JP 交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 滝 翔子
+JP ハッ…！
+JP この前の社長さん？
+JP 先日お断りしたはずですが…。
+EN Ah...! The president from before? I believe I turned
+EN you down...
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you in our promotion...
+
+@ 12.47
+# 滝 翔子
+JP そこまで私のことを…。
+EN You think that highly of me...
+
+@ 12.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 12.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 滝 翔子
+JP わかりました。
+JP たとえ裏切り者と呼ばれても
+JP 荊の道を歩みましょう。
+EN Very well. Even if they call me a traitor, I shall walk
+EN the thorny path.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# 滝 翔子
+JP ええ。
+JP きっとこれも私の宿命。
+EN Yes. Surely this too is my destiny.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 滝 翔子
+JP すみません。
+JP 私には仲間を裏切る勇気が
+JP もてない…。
+EN Forgive me. I cannot find the courage to betray my
+EN comrades...
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は滝選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Taki.
+
+@ 15.25
+# 社 長
+JP あのエンターテイメント力を
+JP うちの団体で発揮して欲しい。
+EN I want her showmanship working for our promotion.
+
+@ 15.27
+# 社 長
+JP このあたりにいるはずだけど…。
+EN She should be around here somewhere...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 滝 翔子
+JP どなたですか？
+EN Who are you?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to scout her.)
+
+@ 15.48
+# 滝 翔子
+JP あなたの団体に入団ですか…？
+EN Join your promotion, you say...?
+
+@ 15.51
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.58
+# 滝 翔子
+JP 突然のお話なので悩みますね…。
+EN This is so sudden, I am torn...
+
+@ 15.61
+# 社 長
+JP 力を貸してもらえないでしょうか？
+EN Would you lend us your strength?
+
+@ 15.63
+# 社 長
+JP （そして、俺は条件を提示してみた）
+EN (Then I laid out my offer.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 滝 翔子
+JP わかりました。
+JP あなたのお力になりましょう。
+EN Very well. I shall lend you my strength.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# 滝 翔子
+JP ともに手をとり
+JP 光あふれる団体にしていきましょう！
+EN Hand in hand, let us make this a promotion
+EN overflowing with light!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 滝 翔子
+JP あなたのお力になれない…。
+EN I cannot lend you my strength...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 滝選手が必要だ。
+EN Our promotion really needs Taki.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 滝選手と交渉することにした。
+EN I decided to negotiate with her one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 滝 翔子
+JP …この前の社長さん？
+JP また来られたんですか？
+EN ...The president from before? You have come again?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you in our promotion...
+
+@ 18.47
+# 滝 翔子
+JP そこまで私のことを…。
+EN You think that highly of me...
+
+@ 18.50
+# 社 長
+JP どうか入団して
+JP もらえないでしょうか？
+EN Won't you please join us?
+
+@ 18.52
+# 社 長
+JP （俺は再び条件を提示してみた）
+EN (I laid out my offer once more.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 滝 翔子
+JP わかりました。
+JP あなたのお力になりましょう。
+EN Very well. I shall lend you my strength.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# 滝 翔子
+JP ともに手をとり
+JP 光あふれる団体にしていきましょう！
+EN Hand in hand, let us make this a promotion
+EN overflowing with light!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 滝 翔子
+JP あなたのお力になれない…。
+EN I cannot lend you my strength...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は滝を訪ねることにした。
+EN I decided to visit Taki.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって話
+JP だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 滝っ！
+EN Taki!
+
+@ 21.41
+# 滝 翔子
+JP …社長っ！？
+JP なぜ…？
+EN ...Boss!? Why...?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# 滝 翔子
+JP …今さらなんの用ですか？
+EN ...What could you want from me now?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you. I want you
+EN back...
+
+@ 21.58
+# 滝 翔子
+JP …そんな言葉を信じろと？
+EN ...And you expect me to believe that?
+
+@ 21.61
+# 社 長
+JP こんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this, but...
+
+@ 21.63
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 滝 翔子
+JP 過去のことを
+JP 水に流せというのですか？
+EN You ask me to let bygones be bygones?
+
+@ 22.18
+# 社 長
+JP 許してもらえるなら
+JP 力を貸して欲しいんだ。
+EN If you can forgive me, I'd like you to lend me your
+EN strength.
+
+@ 22.29
+# 滝 翔子
+JP フム…わかりました。
+JP 今回は水に流すとしましょう。
+EN Hmm... Very well. This time, I shall let bygones be
+EN bygones.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 滝 翔子
+JP 過去のことを
+JP 反省しているようですね。
+EN It seems you regret what happened.
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you to come back.
+
+@ 23.29
+# 滝 翔子
+JP どんな言葉を聞いても
+JP 私の心は砕け散ったまま…。
+EN Whatever words I hear, my heart remains shattered...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び滝を訪ねることにした。
+EN I decided to visit Taki again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 滝っ！
+EN Taki!
+
+@ 24.37
+# 滝 翔子
+JP 社長、またですか？
+EN Boss, again?
+
+@ 24.40
+# 社 長
+JP ああ。
+JP 諦めきれなくてね。
+EN Yeah. I just can't give up.
+
+@ 24.43
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back.
+
+@ 24.45
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 滝 翔子
+JP 過去のことを
+JP 水に流せというのですか？
+EN You ask me to let bygones be bygones?
+
+@ 25.18
+# 社 長
+JP 許してもらえるなら
+JP 力を貸して欲しいんだ。
+EN If you can forgive me, I'd like you to lend me your
+EN strength.
+
+@ 25.29
+# 滝 翔子
+JP フム…わかりました。
+JP 今回は水に流すとしましょう。
+EN Hmm... Very well. This time, I shall let bygones be
+EN bygones.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 滝 翔子
+JP 過去のことを
+JP 反省しているようですね。
+EN It seems you regret what happened.
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you to come back.
+
+@ 26.29
+# 滝 翔子
+JP どんな言葉を聞いても
+JP 私の心は砕け散ったまま…。
+EN Whatever words I hear, my heart remains shattered...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 滝 翔子
+JP 悲しまないでおくれ。
+JP バンビーノ達…。
+EN Do not grieve for me, my bambini...
+
+@ 28.16
+# scene 029 ケガ大
+# 滝 翔子
+JP 傷ついた私もまた儚いもの…。
+EN Wounded, I am all the more fragile and fleeting...
+
+@ 29.16
+# scene 030 入院
+# 滝 翔子
+JP 私は不死鳥のように
+JP 復活を遂げてみせよう！
+EN Like a phoenix, I shall rise again!
+
+@ 30.16
+# scene 031 退院
+# 滝 翔子
+JP 不死鳥は再び羽ばたく！
+EN The phoenix spreads her wings once more!
+
+@ 31.16
+# scene 032 ケガ完治
+# 滝 翔子
+JP バンビーノ達のためにも
+JP 私はケガなどに負けられない！
+EN For my bambini's sake, I cannot let an injury defeat
+EN me!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 滝 翔子
+JP 私も羽を休めるときが
+JP きたようですね…。
+EN It seems the time has come for me, too, to rest my
+EN wings...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 滝 翔子
+JP バンビーノ達が待っているのです！
+JP 社長の命令と言えども聞けませんね！
+EN My bambini await me! Even if it's your order, Boss, I
+EN cannot obey!
+
+@ 34.16
+# scene 035 コーチ就任
+# 滝 翔子
+JP 私のような名役者を
+JP 育てることにしましょう！
+EN I shall raise great performers like myself!
+
+@ 35.16
+# scene 036 ケガ引退
+# 滝 翔子
+JP ああ…。
+JP 格闘界の損失は計りしれない…。
+EN Alas... The fighting world's loss is beyond measure...
+
+@ 36.16
+# scene 037 年齢引退
+# 滝 翔子
+JP 散り際の美学を
+JP お見せしましょう！
+EN Allow me to show you the beauty of a graceful exit!
+
+@ 37.16
+# scene 038 退団
+# 滝 翔子
+JP この団体での
+JP 私の役目は終わった…。
+EN My role in this promotion is over...
+
+@ 38.16
+# scene 039 スランプ
+# 滝 翔子
+JP こんな姿をバンビーノ達が見たら
+JP どんなに悲しむことか…。
+EN How it would grieve my bambini to see me like this...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 滝 翔子
+JP ありがとう。
+JP バンビーノ達…。
+EN Thank you, my bambini...
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard, so you live up to their cheers.
+
+@ 39.26
+# 滝 翔子
+JP 私はリングの上で輝き続けよう！
+EN I shall keep shining in the ring!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 滝 翔子
+JP バンビーノ達…。
+JP 君たちに乾杯…。
+EN My bambini... A toast to you...
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Live up to their expectations.
+
+@ 40.23
+# 滝 翔子
+JP 私はリングの上から
+JP 君たちに報いよう！
+EN From the ring, I shall repay you all!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 滝 翔子
+JP ああ…。
+JP バンビーノ達
+JP 帰ってきておくれ…。
+EN Alas... My bambini, please come back to me...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. You'll just try again.
+
+@ 41.26
+# 滝 翔子
+JP 私はきっと君たちの心を
+JP 取り戻してみせよう。
+EN I shall surely win back your hearts.
+
+@ 42.16
+# scene 043 映画出演
+# 滝 翔子
+JP 私が演技というものの
+JP 真髄をお見せしましょう。
+EN I shall show you the very essence of acting.
+
+@ 43.16
+# scene 044 一日署長
+# 滝 翔子
+JP 一日と言わず
+JP 何日でもお受けしたい気持ちです。
+EN Why just one day? I would gladly do it for many days.
+
+@ 44.16
+# scene 045 写真集発売
+# 滝 翔子
+JP 私のあらわな姿を見て
+JP 気絶するバンビーノが
+JP いないか心配ですね。
+EN I do worry some bambino might faint at the sight of
+EN me so exposed.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 滝 翔子
+JP テレビ越しに私の魅力を
+JP 伝えてきましょう！
+EN I shall convey my charm through the TV screen!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 滝 翔子
+JP バンビーノ達のために
+JP 歌いましょう！
+EN I shall sing for my bambini!
+
+@ 47.16
+# scene 048 始球式
+# 滝 翔子
+JP 数万人の観衆の視線が集まる
+JP マウンド…。
+JP 最高の舞台が私を待っている！
+EN A mound where the eyes of tens of thousands
+EN gather... The finest stage awaits me!
+
+@ 48.16
+# scene 049 学園祭
+# 滝 翔子
+JP 学園祭と言えども
+JP 最高の舞台にしてみせましょう。
+EN A school festival it may be, but I shall make it the
+EN finest stage.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.38
+# 滝 翔子
+JP ああ…。
+JP 社長、私は感激で
+JP 今は胸がいっぱいです。
+EN Ah... Boss, my heart is overflowing with emotion.
+
+@ 49.41
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.48
+# 滝 翔子
+JP 社長のためなら
+JP この命惜しくはない！
+EN For you, Boss, I would not spare even my life!
+
+@ 50.29
+# scene 051 バレンタインデー
+# 滝 翔子
+JP 社長…。
+JP 私の気持ちを受け取って欲しい！
+EN Boss... Please accept my feelings!
+
+@ 50.32
+# 社 長
+JP ああ、チョコレートか。
+JP ありがとう。
+EN Oh, chocolate. Thank you.
+
+@ 50.39
+# 滝 翔子
+JP 私がチョコを渡す側に
+JP まわるなんて…。
+EN To think I would be the one giving chocolate...
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, for last month?
+
+@ 51.38
+# 滝 翔子
+JP こんなシーンを
+JP バンビーノ達に見られたら
+JP 誤解されそうだ。
+EN If my bambini saw this scene, they might get the
+EN wrong idea.
+
+@ 51.41
+# 社 長
+JP そうなのか？
+JP まぁ練習の合間にでも食べてくれ。
+EN Is that so? Well, have it between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# 滝 翔子
+JP この色紙には私の魂を込めよう！
+EN I shall pour my soul into each autograph!
+
+@ 53.31
+# scene 054 コンサート
+# 滝 翔子
+JP バンビーノ達！
+JP 今日は最高のステージを
+JP 楽しんでいっておくれ！
+EN My bambini! Enjoy the finest of stages today!
+
+@ 54.28
+# scene 055 練習拒否
+# 滝 翔子
+JP バンビーノ達が呼んでいるので
+JP 失礼！
+EN My bambini are calling, so farewell!
+
+@ 55.28
+# scene 056 失踪
+# 滝 翔子
+JP 芸術を理解できない人に
+JP 何を言ってもムダのようだ…。
+EN It seems words are wasted on those who do not
+EN understand art...
+
+@ 56.16
+# scene 057 選手解雇
+# 滝 翔子
+JP 失ってから気づいても
+JP 遅いというのに…。
+EN Realizing it after it's gone is too late, you know...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 滝 翔子
+JP 世界の舞台へと、いざ羽ばたかん！
+EN To the world stage, I take flight!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 滝 翔子
+JP 世界基準というものを
+JP お見せしましょう！
+EN Allow me to show you what world class means!
+
+@ 59.28
+# scene 060 移籍思案
+# 滝 翔子
+JP 私の翼は一つ処に
+JP 留まることを許さないのか…。
+EN Will my wings not let me stay in one place...?
+
+@ 60.16
+# scene 061 革命軍結成
+# 滝 翔子
+JP 時は来た。
+JP 今こそ革命の旗を掲げよう！
+EN The time has come. Now we raise the banner of
+EN revolution!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 滝 翔子
+JP たとえこの身が朽ちようとも
+JP 抵抗してみせよう！
+EN Even if it destroys me, I shall resist!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 滝 翔子
+JP この一戦を
+JP 永遠に語り継がれる伝説に！
+EN Let this battle become a legend told for all eternity!
+
+@ 63.16
+# scene 065 遺恨発生
+# 滝 翔子
+JP 華やかなステージの裏では
+JP 醜いことも…。
+EN Behind a glamorous stage, ugly things happen too...
+
+@ 64.16
+# scene 065 殴り込み
+# 滝 翔子
+JP 敵の真っ只中へ、いざ羽ばたかん！
+EN Into the heart of the enemy, I take flight!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 滝 翔子
+JP 何人たりとも
+JP 私のステージを汚すことは
+JP 許されない！
+EN No one, no one at all, may defile my stage!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 滝 翔子
+JP 不死鳥は舞い降りた…。
+JP いざ戦わん！
+EN The phoenix has descended... Now, to battle!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 滝 翔子
+JP バンビーノ達…。
+JP 世界最高峰の舞台での
+JP 私の戦いを見ていておくれ！
+EN My bambini... Watch me fight on the world's grandest
+EN stage!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 滝 翔子
+JP ああ…。
+JP バンビーノ達！
+JP 君たちの応援の力のおかげだ！
+EN Ah... My bambini! It's all thanks to the power of your
+EN cheers!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 滝 翔子
+JP バンビーノ達…。
+JP 私の力がたりなかったばかりに…。
+EN My bambini... I simply was not strong enough...
+
+@ 70.13
+# scene 071 引退式
+# 滝 翔子
+JP …このステージと
+JP お別れするときが来たようだ…。
+JP 今までありがとう、バンビーノ達！
+EN ...It seems the time has come to say farewell to this
+EN stage... Thank you for everything, my bambini!
+
+@ 71.18
+# 滝 翔子
+JP なんでしょう？
+EN What is it?
+
+@ 71.37
+# 滝 翔子
+JP どうかしましたか？
+EN Is something the matter?
+
+@ 71.47
+# 滝 翔子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 71.90
+# 滝 翔子
+JP フッ…。
+JP 期待していてください。
+JP 期待が大きいほど力になります。
+EN Heh... Expect great things. The greater the
+EN expectations, the stronger I become.
+
+@ 71.111
+# 滝 翔子
+JP 社長は何もわかって
+JP いらっしゃらない！
+EN Boss, you understand nothing!
+
+@ 71.132
+# 滝 翔子
+JP 全身全霊で社長の期待に
+JP 応えてみせましょう！
+EN I shall answer your expectations with heart and soul!
+
+@ 71.153
+# 滝 翔子
+JP 社長の期待には応えたいのですが…。
+EN I wish to meet your expectations, but...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 滝 翔子
+JP 「良薬は口に苦し」とは
+JP このことですね。
+EN "Good medicine tastes bitter," as they say.
+
+@ 71.211
+# 滝 翔子
+JP そんな言い方は
+JP いかがなものでしょうか？
+EN Is that really any way to put it?
+
+@ 71.232
+# 滝 翔子
+JP 私としたことが
+JP 気が緩んでいたとは…。
+JP 社長のご忠告で目が覚めました。
+EN How unlike me to let my guard slip... Your advice has
+EN opened my eyes, Boss.
+
+@ 71.253
+# 滝 翔子
+JP フッ…。
+JP たるんだ人間の演技を
+JP 勉強していましたので…。
+EN Heh... I was studying how to play a slacker, you see...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# 滝 翔子
+JP 大丈夫です。
+JP しばし翼を休めているところです。
+EN I am fine. I am merely resting my wings for a while.
+
+@ 71.311
+# 滝 翔子
+JP 大丈夫とは言いがたいですね…。
+EN I can hardly say I am fine...
+
+@ 71.332
+# 滝 翔子
+JP 私は不死鳥…。
+JP 社長のお言葉をエネルギーに変えて
+JP 再び羽ばたかん！
+EN I am the phoenix... I shall turn your words into energy
+EN and take flight once more!
+
+@ 71.353
+# 滝 翔子
+JP 人間とは時に彷徨える子羊…。
+EN At times, we humans are lost little lambs...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 滝 翔子
+JP だいたいの予想は付きますが…。
+EN I have a fair idea, but...
+
+@ 71.400
+# 滝 翔子
+JP なんでしょう？
+EN What is it?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 滝 翔子
+JP わかりました。
+JP 私が大きい心で包むことにしましょう。
+EN Very well. I shall embrace her with a generous heart.
+
+@ 71.454
+# 滝 翔子
+JP 社長には関係のないことです！
+EN That is none of your concern, Boss!
+
+@ 71.475
+# 滝 翔子
+JP 社長、大丈夫ですか？
+EN Boss, are you feeling all right?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 滝 翔子
+JP 社長の洞察力には敬服しますね。
+EN I must admire your insight, Boss.
+
+@ 71.522
+# 滝 翔子
+JP 何かありましたか？
+EN Has something happened?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 滝 翔子
+JP 社長の命令に従うのも定めですね。
+EN Following your orders, Boss, is also my fate.
+
+@ 71.578
+# 滝 翔子
+JP 社長…。
+JP いくら社長でも
+JP それは無理な相談です。
+EN Boss... Even for you, that is too much to ask.
+
+@ 71.599
+# 滝 翔子
+JP 社長…。
+JP 少し休まれた方が良いのでは？
+EN Boss... Perhaps you should get some rest?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 滝 翔子
+JP どうかしましたか？
+EN Is something the matter?
+
+@ 72.16
+# 滝 翔子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN Looks like you've been in good form lately. Keep it
+EN up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 滝 翔子
+JP フッ…。
+JP 期待していてください。
+JP 期待が大きいほど力になります。
+EN Heh... Expect great things. The greater the
+EN expectations, the stronger I become.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 滝 翔子
+JP 社長は何も
+JP わかっていらっしゃらない！
+EN Boss, you understand nothing!
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 滝 翔子
+JP 全身全霊で社長の期待に
+JP 応えてみせましょう！
+EN I shall answer your expectations with heart and soul!
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 滝 翔子
+JP 社長の期待には応えたいのですが…。
+EN I wish to meet your expectations, but...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 滝 翔子
+JP 「良薬は口に苦し」とは
+JP このことですね。
+EN "Good medicine tastes bitter," as they say.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 滝 翔子
+JP そんな言い方は
+JP いかがなものでしょうか？
+EN Is that really any way to put it?
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 滝 翔子
+JP 私としたことが気が緩んでいた
+JP とは…。社長のご忠告で
+JP 目が覚めました。
+EN How unlike me to let my guard slip... Your advice has
+EN opened my eyes, Boss.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 滝 翔子
+JP フッ…。
+JP たるんだ人間の演技を
+JP 勉強していましたので…。
+EN Heh... I was studying how to play a slacker, you see...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 滝 翔子
+JP 大丈夫です。
+JP しばし翼を休めているところです。
+EN I am fine. I am merely resting my wings for a while.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 滝 翔子
+JP 大丈夫とは言いがたいですね…。
+EN I can hardly say I am fine...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 滝 翔子
+JP 私は不死鳥…。
+JP 社長のお言葉をエネルギーに変えて
+JP 再び羽ばたかん！
+EN I am the phoenix... I shall turn your words into energy
+EN and take flight once more!
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 滝 翔子
+JP 人間とは時に彷徨える子羊…。
+EN At times, we humans are lost little lambs...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 滝 翔子
+JP だいたいの予想は付きますが…。
+EN I have a fair idea, but...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 滝 翔子
+JP なんでしょう？
+EN What is it?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 滝 翔子
+JP わかりました。
+JP 私が大きい心で包むことに
+JP しましょう。
+EN Very well. I shall embrace her with a generous heart.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 滝 翔子
+JP 社長には関係のないことです！
+EN That is none of your concern, Boss!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 滝 翔子
+JP 社長、大丈夫ですか？
+EN Boss, are you feeling all right?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 滝 翔子
+JP 社長の洞察力には敬服しますね。
+EN I must admire your insight, Boss.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 滝 翔子
+JP 何かありましたか？
+EN Has something happened?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 滝 翔子
+JP 社長の命令に従うのも定めですね。
+EN Following your orders, Boss, is also my fate.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 滝 翔子
+JP 社長…。
+JP いくら社長でも、
+JP それは無理な相談です。
+EN Boss... Even for you, that is too much to ask.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 滝 翔子
+JP 社長、少し休まれた方が
+JP 良いのでは？
+EN Boss... Perhaps you should get some rest?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 滝 翔子
+JP 私に対して
+JP 適切な評価をしてもらったようだ。
+EN It seems I have been properly appreciated.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 滝 翔子
+JP 最高のパフォーマンスを
+JP お見せすることにしましょう！
+EN Then I shall give you my finest performance!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 滝 翔子
+JP 世間の厳しさが身にしみる…。
+EN The harshness of the world cuts me to the bone...
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺たちは南の島へと
+JP 　やってきた）
+EN (And so we arrived at a southern island.)
+
+@ 105.30
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Mmm, the tropics. The sun's really blazing.)
+
+@ 105.36
+# 社 長
+JP さてと…。
+EN All right...
+
+@ 105.38
+# 社 長
+JP （俺はホテルから少しだけ離れた
+JP 　ビーチに足を運んだ）
+EN (I headed to a beach a little way from the hotel.)
+
+@ 105.40
+# 社 長
+JP （ここで今日
+JP 　サーフィン大会があるらしく…）
+EN (Apparently there was a surfing contest here
+EN today...)
+
+@ 105.42
+# 社 長
+JP （滝が自分も出場するから
+JP 　是非見て欲しいと言っていたのだ）
+EN (Taki was entering it herself and had begged me to
+EN come watch.)
+
+@ 105.44
+# 社 長
+JP おお、やってる、やってる。
+EN Oh, they're at it.
+
+@ 105.46
+# 社 長
+JP （どうやら参加者が一斉に
+JP 　海に出る形式の大会のようだ）
+EN (It looked like a contest where all the entrants
+EN paddle out at once.)
+
+@ 105.48
+# 社 長
+JP みんな、うまいものだな…。
+EN They're all pretty good...
+
+@ 105.50
+# 社 長
+JP さて、滝はどこだ？
+EN Now, where's Taki?
+
+@ 105.54
+# 滝 翔子
+JP 社長―――！
+EN Boooss!
+
+@ 105.57
+# 社 長
+JP おっ、滝の声だ。
+EN Oh, that's Taki's voice.
+
+@ 105.69
+# 社 長
+JP ……んっ？
+EN ...Hm?
+
+@ 105.71
+# 社 長
+JP （どこだ？）
+EN (Where is she?)
+
+@ 105.75
+# 滝 翔子
+JP どこを見ているのです！
+JP ここですよ、ここ！
+EN Where are you looking? Here! Over here!
+
+@ 105.84
+# 社 長
+JP （声のする方に首を向けると…）
+EN (I turned toward the voice...)
+
+@ 105.86
+# 社 長
+JP （今までにないビッグウェーブが
+JP 　押し寄せてきていた）
+EN (...and saw the biggest wave yet rolling in.)
+
+@ 105.88
+# 社 長
+JP （そして、その上には滝の姿…）
+EN (And riding on top of it, Taki...)
+
+@ 105.90
+# 社 長
+JP ………………。
+EN .........
+
+@ 105.94
+# 滝 翔子
+JP よく来てくれました、社長！
+EN So glad you came, Boss!
+
+@ 105.98
+# 滝 翔子
+JP 私の美技に
+JP とくと酔っていってください！
+EN Feast your eyes and be intoxicated by my artistry!
+
+@ 105.100
+# 社 長
+JP なんだ、あれは…。
+EN What on earth is that...
+
+@ 105.107
+# 観 客
+JP おおおおおぉっ！
+EN Ooooooh!
+
+@ 105.109
+# 社 長
+JP なんだ…。
+JP あのサーフィンテクニックは…。
+EN What... What kind of surfing technique is that...
+
+@ 105.111
+# 社 長
+JP （サーフィンに詳しくない
+JP 　俺でもわかる）
+EN (Even I could tell, and I know nothing about surfing.)
+
+@ 105.113
+# 社 長
+JP （滝のテクニックは
+JP 　サーフィンとしては
+JP 　ありえないポーズとバランスだ）
+EN (Taki's poses and balance were impossible for
+EN surfing.)
+
+@ 105.115
+# 女の人たち
+JP す…すてき……。
+EN S-so... dreamy...
+
+@ 105.117
+# 女の人たち
+JP なんて素敵な人なの！
+EN What a gorgeous person!
+
+@ 105.119
+# 社 長
+JP （そしてその姿は
+JP 　浜辺にいた女性たちを虜にした）
+EN (And the sight of her captivated every woman on the
+EN beach.)
+
+@ 105.123
+# 滝 翔子
+JP さあ、このバラを受け取るのは
+JP どのバンビーノかな？
+EN Now, which bambino shall receive this rose?
+
+@ 105.137
+# 女の人たち
+JP きゃ―――、私よ――――！
+EN Kyaaa! Meee!
+
+@ 105.139
+# 女の人たち
+JP 私に投げて――――！
+EN Throw it to meee!
+
+@ 105.141
+# 社 長
+JP （高波の音にもかかわらず
+JP 　よく通る滝の声）
+EN (Taki's voice carried clearly, even over the roar of
+EN the waves.)
+
+@ 105.143
+# 社 長
+JP あいつ…人間か？
+EN Is she even human...?
+
+@ 105.145
+# 社 長
+JP （俺の口から
+JP 　思わず漏れた呟きは
+JP 　褒め言葉だったのに違いない）
+EN (The words slipped out of my mouth, and they must
+EN have been a compliment.)
+
+@ 105.147
+# 社 長
+JP （ああ、きっとそうだ）
+EN (Yeah, I'm sure they were.)
+
+@ 105.164
+# 社 長
+JP （ちなみに大会は）
+EN (As for the contest...)
+
+@ 105.166
+# 社 長
+JP （観客、審査員はおろか
+JP 　他の出場者も含めた満場一致で
+JP 　滝が優勝した）
+EN (Taki won unanimously, by vote of the audience, the
+EN judges, and even the other entrants.)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ある晩、寮に出向いた帰り…）
+EN (One night, on my way back from the dorm...)
+
+@ 106.26
+# 社 長
+JP （無人のはずの部屋に
+JP 　ほの暗い灯りがついていた）
+EN (A dim light was on in a room that should have been
+EN empty.)
+
+@ 106.28
+# 社 長
+JP （誰だ？
+JP 　こんな時間に）
+EN (Who's in there at this hour?)
+
+@ 106.42
+# 社 長
+JP （そこにいたのは…）
+EN (The one in there was...)
+
+@ 106.57
+# 社 長
+JP （滝だった）
+EN (Taki.)
+
+@ 106.60
+# 社 長
+JP （薄闇の中で裁縫する滝は
+JP 　いつもの強い輝きとは異なる
+JP 　魅惑的な雰囲気をまとっていた）
+EN (Sewing in the dimness, Taki had an alluring air,
+EN unlike her usual dazzling glow.)
+
+@ 106.64
+# 滝 翔子
+JP やあ、これは社長。
+JP こんな時間になんの用です？
+EN Why, if it isn't the Boss. What brings you here at this
+EN hour?
+
+@ 106.67
+# 社 長
+JP それはこっちのセリフでもあるな。
+JP 裁縫か？
+EN I could ask you the same thing. Sewing?
+
+@ 106.71
+# 滝 翔子
+JP その通り。
+JP 我が誇り、戦いの衣装さ。
+EN Precisely. My pride and joy, my battle costume.
+
+@ 106.74
+# 社 長
+JP 自作だったのか…。
+JP その衣装…。
+EN You made that costume yourself...?
+
+@ 106.78
+# 滝 翔子
+JP 人に頼むと
+JP どうしてもイメージが
+JP 変わってしまうので…ね。
+EN If I ask someone else, the image always ends up
+EN changing... you see.
+
+@ 106.82
+# 滝 翔子
+JP こうやって一針一針…。
+JP 我が想いを現実世界へと
+JP 具現させている。
+EN Like this, stitch by stitch... I give my vision form in
+EN the real world.
+
+@ 106.85
+# 社 長
+JP 大変だろう？
+EN Must be a lot of work.
+
+@ 106.89
+# 滝 翔子
+JP ふっ…。
+JP 優雅に泳ぐ白鳥も
+JP なんとやら…ですよ。
+EN Heh... Even the gracefully gliding swan paddles hard
+EN below, as they say.
+
+@ 106.92
+# 社 長
+JP …で、どうしてこんなところで？
+EN ...So why do it here?
+
+@ 106.96
+# 滝 翔子
+JP 愚問ですね。
+EN A foolish question.
+
+@ 106.99
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.103
+# 滝 翔子
+JP この部屋だと
+JP 月が綺麗に見えるから…。
+EN Because from this room, the moon looks so
+EN beautiful...
+
+@ 106.106
+# 社 長
+JP 月…？
+EN The moon...?
+
+@ 106.110
+# 滝 翔子
+JP 見てご覧なさい、社長。
+JP すばらしい月だ。
+JP 今日は本当にすばらしい月夜だ。
+EN Look, Boss. What a splendid moon. Truly a splendid
+EN moonlit night.
+
+@ 106.113
+# 社 長
+JP （たしかに美しい月が
+JP 　窓から覗いている）
+EN (Sure enough, a beautiful moon was peeking through
+EN the window.)
+
+@ 106.117
+# 滝 翔子
+JP 私のジンクスなのですよ。
+EN It's my little good-luck charm.
+
+@ 106.121
+# 滝 翔子
+JP 月の光を受けて紡がれる衣装は
+JP 私に力をくれる。
+EN A costume woven under the moonlight gives me
+EN strength.
+
+@ 106.124
+# 社 長
+JP それで、こんな暗いところで。
+EN So that's why you're in the dark.
+
+@ 106.128
+# 滝 翔子
+JP …そう。
+JP これは二人だけの秘密ですよ、社長。
+EN ...Indeed. This is our little secret, Boss.
+
+@ 106.131
+# 社 長
+JP （いたずらっぽく笑い
+JP 　最後にこう囁いた）
+EN (She smiled mischievously and whispered one last
+EN thing.)
+
+@ 106.135
+# 滝 翔子
+JP あまり大勢の人に知られると
+JP この魔法が解けてしまうからね。
+EN If too many people learn of it, the magic will be
+EN broken.
+
+@ 106.152
+# 社 長
+JP ………………。
+EN .........
+
+@ 106.154
+# 社 長
+JP （滝は月に照らされながら
+JP 　そう呟いた）
+EN (Taki murmured this, bathed in moonlight.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ある晩、寮に出向いた帰り…）
+EN (One night, on my way back from the dorm...)
+
+@ 107.38
+# 社 長
+JP （無人のはずの部屋から
+JP 　ほの暗い灯りが漏れていた）
+EN (A dim light was leaking from a room that should have
+EN been empty.)
+
+@ 107.40
+# 社 長
+JP （たしか今日は満月だったな…。
+JP 　だとすると…）
+EN (Tonight's a full moon, isn't it... Which means...)
+
+@ 107.56
+# 滝 翔子
+JP やあ、社長。
+JP いらっしゃい。
+EN Ah, Boss. Welcome.
+
+@ 107.59
+# 社 長
+JP やっぱり、滝か。
+EN I knew it was you, Taki.
+
+@ 107.63
+# 滝 翔子
+JP わざわざ会いに来てくれたのですか？
+EN Did you come all this way to see me?
+
+@ 107.66
+# 社 長
+JP ちょっと…気になってね。
+EN I was just... curious.
+
+@ 107.70
+# 滝 翔子
+JP そうですか。
+EN I see.
+
+@ 107.73
+# 社 長
+JP 邪魔なら、すぐに出て行くよ。
+EN If I'm in the way, I'll leave right now.
+
+@ 107.77
+# 滝 翔子
+JP 邪魔などとんでもない。
+JP まったくもって、とんでもない。
+EN In the way? Not at all. Absolutely not at all.
+
+@ 107.81
+# 滝 翔子
+JP 大歓迎ですよ。
+JP どうか、そこに座ってください。
+EN You are most welcome. Please, sit there.
+
+@ 107.84
+# 社 長
+JP いいのか？
+EN You sure?
+
+@ 107.88
+# 滝 翔子
+JP ええ、かまいません。
+EN Yes, I don't mind.
+
+@ 107.92
+# 滝 翔子
+JP いや…むしろいてください。
+EN No... in fact, please stay.
+
+@ 107.95
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.98
+# 社 長
+JP （誘われるままに
+JP 　俺は滝の横に腰を下ろした）
+EN (At her invitation, I sat down beside Taki.)
+
+@ 107.102
+# 滝 翔子
+JP 社長…。
+JP このような月夜はね…。
+EN Boss... On moonlit nights like this...
+
+@ 107.105
+# 社 長
+JP ……んっ？
+EN ...Hm?
+
+@ 107.109
+# 滝 翔子
+JP １人でいたくなるのと同時に…。
+JP それ以上強く…人恋しく…
+JP 人寂しくなるのですよ。
+EN I want to be alone... and yet, even more, I long for
+EN company... I feel lonely.
+
+@ 107.112
+# 社 長
+JP …そうか。
+EN ...I see.
+
+@ 107.116
+# 滝 翔子
+JP だから、いてください。
+JP 社長が迷惑と思わなければ…。
+EN So please stay. If you don't find it a bother...
+
+@ 107.119
+# 社 長
+JP 思わないさ。
+JP わかった…。
+JP いさせてもらうよ。
+EN I don't. All right... I'll stay.
+
+@ 107.123
+# 滝 翔子
+JP ありがとう。
+EN Thank you.
+
+@ 107.126
+# 社 長
+JP （そして、滝は裁縫を続ける）
+EN (And Taki went on sewing.)
+
+@ 107.130
+# 滝 翔子
+JP ああ、いい月だ…。
+JP 今日は本当にいい月夜だ。
+EN Ah, what a lovely moon... Truly a lovely moonlit night.
+
+@ 107.133
+# 社 長
+JP （そして、呪文を唱えるかのように
+JP 　呟いた）
+EN (Then she murmured, as if chanting a spell.)
+
+@ 107.137
+# 滝 翔子
+JP 今宵、社長と２人で紡ぐこの衣装は
+JP きっと私に力をくれるだろう。
+EN This costume, woven tonight by the two of us, will
+EN surely give me strength.
+
+@ 107.154
+# 社 長
+JP ………………。
+EN .........
+
+@ 107.156
+# 社 長
+JP （滝は月に照らされながら
+JP 　そう呟いた）
+EN (Taki murmured this, bathed in moonlight.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 滝 翔子
+JP 自分にも他人にも厳しい高貴な心。
+JP 好きですよ、そういう精神…。
+EN A noble heart, strict with itself and others. I do love
+EN that spirit...
+
+@ 109.16
+# scene 113 練習開始
+# 滝 翔子
+JP 華やかに、そして優雅に…。
+EN Glamorously, and gracefully...
+
+@ 110.16
+# scene 114 練習開始 好意
+# 滝 翔子
+JP 舞台裏を見られることに
+JP なろうとは…。
+EN To think you'd see me backstage...
+
+@ 111.16
+# scene 115 特訓開始
+# 滝 翔子
+JP これもスポットライトを
+JP 浴びるため…。
+EN This too is all for the spotlight...
+
+@ 112.20
+# scene 116 特訓成功
+# 滝 翔子
+JP 汗にまみれる私もまた美しい。
+EN Even drenched in sweat, I am beautiful.
+
+@ 113.20
+# scene 117 特訓失敗
+# 滝 翔子
+JP 挫折する私もまた美しい…。
+EN Even in defeat, I am beautiful...
+
+@ 114.16
+# scene 118 休養
+# 滝 翔子
+JP 舞台鑑賞に行って
+JP 勉強することにします。
+EN I shall go see a play and study.
+
+@ 115.16
+# scene 119 入場1
+# 滝 翔子
+JP スポットライトが
+JP 私を呼んでいる！
+EN The spotlight is calling me!
+
+@ 116.16
+# scene 119 入場2
+# 滝 翔子
+JP バンビーノ達…。
+JP ショータイムの始まりだよ！
+EN My bambini... It's showtime!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# 滝 翔子
+JP 今日は相手が
+JP かわいそう過ぎるかも
+JP しれないね。
+EN I may feel a little too sorry for our opponents today.
+
+@ 118.16
+# scene 125 必殺技１
+# 滝 翔子
+JP そろそろ舞台から降りてもらおうか！
+EN Time for you to exit the stage!
+
+@ 119.16
+# scene 125 必殺技２
+# 滝 翔子
+JP この技で世界を
+JP 私の虜にしてみせよう！
+EN With this move, I shall captivate the world!
+
+@ 120.16
+# scene 125 必殺技３
+# 滝 翔子
+JP 許しておくれ…。
+JP バンビーノ……。
+EN Forgive me... bambino...
+
+@ 121.12
+# scene 126 勝利1
+# 滝 翔子
+JP 賞賛の嵐が聞こえてくるようだ…。
+EN I can almost hear the storm of applause...
+
+@ 122.12
+# scene 126 勝利2
+# 滝 翔子
+JP 今日の舞台には
+JP 満足してもらえたかな？
+EN I trust today's performance was to your
+EN satisfaction?
+
+@ 123.12
+# scene 126 勝利3
+# 滝 翔子
+JP 楽しんでくれたかい
+JP バンビーノ達！
+EN Did you enjoy the show, my bambini!
+
+@ 124.15
+# scene 133 表彰1
+# 滝 翔子
+JP やはり私には
+JP スポットライトがよく似合う。
+EN The spotlight suits me so well, after all.
+
+@ 125.15
+# scene 133 表彰2
+# 滝 翔子
+JP 華やかな舞台を彩るのは
+JP 女優である私の定め。
+EN Adorning a glamorous stage is my destiny as an
+EN actress.
+
+@ 126.12
+# scene 134 優勝1
+# 滝 翔子
+JP 愛しのバンビーノ達…。
+JP 君達のためにも勝ち続けよう！
+EN My beloved bambini... For you, I shall keep on winning!
+
+@ 127.12
+# scene 134 優勝２
+# 滝 翔子
+JP 私が優勝すること…。
+JP なかなかの脚本…。
+EN My winning the tournament... Quite the script...
+
+@ 128.24
+# scene 135 エンディング 通常
+# 滝 翔子
+JP 社長、おめでとうございます。
+JP 主役はあなただったようだ！
+EN Congratulations, Boss. It seems the leading role was
+EN yours!
+
+@ 129.24
+# scene 136 エンディング 好意
+# 滝 翔子
+JP 私の心は社長の虜…。
+JP 今の私は社長の愛で育つ
+JP 籠の中の小鳥…。
+EN My heart is captive to you, Boss... Now I am a little
+EN bird in a cage, raised on your love...

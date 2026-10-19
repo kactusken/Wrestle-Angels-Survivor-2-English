@@ -1,0 +1,130 @@
+{
+ "english": "Throw | Hold | Power | Strike | Aerial | Finisher | Double | Other",
+ "boxes": [
+  [
+   79,
+   4,
+   26,
+   61
+  ],
+  [
+   135,
+   4,
+   26,
+   61
+  ],
+  [
+   191,
+   4,
+   26,
+   61
+  ],
+  [
+   23,
+   76,
+   26,
+   61
+  ],
+  [
+   79,
+   76,
+   26,
+   61
+  ],
+  [
+   135,
+   76,
+   26,
+   61
+  ],
+  [
+   191,
+   76,
+   26,
+   61
+  ],
+  [
+   23,
+   148,
+   26,
+   61
+  ]
+ ],
+ "draw": "cards.draw",
+ "cards": [
+  [
+   56,
+   0,
+   54,
+   69
+  ],
+  [
+   112,
+   0,
+   54,
+   69
+  ],
+  [
+   168,
+   0,
+   54,
+   69
+  ],
+  [
+   0,
+   72,
+   54,
+   69
+  ],
+  [
+   56,
+   72,
+   54,
+   69
+  ],
+  [
+   112,
+   72,
+   54,
+   69
+  ],
+  [
+   168,
+   72,
+   54,
+   69
+  ],
+  [
+   0,
+   144,
+   54,
+   69
+  ]
+ ],
+ "strip": [
+  23,
+  4,
+  26,
+  61
+ ],
+ "fill": [
+  15,
+  15,
+  14,
+  13
+ ],
+ "outline": 1,
+ "outline_width": 2,
+ "font": "BarlowCondensed-Bold.ttf",
+ "notes": "move-type cards: the word runs down the card like the vertical kanji, with the original's thick dark outline, on the card's own tone (per-row median of its art), blended in (tools/letter_ext/cards.py). 4-bit: fill/outline are the original's indices; the game tints each card",
+ "clear": [
+  18,
+  3,
+  33,
+  63
+ ],
+ "tone": [
+  4,
+  5
+ ]
+}

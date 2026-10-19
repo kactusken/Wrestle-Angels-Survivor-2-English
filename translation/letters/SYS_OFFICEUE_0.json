@@ -1,0 +1,23 @@
+{
+ "english": "Yr | Mo",
+ "boxes": [
+  [
+   29,
+   154,
+   44,
+   22
+  ],
+  [
+   131,
+   155,
+   30,
+   21
+  ]
+ ],
+ "fill": "bright",
+ "ground": "interpolate",
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "pad": 2,
+ "reach": 2.5,
+ "align": "left"
+}

@@ -1,0 +1,2368 @@
+# /SCR/008.BIN - 小縞 聡美
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 008` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 小縞 聡美
+JP 小縞です。
+JP サービス満点でがんばります！
+EN I'm Kojima. I'll give it my all, with full service!
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 小縞 聡美
+JP はい、ありがとうございます。
+JP がんばります！
+EN Yes, thank you very much. I'll do my best!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 小縞 聡美
+JP え～、不採用ですかぁ。
+JP ショックだなぁ～。
+EN Aww, I didn't make it? What a shock...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here.
+
+@ 3.25
+# 社 長
+JP 資料には
+JP 「明るく元気な最強のウエイトレス」
+JP とあるが…。
+EN The file says "Cheerful, energetic, the ultimate
+EN waitress"...
+
+@ 3.27
+# 社 長
+JP 「スリーサイズは87/56/91」…って、
+JP プロレスと無関係じゃないか。
+EN "Measurements: 87/56/91"... That's got nothing to
+EN do with wrestling.
+
+@ 3.29
+# 社 長
+JP でもすごいプロポーションだな…。
+EN Still, what a figure...
+
+@ 3.39
+# ？？？
+JP いらっしゃいませ！
+EN Welcome!
+
+@ 3.42
+# 社 長
+JP うわっ！
+EN Whoa!
+
+@ 3.49
+# ？？？
+JP あー、すみません。
+JP 驚かせちゃいましたか？
+EN Oh, I'm sorry. Did I startle you?
+
+@ 3.52
+# 社 長
+JP （あれ、この子って…）
+EN (Wait, this girl is...)
+
+@ 3.59
+# ？？？
+JP ちょっと練習してたんです。
+JP ごめんなさい。
+EN I was just practicing. Sorry about that.
+
+@ 3.62
+# 社 長
+JP （間違いない。
+JP 　資料にあった子だ！）
+EN (No doubt about it. She's the girl from the file!)
+
+@ 3.69
+# 小縞 聡美
+JP …あの、どうかしましたか？
+EN ...Um, is something wrong?
+
+@ 3.72
+# 社 長
+JP すみません、実はあなたを探して
+JP ここまで来たんですが…。
+EN Sorry, actually, I came all this way looking for you...
+
+@ 3.79
+# 小縞 聡美
+JP ええっ！
+JP 私を探して？
+EN Whaaat! Looking for me?
+
+@ 3.82
+# 社 長
+JP 私はプロレス団体を
+JP 経営している者なんですが…。
+EN I run a pro-wrestling promotion...
+
+@ 3.84
+# 社 長
+JP （俺は事情を話して
+JP 　入団してくれるよう頼んでみた）
+EN (I explained the situation and asked her to join us.)
+
+@ 3.91
+# 小縞 聡美
+JP へぇ～、社長さんなんですねぇ。
+JP でも、プロレスかぁ…。
+JP 私にできるかな～。
+EN Wow, so you're a company president. But pro
+EN wrestling... I wonder if I could do it.
+
+@ 3.94
+# 社 長
+JP 是非お願いします。
+EN Please, I'd really like you to.
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 小縞 聡美
+JP わっかりましたー。
+JP やるだけやってみます。
+EN Okaaay, got it. I'll give it a shot.
+
+@ 4.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 4.29
+# 小縞 聡美
+JP こちらこそ、よろしくお願いします。
+JP でも、私がプロレスラーかぁ～。
+EN No, thank you! Wow, though... me, a pro wrestler!
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 小縞 聡美
+JP ごめんなさい！
+JP 私はやっぱりウエイトレスの方が
+JP 向いてると思うんです。
+EN I'm sorry! I really think I'm better suited to being a
+EN waitress.
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, it should have been around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# 小縞 聡美
+JP あ～、この間の社長さんじゃ
+JP ないですか。
+JP こんにちは。
+EN Oh, aren't you the President from the other day?
+EN Hello.
+
+@ 6.38
+# 社 長
+JP あの…入団のこと
+JP もう一度考えてもらえませんか？
+EN Um... would you think about joining us one more time?
+
+@ 6.45
+# 小縞 聡美
+JP そ、そんなに私のことを…。
+JP うわ～、どうしようかなぁ。
+EN Y-you want me that much...? Wow, what should I do?
+
+@ 6.48
+# 社 長
+JP どうかお願いします。
+EN Please, I'm asking you.
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 小縞 聡美
+JP わっかりました。
+JP やるだけやってみます。
+EN Okay, got it. I'll give it a shot.
+
+@ 7.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 7.29
+# 小縞 聡美
+JP こちらこそ、よろしくお願いします。
+JP でも、私がプロレスラーかぁ～。
+EN No, thank you! Wow, though... me, a pro wrestler!
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 小縞 聡美
+JP ごめんなさい！
+JP 私はやっぱりウエイトレスの方が
+JP 向いてると思うんです。
+EN I'm sorry! I really think I'm better suited to being a
+EN waitress.
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です…。
+EN I see... That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は小縞選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kojima.
+
+@ 9.25
+# 社 長
+JP あの明るさと素晴らしい
+JP プロポーションは熱烈なファンを
+JP 集めていると聞く。
+EN I hear her cheerfulness and amazing figure have
+EN won her a lot of devoted fans.
+
+@ 9.27
+# 社 長
+JP 団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined my promotion, our shows would get even
+EN livelier, no question.
+
+@ 9.29
+# 社 長
+JP たしか、このへんにいると聞いたが…。
+EN I heard she'd be around here...
+
+@ 9.31
+# 社 長
+JP ああ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 小縞 聡美
+JP はい、なんでしょうか？
+EN Yes, what can I do for you?
+
+@ 9.46
+# 社 長
+JP 実はですね…。
+EN Well, actually...
+
+@ 9.48
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.55
+# 小縞 聡美
+JP 移籍ですか…。
+JP う～ん、どうしようかなぁ…。
+EN A transfer... Hmm, what should I do...
+
+@ 9.58
+# 社 長
+JP 是非お願いします。
+EN Please, I'd really like you to.
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 小縞 聡美
+JP りょーかいしました。
+JP お世話になります！
+EN Roger that! I'm in your care!
+
+@ 10.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 小縞 聡美
+JP 今の団体にも
+JP お世話になっているんで…。
+JP ごめんなさい、無理です！
+EN My current promotion has done a lot for me too... I'm
+EN sorry, I can't!
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 小縞選手が必要だ。
+EN My promotion really does need Kojima.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度小縞選手と
+JP 交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 小縞 聡美
+JP あっ…こんにちは。
+JP …あの、また移籍のお話ですか？
+EN Oh... hello. ...Um, is this about the transfer again?
+
+@ 12.40
+# 社 長
+JP ええ、そうなんです。
+JP どうでしょうか？
+EN Yes, it is. What do you say?
+
+@ 12.47
+# 小縞 聡美
+JP うわー、悩むなぁ。
+JP どうしようかなぁ～。
+EN Wow, this is a tough one. What should I do...
+
+@ 12.50
+# 社 長
+JP 是非お願いします。
+EN Please, I'd really like you to.
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 小縞 聡美
+JP りょーかいしました。
+JP お世話になります！
+EN Roger that! I'm in your care!
+
+@ 13.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 小縞 聡美
+JP 今の団体にも
+JP お世話になっているんで…。
+JP ごめんなさい、無理です！
+EN My current promotion has done a lot for me too... I'm
+EN sorry, I can't!
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は小縞選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Kojima.
+
+@ 15.25
+# 社 長
+JP あのルックスはアイドル顔負けだし
+JP 何より明るい雰囲気が魅力だ。
+EN She's got looks that put idols to shame, and above
+EN all, that bright, sunny vibe.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined my promotion, our shows would get even
+EN livelier, no question.
+
+@ 15.29
+# 社 長
+JP たしか、このへんにいると聞いたが…。
+EN I heard she'd be around here...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# 小縞 聡美
+JP はい、どちら様でしょうか？
+EN Yes, and you are...?
+
+@ 15.46
+# 社 長
+JP あの…実はですね…。
+EN Um... well, actually...
+
+@ 15.48
+# 社 長
+JP （俺は自分のことを説明して
+JP 　単刀直入に彼女をスカウトしてみた）
+EN (I explained who I was and got straight to the point: I
+EN asked her to join us.)
+
+@ 15.55
+# 小縞 聡美
+JP 入団ですか…。
+JP でも私、実家の仕事と掛け持ち
+JP してるから…。
+EN Join your promotion... But I'm also working at my
+EN family's business...
+
+@ 15.58
+# 社 長
+JP なんとかお願いします！
+EN Please, I'm begging you!
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 小縞 聡美
+JP わかりました。
+JP 入団します！
+EN All right. I'll join!
+
+@ 16.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 16.29
+# 小縞 聡美
+JP あぁ、でも暇なときは
+JP 実家の手伝いさせてください。
+JP うち、人手不足で…。
+EN Oh, but please let me help out at home when I'm free.
+EN We're short-handed...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 小縞 聡美
+JP やっぱり無理ですねぇ。
+JP 実家のシフト、穴だらけに
+JP なっちゃうんで…。
+EN I really can't, after all. My family's shift schedule
+EN would be full of holes...
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 小縞選手が必要だ。
+EN My promotion really does need Kojima.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 小縞選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 小縞 聡美
+JP あっ、この間の社長さんですね。
+JP こんにちは。
+EN Oh, you're the President from the other day. Hello.
+
+@ 18.40
+# 社 長
+JP あの、どうでしょうか。
+JP もう一度考えてくれませんか？
+EN Um, what do you say? Would you think it over once
+EN more?
+
+@ 18.47
+# 小縞 聡美
+JP えっ、それは…。
+JP う～ん、どうしようかなぁ。
+EN Huh, well... Hmm, what should I do...
+
+@ 18.50
+# 社 長
+JP なんとかお願いします！
+EN Please, I'm begging you!
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 小縞 聡美
+JP わかりました。
+JP 入団します！
+EN All right. I'll join!
+
+@ 19.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 19.29
+# 小縞 聡美
+JP あぁ、でも暇なときは
+JP 実家の手伝いさせてください。
+JP うち、人手不足で…。
+EN Oh, but please let me help out at home when I'm free.
+EN We're short-handed...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 小縞 聡美
+JP やっぱり無理ですねぇ。
+JP 実家のシフト、穴だらけに
+JP なっちゃうんで…。
+EN I really can't, after all. My family's shift schedule
+EN would be full of holes...
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は小縞を訪ねることにした。
+EN I decided to go see Kojima.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると聞いたが…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 小縞っ！
+EN Kojima!
+
+@ 21.41
+# 小縞 聡美
+JP …あっ。
+EN ...Oh.
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# 小縞 聡美
+JP …そうですね。
+JP その節はお世話になりました。
+EN ...It has been. Thank you for everything back then.
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN The truth is, I've been looking for you because I
+EN want you to come back.
+
+@ 21.61
+# 小縞 聡美
+JP でも、そんなこと急に言われても…。
+EN But you can't just spring that on me...
+
+@ 21.64
+# 社 長
+JP たしかにこんなことを頼めた
+JP 義理じゃないのはわかっているが…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.66
+# 社 長
+JP （俺は団体に戻ってくれるように
+JP 　頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 小縞 聡美
+JP …う～ん。
+JP わかりました。
+JP またお世話になります。
+EN ...Hmm. All right. I'm in your care again.
+
+@ 22.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 小縞 聡美
+JP やっぱり…気持ちの整理が
+JP つきませんから…。
+EN I'm sorry... I still haven't sorted out my feelings...
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP わかった、悪かったな。
+EN I see... All right. I'm sorry.
+
+@ 23.24
+# 社 長
+JP （身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び小縞を訪ねることにした。
+EN I decided to go see Kojima again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She really is a wrestler my promotion needs.
+
+@ 24.27
+# 社 長
+JP 小縞っ！
+EN Kojima!
+
+@ 24.37
+# 小縞 聡美
+JP …社長。
+EN ...Boss.
+
+@ 24.40
+# 社 長
+JP すまない。
+JP もう一度話を聞いてくれ。
+EN I'm sorry. Please hear me out one more time.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you back in the promotion.
+
+@ 24.44
+# 社 長
+JP （俺はに団体に戻ってくれるように
+JP 　頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 小縞 聡美
+JP …う～ん。
+JP わかりました。
+JP またお世話になります。
+EN ...Hmm. All right. I'm in your care again.
+
+@ 25.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 小縞 聡美
+JP やっぱり…気持ちの整理が
+JP つきませんから…。
+EN I'm sorry... I still haven't sorted out my feelings...
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP わかった、悪かったな。
+EN I see... All right. I'm sorry.
+
+@ 26.24
+# 社 長
+JP （身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 小縞 聡美
+JP このくらい、全然へーきです。
+EN This much? It's no big deal at all.
+
+@ 28.16
+# scene 029 ケガ大
+# 小縞 聡美
+JP すみません。
+JP ちょっとダメみたいです…。
+EN I'm sorry. Looks like I'm not doing so great...
+
+@ 29.16
+# scene 030 入院
+# 小縞 聡美
+JP こんな大切なときにすみません…。
+EN I'm so sorry, at such an important time...
+
+@ 30.16
+# scene 031 退院
+# 小縞 聡美
+JP 復帰しましたー！
+JP さぁ、やるぞー！
+EN I'm back! All right, let's do this!
+
+@ 31.16
+# scene 032 ケガ完治
+# 小縞 聡美
+JP 痛みがひいたみたいです。
+JP よかったー。
+EN Looks like the pain's gone. Phew!
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 小縞 聡美
+JP わかりました。
+JP これからはウエイトレスに
+JP 専念します。
+EN I understand. From now on I'll focus on being a
+EN waitress.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 小縞 聡美
+JP もう少しやらせてもらえませんか…？
+EN Couldn't you let me keep going a little longer...?
+
+@ 34.16
+# scene 035 コーチ就任
+# 小縞 聡美
+JP まずはいっしょに
+JP 「いらっしゃいませ！」。
+JP …あれ、違うんですか？
+EN First, everyone together: "Welcome!" ...Huh, that's
+EN not it?
+
+@ 35.16
+# scene 036 ケガ引退
+# 小縞 聡美
+JP これはもう…。
+JP ちょっと無理みたいです……。
+EN This is... Looks like I just can't go on...
+
+@ 36.16
+# scene 037 年齢引退
+# 小縞 聡美
+JP もう若くないし…。
+JP そろそろ世代交代の時期かなあって…。
+EN I'm not young anymore... I think it's about time to
+EN pass the torch...
+
+@ 37.16
+# scene 038 退団
+# 小縞 聡美
+JP …すみません。
+JP ウェイトレスに専念しようかなって…。
+EN ...I'm sorry. I think I'll focus on being a waitress...
+
+@ 38.16
+# scene 039 スランプ
+# 小縞 聡美
+JP うーん…。
+JP なんか調子出ないなぁ…。
+EN Hmm... I just can't seem to get going...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 小縞 聡美
+JP ファンクラブ！？
+JP 私のですか？
+EN A fan club!? For me?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you're worthy of their support.
+
+@ 39.26
+# 小縞 聡美
+JP はい！
+JP …あっ、ついでに実家のお店
+JP 宣伝しちゃダメですか？
+EN Yes! ...Oh, and could I maybe plug my family's
+EN restaurant while I'm at it?
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 小縞 聡美
+JP …えっ！？
+JP またファンクラブが？
+EN ...Huh!? Another fan club?
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Make sure you live up to their hopes.
+
+@ 40.26
+# 小縞 聡美
+JP はーい！
+JP あっ、そうだ、会員さんには実家の
+JP サービス券つけちゃいます！
+EN Okaaay! Oh, I know, I'll give members coupons for our
+EN restaurant!
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 小縞 聡美
+JP 解散…？
+JP …なくなっちゃたんですか
+JP 私のファンクラブ？
+EN Disbanded...? My fan club... it's gone?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+EN Well, these things happen.
+
+@ 41.26
+# 小縞 聡美
+JP 反省しなくちゃ…。
+JP サービスたりなかったのかなぁ…。
+EN I need to reflect on this... Maybe my service wasn't
+EN good enough...
+
+@ 42.16
+# scene 043 映画出演
+# 小縞 聡美
+JP 映画ですかっ！？
+JP うわ～、すごい楽しみです。
+EN A movie!? Wow, I can't wait!
+
+@ 43.16
+# scene 044 一日署長
+# 小縞 聡美
+JP サービス精神旺盛に
+JP がんばってきまーす！
+EN I'll go and serve with a smile!
+
+@ 44.16
+# scene 045 写真集発売
+# 小縞 聡美
+JP 嬉しいですけど…。
+JP なんか恥ずかしいですねぇ…。
+EN I'm happy, but... it's kind of embarrassing...
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 小縞 聡美
+JP お任せください！
+JP そういうのは得意ですっ！
+EN Leave it to me! That kind of thing is my specialty!
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 小縞 聡美
+JP 歌かぁ…できるかなぁ…。
+JP でも、やるしかないですよね。
+EN Singing, huh... Can I do it...? Well, I just have to, right?
+
+@ 47.16
+# scene 048 始球式
+# 小縞 聡美
+JP 本当は観客席で飲み物売る方が
+JP 得意なんですけど…。
+EN Honestly, I'm better at selling drinks in the stands...
+
+@ 48.16
+# scene 049 学園祭
+# 小縞 聡美
+JP 実家のレストラン出店できないですか？
+EN Can't we set up a booth for my family's restaurant?
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.38
+# 小縞 聡美
+JP うわ～、ありがとうございます！
+EN Wow, thank you so much!
+
+@ 49.41
+# 社 長
+JP 大したもんじゃないけどな。
+EN It's nothing special.
+
+@ 49.48
+# 小縞 聡美
+JP プレゼントは心ですから。
+JP 社長の心遣いがとっても嬉しいです。
+EN It's the thought that counts. Your kindness makes
+EN me really happy, Boss.
+
+@ 50.32
+# scene 051 バレンタインデー
+# 小縞 聡美
+JP はい、社長。
+JP チョコレートをどうぞ。
+EN Here, Boss. Some chocolate for you.
+
+@ 50.35
+# 社 長
+JP …えっ。
+JP ああ、今日はバレンタインデーか。
+EN ...Huh? Oh, it's Valentine's Day today.
+
+@ 50.42
+# 小縞 聡美
+JP ゆうべ、がんばって作ったんです。
+JP お口に合うといいんですけど。
+EN I worked hard making it last night. I hope you like it.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.38
+# 小縞 聡美
+JP わざわざ
+JP ありがとうございます、社長！
+EN You didn't have to! Thank you, Boss!
+
+@ 51.41
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some during a break in training.
+
+@ 52.31
+# scene 053 サイン会
+# 小縞 聡美
+JP こちらにお並びくださ～い。
+JP はい、すぐできますから…。
+JP どうぞ、お待たせしましたー！
+EN Please line up over here! Yes, it'll just be a moment...
+EN Here you go, sorry for the wait!
+
+@ 53.29
+# scene 054 コンサート
+# 小縞 聡美
+JP 音外しちゃっても許してくださいね。
+JP …それじゃ、いきまーす！
+EN Forgive me if I hit a wrong note, okay? ...All right,
+EN here goes!
+
+@ 54.28
+# scene 055 練習拒否
+# 小縞 聡美
+JP …ちょっと疲れちゃいました……。
+EN ...I'm just a little tired...
+
+@ 55.28
+# scene 056 失踪
+# 小縞 聡美
+JP なんかもう…どうでもいいかなって…。
+EN I just feel like... none of it matters anymore...
+
+@ 56.16
+# scene 057 選手解雇
+# 小縞 聡美
+JP そ、そんなぁ…。
+JP …すごいショックです…グスッ…。
+EN N-no way... What a shock... *sniff*...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 小縞 聡美
+JP よーし、しっかり勉強してきま～す！
+EN All right, I'll go and learn all I can!
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 小縞 聡美
+JP ただいま帰国しましたっ！
+EN I'm back home now!
+
+@ 59.28
+# scene 060 移籍思案
+# 小縞 聡美
+JP ウェイトレスとの掛け持ちも
+JP ＯＫって言ってくれてるしなぁ…。
+EN They did say it's okay to keep waitressing on the
+EN side...
+
+@ 60.16
+# scene 061 革命軍結成
+# 小縞 聡美
+JP やっぱり間違っていることは
+JP 直さないとダメですよね！
+EN When something's wrong, you've got to fix it, right?
+
+@ 61.16
+# scene 062 反乱軍結成
+# 小縞 聡美
+JP 仲間割れはしたくないですけど
+JP このままでいいはずがありません！
+EN I don't want us fighting among ourselves, but things
+EN can't go on like this!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 小縞 聡美
+JP これ以上、争いたくありません。
+JP 今日ですべてを終わりにしましょう！
+EN I don't want to fight anymore. Let's end it all today!
+
+@ 63.16
+# scene 064 遺恨発生
+# 小縞 聡美
+JP …あれはひどいんじゃ……。
+EN ...Wasn't that kind of awful...?
+
+@ 64.16
+# scene 065 殴り込み
+# 小縞 聡美
+JP わかりましたっ！
+JP 全力でいってきます。
+EN Got it! I'll go all out!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 小縞 聡美
+JP お客さんですかぁ。
+JP ここは私の出番ですね！
+EN Oh, customers? Then this is my cue!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 小縞 聡美
+JP 本日のスペシャルメニュー
+JP お待たせしました～！
+EN Sorry to keep you waiting! Here's today's special!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 小縞 聡美
+JP うわー、なんだか緊張しますね。
+EN Wow, I'm kind of nervous.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 小縞 聡美
+JP 優勝しちゃいましたー！
+JP やったー！
+EN I won the whole thing! Yaaay!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 小縞 聡美
+JP あぅ…。
+JP 負けちゃいましたー…。
+EN Auu... I lost...
+
+@ 70.13
+# scene 071 引退式
+# 小縞 聡美
+JP 応援ありがとうございました！
+JP これからは実家のお店で
+JP お待ちしてますね～。
+EN Thank you for all your support! From now on, I'll be
+EN waiting for you at my family's restaurant!
+
+@ 71.18
+# 小縞 聡美
+JP はい、お呼びですか？
+EN Yes, you called for me?
+
+@ 71.37
+# 小縞 聡美
+JP なんでしょう？
+EN What is it?
+
+@ 71.47
+# 小縞 聡美
+JP 会話内容を選んでください
+EN Choose what to talk about.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be on a roll lately. Keep it up!
+
+@ 71.90
+# 小縞 聡美
+JP ありがとうございます。
+JP がんばります！
+EN Thank you very much. I'll do my best!
+
+@ 71.111
+# 小縞 聡美
+JP …社長……。
+JP ちゃんと見てます？
+EN ...Boss... Are you really paying attention?
+
+@ 71.132
+# 小縞 聡美
+JP 社長が見守ってくれているから
+JP がんばれるんです…。
+EN I can keep going because you're watching over me,
+EN Boss...
+
+@ 71.153
+# 小縞 聡美
+JP 社長にわかってもらえてないんだ…。
+EN You don't understand me at all, Boss...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# 小縞 聡美
+JP すみません。
+JP 心を入れ替えてがんばりますっ！
+EN I'm sorry. I'll turn over a new leaf and work hard!
+
+@ 71.211
+# 小縞 聡美
+JP …すみません……。
+EN ...I'm sorry...
+
+@ 71.232
+# 小縞 聡美
+JP すみません…。
+JP なんだか甘えてしまって…。
+EN I'm sorry... I guess I got a little too comfortable...
+
+@ 71.253
+# 小縞 聡美
+JP …あんまり怒らないでください…。
+EN ...Please don't be so angry...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.290
+# 小縞 聡美
+JP いえ、大丈夫です。
+JP まだまだがんばれますから。
+EN No, I'm fine. I can still keep going.
+
+@ 71.311
+# 小縞 聡美
+JP なんか真心がこもっていない気が…。
+EN Somehow that didn't sound very sincere...
+
+@ 71.332
+# 小縞 聡美
+JP 今の社長の言葉で元気になれました…。
+EN What you just said really cheered me up, Boss...
+
+@ 71.353
+# 小縞 聡美
+JP …今はダメみたいです…。
+JP すみません…。
+EN ...I don't think I can right now... I'm sorry...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# 小縞 聡美
+JP …はい。
+EN ...Yes.
+
+@ 71.400
+# 小縞 聡美
+JP えーと…。
+JP なんのお話でしょうか？
+EN Um... What is this about?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# 小縞 聡美
+JP …わかりました。
+JP 私が大人げなかったです。
+EN ...All right. I was being childish.
+
+@ 71.454
+# 小縞 聡美
+JP 悪いのは向こうだと思うんですけど…。
+EN I really think she's the one at fault, though...
+
+@ 71.475
+# 小縞 聡美
+JP すみません、本当に何のお話か
+JP わからないんですけど…？
+EN I'm sorry, but I honestly don't know what you're
+EN talking about...?
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# 小縞 聡美
+JP …わかります。
+EN ...I do.
+
+@ 71.522
+# 小縞 聡美
+JP 心当たりがないんですけど…？
+EN I can't think of anything...?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# 小縞 聡美
+JP …わかりました。
+JP 迷惑かけてすみません…。
+EN ...All right. I'm sorry for the trouble...
+
+@ 71.578
+# 小縞 聡美
+JP う～ん…。
+JP それはちょっと…。
+EN Hmm... That's a bit much...
+
+@ 71.599
+# 小縞 聡美
+JP それ、本当に私の話なんですか？
+EN Are you sure you're talking about me?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 小縞 聡美
+JP なんでしょう？
+EN What is it?
+
+@ 72.16
+# 小縞 聡美
+JP 会話内容を選んでください
+EN Choose what to talk about.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You seem to be on a roll lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 小縞 聡美
+JP ありがとうございます。
+JP がんばります！
+EN Thank you very much. I'll do my best!
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 小縞 聡美
+JP …社長……。
+JP ちゃんと見てます？
+EN ...Boss... Are you really paying attention?
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 小縞 聡美
+JP 社長が見守ってくれているから、
+JP がんばれるんです…。
+EN I can keep going because you're watching over me,
+EN Boss...
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 小縞 聡美
+JP …社長にわかってもらえて
+JP ないんだ……。
+EN ...You don't understand me at all, Boss...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 小縞 聡美
+JP すみません。
+JP 心を入れ替えてがんばりますっ！
+EN I'm sorry. I'll turn over a new leaf and work hard!
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 小縞 聡美
+JP …すみません……。
+EN ...I'm sorry...
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 小縞 聡美
+JP すみません…。
+JP なんだか甘えてしまって…。
+EN I'm sorry... I guess I got a little too comfortable...
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 小縞 聡美
+JP …あんまり怒らないでください…。
+EN ...Please don't be so angry...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 小縞 聡美
+JP いえ、大丈夫です。
+JP まだまだがんばれますから。
+EN No, I'm fine. I can still keep going.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 小縞 聡美
+JP なんか真心がこもっていない気が…。
+EN Somehow that didn't sound very sincere...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 小縞 聡美
+JP …今の社長の言葉で
+JP 元気になれました…。
+EN ...What you just said really cheered me up, Boss...
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 小縞 聡美
+JP …今はダメみたいです…。
+JP すみません…。
+EN ...I don't think I can right now... I'm sorry...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 小縞 聡美
+JP …はい。
+EN ...Yes.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 小縞 聡美
+JP えーと…。
+JP なんのお話でしょうか？
+EN Um... What is this about?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 小縞 聡美
+JP …わかりました。
+JP 私が大人げなかったです。
+EN ...All right. I was being childish.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 小縞 聡美
+JP 悪いのは向こうだと
+JP 思うんですけど…。
+EN I really think she's the one at fault, though...
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 小縞 聡美
+JP すみません、本当に何のお話か
+JP わからないんですけど…？
+EN I'm sorry, but I honestly don't know what you're
+EN talking about...?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 小縞 聡美
+JP …わかります。
+EN ...I do.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 小縞 聡美
+JP 心当たりがないんですけど…？
+EN I can't think of anything...?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 小縞 聡美
+JP …わかりました。
+JP 迷惑かけてすみません…。
+EN ...All right. I'm sorry for the trouble...
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 小縞 聡美
+JP う～ん…。
+JP それはちょっと…。
+EN Hmm... That's a bit much...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 小縞 聡美
+JP それ、本当に私の話なんですか？
+EN Are you sure you're talking about me?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 小縞 聡美
+JP これからもよろしくお願いします。
+EN I look forward to another year with you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 小縞 聡美
+JP 社長っ！
+JP こんなにもらえるなんて感激です！
+EN Boss! I'm so touched you'd pay me this much!
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 小縞 聡美
+JP 実家でアルバイトしてた方が
+JP いいのかな…？
+EN Maybe I'd be better off working part-time at home...?
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Ah, the tropics. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだし…）
+EN (Looks like everyone's having fun...)
+
+@ 105.36
+# 社 長
+JP （俺もゆっくり休むか）
+EN (Guess I'll relax a bit too.)
+
+@ 105.40
+# ？？？
+JP あっ、社長ーっ！
+EN Oh, Boooss!
+
+@ 105.43
+# 社 長
+JP （んっ…この声は……）
+EN (Hm... that voice...)
+
+@ 105.59
+# 社 長
+JP 小縞か。
+EN Kojima, huh.
+
+@ 105.61
+# 社 長
+JP （うおっ！？）
+EN (Whoa!?)
+
+@ 105.63
+# 社 長
+JP （なんというか…。
+JP 　かなりキワドイ水着を……）
+EN (How do I put this... That's a pretty daring swimsuit...)
+
+@ 105.73
+# 小縞 聡美
+JP あの…どうかしましたか？
+EN Um... is something wrong?
+
+@ 105.76
+# 社 長
+JP い、いや、なんでもない！
+JP ええと、何か用か？
+EN N-no, nothing! Uh, did you need something?
+
+@ 105.86
+# 小縞 聡美
+JP ちょっとお時間よろしいですか？
+EN Do you have a moment?
+
+@ 105.89
+# 社 長
+JP あ、ああ。
+JP 構わないぞ。
+EN Y-yeah. Sure.
+
+@ 105.99
+# 小縞 聡美
+JP えっと…。
+JP この水着、どう思います？
+EN Um... What do you think of this swimsuit?
+
+@ 105.102
+# 社 長
+JP （なんだ、いきなり！？）
+EN (Where did that come from!?)
+
+@ 105.104
+# 社 長
+JP な、なんで急に
+JP そんなことを聞くんだ？
+EN Wh-why are you suddenly asking me that?
+
+@ 105.114
+# 小縞 聡美
+JP あっ、変な意味じゃなくて…。
+EN Oh, I don't mean it in a weird way...
+
+@ 105.124
+# 小縞 聡美
+JP 実は父がやっているファミレスが
+JP 海の家に臨時出店することになって…。
+EN See, my dad's family restaurant is opening a
+EN temporary beach shack...
+
+@ 105.127
+# 社 長
+JP それ、海の家の制服なのか？
+EN So that's the beach shack uniform?
+
+@ 105.137
+# 小縞 聡美
+JP はい…。
+JP この水着、海外の有名デザイナーに
+JP デザインしてもらったんです。
+EN Yes... A famous designer from overseas designed
+EN this swimsuit for us.
+
+@ 105.147
+# 小縞 聡美
+JP ただ、私も服の善し悪しを
+JP 見極める自信がなくて…。
+EN But I'm not confident I can tell good clothes from
+EN bad...
+
+@ 105.151
+# 小縞 聡美
+JP 父にぜひ社長に意見を
+JP 聞いてきてくれと言われたんです。
+EN So my dad told me to go ask for your opinion, Boss.
+
+@ 105.154
+# 社 長
+JP …なんで俺に？
+EN ...Why me?
+
+@ 105.164
+# 小縞 聡美
+JP 社長はいつもたくさんの女の子に
+JP 囲まれてるから、そういうのに
+JP 詳しいだろうって…。
+EN He said you're always surrounded by lots of girls, so
+EN you must know about this stuff...
+
+@ 105.167
+# 社 長
+JP （それとこれとは話が違う気が
+JP 　するんだが…）
+EN (I feel like that's a whole different matter...)
+
+@ 105.169
+# 社 長
+JP まあ、アドバイス程度なら
+JP できるだろうけど…。
+EN Well, I guess I can give you a little advice...
+
+@ 105.173
+# 小縞 聡美
+JP ありがとうございます。
+JP えっと…それでどうですか？
+EN Thank you very much. Um... so, what do you think?
+
+@ 105.176
+# 社 長
+JP そうだな…。
+EN Let's see...
+
+@ 105.178
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.180
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.182
+# 社 長
+JP （…その海外のデザイナーって
+JP 　ヤツは、そもそも海の家を知って
+JP 　いるんだろうか？）
+EN (...Does this overseas designer even know what a
+EN beach shack is?)
+
+@ 105.184
+# 社 長
+JP （なんだか別の店と勘違いしている
+JP 　ような気がしてならないんだが…）
+EN (I can't shake the feeling he's mixed it up with a very
+EN different kind of establishment...)
+
+@ 105.188
+# 小縞 聡美
+JP どうですか、社長。
+JP 正直な感想を聞かせてください。
+EN What do you think, Boss? Give me your honest
+EN opinion.
+
+@ 105.191
+# 社 長
+JP ま、待て！
+JP あまり動くな！
+JP 胸が…！
+EN W-wait! Don't move around so much! Your chest...!
+
+@ 105.201
+# 小縞 聡美
+JP …えッ！？
+JP そんなところを
+JP 見てもらいたい訳じゃ！？
+EN ...Wha!? That's not what I wanted you looking at!?
+
+@ 105.204
+# 社 長
+JP いや、そういう意味で
+JP 言ったんじゃないんだ。
+EN No, I didn't mean it like that.
+
+@ 105.214
+# 小縞 聡美
+JP まったく…。
+JP 男の人はこれだから…。
+EN Honestly... Men are all the same...
+
+@ 105.217
+# 社 長
+JP いや、だから…。
+JP つまりだな……。
+EN No, I mean... What I'm saying is...
+
+@ 105.221
+# 小縞 聡美
+JP 社長！
+JP 真面目に答えてください！
+EN Boss! Please give me a serious answer!
+
+@ 105.224
+# 社 長
+JP だから、そうじゃなくてだな…。
+EN Like I said, that's not what I meant...
+
+@ 105.226
+# 社 長
+JP （結局…）
+EN (In the end...)
+
+@ 105.228
+# 社 長
+JP （その日はアドバイスをする暇もなく
+JP 　終わってしまったのだった…）
+EN (The day ended without me getting a chance to give
+EN any advice at all...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （あー、疲れた…。
+JP 　残業も楽じゃないな）
+EN (Phew, I'm beat... Overtime is no picnic.)
+
+@ 106.26
+# 社 長
+JP （そろそろ腹も減ってきたし…）
+EN (And I'm starting to get hungry...)
+
+@ 106.28
+# 社 長
+JP （…といっても、今の時間だと、
+JP 　コンビニか24時間営業のファースト
+JP 　フード店ってところだよな…）
+EN (...Then again, at this hour it's either a convenience
+EN store or a 24-hour fast-food joint...)
+
+@ 106.40
+# 社 長
+JP （…んっ、こんな時間に来客？）
+EN (...Hm? A visitor at this hour?)
+
+@ 106.42
+# 社 長
+JP どうぞ？
+EN Come in?
+
+@ 106.56
+# 小縞 聡美
+JP 失礼しま～す。
+EN Excuse me!
+
+@ 106.59
+# 社 長
+JP …えっ、小縞？
+JP どうしたんだ、こんな時間に？
+EN ...Huh, Kojima? What are you doing here at this hour?
+
+@ 106.66
+# 小縞 聡美
+JP やっぱり社長が残ってたんですね。
+EN I knew you'd still be here, Boss.
+
+@ 106.69
+# 社 長
+JP ああ…。
+JP 最近仕事がたて込んでたから…。
+EN Yeah... Work's been piling up lately...
+
+@ 106.71
+# 社 長
+JP それより小縞こそどうしたんだ？
+EN More importantly, what are you doing here, Kojima?
+
+@ 106.78
+# 小縞 聡美
+JP …あっ、私は夜のシフトが
+JP 終わったところです。
+EN ...Oh, I just finished my night shift.
+
+@ 106.81
+# 社 長
+JP 実家のファミレスの？
+EN At your family's restaurant?
+
+@ 106.85
+# 小縞 聡美
+JP はい。
+JP 社長は最近残業が多いって聞いたから
+JP 帰りがてら様子を見に来たんです。
+EN Yes. I heard you've been working a lot of overtime,
+EN so I came to check on you on my way home.
+
+@ 106.88
+# 社 長
+JP そういうことか。
+EN So that's it.
+
+@ 106.91
+# 社 長
+JP 大丈夫。
+JP 心配してくれなくても
+JP 倒れたりしないよ。
+EN I'm fine. No need to worry, I'm not going to collapse.
+
+@ 106.93
+# 社 長
+JP 小縞こそ、明日に備えて
+JP 早く帰った方がいいんじゃないのか？
+EN Shouldn't you head home early yourself and rest up
+EN for tomorrow?
+
+@ 106.100
+# 小縞 聡美
+JP あー、そういう言い方はないと
+JP 思いますよ～。
+EN Aww, that's no way to talk to me!
+
+@ 106.107
+# 小縞 聡美
+JP せっかくいいもの
+JP 持ってきてあげたのに…。
+EN And here I went and brought you something nice...
+
+@ 106.110
+# 社 長
+JP いいもの？
+JP なんだ？
+EN Something nice? What is it?
+
+@ 106.117
+# 小縞 聡美
+JP はい、これです。
+EN Here you go!
+
+@ 106.136
+# 社 長
+JP おー。
+JP こりゃ、すごい。
+EN Ooh. Now that's impressive.
+
+@ 106.140
+# 小縞 聡美
+JP 社長がそろそろお腹空かせてるんじゃ
+JP ないかな～って思ったから。
+EN I figured you'd be getting hungry right about now,
+EN Boss.
+
+@ 106.143
+# 社 長
+JP 助かるよ。
+JP ちょうどメシにしようと
+JP 思ってたんだ。
+EN You're a lifesaver. I was just about to grab dinner.
+
+@ 106.163
+# 社 長
+JP ………………
+EN ..................
+
+@ 106.182
+# 小縞 聡美
+JP それでどうです？
+JP おいしいですか？
+EN So, how is it? Is it good?
+
+@ 106.185
+# 社 長
+JP もちろん。
+JP さすが大手ファミレスチェーンだな。
+EN Of course. That's a major restaurant chain for you.
+
+@ 106.188
+# 社 長
+JP 食材も良質なんだろうけど
+JP シェフの腕がいいんだろうな。
+JP 流行る理由がわかる。
+EN The ingredients must be top quality, but the chef
+EN must be really skilled too. I see why it's so popular.
+
+@ 106.198
+# 小縞 聡美
+JP はずれです。
+JP 材料はお店のものですけど
+JP 作ったのは私ですよ。
+EN Wrong! The ingredients are from the restaurant, but
+EN I'm the one who made it.
+
+@ 106.201
+# 社 長
+JP そうなのか？
+EN Is that right?
+
+@ 106.203
+# 社 長
+JP へぇ…。
+JP ちょっと驚いた。
+EN Huh... I'm a little surprised.
+
+@ 106.213
+# 小縞 聡美
+JP これでもファミレスチェーン店の
+JP 社長の娘ですから。
+EN I am the daughter of a restaurant chain's president,
+EN you know.
+
+@ 106.216
+# 社 長
+JP でもこれは本当にうまいぞ。
+JP 才能あるんじゃないのか？
+EN But this really is delicious. You've got talent, don't
+EN you?
+
+@ 106.220
+# 小縞 聡美
+JP もう、社長、あんまり褒められると
+JP テレちゃいますよ～。
+EN Oh, Boss, if you praise me too much, I'll get
+EN embarrassed!
+
+@ 106.223
+# 社 長
+JP いやいや。
+JP お世辞じゃないって。
+EN No, no. I'm not just flattering you.
+
+@ 106.233
+# 小縞 聡美
+JP はいはい、わかりました。
+JP あっ、今、お茶をいれますね。
+EN Yes, yes, I get it. Oh, I'll make you some tea.
+
+@ 106.236
+# 社 長
+JP ああ。
+JP わざわざすまないな。
+EN Thanks. Sorry to put you to the trouble.
+
+@ 106.238
+# 社 長
+JP （こうして俺は満足した気分のまま
+JP 　仕事に戻ったのだった）
+EN (And so I went back to work feeling thoroughly
+EN satisfied.)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （あー、疲れた…。
+JP 　残業が続くと気が滅入ってくるな）
+EN (Phew, I'm beat... All this overtime is getting me down.)
+
+@ 107.26
+# 社 長
+JP （そろそろ腹も減ってきたし…）
+EN (And I'm starting to get hungry...)
+
+@ 107.28
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.30
+# 社 長
+JP （そろそろ時間かな…？）
+EN (Is it about time...?)
+
+@ 107.42
+# 社 長
+JP （おっ、来た）
+EN (Oh, here she is.)
+
+@ 107.44
+# 社 長
+JP どうぞ。
+EN Come in.
+
+@ 107.58
+# 小縞 聡美
+JP こんばんは～。
+EN Good evening!
+
+@ 107.61
+# 社 長
+JP 待ってたよ。
+JP 今日のおかずは何かな？
+EN I've been waiting. What's on the menu today?
+
+@ 107.68
+# 小縞 聡美
+JP えっと…今日はですねぇ…。
+EN Let's see... today we have...
+
+@ 107.85
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.95
+# 小縞 聡美
+JP はい、社長。
+JP お茶です。
+EN Here, Boss. Your tea.
+
+@ 107.98
+# 社 長
+JP ありがとう。
+EN Thanks.
+
+@ 107.102
+# 小縞 聡美
+JP どうです？
+JP 今日のはちょっと自信が
+JP あるんですよ。
+EN How is it? I'm kind of proud of today's.
+
+@ 107.105
+# 社 長
+JP ああ。
+JP いつも通りうまい。
+EN Yeah. Delicious as always.
+
+@ 107.108
+# 社 長
+JP 本当に小縞は料理が上手だよな。
+JP これならいいお嫁さんになれるぞ。
+EN You really are a great cook, Kojima. You'll make
+EN someone a wonderful wife.
+
+@ 107.118
+# 小縞 聡美
+JP ヤダなぁ。
+JP 褒めてもこれ以上、何も出ませんよ？
+EN Oh, stop it. Flattery won't get you seconds, you
+EN know?
+
+@ 107.121
+# 社 長
+JP いやいや。
+JP 本当にお世辞じゃないって。
+EN No, no. Really, I'm not just flattering you.
+
+@ 107.123
+# 社 長
+JP 食べられるものなら毎日食べたいよ。
+EN If I could, I'd eat this every day.
+
+@ 107.127
+# 小縞 聡美
+JP またまたぁ。
+JP 社長は口がうまいんですから。
+EN Oh, come on. You're such a smooth talker, Boss.
+
+@ 107.130
+# 社 長
+JP 俺は本気で言ってるんだけどなぁ。
+EN But I mean it, though.
+
+@ 107.147
+# 小縞 聡美
+JP …えっ！？
+JP 本気って…つまり……。
+EN ...Huh!? You mean it... meaning...
+
+@ 107.151
+# 小縞 聡美
+JP その…プ…プロ…プ、プロポー…。
+EN Is that... a pro... pro... a p-propo...
+
+@ 107.155
+# 小縞 聡美
+JP えっ？
+JP えっ！？
+JP ええーっ！？
+EN Huh? Huh!? Whaaat!?
+
+@ 107.159
+# 小縞 聡美
+JP そ、そんなこと…急に言われても…っ！
+EN Y-you can't just spring something like that on me...!
+
+@ 107.162
+# 社 長
+JP いや、本当にうまいって。
+EN No, it's really delicious.
+
+@ 107.166
+# 小縞 聡美
+JP でも、そういうのはちゃんと実家にも
+JP 説明しないといけないですしっ！
+EN B-but I'd have to explain things properly to my
+EN family, too!
+
+@ 107.169
+# 社 長
+JP ああ、そうか。
+JP いつもお世話になってるし
+JP いずれちゃんと挨拶に行かないとな。
+EN Ah, right. They've done so much for me, I really
+EN should go pay my respects someday.
+
+@ 107.171
+# 社 長
+JP いつも食べさせてもらうばかりじゃ
+JP さすがに悪い。
+EN It wouldn't be right to keep letting them feed me for
+EN free.
+
+@ 107.175
+# 小縞 聡美
+JP 実家に挨拶ですかっ！？
+JP ちょ、ちょっと待ってください！
+EN Pay your respects to my family!? W-wait a second!
+
+@ 107.179
+# 小縞 聡美
+JP そ、その前に私の気持ちの整理とか
+JP 心の準備とか、色々と…そのっ！
+EN B-before that I need to sort out my feelings, and
+EN prepare myself, and all sorts of... things!
+
+@ 107.182
+# 社 長
+JP ………………？
+EN ..................?
+
+@ 107.184
+# 社 長
+JP （パクリ）
+EN (Munch)
+
+@ 107.186
+# 社 長
+JP うん。
+JP うまい。
+EN Mm. Delicious.
+
+@ 107.188
+# 社 長
+JP （こうして俺は満足した気分のまま
+JP 　仕事に戻ったのだった）
+EN (And so I went back to work feeling thoroughly
+EN satisfied.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 小縞 聡美
+JP こういう影の努力が
+JP サービスに繋がるんですよね。
+EN This kind of behind-the-scenes effort is what
+EN makes for good service.
+
+@ 109.16
+# scene 113 練習開始
+# 小縞 聡美
+JP 今日もよろしくお願いします！
+EN Looking forward to working with you again today!
+
+@ 110.16
+# scene 114 練習開始 好意
+# 小縞 聡美
+JP 今日はすごくがんばれそうな
+JP 気がします！
+EN I feel like I can really give it my all today!
+
+@ 111.16
+# scene 115 特訓開始
+# 小縞 聡美
+JP 特訓ですかぁ。
+JP なんか燃えますねぇー。
+EN Special training, huh? That gets me fired up!
+
+@ 112.20
+# scene 116 特訓成功
+# 小縞 聡美
+JP やったー！
+JP 上手くできました！
+EN Yaaay! I did it!
+
+@ 113.20
+# scene 117 特訓失敗
+# 小縞 聡美
+JP うーん…。
+JP これじゃダメ…ですよね？
+EN Hmm... That's no good... is it?
+
+@ 114.16
+# scene 118 休養
+# 小縞 聡美
+JP ちょうど父にバイトを
+JP 頼まれてたんです。
+JP 助かります！
+EN Perfect timing, my dad just asked me to cover a
+EN shift. Thanks!
+
+@ 115.16
+# scene 119 入場1
+# 小縞 聡美
+JP お客さんに喜んでもらえる
+JP ファイトを見せなくちゃ！
+EN I've got to put on a fight the customers will love!
+
+@ 116.16
+# scene 119 入場2
+# 小縞 聡美
+JP 今日もサービス満点で
+JP お客さんを盛り上げちゃいますよ！
+EN Full service again today! I'll get the crowd going!
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# 小縞 聡美
+JP お客様にいいもの見せちゃいましょう。
+EN Let's give our customers something good to see!
+
+@ 118.16
+# scene 125 必殺技１
+# 小縞 聡美
+JP ファイナルオーダー、入りまーす！
+EN One final order, coming right up!
+
+@ 119.16
+# scene 125 必殺技２
+# 小縞 聡美
+JP 本日のスペシャルサービスでーすっ！
+EN Here's today's special service!
+
+@ 120.16
+# scene 125 必殺技３
+# 小縞 聡美
+JP 今日のメインディッシュ、
+JP いっきまーす！
+EN Today's main dish, coming riiight up!
+
+@ 121.12
+# scene 126 勝利1
+# 小縞 聡美
+JP うーん、ナイスファイトでした！
+EN Mmm, that was a nice fight!
+
+@ 122.12
+# scene 126 勝利2
+# 小縞 聡美
+JP 今日の試合はお客様にも満足して
+JP もらえたみたいです！
+EN Looks like our customers were satisfied with
+EN today's match too!
+
+@ 123.12
+# scene 126 勝利3
+# 小縞 聡美
+JP またのお越し、お待ちしてまーす！
+EN We look forward to your next visit!
+
+@ 124.15
+# scene 133 表彰1
+# 小縞 聡美
+JP トロフィーは実家のお店に
+JP 飾ることにします！
+EN I'll put the trophy on display at my family's
+EN restaurant!
+
+@ 125.15
+# scene 133 表彰2
+# 小縞 聡美
+JP 一度はもらってみたいと
+JP 思ってました。
+JP ありがとうございます！
+EN I always wanted to get one of these someday. Thank
+EN you so much!
+
+@ 126.12
+# scene 134 優勝1
+# 小縞 聡美
+JP やりましたぁ！
+JP 優勝ですよ、優勝！
+EN I did it! I won, I won the whole thing!
+
+@ 127.12
+# scene 134 優勝２
+# 小縞 聡美
+JP みなさんの声援のおかげです！
+JP ありがとうございましたぁ！
+EN It's all thanks to everyone cheering me on! Thank
+EN you so much!
+
+@ 128.24
+# scene 135 エンディング 通常
+# 小縞 聡美
+JP やりましたね！
+JP 社長、おめでとうございます！
+EN We did it! Congratulations, Boss!
+
+@ 129.24
+# scene 136 エンディング 好意
+# 小縞 聡美
+JP あの…社長だけに尽くす
+JP ウエイトレスになっても
+JP いいですか…？
+EN Um... Boss, could I be a waitress who serves only
+EN you...?

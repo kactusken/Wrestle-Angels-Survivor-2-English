@@ -1,0 +1,31 @@
+{
+ "english": "Lucky Uchida",
+ "boxes": [
+  [
+   0,
+   97,
+   128,
+   14
+  ]
+ ],
+ "draw": "portraits.draw",
+ "band": [
+  0,
+  97,
+  128,
+  14
+ ],
+ "cap": 8,
+ "font": "BarlowSemiCondensed-Bold.ttf",
+ "outline_width": 1,
+ "catalogue": {
+  "source": "/SYS/GM_CHR.BIN",
+  "width": 128,
+  "height": 128,
+  "bpp": 8,
+  "category": "screen",
+  "japanese": "ラッキー内田"
+ },
+ "notes": "portrait name tag: ring name (roster record 69); Japanese tag kept, English small at the bottom of the character (rows 97-110: the training result screen shows ~112 rows)",
+ "clear_tag": false
+}

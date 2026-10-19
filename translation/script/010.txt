@@ -1,0 +1,2194 @@
+# /SCR/010.BIN - サンダー龍子
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 010` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# サンダー龍子
+JP 龍子です。
+JP よろしく。
+EN I'm Ryuko. Nice to meet you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# サンダー龍子
+JP そりゃどうも。
+JP がんばるよ。
+EN Thanks, I guess. I'll do my best.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# サンダー龍子
+JP …仕方ないか…。
+EN ...Oh well...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP この資料が本当なら
+JP とんでもない金の卵がいるはず
+JP なんだが…。
+EN If this file's right, there's an incredible diamond in
+EN the rough out here...
+
+@ 3.25
+# 社 長
+JP （ランニング中のあの娘…。
+JP 　あぁ、間違いない）
+EN (That girl out running... Yeah, that's definitely her.)
+
+@ 3.27
+# 社 長
+JP すみません。
+JP 龍子さんですか？
+EN Excuse me. Are you Ryuko?
+
+@ 3.37
+# サンダー龍子
+JP 悪い…。
+JP 急いでるんで…。
+EN Sorry... I'm in a hurry...
+
+@ 3.40
+# 社 長
+JP 突然ですみません。
+JP 私、プロレス団体を経営している者
+JP なんですが…。
+EN Sorry to stop you out of the blue. I run a pro
+EN wrestling promotion...
+
+@ 3.47
+# サンダー龍子
+JP …社長さん？
+EN ...A company president?
+
+@ 3.50
+# 社 長
+JP はい。
+JP 実はうちの団体に入って
+JP いただけないかと思いまして…。
+EN Yes. Actually, I was hoping you might join my
+EN promotion...
+
+@ 3.57
+# サンダー龍子
+JP …スカウトってこと？
+EN ...You mean you're scouting me?
+
+@ 3.60
+# 社 長
+JP はい。
+JP 是非うちの団体に
+JP 来ていただけませんか？
+EN Yes. Would you please consider coming to my
+EN promotion?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# サンダー龍子
+JP …そうだね。
+JP そろそろ実戦で試してみるのも
+JP ありかな。
+EN ...Yeah. Maybe it's about time I tested myself in real
+EN fights.
+
+@ 4.22
+# 社 長
+JP それじゃあ、うちに…。
+EN Then you'll join us...
+
+@ 4.29
+# サンダー龍子
+JP ただし、ファイトスタイルには
+JP 口出し無用だよ。
+EN But don't you go telling me how to fight.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# サンダー龍子
+JP 悪い…。
+JP 他あたってくれ。
+EN Sorry... Try someone else.
+
+@ 5.28
+# 社 長
+JP あっ、待ってください。
+JP 龍子さんっ！
+EN Ah, please wait. Ryuko!
+
+@ 5.30
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she wouldn't
+EN change her mind...)
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP よーし、今度こそ…。
+JP あの、すみません。
+EN All right, this time for sure... Um, excuse me.
+
+@ 6.33
+# サンダー龍子
+JP …また、あんたか…。
+EN ...You again...
+
+@ 6.36
+# 社 長
+JP はい。
+JP どうしてもうちの団体に
+JP 入って欲しいんです。
+EN Yes. I really want you to join my promotion.
+
+@ 6.43
+# サンダー龍子
+JP 商売を考えれば
+JP 私なんか抱えこまない方が
+JP 楽なはずだよ。
+EN If you're thinking business, you'd have an easier
+EN time not taking on someone like me.
+
+@ 6.46
+# 社 長
+JP 商売だけでやっていける世界じゃ
+JP ありませんからね。
+EN Well, it's not a world you can get by in on business
+EN alone.
+
+@ 6.53
+# サンダー龍子
+JP …あんた、面白いこと言うね。
+EN ...You say some interesting things.
+
+@ 6.56
+# 社 長
+JP お願いします。
+JP どうか、うちで戦ってもらえませんか？
+EN Please. Won't you fight for us?
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# サンダー龍子
+JP …そうだね。
+JP そろそろ実戦で試してみるのも
+JP ありかな。
+EN ...Yeah. Maybe it's about time I tested myself in real
+EN fights.
+
+@ 7.22
+# 社 長
+JP それじゃあ、うちに…。
+EN Then you'll join us...
+
+@ 7.29
+# サンダー龍子
+JP ただし、ファイトスタイルには
+JP 口出し無用だよ。
+EN But don't you go telling me how to fight.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# サンダー龍子
+JP 悪い…。
+JP 他あたってくれ。
+EN Sorry... Try someone else.
+
+@ 8.28
+# 社 長
+JP あっ、待ってください。
+JP 龍子さんっ！
+EN Ah, please wait. Ryuko!
+
+@ 8.30
+# 社 長
+JP （俺はさらに説得してみたが
+JP 　彼女の気持ちは変わらなかった…）
+EN (I tried to persuade her further, but she wouldn't
+EN change her mind...)
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （龍子選手…。
+JP 　彼女のようなパワーのある選手
+JP 　うちの看板として是非欲しい！）
+EN (Ryuko... A wrestler with her kind of power would be
+EN perfect as the face of my promotion!)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be somewhere around here... Ah, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+JP 私、プロレス団体を
+JP 経営している者なんですが…。
+EN Um, excuse me. I run a pro wrestling promotion...
+
+@ 9.37
+# サンダー龍子
+JP 試合の話なら団体を通してくれ。
+EN If it's about a match, go through my promotion.
+
+@ 9.40
+# 社 長
+JP 龍子さん。
+JP 今の団体で満足してますか？
+EN Ryuko. Are you satisfied with your current
+EN promotion?
+
+@ 9.47
+# サンダー龍子
+JP もしかして、私を引き抜きに…？
+EN Wait, are you trying to poach me...?
+
+@ 9.50
+# 社 長
+JP はい。
+JP どうしても、あなたが欲しいんです。
+JP 考えていただけませんか？
+EN Yes. I really want you. Would you think it over?
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# サンダー龍子
+JP リングを変えてみるのもいいかもね…。
+EN Maybe switching rings wouldn't be so bad...
+
+@ 10.22
+# 社 長
+JP それじゃあ、うちに…。
+EN Then you'll join us...
+
+@ 10.29
+# サンダー龍子
+JP ただ、練習にもファイトスタイルにも
+JP 口を出さないこと、それが条件だよ。
+EN But you don't stick your nose in my training or my
+EN fighting style. That's my condition.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# サンダー龍子
+JP 興味ないね。
+JP 私は戦えれば、どこでもいいんだ。
+EN Not interested. As long as I can fight, I don't care
+EN where.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには龍子選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (My promotion really does need Ryuko. I decided to
+EN try negotiating once more.)
+
+@ 12.26
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.36
+# サンダー龍子
+JP また、あんたか…。
+JP いい加減にしてくれ。
+EN You again... Give it a rest already.
+
+@ 12.39
+# 社 長
+JP 何度でも来ます。
+JP 私はレスラーとしてのあなたが
+JP どうしても欲しいんです。
+EN I'll come as many times as it takes. I really want you
+EN as a wrestler.
+
+@ 12.43
+# サンダー龍子
+JP ………………。
+EN ..................
+
+@ 12.46
+# 社 長
+JP 考えていただけませんか？
+EN Won't you think it over?
+
+@ 12.48
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my terms again and pleaded my case
+EN passionately.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# サンダー龍子
+JP リングを変えてみるのもいいかもね…。
+EN Maybe switching rings wouldn't be so bad...
+
+@ 13.22
+# 社 長
+JP それじゃあ、うちに…。
+EN Then you'll join us...
+
+@ 13.29
+# サンダー龍子
+JP ただ、練習にもファイトスタイルにも
+JP 口を出さないこと、それが条件だよ。
+EN But you don't stick your nose in my training or my
+EN fighting style. That's my condition.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# サンダー龍子
+JP 興味ないね。
+JP 私は戦えれば、どこでもいいんだ。
+EN Not interested. As long as I can fight, I don't care
+EN where.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （龍子選手…。
+JP 　彼女なら絶対に世界も狙える。
+JP 　絶対に欲しい逸材だ）
+EN (Ryuko... She could definitely take on the world.
+EN She's a talent I absolutely want.)
+
+@ 15.25
+# 社 長
+JP （いつもこのあたりにいるって
+JP 　話だけど…あぁ、いたいた）
+EN (I heard she's always around here... Ah, there she is.)
+
+@ 15.27
+# 社 長
+JP あっ、龍子さん。
+JP 突然すみません。
+JP 私、こういう者なんですが…。
+EN Ah, Ryuko. Sorry to bother you out of nowhere.
+EN Here's my card...
+
+@ 15.37
+# サンダー龍子
+JP んっ…？
+JP あぁ、団体の…。
+JP それで？
+EN Hm...? Oh, a promotion guy... So?
+
+@ 15.40
+# 社 長
+JP 単刀直入に言えば
+JP 入団のお願いに参りました。
+EN To get straight to the point, I've come to ask you to
+EN join us.
+
+@ 15.47
+# サンダー龍子
+JP ふ～ん…。
+JP 私がなんて呼ばれてるか
+JP わかった上でのことかい？
+EN Hmm... You know what people call me, and you're
+EN asking anyway?
+
+@ 15.50
+# 社 長
+JP もちろん、承知の上です。
+JP どうか、うちの団体に入ってください。
+EN Of course, I'm well aware. Please, join my promotion.
+
+@ 15.52
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my terms and kept at it, trying to win her
+EN over.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# サンダー龍子
+JP あんたのところで世話になるのも
+JP 悪くないかもしれないね。
+EN Maybe being looked after by you wouldn't be so bad.
+
+@ 16.22
+# 社 長
+JP それじゃあ、うちに…。
+EN Then you'll join us...
+
+@ 16.29
+# サンダー龍子
+JP ただし、私は自分のやり方を貫くから
+JP 覚悟してね。
+EN But I'm doing things my own way, so be ready for
+EN that.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# サンダー龍子
+JP 興味ないね。
+JP 私は自分の思う通りにできれば
+JP それでいいんだ。
+EN Not interested. As long as I can do things my way,
+EN that's all I need.
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちには龍子選手が必要だ。
+JP 　俺はもう一度交渉してみることにした）
+EN (My promotion really does need Ryuko. I decided to
+EN try negotiating once more.)
+
+@ 18.26
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.36
+# サンダー龍子
+JP また、あんたか…。
+JP 意外としつこいんだね。
+EN You again... You're more stubborn than you look.
+
+@ 18.39
+# 社 長
+JP 何度でも来ます。
+JP 私はレスラーとしてのあなたが
+JP どうしても欲しいんです。
+EN I'll come as many times as it takes. I really want you
+EN as a wrestler.
+
+@ 18.46
+# サンダー龍子
+JP ………………。
+EN ..................
+
+@ 18.49
+# 社 長
+JP 考えていただけませんか？
+EN Won't you think it over?
+
+@ 18.51
+# 社 長
+JP （俺は再び条件を提示して
+JP 　熱心に説得してみた）
+EN (I laid out my terms again and pleaded my case
+EN passionately.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# サンダー龍子
+JP あんたのところで世話になるのも
+JP 悪くないかもしれないね。
+EN Maybe being looked after by you wouldn't be so bad.
+
+@ 19.22
+# 社 長
+JP それじゃあ、うちに…。
+EN Then you'll join us...
+
+@ 19.29
+# サンダー龍子
+JP ただし、私は自分のやり方を貫くから
+JP 覚悟してね。
+EN But I'm doing things my own way, so be ready for
+EN that.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# サンダー龍子
+JP 興味ないね。
+JP 私は自分の思う通りにできれば
+JP それでいいんだ。
+EN Not interested. As long as I can do things my way,
+EN that's all I need.
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は龍子を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to pay Ryuko a visit. She really is a
+EN wrestler my promotion needs.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりに…。
+JP あっ、いたいた。
+JP おーい、龍子ぉ！
+EN She should be around here... Ah, there she is. Hey,
+EN Ryuko!
+
+@ 21.35
+# サンダー龍子
+JP ………………。
+EN ..................
+
+@ 21.44
+# 社 長
+JP あっ、待ってくれ！
+JP おまえの信頼を裏切ったことは謝る！
+EN Ah, wait! I'm sorry I betrayed your trust!
+
+@ 21.54
+# サンダー龍子
+JP 邪魔だよ…。
+EN Out of my way...
+
+@ 21.57
+# 社 長
+JP 許してくれ。
+JP 頼む、おまえが必要なんだ。
+JP 龍子、考え直してくれ。
+EN Forgive me. Please, I need you. Ryuko, reconsider.
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# サンダー龍子
+JP まったく…。
+JP これだからあいつに根は甘いって
+JP 言われるんだ…。
+EN Geez... This is why a certain someone says I'm a
+EN softie deep down...
+
+@ 22.18
+# 社 長
+JP ……えっ？
+EN ...Huh?
+
+@ 22.29
+# サンダー龍子
+JP わかったよ。
+JP 戻ればいいんだろ、戻れば…。
+EN Fine. I'll come back, okay? I'll come back...
+
+@ 22.32
+# 社 長
+JP ホントか！？
+JP ありがとう、龍子…。
+EN Really?! Thank you, Ryuko...
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# サンダー龍子
+JP 邪魔だって言ってるんだよ。
+EN I said, out of my way.
+
+@ 23.28
+# 社 長
+JP （その後も龍子は、俺の話をまったく
+JP 　聞こうとしなかった）
+EN (After that, Ryuko wouldn't listen to a word I said.)
+
+@ 23.30
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I only have myself to blame...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び龍子を訪ねることにした。
+JP 　やっぱり彼女はうちに必要な選手だ）
+EN (I decided to visit Ryuko again. She really is a
+EN wrestler my promotion needs.)
+
+@ 24.26
+# 社 長
+JP ええっと…。
+JP 龍子、ちょっといいか？
+EN Um... Ryuko, got a minute?
+
+@ 24.36
+# サンダー龍子
+JP …邪魔だ。
+EN ...Out of my way.
+
+@ 24.39
+# 社 長
+JP 頼む…。
+JP どうしても団体に戻って欲しいんだ。
+EN Please... I really want you to come back to the
+EN promotion.
+
+@ 24.41
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# サンダー龍子
+JP まったく…。
+JP これだからあいつに根は甘いって
+JP 言われるんだ…。
+EN Geez... This is why a certain someone says I'm a
+EN softie deep down...
+
+@ 25.18
+# 社 長
+JP ……えっ？
+EN ...Huh?
+
+@ 25.29
+# サンダー龍子
+JP わかったよ。
+JP 戻ればいいんだろ、戻れば…。
+EN Fine. I'll come back, okay? I'll come back...
+
+@ 25.32
+# 社 長
+JP ホントか！？
+JP ありがとう、龍子…。
+EN Really?! Thank you, Ryuko...
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# サンダー龍子
+JP 邪魔だって言ってるんだよ。
+EN I said, out of my way.
+
+@ 26.28
+# 社 長
+JP （その後も龍子は、俺の話をまったく
+JP 　聞こうとしなかった）
+EN (After that, Ryuko wouldn't listen to a word I said.)
+
+@ 26.30
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I only have myself to blame...)
+
+@ 27.16
+# scene 028 ケガ小
+# サンダー龍子
+JP こんなケガ、ツバつけとけば治るよ。
+EN An injury like this? Just rub some spit on it.
+
+@ 28.16
+# scene 029 ケガ大
+# サンダー龍子
+JP クソッ…。
+JP こんなときに…。
+EN Damn it... Why now...
+
+@ 29.16
+# scene 030 入院
+# サンダー龍子
+JP 復帰戦の相手、考えといてくれよ。
+EN Start thinking about who I'm facing in my comeback
+EN match.
+
+@ 30.16
+# scene 031 退院
+# サンダー龍子
+JP 復帰戦の相手は誰なんだ？
+EN So who's my opponent for the comeback match?
+
+@ 31.16
+# scene 032 ケガ完治
+# サンダー龍子
+JP ケガなんて気合いで治るもんだよ。
+EN Injuries heal with guts, you know.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# サンダー龍子
+JP フゥ～…。
+JP 私もここまでか…。
+JP 世話になったね、色々と…。
+EN Phew... So this is as far as I go... Thanks for
+EN everything, Boss...
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# サンダー龍子
+JP ふざけんな！
+JP 私はまだ燃え尽きてないよ！
+EN Screw that! I haven't burned out yet!
+
+@ 34.16
+# scene 035 コーチ就任
+# サンダー龍子
+JP 私のしごきに耐えられる奴が
+JP いるのか心配だよ。
+EN I'm worried whether anyone can survive my training.
+
+@ 35.16
+# scene 036 ケガ引退
+# サンダー龍子
+JP 情けないね…。
+JP こんなことでリングを降りるなんてさ…。
+EN Pathetic... Leaving the ring over something like this...
+
+@ 36.16
+# scene 037 年齢引退
+# サンダー龍子
+JP みんな、あとは頼んだよ。
+JP それと…社長、世話になったね。
+JP 礼を言うよ。
+EN Everyone, I'm leaving the rest to you. And... Boss,
+EN thanks for everything. I owe you.
+
+@ 37.16
+# scene 038 退団
+# サンダー龍子
+JP じゃあな。
+EN See ya.
+
+@ 38.16
+# scene 039 スランプ
+# サンダー龍子
+JP クッ…。
+JP なんでうまくいかないんだ…。
+EN Tch... Why isn't anything working...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# サンダー龍子
+JP 世の中…物好きな連中も
+JP いるもんだね。
+EN Guess there are some weirdos out there.
+
+@ 39.19
+# 社 長
+JP おまえにとっては、まだ手始めだろ。
+EN For you, this is just the beginning, right?
+
+@ 39.26
+# サンダー龍子
+JP ふん…。
+JP 期待は裏切らないようにするよ。
+EN Hmph... I'll try not to let them down.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# サンダー龍子
+JP また…？
+JP ホントに物好きが多いね。
+EN Another one...? There really are a lot of weirdos.
+
+@ 40.19
+# 社 長
+JP 嬉しいもんだろ？
+EN It makes you happy, doesn't it?
+
+@ 40.26
+# サンダー龍子
+JP まぁ…ね…。
+EN Well... yeah...
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# サンダー龍子
+JP こんなこともあるさ。
+EN These things happen.
+
+@ 41.19
+# 社 長
+JP そうだな…って
+JP 落ち込むのは、おまえじゃないのか？
+EN Yeah... Wait, aren't you the one who should be upset?
+
+@ 42.16
+# scene 043 映画出演
+# サンダー龍子
+JP 私が女優…？
+JP どうなっても知らないよ。
+EN Me, an actress...? Don't blame me for how it turns
+EN out.
+
+@ 43.16
+# scene 044 一日署長
+# サンダー龍子
+JP 帰りに警察の柔道場で遊んでくるよ。
+EN On the way back, I'll go mess around at the police
+EN judo hall.
+
+@ 44.16
+# scene 045 写真集発売
+# サンダー龍子
+JP …売れなくても知らないよ。
+EN ...Don't blame me if it doesn't sell.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# サンダー龍子
+JP これ…。
+JP ホントに私がやるのか？
+EN This...? I'm really supposed to do this?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# サンダー龍子
+JP フンッ…。
+JP 私をさらし者にする気か？
+EN Hmph... You trying to make a spectacle of me?
+
+@ 47.16
+# scene 048 始球式
+# サンダー龍子
+JP ついでに試合にも出してくれれば
+JP 面白いんだけどね。
+EN Would be more fun if they let me play in the game
+EN while I'm at it.
+
+@ 48.16
+# scene 049 学園祭
+# サンダー龍子
+JP 気分転換でもしてくるよ。
+EN I'll go clear my head or something.
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.38
+# サンダー龍子
+JP へぇ…。
+JP そりゃ…どうも…。
+EN Huh... Well... thanks...
+
+@ 49.41
+# 社 長
+JP …んっ？
+JP 気に入らないのか？
+EN ...Hm? You don't like it?
+
+@ 49.48
+# サンダー龍子
+JP いや、そうじゃなくて…。
+JP ちょっと…意外だったかな…。
+EN No, it's not that... I just... didn't expect it, I guess...
+
+@ 50.32
+# scene 051 バレンタインデー
+# サンダー龍子
+JP あぁ、社長。
+JP これ。
+EN Oh, Boss. Here.
+
+@ 50.35
+# 社 長
+JP …んっ？
+JP １０円チョコ？
+JP …あぁ、バレンタインのチョコか。
+EN ...Hm? A 10-yen chocolate? ...Oh, Valentine's
+EN chocolate.
+
+@ 50.42
+# サンダー龍子
+JP 世話になってる礼だ。
+EN For looking out for me.
+
+@ 50.45
+# 社 長
+JP ははは、おまえらしいな。
+JP ありがたくいただくよ。
+EN Hahaha, that's so you. I'll gladly take it.
+
+@ 51.30
+# scene 052 ホワイトデー
+# 社 長
+JP あぁ、龍子。
+JP 先月のお礼だ。
+EN Oh, Ryuko. Thanks for last month.
+
+@ 51.38
+# サンダー龍子
+JP …んっ？
+JP あぁ…ホワイトデー…。
+JP 今日だったんだな。
+EN ...Hm? Oh... White Day... So it's today.
+
+@ 51.41
+# 社 長
+JP 練習の合間にでもつまんでくれ。
+EN Have some between training sessions.
+
+@ 51.48
+# サンダー龍子
+JP そうするよ。
+EN Will do.
+
+@ 52.31
+# scene 053 サイン会
+# サンダー龍子
+JP こういうの苦手なんだよ…。
+EN I'm no good at this kind of thing...
+
+@ 53.31
+# scene 054 コンサート
+# サンダー龍子
+JP …笑った奴は覚悟しとけよ…！
+EN ...Anyone who laughs had better be ready...!
+
+@ 54.28
+# scene 055 練習拒否
+# サンダー龍子
+JP こっちはこっちで勝手に
+JP させてもらうよ。
+EN I'm gonna do things my own way, thanks.
+
+@ 55.23
+# scene 056 失踪
+# サンダー龍子
+JP 「山ごもりしてくる。探すな」
+JP 　　　　　　　　　　―　龍子
+EN "Off training in the mountains. Don't look for me." -
+EN Ryuko
+
+@ 56.16
+# scene 057 選手解雇
+# サンダー龍子
+JP フンッ…。
+JP やっぱりこうなると思ってたよ。
+EN Hmph... I figured it'd come to this.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# サンダー龍子
+JP さーて、今の私がどこまで通用するのか
+JP 思う存分試してくるよ。
+EN All right, I'm gonna go see just how far I can get as I
+EN am now.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# サンダー龍子
+JP 帰ったよ。
+JP 土産話は後でいいかい？
+EN I'm back. Can the stories wait till later?
+
+@ 59.28
+# scene 060 移籍思案
+# サンダー龍子
+JP 強くなるにはどっちの方が…。
+EN Which way would make me stronger...
+
+@ 60.16
+# scene 061 革命軍結成
+# サンダー龍子
+JP さーて…本気でいくよ！
+EN All right... I'm going all out!
+
+@ 61.16
+# scene 062 反乱軍結成
+# サンダー龍子
+JP ウザイんだよ！
+JP 何もかもッ！
+EN I'm sick of it! Sick of everything!
+
+@ 62.16
+# scene 063 最終決戦要求
+# サンダー龍子
+JP 逃げるなよ！
+EN Don't you run away!
+
+@ 63.16
+# scene 064 遺恨発生
+# サンダー龍子
+JP …チッ。
+EN ...Tch.
+
+@ 64.16
+# scene 065 殴り込み
+# サンダー龍子
+JP 向こうがまともに戦ってくれると
+JP いいんだけどね。
+EN Hope they actually put up a real fight.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# サンダー龍子
+JP いい度胸だ。
+JP 叩き潰してやる！
+EN You've got guts. I'll crush you!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# サンダー龍子
+JP エースを出しな！
+JP それとも逃げるかい？
+EN Bring out your ace! Or are you gonna run?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# サンダー龍子
+JP ここで勝てなきゃ女がすたるってね！
+EN If I can't win here, I can't call myself a woman!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# サンダー龍子
+JP これも通過点のひとつさ。
+JP 私の理想はまだ先にあるんだ。
+EN This is just another stop along the way. My ideal is
+EN still further ahead.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# サンダー龍子
+JP チッ…。
+JP 私もまだまだってことか…。
+EN Tch... Guess I've still got a long way to go...
+
+@ 70.13
+# scene 071 引退式
+# サンダー龍子
+JP ただひらすら、走り続けてきました。
+JP これからも走り続けます。
+JP ありがとうございました！
+EN I've done nothing but keep running. And I'll keep on
+EN running. Thank you all so much!
+
+@ 71.18
+# サンダー龍子
+JP なんだい、いきなり。
+EN What is it, all of a sudden?
+
+@ 71.37
+# サンダー龍子
+JP あぁ、社長。
+JP お疲れ。
+EN Oh, Boss. Hey.
+
+@ 71.47
+# サンダー龍子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been looking good lately. Keep it up.
+
+@ 71.90
+# サンダー龍子
+JP あぁ。
+JP わかってる。
+EN Yeah. I know.
+
+@ 71.111
+# サンダー龍子
+JP お世辞はいらないよ。
+EN Save the flattery.
+
+@ 71.132
+# サンダー龍子
+JP ありがとう。
+JP お世辞でも嬉しいもんだね。
+EN Thanks. Even if it's flattery, it's nice to hear.
+
+@ 71.153
+# サンダー龍子
+JP いいよ…。
+JP 別に無理しなくても…。
+EN It's fine... You don't have to force it...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.190
+# サンダー龍子
+JP …あぁ、気を付ける。
+EN ...Yeah, I'll watch it.
+
+@ 71.211
+# サンダー龍子
+JP …練習中だから…。
+EN ...I'm in the middle of training...
+
+@ 71.232
+# サンダー龍子
+JP たるんでたのは認めるよ…。
+JP その…ゴメン…。
+EN I'll admit I've been slacking... Um... sorry...
+
+@ 71.253
+# サンダー龍子
+JP 私だって上手くいかない
+JP ときくらい…。
+EN Even I have times when things don't go right...
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# サンダー龍子
+JP …たいしたことないよ。
+EN ...It's nothing much.
+
+@ 71.311
+# サンダー龍子
+JP 社長の気のせいだよ。
+EN You're imagining things, Boss.
+
+@ 71.332
+# サンダー龍子
+JP 色々とね。
+JP 気が向いたら相談するよ。
+EN Just stuff, you know. If I feel like it, I'll talk to you
+EN about it.
+
+@ 71.353
+# サンダー龍子
+JP …たいしたことないよ。
+JP それより今は一人にしてくれないか…。
+EN ...It's nothing much. More importantly, could you leave
+EN me alone for now...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# サンダー龍子
+JP …ちっ。
+EN ...Tch.
+
+@ 71.400
+# サンダー龍子
+JP …んっ？
+EN ...Hm?
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# サンダー龍子
+JP あぁ、わかった。
+JP 社長命令ってやつなんだろ。
+EN Yeah, fine. Boss's orders, right?
+
+@ 71.453
+# サンダー龍子
+JP 悪い、断る。
+EN Sorry, no.
+
+@ 71.474
+# サンダー龍子
+JP なんだ…。
+JP 勘違いすんなよ。
+JP かわいがってるだけさ。
+EN What... Don't get the wrong idea. I'm just showing her
+EN some love.
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# サンダー龍子
+JP あぁ…。
+JP わかってるよ。
+EN Yeah... I know.
+
+@ 71.521
+# サンダー龍子
+JP またろくでもない仕事でも
+JP 持ってきたのかい？
+EN Brought me another lousy job or something?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# サンダー龍子
+JP わかってるよ。
+JP ちょっと行ってくる。
+EN I know. I'll go take care of it.
+
+@ 71.578
+# サンダー龍子
+JP それはできないよ。
+EN That I can't do.
+
+@ 71.599
+# サンダー龍子
+JP あぁ…。
+JP それ勘違いだよ。
+EN Oh... You've got the wrong idea.
+
+@ 72.13
+# scene 073 会話 一言目 好意
+# サンダー龍子
+JP あぁ、社長。お疲れ。
+EN Oh, Boss. Hey.
+
+@ 72.15
+# サンダー龍子
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近いい感じだな。
+JP その調子でがんばれよ
+EN You've been looking good lately. Keep it up.
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# サンダー龍子
+JP あぁ。わかってる。
+EN Yeah. I know.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# サンダー龍子
+JP お世辞はいらないよ。
+EN Save the flattery.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# サンダー龍子
+JP ありがとう。
+JP お世辞でも嬉しいもんだね。
+EN Thanks. Even if it's flattery, it's nice to hear.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# サンダー龍子
+JP いいよ…。別に無理しなくても…。
+EN It's fine... You don't have to force it...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# サンダー龍子
+JP …あぁ、気を付ける。
+EN ...Yeah, I'll watch it.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# サンダー龍子
+JP …練習中だから。
+EN ...I'm in the middle of training.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# サンダー龍子
+JP たるんでたのは認めるよ…。
+JP その…ゴメン。
+EN I'll admit I've been slacking... Um... sorry.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# サンダー龍子
+JP 私だって上手くいかない
+JP ときくらい…。
+EN Even I have times when things don't go right...
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# サンダー龍子
+JP …たいしたことないよ。
+EN ...It's nothing much.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# サンダー龍子
+JP 社長の気のせいだよ。
+EN You're imagining things, Boss.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# サンダー龍子
+JP いろいろとね。
+JP 気が向いたら相談するよ。
+EN Just stuff, you know. If I feel like it, I'll talk to you
+EN about it.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# サンダー龍子
+JP …たいしたことないよ。
+JP それより今はひとりに
+JP してくれないか。
+EN ...It's nothing much. More importantly, could you leave
+EN me alone for now?
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.11
+# scene 090 会話 仲裁する 通常 遺恨あり
+# サンダー龍子
+JP ……ちっ。
+EN ...Tch.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# サンダー龍子
+JP んっ？
+EN Hm?
+
+@ 91.8
+# scene 092 会話 仲裁する 通常２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# サンダー龍子
+JP あぁ、わかった。
+JP 社長命令ってやつなんだろ。
+EN Yeah, fine. Boss's orders, right?
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# サンダー龍子
+JP 悪い、断る。
+EN Sorry, no.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# サンダー龍子
+JP なんだ…。勘違いすんなよ。
+JP かわいがってるだけさ。
+EN What... Don't get the wrong idea. I'm just showing her
+EN some love.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# サンダー龍子
+JP あぁ…。わかってるよ。
+EN Yeah... I know.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# サンダー龍子
+JP またろくでもない仕事でも
+JP 持ってきたのかい？
+EN Brought me another lousy job or something?
+
+@ 98.8
+# scene 099 会話 仲裁する 好意２
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# サンダー龍子
+JP わかってるよ。
+JP ちょっと行ってくる。
+EN I know. I'll go take care of it.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# サンダー龍子
+JP それはできないよ。
+EN That I can't do.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# サンダー龍子
+JP あぁ…。それ勘違いだよ。
+EN Oh... You've got the wrong idea.
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# サンダー龍子
+JP 来年もよろしく頼むよ。
+EN Count on me next year too.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# サンダー龍子
+JP 期待には応えないといけないね。
+EN Guess I'll have to live up to expectations.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# サンダー龍子
+JP 私はこの程度ってことだね…。
+EN So that's all I'm worth, huh...
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP さーて…。
+JP 俺も羽根を伸ばさせてもらうか…。
+EN All right... Time for me to kick back too...
+
+@ 105.30
+# 社 長
+JP …んっ…あれは…？
+EN ...Hm... What's that...?
+
+@ 105.46
+# 社 長
+JP はーい、そこのお嬢さん。
+EN Hey there, young lady.
+
+@ 105.56
+# サンダー龍子
+JP …………ンッ……！
+EN ............Ngh......!
+
+@ 105.59
+# 社 長
+JP （き、機嫌が悪いのか？）
+EN (Wh-whoa, is she in a bad mood?)
+
+@ 105.69
+# サンダー龍子
+JP 社長か…。
+JP 驚かすなよ…。
+EN Oh, it's you, Boss... Don't startle me like that...
+
+@ 105.72
+# 社 長
+JP 驚いたのはこっちだぞ。
+JP 何かあったのか？
+EN I'm the one who got startled. Did something happen?
+
+@ 105.82
+# サンダー龍子
+JP さっきから軟弱で軽薄な男たちに
+JP つきまとわれて、ムカついてたんだ。
+EN A bunch of flimsy, sleazy guys have been following
+EN me around. It's ticking me off.
+
+@ 105.85
+# 社 長
+JP （ピリピリしてるなぁ…）
+EN (She's really on edge...)
+
+@ 105.87
+# 社 長
+JP じゃあ、俺が見張ってるから
+JP おまえはみんなと一緒に
+JP 泳いできていいぞ。
+EN Then I'll keep watch, and you can go swim with
+EN everyone.
+
+@ 105.91
+# サンダー龍子
+JP 目を付けられたのは私だよ。
+JP みんなの迷惑になる。
+EN I'm the one they've got their eye on. I'd just cause
+EN everyone trouble.
+
+@ 105.94
+# 社 長
+JP 平気だって。
+JP そもそも虫除けは俺の役割だぞ。
+JP おまえはみんなと遊んでこい。
+EN Don't worry. Keeping the pests away is my job
+EN anyway. Go have fun with everyone.
+
+@ 105.104
+# サンダー龍子
+JP でも…。
+EN But...
+
+@ 105.107
+# 社 長
+JP いざとなったら
+JP 俺がどうにかするさ。
+EN If it comes to it, I'll handle things.
+
+@ 105.109
+# 社 長
+JP つまらないことで
+JP おまえに怪我をされても困るからな。
+EN I can't have you getting hurt over something stupid.
+
+@ 105.113
+# サンダー龍子
+JP 鍛え方が違うよ。
+JP 並みの男になんて負けはしないさ。
+EN I train harder than that. No ordinary guy's gonna
+EN beat me.
+
+@ 105.116
+# 社 長
+JP それはそうだが…。
+JP ちょっとした怪我でも
+JP 何が災いするかわからないだろ？
+EN That's true, but... Even a small injury could turn into
+EN who knows what, right?
+
+@ 105.120
+# サンダー龍子
+JP フゥ…。
+JP 気持ちだけ受け取っておくよ。
+EN Phew... I'll take the thought, at least.
+
+@ 105.123
+# 社 長
+JP まったく…。
+EN Honestly...
+
+@ 105.125
+# 社 長
+JP （それにしても…）
+EN (Still...)
+
+@ 105.134
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.144
+# サンダー龍子
+JP …おい！
+JP どこ見てるんだ？
+EN ...Hey! Where are you looking?
+
+@ 105.147
+# 社 長
+JP あっ、いや、こうして見ると…。
+JP プロポーションがいいんだな。
+EN Ah, no, seeing you like this... You've got a great
+EN figure.
+
+@ 105.157
+# サンダー龍子
+JP ………………。
+EN ..................
+
+@ 105.160
+# 社 長
+JP 別にお世辞で言うつもりは
+JP ないんだが…。
+EN I'm not trying to flatter you or anything...
+
+@ 105.162
+# 社 長
+JP あぁ、うん。
+JP アイドル系みたいな
+JP 体型じゃないが…。
+EN Ah, well, you don't have an idol type of body, but...
+
+@ 105.164
+# 社 長
+JP でも、いい体だよ。
+JP レスラーとしても女としてもな。
+EN It's still a great body. As a wrestler and as a woman.
+
+@ 105.168
+# サンダー龍子
+JP まったく…。
+JP 褒めるなら褒めるで言葉を…。
+EN Geez... If you're gonna compliment me, at least pick
+EN your words...
+
+@ 105.171
+# 社 長
+JP …んっ？
+EN ...Hm?
+
+@ 105.188
+# サンダー龍子
+JP 泳いでくる…！
+EN I'm going swimming...!
+
+@ 105.191
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.193
+# 社 長
+JP …えっ？
+JP あっ、龍子、なんて言ったんだ？
+EN ...Huh? Wait, Ryuko, what did you say?
+
+@ 105.197
+# サンダー龍子
+JP 何も言ってないよ。
+JP バカ…。
+EN I didn't say anything. Idiot...
+
+@ 105.216
+# 社 長
+JP あ～あ、行っちゃったか…。
+EN Aw, there she goes...
+
+@ 105.218
+# 社 長
+JP おおっと…。
+JP こっちは虫除けしないとな…。
+EN Whoa there... Got to keep the pests away from her...
+
+@ 106.20
+# scene 107 日常イベント１
+# 社 長
+JP これで終わりっと…。
+JP ん～っ…はぁああああ…。
+EN And that's done... Mmm... Haaaah...
+
+@ 106.22
+# 社 長
+JP さて、帰るか…。
+JP その前に戸締まり、戸締まり。
+JP 霧子くん、うるさいからなぁ。
+EN Well, time to head home... But first, lock up, lock up.
+EN Kiriko gets on my case about it.
+
+@ 106.36
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.38
+# 社 長
+JP （…んっ、ジムの電気が…？
+JP 　もう全員帰ったはずだよな？）
+EN (...Hm, the gym lights are on...? Everyone should've
+EN gone home already.)
+
+@ 106.53
+# 社 長
+JP おーい、誰か残ってるのかぁ？
+EN Hey, is someone still here?
+
+@ 106.55
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.57
+# 社 長
+JP （おかしいなぁ…。
+JP 　…んっ、サウナの電気も…？
+JP 　誰かいるのか？）
+EN (That's weird... Hm, the sauna light's on too...? Is
+EN someone in there?)
+
+@ 106.64
+# 社 長
+JP おーい、誰かいるのか？
+EN Hey, is anyone in there?
+
+@ 106.66
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.68
+# 社 長
+JP 開けるぞぉ。
+EN I'm opening the door.
+
+@ 106.82
+# 社 長
+JP うわっ！？
+JP りゅ、龍子！？
+EN Whoa?! R-Ryuko?!
+
+@ 106.86
+# サンダー龍子
+JP ………………。
+EN ..................
+
+@ 106.89
+# 社 長
+JP 龍子！？
+JP おい、しっかりしろ、龍子、龍子！！
+EN Ryuko?! Hey, hang in there! Ryuko, Ryuko!!
+
+@ 106.99
+# サンダー龍子
+JP んっ…。
+JP あぁ…社長……。
+EN Mm... Oh... Boss...
+
+@ 106.102
+# 社 長
+JP 喋るな！
+JP すぐに救急車呼ぶから
+JP ここで待ってろ！
+EN Don't talk! I'll call an ambulance right away, so wait
+EN here!
+
+@ 106.112
+# サンダー龍子
+JP んっ…。
+JP ふわぁああああ……。
+EN Mm... Fwaaaahhh...
+
+@ 106.115
+# 社 長
+JP ………えっ？
+EN ...Huh?
+
+@ 106.125
+# サンダー龍子
+JP あと５分…。
+EN Five more minutes...
+
+@ 106.128
+# 社 長
+JP おい、まさか…。
+EN Hey, don't tell me...
+
+@ 106.132
+# サンダー龍子
+JP …すぅ…すぅ…すぅ…………。
+EN ...Zzz... Zzz... Zzz......
+
+@ 106.135
+# 社 長
+JP （ええっと…まさか
+JP 　サウナに入ってるうちに
+JP 　疲れがドッと出て…）
+EN (Let's see... Don't tell me she got hit with all her
+EN fatigue while in the sauna...)
+
+@ 106.137
+# 社 長
+JP （そのまま寝てしまったとか…。
+JP 　そういう訳か？）
+EN (And just fell asleep like that... Is that what
+EN happened?)
+
+@ 106.139
+# 社 長
+JP （そういえばサウナの設定温度
+JP 　少しぬるめだな…。
+JP 　誰だ、温度変えたやつは…）
+EN (Come to think of it, the sauna's set a bit lukewarm...
+EN Who changed the temperature...)
+
+@ 106.143
+# サンダー龍子
+JP んっ…。
+JP 社長…ほら…ベルト……。
+EN Mm... Boss... look... the belt......
+
+@ 106.146
+# 社 長
+JP まったく…。
+JP ここで寝てちゃまずいだろ…。
+EN Honestly... You can't sleep in here...
+
+@ 106.150
+# サンダー龍子
+JP …すぅ…すぅ…すぅ……。
+EN ...Zzz... Zzz... Zzz......
+
+@ 107.20
+# scene 108 日常イベント２
+# 社 長
+JP これで終わりっと…。
+JP ん～っ…はぁああああ…。
+EN And that's done... Mmm... Haaaah...
+
+@ 107.22
+# 社 長
+JP さて、帰るか…。
+JP その前に戸締まり、戸締まり。
+EN Well, time to head home... But first, lock up, lock up.
+
+@ 107.36
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.38
+# 社 長
+JP （…んっ、ジムの電気が…？
+JP 　もう全員、帰ったはずだよな？）
+EN (...Hm, the gym lights are on...? Everyone should've
+EN gone home already.)
+
+@ 107.53
+# 社 長
+JP おーい、誰か残ってるのかぁ？
+EN Hey, is someone still here?
+
+@ 107.55
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.57
+# 社 長
+JP （おかしいなぁ…。
+JP 　…んっ、サウナの電気も…？
+JP 　まさか…）
+EN (That's weird... Hm, the sauna light's on too...? Don't
+EN tell me...)
+
+@ 107.71
+# 社 長
+JP （またか…。
+JP 　サウナで寝るなって
+JP 　あれだけ言ったのに…）
+EN (Not again... After I told her over and over not to
+EN sleep in the sauna...)
+
+@ 107.81
+# サンダー龍子
+JP …んっ…くぅっ…。
+EN ...Ngh... Kuh...
+
+@ 107.84
+# 社 長
+JP …えっ？
+JP り、龍子！？
+EN ...Huh? R-Ryuko?!
+
+@ 107.88
+# サンダー龍子
+JP …あっ…社長…。
+EN ...Ah... Boss...
+
+@ 107.91
+# 社 長
+JP どうした！？
+JP 平気か！？
+EN What happened?! Are you okay?!
+
+@ 107.95
+# サンダー龍子
+JP なんでもない…。
+JP ちょっと転んだだけ…。
+EN It's nothing... I just tripped a little...
+
+@ 107.99
+# サンダー龍子
+JP ……イツゥ…。
+EN ......Owww...
+
+@ 107.102
+# 社 長
+JP どこがなんでもないんだ！
+JP 痛むのは足か？
+EN How is that nothing?! Is it your leg that hurts?
+
+@ 107.106
+# サンダー龍子
+JP いいから出てってくれ…！
+JP セクハラで訴えるぞ…。
+EN Just get out of here...! I'll sue you for harassment...
+
+@ 107.109
+# 社 長
+JP 好きなだけ訴えろ。
+JP 足首だな？
+JP 捻ったのか？
+EN Sue me all you want. It's your ankle, right? Did you
+EN twist it?
+
+@ 107.121
+# サンダー龍子
+JP 立ちくらみでふらついて…。
+JP ちょっとだけだよ…。
+EN I got dizzy and stumbled... It's only a little...
+
+@ 107.124
+# 社 長
+JP どこがちょっとだ。
+JP 最近オーバーワーク気味だったろ。
+EN How is that a little? You've been overworking
+EN yourself lately.
+
+@ 107.126
+# 社 長
+JP 疲れが溜まってるんだ。
+JP 念のためにドクター呼ぶぞ。
+EN The fatigue's been piling up. I'm calling the doctor
+EN just in case.
+
+@ 107.130
+# サンダー龍子
+JP いいよ…！
+JP そこまで大事にしなくて…。
+EN Don't...! You don't have to make such a big deal of
+EN it...
+
+@ 107.133
+# 社 長
+JP 大事だろ！
+JP 万一のことがあったらどうするんだ！
+EN It is a big deal! What if something happens?!
+
+@ 107.137
+# サンダー龍子
+JP ………………。
+EN ..................
+
+@ 107.140
+# 社 長
+JP 少しは自分の体をいたわれ。
+JP ほら、外に運ぶぞ。
+JP 自分で歩くなんて言うなよ。
+EN Take care of your body for once. Come on, I'm
+EN carrying you out. And don't say you'll walk.
+
+@ 107.144
+# サンダー龍子
+JP ……うん、悪い…。
+EN ...Okay, sorry...
+
+@ 107.159
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.161
+# 社 長
+JP （幸いに龍子のケガは軽傷で
+JP 　翌日には回復していた）
+EN (Luckily, Ryuko's injury was minor, and she was fine
+EN by the next day.)
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# サンダー龍子
+JP さっ、軽くやろうか。
+EN Okay, let's go easy.
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# サンダー龍子
+JP 教科書通りの動きだけはするなよ。
+EN Just don't move like you're following a textbook.
+
+@ 110.17
+# scene 112 練習試合 バッド
+# サンダー龍子
+JP 上等だ…。
+JP どっちが上か証明してやる！
+EN Bring it on... I'll prove which of us is better!
+
+@ 111.16
+# scene 113 練習開始
+# サンダー龍子
+JP 今日も一汗かくとするか。
+EN Guess I'll work up a sweat again today.
+
+@ 112.16
+# scene 114 練習開始 好意
+# サンダー龍子
+JP 今日も気合いは十分だよ。
+EN I'm all fired up again today.
+
+@ 113.16
+# scene 115 特訓開始
+# サンダー龍子
+JP きついのは大歓迎だよ。
+EN The tougher, the better.
+
+@ 114.20
+# scene 116 特訓成功
+# サンダー龍子
+JP フゥ～。
+JP いい汗かいたよ。
+EN Phew. That was a good sweat.
+
+@ 115.20
+# scene 117 特訓失敗
+# サンダー龍子
+JP クッ…。
+JP これしきのことで…。
+EN Ngh... Over something like this...
+
+@ 116.16
+# scene 118 休養
+# サンダー龍子
+JP ゆっくり寝ることにするよ。
+EN Think I'll get some good sleep.
+
+@ 117.16
+# scene 119 入場1
+# サンダー龍子
+JP さぁ、試させてもらうよ。
+JP 私がどこまで強くなったか！
+EN All right, let's test it. Let's see how strong I've
+EN gotten!
+
+@ 118.16
+# scene 119 入場2
+# サンダー龍子
+JP 雷龍の牙城、崩せるものなら
+JP 崩してみな！
+EN Try and topple the Thunder Dragon's fortress, if
+EN you can!
+
+@ 119.17
+# scene 120 タッグマッチ ベスト
+# サンダー龍子
+JP 石川、指示は任せるよ。
+EN Ishikawa, I'll leave the calls to you.
+
+@ 120.17
+# scene 121 タッグマッチ ベター１
+# サンダー龍子
+JP 全力でいけ！
+JP 後のことは私に任せなっ！
+EN Go all out! Leave the rest to me!
+
+@ 121.17
+# scene 123 タッグマッチ バッド
+# サンダー龍子
+JP チッ…。
+JP なんだって、こんなヤツと…。
+EN Tch... Why do I have to team with someone like this...
+
+@ 122.16
+# scene 125 必殺技１
+# サンダー龍子
+JP これが私の全力だ！　砕け散れっ！
+EN This is my full power! Shatter!
+
+@ 123.16
+# scene 125 必殺技２
+# サンダー龍子
+JP 龍の逆鱗に触れたようだね！
+EN Looks like you've provoked the dragon's wrath!
+
+@ 124.16
+# scene 125 必殺技３
+# サンダー龍子
+JP 雷神の鉄槌を受けてみろ！
+EN Take the hammer of the thunder god!
+
+@ 125.12
+# scene 126 勝利1
+# サンダー龍子
+JP 勝利への執念の強い者が勝つ。
+JP 当然の結果だ。
+EN The one with the stronger will to win, wins. It's only
+EN natural.
+
+@ 126.12
+# scene 126 勝利2
+# サンダー龍子
+JP もうちょっと手ごたえがあると
+JP 思ったんだけどね…。
+EN I thought you'd put up a bit more of a fight...
+
+@ 127.12
+# scene 126 勝利3
+# サンダー龍子
+JP 私の道は勝つことでしか
+JP 開けないんだ…！
+EN The only way to open my path is to win...!
+
+@ 128.15
+# scene 133 表彰1
+# サンダー龍子
+JP ありがとう。
+JP 来年も暴れさせてもらうよ。
+EN Thanks. I'll be raising hell again next year.
+
+@ 129.15
+# scene 133 表彰2
+# サンダー龍子
+JP 表彰されたくて戦ってる訳じゃ
+JP ないんだよね。
+EN It's not like I fight to get awards.
+
+@ 130.12
+# scene 134 優勝1
+# サンダー龍子
+JP …まるで手ごたえがなかったね。
+EN ...That wasn't much of a challenge at all.
+
+@ 131.12
+# scene 134 優勝２
+# サンダー龍子
+JP この結果に文句のあるヤツ
+JP いつでも挑戦してきな。
+EN Anyone with a problem with this result can come
+EN challenge me anytime.
+
+@ 132.24
+# scene 135 エンディング 通常
+# サンダー龍子
+JP 社長は「やればできる子」
+JP だったんだな…フフッ…。
+EN Turns out you're the "can do it if he tries" type,
+EN Boss... Heh heh...
+
+@ 133.24
+# scene 136 エンディング 好意
+# サンダー龍子
+JP さすが私が見込んだだけの男だったね。
+JP 少し…惚れ直したよ…。
+EN You really are the man I had my eye on. I've fallen for
+EN you... a little more...

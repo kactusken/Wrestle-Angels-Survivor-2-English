@@ -1,0 +1,2222 @@
+# /SCR/053.BIN - 中森あずみ
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 053` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト・挨拶
+# 中森 あずみ
+JP 中森です。
+JP よろしくお願いします。
+EN I'm Nakamori. I look forward to working with you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 中森 あずみ
+JP ありがとうございます。
+JP がんばらせていただきます。
+EN Thank you very much. I will give it my all.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 中森 あずみ
+JP そうですか…。
+JP お手間をおかけしました。
+EN I see... Sorry to have taken up your time.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP たしか、このへんだと
+JP 聞いたんだが…。
+EN I'm pretty sure I heard she'd be around here...
+
+@ 3.25
+# 社 長
+JP しかし、「いぶし銀の仕事人」って
+JP なんだこの推薦書類は。
+EN Still, "a seasoned pro who quietly gets the job done"?
+EN What kind of recommendation is that?
+
+@ 3.28
+# 社 長
+JP 職人か何かなのかな。
+JP それらしい人なんかいないが…。
+EN Is she some kind of craftsman? I don't see anyone
+EN like that around...
+
+@ 3.30
+# 社 長
+JP しょうがない。
+JP あの女の子に聞いてみるか。
+EN Oh well. I'll ask that girl over there.
+
+@ 3.32
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.42
+# ？？？
+JP なんでしょうか？
+EN Yes, what is it?
+
+@ 3.45
+# 社 長
+JP あの、このあたりに
+JP 仕事人だという人がいると
+JP 聞いたんですが…。
+EN Um, I heard there was someone around here who's
+EN known as "the pro"...
+
+@ 3.52
+# ？？？
+JP ああ、またですか。
+JP 私は違うと言っているのに…。
+EN Ah, not again. I keep telling people that isn't me...
+
+@ 3.55
+# 社 長
+JP …えっ？
+JP じゃあ、あなたなんですか？
+EN ...Huh? So it IS you?
+
+@ 3.57
+# 社 長
+JP （なんとなくそれらしい
+JP 　雰囲気はあるが…）
+EN (She does have that kind of air about her...)
+
+@ 3.59
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.66
+# 中森 あずみ
+JP プロレスですか。
+JP それは初めての依頼ですね。
+EN Pro wrestling? That's a first. I've never had a job
+EN offer like that.
+
+@ 3.69
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 3.71
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd respond.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 中森 あずみ
+JP 了解しました。
+JP お引き受けいたします。
+EN Understood. I accept the job.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.26
+# 中森 あずみ
+JP とんでもありません。
+JP 精一杯がんばらせていただきます。
+EN Not at all. I will do my very best.
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 中森 あずみ
+JP 申し訳ありません。
+JP そのご依頼はお引き受けできかねます。
+EN I'm sorry. I'm afraid I can't accept this job.
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP たしかこのあたりだったはずだが…。
+EN I'm sure it was around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# 中森 あずみ
+JP ああ、先日の方ですね。
+JP ご期待に添えず
+JP 申し訳ありませんでした。
+EN Ah, you're the gentleman from the other day. I'm
+EN sorry I couldn't meet your expectations.
+
+@ 6.38
+# 社 長
+JP あの、もう一度考え直して
+JP もらえないでしょうか？
+EN Um, would you be willing to reconsider?
+
+@ 6.45
+# 中森 あずみ
+JP なるほど…。
+JP そこまでのご依頼なのですか…。
+EN I see... So you're that serious about this job...
+
+@ 6.48
+# 社 長
+JP はい。
+JP うちの団体に入ってもらいたくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 6.50
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd respond.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 中森 あずみ
+JP 了解しました。
+JP お引き受けいたします。
+EN Understood. I accept the job.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.26
+# 中森 あずみ
+JP とんでもありません。
+JP 精一杯がんばらせていただきます。
+EN Not at all. I will do my very best.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 中森 あずみ
+JP 申し訳ありません。
+JP そのご依頼はお引き受け
+JP できかねます。
+EN I'm sorry. I'm afraid I can't accept this job.
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は中森選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Nakamori.
+
+@ 9.25
+# 社 長
+JP 関節技を得意とする選手は
+JP 目の肥えたファンにアピールできる
+JP 大切な人材だ。
+EN A submission specialist is a valuable asset who can
+EN win over the more discerning fans.
+
+@ 9.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 試合内容がいっそう充実して
+JP 盛り上がるだろう。
+EN If she joins us, our matches will have real substance,
+EN and the crowd will love it.
+
+@ 9.29
+# 社 長
+JP たしかこのあたりでトレーニング
+JP しているはずだけど…。
+EN She's supposed to be training somewhere around
+EN here...
+
+@ 9.31
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 中森 あずみ
+JP はい、何かご用でしょうか？
+EN Yes, can I help you?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.53
+# 中森 あずみ
+JP 移籍ですか…。
+EN A transfer, you say...
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.63
+# 中森 あずみ
+JP わざわざ声をかけていただけるのは
+JP 光栄なのですが…。
+EN I'm honored that you'd come all this way to ask, but...
+
+@ 9.66
+# 社 長
+JP うちの団体に力を貸して
+JP もらえないでしょうか？
+EN Would you lend your strength to my promotion?
+
+@ 9.68
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd respond.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 中森 あずみ
+JP 了解です。
+JP お引き受けします。
+EN Understood. I accept.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.26
+# 中森 あずみ
+JP お役に立てるかわかりませんが
+JP がんばらせていただきます。
+EN I don't know how useful I'll be, but I will do my best.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 中森 あずみ
+JP 申し訳ありません。
+JP 今の団体との契約は破棄できません。
+EN I'm sorry. I can't break my contract with my current
+EN promotion.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 中森選手が必要だ。
+EN My promotion really does need Nakamori.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度中森選手と
+JP 交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 中森 あずみ
+JP ああ、先日はどうも。
+JP また移籍のお話ですか？
+EN Ah, hello again. Is this about the transfer again?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.47
+# 中森 あずみ
+JP そこまでおっしゃられますか。
+EN You feel that strongly about it?
+
+@ 12.50
+# 社 長
+JP なんとかお願いします。
+EN Please, I'm asking you.
+
+@ 12.52
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd respond.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 中森 あずみ
+JP 了解です。
+JP お引き受けします。
+EN Understood. I accept.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.26
+# 中森 あずみ
+JP お役に立てるかわかりませんが
+JP がんばらせていただきます。
+EN I don't know how useful I'll be, but I will do my best.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 中森 あずみ
+JP 申し訳ありません。
+JP 今の団体との契約は破棄できません。
+EN I'm sorry. I can't break my contract with my current
+EN promotion.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は中森選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Nakamori.
+
+@ 15.25
+# 社 長
+JP あの正確無比な関節技を
+JP うちのファンの前で存分に
+JP 見せて欲しい。
+EN I want her to show off those flawless submissions in
+EN front of our fans.
+
+@ 15.27
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She's supposed to be somewhere around here...
+
+@ 15.29
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# 中森 あずみ
+JP はい、なんでしょうか？
+EN Yes, what is it?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to recruit her.)
+
+@ 15.51
+# 中森 あずみ
+JP そちらの団体に入団せよという
+JP お話ですか…。
+EN You're asking me to sign with your promotion...
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# 中森 あずみ
+JP たしかにフリーでは
+JP できることにも限界がありますが…。
+EN It's true that there's only so much a freelancer can
+EN do, but...
+
+@ 15.64
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Would you please lend us your strength?
+
+@ 15.66
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd respond.)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 中森 あずみ
+JP 了解しました。
+JP お世話になろうと思います。
+EN Understood. I'll be in your care.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.26
+# 中森 あずみ
+JP はい。
+JP どうぞよろしくお願いいたします。
+EN Yes. I look forward to working with you.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 中森 あずみ
+JP ありがたいお話ですが
+JP もう少しフリーで仕事をしたいと
+JP 思っていますので…。
+EN It's a generous offer, but I'd like to work freelance
+EN a little longer...
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 中森選手が必要だ。
+EN My promotion really does need Nakamori.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 中森選手と交渉することにした。
+EN I decided to negotiate with her once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 中森 あずみ
+JP ああ、先日は失礼しました。
+JP 本日はなんのご用でしょうか？
+EN Ah, my apologies for the other day. What can I do for
+EN you today?
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join my promotion...
+
+@ 18.47
+# 中森 あずみ
+JP なるほど…。
+JP そこまでおっしゃるのですか…。
+EN I see... You feel that strongly about it...
+
+@ 18.50
+# 社 長
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and sign with us?
+
+@ 18.52
+# 社 長
+JP （俺は相手の反応をうかがってみた）
+EN (I waited to see how she'd respond.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 中森 あずみ
+JP 了解しました。
+JP お世話になろうと思います。
+EN Understood. I'll be in your care.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.26
+# 中森 あずみ
+JP はい。
+JP どうぞよろしくお願いいたします。
+EN Yes. I look forward to working with you.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 中森 あずみ
+JP ありがたいお話ですが
+JP もう少しフリーで仕事をしたいと
+JP 思っていますので…。
+EN It's a generous offer, but I'd like to work freelance
+EN a little longer...
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は中森を訪ねることにした。
+EN I decided to go see Nakamori.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler my promotion really needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 中森っ！
+EN Nakamori!
+
+@ 21.41
+# 中森 あずみ
+JP …社長？
+EN ...Boss?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# 中森 あずみ
+JP そうですね。
+JP すっかりご無沙汰しています。
+EN It has. I'm sorry I haven't been in touch.
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you. I want you to
+EN come back.
+
+@ 21.61
+# 中森 あずみ
+JP それは少々勝手な話だと
+JP 思うのですが…。
+EN That seems a little selfish of you, if I may say so...
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# 中森 あずみ
+JP 本気で戻れとおっしゃるんですか？
+EN You're serious about wanting me back?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 22.29
+# 中森 あずみ
+JP …わかりました。
+JP それでは改めてお世話になることに
+JP しましょう。
+EN ...Very well. Then I'll be in your care once again.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# 中森 あずみ
+JP 本気で戻れとおっしゃるんですか？
+EN You're serious about wanting me back?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you to come back.
+
+@ 23.29
+# 中森 あずみ
+JP なるほど…。
+JP しかし、それはやはり難しいですね。
+EN I see... But I'm afraid that's still difficult.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び中森を訪ねることにした。
+EN I decided to visit Nakamori again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler my promotion really needs.
+
+@ 24.27
+# 社 長
+JP 中森！
+EN Nakamori!
+
+@ 24.37
+# 中森 あずみ
+JP 社長…。
+EN Boss...
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+EN I came to ask you again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 中森 あずみ
+JP 本気で戻れとおっしゃるんですか？
+EN You're serious about wanting me back?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 25.29
+# 中森 あずみ
+JP …わかりました。
+JP それでは改めてお世話になることに
+JP しましょう。
+EN ...Very well. Then I'll be in your care once again.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 中森 あずみ
+JP 本気で戻れとおっしゃるんですか？
+EN You're serious about wanting me back?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you to come back.
+
+@ 26.29
+# 中森 あずみ
+JP なるほど…。
+JP しかし、それはやはり難しいですね。
+EN I see... But I'm afraid that's still difficult.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# 中森 あずみ
+JP 少し痛めてしまったようです。
+EN It seems I've injured myself slightly.
+
+@ 28.16
+# scene 029 ケガ大
+# 中森 あずみ
+JP 申し訳ありません。
+JP しばらく休ませていだたく必要が
+JP ありそうです。
+EN I'm sorry. It looks like I'll need to take some time off.
+
+@ 29.16
+# scene 030 入院
+# 中森 あずみ
+JP しっかり体を治してきます。
+EN I'll make sure I heal properly.
+
+@ 30.16
+# scene 031 退院
+# 中森 あずみ
+JP 今日から練習を再開したいと
+JP 思います。
+EN I'd like to resume training starting today.
+
+@ 31.16
+# scene 032 ケガ完治
+# 中森 あずみ
+JP ご迷惑をおかけしました。
+JP もう大丈夫です。
+EN I'm sorry for the trouble. I'm fine now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 中森 あずみ
+JP たしかに社長の言われる通りですね。
+JP ここは引き時でしょう。
+EN You're right, Boss. It's time for me to step away.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 中森 あずみ
+JP まだ仕事はできると思うのですが？
+EN I believe I can still do the job, though?
+
+@ 34.16
+# scene 035 コーチ就任
+# 中森 あずみ
+JP これまでのご恩返しをさせて
+JP いただきます。
+EN Allow me to repay everything you've done for me.
+
+@ 35.16
+# scene 036 ケガ引退
+# 中森 あずみ
+JP 予想以上のダメージを
+JP 受けてしまったようです。
+EN It seems I took more damage than I expected.
+
+@ 36.16
+# scene 037 年齢引退
+# 中森 あずみ
+JP ここが限界のようです。
+EN It seems I've reached my limit.
+
+@ 37.16
+# scene 038 退団
+# 中森 あずみ
+JP これまでお世話になりました。
+EN Thank you for everything.
+
+@ 38.16
+# scene 039 スランプ
+# 中森 あずみ
+JP どうも調子が出ないようですね。
+EN I can't seem to find my rhythm.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 中森 あずみ
+JP …ファンクラブですか？
+EN ...A fan club?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# 中森 あずみ
+JP 期待を裏切らないよう努力します。
+EN I'll strive not to betray their expectations.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 中森 あずみ
+JP またファンクラブができたんですか？
+EN Another fan club has formed?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Live up to their expectations.
+
+@ 40.26
+# 中森 あずみ
+JP はい。
+JP これまで以上に励みたいと思います。
+EN Yes. I'll work even harder than before.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 中森 あずみ
+JP ファンの期待に応えられない
+JP 自分が情けないです。
+EN I'm ashamed that I couldn't live up to the fans'
+EN expectations.
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just try again.
+
+@ 41.26
+# 中森 あずみ
+JP はい。
+JP いっそう努力します。
+EN Yes. I'll work all the harder.
+
+@ 42.16
+# scene 043 映画出演
+# 中森 あずみ
+JP しっかりやり遂げてきます。
+EN I'll see the job through properly.
+
+@ 43.16
+# scene 044 一日署長
+# 中森 あずみ
+JP 最善の努力を尽くします。
+EN I will do my utmost.
+
+@ 44.16
+# scene 045 写真集発売
+# 中森 あずみ
+JP ファンを満足させられるか
+JP わかりませんが
+JP やるだけやってみます。
+EN I don't know if I can satisfy the fans, but I'll give it
+EN everything I have.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 中森 あずみ
+JP 期待に背かないよう、がんばります。
+EN I'll work hard not to let anyone down.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 中森 あずみ
+JP 歌は得意ではありませんが
+JP 最善を尽くしてきます。
+EN Singing isn't my strong point, but I'll do my best.
+
+@ 47.16
+# scene 048 始球式
+# 中森 あずみ
+JP しっかり練習して本番に備えます。
+EN I'll practice properly and be ready for the day.
+
+@ 48.16
+# scene 049 学園祭
+# 中森 あずみ
+JP 呼んでもらえた以上
+JP しっかりと期待に応えたいと
+JP 思います。
+EN Since they were kind enough to invite me, I want to
+EN live up to their expectations.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, this is for your birthday.
+
+@ 49.35
+# 中森 あずみ
+JP 社長に覚えていただけていたとは
+JP 光栄です。
+EN I'm honored that you remembered, Boss.
+
+@ 49.38
+# 社 長
+JP これからもよろしくな。
+EN Here's to the year ahead.
+
+@ 49.42
+# 中森 あずみ
+JP はい、こちらこそ！
+JP 本当にありがとうございます。
+EN Yes, likewise! Thank you so much.
+
+@ 50.29
+# scene 051 バレンタインデー
+# 中森 あずみ
+JP 社長、バレンタインなので
+JP チョコレートを用意して
+JP きたのですが…。
+EN Boss, since it's Valentine's Day, I prepared some
+EN chocolate for you...
+
+@ 50.32
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thank you.
+
+@ 50.36
+# 中森 あずみ
+JP 受け取ってもらえてよかったです。
+JP 今後ともよろしくお願いします。
+EN I'm glad you accepted it. I look forward to continuing
+EN to work with you.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, as thanks for last month?
+
+@ 51.35
+# 中森 あずみ
+JP わざわざありがとうございます。
+JP 嬉しいです。
+EN You didn't have to. Thank you. I'm happy.
+
+@ 51.38
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# 中森 あずみ
+JP ご期待に背かないよう
+JP 全身全霊でがんばります。
+EN I'll put my heart and soul into it, so as not to let
+EN anyone down.
+
+@ 53.29
+# scene 054 コンサート
+# 中森 あずみ
+JP 歌は苦手ですが
+JP やり遂げてみせます。
+EN Singing isn't my forte, but I'll see it through.
+
+@ 54.28
+# scene 055 練習拒否
+# 中森 あずみ
+JP 休暇をいただきたいと思います。
+EN I'd like to request some time off.
+
+@ 55.28
+# scene 056 失踪
+# 中森 あずみ
+JP 気持ちが乱れて…。
+JP 失礼します。
+EN My mind is in turmoil... Excuse me.
+
+@ 56.16
+# scene 057 選手解雇
+# 中森 あずみ
+JP お役に立てなかったことが無念です。
+EN It's my one regret that I couldn't be of more use.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 中森 あずみ
+JP 団体の名を汚さぬよう
+JP しっかり勤めてきます。
+EN I'll do my duty properly and not bring shame on the
+EN promotion's name.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 中森 あずみ
+JP 良い勉強をさせていただきました。
+EN It was a valuable learning experience.
+
+@ 59.26
+# scene 060 移籍思案
+# 中森 あずみ
+JP 団体を裏切るようなまねは…。
+EN I couldn't betray the promotion like that...
+
+@ 60.16
+# scene 061 革命軍結成
+# 中森 あずみ
+JP 現在の状況を許すことは
+JP かえって罪だと考えます！
+EN Tolerating the current state of affairs would be a
+EN crime in itself!
+
+@ 61.16
+# scene 062 反乱軍結成
+# 中森 あずみ
+JP 歪みは正さなければなりません！
+EN What is crooked must be set straight!
+
+@ 62.16
+# scene 063 最終決戦要求
+# 中森 あずみ
+JP 決着をつけるときが来たようですね。
+EN It seems the time has come to settle this.
+
+@ 63.16
+# scene 064 遺恨発生
+# 中森 あずみ
+JP これはさすがに…。
+EN This is really too much...
+
+@ 64.16
+# scene 065 殴り込み
+# 中森 あずみ
+JP 彼女らの力の程を見てきます。
+EN I'll go and see what they're capable of.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 中森 あずみ
+JP おまえたちの思い通りにはさせない！
+EN I won't let you have your way!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 中森 あずみ
+JP お互い良い仕事をしましょう！
+EN Let's both do a good job out there!
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 中森 あずみ
+JP すべてはファンのために！
+JP 全力で挑んできます。
+EN Everything for the fans! I'll give it everything I have.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 中森 あずみ
+JP これまで支えてくれたファンに
+JP 感謝しています。
+EN I'm grateful to the fans who have supported me all
+EN this time.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 中森 あずみ
+JP これまで支えてくれたファンに
+JP 謝らねば…。
+EN I must apologize to the fans who have supported me
+EN all this time...
+
+@ 70.13
+# scene 071 引退式
+# 中森 あずみ
+JP これまで支えていただき
+JP 本当にありがとうございました。
+EN Thank you so much for supporting me all this time.
+
+@ 71.17
+# 中森 あずみ
+JP お呼びでしょうか？
+EN You called for me?
+
+@ 71.36
+# 中森 あずみ
+JP なんでしょうか？
+EN What is it?
+
+@ 71.46
+# 中森 あずみ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.89
+# 中森 あずみ
+JP はい。
+JP お心遣い感謝します。
+EN Yes. Thank you for your concern.
+
+@ 71.110
+# 中森 あずみ
+JP はい。
+JP ご期待に応えたいと思います。
+EN Yes. I'll try to live up to your expectations.
+
+@ 71.131
+# 中森 あずみ
+JP そんなことを言っていただけると…。
+JP とても嬉しいです。
+EN Hearing you say that... makes me very happy.
+
+@ 71.152
+# 中森 あずみ
+JP はい。
+JP できる限りやってみます。
+EN Yes. I'll do as much as I can.
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# 中森 あずみ
+JP 申し訳ありませんでした。
+EN I'm very sorry.
+
+@ 71.210
+# 中森 あずみ
+JP そんなつもりはありませんが…。
+JP お詫びいたします。
+EN That wasn't my intention, but... I apologize.
+
+@ 71.231
+# 中森 あずみ
+JP 自分に甘えがあったようです。
+JP 申し訳ありません。
+EN It seems I've been going easy on myself. I'm sorry.
+
+@ 71.252
+# 中森 あずみ
+JP …返す言葉がありません。
+EN ...I have nothing to say for myself.
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 71.289
+# 中森 あずみ
+JP よけいなご心配をかけてすみません。
+JP 大丈夫です。
+EN I'm sorry to have worried you needlessly. I'm fine.
+
+@ 71.310
+# 中森 あずみ
+JP 特にお気遣いいただくには
+JP 及びません。
+EN There's no need to concern yourself with me.
+
+@ 71.331
+# 中森 あずみ
+JP 優しいお言葉
+JP ありがとうございます。
+EN Thank you for your kind words.
+
+@ 71.352
+# 中森 あずみ
+JP これくらい
+JP たいしたことはありません。
+EN This is nothing serious.
+
+@ 71.366
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# 中森 あずみ
+JP はい…。
+EN Yes...
+
+@ 71.399
+# 中森 あずみ
+JP いえ、まったく…。
+EN No, not at all...
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.432
+# 中森 あずみ
+JP わかりました。
+JP ご迷惑をおかけして
+JP 申し訳ありませんでした。
+EN Understood. I'm sorry for causing you trouble.
+
+@ 71.453
+# 中森 あずみ
+JP こればかりは従う訳にはいきません。
+EN This is one thing I cannot go along with.
+
+@ 71.474
+# 中森 あずみ
+JP すみません。
+JP なんのお話をされて
+JP いるのでしょうか。
+EN I'm sorry, but what are you talking about?
+
+@ 71.487
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# 中森 あずみ
+JP そうですね…。
+EN Well...
+
+@ 71.521
+# 中森 あずみ
+JP なんでしょうか？
+EN What is it?
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.556
+# 中森 あずみ
+JP わかりました。
+JP 言うとおりにします。
+EN Understood. I'll do as you say.
+
+@ 71.577
+# 中森 あずみ
+JP しかし、こればかりは…。
+EN But this one thing...
+
+@ 71.598
+# 中森 あずみ
+JP 誰かと勘違いされているのでは
+JP ないですか？
+EN Aren't you mistaking me for someone else?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 中森 あずみ
+JP なんでしょうか？
+EN What is it?
+
+@ 72.16
+# 中森 あずみ
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 中森 あずみ
+JP はい。
+JP お心遣い、感謝します。
+EN Yes. Thank you for your concern.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 中森 あずみ
+JP はい。
+JP ご期待に応えたいと思います。
+EN Yes. I'll try to live up to your expectations.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 中森 あずみ
+JP そんなことを言っていただけると…。
+JP とても嬉しいです。
+EN Hearing you say that... makes me very happy.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 中森 あずみ
+JP はい。
+JP できる限りやってみます。
+EN Yes. I'll do as much as I can.
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 中森 あずみ
+JP 申し訳ありませんでした。
+EN I'm very sorry.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 中森 あずみ
+JP そんなつもりはありませんが…。
+JP お詫びいたします。
+EN That wasn't my intention, but... I apologize.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 中森 あずみ
+JP 自分に甘えがあったようです。
+JP 申し訳ありません。
+EN It seems I've been going easy on myself. I'm sorry.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 中森 あずみ
+JP …返す言葉がありません。
+EN ...I have nothing to say for myself.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You've seemed down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 中森 あずみ
+JP よけいなご心配をかけてすみません。
+JP 大丈夫です。
+EN I'm sorry to have worried you needlessly. I'm fine.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 中森 あずみ
+JP 特にお気遣いいただくには
+JP 及びません。
+EN There's no need to concern yourself with me.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 中森 あずみ
+JP 優しいお言葉、
+JP ありがとうございます。
+EN Thank you for your kind words.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 中森 あずみ
+JP これくらい、たいしたことは
+JP ありません。
+EN This is nothing serious.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 中森 あずみ
+JP はい…。
+EN Yes...
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 中森 あずみ
+JP いえ、まったく…。
+EN No, not at all...
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 中森 あずみ
+JP わかりました。
+JP ご迷惑をおかけして
+JP 申し訳ありませんでした。
+EN Understood. I'm sorry for causing you trouble.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 中森 あずみ
+JP こればかりは従う訳にはいきません。
+EN This is one thing I cannot go along with.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 中森 あずみ
+JP すみません。
+JP なんのお話をされて
+JP いるのでしょうか。
+EN I'm sorry, but what are you talking about?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 中森 あずみ
+JP そうですね…。
+EN Well...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 中森 あずみ
+JP なんでしょうか？
+EN What is it?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 中森 あずみ
+JP わかりました。
+JP 言うとおりにします。
+EN Understood. I'll do as you say.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 中森 あずみ
+JP しかし、こればかりは…。
+EN But this one thing...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 中森 あずみ
+JP 誰かと勘違いされているのでは
+JP ないですか？
+EN Aren't you mistaking me for someone else?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 中森 あずみ
+JP これからもお世話になります。
+EN I look forward to continuing to work with you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 中森 あずみ
+JP 評価していただけたことを
+JP 感謝します。
+EN Thank you for valuing my work.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 中森 あずみ
+JP 社長のお考えはよくわかりました。
+EN I understand your position perfectly, Boss.
+
+@ 105.24
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、温泉スパがあるなんて
+JP 　さすがリゾート地だな）
+EN (Hmm, a hot spring spa... Just what you'd expect from
+EN a resort.)
+
+@ 105.26
+# 社 長
+JP （みんなも楽しんでいるみたいだし
+JP 　来てよかった）
+EN (Everyone seems to be having fun, too. I'm glad we
+EN came.)
+
+@ 105.42
+# 社 長
+JP （…んっ？
+JP 　あれは中森…？）
+EN (...Hm? Is that Nakamori...?)
+
+@ 105.44
+# 社 長
+JP リラックスできてるみたいだな。
+EN Looks like you're relaxing.
+
+@ 105.54
+# 中森 あずみ
+JP ……ああ、社長。
+EN ......Ah, Boss.
+
+@ 105.58
+# 中森 あずみ
+JP ええ。
+JP ここはとてもいいですね。
+EN Yes. It's very nice here.
+
+@ 105.62
+# 中森 あずみ
+JP このようなところに
+JP 連れてきていただき
+JP ありがとうございます。
+EN Thank you for bringing us to a place like this.
+
+@ 105.65
+# 社 長
+JP ああ。
+JP 楽しんでくれているなら
+JP 俺も満足だよ。
+EN Sure. If you're enjoying yourself, that's all I need.
+
+@ 105.75
+# 中森 あずみ
+JP ……フゥ～…。
+EN ......Phew...
+
+@ 105.78
+# 社 長
+JP （それにしても…）
+EN (Still...)
+
+@ 105.80
+# 社 長
+JP （中森はいつ見ても均整の取れた
+JP 　いいプロポーションをしてるな…）
+EN (Nakamori always has such a nicely balanced,
+EN well-proportioned figure...)
+
+@ 105.94
+# 中森 あずみ
+JP …やはり気になりますか？
+EN ...So you noticed it too?
+
+@ 105.97
+# 社 長
+JP （うわっ！？）
+EN (Whoa!?)
+
+@ 105.99
+# 社 長
+JP いや…。
+JP これは…その……。
+EN No... This is... um......
+
+@ 105.109
+# 中森 あずみ
+JP 自分もそう思うんです。
+JP 左の大腿部が右に比べると
+JP まだ筋肉が張っている感じがして…。
+EN I think so too. My left thigh still feels tighter than
+EN the right...
+
+@ 105.112
+# 社 長
+JP （…えっ？）
+EN (...Huh?)
+
+@ 105.114
+# 社 長
+JP （あ…。俺の勘違い？）
+EN (Oh... Did I get the wrong idea?)
+
+@ 105.116
+# 社 長
+JP （よ、よし、調子を合わせておこう）
+EN (R-right, I'll just play along.)
+
+@ 105.118
+# 社 長
+JP そ、そうだよな、やはり。
+JP うん、思った通りだ。
+EN Y-yeah, I thought so. Yep, just as I suspected.
+
+@ 105.128
+# 中森 あずみ
+JP さすが社長、慧眼ですね。
+EN You have a keen eye, Boss. I'd expect nothing less.
+
+@ 105.131
+# 社 長
+JP それほどでも…。
+EN Oh, it's nothing...
+
+@ 105.135
+# 中森 あずみ
+JP いえ。
+JP やはり尊敬すべき方であると
+JP 思います。
+EN No. I truly think you're someone worthy of respect.
+
+@ 105.138
+# 社 長
+JP そ、そうか？
+EN R-really?
+
+@ 105.142
+# 中森 あずみ
+JP ええ。
+JP 社長もこちらでゆっくりして
+JP いってください。
+EN Yes. Please take your time and relax here too, Boss.
+
+@ 105.145
+# 社 長
+JP ………………。
+EN ...............
+
+@ 105.149
+# 中森 あずみ
+JP 私のことで他に気付かれたことが
+JP あったらアドバイスを…。
+EN If there's anything else you've noticed about me, I'd
+EN appreciate your advice...
+
+@ 105.152
+# 社 長
+JP （なんだか、いたたまれない空気に
+JP 　なってきた…）
+EN (This is getting really awkward...)
+
+@ 105.154
+# 社 長
+JP いや、俺はこのへんで…。
+EN Uh, I'd better get going...
+
+@ 105.166
+# 社 長
+JP ………………。
+EN ...............
+
+@ 105.168
+# 社 長
+JP （ふう…）
+EN (Phew...)
+
+@ 106.24
+# scene 107 日常イベント・１回目
+# 社 長
+JP （よし。
+JP 　仕事も終わったし帰るか）
+EN (All right. Work's done, time to head home.)
+
+@ 106.36
+# 社 長
+JP （ジムに明かりがついている？）
+EN (The lights are on in the gym?)
+
+@ 106.38
+# 社 長
+JP （電気の消し忘れか…。
+JP 　しょうがないな）
+EN (Someone forgot to turn them off... Oh well.)
+
+@ 106.40
+# 社 長
+JP ………………。
+EN ...............
+
+@ 106.42
+# 社 長
+JP （誰も消して帰らなかったのか。
+JP 　困ったもんだ…）
+EN (Nobody turned them off on their way out? What a
+EN pain...)
+
+@ 106.44
+# 社 長
+JP （一応、中の様子だけ
+JP 　確認して帰るか）
+EN (I'd better at least check inside before I go.)
+
+@ 106.65
+# 中森 あずみ
+JP ……………ッ。
+EN ...............!
+
+@ 106.68
+# 社 長
+JP うおっ！？
+EN Whoa!?
+
+@ 106.70
+# 社 長
+JP な、何をしてるんだ、中森！？
+EN Wh-what are you doing, Nakamori!?
+
+@ 106.74
+# 中森 あずみ
+JP い、いや…。
+JP あの…その……。
+EN Ah, n-no... um... well......
+
+@ 106.77
+# 社 長
+JP 水着なんか着て…。
+EN In a swimsuit, of all things...
+
+@ 106.81
+# 中森 あずみ
+JP はい…。
+JP 実は…。
+EN Yes... Actually...
+
+@ 106.84
+# 社 長
+JP …実は？
+EN ...Actually?
+
+@ 106.94
+# 中森 あずみ
+JP 今度、みんなでバカンスに行くと
+JP 聞きまして…。
+EN I heard we're all going on a vacation soon...
+
+@ 106.97
+# 社 長
+JP （…そういえば
+JP 　そんな話があったような…）
+EN (...Come to think of it, there was talk of that...)
+
+@ 106.101
+# 中森 あずみ
+JP その…新しい水着の試着を…。
+EN So... I was trying on a new swimsuit...
+
+@ 106.104
+# 社 長
+JP ああ…。
+JP そういうことか。
+EN Ah... So that's it.
+
+@ 106.108
+# 中森 あずみ
+JP あ、あの…バカンス先で
+JP 水着が着られなかったら
+JP みんなに迷惑をかけますから…。
+EN W-well... if I couldn't wear a swimsuit at the resort, it
+EN would cause trouble for everyone...
+
+@ 106.111
+# 社 長
+JP ………………。
+EN ...............
+
+@ 106.121
+# 中森 あずみ
+JP …あっ……。
+JP できれば他言無用に
+JP 願いたいのですが…。
+EN ...Ah...... If possible, I'd ask that you keep this to
+EN yourself...
+
+@ 106.124
+# 社 長
+JP どうして？
+EN Why?
+
+@ 106.128
+# 中森 あずみ
+JP …やはり気恥ずかしいので。
+EN ...It's embarrassing, after all.
+
+@ 106.131
+# 社 長
+JP （中森にも、かわいいところが
+JP 　あるんだな）
+EN (So Nakamori has a cute side too.)
+
+@ 106.133
+# 社 長
+JP わかった。
+JP 秘密にしておくよ。
+EN Got it. I'll keep it a secret.
+
+@ 106.143
+# 中森 あずみ
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 106.146
+# 社 長
+JP それと風邪ひく前に着替えとけよ。
+EN And get changed before you catch a cold.
+
+@ 106.150
+# 中森 あずみ
+JP は、はい…。
+JP そうします…。
+EN Y-yes... I will...
+
+@ 107.24
+# scene 108 日常イベント・２回目
+# 社 長
+JP （よし。
+JP 　仕事も終わったし帰るか）
+EN (All right. Work's done, time to head home.)
+
+@ 107.26
+# 社 長
+JP （ジムに明かりがついている？）
+EN (The lights are on in the gym?)
+
+@ 107.28
+# 社 長
+JP （やれやれ。
+JP 　消しに行くか）
+EN (Good grief. I'll go turn them off.)
+
+@ 107.40
+# 社 長
+JP ………………。
+EN ...............
+
+@ 107.42
+# 社 長
+JP （誰か残っているのか？）
+EN (Is somebody still here?)
+
+@ 107.44
+# 社 長
+JP （んっ…？
+JP 　なんだかこのシチュエーションに
+JP 　覚えがあるような…）
+EN (Hm...? Why does this situation feel familiar...?)
+
+@ 107.61
+# 中森 あずみ
+JP あっ…。
+EN Ah...
+
+@ 107.64
+# 社 長
+JP …やっぱり中森か。
+EN ...Nakamori again, huh.
+
+@ 107.66
+# 社 長
+JP また水着なんか着て
+JP 今日はどうしたんだ？
+EN In a swimsuit again... What's the occasion today?
+
+@ 107.76
+# 中森 あずみ
+JP ……社長に…。
+EN ......I wanted you to...
+
+@ 107.79
+# 社 長
+JP 俺に？
+EN Me?
+
+@ 107.83
+# 中森 あずみ
+JP 水着の感想を聞こうと思いまして…。
+EN I wanted to ask what you think of the swimsuit...
+
+@ 107.86
+# 社 長
+JP （それでわざわざ着替えたのか！？）
+EN (She changed into it just for that!?)
+
+@ 107.88
+# 社 長
+JP 俺なんかの感想でいいのか？
+EN You want MY opinion?
+
+@ 107.92
+# 中森 あずみ
+JP このようなことを聞けるのは
+JP 社長しかいませんから…。
+EN You're the only one I could ask something like this...
+
+@ 107.95
+# 社 長
+JP そ、そうか…。
+EN O-oh, I see...
+
+@ 107.99
+# 中森 あずみ
+JP それで…その…どうでしょうか？
+EN So... um... what do you think?
+
+@ 107.102
+# 社 長
+JP うーん…。
+JP そうだな……。
+EN Hmm... Let's see......
+
+@ 107.104
+# 社 長
+JP ………………。
+EN ...............
+
+@ 107.114
+# 中森 あずみ
+JP ………………。
+EN ...............
+
+@ 107.117
+# 社 長
+JP よく似合っているぞ。
+EN It looks good on you.
+
+@ 107.121
+# 中森 あずみ
+JP ……えっ！？
+EN ......Huh!?
+
+@ 107.124
+# 社 長
+JP だからよく似合っているって。
+EN I said, it looks good on you.
+
+@ 107.134
+# 中森 あずみ
+JP あ、ありがとうございます。
+EN Th-thank you very much.
+
+@ 107.137
+# 社 長
+JP いや。
+JP 礼を言われるようなことじゃないさ。
+EN Hey, it's nothing to thank me for.
+
+@ 107.141
+# 中森 あずみ
+JP いえ、社長に褒めていただけると
+JP 自信になります。
+EN No, being complimented by you gives me confidence,
+EN Boss.
+
+@ 107.144
+# 社 長
+JP じゃあ、俺はそろそろ行くぞ。
+EN Well, I'd better get going.
+
+@ 107.148
+# 中森 あずみ
+JP は、はい。
+JP すみませんでした、社長…。
+EN Y-yes. I'm sorry for the trouble, Boss...
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# 中森 あずみ
+JP さあ、いこうか！
+EN All right, let's go!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# 中森 あずみ
+JP 予測の付かない動き…。
+JP 練習になる。
+EN Unpredictable moves... Good practice.
+
+@ 110.16
+# scene 113 練習開始
+# 中森 あずみ
+JP よろしくお願いします。
+EN I look forward to training with you.
+
+@ 111.16
+# scene 114 練習開始 好意
+# 中森 あずみ
+JP 社長のもとで戦えて
+JP 私は幸せです。
+EN I'm happy to be fighting under you, Boss.
+
+@ 112.16
+# scene 115 特訓開始
+# 中森 あずみ
+JP 全力で励みます。
+EN I'll give it everything I've got.
+
+@ 113.20
+# scene 116 特訓成功
+# 中森 あずみ
+JP 充実した時間でした。
+EN That was time well spent.
+
+@ 114.20
+# scene 117 特訓失敗
+# 中森 あずみ
+JP 情けない…。
+EN Pathetic...
+
+@ 115.16
+# scene 118 休養
+# 中森 あずみ
+JP ひと息入れさせていただきます。
+EN Allow me to take a breather.
+
+@ 116.16
+# scene 119 入場1
+# 中森 あずみ
+JP すべてはファンのために！
+EN Everything for the fans!
+
+@ 117.16
+# scene 119 入場2
+# 中森 あずみ
+JP きっちりと仕事を
+JP 果たしてきましょう。
+EN Time to go out there and do the job right.
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# 中森 あずみ
+JP 最高の試合にしてみせる！
+EN I'll make this the best match possible!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# 中森 あずみ
+JP なぜでしょうね。
+JP あなたと組むとテンションが
+JP 上がる気がする。
+EN I wonder why. Teaming with you really gets me fired
+EN up.
+
+@ 120.16
+# scene 125 必殺技１
+# 中森 あずみ
+JP 油断しましたね！
+EN You let your guard down!
+
+@ 121.16
+# scene 125 必殺技２
+# 中森 あずみ
+JP 下手に暴れるとケガをしますよ！
+EN Struggle carelessly and you'll get hurt!
+
+@ 122.16
+# scene 125 必殺技３
+# 中森 あずみ
+JP これが私のフィニッシュワークです！
+EN This is my finishing work!
+
+@ 123.12
+# scene 126 勝利1
+# 中森 あずみ
+JP いい仕事ができました。
+EN That was a job well done.
+
+@ 124.12
+# scene 126 勝利2
+# 中森 あずみ
+JP まだまだ甘いな…。
+EN You've still got a lot to learn...
+
+@ 125.12
+# scene 126 勝利3
+# 中森 あずみ
+JP プロ意識の差が出たようですね。
+EN The difference in professionalism showed.
+
+@ 126.15
+# scene 133 表彰1
+# 中森 あずみ
+JP これからもいいファイトを
+JP お見せします。
+EN I'll keep showing you good fights from here on.
+
+@ 127.15
+# scene 133 表彰2
+# 中森 あずみ
+JP 今日からスタートだと思って
+JP がんばります。
+EN I'll treat today as a fresh start and keep working
+EN hard.
+
+@ 128.12
+# scene 134 優勝1
+# 中森 あずみ
+JP この栄光をファンに捧げます。
+EN I dedicate this glory to the fans.
+
+@ 129.12
+# scene 134 優勝２
+# 中森 あずみ
+JP いい仕事ができたかな…。
+EN I think I did a good job...
+
+@ 130.24
+# scene 135 エンディング 通常
+# 中森 あずみ
+JP 社長、おめでとうございます。
+JP お役に立てて嬉しく思います。
+EN Congratulations, Boss. I'm glad I could be of use.
+
+@ 131.24
+# scene 136 エンディング 好意
+# 中森 あずみ
+JP 社長…。
+JP これからは社長個人のために
+JP 尽くさせてくださいませんか？
+EN Boss... From now on, would you let me devote myself
+EN to you, personally?

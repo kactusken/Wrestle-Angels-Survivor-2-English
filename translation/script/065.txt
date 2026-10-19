@@ -1,0 +1,2414 @@
+# /SCR/065.BIN - ロイヤル北条
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 065` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# ロイヤル北条
+JP 北条です。
+JP よろしくお願いします。
+EN I'm Hojo. It's a pleasure to meet you.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# ロイヤル北条
+JP ありがとうございます。
+JP 完璧な試合をお見せします。
+EN Thank you very much. I will show you a perfect
+EN match.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# ロイヤル北条
+JP そうですか…。
+JP やはり何かが欠けていたか…。
+EN I see... So something was missing after all...
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here.
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「フェンシングの技量は国内有数」と
+JP あるが…。
+EN The scouting report says "one of the best fencers
+EN in the country"...
+
+@ 3.27
+# 社 長
+JP ええと…。
+JP 「日本人離れしたゴージャスな外見」
+JP ともあるな…。
+EN Let's see... It also says "a gorgeous look that hardly
+EN seems Japanese"...
+
+@ 3.29
+# 社 長
+JP ああ、どうもあそこにいる
+JP 女性らしいな。
+EN Ah, that must be her over there.
+
+@ 3.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 3.41
+# ロイヤル北条
+JP なんでしょうか？
+EN Can I help you?
+
+@ 3.44
+# 社 長
+JP 実はあなたのことを聞いて
+JP やってきたんですが…。
+EN Actually, I heard about you and came to see you...
+
+@ 3.51
+# ロイヤル北条
+JP 私のことを？
+EN About me?
+
+@ 3.54
+# 社 長
+JP ええ…。
+JP 私はプロレス団体を
+JP 経営している者で…。
+EN Yes... I run a pro-wrestling promotion...
+
+@ 3.57
+# 社 長
+JP （俺は自分の身分を話して
+JP 　彼女をスカウトしてみた）
+EN (I told her who I was and tried to scout her.)
+
+@ 3.64
+# ロイヤル北条
+JP なるほど…。
+JP それにしてもプロレスとは
+JP 驚きですね。
+EN I see... Pro wrestling, though. That is a surprise.
+
+@ 3.67
+# 社 長
+JP どうでしょうか？
+EN What do you think?
+
+@ 3.69
+# 社 長
+JP （まんざらでもないように
+JP 　見えるが…）
+EN (She doesn't seem entirely against it...)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# ロイヤル北条
+JP そうですね、新しいことに
+JP 挑戦するのもいいでしょう。
+JP やります。
+EN Well, taking on a new challenge could be good for me.
+EN I'll do it.
+
+@ 4.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 4.29
+# ロイヤル北条
+JP 完璧な試合をお見せしますから
+JP 期待していてください。
+EN I will show you perfect matches, so look forward to
+EN it.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# ロイヤル北条
+JP フェンシングとは
+JP あまりに違いますし…。
+JP 難しいと思います。
+EN It's just too different from fencing... I don't think I
+EN could.
+
+@ 5.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしかこのあたりだった
+JP はずだが…。
+EN Let's see, it should have been somewhere around
+EN here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# ロイヤル北条
+JP ああ、先日の社長さん。
+JP どうしたんですか？
+EN Ah, the president from the other day. What can I do
+EN for you?
+
+@ 6.38
+# 社 長
+JP あの、もう一度考え直して
+JP もらえないでしょうか？
+EN Um, would you reconsider my offer?
+
+@ 6.45
+# ロイヤル北条
+JP そこまで私を求めているのですか。
+EN You want me that badly?
+
+@ 6.48
+# 社 長
+JP はい。
+JP ぜひ、うちの団体に
+JP 入ってもらいたくて…。
+EN Yes. I'd really love for you to join our promotion...
+
+@ 6.50
+# 社 長
+JP （まんざらでもないように
+JP 　見えるが…）
+EN (She doesn't seem entirely against it...)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# ロイヤル北条
+JP そうですね、新しいことに
+JP 挑戦するのもいいでしょう。
+JP やります。
+EN Well, taking on a new challenge could be good for me.
+EN I'll do it.
+
+@ 7.22
+# 社 長
+JP ありがとう。
+EN Thank you.
+
+@ 7.29
+# ロイヤル北条
+JP 完璧な試合をお見せしますから
+JP 期待していてください。
+EN I will show you perfect matches, so look forward to
+EN it.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# ロイヤル北条
+JP フェンシングとは
+JP あまりに違いますし…。
+JP 難しいと思います。
+EN It's just too different from fencing... I don't think I
+EN could.
+
+@ 8.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は北条選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Hojo.
+
+@ 9.25
+# 社 長
+JP フェンシング出身という経歴は
+JP 話題を呼びそうだし
+JP 華麗な容姿も魅力的だ。
+EN A fencing background is sure to get people talking,
+EN and her elegant looks are a big draw too.
+
+@ 9.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joined our promotion, our shows would be
+EN livelier than ever, no doubt about it.
+
+@ 9.29
+# 社 長
+JP このあたりを散歩するのが
+JP 日課だと聞いたが…。
+EN I heard she takes a walk around here every day...
+
+@ 9.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# ロイヤル北条
+JP はい…。
+JP なんでしょうか？
+EN Yes...? Can I help you?
+
+@ 9.46
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and tried to recruit her.)
+
+@ 9.53
+# ロイヤル北条
+JP 移籍して欲しい、という訳ですか。
+EN So you want me to transfer to your promotion.
+
+@ 9.56
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 9.63
+# ロイヤル北条
+JP なるほど…。
+JP この私を選ばれるとは
+JP お目が高いですね。
+EN I see... Choosing me, of all people. You have a good
+EN eye.
+
+@ 9.66
+# 社 長
+JP うちの団体に力を貸して
+JP もらえないでしょうか？
+EN Would you lend your strength to our promotion?
+
+@ 9.68
+# 社 長
+JP （まんざらでもないように
+JP 　見えるが…）
+EN (She doesn't seem entirely against it...)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# ロイヤル北条
+JP わかりました。
+JP ちょうど新しい環境を
+JP 求めていたところです。
+EN Very well. I was just looking for a new environment.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# ロイヤル北条
+JP そうまで頼まれては断れません。
+JP 完璧な試合をお見せしましょう。
+EN When you ask so earnestly, I can't refuse. I shall
+EN show you a perfect match.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# ロイヤル北条
+JP ご厚意はありがたいですが
+JP 今の団体を裏切るようなまねは
+JP できません。
+EN I appreciate the kind offer, but I can't do anything
+EN that would betray my current promotion.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 北条選手が必要だ。
+EN Our promotion really does need Hojo.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 北条選手と交渉することにした。
+EN I decided to negotiate with Hojo once more.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# ロイヤル北条
+JP ああ、先日の社長さん。
+JP ひょっとして
+JP また移籍のお話でしょうか？
+EN Ah, the president from the other day. Is this about a
+EN transfer again, by any chance?
+
+@ 12.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join our promotion...
+
+@ 12.47
+# ロイヤル北条
+JP なるほど…。
+JP そこまで言われるのですか…。
+EN I see... You go that far...
+
+@ 12.50
+# 社 長
+JP なんとかお願いします。
+EN Please, I'm asking you.
+
+@ 12.52
+# 社 長
+JP （まんざらでもないように
+JP 　見えるが…）
+EN (She doesn't seem entirely against it...)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# ロイヤル北条
+JP わかりました。
+JP ちょうど新しい環境を
+JP 求めていたところです。
+EN Very well. I was just looking for a new environment.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# ロイヤル北条
+JP そうまで頼まれては断れません。
+JP 完璧な試合をお見せしましょう。
+EN When you ask so earnestly, I can't refuse. I shall
+EN show you a perfect match.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# ロイヤル北条
+JP ご厚意はありがたいですが
+JP 今の団体を裏切るようなまねは
+JP できません。
+EN I appreciate the kind offer, but I can't do anything
+EN that would betray my current promotion.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は北条選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Hojo.
+
+@ 15.25
+# 社 長
+JP フェンシング出身の異色な経歴は
+JP ファンへのアピール度も高いこと
+JP 間違いない。
+EN There's no doubt a wrestler with an unusual fencing
+EN background would have huge fan appeal.
+
+@ 15.27
+# 社 長
+JP たしかこのへんを散歩していると
+JP 聞いたが…。
+EN I heard she takes walks around here...
+
+@ 15.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.31
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.41
+# ロイヤル北条
+JP なんですか？
+EN What is it?
+
+@ 15.44
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I explained who I was and tried to recruit her.)
+
+@ 15.51
+# ロイヤル北条
+JP つまり、あなたの団体に
+JP 入団して欲しいという訳ですね。
+EN In other words, you want me to join your promotion.
+
+@ 15.54
+# 社 長
+JP どうでしょう？
+EN What do you say?
+
+@ 15.61
+# ロイヤル北条
+JP ふむ…。
+JP 声をかけていただいたことは
+JP 嬉しく思いますが…。
+EN Hmm... I'm glad you approached me, but...
+
+@ 15.64
+# 社 長
+JP なんとか力を貸して
+JP もらえないでしょうか？
+EN Would you please lend us your strength?
+
+@ 15.66
+# 社 長
+JP （まんざらでもないように
+JP 　見えるが…）
+EN (She doesn't seem entirely against it...)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# ロイヤル北条
+JP いいでしょう。
+JP 入団します。
+EN Very well. I'll join.
+
+@ 16.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 16.29
+# ロイヤル北条
+JP ええ。
+JP 完璧を目指そうにも
+JP フリーでは限界がありますからね。
+EN Yes. Even when aiming for perfection, a freelancer
+EN can only go so far.
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# ロイヤル北条
+JP せっかくですが
+JP 私は一人で完璧を目指したいと
+JP 考えていますので…。
+EN It's kind of you, but I'd like to pursue perfection on
+EN my own...
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 北条選手が必要だ。
+EN Our promotion really does need Hojo.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 北条選手と交渉することにした。
+EN I decided to negotiate with Hojo once more.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# ロイヤル北条
+JP ああ、先日の社長さん。
+JP まさか、また入団のお話ですか。
+EN Ah, the president from the other day. Surely this
+EN isn't about joining again?
+
+@ 18.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I really want you to join our promotion...
+
+@ 18.47
+# ロイヤル北条
+JP しかし、これまでフリーで
+JP やってきましたので…。
+EN But I've worked freelance all this time...
+
+@ 18.50
+# 社 長
+JP 俺を信じて入団して
+JP もらえないでしょうか？
+EN Won't you trust me and sign with us?
+
+@ 18.52
+# 社 長
+JP （まんざらでもないように
+JP 　見えるが…）
+EN (She doesn't seem entirely against it...)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# ロイヤル北条
+JP いいでしょう。
+JP 入団します。
+EN Very well. I'll join.
+
+@ 19.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 19.29
+# ロイヤル北条
+JP ええ。
+JP 完璧を目指そうにも
+JP フリーでは限界がありますからね。
+EN Yes. Even when aiming for perfection, a freelancer
+EN can only go so far.
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# ロイヤル北条
+JP せっかくですが
+JP 私は一人で完璧を目指したいと
+JP 考えていますので…。
+EN It's kind of you, but I'd like to pursue perfection on
+EN my own...
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は北条を訪ねることにした。
+EN I decided to go and see Hojo.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女はうちの団体に
+JP 必要な選手だ。
+EN She's a wrestler our promotion needs, after all.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she'd be around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 北条っ！
+EN Hojo!
+
+@ 21.41
+# ロイヤル北条
+JP 社長…？
+JP どうしてここに？
+EN Boss...? What are you doing here?
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.51
+# ロイヤル北条
+JP そう…ですね。
+JP あれから色々ありましたので…。
+EN Yes... it has been. A lot has happened since then...
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you. I want you to
+EN come back.
+
+@ 21.61
+# ロイヤル北条
+JP 今さら、そんな話をするのですか？
+EN You bring that up now, of all times?
+
+@ 21.64
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# ロイヤル北条
+JP 私が必要だと言われるのですね？
+EN You're saying you need me?
+
+@ 22.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 22.29
+# ロイヤル北条
+JP なるほど…。
+JP そこまで言われるのなら
+JP 改めてご協力しましょう。
+EN I see... If you put it that way, I'll lend you my strength
+EN once again.
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 23.15
+# scene 024 移籍交渉 退団あり１ 失敗
+# ロイヤル北条
+JP やはり私が必要だと
+JP 言われるのですね？
+EN So you're saying you need me after all?
+
+@ 23.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 23.29
+# ロイヤル北条
+JP なるほど…。
+JP しかし、お受けすることは
+JP できません。
+EN I see... However, I cannot accept.
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び北条を訪ねることにした。
+EN I decided to go and see Hojo again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She's a wrestler our promotion needs, after all.
+
+@ 24.27
+# 社 長
+JP 北条っ！
+EN Hojo!
+
+@ 24.37
+# ロイヤル北条
+JP 社長…。
+EN Boss...
+
+@ 24.40
+# 社 長
+JP また頼みに来たよ。
+EN I've come to ask again.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.15
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# ロイヤル北条
+JP 私が必要だと言われるのですね？
+EN You're saying you need me?
+
+@ 25.18
+# 社 長
+JP ああ。
+JP 力を貸して欲しいんだ。
+EN Yeah. I need your help.
+
+@ 25.29
+# ロイヤル北条
+JP なるほど…。
+JP そこまで言われるのなら
+JP 改めてご協力しましょう。
+EN I see... If you put it that way, I'll lend you my strength
+EN once again.
+
+@ 25.32
+# 社 長
+JP ありがとう。
+JP またよろしくな。
+EN Thank you. Glad to have you back.
+
+@ 26.15
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# ロイヤル北条
+JP やはり私が必要だと
+JP 言われるのですね？
+EN So you're saying you need me after all?
+
+@ 26.18
+# 社 長
+JP ああ。
+JP どうしても戻って欲しいんだ。
+EN Yeah. I really want you back.
+
+@ 26.29
+# ロイヤル北条
+JP なるほど…。
+JP しかし、お受けすることは
+JP できません。
+EN I see... However, I cannot accept.
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I suppose I brought this on myself...)
+
+@ 27.16
+# scene 028 ケガ小
+# ロイヤル北条
+JP この程度、ケガと呼ぶ必要も
+JP ありません。
+EN Something this minor hardly deserves to be called an
+EN injury.
+
+@ 28.16
+# scene 029 ケガ大
+# ロイヤル北条
+JP このケガでは
+JP 完璧な試合をお見せするのは
+JP 難しいですね。
+EN With this injury, it will be difficult to show you a
+EN perfect match.
+
+@ 29.16
+# scene 030 入院
+# ロイヤル北条
+JP 完璧な治療をお願いします。
+EN I'd like perfect treatment, please.
+
+@ 30.16
+# scene 031 退院
+# ロイヤル北条
+JP 無事退院しました。
+JP もう完璧です！
+EN I've been safely discharged. I'm perfect again!
+
+@ 31.16
+# scene 032 ケガ完治
+# ロイヤル北条
+JP もう大丈夫です。
+JP 完璧な試合ができますよ。
+EN I'm fine now. I can give you a perfect match.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# ロイヤル北条
+JP たしかに、もう完璧な試合を
+JP 見せるのは難しいでしょうね。
+EN True... It would be hard for me to show a perfect
+EN match anymore.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# ロイヤル北条
+JP 完全無欠の試合をやり遂げるまでは
+JP 辞められません。
+EN I can't quit until I've fought a truly flawless match.
+
+@ 34.16
+# scene 035 コーチ就任
+# ロイヤル北条
+JP 完璧なコーチングをしてみせます。
+EN I shall show you perfect coaching.
+
+@ 35.16
+# scene 036 ケガ引退
+# ロイヤル北条
+JP このケガでは…。
+JP さすがに…あきらめざるを
+JP 得ません…。
+EN With this injury... even I... have no choice but to give
+EN up...
+
+@ 36.16
+# scene 037 年齢引退
+# ロイヤル北条
+JP 有終の美を飾るときが
+JP 来たようです。
+EN It seems the time has come to go out in a blaze of
+EN glory.
+
+@ 37.16
+# scene 038 退団
+# ロイヤル北条
+JP 運命の日はついに来たれり。
+EN At last, the fateful day has come.
+
+@ 38.16
+# scene 039 スランプ
+# ロイヤル北条
+JP 完璧にはほど遠い状態ですね…。
+EN I'm far from perfect right now...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# ロイヤル北条
+JP …ファンクラブ？
+EN ...A fan club?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# ロイヤル北条
+JP もちろんです。
+JP 完璧なファンサービスを
+JP してみせましょう。
+EN Of course. I shall give them perfect fan service.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# ロイヤル北条
+JP 新しいファンクラブが
+JP できたのですか？
+EN A new fan club has formed?
+
+@ 40.19
+# 社 長
+JP ああ。
+JP 期待に応えるようにな。
+EN Yeah. Make sure you live up to their expectations.
+
+@ 40.26
+# ロイヤル北条
+JP 言われるまでもありません。
+JP さらなる高みを目指します。
+EN That goes without saying. I'll aim even higher.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# ロイヤル北条
+JP 完璧なファンサービスを
+JP 目指したのですが…。
+EN I was aiming for perfect fan service, but...
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just try again.
+
+@ 41.26
+# ロイヤル北条
+JP 当然ですね。
+JP こんなことでめげる
+JP 私ではありません。
+EN Naturally. Something like this won't get me down.
+
+@ 42.16
+# scene 043 映画出演
+# ロイヤル北条
+JP 完璧な演技をしてみせましょう。
+EN I shall give a perfect performance.
+
+@ 43.16
+# scene 044 一日署長
+# ロイヤル北条
+JP 大変意義のある仕事ですね。
+JP 完璧にやり遂げてみせましょう。
+EN This is very meaningful work. I'll carry it out
+EN perfectly.
+
+@ 44.16
+# scene 045 写真集発売
+# ロイヤル北条
+JP …仕方ないですね。
+JP ただし、完璧なプロポーションが
+JP できるまで待ってもらいますよ。
+EN ...It can't be helped. But you'll have to wait until my
+EN proportions are perfect.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# ロイヤル北条
+JP やる以上は完璧なＣＭに
+JP してみせます。
+EN If I'm doing it, I'll make it a perfect commercial.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# ロイヤル北条
+JP やる以上は完璧になるまで
+JP 絶対に妥協しませんよ。
+EN If I'm doing it, I won't compromise until it's perfect.
+
+@ 47.16
+# scene 048 始球式
+# ロイヤル北条
+JP フェンシングで鍛えた
+JP 華麗な身のこなしを
+JP お見せしましょう。
+EN Allow me to show you the graceful footwork I honed
+EN in fencing.
+
+@ 48.16
+# scene 049 学園祭
+# ロイヤル北条
+JP 完璧なゲストとは何か
+JP 研究しておく必要がありますね。
+EN I'll need to research what makes a perfect guest.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a birthday present.
+
+@ 49.36
+# ロイヤル北条
+JP 覚えていてくださったとは…。
+JP ありがとうございます。
+EN You remembered... Thank you very much.
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.46
+# ロイヤル北条
+JP お任せください。
+JP つねに完璧な私をお見せしますから。
+EN Leave it to me. I'll always show you a perfect me.
+
+@ 50.30
+# scene 051 バレンタインデー
+# ロイヤル北条
+JP バレンタインのチョコレートを
+JP 用意しました。
+JP どうぞ。
+EN I've prepared Valentine's chocolate. Here you are.
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Ah, thank you.
+
+@ 50.40
+# ロイヤル北条
+JP いつものお礼です。
+JP 完璧な味を楽しんでください。
+EN It's my thanks for everything. Enjoy the perfect
+EN flavor.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this, as thanks for last month?
+
+@ 51.36
+# ロイヤル北条
+JP そんなわざわざ…。
+JP お心遣い、ありがとうございます。
+EN You didn't have to... Thank you for your kindness.
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have some between training sessions.
+
+@ 52.29
+# scene 053 サイン会
+# ロイヤル北条
+JP サインの形が崩れていたら
+JP 言ってください。
+JP 書き直しますので。
+EN If my signature comes out misshapen, please tell me.
+EN I'll write it again.
+
+@ 53.31
+# scene 054 コンサート
+# ロイヤル北条
+JP 完璧を目指して猛特訓しました。
+JP …では、聴いてください。
+EN I trained hard to make it perfect. ...Now, please
+EN listen.
+
+@ 54.28
+# scene 055 練習拒否
+# ロイヤル北条
+JP 調子が悪いですね。
+JP 今日は気分転換に
+JP あてるとしましょう。
+EN I'm not in good form. I'll spend today clearing my
+EN head.
+
+@ 55.28
+# scene 056 失踪
+# ロイヤル北条
+JP ここでの毎日に嫌気がさしました…。
+EN I've grown sick of my days here...
+
+@ 56.16
+# scene 057 選手解雇
+# ロイヤル北条
+JP 私に何が欠けていたと言うのですか？
+EN What was it I was lacking?
+
+@ 57.16
+# scene 058 海外遠征 出発
+# ロイヤル北条
+JP これを機に完璧なる雄飛を
+JP 遂げてみせます。
+EN I'll use this chance to take a perfect leap forward.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# ロイヤル北条
+JP 遠征の成果をお見せするのが
+JP 楽しみです。
+EN I look forward to showing you what I gained on tour.
+
+@ 59.28
+# scene 060 移籍思案
+# ロイヤル北条
+JP 他の団体が私を放っておいて
+JP くれないようです。
+EN It seems the other promotions won't leave me alone.
+
+@ 60.16
+# scene 061 革命軍結成
+# ロイヤル北条
+JP 栄光ある未来のために
+JP 立ち上がります！
+EN I rise up for a glorious future!
+
+@ 61.16
+# scene 062 反乱軍結成
+# ロイヤル北条
+JP 悪しき者は駆逐せねばなりません！
+EN The wicked must be driven out!
+
+@ 62.16
+# scene 063 最終決戦要求
+# ロイヤル北条
+JP 雌雄を決するときが来たようです！
+EN It seems the time has come to settle this once and
+EN for all!
+
+@ 63.16
+# scene 065 遺恨発生
+# ロイヤル北条
+JP あのような無礼な振る舞いを
+JP されては…。
+EN After such rude behavior...
+
+@ 64.16
+# scene 065 殴り込み
+# ロイヤル北条
+JP 私が完璧に粉砕してきましょう。
+EN I'll go crush them perfectly.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# ロイヤル北条
+JP ここは私が完璧に撃退して
+JP みせましょう。
+EN Leave this to me. I'll drive them off perfectly.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# ロイヤル北条
+JP 私と立ち会える戦士はいないのか？
+EN Is there no warrior here worthy to face me?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# ロイヤル北条
+JP 完全なる勝利を目指します！
+EN I aim for total victory!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# ロイヤル北条
+JP 完璧な試合を実現できました…。
+EN I achieved a perfect match...
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# ロイヤル北条
+JP クゥ…。
+JP 私の力がこの程度とは…。
+EN Ngh... Is this all my strength amounts to...?
+
+@ 70.13
+# scene 071 引退式
+# ロイヤル北条
+JP 私の姿があなたの目に
+JP 焼きついていたら嬉しい限りです。
+JP さようなら…。
+EN I'll be happy if my image remains etched in your eyes.
+EN Farewell...
+
+@ 71.18
+# ロイヤル北条
+JP なんでしょうか？
+EN Can I help you?
+
+@ 71.37
+# ロイヤル北条
+JP お呼びですか？
+EN You called for me?
+
+@ 71.47
+# ロイヤル北条
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been doing well lately! Keep it up!
+
+@ 71.90
+# ロイヤル北条
+JP もちろんです。
+JP 言われるまでもありません。
+EN Of course. That goes without saying.
+
+@ 71.111
+# ロイヤル北条
+JP それはまあ…。
+JP 当然のことですから。
+EN Well... That's only natural.
+
+@ 71.132
+# ロイヤル北条
+JP ありがとうございます。
+JP 見ていてください。
+EN Thank you very much. Just watch me.
+
+@ 71.153
+# ロイヤル北条
+JP お世辞は聞きたく
+JP ありませんから…。
+EN I have no interest in flattery...
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# ロイヤル北条
+JP たしかに…。
+JP 心に緩みがあったようです。
+EN You're right... I seem to have let my guard down.
+
+@ 71.211
+# ロイヤル北条
+JP そこまで言われるとは…。
+JP いくら社長でも納得できませんね。
+EN To go that far... Even from you, Boss, I can't accept
+EN that.
+
+@ 71.232
+# ロイヤル北条
+JP 申し訳ありません。
+JP しっかり立て直しますから。
+EN I'm very sorry. I'll pull myself together.
+
+@ 71.253
+# ロイヤル北条
+JP 私の努力が見えていないんですか？
+EN Can't you see how hard I've been working?
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 71.290
+# ロイヤル北条
+JP 些細なことを悩んでいただけです。
+JP もう大丈夫ですから。
+EN I was only worrying over something trivial. I'm fine
+EN now.
+
+@ 71.311
+# ロイヤル北条
+JP 別にそんなことはありません。
+EN Not particularly.
+
+@ 71.332
+# ロイヤル北条
+JP 今の言葉で悩みなど吹っ切れました。
+EN Your words just cleared away my worries.
+
+@ 71.353
+# ロイヤル北条
+JP 気遣わないでください。
+JP 自分で解決しますから。
+EN Please don't worry about me. I'll handle it myself.
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# ロイヤル北条
+JP ええ、わかっているつもりです。
+EN Yes, I believe I do.
+
+@ 71.400
+# ロイヤル北条
+JP まったく心当たりがありません。
+EN I have no idea whatsoever.
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# ロイヤル北条
+JP 社長にそう言われては…。
+JP わかりました。
+JP 和解します。
+EN If you say so, Boss... Very well. I'll make peace.
+
+@ 71.454
+# ロイヤル北条
+JP いくら社長の言葉でも…。
+JP 到底無理な話です。
+EN Even if it's you asking, Boss... That's completely
+EN impossible.
+
+@ 71.475
+# ロイヤル北条
+JP なんの話か
+JP まったくわからないのですが？
+EN I have no idea what you're talking about.
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# ロイヤル北条
+JP ええ…。
+EN Yes...
+
+@ 71.522
+# ロイヤル北条
+JP さあ…。
+EN Who knows...
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# ロイヤル北条
+JP …そうですね。
+JP 私から謝りましょう。
+EN ...You're right. I'll apologize first.
+
+@ 71.578
+# ロイヤル北条
+JP すみません…。
+JP やはり無理です。
+EN I'm sorry... I just can't.
+
+@ 71.599
+# ロイヤル北条
+JP 他の誰かと勘違いしていませんか？
+EN Aren't you mistaking me for someone else?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# ロイヤル北条
+JP お呼びですか？
+EN You called for me?
+
+@ 72.16
+# ロイヤル北条
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been doing well lately! Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# ロイヤル北条
+JP もちろんです。
+JP 言われるまでもありません。
+EN Of course. That goes without saying.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# ロイヤル北条
+JP それはまあ…。
+JP 当然のことですから。
+EN Well... That's only natural.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# ロイヤル北条
+JP ありがとうございます。
+JP 見ていてください。
+EN Thank you very much. Just watch me.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# ロイヤル北条
+JP お世辞は聞きたくありませんから。
+EN I have no interest in flattery...
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# ロイヤル北条
+JP たしかに…。
+JP 心に緩みがあったようです。
+EN You're right... I seem to have let my guard down.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# ロイヤル北条
+JP そこまで言われるとは…。
+JP いくら社長でも納得できませんね。
+EN To go that far... Even from you, Boss, I can't accept
+EN that.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# ロイヤル北条
+JP 申し訳ありません。
+JP しっかり立て直しますから。
+EN I'm very sorry. I'll pull myself together.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# ロイヤル北条
+JP 私の努力が見えていないんですか？
+EN Can't you see how hard I've been working?
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem down lately. Are you all right?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# ロイヤル北条
+JP 些細なことを悩んでいただけです。
+JP もう大丈夫ですから。
+EN I was only worrying over something trivial. I'm fine
+EN now.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# ロイヤル北条
+JP 別にそんなことはありません。
+EN Not particularly.
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# ロイヤル北条
+JP 今の言葉で悩みなど吹っ切れました。
+EN Your words just cleared away my worries.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# ロイヤル北条
+JP 気遣わないでください。
+JP 自分で解決しますから。
+EN Please don't worry about me. I'll handle it myself.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# ロイヤル北条
+JP ええ、わかっているつもりです。
+EN Yes, I believe I do.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# ロイヤル北条
+JP まったく心当たりがありません。
+EN I have no idea whatsoever.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# ロイヤル北条
+JP 社長にそう言われては…。
+JP わかりました。
+JP 和解します。
+EN If you say so, Boss... Very well. I'll make peace.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# ロイヤル北条
+JP いくら社長の言葉でも…。
+JP 到底無理な話です。
+EN Even if it's you asking, Boss... That's completely
+EN impossible.
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# ロイヤル北条
+JP なんの話か、
+JP まったくわからないのですが？
+EN I have no idea what you're talking about.
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# ロイヤル北条
+JP ええ…。
+EN Yes...
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# ロイヤル北条
+JP さあ…。
+EN Who knows...
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# ロイヤル北条
+JP …そうですね。
+JP 私から謝りましょう。
+EN ...You're right. I'll apologize first.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# ロイヤル北条
+JP すみません…。
+JP やはり無理です。
+EN I'm sorry... I just can't.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# ロイヤル北条
+JP 他の誰かと勘違いしていませんか？
+EN Aren't you mistaking me for someone else?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# ロイヤル北条
+JP これからもよろしくお願いします。
+EN I look forward to continuing to work with you.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# ロイヤル北条
+JP 大変満足しています。
+JP 完璧な条件でした。
+EN I'm very satisfied. Those were perfect terms.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# ロイヤル北条
+JP 私たちの間には
+JP 大きな溝があるようですね。
+EN It seems there's a wide gulf between us.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Wow, it's the tropics, all right. The sun is scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.36
+# 社 長
+JP （…んっ…あれは…北条か？）
+EN (Hm...? Is that... Hojo?)
+
+@ 105.38
+# 社 長
+JP （なんだろう？
+JP 　水着にも着替えないで…）
+EN (What's going on? She hasn't even changed into a
+EN swimsuit...)
+
+@ 105.48
+# ロイヤル北条
+JP ………クッ…。
+EN .........Ngh...
+
+@ 105.51
+# 社 長
+JP どうした、北条。
+EN What's wrong, Hojo?
+
+@ 105.58
+# ロイヤル北条
+JP …ああ、社長ですか。
+EN ...Oh, it's you, Boss.
+
+@ 105.61
+# 社 長
+JP 泳がないのか？
+EN Aren't you going to swim?
+
+@ 105.68
+# ロイヤル北条
+JP ……ハァ～…。
+EN ......Haaah...
+
+@ 105.72
+# ロイヤル北条
+JP 今の体ではとても
+JP 水着になどなれません。
+EN With my body as it is now, I couldn't possibly wear a
+EN swimsuit.
+
+@ 105.75
+# 社 長
+JP （…えっ？
+JP 　今の体って…？）
+EN (...Huh? "As it is now"...?)
+
+@ 105.77
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.79
+# 社 長
+JP （いつも通り見事なプロポーション
+JP 　だと思うけどな…）
+EN (Her figure looks as stunning as ever to me...)
+
+@ 105.81
+# 社 長
+JP よくわからないが…。
+JP 気にすることはないと思うぞ？
+EN I don't really get it... but I don't think you need to
+EN worry about it.
+
+@ 105.88
+# ロイヤル北条
+JP ……………ッ。
+EN ...............Ngh.
+
+@ 105.95
+# ロイヤル北条
+JP いいでしょう、この日に備えて
+JP 体を作れなかった屈辱を忘れぬために
+JP あえて脱ぎましょう。
+EN Very well. So I never forget the humiliation of failing
+EN to get in shape for this day, I shall bare it.
+
+@ 105.98
+# 社 長
+JP いや、ちょっと…。
+EN Wait, hold on...
+
+@ 105.121
+# ロイヤル北条
+JP ………クッ…。
+EN .........Ngh...
+
+@ 105.131
+# ロイヤル北条
+JP 今の声を聞きましたか？
+JP みなが私を笑うあの声が…。
+EN Did you hear those voices just now? Everyone
+EN laughing at me...
+
+@ 105.134
+# 社 長
+JP （あれは歓声なんじゃないか？）
+EN (Weren't those cheers?)
+
+@ 105.143
+# ロイヤル北条
+JP 私が屈辱を晴らす日のために…。
+EN For the day I wipe away this humiliation...
+
+@ 105.153
+# ロイヤル北条
+JP …社長もこの恥ずかしい体を
+JP その目に刻んでおいてください。
+EN ...Boss, you too must burn this shameful body into
+EN your memory.
+
+@ 105.156
+# 社 長
+JP （い、いや…。
+JP 　見ろと言われてもだな…）
+EN (W-well... Even if she tells me to look...)
+
+@ 105.158
+# 社 長
+JP …さすがに目のやり場に困るぞ。
+EN ...I don't know where to look here.
+
+@ 105.167
+# ロイヤル北条
+JP やはりこんな醜い体を
+JP 目にしたくはないと
+JP 言うことですね…。
+EN So you'd rather not lay eyes on a body this ugly
+EN after all...
+
+@ 105.170
+# 社 長
+JP そういうつもりじゃないんだが…。
+EN That's not what I meant...
+
+@ 105.174
+# ロイヤル北条
+JP ………クッ…。
+EN .........Ngh...
+
+@ 105.177
+# 社 長
+JP （やれやれ…。
+JP 　困ったものだな）
+EN (Good grief... What am I going to do with her?)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （よし、これで一段落だ）
+EN (Okay, that's that done.)
+
+@ 106.26
+# 社 長
+JP （ちょっと休憩するか）
+EN (Time for a little break.)
+
+@ 106.38
+# 社 長
+JP （…んっ…誰だろう？）
+EN (Hm...? Who could that be?)
+
+@ 106.40
+# 社 長
+JP どうぞー。
+EN Come in!
+
+@ 106.53
+# 社 長
+JP なんだ、北条か。
+EN Oh, it's you, Hojo.
+
+@ 106.55
+# 社 長
+JP どうした深刻な顔して？
+JP 心配事があるなら言ってくれ。
+EN Why the serious face? If something's bothering you,
+EN tell me.
+
+@ 106.59
+# ロイヤル北条
+JP はい。
+JP 今度、実家でホームパーティーを
+JP することになりまして…。
+EN Yes. My family is holding a party at our home soon...
+
+@ 106.63
+# ロイヤル北条
+JP そこに社長をお呼びするように
+JP 言い付かっているのですが
+JP お来しいただけないでしょうか？
+EN I've been told to invite you, Boss. Would you be willing
+EN to come?
+
+@ 106.66
+# 社 長
+JP なんだ、そんなことか。
+EN Oh, is that all?
+
+@ 106.68
+# 社 長
+JP 別に構わないぞ。
+EN Sure, I don't mind.
+
+@ 106.75
+# ロイヤル北条
+JP ありがとうございます。
+JP では、当日は迎えの車を
+JP 準備いたしますので。
+EN Thank you very much. I'll have a car sent to pick you
+EN up on the day.
+
+@ 106.78
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.90
+# 社 長
+JP （…えっ？
+JP 　迎えの車？）
+EN (...Huh? A car to pick me up?)
+
+@ 106.127
+# 社 長
+JP （さて…。
+JP 　送ってもらったのはいいが…）
+EN (Well... It was nice of them to give me a ride, but...)
+
+@ 106.129
+# 社 長
+JP （どこだ、ここは？）
+EN (Where am I?)
+
+@ 106.131
+# 社 長
+JP （ヨーロッパの宮廷みたいだぞ）
+EN (It's like some European royal court.)
+
+@ 106.133
+# 社 長
+JP （北条の実家って…なんなんだ？）
+EN (Just what is Hojo's family...?)
+
+@ 106.136
+# ロイヤル北条
+JP 社長。
+JP お待たせしてすみません。
+EN Boss. I'm sorry to keep you waiting.
+
+@ 106.139
+# 社 長
+JP ああ、北条か…。
+EN Ah, Hojo...
+
+@ 106.155
+# 社 長
+JP うおおお！
+JP びっくりした！？
+EN Whoa! You startled me!
+
+@ 106.157
+# 社 長
+JP なんだ、その格好！？
+EN What's with that outfit!?
+
+@ 106.159
+# 社 長
+JP いったい…おまえの家って
+JP 何やってんだ？
+EN Just what... does your family do?
+
+@ 106.163
+# ロイヤル北条
+JP 驚かせてすみません。
+EN I'm sorry to surprise you.
+
+@ 106.167
+# ロイヤル北条
+JP 父がヨーロッパの貴族で
+JP 日本でもその暮らしを
+JP 捨てられないのです。
+EN My father is a European aristocrat, and he can't
+EN give up that lifestyle even in Japan.
+
+@ 106.170
+# 社 長
+JP そ、そうか…。
+JP 本物の貴族だったのか…。
+EN I-I see... So you're real nobility...
+
+@ 106.172
+# 社 長
+JP 俺、場違いじゃないか？
+EN Don't I stick out like a sore thumb here?
+
+@ 106.182
+# ロイヤル北条
+JP いえ、いてもらわなければ困ります。
+JP 今日は婚約発表を兼ねていますから…。
+EN No, I need you here. Today is also my engagement
+EN announcement...
+
+@ 106.185
+# 社 長
+JP 婚約！？
+EN Engagement!?
+
+@ 106.187
+# 社 長
+JP 北条が誰かと婚約するのか！？
+JP 相手は誰だ！？
+EN You're getting engaged, Hojo!? To who!?
+
+@ 106.191
+# ロイヤル北条
+JP …社長です。
+EN ...To you, Boss.
+
+@ 106.194
+# 社 長
+JP …………。
+EN ..........
+
+@ 106.196
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.198
+# 社 長
+JP ……なんの話だ？
+EN ......What are you talking about?
+
+@ 106.202
+# ロイヤル北条
+JP すみません。
+EN I'm sorry.
+
+@ 106.206
+# ロイヤル北条
+JP 父にいい人を探せと
+JP 言われているのですが
+JP いまだ見つけられず…。
+EN My father keeps telling me to find a good man, but I
+EN still haven't found one...
+
+@ 106.210
+# ロイヤル北条
+JP せめて婚約者を連れて来い。
+JP それもできないならレスラーを
+JP 辞めろと言われて…。
+EN He said to at least bring a fiance, and if I couldn't
+EN even do that, to quit wrestling...
+
+@ 106.213
+# 社 長
+JP （それはおまえが完璧な男を
+JP 　探しているからじゃないのか？）
+EN (Isn't that because you're looking for the perfect
+EN man?)
+
+@ 106.215
+# 社 長
+JP …で、俺が連れてこられた訳か？
+EN ...So that's why you brought me here?
+
+@ 106.219
+# ロイヤル北条
+JP はい。
+JP 今日だけ婚約者のフリを
+JP していただけませんか？
+EN Yes. Would you pretend to be my fiance, just for
+EN today?
+
+@ 106.222
+# 社 長
+JP （うーん……）
+EN (Hmm......)
+
+@ 106.224
+# 社 長
+JP （北条に辞められても困るしな…）
+EN (It'd be trouble if Hojo had to quit...)
+
+@ 106.226
+# 社 長
+JP （身内が相手なら
+JP 　後で言い訳もできるだろうし…）
+EN (And since it's just her family, we can explain it away
+EN later...)
+
+@ 106.229
+# 社 長
+JP …仕方ないか。
+EN ...I guess there's no helping it.
+
+@ 106.239
+# ロイヤル北条
+JP ありがとうございます。
+EN Thank you very much.
+
+@ 106.242
+# 社 長
+JP …それにしても
+JP なんで俺なんだ？
+EN ...But why me, anyway?
+
+@ 106.252
+# ロイヤル北条
+JP それは…社長が…。
+JP 私が知っている男性の中では
+JP 一番ですから…。
+EN That's... because you're... the best of all the men I
+EN know...
+
+@ 106.255
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 106.265
+# ロイヤル北条
+JP と、とにかく急ぎましょう。
+JP 父が待っていますので…。
+EN A-anyway, let's hurry. My father is waiting...
+
+@ 106.268
+# 社 長
+JP あ、ああ…。
+EN R-right...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （よし、これで一段落だ）
+EN (Okay, that's that done.)
+
+@ 107.26
+# 社 長
+JP （ちょっと休憩するか）
+EN (Time for a little break.)
+
+@ 107.38
+# 社 長
+JP （…んっ…誰だろう？）
+EN (Hm...? Who could that be?)
+
+@ 107.40
+# 社 長
+JP どうぞ。
+EN Come in.
+
+@ 107.49
+# 社 長
+JP ああ、北条か。
+EN Ah, Hojo.
+
+@ 107.53
+# ロイヤル北条
+JP 先日はありがとうございました。
+EN Thank you for the other day.
+
+@ 107.56
+# 社 長
+JP ああ、気にするな。
+JP 今日はなんだ？
+EN Don't mention it. What's up today?
+
+@ 107.63
+# ロイヤル北条
+JP はい。
+JP 実はまた、実家でパーティーを
+JP することになりまして…。
+EN Yes. Actually, my family is holding another party at
+EN our home...
+
+@ 107.66
+# 社 長
+JP …もしかして
+JP また婚約者のフリをするのか？
+EN ...Don't tell me I'm playing your fiance again?
+
+@ 107.70
+# ロイヤル北条
+JP 申し訳ないと思っていますが…。
+JP お願いできないでしょうか？
+EN I know it's a lot to ask... but would you?
+
+@ 107.73
+# 社 長
+JP まあ…。
+JP 乗りかかった船だしな…。
+EN Well... In for a penny, in for a pound...
+
+@ 107.80
+# ロイヤル北条
+JP ありがとうございます。
+JP では、当日は迎えの車と
+JP 衣装を用意しますので。
+EN Thank you very much. I'll have a car and an outfit
+EN ready for you on the day.
+
+@ 107.92
+# 社 長
+JP （…やれやれ）
+EN (...Good grief.)
+
+@ 107.129
+# 社 長
+JP （さて…着いたか…）
+EN (Well... Here we are...)
+
+@ 107.131
+# 社 長
+JP （相変わらず豪華だな…）
+EN (As lavish as ever...)
+
+@ 107.148
+# ロイヤル北条
+JP 社長。
+JP お待たせしてすみません。
+EN Boss. I'm sorry to keep you waiting.
+
+@ 107.151
+# 社 長
+JP いや、気にしなくていいよ。
+EN No, don't worry about it.
+
+@ 107.153
+# 社 長
+JP 俺はここにいればいいのか？
+EN So do I just stay here?
+
+@ 107.157
+# ロイヤル北条
+JP それが…父が親類や取引先の方に
+JP 挨拶してほしいと…。
+EN About that... My father would like you to greet our
+EN relatives and business partners...
+
+@ 107.159
+# 社 長
+JP …なあ、そろそろ嘘じゃ済まなく
+JP なってきてないか？
+EN ...Hey, isn't this getting a bit too big to be just a lie?
+
+@ 107.161
+# 社 長
+JP そのうち、本当に結婚なんてことに
+JP なるかもしれないぞ？
+EN At this rate, we might end up actually getting
+EN married, you know?
+
+@ 107.165
+# ロイヤル北条
+JP そこはご安心ください。
+JP 後でちゃんと説明して
+JP おきますので…。
+EN Please, rest assured. I'll explain everything properly
+EN later...
+
+@ 107.168
+# 社 長
+JP そもそも家柄が
+JP 釣り合わないだろう？
+JP ごまかしきれるのか？
+EN Besides, our families are worlds apart, aren't they?
+EN Can you really keep this up?
+
+@ 107.178
+# ロイヤル北条
+JP …私はそのようなこと
+JP 気にしませんから…。
+EN ...I don't care about such things...
+
+@ 107.182
+# ロイヤル北条
+JP …それに本当にそうなっても
+JP 私はかまいませんので…。
+EN ...And even if it really came to that... I wouldn't mind...
+
+@ 107.185
+# 社 長
+JP ……えっ？
+EN ......Huh?
+
+@ 107.195
+# ロイヤル北条
+JP さあ、急ぎましょう。
+JP 皆さんがお待ちです。
+EN Come, let's hurry. Everyone is waiting.
+
+@ 107.198
+# 社 長
+JP …あ、ああ。
+EN ...R-right.
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# ロイヤル北条
+JP では、行きましょう！
+EN Now then, let's go!
+
+@ 109.17
+# scene 111 練習試合 ベター２
+# ロイヤル北条
+JP 練習試合こそ真剣に
+JP 完璧に行うべきだ。
+JP そうだろう？
+EN Even a practice match should be fought seriously,
+EN and perfectly. Wouldn't you agree?
+
+@ 110.16
+# scene 113 練習開始
+# ロイヤル北条
+JP では、始めましょうか。
+EN Well then, shall we begin?
+
+@ 111.16
+# scene 114 練習開始 好意
+# ロイヤル北条
+JP 完璧な練習を目指します！
+EN I aim for perfect training!
+
+@ 112.16
+# scene 115 特訓開始
+# ロイヤル北条
+JP 望むところです！
+EN Bring it on!
+
+@ 113.20
+# scene 116 特訓成功
+# ロイヤル北条
+JP 完璧な特訓でしたね。
+EN That was perfect special training.
+
+@ 114.20
+# scene 117 特訓失敗
+# ロイヤル北条
+JP くっ…。
+JP なんてことだ…。
+EN Ngh... How could this happen...
+
+@ 115.16
+# scene 118 休養
+# ロイヤル北条
+JP たまには優雅な時間を過ごすのも
+JP いいですね。
+EN It's nice to spend some elegant leisure time once in a
+EN while.
+
+@ 116.16
+# scene 119 入場1
+# ロイヤル北条
+JP 完璧な勝利を目指すのみ！
+EN I aim only for perfect victory!
+
+@ 117.16
+# scene 119 入場2
+# ロイヤル北条
+JP これが私のビクトリーロード！
+EN This is my Victory Road!
+
+@ 118.17
+# scene 121 タッグマッチ ベター１
+# ロイヤル北条
+JP クールなファイトを
+JP お見せしましょう！
+EN Allow me to show you a cool fight!
+
+@ 119.17
+# scene 122 タッグマッチ ベター２
+# ロイヤル北条
+JP 我々に死角などない。
+JP そうだろう？
+EN We have no blind spots. Wouldn't you agree?
+
+@ 120.16
+# scene 125 必殺技１
+# ロイヤル北条
+JP この試合、パーフェクトに決める！
+EN I'll finish this match perfectly!
+
+@ 121.16
+# scene 125 必殺技２
+# ロイヤル北条
+JP この技で完璧な勝利を掴む！
+EN With this move, I'll seize a perfect victory!
+
+@ 122.16
+# scene 125 必殺技３
+# ロイヤル北条
+JP これでチェックメイトだ！
+EN Checkmate!
+
+@ 123.12
+# scene 126 勝利1
+# ロイヤル北条
+JP 完全勝利。
+JP 当然の結果です…。
+EN A total victory. The natural result...
+
+@ 124.12
+# scene 126 勝利2
+# ロイヤル北条
+JP こんな勝ち方では満足できません…。
+JP 次こそはパーフェクトに！
+EN I can't be satisfied with a win like this... Next time,
+EN perfection!
+
+@ 125.12
+# scene 126 勝利3
+# ロイヤル北条
+JP 私の辞書から「勝利」の文字は
+JP 消えはしない。
+EN The word "victory" will never vanish from my
+EN dictionary.
+
+@ 126.15
+# scene 133 表彰1
+# ロイヤル北条
+JP 完璧な私をお見せできたことを
+JP 誇りに思います。
+EN I'm proud to have shown you the perfect me.
+
+@ 127.15
+# scene 133 表彰2
+# ロイヤル北条
+JP 次回はいっそう完璧な私を
+JP お見せします。
+EN Next time, I'll show you an even more perfect me.
+
+@ 128.12
+# scene 134 優勝1
+# ロイヤル北条
+JP これこそ真にパーフェクトな勝利！
+EN This is a truly perfect victory!
+
+@ 129.12
+# scene 134 優勝２
+# ロイヤル北条
+JP もっと完璧な勝利を
+JP 目指していきます。
+EN I'll keep aiming for even more perfect victories.
+
+@ 130.24
+# scene 135 エンディング 通常
+# ロイヤル北条
+JP おめでとうございます。
+JP ともに戦えたことを誇りに思います。
+EN Congratulations. I'm proud to have fought alongside
+EN you.
+
+@ 131.24
+# scene 136 エンディング 好意
+# ロイヤル北条
+JP 私は…社長をパーフェクトに
+JP 支えていくことが
+JP できるでしょうか…？
+EN Will I... be able to support you perfectly, Boss...?

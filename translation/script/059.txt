@@ -1,0 +1,2204 @@
+# /SCR/059.BIN - 村上千秋
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 059` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 村上 千秋
+JP 私ほどの人材、滅多にいないぜ？
+EN Talent like mine doesn't come along every day,
+EN y'know?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 村上 千秋
+JP クックック…。
+JP 当然だよな。
+EN Kukuku... Naturally.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 村上 千秋
+JP そうかい。
+JP 明日からは夜道に気をつけろよ。
+EN That so? Better watch yourself on dark streets
+EN from now on.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、たしかこのへんだな。
+EN Let's see, it should be around here somewhere.
+
+@ 3.25
+# 社 長
+JP スカウトの資料には
+JP 「ヒールレスラーとしての資質あり」と
+JP あるが…。
+EN The scouting report says she "has the makings of a
+EN heel wrestler"...
+
+@ 3.27
+# 社 長
+JP どんな子だろう…。
+EN I wonder what kind of girl she is...
+
+@ 3.37
+# ？？？
+JP ああ、やっと来たな。
+EN Ah, finally showed up, huh.
+
+@ 3.40
+# 社 長
+JP …えっ？
+EN ...Huh?
+
+@ 3.44
+# ？？？
+JP 私をスカウトに来た社長だろ。
+JP 待ってたんだぜ。
+EN You're the President who came to scout me, right?
+EN I've been waiting.
+
+@ 3.47
+# 社 長
+JP すると…あなたが…。
+EN Then... you must be...
+
+@ 3.54
+# 村上 千秋
+JP １０分の遅刻だから１０万な。
+EN You're ten minutes late, so that's a hundred
+EN thousand yen.
+
+@ 3.57
+# 社 長
+JP …はっ？
+EN ...Excuse me?
+
+@ 3.64
+# 村上 千秋
+JP 私の時間を奪ったんだ。
+JP そのくらい当然じゃないか？
+EN You stole my time. Seems fair enough, doesn't it?
+
+@ 3.67
+# 社 長
+JP （なるほど、こういうことか…）
+EN (I see. So that's how it is...)
+
+@ 3.69
+# 社 長
+JP それで入団は
+JP してもらえるんですか？
+EN So, will you join our promotion?
+
+@ 3.76
+# 村上 千秋
+JP おや、話をごまかしたな。
+EN Oho, changing the subject, are we?
+
+@ 3.79
+# 社 長
+JP （あんまり期待できないかな）
+EN (I'm not getting my hopes up.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 村上 千秋
+JP まあいいか。
+JP とりあえず入団してやるよ。
+EN Eh, why not. I'll join for now.
+
+@ 4.22
+# 社 長
+JP 本当ですか？
+EN Really?
+
+@ 4.29
+# 村上 千秋
+JP 任せておきな。
+JP 悪いようにはしないから。
+JP クックック…。
+EN Leave it to me. I'll treat you right. Kukuku...
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# 村上 千秋
+JP やめておくか。
+JP おまえ、なんか信用できないし…。
+EN Nah, I'll pass. Something about you I just don't
+EN trust...
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です。
+EN I see... That's a shame.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP ええと、たしか
+JP このあたりだったはずだが…。
+EN Let's see, it should have been around here...
+
+@ 6.25
+# 社 長
+JP ああ、いた。
+JP …あの、すみません。
+EN Ah, there she is. ...Um, excuse me.
+
+@ 6.35
+# 村上 千秋
+JP おや、性懲りもなくまた来たのか？
+EN Oho, back again? You never learn, huh?
+
+@ 6.38
+# 社 長
+JP うちの団体に
+JP 入ってもらえないでしょうか。
+EN Would you please join our promotion?
+
+@ 6.45
+# 村上 千秋
+JP 熱心だねぇ。
+JP さて、どうしようかなー。
+EN Aren't you persistent. Now, what should I do...
+
+@ 6.48
+# 社 長
+JP どうかお願いします。
+EN Please, I'm asking you.
+
+@ 6.50
+# 社 長
+JP （入ってくれるかな…？）
+EN (Will she join...?)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 村上 千秋
+JP まあいいか。
+JP とりあえず入団してやるよ。
+EN Eh, why not. I'll join for now.
+
+@ 7.22
+# 社 長
+JP 本当ですか？
+EN Really?
+
+@ 7.29
+# 村上 千秋
+JP 任せておきな。
+JP 悪いようにはしないから。
+JP クックック…。
+EN Leave it to me. I'll treat you right. Kukuku...
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 村上 千秋
+JP やめておくか。
+JP おまえ、なんか信用できないし…。
+EN Nah, I'll pass. Something about you I just don't
+EN trust...
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です。
+EN I see... That's a shame.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP 俺は千秋選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Chiaki.
+
+@ 9.25
+# 社 長
+JP ものすごく悪名が高いが
+JP それは他にない個性だ。
+EN She's incredibly notorious, but that's a personality
+EN like no other.
+
+@ 9.27
+# 社 長
+JP 団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joins us, our shows will be livelier than ever.
+EN No doubt about it.
+
+@ 9.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she hangs around here...
+
+@ 9.31
+# 社 長
+JP ああ、いた！
+EN Ah, there she is!
+
+@ 9.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.43
+# 村上 千秋
+JP なんだよ？
+EN What do you want?
+
+@ 9.46
+# 社 長
+JP 実はですね…。
+EN Well, the thing is...
+
+@ 9.48
+# 社 長
+JP （俺は単刀直入に
+JP 　彼女をスカウトしてみた）
+EN (I got straight to the point and made her an offer.)
+
+@ 9.52
+# 村上 千秋
+JP 移籍しろっていうのか？
+EN You want me to switch promotions?
+
+@ 9.55
+# 社 長
+JP はい、どうでしょうか？
+EN Yes. What do you say?
+
+@ 9.62
+# 村上 千秋
+JP そいつは面白いぜ。
+JP 傑作な話だ。
+JP クックック…。
+EN Now that's funny. A real riot. Kukuku...
+
+@ 9.65
+# 社 長
+JP （承諾してくれるのかな？）
+EN (Is that a yes?)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 村上 千秋
+JP まあ、いいだろ。
+JP また来られても面倒だし
+JP 移籍するよ。
+EN Eh, fine. Having you come back again would be a pain,
+EN so I'll switch.
+
+@ 10.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 10.29
+# 村上 千秋
+JP ああ。
+JP 好きにやらせてもらうよ。
+JP 楽しみにしてな。
+EN Yeah. I'll be doing things my way. Look forward to it.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 村上 千秋
+JP やっぱりヤメだ。
+JP おまえ、ケチくさそうだしな。
+EN Nah, forget it. You look like a cheapskate.
+
+@ 11.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 千秋選手が必要だ。
+EN Our promotion really does need Chiaki.
+
+@ 12.25
+# 社 長
+JP 俺はもう一度
+JP 千秋選手と交渉することにした。
+EN I decided to negotiate with Chiaki one more time.
+
+@ 12.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.37
+# 村上 千秋
+JP おやー？
+JP 誰かと思えば
+JP いつかの社長じゃないか。
+EN Oho? If it isn't that President from before.
+
+@ 12.40
+# 社 長
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN I just really want you in our promotion...
+
+@ 12.47
+# 村上 千秋
+JP ふーん。
+JP えらく熱心だねぇ。
+EN Hmm. Aren't you eager.
+
+@ 12.50
+# 社 長
+JP 是非入ってもらえませんか？
+EN Won't you please join us?
+
+@ 12.57
+# 村上 千秋
+JP そうだなあ…。
+JP 私の靴をなめたら考えてやろうか。
+EN Let's see... Lick my shoes and I'll think about it.
+
+@ 12.60
+# 社 長
+JP （おいおい…）
+EN (Oh, come on...)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 村上 千秋
+JP まあ、いいだろ。
+JP また来られても面倒だし
+JP 移籍するよ。
+EN Eh, fine. Having you come back again would be a pain,
+EN so I'll switch.
+
+@ 13.22
+# 社 長
+JP それはよかった。
+JP よろしくお願いします。
+EN That's great. I look forward to working with you.
+
+@ 13.29
+# 村上 千秋
+JP ああ。
+JP 好きにやらせてもらうよ。
+JP 楽しみにしてな。
+EN Yeah. I'll be doing things my way. Look forward to it.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 村上 千秋
+JP やっぱりヤメだ。
+JP おまえ、ケチくさそうだしな。
+EN Nah, forget it. You look like a cheapskate.
+
+@ 14.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP 俺は千秋選手と
+JP 交渉してみることにした。
+EN I decided to try negotiating with Chiaki.
+
+@ 15.25
+# 社 長
+JP どうにも評判は悪いが
+JP あれほど根っからのヒールは
+JP そうはいない。
+EN Her reputation is terrible, but you don't find many
+EN heels that rotten to the core.
+
+@ 15.27
+# 社 長
+JP うちの団体に入ってもらえれば
+JP 興行がいっそう盛り上がるのは
+JP 間違いない。
+EN If she joins us, our shows will be livelier than ever.
+EN No doubt about it.
+
+@ 15.29
+# 社 長
+JP たしか、このへんにいると
+JP 聞いたが…。
+EN I heard she hangs around here...
+
+@ 15.31
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 15.33
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.43
+# 村上 千秋
+JP なんだよ？
+EN What do you want?
+
+@ 15.46
+# 社 長
+JP あの、実はですね…。
+EN Um, well, the thing is...
+
+@ 15.48
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and made her an offer.)
+
+@ 15.55
+# 村上 千秋
+JP なるほど…。
+JP 私を求めているってことだな。
+EN I see... So you want me.
+
+@ 15.58
+# 社 長
+JP はい。
+JP どうでしょうか？
+EN Yes. What do you say?
+
+@ 15.62
+# 村上 千秋
+JP いい目してるねぇ。
+JP クックック…。
+EN You've got a good eye. Kukuku...
+
+@ 15.65
+# 社 長
+JP 是非お願いします！
+EN Please, I'm asking you!
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 村上 千秋
+JP よし、わかった。
+JP 私に任せておきな。
+EN All right, fine. Leave it to me.
+
+@ 16.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 16.29
+# 村上 千秋
+JP これからが楽しみだな。
+JP クックック…。
+EN This is gonna be fun. Kukuku...
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 村上 千秋
+JP やっぱ面倒くせーからヤメだ。
+EN Nah, too much of a pain. Forget it.
+
+@ 17.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP やはりうちの団体には
+JP 千秋選手が必要だ。
+EN Our promotion really does need Chiaki.
+
+@ 18.25
+# 社 長
+JP 俺はもう一度
+JP 千秋選手と交渉することにした。
+EN I decided to negotiate with Chiaki one more time.
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 村上 千秋
+JP おやおや、また来たのかい。
+EN Well, well, back again?
+
+@ 18.40
+# 社 長
+JP どうしてもうちに
+JP 入ってもらいたくて…。
+EN I just really want you with us...
+
+@ 18.47
+# 村上 千秋
+JP ふーん。
+JP そこまでご執心とはねぇ。
+EN Hmm. Didn't know you were so smitten.
+
+@ 18.50
+# 社 長
+JP ダメでしょうか？
+EN Is it no good?
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 村上 千秋
+JP よし、わかった。
+JP 私に任せておきな。
+EN All right, fine. Leave it to me.
+
+@ 19.22
+# 社 長
+JP そうですか。
+JP ありがとうございます。
+EN Really? Thank you very much.
+
+@ 19.29
+# 村上 千秋
+JP これからが楽しみだな。
+JP クックック…。
+EN This is gonna be fun. Kukuku...
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 村上 千秋
+JP やっぱ面倒くせーからヤメだ。
+EN Nah, too much of a pain. Forget it.
+
+@ 20.22
+# 社 長
+JP そうですか。
+JP 残念です…。
+EN I see. That's a shame...
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP 俺は千秋を訪ねることにした。
+EN I decided to go see Chiaki.
+
+@ 21.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 21.27
+# 社 長
+JP たしかこのあたりにいると
+JP 聞いたが…。
+EN I heard she was around here...
+
+@ 21.29
+# 社 長
+JP あっ、いた！
+EN Ah, there she is!
+
+@ 21.31
+# 社 長
+JP 千秋っ！
+EN Chiaki!
+
+@ 21.41
+# 村上 千秋
+JP おや、懐かしい顔じゃないか。
+EN Oho, a face from the past.
+
+@ 21.44
+# 社 長
+JP 久しぶりだな。
+EN It's been a while.
+
+@ 21.51
+# 村上 千秋
+JP そうだな。
+JP たしか、何の落ち度もない私を
+JP 無慈悲に追い出して以来だったよな？
+EN Sure has. Not since you mercilessly threw me out,
+EN when I'd done nothing wrong, right?
+
+@ 21.54
+# 社 長
+JP 実は戻ってきて欲しくて
+JP 探していたんだ。
+EN Actually, I've been looking for you because I want
+EN you back.
+
+@ 21.61
+# 村上 千秋
+JP そいつは面白いねぇ。
+JP 最高のジョークだよ。
+EN Now that's funny. Best joke I've heard all year.
+
+@ 21.64
+# 社 長
+JP たしかにこんなことを頼めた
+JP 義理じゃないのはわかっているが…。
+EN I know I'm in no position to ask this of you, but...
+
+@ 21.66
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 村上 千秋
+JP まあ、いいだろ。
+JP 私は寛大だからな。
+JP 水に流してやるよ。
+EN Eh, fine. I'm a generous woman. I'll let bygones be
+EN bygones.
+
+@ 22.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 22.29
+# 村上 千秋
+JP 礼を言うのはこっちだよ。
+JP これからは刺激いっぱいの
+JP 毎日を過ごさせてやるよ。
+EN No, thank YOU. From now on, I'll make sure every day
+EN is full of excitement.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 村上 千秋
+JP まあ、やめとくか。
+EN Eh, I think I'll pass.
+
+@ 23.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that. Please, come back.
+
+@ 23.29
+# 村上 千秋
+JP けどなあ。
+JP もう手を回しちまった後だし…。
+JP 後の祭りってヤツだな。
+EN Thing is, I already pulled some strings... Bit late for
+EN that now.
+
+@ 23.32
+# 社 長
+JP （いったい何の話だ…？）
+EN (What on earth is she talking about...?)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP 俺は再び千秋を訪ねることにした。
+EN I decided to go see Chiaki again.
+
+@ 24.25
+# 社 長
+JP やっぱり彼女は
+JP うちの団体に必要な選手だ。
+EN She really is a wrestler our promotion needs.
+
+@ 24.27
+# 社 長
+JP 千秋っ！
+EN Chiaki!
+
+@ 24.37
+# 村上 千秋
+JP おやおや、よく来たねぇ。
+JP 歓迎するよ。
+EN Well, well, welcome. Glad you came.
+
+@ 24.40
+# 社 長
+JP すまない。
+JP もう一度話を聞いてくれ。
+EN Sorry. Please hear me out one more time.
+
+@ 24.42
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you back in the promotion.
+
+@ 24.44
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 村上 千秋
+JP まあ、いいだろ。
+JP 私は寛大だからな。
+JP 水に流してやるよ。
+EN Eh, fine. I'm a generous woman. I'll let bygones be
+EN bygones.
+
+@ 25.22
+# 社 長
+JP ありがとう！
+JP またよろしくな。
+EN Thank you! Glad to have you back.
+
+@ 25.29
+# 村上 千秋
+JP 礼を言うのはこっちだよ。
+JP これからは刺激いっぱいの
+JP 毎日を過ごさせてやるよ。
+EN No, thank YOU. From now on, I'll make sure every day
+EN is full of excitement.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 村上 千秋
+JP まあ、やめとくか。
+EN Eh, I think I'll pass.
+
+@ 26.22
+# 社 長
+JP そう言わずに頼む。
+JP 戻ってきてくれ。
+EN Don't say that. Please, come back.
+
+@ 26.29
+# 村上 千秋
+JP けどなあ。
+JP もう手を回しちまった後だし…。
+JP 後の祭りってヤツだな。
+EN Thing is, I already pulled some strings... Bit late for
+EN that now.
+
+@ 26.32
+# 社 長
+JP （いったい何の話だ…？）
+EN (What on earth is she talking about...?)
+
+@ 27.16
+# scene 028 ケガ小
+# 村上 千秋
+JP まあ、半年も休めば治ると思うよ。
+EN Eh, six months off oughta fix it right up.
+
+@ 28.16
+# scene 029 ケガ大
+# 村上 千秋
+JP やってくれたぜ…。
+JP このままじゃ、すまさねぇぞ。
+EN They got me good... I'm not letting this slide.
+
+@ 29.16
+# scene 030 入院
+# 村上 千秋
+JP いいねぇ。
+JP これで思いきり羽を伸ばせるな。
+EN Nice. Now I can really kick back and relax.
+
+@ 30.16
+# scene 031 退院
+# 村上 千秋
+JP まだ退院は早いんじゃないか？
+EN Isn't it a little early to discharge me?
+
+@ 31.16
+# scene 032 ケガ完治
+# 村上 千秋
+JP しばらくは自主メニューで
+JP やらせてもらうよ。
+EN I'll be doing my own training menu for a while.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 村上 千秋
+JP そうだな。
+JP いいネタもたくさん仕入れたし…。
+JP 潮時だな。
+EN Yeah. I've dug up plenty of juicy dirt anyway... Guess
+EN it's time.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 村上 千秋
+JP そんな話、とっとと引っ込めないと
+JP 裁判沙汰になるよ？
+EN Drop that talk right now, or we'll be settling this in
+EN court. Got it?
+
+@ 34.16
+# scene 035 コーチ就任
+# 村上 千秋
+JP 私の言うことには
+JP 逆らわない方がいいと思うよ。
+EN I'd think twice before disobeying me, if I were you.
+
+@ 35.16
+# scene 036 ケガ引退
+# 村上 千秋
+JP しゃーねーなー。
+JP 別の金ヅル見つけに行くか。
+EN Can't be helped. Guess I'll go find another cash cow.
+
+@ 36.16
+# scene 037 年齢引退
+# 村上 千秋
+JP そろそろ小娘どもの相手にも
+JP 飽きてきたんでね。
+EN I'm getting bored of dealing with these little brats.
+
+@ 37.16
+# scene 038 退団
+# 村上 千秋
+JP おまえの顔も見飽きたんでね。
+EN I'm sick of looking at your face.
+
+@ 38.16
+# scene 039 スランプ
+# 村上 千秋
+JP 体が休めって言ってるな。
+EN My body's telling me to take a break.
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 村上 千秋
+JP ファンクラブ？
+EN A fan club?
+
+@ 39.19
+# 社 長
+JP 応援に負けないようにがんばれよ。
+EN Work hard so you live up to their support.
+
+@ 39.26
+# 村上 千秋
+JP 相手してる暇なんて
+JP ないんだけどねー。
+EN Not like I've got time to deal with 'em, though.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 村上 千秋
+JP ファンクラブ？
+JP またできたのか。
+EN A fan club? Another one?
+
+@ 40.19
+# 社 長
+JP 期待に応えるようにな。
+EN Live up to their expectations.
+
+@ 40.26
+# 村上 千秋
+JP どいつもこいつも
+JP ホント、暇だな。
+EN Every last one of 'em... They've seriously got too
+EN much free time.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 村上 千秋
+JP ファンクラブが解散した？
+JP マジかよ。
+EN My fan club broke up? Seriously?
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+EN Well, these things happen.
+
+@ 41.26
+# 村上 千秋
+JP これで面倒事が減ったな。
+JP ラッキー、ラッキー。
+EN One less hassle for me. Lucky, lucky.
+
+@ 42.16
+# scene 043 映画出演
+# 村上 千秋
+JP 面倒だなー。
+JP 出ないといけないのか？
+EN What a pain. Do I really have to be in it?
+
+@ 43.16
+# scene 044 一日署長
+# 村上 千秋
+JP うっとうしいなー。
+JP どうしてもやるのか？
+EN How annoying. Do I seriously have to do it?
+
+@ 44.16
+# scene 045 写真集発売
+# 村上 千秋
+JP かったるいなー。
+JP 中止にできないのか？
+EN What a drag. Can't we cancel it?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 村上 千秋
+JP アホくせーなー。
+JP 断れないのか？
+EN How stupid. Can't I turn it down?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 村上 千秋
+JP やる気しねぇなー。
+JP 誰か代わりに歌わせるか…。
+EN I can't be bothered. Maybe I'll get someone else to
+EN sing it...
+
+@ 47.16
+# scene 048 始球式
+# 村上 千秋
+JP くだらねぇなー。
+JP そんなモン、やめられないのか？
+EN How lame. Can't I get out of something like that?
+
+@ 48.16
+# scene 049 学園祭
+# 村上 千秋
+JP やってられねーなー。
+JP キャンセルできないのか？
+EN Gimme a break. Can't I cancel?
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a little something for your birthday.
+
+@ 49.36
+# 村上 千秋
+JP おや、なんの下心だ？
+EN Oho, what are you after?
+
+@ 49.39
+# 社 長
+JP いらないなら、別にいいんだが…。
+EN If you don't want it, that's fine...
+
+@ 49.46
+# 村上 千秋
+JP まあ、もらっておいてやるか。
+JP どーもな。
+EN Eh, guess I'll take it. Thanks.
+
+@ 50.30
+# scene 051 バレンタインデー
+# 村上 千秋
+JP 社長、チョコやるよ。
+EN Boss, here's some chocolate.
+
+@ 50.33
+# 社 長
+JP …ああ、今日はバレンタインか。
+EN ...Oh, it's Valentine's Day today.
+
+@ 50.40
+# 村上 千秋
+JP バレンタインデーの惨劇
+JP なんてな、クックック…。
+JP まあ、楽しんでくれよ。
+EN The Valentine's Day Massacre. Just kidding,
+EN kukuku... Well, enjoy.
+
+@ 50.43
+# 社 長
+JP （な、なんだ、
+JP 　今のリアクションは…）
+EN (Wh-what was that reaction just now...?)
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Will you accept this as thanks for last month?
+
+@ 51.36
+# 村上 千秋
+JP ほほう。
+JP じゃ、あれ、食ったんだな。
+JP …そーか、そーか、食ったのか。
+EN Oho. So you ate it, then. ...I see, I see. You ate it.
+
+@ 51.39
+# 社 長
+JP （い、いったい何なんだ…？）
+EN (Wh-what is it with her...?)
+
+@ 52.29
+# scene 053 サイン会
+# 村上 千秋
+JP 今日のコピーは写りがいいねぇ。
+EN These photocopied autographs came out nice today.
+
+@ 53.29
+# scene 054 コンサート
+# 村上 千秋
+JP 今日は本物のサギって
+JP ヤツを見せてやるよ。
+JP …って訳で、じゃあな。
+EN Today I'll show you what a real con looks like. ...And
+EN with that, see ya.
+
+@ 54.26
+# scene 055 練習拒否
+# 村上 千秋
+JP 練習のしすぎは
+JP 体に良くないからなー。
+EN Training too much is bad for your health, y'know.
+
+@ 55.26
+# scene 056 失踪
+# 村上 千秋
+JP 余計な詮索はしないことだね。
+EN Don't go sticking your nose where it doesn't belong.
+
+@ 56.16
+# scene 057 選手解雇
+# 村上 千秋
+JP ほほう。
+JP まさか、社長にそんな勇気が
+JP あったとはねぇ。
+EN Oho. Never thought you had the guts, Boss.
+
+@ 57.16
+# scene 058 海外遠征 出発
+# 村上 千秋
+JP 国外追放ってやつか？
+EN So I'm being deported, is that it?
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# 村上 千秋
+JP ホント…。
+JP 充実した時間が過ごせたぜ。
+JP クックック…。
+EN Seriously... I had a very productive time. Kukuku...
+
+@ 59.26
+# scene 060 移籍思案
+# 村上 千秋
+JP まあ、いつまでここにいても
+JP ナンだしなー。
+EN Well, hanging around here forever is kinda... y'know.
+
+@ 60.16
+# scene 061 革命軍結成
+# 村上 千秋
+JP あの連中
+JP ちょっといい気になってないか？
+EN Aren't those guys getting a little full of themselves?
+
+@ 61.16
+# scene 062 反乱軍結成
+# 村上 千秋
+JP ぶっ潰すしか
+JP 方法ないって感じだよなー。
+EN Feels like smashing 'em is the only way, huh.
+
+@ 62.16
+# scene 063 最終決戦要求
+# 村上 千秋
+JP 正々堂々と戦おうぜ。
+JP …そう、正々堂々とな。
+EN Let's have a good, clean fight. ...Yeah, nice and
+EN clean.
+
+@ 63.16
+# scene 065 遺恨発生
+# 村上 千秋
+JP このままで済むと思ったら
+JP 大間違いだぜ。
+EN If you think this is over, you're dead wrong.
+
+@ 64.16
+# scene 065 殴り込み
+# 村上 千秋
+JP 面倒くせーなー。
+JP こんなこと、私にやらせるなよ。
+EN Ugh, what a pain. Don't make me do stuff like this.
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# 村上 千秋
+JP 殴り込みだあ？
+JP バカバカしい。
+JP 誰か相手してやれよ。
+EN An invasion? How stupid. Somebody go deal with 'em.
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 村上 千秋
+JP 話次第じゃ、白星売ってやるぜ？
+EN For the right price, I'll sell you a win. Interested?
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# 村上 千秋
+JP 私にふさわしい舞台じゃないか。
+EN Now that's a stage worthy of me.
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# 村上 千秋
+JP まあ、当然の結果って
+JP ヤツだろうな。
+EN Well, I'd call that the obvious result.
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# 村上 千秋
+JP こんなモン
+JP まじめにやってられるか…。
+EN Like I'm gonna take this kinda thing seriously...
+
+@ 70.13
+# scene 071 引退式
+# 村上 千秋
+JP ファンサービスも
+JP これで終わりだな。
+JP あー、せいせいした。
+EN That's the end of the fan service. Ahh, what a relief.
+
+@ 71.17
+# 村上 千秋
+JP なんだ？
+EN What?
+
+@ 71.36
+# 村上 千秋
+JP …なんだい。
+EN ...What is it?
+
+@ 71.46
+# 村上 千秋
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.65
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been doing well lately. Keep it up!
+
+@ 71.89
+# 村上 千秋
+JP 意外にちゃんと見てるじゃないか。
+EN You actually pay attention, huh. Didn't expect that.
+
+@ 71.110
+# 村上 千秋
+JP ハンッ、心にもないこと言うなよ。
+EN Hmph, don't say stuff you don't mean.
+
+@ 71.131
+# 村上 千秋
+JP まあな。
+JP 正直、ガラじゃないけど
+JP やってやるよ。
+EN Yeah. Honestly, it's not really my style, but I'll give it
+EN a shot.
+
+@ 71.152
+# 村上 千秋
+JP ちゃんと私を見てんのか？
+EN Are you even watching me?
+
+@ 71.165
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 71.189
+# 村上 千秋
+JP そこまでハッキリ言われちゃ
+JP ごまかせねーな。
+EN When you put it that bluntly, I can't play dumb.
+
+@ 71.210
+# 村上 千秋
+JP あー、そうかい、そうかい。
+EN Yeah, yeah, sure, sure.
+
+@ 71.231
+# 村上 千秋
+JP あんまりキツいこと言うなって。
+JP …傷つくだろうが。
+EN Don't be so harsh. ...That hurts, y'know.
+
+@ 71.252
+# 村上 千秋
+JP そのへんにしときな。
+JP いくらおまえでも、な。
+EN That's enough. Even from you.
+
+@ 71.265
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 71.289
+# 村上 千秋
+JP 何、気を遣ってんだよ。
+JP どういう風の吹き回しだ？
+EN What's with the concern? What brought this on?
+
+@ 71.310
+# 村上 千秋
+JP もしかして
+JP 私をいつも見張ってんのか？
+EN Don't tell me you're keeping an eye on me all the
+EN time?
+
+@ 71.331
+# 村上 千秋
+JP チッ…。
+JP 悔しいけど、なんか嬉しいな。
+EN Tch... I hate to admit it, but that kinda makes me
+EN happy.
+
+@ 71.352
+# 村上 千秋
+JP あー、はいはい。
+JP ホント、おまえって
+JP 優しいよなー。
+EN Yeah, yeah. You're just so sweet, aren't you.
+
+@ 71.366
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.382
+# 村上 千秋
+JP ああ。
+EN Yeah.
+
+@ 71.399
+# 村上 千秋
+JP いや、さっぱり。
+EN Nope, not a clue.
+
+@ 71.410
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.432
+# 村上 千秋
+JP 向こうが悪いんだぜ。
+JP けどまあ、我慢してやるか。
+EN It's her fault, y'know. But fine, I'll put up with it.
+
+@ 71.453
+# 村上 千秋
+JP ほっとけよ。
+JP 余計な世話は災いのもとだぜ？
+EN Butt out. Meddling only brings trouble, y'know?
+
+@ 71.474
+# 村上 千秋
+JP 誰かと間違えてんじゃねぇか？
+EN You sure you don't have me mixed up with someone
+EN else?
+
+@ 71.487
+# 社 長
+JP おまえを呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.504
+# 村上 千秋
+JP なんとなく…な。
+EN Kinda... yeah.
+
+@ 71.521
+# 村上 千秋
+JP 二人っきりになろうってんだろ？
+JP クックック…。
+EN You wanted us all alone, right? Kukuku...
+
+@ 71.534
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 71.556
+# 村上 千秋
+JP う～ん。
+JP …まあ、いいか。
+JP おまえの頼みだしな。
+EN Hmmm. ...Eh, fine. Since you're the one asking.
+
+@ 71.577
+# 村上 千秋
+JP いや、それは無理だね。
+JP この件には口を出さない方がいいぜ。
+EN Nah, no can do. Better keep your nose out of this
+EN one.
+
+@ 71.598
+# 村上 千秋
+JP もう芝居はいいって。
+JP …なんかして欲しいんだろ？
+EN Quit the act already. ...You want something from me,
+EN right?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# 村上 千秋
+JP …何だい。
+EN ...What is it?
+
+@ 72.16
+# 村上 千秋
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been doing well lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# 村上 千秋
+JP 意外にちゃんと見てるじゃないか。
+EN You actually pay attention, huh. Didn't expect that.
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# 村上 千秋
+JP ハン、心にもないこと言うなよ。
+EN Hmph, don't say stuff you don't mean.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# 村上 千秋
+JP まあな、正直、
+JP ガラじゃないけど、やってやるよ。
+EN Yeah. Honestly, it's not really my style, but I'll give it
+EN a shot.
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# 村上 千秋
+JP ちゃんと私を見てんのか？
+EN Are you even watching me?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a bit lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# 村上 千秋
+JP そこまでハッキリ言われちゃ、
+JP ごまかせねーな。
+EN When you put it that bluntly, I can't play dumb.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# 村上 千秋
+JP あー、そうかい、そうかい。
+EN Yeah, yeah, sure, sure.
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# 村上 千秋
+JP あんまりキツいこと言うなって。
+JP …傷つくだろうが。
+EN Don't be so harsh. ...That hurts, y'know.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# 村上 千秋
+JP そのへんにしときな。
+JP いくらおまえでも、な。
+EN That's enough. Even from you.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# 村上 千秋
+JP 何、気を遣ってんだよ。
+JP どういう風の吹き回しだ？
+EN What's with the concern? What brought this on?
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# 村上 千秋
+JP もしかして、
+JP 私をいつも見張ってんのか？
+EN Don't tell me you're keeping an eye on me all the
+EN time?
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# 村上 千秋
+JP チッ…。悔しいけど、
+JP なんか嬉しいな。
+EN Tch... I hate to admit it, but that kinda makes me
+EN happy.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# 村上 千秋
+JP あー、はいはい。
+JP ホント、おまえって
+JP 優しいよなー。
+EN Yeah, yeah. You're just so sweet, aren't you.
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 村上 千秋
+JP ああ。
+EN Yeah.
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 村上 千秋
+JP いや、さっぱり。
+EN Nope, not a clue.
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 村上 千秋
+JP 向こうが悪いんだぜ。
+JP けどまあ、我慢してやるか。
+EN It's her fault, y'know. But fine, I'll put up with it.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 村上 千秋
+JP ほっとけよ。
+JP 余計な世話は災いのもとだぜ？
+EN Butt out. Meddling only brings trouble, y'know?
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 村上 千秋
+JP 誰かと間違えてんじゃねぇか？
+EN You sure you don't have me mixed up with someone
+EN else?
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 村上 千秋
+JP なんとなく…な。
+EN Kinda... yeah.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 村上 千秋
+JP ふたりっきりになろうってんだろ？
+JP クックック…。
+EN You wanted us all alone, right? Kukuku...
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try getting along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 村上 千秋
+JP う～ん。…まあ、いいか。
+JP おまえの頼みだしな。
+EN Hmmm. ...Eh, fine. Since you're the one asking.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 村上 千秋
+JP いや、それは無理だね。
+JP この件には口を出さない方がいいぜ。
+EN Nah, no can do. Better keep your nose out of this
+EN one.
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 村上 千秋
+JP もう芝居はいいって。
+JP …なんかして欲しいんだろ？
+EN Quit the act already. ...You want something from me,
+EN right?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# 村上 千秋
+JP やれやれ、こりゃ最低の契約だな。
+EN Geez, what a lousy contract.
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# 村上 千秋
+JP へー。
+JP 意外に気前がいいんだな。
+JP 驚いたぜ。
+EN Huh. You're more generous than I thought. Color me
+EN surprised.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# 村上 千秋
+JP おい、人をナメてんのか？
+JP 後悔しても知らねえぜ。
+EN Hey, are you making fun of me? Don't come crying to
+EN me later.
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Hmm, the tropics sure are something. The sun is
+EN scorching.)
+
+@ 105.30
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Looks like everyone's having fun.)
+
+@ 105.32
+# 社 長
+JP （俺はもう少し
+JP 　のんびりしてるかな…）
+EN (I think I'll take it easy a little longer...)
+
+@ 105.39
+# ？？？
+JP おい。
+EN Hey.
+
+@ 105.42
+# 社 長
+JP （…んっ、この声は？）
+EN (...Hm? That voice...)
+
+@ 105.57
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.61
+# ？？？
+JP おおっと、振り向くなよ。
+EN Ah-ah, don't turn around.
+
+@ 105.65
+# ？？？
+JP そのまま手を後ろに延ばしてくれ。
+EN Just reach your hand back behind you.
+
+@ 105.68
+# 社 長
+JP （な、なんのつもりだ？）
+EN (Wh-what is she up to?)
+
+@ 105.83
+# 村上 千秋
+JP …さわったな？
+EN ...You touched it, didn't you?
+
+@ 105.86
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.88
+# 社 長
+JP うわっ！
+JP なんだこりゃ！？
+EN Whoa! What the heck is this!?
+
+@ 105.92
+# 村上 千秋
+JP くっくっく…。
+EN Kukuku...
+
+@ 105.96
+# 村上 千秋
+JP こりゃ、立派なセクハラだな。
+JP マスコミが喜びそうだぜ。
+EN Now that's sexual harassment, plain and simple. The
+EN press would love this.
+
+@ 105.99
+# 社 長
+JP ま、待て！
+EN W-wait!
+
+@ 105.109
+# 村上 千秋
+JP まあ、私も話がわからない
+JP 女じゃない。
+EN Well, I'm not an unreasonable woman.
+
+@ 105.113
+# 村上 千秋
+JP 言うことを聞けば
+JP 黙っててやらない訳でもないぜ？
+EN Do what I say, and maybe I'll keep my mouth shut.
+
+@ 105.116
+# 社 長
+JP …何をして欲しいんだ？
+EN ...What do you want?
+
+@ 105.120
+# 村上 千秋
+JP そうだなあ…。
+JP まず部屋を最上級の
+JP スイートに変えてくれ。
+EN Let's see... First, upgrade my room to the best suite
+EN they've got.
+
+@ 105.124
+# 村上 千秋
+JP それから高級な食事を取り寄せて
+JP マッサージ師を呼んで…。
+EN Then order me some fancy food, call in a masseuse...
+
+@ 105.127
+# 社 長
+JP （…おいおい）
+EN (...Oh, come on.)
+
+@ 105.131
+# 村上 千秋
+JP 約束したぜ、社長。
+EN It's a promise, Boss.
+
+@ 105.134
+# 社 長
+JP （本当に、こいつはもう…）
+EN (Honestly, this girl...)
+
+@ 105.138
+# 村上 千秋
+JP じゃ、よろしくな。
+EN Well then, I'm counting on you.
+
+@ 105.152
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.154
+# 社 長
+JP （俺は結局、千秋の要求を
+JP 　受け入れることになった）
+EN (In the end, I had to give in to Chiaki's demands.)
+
+@ 105.156
+# 社 長
+JP （やれやれだ…）
+EN (Good grief...)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （まいったな…）
+EN (This is a problem...)
+
+@ 106.26
+# 社 長
+JP （どんどん雨が強くなってきてるぞ）
+EN (The rain's getting heavier and heavier.)
+
+@ 106.28
+# 社 長
+JP （もう帰るところだから
+JP 　よかったけど…）
+EN (Good thing I was heading home anyway...)
+
+@ 106.30
+# 社 長
+JP （…んっ？
+JP 　あれは…千秋か？）
+EN (...Hm? Is that... Chiaki?)
+
+@ 106.53
+# 村上 千秋
+JP ああ、社長か。
+EN Oh, it's you, Boss.
+
+@ 106.63
+# 村上 千秋
+JP こんな雨の日まで外で仕事とは
+JP ずいぶんと熱心だね。
+EN Out working even on a rainy day like this? Aren't
+EN you dedicated.
+
+@ 106.66
+# 社 長
+JP どうしたんだ？
+JP 傘もささずに。
+EN What's wrong? No umbrella?
+
+@ 106.76
+# 村上 千秋
+JP 社長。
+JP 私、あんたのこと好きだ…。
+EN Boss... I like you...
+
+@ 106.79
+# 社 長
+JP …はっ？
+JP いきなりなんだ？
+EN ...Huh? Where did that come from?
+
+@ 106.89
+# 村上 千秋
+JP だから門限ぐらい
+JP 大目に見てくれるよな？
+EN So you'll let a little curfew thing slide, right?
+
+@ 106.92
+# 社 長
+JP ………………。
+EN ..................
+
+@ 106.94
+# 社 長
+JP （なんだ。
+JP 　寮の門限破りか…）
+EN (Oh. She broke the dorm curfew...)
+
+@ 106.105
+# 村上 千秋
+JP …って訳でさ、タクシー代
+JP 出してくれよ。
+EN ...So, anyway, spot me cab fare.
+
+@ 106.108
+# 社 長
+JP …なんでそうなる。
+EN ...How did we get there?
+
+@ 106.112
+# 村上 千秋
+JP 自分に惚れている女の頼みなんだぜ。
+JP そのくらいいいだろ？
+EN It's a request from a woman who's crazy about you.
+EN That's not too much to ask, right?
+
+@ 106.115
+# 社 長
+JP 寮まで１キロもないだろう？
+EN The dorm isn't even a kilometer away.
+
+@ 106.117
+# 社 長
+JP 傘ぐらい買ってやるから走って帰れ。
+EN I'll buy you an umbrella, so run home.
+
+@ 106.127
+# 村上 千秋
+JP なっ…！
+EN Wha...!
+
+@ 106.131
+# 村上 千秋
+JP てめぇ…。
+JP そういうこと言うのかよ…。
+EN You jerk... You're really gonna say that...?
+
+@ 106.135
+# 村上 千秋
+JP 覚えてろよ！
+EN You'll pay for this!
+
+@ 106.156
+# 社 長
+JP 帰ったら風邪ひく前に
+JP ちゃんと着替えろよ！
+EN Change your clothes when you get back, before you
+EN catch a cold!
+
+@ 106.160
+# 村上 千秋
+JP 大きなお世話だよ！
+EN Mind your own business!
+
+@ 106.163
+# 社 長
+JP はぁ…。
+JP まったくもう…。
+EN Sigh... Good grief...
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （ここのところ雨続きで
+JP 　嫌な感じだな…）
+EN (It's been raining nonstop lately. Lousy weather...)
+
+@ 107.26
+# 社 長
+JP （さあ、急いで帰ろう…）
+EN (Better hurry home...)
+
+@ 107.28
+# 社 長
+JP （…んっ、あれは…）
+EN (...Hm? That's...)
+
+@ 107.30
+# 社 長
+JP （千秋か？）
+EN (Chiaki?)
+
+@ 107.51
+# 村上 千秋
+JP ああ、社長か。
+EN Oh, it's you, Boss.
+
+@ 107.54
+# 社 長
+JP どうしたんだ？
+JP また門限破りか？
+EN What's wrong? Broke curfew again?
+
+@ 107.64
+# 村上 千秋
+JP 社長。
+JP 私、あんたのこと好きだ…。
+EN Boss... I like you...
+
+@ 107.67
+# 社 長
+JP （…また、これか）
+EN (...This again.)
+
+@ 107.69
+# 社 長
+JP ああ、そうか。
+EN Oh, is that right.
+
+@ 107.79
+# 村上 千秋
+JP おいおい。
+JP そんな態度とっていいのか。
+EN Hey, hey. Is that any way to act?
+
+@ 107.83
+# 村上 千秋
+JP こんなかわいい女
+JP マジだったらもったいないぜ？
+EN If a cute girl like me meant it, you'd be missing out,
+EN y'know?
+
+@ 107.86
+# 社 長
+JP タクシー代なら出さないからな。
+EN I'm not paying for a cab, just so you know.
+
+@ 107.96
+# 村上 千秋
+JP そんなものいいよ。
+JP それよりその傘に入れてくれ。
+EN Forget that. Just let me under your umbrella.
+
+@ 107.99
+# 社 長
+JP もう帰るところだぞ。
+EN I'm on my way home, you know.
+
+@ 107.103
+# 村上 千秋
+JP …わかってるよ。
+EN ...I know.
+
+@ 107.107
+# 村上 千秋
+JP なぁ、今晩泊めてくれよ…。
+EN Hey... let me stay at your place tonight...
+
+@ 107.110
+# 社 長
+JP （まったく、コイツは…）
+EN (Honestly, this girl...)
+
+@ 107.112
+# 社 長
+JP からかうのも
+JP いい加減にしろって。
+EN Quit teasing me already.
+
+@ 107.116
+# 村上 千秋
+JP …やっぱり私の言うことなんか
+JP 信じないか。
+EN ...Figures you wouldn't believe anything I say.
+
+@ 107.120
+# 村上 千秋
+JP 悪かったよ。
+EN Sorry.
+
+@ 107.123
+# 社 長
+JP （……え？）
+EN (......Huh?)
+
+@ 107.125
+# 社 長
+JP …えっと……。
+EN ...Um.....
+
+@ 107.135
+# 村上 千秋
+JP あっ！
+JP 今、本気にしたな！？
+JP しただろ！？
+EN Ah! You just fell for it, didn't you!? You totally did!?
+
+@ 107.139
+# 村上 千秋
+JP 自惚れんなって！
+JP アハハハハッ！
+EN Don't flatter yourself! Ahahahaha!
+
+@ 107.143
+# 村上 千秋
+JP じゃあ、帰るかな。
+EN Well, guess I'll head home.
+
+@ 107.164
+# 社 長
+JP はぁ…。
+JP まったくもう…。
+EN Sigh... Good grief...
+
+@ 108.17
+# scene 109 練習試合 ベスト
+# 村上 千秋
+JP 適当にさぼっとこうぜ？
+EN Let's just slack off and go through the motions, eh?
+
+@ 109.17
+# scene 110 練習試合 ベター１
+# 村上 千秋
+JP たまにはマジでいくか。
+EN Guess I'll take it seriously for once.
+
+@ 110.17
+# scene 112 練習試合 バッド
+# 村上 千秋
+JP 正義って面しやがって
+JP 気にいらねー。
+EN Strutting around with that self-righteous face... I
+EN can't stand it.
+
+@ 111.16
+# scene 113 練習開始
+# 村上 千秋
+JP こんなもん、意味あるのか？
+EN Is there any point to this?
+
+@ 112.16
+# scene 114 練習開始 好意
+# 村上 千秋
+JP 少しは練習してやるよ。
+EN Guess I'll do a little training for you.
+
+@ 113.16
+# scene 115 特訓開始
+# 村上 千秋
+JP おいおい、ムチャ言うなよ。
+EN Hey, hey, don't ask the impossible.
+
+@ 114.20
+# scene 116 特訓成功
+# 村上 千秋
+JP 私の才能を持ってすれば
+JP こんなもんだよ。
+EN With talent like mine, this is nothing.
+
+@ 115.20
+# scene 117 特訓失敗
+# 村上 千秋
+JP だから言ったろうが…。
+JP あーあ、やってらんねぇ。
+EN Told you so... Ugh, I can't be bothered.
+
+@ 116.16
+# scene 118 休養
+# 村上 千秋
+JP 公けにさぼれるってのは
+JP また格別だな。
+EN Slacking off with official permission. Now that's
+EN something special.
+
+@ 117.16
+# scene 119 入場1
+# 村上 千秋
+JP 私と当たるとはツイてないね。
+EN Tough luck, getting matched up with me.
+
+@ 118.16
+# scene 119 入場2
+# 村上 千秋
+JP 医者を呼ぶなら今のうちだよ！
+EN If you're gonna call a doctor, better do it now!
+
+@ 119.17
+# scene 120 タッグマッチ ベスト
+# 村上 千秋
+JP 私らの前に敵はいないぜ！
+EN Nobody can stand in our way!
+
+@ 120.17
+# scene 122 タッグマッチ ベター２
+# 村上 千秋
+JP 姉さん、ムリすんなよ！
+EN Sis, don't push yourself!
+
+@ 121.17
+# scene 123 タッグマッチ バッド
+# 村上 千秋
+JP 今日のタッグ、マジで最悪だぜ。
+EN Today's tag team is seriously the worst.
+
+@ 122.16
+# scene 125 必殺技１
+# 村上 千秋
+JP 自分の非力さを嘆きな！
+EN Cry over how weak you are!
+
+@ 123.16
+# scene 125 必殺技２
+# 村上 千秋
+JP これが天才の技ってヤツさ！
+EN This is what you call a genius's technique!
+
+@ 124.16
+# scene 125 必殺技３
+# 村上 千秋
+JP 泡吹いてノビてる姿を
+JP 見てもらうんだな！
+EN Let 'em all see you foaming at the mouth, out cold!
+
+@ 125.12
+# scene 126 勝利1
+# 村上 千秋
+JP 情けねぇ姿を見てもらえて
+JP よかったなぁ。
+EN Bet you're glad everybody got to see how pathetic
+EN you looked.
+
+@ 126.12
+# scene 126 勝利2
+# 村上 千秋
+JP 美貌も技も私に遠く及ばないね。
+EN You're nowhere near me in looks or skill.
+
+@ 127.12
+# scene 126 勝利3
+# 村上 千秋
+JP おまえ全然つまんねーよ！
+EN You're boring as hell!
+
+@ 128.15
+# scene 133 表彰1
+# 村上 千秋
+JP いつまでここにいればいいんだよ？
+EN How long do I have to stand up here?
+
+@ 129.15
+# scene 133 表彰2
+# 村上 千秋
+JP 練習なんかしなくても
+JP こんなもん軽い軽い。
+EN Didn't even need to train. This was a piece of cake.
+
+@ 130.12
+# scene 134 優勝1
+# 村上 千秋
+JP おや、もう終わりか。
+JP なんだ、あっけねーな。
+EN Oh, over already? Huh, that was anticlimactic.
+
+@ 131.12
+# scene 134 優勝２
+# 村上 千秋
+JP またやるか？
+JP 何度やっても結果は同じだけどな！
+EN Wanna go again? It'll end the same no matter how
+EN many times we do it!
+
+@ 132.24
+# scene 135 エンディング 通常
+# 村上 千秋
+JP まっ、がんばったよな。
+JP よかったじゃないか。
+EN Well, you did good, huh. Good for you.
+
+@ 133.24
+# scene 136 エンディング 好意
+# 村上 千秋
+JP 私…おまえのこと…。
+JP ダメだ、そんなこと
+JP 照れくさくて言えるかよ…！
+EN I... about you... No, I can't! It's way too embarrassing
+EN to say...!

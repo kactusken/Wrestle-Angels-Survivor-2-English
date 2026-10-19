@@ -1,0 +1,100 @@
+# /SCR/332.BIN - ジョーカーウーマン
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 332` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.13
+# scene 069 クライマックス大会 優勝
+# ジョーカーウーマン
+JP 相手の力は予想の範囲を
+JP 超えていなかったな。
+EN My opponent's strength never left the range I
+EN predicted.
+
+@ 1.16
+# scene 119 入場1
+# ジョーカーウーマン
+JP すでに勝利の方程式は
+JP 完成している！
+EN The equation of victory is already complete!
+
+@ 2.16
+# scene 119 入場2
+# ジョーカーウーマン
+JP ギャンブラーとしてどちらが上か
+JP 白黒つけようじゃないか！
+EN Let's settle which of us is the better gambler, once
+EN and for all!
+
+@ 3.16
+# scene 125 必殺技１
+# ジョーカーウーマン
+JP 切り札は最後まで
+JP 取っておくものだ！
+EN You always save your trump card for last!
+
+@ 4.16
+# scene 125 必殺技２
+# ジョーカーウーマン
+JP ジョーカーの力、思い知るがいい！
+EN Feel the power of the Joker!
+
+@ 5.16
+# scene 125 必殺技３
+# ジョーカーウーマン
+JP ここで切り札を
+JP 切らせてもらおうか！
+EN Now allow me to play my trump card!
+
+@ 6.12
+# scene 126 勝利1
+# ジョーカーウーマン
+JP 最強のカード！
+JP その名前こそジョーカー！
+EN The strongest card in the deck! And its name is
+EN Joker!
+
+@ 7.11
+# scene 126 勝利2
+# ジョーカーウーマン
+JP 私の実力を見誤ったようだな！
+EN It seems you misjudged my ability!
+
+@ 8.12
+# scene 126 勝利3
+# ジョーカーウーマン
+JP 切り札を出さずとも
+JP 同じ結果だったかもしれないな。
+EN Even without my trump card, the result may have
+EN been the same.
+
+@ 9.15
+# scene 133 表彰1
+# ジョーカーウーマン
+JP 今回は計算外の
+JP 受賞というべきか…。
+EN I suppose this award was one thing I hadn't
+EN calculated...
+
+@ 10.15
+# scene 133 表彰2
+# ジョーカーウーマン
+JP 素直に喜んでおくとしようか。
+EN I'll simply accept it with pleasure.
+
+@ 11.12
+# scene 134 優勝1
+# ジョーカーウーマン
+JP 確率で言えば驚くことではないな。
+EN In terms of probability, this is no surprise.
+
+@ 12.12
+# scene 134 優勝２
+# ジョーカーウーマン
+JP すべては計算し尽されていたこと。
+EN Everything was calculated down to the last detail.

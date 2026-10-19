@@ -1,0 +1,2719 @@
+# /SCR/146.BIN - 氷川砂響
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 146` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# 氷川 砂響
+JP あ…あの…誰にも秘密で
+JP プロレスをしたいのですけど…。
+JP ダメ…でしょうか？
+EN U-um... I would like to wrestle without anyone
+EN knowing... Would that be... impossible?
+
+@ 1.16
+# scene 002 新人テスト 成功
+# 氷川 砂響
+JP マ…マスクですか？
+JP はい、それでがんばらせて
+JP いただきます！
+EN A m-mask? Yes, I will do my very best in one!
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# 氷川 砂響
+JP そうですよね…。
+JP ムシのいいお願いをして
+JP 申し訳ありませんでした。
+EN Of course... Forgive me for asking such a selfish
+EN favor.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP （このあたりか…。
+JP 　こっそり働き口を探している
+JP 　シスターがいるという教会は）
+EN (This must be the church... where a sister is said to
+EN be quietly looking for work.)
+
+@ 3.25
+# 社 長
+JP （シスターは、親のいない子を
+JP 　何人も預かっているというが）
+EN (They say she takes in a number of children who
+EN have no parents...)
+
+@ 3.27
+# 社 長
+JP （生活はかなり苦しいらしい）
+EN (...and that money is very tight.)
+
+@ 3.29
+# 社 長
+JP （そのためのお金が
+JP 　欲しいということだ）
+EN (So she wants to earn money for them.)
+
+@ 3.31
+# 社 長
+JP （プロレスの世界では
+JP 　現実でも物語でもよく聞く話だが…）
+EN (In wrestling you hear that story all the time, in real
+EN life and in fiction alike...)
+
+@ 3.33
+# 社 長
+JP （まさか、ウチのスカウトの情報に
+JP 　ひっかかってくるとはなあ）
+EN (But I never expected it to turn up in my own
+EN scouting reports.)
+
+@ 3.35
+# 社 長
+JP （だが、これも何かの縁だろう）
+EN (Still, this must be fate of some kind.)
+
+@ 3.37
+# 社 長
+JP （お、彼女だ）
+EN (Oh, there she is.)
+
+@ 3.39
+# 社 長
+JP すみません、砂響さんですね？
+EN Excuse me, you're Saki, aren't you?
+
+@ 3.49
+# 氷川 砂響
+JP はい、そうですが…。
+JP あなたは？
+EN Yes, I am... And you are?
+
+@ 3.52
+# 社 長
+JP 私はこういう者です。
+EN Here's my card.
+
+@ 3.54
+# 社 長
+JP （俺は名刺を渡して
+JP 　自分の身分を明かした）
+EN (I handed her my business card and told her who I
+EN was.)
+
+@ 3.56
+# 社 長
+JP あなたが稼ぐ場所を
+JP 求めていると知り、やってきました。
+EN I heard you were looking for a way to earn money, so
+EN I came.
+
+@ 3.63
+# 氷川 砂響
+JP そんな…。
+JP どこから、それを？
+EN Oh, my... Where did you hear that?
+
+@ 3.66
+# 社 長
+JP うちのスカウトは優秀なんですよ。
+EN My scouts are very good at their job.
+
+@ 3.68
+# 社 長
+JP なので、だいたいの事情も
+JP 把握しています。
+EN So I have a rough idea of your circumstances.
+
+@ 3.70
+# 社 長
+JP どうでしょう？
+JP 覆面レスラーとして
+JP ウチで戦うというのは。
+EN What do you say? Would you fight for us as a masked
+EN wrestler?
+
+@ 3.77
+# 氷川 砂響
+JP 覆面…。
+JP それなら…あの子たちにも
+JP 秘密で戦うことが…。
+EN Masked... Then I could fight without even the children
+EN knowing...
+
+@ 3.80
+# 社 長
+JP できます。
+JP あとは、あなたの決意次第です。
+EN You could. The rest depends on your resolve.
+
+@ 3.82
+# 社 長
+JP どうですか？
+EN What do you say?
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# 氷川 砂響
+JP わかりました。
+JP これも、お導き…。
+JP よろしくお願いいたします。
+EN Very well. This too must be the Lord's guidance... I
+EN humbly accept.
+
+@ 4.22
+# 社 長
+JP よかった。
+JP こちらこそ。
+EN Wonderful. The pleasure's mine.
+
+@ 4.29
+# 氷川 砂響
+JP ただ…１つだけ言っておかなくては
+JP ならないことが…。
+EN However... there is one thing I must tell you...
+
+@ 4.32
+# 社 長
+JP なんでしょう？
+EN What is it?
+
+@ 4.39
+# 氷川 砂響
+JP 私、その…戦い始めると
+JP どうも凶悪な性格に
+JP なってしまうみたいで…その…。
+EN I, um... once I start fighting, I seem to turn into a
+EN rather vicious person... um...
+
+@ 4.42
+# 社 長
+JP ははは。
+JP そんなのレスラーなら当たり前ですよ。
+EN Hahaha. That's only natural for a wrestler.
+
+@ 4.44
+# 社 長
+JP （そう言って
+JP 　俺は彼女を安心させたが…）
+EN (I said that to put her at ease...)
+
+@ 4.46
+# 社 長
+JP （彼女の言う「凶悪」が
+JP 　俺の予想を超えるものだとは…。
+JP 　この時点では気付けなかった）
+EN (At that point, I had no idea that what she called
+EN "vicious" would be far beyond anything I imagined.)
+
+@ 5.19
+# scene 006 新人スカウト１ 失敗
+# 氷川 砂響
+JP …すみません。
+JP やはり、ダメです。
+JP 私にはまだ秘密が…。
+EN ...I'm sorry. I'm afraid I cannot. I still have secrets to
+EN keep...
+
+@ 5.22
+# 社 長
+JP そうですか…。
+JP 残念です。
+EN I see... That's a shame.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （俺は再び彼女を尋ねた）
+EN (I went to visit her again.)
+
+@ 6.25
+# 社 長
+JP （彼女のような境遇の人物を
+JP 　放っておくことはできない）
+EN (I can't just leave someone in her situation alone.)
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# 氷川 砂響
+JP あ…。
+JP この間の方。
+EN Oh... You're the gentleman from the other day.
+
+@ 6.40
+# 社 長
+JP あれから考えたのですが
+JP やはりあなたに入団してもらいたいと
+JP 思いまして…。
+EN I've thought it over since then, and I'd still really like
+EN you to join us...
+
+@ 6.47
+# 氷川 砂響
+JP それは…大変嬉しいのですが…。
+JP でも……。
+EN That makes me very happy... but...
+
+@ 6.50
+# 社 長
+JP 大丈夫。
+JP 人間誰もが悩みをもって
+JP 生きているものです。
+EN It's all right. Everyone lives with their own worries.
+
+@ 6.52
+# 社 長
+JP 俺を信じて
+JP 入団してもらえませんか？
+EN Won't you trust me and join us?
+
+@ 6.54
+# 社 長
+JP （それからしばらく
+JP 　俺は熱心に彼女を説得した）
+EN (For a while after that, I earnestly tried to persuade
+EN her.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# 氷川 砂響
+JP わかりました。
+JP これも、お導き…。
+JP よろしくお願いいたします。
+EN Very well. This too must be the Lord's guidance... I
+EN humbly accept.
+
+@ 7.22
+# 社 長
+JP よかった。
+JP こちらこそ。
+EN Wonderful. The pleasure's mine.
+
+@ 7.29
+# 氷川 砂響
+JP ただ…１つだけ言っておかなくては
+JP ならないことが…。
+EN However... there is one thing I must tell you...
+
+@ 7.32
+# 社 長
+JP なんでしょう？
+EN What is it?
+
+@ 7.39
+# 氷川 砂響
+JP 私、その…戦い始めると
+JP どうも凶悪な性格に
+JP なってしまうみたいで…その…。
+EN I, um... once I start fighting, I seem to turn into a
+EN rather vicious person... um...
+
+@ 7.42
+# 社 長
+JP ははは。
+JP そんなのレスラーなら当たり前ですよ。
+EN Hahaha. That's only natural for a wrestler.
+
+@ 7.44
+# 社 長
+JP （そう言って
+JP 　俺は彼女を安心させたが…）
+EN (I said that to put her at ease...)
+
+@ 7.46
+# 社 長
+JP （彼女の言う「凶悪」が
+JP 　俺の予想を超えるものだとは…。
+JP 　この時点では気付けなかった）
+EN (At that point, I had no idea that what she called
+EN "vicious" would be far beyond anything I imagined.)
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# 氷川 砂響
+JP …すみません。
+JP やはり、ダメです。
+JP 私にはまだ秘密が…。
+EN ...I'm sorry. I'm afraid I cannot. I still have secrets to
+EN keep...
+
+@ 8.22
+# 社 長
+JP そうですか…。
+JP 残念です。
+EN I see... That's a shame.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （俺は交渉をしてみることにした）
+EN (I decided to try negotiating.)
+
+@ 9.25
+# 社 長
+JP （あの凶悪ファイトは
+JP 　なかなかに魅力的だ）
+EN (That vicious fighting style of hers has real appeal.)
+
+@ 9.27
+# 社 長
+JP （しかも、本職は
+JP 　教会のシスターでもあるらしい）
+EN (And apparently her actual job is being a church
+EN sister.)
+
+@ 9.29
+# 社 長
+JP （そのギャップは
+JP 　話題になるかもしれない）
+EN (That contrast could get people talking.)
+
+@ 9.31
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be somewhere around here...
+
+@ 9.33
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 9.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.45
+# 氷川 砂響
+JP どなたですか？
+EN Who are you?
+
+@ 9.48
+# 社 長
+JP 失礼、私はこういう者です。
+JP あなたがプロレスをやっていると
+JP 聞きまして…。
+EN Pardon me, here's my card. I heard that you
+EN wrestle...
+
+@ 9.55
+# 氷川 砂響
+JP わ、私はプロレスなんて知りません！
+EN I-I don't know anything about wrestling!
+
+@ 9.58
+# 社 長
+JP ……失礼しました。
+EN ...My apologies.
+
+@ 9.61
+# 社 長
+JP （どうやら、リング下では完璧に
+JP 　正体を隠しているらしい）
+EN (It seems she hides her identity perfectly outside
+EN the ring.)
+
+@ 9.63
+# 社 長
+JP （俺は非礼をわびつつ
+JP 　彼女をスカウトした）
+EN (I apologized for my rudeness and made her an
+EN offer.)
+
+@ 9.65
+# 社 長
+JP （それにしても
+JP 　これがあの凶悪な選手とは。
+JP 　まるっきり別人じゃないか）
+EN (Still, this is that vicious wrestler? She's a
+EN completely different person!)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# 氷川 砂響
+JP わかりました。
+JP これもお導き…。
+JP あなたの団体へ移籍します。
+EN Very well. This too must be the Lord's guidance... I will
+EN transfer to your promotion.
+
+@ 10.22
+# 社 長
+JP 本当ですか。
+EN Really?
+
+@ 10.29
+# 氷川 砂響
+JP ええ、実は今の団体…。
+JP やり過ぎて追い出されそうな
+JP ところだったんです。
+EN Yes. To be honest, my current promotion... was about
+EN to throw me out for going too far.
+
+@ 10.32
+# 社 長
+JP やり過ぎて…ですか。
+EN For going too far... huh.
+
+@ 10.39
+# 氷川 砂響
+JP はい…。
+JP お恥ずかしいことに…。
+JP ですから…助かりました。
+EN Yes... To my shame... So you have saved me.
+
+@ 10.42
+# 社 長
+JP （どうやら
+JP 　彼女で間違いないらしい）
+EN (Looks like it's her, all right.)
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# 氷川 砂響
+JP 申し訳ありませんが
+JP こんな私を使っていただいている
+JP 団体を裏切ることはできません。
+EN I'm sorry, but I cannot betray the promotion that
+EN was kind enough to take someone like me.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 11.24
+# 社 長
+JP （というか、本当に彼女が
+JP 　あの凶悪レスラーなのだろうか？）
+EN (Come to think of it, is she really that vicious
+EN wrestler?)
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （俺はもう一度
+JP 　交渉を試みることにした）
+EN (I decided to try negotiating once more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# 氷川 砂響
+JP あなたは…この間の…。
+JP もしかして、また？
+EN You are... from the other day... Could it be, again?
+
+@ 12.38
+# 社 長
+JP はい。
+JP こないだと同じ用件です。
+EN Yes. The same business as last time.
+
+@ 12.40
+# 社 長
+JP どうしても、諦めきれなくて。
+EN I just can't give up on you.
+
+@ 12.42
+# 社 長
+JP もう一度
+JP 考えてみてはもらえませんか？
+EN Would you consider it one more time?
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# 氷川 砂響
+JP わかりました。
+JP これもお導き…。
+JP あなたの団体へ移籍します。
+EN Very well. This too must be the Lord's guidance... I will
+EN transfer to your promotion.
+
+@ 13.22
+# 社 長
+JP 本当ですか。
+EN Really?
+
+@ 13.29
+# 氷川 砂響
+JP ええ、実は今の団体…。
+JP やり過ぎて追い出されそうな
+JP ところだったんです。
+EN Yes. To be honest, my current promotion... was about
+EN to throw me out for going too far.
+
+@ 13.32
+# 社 長
+JP やり過ぎて…ですか。
+EN For going too far... huh.
+
+@ 13.39
+# 氷川 砂響
+JP はい…。
+JP お恥ずかしいことに…。
+JP ですから…助かりました。
+EN Yes... To my shame... So you have saved me.
+
+@ 13.42
+# 社 長
+JP （どうやら
+JP 　彼女で間違いないらしい）
+EN (Looks like it's her, all right.)
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# 氷川 砂響
+JP 申し訳ありませんが
+JP こんな私を使っていただいている
+JP 団体を裏切ることはできません。
+EN I'm sorry, but I cannot betray the promotion that
+EN was kind enough to take someone like me.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 14.24
+# 社 長
+JP （というか、本当に彼女が
+JP 　あの凶悪レスラーなのだろうか？）
+EN (Come to think of it, is she really that vicious
+EN wrestler?)
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （俺は交渉をしてみることにした）
+EN (I decided to try negotiating.)
+
+@ 15.25
+# 社 長
+JP （あの凶悪ファイトは
+JP 　なかなかに魅力的だ）
+EN (That vicious fighting style of hers has real appeal.)
+
+@ 15.27
+# 社 長
+JP （しかも、本職は
+JP 　教会のシスターでもあるらしい）
+EN (And apparently her actual job is being a church
+EN sister.)
+
+@ 15.29
+# 社 長
+JP （そのギャップは
+JP 　話題になるかもしれない）
+EN (That contrast could get people talking.)
+
+@ 15.31
+# 社 長
+JP たしかこのあたりに
+JP いるはずだけど…。
+EN She should be somewhere around here...
+
+@ 15.33
+# 社 長
+JP あ、いた！
+EN Ah, there she is!
+
+@ 15.35
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.45
+# 氷川 砂響
+JP 私ですか…？
+EN Do you mean me...?
+
+@ 15.48
+# 社 長
+JP 失礼、私はこういう者です。
+JP あなたがプロレスをやっていると
+JP 聞きまして…。
+EN Pardon me, here's my card. I heard that you
+EN wrestle...
+
+@ 15.55
+# 氷川 砂響
+JP わ、私はプロレスなんて知りません！
+EN I-I don't know anything about wrestling!
+
+@ 15.58
+# 社 長
+JP ……失礼しました。
+EN ...My apologies.
+
+@ 15.60
+# 社 長
+JP （どうやら、リング下では完璧に
+JP 　正体を隠しているらしい）
+EN (It seems she hides her identity perfectly outside
+EN the ring.)
+
+@ 15.62
+# 社 長
+JP （俺は非礼をわびつつ
+JP 　彼女をスカウトした）
+EN (I apologized for my rudeness and made her an
+EN offer.)
+
+@ 15.64
+# 社 長
+JP （それにしても
+JP 　これがあの凶悪な選手とは。
+JP 　まるっきり別人じゃないか）
+EN (Still, this is that vicious wrestler? She's a
+EN completely different person!)
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# 氷川 砂響
+JP わかりました。
+JP これもお導き…。
+JP あなたの団体へ入団させてください。
+EN Very well. This too must be the Lord's guidance...
+EN Please let me join your promotion.
+
+@ 16.22
+# 社 長
+JP よかった。
+JP 歓迎します。
+EN Wonderful. Welcome aboard.
+
+@ 16.29
+# 氷川 砂響
+JP 助かりました。
+JP 実は最近やり過ぎて…仕事が
+JP 減っていたところだったんです。
+EN You have saved me. To be honest, I went too far
+EN lately... and the work was drying up.
+
+@ 16.32
+# 社 長
+JP やり過ぎて…ですか。
+EN Went too far... huh.
+
+@ 16.39
+# 氷川 砂響
+JP はい…。
+JP お恥ずかしいことに。
+JP やだ…何を言わせるんですか…。
+EN Yes... To my shame. Oh, no... What are you making me
+EN say...
+
+@ 16.42
+# 社 長
+JP （どうやら
+JP 　彼女で間違いないらしい）
+EN (Looks like it's her, all right.)
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# 氷川 砂響
+JP 申し訳ありません。
+JP いくつもの団体からオファーが
+JP 来ているので…専属は…。
+EN I'm sorry. I am getting offers from several
+EN promotions, so signing exclusively...
+
+@ 17.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 17.24
+# 社 長
+JP （しかし、本当に彼女が
+JP 　凶悪レスラーなのだろうか？）
+EN (But is she really a vicious wrestler?)
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　彼女が必要だ）
+EN (My promotion really needs her.)
+
+@ 18.25
+# 社 長
+JP （俺はもう一度
+JP 　彼女と交渉することにした）
+EN (I decided to negotiate with her one more time.)
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# 氷川 砂響
+JP あなたは…この間の…。
+JP もしかして、またですか？
+EN You are... from the other day... Could it be, again?
+
+@ 18.40
+# 社 長
+JP はい。
+JP こないだと同じ用件です。
+EN Yes. The same business as last time.
+
+@ 18.42
+# 社 長
+JP どうしても、諦めきれなくて。
+EN I just can't give up on you.
+
+@ 18.44
+# 社 長
+JP もう一度
+JP 考えてみてはもらえませんか？
+EN Would you consider it one more time?
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# 氷川 砂響
+JP わかりました。
+JP これもお導き…。
+JP あなたの団体へ入団させてください。
+EN Very well. This too must be the Lord's guidance...
+EN Please let me join your promotion.
+
+@ 19.22
+# 社 長
+JP よかった。
+JP 歓迎します。
+EN Wonderful. Welcome aboard.
+
+@ 19.29
+# 氷川 砂響
+JP 助かりました。
+JP 実は最近やり過ぎて…仕事が
+JP 減っていたところだったんです。
+EN You have saved me. To be honest, I went too far
+EN lately... and the work was drying up.
+
+@ 19.32
+# 社 長
+JP やり過ぎて…ですか。
+EN Went too far... huh.
+
+@ 19.39
+# 氷川 砂響
+JP はい…。
+JP お恥ずかしいことに。
+JP やだ…何を言わせるんですか…。
+EN Yes... To my shame. Oh, no... What are you making me
+EN say...
+
+@ 19.42
+# 社 長
+JP （どうやら
+JP 　彼女で間違いないらしい）
+EN (Looks like it's her, all right.)
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# 氷川 砂響
+JP 申し訳ありません。
+JP いくつもの団体からオファーが
+JP 来ているので…専属は…。
+EN I'm sorry. I am getting offers from several
+EN promotions, so signing exclusively...
+
+@ 20.22
+# 社 長
+JP そうですか…。
+JP 残念だな。
+EN I see... That's a shame.
+
+@ 20.24
+# 社 長
+JP （しかし、本当に彼女が
+JP 　凶悪レスラーなのだろうか？）
+EN (But is she really a vicious wrestler?)
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は彼女を訪ねることにした）
+EN (I decided to pay her a visit.)
+
+@ 21.25
+# 社 長
+JP （やっぱり彼女は
+JP 　うちの団体に必要な選手だ）
+EN (She really is a wrestler my promotion needs.)
+
+@ 21.27
+# 社 長
+JP いた…。
+EN There she is...
+
+@ 21.37
+# 氷川 砂響
+JP あ、社長…。
+JP お久しぶりです。
+EN Oh, Boss... It has been a long time.
+
+@ 21.40
+# 社 長
+JP 実は、お前に戻ってきて欲しくて。
+EN The truth is, I want you to come back.
+
+@ 21.47
+# 氷川 砂響
+JP 団体復帰…ということですか？
+EN Return to the promotion... you mean?
+
+@ 21.50
+# 社 長
+JP そうだ。
+JP 勝手な頼みだとはわかっているが…。
+EN That's right. I know it's a selfish request, but...
+
+@ 22.19
+# scene 023 移籍交渉 退団あり１ 成功
+# 氷川 砂響
+JP わかりました。
+JP また、お世話になります。
+EN Very well. I will be in your care once again.
+
+@ 22.22
+# 社 長
+JP すまない。
+JP ありがとう。
+EN I'm sorry. And thank you.
+
+@ 22.29
+# 氷川 砂響
+JP いえ、気にしていません。
+JP それに私には…お金が必要ですから。
+EN No, I don't hold it against you. Besides... I need the
+EN money.
+
+@ 22.32
+# 社 長
+JP そうか…。
+JP これからまた、よろしく頼む。
+EN I see... I'm counting on you again from here on.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# 氷川 砂響
+JP すみません。
+JP 今は別の仕事をしていますので…。
+EN I'm sorry. I am doing other work now...
+
+@ 23.22
+# 社 長
+JP そうか…。
+JP 残念だ。
+EN I see... That's a shame.
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は再び彼女を訪ねることにした）
+EN (I decided to visit her again.)
+
+@ 24.25
+# 社 長
+JP （やはり彼女は
+JP 　うちの団体に必要な選手だ）
+EN (She really is a wrestler my promotion needs.)
+
+@ 24.27
+# 社 長
+JP いた…！
+EN There she is...!
+
+@ 24.37
+# 氷川 砂響
+JP 社長…。
+JP もしかして、またですか？
+EN Boss... Could it be, again?
+
+@ 24.40
+# 社 長
+JP ああ。
+JP なんとか戻ってきてはくれないか？
+EN Yeah. Won't you please come back?
+
+@ 25.19
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# 氷川 砂響
+JP わかりました。
+JP また、お世話になります。
+EN Very well. I will be in your care once again.
+
+@ 25.22
+# 社 長
+JP すまない。
+JP ありがとう。
+EN I'm sorry. And thank you.
+
+@ 25.29
+# 氷川 砂響
+JP いえ、気にしていません。
+JP それに私には…お金が必要ですから。
+EN No, I don't hold it against you. Besides... I need the
+EN money.
+
+@ 25.32
+# 社 長
+JP そうか…。
+JP これからまた、よろしく頼む。
+EN I see... I'm counting on you again from here on.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# 氷川 砂響
+JP すみません。
+JP 今は別の仕事をしていますので…。
+EN I'm sorry. I am doing other work now...
+
+@ 26.22
+# 社 長
+JP そうか…。
+JP 残念だ。
+EN I see... That's a shame.
+
+@ 27.16
+# scene 028 ケガ小
+# 氷川 砂響
+JP 大丈夫です。
+JP これくらいのことで休む訳には
+JP いきません。
+EN I'm fine. I cannot take a rest over something like
+EN this.
+
+@ 28.16
+# scene 029 ケガ大
+# 氷川 砂響
+JP こんな…。
+JP 休んでなんかいられないのに…。
+EN How could this... I cannot afford to rest...
+
+@ 29.16
+# scene 030 入院
+# 氷川 砂響
+JP 情けない…。
+JP 自分がふがいないです……。
+EN How pathetic... I am so ashamed of myself...
+
+@ 30.16
+# scene 031 退院
+# 氷川 砂響
+JP ただ今戻りました。
+JP 今までの遅れを取り戻したいと
+JP 思います。
+EN I have returned. I intend to make up for lost time.
+
+@ 31.16
+# scene 032 ケガ完治
+# 氷川 砂響
+JP もう、完全に大丈夫です。
+EN I am completely fine now.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# 氷川 砂響
+JP そうですね…。
+JP そろそろ、別の道を選ぶときなのかも
+JP しれません。
+EN Yes... Perhaps it is time for me to choose a different
+EN path.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# 氷川 砂響
+JP すみません…。
+JP もう少し、もう少し働かせて
+JP ください。
+EN I'm sorry... Please let me work a little longer, just a
+EN little longer.
+
+@ 34.16
+# scene 035 コーチ就任
+# 氷川 砂響
+JP コーチとして
+JP 頼りないかもしれませんが…。
+JP 一緒にがんばりましょうね。
+EN I may not be much of a coach... but let us do our best
+EN together.
+
+@ 35.16
+# scene 036 ケガ引退
+# 氷川 砂響
+JP ふう…。
+JP これも、別の道でがんばれという
+JP 天の思し召しかもしれません。
+EN Phew... Perhaps this is Heaven's will, telling me to
+EN work hard on a different path.
+
+@ 36.16
+# scene 037 年齢引退
+# 氷川 砂響
+JP もう、あの子たちも大丈夫。
+JP とりあえずの役目は…終わりました。
+EN The children will be all right now. My task, for the
+EN time being... is done.
+
+@ 37.16
+# scene 038 退団
+# 氷川 砂響
+JP 裏切るような真似をして
+JP すみません…。
+JP お許しください……。
+EN I'm sorry for doing something like a betrayal...
+EN Please forgive me...
+
+@ 38.16
+# scene 039 スランプ
+# 氷川 砂響
+JP 空回りをしている気分です…。
+EN I feel like I'm just spinning my wheels...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# 氷川 砂響
+JP 私の、ファンクラブ…ですか？
+EN A fan club... for me?
+
+@ 39.19
+# 社 長
+JP ああ。
+JP 応援に負けないようがんばれよ。
+EN Yeah. Work hard to live up to their support.
+
+@ 39.26
+# 氷川 砂響
+JP あの、レスラーとしての
+JP ファンクラブ…ですよね？
+EN Um, that is a fan club for me... as a wrestler, isn't it?
+
+@ 39.29
+# 社 長
+JP 世の中、そういう人たちも
+JP いるんだよ。
+EN It takes all kinds of people to make a world.
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# 氷川 砂響
+JP また、私のファンクラブが
+JP 増えたんですか？
+EN Another fan club of mine has formed?
+
+@ 40.19
+# 社 長
+JP ああ…。
+JP それも、おまえの素性を知ってる
+JP ファンクラブがな…。
+EN Yeah... And this one knows who you really are...
+
+@ 40.26
+# 氷川 砂響
+JP そういえば、教会へも匿名の贈り物が
+JP 増えたような…。
+EN Come to think of it, the church has been getting
+EN more anonymous gifts...
+
+@ 40.29
+# 社 長
+JP 鉄の結束らしいぞ。
+JP おまえの正体を漏らしては
+JP いけないとな。
+EN I hear they're bound by an iron code. Never leak
+EN your true identity.
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# 氷川 砂響
+JP ファンクラブ、解散ですか…。
+EN My fan club... has disbanded?
+
+@ 41.19
+# 社 長
+JP まあ、そういうこともあるさ。
+EN Well, these things happen.
+
+@ 41.23
+# 氷川 砂響
+JP 自分で言うのもなんですが…。
+JP リング上の私のファンというのは
+JP …その……。
+EN It feels strange to say it myself, but... fans of me in
+EN the ring are... um...
+
+@ 41.26
+# 社 長
+JP まあ、言いたいことはわかる。
+EN Well, I know what you mean.
+
+@ 42.16
+# scene 043 映画出演
+# 氷川 砂響
+JP 覆面レスラーとしての
+JP 出演ですよね…。
+JP 心が痛みます。
+EN I will appear as the masked wrestler, won't I... It pains
+EN my heart.
+
+@ 43.16
+# scene 044 一日署長
+# 氷川 砂響
+JP あの…本当にいいんですか？
+JP け、警察ですよ！？
+EN Um... is this really all right? Th-the police!?
+
+@ 44.16
+# scene 045 写真集発売
+# 氷川 砂響
+JP マ…マスクは被ったままで
+JP いいんですよね！？
+EN I-I can keep my mask on, can't I!?
+
+@ 45.16
+# scene 046 ＣＭ出演
+# 氷川 砂響
+JP ほ、本当に依頼されたんですか？
+JP あの…レスラーに。
+EN D-did they really ask for me? Um... the wrestler?
+
+@ 46.16
+# scene 047 ＣＤ発売
+# 氷川 砂響
+JP 賛美歌なら自信もあるのですが…。
+JP 違いますよね……。
+EN If it were hymns, I'd be confident... But that is not it,
+EN is it...
+
+@ 47.16
+# scene 048 始球式
+# 氷川 砂響
+JP マ、マスクを被ったらきっと…。
+JP 私…デッドボールを…！
+EN O-once I put on the mask... I'll surely... hit the batter
+EN with a pitch...!
+
+@ 48.16
+# scene 049 学園祭
+# 氷川 砂響
+JP ああ…。
+JP 学生さんに手を出さなければ
+JP いいのですが……。
+EN Oh, dear... I only hope I don't lay a hand on any of the
+EN students...
+
+@ 49.30
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN Here, a present for your birthday.
+
+@ 49.38
+# 氷川 砂響
+JP え？
+JP いいんですか…？
+EN Eh? Is this really all right...?
+
+@ 49.41
+# 社 長
+JP ああ。
+JP これからも、よろしくな。
+EN Sure. I'm counting on you from here on, too.
+
+@ 49.48
+# 氷川 砂響
+JP ありがとうございます。
+JP 大事にします。
+JP ずっと…。
+EN Thank you very much. I will treasure it. Always...
+
+@ 50.32
+# scene 051 バレンタインデー
+# 氷川 砂響
+JP あ、あの…社長…。
+JP ご迷惑かもしれませんが、その……。
+EN U-um... Boss... This may be a bother, but, um...
+
+@ 50.35
+# 社 長
+JP チョコレート？
+EN Chocolate?
+
+@ 50.39
+# 氷川 砂響
+JP きょ…教会の女の子たちと
+JP 一緒に作ったんですが…。
+JP そのっ…今日は……。
+EN I m-made it together with the girls from the church...
+EN Um... Today is...
+
+@ 50.42
+# 社 長
+JP バレンタインだろう？
+EN Valentine's Day, right?
+
+@ 50.44
+# 社 長
+JP ありがとう。
+JP 嬉しいよ。
+EN Thank you. I'm happy.
+
+@ 50.51
+# 氷川 砂響
+JP ……………………はい……。
+EN .............Yes...
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼だ。
+JP 受け取ってくれるか？
+EN Thanks for last month. Will you accept this?
+
+@ 51.35
+# 氷川 砂響
+JP あ、ありがとうございます。
+JP こんなにたくさん？
+EN Th-thank you very much. So much of it?
+
+@ 51.38
+# 社 長
+JP 教会の子供達も
+JP 手伝ってくれたんだろう？
+EN The kids at the church helped you out too, didn't
+EN they?
+
+@ 51.45
+# 氷川 砂響
+JP ……ありがとうございます。
+JP みんなで食べますね。
+EN ...Thank you very much. We will all eat them together.
+
+@ 52.31
+# scene 053 サイン会
+# 氷川 砂響
+JP あ、あの…
+JP これが彼女が書いたサインです。
+JP すみません、当人は来ていません。
+EN U-um... This is the autograph she wrote. I'm sorry,
+EN she is not here herself.
+
+@ 53.31
+# scene 053 サイン会
+# SA-KI-RA
+JP ハッハァ、サイン！？
+JP 顔に油性マジックで
+JP 書いてやろうかね！
+EN Hah, an autograph!? How about I write it on your face
+EN in permanent marker!
+
+@ 54.31
+# scene 054 コンサート
+# 氷川 砂響
+JP コ…コンサート…。
+JP なんて畏れ多い……。
+EN A c-concert... How terribly presumptuous...
+
+@ 55.28
+# scene 055 練習拒否
+# 氷川 砂響
+JP 申し訳ありません。
+JP 今日はお休みをください…。
+EN I'm terribly sorry. Please let me have today off...
+
+@ 56.28
+# scene 056 失踪
+# 氷川 砂響
+JP すみません…。
+JP 本当に…すみません……。
+EN I'm sorry... I'm truly... sorry...
+
+@ 57.16
+# scene 057 選手解雇
+# 氷川 砂響
+JP そう…ですか……。
+JP 今まで、お世話になりました。
+EN I... see... Thank you for everything until now.
+
+@ 58.16
+# scene 058 海外遠征 出発
+# 氷川 砂響
+JP 海外ですか…。
+JP なるべく、日本から離れたく
+JP ないのですが…。
+EN Overseas... I would rather not go too far from Japan,
+EN if I can help it...
+
+@ 59.16
+# scene 059 海外遠征 帰国
+# 氷川 砂響
+JP ただ今戻りました。
+JP 教会にも顔を出してきますね。
+EN I have returned. I'll go show my face at the church
+EN too.
+
+@ 60.28
+# scene 060 移籍思案
+# 氷川 砂響
+JP ああ、私はどうすれば…。
+EN Oh, what am I to do...
+
+@ 61.16
+# scene 061 革命軍結成
+# 氷川 砂響
+JP ああああ…。
+JP リングで言ってしまいました。
+JP 革命だなんて…どうしましょう。
+EN Ahhhh... I said it in the ring. A revolution... What shall I
+EN do?
+
+@ 62.16
+# scene 062 反乱軍結成
+# 氷川 砂響
+JP ああ、リングの私はなんと愚かな…。
+JP 反乱軍なんか作ってしまうなんて…。
+EN Oh, how foolish I am in the ring... Forming a band of
+EN rebels...
+
+@ 63.16
+# scene 063 最終決戦要求
+# 氷川 砂響
+JP つ、次のリングで
+JP 決着をつけるよう…。
+JP お願いしましょう。
+EN L-let us ask them... to settle this in the next match.
+
+@ 64.16
+# scene 064 遺恨発生
+# 氷川 砂響
+JP わ、私にも…譲れないことは
+JP あります。
+EN E-even I... have things I cannot give up.
+
+@ 65.16
+# scene 065 殴り込み
+# 氷川 砂響
+JP わ…私が行くんですか？
+JP そんな…。
+EN I-I'm the one going in? Oh, no...
+
+@ 66.16
+# scene 066 殴り込み 迎撃
+# 氷川 砂響
+JP 私が迎撃役…。
+JP うぅ……。
+EN I'm the one to repel them... Uuu...
+
+@ 67.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# 氷川 砂響
+JP あ、あの…リングでの私がご迷惑を
+JP おかけするかもしれません。
+JP すみません。
+EN U-um... my self in the ring may cause you some
+EN trouble. I'm sorry.
+
+@ 68.24
+# scene 068 クライマックス大会・出場
+# 氷川 砂響
+JP …はい。
+JP 私でよろしければ
+JP ご恩返しをしてきます。
+EN ...Yes. If I will do, I'll go and repay your kindness.
+
+@ 69.24
+# scene 068 クライマックス大会・出場
+# SA-KI-RA
+JP はっ、この大一番に
+JP ワタシを投入するとは。
+JP アンタもいい加減だな！
+EN Hah, throwing ME into the big one? You're one
+EN reckless fool!
+
+@ 70.13
+# scene 069 クライマックス大会 優勝
+# 氷川 砂響
+JP やりました…。
+JP 私、やりました！
+EN I did it... I did it!
+
+@ 71.13
+# scene 069 クライマックス大会 優勝
+# SA-KI-RA
+JP ワタシをおめおめ勝たすかよ！
+JP くだらない！
+EN As if I'd sit back and let them hand me the win!
+EN Pathetic!
+
+@ 72.13
+# scene 070 クライマックス大会 敗北
+# 氷川 砂響
+JP すみません。
+JP 私では…力不足でした…。
+EN I'm sorry. I was... not strong enough...
+
+@ 73.13
+# scene 070 クライマックス大会 敗北
+# SA-KI-RA
+JP ハッ、いい汗かいたよ。
+EN Hah, that was a nice workout.
+
+@ 74.13
+# scene 071 引退式
+# SA-KI-RA
+JP イカれた場所からようやくお別れだ！
+JP お前らはこの後もせいぜいリングに
+JP 群がってな！！
+EN Finally, I'm out of this lunatic asylum! The rest of you
+EN can keep swarming around the ring all you like!!
+
+@ 75.17
+# 氷川 砂響
+JP はい。
+EN Yes.
+
+@ 75.36
+# 氷川 砂響
+JP はい。
+JP なんでしょう。
+EN Yes. What is it?
+
+@ 75.46
+# 氷川 砂響
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 75.65
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing well lately. Keep it up.
+
+@ 75.89
+# 氷川 砂響
+JP はい。
+JP 一生懸命がんばらせていただきます。
+EN Yes. I will do my very best.
+
+@ 75.110
+# 氷川 砂響
+JP はい。
+JP できる範囲では…。
+EN Yes. As far as I am able...
+
+@ 75.131
+# 氷川 砂響
+JP こんな私を受け入れた
+JP 社長に報いるためにも…。
+JP がんばります。
+EN To repay you, Boss, for accepting someone like me... I
+EN will do my best.
+
+@ 75.152
+# 氷川 砂響
+JP はい…。
+JP でも…最近、ますますリング上で
+JP 理性のタガが…。
+EN Yes... But... lately, in the ring, my self-control is
+EN slipping more and more...
+
+@ 75.165
+# 社 長
+JP お前に言っておきたいことがある。
+JP 最近のお前は…。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 75.189
+# 氷川 砂響
+JP 申し訳ありません。
+JP 反省します。
+EN I'm terribly sorry. I will reflect on it.
+
+@ 75.210
+# 氷川 砂響
+JP じ、自分でもわかってはいるんです…。
+EN I-I do know it myself...
+
+@ 75.231
+# 氷川 砂響
+JP 社長にそんなことを
+JP 言わせるなんて…。
+JP 私はなんと罪深いのでしょう。
+EN To make you say such a thing, Boss... What a sinner I
+EN am.
+
+@ 75.252
+# 氷川 砂響
+JP なんだと？
+JP このブタ野郎…。
+EN What did you say? You filthy pig...
+
+@ 75.255
+# 社 長
+JP え？
+EN Huh?
+
+@ 75.262
+# 氷川 砂響
+JP す…すみません！
+JP さ、最近…私生活でも
+JP リングみたいになることが…。
+EN I-I'm so sorry! L-lately... even in my private life I get
+EN like I am in the ring...
+
+@ 75.275
+# 社 長
+JP 最近はおまえらしくないじゃないか。
+JP おまえの実力は
+JP そんなものじゃないはずだ。
+EN You haven't been yourself lately. I know you're
+EN better than this.
+
+@ 75.299
+# 氷川 砂響
+JP は、はい！
+JP がんばります！
+EN Y-yes! I will do my best!
+
+@ 75.320
+# 氷川 砂響
+JP す、すみません。
+JP 教会の子が風邪をひいて…。
+JP どうしても気になって……。
+EN I-I'm sorry. One of the children at the church has a
+EN cold... I can't stop worrying...
+
+@ 75.341
+# 氷川 砂響
+JP ありがとうございます…。
+JP 私のことをそんな風に
+JP いつも励ましてくれて…。
+EN Thank you very much... for always encouraging me
+EN like that...
+
+@ 75.362
+# 氷川 砂響
+JP 最近、教会の経営も
+JP うまくいっているので…。
+JP 気が緩んでいたのかも…。
+EN The church has been doing well lately... Perhaps I let
+EN my guard down...
+
+@ 75.376
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 75.392
+# 氷川 砂響
+JP ……はい。
+EN ...Yes.
+
+@ 75.409
+# 氷川 砂響
+JP いいえ？
+JP なんでしょう。
+EN No? What is it?
+
+@ 75.420
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 75.442
+# 氷川 砂響
+JP そうですね。
+JP このような関係はいけません…。
+JP すぐに和解してきます。
+EN You are right. Things should not be like this... I will go
+EN make peace right away.
+
+@ 75.463
+# 氷川 砂響
+JP すみません。
+JP 私でも…譲れないことがあるんです…。
+EN I'm sorry. Even I... have things I cannot give up...
+
+@ 75.484
+# 氷川 砂響
+JP あの、社長。
+JP 社長は何か誤解をしています。
+EN Um, Boss. You seem to have misunderstood
+EN something.
+
+@ 75.497
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 75.514
+# 氷川 砂響
+JP はい…。
+JP ご迷惑をおかけします。
+EN Yes... I'm sorry for the trouble.
+
+@ 75.531
+# 氷川 砂響
+JP ええと…。
+JP なんでしょう？
+EN Um... What is it?
+
+@ 75.544
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 75.566
+# 氷川 砂響
+JP はい、今すぐ和解してきます。
+JP 社長にまで迷惑をかけて
+JP 申し訳ありませんでした。
+EN Yes, I will go make peace right now. I'm so sorry for
+EN troubling even you, Boss.
+
+@ 75.587
+# 氷川 砂響
+JP 社長の言うことには
+JP 従いたいとは思うのですが…。
+JP すみません……。
+EN I want to do as you say, Boss, but... I'm sorry...
+
+@ 75.608
+# 氷川 砂響
+JP あの…社長？
+JP さっきから、いったい何を
+JP 言っているのですか？
+EN Um... Boss? What on earth have you been talking
+EN about?
+
+@ 76.14
+# scene 073 会話 一言目 好意
+# 氷川 砂響
+JP はい。
+JP なんでしょう。
+EN Yes. What is it?
+
+@ 76.16
+# 氷川 砂響
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 77.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP このところいい感じだな。
+JP その調子でがんばってくれ。
+EN You've been doing well lately. Keep it up.
+
+@ 78.16
+# scene 075 会話 ほめる 通常 成功
+# 氷川 砂響
+JP はい。
+JP 一生懸命がんばらせていただきます。
+EN Yes. I will do my very best.
+
+@ 79.16
+# scene 076 会話 ほめる 失敗
+# 氷川 砂響
+JP はい。
+JP できる範囲では…。
+EN Yes. As far as I am able...
+
+@ 80.16
+# scene 077 会話 ほめる 好意 成功
+# 氷川 砂響
+JP こんな私を受け入れた社長に報いる
+JP ためにも…。
+JP がんばります。
+EN To repay you, Boss, for accepting someone like me... I
+EN will do my best.
+
+@ 81.16
+# scene 078 会話 ほめる 好意 失敗
+# 氷川 砂響
+JP はい…。でも…
+JP 最近、ますますリング上で
+JP 理性のタガが…。
+EN Yes... But... lately, in the ring, my self-control is
+EN slipping more and more...
+
+@ 82.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP お前に言っておきたいことがある。
+JP 最近のお前は…。
+EN There's something I need to tell you. Lately, you've
+EN been...
+
+@ 83.16
+# scene 080 会話 しかる 通常 成功
+# 氷川 砂響
+JP 申し訳ありません。
+JP 反省します。
+EN I'm terribly sorry. I will reflect on it.
+
+@ 84.16
+# scene 081 会話 しかる 通常 失敗
+# 氷川 砂響
+JP じ、自分でもわかっては
+JP いるんです…。
+EN I-I do know it myself...
+
+@ 85.16
+# scene 082 会話 しかる 好意 成功
+# 氷川 砂響
+JP 社長にそんなことを
+JP 言わせるなんて…。
+JP 私はなんと罪深いのでしょう。
+EN To make you say such a thing, Boss... What a sinner I
+EN am.
+
+@ 86.16
+# scene 083 会話 しかる 好意 失敗
+# 氷川 砂響
+JP なんだと？
+JP このブタ野郎…。
+EN What did you say? You filthy pig...
+
+@ 86.19
+# 社 長
+JP え？
+EN Huh?
+
+@ 86.26
+# 氷川 砂響
+JP す…すみません！
+JP さ、最近…私生活でも
+JP リングみたいになることが…。
+EN I-I'm so sorry! L-lately... even in my private life I get
+EN like I am in the ring...
+
+@ 87.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP どうした？
+JP 最近はおまえらしくないじゃないか。
+JP お前の実力はそんなものじゃないはずだ。
+EN What's wrong? You haven't been yourself lately. I
+EN know you're better than this.
+
+@ 88.16
+# scene 085 会話 はげます 通常 成功
+# 氷川 砂響
+JP は、はい！
+JP がんばります！
+EN Y-yes! I will do my best!
+
+@ 89.16
+# scene 086 会話 はげます 通常 失敗
+# 氷川 砂響
+JP す、すみません。
+JP 教会の子が風邪をひいて…。
+JP どうしても気になって……。
+EN I-I'm sorry. One of the children at the church has a
+EN cold... I can't stop worrying...
+
+@ 90.16
+# scene 087 会話 はげます 好意 成功
+# 氷川 砂響
+JP ありがとうございます…。
+JP 私のことをそんな風に
+JP いつも励ましてくれて…。
+EN Thank you very much... for always encouraging me
+EN like that...
+
+@ 91.16
+# scene 088 会話 はげます 好意 失敗
+# 氷川 砂響
+JP 最近、教会の経営もうまくいっている
+JP ので…。
+JP 気が緩んでいたのかも…。
+EN The church has been doing well lately... Perhaps I let
+EN my guard down...
+
+@ 92.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 93.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# 氷川 砂響
+JP ……はい。
+EN ...Yes.
+
+@ 94.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# 氷川 砂響
+JP いいえ？
+JP なんでしょう。
+EN No? What is it?
+
+@ 95.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 96.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# 氷川 砂響
+JP そうですね。
+JP このような関係はいけません…。
+JP すぐに、和解してきます。
+EN You are right. Things should not be like this... I will go
+EN make peace right away.
+
+@ 97.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# 氷川 砂響
+JP すみません。
+JP 私でも…譲れないことが
+JP あるんです…。
+EN I'm sorry. Even I... have things I cannot give up...
+
+@ 98.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# 氷川 砂響
+JP あの、社長。
+JP 社長は何か誤解をしています。
+EN Um, Boss. You seem to have misunderstood
+EN something.
+
+@ 99.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 100.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# 氷川 砂響
+JP はい…。
+JP ご迷惑をおかけします。
+EN Yes... I'm sorry for the trouble.
+
+@ 101.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# 氷川 砂響
+JP ええと…。
+JP なんでしょう？
+EN Um... What is it?
+
+@ 102.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 103.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# 氷川 砂響
+JP はい、今すぐ和解してきます。
+JP 社長にまで迷惑をかけて、
+JP 申し訳ありませんでした。
+EN Yes, I will go make peace right now. I'm so sorry for
+EN troubling even you, Boss.
+
+@ 104.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# 氷川 砂響
+JP 社長の言うことには従いたいとは
+JP 思うのですが…。
+JP すみません……。
+EN I want to do as you say, Boss, but... I'm sorry...
+
+@ 105.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# 氷川 砂響
+JP あの…社長？
+JP さっきから、いったい何を
+JP 言っているのですか？
+EN Um... Boss? What on earth have you been talking
+EN about?
+
+@ 106.16
+# scene 103 年俸交渉 通常合意
+# 氷川 砂響
+JP はい、申し分ありません。
+JP これでお願いいたします。
+EN Yes, this is more than fair. I accept, with thanks.
+
+@ 107.20
+# scene 104 年俸交渉 満足合意
+# 氷川 砂響
+JP こんなに…。
+JP 社長には、いくら感謝しても
+JP したりません…。
+EN So much... I can never thank you enough, Boss...
+
+@ 108.20
+# scene 105 年俸交渉 不満合意
+# 氷川 砂響
+JP 不満は…言えませんものね。
+JP これで、かまいません。
+EN I can hardly complain, can I... This will be fine.
+
+@ 109.24
+# scene 106 バカンスイベント
+# 社 長
+JP （そして、俺達は国内の室内温水プールに
+JP 　やってきた）
+EN (And so we came to an indoor heated pool here in
+EN Japan.)
+
+@ 109.26
+# 社 長
+JP （国内になったのには訳がある）
+EN (There was a reason we stayed in the country.)
+
+@ 109.28
+# 社 長
+JP （国内なら、教会の子供達を
+JP 　一緒に連れてこられるからだ）
+EN (In Japan, we could bring the children from the
+EN church along.)
+
+@ 109.38
+# 氷川 砂響
+JP すみません。
+JP 私たちのために…。
+EN I'm sorry. All this for our sake...
+
+@ 109.41
+# 社 長
+JP なあに、気にするな。
+JP みんな賛成してくれていただろう？
+EN Hey, don't worry about it. Everyone was for it,
+EN remember?
+
+@ 109.48
+# 氷川 砂響
+JP はい…。
+EN Yes...
+
+@ 109.51
+# 社 長
+JP （本当に一人も
+JP 　反対するヤツはいなかった）
+EN (Not a single person objected, really.)
+
+@ 109.53
+# 社 長
+JP （リング上のこいつは
+JP 　かなりの嫌われものだが）
+EN (In the ring, she's pretty much hated...)
+
+@ 109.55
+# 社 長
+JP （リング下のこいつは
+JP 　本当に皆に好かれている）
+EN (...but outside it, everyone truly loves her.)
+
+@ 109.57
+# 社 長
+JP ほら、みんな待ってるぞ。
+JP 着替えていってこい。
+EN Go on, they're all waiting. Get changed and go.
+
+@ 109.64
+# 氷川 砂響
+JP はい。
+JP 本当に…ありがとうございます！
+EN Yes. Thank you... truly!
+
+@ 109.89
+# 涼太
+JP はやくー！
+EN Hurry uuup!
+
+@ 109.91
+# こころ
+JP こっちこっちー！
+EN Over here, over here!
+
+@ 109.95
+# 氷川 砂響
+JP はいはい。
+EN Yes, yes.
+
+@ 109.98
+# 真央
+JP こらあんたたち。
+JP お姉ちゃんを困らせるんじゃないよ。
+EN Hey, you lot. Don't give Big Sis a hard time.
+
+@ 109.102
+# 氷川 砂響
+JP いいのよ、真央。
+JP みんな楽しんでいるんですもの。
+EN It's all right, Mao. Everyone is having fun.
+
+@ 109.105
+# 健太
+JP うわ、あの滑り台、すっげー！
+EN Whoa, that slide is awesome!
+
+@ 109.107
+# 社 長
+JP ………………。
+EN .........
+
+@ 109.122
+# 社 長
+JP （砂響は教会の子供達と遊んでいる）
+EN (Saki is playing with the church children.)
+
+@ 109.124
+# 社 長
+JP （バカンスのときくらい
+JP 　子供達の世話から解放されて
+JP 　自由に遊んでもらいたい）
+EN (On vacation, at least, I wanted her to be free of
+EN looking after the kids and have some fun herself.)
+
+@ 109.126
+# 社 長
+JP （だから、子供達の相手は代わりに
+JP 　引き受けようかと思ったが…）
+EN (So I thought about taking over with the kids in her
+EN place...)
+
+@ 109.128
+# 社 長
+JP （やめた）
+EN (But I didn't.)
+
+@ 109.132
+# 氷川 砂響
+JP うふふふふふふ。
+EN Ufufufufufu.
+
+@ 109.135
+# 社 長
+JP （余計なお世話だというのが
+JP 　わかったからだ）
+EN (Because I realized it would be butting in.)
+
+@ 109.137
+# 社 長
+JP （彼女が子供達の相手をしているのは…）
+EN (She isn't playing with those kids...)
+
+@ 109.139
+# 社 長
+JP （義務感でもなんでもない）
+EN (...out of duty or anything like that.)
+
+@ 109.141
+# 社 長
+JP （彼女がやりたいからしているのだ。
+JP 　笑顔を見て、そう確信した）
+EN (She does it because she wants to. Seeing her smile, I
+EN was sure of it.)
+
+@ 109.145
+# 氷川 砂響
+JP 社長。
+JP 社長もこちらで遊びませんか？
+EN Boss. Won't you come play over here too?
+
+@ 109.148
+# 社 長
+JP お邪魔じゃないか？
+EN I won't be in the way?
+
+@ 109.150
+# こころ
+JP 邪魔なんかじゃないよー。
+EN You're not in the way!
+
+@ 109.152
+# 健太
+JP いっしょにやろうぜー！
+EN Come play with us!
+
+@ 109.154
+# 社 長
+JP じゃ、まぜてもらうかな。
+EN Then I'll join in.
+
+@ 109.158
+# 氷川 砂響
+JP 歓迎します。
+EN You are most welcome.
+
+@ 109.161
+# 社 長
+JP （そして、俺は子供達と一緒に遊び…）
+EN (And so I played with the kids...)
+
+@ 109.178
+# 社 長
+JP ………………。
+EN .........
+
+@ 109.180
+# 社 長
+JP （クタクタになるまで付き合い
+JP 　ぶっ倒れかけた）
+EN (I kept at it until I was dead tired and nearly
+EN collapsed.)
+
+@ 109.182
+# 社 長
+JP （子供って
+JP 　どうしてあんなに元気なんだろう）
+EN (How do kids have so much energy?)
+
+@ 109.184
+# 社 長
+JP （これを昔からって…タフだなあ…）
+EN (And she's been doing this for years... She's tough...)
+
+@ 110.24
+# scene 107 日常イベント１
+# 社 長
+JP ふう…。
+JP 疲れた……。
+EN Phew... I'm beat...
+
+@ 110.26
+# 社 長
+JP （今日はぶっつづけで
+JP 　仕事をしている）
+EN (I've been working nonstop all day.)
+
+@ 110.28
+# 社 長
+JP （ここらで、少し休憩をとった方が
+JP 　よさそうだ）
+EN (I should probably take a little break about now.)
+
+@ 110.30
+# 社 長
+JP （そう思い
+JP 　俺はソファに横たわった）
+EN (With that, I lay down on the sofa.)
+
+@ 110.32
+# 社 長
+JP まったく…。
+JP なんだ、最近の忙しさは……。
+EN Honestly... What's with how busy it's been lately...
+
+@ 110.34
+# 社 長
+JP ………………。
+EN .........
+
+@ 110.36
+# 社 長
+JP ……………………。
+EN ..............
+
+@ 110.53
+# 社 長
+JP ……………………。
+EN ..............
+
+@ 110.55
+# 社 長
+JP ………………。
+EN .........
+
+@ 110.57
+# 社 長
+JP ん？
+EN Hm?
+
+@ 110.59
+# 社 長
+JP （どうやら
+JP 　寝てしまっていたらしい）
+EN (I must have dozed off.)
+
+@ 110.61
+# 社 長
+JP （しかし、やたらと心地よい香りと
+JP 　感触がする）
+EN (But there's an awfully pleasant scent... and feeling.)
+
+@ 110.74
+# 社 長
+JP （目を覚ますと
+JP 　彼女が俺を見下ろしていた）
+EN (When I opened my eyes, she was looking down at me.)
+
+@ 110.78
+# 氷川 砂響
+JP あ、目を覚ましましたか？
+EN Oh, are you awake?
+
+@ 110.81
+# 社 長
+JP ……え？
+EN ...Huh?
+
+@ 110.85
+# 氷川 砂響
+JP ふふふ。
+JP 気持ち良さそうに寝ていましたよ。
+EN Fufufu. You looked like you were sleeping so
+EN comfortably.
+
+@ 110.88
+# 社 長
+JP （ここで俺は
+JP 　自分が膝枕されていることに
+JP 　気がついた）
+EN (Only then did I realize my head was resting on her
+EN lap.)
+
+@ 110.90
+# 社 長
+JP これは、いったい……。
+EN What on earth...
+
+@ 110.94
+# 氷川 砂響
+JP 社長室に来てみたら
+JP 社長が寝ていたんです。
+EN I came to your office, and you were asleep.
+
+@ 110.98
+# 氷川 砂響
+JP それで、寝苦しそうでしたから。
+EN And you looked so uncomfortable.
+
+@ 110.101
+# 社 長
+JP そ、そうか。
+EN I-I see.
+
+@ 110.103
+# 社 長
+JP （目が覚めたのに
+JP 　いつまでもこうしている訳には
+JP 　いかない）
+EN (Now that I'm awake, I can't stay like this forever.)
+
+@ 110.115
+# 社 長
+JP （俺は身を起こし、礼を言った）
+EN (I sat up and thanked her.)
+
+@ 110.117
+# 社 長
+JP その…悪かった。
+JP しんどかっただろう？
+EN Um... sorry about that. That must have been tiring.
+
+@ 110.124
+# 氷川 砂響
+JP いいえ。
+EN Not at all.
+
+@ 110.127
+# 社 長
+JP （彼女は首をふると
+JP 　優しい笑顔で言った）
+EN (She shook her head and said with a gentle smile...)
+
+@ 110.131
+# 氷川 砂響
+JP 私も…幸せな時間を
+JP 過ごせましたから…。
+EN I got to spend... a happy time too...
+
+@ 111.24
+# scene 108 日常イベント２
+# 社 長
+JP ふう…。
+JP 疲れた……。
+EN Phew... I'm beat...
+
+@ 111.26
+# 社 長
+JP （今日はぶっつづけで
+JP 　仕事をしているな）
+EN (I've been working nonstop all day.)
+
+@ 111.36
+# 氷川 砂響
+JP 社長、お茶を持ってきました。
+EN Boss, I brought you some tea.
+
+@ 111.39
+# 社 長
+JP ああ、ありがとう。
+JP 悪いな、そんな雑用まで
+JP させてしまって。
+EN Ah, thanks. Sorry to have you running errands like
+EN that.
+
+@ 111.46
+# 氷川 砂響
+JP ふふふ。
+JP いつも言ってるじゃないですか。
+EN Fufufu. I always tell you, don't I?
+
+@ 111.50
+# 氷川 砂響
+JP 好きで、やっていることです。
+EN I do it because I like to.
+
+@ 111.53
+# 社 長
+JP わかっている。
+JP でも、礼を言うのも自由だろう。
+EN I know. But I'm free to thank you, too.
+
+@ 111.60
+# 氷川 砂響
+JP ……そうですね。
+EN ...That's true.
+
+@ 111.64
+# 氷川 砂響
+JP 社長。
+EN Boss.
+
+@ 111.67
+# 社 長
+JP ん？
+EN Hm?
+
+@ 111.71
+# 氷川 砂響
+JP 疲れているみたいですよ。
+JP ひと休みしませんか？
+EN You look tired. Why not take a little rest?
+
+@ 111.74
+# 社 長
+JP ああ…。
+JP そうだな。
+EN Yeah... I guess so.
+
+@ 111.81
+# 氷川 砂響
+JP さ…。
+JP どうぞ。
+EN Here... Go ahead.
+
+@ 111.99
+# 社 長
+JP （そして、俺は誘われるままに）
+EN (And so, just as she invited me...)
+
+@ 111.101
+# 社 長
+JP （その膝に頭をおいた）
+EN (I laid my head on her lap.)
+
+@ 111.105
+# 氷川 砂響
+JP 寝づらくないですか？
+EN Is it comfortable enough?
+
+@ 111.108
+# 社 長
+JP いいや…。
+JP 落ち着くよ。
+EN Yeah... It's relaxing.
+
+@ 111.111
+# 社 長
+JP （優しい香りと感触が
+JP 　疲れを癒していく）
+EN (The gentle scent and softness eased my fatigue
+EN away.)
+
+@ 111.114
+# 社 長
+JP いつも、すまないな。
+EN Sorry, every time.
+
+@ 111.118
+# 氷川 砂響
+JP 好きでやっていることです。
+EN I do it because I like to.
+
+@ 111.121
+# 社 長
+JP そうか。
+EN I see.
+
+@ 111.125
+# 氷川 砂響
+JP ええ。
+EN Yes.
+
+@ 111.129
+# 氷川 砂響
+JP 好きだから、やっていることです。
+EN I do it because I like it... because I like you.
+
+@ 111.132
+# 社 長
+JP （本当に…）
+EN (Honestly...)
+
+@ 111.135
+# 社 長
+JP （本当に、彼女はリングの上の彼女と
+JP 　同一人物なのだろうかと
+JP 　思うことがある）
+EN (Sometimes I honestly wonder whether she and the
+EN woman in the ring are the same person.)
+
+@ 111.139
+# 氷川 砂響
+JP 社長。
+EN Boss.
+
+@ 111.142
+# 社 長
+JP ん？
+EN Hm?
+
+@ 111.146
+# 氷川 砂響
+JP どれも、本当の私ですよ。
+EN Every one of them is the real me.
+
+@ 111.149
+# 社 長
+JP やれやれ…。
+JP 心を読まれたか。
+EN Good grief... You read my mind.
+
+@ 111.153
+# 氷川 砂響
+JP だって、社長はいつも同じ疑問を
+JP 抱くのですもの。
+EN Because you always wonder the same thing, Boss.
+
+@ 111.157
+# 氷川 砂響
+JP ただ一色で塗りつぶされた
+JP 人間なんて、いないということです。
+EN What I mean is, nobody is painted in just one color.
+
+@ 111.160
+# 社 長
+JP そうか…。
+JP そうだな。
+EN I see... I suppose you're right.
+
+@ 112.17
+# scene 110 練習試合 ベター１
+# SA-KI-RA
+JP やれやれ…。
+JP アンタほど見た目と恐さに
+JP ギャップがあるのも珍しいよ。
+EN Good grief... It's rare to see somebody whose looks
+EN are so far off from how scary she is.
+
+@ 113.17
+# scene 111 練習試合 ベター２
+# SA-KI-RA
+JP やれやれ、アンタとかい…。
+EN Good grief, it's you, huh...
+
+@ 114.16
+# scene 113 練習開始
+# 氷川 砂響
+JP はい、がんばります。
+EN Yes, I will do my best.
+
+@ 115.16
+# scene 114 練習開始 好意
+# 氷川 砂響
+JP はい。
+JP 今日もがんばります！
+EN Yes. I will do my best today too!
+
+@ 116.16
+# scene 115 特訓開始
+# 氷川 砂響
+JP 特訓…。
+JP はい、お願いします！
+EN Special training... Yes, please!
+
+@ 117.20
+# scene 116 特訓成功
+# 氷川 砂響
+JP はあ…はあ……。
+JP や、やりました…。
+EN Hah... hah... I-I did it...
+
+@ 118.20
+# scene 117 特訓失敗
+# 氷川 砂響
+JP はあ…はあ……。
+JP 無様で…すみません…。
+EN Hah... hah... I'm sorry... for being so pathetic...
+
+@ 119.16
+# scene 118 休養
+# 氷川 砂響
+JP うふふふ…。
+JP あの子たちを、どこかへ連れてって
+JP あげようかしら。
+EN Ufufufu... Maybe I'll take the children out somewhere.
+
+@ 120.16
+# scene 119 入場1
+# SA-KI-RA
+JP ブタ共がわらわらと集まってるな…。
+JP ありがたい試合を見せてやるよ！
+EN Look at all the pigs swarming in... I'll show you a
+EN match to be grateful for!
+
+@ 121.16
+# scene 119 入場2
+# SA-KI-RA
+JP 今日はどんな悲鳴が聞ける！？
+JP 聞かせろ！
+JP 聞かせろ、無様な悲鳴を！
+EN What screams will I hear today!? Let me hear them!
+EN Let me hear your pathetic screams!
+
+@ 122.17
+# scene 121 タッグマッチ ベター１
+# SA-K-RA
+JP いいところで止めないでおくれよ？
+EN Don't you dare stop me just when it's getting good,
+EN hm?
+
+@ 123.17
+# scene 122 タッグマッチ ベター２
+# SA-KI-RA
+JP なんだい、この組み合わせは。
+JP 責任もてないよ。
+JP くっくっく……。
+EN What kind of pairing is this? I won't be held
+EN responsible. Heh heh heh...
+
+@ 124.16
+# scene 125 必殺技１
+# SA-KI-RA
+JP あんたも堕ちなっ！
+EN Fall with me!
+
+@ 125.16
+# scene 125 必殺技２
+# SA-KI-RA
+JP さあ、絶叫を聞かせてもらうよ。
+EN Now, let's hear you scream.
+
+@ 126.16
+# scene 125 必殺技３
+# SA-KI-RA
+JP くくく…。
+JP 今さら、痛いのが嫌だとは
+JP 言わないよねぇ？
+EN Heh heh... Don't tell me you're saying you don't like
+EN pain NOW?
+
+@ 127.12
+# scene 126 勝利1
+# SA-KI-RA
+JP ふぅ…。
+JP ゾクゾクする…。
+EN Phew... That gives me chills...
+
+@ 128.12
+# scene 126 勝利2
+# SA-KI-RA
+JP もうお終いなのか…。
+JP ああ…体はこんなにも
+JP 火照っているのに。
+EN It's over already...? Ah... and my body's burning up
+EN like this.
+
+@ 129.12
+# scene 126 勝利3
+# SA-KI-RA
+JP はあ…。
+JP もっと…もっと悲鳴を聞かせろ…。
+EN Hah... More... let me hear more screams...
+
+@ 130.15
+# scene 133 表彰1
+# SA-KI-RA
+JP はっ…。
+JP 私によこすとは…。
+JP たいしたことない賞だねぇ。
+EN Hah... Giving it to me...? Must be a pretty cheap
+EN award.
+
+@ 131.15
+# scene 133 表彰2
+# SA-KI-RA
+JP ふんっ、他にいないのか。
+JP ならもらっといてやる…。
+JP トロフィーを跪いて差し出しな！
+EN Hmph, nobody else? Then I'll take it... Get on your
+EN knees and hand over that trophy!
+
+@ 132.12
+# scene 134 優勝1
+# SA-KI-RA
+JP くふふふふ…。
+JP はーっはっはっはっはっ！
+EN Kufufufufu... Ahahahahahahaha!
+
+@ 133.12
+# scene 134 優勝２
+# SA-KI-RA
+JP ワタシに優勝させるなんて…。
+JP 救いのない世界だねぇ。
+JP ええ？
+EN Letting ME win it all... What a hopeless world, eh?
+
+@ 134.24
+# scene 135 エンディング 通常
+# 氷川 砂響
+JP お、おめでとうございます。
+JP …とても…すごいと思います。
+EN C-congratulations. ...I think it is truly amazing.
+
+@ 135.24
+# scene 136 エンディング 好意
+# 氷川 砂響
+JP おめでとうございます。
+JP あの…これからも
+JP …側にいていいでしょうか？
+EN Congratulations. Um... may I... stay by your side from
+EN now on, too?

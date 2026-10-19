@@ -1,0 +1,2355 @@
+# /SCR/167.BIN - グレース真壁
+# One block per message line of the event script. JP lines are the screen lines of the original
+# message; write the English as EN lines - one line on screen each, at most 3 lines of
+# 440 pixels (about 44 characters; `python3 tools/scr.py wrap 167` re-breaks overflowing
+# blocks). Comments give the speaker and the scene.
+# Keep codes verbatim: %chr (a wrestler's name) and \c() (speaker change); the end-of-message
+# code and the line breaks are written by the build.
+# Speaker names in 【】 are translated in translation/text/speakers.csv, not here.
+# '~' is shown as the full-width ～; don't use \ or // in the English.
+
+@ 0.16
+# scene 001 新人テスト 導入
+# グレース真壁
+JP 真壁です。
+JP 小さいからってなめると
+JP 痛い目見るわよ。
+EN I'm Makabe. Underestimate me because I'm small, and
+EN you'll regret it.
+
+@ 1.16
+# scene 002 新人テスト 成功
+# グレース真壁
+JP ヤッター！
+JP …あっ、コホン。
+JP いいわ、期待しててね。
+EN Yaaay! ...Oh, ahem. Very well. You can look forward to
+EN great things.
+
+@ 2.16
+# scene 003 新人テスト 失敗
+# グレース真壁
+JP えー！？
+JP ウソでしょ！
+JP …あっ…コホン、仕方ないわね。
+EN Whaaat?! You're kidding! ...Oh... Ahem. Well, it can't be
+EN helped.
+
+@ 3.23
+# scene 004 新人スカウト１ 導入
+# 社 長
+JP ええと、資料によると
+JP このあたりだな。
+EN Let's see, according to the file, she should be
+EN around here.
+
+@ 3.25
+# 社 長
+JP 空手の選手だと言うが…。
+JP どんな娘なんだろう？
+EN They say she's a karate fighter... I wonder what kind
+EN of girl she is?
+
+@ 3.27
+# 社 長
+JP 今の時間はロードワークに
+JP 出ているらしいけど…。
+EN Apparently she's out doing roadwork at this hour...
+
+@ 3.29
+# 社 長
+JP あっ、どうもあの彼女らしいぞ。
+JP …あのー、すいませーん。
+EN Oh, that must be her. ...Um, excuse me!
+
+@ 3.39
+# グレース真壁
+JP なぁに？
+JP ナンパなら余所でやって
+JP 欲しいんだけど？
+EN What is it? If you're trying to pick me up, take it
+EN somewhere else.
+
+@ 3.42
+# 社 長
+JP （あれ…。
+JP 　思ったより小柄だな…）
+EN (Huh... She's smaller than I expected...)
+
+@ 3.44
+# 社 長
+JP あっ、いえ、そうじゃなくて…。
+JP 私、プロレスの団体を
+JP 経営している者なんですが…。
+EN Oh, no, it's nothing like that... I run a pro-wrestling
+EN promotion...
+
+@ 3.51
+# グレース真壁
+JP えっ！？
+JP 社長さん！？
+JP ふーん、あんまりそう見えないのね。
+EN What?! You're a company president?! Hmm, you don't
+EN really look like one.
+
+@ 3.54
+# 社 長
+JP （ずけずけ言うなあ…。
+JP 　でも、プライドが高そうだから
+JP 　意外に根性あるかも…）
+EN (She doesn't mince words... But she seems proud, so
+EN she may have more guts than you'd think...)
+
+@ 3.56
+# 社 長
+JP 実は今、うちの団体に所属してもらう
+JP 選手のスカウトをしていまして…。
+EN The truth is, I'm scouting wrestlers to join my
+EN promotion...
+
+@ 3.63
+# グレース真壁
+JP なるほど。
+JP それで私のところに来たという訳ね。
+EN I see. So that's why you came to me.
+
+@ 3.66
+# 社 長
+JP はい。
+JP 是非、入団して
+JP いただけないでしょうか？
+EN Yes. Would you please consider joining us?
+
+@ 3.68
+# 社 長
+JP （俺は条件を提示してみた）
+EN (I laid out my offer.)
+
+@ 4.19
+# scene 005 新人スカウト１ 成功
+# グレース真壁
+JP まあ、いいわ。
+JP 私の才能に目をつけたことは
+JP 誉めてあげる。
+EN Well, fine. I'll give you credit for noticing my talent.
+
+@ 4.22
+# 社 長
+JP それじゃ、入団していただけると？
+EN Then you'll join us?
+
+@ 4.26
+# グレース真壁
+JP 私の座右の銘はクール＆エレガント。
+JP 売り出しはこの方向で。
+JP いい？
+EN My motto is Cool & Elegant. That's how you'll market
+EN me. Got it?
+
+@ 4.29
+# 社 長
+JP わかりました。
+JP …では、これからよろしく。
+EN Understood. ...I look forward to working with you.
+
+@ 5.19
+# scene 065 新人スカウト１ 失敗
+# グレース真壁
+JP どうもエレガントさに欠けるわね。
+JP 気が乗らないからやめるわ。
+EN It's sorely lacking in elegance. I'm not feeling it, so
+EN I'll pass.
+
+@ 5.22
+# 社 長
+JP はあ…そうですか。
+JP 残念です。
+EN Ah... I see. That's a shame.
+
+@ 6.23
+# scene 007 新人スカウト ２回目以降
+# 社 長
+JP （なんとしても真壁選手に
+JP 　入団してもらいたい）
+EN (I want Makabe on my team, whatever it takes.)
+
+@ 6.25
+# 社 長
+JP （俺はもう一度彼女を
+JP 　待つことにした）
+EN (I decided to wait for her once again.)
+
+@ 6.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 6.37
+# グレース真壁
+JP あっ、この前の社長さんね。
+EN Oh, it's that president from the other day.
+
+@ 6.40
+# 社 長
+JP 覚えていてくれたんですか。
+JP ありがとうございます。
+EN You remembered me? Thank you.
+
+@ 6.42
+# 社 長
+JP それでどうでしょう？
+JP 気持ちは変わりませんか？
+EN So, what do you say? Have you changed your mind?
+
+@ 6.49
+# グレース真壁
+JP …まあ、ちょっとくらいは
+JP 考えてあげたけど。
+EN ...Well, I did give it a little thought. Just a little.
+
+@ 6.52
+# 社 長
+JP そうですか。
+JP どうか俺を信じて入団して
+JP もらえないでしょうか？
+EN I see. Won't you please trust me and join us?
+
+@ 6.55
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 7.19
+# scene 008 新人スカウト ２回目以降・成功
+# グレース真壁
+JP まあ、いいわ。
+JP 私の才能に目をつけたことは
+JP 誉めてあげる。
+EN Well, fine. I'll give you credit for noticing my talent.
+
+@ 7.22
+# 社 長
+JP それじゃ、入団していただけると？
+EN Then you'll join us?
+
+@ 7.26
+# グレース真壁
+JP 私の座右の銘はクール＆エレガント。
+JP 売り出しはこの方向で。
+JP いい？
+EN My motto is Cool & Elegant. That's how you'll market
+EN me. Got it?
+
+@ 7.29
+# 社 長
+JP わかりました。
+JP …では、これからよろしく。
+EN Understood. ...I look forward to working with you.
+
+@ 8.19
+# scene 009 新人スカウト ２回目以降  失敗
+# グレース真壁
+JP どうもエレガントさに欠けるわね。
+JP 気が乗らないからやめるわ。
+EN It's sorely lacking in elegance. I'm not feeling it, so
+EN I'll pass.
+
+@ 8.22
+# 社 長
+JP はあ…そうですか。
+JP 残念です。
+EN Ah... I see. That's a shame.
+
+@ 9.23
+# scene 010 移籍交渉（他団体所属）
+# 社 長
+JP （真壁選手…。
+JP 　あの空手技は特筆に値する。
+JP 　うちに欲しい逸材だ）
+EN (Makabe... Her karate is truly remarkable. She's
+EN exactly the kind of talent we need.)
+
+@ 9.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be somewhere around here... Oh, there
+EN she is!)
+
+@ 9.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 9.37
+# グレース真壁
+JP ええと、どこかで会っていたかしら？
+EN Let's see, have we met somewhere before?
+
+@ 9.40
+# 社 長
+JP いえ、初めてお目にかかります。
+JP 実は私、こういう者でして…。
+EN No, this is our first meeting. You see, I'm...
+
+@ 9.42
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 9.49
+# グレース真壁
+JP 社長さん！？
+JP なかなかやり手なのね。
+JP それで？
+EN A company president?! You must be quite the
+EN go-getter. And?
+
+@ 9.52
+# 社 長
+JP どうかうちの団体に入って
+JP もらえないでしょうか？
+EN Would you please consider joining my promotion?
+
+@ 9.59
+# グレース真壁
+JP そんなこと言ったって
+JP 私は今、こっちの団体に
+JP いるんだし…。
+EN Even if you say that, I'm with another promotion
+EN right now...
+
+@ 9.62
+# 社 長
+JP そこを曲げて
+JP うちの団体に力を貸して
+JP もらえないでしょうか？
+EN I know, but won't you make an exception and lend us
+EN your strength?
+
+@ 9.65
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 10.19
+# scene 011 移籍交渉 他団体所属 成功
+# グレース真壁
+JP わかったわ。
+JP あなたの審美眼を評価して
+JP 移籍してあげるわよ。
+EN All right. I'll transfer, out of respect for your
+EN discerning eye.
+
+@ 10.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 10.29
+# グレース真壁
+JP でもあなた自身も
+JP もっとクール＆エレガントを
+JP 磨いてちょうだいね。
+EN But you need to polish your own Cool & Elegant a lot
+EN more too, all right?
+
+@ 10.32
+# 社 長
+JP …わかりました。
+JP これからよろしくお願いします。
+EN ...Understood. I look forward to working with you.
+
+@ 11.19
+# scene 012 移籍交渉 他団体所属１ 失敗
+# グレース真壁
+JP 私を欲しがるのはわかるけど
+JP 引き抜きは関心できないわ。
+JP お断りよ。
+EN I understand why you'd want me, but I don't approve
+EN of poaching. The answer is no.
+
+@ 11.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 12.23
+# scene 013 移籍交渉 他団体所属２ 導入
+# 社 長
+JP （やはりうちには彼女が必要だ。
+JP 　俺はもう一度交渉することにした）
+EN (We really need her. I decided to negotiate once
+EN more.)
+
+@ 12.25
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 12.35
+# グレース真壁
+JP あら、社長さん。
+JP …また来たの？
+EN Oh, the president. ...You again?
+
+@ 12.38
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 12.45
+# グレース真壁
+JP ふふっ…。
+JP やっぱり私って
+JP 評価されているのね…。
+EN Hehe... I knew it. People really do appreciate me...
+
+@ 12.48
+# 社 長
+JP 俺を信じて入団して
+JP もらえないでしょうか！
+EN Won't you please trust me and join us?!
+
+@ 12.50
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 13.19
+# scene 014 移籍交渉 他団体所属２ 成功
+# グレース真壁
+JP わかったわ。
+JP あなたの審美眼を評価して
+JP 移籍してあげるわよ。
+EN All right. I'll transfer, out of respect for your
+EN discerning eye.
+
+@ 13.22
+# 社 長
+JP ホントですか？
+EN Really?
+
+@ 13.29
+# グレース真壁
+JP でもあなた自身も
+JP もっとクール＆エレガントを
+JP 磨いてちょうだいね。
+EN But you need to polish your own Cool & Elegant a lot
+EN more too, all right?
+
+@ 13.32
+# 社 長
+JP …わかりました。
+JP これからよろしくお願いします。
+EN ...Understood. I look forward to working with you.
+
+@ 14.19
+# scene 015 移籍交渉 他団体所属２ 失敗
+# グレース真壁
+JP 私を欲しがるのはわかるけど
+JP 引き抜きは関心できないわ。
+JP お断りよ。
+EN I understand why you'd want me, but I don't approve
+EN of poaching. The answer is no.
+
+@ 14.22
+# 社 長
+JP そうですか…。
+JP 残念だな…。
+EN I see... That's too bad...
+
+@ 15.23
+# scene 016 移籍交渉 フリー１ 導入
+# 社 長
+JP （真壁選手…。
+JP 　あの空手技は特筆に値する。
+JP 　うちに欲しい逸材だ）
+EN (Makabe... Her karate is truly remarkable. She's
+EN exactly the kind of talent we need.)
+
+@ 15.25
+# 社 長
+JP （たしかこのあたりにいるはず
+JP 　なんだが…あっ、いた！）
+EN (She should be somewhere around here... Oh, there
+EN she is!)
+
+@ 15.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 15.37
+# グレース真壁
+JP …あなた、何者？
+EN ...And who are you?
+
+@ 15.40
+# 社 長
+JP （俺は自分のことを説明して
+JP 　彼女をスカウトしてみた）
+EN (I introduced myself and tried to recruit her.)
+
+@ 15.44
+# グレース真壁
+JP へぇ…。
+JP あなた、社長さんなの。
+JP 見かけよりもやり手なのね。
+EN Oh... So you're a company president. You're more of
+EN a go-getter than you look.
+
+@ 15.47
+# 社 長
+JP どうでしょう。
+JP うちへ入ってもらえませんか？
+EN What do you say? Will you join us?
+
+@ 16.19
+# scene 017 移籍交渉 フリー１ 成功
+# グレース真壁
+JP …いいわよ。
+JP そこまで言うなら
+JP 私を使いこなしてみなさい。
+EN ...Fine. If you're that keen, let's see if you can
+EN handle me.
+
+@ 16.22
+# 社 長
+JP …ということは
+JP 入団してくれるんですね！？
+EN ...So that means you'll join us?!
+
+@ 16.29
+# グレース真壁
+JP ええ。
+JP でも、倒産なんてしたら
+JP 許さないわよ！
+EN Yes. But if you go bankrupt, I'll never forgive you!
+
+@ 17.19
+# scene 018 移籍交渉 フリー 失敗
+# グレース真壁
+JP 無理ね。
+JP あなた程度に私が使いこなせるはず
+JP ないじゃない。
+EN No way. Someone like you could never handle me.
+
+@ 17.22
+# 社 長
+JP うーん。
+JP そうですか…。
+JP 出直してきます。
+EN Hmm. I see... I'll come back another time.
+
+@ 18.23
+# scene 019 移籍交渉 フリー２ 導入
+# 社 長
+JP （やはりうちの団体には
+JP 　彼女が必要だ）
+EN (My promotion really needs her.)
+
+@ 18.25
+# 社 長
+JP （俺はもう一度
+JP 　交渉を試みることにした）
+EN (I decided to try negotiating once more.)
+
+@ 18.27
+# 社 長
+JP あの、すみません。
+EN Um, excuse me.
+
+@ 18.37
+# グレース真壁
+JP また来たの、社長さん。
+EN You again, Mr. President?
+
+@ 18.40
+# 社 長
+JP ええ。
+JP どうしてもうちの団体に
+JP 入って欲しくて…。
+EN Yes. I really want you to join my promotion...
+
+@ 18.44
+# グレース真壁
+JP 結構しつこいわね。
+JP 私を欲しがるのはわかるけど
+JP いい加減あきらめてくれない？
+EN You're pretty persistent. I understand why you'd
+EN want me, but would you give up already?
+
+@ 18.47
+# 社 長
+JP そこを曲げて！
+JP 俺を信じて入団して
+JP もらえないでしょうか！
+EN Please, make an exception! Won't you trust me and
+EN join us?!
+
+@ 18.49
+# 社 長
+JP （俺は条件を提示しつつ
+JP 　ねばり強く説得を続けてみた）
+EN (I laid out my offer and kept patiently trying to
+EN persuade her.)
+
+@ 19.19
+# scene 020 移籍交渉 フリー２ 成功
+# グレース真壁
+JP …いいわよ。
+JP そこまで言うなら
+JP 私を使いこなしてみなさい。
+EN ...Fine. If you're that keen, let's see if you can
+EN handle me.
+
+@ 19.22
+# 社 長
+JP …ということは
+JP 入団してくれるんですね！？
+EN ...So that means you'll join us?!
+
+@ 19.29
+# グレース真壁
+JP ええ。
+JP でも、倒産なんてしたら
+JP 許さないわよ！
+EN Yes. But if you go bankrupt, I'll never forgive you!
+
+@ 20.19
+# scene 021 移籍交渉 フリー２ 失敗
+# グレース真壁
+JP 無理ね。
+JP あなた程度に私が使いこなせるはず
+JP ないじゃない。
+EN No way. Someone like you could never handle me.
+
+@ 20.22
+# 社 長
+JP うーん。
+JP そうですか…。
+JP 出直してきます。
+EN Hmm. I see... I'll come back another time.
+
+@ 21.23
+# scene 022 移籍交渉 退団あり１ 導入
+# 社 長
+JP （俺は真壁のもとを訪ねていた。
+JP 　やはり彼女は必要な選手だ）
+EN (I'd come looking for Makabe. We really need her.)
+
+@ 21.25
+# 社 長
+JP たしかこのあたりにいるって
+JP 話だったけど…あっ、真壁っ！
+EN I heard she was somewhere around here... Oh,
+EN Makabe!
+
+@ 21.35
+# グレース真壁
+JP 社長！？
+EN Boss?!
+
+@ 21.38
+# 社 長
+JP 久しぶりだな。
+EN Long time no see.
+
+@ 21.45
+# グレース真壁
+JP …な、なんの用よ？
+EN ...Wh-what do you want?
+
+@ 21.48
+# 社 長
+JP 実は戻って欲しくて
+JP 探していたんだ…。
+EN The truth is, I've been looking for you. I want you to
+EN come back...
+
+@ 21.55
+# グレース真壁
+JP 今さら何を言っているのよ？
+EN What are you saying, after all this time?
+
+@ 21.58
+# 社 長
+JP たしかにこんなこと頼めた
+JP 義理じゃないんだけど…。
+EN I know I'm in no position to ask this...
+
+@ 21.60
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 22.15
+# scene 023 移籍交渉 退団あり１ 成功
+# グレース真壁
+JP 自分勝手ね。
+JP 団体にいられなくなったのは
+JP 誰のせいよ！
+EN How selfish. Whose fault was it that I couldn't stay?!
+
+@ 22.18
+# 社 長
+JP それについては謝る。
+JP 力を貸して欲しいんだ。
+EN I apologize for that. I need your help.
+
+@ 22.29
+# グレース真壁
+JP わかったわよ。
+JP そこまで言うなら戻ってあげる。
+JP 次はないわよ！？
+EN Fine. If you're that keen, I'll come back. But there
+EN won't be a next time!
+
+@ 22.32
+# 社 長
+JP ありがとう。
+JP 恩に着るよ。
+EN Thank you. I owe you one.
+
+@ 23.19
+# scene 024 移籍交渉 退団あり１ 失敗
+# グレース真壁
+JP …もう無理よ。
+EN ...It's too late.
+
+@ 23.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 23.29
+# グレース真壁
+JP 無理ね…。
+JP クールになれそうにないわ…。
+EN I can't... I don't think I could stay cool about it...
+
+@ 23.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 23.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I've only got myself to blame...)
+
+@ 24.23
+# scene 025 移籍交渉 退団あり２ 導入
+# 社 長
+JP （俺は真壁のもとを
+JP 　訪ねることにした）
+EN (I decided to go see Makabe.)
+
+@ 24.25
+# 社 長
+JP （やはり彼女は
+JP 　うちに必要な選手だ）
+EN (We really need her.)
+
+@ 24.27
+# 社 長
+JP また頼みに来たよ。
+EN I've come to ask again.
+
+@ 24.37
+# グレース真壁
+JP …社長。
+EN ...Boss.
+
+@ 24.40
+# 社 長
+JP どうしても団体に戻って欲しいんだ。
+EN I really want you to come back to the promotion.
+
+@ 24.42
+# 社 長
+JP （俺は彼女に団体に戻ってくれる
+JP 　ように頼み込んだ）
+EN (I begged her to come back to the promotion.)
+
+@ 25.14
+# scene 026 移籍交渉（退団あり）・２回目以降・成功
+# グレース真壁
+JP 自分勝手ね。
+JP 団体にいられなくなったのは
+JP 誰のせいよ！
+EN How selfish. Whose fault was it that I couldn't stay?!
+
+@ 25.17
+# 社 長
+JP それについては謝る。
+JP 力を貸して欲しいんだ。
+EN I apologize for that. I need your help.
+
+@ 25.28
+# グレース真壁
+JP わかったわよ。
+JP そこまで言うなら戻ってあげる。
+JP 次はないわよ！？
+EN Fine. If you're that keen, I'll come back. But there
+EN won't be a next time!
+
+@ 25.31
+# 社 長
+JP ありがとう。
+JP 恩に着るよ。
+EN Thank you. I owe you one.
+
+@ 26.19
+# scene 027 移籍交渉（退団あり）・２回目以降・失敗
+# グレース真壁
+JP …もう無理よ。
+EN ...It's too late.
+
+@ 26.22
+# 社 長
+JP どうしても戻ってくれないのか？
+EN You really won't come back?
+
+@ 26.29
+# グレース真壁
+JP 無理ね…。
+JP クールになれそうにないわ…。
+EN I can't... I don't think I could stay cool about it...
+
+@ 26.32
+# 社 長
+JP そうか…。
+JP わかった…。
+EN I see... All right...
+
+@ 26.34
+# 社 長
+JP （これも身から出たサビだな…）
+EN (I've only got myself to blame...)
+
+@ 27.16
+# scene 028 ケガ小
+# グレース真壁
+JP この程度で私のエレガントさは
+JP 壊せないわ！
+EN It'll take more than this to break my elegance!
+
+@ 28.16
+# scene 029 ケガ大
+# グレース真壁
+JP こんなケガくらい
+JP 私のクールさの前には…イタッ！
+EN An injury like this is nothing before my coolness...
+EN Ow!
+
+@ 29.16
+# scene 030 入院
+# グレース真壁
+JP 全然エレガントじゃない…。
+EN This isn't elegant at all...
+
+@ 30.16
+# scene 031 退院
+# グレース真壁
+JP クール＆エレガント！
+JP 華麗に復活よ！
+EN Cool & Elegant! A graceful comeback!
+
+@ 31.16
+# scene 032 ケガ完治
+# グレース真壁
+JP 治ったわ。
+JP さすが私の体ね。
+JP クールだわ。
+EN All healed. That's my body for you. So cool.
+
+@ 32.20
+# scene 033 引退勧告 成功
+# グレース真壁
+JP そう…。
+JP わかったわ。
+JP 幕引きはエレガントに決めるわ。
+EN I see... All right. I'll make my exit an elegant one.
+
+@ 33.20
+# scene 034 引退勧告 失敗
+# グレース真壁
+JP 何言ってるのよ！
+JP 私は辞めないわよ！
+EN What are you talking about?! I'm not quitting!
+
+@ 34.16
+# scene 035 コーチ就任
+# グレース真壁
+JP こういうのも悪くないわね。
+JP クール＆エレガントな
+JP 練習メニューを作るわよ。
+EN This isn't so bad. I'll put together a Cool & Elegant
+EN training program.
+
+@ 35.16
+# scene 036 ケガ引退
+# グレース真壁
+JP こんな辞め方なんて最悪…。
+JP グスッ…。
+EN What an awful way to go... *sniff*...
+
+@ 36.16
+# scene 037 年齢引退
+# グレース真壁
+JP 衰えていく私は見せたくない。
+JP そんなのクールじゃないでしょ？
+EN I don't want anyone to see me decline. That wouldn't
+EN be cool, would it?
+
+@ 37.16
+# scene 038 退団
+# グレース真壁
+JP バイバイ。
+JP 社長、元気でね。
+EN Bye-bye. Take care, Boss.
+
+@ 38.16
+# scene 039 スランプ
+# グレース真壁
+JP クールになれないわ…。
+EN I just can't be cool...
+
+@ 39.16
+# scene 040 ファンクラブ結成１
+# グレース真壁
+JP フッ、私の人気を考えれば
+JP とーぜんの結果ね！
+EN Heh. Considering how popular I am, it was only
+EN natural!
+
+@ 39.19
+# 社 長
+JP ファンの期待に応えるようにな。
+EN Make sure you live up to your fans' expectations.
+
+@ 39.23
+# グレース真壁
+JP もちろん。
+JP 言われるまでもないわよ。
+JP …やったぁ！
+EN Of course. You don't need to tell me. ...Yaaay!
+
+@ 40.16
+# scene 041 ファンクラブ結成２
+# グレース真壁
+JP 私のファンクラブなら
+JP もっとエレガントな雰囲気が
+JP 欲しいわね。
+EN My fan club should have a more elegant atmosphere.
+
+@ 40.19
+# 社 長
+JP 何かグッズでも売ろうか？
+EN Should we sell some merchandise?
+
+@ 40.23
+# グレース真壁
+JP やっぱり銀かしら。
+JP シルバーアクセサリーの高級感は
+JP 捨てがたいわよね。
+EN Silver, I suppose. You can't beat the luxury of silver
+EN accessories.
+
+@ 40.26
+# 社 長
+JP （おいおい
+JP 　いくらかける気なんだよ…？）
+EN (Hey now, just how much does she plan to spend...?)
+
+@ 41.16
+# scene 042 ファンクラブ解散
+# グレース真壁
+JP ウソでしょ！
+JP ありえない！
+EN You're kidding! This can't be happening!
+
+@ 41.19
+# 社 長
+JP まぁ、こんなこともあるさ。
+JP またがんばればいい。
+EN Well, these things happen. Just work hard and try
+EN again.
+
+@ 41.26
+# グレース真壁
+JP 私のハートはデリケートなのよ。
+JP なんでこんなクールじゃないことに…。
+EN I have a delicate heart, you know. How did it come to
+EN something so uncool...?
+
+@ 42.16
+# scene 043 映画出演
+# グレース真壁
+JP 映画！？
+JP そ、そう、私にピッタリの仕事ね！
+JP …ドキドキ…。
+EN A movie?! W-well, it's the perfect job for me! ...My
+EN heart's pounding...
+
+@ 43.16
+# scene 044 一日署長
+# グレース真壁
+JP 制服がクールじゃないわね…。
+EN This uniform isn't cool...
+
+@ 44.16
+# scene 045 写真集発売
+# グレース真壁
+JP エレガントな私にぴったりの仕事ね。
+JP クールに決めるわよ。
+EN A job perfect for an elegant woman like me. I'll make
+EN it cool.
+
+@ 45.16
+# scene 046 ＣＭ出演
+# グレース真壁
+JP 商品は何？
+JP エレガントでなかったら
+JP お断りよ。
+EN What's the product? If it's not elegant, I'm turning it
+EN down.
+
+@ 46.16
+# scene 047 ＣＤ発売
+# グレース真壁
+JP 私のクールな歌声を
+JP 聞かせてあげるわ！
+EN I'll let you hear my cool singing voice!
+
+@ 47.16
+# scene 048 始球式
+# グレース真壁
+JP マウンドでは
+JP エレガントに決めるわよ。
+EN I'll be elegant on the mound.
+
+@ 48.16
+# scene 049 学園祭
+# グレース真壁
+JP キャ、やったー！
+JP あ…コホン、たまにはこういうのも
+JP 悪くないわね。
+EN Eek, yaaay! Ah... Ahem. Something like this isn't so
+EN bad once in a while.
+
+@ 49.28
+# scene 050 誕生日
+# 社 長
+JP これ、誕生日のお祝いだ。
+EN This is for your birthday.
+
+@ 49.36
+# グレース真壁
+JP …社長！？
+EN ...Boss?!
+
+@ 49.39
+# 社 長
+JP これからもよろしくな。
+EN Keep up the good work.
+
+@ 49.46
+# グレース真壁
+JP あ、ありがと…。
+JP もらっておいてあげるわ。
+EN Th-thanks... I'll accept it, I suppose.
+
+@ 50.30
+# scene 051 バレンタインデー
+# グレース真壁
+JP しゃ、社長！
+JP バレンタインチョコをあげるわ！
+EN B-Boss! I'm giving you Valentine's chocolate!
+
+@ 50.33
+# 社 長
+JP ああ、ありがとう。
+EN Oh, thank you.
+
+@ 50.40
+# グレース真壁
+JP 一個ももらえないと
+JP かわいそうだからあげたのよ！
+JP ただそれだけよ。
+EN I only gave it to you because it'd be sad if you didn't
+EN get any! That's all it is!
+
+@ 50.43
+# 社 長
+JP …はいはい。
+EN ...Sure, sure.
+
+@ 51.28
+# scene 052 ホワイトデー
+# 社 長
+JP 先月のお礼を受け取ってくれるかな？
+EN Would you accept this as thanks for last month?
+
+@ 51.36
+# グレース真壁
+JP …えっ！？
+JP まさか、お返しをもらえるなんて…。
+EN ...What?! I never thought I'd get something back...
+
+@ 51.39
+# 社 長
+JP 練習の合間にでも食べてくれ。
+EN Have it between training sessions.
+
+@ 52.31
+# scene 053 サイン会
+# グレース真壁
+JP 私のファンなら
+JP クール＆エレガントを心がけなさい。
+EN If you're my fans, you should strive to be Cool &
+EN Elegant.
+
+@ 53.29
+# scene 054 コンサート
+# グレース真壁
+JP コホン！
+JP ま、まぁ、集まってくれた
+JP お礼はさせてもらうわ。
+EN Ahem! W-well, I suppose I should thank you all for
+EN coming.
+
+@ 54.26
+# scene 055 練習拒否
+# グレース真壁
+JP 練習なんかしてる気分じゃないの！
+EN I'm not in the mood for training!
+
+@ 55.26
+# scene 056 失踪
+# グレース真壁
+JP 誰もついて来ないでね…。
+EN Don't anyone follow me...
+
+@ 56.16
+# scene 057 選手解雇
+# グレース真壁
+JP ウソ…。
+JP なんでよ？
+JP そんな…。
+EN No way... Why? This can't...
+
+@ 57.16
+# scene 058 海外遠征 出発
+# グレース真壁
+JP 海外こそ
+JP 私のエレガントさにぴったりね。
+JP じゃ、行ってくるわ。
+EN Abroad is just the place for someone as elegant as
+EN me. Well, I'm off.
+
+@ 58.16
+# scene 059 海外遠征 帰国
+# グレース真壁
+JP 財布なくしちゃった…。
+JP もう全然エレガントじゃない！
+EN I lost my wallet... This isn't elegant at all!
+
+@ 59.26
+# scene 060 移籍思案
+# グレース真壁
+JP 人気者は辛いわ…。
+EN It's hard being popular...
+
+@ 60.16
+# scene 061 革命軍結成
+# グレース真壁
+JP クールでエレガントな私が
+JP トップにいない団体なんて
+JP おかしいわ！
+EN A promotion where cool, elegant me isn't on top?
+EN That's just wrong!
+
+@ 61.16
+# scene 062 反乱軍結成
+# グレース真壁
+JP エレガントじゃない正規軍なんて
+JP 必要ないのよ！
+EN We don't need an inelegant main roster!
+
+@ 62.16
+# scene 063 最終決戦要求
+# グレース真壁
+JP 決戦はあくまで
+JP クール＆エレガントに。
+JP 見苦しい試合はイヤよ。
+EN The deciding battle must be Cool & Elegant. I won't
+EN stand for an ugly match.
+
+@ 63.16
+# scene 065 遺恨発生
+# グレース真壁
+JP …なんなのよ、あいつ…。
+EN ...What's her problem...?
+
+@ 64.16
+# scene 065 殴り込み
+# グレース真壁
+JP どんな相手だろうと
+JP クール＆エレガントにきめるわ！
+EN Whoever they are, I'll take them down Cool & Elegant!
+
+@ 65.16
+# scene 066 殴り込み 迎撃
+# グレース真壁
+JP かかってきなさい！
+JP クールに迎撃してあげる！
+EN Bring it on! I'll repel you, nice and cool!
+
+@ 66.16
+# scene 067 殴り込み２ 他団体から殴り込んできたキャラクター
+# グレース真壁
+JP エレガントに
+JP マットに沈めてあげるわ。
+EN I'll elegantly sink you into the mat.
+
+@ 67.24
+# scene 068 クライマックス大会・出場
+# グレース真壁
+JP エレガントに決めるわよ！
+EN I'll make it elegant!
+
+@ 68.13
+# scene 069 クライマックス大会 優勝
+# グレース真壁
+JP 最強の王者はもっともクールで
+JP もっともエレガントな者って
+JP 決まってるのよ！
+EN The strongest champion is always the coolest and
+EN most elegant. That's how it works!
+
+@ 69.13
+# scene 070 クライマックス大会 敗北
+# グレース真壁
+JP た、たまには調子の悪いことも
+JP あるわよ！
+EN Wh-what? Everyone has an off day sometimes!
+
+@ 70.13
+# scene 071 引退式
+# グレース真壁
+JP 私のクール＆エレガントは永遠に…。
+JP グスッ…グスッ…。
+EN My Cool & Elegant lives on forever... *sniff*...
+EN *sniff*...
+
+@ 71.18
+# グレース真壁
+JP 社長、私を呼んだ？
+EN Boss, you called for me?
+
+@ 71.37
+# グレース真壁
+JP なぁに、社長？
+EN What is it, Boss?
+
+@ 71.47
+# グレース真壁
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 71.66
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 71.90
+# グレース真壁
+JP 当たり前よ。
+JP 私を誰だと思ってるの？
+EN Of course. Who do you think I am?
+
+@ 71.111
+# グレース真壁
+JP フンッ…。
+JP お世辞はいらないわ。
+EN Hmph... Spare me the flattery.
+
+@ 71.132
+# グレース真壁
+JP ま、まあ、これも契約みたいな
+JP ものだし…。
+EN W-well, it's sort of part of the contract, isn't it...?
+
+@ 71.153
+# グレース真壁
+JP …そうやって今まで何人
+JP 騙してきたのかしら？
+EN ...I wonder how many girls you've fooled with that
+EN line?
+
+@ 71.166
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 71.190
+# グレース真壁
+JP …そうね。
+JP 少しクールさがたりなかった
+JP かもしれないわ。
+EN ...You're right. Maybe I wasn't quite cool enough.
+
+@ 71.211
+# グレース真壁
+JP 社長は何にもわかっていない！
+EN You don't understand anything, Boss!
+
+@ 71.232
+# グレース真壁
+JP …そうね。
+JP たしかにエレガントさが
+JP 欠けていたみたい。
+EN ...You're right. I was certainly lacking in elegance.
+
+@ 71.253
+# グレース真壁
+JP …うるさいわね。
+JP 放っておいてよ。
+EN ...Oh, be quiet. Leave me alone.
+
+@ 71.266
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 71.290
+# グレース真壁
+JP 私はいつでもクール＆エレガントよ。
+EN I'm always Cool & Elegant.
+
+@ 71.311
+# グレース真壁
+JP 別に…。
+JP どうもしないわ…。
+EN Nothing... Nothing's wrong...
+
+@ 71.332
+# グレース真壁
+JP 私はいつでもクール＆エレガント。
+JP 社長だって知ってるでしょ？
+EN I'm always Cool & Elegant. You know that, Boss.
+
+@ 71.353
+# グレース真壁
+JP 気にしないで…。
+JP いつもと同じよ…。
+EN Don't worry about it... I'm the same as always...
+
+@ 71.367
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.383
+# グレース真壁
+JP 何よ…。
+JP 文句あるの？
+EN What? Do you have a problem with me?
+
+@ 71.400
+# グレース真壁
+JP 私、何かした？
+EN Did I do something?
+
+@ 71.411
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.433
+# グレース真壁
+JP …わかったわ。
+JP 社長の顔に免じて
+JP 今回だけは忘れてあげる。
+EN ...Fine. For your sake, Boss, I'll let it go. Just this
+EN once.
+
+@ 71.454
+# グレース真壁
+JP イヤ！
+EN No!
+
+@ 71.475
+# グレース真壁
+JP なんのことかわからないんだけど…。
+EN I have no idea what you're talking about...
+
+@ 71.488
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 71.505
+# グレース真壁
+JP …私は悪くないわよ。
+EN ...It's not my fault.
+
+@ 71.522
+# グレース真壁
+JP 何か用なの？
+EN What do you want?
+
+@ 71.535
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 71.557
+# グレース真壁
+JP …いいわ。
+JP 社長にそこまで言われたら
+JP しょうがないもの。
+EN ...All right. If you put it like that, Boss, I can't really
+EN refuse.
+
+@ 71.578
+# グレース真壁
+JP 社長は味方になってくれると
+JP 思ったのに…。
+EN And here I thought you'd be on my side, Boss...
+
+@ 71.599
+# グレース真壁
+JP 社長、いったいなんの話を
+JP しているの…？
+EN Boss, what on earth are you talking about...?
+
+@ 72.14
+# scene 073 会話 一言目 好意
+# グレース真壁
+JP なぁに、社長？
+EN What is it, Boss?
+
+@ 72.16
+# グレース真壁
+JP 会話内容を選んでください
+EN Choose a topic.
+
+@ 73.8
+# scene 074 会話 ほめる 通常
+# 社 長
+JP 最近調子がいいみたいじゃないか。
+JP その調子でがんばってくれよ！
+EN You've been in good form lately. Keep it up!
+
+@ 74.16
+# scene 075 会話 ほめる 通常 成功
+# グレース真壁
+JP 当たり前よ。
+JP 私を誰だと思ってるの？
+EN Of course. Who do you think I am?
+
+@ 75.16
+# scene 076 会話 ほめる 失敗
+# グレース真壁
+JP フンッ…。
+JP お世辞はいらないわ。
+EN Hmph... Spare me the flattery.
+
+@ 76.16
+# scene 077 会話 ほめる 好意 成功
+# グレース真壁
+JP ま、まあ、
+JP これも契約みたいなものだし……。
+EN W-well, it's sort of part of the contract, isn't it...?
+
+@ 77.16
+# scene 078 会話 ほめる 好意 失敗
+# グレース真壁
+JP …そうやって今まで
+JP 何人騙してきたのかしら？
+EN ...I wonder how many girls you've fooled with that
+EN line?
+
+@ 78.8
+# scene 079 会話 しかる 通常
+# 社 長
+JP 最近少したるんでるんじゃないか？
+EN Haven't you been slacking off a little lately?
+
+@ 79.16
+# scene 080 会話 しかる 通常 成功
+# グレース真壁
+JP …そうね。
+JP 少しクールさが
+JP たりなかったかもしれないわ。
+EN ...You're right. Maybe I wasn't quite cool enough.
+
+@ 80.16
+# scene 081 会話 しかる 通常 失敗
+# グレース真壁
+JP 社長は何にもわかっていない！
+EN You don't understand anything, Boss!
+
+@ 81.16
+# scene 082 会話 しかる 好意 成功
+# グレース真壁
+JP …そうね。
+JP たしかにエレガントさが
+JP 欠けていたみたい。
+EN ...You're right. I was certainly lacking in elegance.
+
+@ 82.16
+# scene 083 会話 しかる 好意 失敗
+# グレース真壁
+JP …うるさいわね。
+JP 放っておいてよ。
+EN ...Oh, be quiet. Leave me alone.
+
+@ 83.8
+# scene 084 会話 はげます 通常
+# 社 長
+JP 最近元気がないんじゃないか？
+JP 大丈夫か？
+EN You seem a little down lately. Are you okay?
+
+@ 84.16
+# scene 085 会話 はげます 通常 成功
+# グレース真壁
+JP 私はいつでもクール＆エレガントよ。
+EN I'm always Cool & Elegant.
+
+@ 85.16
+# scene 086 会話 はげます 通常 失敗
+# グレース真壁
+JP 別に…。
+JP どうもしないわ…。
+EN Nothing... Nothing's wrong...
+
+@ 86.16
+# scene 087 会話 はげます 好意 成功
+# グレース真壁
+JP 私はいつでもクール＆エレガント。
+JP 社長だって知ってるでしょ？
+EN I'm always Cool & Elegant. You know that, Boss.
+
+@ 87.16
+# scene 088 会話 はげます 好意 失敗
+# グレース真壁
+JP 気にしないで…。
+JP いつもと同じよ…。
+EN Don't worry about it... I'm the same as always...
+
+@ 88.8
+# scene 089 会話 仲裁する 通常１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 89.12
+# scene 090 会話 仲裁する 通常 遺恨あり
+# グレース真壁
+JP 何よ…。
+JP 文句あるの？
+EN What? Do you have a problem with me?
+
+@ 90.12
+# scene 091 会話 仲裁する 通常 遺恨なし
+# グレース真壁
+JP 私、何かした？
+EN Did I do something?
+
+@ 91.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 92.16
+# scene 093 会話 仲裁する 通常 遺恨解消
+# グレース真壁
+JP …わかったわ。
+JP 社長の顔に免じて、
+JP 今回だけは忘れてあげる。
+EN ...Fine. For your sake, Boss, I'll let it go. Just this
+EN once.
+
+@ 93.16
+# scene 094 会話 仲裁する 通常 遺恨解消せず
+# グレース真壁
+JP イヤ！
+EN No!
+
+@ 94.16
+# scene 095 会話 仲裁する 通常 もともと遺恨なし
+# グレース真壁
+JP なんのことかわからないんだけど…。
+EN I have no idea what you're talking about...
+
+@ 95.8
+# scene 096 会話 仲裁する 好意１
+# 社 長
+JP お前を呼んだ訳はわかるか？
+EN Do you know why I called you here?
+
+@ 96.12
+# scene 097 会話 仲裁する 好意 遺恨あり
+# グレース真壁
+JP …私は悪くないわよ。
+EN ...It's not my fault.
+
+@ 97.12
+# scene 098 会話 仲裁する 好意 遺恨なし
+# グレース真壁
+JP 何か用なの？
+EN What do you want?
+
+@ 98.3
+# 社 長
+JP %chr選手と
+JP 仲良くやってくれないか？
+EN Could you try to get along with %chr?
+
+@ 99.16
+# scene 100 会話 仲裁する 好意 遺恨解消
+# グレース真壁
+JP …いいわ。
+JP 社長にそこまで言われたら
+JP しょうがないもの。
+EN ...All right. If you put it like that, Boss, I can't really
+EN refuse.
+
+@ 100.16
+# scene 101 会話 仲裁する 好意 遺恨解消せず
+# グレース真壁
+JP 社長は味方になってくれると
+JP 思ったのに…。
+EN And here I thought you'd be on my side, Boss...
+
+@ 101.16
+# scene 102 会話 仲裁する 好意 もともと遺恨なし
+# グレース真壁
+JP 社長、いったいなんの話を
+JP しているの…？
+EN Boss, what on earth are you talking about...?
+
+@ 102.16
+# scene 103 年俸交渉 通常合意
+# グレース真壁
+JP それで問題ないわ。
+JP クールに進めましょ！
+EN That's fine by me. Let's keep this cool!
+
+@ 103.20
+# scene 104 年俸交渉 満足合意
+# グレース真壁
+JP うそっ、ヤッター！？
+JP …あー…こほん…エレガントね。
+JP 上々の条件だわ。
+EN No way, yaaay!? ...Ah... ahem... How elegant. Very good
+EN terms.
+
+@ 104.20
+# scene 105 年俸交渉 不満合意
+# グレース真壁
+JP …えっ、なんで～！？
+JP …あー、えーと…。
+JP この評価で納得した訳じゃないから！
+EN ...What, whyyy?! ...Ah, um... Don't think I'm satisfied
+EN with this evaluation!
+
+@ 105.28
+# scene 106 バカンスイベント
+# 社 長
+JP （うーん、さすが南国。太陽が熱い）
+EN (Ahh, the tropics. The sun is scorching.)
+
+@ 105.34
+# 社 長
+JP （みんなも楽しんでいるみたいだな）
+EN (Everyone seems to be having fun.)
+
+@ 105.36
+# 社 長
+JP ふあぁあぁぁ…。
+EN Haaaah...
+
+@ 105.38
+# 社 長
+JP （波の音って眠くなるよな…）
+EN (The sound of the waves makes you sleepy...)
+
+@ 105.40
+# 社 長
+JP （俺はのんびり
+JP 　寝っ転がっていよう…）
+EN (I think I'll just lie here and relax...)
+
+@ 105.42
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.58
+# 社 長
+JP （うおっ、視界が！？）
+EN (Whoa, I can't see!?)
+
+@ 105.60
+# 社 長
+JP （なんだこれ！？
+JP 　チラシか何かが
+JP 　顔に被さったのか！？）
+EN (What is this?! Did a flyer or something land on my
+EN face?!)
+
+@ 105.77
+# グレース真壁
+JP フッ…。
+EN Heh...
+
+@ 105.80
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.82
+# 社 長
+JP （真壁のヤツ、何やってるんだ？）
+EN (What's Makabe up to?)
+
+@ 105.86
+# グレース真壁
+JP ウフッ…。
+EN Hehe...
+
+@ 105.89
+# 社 長
+JP （このチラシ…
+JP 　『ビーチクィーンコンテスト
+JP 　参加者募集の告知』だって！？）
+EN (This flyer... "Beach Queen Contest: Now Accepting
+EN Entrants"?!)
+
+@ 105.91
+# 社 長
+JP （なるほど…これか）
+EN (I see... So that's it.)
+
+@ 105.93
+# 社 長
+JP …えーと。
+EN ...Um.
+
+@ 105.103
+# グレース真壁
+JP …ねぇ。
+EN ...Well?
+
+@ 105.106
+# 社 長
+JP はい。
+EN Yes?
+
+@ 105.110
+# グレース真壁
+JP 何か感想はないの？
+EN Don't you have anything to say?
+
+@ 105.113
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.123
+# グレース真壁
+JP ははあん。
+JP なるほど。
+EN Aha. I see.
+
+@ 105.127
+# グレース真壁
+JP 見とれちゃって声も出ない
+JP という訳ね？
+EN You're so captivated you're speechless, is that it?
+
+@ 105.130
+# 社 長
+JP いや、そうじゃないけど。
+EN No, it's not that, but...
+
+@ 105.140
+# グレース真壁
+JP そうじゃないけど！？
+EN "It's not that, but"?!
+
+@ 105.144
+# グレース真壁
+JP だったら、どんな風に思っているのか
+JP はっきり言いなさい！
+EN Then tell me plainly what you think!
+
+@ 105.147
+# 社 長
+JP （こういうコンテストって
+JP 　モデル体型の人が出るんじゃ
+JP 　ないのか？）
+EN (Aren't contests like this for people with model
+EN figures?)
+
+@ 105.149
+# 社 長
+JP （…なんて本音は言えない。
+JP 　言える訳がない）
+EN (...Not that I can say that out loud. No way can I say
+EN that.)
+
+@ 105.153
+# グレース真壁
+JP もしかして私をバカにしてるの！？
+EN Are you making fun of me?!
+
+@ 105.156
+# 社 長
+JP いや、バカにしているつもりは
+JP ないんだ。
+EN No, I don't mean to make fun of you.
+
+@ 105.158
+# 社 長
+JP （適材適所というか…その…）
+EN (It's just, the right person for the right job... Um...)
+
+@ 105.162
+# グレース真壁
+JP だったらクールとかエレガントとか
+JP 言うべきことがあるでしょう！？
+EN Then don't you have something to say? Like "cool" or
+EN "elegant"?!
+
+@ 105.165
+# 社 長
+JP （嘘ついて本番で笑われたら
+JP 　かわいそうだしなぁ…）
+EN (If I lie and she gets laughed at in the contest, I'd
+EN feel bad for her...)
+
+@ 105.169
+# グレース真壁
+JP やっぱりバカにしてる！
+JP 絶対にバカにしてるわ！
+EN You ARE making fun of me! You're definitely making
+EN fun of me!
+
+@ 105.172
+# 社 長
+JP ………………。
+EN ..................
+
+@ 105.174
+# 社 長
+JP （どうやって穏便に
+JP 　済ませようか…）
+EN (How do I smooth this over...?)
+
+@ 106.24
+# scene 107 日常イベント１
+# 社 長
+JP （ひさびさに顔を出してみたけど…）
+EN (It's been a while since I dropped by...)
+
+@ 106.26
+# 社 長
+JP （みんながんばっているみたいだな）
+EN (Everyone seems to be working hard.)
+
+@ 106.28
+# 社 長
+JP （熱心な選手ばかりで頼もしいよ）
+EN (They're all so dedicated. It's reassuring.)
+
+@ 106.30
+# 社 長
+JP （…んっ…あれは…）
+EN (...Hm... What's that...?)
+
+@ 106.32
+# 社 長
+JP どうした、真壁？
+EN What's wrong, Makabe?
+
+@ 106.42
+# グレース真壁
+JP くっ…！
+EN Ngh...!
+
+@ 106.45
+# 社 長
+JP どうかしたのか？
+EN Is something the matter?
+
+@ 106.49
+# グレース真壁
+JP ちょっと…足をひねっただけよ。
+EN I just... twisted my ankle a bit, that's all.
+
+@ 106.52
+# 社 長
+JP そりゃ大変だな。
+JP よし、医者へ連れて行ってやる。
+EN That's bad. All right, I'll take you to the doctor.
+
+@ 106.59
+# グレース真壁
+JP 大丈夫。
+JP 一人でいけるわ。
+EN I'm fine. I can go by myself.
+
+@ 106.62
+# 社 長
+JP 意地張るなよ。
+EN Don't be stubborn.
+
+@ 106.64
+# 社 長
+JP もしものことがあったら
+JP どうするんだ。
+EN What would you do if something happened?
+
+@ 106.71
+# グレース真壁
+JP ひあっ！
+EN Hyaah!
+
+@ 106.90
+# 社 長
+JP よし、行くぞ。
+EN All right, let's go.
+
+@ 106.94
+# グレース真壁
+JP ちょ…ちょっと！
+JP 離しなさいっ！
+EN H-hey... Wait! Put me down!
+
+@ 106.97
+# 社 長
+JP こ、こら！
+JP 怪我人なんだから
+JP 大人しくしてろって。
+EN H-hey, stop that! You're injured, so hold still.
+
+@ 106.107
+# グレース真壁
+JP で、でも…。
+EN B-but...
+
+@ 106.110
+# 社 長
+JP よし。
+JP 今度こそ行くぞ。
+EN Okay. Now let's go for real.
+
+@ 106.120
+# グレース真壁
+JP わ…わかったわよ。
+EN F-fine, I get it.
+
+@ 106.123
+# 社 長
+JP …んっ？
+JP 顔が赤いけど熱もあるのか？
+EN ...Hm? Your face is red. Do you have a fever too?
+
+@ 106.133
+# グレース真壁
+JP もう！
+JP 全然エレガントじゃない！
+EN Ugh! This isn't elegant at all!
+
+@ 106.136
+# 社 長
+JP 何怒ってるんだ？
+EN What are you mad about?
+
+@ 106.146
+# グレース真壁
+JP 知らないわよ！
+EN How should I know?!
+
+@ 106.149
+# 社 長
+JP （どうしろってんだ…）
+EN (What am I supposed to do...)
+
+@ 107.24
+# scene 108 日常イベント２
+# 社 長
+JP （今日もみんながんばってるな）
+EN (Everyone's working hard today too.)
+
+@ 107.26
+# 社 長
+JP （熱心な選手ばかりで頼もしいよ）
+EN (They're all so dedicated. It's reassuring.)
+
+@ 107.28
+# 社 長
+JP （…んっ…あれは…）
+EN (...Hm... What's that...?)
+
+@ 107.30
+# 社 長
+JP どうした、真壁？
+EN What's wrong, Makabe?
+
+@ 107.40
+# グレース真壁
+JP ちょっと…足をひねったみたい。
+EN I think I... twisted my ankle a bit.
+
+@ 107.43
+# 社 長
+JP なに？
+JP よし、医者に…。
+EN What? All right, to the doc...
+
+@ 107.45
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.47
+# 社 長
+JP （勝手に手を貸したら、
+JP 　また怒られそうだな。
+JP 　様子を見てるか）
+EN (If I help her without asking, she'll probably get mad
+EN at me again. I'll just watch.)
+
+@ 107.49
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.56
+# グレース真壁
+JP ちょっと。
+EN Hey.
+
+@ 107.59
+# 社 長
+JP どうした？
+EN What is it?
+
+@ 107.63
+# グレース真壁
+JP 肩くらい貸してくれても
+JP いいんじゃないの？
+EN You could at least lend me a shoulder, couldn't you?
+
+@ 107.66
+# 社 長
+JP …えっ？
+JP あ、はいはい。
+EN ...Huh? Oh, sure, sure.
+
+@ 107.86
+# グレース真壁
+JP ………………！？
+EN ..................?!
+
+@ 107.89
+# 社 長
+JP （あっ…しまった。
+JP 　肩を貸すだけでいいんだっけ？）
+EN (Oh... Oops. Was I only supposed to lend her a
+EN shoulder?)
+
+@ 107.91
+# 社 長
+JP ごめん。
+JP すぐに下ろす。
+EN Sorry. I'll put you down right away.
+
+@ 107.101
+# グレース真壁
+JP べ、別にそのままでいいわよ。
+EN Y-you don't have to. This is fine.
+
+@ 107.104
+# 社 長
+JP いいのか？
+EN Are you sure?
+
+@ 107.108
+# グレース真壁
+JP いいって言ってるじゃない。
+EN I said it's fine, didn't I?
+
+@ 107.118
+# グレース真壁
+JP そ、そういえば
+JP 前にもこんなことが
+JP あったわよね。
+EN Th-that reminds me... Something like this happened
+EN before, didn't it?
+
+@ 107.121
+# 社 長
+JP ああ…。
+JP そうだな。
+EN Yeah... It did.
+
+@ 107.131
+# グレース真壁
+JP あのときは…怒って悪かったわ。
+EN Back then... I'm sorry I got mad.
+
+@ 107.134
+# 社 長
+JP …えっ？
+JP 今、なんて？
+EN ...Huh? What did you just say?
+
+@ 107.138
+# グレース真壁
+JP 謝ってるのよ！
+JP 何度も言わせないで。
+EN I'm apologizing! Don't make me say it twice.
+
+@ 107.141
+# 社 長
+JP そうか。
+JP まあ、なんだ。
+JP あんまり無茶な練習はするなよ。
+EN I see. Well, uh... Just don't overdo it in training.
+
+@ 107.151
+# グレース真壁
+JP そうね、気をつけるわ。
+EN All right, I'll be careful.
+
+@ 107.154
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.156
+# 社 長
+JP 今日は随分素直だな。
+EN You're awfully honest today.
+
+@ 107.166
+# グレース真壁
+JP 私は、いつも素直よ。
+EN I'm always honest.
+
+@ 107.169
+# 社 長
+JP そうか…。
+EN I see...
+
+@ 107.173
+# グレース真壁
+JP そ、そうよ…。
+EN Th-that's right...
+
+@ 107.177
+# グレース真壁
+JP ほら、病院行くんでしょ？
+EN Come on, we're going to the hospital, aren't we?
+
+@ 107.180
+# 社 長
+JP そうだな。
+JP よし、行くか。
+EN Right. Okay, let's go.
+
+@ 107.197
+# 社 長
+JP ………………。
+EN ..................
+
+@ 107.199
+# 社 長
+JP （その後、俺は真壁を
+JP 　病院まで連れて行った）
+EN (After that, I took Makabe to the hospital.)
+
+@ 108.17
+# scene 110 練習試合 ベター１
+# グレース真壁
+JP うゎあ、その猫、かわいい！
+JP 卑怯よ、私を油断させる気ね。
+EN Waaah, that cat is so cute! No fair, you're trying to
+EN make me drop my guard!
+
+@ 109.16
+# scene 113 練習開始
+# グレース真壁
+JP 背が伸びる練習って…。
+JP ないかしら？
+EN Is there... any training that makes you taller?
+
+@ 110.16
+# scene 114 練習開始 好意
+# グレース真壁
+JP いつもとは違う私を
+JP 見せてあげるわ！
+EN I'll show you a side of me you've never seen!
+
+@ 111.16
+# scene 115 特訓開始
+# グレース真壁
+JP 特訓なんて私に必要ないのに…。
+EN I don't need special training...
+
+@ 112.20
+# scene 116 特訓成功
+# グレース真壁
+JP まあ、こんなものね。
+EN Well, that's about what I expected.
+
+@ 113.20
+# scene 117 特訓失敗
+# グレース真壁
+JP だから、必要ないって
+JP 言ったでしょ…！
+EN See, I told you I didn't need it...!
+
+@ 114.16
+# scene 118 休養
+# グレース真壁
+JP クール＆エレガントな
+JP 休暇を満喫するわ。
+EN I'll enjoy a Cool & Elegant vacation.
+
+@ 115.16
+# scene 119 入場1
+# グレース真壁
+JP 今日もクール＆エレガントに
+JP 決めるわよ。
+EN Cool & Elegant again today.
+
+@ 116.16
+# scene 119 入場2
+# グレース真壁
+JP あくまでもクール＆エレガントに…。
+JP 騒いでもらっては困るわ。
+EN Cool & Elegant, always... Please, no fuss.
+
+@ 117.17
+# scene 121 タッグマッチ ベター１
+# グレース真壁
+JP クール＆ヒート！
+JP …私たちを止められるかしら？
+EN Cool & Heat! ...Think you can stop us?
+
+@ 118.16
+# scene 125 必殺技１
+# グレース真壁
+JP クールでエレガントな技、
+JP 見せてあげる。
+EN Behold my cool and elegant technique.
+
+@ 119.16
+# scene 125 必殺技２
+# グレース真壁
+JP エレガントに散りなさい！
+EN Fall elegantly!
+
+@ 120.16
+# scene 125 必殺技３
+# グレース真壁
+JP クールな勝利を、この手に！
+EN A cool victory, in my hands!
+
+@ 121.12
+# scene 126 勝利1
+# グレース真壁
+JP 体は小さくても
+JP 私の打撃は最強なのよ。
+EN I may be small, but my strikes are the strongest.
+
+@ 122.12
+# scene 126 勝利2
+# グレース真壁
+JP もっともエレガントな者が勝つ。
+JP わかりやすいじゃない。
+EN The most elegant one wins. Simple, isn't it?
+
+@ 123.12
+# scene 126 勝利3
+# グレース真壁
+JP クールな勝利ね。
+JP 悪くないわ。
+EN A cool victory. Not bad.
+
+@ 124.15
+# scene 133 表彰1
+# グレース真壁
+JP 私にかかれば
+JP こんな賞とるのはたやすいものね。
+EN For someone like me, winning an award like this is
+EN easy.
+
+@ 125.15
+# scene 133 表彰2
+# グレース真壁
+JP 皆さんも私を見習って
+JP クール＆エレガントに決めることね。
+EN You should all follow my example and be Cool &
+EN Elegant.
+
+@ 126.12
+# scene 134 優勝1
+# グレース真壁
+JP こんなもので満足しないわ。
+JP 私の目標はもっと高いのよ。
+EN This won't satisfy me. I'm aiming much higher.
+
+@ 127.12
+# scene 134 優勝２
+# グレース真壁
+JP クールに見極めてエレガントに戦う。
+JP それが栄冠の秘訣ね。
+EN Judge coolly, fight elegantly. That's the secret to
+EN glory.
+
+@ 128.24
+# scene 135 エンディング 通常
+# グレース真壁
+JP おめでとう、社長。
+JP これからもクール＆エレガントで
+JP よろしくね。
+EN Congratulations, Boss. Let's stay Cool & Elegant
+EN from here on, okay?
+
+@ 129.24
+# scene 136 エンディング 好意
+# グレース真壁
+JP ねぇ、社長。
+JP 女の子は素直じゃない方が
+JP かわいいわよね、ね？
+EN Hey, Boss. Girls are cuter when they don't say what
+EN they mean, right? Right?
