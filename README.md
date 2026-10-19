@@ -17,6 +17,10 @@ on a new proportional font with a hook in the game's text drawing code.
 > ([how to report](#reporting-problems)). [CHANGELOG.md](CHANGELOG.md) lists what's in each
 > release.
 
+**AI Disclosure**
+
+This project was created with the assistance of AI for reverse-engineering the game's text routines.
+
 ## Downloads
 
 Get the latest zip from the [Releases](../../releases) page. It contains 3 patches. Pick one:
