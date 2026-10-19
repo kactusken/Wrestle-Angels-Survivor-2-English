@@ -6,8 +6,9 @@ only in Japan).
 The patch translates all 242 story scripts (about 60,000 lines of dialogue), the game's menus,
 match commentary and announcer lines, the roster, 189 moves, venues, coaches and special skills,
 and 247 text pictures: menus, banners, status screens, finance reports, move cards and the ring
-names under all 158 portraits. The game only had a full-width Japanese font, so the English runs
-on a new proportional font with a hook in the game's text drawing code.
+names under all 158 portraits. The game drew every Latin letter in a fixed
+11-pixel cell; the patch rewrites its text-drawing code to space letters by their real width,
+so English reads naturally and fits the game's boxes.
 
 **[See screenshots](docs/SCREENSHOTS.md)** of the patched game.
 
@@ -20,6 +21,7 @@ on a new proportional font with a hook in the game's text drawing code.
 **AI Disclosure**
 
 This project was created with the assistance of AI for reverse-engineering the game's text routines.
+The translation was made with AI assistance (Claude), then edited and play-tested by the author.
 
 ## Downloads
 

@@ -6,7 +6,8 @@
   coaches and special skills.
 - 247 text pictures lettered in English: menus, banners, status screens, finance reports, move
   cards, month banners and the ring names under all 158 portraits.
-- A proportional English font, drawn through a hook in the game's text code.
+- Proportional spacing for Latin letters: the game's text-drawing code rewritten, so letters
+  are spaced by their width instead of a fixed 11-pixel cell.
 - Story scripts that grew are moved on the disc, and the game's file position table is updated
   to match.
 - Three patches: English, English (All Unlocked) and the original Japanese (All Unlocked). The
