@@ -67,6 +67,10 @@ TABLES['coaches'] = {'source': ('file', '/SLPM_550.56'), 'first': 0x466cd0 - ELF
 # 66 special skills (wrestler status, page 1): name, and a description (shown with the skill)
 TABLES['skills'] = {'source': ('file', '/SLPM_550.56'), 'first': 0x50e000 - ELF, 'stride': 0x80, 'count': 66,
                     'fields': [('name', 0, 0x20), ('help', 0x20, 0x60)], 'csv': 'skills.csv', 'encoding': 'ascii'}
+# 6 foreign promotions (0xc0 records from 0x475d68: full-width name, then the country at +0x28): the
+# country, reached as 0x475d90 + index x 0xc0 (0x230158) and listed by 0x2ed0b8. Names stay full-width.
+TABLES['foreign'] = {'source': ('file', '/SLPM_550.56'), 'first': 0x475d90 - ELF, 'stride': 0xc0, 'count': 6,
+                     'fields': [('country', 0, 0x20)], 'csv': 'foreign.csv', 'encoding': 'ascii'}
 # Single full-width digits and letters (8-byte slots, pointer tables): filled into %s - "Player %s",
 # "Block %s", ranks. ASCII draws them at text width instead of 22 px. One CSV, shared values.
 for _name, _first, _count in [('digits', 0x59a038, 10), ('digits_letters', 0x59ca80, 16),

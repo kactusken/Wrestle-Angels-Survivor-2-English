@@ -674,7 +674,12 @@ drawn; "show all" sets it to 0x96 (0x232ec0, 0x232f34). The English build raises
 
 ### The executable's text
 - Strings reached through pointer tables or lui/addiu pairs: `translation/text/exe.csv`
-  (tools/exetext.py) - about 4,600, of which 56 can only be changed in place.
+  (tools/exetext.py) - about 4,670, of which 55 can only be changed in place.
+- The compiler often puts the `lui` in a branch delay slot and the `addiu` after the branch
+  target (*from the code*: 0x2e894c -> 0x2e8984 builds 0x4f3e68, 0x2ea594 -> 0x2ea5c0 builds
+  0x4f41d0, the CPU-turn reports). exetext follows the register down both sides of every branch;
+  until 2026-10-21 it read straight on and missed 35 strings, 17 of them on screen (CPU reports,
+  save prompts, "%s Title", the 入院 status, an ejection message).
 - Roster 0x510114: 243 records of 0x848 bytes; +0 name, +0x40 ring name, +0x80 short name,
   +0x7f4 title, 0x40 bytes each (records.py `roster`). 0-78 main roster, 79-157 the other
   personas, 158-241 foreign wrestlers, 242 the secretary.
@@ -682,12 +687,17 @@ drawn; "show all" sets it to 0x96 (0x232ec0, 0x232f34). The English build raises
   reads +0x10c), copied to wrestler +0x6e8 at a new game (0x2351b0), kept in 2 bits in saves
   (0x241520). 0 ベビー Face (40 records), 1 ノーマル Normal (163), 2 ヒール Heel (40); any other value
   draws nothing. Drawn by the status page (0x2c63cc) and two list screens (0x2ca2b8, 0x2ca454) from
-  the strings at 0x59ccc0 / 0x4eebf8 / 0x59ccc8. ヒール has 3 uses but exe.csv counts 1 (the lui is
-  shared): fine while it's translated in place.
+  the strings at 0x59ccc0 / 0x4eebf8 / 0x59ccc8. ヒール has 3 uses (exe.csv `code3`).
 - Moves 0x4ff988: 223 records of 264 bytes; +0 name (0x40), +0x40 id `Wnnn` (records.py `moves`).
-- Not yet mapped: venues (0x4e0330-0x4ea550, ~1,000 names), staff credits (0x466d4c, 124-byte
-  records), region/prefecture names in 8-byte slots in .sdata (0x598f40-0x59e310), more move
-  tables.
+- Foreign promotions 0x475d68 (*from the code*): 6 records of 0xc0; +0 full-width name (ＩＷＷＦ,
+  ＷＷＣＡ, ...; kept), +0x28 country (0x20 bytes, records.py `foreign`), then numbers. Reached as
+  base + index x 0xc0 (0x230138 name, 0x230158 country); 0x2ed0b8 lists all six.
+- Audit 2026-10-21 (*from the code*): every Shift-JIS string in .data/.rodata/.sdata outside the
+  record tables either has a row in exe.csv or has no pointer, lui/addiu, gp or table-base
+  reference. The unreached ones are debug text, the name-entry grid (0x4e7ae0-0x4ea550) and the
+  region/prefecture/country lists' duplicate copies (each source file has its own; the code uses
+  one copy per list, which is translated).
+- Not yet mapped: staff credits (0x466d4c, 124-byte records; kept in Japanese).
 
 ### Other files
 `/SYS/BELT.DAT`, `BEL.BIN`, `OPTION.BIN`, `SLFILE.BIN`, `GALETC.BIN`, `BG.BIN`, `GM_*.BIN`: no text

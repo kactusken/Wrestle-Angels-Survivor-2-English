@@ -109,6 +109,7 @@ TEXT_STEPS = [
     ('text/skills.csv', records.step),   # special skill names (executable, fixed records)
     ('text/coaches.csv', records.step),  # coach names (executable, fixed records)
     ('text/venues.csv', records.step),   # venue names (executable, fixed records)
+    ('text/foreign.csv', records.step),  # foreign promotions' countries (executable, fixed records)
     ('text/symbols.csv', records.step),  # single full-width digits/letters filled into %s
     ('text/exe.csv', exetext.apply),  # the executable's own text (before the font code: same file)
     ('.', font_step),               # /SYS/FONT.BIN + draw()/width() in the executable

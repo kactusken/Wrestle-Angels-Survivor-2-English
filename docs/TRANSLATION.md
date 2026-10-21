@@ -8,7 +8,7 @@
 | `translation/text/speakers.csv` | every name shown in 【】 (speaker box, inline) | `tools/lint.py` |
 | `translation/text/choices.csv` | the four choice labels (`item "..."`) | `tools/lint.py` |
 | `translation/text/exe.csv` | the executable's own text: menus, messages, match commentary, announcer lines | `tools/exetext.py` |
-| `translation/text/roster.csv`, `moves.csv`, `venues.csv`, `coaches.csv`, `skills.csv`, `symbols.csv` | data tables: wrestlers, moves, venues, coaches, special skills, digits and symbols | `tools/lint.py` |
+| `translation/text/roster.csv`, `moves.csv`, `venues.csv`, `coaches.csv`, `skills.csv`, `foreign.csv`, `symbols.csv` | data tables: wrestlers, moves, venues, coaches, special skills, foreign promotions' countries, digits and symbols | `tools/lint.py` |
 | `translation/graphics.csv` | images with text | `tools/check.py` |
 
 ## File formats
