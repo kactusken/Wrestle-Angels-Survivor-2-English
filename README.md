@@ -12,7 +12,7 @@ so English reads naturally and fits the game's boxes.
 
 **[See screenshots](docs/SCREENSHOTS.md)** of the patched game.
 
-> **Status: first public beta (v0.1).** All dialogue, menus and text pictures are translated and
+> **Status: public beta (v0.2).** All dialogue, menus and text pictures are translated and
 > the game has been played in English, but not every story path, event or late-game screen has
 > been seen yet. Please report anything cut off, overlapping or still in Japanese
 > ([how to report](#reporting-problems)). [CHANGELOG.md](CHANGELOG.md) lists what's in each

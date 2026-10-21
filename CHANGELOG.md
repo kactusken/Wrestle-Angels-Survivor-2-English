@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.2 (beta)
+- Text that was still in Japanese, found through a player report and an audit of the executable:
+  the rival promotions' monthly reports (scouting attempts, autograph sessions, TV ads, ad truck,
+  talks with free agents), save prompts, title names ("%s Title", "%s Junior Title"), the
+  Hospital status, an ejection message, match times, the venue-select header and "months since
+  last show".
+- The foreign promotions' countries (five of six were in Japanese).
+
 ## v0.1 (first public beta)
 - All 242 story scripts translated: about 60,000 lines of dialogue.
 - The executable's text: menus, match commentary, announcer lines, the roster, moves, venues,
