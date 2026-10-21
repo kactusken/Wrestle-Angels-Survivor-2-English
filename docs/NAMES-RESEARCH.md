@@ -38,7 +38,7 @@ Researched 2026-10-18. Labels: **official** = Success's own site. **fan** = an E
 | コンサート / CD | concert / CD (idol-style side business) | GameFAQs. |
 | 人気 | popularity | GameFAQs. |
 | メインイベンター | main-eventer | GameFAQs. |
-| ベビーフェイス / ヒール | face / heel | Standard. The game's alignment values are GOOD / NORMAL / EVIL. |
+| ベビーフェイス / ヒール | face / heel | Standard. The game's three alignments are ベビー / ノーマル / ヒール, shown as Face / Normal / Heel (docs/TECHNICAL.md). |
 | 2Pキャラ (TypeB) | alternate version / "2P" character | The wikiwiki 選手名鑑 calls these 名前(TypeA) / 名前(TypeB). The fan blog says "1P color / 2P color". |
 | AP | AP (action points) | Keep as is. Fans say "AP". |
 

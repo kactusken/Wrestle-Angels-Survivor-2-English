@@ -678,6 +678,12 @@ drawn; "show all" sets it to 0x96 (0x232ec0, 0x232f34). The English build raises
 - Roster 0x510114: 243 records of 0x848 bytes; +0 name, +0x40 ring name, +0x80 short name,
   +0x7f4 title, 0x40 bytes each (records.py `roster`). 0-78 main roster, 79-157 the other
   personas, 158-241 foreign wrestlers, 242 the secretary.
+- Alignment (*from the code*): roster +0x108 (int32; the code's record base is name - 4, so it
+  reads +0x10c), copied to wrestler +0x6e8 at a new game (0x2351b0), kept in 2 bits in saves
+  (0x241520). 0 ベビー Face (40 records), 1 ノーマル Normal (163), 2 ヒール Heel (40); any other value
+  draws nothing. Drawn by the status page (0x2c63cc) and two list screens (0x2ca2b8, 0x2ca454) from
+  the strings at 0x59ccc0 / 0x4eebf8 / 0x59ccc8. ヒール has 3 uses but exe.csv counts 1 (the lui is
+  shared): fine while it's translated in place.
 - Moves 0x4ff988: 223 records of 264 bytes; +0 name (0x40), +0x40 id `Wnnn` (records.py `moves`).
 - Not yet mapped: venues (0x4e0330-0x4ea550, ~1,000 names), staff credits (0x466d4c, 124-byte
   records), region/prefecture names in 8-byte slots in .sdata (0x598f40-0x59e310), more move
