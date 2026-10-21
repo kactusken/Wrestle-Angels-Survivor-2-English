@@ -115,14 +115,7 @@ class Exe:
             if x >> 26 != 0xf:
                 continue
             rt, hi = (x >> 16) & 31, (x & 0xffff) << 16
-            # follow the register to its next write (or the function's return): every read is a use
-            uses = []
-            for j in range(i + 1, min(n, i + 256)):
-                reads, writes = regs_of(words[j])
-                if rt in reads:
-                    uses.append(j)
-                if rt in writes or words[j] == 0x03e00008:
-                    break
+            uses = follow(words, n, i, rt)
             for u in uses:
                 y = words[u]
                 op, imm = y >> 26, y & 0xffff
@@ -147,6 +140,65 @@ class Exe:
         while end < self.off(DATA[1]) and self.data[end] == 0 and (BASE + end - FILE_OFF) not in strings:
             end += 1
         return end - self.off(addr)
+
+
+def branch_of(x, j):
+    """(target index or None, falls through) for a branch or jump at word j, else None. Indexes
+    are words from BASE."""
+    op, rs, rt = x >> 26, (x >> 21) & 31, (x >> 16) & 31
+    off = x & 0xffff
+    target = j + 1 + (off - 0x10000 if off & 0x8000 else off)
+    if op in (4, 0x14) and rs == rt == 0:                         # b (beq zero, zero)
+        return target, False
+    if op in (4, 5, 6, 7, 0x14, 0x15, 0x16, 0x17) or (op == 1 and rt in (0, 1, 2, 3, 0x10, 0x11, 0x12, 0x13)):
+        return target, True
+    if op == 2:                                                   # j
+        return ((x & 0x3ffffff) * 4 - BASE) // 4, False
+    if op == 0 and x & 0x3f == 8:                                 # jr
+        return None, False
+    return None
+
+
+def follow(words, n, i, rt, limit=1024):
+    """Indexes of the instructions that read register rt as set by the instruction at i, up to
+    its next write or the function's return. Branches are followed both ways: the compiler often
+    puts a lui in a delay slot and the addiu after the branch target."""
+    uses, seen = [], set()
+    todo = [i + 1]
+    b = branch_of(words[i - 1], i - 1) if i else None
+    if b is not None:                                             # i is a delay slot
+        target, falls = b
+        todo = ([i + 1] if falls else []) + ([target] if target is not None else [])
+    steps = 0
+    while todo and steps < limit:
+        j = todo.pop()
+        while 0 <= j < n and j not in seen and steps < limit:
+            seen.add(j)
+            steps += 1
+            reads, writes = regs_of(words[j])
+            if rt in reads:
+                uses.append(j)
+            if rt in writes or words[j] == 0x03e00008:
+                break
+            b = branch_of(words[j], j)
+            if b is None:
+                j += 1
+                continue
+            target, falls = b
+            slot = j + 1                                          # the delay slot runs either way
+            if slot < n and slot not in seen:
+                seen.add(slot)
+                r, w = regs_of(words[slot])
+                if rt in r:
+                    uses.append(slot)
+                if rt in w:
+                    break
+            if target is not None and 0 <= target < n:
+                todo.append(target)
+            if not falls:
+                break
+            j = slot + 1
+    return sorted(set(uses))
 
 
 def regs_of(x):
@@ -255,7 +307,7 @@ def extract(force=False):
                      'japanese': escape(s.decode('cp932')), 'english': prev.get('english', ''),
                      'notes': prev.get('notes', '')})
     with open(csv_path(), 'w', encoding='utf-8', newline='') as f:
-        w = csv.DictWriter(f, FIELDS)
+        w = csv.DictWriter(f, FIELDS, lineterminator='\n')
         w.writeheader()
         w.writerows(rows)
     print(f'extract: {len(rows)} strings to {paths.show(csv_path())}')
@@ -406,7 +458,7 @@ def import_tsv(path, dry_run=False):
         print(p)
     if not dry_run:
         with open(csv_path(), 'w', encoding='utf-8', newline='') as f:
-            w = csv.DictWriter(f, FIELDS)
+            w = csv.DictWriter(f, FIELDS, lineterminator='\n')
             w.writeheader()
             w.writerows(rows)
     print(f'import: {n} strings' + (' checked (dry run)' if dry_run else ' set') + f', {len(problems)} problems')
