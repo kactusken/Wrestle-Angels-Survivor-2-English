@@ -49,6 +49,14 @@ Set up from the translation kit (version 581d857). Tools marked *game* are stubs
 | [compare.py](compare.py) | *Pillow*: original \| English sheets |
 | [contact.py](contact.py) | *Pillow*: every original image on labelled sheets |
 
+## Guide
+
+| Tool | What it does |
+|---|---|
+| [guidedata.py](guidedata.py) | the player's guide data (wrestlers with Special Match ratings at LEVEL 1-3, skills, move lists, signature moves, start per era; moves, skills, CPU and foreign promotions, belts, president skills) read from the original executable with the patch's English names, into docs/guide/index.html (`--json FILE` writes it to a file instead; `--check` passes while the page doesn't exist) |
+| [pagedata.py](pagedata.py) | fills a reference page's one-line JSON data block (used by guidedata.py) |
+| [rostercards.py](rostercards.py) | *Pillow*: the guide's roster pictures: the portraits (review/images-original SYS_GM_CHR, name tag cropped, English names drawn) grouped by where each wrestler starts in each era, into docs/guide/roster/*.webp (`--list` prints the groups); run again after a name changes |
+
 ## Releasing
 
 Steps and rules: [../docs/RELEASING.md](../docs/RELEASING.md).

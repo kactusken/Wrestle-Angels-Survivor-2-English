@@ -31,6 +31,7 @@ CHECKS = [
     ('script text', [PY, 'tools/scr.py', 'check'], True),
     # ('layout', [PY, 'tools/storycheck.py'], False),
     ('font code (simulated)', [PY, 'tools/test_vwf.py'], True),
+    ('guide data', [PY, 'tools/guidedata.py', '--check'], False),
 ]
 
 

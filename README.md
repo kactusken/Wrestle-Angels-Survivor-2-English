@@ -12,6 +12,10 @@ so English reads naturally and fits the game's boxes.
 
 **[See screenshots](docs/SCREENSHOTS.md)** of the patched game.
 
+> **New to the game?** The [player's guide](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/guide/) explains how matches and the card system
+> work (with an exchange calculator), how to run a promotion through to the Final Series, and has
+> all 242 wrestlers and 223 moves, with search.
+
 > **Status: public beta (v0.2).** All dialogue, menus and text pictures are translated and
 > the game has been played in English, but not every story path, event or late-game screen has
 > been seen yet. Please report anything cut off, overlapping or still in Japanese
@@ -65,6 +69,10 @@ PCSX2.
 - **What's still in Japanese.** The title logo, the staff credits and voice cast, counter words
   after some numbers (名, 日目), the kanji grid on the name-entry screen, and the voices.
 - **Saves.** Saves from the original Japanese game work with the patch.
+- **Player's guide.** [The guide](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/guide/) covers the modes and controls, how a match is decided
+  (Take the Hit, reversals, pins, submissions, skills), management mode from the new-game settings
+  and president skills to the Final Series and the endings, the whole roster with profiles, skills
+  and moves, the secrets, a Japanese glossary and Q&A.
 - **Hidden content.** See [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md).
 - **Event timeline.** The [interactive timeline](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/timeline/) shows what can happen each month
   and what unlocks it.
@@ -94,6 +102,7 @@ the game's formats.
 | [docs/TECHNICAL.md](docs/TECHNICAL.md) | The game's disc layout, archives, compression, data formats, and memory map |
 | [docs/PLATFORM.md](docs/PLATFORM.md) | PS2 pitfalls for this kind of work |
 | [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md) | Unlockables, debug features, and unused and cut content |
+| [Player's guide](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/guide/) | The player's guide: matches, management, roster, moves, secrets (source: [docs/guide/](docs/guide/); its data comes from tools/guidedata.py) |
 | [docs/MANAGEMENT.md](docs/MANAGEMENT.md) | How management mode works: money, shows, recruitment, training, events |
 | [Event timeline](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/timeline/) | Interactive event timeline: what can happen each month and what unlocks it (source: [docs/timeline/](docs/timeline/)) |
 | [tools/README.md](tools/README.md) | Every tool, what it's for and how to run it |
