@@ -75,15 +75,17 @@ no last year** (*from the code* 0x219ca4).
 | December | CPU promotions never invade | *code* 0x214318 |
 
 ### 1.3 Office menus
-*From text* (help strings; the menu labels themselves are images).
+*From text* (the patch's menu pictures and help strings).
 
 | Menu | Commands and costs |
 |---|---|
-| Wrestlers | personnel, coaching staff, **tryout** (1-99 AP), **rookie scouting** (50 AP), **transfer talks**, guest booking, release, urge retirement, overseas tour (5 AP per wrestler per month), vacate title, hire coach (100 AP), dismiss coach |
-| Management | overseas partnership and ending it, expand/sell facilities, create belt, advertising, events (autograph session 50 AP, concert 100 AP), invade, vacation (30 AP per eligible wrestler) |
-| Info | promotion data, history, rankings, belts, share map, other promotions (free) |
-| Gym | training schedules, coach assignment, talk (10 AP, once a month), special training (20 AP), practice match |
-| System | save/load, options, years until the Final Series, how CPU shows are shown |
+| Staff → Roster | **Tryout** (1-99 AP), **Scouting** (50 AP a region), **Transfers**, **Book Guest**, Release, Retirement (urge one to retire), Tour Abroad (5 AP per wrestler per month), Vacate Title |
+| Staff → Coaches | Hire Coach (100 AP), Dismiss Coach |
+| Business | Partnership and End Partnership, Expand Facilities and Sell Facilities, Create Belt, Campaigns (advertising), Events (Autographs 50 AP, Concert 100 AP), Invade, Vacation (30 AP per eligible wrestler) |
+| Info | Promotion Data, History, Roster, Rankings, Belts, Influence Map, Other Promotions (free) |
+| Gym | Coaching (Individual, Group, Special 20 AP), Coaches (assignments), Talk (10 AP, once per wrestler a month), Sparring (practice match), Office |
+| End Month | book the month's shows |
+| START on the main menu | the system menu: Save, Load, Options, Change Years, Watch CPU, Quit Game (*code* 0x2fb83c, 0x2f54ac; not yet seen in game) |
 
 Other costs: a present on a wrestler's 20th birthday 10 AP, returning White Day gifts 10 AP
 each (*text* 0x4f65c8, 0x4f0be0).
@@ -91,7 +93,7 @@ each (*text* 0x4f65c8, 0x4f0be0).
 ### 1.4 The Final Series - the goal
 *From the code* (0x21ad34, 0x20a770-0x20a8c0, 0x25e598) *and text* (0x4f8c60-0x4f9468).
 - Held in **March**. You choose the years until the first one at New Game (default 5) and can
-  change it in System until that year; afterwards it comes back **every 4 years**.
+  change it with Change Years in the system menu until that year; afterwards it comes back **every 4 years**.
 - Three divisions (openweight singles, openweight tag, junior singles), one wrestler per
   division, four days: three league days, then the finals. Points are summed per promotion.
 - Accepting the early invitation pays **300 AP**; you cannot hold your own shows that month.

@@ -103,6 +103,7 @@ the game's formats.
 | [docs/PLATFORM.md](docs/PLATFORM.md) | PS2 pitfalls for this kind of work |
 | [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md) | Unlockables, debug features, and unused and cut content |
 | [Player's guide](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/guide/) | The player's guide: matches, management, roster, moves, secrets (source: [docs/guide/](docs/guide/); its data comes from tools/guidedata.py) |
+| [docs/MATCHES.md](docs/MATCHES.md) | How matches work, from the code: cards, exchanges, reversals, damage, pins and submissions, skills, the CPU |
 | [docs/MANAGEMENT.md](docs/MANAGEMENT.md) | How management mode works: money, shows, recruitment, training, events |
 | [Event timeline](https://kactusken.github.io/Wrestle-Angels-Survivor-2-English/timeline/) | Interactive event timeline: what can happen each month and what unlocks it (source: [docs/timeline/](docs/timeline/)) |
 | [tools/README.md](tools/README.md) | Every tool, what it's for and how to run it |
