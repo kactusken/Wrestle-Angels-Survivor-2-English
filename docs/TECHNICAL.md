@@ -673,6 +673,15 @@ drawn; "show all" sets it to 0x96 (0x232ec0, 0x232f34). The English build raises
 0x60 and "show all" to 0x7fff (tools/font.py MESSAGE_BOX).
 
 ### The executable's text
+- Speaker tags in the executable (cause inferred from the player's screenshot "residen" and the original bytes, 2026-11-10; the fix is not yet play-tested): the tag drawer drops the first
+  and last two bytes of the string as the 【 】 brackets, so the English must keep real two-byte
+  【 】 (`【President】`, 0x4f6568); `[President]` was drawn as "residen".
+- `%タイトル` in the belt-won / belt-captured messages (0x4c36f8, 0x4c3760) is not a control code:
+  the original's formatter swallows the stray `%` and prints the Japanese word "title" (the belt
+  name is not inserted). English: plain "the title!". A `%` followed by Latin text would be read as a
+  format specifier (`%t` is a length modifier), so never leave one in English.
+- Move id 0 (0x4ff880, "ダミー技") is the placeholder entry the card list can show; records.py
+  starts at id 1, so it is translated in exe.csv ("Dummy Move"), not moves.csv.
 - Strings reached through pointer tables or lui/addiu pairs: `translation/text/exe.csv`
   (tools/exetext.py) - about 4,670, of which 55 can only be changed in place.
 - The compiler often puts the `lui` in a branch delay slot and the `addiu` after the branch

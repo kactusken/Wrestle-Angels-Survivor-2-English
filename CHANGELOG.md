@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.3 (beta)
+Three fixes from a play-test report:
+- Winning a belt said "has won the タイトル!" (and "captured the タイトル!" for a successful
+  challenge): the English kept a stray Japanese word. Both now say "the title!".
+- The speaker tag on the vacation scenes (and other messages from the president) read "residen":
+  the game strips the first and last two bytes of a tag as its 【 】 brackets, and the English had
+  one-byte brackets, so it cut "P" and "t". The tag now uses the game's own brackets.
+- The match card list had an untranslated entry, "ダミー技", under To Center Ring. It is the
+  game's placeholder move (id 0) and now reads "Dummy Move".
+
 ## v0.2 (beta)
 - Text that was still in Japanese, found through a player report and an audit of the executable:
   the rival promotions' monthly reports (scouting attempts, autograph sessions, TV ads, ad truck,

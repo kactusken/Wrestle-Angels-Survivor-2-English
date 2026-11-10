@@ -29,7 +29,7 @@ import paths  # noqa: E402
 import textdb  # noqa: E402
 
 SOURCE_CHARS = re.compile(r'[぀-ヿ㐀-䶿一-鿿ｦ-ﾟ]')
-CODE = re.compile(r'%chr|%タイトル|《[^》]*》|\\c\(\d*\)|%[-0-9.]*[sdx]')  # the game's control codes (scripts: tools/scr.py)
+CODE = re.compile(r'%chr|《[^》]*》|\\c\(\d*\)|%[-0-9.]*[sdx]')  # the game's control codes (scripts: tools/scr.py)
 
 
 def encoded_length(text):

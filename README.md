@@ -16,7 +16,7 @@ so English reads naturally and fits the game's boxes.
 > work (with an exchange calculator), how to run a promotion through to the Final Series, and has
 > all 242 wrestlers and 223 moves, with search.
 
-> **Status: public beta (v0.2).** All dialogue, menus and text pictures are translated and
+> **Status: public beta (v0.3).** All dialogue, menus and text pictures are translated and
 > the game has been played in English, but not every story path, event or late-game screen has
 > been seen yet. Please report anything cut off, overlapping or still in Japanese
 > ([how to report](#reporting-problems)). [CHANGELOG.md](CHANGELOG.md) lists what's in each
