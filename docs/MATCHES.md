@@ -715,7 +715,7 @@ All from the code of both games unless marked.
 - **Globals**: ring position 0x59e7d8; down bits 0x59e7dc; Pin / Return / Tag requests 0x59e7e0 /
   0x59e7e8 / 0x59e7f0; control mode 0x59e7f8; pad 0x59e800; tag partner 0x59e808 / 0x59e810.
 - **Debug cheat words** 0x101bba8-0x101bbb8 (reversals, red's turn, cuts, card priority, give-up/KO).
-- **Moves** 0x4ff880 + id × 0x108 (id 0 dummy, 223 moves): +0x54 type, +0x58/+0x5c reversals, +0x8c
+- **Moves** 0x4ff880 + id × 0x108 (id 0 dummy - see PATCHES.md "Bug fixes", 223 moves): +0x54 type, +0x58/+0x5c reversals, +0x8c
   limb, +0x90/+0x94 level range, +0x98 damage per level, +0xe0/+0xe4 standing/down modifier, +0xe8
   pin type, +0xec bleed %, +0xf0 position effect, +0xf4 where usable, +0xf8/+0xfc Killer G/S.
   Ids 163-185 are system moves (Keep Distance, To Center Ring, cradles, weapons, Take the Hit,

@@ -680,8 +680,9 @@ drawn; "show all" sets it to 0x96 (0x232ec0, 0x232f34). The English build raises
   the original's formatter swallows the stray `%` and prints the Japanese word "title" (the belt
   name is not inserted). English: plain "the title!". A `%` followed by Latin text would be read as a
   format specifier (`%t` is a length modifier), so never leave one in English.
-- Move id 0 (0x4ff880, "ダミー技") is the placeholder entry the card list can show; records.py
-  starts at id 1, so it is translated in exe.csv ("Dummy Move"), not moves.csv.
+- Move id 0 (0x4ff880, "ダミー技") is a placeholder. A real move was shown under its name by an
+  original-game bug (docs/PATCHES.md "Bug fixes"); it is translated in exe.csv ("Dummy Move")
+  because records.py starts at id 1.
 - Strings reached through pointer tables or lui/addiu pairs: `translation/text/exe.csv`
   (tools/exetext.py) - about 4,670, of which 55 can only be changed in place.
 - The compiler often puts the `lui` in a branch delay slot and the `addiu` after the branch

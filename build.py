@@ -9,7 +9,8 @@ Steps (default folders shown; move any of them with the folder options - see --h
   2. prepare build/NAME: a fresh copy of the original, or - much faster for big images - the last
      build with every range it wrote restored from the original (tools/image.py; --clean copies)
   3. text: translation/script/ and translation/text/ into the game's files (TEXT_STEPS)
-  4. code patches picked by --unlocks (CODE_PATCHES, tools/codepatch.py)
+  4. code patches: the original game's bug fixes (BUG_FIXES, with the translation) and the
+     groups picked by --unlocks (CODE_PATCHES, tools/codepatch.py)
   5. images: for every catalogued image the English file the catalogue picks (hand-made >
      approved > rendered), imported by tools/gfx.py; the final set is copied to review/images-english/
   6. write every changed file back into the image (files that fit in place first), then the
@@ -63,6 +64,17 @@ CODE_PATCHES = [
     ('debug-menu', '/SLPM_550.56', 0x20bc70, 0x26040090, 0x00000000, None),
 ]
 UNLOCK_GROUPS = sorted({p[0] for p in CODE_PATCHES})
+
+# Fixes for bugs in the original game, part of every translated build (not --no-translation).
+# docs/PATCHES.md "Bug fixes" has the details.
+BUG_FIXES = [
+    # A new wrestler gets only the moves she can already use, packed into slots 0, 1, 2...; the
+    # loop at 0x23f320 stores each move's id in its packed slot but copies the name of the move id
+    # in her *unpacked* slot (s7 x 0x2c), still empty after a skipped move: id 0, "ダミー技". Read
+    # the packed slot instead (s4).
+    ('fix', '/SLPM_550.56', 0x23f408, 0x02f61818, 0x0280182d,
+     'Fix: new wrestlers\' moves after a skipped one keep their own name'),  # mult v1,s7,s6 -> move v1,s4
+]
 # Groups named debug-* change how the game plays or starts: only when named, never in "all".
 PLAYER_GROUPS = sorted(g for g in UNLOCK_GROUPS if not g.startswith('debug-'))
 
@@ -220,6 +232,8 @@ def main(argv=None):
                     continue
                 step(paths.TRANSLATION / rel, files)
 
+        if not args.no_translation:
+            codepatch.apply(files, BUG_FIXES, {'fix'}, to_offset)
         codepatch.apply(files, CODE_PATCHES, args.unlocks, to_offset)
 
         if not args.no_translation:

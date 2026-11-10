@@ -8,6 +8,28 @@ The gameplay patches are groups picked with `build.py --unlocks`. `all`, the def
 group except `debug-*`, which change how the game starts or plays and are only applied when named.
 The code behind each one is in [HIDDEN_CONTENT.md](HIDDEN_CONTENT.md).
 
+## Bug fixes (every translated build)
+`build.py` BUG_FIXES, applied with the translation (not with `--no-translation`, so the control
+build and the "(Japan)" patch keep the original code).
+
+### Moves named "ダミー技" (Dummy Move)
+*From the code; simulated* (2026-11-10); *not yet verified in game*. When a game starts (0x234c00
+-> 0x23f0d8), each wrestler gets the moves of her roster list whose level is at most her grade in
+that type (0x23b5d8), packed into slots 0, 1, 2... of each group (wrestler +0x48 + group x 0x108 +
+slot x 0x2c: 0x20-byte name, +0x20 id, +0x24 level). The loop at 0x23f358 writes the id and level
+to the packed slot, but takes the name from the move whose id is in her *unpacked* slot (roster
+index x 0x2c, `mult v1,s7,s6` at 0x23f408). After a skipped (higher-level) move that slot is still
+empty, so the move gets move 0's name, "ダミー技". The move itself (id, level, effect) is right: in
+the play-test report Miyuki Sanada's Take the Hit (level 4, after the skipped level-5 Reverse Pin)
+was listed as "ダミー技 4".
+
+The fix reads the packed slot: 0x23f408 `mult v1,s7,s6` -> `move v1,s4`. A simulation of the real
+loop over all 242 records and level limits 0-9 (76,308 copies) gives 50 wrong names in the
+original and none patched. 34 records have a list where a higher-level move comes before a lower
+one. Names are stored in the save, so only games started with the fix are corrected; in older
+saves the affected moves keep the label (they still work). Moves learned later in training were
+always named correctly (0x237d08).
+
 ## Gallery (`gallery`)
 *From the code;* *verified in game* (2026-10-19): every page filled, and the save's own gallery
 progress is unchanged without the patch. The gallery asks isSeen(i) (0x2212b0) for each CG: bit

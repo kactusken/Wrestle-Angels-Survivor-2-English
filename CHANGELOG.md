@@ -1,14 +1,17 @@
 # Changelog
 
 ## v0.3 (beta)
-Three fixes from a play-test report:
+Fixes from a play-test report:
 - Winning a belt said "has won the タイトル!" (and "captured the タイトル!" for a successful
   challenge): the English kept a stray Japanese word. Both now say "the title!".
 - The speaker tag on the vacation scenes (and other messages from the president) read "residen":
   the game strips the first and last two bytes of a tag as its 【 】 brackets, and the English had
   one-byte brackets, so it cut "P" and "t". The tag now uses the game's own brackets.
-- The match card list had an untranslated entry, "ダミー技", under To Center Ring. It is the
-  game's placeholder move (id 0) and now reads "Dummy Move".
+- A bug in the original game (also in the Japanese release): at the start of a game, a
+  wrestler's move that came after a higher-level move she hadn't learned yet was named "ダミー技"
+  ("dummy move"), e.g. Miyuki Sanada's Take the Hit in the Other card list. The move itself always
+  worked. Fixed in the code; the names are kept in the save, so only games started with v0.3 show
+  the right names.
 
 ## v0.2 (beta)
 - Text that was still in Japanese, found through a player report and an audit of the executable:
