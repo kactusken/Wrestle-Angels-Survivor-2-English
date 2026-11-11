@@ -677,8 +677,9 @@ drawn; "show all" sets it to 0x96 (0x232ec0, 0x232f34). The English build raises
   and last two bytes of the string as the 【 】 brackets, so the English must keep real two-byte
   【 】 (`【President】`, 0x4f6568); `[President]` was drawn as "residen".
 - `%タイトル` in the belt-won / belt-captured messages (0x4c36f8, 0x4c3760) is not a control code:
-  the original's formatter swallows the stray `%` and prints the Japanese word "title" (the belt
-  name is not inserted). English: plain "the title!". A `%` followed by Latin text would be read as a
+  the original's formatter swallows the stray `%` and prints the Japanese word "title". No belt
+  name was meant: the caller (0x26e2a4, message table 0x3a7d48 entries 13 / 15) passes only the
+  wrestler's name to 0x21cf00. English: plain "the title!". A `%` followed by Latin text would be read as a
   format specifier (`%t` is a length modifier), so never leave one in English.
 - Move id 0 (0x4ff880, "ダミー技") is a placeholder. A real move was shown under its name by an
   original-game bug (docs/PATCHES.md "Bug fixes"); it is translated in exe.csv ("Dummy Move")
