@@ -12,6 +12,15 @@ Fixes from a play-test report:
   ("dummy move"), e.g. Miyuki Sanada's Take the Hit in the Other card list. The move itself always
   worked. Fixed in the code; the names are kept in the save, so only games started with v0.3 show
   the right names.
+- The training list's first column header read "ining 3 | Trai" instead of "Training 1": a
+  longer English string overwrote the header's position in the executable. The tool that places
+  the executable's text no longer counts the next object's zeros as free space; ten other strings
+  moved out of the way for the same reason.
+- The save and load slots showed "選手 3名" after the AP; they now read "Wr. 3".
+- The green badge for a wrestler booked for a TV ad still had its Japanese mark; it now reads "Ad".
+- Text pictures re-lettered so every letter stays inside the part of the picture the game draws
+  (pieces were cut off or spilled into the next button on some menus, banners and cards), and the
+  ring names under the portraits redrawn in a pixel font.
 
 ## v0.2 (beta)
 - Text that was still in Japanese, found through a player report and an audit of the executable:

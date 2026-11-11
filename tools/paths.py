@@ -40,6 +40,10 @@ PLATFORM = 'PS2'
 ORIGINAL_NAME = 'Wrestle Angels Survivor 2 (Japan).iso'              # the original image, as dumped (Redump name)
 SERIAL = 'SLPM-55056'                               # e.g. SLPM-65602 (SYSTEM.CNF): release notes, submissions
 # The original the patches apply to (make_patches.py and build.py check it)
+# The AI disclosure for README.txt, the release notes and submissions (the README's AI Disclosure
+# section says the same). make_patches.py won't make a release without it.
+AI_DISCLOSURE = ('AI assisted with reverse-engineering the game\'s text routines and with the translation '
+                 '(Claude); the author edited and play-tested it.')
 ORIGINAL = {'size': 4074340352, 'crc32': '275d9e6f', 'md5': '8432744a65e4064cdfc117d77e95131b', 'sha1': 'ea5d4f86102205b885e15a09b5e4d4318d839136'}
 
 FOLDER_HELP = '''folder options (defaults are relative to --root, which defaults to the project folder):

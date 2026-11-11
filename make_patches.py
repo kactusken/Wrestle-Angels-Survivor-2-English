@@ -91,6 +91,9 @@ def main(argv=None):
         sys.exit(f'{rom} is not the expected original:\n  got      {source}\n  expected {paths.ORIGINAL}\n'
                  '(--any-rom makes patches for it anyway)')
 
+    if args.version != 'dev' and not paths.AI_DISCLOSURE.strip():
+        sys.exit('tools/paths.py AI_DISCLOSURE is empty: set a short line such as '
+                 '"AI assisted with the translation."')
     changelog = ROOT / 'CHANGELOG.md'
     if args.version != 'dev' and changelog.exists() and f'## {args.version}' not in changelog.read_text(encoding='utf-8'):
         print(f'note: CHANGELOG.md has no "## {args.version}" section yet')
@@ -122,6 +125,8 @@ def main(argv=None):
         notes += (f'\n{name}.xdelta\n{textwrap.fill(description, 78, initial_indent="  ", subsequent_indent="  ")}\n'
                   f'  Result: {target["size"]} bytes, CRC32 {target["crc32"]}, SHA-1 {target["sha1"]}\n')
 
+    if paths.AI_DISCLOSURE.strip():
+        notes += '\nAI disclosure\n-------------\n' + textwrap.fill(paths.AI_DISCLOSURE.strip(), 78) + '\n'
     notes += '\nLegal\n-----\n' + textwrap.fill(LEGAL.format(game=paths.GAME), 78) + '\n'
     (out / 'README.txt').write_text(f'{title}\n\n{notes}', encoding='utf-8', newline='\r\n')
     zip_path = paths.RELEASE / f'{base}.zip'
