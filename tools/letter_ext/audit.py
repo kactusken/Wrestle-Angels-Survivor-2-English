@@ -23,6 +23,13 @@ labels on buttons:
   rotate    'cw' / 'ccw': vertical text, letters turned 90 degrees clockwise (read top to
             bottom) / anticlockwise (read bottom to top)
   shadow    {'offset': [dx, dy], 'index': n}: a drop shadow in palette index n
+  ground_with_fill  true: 'rows' counts the fill indices too (letters on a plate of the same
+            colours, e.g. a gradient plate)
+  ring_squash  n: vertical distances count n times for the ring (it reaches 1/n as far above and
+            below the letters as beside them)
+  paint     [[x, y, w, h, index(, grain)]]: areas set to one index after the ground (left-over
+            bits of the old letters outside the boxes); with `grain`, pixels that are an isolated
+            `grain` among `index` in the original keep it (a plate's texture)
   clear     more [x, y, w, h] areas cleared like the boxes, or [x, y, w, h, dx, dy] copied from
             the original at +dx, +dy (patching letters that reach into a plate);  cap, font, align, upper, pad as in
             letter.py
@@ -42,7 +49,9 @@ def ground_fill(im, out, box, spec, limit, pal):
         cols = spec.get('ground_cols') or range(x0, x1)
         if cols == 'edges':
             cols = [c for c in (x0 - 2, x0 - 1, x1, x1 + 1) if 0 <= c < im.width]
-        skip = set(spec['fill']) | set(spec.get('ground_skip', []))
+        skip = set(spec.get('ground_skip', []))
+        if not spec.get('ground_with_fill'):
+            skip |= set(spec['fill'])
         for j in range(y0, y1):
             got = Counter(src[c, j] for c in cols if src[c, j] not in skip)
             idx = got.most_common(1)[0][0] if got else spec.get('ground_default', src[cols[0], j])
@@ -92,6 +101,21 @@ def ground_fill(im, out, box, spec, limit, pal):
         letter.clear(out, pal, (x0, y0, x1 - x0, y1 - y0), mode, limit)
 
 
+def squashed(mask, w, h, reach, sy):
+    """letter.distances() with vertical distances counted `sy` times: a ring reaching less far
+    above and below the letters than beside them (a glow that has to stay inside a short sprite)"""
+    import math
+    pts = [(x, y) for y in range(h) for x in range(w) if mask[y][x]]
+    out = [[reach] * w for _ in range(h)]
+    for x, y in pts:
+        for yy in range(max(0, y - reach), min(h, y + reach + 1)):
+            for xx in range(max(0, x - reach), min(w, x + reach + 1)):
+                d = math.hypot(xx - x, (yy - y) * sy)
+                if d < out[yy][xx]:
+                    out[yy][xx] = d
+    return out
+
+
 def learn(im, boxes, fills, reach):
     """(ring: {distance step: index}, gradient: [(rel height, index)], flat fill index)"""
     px = im.load()
@@ -136,6 +160,13 @@ def draw(name, im, out, pal, texts, boxes, spec):
             ground_fill(im, out, box[:4], {**spec, 'ground': 'copy', 'ground_off': box[4:], 'pad': 0}, limit, pal)
         else:
             ground_fill(im, out, box, spec, limit, pal)
+    for x, y, w, h, idx, *grain in spec.get('paint', []):
+        src, dst = im.load(), out.load()
+        for j in range(y, y + h):
+            for i in range(x, x + w):
+                g = grain and src[i, j] == grain[0] and all(
+                    src[i + a, j + b] == idx for a in (-1, 0, 1) for b in (-1, 0, 1) if a or b)
+                dst[i, j] = grain[0] if g else idx
     r = int(reach)
     inner = [(w - 2 * r, h - 2 * r) for _, _, w, h in boxes]
     cap = spec.get('cap') or 10
@@ -175,6 +206,8 @@ def draw(name, im, out, pal, texts, boxes, spec):
         ink = [j for j in range(h) if any(full[j])]
         top, bot = (ink[0], ink[-1]) if ink else (0, h)
         dist = letter.distances(full, w, h, max(8, int(reach) + 2))
+        if spec.get('ring_squash'):
+            dist = squashed(full, w, h, max(8, int(reach) + 2), spec['ring_squash'])
         if spec.get('shadow'):      # drop shadow: {'offset': [dx, dy], 'index': palette index}
             (sx, sy), sidx = spec['shadow']['offset'], spec['shadow']['index']
             for j in range(h):

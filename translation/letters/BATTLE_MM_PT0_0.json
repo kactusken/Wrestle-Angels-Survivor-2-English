@@ -1,13 +1,120 @@
 {
  "english": "Lead | 2nd | Mid | Vice | Capt | Hurt | Hurt | Entered",
- "boxes": [[129, 203, 30, 25], [161, 203, 30, 25], [193, 203, 30, 25], [225, 203, 30, 25], [257, 203, 30, 25],
-           [97, 235, 30, 18], [128, 232, 32, 24], [11, 222, 41, 16]],
+ "boxes": [
+  [
+   130,
+   204,
+   28,
+   23
+  ],
+  [
+   162,
+   204,
+   28,
+   23
+  ],
+  [
+   194,
+   204,
+   28,
+   23
+  ],
+  [
+   226,
+   204,
+   28,
+   23
+  ],
+  [
+   258,
+   204,
+   28,
+   23
+  ],
+  [
+   97,
+   235,
+   30,
+   18
+  ],
+  [
+   128,
+   232,
+   32,
+   24
+  ],
+  [
+   11,
+   222,
+   41,
+   16
+  ]
+ ],
  "font": "BarlowCondensed-Bold.ttf",
  "groups": [
-  {"labels": [0, 1, 2, 3, 4], "draw": "battle.draw", "fill": "colour", "ground": "transparent", "cap": 13},
-  {"labels": [5], "draw": "battle.draw", "fill": "colour", "ground": "transparent", "cap": 10},
-  {"labels": [6], "draw": "battle.draw", "fill": [179, 200, 196, 205, 216, 225, 228, 230, 231, 221, 190, 184, 174, 167, 158], "ground": "transparent", "cap": 10},
-  {"labels": [7], "fill": "bright", "ground": "interpolate", "reach": 1, "font": "BarlowSemiCondensed-Bold.ttf"}
+  {
+   "labels": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "draw": "battle.draw",
+   "fill": "colour",
+   "ground": "transparent",
+   "cap": 14,
+   "reach": 3,
+   "squeeze_min": 0.66,
+   "grad": "group",
+   "squeeze_floor": 0.66
+  },
+  {
+   "labels": [
+    5
+   ],
+   "draw": "battle.draw",
+   "fill": "colour",
+   "ground": "transparent",
+   "cap": 12,
+   "reach": 3,
+   "squeeze_min": 0.66
+  },
+  {
+   "labels": [
+    6
+   ],
+   "draw": "battle.draw",
+   "fill": [
+    179,
+    200,
+    196,
+    205,
+    216,
+    225,
+    228,
+    230,
+    231,
+    221,
+    190,
+    184,
+    174,
+    167,
+    158
+   ],
+   "ground": "transparent",
+   "cap": 13,
+   "squeeze_min": 0.66
+  },
+  {
+   "labels": [
+    7
+   ],
+   "fill": "bright",
+   "ground": "interpolate",
+   "reach": 1,
+   "font": "BarlowSemiCondensed-Bold.ttf"
+  }
  ],
- "notes": "team order tags for team matches (先鋒 Lead, 次鋒 2nd, 中堅 Mid, 副将 Vice, 大将 Capt), ケガ Hurt (plain + glowing), 出場 Entered"
+ "notes": "team order tags for team matches (\u5148\u92d2 Lead, \u6b21\u92d2 2nd, \u4e2d\u5805 Mid, \u526f\u5c06 Vice, \u5927\u5c06 Capt), \u30b1\u30ac Hurt (plain + glowing), \u51fa\u5834 Entered"
 }

@@ -2,16 +2,16 @@
  "english": "Hire Coach | Dismiss Coach",
  "boxes": [
   [
+   2,
    0,
-   0,
-   112,
-   24
+   108,
+   23
   ],
   [
-   0,
+   2,
    24,
-   112,
-   25
+   108,
+   23
   ]
  ],
  "fill": [
@@ -23,8 +23,17 @@
   [
    0,
    0,
-   256,
-   49
+   144,
+   24
+  ],
+  [
+   0,
+   24,
+   144,
+   24
   ]
- ]
+ ],
+ "cap": 13,
+ "reach": 3.0,
+ "notes": "reassess/menus gen.py: boxes = cell rows 0..-1, widened to 2 px from the cell edges, cells cleared, cap 13"
 }

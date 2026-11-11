@@ -9,15 +9,15 @@
   ],
   [
    276,
-   27,
+   26,
    41,
-   17
+   19
   ],
   [
-   363,
-   27,
-   84,
-   17
+   365,
+   26,
+   82,
+   19
   ],
   [
    31,
@@ -155,19 +155,15 @@
    ],
    "fill": "bright",
    "ground": "interpolate",
-   "reach": 3,
-   "cap": 10,
+   "reach": 1.5,
+   "cap": 12,
    "patches": [
     [
      276,
      27,
      41,
      17,
-     "heal",
-     [
-      32,
-      37
-     ],
+     "inpaint",
      {
       "bmin": 90
      }
@@ -201,7 +197,7 @@
    ],
    "ground": "interpolate",
    "reach": 2,
-   "cap": 12,
+   "cap": 14,
    "patches": [
     [
      31,
@@ -276,11 +272,8 @@
     9,
     10
    ],
-   "fill": "bright",
-   "ground": "interpolate",
-   "reach": 2,
-   "cap": 12,
-   "patches": [
+   "draw": "plates.draw",
+   "status_patches": [
     [
      182,
      93,
@@ -297,6 +290,26 @@
      "copy",
      -295,
      0
+    ]
+   ],
+   "plate": "keep",
+   "cap": 12,
+   "margin": 5,
+   "squeeze_min": 0.85,
+   "ramp": [
+    [
+     0.5,
+     246
+    ],
+    [
+     0.28,
+     215
+    ]
+   ],
+   "ring": [
+    [
+     1.45,
+     27
     ]
    ]
   }

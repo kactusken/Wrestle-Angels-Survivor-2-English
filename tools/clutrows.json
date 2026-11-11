@@ -2579,18 +2579,6 @@
   {
    "rect": [
     336,
-    120,
-    144,
-    40
-   ],
-   "row": 3,
-   "note": "third value column (Normal/Finishers/Hidden)",
-   "evidence": "0x21ed78: csa 3, uv (336,80+40k)",
-   "confidence": "verified"
-  },
-  {
-   "rect": [
-    336,
     160,
     144,
     40

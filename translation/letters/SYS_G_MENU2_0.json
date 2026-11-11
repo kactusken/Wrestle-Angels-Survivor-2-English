@@ -2,52 +2,52 @@
  "english": "Develop Style | Build Basics | All Offense | All Defense | Move Types | Fix Weakness | Vacation | Moves",
  "boxes": [
   [
-   3,
+   2,
    0,
-   122,
-   24
+   124,
+   23
   ],
   [
-   13,
+   2,
    24,
-   102,
-   24
+   124,
+   23
   ],
   [
-   23,
+   3,
    48,
-   83,
-   24
+   123,
+   23
   ],
   [
-   23,
+   3,
    72,
-   83,
-   24
+   123,
+   23
   ],
   [
-   4,
+   3,
    96,
-   121,
-   24
+   123,
+   23
   ],
   [
-   23,
+   2,
    120,
-   82,
-   24
+   124,
+   23
   ],
   [
-   33,
+   3,
    144,
-   63,
-   24
+   123,
+   23
   ],
   [
-   33,
+   3,
    168,
-   63,
-   24
+   123,
+   23
   ]
  ],
  "fill": [
@@ -60,8 +60,52 @@
    0,
    0,
    128,
-   192
+   24
+  ],
+  [
+   0,
+   24,
+   128,
+   24
+  ],
+  [
+   0,
+   48,
+   128,
+   24
+  ],
+  [
+   0,
+   72,
+   128,
+   24
+  ],
+  [
+   0,
+   96,
+   128,
+   24
+  ],
+  [
+   0,
+   120,
+   128,
+   24
+  ],
+  [
+   0,
+   144,
+   128,
+   24
+  ],
+  [
+   0,
+   168,
+   128,
+   24
   ]
  ],
- "notes": "\u6280 'Moves': box widened from the glyph's 24 px to 63 px (\u4f11\u6687's width, centred on the same row); the only label outside its Japanese box"
+ "notes": "reassess/menus gen.py: boxes = cell rows 0..-1, widened to 2 px from the cell edges, cells cleared, cap 13",
+ "cap": 13,
+ "reach": 3.0
 }

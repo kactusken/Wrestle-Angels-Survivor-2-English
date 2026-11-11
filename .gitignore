@@ -23,6 +23,7 @@
 /translation/images-rendered/
 /translation/images-approved/
 /translation/images-handmade/
+/translation/images-candidates/
 /translation/art-sources/
 *.png
 *.psd

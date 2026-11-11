@@ -22,10 +22,10 @@
  "boxes": [
   [
    428,
-   200,
+   197,
    186,
-   40
+   37
   ]
  ],
- "notes": "gym banner \u7df4\u7fd2\u4e2d: gradient fill, outline and glow learnt from the original (tools/letter_ext/office.py styled); the stripe under the old lettering is rebuilt by row interpolation"
+ "notes": "gym banner 練習中: gradient fill, outline and glow learnt from the original (tools/letter_ext/office.py styled); the stripe under the old lettering is rebuilt by row interpolation"
 }

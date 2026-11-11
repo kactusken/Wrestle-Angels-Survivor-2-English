@@ -21,6 +21,13 @@ draw() is letter.draw_group() with these additions, set in the spec (or a group)
   ground    as in letter.py, or 'clone': the box is refilled with the original picture shifted by
             'clone': [dx, dy] (the art beside the label, instead of letter.py's smeared rows);
             'column': each column of the box takes its most common index in 'sample_rows'
+  place     (opt-in) one [x, y, w, h] per label: the English is fitted and drawn there instead of
+            in the label's box; the box still gives the style learnt and the area cleared (e.g. a
+            tile half covered on screen: learn from the whole letter, write in the visible part)
+  own_cap   (opt-in) true: each label at the largest size that fits its own box (not the group's
+            smallest); a list: also at most this cap per label
+  squeeze_floor  (opt-in) narrowest horizontal squeeze before the size drops (letter.SQUEEZE_MIN
+            otherwise)
 """
 from collections import Counter
 
@@ -195,11 +202,26 @@ def draw(name, im, out, pal, texts, boxes, spec):
     else:
         grads = [gradient(rows, None if spec.get('pick') == 'common' else pal) for rows in learnt]
     clear_all(im, out, pal, boxes, spec)
+    if spec.get('place'):
+        boxes = [tuple(b) for b in spec['place']]
+    floor = letter.SQUEEZE_MIN
+    if 'squeeze_floor' in spec:
+        letter.SQUEEZE_MIN = spec['squeeze_floor']
+    try:
+        return _draw_text(name, im, out, pal, texts, boxes, spec, rim, reach, ink_h, grads, fills, flat,
+                          table if rows_mode else None, style, rows_mode, dir_mode, trans if rows_mode else None)
+    finally:
+        letter.SQUEEZE_MIN = floor
+
+
+def _draw_text(name, im, out, pal, texts, boxes, spec, rim, reach, ink_h, grads, fills, flat, table, style,
+               rows_mode, dir_mode, trans):
     slant = spec.get('slant', 0)
     rim_y = spec.get('rim_y', rim)
     inner = [(int(w - 2 * rim), int(h - 2 * rim_y)) for _, _, w, h in boxes]
     cap = spec.get('cap') or round(ink_h * 0.8)
     rot = spec.get('rotate', 0)
+    top_cap, fit = cap, []
     for text, (iw, ih) in zip(texts, inner):
         if rot:
             iw, ih = ih, iw
@@ -208,12 +230,16 @@ def draw(name, im, out, pal, texts, boxes, spec):
             if got is None:
                 raise SystemExit(f'letter: {name}: {text!r} does not fit {iw}x{ih}')
             cap = min(cap, got[1])
+            fit.append(got[1])
     notes = []
     px = out.load()
     r, ry = int(rim), int(rim_y)
+    caps = iter(fit)
     for n, (box, text, (iw, ih)) in enumerate(zip(boxes, texts, inner)):
         if text == '=':
             continue
+        if spec.get('own_cap'):
+            cap = min(top_cap, next(caps), *([spec['own_cap'][n]] if isinstance(spec['own_cap'], list) else []))
         x, y, w, h = box
         full = [[False] * w for _ in range(h)]
         if rot:

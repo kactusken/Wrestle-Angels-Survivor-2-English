@@ -19,5 +19,43 @@
  "font": "BarlowSemiCondensed-Bold.ttf",
  "pad": 2,
  "reach": 2.5,
- "align": "left"
+ "align": "left",
+ "draw": "officeue.draw",
+ "cap": 16,
+ "glow": 2.5,
+ "areas": [
+  [
+   24,
+   150,
+   58,
+   30
+  ],
+  [
+   126,
+   150,
+   40,
+   30,
+   150
+  ]
+ ],
+ "fill_rgb": [
+  248,
+  248,
+  248
+ ],
+ "edge": [
+  64,
+  72,
+  72
+ ],
+ "shade": [
+  0,
+  8,
+  8
+ ],
+ "strip": [
+  80,
+  124
+ ],
+ "grow": 1
 }

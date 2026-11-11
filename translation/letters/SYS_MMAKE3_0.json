@@ -1,16 +1,16 @@
 {
- "english": "Management | Special Match | Team Battle | Open League | Load | One-Night Tournament | Gallery | Options | Management | Special Match | Team Battle | Open League | Load | One-Night Tournament | Gallery | Options",
+ "english": "Management | Special Match | Team Battle | Open League | Load | One-Night Tourney | Gallery | Options | Management | Special Match | Team Battle | Open League | Load | One-Night Tourney | Gallery | Options",
  "boxes": [
   [
-   529,
-   177,
-   143,
+   530,
+   176,
+   141,
    48
   ],
   [
-   673,
+   675,
    177,
-   144,
+   141,
    48
   ],
   [
@@ -21,7 +21,7 @@
   ],
   [
    530,
-   273,
+   272,
    174,
    48
   ],
@@ -32,9 +32,9 @@
    48
   ],
   [
-   2,
+   3,
    368,
-   190,
+   186,
    48
   ],
   [
@@ -50,15 +50,15 @@
    48
   ],
   [
-   529,
-   225,
-   143,
+   530,
+   224,
+   141,
    48
   ],
   [
-   673,
+   675,
    225,
-   144,
+   141,
    48
   ],
   [
@@ -69,7 +69,7 @@
   ],
   [
    530,
-   321,
+   320,
    174,
    48
   ],
@@ -80,9 +80,9 @@
    48
   ],
   [
-   2,
+   3,
    416,
-   190,
+   186,
    48
   ],
   [
@@ -502,7 +502,8 @@
       16
      ]
     ]
-   }
+   },
+   "dy": -1.5
   },
   {
    "labels": [
@@ -602,5 +603,5 @@
   }
  ],
  "same_size": true,
- "notes": "mode select: 8 items, bright (red-yellow gradient) and dim copies; bevelled plate rebuilt around the English as rings (tools/letter_ext/system.py)"
+ "notes": "mode select: 8 items, bright (red-yellow gradient) and dim copies; bevelled plate rebuilt around the English as rings (tools/letter_ext/system.py); reassess 2026-11-11: boxes 0/8 (Management), 1/9 (Special Match), 5/13 (One-Night) narrowed to the original plate width (1 px clear on the right), 0/8 and 3/11 (Open League) moved up 1 px, dim Open League group dy -1.5: no split at y 319/320 and no flat edges; then tools/bounds.py --clip"
 }

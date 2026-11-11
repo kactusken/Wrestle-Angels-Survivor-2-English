@@ -243,8 +243,14 @@ def draw_icons(name, im, out, pal, texts, boxes, spec):
     kanji is whatever differs from that by `contrast` or more. The English is drawn in the kanji's
     main index with a 4-neighbour ring in its outline index (the most common kanji index on the
     other side of the background). spec 'overrides': {english: {fill, ring, bg}} for icons where
-    that guess is wrong (bg: a flat background index)."""
+    that guess is wrong (bg: a flat background index).
+    Opt-in 'game_colours': true - the indices are not a ramp in the game: each icon is drawn in its
+    own CLUT row (tools/clutrows.json), where greys and the icon's colour alternate. With this key the
+    background is rebuilt in those colours (Laplace fill in RGB, each pixel snapped to the nearest
+    colour of the icon's row) instead of on index numbers, which turned coloured ovals grey."""
     from collections import Counter
+    if spec.get('game_colours'):
+        return _draw_icons_rgb(name, im, out, pal, texts, boxes, spec)
     margin, contrast, cap = spec.get('margin', 2), spec.get('contrast', 3), spec.get('cap', 12)
     clear_idx = set(spec.get('transparent', [0, 8]))
     src, px = im.load(), out.load()
@@ -303,4 +309,82 @@ def draw_icons(name, im, out, pal, texts, boxes, spec):
                 if q not in on:
                     px[q] = ring
         notes.append(f'{text!r}: {size} px, fill {fill}, ring {ring}' + (f', squeezed to {squeeze:.0%}' if squeeze < 1 else ''))
+    return notes, cap
+
+
+def _draw_icons_rgb(name, im, out, pal, texts, boxes, spec):
+    """draw_icons() with 'game_colours'. Each icon's oval is its colour C (the most common saturated
+    colour of its CLUT row in the cell) inside a rim; the kanji covers the middle. The oval's inside
+    is the same shape in every cell: per row, the span of the cells' C pixels (union over the cells,
+    `min_votes` of them). That span is filled with C (`bg` override: that index instead), so no
+    kanji is left, and the English goes on top: `fill` (default: the row's whitest index) with a
+    4-neighbour ring in the row's darkest shade of C (`ring`; a dark grey when that shade is lighter
+    than `ring_max_luma`, 90), plus a shadow ring below-right when
+    `shadow` is true (the original's outline is heavier there; overrides may set their own)."""
+    from collections import Counter
+    import clutview
+    cap = spec.get('cap', 12)
+    pic = clutview.Picture(name)
+    rowof = {tuple(r['rect']): r for r in pic.states()[0]}
+    src, px = im.load(), out.load()
+    sat = lambda c: max(c[:3]) - min(c[:3])
+    luma = lambda c: 0.3 * c[0] + 0.59 * c[1] + 0.11 * c[2]
+    info, votes = {}, Counter()
+    for text, (x, y, w, h) in zip(texts, boxes):
+        reg = rowof[(x, y, w, h)]
+        cols = clutview.row_colours(pic.entries(reg), reg['row'])
+        c = Counter(src[x + i, y + j] for i in range(w) for j in range(h)
+                    if cols[src[x + i, y + j]][3] == 255 and sat(cols[src[x + i, y + j]]) > 60)
+        C = c.most_common(1)[0][0] if c else None
+        info[x, y] = cols, C
+        if C is not None:
+            for i in range(w):
+                for j in range(h):
+                    if src[x + i, y + j] == C:
+                        votes[i, j] += 1
+    min_votes = spec.get('min_votes', 1)
+    span = {}
+    for (i, j), n in votes.items():
+        if n >= min_votes:
+            a, b = span.get(j, (i, i))
+            span[j] = (min(a, i), max(b, i))
+    inside = {(i, j) for j, (a, b) in span.items() for i in range(a, b + 1)}
+    cy0 = (min(span) + max(span) + 1) / 2
+    notes = []
+    for text, (x, y, w, h) in zip(texts, boxes):
+        if text == '=':
+            continue
+        cols, C = info[x, y]
+        o = spec.get('overrides', {}).get(text, {})
+        bg = o.get('bg', C)
+        if bg is None:
+            raise SystemExit(f'status: {name}: {text!r}: no colour found in its oval; give overrides.bg')
+        opaque = [k for k in range(16) if cols[k][3] == 255]
+        hue = [k for k in opaque if k == bg or (sat(cols[k]) > 30 and
+               sum(abs(cols[k][t] * 255 / max(1, max(cols[k][:3])) - cols[bg][t] * 255 / max(1, max(cols[bg][:3])))
+                   for t in range(3)) < 120)]
+        fill = o.get('fill', max(opaque, key=lambda k: luma(cols[k])))
+        ring = o.get('ring', min(hue, key=lambda k: luma(cols[k])) if hue else min(opaque, key=lambda k: luma(cols[k])))
+        if 'ring' not in o and luma(cols[ring]) > spec.get('ring_max_luma', 90):     # no dark shade of C
+            ring = min(opaque, key=lambda k: abs(luma(cols[k]) - 50))
+        for i, j in inside:
+            px[x + i, y + j] = bg
+        got = letter.text_mask(text, spec['font'], cap, spec.get('tw', 34), spec.get('th', 18), slack=4)
+        if got is None:
+            raise SystemExit(f'status: {name}: {text!r} does not fit')
+        mask, size, squeeze = got
+        rows = [j for j, row in enumerate(mask) if any(row)]
+        cs = [i for row in mask for i, v in enumerate(row) if v]
+        mw, top, bot = max(cs) + 1 - min(cs), rows[0], rows[-1]
+        ox = x + w // 2 + spec.get('dx', 0) - mw // 2 - min(cs)
+        oy = y + round(cy0 + spec.get('dy', 0) - (top + bot + 1) / 2)
+        on = {(ox + i, oy + j) for j, row in enumerate(mask) for i, v in enumerate(row) if v}
+        ringset = {q for i, j in on for q in ((i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1))} - on
+        if o.get('shadow', spec.get('shadow')):
+            ringset |= {(i + 1, j + 1) for i, j in on | ringset} - on
+        for p in ringset:
+            px[p] = ring
+        for p in on:
+            px[p] = fill
+        notes.append(f'{text!r}: {size} px, bg {bg}, fill {fill}, ring {ring}' + (f', squeezed to {squeeze:.0%}' if squeeze < 1 else ''))
     return notes, cap

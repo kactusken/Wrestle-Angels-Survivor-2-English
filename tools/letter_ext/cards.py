@@ -15,7 +15,8 @@ rebuilt as below.
 Spec keys: cards [[x, y, w, h], ...] one per label (the card's rectangle); strip [x, y, w, h]
 inside a card (where the word goes); clear [x, y, w, h] (art rebuilt there, default strip); fill [indices, first to last letter]; outline index;
 outline_width px; font; band [x, y, w, h]: filled with the outline index behind the word; tone [x, fade]: the median\nof the card's art from x to the clear area (15-row window), dithered in over `fade` px; mirror x: instead of the vote,
-the card's own art between x and the clear area's left edge, reflected into it.
+the card's own art between x and the clear area's left edge, reflected into it; no_blank: true
+ignores the hand-painted blanks (the original art, rebuilt as above).
 
 The kanji all sit in the same strip, so the vote can't clean it - hence the band.
 """
@@ -87,7 +88,7 @@ def draw(name, im, out, pal, texts, boxes, spec):
     w, h = cards[0][2], cards[0][3]
     shared = ART_SOURCES / 'card_blank.png'
     blanks = [ART_SOURCES / f'card_blank_{n}.png' for n in range(len(cards))]
-    if shared.exists() or any(b.exists() for b in blanks):
+    if not spec.get('no_blank') and (shared.exists() or any(b.exists() for b in blanks)):
         px = out.load()
         for n, (cx, cy, _, _) in enumerate(cards):
             path = blanks[n] if blanks[n].exists() else shared

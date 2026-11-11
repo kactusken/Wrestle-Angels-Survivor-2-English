@@ -2,68 +2,68 @@
  "english": "Staff | Business | Info | Gym | End Month | Staff | Business | Info | Gym | End Month",
  "boxes": [
   [
-   66,
-   16,
-   70,
+   58,
+   17,
+   74,
    24
   ],
   [
-   66,
-   40,
-   70,
+   58,
+   41,
+   74,
    24
   ],
   [
-   66,
-   64,
-   70,
+   58,
+   65,
+   74,
    24
   ],
   [
-   66,
-   88,
-   70,
+   58,
+   89,
+   74,
+   20
+  ],
+  [
+   58,
+   113,
+   74,
    24
   ],
   [
-   66,
-   112,
-   70,
+   161,
+   17,
+   78,
    24
   ],
   [
-   168,
-   14,
-   74,
-   28
+   161,
+   41,
+   78,
+   24
   ],
   [
-   168,
-   38,
-   74,
-   28
+   161,
+   65,
+   78,
+   24
   ],
   [
-   168,
-   62,
-   74,
-   28
+   161,
+   89,
+   78,
+   24
   ],
   [
-   168,
-   86,
-   74,
-   28
-  ],
-  [
-   168,
-   110,
-   74,
-   28
+   161,
+   113,
+   78,
+   24
   ]
  ],
  "font": "BarlowCondensed-Bold.ttf",
- "cap": 14,
+ "cap": 13,
  "same_size": true,
  "groups": [
   {
@@ -77,14 +77,22 @@
    "fill": "bright",
    "ground": "interpolate",
    "reach": 2.5,
-   "clear": [
-    [
-     64,
-     14,
-     74,
-     121
-    ]
-   ]
+   "draw": "menu0.panel",
+   "panel": {
+    "area": [
+     52,
+     13,
+     90,
+     128
+    ],
+    "column": 60,
+    "bevel_x": 134,
+    "rows": [
+     19,
+     132
+    ],
+    "keep_from": 3
+   }
   },
   {
    "labels": [
@@ -96,13 +104,13 @@
    ],
    "fill": "bright",
    "ground": "transparent",
-   "reach": 3.5,
+   "reach": 3.0,
    "clear": [
     [
-     166,
-     14,
+     160,
+     17,
      80,
-     124
+     120
     ]
    ],
    "copy_of": [
@@ -114,5 +122,5 @@
    ]
   }
  ],
- "notes": "main menu: panel labels + red highlight copy (tools/letter.py); mock-ups A/B/C shown to the user, A in the build; red copy = the white letters shifted exactly (104, 0), as in the original (copy_of)"
+ "notes": "reassess/menus menu0_try.py: white boxes [58, 17+24k+0, 74, 24] so the red copy (+104, 0) keeps clear of its cells (160, 17+24k, 80, 24); red outline reach 3.0; cap 13; panel from the earlier new (menu0.panel); Gym's box 4 px shorter at the bottom (its descender would reach the cell's bottom edge)"
 }

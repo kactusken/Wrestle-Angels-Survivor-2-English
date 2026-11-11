@@ -1,22 +1,22 @@
 {
- "english": "NORMAL | FINISHERS | HIDDEN | CPU BUSINESS | MOVE ART | TRAINING FX | WATCH | SKIP | FINISHERS ONLY",
+ "english": "NORMAL | = | HIDDEN | CPU BUSINESS | MOVE ART | TRAINING FX | WATCH | SKIP | FINISHERS ONLY",
  "boxes": [
   [
-   359,
+   350,
    88,
-   98,
+   116,
    26
   ],
   [
-   320,
+   336,
    128,
-   150,
+   134,
    25
   ],
   [
-   371,
+   362,
    168,
-   74,
+   92,
    26
   ],
   [
@@ -38,25 +38,25 @@
    28
   ],
   [
-   235,
+   226,
    368,
-   58,
+   76,
    26
   ],
   [
-   223,
+   216,
    408,
-   78,
+   94,
    26
   ],
   [
-   19,
+   12,
    448,
-   155,
+   168,
    26
   ]
  ],
- "font": "BarlowSemiCondensed-Bold.ttf",
+ "font": "MPLUSRounded1c-ExtraBold.ttf",
  "draw": "audit.draw",
  "fill": [
   13
@@ -70,12 +70,89 @@
    "labels": [
     0,
     1,
-    2,
-    6,
-    7,
     8
    ],
-   "cap": 15
+   "cap": 15,
+   "fill_index": 15,
+   "ring": [
+    8,
+    3,
+    3,
+    4
+   ]
+  },
+  {
+   "labels": [
+    2
+   ],
+   "cap": 15,
+   "fill_index": 15,
+   "ring": [
+    8,
+    3,
+    3,
+    4
+   ],
+   "ground_cols": [
+    364,
+    366,
+    368,
+    450,
+    452
+   ],
+   "fill": [
+    15
+   ]
+  },
+  {
+   "labels": [
+    6
+   ],
+   "cap": 15,
+   "fill_index": 15,
+   "ring": [
+    8,
+    3,
+    3,
+    4
+   ],
+   "ground_cols": [
+    229,
+    231,
+    233,
+    292,
+    294,
+    296
+   ],
+   "fill": [
+    15
+   ]
+  },
+  {
+   "labels": [
+    7
+   ],
+   "cap": 15,
+   "fill_index": 15,
+   "ring": [
+    8,
+    3,
+    3,
+    4
+   ],
+   "ground_cols": [
+    218,
+    220,
+    222,
+    224,
+    302,
+    304,
+    306,
+    308
+   ],
+   "fill": [
+    15
+   ]
   },
   {
    "labels": [
@@ -96,6 +173,45 @@
     11,
     12,
     14
+   ],
+   "ground": "inpaint",
+   "fill": [
+    13,
+    3,
+    5,
+    6,
+    9
+   ],
+   "fill_index": 13,
+   "inpaint_grow": 1,
+   "ring": [
+    9,
+    3,
+    3,
+    5,
+    15,
+    14
+   ],
+   "reach": 5,
+   "clear": [
+    [
+     8,
+     322,
+     184,
+     36
+    ],
+    [
+     8,
+     362,
+     184,
+     36
+    ],
+    [
+     8,
+     402,
+     184,
+     36
+    ]
    ]
   }
  ],
@@ -105,7 +221,7 @@
   "height": 512,
   "bpp": 4,
   "category": "menu",
-  "japanese": "通常表示 フィニッシュ 非表示 COM団体の営業 技絵の表示 練習時の演出 見る 見ない フィニッシュ表示 (option values and highlighted labels; SOUND...SLOW already English)"
+  "japanese": "\u901a\u5e38\u8868\u793a \u30d5\u30a3\u30cb\u30c3\u30b7\u30e5 \u975e\u8868\u793a COM\u56e3\u4f53\u306e\u55b6\u696d \u6280\u7d75\u306e\u8868\u793a \u7df4\u7fd2\u6642\u306e\u6f14\u51fa \u898b\u308b \u898b\u306a\u3044 \u30d5\u30a3\u30cb\u30c3\u30b7\u30e5\u8868\u793a (option values and highlighted labels; SOUND...SLOW already English)"
  },
  "notes": "options screen atlas (picture 3 of SYS/OPTION.BIN, not a .GSL: needs gfx.py support for .BIN containers); 4bpp, the game's CLUT row unknown - lettered by index",
  "ground_cols": "edges",

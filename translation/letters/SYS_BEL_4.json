@@ -267,9 +267,7 @@
   ]
  ],
  "font": "BarlowCondensed-Bold.ttf",
- "draw": "audit.draw",
- "ground": "rows",
- "same_size": false,
+ "draw": "plates.draw",
  "groups": [
   {
    "labels": [
@@ -317,62 +315,90 @@
     41,
     42
    ],
-   "fill": [
-    12,
-    13,
-    14,
-    15
+   "cap": 10,
+   "maxw": 36,
+   "squeeze_min": 0.7,
+   "cell": [
+    48,
+    24
    ],
-   "fill_index": 15,
-   "reach": 1,
-   "cap": 9,
-   "ground_skip": [
-    2,
+   "inset": [
     3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11
+    3
    ],
-   "ground_default": 1,
+   "template": [
+    48,
+    0
+   ],
+   "text_top": 7,
+   "fill_index": 15,
+   "aa": 4,
    "ring": [
-    4
-   ]
+    [
+     2.0,
+     1
+    ],
+    [
+     2.3,
+     2
+    ],
+    [
+     3.2,
+     3
+    ]
+   ],
+   "grad": [
+    [
+     5,
+     17.5,
+     10.3
+    ],
+    [
+     6,
+     19.5,
+     13.2
+    ]
+   ],
+   "grad_outer": 7,
+   "plate": "template"
   },
   {
    "labels": [
     43
    ],
-   "fill": [
-    9,
-    14,
-    15
+   "cap": 13,
+   "maxw": 48,
+   "squeeze_min": 0.9,
+   "plate": "clear",
+   "cell": [
+    64,
+    24
    ],
+   "inset": [
+    10,
+    2
+   ],
+   "clear": [
+    [
+     3,
+     225,
+     59,
+     22
+    ]
+   ],
+   "ground_index": 11,
+   "text_top": 4,
    "fill_index": 15,
-   "reach": 2,
+   "aa": 4,
    "ring": [
-    1,
-    1
-   ],
-   "cap": 12,
-   "ground_skip": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    12,
-    13,
-    14,
-    15
+    [
+     2.0,
+     1
+    ],
+    [
+     3.0,
+     3
+    ]
    ]
   }
  ],

@@ -32,6 +32,7 @@ CHECKS = [
     # ('layout', [PY, 'tools/storycheck.py'], False),
     ('font code (simulated)', [PY, 'tools/test_vwf.py'], True),
     ('guide data', [PY, 'tools/guidedata.py', '--check'], False),
+    ('image bounds', [PY, 'tools/bounds.py'], False),
 ]
 
 

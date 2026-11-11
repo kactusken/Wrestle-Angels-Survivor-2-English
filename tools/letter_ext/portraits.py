@@ -9,6 +9,8 @@ the band: white fill, navy outline `outline_width` px.
 With clear_tag false the Japanese tag stays and the English goes in its own band (e.g. small along
 the bottom of the portrait) - no art is removed, only covered by the letters.
 
+draw_pixel instead uses the hand-drawn pixel font (pixelfont.py), see its docstring.
+
 Spec keys: band [x, y, w, h]; clear_tag (default true); cap (capital height px); font; outline_width; tolerance (colour
 distance from the navy-white line still counted as tag ink).
 """
@@ -68,3 +70,89 @@ def draw(name, im, out, pal, texts, boxes, spec):
             if full[j][i]:
                 px[bx + i, by + j] = white
     return [f'{text!r}: capitals {size} px' + (f', squeezed {squeeze:.0%}' if squeeze < 1 else '')], size
+
+
+def body_span(im, pal, rows):
+    """(left, right): the columns opaque on every one of these rows (the character's body there):
+    on each row the opaque run through the middle column (else the widest)."""
+    px = im.load()
+    left, right = 0, im.width - 1
+    mid = im.width // 2
+    for y in rows:
+        runs, start = [], None          # opaque runs (gaps between an arm and the body split them)
+        for x in range(im.width + 1):
+            solid = x < im.width and pal[px[x, y]][3] > 0
+            if solid and start is None:
+                start = x
+            elif not solid and start is not None:
+                runs.append((start, x - 1))
+                start = None
+        if not runs:
+            return None
+        a, b = max(runs, key=lambda r: (r[0] <= mid <= r[1], r[1] - r[0]))
+        left, right = max(left, a), min(right, b)
+    return (left, right) if left <= right else None
+
+
+def draw_pixel(name, im, out, pal, texts, boxes, spec):
+    """The ring name in the hand-drawn pixel font (pixelfont.py): white, a navy outline all round
+    (diagonals too) and, with 'shadow', one more navy pixel below and right. Kept inside the
+    character's body (the opaque columns of the rows it covers) with 'margin' px to spare: centred
+    on the portrait, shifted if the body is off-centre, on two lines if one doesn't fit.
+
+    Spec keys: band [x, y, w, h] (the last line's 9 font rows start at band y + 'top');
+    line_pitch; margin; shadow; max_lines; body (default true; false = centred in the band like the
+    old tags, not kept inside the character)."""
+    import pixelfont
+    bx, by, bw, bh = spec['band']
+    top = by + spec.get('top', 2)
+    pitch = spec.get('line_pitch', 10)
+    margin = spec.get('margin', 1)
+    shadow = spec.get('shadow', False)
+    pad = 1 + (1 if shadow else 0)
+    text = texts[0]
+    words = text.split(' ')
+    layouts = [[text]] + ([[' '.join(words[:k]), ' '.join(words[k:])] for k in range(1, len(words))]
+                          if spec.get('max_lines', 2) > 1 else [])
+    best = None
+    for lines in layouts:
+        ys = [top - pitch * (len(lines) - 1 - k) for k in range(len(lines))]
+        placed, over = [], 0
+        for line, y in zip(lines, ys):
+            rows = pixelfont.text_rows(line)
+            w = len(rows[0])
+            ink_rows = [y + j for j in range(pixelfont.ROWS) if any(rows[j])]
+            span = (body_span(im, pal, range(min(ink_rows) - 1, max(ink_rows) + 2 + (1 if shadow else 0)))
+                    if spec.get('body', True) else None)
+            lo, hi = (span[0] + margin + 1, span[1] - margin - pad + 1) if span else (bx + 1, bx + bw - pad)
+            x = bx + (bw - w) // 2
+            x = max(lo, min(x, hi - w)) if hi - lo >= w else (lo + hi - w) // 2
+            over = max(over, w - (hi - lo))
+            placed.append((rows, x, y))
+        key = (max(over, 0), len(lines), max(len(r[0][0]) for r in placed))
+        if best is None or key < best[0]:
+            best = (key, placed)
+    (over, nlines, _), placed = best
+    white = letter.nearest(pal, WHITE + (255,), len(pal))
+    navy = letter.nearest(pal, NAVY + (255,), len(pal))
+    ink = set()
+    for rows, x, y in placed:
+        ink |= {(x + i, y + j) for j, r in enumerate(rows) for i, v in enumerate(r) if v}
+    px = out.load()
+    halo = {(x + dx, y + dy) for x, y in ink for dx in (-1, 0, 1) for dy in (-1, 0, 1)}
+    if shadow:
+        halo |= {(x + 1, y + 1) for x, y in halo}
+    # close 1-2 px holes in the dark plate along each row (word gaps, beside x/v/y), so no art shows
+    # through between words as stray dots
+    for yy in {y for _, y in halo}:
+        xs = sorted(x for x, y in halo if y == yy)
+        for a, b in zip(xs, xs[1:]):
+            if 1 < b - a <= 3:
+                halo |= {(x, yy) for x in range(a + 1, b)}
+    for x, y in halo - ink:
+        if 0 <= x < out.width and 0 <= y < out.height:
+            px[x, y] = navy
+    for x, y in ink:
+        px[x, y] = white
+    notes = [f'{text!r}: {nlines} line(s)' + (f', {over} px outside the body' if over > 0 else '')]
+    return notes, 7

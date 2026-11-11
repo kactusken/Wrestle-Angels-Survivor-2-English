@@ -41,7 +41,7 @@ COLUMNS = ['image', 'source', 'x', 'y', 'w', 'h', 'width', 'height', 'bpp', 'cat
            'english', 'notes', 'font', 'align', 'boxes', 'dup_of', 'status', 'review']
 STATUSES = ('todo', 'done', 'keep', 'dup')
 RENDER_FIELDS = ('english', 'font', 'align', 'boxes')
-REF_SUFFIXES = ('_original', '_check', '_palette', '_english')
+REF_SUFFIXES = ('_original', '_check', '_palette', '_english', '_bounds', '_bounds_view')
 
 
 def rows():

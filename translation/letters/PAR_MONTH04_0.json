@@ -1,6 +1,13 @@
 {
  "english": "APR",
- "boxes": [[0, 0, 272, 160]],
+ "boxes": [
+  [
+   0,
+   0,
+   272,
+   160
+  ]
+ ],
  "fill": "bright",
  "ground": "transparent",
  "font": "Barlow-BlackItalic.ttf",
@@ -10,5 +17,6 @@
  "tracking": 5,
  "draw": "banners.draw",
  "mode": "month",
- "notes": "month banner: 3-letter month, same size and placement in all twelve (tools/letter_ext/banners.py)"
+ "notes": "month banner: 3-letter month, same size and placement in all twelve (tools/letter_ext/banners.py); right 256 (was 260): keeps the white edge 2+ px off the sprite edge x 263, as the original",
+ "right": 256
 }

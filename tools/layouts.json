@@ -1,0 +1,8340 @@
+{
+ "BATTLE_MAN00_0": {
+  "notes": "draw 0x26cec8; positions from sdata 0x59a540-0x59a5c8 (build/work/sprites/battle-NOTES.md MAN00). The ticket zooms from about 2x to 1x around (508,211), frames 31-45.",
+  "scenes": [
+   {
+    "name": "frame 15: HOUSE and ! slide in",
+    "draws": [
+     {
+      "rect": [
+       96,
+       0,
+       96,
+       88
+      ],
+      "xy": [
+       189,
+       106
+      ],
+      "wh": [
+       115,
+       105
+      ],
+      "note": "cell 2"
+     },
+     {
+      "rect": [
+       192,
+       0,
+       96,
+       88
+      ],
+      "xy": [
+       336,
+       106
+      ],
+      "wh": [
+       115,
+       105
+      ],
+      "note": "cell 3"
+     }
+    ]
+   },
+   {
+    "name": "frame 45 on: settled",
+    "draws": [
+     {
+      "rect": [
+       96,
+       0,
+       96,
+       88
+      ],
+      "xy": [
+       262,
+       106
+      ],
+      "wh": [
+       115,
+       105
+      ],
+      "note": "cell 2"
+     },
+     {
+      "rect": [
+       192,
+       0,
+       96,
+       88
+      ],
+      "xy": [
+       385,
+       106
+      ],
+      "wh": [
+       115,
+       105
+      ],
+      "note": "cell 3"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       96,
+       88
+      ],
+      "xy": [
+       110,
+       79
+      ],
+      "wh": [
+       144,
+       132
+      ],
+      "note": "cell 1, dropped in during frames 16-29"
+     },
+     {
+      "rect": [
+       0,
+       88,
+       288,
+       112
+      ],
+      "xy": [
+       364,
+       155
+      ],
+      "wh": [
+       288,
+       112
+      ],
+      "note": "ticket, zoom quad 0x3046b8 centred at (508,211), at scale 1.0"
+     }
+    ]
+   }
+  ]
+ },
+ "BATTLE_MATCH_0": {
+  "scenes": [
+   {
+    "name": "P1: Pin + Tag, glow off (alpha 0)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       440,
+       48,
+       72,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "note": "Pin bubble (pass 1, TEX0 csa 9)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     }
+    ]
+   },
+   {
+    "name": "P1: Pin + Tag, glow half (alpha 64)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       440,
+       48,
+       72,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "note": "Pin bubble (pass 1, TEX0 csa 9)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     },
+     {
+      "rect": [
+       440,
+       80,
+       72,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "alpha": 64,
+      "note": "Pin glow, same xy as its bubble, drawn over it"
+     },
+     {
+      "rect": [
+       384,
+       80,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "alpha": 64,
+      "note": "Tag glow, same xy, over the bubble"
+     }
+    ]
+   },
+   {
+    "name": "P1: Pin + Tag, glow peak (alpha 128)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       440,
+       48,
+       72,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "note": "Pin bubble (pass 1, TEX0 csa 9)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     },
+     {
+      "rect": [
+       440,
+       80,
+       72,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "alpha": 128,
+      "note": "Pin glow, same xy as its bubble, drawn over it"
+     },
+     {
+      "rect": [
+       384,
+       80,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "alpha": 128,
+      "note": "Tag glow, same xy, over the bubble"
+     }
+    ]
+   },
+   {
+    "name": "P1: Return + Tag, glow off (alpha 0)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       320,
+       48,
+       64,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "note": "Return bubble (pass 1, TEX0 csa 7)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     }
+    ]
+   },
+   {
+    "name": "P1: Return + Tag, glow half (alpha 64)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       320,
+       48,
+       64,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "note": "Return bubble (pass 1, TEX0 csa 7)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     },
+     {
+      "rect": [
+       320,
+       80,
+       64,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "alpha": 64,
+      "note": "Return glow, same xy as its bubble, drawn over it"
+     },
+     {
+      "rect": [
+       384,
+       80,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "alpha": 64,
+      "note": "Tag glow, same xy, over the bubble"
+     }
+    ]
+   },
+   {
+    "name": "P1: Return + Tag, glow peak (alpha 128)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       320,
+       48,
+       64,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "note": "Return bubble (pass 1, TEX0 csa 7)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     },
+     {
+      "rect": [
+       320,
+       80,
+       64,
+       32
+      ],
+      "xy": [
+       32,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "alpha": 128,
+      "note": "Return glow, same xy as its bubble, drawn over it"
+     },
+     {
+      "rect": [
+       384,
+       80,
+       56,
+       32
+      ],
+      "xy": [
+       104,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "alpha": 128,
+      "note": "Tag glow, same xy, over the bubble"
+     }
+    ]
+   },
+   {
+    "name": "P2: Pin + Tag, glow off (alpha 0)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       440,
+       48,
+       72,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "note": "Pin bubble (pass 1, TEX0 csa 9)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     }
+    ]
+   },
+   {
+    "name": "P2: Pin + Tag, glow half (alpha 64)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       440,
+       48,
+       72,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "note": "Pin bubble (pass 1, TEX0 csa 9)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     },
+     {
+      "rect": [
+       440,
+       80,
+       72,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "alpha": 64,
+      "note": "Pin glow, same xy as its bubble, drawn over it"
+     },
+     {
+      "rect": [
+       384,
+       80,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "alpha": 64,
+      "note": "Tag glow, same xy, over the bubble"
+     }
+    ]
+   },
+   {
+    "name": "P2: Pin + Tag, glow peak (alpha 128)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       440,
+       48,
+       72,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "note": "Pin bubble (pass 1, TEX0 csa 9)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     },
+     {
+      "rect": [
+       440,
+       80,
+       72,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       72,
+       32
+      ],
+      "row": 9,
+      "alpha": 128,
+      "note": "Pin glow, same xy as its bubble, drawn over it"
+     },
+     {
+      "rect": [
+       384,
+       80,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "alpha": 128,
+      "note": "Tag glow, same xy, over the bubble"
+     }
+    ]
+   },
+   {
+    "name": "P2: Return + Tag, glow off (alpha 0)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       320,
+       48,
+       64,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "note": "Return bubble (pass 1, TEX0 csa 7)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     }
+    ]
+   },
+   {
+    "name": "P2: Return + Tag, glow half (alpha 64)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       320,
+       48,
+       64,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "note": "Return bubble (pass 1, TEX0 csa 7)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     },
+     {
+      "rect": [
+       320,
+       80,
+       64,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "alpha": 64,
+      "note": "Return glow, same xy as its bubble, drawn over it"
+     },
+     {
+      "rect": [
+       384,
+       80,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "alpha": 64,
+      "note": "Tag glow, same xy, over the bubble"
+     }
+    ]
+   },
+   {
+    "name": "P2: Return + Tag, glow peak (alpha 128)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       320,
+       48,
+       64,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "note": "Return bubble (pass 1, TEX0 csa 7)"
+     },
+     {
+      "rect": [
+       384,
+       48,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "note": "Tag bubble (pass 1, csa 8)"
+     },
+     {
+      "rect": [
+       320,
+       80,
+       64,
+       32
+      ],
+      "xy": [
+       540,
+       68
+      ],
+      "wh": [
+       64,
+       32
+      ],
+      "row": 7,
+      "alpha": 128,
+      "note": "Return glow, same xy as its bubble, drawn over it"
+     },
+     {
+      "rect": [
+       384,
+       80,
+       56,
+       32
+      ],
+      "xy": [
+       468,
+       68
+      ],
+      "wh": [
+       56,
+       32
+      ],
+      "row": 8,
+      "alpha": 128,
+      "note": "Tag glow, same xy, over the bubble"
+     }
+    ]
+   }
+  ],
+  "notes": "Match HUD fn 0x253410, 0x256150-0x2564f0. Each bubble is shown when its flag is set: Pin [0x59e7e0]/[0x59e7e4] (P1/P2), Return [0x59e7e8]/[0x59e7ec], Tag [0x59e7f0]/[0x59e7f4]. Pin and Return use the SAME screen position (32,68 / 540,68), so they are never meant to show together; Tag has its own spot. Pass 1 (0x256150-0x256308) draws the bubbles at full alpha with CSA 9/7/8 (0x305388 -> 0x304678 reg 6). Pass 2 (0x25630c-0x2564f0) sets RGBAQ alpha = 8 * tri(frame, 16) (0x3036f8: 0..16..0 over 32 frames, so 0..128) and draws the v=80 glow sprite of each bubble at exactly the same xy and size, on top: the glow is not offset, it is an overlay that pulses. Sprites 1:1 via 0x303c80/0x303ee8, region-clamped. P1: the Pin bubble (32..104) ends exactly where Tag (104..160) starts - they abut with no gap; Return (32..96) leaves 8 px. P2: Tag 468..524, Pin/Return from 540 (16 px gap). Rect statics gp-0x2558/-0x2548 (Pin), -0x2538/-0x2528 (Return), -0x2518/-0x2508 (Tag), filled 0x255eb0-0x256148 from 0x599ec0..0x599f08."
+ },
+ "BATTLE_MATCH_1": {
+  "scenes": [
+   {
+    "name": "match HUD, both players Auto (-1)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       272,
+       16,
+       48,
+       16
+      ],
+      "xy": [
+       24,
+       296
+      ],
+      "wh": [
+       48,
+       16
+      ],
+      "note": "P1 offence mode, one label at a time (0x2568fc/0x256920)"
+     },
+     {
+      "rect": [
+       272,
+       16,
+       48,
+       16
+      ],
+      "xy": [
+       568,
+       296
+      ],
+      "wh": [
+       48,
+       16
+      ],
+      "note": "P2 offence mode, right-aligned at x 616 (0x256984/0x2569a8)"
+     }
+    ]
+   },
+   {
+    "name": "match HUD, both players Semi-Auto (1)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       272,
+       32,
+       72,
+       16
+      ],
+      "xy": [
+       24,
+       296
+      ],
+      "wh": [
+       72,
+       16
+      ],
+      "note": "P1 offence mode, one label at a time (0x2568fc/0x256920)"
+     },
+     {
+      "rect": [
+       272,
+       32,
+       72,
+       16
+      ],
+      "xy": [
+       544,
+       296
+      ],
+      "wh": [
+       72,
+       16
+      ],
+      "note": "P2 offence mode, right-aligned at x 616 (0x256984/0x2569a8)"
+     }
+    ]
+   },
+   {
+    "name": "match HUD, both players Manual (0)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       272,
+       48,
+       72,
+       16
+      ],
+      "xy": [
+       24,
+       296
+      ],
+      "wh": [
+       72,
+       16
+      ],
+      "note": "P1 offence mode, one label at a time (0x2568fc/0x256920)"
+     },
+     {
+      "rect": [
+       272,
+       48,
+       72,
+       16
+      ],
+      "xy": [
+       544,
+       296
+      ],
+      "wh": [
+       72,
+       16
+      ],
+      "note": "P2 offence mode, right-aligned at x 616 (0x256984/0x2569a8)"
+     }
+    ]
+   },
+   {
+    "name": "pre-match card, P1 side (fn 0x273690, s0 != 0)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       64,
+       512,
+       192
+      ],
+      "xy": [
+       0,
+       90
+      ],
+      "wh": [
+       512,
+       192
+      ],
+      "note": "band"
+     },
+     {
+      "rect": [
+       384,
+       64,
+       128,
+       192
+      ],
+      "xy": [
+       640,
+       90
+      ],
+      "wh": [
+       -128,
+       192
+      ],
+      "note": "band right end, mirrored: screen 512..640 shows u 511..384 (code: xy 512, wh -128)"
+     },
+     {
+      "rect": [
+       192,
+       16,
+       80,
+       16
+      ],
+      "xy": [
+       32,
+       124
+      ],
+      "wh": [
+       80,
+       16
+      ],
+      "note": "OFFENSE caption; font text is drawn to its right/below (0x22f1e8 at 0x270,0x74 etc.)"
+     }
+    ]
+   },
+   {
+    "name": "pre-match card, P2 side (fn 0x273690, s0 == 0)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       64,
+       512,
+       192
+      ],
+      "xy": [
+       640,
+       90
+      ],
+      "wh": [
+       -512,
+       192
+      ],
+      "note": "band, mirrored: screen 128..640 shows u 511..0 (code: xy 128, wh -512)"
+     },
+     {
+      "rect": [
+       384,
+       64,
+       128,
+       192
+      ],
+      "xy": [
+       0,
+       90
+      ],
+      "wh": [
+       128,
+       192
+      ],
+      "note": "band left end, 1:1"
+     },
+     {
+      "rect": [
+       192,
+       16,
+       80,
+       16
+      ],
+      "xy": [
+       517,
+       124
+      ],
+      "wh": [
+       80,
+       16
+      ],
+      "note": "OFFENSE caption"
+     }
+    ]
+   }
+  ],
+  "notes": "Convention: negative wh = mirrored, the quad runs left/up from xy. HUD (fn 0x253410, SETTEX [this+0x58] 0x2568a4): ONE mode label per player, picked by [0x59f7f8] (P1) / [0x59f7fc] (P2): -1 Auto, 1 Semi-Auto, 0 Manual. Never stacked. 1:1, region-clamped, full alpha. P1 left-aligned at (24,296); P2 right-aligned (Auto at 568, the 72-wide ones at 544, all end at 616). No other MATCH_1 sprite is next to them in the HUD; the HUD also draws MATCH_0 parts (bars, plates) elsewhere on screen - not traced which is nearest. The OFFENSE caption is drawn only on the pre-match card (fn 0x273690, [[this+0x90]+0x30], likely the MATCH object), fading with alpha 0x2730b8(this,100), never together with the mode labels from the picture."
+ },
+ "BATTLE_MM_PT0_0": {
+  "scenes": [
+   {
+    "name": "order screen, 5 members (row pitch 36, base y assumed 120)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       128,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       122
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=0 at x 304, y = row y + 2"
+     },
+     {
+      "rect": [
+       160,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       158
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=1 at x 304, y = row y + 2"
+     },
+     {
+      "rect": [
+       192,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       194
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=2 at x 304, y = row y + 2"
+     },
+     {
+      "rect": [
+       224,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       230
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=3 at x 304, y = row y + 2"
+     },
+     {
+      "rect": [
+       256,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       266
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=4 at x 304, y = row y + 2"
+     }
+    ]
+   },
+   {
+    "name": "order screen, compact rows (pitch 28, base y assumed 120)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       128,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       122
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=0, pitch 28 (states 13-17)"
+     },
+     {
+      "rect": [
+       160,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       150
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=1, pitch 28 (states 13-17)"
+     },
+     {
+      "rect": [
+       192,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       178
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=2, pitch 28 (states 13-17)"
+     },
+     {
+      "rect": [
+       224,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       206
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=3, pitch 28 (states 13-17)"
+     },
+     {
+      "rect": [
+       256,
+       204,
+       32,
+       24
+      ],
+      "xy": [
+       304,
+       234
+      ],
+      "wh": [
+       32,
+       24
+      ],
+      "note": "order tag k=4, pitch 28 (states 13-17)"
+     }
+    ]
+   }
+  ],
+  "notes": "Tags: fn 0x29efc0(x, y, k, alpha) draws (128+32*min(k,4), 204, 32, 24) 1:1 at (x, y+2). Callers 0x263918/0x263994/0x263ad0 (fn 0x263718, one per member k=0..4) and 0x2b6304 (fn 0x2b62c8) all pass x = 0x130 = 304; y = 0x29dcd8(table 0x10a6fd0, k, side) = [table+0] + k*36 (k*28 when the row state is 13..17). The base y is runtime data (not resolved). In the alternative branch the same spot shows an icon (fn 0x29f0c8, 32x24, x 304) instead of the tag. Each tag is its own 32x24 sprite in its own row; rows are 36 (or 28) apart, so tags never touch each other (12 / 4 px gaps). Name bars (fn 0x29ea20, 308x28, from this picture) are drawn by fn 0x263240 at the row x,y; the row x is animated by fn 0x29df60 between -308, 166, 332 and 640 (slide in/out; 332..640 is the right half), so the tag column x 304..335 sits between a left bar ending at x<=308 and a right bar starting at 332 - exact adjacency not resolved. Alpha comes from the row (fade)."
+ },
+ "BATTLE_MMAKE_0": {
+  "scenes": [
+   {
+    "name": "item 1 selected, settled",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       200,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       369,
+       175
+      ],
+      "wh": [
+       102,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       328,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       148,
+       175
+      ],
+      "wh": [
+       128,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       96,
+       176,
+       104,
+       48
+      ],
+      "xy": [
+       268,
+       144
+      ],
+      "wh": [
+       104,
+       48
+      ],
+      "note": "label, selected row (v-48), centred on the icon"
+     }
+    ]
+   },
+   {
+    "name": "item 1 selected, cross-fade midpoint",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       200,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       369,
+       175
+      ],
+      "wh": [
+       102,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       328,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       148,
+       175
+      ],
+      "wh": [
+       128,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       104,
+       48
+      ],
+      "xy": [
+       268,
+       144
+      ],
+      "wh": [
+       104,
+       48
+      ],
+      "note": "label, unselected row, under the cross-fade"
+     },
+     {
+      "rect": [
+       96,
+       176,
+       104,
+       48
+      ],
+      "xy": [
+       268,
+       144
+      ],
+      "wh": [
+       104,
+       48
+      ],
+      "alpha": 64,
+      "note": "label, selected row, cross-fading in"
+     }
+    ]
+   },
+   {
+    "name": "item 2 selected, settled",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       328,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       356,
+       175
+      ],
+      "wh": [
+       128,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       104,
+       48
+      ],
+      "xy": [
+       171,
+       175
+      ],
+      "wh": [
+       83,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       200,
+       176,
+       128,
+       48
+      ],
+      "xy": [
+       256,
+       144
+      ],
+      "wh": [
+       128,
+       48
+      ],
+      "note": "label, selected row (v-48), centred on the icon"
+     }
+    ]
+   },
+   {
+    "name": "item 2 selected, cross-fade midpoint",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       328,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       356,
+       175
+      ],
+      "wh": [
+       128,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       104,
+       48
+      ],
+      "xy": [
+       171,
+       175
+      ],
+      "wh": [
+       83,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       200,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       256,
+       144
+      ],
+      "wh": [
+       128,
+       48
+      ],
+      "note": "label, unselected row, under the cross-fade"
+     },
+     {
+      "rect": [
+       200,
+       176,
+       128,
+       48
+      ],
+      "xy": [
+       256,
+       144
+      ],
+      "wh": [
+       128,
+       48
+      ],
+      "alpha": 64,
+      "note": "label, selected row, cross-fading in"
+     }
+    ]
+   },
+   {
+    "name": "item 3 selected, settled",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       104,
+       48
+      ],
+      "xy": [
+       379,
+       175
+      ],
+      "wh": [
+       83,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       200,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       161,
+       175
+      ],
+      "wh": [
+       102,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       328,
+       176,
+       160,
+       48
+      ],
+      "xy": [
+       240,
+       144
+      ],
+      "wh": [
+       160,
+       48
+      ],
+      "note": "label, selected row (v-48), centred on the icon"
+     }
+    ]
+   },
+   {
+    "name": "item 3 selected, cross-fade midpoint",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       104,
+       48
+      ],
+      "xy": [
+       379,
+       175
+      ],
+      "wh": [
+       83,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       200,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       161,
+       175
+      ],
+      "wh": [
+       102,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       328,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       240,
+       144
+      ],
+      "wh": [
+       160,
+       48
+      ],
+      "note": "label, unselected row, under the cross-fade"
+     },
+     {
+      "rect": [
+       328,
+       176,
+       160,
+       48
+      ],
+      "xy": [
+       240,
+       144
+      ],
+      "wh": [
+       160,
+       48
+      ],
+      "alpha": 64,
+      "note": "label, selected row, cross-fading in"
+     }
+    ]
+   }
+  ],
+  "notes": "Convention: negative wh = mirrored, the quad runs left/up from xy. Widget draw 0x2bb108 (texture object 0x106ddd8). Slot table 0x4edf20 (x, y, scale%): front (232,80,100), right (350,124,80), left (142,124,80); items rotate through the slots on selection (0x2bacc8 rotates the per-item slot index at widget+0x78+16i and copies the slot x/y/scale into widget+0x7c..0x84). Icon: top-left (x,y), size 176*scale/100, colour 128*scale/100 (0x2bb3e4..0x2bb438). Label: size (lw,lh)*scale/100, centred on the icon centre (0x2bb860-0x2bb8ec). Current item: label uses v-48 (selected row); in modes 3/4 (rotating) the unselected row is drawn first and the selected row on top with alpha [sp+0x170] = 128 - 32*min(c, 8-c), c = rotation counter [widget+0x1c0] 0..8 (0x2bb500-0x2bb55c): the selected row dips to 0 mid-rotation and returns - a cross-fade. Non-current items: unselected row (v 224), scaled 80%. Corners (0,176,88,88) frame the current icon, each quarter = half the icon size, mirrored by negative screen sizes. All draws scaled (0x304248), region-clamped. Draw order farthest first, current last; slot assignment of the two side items (which goes left) is likely, not verified. Positions between slots may be interpolated during the rotation (not traced)."
+ },
+ "BATTLE_MMAKE2_0": {
+  "scenes": [
+   {
+    "name": "item 1 selected, settled",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       272,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       356,
+       175
+      ],
+      "wh": [
+       128,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       432,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       142,
+       175
+      ],
+      "wh": [
+       140,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       96,
+       176,
+       176,
+       48
+      ],
+      "xy": [
+       232,
+       144
+      ],
+      "wh": [
+       176,
+       48
+      ],
+      "note": "label, selected row (v-48), centred on the icon"
+     }
+    ]
+   },
+   {
+    "name": "item 1 selected, cross-fade midpoint",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       272,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       356,
+       175
+      ],
+      "wh": [
+       128,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       432,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       142,
+       175
+      ],
+      "wh": [
+       140,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       232,
+       144
+      ],
+      "wh": [
+       176,
+       48
+      ],
+      "note": "label, unselected row, under the cross-fade"
+     },
+     {
+      "rect": [
+       96,
+       176,
+       176,
+       48
+      ],
+      "xy": [
+       232,
+       144
+      ],
+      "wh": [
+       176,
+       48
+      ],
+      "alpha": 64,
+      "note": "label, selected row, cross-fading in"
+     }
+    ]
+   },
+   {
+    "name": "item 2 selected, settled",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       432,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       350,
+       175
+      ],
+      "wh": [
+       140,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       142,
+       175
+      ],
+      "wh": [
+       140,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       272,
+       176,
+       160,
+       48
+      ],
+      "xy": [
+       240,
+       144
+      ],
+      "wh": [
+       160,
+       48
+      ],
+      "note": "label, selected row (v-48), centred on the icon"
+     }
+    ]
+   },
+   {
+    "name": "item 2 selected, cross-fade midpoint",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       432,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       350,
+       175
+      ],
+      "wh": [
+       140,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       142,
+       175
+      ],
+      "wh": [
+       140,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       272,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       240,
+       144
+      ],
+      "wh": [
+       160,
+       48
+      ],
+      "note": "label, unselected row, under the cross-fade"
+     },
+     {
+      "rect": [
+       272,
+       176,
+       160,
+       48
+      ],
+      "xy": [
+       240,
+       144
+      ],
+      "wh": [
+       160,
+       48
+      ],
+      "alpha": 64,
+      "note": "label, selected row, cross-fading in"
+     }
+    ]
+   },
+   {
+    "name": "item 3 selected, settled",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       350,
+       175
+      ],
+      "wh": [
+       140,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       272,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       148,
+       175
+      ],
+      "wh": [
+       128,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       432,
+       176,
+       176,
+       48
+      ],
+      "xy": [
+       232,
+       144
+      ],
+      "wh": [
+       176,
+       48
+      ],
+      "note": "label, selected row (v-48), centred on the icon"
+     }
+    ]
+   },
+   {
+    "name": "item 3 selected, cross-fade midpoint",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       350,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       96,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       350,
+       175
+      ],
+      "wh": [
+       140,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       142,
+       124
+      ],
+      "wh": [
+       140,
+       140
+      ],
+      "note": "icon, scale 80%, colour 102"
+     },
+     {
+      "rect": [
+       272,
+       224,
+       160,
+       48
+      ],
+      "xy": [
+       148,
+       175
+      ],
+      "wh": [
+       128,
+       38
+      ],
+      "note": "label, unselected row, centred on the icon"
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "icon, scale 100%, colour 128"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       80
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "selection corner tl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       256
+      ],
+      "wh": [
+       88,
+       -88
+      ],
+      "note": "selection corner bl: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       80
+      ],
+      "wh": [
+       -88,
+       88
+      ],
+      "note": "selection corner tr: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       0,
+       176,
+       88,
+       88
+      ],
+      "xy": [
+       408,
+       256
+      ],
+      "wh": [
+       -88,
+       -88
+      ],
+      "note": "selection corner br: negative screen w/h = the quad runs left/up from xy, i.e. mirrored"
+     },
+     {
+      "rect": [
+       432,
+       224,
+       176,
+       48
+      ],
+      "xy": [
+       232,
+       144
+      ],
+      "wh": [
+       176,
+       48
+      ],
+      "note": "label, unselected row, under the cross-fade"
+     },
+     {
+      "rect": [
+       432,
+       176,
+       176,
+       48
+      ],
+      "xy": [
+       232,
+       144
+      ],
+      "wh": [
+       176,
+       48
+      ],
+      "alpha": 64,
+      "note": "label, selected row, cross-fading in"
+     }
+    ]
+   }
+  ],
+  "notes": "Convention: negative wh = mirrored, the quad runs left/up from xy. Widget draw 0x2bb108 (texture object 0x106ddd8). Slot table 0x4edf20 (x, y, scale%): front (232,80,100), right (350,124,80), left (142,124,80); items rotate through the slots on selection (0x2bacc8 rotates the per-item slot index at widget+0x78+16i and copies the slot x/y/scale into widget+0x7c..0x84). Icon: top-left (x,y), size 176*scale/100, colour 128*scale/100 (0x2bb3e4..0x2bb438). Label: size (lw,lh)*scale/100, centred on the icon centre (0x2bb860-0x2bb8ec). Current item: label uses v-48 (selected row); in modes 3/4 (rotating) the unselected row is drawn first and the selected row on top with alpha [sp+0x170] = 128 - 32*min(c, 8-c), c = rotation counter [widget+0x1c0] 0..8 (0x2bb500-0x2bb55c): the selected row dips to 0 mid-rotation and returns - a cross-fade. Non-current items: unselected row (v 224), scaled 80%. Corners (0,176,88,88) frame the current icon, each quarter = half the icon size, mirrored by negative screen sizes. All draws scaled (0x304248), region-clamped. Draw order farthest first, current last; slot assignment of the two side items (which goes left) is likely, not verified. Positions between slots may be interpolated during the rotation (not traced)."
+ },
+ "PAR_MONTH01_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH02_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH03_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH04_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH05_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH06_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH07_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH08_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH09_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH10_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH11_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "PAR_MONTH12_0": {
+  "scenes": [
+   {
+    "name": "slide-in frame a=0",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       616,
+       96
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=5",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       484,
+       176
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   },
+   {
+    "name": "slide-in frame a=10 (settled)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       264,
+       160
+      ],
+      "xy": [
+       352,
+       256
+      ],
+      "wh": [
+       264,
+       160
+      ],
+      "note": "month banner 1:1"
+     }
+    ]
+   }
+  ],
+  "notes": "Fn 0x2206d8 (SETTEX [this+0x170] 0x220b3c, sprite 0x220bc0): 1:1, not scaled, wh (264,160). a = [this+0x244] counts 0..10 (one per frame once the file is loaded, 0x2202fc-0x22033c); x = 352 + 264*(10-a)/10, y = 256 - 16*(10-a): slides in from the upper right (616,96) to the settled (352,256) - occupies x 352..615, y 256..415. Right of it: 24 px of screen (616..639); nothing from this picture. Other draws in the same fn: background [this+0x38] 640x448 first (under), the subtitle (PAR_SUBTIT, 336x48) at (21 - slide, 127), a 96x112 picture [this+0xa0] and the OF_MAR mark 128x128 at (504,8) - the mark is above (y 8..135), clear of the settled banner; during the slide (a<=2) the banner top-right overlaps the mark area. Columns 264..271 of the picture are never drawn."
+ },
+ "SYS_MENU_0": {
+  "scenes": [
+   {
+    "name": "slide-in (states 0/1)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       -160,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel slides from x=-160 to 0 (0x2b8218); no highlight while sliding"
+     }
+    ]
+   },
+   {
+    "name": "item 0 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       17,
+       80,
+       24
+      ],
+      "xy": [
+       56,
+       99
+      ],
+      "wh": [
+       80,
+       24
+      ],
+      "note": "selected label of item 0, drawn on top of the panel: it covers panel u 56-135, v 17-40 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   },
+   {
+    "name": "item 1 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       41,
+       80,
+       24
+      ],
+      "xy": [
+       56,
+       123
+      ],
+      "wh": [
+       80,
+       24
+      ],
+      "note": "selected label of item 1, drawn on top of the panel: it covers panel u 56-135, v 41-64 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   },
+   {
+    "name": "item 2 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       65,
+       80,
+       24
+      ],
+      "xy": [
+       56,
+       147
+      ],
+      "wh": [
+       80,
+       24
+      ],
+      "note": "selected label of item 2, drawn on top of the panel: it covers panel u 56-135, v 65-88 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   },
+   {
+    "name": "item 3 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       89,
+       80,
+       24
+      ],
+      "xy": [
+       56,
+       171
+      ],
+      "wh": [
+       80,
+       24
+      ],
+      "note": "selected label of item 3, drawn on top of the panel: it covers panel u 56-135, v 89-112 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   },
+   {
+    "name": "item 4 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       113,
+       80,
+       24
+      ],
+      "xy": [
+       56,
+       195
+      ],
+      "wh": [
+       80,
+       24
+      ],
+      "note": "selected label of item 4, drawn on top of the panel: it covers panel u 56-135, v 113-136 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   }
+  ],
+  "notes": "0x2fba18: SETTEX [obj+0x10] rgba 0x80808080, spr 0x304048 (1:1). Panel at (0,82). Highlight uv (160,17+24k) wh (80,24) at (56,99+24k), k = this+0xb0 (0..4). Its right edge (u=240) lands on screen x=136, i.e. panel u 136: right of it the panel itself continues (frame). The screen behind the panel (other pictures) is not drawn here."
+ },
+ "SYS_GYM_M_0": {
+  "scenes": [
+   {
+    "name": "slide-in (states 0/1)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       -160,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel slides from x=-160 to 0 (0x2b8218); no highlight while sliding"
+     }
+    ]
+   },
+   {
+    "name": "item 0 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       16,
+       96,
+       24
+      ],
+      "xy": [
+       48,
+       98
+      ],
+      "wh": [
+       96,
+       24
+      ],
+      "note": "selected label of item 0, drawn on top of the panel: it covers panel u 48-143, v 16-39 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   },
+   {
+    "name": "item 1 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       40,
+       96,
+       24
+      ],
+      "xy": [
+       48,
+       122
+      ],
+      "wh": [
+       96,
+       24
+      ],
+      "note": "selected label of item 1, drawn on top of the panel: it covers panel u 48-143, v 40-63 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   },
+   {
+    "name": "item 2 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       64,
+       96,
+       24
+      ],
+      "xy": [
+       48,
+       146
+      ],
+      "wh": [
+       96,
+       24
+      ],
+      "note": "selected label of item 2, drawn on top of the panel: it covers panel u 48-143, v 64-87 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   },
+   {
+    "name": "item 3 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       88,
+       96,
+       24
+      ],
+      "xy": [
+       48,
+       170
+      ],
+      "wh": [
+       96,
+       24
+      ],
+      "note": "selected label of item 3, drawn on top of the panel: it covers panel u 48-143, v 88-111 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   },
+   {
+    "name": "item 4 selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       160,
+       160
+      ],
+      "xy": [
+       0,
+       82
+      ],
+      "wh": [
+       160,
+       160
+      ],
+      "note": "panel with the unselected (white) labels"
+     },
+     {
+      "rect": [
+       160,
+       112,
+       96,
+       24
+      ],
+      "xy": [
+       48,
+       194
+      ],
+      "wh": [
+       96,
+       24
+      ],
+      "note": "selected label of item 4, drawn on top of the panel: it covers panel u 48-143, v 112-135 exactly (screen = panel + (0,82)); transparent texels let the white label underneath show"
+     }
+    ]
+   }
+  ],
+  "notes": "0x281df0: SETTEX [obj+0x10] rgba 0x80808080, spr 0x304048 (1:1). Panel at (0,82). Highlight uv (160,16+24k) wh (96,24) at (48,98+24k), k = this+0xb0 (0..4). Its right edge (u=256) lands on screen x=144, i.e. panel u 144: right of it the panel itself continues (frame). The screen behind the panel (other pictures) is not drawn here."
+ },
+ "SYS_MMAKE3_0": {
+  "scenes": [
+   {
+    "name": "item 0 (Management) selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       704,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       284,
+       316
+      ],
+      "wh": [
+       70,
+       70
+      ],
+      "note": "item 4 (Open League) tile, slot 4, scale 40%",
+      "tint": 51
+     },
+     {
+      "rect": [
+       528,
+       320,
+       176,
+       48
+      ],
+      "xy": [
+       284,
+       342
+      ],
+      "wh": [
+       70,
+       19
+      ],
+      "note": "item 4 label, normal row, centred on the tile",
+      "tint": 51
+     },
+     {
+      "rect": [
+       176,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       208,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 5 (Gallery) tile, slot 5, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       192,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       212,
+       316
+      ],
+      "wh": [
+       88,
+       26
+      ],
+      "note": "item 5 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       528,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       336,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 3 (One Night Tournament) tile, slot 3, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       0,
+       416,
+       192,
+       48
+      ],
+      "xy": [
+       332,
+       316
+      ],
+      "wh": [
+       105,
+       26
+      ],
+      "note": "item 3 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       352,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       163,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 6 (Options) tile, slot 6, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       352,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       168,
+       291
+      ],
+      "wh": [
+       112,
+       33
+      ],
+      "note": "item 6 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       354,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 2 (Team Battle) tile, slot 2, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       816,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       371,
+       291
+      ],
+      "wh": [
+       89,
+       33
+      ],
+      "note": "item 2 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       0,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       119,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 7 (Load) tile, slot 7, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       704,
+       320,
+       192,
+       48
+      ],
+      "xy": [
+       112,
+       265
+      ],
+      "wh": [
+       163,
+       40
+      ],
+      "note": "item 7 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       372,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 1 (Special Match) tile, slot 1, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       672,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       385,
+       265
+      ],
+      "wh": [
+       122,
+       40
+      ],
+      "note": "item 1 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "item 0 (Management) tile, slot 0, scale 100%",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped vertically",
+      "flip": "v",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped horizontally",
+      "flip": "h",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped both ways",
+      "flip": "hv",
+      "tint": 128
+     },
+     {
+      "rect": [
+       528,
+       176,
+       144,
+       48
+      ],
+      "xy": [
+       248,
+       236
+      ],
+      "wh": [
+       144,
+       48
+      ],
+      "note": "item 0 label, highlighted row (selected), centred on the tile",
+      "tint": 128
+     }
+    ]
+   },
+   {
+    "name": "item 1 (Special Match) selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       176,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       284,
+       316
+      ],
+      "wh": [
+       70,
+       70
+      ],
+      "note": "item 5 (Gallery) tile, slot 4, scale 40%",
+      "tint": 51
+     },
+     {
+      "rect": [
+       192,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       287,
+       342
+      ],
+      "wh": [
+       64,
+       19
+      ],
+      "note": "item 5 label, normal row, centred on the tile",
+      "tint": 51
+     },
+     {
+      "rect": [
+       352,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       208,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 6 (Options) tile, slot 5, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       352,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       212,
+       316
+      ],
+      "wh": [
+       88,
+       26
+      ],
+      "note": "item 6 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       704,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       336,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 4 (Open League) tile, slot 3, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       528,
+       320,
+       176,
+       48
+      ],
+      "xy": [
+       336,
+       316
+      ],
+      "wh": [
+       96,
+       26
+      ],
+      "note": "item 4 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       0,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       163,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 7 (Load) tile, slot 6, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       704,
+       320,
+       192,
+       48
+      ],
+      "xy": [
+       157,
+       291
+      ],
+      "wh": [
+       134,
+       33
+      ],
+      "note": "item 7 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       528,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       354,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 3 (One Night Tournament) tile, slot 2, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       0,
+       416,
+       192,
+       48
+      ],
+      "xy": [
+       348,
+       291
+      ],
+      "wh": [
+       134,
+       33
+      ],
+      "note": "item 3 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       119,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 0 (Management) tile, slot 7, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       528,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       132,
+       265
+      ],
+      "wh": [
+       122,
+       40
+      ],
+      "note": "item 0 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       372,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 2 (Team Battle) tile, slot 1, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       816,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       392,
+       265
+      ],
+      "wh": [
+       108,
+       40
+      ],
+      "note": "item 2 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "item 1 (Special Match) tile, slot 0, scale 100%",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped vertically",
+      "flip": "v",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped horizontally",
+      "flip": "h",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped both ways",
+      "flip": "hv",
+      "tint": 128
+     },
+     {
+      "rect": [
+       672,
+       176,
+       144,
+       48
+      ],
+      "xy": [
+       248,
+       236
+      ],
+      "wh": [
+       144,
+       48
+      ],
+      "note": "item 1 label, highlighted row (selected), centred on the tile",
+      "tint": 128
+     }
+    ]
+   },
+   {
+    "name": "item 2 (Team Battle) selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       352,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       284,
+       316
+      ],
+      "wh": [
+       70,
+       70
+      ],
+      "note": "item 6 (Options) tile, slot 4, scale 40%",
+      "tint": 51
+     },
+     {
+      "rect": [
+       352,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       287,
+       342
+      ],
+      "wh": [
+       64,
+       19
+      ],
+      "note": "item 6 label, normal row, centred on the tile",
+      "tint": 51
+     },
+     {
+      "rect": [
+       0,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       208,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 7 (Load) tile, slot 5, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       704,
+       320,
+       192,
+       48
+      ],
+      "xy": [
+       204,
+       316
+      ],
+      "wh": [
+       105,
+       26
+      ],
+      "note": "item 7 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       176,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       336,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 5 (Gallery) tile, slot 3, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       192,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       340,
+       316
+      ],
+      "wh": [
+       88,
+       26
+      ],
+      "note": "item 5 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       163,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 0 (Management) tile, slot 6, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       528,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       174,
+       291
+      ],
+      "wh": [
+       100,
+       33
+      ],
+      "note": "item 0 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       704,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       354,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 4 (Open League) tile, slot 2, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       528,
+       320,
+       176,
+       48
+      ],
+      "xy": [
+       354,
+       291
+      ],
+      "wh": [
+       123,
+       33
+      ],
+      "note": "item 4 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       119,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 1 (Special Match) tile, slot 7, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       672,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       132,
+       265
+      ],
+      "wh": [
+       122,
+       40
+      ],
+      "note": "item 1 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       528,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       372,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 3 (One Night Tournament) tile, slot 1, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       0,
+       416,
+       192,
+       48
+      ],
+      "xy": [
+       365,
+       265
+      ],
+      "wh": [
+       163,
+       40
+      ],
+      "note": "item 3 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "item 2 (Team Battle) tile, slot 0, scale 100%",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped vertically",
+      "flip": "v",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped horizontally",
+      "flip": "h",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped both ways",
+      "flip": "hv",
+      "tint": 128
+     },
+     {
+      "rect": [
+       816,
+       176,
+       128,
+       48
+      ],
+      "xy": [
+       256,
+       236
+      ],
+      "wh": [
+       128,
+       48
+      ],
+      "note": "item 2 label, highlighted row (selected), centred on the tile",
+      "tint": 128
+     }
+    ]
+   },
+   {
+    "name": "item 3 (One Night Tournament) selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       284,
+       316
+      ],
+      "wh": [
+       70,
+       70
+      ],
+      "note": "item 7 (Load) tile, slot 4, scale 40%",
+      "tint": 51
+     },
+     {
+      "rect": [
+       704,
+       320,
+       192,
+       48
+      ],
+      "xy": [
+       281,
+       342
+      ],
+      "wh": [
+       76,
+       19
+      ],
+      "note": "item 7 label, normal row, centred on the tile",
+      "tint": 51
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       208,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 0 (Management) tile, slot 5, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       528,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       217,
+       316
+      ],
+      "wh": [
+       79,
+       26
+      ],
+      "note": "item 0 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       352,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       336,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 6 (Options) tile, slot 3, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       352,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       340,
+       316
+      ],
+      "wh": [
+       88,
+       26
+      ],
+      "note": "item 6 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       163,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 1 (Special Match) tile, slot 6, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       672,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       174,
+       291
+      ],
+      "wh": [
+       100,
+       33
+      ],
+      "note": "item 1 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       176,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       354,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 5 (Gallery) tile, slot 2, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       192,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       359,
+       291
+      ],
+      "wh": [
+       112,
+       33
+      ],
+      "note": "item 5 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       119,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 2 (Team Battle) tile, slot 7, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       816,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       139,
+       265
+      ],
+      "wh": [
+       108,
+       40
+      ],
+      "note": "item 2 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       704,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       372,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 4 (Open League) tile, slot 1, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       528,
+       320,
+       176,
+       48
+      ],
+      "xy": [
+       372,
+       265
+      ],
+      "wh": [
+       149,
+       40
+      ],
+      "note": "item 4 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       528,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "item 3 (One Night Tournament) tile, slot 0, scale 100%",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped vertically",
+      "flip": "v",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped horizontally",
+      "flip": "h",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped both ways",
+      "flip": "hv",
+      "tint": 128
+     },
+     {
+      "rect": [
+       0,
+       368,
+       192,
+       48
+      ],
+      "xy": [
+       224,
+       236
+      ],
+      "wh": [
+       192,
+       48
+      ],
+      "note": "item 3 label, highlighted row (selected), centred on the tile",
+      "tint": 128
+     }
+    ]
+   },
+   {
+    "name": "item 4 (Open League) selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       284,
+       316
+      ],
+      "wh": [
+       70,
+       70
+      ],
+      "note": "item 0 (Management) tile, slot 4, scale 40%",
+      "tint": 51
+     },
+     {
+      "rect": [
+       528,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       291,
+       342
+      ],
+      "wh": [
+       57,
+       19
+      ],
+      "note": "item 0 label, normal row, centred on the tile",
+      "tint": 51
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       208,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 1 (Special Match) tile, slot 5, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       672,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       217,
+       316
+      ],
+      "wh": [
+       79,
+       26
+      ],
+      "note": "item 1 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       0,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       336,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 7 (Load) tile, slot 3, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       704,
+       320,
+       192,
+       48
+      ],
+      "xy": [
+       332,
+       316
+      ],
+      "wh": [
+       105,
+       26
+      ],
+      "note": "item 7 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       163,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 2 (Team Battle) tile, slot 6, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       816,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       180,
+       291
+      ],
+      "wh": [
+       89,
+       33
+      ],
+      "note": "item 2 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       352,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       354,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 6 (Options) tile, slot 2, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       352,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       359,
+       291
+      ],
+      "wh": [
+       112,
+       33
+      ],
+      "note": "item 6 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       528,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       119,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 3 (One Night Tournament) tile, slot 7, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       0,
+       416,
+       192,
+       48
+      ],
+      "xy": [
+       112,
+       265
+      ],
+      "wh": [
+       163,
+       40
+      ],
+      "note": "item 3 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       176,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       372,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 5 (Gallery) tile, slot 1, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       192,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       378,
+       265
+      ],
+      "wh": [
+       136,
+       40
+      ],
+      "note": "item 5 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       704,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "item 4 (Open League) tile, slot 0, scale 100%",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped vertically",
+      "flip": "v",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped horizontally",
+      "flip": "h",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped both ways",
+      "flip": "hv",
+      "tint": 128
+     },
+     {
+      "rect": [
+       528,
+       272,
+       176,
+       48
+      ],
+      "xy": [
+       232,
+       236
+      ],
+      "wh": [
+       176,
+       48
+      ],
+      "note": "item 4 label, highlighted row (selected), centred on the tile",
+      "tint": 128
+     }
+    ]
+   },
+   {
+    "name": "item 5 (Gallery) selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       284,
+       316
+      ],
+      "wh": [
+       70,
+       70
+      ],
+      "note": "item 1 (Special Match) tile, slot 4, scale 40%",
+      "tint": 51
+     },
+     {
+      "rect": [
+       672,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       291,
+       342
+      ],
+      "wh": [
+       57,
+       19
+      ],
+      "note": "item 1 label, normal row, centred on the tile",
+      "tint": 51
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       208,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 2 (Team Battle) tile, slot 5, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       816,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       221,
+       316
+      ],
+      "wh": [
+       70,
+       26
+      ],
+      "note": "item 2 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       336,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 0 (Management) tile, slot 3, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       528,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       345,
+       316
+      ],
+      "wh": [
+       79,
+       26
+      ],
+      "note": "item 0 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       528,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       163,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 3 (One Night Tournament) tile, slot 6, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       0,
+       416,
+       192,
+       48
+      ],
+      "xy": [
+       157,
+       291
+      ],
+      "wh": [
+       134,
+       33
+      ],
+      "note": "item 3 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       0,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       354,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 7 (Load) tile, slot 2, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       704,
+       320,
+       192,
+       48
+      ],
+      "xy": [
+       348,
+       291
+      ],
+      "wh": [
+       134,
+       33
+      ],
+      "note": "item 7 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       704,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       119,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 4 (Open League) tile, slot 7, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       528,
+       320,
+       176,
+       48
+      ],
+      "xy": [
+       119,
+       265
+      ],
+      "wh": [
+       149,
+       40
+      ],
+      "note": "item 4 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       352,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       372,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 6 (Options) tile, slot 1, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       352,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       378,
+       265
+      ],
+      "wh": [
+       136,
+       40
+      ],
+      "note": "item 6 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       176,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "item 5 (Gallery) tile, slot 0, scale 100%",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped vertically",
+      "flip": "v",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped horizontally",
+      "flip": "h",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped both ways",
+      "flip": "hv",
+      "tint": 128
+     },
+     {
+      "rect": [
+       192,
+       368,
+       160,
+       48
+      ],
+      "xy": [
+       240,
+       236
+      ],
+      "wh": [
+       160,
+       48
+      ],
+      "note": "item 5 label, highlighted row (selected), centred on the tile",
+      "tint": 128
+     }
+    ]
+   },
+   {
+    "name": "item 6 (Options) selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       284,
+       316
+      ],
+      "wh": [
+       70,
+       70
+      ],
+      "note": "item 2 (Team Battle) tile, slot 4, scale 40%",
+      "tint": 51
+     },
+     {
+      "rect": [
+       816,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       294,
+       342
+      ],
+      "wh": [
+       51,
+       19
+      ],
+      "note": "item 2 label, normal row, centred on the tile",
+      "tint": 51
+     },
+     {
+      "rect": [
+       528,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       208,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 3 (One Night Tournament) tile, slot 5, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       0,
+       416,
+       192,
+       48
+      ],
+      "xy": [
+       204,
+       316
+      ],
+      "wh": [
+       105,
+       26
+      ],
+      "note": "item 3 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       336,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 1 (Special Match) tile, slot 3, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       672,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       345,
+       316
+      ],
+      "wh": [
+       79,
+       26
+      ],
+      "note": "item 1 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       704,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       163,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 4 (Open League) tile, slot 6, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       528,
+       320,
+       176,
+       48
+      ],
+      "xy": [
+       163,
+       291
+      ],
+      "wh": [
+       123,
+       33
+      ],
+      "note": "item 4 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       354,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 0 (Management) tile, slot 2, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       528,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       365,
+       291
+      ],
+      "wh": [
+       100,
+       33
+      ],
+      "note": "item 0 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       176,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       119,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 5 (Gallery) tile, slot 7, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       192,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       125,
+       265
+      ],
+      "wh": [
+       136,
+       40
+      ],
+      "note": "item 5 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       0,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       372,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 7 (Load) tile, slot 1, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       704,
+       320,
+       192,
+       48
+      ],
+      "xy": [
+       365,
+       265
+      ],
+      "wh": [
+       163,
+       40
+      ],
+      "note": "item 7 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       352,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "item 6 (Options) tile, slot 0, scale 100%",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped vertically",
+      "flip": "v",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped horizontally",
+      "flip": "h",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped both ways",
+      "flip": "hv",
+      "tint": 128
+     },
+     {
+      "rect": [
+       352,
+       368,
+       160,
+       48
+      ],
+      "xy": [
+       240,
+       236
+      ],
+      "wh": [
+       160,
+       48
+      ],
+      "note": "item 6 label, highlighted row (selected), centred on the tile",
+      "tint": 128
+     }
+    ]
+   },
+   {
+    "name": "item 7 (Load) selected",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       528,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       284,
+       316
+      ],
+      "wh": [
+       70,
+       70
+      ],
+      "note": "item 3 (One Night Tournament) tile, slot 4, scale 40%",
+      "tint": 51
+     },
+     {
+      "rect": [
+       0,
+       416,
+       192,
+       48
+      ],
+      "xy": [
+       281,
+       342
+      ],
+      "wh": [
+       76,
+       19
+      ],
+      "note": "item 3 label, normal row, centred on the tile",
+      "tint": 51
+     },
+     {
+      "rect": [
+       704,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       208,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 4 (Open League) tile, slot 5, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       528,
+       320,
+       176,
+       48
+      ],
+      "xy": [
+       208,
+       316
+      ],
+      "wh": [
+       96,
+       26
+      ],
+      "note": "item 4 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       352,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       336,
+       281
+      ],
+      "wh": [
+       96,
+       96
+      ],
+      "note": "item 2 (Team Battle) tile, slot 3, scale 55%",
+      "tint": 70
+     },
+     {
+      "rect": [
+       816,
+       224,
+       128,
+       48
+      ],
+      "xy": [
+       349,
+       316
+      ],
+      "wh": [
+       70,
+       26
+      ],
+      "note": "item 2 label, normal row, centred on the tile",
+      "tint": 70
+     },
+     {
+      "rect": [
+       176,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       163,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 5 (Gallery) tile, slot 6, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       192,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       168,
+       291
+      ],
+      "wh": [
+       112,
+       33
+      ],
+      "note": "item 5 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       176,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       354,
+       246
+      ],
+      "wh": [
+       123,
+       123
+      ],
+      "note": "item 1 (Special Match) tile, slot 2, scale 70%",
+      "tint": 89
+     },
+     {
+      "rect": [
+       672,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       365,
+       291
+      ],
+      "wh": [
+       100,
+       33
+      ],
+      "note": "item 1 label, normal row, centred on the tile",
+      "tint": 89
+     },
+     {
+      "rect": [
+       352,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       119,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 6 (Options) tile, slot 7, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       352,
+       416,
+       160,
+       48
+      ],
+      "xy": [
+       125,
+       265
+      ],
+      "wh": [
+       136,
+       40
+      ],
+      "note": "item 6 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       0,
+       0,
+       176,
+       176
+      ],
+      "xy": [
+       372,
+       211
+      ],
+      "wh": [
+       149,
+       149
+      ],
+      "note": "item 0 (Management) tile, slot 1, scale 85%",
+      "tint": 108
+     },
+     {
+      "rect": [
+       528,
+       224,
+       144,
+       48
+      ],
+      "xy": [
+       385,
+       265
+      ],
+      "wh": [
+       122,
+       40
+      ],
+      "note": "item 0 label, normal row, centred on the tile",
+      "tint": 108
+     },
+     {
+      "rect": [
+       0,
+       176,
+       176,
+       176
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       176,
+       176
+      ],
+      "note": "item 7 (Load) tile, slot 0, scale 100%",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       232,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped vertically",
+      "flip": "v",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       172
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped horizontally",
+      "flip": "h",
+      "tint": 128
+     },
+     {
+      "rect": [
+       880,
+       0,
+       88,
+       88
+      ],
+      "xy": [
+       320,
+       260
+      ],
+      "wh": [
+       88,
+       88
+      ],
+      "note": "cursor frame quarter, flipped both ways",
+      "flip": "hv",
+      "tint": 128
+     },
+     {
+      "rect": [
+       704,
+       272,
+       192,
+       48
+      ],
+      "xy": [
+       224,
+       236
+      ],
+      "wh": [
+       192,
+       48
+      ],
+      "note": "item 7 label, highlighted row (selected), centred on the tile",
+      "tint": 128
+     }
+    ]
+   }
+  ],
+  "notes": "Draw 0x2bb108 (called from 0x2a7828), items set up by 0x2baba8 from tables 0x4df858 (x, y, scale% floats), 0x4df8b8 (tile uv, label uv), 0x4df8f8 (sizes). Every draw is spr4 (0x304248), scaled: tile size int(176*scale/100) at (x,y) (top-left); label size int(w*scale/100) x int(48*scale/100), centred on the tile centre (x+t/2, y+t/2). RGB is modulated by int(scale*128/100) (\"tint\", 128 = unchanged), so back items are darker; alpha 0x80 normally. Items are drawn back to front: the item opposite the cursor first, the selected one last. Selected item: cursor frame (880,0,88,88) as four mirrored quarters around the tile, label from the highlighted row (v-48). In states 3/4 (0x1c8) the normal label is drawn first and the highlighted one on top with a pulsing alpha (128 - pulse). Positions: at init item k is in slot k (verified, sel 0). For other selections item k in slot (k-sel) mod 8 is *likely* (the update rotates the per-item floats at this+0x7c; not traced). Animation: on a cursor move every item slides (x, y and scale interpolated) between neighbouring slots; on entry (states 1/2) alpha fades in (0x1c0*16). Label sizes are integers (truncation), positions too; the GS then scales texels with bilinear filtering if enabled (not checked), so edge texels of the neighbouring rect can bleed."
+ },
+ "SYS_OPTION_3": {
+  "scenes": [
+   {
+    "name": "page 1, sound = MONO",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       192,
+       80,
+       144,
+       40
+      ],
+      "xy": [
+       264,
+       80
+      ],
+      "wh": [
+       144,
+       40
+      ],
+      "note": "sound value; OPTION_1 background under it, nothing adjacent from OPTION_3 on its right (screen x 408+ is background)",
+      "row": 3
+     }
+    ]
+   },
+   {
+    "name": "page 1, sound = STEREO",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       192,
+       120,
+       144,
+       40
+      ],
+      "xy": [
+       264,
+       80
+      ],
+      "wh": [
+       144,
+       40
+      ],
+      "note": "sound value; its right 16 columns (u 320-335) hold the left end of the FINISHERS label art and show at screen x 392-407",
+      "row": 3
+     }
+    ]
+   },
+   {
+    "name": "page 2, finisher display = 0 (NORMAL)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       336,
+       80,
+       144,
+       40
+      ],
+      "xy": [
+       264,
+       120
+      ],
+      "wh": [
+       144,
+       40
+      ],
+      "note": "third value; 0x21ed78",
+      "row": 3
+     }
+    ]
+   },
+   {
+    "name": "page 2, finisher display = 1",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       440,
+       192,
+       40
+      ],
+      "xy": [
+       240,
+       120
+      ],
+      "wh": [
+       192,
+       40
+      ],
+      "note": "value 1 draws FINISHERS ONLY (0,440,192,40) at (240,120) instead of (336,120); 0x21ed0c",
+      "row": 3
+     }
+    ]
+   },
+   {
+    "name": "page 2, finisher display = 2 (HIDDEN)",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       336,
+       160,
+       144,
+       40
+      ],
+      "xy": [
+       264,
+       120
+      ],
+      "wh": [
+       144,
+       40
+      ],
+      "note": "third value; 0x21ed78",
+      "row": 3
+     }
+    ]
+   }
+  ],
+  "notes": "OPTION.BIN entry 3 (obj this+0x1a0), draws 0x21e050 (page 1) / 0x21eb30 (page 2), spr 0x304048 1:1, CLUT row 3. Column u 192 is uv (192, 80+40*value) at (264, y) - page 1 rows y 80/240/280, page 2 rows y 80 (uv 360+40v) and 160. Third column: byte 7 of the settings: 1 -> (0,440,192,40) at (240,120), else (336, 80+40v) at (264,120). (336,120,144,40) (FINISHERS) is therefore never drawn, and (192,120) and (336,120) are never side by side: the STEREO cell is shown alone at (264,80) on page 1. Only scenes involving u 192-480, v 80-160 are listed."
+ },
+ "SYS_CMTRN_0": {
+  "scenes": [
+   {
+    "name": "CPU turn (this+0xb4 = 0x4a/0x4b), alpha pulse",
+    "size": [
+     640,
+     448
+    ],
+    "draws": [
+     {
+      "rect": [
+       0,
+       0,
+       384,
+       72
+      ],
+      "xy": [
+       128,
+       188
+      ],
+      "wh": [
+       384,
+       72
+      ],
+      "note": "pulse minimum: alpha = 0x2b7a00(2*frame) cycles 64..128..64 (period 128 frames of the counter*2)",
+      "alpha": 64
+     },
+     {
+      "rect": [
+       0,
+       0,
+       384,
+       72
+      ],
+      "xy": [
+       128,
+       188
+      ],
+      "wh": [
+       384,
+       72
+      ],
+      "note": "pulse maximum",
+      "alpha": 128
+     }
+    ]
+   }
+  ],
+  "notes": "Draw 0x2f52b8 (CMTRN class 0x2efca8): first the office screen 0x21c5b0 (background /SYS/MA_HIS00 object 0xb96f40 640x448 at (0,0) via 0x21c4f0, the OFFICEUE bar at the top y<=112 and office widgets), then the banner (obj this+0x28) at x=(640-384)/2=128, y=188 with RGBA (0x80,0x80,0x80,alpha) set by 0x304678(.,.,1). Screen y 188-259; below its bottom edge (y 260+) is the office background picture (MA_HIS00, not in this set). Only while this+0xb4 is 0x4a or 0x4b."
+ }
+}

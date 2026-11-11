@@ -1,0 +1,249 @@
+image,pick,suggest,options,bounds,review,attempt,notes,installed
+BATTLE_BT_LIST_0,mine,new,cur new mine jp,"cur ok, new ok, mine ok",fixed proposal,"cur: selected Watch sits on a dark box cut out of the yellow plate; unselected Watch has a striped ground; leftover kanji bits on the rows just outside the boxes (Start Match rows 113/132, Skip row 170) | new: selected Watch: yellow plate rebuilt, letters in the plate's own gradient with the original's dark outline (as the kanji); unselected Watch: clean plate with its grain, dark outline kept; kanji leftovers under Start Match and Skip cleared; Skip plate edge columns restored. Wording unchanged",,mine
+BATTLE_MAN00_0,new,new,cur new jp,"cur split, new ok",fixed proposal,"cur: FULL / HOUSE run across the tile edges (split: the game draws tile 1 at 1.5x and tiles 2-3 at 1.2x with gaps), lettering cut flat on 4 tile edges; the old __new and __alt (FULL HOUSE! across all tiles) fail the same way | new: each word whole in its own tile: FULL fills tile 1 (3 px side margins like the kanji), HOUSE inside tile 2 left of the ticket corner (nothing at cols >= 85 below row 41), '!' in tile 3 rows 1-39 so the ticket never covers it; same chrome rings/gradient as cur, cur's SOLD OUT! ticket kept",,new
+BATTLE_MATCH_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the Return/Tag/Pin glows reach 10 px above/below the letters, so they were clipped flat at the top (and Tag's bottom) of their 32-px sprites; Pin/Tag glows sat 1 px off their bubbles | new: glows reach ~6 px above/below and 10 px beside the letters (rounded, fading out 1-2 px inside the sprite like the original); Pin/Tag glow boxes moved 1 px so the glow centres on its bubble. Bubbles and everything else unchanged",,new
+BATTLE_MATCH_1,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: spec boxes are off by a row (Manual starts at row 49), so Semi-Auto/Manual outlines are cut flat on the 16-row cells' bottom edge; hard stair-step outline | new: the soft anti-aliased version (as the earlier proposal) but capitals 10 and a 1.8 px outline centred in each 16-row cell, 1 px clear top and bottom (the earlier proposal sat on row 0)",,new
+BATTLE_MMAKE2_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: same speckled halo fringe; halo on the cells' top and bottom rows (flat) | new: same treatment as MMAKE (smooth halo, caps 24 in all three carousels, edge rows clear)",,new
+BATTLE_MMAKE4_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: same speckled halo fringe; Survival Tag's halo on the bottom row (flat) | new: same treatment as MMAKE (smooth halo, caps 24, edge rows clear)",,new
+BATTLE_MMAKE_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: plate halo has a speckled pink/purple dotted fringe along the top (most-common pick per bin); descenders push the halo onto the cell's bottom row (flat) | new: labels redrawn anti-aliased: the original's fill gradient and plate (black outline, white ring, pink-top/blue-bottom halo) learnt as smooth mean colours by distance and height, snapped to the palette; caps 24, edge rows kept soft/clear; icons untouched",,new
+BATTLE_MM_PT0_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: order tags small (caps 13 in a box reaching row 203, outside the sprite); otherwise fine | new: keeps the earlier proposal (Lead/2nd/Mid/Vice/Capt caps 14, one gradient, Hurt bigger) but each tag inside its 32x24 cell with 2 px side margin and Capt's descender off the bottom row (the earlier one touched the bottom and right edges); Lead is squeezed to 69%",,new
+BATTLE_WIN01_0,cur,cur,cur new jp,never drawn by the game,never drawn,cur: never drawn,,cur
+BATTLE_WIN02_0,cur,cur,cur new jp,never drawn by the game,never drawn,cur: never drawn,,cur
+MAP_DANTAI_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: right-aligned at x 280, leaving the left of the band empty; the original centres its title on the band (x ~189) | new: same lettering, centred on x 189 like the original (alignment is a style call - keep cur if you prefer it right-aligned)",,new
+MAP_GOODS_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: right-aligned at x 280, leaving the left of the band empty; the original centres its title on the band (x ~189); also the ground clear (it had to wipe the long Japanese title to x 299) painted brown over the rounded end's frame corner at x 295-299 y 39-41 - a visible notch | new: centred on x 189 like the original, and the frame corner kept as the original's",,new
+MAP_IN_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: right-aligned at x 280, leaving the left of the band empty; the original centres its title on the band (x ~189) | new: same lettering, centred on x 189 like the original (alignment is a style call - keep cur if you prefer it right-aligned)",,new
+MAP_SAIDAI_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: right-aligned at x 280, leaving the left of the band empty; the original centres its title on the band (x ~189) | new: same lettering, centred on x 189 like the original (alignment is a style call - keep cur if you prefer it right-aligned)",,new
+PAR_MONTH01_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+PAR_MONTH02_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+PAR_MONTH03_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+PAR_MONTH04_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+PAR_MONTH06_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+PAR_MONTH07_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+PAR_MONTH08_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+PAR_MONTH09_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+PAR_MONTH12_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the last letter's white edge runs onto the sprite's right edge (x 263), cut flat on screen where the original kept clear | new: same word and style, moved 4 px left (right 256 instead of 260): a clear 2+ px margin on the right like the original",,new
+SYS_BEL_0,mine,new,cur new jp,"cur ok, new ok",proposal ok,"cur: Page sits on a flat dark pill (the original has a glyph-shaped halo), Sort on a hard-edged slab, letters small (cap 9) | new: existing proposal: Page with a halo like ページ, Flip/Details/Sort on rounded dark plates like the original, cap 10, leftover kana cleared",,mine
+SYS_BEL_4,new,new,cur new alt jp,"cur ok, new ok, alt ok",fixed proposal,"cur: the cyan glowing plates were replaced by flat black ones; long labels squeezed hard | new: cyan plates rebuilt (as the earlier proposal) with cur's wording kept: everything at cap 9, long labels (Popularity, Hometown, Alignment, Home Base, Training n, ...) still condensed to 70-90% - the wording itself is what squeezes | alt: the earlier proposal: same plates, shorter wording (Popular, Thr/Hld/Pow/Stk/Air Atk/Def, From, Align, Pupils, Train 1-4, Base) at cap 10 with no heavy squeeze - wording is the owner's call",,new
+SYS_BRINGR_0,cur,cur,cur new jp,"cur ok, new ok",cur ok,"cur: fine: labels centred in their bars, same treatment as the original | new: existing proposal only nudges the labels up and evens their size - no real gain",,cur
+SYS_COM_P2_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: broken in game colours: each icon has its own CLUT row, and the ground was rebuilt on index numbers, so every coloured oval came out as grey streaks with bits of colour (the old proposal too) | new: each oval refilled with its own colour (the original's shape, rim kept), white English with a dark outline in the oval's shade plus a shadow like the original; Fin yellow on red like 必; Off/Sp unchanged style",,new
+SYS_DIR_A_1,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the g's descender and halo run to the sprite's bottom edge (cut flat, the original kept clear) | new: Training 3 px smaller and 3 px higher (capitals 37 px), clear of the bottom edge",,new
+SYS_DIR_B_1,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: Special Training's descenders and halo cut flat at the sprite's bottom edge | new: capitals 37 px, 3 px higher, clear of the bottom edge",,new
+SYS_G_BUTTON_0,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: plate patched in blotches around the lettering, letters crowd the plate | new: clean plate, same yellow-orange fill with blue outline and shadow, smaller text with padding (check in game)",,new
+SYS_G_MENU0_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: Individual / Special outlines cut flat at the cell top | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed",,new
+SYS_G_MENU1_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: g descenders and capitals cut flat at the cell top and bottom | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed",,new
+SYS_G_MENU2_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: Develop Style / Move Types cut flat at the bottom; Fix Weakness squeezed (old new kept both cuts) | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed (Fix Weakness no longer condensed)",,new
+SYS_G_MENU3_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: descenders (Strength, Dexterity, Recovery, Speed) cut flat at the cell bottom (not flagged: the kanji touched there too) | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed",,new
+SYS_G_MENU5_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: every label squeezed and small; descenders at the bottom edge | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed - normal proportions, larger than cur",,new
+SYS_MENU1_0,new,new,cur new alt jp,"cur ok, new ok, alt ok",fixed proposal,"cur: Scouting's g cut flat at the bottom, Vacate Title at the top; noisy outline (old new/alt still cut) | new: the earlier clean-outline version (menu1.draw), cap 13 instead of 14, boxes on cell rows 0-22 so descender outlines are whole | alt: same with the wording Transfer Talks / Guest Booking / Urge Retirement (owner's call)",,new
+SYS_MENU_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: the red highlight copy is cut flat: End Month and Business at the right of their cells, Gym's y at the bottom, tops of Business/End Month | new: panel cleanup of the earlier new kept; labels moved 8 px left (centred on the blue panel) and sized so the red copy's outline stays inside its cells (cap 13, red outline 3 px); Gym's box raised for its descender",,new
+SYS_MMAKE3_0,new,new,cur new jp,"cur split, new ok",fixed proposal,"cur: split at y 319/320 (Open League: the highlighted plate's shadow runs onto the dim plate), Management / Special Match / One-Night plates touch their cells' right edge (flat), One-Night Tournament also splits at y 415/416 | new: keeps the existing proposal's 'One-Night Tourney' wording (the only wording change); Management, Special Match and One-Night plates narrowed to the original plate width (1 px clear on the right); Management and the highlighted Open League up 1 px, dim Open League down 0.5 px, so the two Open League plates have a clear row between them like the original",,new
+SYS_OFFICEUE_0,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: stray dark lines under Yr and Mo | new: existing proposal: Yr / Mo in the original style, strays gone",,new
+SYS_OPTION_3,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: values NORMAL/HIDDEN/WATCH/SKIP/FINISHERS ONLY filled with the semi-transparent cyan entry (dim, unlike MONO/STEREO's white); WATCH/SKIP squeezed in kanji-sized boxes; CPU BUSINESS/MOVE ART/TRAINING FX on hard-edged white boxes with no blue outline, condensed font unlike SOUND/VOICE | new: values white with the blue outline (as MONO), boxes widened to the cell, streak kept behind HIDDEN/NORMAL; plate labels yellow + blue outline + white halo on the original silver plate (old kanji inpainted, halo follows the letters); both in MPLUS Rounded ExtraBold like the original English labels; never-drawn FINISHERS cell left as the original",,new
+SYS_STD_00_0,alt,new,cur new alt jp,"cur ok, new ok, alt ok",proposal ok,"cur: outline heavier than the original's thin one; 'Lv' in the value cells | new: thinner outline like the original, labels left-aligned like the right column, Lv -> Level (owner's call) | alt: the same new layout but keeping 'Lv' (cur's wording), so the style can be taken without the wording change",,alt
+SYS_ST_06B_0,new,new,cur new alt jp,"cur ok, new ok, alt ok",fixed proposal,"cur: as ST_06: small dark tab labels | new: as ST_06 (14 px tabs in the original grey, gap to the d-pad icon) | alt: as ST_06 (light-grey tabs)",,new
+SYS_ST_06C_0,new,new,cur new alt jp,"cur ok, new ok, alt ok",fixed proposal,"cur: as ST_06: small dark tab labels | new: as ST_06 (14 px tabs in the original grey, gap to the d-pad icon) | alt: as ST_06 (light-grey tabs)",,new
+SYS_ST_06_0,new,new,cur new alt jp,"cur ok, new ok, alt ok",fixed proposal,"cur: tab labels small (12 px) and dark next to the original's large kana | new: tabs at 14 px in the original's grey (the old proposal had made them light grey, unlike the original's unselected tabs); Switch Category 2 px clear of the d-pad icon (it touched it); Move/Difficulty headers redrawn as in the old proposal | alt: the old proposal: the same but with light-grey tab labels (easier to read, less like the original's dimmed unselected tabs), with the Switch Category gap fix",,new
+SYS_ST_07A_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: fine in style and placement, but 'Profile' is small across the tab (cap 13; the katakana fill the tab's width) | new: same spec at cap 16: fills the tab's width like the original, outline still 2+ px clear of the blue border",,new
+SYS_ST_AWI01_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: Short Name / Home Base squeezed to 82% / 87% next to the unsqueezed Name / Skill | new: cap 11 instead of 12: squeeze 90% / 95%, closer to the other labels (1 px smaller letters)",,new
+SYS_ST_UP_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: selected (orange) tab labels at 12 px; they are laid over ST_06's tabs, so they should match the size chosen there | new: orange tab labels at 14 px, like ST_06's new tabs and closer to the original's size; Move/Difficulty unchanged",,new
+SYS_S_MENU01_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: End Partnership / Sell Facilities cut flat at the top, Campaigns at the bottom; Expand Facilities squeezed (old new same cuts) | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed",,new
+SYS_S_MENU02_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: Promotion Data, History, Rankings cut flat at top/bottom (old new same) | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed",,new
+SYS_S_MENU05_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: Options / Quit Game cut flat at top/bottom (cur had been clipped) | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed",,new
+SYS_S_MENU07_0,new,new,cur new jp,"cur ok, new ok",fixed proposal,"cur: Hire Coach cut flat at the cell top (cur had been clipped) | new: one letter size (cap 13) for every row, outline kept 1 px clear of the cell's top and bottom, boxes widened so nothing is squeezed",,new
+BATTLE_MAN01_0,,,cur jp,never drawn by the game,,,,
+BATTLE_MAN02_0,,,cur jp,never drawn by the game,,,,
+BATTLE_MATCH_2,,,cur jp,cur ok,,,,
+BATTLE_MM_PT1_0,,,cur jp,cur ok,,,,
+MAP_KOUGYOU_0,,,cur jp,cur ok,,,,
+PAR_MONTH05_0,,,cur jp,cur ok,,,,
+PAR_MONTH10_0,,,cur jp,cur ok,,,,
+PAR_MONTH11_0,,,cur jp,cur ok,,,,
+PAR_SUBTIT13_0,,,cur jp,cur ok,,,,
+PAR_SUBTIT14_0,,,cur jp,cur ok,,,,
+PAR_SUBTIT15_0,,,cur jp,cur ok,,,,
+PAR_SUBTIT16_0,,,cur jp,cur ok,,,,
+SYS_CMTRN_0,,,cur jp,cur ok,,,,
+SYS_GALETC_2,,,cur jp,cur ok,,,,
+SYS_GYM_M_0,,,cur jp,cur ok,,,,
+SYS_G_MENU4_0,,,cur jp,cur ok,,,,
+SYS_MAP_0,,,cur jp,never drawn by the game,,,,
+SYS_NAMEBACK_0,,,cur jp,cur ok,,,,
+SYS_NAME_2_0,,,cur jp,cur ok,,,,
+SYS_OMA_BG00_0,,,cur jp,never drawn by the game,,,,
+SYS_OPTION_1,,,cur jp,cur ok,,,,
+SYS_OPTION_2,,,cur jp,cur ok,,,,
+SYS_REPORTS_0,,,cur jp,cur ok,,,,
+SYS_REPORTS_1,,,cur jp,cur ok,,,,
+SYS_STC_00_0,,,cur jp,cur ok,,,,
+SYS_STC_P_0,,,cur jp,cur ok,,,,
+SYS_ST_0,,,cur jp,cur ok,,,,
+SYS_ST_00A_0,,,cur jp,cur ok,,,,
+SYS_ST_01A_0,,,cur jp,cur ok,,,,
+SYS_ST_02A_0,,,cur jp,cur ok,,,,
+SYS_ST_04A_0,,,cur jp,cur ok,,,,
+SYS_ST_05B_0,,,cur jp,cur ok,,,,
+SYS_ST_05_0,,,cur jp,cur ok,,,,
+SYS_SYSTITLE_1,,,cur jp,never drawn by the game,,,,
+SYS_SYSTITLE_2,,,cur jp,never drawn by the game,,,,
+SYS_SYSTITLE_3,,,cur jp,never drawn by the game,,,,
+SYS_S_MENU06_0,,,cur jp,cur ok,,,,
+SYS_TITLE_0,,,jp,,,,,
+SYS_WARNING_0,,,cur jp,cur ok,,,,
+SYS_GM_CHR_0,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_1,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_2,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_3,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (6% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_4,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_5,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_6,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_7,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_8,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_9,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_10,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_11,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_12,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_13,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_14,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_15,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (13% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_16,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_17,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_18,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_19,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_20,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_21,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_22,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_23,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_24,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_25,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_26,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_27,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_28,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (11% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_29,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (21% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_30,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_31,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_32,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_33,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_34,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_35,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_36,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_37,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_38,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_39,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_40,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_41,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_42,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_43,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_44,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_45,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_46,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_47,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_48,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (18% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_49,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_50,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_51,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_52,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_53,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_54,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_55,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_56,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_57,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_58,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_59,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_60,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_61,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_62,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_63,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_64,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_65,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_66,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_67,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_68,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_69,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_70,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_71,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_72,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_73,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_74,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_75,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_76,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_77,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_78,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_79,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_80,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_81,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_82,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_83,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_84,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_85,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_86,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_87,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_88,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_89,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_90,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_91,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_92,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_93,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_94,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (27% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_95,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_96,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_97,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_98,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_99,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_100,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_101,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_102,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_103,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_104,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_105,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_106,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_107,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (11% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_108,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (16% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_109,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_110,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_111,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_112,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_113,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_114,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_115,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_116,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_117,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_118,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_119,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_120,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_121,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_122,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_123,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_124,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_125,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_126,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_127,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: tag ink over transparent background past the silhouette (16% of tag pixels) | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_128,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_129,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_130,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_131,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_132,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_133,new,,cur new jp,"cur ok, new ok",fixed proposal,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_134,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_135,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_136,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_137,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_138,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_139,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_140,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_141,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_142,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_143,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_144,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_145,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_146,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_147,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_148,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_149,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_150,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_151,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_152,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_153,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_154,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_155,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_156,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new
+SYS_GM_CHR_157,new,new,cur new jp,"cur ok, new ok",proposal ok,"cur: fine | new: pixel-font name tag, one line, centred where the old tag was (rows 99-110), navy outline + shadow",,new

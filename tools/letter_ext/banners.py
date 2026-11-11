@@ -13,7 +13,7 @@
              end, see SPLIT); white letters, black outline, soft shadow, on the band's colour.
   sysmap     SYS_MAP_0: the same title on the assembled screen, plus its sample text lines.
 
-Spec keys used here besides letter.py's: mode, font, cap, shear, angle, and per mode the
+Spec keys used here besides letter.py's: mode, font, cap, shear, angle, keep (map, opt-in), and per mode the
 measured geometry (see each function).
 """
 import math
@@ -539,6 +539,12 @@ def banner_title(name, src, dst, pal, text, spec):
     for y in rows:
         for x in range(x0, x1 + 1):
             dst[x, y] = ground[y]
+    # opt-in "keep": [[x0, y0, x1, y1], ...] (inclusive, banner coordinates) - the original's pixels
+    # stay there (a frame corner inside the cleared span, e.g. MAP_GOODS's rounded end)
+    for kx0, ky0, kx1, ky1 in spec.get('keep', ()):
+        for y in range(ky0, ky1 + 1):
+            for x in range(kx0, kx1 + 1):
+                dst[x, y] = src[x, y]
     # the English: white fill, black outline to 2 px, a soft dark edge to 3 px
     S = 4
     cap = spec['cap']

@@ -24,7 +24,7 @@ patterns (0013_*). Ranges and patterns leave out duplicates (they follow their o
 Rules for an edited PNG: same size as the original; indexed with the original palette is best,
 RGB/RGBA also works and is snapped to the palette on approve; transparent stays transparent.
 On sheets, magenta (255,0,255) means transparent. Reference files (_original, _check, _palette,
-_english) are ignored by the build.
+_english, _bounds, _bounds_view) are ignored by the build.
 """
 import hashlib
 import json

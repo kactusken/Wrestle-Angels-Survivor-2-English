@@ -2,22 +2,22 @@
  "english": "Individual | Group | Special",
  "boxes": [
   [
-   3,
+   4,
    0,
-   84,
-   24
+   82,
+   23
   ],
   [
-   2,
+   3,
    24,
-   85,
-   24
+   83,
+   23
   ],
   [
-   10,
+   4,
    48,
-   70,
-   24
+   82,
+   23
   ]
  ],
  "fill": [
@@ -30,8 +30,22 @@
    0,
    0,
    88,
-   72
+   24
+  ],
+  [
+   0,
+   24,
+   88,
+   24
+  ],
+  [
+   0,
+   48,
+   88,
+   24
   ]
  ],
- "cap": 14
+ "cap": 13,
+ "reach": 3.0,
+ "notes": "reassess/menus gen.py: boxes = cell rows 0..-1, widened to 2 px from the cell edges, cells cleared, cap 13"
 }

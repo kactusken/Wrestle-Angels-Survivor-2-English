@@ -14,56 +14,154 @@
    28
   ]
  ],
- "same_size": true,
  "groups": [
   {
-   "draw": "office.styled",
-   "ground": "columns",
-   "learn_over": "any",
-   "reach": 5,
-   "step": 1,
-   "font": "BarlowSemiCondensed-Bold.ttf",
-   "shear": 0.22,
+   "draw": "button.draw",
+   "font": "BarlowCondensed-ExtraBoldItalic.ttf",
+   "cap": 15,
+   "shear": 0.12,
+   "width": 96,
+   "centre": 70,
+   "smooth": 8,
+   "dither": 0,
    "labels": [
     0
    ],
+   "state": "dim",
    "region": [
     13,
-    9,
-    115,
-    36
+    10,
+    126,
+    43
    ],
    "flat": [
-    12,
+    11,
     42
    ],
-   "plate": "not (r >= 0xb8 and g >= 0xa8 and b >= 0x90) and not (abs(r - 0xa0) < 0x10 and abs(g - 0x80) < 0x10 and abs(b - 0x80) < 0x10)",
-   "fill": "r >= 0xb8 and g >= 0xa8 and b >= 0x90"
+   "cap_top": 20,
+   "plate": "r >= 0x90 and not (r >= 0xb0 and g >= 0xa0)",
+   "fill_rgb": [
+    216,
+    208,
+    200
+   ],
+   "glow": [
+    [
+     2.5,
+     [
+      160,
+      128,
+      128
+     ]
+    ]
+   ],
+   "profile_rows": [
+    11,
+    41,
+    42
+   ],
+   "keep_alpha_below": 200,
+   "keep_x_below": 24,
+   "keep_rows": [
+    13,
+    40
+   ]
   },
   {
-   "draw": "office.styled",
-   "ground": "columns",
-   "learn_over": "any",
-   "reach": 5,
-   "step": 1,
-   "font": "BarlowSemiCondensed-Bold.ttf",
-   "shear": 0.22,
+   "draw": "button.draw",
+   "font": "BarlowCondensed-ExtraBoldItalic.ttf",
+   "cap": 15,
+   "shear": 0.12,
+   "width": 96,
+   "centre": 70,
+   "smooth": 8,
+   "dither": 0,
    "labels": [
     1
    ],
+   "state": "lit",
    "region": [
     13,
-    73,
-    115,
-    36
+    74,
+    126,
+    107
    ],
    "flat": [
-    76,
+    75,
     106
    ],
-   "plate": "not (b > r or (r >= 0xc0 and g >= 0x68 and b <= 0x40) or r < 0x50)",
-   "fill": "r >= 0xc0 and g >= 0x68 and b <= 0x40"
+   "cap_top": 84,
+   "plate": "r >= 0x98 and not (r >= 0xd0 and g >= 0x68 and b < 0x60) and b <= r",
+   "fill_stops": [
+    [
+     0,
+     [
+      248,
+      112,
+      0
+     ]
+    ],
+    [
+     0.55,
+     [
+      248,
+      216,
+      0
+     ]
+    ],
+    [
+     0.75,
+     [
+      248,
+      248,
+      0
+     ]
+    ],
+    [
+     1,
+     [
+      248,
+      248,
+      0
+     ]
+    ]
+   ],
+   "glow": [
+    [
+     1.5,
+     [
+      112,
+      104,
+      184
+     ]
+    ],
+    [
+     3.0,
+     [
+      72,
+      56,
+      160
+     ]
+    ]
+   ],
+   "shadow": [
+    [
+     24,
+     0,
+     8
+    ],
+    [
+     16,
+     0,
+     0
+    ]
+   ],
+   "depth": 3,
+   "profile_rows": [
+    75,
+    76
+   ]
   }
  ],
- "notes": "training button \u7df4\u7fd2\u958b\u59cb, dim and lit states: plate rebuilt per column, fill gradient, outline and shadow learnt from the original (tools/letter_ext/office.py styled)"
+ "notes": "training button 練習開始, dim and lit states: plate rebuilt per column, fill gradient, outline and shadow learnt from the original (tools/letter_ext/office.py styled)"
 }

@@ -49,6 +49,9 @@ Set up from the translation kit (version 581d857). Tools marked *game* are stubs
 | [compare.py](compare.py) | *Pillow*: original \| English sheets |
 | [contact.py](contact.py) | *Pillow*: every original image on labelled sheets |
 | [clutview.py](clutview.py) | *Pillow*: 4-bit pictures in the CLUT rows the game draws them with (tools/clutrows.json) |
+| [bounds.py](bounds.py) | do image edits stay inside the sprites the game draws (tools/sprites.json, clutrows.json); `--guide` writes a guide layer |
+| [screenmock.py](screenmock.py) | *Pillow*: a picture's sprites put together on screen as the game does (tools/layouts.json), every version side by side |
+| [choose.py](choose.py) | *Pillow*: pick a version per image (translation/image-choices.csv), export one for hand editing with its guide, install the picks |
 
 ## Guide
 

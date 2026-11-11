@@ -740,6 +740,38 @@ Return/Tag/Pin 7/8/9; MATCH_2 card type n in row n; COM_P2 icon code k in row k,
 0-4 of SYS/COM_P2C.GSL's CLUT (CBP moved, 0x2d3354; *likely*). Open: BEL_4's 名前 plate is drawn in
 row 1, whose entries are all transparent; MATCH_0's katakana strip has no draw found.
 
+**Sprite rectangles** (*from the code*, 2026-11-11). Most pictures are sheets: the game draws
+rectangles (u, v, w, h) out of them, given at each draw site (immediates or sdata tables; there is
+no sprite table format). `tools/sprites.json` (8-bit, 227 pictures, 547 rects) and
+`tools/clutrows.json` (4-bit) list every rect of every translated picture with its evidence and
+confidence; `tools/bounds.py` checks edits against them (also in `tools/check.py`).
+`tools/layouts.json` (23 pictures) gives where and at what scale the sprites land on screen and
+which draws overlap. With it, bounds.py also finds two things:
+- a word split across sprites that aren't drawn edge to edge at the same scale;
+- lettering covered by another part of the same picture more than the original's is. The front
+  tile of MMAKE/MMAKE2/MMAKE3 covers about half of each neighbour's label, and our labels are
+  covered by the same share as the originals.
+- Texture filter: bilinear. The texture setup 0x309680 (from 0x303c38) writes TEX1_1 = 0x60
+  (MMAG/MMIN linear). UVs have no half-texel offset (0x309b28 stores u<<4, (u+w)<<4).
+- Each sprite sets CLAMP_1 to REGION_CLAMP on its own rect (0x3098d8), so texels outside the rect
+  can't bleed in; letters on the rect's edge are cut flat. (Whether the zoom quad 0x3046b8 used by
+  MAN00's ticket does the same was not checked.)
+- Never drawn: BATTLE MAN01, MAN02 (file-table entries no code references), WIN01, WIN02 (not in
+  the executable), SYS SYSTITLE 1-3, OMA_BG00, MAP. MM_PT0's ケガ boxes (y >= 232) are in no rect.
+- Portraits (GM_CHR.BIN) are drawn 1:1 in two places: the training result screen draws the whole
+  128x128 (0x27f750; a Level Up / New Move badge fades in over rows 70-117), the status screen with
+  the COM_P2 icons draws only (0,0,112,92) (0x284638, size at 0x59aa90): there the English tag in
+  rows 97-110 is not shown, only the Japanese tag at the top.
+- On-screen layouts (where each sprite lands, its size, each selection or animation state) are
+  in `tools/layouts.json` for the pictures whose English reaches a sprite edge; `tools/screenmock.py`
+  renders them. Findings: MAN00's three cells end 8 px apart and cell 1 is drawn 1.5x (the others
+  ~1.2x), so a word can't run across them; MATCH_0's glow is drawn on top of its bubble at the same
+  place, alpha pulsing 0-128 every 32 frames; MATCH_1 shows one mode label per player, never
+  stacked; OPTION_3's FINISHERS cell (336,120) is never drawn (value 1 draws FINISHERS ONLY at
+  (0,440)); the MENU_0 / GYM_M red highlight copies sit exactly on the white labels.
+- Partly drawn: OFFICEUE (x 320-511 never), REPORTS_0 (y >= 344 never), STC_P (x 144-207 below
+  y 32 never), MONTH banners (264 of 272 columns).
+
 ## Open questions
 - Speaker name box width; whether 【】 are drawn.
 - Text drawn with widths computed as bytes x 11 outside width() (centred menus) - check in game.

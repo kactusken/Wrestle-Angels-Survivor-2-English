@@ -28,7 +28,7 @@
  ],
  "font": "BarlowCondensed-Black.ttf",
  "draw": "battle.draw",
- "notes": "超満員 FULL HOUSE ! (three tiles, kept apart in case the game shows them one by one) over 札止め SOLD OUT! on a ticket; chrome lettering, rings and ticket paper rebuilt by tools/letter_ext/battle.py",
+ "notes": "\u8d85\u6e80\u54e1 FULL HOUSE ! (three tiles, kept apart in case the game shows them one by one) over \u672d\u6b62\u3081 SOLD OUT! on a ticket; chrome lettering, rings and ticket paper rebuilt by tools/letter_ext/battle.py | reassess 2026-11-11: each word whole in its own tile (place): FULL fills tile 1, HOUSE clear of the ticket corner (tile 2 cols >= 85, rows >= 41 hidden on screen), ! in tile 3 rows 1-38 (rest under the ticket)",
  "groups": [
   {
    "fill": "enclosed",
@@ -42,9 +42,47 @@
    "alpha_min": 250,
    "labels": [
     0,
-    1,
     2
-   ]
+   ],
+   "place": [
+    [
+     3,
+     1,
+     90,
+     85
+    ],
+    [
+     196,
+     1,
+     30,
+     39
+    ]
+   ],
+   "own_cap": true
+  },
+  {
+   "fill": "enclosed",
+   "barrier": "grey",
+   "layers": "dir",
+   "reach": 10,
+   "rim": 6,
+   "grad": "group",
+   "pick": "common",
+   "ground": "transparent",
+   "alpha_min": 250,
+   "labels": [
+    1
+   ],
+   "place": [
+    [
+     99,
+     1,
+     80,
+     85
+    ]
+   ],
+   "own_cap": true,
+   "squeeze_floor": 0.64
   },
   {
    "labels": [
