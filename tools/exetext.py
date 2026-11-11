@@ -31,7 +31,8 @@ game's allocations start there. The
 original string stays where it was, so anything that reaches it some other way still works.
 
 In the table, a line break is written `\\n`. The text is drawn by tools/font.py's draw(): plain
-ASCII (no stand-ins needed), `~` becomes the full-width ～ and `\\` is not allowed (¥).
+ASCII (no stand-ins needed), `{empty}` alone is an empty string (e.g. 名 after the save slot's
+wrestler count), `~` becomes the full-width ～ and `\\` is not allowed (¥).
 """
 import argparse
 import csv
@@ -48,6 +49,7 @@ CSV_NAME = 'exe.csv'
 BASE, FILE_OFF = 0x200000, 0x1000
 TEXT = (0x200000, 0x3768f8)
 DATA = (0x376900, 0x59e600)
+ALIGN = 8                               # strings start on 8-byte boundaries (Exe.room)
 GP = 0x5a0bf0
 BSS_END = 0x10a8094
 EXTRA_BASE = 0x10a8100               # the new segment (16-byte aligned, after .bss)
@@ -135,11 +137,18 @@ class Exe:
         return refs
 
     def room(self, addr, strings):
-        """Bytes available in place: the string, its NUL and the zeros after it."""
-        end = self.off(addr) + len(strings[addr]) + 1
-        while end < self.off(DATA[1]) and self.data[end] == 0 and (BASE + end - FILE_OFF) not in strings:
+        """Bytes available in place (with the NUL): the string, its NUL and the alignment zeros up
+        to the next 8-byte boundary, plus one byte past it for the NUL alone (it writes 0 over 0).
+        Zeros beyond the boundary can be the next object's data: 社長 at 0x59d548 is followed by
+        the training-header (u, v) pair (0, 144) at 0x59d550, and 'President' there turned u=0
+        into 't' (116) - Training 1's header drew 'ining 3 | Trai'."""
+        start = self.off(addr)
+        end = start + len(strings[addr]) + 1
+        limit = min(self.off(DATA[1]), start + (-(addr + len(strings[addr]) + 1) % ALIGN)
+                    + len(strings[addr]) + 2)
+        while end < limit and self.data[end] == 0 and (BASE + end - FILE_OFF) not in strings:
             end += 1
-        return end - self.off(addr)
+        return end - start
 
 
 def branch_of(x, j):
@@ -249,7 +258,12 @@ def unescape(s):
     return s.replace('\\n', '\n')
 
 
+EMPTY = '{empty}'                       # English that draws nothing (a blank cell would show)
+
+
 def encode(text):
+    if text.strip() == EMPTY:
+        return b''
     for a, b in REPLACE.items():
         text = text.replace(a, b)
     if '\\' in text.replace('\\n', ''):

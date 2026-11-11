@@ -324,11 +324,11 @@ def preview(name, out, folder):
 
 def sync(specs):
     """Copy each spec's English, boxes and notes into translation/graphics.csv (font 'hand'); add a
-    catalogue row for a picture that has none."""
-    path = paths.TRANSLATION / 'graphics.csv'
-    with open(path, encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        fields, table = reader.fieldnames, list(reader)
+    catalogue row for a picture that has none. Reads and writes through tools/catalog.py (its CRLF
+    lines), and keeps the 'hand-made' tag tools/edit.py adds to the notes on approve."""
+    import catalog
+    table = catalog.rows()
+    fields = list(table[0].keys()) if table else catalog.COLUMNS
     by = {r['image']: r for r in table}
     added = 0
     for name, spec in specs.items():
@@ -345,11 +345,9 @@ def sync(specs):
         row['boxes'] = ';'.join(','.join(str(v) for v in b) for b in spec['boxes'])
         row['font'] = 'hand'
         if spec.get('notes'):
-            row['notes'] = spec['notes']
-    with open(path, 'w', encoding='utf-8', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=fields, lineterminator='\n')
-        w.writeheader()
-        w.writerows(table)
+            tagged = 'hand-made' in row['notes'].split('; ')
+            row['notes'] = spec['notes'] + ('; hand-made' if tagged and 'hand-made' not in spec['notes'] else '')
+    catalog.write_rows(table)
     print(f'graphics.csv: {len(specs)} rows from specs ({added} new)')
 
 

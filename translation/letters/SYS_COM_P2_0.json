@@ -1,5 +1,5 @@
 {
- "english": "Off | Sp | Sty | Bas | Atk | Def | Thr | Hld | Pow | Stk | Air | Mv | Fin | Wk | Str | Dex | Sta | Rec | Spd",
+ "english": "Off | Sp | Sty | Bas | Atk | Def | Thr | Hld | Pow | Stk | Air | Mv | Fin | Wk | Str | Dex | Sta | Rec | Spd | Ad",
  "boxes": [
   [
    0,
@@ -114,26 +114,36 @@
    96,
    48,
    24
+  ],
+  [
+   144,
+   96,
+   48,
+   24
   ]
  ],
  "font": "BarlowCondensed-Bold.ttf",
  "draw": "status.draw_icons",
  "cap": 12,
- "notes": "stat icons (status batch): 休 Off, 特 Sp, 個 Sty, 基 Bas, 攻 Atk, 防 Def, 投 Thr, 極 Hld, パ Pow, 打 Stk, 飛 Air, 技 Mv, 必 Fin, 弱 Wk, 筋 Str, 器 Dex, 体 Sta, 回 Rec, 速 Spd; bandage, crown and the イ-like mark left as they are",
+ "notes": "stat icons (status batch): 休 Off, 特 Sp, 個 Sty, 基 Bas, 攻 Atk, 防 Def, 投 Thr, 極 Hld, パ Pow, 打 Stk, 飛 Air, 技 Mv, 必 Fin, 弱 Wk, 筋 Str, 器 Dex, 体 Sta, 回 Rec, 速 Spd; イ-like mark (the ＣＭ出演 TV-ad booking, drawn green) Ad; bandage and crown left as they are",
  "overrides": {
   "Off": {
    "bg": 15,
    "fill": 5,
-   "ring": 10
+   "ring": 10,
+   "shadow": false
   },
   "Sp": {
    "bg": 15,
    "fill": 3,
-   "ring": 10
+   "ring": 10,
+   "shadow": false
   },
-  "Pow": {
-   "fill": 15,
-   "ring": 3
+  "Fin": {
+   "fill": 14,
+   "ring": 2
   }
- }
+ },
+ "game_colours": true,
+ "shadow": true
 }
