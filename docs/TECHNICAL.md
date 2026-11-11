@@ -723,6 +723,17 @@ opaque). tools/gfx.py exports and imports them (indexed PNG in the game's palett
 every unchanged picture gives identical files. 79 pictures hold Japanese text:
 translation/graphics.csv. Contact sheets: review/gsl_contact_*.png.
 
+**4-bit pictures show the wrong colours in the exports** (*verified*, 2026-11-10). A PSMT4 picture is
+followed by a full 256-colour CLUT (16 rows of 16), and the game picks a row per sprite when it
+draws (CSA). tools/gfx.py `palette()` keeps only row 0, so review/images-original and
+review/images-english show row 0. The indices are not affected (imports are exact), but anything judged by its colours
+is. Example: BATTLE_MATCH_0's stat bars are drawn with row 13 (orange "Atk", green "Def" on red, as
+in docs/screenshots/match-cards.png); in row 0 "Atk" looks like a black blob. All 20 translated
+4-bit pictures have several rows: BATTLE_BT_LIST_0 (8), BATTLE_MATCH_0 (16), BATTLE_MATCH_2 (10),
+SYS_COM_P2_0 (16; its CLUT may also come from SYS/COM_P2C.GSL), SYS_BRINGR_0 (11), SYS_BEL_0 (4),
+SYS_BEL_4 (2), SYS_MENU1_0 (4), SYS_OPTION_3 (8), SYS_G_MENU0-5_0 and SYS_S_MENU01/02/05/06/07_0
+(3). Which row each sprite uses is not yet known except MATCH_0's bars.
+
 ## Open questions
 - Speaker name box width; whether 【】 are drawn.
 - Text drawn with widths computed as bytes x 11 outside width() (centred menus) - check in game.
