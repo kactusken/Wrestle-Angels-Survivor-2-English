@@ -48,6 +48,7 @@ Set up from the translation kit (version 581d857). Tools marked *game* are stubs
 | [edit.py](edit.py) | *Pillow*: hand-edit workflow - start, check, approve, reset, sheets |
 | [compare.py](compare.py) | *Pillow*: original \| English sheets |
 | [contact.py](contact.py) | *Pillow*: every original image on labelled sheets |
+| [clutview.py](clutview.py) | *Pillow*: 4-bit pictures in the CLUT rows the game draws them with (tools/clutrows.json) |
 
 ## Guide
 

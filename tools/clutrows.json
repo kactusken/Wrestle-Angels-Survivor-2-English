@@ -1,0 +1,2894 @@
+{
+ "SYS_G_MENU0_0": [
+  {
+   "rect": [
+    0,
+    0,
+    88,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2822d0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 88x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    88,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2822d0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 88x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    88,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2822d0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 88x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    88,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2822d0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 88x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    88,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2822d0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 88x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    88,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2822d0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 88x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_G_MENU1_0": [
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x282890: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x282890: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x282890: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x282890: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x282890: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x282890: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 144x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_G_MENU2_0": [
+  {
+   "rect": [
+    0,
+    0,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,144) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,144) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    168,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,168) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    168,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286618: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,168) 128x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_G_MENU3_0": [
+  {
+   "rect": [
+    0,
+    0,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x286df0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 112x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_G_MENU4_0": [
+  {
+   "rect": [
+    0,
+    0,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    112,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 112x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    112,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2873b0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 112x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_G_MENU5_0": [
+  {
+   "rect": [
+    0,
+    0,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x287aa0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x287aa0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x287aa0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x287aa0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x287aa0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x287aa0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    128,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x287aa0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 128x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    128,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x287aa0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 128x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_S_MENU01_0": [
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,144) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,144) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    168,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,168) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    168,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,168) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    192,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,192) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    192,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2fbfe0: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,192) 144x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_S_MENU02_0": [
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,144) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2ebc98: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,144) 144x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_S_MENU05_0": [
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,72) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,96) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x300488: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,120) 144x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_S_MENU06_0": [
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0710: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0710: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0710: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0710: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_S_MENU07_0": [
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e1358: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e1358: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 0,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e1358: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e1358: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(0,24) 144x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_MENU1_0": [
+  {
+   "rect": [
+    80,
+    0,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    0,
+    144,
+    24
+   ],
+   "row": 2,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,0) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    24,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    24,
+    144,
+    24
+   ],
+   "row": 2,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,24) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    48,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    48,
+    144,
+    24
+   ],
+   "row": 2,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,48) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    72,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,72) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    72,
+    144,
+    24
+   ],
+   "row": 2,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,72) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    96,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,96) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    96,
+    144,
+    24
+   ],
+   "row": 2,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,96) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    120,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,120) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    120,
+    144,
+    24
+   ],
+   "row": 2,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,120) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    144,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,144) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    144,
+    144,
+    24
+   ],
+   "row": 2,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,144) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    168,
+    144,
+    24
+   ],
+   "row": 1,
+   "note": "item not under the cursor",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,168) 144x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    80,
+    168,
+    144,
+    24
+   ],
+   "row": 2,
+   "note": "item under the cursor (selected)",
+   "evidence": "draw fn 0x2e0d60: 0x305320(menu+0x28, csa) then 0x304248 sprite uv=(80,168) 144x24",
+   "confidence": "verified"
+  }
+ ],
+ "BATTLE_MATCH_0": [
+  {
+   "rect": [
+    0,
+    384,
+    260,
+    24
+   ],
+   "row": 13,
+   "note": "stat bar (Throw): whole bar incl. both Atk/Def pairs; matches docs/screenshots/match-cards.png",
+   "evidence": "0x257a84: 0x305388(match, 13, pic 0); rect table 0x599f70.. copied to 0x101b8a8, drawn 0x303c80/0x303ee8",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    408,
+    260,
+    24
+   ],
+   "row": 13,
+   "note": "stat bar (Hold): whole bar incl. both Atk/Def pairs; matches docs/screenshots/match-cards.png",
+   "evidence": "0x257a84: 0x305388(match, 13, pic 0); rect table 0x599f70.. copied to 0x101b8a8, drawn 0x303c80/0x303ee8",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    432,
+    260,
+    24
+   ],
+   "row": 13,
+   "note": "stat bar (Power): whole bar incl. both Atk/Def pairs; matches docs/screenshots/match-cards.png",
+   "evidence": "0x257a84: 0x305388(match, 13, pic 0); rect table 0x599f70.. copied to 0x101b8a8, drawn 0x303c80/0x303ee8",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    456,
+    260,
+    24
+   ],
+   "row": 13,
+   "note": "stat bar (Strike): whole bar incl. both Atk/Def pairs; matches docs/screenshots/match-cards.png",
+   "evidence": "0x257a84: 0x305388(match, 13, pic 0); rect table 0x599f70.. copied to 0x101b8a8, drawn 0x303c80/0x303ee8",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    480,
+    260,
+    24
+   ],
+   "row": 13,
+   "note": "stat bar (Aerial): whole bar incl. both Atk/Def pairs; matches docs/screenshots/match-cards.png",
+   "evidence": "0x257a84: 0x305388(match, 13, pic 0); rect table 0x599f70.. copied to 0x101b8a8, drawn 0x303c80/0x303ee8",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    320,
+    48,
+    64,
+    32
+   ],
+   "row": 7,
+   "note": "command bubble \"Return\"",
+   "evidence": "0x256218: csa 7, rect from static at gp-relative 0x59e6b8/0x59e6d8/0x59e698 (init in fn 0x253410)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    320,
+    80,
+    64,
+    32
+   ],
+   "row": 7,
+   "note": "glow sprite of \"Return\"",
+   "evidence": "0x2563d8 area: same csa, glow rect (v=80)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    384,
+    48,
+    56,
+    32
+   ],
+   "row": 8,
+   "note": "command bubble \"Tag\"",
+   "evidence": "0x2562ac: csa 8, rect from static at gp-relative 0x59e6b8/0x59e6d8/0x59e698 (init in fn 0x253410)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    384,
+    80,
+    56,
+    32
+   ],
+   "row": 8,
+   "note": "glow sprite of \"Tag\"",
+   "evidence": "0x25646c area: same csa, glow rect (v=80)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    440,
+    48,
+    72,
+    32
+   ],
+   "row": 9,
+   "note": "command bubble \"Pin\"",
+   "evidence": "0x256180: csa 9, rect from static at gp-relative 0x59e6b8/0x59e6d8/0x59e698 (init in fn 0x253410)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    440,
+    80,
+    72,
+    32
+   ],
+   "row": 9,
+   "note": "glow sprite of \"Pin\"",
+   "evidence": "0x256340 area: same csa, glow rect (v=80)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    256,
+    224,
+    160,
+    24
+   ],
+   "row": 4,
+   "note": "katakana glyph strip (Pin/Tag/Return); may be unused",
+   "evidence": "not traced: no draw found for u>=256 at v=224; the digit strip at (0,224) uses csa 4 (0x257b24, 0x252f4c) / 15 (0x257b00)",
+   "confidence": "guess"
+  },
+  {
+   "rect": [
+    0,
+    224,
+    256,
+    24
+   ],
+   "row": 4,
+   "note": "digit strip 0-9ABCDES (card numbers, Atk/Def values); not a text box",
+   "evidence": "0x257b24/0x252f4c: digit u=n*16 v=224 16x24, csa 4",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    224,
+    256,
+    24
+   ],
+   "row": 15,
+   "note": "digit strip, highlighted value",
+   "evidence": "0x257b00/0x257c28: csa 15 when the value is highlighted",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    320,
+    128
+   ],
+   "row": 2,
+   "note": "top plate, red (left) corner; not a text box",
+   "evidence": "0x2566c4: csa 2, rect (0,0)+[0x599f08]=320x128",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    320,
+    128
+   ],
+   "row": 3,
+   "note": "top plate, blue (right) corner, mirrored",
+   "evidence": "0x256708: csa 3, drawn mirrored at x=320",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    176,
+    48,
+    48
+   ],
+   "row": 8,
+   "note": "\"+\" glyph (not text box)",
+   "evidence": "0x257e70: csa 8",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    48,
+    176,
+    48,
+    48
+   ],
+   "row": 9,
+   "note": "\"-\" glyph (not text box)",
+   "evidence": "0x257ddc: csa 9",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    248,
+    304,
+    32
+   ],
+   "row": 12,
+   "note": "ARM/LEG gauge frame (already English; not a text box)",
+   "evidence": "0x2584b8: csa 12 (also mirrored)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    280,
+    304,
+    64
+   ],
+   "row": 11,
+   "note": "ARM/LEG gauges (already English; not a text box)",
+   "evidence": "0x258450: csa 11, rects (0,280,304,32),(0,312,304,32)",
+   "confidence": "verified"
+  }
+ ],
+ "BATTLE_MATCH_2": [
+  {
+   "rect": [
+    0,
+    0,
+    56,
+    72
+   ],
+   "row": 0,
+   "note": "card 0: card back (WAS); colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    56,
+    0,
+    56,
+    72
+   ],
+   "row": 1,
+   "note": "card 1: Throw; colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    112,
+    0,
+    56,
+    72
+   ],
+   "row": 2,
+   "note": "card 2: Hold; colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    168,
+    0,
+    56,
+    72
+   ],
+   "row": 3,
+   "note": "card 3: Power; colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    56,
+    72
+   ],
+   "row": 4,
+   "note": "card 4: Strike; colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    56,
+    72,
+    56,
+    72
+   ],
+   "row": 5,
+   "note": "card 5: Aerial; colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    112,
+    72,
+    56,
+    72
+   ],
+   "row": 6,
+   "note": "card 6: Finisher; colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    168,
+    72,
+    56,
+    72
+   ],
+   "row": 7,
+   "note": "card 7: Double; colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    56,
+    72
+   ],
+   "row": 8,
+   "note": "card 8: Other; colours match the screenshot (Throw green, Hold blue)",
+   "evidence": "0x252e20: 0x305388(match, type, pic 2); uv=((type&3)*56, (type>>2)*72) 56x72",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_COM_P2_0": [
+  {
+   "rect": [
+    0,
+    0,
+    48,
+    24
+   ],
+   "row": 0,
+   "note": "icon code 0",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    48,
+    0,
+    48,
+    24
+   ],
+   "row": 1,
+   "note": "icon code 1",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    96,
+    0,
+    48,
+    24
+   ],
+   "row": 2,
+   "note": "icon code 2",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    144,
+    0,
+    48,
+    24
+   ],
+   "row": 3,
+   "note": "icon code 3",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    0,
+    48,
+    24
+   ],
+   "row": 4,
+   "note": "icon code 4",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    48,
+    24
+   ],
+   "row": 5,
+   "note": "icon code 5",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    48,
+    24,
+    48,
+    24
+   ],
+   "row": 6,
+   "note": "icon code 6",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    96,
+    24,
+    48,
+    24
+   ],
+   "row": 7,
+   "note": "icon code 7",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    144,
+    24,
+    48,
+    24
+   ],
+   "row": 8,
+   "note": "icon code 8",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    24,
+    48,
+    24
+   ],
+   "row": 9,
+   "note": "icon code 9",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    48,
+    24
+   ],
+   "row": 10,
+   "note": "icon code 10",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    48,
+    48,
+    48,
+    24
+   ],
+   "row": 11,
+   "note": "icon code 11",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    96,
+    48,
+    48,
+    24
+   ],
+   "row": 12,
+   "note": "icon code 12",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    144,
+    48,
+    48,
+    24
+   ],
+   "row": 13,
+   "note": "icon code 13",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    48,
+    24
+   ],
+   "row": 14,
+   "note": "icon code 14 (same cell as code 0, other colour)",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    48,
+    48,
+    24
+   ],
+   "row": 15,
+   "note": "icon code 15",
+   "evidence": "0x2d3220/0x284720: CBP = pic base+0x40 (own CLUT), csa = icon code; uv table 0x4f1670 (0x4db6f0)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    96,
+    72,
+    48,
+    24
+   ],
+   "row": 0,
+   "note": "icon code 16: row 0 of COM_P2C.GSL's CLUT, not COM_P2's own",
+   "evidence": "0x2d3354/0x284850: CBP = pic base+0x44 (the CLUT of /SYS/COM_P2C.GSL), csa = code-16",
+   "confidence": "likely",
+   "clut": {
+    "file": "/SYS/COM_P2C.GSL",
+    "offset": 112
+   }
+  },
+  {
+   "rect": [
+    144,
+    72,
+    48,
+    24
+   ],
+   "row": 1,
+   "note": "icon code 17: row 1 of COM_P2C.GSL's CLUT, not COM_P2's own",
+   "evidence": "0x2d3354/0x284850: CBP = pic base+0x44 (the CLUT of /SYS/COM_P2C.GSL), csa = code-16",
+   "confidence": "likely",
+   "clut": {
+    "file": "/SYS/COM_P2C.GSL",
+    "offset": 112
+   }
+  },
+  {
+   "rect": [
+    192,
+    72,
+    48,
+    24
+   ],
+   "row": 2,
+   "note": "icon code 18: row 2 of COM_P2C.GSL's CLUT, not COM_P2's own",
+   "evidence": "0x2d3354/0x284850: CBP = pic base+0x44 (the CLUT of /SYS/COM_P2C.GSL), csa = code-16",
+   "confidence": "likely",
+   "clut": {
+    "file": "/SYS/COM_P2C.GSL",
+    "offset": 112
+   }
+  },
+  {
+   "rect": [
+    96,
+    96,
+    48,
+    24
+   ],
+   "row": 3,
+   "note": "icon code 19: row 3 of COM_P2C.GSL's CLUT, not COM_P2's own",
+   "evidence": "0x2d3354/0x284850: CBP = pic base+0x44 (the CLUT of /SYS/COM_P2C.GSL), csa = code-16",
+   "confidence": "likely",
+   "clut": {
+    "file": "/SYS/COM_P2C.GSL",
+    "offset": 112
+   }
+  },
+  {
+   "rect": [
+    144,
+    96,
+    48,
+    24
+   ],
+   "row": 4,
+   "note": "icon code 20: row 4 of COM_P2C.GSL's CLUT, not COM_P2's own",
+   "evidence": "0x2d3354/0x284850: CBP = pic base+0x44 (the CLUT of /SYS/COM_P2C.GSL), csa = code-16",
+   "confidence": "likely",
+   "clut": {
+    "file": "/SYS/COM_P2C.GSL",
+    "offset": 112
+   }
+  }
+ ],
+ "SYS_BRINGR_0": [
+  {
+   "rect": [
+    0,
+    0,
+    256,
+    120
+   ],
+   "row": 0,
+   "note": "stat table (all stat labels)",
+   "evidence": "0x27f350: csa 0, sprite uv (0,0) 256x120",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    128,
+    40,
+    120
+   ],
+   "row": 0,
+   "note": "side strip",
+   "evidence": "0x27f350: csa 0, sprite (0,128) 40x120",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    40,
+    160,
+    96,
+    48
+   ],
+   "row": 5,
+   "note": "New Move! button",
+   "evidence": "0x27f9c8: kind 1 -> csa 5, uv table 0x4d82a8",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    136,
+    160,
+    96,
+    48
+   ],
+   "row": 7,
+   "note": "New Difficulty button",
+   "evidence": "0x27f9ec: kind 2 -> csa 7",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    136,
+    208,
+    96,
+    48
+   ],
+   "row": 4,
+   "note": "Level Up button",
+   "evidence": "0x27f9c0: kind 0 -> csa 4",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    40,
+    128,
+    216,
+    32
+   ],
+   "row": 3,
+   "note": "digit/letter strip, unchanged value (not a text box)",
+   "evidence": "0x27f4bc: digits 16x16 at (40+16n%m, 128+16n/m), csa 3",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    40,
+    128,
+    216,
+    32
+   ],
+   "row": 8,
+   "note": "digit strip, value went up/down",
+   "evidence": "0x27f490: csa 8 (compare result 1)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    40,
+    128,
+    216,
+    32
+   ],
+   "row": 9,
+   "note": "digit strip, value went the other way",
+   "evidence": "0x27f498: csa 9 (compare result -1)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    40,
+    208,
+    96,
+    48
+   ],
+   "row": 6,
+   "note": "arrows (not text)",
+   "evidence": "0x27fc7c: csa 6, arrows (40,208) and (88,208) 48x48",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_BEL_0": [
+  {
+   "rect": [
+    0,
+    0,
+    124,
+    20
+   ],
+   "row": 0,
+   "note": "(L1)(R1) Page",
+   "evidence": "0x2d4a94 and global BEL_0 object 0x1074be8 (0x28b724, 0x291560, 0x2c8330, 0x2ecbd8...): csa 0",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    20,
+    84,
+    20
+   ],
+   "row": 0,
+   "note": "(R2) Flip",
+   "evidence": "0x2d4b54 after csa 0 at 0x2d4a94",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    40,
+    84,
+    20
+   ],
+   "row": 1,
+   "note": "(triangle) Details",
+   "evidence": "0x2d4990 (also 0x2d581c, 0x2db5dc, 0x2df5dc): csa 1",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    60,
+    84,
+    20
+   ],
+   "row": 2,
+   "note": "(square) Sort",
+   "evidence": "0x2d4a2c (also 0x2d5884, 0x2db644, 0x2df644): csa 2",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_BEL_4": [
+  {
+   "rect": [
+    0,
+    0,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    24,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    48,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    72,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    96,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    168,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    192,
+    240,
+    24
+   ],
+   "row": 0,
+   "note": "column headers (every 48x24 cell)",
+   "evidence": "0x2d1980..0x2d3920, 0x2ff778, 0x28b2d8, 0x2910f8, 0x2c7f80, 0x2ecc20, 0x2b8e68: csa 0, 48x24 cells",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    96,
+    216,
+    96,
+    24
+   ],
+   "row": 0,
+   "note": "Old/New Salary headers",
+   "evidence": "0x2d386c: csa 0, cells (96,216),(144,216)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    224,
+    68,
+    24
+   ],
+   "row": 1,
+   "note": "Name plate. Row 1 of this CLUT has only 3 non-transparent entries, so it renders almost invisible here - see NOTES open question",
+   "evidence": "0x2b8e00, 0x2d4b94, 0x2d5968, 0x2db728, 0x2df728, 0x2be000: csa 1, uv [0x59c418]=(0,224) size [0x59c420]=68x24",
+   "confidence": "verified"
+  }
+ ],
+ "SYS_OPTION_3": [
+  {
+   "rect": [
+    192,
+    80,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    120,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    160,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    200,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    240,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    280,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    320,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    360,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    192,
+    400,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "value column (MONO..., Watch, Skip)",
+   "evidence": "0x21e170/0x21ec40: csa 3, uv (192, 80+40*value) size [0x599628]=144x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    336,
+    80,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "third value column (Normal/Finishers/Hidden)",
+   "evidence": "0x21ed78: csa 3, uv (336,80+40k)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    336,
+    120,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "third value column (Normal/Finishers/Hidden)",
+   "evidence": "0x21ed78: csa 3, uv (336,80+40k)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    336,
+    160,
+    144,
+    40
+   ],
+   "row": 3,
+   "note": "third value column (Normal/Finishers/Hidden)",
+   "evidence": "0x21ed78: csa 3, uv (336,80+40k)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    440,
+    192,
+    40
+   ],
+   "row": 3,
+   "note": "Finishers Only",
+   "evidence": "0x21ed0c: csa 3, uv (0,440) 192x40",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    80,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    120,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    160,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    200,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    240,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    280,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    320,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    360,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    400,
+    192,
+    40
+   ],
+   "row": 0,
+   "note": "option label, highlighted (cursor) state; unselected labels come from another picture (OPTION.BIN entry 1/2 background)",
+   "evidence": "0x21e440/0x21ee20: csa 0, uv (0, 80+40*cursor) [0x599638]=192x40, drawn only for the cursor row",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    368,
+    80
+   ],
+   "row": 1,
+   "note": "slider bars (rows 1, 2 and 6; not text)",
+   "evidence": "0x21e354/0x21e3cc/0x21e2d0: csa 1, 2, 6 for the slider bars (0,0)/(0,40)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    368,
+    80
+   ],
+   "row": 2,
+   "note": "slider bar (not text)",
+   "evidence": "0x21e3cc: csa 2",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    368,
+    80
+   ],
+   "row": 6,
+   "note": "slider bar (not text)",
+   "evidence": "0x21e2d0: csa 6",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    368,
+    0,
+    96,
+    56
+   ],
+   "row": 5,
+   "note": "arrow/frame pieces (not text)",
+   "evidence": "0x21e4d4: csa 5",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    336,
+    0,
+    32,
+    40
+   ],
+   "row": 4,
+   "note": "cursor pieces (not text)",
+   "evidence": "0x21efe8: csa 4",
+   "confidence": "verified"
+  }
+ ],
+ "BATTLE_BT_LIST_0": [
+  {
+   "rect": [
+    0,
+    112,
+    96,
+    24
+   ],
+   "row": 2,
+   "note": "Start Match, selected (left copy)",
+   "evidence": "0x26fc44: cursor on Start -> csa 2, uv [0x59a650]=(0,112) 96x24",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    96,
+    112,
+    96,
+    24
+   ],
+   "row": 3,
+   "note": "Start Match, not selected (right copy)",
+   "evidence": "0x26fcc0: csa 3, uv [0x59a660]=(96,112)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    144,
+    96,
+    32
+   ],
+   "row": 4,
+   "note": "Skip, selected",
+   "evidence": "0x26fb40: cursor on it, skip -> csa 4, uv [0x59a640]=(0,144) 96x32",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    96,
+    144,
+    96,
+    32
+   ],
+   "row": 5,
+   "note": "Skip, not selected",
+   "evidence": "0x26fbbc: csa 5, uv [0x59a648]=(96,144)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    176,
+    96,
+    32
+   ],
+   "row": 4,
+   "note": "Watch, selected",
+   "evidence": "0x26faa0: cursor on it, watch -> csa 4, uv [0x59a628]=(0,176)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    96,
+    176,
+    96,
+    32
+   ],
+   "row": 5,
+   "note": "Watch, not selected",
+   "evidence": "0x26fae8: csa 5, uv [0x59a638]=(96,176)",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    256,
+    112
+   ],
+   "row": 0,
+   "note": "COM/AUTO/S-AUTO/MANUAL plates, not selected (already English)",
+   "evidence": "0x26f760/0x26f8e4: csa 0, 128x16 rows",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    0,
+    256,
+    112
+   ],
+   "row": 1,
+   "note": "COM/AUTO/... plates, selected (already English)",
+   "evidence": "0x26f81c/0x26f9b0: csa 1",
+   "confidence": "verified"
+  },
+  {
+   "rect": [
+    0,
+    208,
+    80,
+    16
+   ],
+   "row": 6,
+   "note": "L1/R1 hint (already English)",
+   "evidence": "0x26f5b0: csa 6, (0,208),(40,208) 40x16",
+   "confidence": "verified"
+  }
+ ]
+}

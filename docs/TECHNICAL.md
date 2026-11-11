@@ -723,16 +723,22 @@ opaque). tools/gfx.py exports and imports them (indexed PNG in the game's palett
 every unchanged picture gives identical files. 79 pictures hold Japanese text:
 translation/graphics.csv. Contact sheets: review/gsl_contact_*.png.
 
-**4-bit pictures show the wrong colours in the exports** (*verified*, 2026-11-10). A PSMT4 picture is
-followed by a full 256-colour CLUT (16 rows of 16), and the game picks a row per sprite when it
-draws (CSA). tools/gfx.py `palette()` keeps only row 0, so review/images-original and
-review/images-english show row 0. The indices are not affected (imports are exact), but anything judged by its colours
-is. Example: BATTLE_MATCH_0's stat bars are drawn with row 13 (orange "Atk", green "Def" on red, as
-in docs/screenshots/match-cards.png); in row 0 "Atk" looks like a black blob. All 20 translated
-4-bit pictures have several rows: BATTLE_BT_LIST_0 (8), BATTLE_MATCH_0 (16), BATTLE_MATCH_2 (10),
-SYS_COM_P2_0 (16; its CLUT may also come from SYS/COM_P2C.GSL), SYS_BRINGR_0 (11), SYS_BEL_0 (4),
-SYS_BEL_4 (2), SYS_MENU1_0 (4), SYS_OPTION_3 (8), SYS_G_MENU0-5_0 and SYS_S_MENU01/02/05/06/07_0
-(3). Which row each sprite uses is not yet known except MATCH_0's bars.
+**4-bit pictures show the wrong colours in the exports** (*from the code*, 2026-11-10; the MATCH_0
+stat bars and the MATCH_2 card colours agree with screenshots). A PSMT4 picture is followed by a full
+256-colour CLUT. The game draws the picture once as PSMT8 (loading all 256 entries) and then as
+PSMT4 with TEX0.CSA = n, so row n is the 8-bit palette's entries 16n..16n+15 in CSM1 order
+(`gfx.swizzle(16n + k)`), not raw[16n:16n+16]. tools/gfx.py `palette()` keeps raw[:16], so
+review/images-original and images-english show these pictures in wrong colours (the indices, and so
+imports, are right). The row is chosen at each draw call (immediates or small expressions; no
+sprite tables): helpers 0x305300 / 0x305360 (PSMT8, loads the CLUT), 0x305320 (picture 0, row) and
+0x305388 (picture i, row); TEX0 of picture i at texture object +0x28 + 8i, written by
+0x304678(ctx, tex0, 6); sprites via 0x304048 / 0x304248 / 0x3044c8 / 0x303c80 + 0x303ee8.
+Every region's row, with the code address, is in tools/clutrows.json; `tools/clutview.py` draws the
+20 translated 4-bit pictures that way (review/images-view/). Examples: G_MENU*/S_MENU* items row 0,
+selected 1; MENU1 1 / 2; BT_LIST Start Match 3 / 2, Skip and Watch 5 / 4; MATCH_0 stat bars 13,
+Return/Tag/Pin 7/8/9; MATCH_2 card type n in row n; COM_P2 icon code k in row k, codes 16-20 in rows
+0-4 of SYS/COM_P2C.GSL's CLUT (CBP moved, 0x2d3354; *likely*). Open: BEL_4's 名前 plate is drawn in
+row 1, whose entries are all transparent; MATCH_0's katakana strip has no draw found.
 
 ## Open questions
 - Speaker name box width; whether 【】 are drawn.
